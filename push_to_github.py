@@ -33,7 +33,7 @@ if not status.stdout.strip():
     print("NOCHANGE")
     sys.exit(0)
 
-ts = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H%MZ")
+ts = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H%MZ")
 run(["git", "-c", f"user.email={GIT_EMAIL}", "-c", f"user.name={GIT_NAME}",
      "commit", "-q", "-m", f"自動更新預測/結果 {ts}"], cwd=REPO)
 print(f"COMMITTED {ts}")
