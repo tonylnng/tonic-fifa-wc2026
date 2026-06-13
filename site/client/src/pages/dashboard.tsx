@@ -77,7 +77,13 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header lastUpdated={fixtures?.last_updated} />
+      <Header
+        lastUpdated={
+          statusQ.data?.last_updated ||
+          accuracy?.last_updated ||
+          fixtures?.last_updated
+        }
+      />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
         {/* Hero strip */}
         <div className="mb-6">

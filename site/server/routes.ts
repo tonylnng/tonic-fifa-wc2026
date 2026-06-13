@@ -1,4 +1,4 @@
-import type { Express, Request, Response, NextFunction } from "express";
+import type { Express } from "express";
 import { createServer } from "node:http";
 import type { Server } from "node:http";
 import { readFileSync, existsSync, readdirSync } from "node:fs";
@@ -30,47 +30,30 @@ function dataDir(): string {
   return candidates[0];
 }
 
-const PASSWORD = process.env.SITE_PASSWORD || "TN$$$$$$$$";
-
 function readJSON(file: string): any {
   const p = join(dataDir(), file);
   if (!existsSync(p)) return null;
   return JSON.parse(readFileSync(p, "utf-8"));
 }
 
-function requireAuth(req: Request, res: Response, next: NextFunction) {
-  const token = req.headers["x-site-auth"];
-  if (token === PASSWORD) return next();
-  return res.status(401).json({ error: "Unauthorized" });
-}
-
 export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
-  // Login — verifies password, returns the token (the password itself) for header use
-  app.post("/api/login", (req, res) => {
-    const { password } = req.body || {};
-    if (password === PASSWORD) {
-      return res.json({ ok: true, token: PASSWORD });
-    }
-    return res.status(401).json({ ok: false, error: "密碼錯誤" });
-  });
-
-  app.get("/api/fixtures", requireAuth, (_req, res) => {
+  app.get("/api/fixtures", (_req, res) => {
     res.json(readJSON("fixtures.json"));
   });
 
-  app.get("/api/results", requireAuth, (_req, res) => {
+  app.get("/api/results", (_req, res) => {
     res.json(readJSON("results.json"));
   });
 
-  app.get("/api/accuracy", requireAuth, (_req, res) => {
+  app.get("/api/accuracy", (_req, res) => {
     res.json(readJSON("accuracy.json"));
   });
 
   // All predictions, grouped by match, sorted by run timestamp (latest first)
-  app.get("/api/predictions", requireAuth, (_req, res) => {
+  app.get("/api/predictions", (_req, res) => {
     const dir = join(dataDir(), "predictions");
     const out: Record<string, any[]> = {};
     if (existsSync(dir)) {
@@ -93,8 +76,10 @@ export async function registerRoutes(
     res.json(out);
   });
 
-  // Lightweight status/health for the dashboard header
-  app.get("/api/status", requireAuth, (_req, res) => {
+  // Lightweight status/health for the dashboard header.
+  // last_updated reflects the most recent automation run — accuracy.json is
+  // refreshed on every cron run, so it is the authoritative freshness signal.
+  app.get("/api/status", (_req, res) => {
     const dir = join(dataDir(), "predictions");
     let runs = new Set<string>();
     let predFiles = 0;
@@ -109,7 +94,7 @@ export async function registerRoutes(
     const fixtures = readJSON("fixtures.json");
     const accuracy = readJSON("accuracy.json");
     res.json({
-      last_updated: fixtures?.last_updated,
+      last_updated: accuracy?.last_updated || fixtures?.last_updated,
       total_matches: fixtures?.total_matches,
       prediction_files: predFiles,
       total_runs: runs.size,

@@ -1,7 +1,3 @@
-import { useAuth } from "@/lib/auth";
-import { Button } from "@/components/ui/button";
-import { LogOut } from "lucide-react";
-
 function relativeTime(iso: string): string {
   const diffMin = Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
   if (diffMin < 1) return "剛剛";
@@ -12,7 +8,6 @@ function relativeTime(iso: string): string {
 }
 
 export function Header({ lastUpdated }: { lastUpdated?: string }) {
-  const { logout } = useAuth();
   return (
     <header className="sticky top-0 z-30 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
@@ -46,9 +41,6 @@ export function Header({ lastUpdated }: { lastUpdated?: string }) {
               <span className="ml-1 text-primary">（{relativeTime(lastUpdated)}）</span>
             </span>
           )}
-          <Button variant="ghost" size="sm" onClick={logout} data-testid="button-logout">
-            <LogOut className="w-4 h-4 mr-1" /> 登出
-          </Button>
         </div>
       </div>
     </header>
