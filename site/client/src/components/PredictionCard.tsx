@@ -10,7 +10,147 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Check, X, TrendingUp } from "lucide-react";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import { Check, X, TrendingUp, History, ChevronDown, ArrowRight } from "lucide-react";
+import { useState } from "react";
+
+function runTimeZh(ts: string) {
+  try {
+    return new Date(ts).toLocaleString("zh-HK", {
+      timeZone: "Asia/Hong_Kong",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  } catch {
+    return ts;
+  }
+}
+
+function DeltaChip({
+  label,
+  oldV,
+  newV,
+}: {
+  label: string;
+  oldV: number;
+  newV: number;
+}) {
+  const diff = Math.round((newV - oldV) * 100);
+  const up = diff > 0;
+  const flat = diff === 0;
+  return (
+    <span className="text-[11px] text-muted-foreground">
+      {label} {Math.round(oldV * 100)}%
+      <ArrowRight className="inline w-3 h-3 mx-0.5" />
+      {Math.round(newV * 100)}%
+      {!flat && (
+        <span className={up ? "text-primary ml-0.5" : "text-destructive ml-0.5"}>
+          {up ? "↑" : "↓"}
+          {Math.abs(diff)}
+        </span>
+      )}
+    </span>
+  );
+}
+
+function HistorySection({ history }: { history: Prediction[] }) {
+  const [open, setOpen] = useState(false);
+  if (!history || history.length <= 1) return null;
+  const latest = history[0];
+  const older = history.slice(1);
+  return (
+    <Collapsible open={open} onOpenChange={setOpen}>
+      <CollapsibleTrigger asChild>
+        <button
+          className="flex items-center gap-2 text-sm font-semibold w-full text-left"
+          data-testid={`btn-history-${latest.match}`}
+        >
+          <History className="w-4 h-4 text-chart-2" />
+          歷史預測版本（{history.length} 個批次）
+          <ChevronDown
+            className={`w-4 h-4 ml-auto transition-transform ${open ? "rotate-180" : ""}`}
+          />
+        </button>
+      </CollapsibleTrigger>
+      <CollapsibleContent>
+        <div className="mt-2 space-y-2">
+          <div className="flex items-center gap-2 rounded-lg border border-primary/40 bg-primary/5 px-3 py-2">
+            <Badge className="bg-primary text-primary-foreground text-[10px]">最新</Badge>
+            <span className="font-mono font-bold">{latest.prediction.scoreline}</span>
+            <span className="text-xs text-muted-foreground">
+              {outcomeZh(latest.prediction.outcome)} · 信心{" "}
+              {Math.round(latest.prediction.confidence * 100)}%
+            </span>
+            <span className="text-[11px] text-muted-foreground ml-auto">
+              {runTimeZh(latest.run_timestamp)}
+            </span>
+          </div>
+          {older.map((h, i) => {
+            const scoreChanged =
+              h.prediction.scoreline !== latest.prediction.scoreline;
+            const outcomeChanged =
+              h.prediction.outcome !== latest.prediction.outcome;
+            return (
+              <div
+                key={i}
+                className="rounded-lg border border-border px-3 py-2"
+                data-testid={`history-row-${latest.match}-${i}`}
+              >
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="font-mono font-bold text-muted-foreground">
+                    {h.prediction.scoreline}
+                  </span>
+                  {scoreChanged && (
+                    <Badge variant="outline" className="text-[10px] text-chart-2">
+                      比分變動
+                    </Badge>
+                  )}
+                  <span className="text-xs text-muted-foreground">
+                    {outcomeZh(h.prediction.outcome)}
+                  </span>
+                  {outcomeChanged && (
+                    <Badge variant="outline" className="text-[10px] text-destructive">
+                      勝負反轉
+                    </Badge>
+                  )}
+                  <span className="text-[11px] text-muted-foreground ml-auto">
+                    {runTimeZh(h.run_timestamp)}
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 mt-1.5 flex-wrap">
+                  <DeltaChip
+                    label="信心"
+                    oldV={h.prediction.confidence}
+                    newV={latest.prediction.confidence}
+                  />
+                  <DeltaChip
+                    label="主勝"
+                    oldV={h.prediction.win_prob.home}
+                    newV={latest.prediction.win_prob.home}
+                  />
+                  <DeltaChip
+                    label="客勝"
+                    oldV={h.prediction.win_prob.away}
+                    newV={latest.prediction.win_prob.away}
+                  />
+                </div>
+              </div>
+            );
+          })}
+          <p className="text-[11px] text-muted-foreground">
+            箭頭左側為舊批次數值，右側為最新批次；↑/↓ 表示 AI 隨情報更新後的調整幅度。
+          </p>
+        </div>
+      </CollapsibleContent>
+    </Collapsible>
+  );
+}
 
 function ProbBar({ p }: { p: { home: number; draw: number; away: number } }) {
   const seg = (v: number, cls: string) => (
@@ -28,9 +168,11 @@ function ProbBar({ p }: { p: { home: number; draw: number; away: number } }) {
 export function PredictionCard({
   pred,
   result,
+  history,
 }: {
   pred: Prediction;
   result?: ResultItem;
+  history?: Prediction[];
 }) {
   const correctOutcome = result && result.outcome === pred.prediction.outcome;
   const exactScore =
@@ -49,6 +191,15 @@ export function PredictionCard({
             <Badge variant="secondary" className="text-xs">
               #{pred.match} · {stageZh(pred.stage)}
             </Badge>
+            {history && history.length > 1 && (
+              <span
+                className="flex items-center gap-1 text-[10px] text-chart-2 mr-auto ml-2"
+                data-testid={`badge-history-${pred.match}`}
+              >
+                <History className="w-3 h-3" />
+                {history.length} 批次
+              </span>
+            )}
             {result ? (
               correctOutcome ? (
                 <span className="flex items-center gap-1 text-xs text-primary font-medium">
@@ -169,6 +320,12 @@ export function PredictionCard({
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {pred.reasoning.dissent}
                 </p>
+              </div>
+            )}
+
+            {history && history.length > 1 && (
+              <div className="border-t border-border pt-4">
+                <HistorySection history={history} />
               </div>
             )}
 

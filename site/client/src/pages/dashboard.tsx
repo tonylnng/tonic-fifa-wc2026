@@ -12,10 +12,18 @@ import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
 import { Header } from "@/components/Header";
 import { PredictionCard } from "@/components/PredictionCard";
+import { TrendsTab } from "@/components/TrendsTab";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
   Target,
   Crosshair,
@@ -23,7 +31,23 @@ import {
   CalendarClock,
   Search,
   Trophy,
+  History,
 } from "lucide-react";
+
+function runLabelZh(runId: string) {
+  const m = runId.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2})(\d{2})Z$/);
+  if (!m) return runId;
+  const utc = new Date(
+    Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5])
+  );
+  return utc.toLocaleString("zh-HK", {
+    timeZone: "Asia/Hong_Kong",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
 
 function Stat({
   icon: Icon,
@@ -68,12 +92,27 @@ export default function Dashboard() {
     return m;
   }, [results]);
 
-  // Latest prediction per match
-  const latestPreds = useMemo(() => {
-    return Object.entries(preds)
-      .map(([, list]) => list[0])
-      .sort((a, b) => a.match - b.match);
-  }, [preds]);
+  // ----- Feature C: batch snapshot selector -----
+  const allRuns = statusQ.data?.runs || [];
+  const [snapshot, setSnapshot] = useState<string>("latest");
+  const isHistorical = snapshot !== "latest";
+
+  // The prediction shown per match for the currently selected snapshot.
+  const shownList = useMemo(() => {
+    const out: any[] = [];
+    for (const [, list] of Object.entries(preds)) {
+      if (snapshot === "latest") {
+        out.push(list[0]); // list already newest-first
+      } else {
+        const sorted = [...list].sort((a, b) =>
+          (b.run_timestamp || "").localeCompare(a.run_timestamp || "")
+        );
+        const pick = sorted.find((p) => (p.run_id || "") <= snapshot);
+        if (pick) out.push(pick);
+      }
+    }
+    return out.sort((a, b) => a.match - b.match);
+  }, [preds, snapshot]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -145,6 +184,9 @@ export default function Dashboard() {
             <TabsTrigger value="predictions" data-testid="tab-predictions">
               AI 預測
             </TabsTrigger>
+            <TabsTrigger value="trends" data-testid="tab-trends">
+              預測演變
+            </TabsTrigger>
             <TabsTrigger value="fixtures" data-testid="tab-fixtures">
               賽程 Master List
             </TabsTrigger>
@@ -161,26 +203,68 @@ export default function Dashboard() {
                   <Skeleton key={i} className="h-48 rounded-xl" />
                 ))}
               </div>
-            ) : latestPreds.length === 0 ? (
+            ) : shownList.length === 0 ? (
               <div className="text-center py-16 text-muted-foreground">
                 <Database className="w-10 h-10 mx-auto mb-3 opacity-40" />
                 <p>尚未有預測資料。自動流程每 8 小時會產生新的預測批次。</p>
               </div>
             ) : (
               <>
-                <p className="text-sm text-muted-foreground mb-3">
-                  最新批次每場比賽的 AI 預測（點擊查看完整分析理由與來源）
-                </p>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-3">
+                  <p className="text-sm text-muted-foreground flex-1">
+                    {isHistorical
+                      ? "正在檢視歷史批次快照（點擊卡片可看完整分析與歷史演變）"
+                      : "最新批次每場比賽的 AI 預測（點擊卡片可看完整分析、來源與歷史版本）"}
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <History className="w-4 h-4 text-muted-foreground" />
+                    <Select value={snapshot} onValueChange={setSnapshot}>
+                      <SelectTrigger
+                        className="w-[200px] h-9 text-xs"
+                        data-testid="select-snapshot"
+                      >
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="latest">最新批次</SelectItem>
+                        {allRuns.map((r) => (
+                          <SelectItem key={r} value={r}>
+                            {runLabelZh(r)} 快照
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
+                {isHistorical && (
+                  <div className="flex items-center gap-2 mb-3 text-xs bg-chart-2/10 border border-chart-2/30 rounded-lg px-3 py-2">
+                    <History className="w-3.5 h-3.5 text-chart-2 shrink-0" />
+                    <span>
+                      正在顯示 <span className="font-mono font-semibold">{runLabelZh(snapshot)}</span>{" "}
+                      的預測狀態快照。選「最新批次」可返回現時。
+                    </span>
+                  </div>
+                )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {latestPreds.map((p) => (
+                  {shownList.map((p) => (
                     <PredictionCard
                       key={p.match}
                       pred={p}
                       result={resultByMatch[p.match]}
+                      history={preds[String(p.match)]}
                     />
                   ))}
                 </div>
               </>
+            )}
+          </TabsContent>
+
+          {/* TRENDS */}
+          <TabsContent value="trends">
+            {loading ? (
+              <Skeleton className="h-96 rounded-xl" />
+            ) : (
+              <TrendsTab preds={preds} />
             )}
           </TabsContent>
 
