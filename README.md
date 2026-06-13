@@ -60,6 +60,17 @@
 
 > 適合用 OpenClaw 或任何能執行 shell 的環境照著跑。前置：已安裝 **Docker** 與 **Docker Compose**，且 `wc2026.toniclab.ai` 的 DNS A/AAAA 紀錄已指向這台伺服器。
 
+### 步驟 0 — 校準系統時鐘（NTP，必做）
+
+伺服器時鐘要準，否則 webhook 簽章驗證、timer 觸發、資料「距今多久」計算都可能出錯。
+
+```bash
+# 開啟 NTP 自動授時並確認狀態
+sudo timedatectl set-ntp true
+timedatectl                 # 確認 "System clock synchronized: yes" 且時區正確
+# 若無 systemd-timesyncd，可裝 chrony：sudo apt install -y chrony && sudo systemctl enable --now chrony
+```
+
 ### 步驟 1 — 取得程式碼並啟動容器
 
 ```bash
@@ -126,6 +137,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now wc2026-deploy.timer
 systemctl list-timers wc2026-deploy.timer   # 確認下次執行時間
 ```
+
+> 輪詢間隔預設 **每 15 分鐘**（`wc2026-deploy.timer` 的 `OnUnitActiveSec=15min`）。因為雲端每 8 小時（16 強起 4 小時）才更新一次，15 分鐘已綣綣有餘；要更即時可改用方案 A webhook。
 
 ---
 

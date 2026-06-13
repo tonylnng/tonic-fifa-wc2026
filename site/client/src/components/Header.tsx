@@ -2,6 +2,15 @@ import { useAuth } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 import { LogOut } from "lucide-react";
 
+function relativeTime(iso: string): string {
+  const diffMin = Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
+  if (diffMin < 1) return "剛剛";
+  if (diffMin < 60) return `${diffMin} 分鐘前`;
+  const h = Math.floor(diffMin / 60);
+  if (h < 24) return `${h} 小時前`;
+  return `${Math.floor(h / 24)} 天前`;
+}
+
 export function Header({ lastUpdated }: { lastUpdated?: string }) {
   const { logout } = useAuth();
   return (
@@ -28,8 +37,13 @@ export function Header({ lastUpdated }: { lastUpdated?: string }) {
         </div>
         <div className="flex items-center gap-3">
           {lastUpdated && (
-            <span className="text-xs text-muted-foreground hidden md:inline">
+            <span
+              className="text-xs text-muted-foreground hidden md:inline"
+              title={new Date(lastUpdated).toLocaleString("zh-HK", { timeZone: "Asia/Hong_Kong" })}
+              data-testid="text-last-updated"
+            >
               資料更新：{new Date(lastUpdated).toLocaleString("zh-HK", { timeZone: "Asia/Hong_Kong" })}
+              <span className="ml-1 text-primary">（{relativeTime(lastUpdated)}）</span>
             </span>
           )}
           <Button variant="ghost" size="sm" onClick={logout} data-testid="button-logout">

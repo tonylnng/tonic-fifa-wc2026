@@ -16,6 +16,20 @@ FORCE_REBUILD="${FORCE_REBUILD:-0}"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$LOG"; }
 
+# 讀資料新鮮度：accuracy.json 的 last_updated（UTC）
+freshness() {
+  local f="$REPO_DIR/site/data/accuracy.json"
+  [ -f "$f" ] || { echo "無資料檔"; return; }
+  local lu
+  lu=$(grep -oE '"last_updated"[^,]*' "$f" | head -1 | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9:Z+-]+' || true)
+  [ -n "$lu" ] || { echo "未知"; return; }
+  local age=""
+  if epoch=$(date -u -d "$lu" +%s 2>/dev/null); then
+    age=" （距今 $(( ( $(date -u +%s) - epoch ) / 60 )) 分鐘）"
+  fi
+  echo "${lu}${age}"
+}
+
 cd "$REPO_DIR"
 
 log "抓取遠端更新…"
@@ -45,3 +59,4 @@ else
 fi
 
 log "更新完成：$REMOTE"
+log "資料新鮮度（accuracy.json last_updated）：$(freshness)"

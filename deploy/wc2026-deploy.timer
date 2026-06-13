@@ -1,10 +1,10 @@
 [Unit]
-Description=每 5 分鐘檢查世界盃 2026 是否有新資料
+Description=每 15 分鐘檢查世界盃 2026 是否有新資料
 
 [Timer]
-# 開機後 2 分鐘首次執行，之後每 5 分鐘一次
+# 開機後 2 分鐘首次執行，之後每 15 分鐘一次
 OnBootSec=2min
-OnUnitActiveSec=5min
+OnUnitActiveSec=15min
 Persistent=true
 
 [Install]
