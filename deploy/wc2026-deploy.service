@@ -1,0 +1,12 @@
+[Unit]
+Description=世界盃 2026 — 拉取最新資料並更新容器
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# 依你的環境修改路徑
+Environment=REPO_DIR=/opt/tonic-fifa-wc2026
+Environment=BRANCH=master
+Environment=COMPOSE=docker compose
+ExecStart=/opt/tonic-fifa-wc2026/deploy/update.sh

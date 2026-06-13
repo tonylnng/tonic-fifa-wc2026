@@ -1,0 +1,18 @@
+[Unit]
+Description=世界盃 2026 — GitHub Webhook 監聽器
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# 依你的環境修改
+Environment=WEBHOOK_SECRET=請改成你的密鑰
+Environment=WEBHOOK_PORT=9000
+Environment=UPDATE_SCRIPT=/opt/tonic-fifa-wc2026/deploy/update.sh
+Environment=BRANCH=master
+ExecStart=/usr/bin/python3 /opt/tonic-fifa-wc2026/deploy/webhook.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
