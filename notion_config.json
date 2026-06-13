@@ -1,0 +1,25 @@
+{
+  "database_url": "https://app.notion.com/p/68c34d001b5645e9b72c15b9cfd35556",
+  "data_source_id": "112974c5-2bbd-4e5e-b3b7-28fd2ed96b6a",
+  "database_title": "世界盃 2026 AI 預測追蹤",
+  "schema_properties": {
+    "比賽": "title",
+    "場次": "number",
+    "階段": "select (小組賽/32強/16強/八強/四強/季軍戰/決賽)",
+    "主隊": "text",
+    "客隊": "text",
+    "AI預測比分": "text",
+    "預測結果": "select (主勝/和局/客勝)",
+    "信心度": "number (percent, 0-1)",
+    "來源數": "number",
+    "最終比分": "text",
+    "勝負命中": "checkbox (__YES__/__NO__)",
+    "比分命中": "checkbox",
+    "預測批次": "text (run_id)",
+    "分析摘要": "text (max 1900 chars)",
+    "date:更新時間:start": "ISO datetime",
+    "date:更新時間:is_datetime": 1
+  },
+  "synced_runs": ["2026-06-13T0800Z"],
+  "note": "Each prediction run creates new pages (one per match). After matches complete, results sync should update 最終比分/勝負命中/比分命中 on the latest pre-match prediction page for that match."
+}

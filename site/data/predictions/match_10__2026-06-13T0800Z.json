@@ -1,0 +1,315 @@
+{
+  "match": 10,
+  "stage": "Group F",
+  "home": "Netherlands",
+  "away": "Japan",
+  "kickoff": "2026-06-14 20:00 ET",
+  "run_id": "2026-06-13T0800Z",
+  "run_timestamp": "2026-06-13T08:00:00Z",
+  "model": "research-pplx",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.5,
+      "draw": 0.24,
+      "away": 0.26
+    },
+    "confidence": 0.55
+  },
+  "reasoning": {
+    "summary": "荷蘭雖因傷停問題（Xavi Simons 前十字韌帶撕裂、Matthijs de Ligt、Jurriën Timber 缺陣，Verbruggen 存疑）戰力受損，但憑藉 Virgil van Dijk 領銜的穩固後防及 Cody Gakpo、Memphis Depay 等攻擊資源仍是較強一方，在氣候控制室內場AT&T球場佔有一定優勢。日本在 Wataru Endo 宣告退休、Kaoru Mitoma 受傷缺席的情況下失去兩大核心，但Ayase Ueda、Takefusa Kubo、Junya Ito 等鋒線三叉戟狀態火熱，近六場友誼賽全勝（含勝巴西、英格蘭），具備製造驚喜的實力。各主要預測模型（Dimers 50.1% 荷蘭勝、CoachAI 44%/28%/28%、Sports Mole預測 2:2）及博彩賠率（荷蘭 -105 莊，日本+265）整體傾向荷蘭微弱優勢，但比分分歧較大，顯示此仗充滿不確定性。",
+    "key_factors": [
+      "球員狀態：荷蘭 Cody Gakpo（利物浦，本季歐冠得分手）與 Tijjani Reijnders（AC米蘭）狀態佳；Memphis Depay 攜12個入球貢獻完成資格賽，有輕微腿傷問題。日本 Ayase Ueda（法甲卡昂，資格賽9球）、Takefusa Kubo（皇家社會）和 Junya Ito 組成活躍前鋒線，近期狀態極佳。",
+      "傷停名單：荷蘭嚴重傷停：Xavi Simons（前十字韌帶）、Matthijs de Ligt（未指明傷患）、Jurriën Timber（腹股溝）、Jerdy Schouten（前十字韌帶）均缺席；門將 Bart Verbruggen 熱身賽因臀傷出狀況，備用門將 Mark Flekken 可能先發。日本方面：隊長 Wataru Endo（腳傷後宣布退休）及翼鋒 Kaoru Mitoma（受傷）均無緣出賽，中場領導力與側翼創造力大受影響。",
+      "近期狀態：荷蘭近6場為「平勝勝平負勝」；最後一場熱身賽主場敗給阿爾及利亞（終止10場不敗），對烏茲別克友誼賽僅靠 Gakpo 的兩個補時門柱點球險勝，整體發揮不佳。日本近6場全勝（W W W W W W），其中包括友誼賽擊敗巴西及英格蘭，信心大增，且AFC資格賽狂轟54球，失球僅3個，攻守兩端均出色。",
+      "戰術對位：荷蘭採用 Koeman 的 4-3-3（或 3-4-3 靈活變陣），側重高位持球；Frenkie de Jong 與 Ryan Gravenberch 控制中場節奏，但 Schouten 缺陣令後腰保護力下降。日本堅持 Moriyasu 的高壓逼搶與快速反擊體系（仿2022年模式），PPDA數據顯示高效逼搶可在危險區域製造失誤；Kubo 的技術型右路突破對荷蘭左後衛形成威脅。",
+      "主客場／場地：AT&T 體育場（德克薩斯州阿靈頓）為室內空調場館，6月氣溫對球員影響最小，對日本習慣較涼爽環境的球員有利。荷蘭無明確主場之利，但作為名義上「主隊」（較高種子組別），心理層面稍有加成。此次為兩隊在世界盃的第二度交鋒（首次：2010年荷蘭1:0勝）。",
+      "輿論共識：多數主流博彩及預測模型（Dimers 50.1% 荷蘭、BetOnline +112 荷蘭、ESPN賠率荷蘭 -105 ML）輕微看好荷蘭；然而Sports Mole預測 2:2 平局，反映日本具備奪分實力。KickOracle AI 給出荷蘭90%出線率，CoachAI 場均預期進球1.38（荷蘭）對1.24（日本），顯示兩隊得分能力相近。德國數學家 Joachim Klement 的統計模型預測荷蘭贏得整屆冠軍，進一步提升荷蘭整體評價。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Sports Mole 預測賽果為 2:2 平局，認為日本近六場全勝的火熱狀態加上荷蘭的關鍵傷停（Simons、de Ligt、Timber、Schouten缺陣，Verbruggen 存疑），使得日本足以在荷蘭門前取分，甚至最終握手言和。多個分析師強調，日本在 Endo 退休後的中場缺口可能被過分渲染，年輕球員 Ao Tanaka、Keito Nakamura 等均曾在歐洲高水平聯賽表現出色，不應被低估。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA 2026 World Cup - Netherlands at United 2026",
+      "url": "https://www.united-2026.com/teams/netherlands"
+    },
+    {
+      "type": "official",
+      "name": "FIFA 2026 World Cup - Japan at United 2026",
+      "url": "https://www.united-2026.com/teams/japan"
+    },
+    {
+      "type": "official",
+      "name": "UEFA - Netherlands at the World Cup 2026: Squad, fixtures, group",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d15935831f-d0d88d0f1da0-1000--netherlands-at-the-world-cup-2026-squad-fixtures-group-a/"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Netherlands squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Netherlands_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Japan squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Japan_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Netherlands national football team",
+      "url": "https://en.wikipedia.org/wiki/Netherlands_national_football_team"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Japan national football team",
+      "url": "https://en.wikipedia.org/wiki/Japan_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Netherlands 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/449/netherlands"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Japan 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/305/japan"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Netherlands vs Japan Odds (Jun 14, 2026)",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760425"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - One thing to know about each of the 48 World Cup teams",
+      "url": "https://www.espn.com/soccer/story/_/id/47136531/2026-world-cup-confirmed-teams-one-thing-know-analysis-predictions"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - World Cup 2026 Power Rankings (100 days out)",
+      "url": "https://www.espn.com/soccer/story/_/id/48081388/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Mathematician who correctly predicted three World Cup winners picks Netherlands",
+      "url": "https://www.espn.com/soccer/story/_/id/48964113/mathematician-correctly-predicted-three-world-cup-winners-row-named-2026-pick"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Netherlands 2026 World Cup Preview: Oranje Look to Rekindle",
+      "url": "https://www.si.com/soccer/netherlands-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Netherlands squad World Cup 2026",
+      "url": "https://www.goal.com/en-us/lists/netherlands-squad-world-cup-2026/bltab8e400140133c06"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Netherlands vs Japan predictions: Oranje to start strongly in Dallas",
+      "url": "https://www.goal.com/en-za/betting/world-cup/netherlands-vs-japan-predictions-14"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Netherlands World Cup 2026 squad: Ronald Koeman's latest",
+      "url": "https://www.fourfourtwo.com/team/netherlands-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Preview: Netherlands vs Japan - World Cup 2026",
+      "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-japan-prediction-team-news-lineups_599059.html"
+    },
+    {
+      "type": "media",
+      "name": "The Sports Rush - Netherlands vs Japan World Cup 2026 Predictions and Picks",
+      "url": "https://thesportsrush.com/netherlands-v-japan-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - Netherlands vs Japan World Cup 2026 Predictions and Tips",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/netherlands-v"
+    },
+    {
+      "type": "media",
+      "name": "Marca - FIFA World Cup 2026 champion revealed by Klement model",
+      "url": "https://www.marca.com/en/football/fifa-club-world-cup/2026/06/01/fifa-world-cup-2026-champion-revealed-by-model-that-correctly-predicted-the-last-three-winners.html"
+    },
+    {
+      "type": "media",
+      "name": "BeIN Sports - Joachim Klement predicts Netherlands to win 2026 World Cup",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-german-mathematician-who-correctly-predicted-the-last-three-world-cup-champions-now-predicts-the-netherlands-will-lift-the-trophy-in-2026-2026-06-03"
+    },
+    {
+      "type": "media",
+      "name": "Tribuna - Netherlands Standings World Cup Qualification 2026",
+      "url": "https://tribuna.com/en/team/netherlands/table/2026/world-cup-qualification/"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - 2026 FIFA World Cup qualification (UEFA)",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(UEFA)"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - 2024-25 UEFA Nations League",
+      "url": "https://en.wikipedia.org/wiki/2024-25_UEFA_Nations_League"
+    },
+    {
+      "type": "media",
+      "name": "WorldCup26USA - Netherlands vs Japan Group F",
+      "url": "https://worldcup26usa.com/en/matches/group-f-md1-m1"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Africa - Netherlands vs Japan (Jun 14, 2026) Live Score",
+      "url": "https://africa.espn.com/football/match/_/gameId/760425/japan-nederland"
+    },
+    {
+      "type": "media",
+      "name": "ESPN India - Netherlands vs Japan (Jun 14, 2026) Live Score",
+      "url": "https://www.espn.in/football/match/_/gameId/760425/japao-holanda"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life - Netherlands vs Japan World Cup 2026",
+      "url": "https://www.sportinglife.com/free-bets/news/netherlands-vs-japan-world-cup-2026/"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle AI - Can Netherlands Win World Cup 2026?",
+      "url": "https://kickoracle.com/en/blog/netherlands-world-cup-2026-analysis"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Japan vs Netherlands Prediction & Picks [World Cup 2026]",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_ned_jpn"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Netherlands vs Japan Updated Prediction Group F",
+      "url": "https://www.dimers.com/news/japan-vs-netherlands-updated-prediction-group-f-world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "FootballMeister CoachAI - Netherlands vs Japan 14 June 2026 Match Preview & AI Prediction",
+      "url": "https://footballmeister.com/world-cup-2026/netherlands-japan-2026-06-14/"
+    },
+    {
+      "type": "model",
+      "name": "WC Soccer AU 2026 - Netherlands Group F Data & Odds",
+      "url": "https://wcsoccerau2026.com/netherlands-world-cup-2026/"
+    },
+    {
+      "type": "model",
+      "name": "WTK Sports - Netherlands vs Japan Prediction: World Cup 2026 Group F",
+      "url": "https://wtksports.com/articles/netherlands-vs-japan-prediction-world-cup-2026-gr"
+    },
+    {
+      "type": "model",
+      "name": "GoonersGuide - Netherlands vs Japan Betting Pick World Cup 2026-06-14",
+      "url": "https://www.goonersguide.com/football-pick-59490-Netherlands-vs-Japan.htm"
+    },
+    {
+      "type": "betting",
+      "name": "SportsBettingish - Netherlands vs Japan 2026 Odds",
+      "url": "https://sportsbookish.com/sports/wc/2026/netherlands-vs-japan-jun-14"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Netherlands vs Japan World Cup Preview & Prediction",
+      "url": "https://www.ladbrokes.com/en/news/netherlands-japan-world-cup-preview-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "Esports-news.co.uk - Netherlands v Japan Predictions",
+      "url": "https://esports-news.co.uk/2026/06/11/netherlands-v-japan-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Dimers Early Prediction - Japan vs Netherlands Group F World Cup 2026",
+      "url": "https://www.dimers.com/news/japan-vs-netherlands-early-prediction-group-f-world-cup-2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Excited for Japan vs Netherlands, Go Samurai Blue",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u4dopj/who_else_is_excited_for_japans_match_with_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/NetherlandsWorldCup - Koeman satisfied with draw, Japan coach disappointed",
+      "url": "https://www.reddit.com/r/NetherlandsWorldCup/comments/1pf9vo9/ronald_koeman_is_satisfied_with_the_draw_for_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/NetherlandsWorldCup - Dutch team to meet Japan, Tunisia, play-offs side",
+      "url": "https://www.reddit.com/r/NetherlandsWorldCup/comments/1pf4435/the_dutch_team_will_meet_japan_tunisia_and_a/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/NetherlandsWorldCup - Telegraaf World Cup 2026 schedule Dutch national team",
+      "url": "https://www.reddit.com/r/NetherlandsWorldCup/comments/1rcm5cc/telegraaf_world_cup_2026_schedule_all_matches_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/WC2026tix - Japan vs Netherlands tickets discussion",
+      "url": "https://www.reddit.com/r/WC2026tix/comments/1s7u6pn/japan_vs_netherlands/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Eredivisie - Oranje should not underestimate Japan at the World Cup",
+      "url": "https://www.reddit.com/r/Eredivisie/comments/1s9uthq/oranje_moet_japan_niet_onderschatten_in_het_wk/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Which World Cup teams got a tough draw? Japan and Uruguay?",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tvbose/which_world_cup_teams_got_a_tough_draw_japan_and_"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - 2026 FIFA World Cup discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Netherlands vs Japan Preview",
+      "url": "https://www.youtube.com/watch?v=QG50yHBfvcc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Netherlands vs Japan World Cup 2026 Match Preview (Outsiders of the Favour)",
+      "url": "https://www.youtube.com/watch?v=ufFbo7rAayQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Netherlands vs Japan Preview FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=XufN1wp62r0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - LIVE Netherlands vs Japan World Cup 2026 Group F Watchalong",
+      "url": "https://www.youtube.com/watch?v=TUMDH7rd524"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - KOEMAN PUTS NETHERLANDS THROUGH WORLD CUP PREP",
+      "url": "https://www.youtube.com/watch?v=SjxNTvO0qoM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Joachim Klement predicts Netherlands to win 2026 World Cup",
+      "url": "https://www.youtube.com/watch?v=f8BlDTOrx5U"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Netherlands vs Japan World Cup 2026 Live Watchalong & Reaction",
+      "url": "https://www.youtube.com/watch?v=dMTPwzvtcBo"
+    }
+  ],
+  "source_count": 55
+}
