@@ -1,9 +1,9 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-13T17:44:52Z",
+  "last_updated": "2026-06-14T01:08:08Z",
   "metrics": {
-    "total_evaluated": 0,
+    "total_evaluated": 2,
     "outcome_correct": 0,
     "outcome_accuracy": 0.0,
     "exact_score_correct": 0,
@@ -13,6 +13,37 @@
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
     "exact_score_accuracy": "Share of matches where the predicted X:X scoreline exactly matched the actual scoreline."
   },
-  "by_stage": {},
-  "evaluations": []
+  "by_stage": {
+    "Group": {
+      "evaluated": 2,
+      "outcome_correct": 0,
+      "exact_correct": 0
+    }
+  },
+  "evaluations": [
+    {
+      "match": 5,
+      "home": "Qatar",
+      "away": "Switzerland",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-14T0057Z"
+    },
+    {
+      "match": 6,
+      "home": "Brazil",
+      "away": "Morocco",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-14T0057Z"
+    }
+  ]
 }

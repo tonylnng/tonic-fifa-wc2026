@@ -1,0 +1,295 @@
+{
+  "match": 10,
+  "stage": "Group F",
+  "home": "Netherlands",
+  "away": "Japan",
+  "kickoff": "2026-06-14T20:00 CT",
+  "run_id": "2026-06-14T0057Z",
+  "run_timestamp": "2026-06-14T00:57:00Z",
+  "model": "research-pplx",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.52,
+      "draw": 0.23,
+      "away": 0.25
+    },
+    "confidence": 0.55
+  },
+  "reasoning": {
+    "summary": "荷蘭以FIFA世界排名第七之姿出賽，擁有范戴克、加克波、德佩等精英球員，理論上實力凌駕日本。然而日本在2022年世界盃力克德國與西班牙，加上荷蘭在科曼帶領下屢屢令人失望，本場勝負難料。日本因主帥遠藤航（腳部傷病）、三笘薰（腿後筋）及齊維·西蒙斯（荷蘭方面ACL撕裂）等關鍵球員缺席，雙方均受傷病困擾，令比賽更添懸念。",
+    "key_factors": [
+      "球員狀態：荷蘭缺席齊維·西蒙斯（ACL，整季報銷）及約里恩·廷伯（鼠蹊部），日本主帥遠藤航（腳部傷病）、王牌邊鋒三笘薰（腿後筋）雙雙缺陣，均是重大打擊",
+      "傷停名單：根據ESPN傷情追蹤，齊維·西蒙斯確定缺席世界盃；日本教練森保一於六月十三日確認遠藤航不入選正式大名單並退出國家隊，三笘薰亦提前傷退",
+      "近期狀態：荷蘭在科曼麾下自2018年以來最佳成績僅為2019年歐國聯亞軍；日本近五場賽事成績為全勝（WWWWW），荷蘭則近況參差（WLDWW）",
+      "戰術對位：荷蘭傾向控球進攻，加克波、德佩等人可製造威脅；日本料採低位防守反擊，田中碧、守田英正等人組成嚴密中場。荷蘭在失去西蒙斯後進攻調度更需依賴德佩串聯",
+      "主客場/場地：AT&T體育場（德州阿靈頓）為中性場地，兩隊均有大批球迷到場支持，天氣炎熱可能影響高強度逼搶體系的日本",
+      "輿論共識：博彩公司均看好荷蘭，賠率約1.95至2.01（荷蘭勝）、3.50至3.70（日本勝）。RotoWire、BettingPros、SportGambler等多家媒體均預測荷蘭勝出，但多數分析師均提示日本上演爆冷的能力不可輕視"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數派認為日本近期五連勝狀態極佳，而荷蘭在科曼帶領下往往表現低於預期。日本沒有了遠藤航的中場核心確實削弱攻守過渡，但如2022年擊敗德國西班牙一樣，日本擅長以低位防守反擊殺傷對手。部分分析師（如VSiN）認為博彩公司低估了這場的不確定性，認為0.5球讓分偏低，主張日本有相當爆冷空間，建議押平局或日本勝。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "media",
+      "name": "WC2026Report - Japan vs Netherlands Preview Group F",
+      "url": "https://www.wc2026report.com/en/news/japan-vs-netherlands-preview-group-f"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer - 2026 FIFA World Cup Group F Preview",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-f-preview-netherlands-j"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - 2026 World Cup Group F Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-f-preview-netherlands-j"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 2026 World Cup Injuries Tracker: Timber out for Netherlands",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tra"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - ACL injury ends Xavi Simons World Cup 2026 dream",
+      "url": "https://www.aljazeera.com/sports/2026/4/27/acl-injury-ends-xavi-simons"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Spurs Simons to miss rest of season and World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cy0101p91z3o"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Japan captain Wataru Endo out of World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49032127/japan-captain-wataru-e"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Captain Endo out of World Cup and retires from Japan duty",
+      "url": "https://www.bbc.com/sport/football/articles/ckgpez39k50o"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Mitoma fails to make Japan 2026 World Cup squad",
+      "url": "https://www.aljazeera.com/sports/2026/5/15/mitoma-fails-to-make-japans-2026-worl"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Kaoru Mitoma ruled out of World Cup with injury",
+      "url": "https://www.espn.com/soccer/story/_/id/48775615/kaoru-mitoma-ruled-wor"
+    },
+    {
+      "type": "media",
+      "name": "Japan Times - Mitoma set to miss World Cup due to injury",
+      "url": "https://www.japantimes.co.jp/sports/2026/05/13/soccer/mitoma-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Japan dealt gut punch losing captain Endo",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-japan-wataru-endo-o"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post - Japan coach made difficult call to keep Endo out",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/13/world-cup-endo"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Japan captain Wataru Endo out of World Cup with foot injury",
+      "url": "https://www.straitstimes.com/sport/japan-captain-wataru-endo-out-of-wo"
+    },
+    {
+      "type": "media",
+      "name": "Chosun - Japan's Key Midfielder Endo Wataru Still Absent from Training",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/07/6NJE7TNOQRHNJCX3XF"
+    },
+    {
+      "type": "media",
+      "name": "Chosun - Japan Selects Injury-Hit Tomiyasu for World Cup Squad",
+      "url": "https://www.chosun.com/english/sports-en/2026/05/18/HG4CDWSBGVH4LI2DAN7PHZ364E"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Japan Waits on Star Forward Mitoma's Fitness",
+      "url": "https://www.foxsports.com/stories/soccer/japan-2026-fifa-world-cup-kar"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports - Depay included in Netherlands World Cup squad",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/depay-inclu"
+    },
+    {
+      "type": "media",
+      "name": "Instagram - Jurrien Timber misses 2026 World Cup groin injury",
+      "url": "https://www.instagram.com/p/DZVVjDlx0In/"
+    },
+    {
+      "type": "media",
+      "name": "Instagram - Japan rules Wataru Endo out of World Cup",
+      "url": "https://www.instagram.com/p/DZdMVQVjZ2R/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Xavi Simons injury World Cup in question",
+      "url": "https://sports.yahoo.com/articles/xavi-simons-injury-world-cup-1556446"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - 2026 World Cup Group F Preview: All Eyes on Van Dijk vs. Isak",
+      "url": "https://sports.yahoo.com/articles/2026-world-cup-group-f-210000330.html"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Netherlands Knockout Chances 2026 (91.3%)",
+      "url": "https://cupchances.com/en/world-cup/2026/netherlands"
+    },
+    {
+      "type": "model",
+      "name": "OnThePitch - Netherlands 2026 FIFA World Cup squad probabilities",
+      "url": "https://onthepitch.now/countries/ned/"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle - Can Netherlands Win World Cup 2026 AI Verdict",
+      "url": "https://kickoracle.com/en/blog/netherlands-world-cup-2026-analysis"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - 2026 World Cup Team Projections Goals Points Odds",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projection"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Netherlands vs Japan Odds and Spread Jun 14 2026",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760425"
+    },
+    {
+      "type": "betting",
+      "name": "WorldCup26USA - Netherlands vs Japan Betting Odds",
+      "url": "https://worldcup26usa.com/en/matches/group-f-md1-m1"
+    },
+    {
+      "type": "betting",
+      "name": "TheTopBookies - Netherlands vs Japan prediction 15 Jun 2026",
+      "url": "https://www.thetopbookies.com/betting-tips/football/ned-vs-jpn-15-jun-"
+    },
+    {
+      "type": "betting",
+      "name": "BettingPros - 2026 World Cup Picks Netherlands vs Japan",
+      "url": "https://www.bettingpros.com/articles/2026-world-cup-picks-netherlands-"
+    },
+    {
+      "type": "betting",
+      "name": "FIFA-26.com - World Cup 2026 injuries absences squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "betting",
+      "name": "WCSoccerNZ2026 - World Cup 2026 Winner Odds Full Market Comparison",
+      "url": "https://wcsoccernz2026.com/world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "SportGambler - Netherlands vs Japan Prediction Betting Tips Lineups Odds",
+      "url": "https://www.sportsgambler.com/betting-tips/football/netherlands-vs-japan-predict"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Match Preview: Netherlands vs Japan",
+      "url": "https://www.youtube.com/watch?v=Isc_Bp3p0eg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Group F Preview: Netherlands Japan Sweden Tunisia (Alexi Lalas)",
+      "url": "https://www.youtube.com/watch?v=FUfx-y51XOo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FIFA World Cup 2026 Group F Preview",
+      "url": "https://www.youtube.com/watch?v=gWDZ7TkXro0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Netherlands vs Japan Predictions FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=cxFtvctgI5M"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Dutch star Xavi Simons out of World Cup",
+      "url": "https://www.youtube.com/watch?v=S56NPxoPjrI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Xavi Simons ruled out Tottenham season World Cup",
+      "url": "https://www.youtube.com/watch?v=45UDr7jPTyM"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com - Netherlands vs Japan Liveticker FIFA World Cup 2026",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/netherlands-vs-j"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Japan 2026 World Cup Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/214/japan"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Netherlands 2026 World Cup Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/197/netherlands"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Netherlands World Cup 2026 odds probability path",
+      "url": "https://www.squawka.com/en/outright-markets/netherlands-world-cup-2026-odds/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Netherlands vs Japan Group F discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Japan vs Netherlands Group F World Cup 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-netherlands-vs-japan"
+    },
+    {
+      "type": "media",
+      "name": "BigDSoccer - Sweden 2026 World Cup preview (Group F context)",
+      "url": "https://www.bigdsoccer.com/sweden-2026-world-cup-preview/"
+    },
+    {
+      "type": "kol",
+      "name": "Alexi Lalas - Group F analysis Netherlands Japan Sweden Tunisia",
+      "url": "https://www.youtube.com/watch?v=FUfx-y51XOo"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Sweden Graham Potter interview ahead of World Cup",
+      "url": "https://www.theguardian.com/football/2026/jun/05/graham-potter-sweden-head-coach"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Spain World Cup 2026 squad zero Real Madrid players",
+      "url": "https://www.instagram.com/reel/DYwuvkSMN8V/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Netherlands vs Japan Group F preview kickoff Dallas",
+      "url": "https://www.espn.com/soccer/story/_/id/49032127/japan-captain-wataru-e"
+    }
+  ],
+  "source_count": 51
+}

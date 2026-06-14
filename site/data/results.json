@@ -8,40 +8,84 @@
       "stage": "Group A",
       "home": "Mexico",
       "away": "South Africa",
-      "score": { "home": 2, "away": 0 },
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "outcome": "home",
       "recorded_at": "2026-06-11T22:00:00Z",
-      "source": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+      "source": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match",
+      "scoreline": "2:0"
     },
     {
       "match": 2,
       "stage": "Group A",
       "home": "South Korea",
       "away": "Czech Republic",
-      "score": { "home": 2, "away": 1 },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "outcome": "home",
       "recorded_at": "2026-06-13T02:00:00Z",
-      "source": "https://bleacherreport.com/articles/25439223"
+      "source": "https://bleacherreport.com/articles/25439223",
+      "scoreline": "2:1"
     },
     {
       "match": 3,
       "stage": "Group B",
       "home": "Canada",
       "away": "Bosnia & Herzegovina",
-      "score": { "home": 1, "away": 1 },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "outcome": "draw",
       "recorded_at": "2026-06-12T20:00:00Z",
-      "source": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+      "source": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match",
+      "scoreline": "1:1"
     },
     {
       "match": 4,
       "stage": "Group D",
       "home": "USA",
       "away": "Paraguay",
-      "score": { "home": 4, "away": 1 },
+      "score": {
+        "home": 4,
+        "away": 1
+      },
       "outcome": "home",
       "recorded_at": "2026-06-13T02:00:00Z",
-      "source": "https://www.espn.com/soccer/story/_/id/49039447"
+      "source": "https://www.espn.com/soccer/story/_/id/49039447",
+      "scoreline": "4:1"
+    },
+    {
+      "match": 5,
+      "stage": "Group B",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "outcome": "draw",
+      "recorded_at": "2026-06-14T00:57:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760420",
+      "scoreline": "1:1"
+    },
+    {
+      "match": 6,
+      "stage": "Group C",
+      "home": "Brazil",
+      "away": "Morocco",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "outcome": "draw",
+      "recorded_at": "2026-06-14T00:57:00Z",
+      "source": "https://www.skysports.com/football/brazil-vs-morocco/report/549771",
+      "scoreline": "1:1"
     }
   ]
 }

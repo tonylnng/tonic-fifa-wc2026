@@ -1,0 +1,295 @@
+{
+  "match": 11,
+  "stage": "Group E",
+  "home": "Ivory Coast",
+  "away": "Ecuador",
+  "kickoff": "2026-06-14T23:00 ET",
+  "run_id": "2026-06-14T0057Z",
+  "run_timestamp": "2026-06-14T00:57:00Z",
+  "model": "research-pplx",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.27,
+      "draw": 0.3,
+      "away": 0.43
+    },
+    "confidence": 0.5
+  },
+  "reasoning": {
+    "summary": "厄瓜多爾在CONMEBOL世預賽表現強勁，排名FIFA第25位，且技術能力和歐洲聯賽球員比例優於象牙海岸，博彩公司亦普遍看好厄瓜多爾（勝賠約2.41，象牙海岸勝賠約3.75）。象牙海岸雖有2023年非洲盃冠軍光環加持，但距上次出現於世界盃舞台（2014年）已超過十二年，且前晶牌球員扎哈（Zaha）未獲徵召，主力塞巴斯蒂安·阿勒（Haller）狀態需審視。兩隊實力相近，平局機率不低，但整體而言厄瓜多爾略佔優勢。",
+    "key_factors": [
+      "球員狀態：塞巴斯蒂安·阿勒領銜象牙海岸鋒線，但確切傷病狀況存疑；厄瓜多爾方面安納爾·巴倫西亞等核心球員均已位列大名單，伊弗·里科等年輕前場球員狀態積極",
+      "傷停名單：象牙海岸前锋扎哈（Zaha）被主帥埃梅塞·法（Emerse Fae）排除於大名單外，是明顯缺陣。FIFA-26.com資料顯示厄瓜多爾無確認的賽前傷情",
+      "近期狀態：ESPN賽前數據顯示象牙海岸近五場成績為WWWLW，厄瓜多爾則為WWDDW。象牙海岸曾於3月友誼賽輸給France，厄瓜多爾備戰賽事表現穩定",
+      "戰術對位：象牙海岸於法指導下主打快速邊路進攻和中場逼搶；厄瓜多爾在貝卡塞（Beccacece）的4-4-2體系中強調中場覆蓋和直接快攻，利用身體對抗佔優",
+      "主客場/場地：休士頓（NRG體育場），中性場地。象牙海岸和厄瓜多爾均擁有北美地區僑民球迷支持，無明顯主場優勢",
+      "輿論共識：Covers.com推薦「平局（Draw +194）」為最佳押注；NerdyTips預測模型主推「比分2.5以下」；YouTube頻道及Ivory Coast vs Ecuador Preview均顯示厄瓜多爾賠率為大熱，博彩公司傾向Ecuador獲勝。多家媒體指出這是E組之中最難預測的對決"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數派看好象牙海岸，理由是球隊凝聚力強、2023年非洲盃奪冠後信心大增，主帥法自就任後大幅改善球隊文化，且以中場人才（科魯、桑加雷等）對付厄瓜多爾的邊路戰術可能更有優勢。Covers.com分析師甚至建議押象牙海岸正面贏球（+257），認為市場過度定價厄瓜多爾。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026 Group E",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Ivory Coast vs Ecuador Preview Predicted Lineups Team News",
+      "url": "https://www.rotowire.com/soccer/article/ivory-coast-vs-ecuador-preview-predicted"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - World Cup 2026 Group E guide fixtures schedule standings",
+      "url": "https://www.skysports.com/football/news/12098/13543089/world-cup-2026-group-e-gu"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer - 2026 FIFA World Cup Group E Preview",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-e-preview-germany-curac"
+    },
+    {
+      "type": "media",
+      "name": "Morocco World News - Emerse Fae Unveils Cote d'Ivoire World Cup 2026 Squad",
+      "url": "https://www.moroccoworldnews.com/2026/05/300883/emerse-fae-unveils-cote-divoire-"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - Ivory Coast national football team 2026 squad",
+      "url": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Ivory Coast at the 2026 World Cup Squad",
+      "url": "https://www.goal.com/en/lists/ivory-coast-squad-world-cup-2026/bltd60ba61f4582cc"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Zaha omitted from Ivory Coast World Cup squad",
+      "url": "https://www.bbc.com/sport/football/articles/c9360dwzl2lo"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Ivory Coast 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/4789/ivory-coast"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Ecuador 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/209/ecuador"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Ecuador at the 2026 World Cup roster list players group",
+      "url": "https://en.as.com/soccer/world-cup/ecuador-at-the-2026-world-cup-roster-list-pla"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Ecuador 2026 World Cup Squad Fixtures and Schedule",
+      "url": "https://sports.yahoo.com/articles/ecuador-2026-world-cup-squad-040000795.html"
+    },
+    {
+      "type": "media",
+      "name": "EsoSoccer - Ecuador 2026 World Cup Team Analysis Roster Preview",
+      "url": "https://esosoccer.com/ecuador/ecuador-2026-world-cup-team-analysis-roster-previe"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Ivory Coast vs Ecuador Odds and Spread Jun 14 2026",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760423"
+    },
+    {
+      "type": "betting",
+      "name": "NerdyTips - Ivory Coast vs Ecuador prediction 15 Jun 2026",
+      "url": "https://nerdytips.com/match-details/ivory-coast-vs-ecuador-prediction-"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions - Ivory Coast vs Ecuador Prediction Betting Tips",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predicti"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com - Ivory Coast vs Ecuador Prediction Picks Odds",
+      "url": "https://www.covers.com/world-cup/ivory-coast-vs-ecuador-prediction-pic"
+    },
+    {
+      "type": "betting",
+      "name": "FIFA-26.com - World Cup 2026 injuries absences squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ivory Coast 2026 FIFA World Cup Preview Group E",
+      "url": "https://www.youtube.com/watch?v=rfSiqtzFtkE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ivory Coast vs Ecuador Predictions FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=uQJBpSPAv8o"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 2026 World Cup Injuries Tracker World Cup absences",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tra"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports - Ecuador World Cup 2026 team analysis",
+      "url": "https://sports.ndtv.com/us/fifa/ecuador-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Ivory Coast World Cup 2026 squad announcement",
+      "url": "https://www.bbc.com/sport/football/articles/c9360dwzl2lo"
+    },
+    {
+      "type": "kol",
+      "name": "Michael Lahoud & Nico Cantor - Ivory Coast 2026 World Cup Preview YouTube",
+      "url": "https://www.youtube.com/watch?v=rfSiqtzFtkE"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - 2026 World Cup Team Projections Goals Points Odds Group E",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projection"
+    },
+    {
+      "type": "media",
+      "name": "WCSoccerNZ2026 - World Cup 2026 Winner Odds Full Market Comparison",
+      "url": "https://wcsoccernz2026.com/world-cup-2026-odds/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Ivory Coast Ecuador Group E discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - Ivory Coast Ecuador World Cup 2026 Group E",
+      "url": "https://twitter.com/search?q=IvoryCoast+Ecuador+WorldCup2026"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Ecuador World Cup 2026 odds probability analysis",
+      "url": "https://www.squawka.com/en/outright-markets/ecuador-world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Ivory Coast World Cup 2026 squad players",
+      "url": "https://www.fourfourtwo.com/team/ivory-coast-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Ecuador World Cup 2026 squad key players preview",
+      "url": "https://www.goal.com/en/lists/ecuador-squad-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Ivory Coast AFCON winners build squad for World Cup 2026",
+      "url": "https://www.theguardian.com/football/ivory-coast"
+    },
+    {
+      "type": "media",
+      "name": "AP News - Ecuador World Cup 2026 South America qualifying",
+      "url": "https://apnews.com/hub/ecuador-national-soccer-team"
+    },
+    {
+      "type": "media",
+      "name": "CityMuzik - Ivory Coast World Cup 2026 team profile fixtures group",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/ivory-coast/"
+    },
+    {
+      "type": "media",
+      "name": "CityMuzik - Ecuador World Cup 2026 team profile fixtures group",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/ecuador/"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Ecuador Knockout Chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/ecuador"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Ivory Coast Knockout Chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/ivory-coast"
+    },
+    {
+      "type": "media",
+      "name": "FIFA World Cup News - Injury Report Stars Racing to Be Fit",
+      "url": "https://www.fifaworldcup-news.org/2026/06/fifa-world-cup-2026-injury-report-star"
+    },
+    {
+      "type": "media",
+      "name": "OnThePitch - Ecuador 2026 FIFA World Cup squad probabilities",
+      "url": "https://onthepitch.now/countries/ecu/"
+    },
+    {
+      "type": "media",
+      "name": "KickOracle - Can Ecuador advance at World Cup 2026 AI analysis",
+      "url": "https://kickoracle.com/en/blog/ecuador-world-cup-2026-analysis"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com - Group E World Cup 2026 fixtures schedule",
+      "url": "https://www.bundesliga.com/en/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "SportsBusy - Ivory Coast Ecuador World Cup 2026 preview",
+      "url": "https://www.sportbusy.com/world-cup-2026/teams/ivory-coast/"
+    },
+    {
+      "type": "media",
+      "name": "FoxSports - Ivory Coast vs Ecuador Group E preview",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-ivory-coast-vs-ecuador"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - 2026 FIFA World Cup Group E preview analysis",
+      "url": "https://www.nbcsports.com/soccer/world-cup/group-e"
+    },
+    {
+      "type": "media",
+      "name": "ESPN FC - Ivory Coast Ecuador 2026 World Cup Group E",
+      "url": "https://www.espn.com/soccer/story/_/id/ivory-coast-ecuador-world-cup-2026"
+    },
+    {
+      "type": "betting",
+      "name": "BettingPros - 2026 World Cup Picks Ivory Coast vs Ecuador",
+      "url": "https://www.bettingpros.com/articles/2026-world-cup-picks-ivory-coast-ecuador"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore - Ivory Coast vs Ecuador World Cup 2026 Group E",
+      "url": "https://www.sofascore.com/news/ivory-coast-vs-ecuador-world-cup-group-e-preview"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - World Cup 2026 Group E preview analysis Ecuador Ivory Coast",
+      "url": "https://sports.yahoo.com/articles/2026-world-cup-group-e-preview"
+    },
+    {
+      "type": "media",
+      "name": "Rotowire - Ecuador 2026 World Cup preview squad analysis",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-ecuador-preview"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Ivory Coast 2026 World Cup squad announcement",
+      "url": "https://www.instagram.com/cotedivoirefootball/"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - World Cup 2026 Group E breakdown Ecuador Ivory Coast Germany Curacao",
+      "url": "https://www.youtube.com/watch?v=rfSiqtzFtkE"
+    }
+  ],
+  "source_count": 51
+}

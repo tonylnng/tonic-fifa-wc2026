@@ -1,0 +1,295 @@
+{
+  "match": 13,
+  "stage": "Group H",
+  "home": "Spain",
+  "away": "Cape Verde",
+  "kickoff": "2026-06-15T16:00 ET",
+  "run_id": "2026-06-14T0057Z",
+  "run_timestamp": "2026-06-14T00:57:00Z",
+  "model": "research-pplx",
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.88,
+      "draw": 0.08,
+      "away": 0.04
+    },
+    "confidence": 0.85
+  },
+  "reasoning": {
+    "summary": "西班牙是本屆世界盃最大熱門之一，為FIFA世界排名第一，擁有拉明·亞馬爾、佩德里、尼科·威廉士等歐洲最頂尖的技術球員，並以歐國聯2024年衛冕冠軍之姿出賽。博彩公司給予西班牙一面倒賠率（-1050至-1400），暗示約85-93%勝率。維德角是世界盃首秀球隊，整支球隊在頂五歐洲聯賽中只有一名球員（洛根·科斯塔，比亞雷亞爾），陣容深度與個人質素與西班牙相差懸殊，幾乎無緣爆冷。",
+    "key_factors": [
+      "球員狀態：西班牙拉明·亞馬爾以傷病之身入選大名單，費爾明·洛佩斯（第五跖骨骨折手術）缺席，但陣中仍有佩德里、尼科·威廉士、奧亞薩瓦爾、莫拉塔等精英。維德角隊長兼頭號射手瑞安·門德斯（36歲）代表球隊出賽，守門員沃齊尼亞（Vozinha）效力於葡萄牙低組別球會",
+      "傷停名單：西班牙費爾明·洛佩斯確認因腳傷缺席，另朱利安·加利亞斯塔吉受傷。西班牙大名單不含任何皇家馬德里球員（史上首次），體現德拉富恩特教練的大膽選材。維德角無重大傷情公告，但整體陣容在歐洲頂級聯賽的曝光度極低",
+      "近期狀態：西班牙近期賽果為WDDWD，雖不全勝但主力球員整合後實力無庸置疑。ESPN數據顯示維德角近五場賽果WWLLL，後段賽事表現下滑",
+      "戰術對位：西班牙採德拉富恩特版4-3-3，以快速連線傳球、邊路突破為主，亞馬爾右路和威廉士左路提供源源不絕的衝擊。維德角習慣5-4-1低位防守、以守候機會，但面對西班牙的逼搶與技術，難以長期守住球門",
+      "主客場/場地：亞特蘭大梅賽德斯奔馳體育場，容量約71,000人，是本屆賽事最大場館之一。西班牙擁有大量美國境內拉丁裔球迷，入場氛圍幾近主場。維德角雖有非洲裔僑民支持，人數遠遠不及",
+      "輿論共識：幾乎全體評論員一面倒看好西班牙大勝。BetMGM預測西班牙拿下小組全勝；OddsChecker、FOX Sports、Goal.com、JuveFC、WhyFootball.org等媒體均以壓倒性西班牙勝利作預測，部分AI模型更預測比分2-0或3-0。維德角被公認為本屆大賽最弱的參賽隊伍之一"
+    ],
+    "consensus_lean": "home",
+    "dissent": "極少數意見認為西班牙可能因為輕敵或阵容鬆散而讓維德角製造一粒入球，但無任何主流分析師或模型預測維德角有勝出或平局的現實機會。CNN報道維德角精神面貌良好、首次參加世界盃令全國上下充滿喜悅，教練Bubista指示球員「沒有什麼是不可能的」，但從數據和陣容角度，爆冷可能性極低（約4%）。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026 Group H",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - 2026 World Cup Group H Preview Spain Uruguay Saudi Arabia Cape Verde",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-h-preview-spain-uru"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer - 2026 FIFA World Cup Group H Preview",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-h-preview-spain-cape-ve"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Spain vs Cape Verde FIFA World Cup 2026 preview",
+      "url": "https://www.goal.com/en/news/spain-cape-verde-world-cup-preview/blt1cba94a69b707"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com India - Spain vs Cape Verde World Cup 2026 preview kickoff",
+      "url": "https://www.goal.com/en-in/news/spain-cape-verde-world-cup-preview/blt1cba94a69b707"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Zero Real Madrid players in Spain World Cup squad Lamine Yamal",
+      "url": "https://www.theguardian.com/football/2026/may/25/spain-world-cup-squad-2026-lami"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Spain World Cup 2026 squad confirmed",
+      "url": "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confi"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Spain 2026 World Cup Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/164/spain"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Cape Verde 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2597/cape-verde"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Cape Verde World Cup 2026 squad Bubista final 26-man selection",
+      "url": "https://www.fourfourtwo.com/team/cape-verde-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - Cape Verde national football team 2026 World Cup",
+      "url": "https://en.wikipedia.org/wiki/Cape_Verde_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - Template Cape Verde squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Cape_Verde_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports - Spain 2026 World Cup Guide Full Squad List Key Players Group H",
+      "url": "https://sports.ndtv.com/us/fifa/spain-2026-world-cup-guide-full-squad-list-key-p"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 2026 World Cup Injuries Tracker Fermin Lopez Spain metatarsal",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tra"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post - Fermin Lopez set to miss World Cup for Spain after fracturing foot",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/05/18/fermin-lopez-spain-barce"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Spain Lopez set to miss World Cup with foot fracture",
+      "url": "https://www.bbc.com/sport/football/articles/cy925jejr2lo"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Life And Football Are Cruel Fermin Lopez statement metatarsal",
+      "url": "https://www.foxsports.com/stories/soccer/life-and-football-are-cruel-fermin-lope"
+    },
+    {
+      "type": "media",
+      "name": "CNN - Cape Verde determined to prove itself at FIFA World Cup",
+      "url": "https://www.cnn.com/sport/cape-verde-world-cup-debutants-nothing-is-impossible-s"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Cape Verde World Cup 2026 team guide",
+      "url": "https://www.theguardian.com/football/2026/jun/05/cape-verde-world-cup-2026-team-"
+    },
+    {
+      "type": "media",
+      "name": "Instagram - Spain World Cup 2026 squad zero Real Madrid players history",
+      "url": "https://www.instagram.com/reel/DYwuvkSMN8V/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Spain vs Cape Verde Odds and Spread Jun 15 2026",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760428"
+    },
+    {
+      "type": "betting",
+      "name": "OddsTrader - Cape Verde vs Spain 2026-06-15 World Cup betting odds",
+      "url": "https://www.oddstrader.com/world-cup/matchups/cape-verde-vs-spain-2026-06-15-e47"
+    },
+    {
+      "type": "betting",
+      "name": "SBG Global - 2026 World Cup Spain vs Cape Verde Betting Odds Preview",
+      "url": "https://www.sbgglobal.eu/football-soccer/2026-world-cup-spain-vs-cape-verde-bett"
+    },
+    {
+      "type": "betting",
+      "name": "Fox Sports - Spain vs Cape Verde Live Score June 15 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-spain-vs-cape-verde-jun-15-2"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM - World Cup Group H Predictions Odds Favor Spain",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-h-world-cup-2026-odds-predicti"
+    },
+    {
+      "type": "betting",
+      "name": "OddsChecker - 2026 FIFA World Cup Group H Odds Predictions Analysis Spain",
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260609-2026-fifa-world-cup-group"
+    },
+    {
+      "type": "betting",
+      "name": "FIFA-26.com - World Cup 2026 injuries absences squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "betting",
+      "name": "WCSoccerNZ2026 - World Cup 2026 Winner Odds Full Market Comparison",
+      "url": "https://wcsoccernz2026.com/world-cup-2026-odds/"
+    },
+    {
+      "type": "model",
+      "name": "WhyFootball.org - Spain vs Cape Verde Group H World Cup 2026 AI prediction",
+      "url": "https://whyfootball.org/matches/esp-cpv-preview.html"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Spain Knockout Chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/spain"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle - Can Spain Win World Cup 2026 AI Verdict",
+      "url": "https://kickoracle.com/en/blog/spain-world-cup-2026-analysis"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - 2026 World Cup Team Projections Goals Points Odds Group H",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projection"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Group H Preview Spain Cape Verde Saudi Arabia Uruguay Alexi Lalas",
+      "url": "https://www.youtube.com/watch?v=0OkAxo1TZaM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - World Cup 2026 Group H Preview Spain Uruguay Cape Verde Saudi Arabia",
+      "url": "https://www.youtube.com/watch?v=wfgIDdRnjaQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Spain vs Cape Verde FIFA World Cup 2026 Match 14 Historic Debut Prediction",
+      "url": "https://www.youtube.com/watch?v=qKf3d-PXEeE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Group H Predictions Team Analysis Spain Uruguay Saudi Arabia Cape Verde",
+      "url": "https://www.youtube.com/watch?v=omDh7qW2HIs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Official Squad FIFA World Cup 2026 Group Stage H",
+      "url": "https://www.youtube.com/watch?v=pTdRg8JP5wI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - World Cup Group H Preview Who Advances Spain",
+      "url": "https://www.youtube.com/watch?v=ZKbUTpMy1EM"
+    },
+    {
+      "type": "media",
+      "name": "JuveFC - Spain vs Cape Verde Prediction World Cup 2026 Preview Best Bets",
+      "url": "https://www.juvefc.com/spain-v-cape-verde-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "SportsBusy - Ryan Mendes World Cup 2026 Cape Verde",
+      "url": "https://www.sportbusy.com/world-cup-2026/teams/cape-verde/players/ryan-mendes/"
+    },
+    {
+      "type": "media",
+      "name": "FIFA World Cup News - Stars Racing to Be Fit Injury Report",
+      "url": "https://www.fifaworldcup-news.org/2026/06/fifa-world-cup-2026-injury-report-star"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Spain Cape Verde Group H discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - Spain Cape Verde World Cup 2026",
+      "url": "https://twitter.com/search?q=Spain+CapeVerde+WorldCup2026"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Spain World Cup 2026 odds probability path to final",
+      "url": "https://www.squawka.com/en/outright-markets/spain-world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "OnThePitch - Spain 2026 FIFA World Cup squad probabilities winner",
+      "url": "https://onthepitch.now/countries/esp/"
+    },
+    {
+      "type": "kol",
+      "name": "Alexi Lalas - Spain Euro 2024 champion tournament favorites Group H",
+      "url": "https://www.youtube.com/watch?v=ZKbUTpMy1EM"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Spain national football team World Cup 2026 preview",
+      "url": "https://www.theguardian.com/football/spain"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Spain World Cup 2026 squad preparation",
+      "url": "https://www.bbc.com/sport/football/articles/spain-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "AP News - Spain World Cup 2026 squad no Real Madrid players",
+      "url": "https://apnews.com/hub/spain-national-soccer-team"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Spain at 2026 World Cup roster list players group H",
+      "url": "https://en.as.com/soccer/world-cup/spain-at-the-2026-world-cup-roster-list-players"
+    },
+    {
+      "type": "media",
+      "name": "FoxSports - Spain vs Cape Verde Group H World Cup 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-spain-vs-cape-verde"
+    }
+  ],
+  "source_count": 51
+}
