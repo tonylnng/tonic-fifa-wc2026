@@ -342,6 +342,43 @@
     }
   ],
   "source_count": 52,
-  "kickoff_utc": "2026-06-14T02:00:00Z",
-  "kickoff_hkt": "2026-06-14 10:00"
+  "kickoff_utc": "2026-06-13T19:00:00Z",
+  "kickoff_hkt": "2026-06-14 10:00",
+  "benchmarks": [
+    {
+      "source": "Opta 超級電腦",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.15,
+        "away": 0.75
+      },
+      "outcome": "away",
+      "scoreline": "0:2",
+      "note": "Opta 預測瑞士 2-0 勝出"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.11,
+        "draw": 0.16,
+        "away": 0.73
+      },
+      "outcome": "away",
+      "scoreline": "0:1",
+      "note": "瑞士賠率 -310 至 -426"
+    },
+    {
+      "source": "Kalshi 預測市場",
+      "kind": "market",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.11,
+        "away": 0.794
+      },
+      "outcome": "away",
+      "note": "瑞士勝率 79.4%"
+    }
+  ]
 }

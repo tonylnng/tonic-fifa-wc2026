@@ -337,6 +337,32 @@
     }
   ],
   "source_count": 51,
-  "kickoff_utc": "2026-06-15T01:00:00Z",
-  "kickoff_hkt": "2026-06-15 09:00"
+  "kickoff_utc": "2026-06-14T20:00:00Z",
+  "kickoff_hkt": "2026-06-15 09:00",
+  "benchmarks": [
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.5,
+        "draw": 0.24,
+        "away": 0.26
+      },
+      "outcome": "home",
+      "scoreline": "2:1",
+      "note": "荷蘭賠率約 1.95-2.01"
+    },
+    {
+      "source": "模型/媒體共識",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.23,
+        "away": 0.25
+      },
+      "outcome": "home",
+      "scoreline": "2:1",
+      "note": "多家媒體看好荷蘭，惟提示日本爆冷力"
+    }
+  ]
 }

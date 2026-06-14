@@ -332,6 +332,43 @@
     }
   ],
   "source_count": 50,
-  "kickoff_utc": "2026-06-14T05:00:00Z",
-  "kickoff_hkt": "2026-06-14 13:00"
+  "kickoff_utc": "2026-06-14T01:00:00Z",
+  "kickoff_hkt": "2026-06-14 13:00",
+  "benchmarks": [
+    {
+      "source": "Opta 超級電腦",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.16,
+        "draw": 0.2,
+        "away": 0.64
+      },
+      "outcome": "away",
+      "scoreline": "0:2",
+      "note": "Opta 模擬海地小組賽全敗"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.2,
+        "away": 0.62
+      },
+      "outcome": "away",
+      "scoreline": "0:2",
+      "note": "蘇格蘭賠率 -188 至 -200"
+    },
+    {
+      "source": "Football Meister AI",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.18,
+        "away": 0.64
+      },
+      "outcome": "away",
+      "note": "蘇格蘭 64% 勝率"
+    }
+  ]
 }

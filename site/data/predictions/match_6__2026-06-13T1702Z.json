@@ -9,10 +9,17 @@
   "run_timestamp": "2026-06-13T17:02:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": { "home": 2, "away": 0 },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
     "scoreline": "2:0",
     "outcome": "home",
-    "win_prob": { "home": 0.58, "draw": 0.24, "away": 0.18 },
+    "win_prob": {
+      "home": 0.58,
+      "draw": 0.24,
+      "away": 0.18
+    },
     "confidence": 0.62
   },
   "reasoning": {
@@ -29,58 +36,267 @@
     "dissent": "RotoWire的博彩建議文章預測為1:1平局，認為摩洛哥防守組織足以抵禦巴西且能從烏龍球或定位球中得1分；Oxford Football Forecasting的Poisson模型亦顯示合計期望進球數僅2.04（巴西xG 1.27 / 摩洛哥xG 0.77），指向低比分甚至平局可能。部分社區聲音亦指出巴西防守問題和缺少尼馬爾的創造力，使摩洛哥的反擊滋生出爆冷空間。"
   },
   "sources": [
-    { "type": "model", "name": "Opta Analyst – Qatar vs Switzerland and Brazil vs Morocco WC2026", "url": "https://theanalyst.com/articles/qatar-vs-switzerland-prediction-world-cup-2026-match-preview" },
-    { "type": "model", "name": "Al Jazeera – WC Day 3 Opta Simulations Brazil vs Morocco", "url": "https://www.aljazeera.com/news/2026/6/13/fifa-world-cup-day-3-brazil-vs-morocco-prediction-schedule-what-to-know" },
-    { "type": "model", "name": "WC2026 Intel – Brazil vs Morocco Win Probability", "url": "https://wc2026intel.com/matches/1489371" },
-    { "type": "model", "name": "Oxford Football Forecasting – Brazil vs Morocco Expected Goals", "url": "https://fatih.ai/worldcup2026/match/7/" },
-    { "type": "model", "name": "Onthepitch – WC2026 Prediction Methodology", "url": "https://onthepitch.now/docs/methodology/" },
-    { "type": "media", "name": "RotoWire – Brazil vs Morocco Preview & Lineups", "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816" },
-    { "type": "media", "name": "RotoWire – Brazil vs Morocco Best Bets & Score Prediction", "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-picks-tips-odds-best-bets-2026-world-cup-group-c-117949" },
-    { "type": "media", "name": "ESPN – Brazil vs Morocco Kickoff Team News WC2026", "url": "https://www.espn.com/soccer/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news" },
-    { "type": "media", "name": "ESPN UK – Brazil vs Morocco WC2026", "url": "https://www.espn.co.uk/football/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news" },
-    { "type": "media", "name": "CBS Sports – Brazil vs Morocco Odds Picks Prediction", "url": "https://www.cbssports.com/soccer/news/brazil-vs-morocco-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-saturday/" },
-    { "type": "media", "name": "CBS Sports – Brazil at WC2026 Vini Jr Neymar Ancelotti", "url": "https://www.cbssports.com/soccer/news/brazil-at-2026-world-cup-everything-to-know-vini-jr-neymar-ancelotti/" },
-    { "type": "media", "name": "Al Jazeera – Brazil vs Morocco World Cup Team News Neymar", "url": "https://www.aljazeera.com/sports/2026/6/13/brazil-vs-morocco-world-cup-team-news-neymar-start-time-and-how-to-watch" },
-    { "type": "media", "name": "Al Jazeera – Morocco WC2026 Preview Players Squad", "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list" },
-    { "type": "media", "name": "ESPN – Morocco Cut Injured Aguerd Ezzalzouli", "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle" },
-    { "type": "media", "name": "BBC Sport – Morocco Injuries Ezzalzouli Aguerd Out", "url": "https://www.bbc.com/sport/football/articles/c5yrr1k6nxyo" },
-    { "type": "media", "name": "BSS News – Morocco Replace Injured Ezzalzouli Aguerd", "url": "https://www.bssnews.net/sports/395060" },
-    { "type": "media", "name": "NDTV Sports – Neymar Ruled Out Brazil vs Morocco", "url": "https://sports.ndtv.com/fifa-world-cup-2026/neymar-ruled-out-of-brazils-fifa-world-cup-2026-opener-against-afcon-winners-morocco-11631783" },
-    { "type": "media", "name": "Mix Vale – Neymar Plays Today Brazil vs Morocco", "url": "https://www.mixvale.com.br/2026/06/13/neymar-plays-today-brazil-vs-morocco-at-the-2026-fifa-world-cup-en/" },
-    { "type": "media", "name": "Sports Mole – Predicted Brazil Lineup vs Morocco", "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/predicted-lineups/right-back-dilemma-for-ancelotti-predicted-brazil-lineup-vs-morocco_598949.html" },
-    { "type": "media", "name": "FWC Times – Brazil vs Morocco Lineups", "url": "https://fwctimes.com/brazil-vs-morocco-lineups/" },
-    { "type": "media", "name": "betinireland.ie – Brazil vs Morocco Prediction", "url": "https://www.betinireland.ie/sports-betting/football/world-cup/brazil-v-morocco-june-2026/" },
-    { "type": "media", "name": "Evening Standard – Brazil vs Morocco Prediction Kick-off TV", "url": "https://www.standard.co.uk/sport/football/brazil-vs-morocco-prediction-kick-off-time-latest-team-news-tv-live-stream-h2h-results-odds-world-cup-2026-preview-today-b1285580.html" },
-    { "type": "media", "name": "Covers.com – Brazil vs Morocco Prediction Picks Odds", "url": "https://www.covers.com/world-cup/brazil-vs-morocco-prediction-picks-odds-saturday-6-13-2026" },
-    { "type": "media", "name": "Sky Sports – Brazil vs Morocco WC2026 Match Page", "url": "https://www.skysports.com/football/brazil-vs-morocco/549771" },
-    { "type": "media", "name": "Yahoo Sports – Morocco Football Team 2026 WC Preview", "url": "https://sports.yahoo.com/articles/morocco-football-team-2026-world-133500411.html" },
-    { "type": "media", "name": "TWSN – Tactical Analysis June 13 Matches", "url": "https://twsn.net/2026/06/13/fifa-world-cup-2026-tactical-analysis-and-predictions-for-the-june-13-matches/" },
-    { "type": "media", "name": "LiveScore – World Cup Group C Predictions Game 1", "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-group-c-predictions-game-1/" },
-    { "type": "media", "name": "ESPN – WC2026 Injuries Tracker Timber Netherlands", "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info" },
-    { "type": "media", "name": "Economics Observatory – WC2026 Groups C and D Scorecasting", "url": "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-c-and-d-what-does-scorecasting-suggest" },
-    { "type": "model", "name": "Opta Analyst – WC2026 Pre-Draw Projections Supercomputer", "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections" },
-    { "type": "betting", "name": "BongDaPlus – Opta Brazil vs Morocco Simulation", "url": "https://bongdaplus.vn/world-cup/sieu-may-tinh-du-doan-ket-qua-brazil-vs-morocco-world-cup-2026-5074352606.html" },
-    { "type": "forum", "name": "Reddit r/soccer – WC2026 Daily Hub Discussion", "url": "https://www.reddit.com/r/soccer/comments/1u3rvcx/2026_fifa_world_cup_daily_hub/" },
-    { "type": "youtube", "name": "YouTube – Brazil vs Morocco FIFA WC2026 Previews Predictions", "url": "https://www.youtube.com/watch?v=wOKWHjDJ71k" },
-    { "type": "youtube", "name": "YouTube – The Match That Decides Group C Brazil vs Morocco FIFA", "url": "https://www.youtube.com/watch?v=sHL3NqaoE1Q" },
-    { "type": "youtube", "name": "YouTube – Brazil vs Morocco Best Bets Picks Tips Odds", "url": "https://www.youtube.com/watch?v=VBSN2BHXw18" },
-    { "type": "youtube", "name": "YouTube – 3 World Cup Best Bets Brazil vs Morocco", "url": "https://www.youtube.com/watch?v=AcQLEnxgPiU" },
-    { "type": "youtube", "name": "YouTube – Previewing Brazil Opening Fixture vs Morocco ESPN", "url": "https://www.youtube.com/watch?v=7n6wiHGv3Xo" },
-    { "type": "youtube", "name": "YouTube – FC 26 Group C Brazil vs Morocco Predictions", "url": "https://www.youtube.com/watch?v=KtLACnna6Cg" },
-    { "type": "youtube", "name": "YouTube – WORLD CUP 2026 PREVIEW MOROCCO", "url": "https://www.youtube.com/watch?v=uRY7kyi8mcI" },
-    { "type": "youtube", "name": "YouTube – Ultimate 2026 World Cup Preview Full Bracket Predictions", "url": "https://www.youtube.com/watch?v=RVU4Qqojn3c" },
-    { "type": "youtube", "name": "YouTube – Day 3 World Cup Preview All Four Matches", "url": "https://www.youtube.com/watch?v=LtFj4fe-HRI" },
-    { "type": "kol", "name": "The Guardian – World Cup 2026 Preview Groups A-D Football Weekly Podcast", "url": "https://www.theguardian.com/football/audio/2026/jun/08/world-cup-2026-preview-groups-a-d-football-weekly" },
-    { "type": "official", "name": "MLS Soccer – 2026 FIFA World Cup All Squads", "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-all-squads" },
-    { "type": "official", "name": "FIFA CBS Sports – WC2026 Group Stage Standings Table", "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/" },
-    { "type": "social", "name": "Instagram – Aziz Behich WC2026 Match Reel", "url": "https://www.instagram.com/reel/DZg6878gIKK/" },
-    { "type": "media", "name": "WC26 Intelligence – Injuries Absences Squad Updates", "url": "https://fifa-26.com/en/injuries" },
-    { "type": "media", "name": "ESPN – WC2026 World Cup Predictions Picking the Winner Every Game", "url": "https://www.espn.com.au/football/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament" },
-    { "type": "media", "name": "MLS Soccer – Group B Preview Canada Bosnia Herzegovina Qatar Switzerland", "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-b-preview-canada-bosnia-herzegovina-qatar-switzerland" },
-    { "type": "model", "name": "ESPN AU – WC2026 Predictions Elo Ratings Group D Analysis", "url": "https://www.espn.com.au/football/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament" },
-    { "type": "media", "name": "FlashScore – Turkey at WC2026 Full Squad", "url": "https://www.flashscore.com.au/news/football-turkey-full-world-cup-squad-list/vc08XgF6/" },
-    { "type": "media", "name": "Soccergraph – World Cup 2026 Player Injury Tracker", "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html" },
-    { "type": "official", "name": "Wikipedia – Vincenzo Montella Profile", "url": "https://en.wikipedia.org/wiki/Vincenzo_Montella" }
+    {
+      "type": "model",
+      "name": "Opta Analyst – Qatar vs Switzerland and Brazil vs Morocco WC2026",
+      "url": "https://theanalyst.com/articles/qatar-vs-switzerland-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Al Jazeera – WC Day 3 Opta Simulations Brazil vs Morocco",
+      "url": "https://www.aljazeera.com/news/2026/6/13/fifa-world-cup-day-3-brazil-vs-morocco-prediction-schedule-what-to-know"
+    },
+    {
+      "type": "model",
+      "name": "WC2026 Intel – Brazil vs Morocco Win Probability",
+      "url": "https://wc2026intel.com/matches/1489371"
+    },
+    {
+      "type": "model",
+      "name": "Oxford Football Forecasting – Brazil vs Morocco Expected Goals",
+      "url": "https://fatih.ai/worldcup2026/match/7/"
+    },
+    {
+      "type": "model",
+      "name": "Onthepitch – WC2026 Prediction Methodology",
+      "url": "https://onthepitch.now/docs/methodology/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Brazil vs Morocco Preview & Lineups",
+      "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Brazil vs Morocco Best Bets & Score Prediction",
+      "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-picks-tips-odds-best-bets-2026-world-cup-group-c-117949"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil vs Morocco Kickoff Team News WC2026",
+      "url": "https://www.espn.com/soccer/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news"
+    },
+    {
+      "type": "media",
+      "name": "ESPN UK – Brazil vs Morocco WC2026",
+      "url": "https://www.espn.co.uk/football/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Brazil vs Morocco Odds Picks Prediction",
+      "url": "https://www.cbssports.com/soccer/news/brazil-vs-morocco-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-saturday/"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Brazil at WC2026 Vini Jr Neymar Ancelotti",
+      "url": "https://www.cbssports.com/soccer/news/brazil-at-2026-world-cup-everything-to-know-vini-jr-neymar-ancelotti/"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Brazil vs Morocco World Cup Team News Neymar",
+      "url": "https://www.aljazeera.com/sports/2026/6/13/brazil-vs-morocco-world-cup-team-news-neymar-start-time-and-how-to-watch"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Morocco WC2026 Preview Players Squad",
+      "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Morocco Cut Injured Aguerd Ezzalzouli",
+      "url": "https://www.espn.com/soccer/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Morocco Injuries Ezzalzouli Aguerd Out",
+      "url": "https://www.bbc.com/sport/football/articles/c5yrr1k6nxyo"
+    },
+    {
+      "type": "media",
+      "name": "BSS News – Morocco Replace Injured Ezzalzouli Aguerd",
+      "url": "https://www.bssnews.net/sports/395060"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports – Neymar Ruled Out Brazil vs Morocco",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/neymar-ruled-out-of-brazils-fifa-world-cup-2026-opener-against-afcon-winners-morocco-11631783"
+    },
+    {
+      "type": "media",
+      "name": "Mix Vale – Neymar Plays Today Brazil vs Morocco",
+      "url": "https://www.mixvale.com.br/2026/06/13/neymar-plays-today-brazil-vs-morocco-at-the-2026-fifa-world-cup-en/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Predicted Brazil Lineup vs Morocco",
+      "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/predicted-lineups/right-back-dilemma-for-ancelotti-predicted-brazil-lineup-vs-morocco_598949.html"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Brazil vs Morocco Lineups",
+      "url": "https://fwctimes.com/brazil-vs-morocco-lineups/"
+    },
+    {
+      "type": "media",
+      "name": "betinireland.ie – Brazil vs Morocco Prediction",
+      "url": "https://www.betinireland.ie/sports-betting/football/world-cup/brazil-v-morocco-june-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard – Brazil vs Morocco Prediction Kick-off TV",
+      "url": "https://www.standard.co.uk/sport/football/brazil-vs-morocco-prediction-kick-off-time-latest-team-news-tv-live-stream-h2h-results-odds-world-cup-2026-preview-today-b1285580.html"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com – Brazil vs Morocco Prediction Picks Odds",
+      "url": "https://www.covers.com/world-cup/brazil-vs-morocco-prediction-picks-odds-saturday-6-13-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Brazil vs Morocco WC2026 Match Page",
+      "url": "https://www.skysports.com/football/brazil-vs-morocco/549771"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports – Morocco Football Team 2026 WC Preview",
+      "url": "https://sports.yahoo.com/articles/morocco-football-team-2026-world-133500411.html"
+    },
+    {
+      "type": "media",
+      "name": "TWSN – Tactical Analysis June 13 Matches",
+      "url": "https://twsn.net/2026/06/13/fifa-world-cup-2026-tactical-analysis-and-predictions-for-the-june-13-matches/"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore – World Cup Group C Predictions Game 1",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-group-c-predictions-game-1/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – WC2026 Injuries Tracker Timber Netherlands",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "Economics Observatory – WC2026 Groups C and D Scorecasting",
+      "url": "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-c-and-d-what-does-scorecasting-suggest"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – WC2026 Pre-Draw Projections Supercomputer",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "betting",
+      "name": "BongDaPlus – Opta Brazil vs Morocco Simulation",
+      "url": "https://bongdaplus.vn/world-cup/sieu-may-tinh-du-doan-ket-qua-brazil-vs-morocco-world-cup-2026-5074352606.html"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – WC2026 Daily Hub Discussion",
+      "url": "https://www.reddit.com/r/soccer/comments/1u3rvcx/2026_fifa_world_cup_daily_hub/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Brazil vs Morocco FIFA WC2026 Previews Predictions",
+      "url": "https://www.youtube.com/watch?v=wOKWHjDJ71k"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – The Match That Decides Group C Brazil vs Morocco FIFA",
+      "url": "https://www.youtube.com/watch?v=sHL3NqaoE1Q"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Brazil vs Morocco Best Bets Picks Tips Odds",
+      "url": "https://www.youtube.com/watch?v=VBSN2BHXw18"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 3 World Cup Best Bets Brazil vs Morocco",
+      "url": "https://www.youtube.com/watch?v=AcQLEnxgPiU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Previewing Brazil Opening Fixture vs Morocco ESPN",
+      "url": "https://www.youtube.com/watch?v=7n6wiHGv3Xo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – FC 26 Group C Brazil vs Morocco Predictions",
+      "url": "https://www.youtube.com/watch?v=KtLACnna6Cg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – WORLD CUP 2026 PREVIEW MOROCCO",
+      "url": "https://www.youtube.com/watch?v=uRY7kyi8mcI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Ultimate 2026 World Cup Preview Full Bracket Predictions",
+      "url": "https://www.youtube.com/watch?v=RVU4Qqojn3c"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Day 3 World Cup Preview All Four Matches",
+      "url": "https://www.youtube.com/watch?v=LtFj4fe-HRI"
+    },
+    {
+      "type": "kol",
+      "name": "The Guardian – World Cup 2026 Preview Groups A-D Football Weekly Podcast",
+      "url": "https://www.theguardian.com/football/audio/2026/jun/08/world-cup-2026-preview-groups-a-d-football-weekly"
+    },
+    {
+      "type": "official",
+      "name": "MLS Soccer – 2026 FIFA World Cup All Squads",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-all-squads"
+    },
+    {
+      "type": "official",
+      "name": "FIFA CBS Sports – WC2026 Group Stage Standings Table",
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Aziz Behich WC2026 Match Reel",
+      "url": "https://www.instagram.com/reel/DZg6878gIKK/"
+    },
+    {
+      "type": "media",
+      "name": "WC26 Intelligence – Injuries Absences Squad Updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – WC2026 World Cup Predictions Picking the Winner Every Game",
+      "url": "https://www.espn.com.au/football/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer – Group B Preview Canada Bosnia Herzegovina Qatar Switzerland",
+      "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-b-preview-canada-bosnia-herzegovina-qatar-switzerland"
+    },
+    {
+      "type": "model",
+      "name": "ESPN AU – WC2026 Predictions Elo Ratings Group D Analysis",
+      "url": "https://www.espn.com.au/football/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "FlashScore – Turkey at WC2026 Full Squad",
+      "url": "https://www.flashscore.com.au/news/football-turkey-full-world-cup-squad-list/vc08XgF6/"
+    },
+    {
+      "type": "media",
+      "name": "Soccergraph – World Cup 2026 Player Injury Tracker",
+      "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Vincenzo Montella Profile",
+      "url": "https://en.wikipedia.org/wiki/Vincenzo_Montella"
+    }
   ],
-  "source_count": 52
+  "source_count": 52,
+  "kickoff_utc": "2026-06-13T22:00:00Z"
 }

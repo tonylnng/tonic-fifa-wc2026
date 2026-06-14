@@ -332,6 +332,32 @@
     }
   ],
   "source_count": 50,
-  "kickoff_utc": "2026-06-15T08:00:00Z",
-  "kickoff_hkt": "2026-06-15 16:00"
+  "kickoff_utc": "2026-06-15T02:00:00Z",
+  "kickoff_hkt": "2026-06-15 16:00",
+  "benchmarks": [
+    {
+      "source": "Dimers 模型",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.499,
+        "draw": 0.254,
+        "away": 0.247
+      },
+      "outcome": "home",
+      "scoreline": "2:0",
+      "note": "瑞典 49.9% 勝率"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.25,
+        "away": 0.23
+      },
+      "outcome": "home",
+      "scoreline": "2:0",
+      "note": "瑞典 -110、進攻火力佔優"
+    }
+  ]
 }

@@ -81,14 +81,14 @@
       "Panama"
     ]
   },
-  "last_updated": "2026-06-13T07:53:32.511979Z",
+  "last_updated": "2026-06-14T05:01:00Z",
   "fixtures": [
     {
       "match": 1,
       "stage": "Group A",
       "group": "A",
       "date": "2026-06-11",
-      "kickoff_local": "16:00",
+      "kickoff_local": "13:00",
       "home": "Mexico",
       "away": "South Africa",
       "venue": "Estadio Azteca",
@@ -99,13 +99,13 @@
         "away": 0
       },
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-11T22:00:00Z"
+      "kickoff_utc": "2026-06-11T19:00:00Z"
     },
     {
       "match": 2,
       "stage": "Group A",
       "group": "A",
-      "date": "2026-06-12",
+      "date": "2026-06-11",
       "kickoff_local": "20:00",
       "home": "South Korea",
       "away": "Czech Republic",
@@ -117,7 +117,7 @@
         "away": 1
       },
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-13T02:00:00Z"
+      "kickoff_utc": "2026-06-12T02:00:00Z"
     },
     {
       "match": 3,
@@ -141,7 +141,7 @@
       "match": 4,
       "stage": "Group D",
       "group": "D",
-      "date": "2026-06-13",
+      "date": "2026-06-12",
       "kickoff_local": "18:00",
       "home": "USA",
       "away": "Paraguay",
@@ -153,14 +153,14 @@
         "away": 1
       },
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-14T01:00:00Z"
+      "kickoff_utc": "2026-06-13T01:00:00Z"
     },
     {
       "match": 5,
       "stage": "Group B",
       "group": "B",
       "date": "2026-06-13",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "Qatar",
       "away": "Switzerland",
       "venue": "Levi's Stadium",
@@ -168,14 +168,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-14T02:00:00Z"
+      "kickoff_utc": "2026-06-13T19:00:00Z"
     },
     {
       "match": 6,
       "stage": "Group C",
       "group": "C",
       "date": "2026-06-13",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Brazil",
       "away": "Morocco",
       "venue": "MetLife Stadium",
@@ -183,14 +183,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-14T02:00:00Z"
+      "kickoff_utc": "2026-06-13T22:00:00Z"
     },
     {
       "match": 7,
       "stage": "Group C",
       "group": "C",
-      "date": "2026-06-14",
-      "kickoff_local": "01:00",
+      "date": "2026-06-13",
+      "kickoff_local": "21:00",
       "home": "Haiti",
       "away": "Scotland",
       "venue": "Gillette Stadium",
@@ -198,14 +198,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-14T05:00:00Z"
+      "kickoff_utc": "2026-06-14T01:00:00Z"
     },
     {
       "match": 8,
       "stage": "Group D",
       "group": "D",
-      "date": "2026-06-14",
-      "kickoff_local": "04:00",
+      "date": "2026-06-13",
+      "kickoff_local": "21:00",
       "home": "Australia",
       "away": "Turkey",
       "venue": "BC Place",
@@ -213,14 +213,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-06-14T11:00:00Z"
+      "kickoff_utc": "2026-06-14T04:00:00Z"
     },
     {
       "match": 9,
       "stage": "Group E",
       "group": "E",
       "date": "2026-06-14",
-      "kickoff_local": "17:00",
+      "kickoff_local": "12:00",
       "home": "Germany",
       "away": "Curacao",
       "venue": "NRG Stadium",
@@ -228,14 +228,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-14T22:00:00Z"
+      "kickoff_utc": "2026-06-14T17:00:00Z"
     },
     {
       "match": 10,
       "stage": "Group F",
       "group": "F",
       "date": "2026-06-14",
-      "kickoff_local": "20:00",
+      "kickoff_local": "15:00",
       "home": "Netherlands",
       "away": "Japan",
       "venue": "AT&T Stadium",
@@ -243,14 +243,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-15T01:00:00Z"
+      "kickoff_utc": "2026-06-14T20:00:00Z"
     },
     {
       "match": 11,
       "stage": "Group E",
       "group": "E",
       "date": "2026-06-14",
-      "kickoff_local": "23:00",
+      "kickoff_local": "19:00",
       "home": "Ivory Coast",
       "away": "Ecuador",
       "venue": "Lincoln Financial Field",
@@ -258,14 +258,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-15T03:00:00Z"
+      "kickoff_utc": "2026-06-14T23:00:00Z"
     },
     {
       "match": 12,
       "stage": "Group F",
       "group": "F",
-      "date": "2026-06-15",
-      "kickoff_local": "02:00",
+      "date": "2026-06-14",
+      "kickoff_local": "20:00",
       "home": "Sweden",
       "away": "Tunisia",
       "venue": "Estadio BBVA",
@@ -273,14 +273,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Monterrey",
-      "kickoff_utc": "2026-06-15T08:00:00Z"
+      "kickoff_utc": "2026-06-15T02:00:00Z"
     },
     {
       "match": 13,
       "stage": "Group H",
       "group": "H",
       "date": "2026-06-15",
-      "kickoff_local": "16:00",
+      "kickoff_local": "12:00",
       "home": "Spain",
       "away": "Cape Verde",
       "venue": "Mercedes-Benz Stadium",
@@ -288,14 +288,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-15T20:00:00Z"
+      "kickoff_utc": "2026-06-15T16:00:00Z"
     },
     {
       "match": 14,
       "stage": "Group G",
       "group": "G",
       "date": "2026-06-15",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "Belgium",
       "away": "Egypt",
       "venue": "Lumen Field",
@@ -303,14 +303,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-16T02:00:00Z"
+      "kickoff_utc": "2026-06-15T19:00:00Z"
     },
     {
       "match": 15,
       "stage": "Group H",
       "group": "H",
       "date": "2026-06-15",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Saudi Arabia",
       "away": "Uruguay",
       "venue": "Hard Rock Stadium",
@@ -318,14 +318,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-16T02:00:00Z"
+      "kickoff_utc": "2026-06-15T22:00:00Z"
     },
     {
       "match": 16,
       "stage": "Group G",
       "group": "G",
-      "date": "2026-06-16",
-      "kickoff_local": "01:00",
+      "date": "2026-06-15",
+      "kickoff_local": "18:00",
       "home": "Iran",
       "away": "New Zealand",
       "venue": "SoFi Stadium",
@@ -333,14 +333,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-16T08:00:00Z"
+      "kickoff_utc": "2026-06-16T01:00:00Z"
     },
     {
       "match": 17,
       "stage": "Group I",
       "group": "I",
       "date": "2026-06-16",
-      "kickoff_local": "19:00",
+      "kickoff_local": "15:00",
       "home": "France",
       "away": "Senegal",
       "venue": "MetLife Stadium",
@@ -348,14 +348,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-16T23:00:00Z"
+      "kickoff_utc": "2026-06-16T19:00:00Z"
     },
     {
       "match": 18,
       "stage": "Group I",
       "group": "I",
       "date": "2026-06-16",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Iraq",
       "away": "Norway",
       "venue": "Gillette Stadium",
@@ -363,14 +363,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-17T02:00:00Z"
+      "kickoff_utc": "2026-06-16T22:00:00Z"
     },
     {
       "match": 19,
       "stage": "Group J",
       "group": "J",
-      "date": "2026-06-17",
-      "kickoff_local": "01:00",
+      "date": "2026-06-16",
+      "kickoff_local": "20:00",
       "home": "Argentina",
       "away": "Algeria",
       "venue": "Arrowhead Stadium",
@@ -378,14 +378,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-17T06:00:00Z"
+      "kickoff_utc": "2026-06-17T01:00:00Z"
     },
     {
       "match": 20,
       "stage": "Group J",
       "group": "J",
-      "date": "2026-06-17",
-      "kickoff_local": "04:00",
+      "date": "2026-06-16",
+      "kickoff_local": "21:00",
       "home": "Austria",
       "away": "Jordan",
       "venue": "Levi's Stadium",
@@ -393,14 +393,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-17T11:00:00Z"
+      "kickoff_utc": "2026-06-17T04:00:00Z"
     },
     {
       "match": 21,
       "stage": "Group K",
       "group": "K",
       "date": "2026-06-17",
-      "kickoff_local": "17:00",
+      "kickoff_local": "12:00",
       "home": "Portugal",
       "away": "DR Congo",
       "venue": "NRG Stadium",
@@ -408,14 +408,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-17T22:00:00Z"
+      "kickoff_utc": "2026-06-17T17:00:00Z"
     },
     {
       "match": 22,
       "stage": "Group L",
       "group": "L",
       "date": "2026-06-17",
-      "kickoff_local": "20:00",
+      "kickoff_local": "15:00",
       "home": "England",
       "away": "Croatia",
       "venue": "AT&T Stadium",
@@ -423,14 +423,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-18T01:00:00Z"
+      "kickoff_utc": "2026-06-17T20:00:00Z"
     },
     {
       "match": 23,
       "stage": "Group L",
       "group": "L",
       "date": "2026-06-17",
-      "kickoff_local": "23:00",
+      "kickoff_local": "19:00",
       "home": "Ghana",
       "away": "Panama",
       "venue": "BMO Field",
@@ -438,14 +438,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Toronto",
-      "kickoff_utc": "2026-06-18T03:00:00Z"
+      "kickoff_utc": "2026-06-17T23:00:00Z"
     },
     {
       "match": 24,
       "stage": "Group K",
       "group": "K",
-      "date": "2026-06-18",
-      "kickoff_local": "02:00",
+      "date": "2026-06-17",
+      "kickoff_local": "20:00",
       "home": "Uzbekistan",
       "away": "Colombia",
       "venue": "Estadio Azteca",
@@ -453,14 +453,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-18T08:00:00Z"
+      "kickoff_utc": "2026-06-18T02:00:00Z"
     },
     {
       "match": 25,
       "stage": "Group A",
       "group": "A",
       "date": "2026-06-18",
-      "kickoff_local": "16:00",
+      "kickoff_local": "12:00",
       "home": "Czech Republic",
       "away": "South Africa",
       "venue": "Mercedes-Benz Stadium",
@@ -468,14 +468,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-18T20:00:00Z"
+      "kickoff_utc": "2026-06-18T16:00:00Z"
     },
     {
       "match": 26,
       "stage": "Group B",
       "group": "B",
       "date": "2026-06-18",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "Switzerland",
       "away": "Bosnia & Herzegovina",
       "venue": "SoFi Stadium",
@@ -483,14 +483,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-19T02:00:00Z"
+      "kickoff_utc": "2026-06-18T19:00:00Z"
     },
     {
       "match": 27,
       "stage": "Group B",
       "group": "B",
       "date": "2026-06-18",
-      "kickoff_local": "22:00",
+      "kickoff_local": "15:00",
       "home": "Canada",
       "away": "Qatar",
       "venue": "BC Place",
@@ -498,14 +498,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-06-19T05:00:00Z"
+      "kickoff_utc": "2026-06-18T22:00:00Z"
     },
     {
       "match": 28,
       "stage": "Group A",
       "group": "A",
-      "date": "2026-06-19",
-      "kickoff_local": "01:00",
+      "date": "2026-06-18",
+      "kickoff_local": "19:00",
       "home": "Mexico",
       "away": "South Korea",
       "venue": "Estadio Akron",
@@ -513,14 +513,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-19T07:00:00Z"
+      "kickoff_utc": "2026-06-19T01:00:00Z"
     },
     {
       "match": 29,
       "stage": "Group D",
       "group": "D",
       "date": "2026-06-19",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "USA",
       "away": "Australia",
       "venue": "Lumen Field",
@@ -528,14 +528,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-20T02:00:00Z"
+      "kickoff_utc": "2026-06-19T19:00:00Z"
     },
     {
       "match": 30,
       "stage": "Group C",
       "group": "C",
       "date": "2026-06-19",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Scotland",
       "away": "Morocco",
       "venue": "Gillette Stadium",
@@ -543,14 +543,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-20T02:00:00Z"
+      "kickoff_utc": "2026-06-19T22:00:00Z"
     },
     {
       "match": 31,
       "stage": "Group C",
       "group": "C",
-      "date": "2026-06-20",
-      "kickoff_local": "00:30",
+      "date": "2026-06-19",
+      "kickoff_local": "21:00",
       "home": "Brazil",
       "away": "Haiti",
       "venue": "Lincoln Financial Field",
@@ -558,14 +558,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-20T04:30:00Z"
+      "kickoff_utc": "2026-06-20T01:00:00Z"
     },
     {
       "match": 32,
       "stage": "Group D",
       "group": "D",
-      "date": "2026-06-20",
-      "kickoff_local": "03:00",
+      "date": "2026-06-19",
+      "kickoff_local": "21:00",
       "home": "Turkey",
       "away": "Paraguay",
       "venue": "Levi's Stadium",
@@ -573,14 +573,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-20T10:00:00Z"
+      "kickoff_utc": "2026-06-20T04:00:00Z"
     },
     {
       "match": 33,
       "stage": "Group F",
       "group": "F",
       "date": "2026-06-20",
-      "kickoff_local": "17:00",
+      "kickoff_local": "12:00",
       "home": "Netherlands",
       "away": "Sweden",
       "venue": "NRG Stadium",
@@ -588,14 +588,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-20T22:00:00Z"
+      "kickoff_utc": "2026-06-20T17:00:00Z"
     },
     {
       "match": 34,
       "stage": "Group E",
       "group": "E",
       "date": "2026-06-20",
-      "kickoff_local": "20:00",
+      "kickoff_local": "16:00",
       "home": "Germany",
       "away": "Ivory Coast",
       "venue": "BMO Field",
@@ -603,14 +603,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Toronto",
-      "kickoff_utc": "2026-06-21T00:00:00Z"
+      "kickoff_utc": "2026-06-20T20:00:00Z"
     },
     {
       "match": 35,
       "stage": "Group E",
       "group": "E",
-      "date": "2026-06-21",
-      "kickoff_local": "00:00",
+      "date": "2026-06-20",
+      "kickoff_local": "19:00",
       "home": "Ecuador",
       "away": "Curacao",
       "venue": "Arrowhead Stadium",
@@ -618,14 +618,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-21T05:00:00Z"
+      "kickoff_utc": "2026-06-21T00:00:00Z"
     },
     {
       "match": 36,
       "stage": "Group F",
       "group": "F",
-      "date": "2026-06-21",
-      "kickoff_local": "04:00",
+      "date": "2026-06-20",
+      "kickoff_local": "22:00",
       "home": "Tunisia",
       "away": "Japan",
       "venue": "Estadio BBVA",
@@ -633,14 +633,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Monterrey",
-      "kickoff_utc": "2026-06-21T10:00:00Z"
+      "kickoff_utc": "2026-06-21T04:00:00Z"
     },
     {
       "match": 37,
       "stage": "Group H",
       "group": "H",
       "date": "2026-06-21",
-      "kickoff_local": "16:00",
+      "kickoff_local": "12:00",
       "home": "Spain",
       "away": "Saudi Arabia",
       "venue": "Mercedes-Benz Stadium",
@@ -648,14 +648,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-21T20:00:00Z"
+      "kickoff_utc": "2026-06-21T16:00:00Z"
     },
     {
       "match": 38,
       "stage": "Group G",
       "group": "G",
       "date": "2026-06-21",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "Belgium",
       "away": "Iran",
       "venue": "SoFi Stadium",
@@ -663,14 +663,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-22T02:00:00Z"
+      "kickoff_utc": "2026-06-21T19:00:00Z"
     },
     {
       "match": 39,
       "stage": "Group H",
       "group": "H",
       "date": "2026-06-21",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Uruguay",
       "away": "Cape Verde",
       "venue": "Hard Rock Stadium",
@@ -678,14 +678,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-22T02:00:00Z"
+      "kickoff_utc": "2026-06-21T22:00:00Z"
     },
     {
       "match": 40,
       "stage": "Group G",
       "group": "G",
-      "date": "2026-06-22",
-      "kickoff_local": "01:00",
+      "date": "2026-06-21",
+      "kickoff_local": "18:00",
       "home": "New Zealand",
       "away": "Egypt",
       "venue": "BC Place",
@@ -693,14 +693,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-06-22T08:00:00Z"
+      "kickoff_utc": "2026-06-22T01:00:00Z"
     },
     {
       "match": 41,
       "stage": "Group J",
       "group": "J",
       "date": "2026-06-22",
-      "kickoff_local": "17:00",
+      "kickoff_local": "12:00",
       "home": "Argentina",
       "away": "Austria",
       "venue": "AT&T Stadium",
@@ -708,14 +708,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-22T22:00:00Z"
+      "kickoff_utc": "2026-06-22T17:00:00Z"
     },
     {
       "match": 42,
       "stage": "Group I",
       "group": "I",
       "date": "2026-06-22",
-      "kickoff_local": "21:00",
+      "kickoff_local": "17:00",
       "home": "France",
       "away": "Iraq",
       "venue": "Lincoln Financial Field",
@@ -723,14 +723,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-23T01:00:00Z"
+      "kickoff_utc": "2026-06-22T21:00:00Z"
     },
     {
       "match": 43,
       "stage": "Group I",
       "group": "I",
-      "date": "2026-06-23",
-      "kickoff_local": "00:00",
+      "date": "2026-06-22",
+      "kickoff_local": "20:00",
       "home": "Norway",
       "away": "Senegal",
       "venue": "MetLife Stadium",
@@ -738,14 +738,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-23T04:00:00Z"
+      "kickoff_utc": "2026-06-23T00:00:00Z"
     },
     {
       "match": 44,
       "stage": "Group J",
       "group": "J",
-      "date": "2026-06-23",
-      "kickoff_local": "03:00",
+      "date": "2026-06-22",
+      "kickoff_local": "20:00",
       "home": "Jordan",
       "away": "Algeria",
       "venue": "Levi's Stadium",
@@ -753,14 +753,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-23T10:00:00Z"
+      "kickoff_utc": "2026-06-23T03:00:00Z"
     },
     {
       "match": 45,
       "stage": "Group K",
       "group": "K",
       "date": "2026-06-23",
-      "kickoff_local": "17:00",
+      "kickoff_local": "12:00",
       "home": "Portugal",
       "away": "Uzbekistan",
       "venue": "NRG Stadium",
@@ -768,14 +768,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-23T22:00:00Z"
+      "kickoff_utc": "2026-06-23T17:00:00Z"
     },
     {
       "match": 46,
       "stage": "Group L",
       "group": "L",
       "date": "2026-06-23",
-      "kickoff_local": "20:00",
+      "kickoff_local": "16:00",
       "home": "England",
       "away": "Ghana",
       "venue": "Gillette Stadium",
@@ -783,14 +783,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-24T00:00:00Z"
+      "kickoff_utc": "2026-06-23T20:00:00Z"
     },
     {
       "match": 47,
       "stage": "Group L",
       "group": "L",
       "date": "2026-06-23",
-      "kickoff_local": "23:00",
+      "kickoff_local": "19:00",
       "home": "Panama",
       "away": "Croatia",
       "venue": "BMO Field",
@@ -798,14 +798,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Toronto",
-      "kickoff_utc": "2026-06-24T03:00:00Z"
+      "kickoff_utc": "2026-06-23T23:00:00Z"
     },
     {
       "match": 48,
       "stage": "Group K",
       "group": "K",
-      "date": "2026-06-24",
-      "kickoff_local": "02:00",
+      "date": "2026-06-23",
+      "kickoff_local": "20:00",
       "home": "Colombia",
       "away": "DR Congo",
       "venue": "Estadio Akron",
@@ -813,14 +813,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-24T08:00:00Z"
+      "kickoff_utc": "2026-06-24T02:00:00Z"
     },
     {
       "match": 49,
       "stage": "Group B",
       "group": "B",
       "date": "2026-06-24",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "Bosnia & Herzegovina",
       "away": "Qatar",
       "venue": "Lumen Field",
@@ -828,14 +828,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-25T02:00:00Z"
+      "kickoff_utc": "2026-06-24T19:00:00Z"
     },
     {
       "match": 50,
       "stage": "Group B",
       "group": "B",
       "date": "2026-06-24",
-      "kickoff_local": "19:00",
+      "kickoff_local": "12:00",
       "home": "Switzerland",
       "away": "Canada",
       "venue": "BC Place",
@@ -843,14 +843,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-06-25T02:00:00Z"
+      "kickoff_utc": "2026-06-24T19:00:00Z"
     },
     {
       "match": 51,
       "stage": "Group C",
       "group": "C",
       "date": "2026-06-24",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Scotland",
       "away": "Brazil",
       "venue": "Hard Rock Stadium",
@@ -858,14 +858,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-25T02:00:00Z"
+      "kickoff_utc": "2026-06-24T22:00:00Z"
     },
     {
       "match": 52,
       "stage": "Group C",
       "group": "C",
       "date": "2026-06-24",
-      "kickoff_local": "22:00",
+      "kickoff_local": "18:00",
       "home": "Morocco",
       "away": "Haiti",
       "venue": "Mercedes-Benz Stadium",
@@ -873,14 +873,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-25T02:00:00Z"
+      "kickoff_utc": "2026-06-24T22:00:00Z"
     },
     {
       "match": 53,
       "stage": "Group A",
       "group": "A",
-      "date": "2026-06-25",
-      "kickoff_local": "01:00",
+      "date": "2026-06-24",
+      "kickoff_local": "19:00",
       "home": "Czech Republic",
       "away": "Mexico",
       "venue": "Estadio Azteca",
@@ -888,14 +888,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-25T07:00:00Z"
+      "kickoff_utc": "2026-06-25T01:00:00Z"
     },
     {
       "match": 54,
       "stage": "Group A",
       "group": "A",
-      "date": "2026-06-25",
-      "kickoff_local": "01:00",
+      "date": "2026-06-24",
+      "kickoff_local": "19:00",
       "home": "South Africa",
       "away": "South Korea",
       "venue": "Estadio BBVA",
@@ -903,14 +903,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Monterrey",
-      "kickoff_utc": "2026-06-25T07:00:00Z"
+      "kickoff_utc": "2026-06-25T01:00:00Z"
     },
     {
       "match": 55,
       "stage": "Group E",
       "group": "E",
       "date": "2026-06-25",
-      "kickoff_local": "20:00",
+      "kickoff_local": "16:00",
       "home": "Ecuador",
       "away": "Germany",
       "venue": "MetLife Stadium",
@@ -918,14 +918,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-26T00:00:00Z"
+      "kickoff_utc": "2026-06-25T20:00:00Z"
     },
     {
       "match": 56,
       "stage": "Group E",
       "group": "E",
       "date": "2026-06-25",
-      "kickoff_local": "20:00",
+      "kickoff_local": "16:00",
       "home": "Curacao",
       "away": "Ivory Coast",
       "venue": "Lincoln Financial Field",
@@ -933,14 +933,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-26T00:00:00Z"
+      "kickoff_utc": "2026-06-25T20:00:00Z"
     },
     {
       "match": 57,
       "stage": "Group F",
       "group": "F",
       "date": "2026-06-25",
-      "kickoff_local": "23:00",
+      "kickoff_local": "18:00",
       "home": "Tunisia",
       "away": "Netherlands",
       "venue": "Arrowhead Stadium",
@@ -948,14 +948,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-26T04:00:00Z"
+      "kickoff_utc": "2026-06-25T23:00:00Z"
     },
     {
       "match": 58,
       "stage": "Group F",
       "group": "F",
       "date": "2026-06-25",
-      "kickoff_local": "23:00",
+      "kickoff_local": "18:00",
       "home": "Japan",
       "away": "Sweden",
       "venue": "AT&T Stadium",
@@ -963,14 +963,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-26T04:00:00Z"
+      "kickoff_utc": "2026-06-25T23:00:00Z"
     },
     {
       "match": 59,
       "stage": "Group D",
       "group": "D",
-      "date": "2026-06-26",
-      "kickoff_local": "02:00",
+      "date": "2026-06-25",
+      "kickoff_local": "19:00",
       "home": "Paraguay",
       "away": "Australia",
       "venue": "Levi's Stadium",
@@ -978,14 +978,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-26T09:00:00Z"
+      "kickoff_utc": "2026-06-26T02:00:00Z"
     },
     {
       "match": 60,
       "stage": "Group D",
       "group": "D",
-      "date": "2026-06-26",
-      "kickoff_local": "02:00",
+      "date": "2026-06-25",
+      "kickoff_local": "19:00",
       "home": "Turkey",
       "away": "USA",
       "venue": "SoFi Stadium",
@@ -993,14 +993,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-26T09:00:00Z"
+      "kickoff_utc": "2026-06-26T02:00:00Z"
     },
     {
       "match": 61,
       "stage": "Group I",
       "group": "I",
       "date": "2026-06-26",
-      "kickoff_local": "19:00",
+      "kickoff_local": "15:00",
       "home": "Senegal",
       "away": "Iraq",
       "venue": "BMO Field",
@@ -1008,14 +1008,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Toronto",
-      "kickoff_utc": "2026-06-26T23:00:00Z"
+      "kickoff_utc": "2026-06-26T19:00:00Z"
     },
     {
       "match": 62,
       "stage": "Group I",
       "group": "I",
       "date": "2026-06-26",
-      "kickoff_local": "19:00",
+      "kickoff_local": "15:00",
       "home": "Norway",
       "away": "France",
       "venue": "Gillette Stadium",
@@ -1023,14 +1023,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-26T23:00:00Z"
+      "kickoff_utc": "2026-06-26T19:00:00Z"
     },
     {
       "match": 63,
       "stage": "Group H",
       "group": "H",
-      "date": "2026-06-27",
-      "kickoff_local": "00:00",
+      "date": "2026-06-26",
+      "kickoff_local": "19:00",
       "home": "Cape Verde",
       "away": "Saudi Arabia",
       "venue": "NRG Stadium",
@@ -1038,14 +1038,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-27T05:00:00Z"
+      "kickoff_utc": "2026-06-27T00:00:00Z"
     },
     {
       "match": 64,
       "stage": "Group H",
       "group": "H",
-      "date": "2026-06-27",
-      "kickoff_local": "00:00",
+      "date": "2026-06-26",
+      "kickoff_local": "18:00",
       "home": "Uruguay",
       "away": "Spain",
       "venue": "Estadio Akron",
@@ -1053,14 +1053,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-06-27T06:00:00Z"
+      "kickoff_utc": "2026-06-27T00:00:00Z"
     },
     {
       "match": 65,
       "stage": "Group G",
       "group": "G",
-      "date": "2026-06-27",
-      "kickoff_local": "03:00",
+      "date": "2026-06-26",
+      "kickoff_local": "20:00",
       "home": "New Zealand",
       "away": "Belgium",
       "venue": "BC Place",
@@ -1068,14 +1068,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-06-27T10:00:00Z"
+      "kickoff_utc": "2026-06-27T03:00:00Z"
     },
     {
       "match": 66,
       "stage": "Group G",
       "group": "G",
-      "date": "2026-06-27",
-      "kickoff_local": "03:00",
+      "date": "2026-06-26",
+      "kickoff_local": "20:00",
       "home": "Egypt",
       "away": "Iran",
       "venue": "Lumen Field",
@@ -1083,14 +1083,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-06-27T10:00:00Z"
+      "kickoff_utc": "2026-06-27T03:00:00Z"
     },
     {
       "match": 67,
       "stage": "Group L",
       "group": "L",
       "date": "2026-06-27",
-      "kickoff_local": "21:00",
+      "kickoff_local": "17:00",
       "home": "Croatia",
       "away": "Ghana",
       "venue": "Lincoln Financial Field",
@@ -1098,14 +1098,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-28T01:00:00Z"
+      "kickoff_utc": "2026-06-27T21:00:00Z"
     },
     {
       "match": 68,
       "stage": "Group L",
       "group": "L",
       "date": "2026-06-27",
-      "kickoff_local": "21:00",
+      "kickoff_local": "17:00",
       "home": "Panama",
       "away": "England",
       "venue": "MetLife Stadium",
@@ -1113,14 +1113,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-28T01:00:00Z"
+      "kickoff_utc": "2026-06-27T21:00:00Z"
     },
     {
       "match": 69,
       "stage": "Group K",
       "group": "K",
       "date": "2026-06-27",
-      "kickoff_local": "23:30",
+      "kickoff_local": "19:30",
       "home": "Colombia",
       "away": "Portugal",
       "venue": "Hard Rock Stadium",
@@ -1128,14 +1128,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-28T03:30:00Z"
+      "kickoff_utc": "2026-06-27T23:30:00Z"
     },
     {
       "match": 70,
       "stage": "Group K",
       "group": "K",
       "date": "2026-06-27",
-      "kickoff_local": "23:30",
+      "kickoff_local": "19:30",
       "home": "DR Congo",
       "away": "Uzbekistan",
       "venue": "Mercedes-Benz Stadium",
@@ -1143,14 +1143,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-06-28T03:30:00Z"
+      "kickoff_utc": "2026-06-27T23:30:00Z"
     },
     {
       "match": 71,
       "stage": "Group J",
       "group": "J",
-      "date": "2026-06-28",
-      "kickoff_local": "02:00",
+      "date": "2026-06-27",
+      "kickoff_local": "21:00",
       "home": "Jordan",
       "away": "Argentina",
       "venue": "AT&T Stadium",
@@ -1158,14 +1158,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-28T07:00:00Z"
+      "kickoff_utc": "2026-06-28T02:00:00Z"
     },
     {
       "match": 72,
       "stage": "Group J",
       "group": "J",
-      "date": "2026-06-28",
-      "kickoff_local": "02:00",
+      "date": "2026-06-27",
+      "kickoff_local": "21:00",
       "home": "Algeria",
       "away": "Austria",
       "venue": "Arrowhead Stadium",
@@ -1173,14 +1173,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-06-28T07:00:00Z"
+      "kickoff_utc": "2026-06-28T02:00:00Z"
     },
     {
       "match": 73,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-01",
-      "kickoff_local": "20:00",
+      "date": "2026-06-28",
+      "kickoff_local": "15:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "MetLife Stadium",
@@ -1188,14 +1188,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-02T00:00:00Z"
+      "kickoff_utc": "2026-06-28T19:00:00Z"
     },
     {
       "match": 74,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-01",
-      "kickoff_local": "23:00",
+      "date": "2026-06-29",
+      "kickoff_local": "15:30",
       "home": "TBD",
       "away": "TBD",
       "venue": "AT&T Stadium",
@@ -1203,14 +1203,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-02T04:00:00Z"
+      "kickoff_utc": "2026-06-29T20:30:00Z"
     },
     {
       "match": 75,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-02",
-      "kickoff_local": "20:00",
+      "date": "2026-06-29",
+      "kickoff_local": "18:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "SoFi Stadium",
@@ -1218,14 +1218,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-07-03T03:00:00Z"
+      "kickoff_utc": "2026-06-30T01:00:00Z"
     },
     {
       "match": 76,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-02",
-      "kickoff_local": "23:00",
+      "date": "2026-06-29",
+      "kickoff_local": "12:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "NRG Stadium",
@@ -1233,14 +1233,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-03T04:00:00Z"
+      "kickoff_utc": "2026-06-29T17:00:00Z"
     },
     {
       "match": 77,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-03",
-      "kickoff_local": "02:00",
+      "date": "2026-06-30",
+      "kickoff_local": "15:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Estadio Azteca",
@@ -1248,14 +1248,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-07-03T08:00:00Z"
+      "kickoff_utc": "2026-06-30T21:00:00Z"
     },
     {
       "match": 78,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-03",
-      "kickoff_local": "20:00",
+      "date": "2026-06-30",
+      "kickoff_local": "13:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Hard Rock Stadium",
@@ -1263,14 +1263,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-04T00:00:00Z"
+      "kickoff_utc": "2026-06-30T17:00:00Z"
     },
     {
       "match": 79,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-03",
-      "kickoff_local": "22:00",
+      "date": "2026-06-30",
+      "kickoff_local": "18:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "BC Place",
@@ -1278,14 +1278,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-07-04T05:00:00Z"
+      "kickoff_utc": "2026-07-01T01:00:00Z"
     },
     {
       "match": 80,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-03",
-      "kickoff_local": "23:00",
+      "date": "2026-07-01",
+      "kickoff_local": "09:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Levi's Stadium",
@@ -1293,14 +1293,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-07-04T06:00:00Z"
+      "kickoff_utc": "2026-07-01T16:00:00Z"
     },
     {
       "match": 81,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-04",
-      "kickoff_local": "18:00",
+      "date": "2026-07-01",
+      "kickoff_local": "20:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Lincoln Financial Field",
@@ -1308,14 +1308,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-04T22:00:00Z"
+      "kickoff_utc": "2026-07-02T00:00:00Z"
     },
     {
       "match": 82,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-04",
-      "kickoff_local": "21:00",
+      "date": "2026-07-01",
+      "kickoff_local": "15:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Arrowhead Stadium",
@@ -1323,14 +1323,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-05T02:00:00Z"
+      "kickoff_utc": "2026-07-01T20:00:00Z"
     },
     {
       "match": 83,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-05",
-      "kickoff_local": "00:00",
+      "date": "2026-07-02",
+      "kickoff_local": "16:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Lumen Field",
@@ -1338,14 +1338,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-07-05T07:00:00Z"
+      "kickoff_utc": "2026-07-02T23:00:00Z"
     },
     {
       "match": 84,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-05",
-      "kickoff_local": "02:00",
+      "date": "2026-07-02",
+      "kickoff_local": "13:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Estadio BBVA",
@@ -1353,14 +1353,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Monterrey",
-      "kickoff_utc": "2026-07-05T08:00:00Z"
+      "kickoff_utc": "2026-07-02T19:00:00Z"
     },
     {
       "match": 85,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-05",
-      "kickoff_local": "22:00",
+      "date": "2026-07-02",
+      "kickoff_local": "23:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "BMO Field",
@@ -1368,14 +1368,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Toronto",
-      "kickoff_utc": "2026-07-06T02:00:00Z"
+      "kickoff_utc": "2026-07-03T03:00:00Z"
     },
     {
       "match": 86,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-06",
-      "kickoff_local": "00:00",
+      "date": "2026-07-03",
+      "kickoff_local": "18:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Mercedes-Benz Stadium",
@@ -1383,14 +1383,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-06T04:00:00Z"
+      "kickoff_utc": "2026-07-03T22:00:00Z"
     },
     {
       "match": 87,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-06",
-      "kickoff_local": "02:00",
+      "date": "2026-07-03",
+      "kickoff_local": "19:30",
       "home": "TBD",
       "away": "TBD",
       "venue": "Estadio Akron",
@@ -1398,14 +1398,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-07-06T08:00:00Z"
+      "kickoff_utc": "2026-07-04T01:30:00Z"
     },
     {
       "match": 88,
       "stage": "Round of 32",
       "group": null,
-      "date": "2026-07-06",
-      "kickoff_local": "22:00",
+      "date": "2026-07-03",
+      "kickoff_local": "14:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Gillette Stadium",
@@ -1413,14 +1413,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-07T02:00:00Z"
+      "kickoff_utc": "2026-07-03T18:00:00Z"
     },
     {
       "match": 89,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-07",
-      "kickoff_local": "23:00",
+      "date": "2026-07-04",
+      "kickoff_local": "17:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "MetLife Stadium",
@@ -1428,14 +1428,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-08T03:00:00Z"
+      "kickoff_utc": "2026-07-04T21:00:00Z"
     },
     {
       "match": 90,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-08",
-      "kickoff_local": "02:00",
+      "date": "2026-07-04",
+      "kickoff_local": "12:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "AT&T Stadium",
@@ -1443,14 +1443,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-08T07:00:00Z"
+      "kickoff_utc": "2026-07-04T17:00:00Z"
     },
     {
       "match": 91,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-08",
-      "kickoff_local": "23:00",
+      "date": "2026-07-05",
+      "kickoff_local": "13:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "SoFi Stadium",
@@ -1458,14 +1458,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-07-09T06:00:00Z"
+      "kickoff_utc": "2026-07-05T20:00:00Z"
     },
     {
       "match": 92,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-09",
-      "kickoff_local": "02:00",
+      "date": "2026-07-05",
+      "kickoff_local": "20:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Hard Rock Stadium",
@@ -1473,14 +1473,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-09T06:00:00Z"
+      "kickoff_utc": "2026-07-06T00:00:00Z"
     },
     {
       "match": 93,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-09",
-      "kickoff_local": "23:00",
+      "date": "2026-07-06",
+      "kickoff_local": "14:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "NRG Stadium",
@@ -1488,14 +1488,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-10T04:00:00Z"
+      "kickoff_utc": "2026-07-06T19:00:00Z"
     },
     {
       "match": 94,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-10",
-      "kickoff_local": "02:00",
+      "date": "2026-07-06",
+      "kickoff_local": "17:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Levi's Stadium",
@@ -1503,14 +1503,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-07-10T09:00:00Z"
+      "kickoff_utc": "2026-07-07T00:00:00Z"
     },
     {
       "match": 95,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-10",
-      "kickoff_local": "23:00",
+      "date": "2026-07-07",
+      "kickoff_local": "09:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "BC Place",
@@ -1518,14 +1518,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Vancouver",
-      "kickoff_utc": "2026-07-11T06:00:00Z"
+      "kickoff_utc": "2026-07-07T16:00:00Z"
     },
     {
       "match": 96,
       "stage": "Round of 16",
       "group": null,
-      "date": "2026-07-11",
-      "kickoff_local": "02:00",
+      "date": "2026-07-07",
+      "kickoff_local": "14:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Estadio Azteca",
@@ -1533,14 +1533,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Mexico_City",
-      "kickoff_utc": "2026-07-11T08:00:00Z"
+      "kickoff_utc": "2026-07-07T20:00:00Z"
     },
     {
       "match": 97,
       "stage": "Quarter-final",
       "group": null,
-      "date": "2026-07-11",
-      "kickoff_local": "22:00",
+      "date": "2026-07-09",
+      "kickoff_local": "16:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "MetLife Stadium",
@@ -1548,14 +1548,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-12T02:00:00Z"
+      "kickoff_utc": "2026-07-09T20:00:00Z"
     },
     {
       "match": 98,
       "stage": "Quarter-final",
       "group": null,
-      "date": "2026-07-12",
-      "kickoff_local": "01:00",
+      "date": "2026-07-10",
+      "kickoff_local": "14:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "AT&T Stadium",
@@ -1563,14 +1563,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-12T06:00:00Z"
+      "kickoff_utc": "2026-07-10T19:00:00Z"
     },
     {
       "match": 99,
       "stage": "Quarter-final",
       "group": null,
-      "date": "2026-07-12",
-      "kickoff_local": "22:00",
+      "date": "2026-07-11",
+      "kickoff_local": "14:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "SoFi Stadium",
@@ -1578,14 +1578,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Los_Angeles",
-      "kickoff_utc": "2026-07-13T05:00:00Z"
+      "kickoff_utc": "2026-07-11T21:00:00Z"
     },
     {
       "match": 100,
       "stage": "Quarter-final",
       "group": null,
-      "date": "2026-07-13",
-      "kickoff_local": "01:00",
+      "date": "2026-07-11",
+      "kickoff_local": "21:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Hard Rock Stadium",
@@ -1593,14 +1593,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-13T05:00:00Z"
+      "kickoff_utc": "2026-07-12T01:00:00Z"
     },
     {
       "match": 101,
       "stage": "Semi-final",
       "group": null,
       "date": "2026-07-14",
-      "kickoff_local": "23:00",
+      "kickoff_local": "14:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "AT&T Stadium",
@@ -1608,14 +1608,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/Chicago",
-      "kickoff_utc": "2026-07-15T04:00:00Z"
+      "kickoff_utc": "2026-07-14T19:00:00Z"
     },
     {
       "match": 102,
       "stage": "Semi-final",
       "group": null,
       "date": "2026-07-15",
-      "kickoff_local": "23:00",
+      "kickoff_local": "15:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "MetLife Stadium",
@@ -1623,14 +1623,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-16T03:00:00Z"
+      "kickoff_utc": "2026-07-15T19:00:00Z"
     },
     {
       "match": 103,
       "stage": "Third Place",
       "group": null,
       "date": "2026-07-18",
-      "kickoff_local": "22:00",
+      "kickoff_local": "17:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "Hard Rock Stadium",
@@ -1638,14 +1638,14 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-19T02:00:00Z"
+      "kickoff_utc": "2026-07-18T21:00:00Z"
     },
     {
       "match": 104,
       "stage": "Final",
       "group": null,
       "date": "2026-07-19",
-      "kickoff_local": "20:00",
+      "kickoff_local": "15:00",
       "home": "TBD",
       "away": "TBD",
       "venue": "MetLife Stadium",
@@ -1653,7 +1653,7 @@
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-20T00:00:00Z"
+      "kickoff_utc": "2026-07-19T19:00:00Z"
     }
   ]
 }

@@ -52,6 +52,18 @@ export async function registerRoutes(
     res.json(readJSON("accuracy.json"));
   });
 
+  app.get("/api/calibration", (_req, res) => {
+    res.json(readJSON("calibration.json"));
+  });
+
+  app.get("/api/postmortems", (_req, res) => {
+    res.json(readJSON("postmortems.json"));
+  });
+
+  app.get("/api/benchmark-scores", (_req, res) => {
+    res.json(readJSON("benchmark_scores.json"));
+  });
+
   // All predictions, grouped by match, sorted by run timestamp (latest first)
   app.get("/api/predictions", (_req, res) => {
     const dir = join(dataDir(), "predictions");

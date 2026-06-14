@@ -1,7 +1,7 @@
-import { Prediction, ResultItem, Fixture } from "@/lib/types";
+import { Prediction, ResultItem, Fixture, Benchmark } from "@/lib/types";
 import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
-import { kickoffHkt } from "@/lib/utils";
+import { kickoffHkt, countdown } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import {
   Dialog,
@@ -26,8 +26,54 @@ import {
   Clock,
   BarChart3,
   Layers,
+  Radio,
+  Hourglass,
+  Scale,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+/** 即時時鐘：每 30 秒更新一次，讓倒數標籤保持新鮮。 */
+function useNow(intervalMs = 30000) {
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), intervalMs);
+    return () => clearInterval(t);
+  }, [intervalMs]);
+  return now;
+}
+
+/** 倒數 / 進行中徽章。 */
+function CountdownBadge({
+  fixture,
+  now,
+}: {
+  fixture?: Fixture;
+  now: number;
+}) {
+  if (!fixture?.kickoff_utc) return null;
+  const c = countdown(fixture, now);
+  if (c.phase === "unknown" || c.phase === "past") return null;
+  if (c.phase === "live") {
+    return (
+      <span
+        className="inline-flex items-center gap-1 text-[11px] font-semibold text-destructive"
+        data-testid={`countdown-${fixture.match}`}
+      >
+        <Radio className="w-3 h-3 animate-pulse" /> {c.label}
+      </span>
+    );
+  }
+  return (
+    <span
+      className={`inline-flex items-center gap-1 text-[11px] font-medium ${
+        c.soon ? "text-chart-2" : "text-muted-foreground"
+      }`}
+      data-testid={`countdown-${fixture.match}`}
+    >
+      <Hourglass className="w-3 h-3" /> {c.label}
+    </span>
+  );
+}
 
 function TopScorelines({
   items,
@@ -94,6 +140,102 @@ function Scenarios({
             <p className="text-[11px] text-muted-foreground mt-1 leading-snug">
               {s.basis}
             </p>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/** 對比基準線：AI 預測 vs 博彩/Opta/預測市場並列。 */
+function Benchmarks({
+  ai,
+  items,
+}: {
+  ai: { scoreline: string; outcome: "home" | "draw" | "away"; win_prob: { home: number; draw: number; away: number }; confidence: number };
+  items: Benchmark[];
+}) {
+  const kindZh: Record<string, string> = {
+    betting: "博彩",
+    model: "模型",
+    market: "市場",
+    ai: "AI",
+  };
+  const rows: {
+    source: string;
+    kind: string;
+    scoreline?: string;
+    outcome: "home" | "draw" | "away";
+    win_prob: { home: number; draw: number; away: number };
+    isAI?: boolean;
+    note?: string;
+  }[] = [
+    {
+      source: "AI（本站）",
+      kind: "ai",
+      scoreline: ai.scoreline,
+      outcome: ai.outcome,
+      win_prob: ai.win_prob,
+      isAI: true,
+    },
+    ...items.map((b) => ({
+      source: b.source,
+      kind: b.kind,
+      scoreline: b.scoreline,
+      outcome: b.outcome,
+      win_prob: b.win_prob,
+      note: b.note,
+    })),
+  ];
+  return (
+    <div className="space-y-1.5">
+      {rows.map((r, i) => (
+        <div
+          key={i}
+          className={`rounded-lg border px-3 py-2 ${
+            r.isAI ? "border-primary/40 bg-primary/5" : "border-border"
+          }`}
+          data-testid={`benchmark-${i}`}
+        >
+          <div className="flex items-center justify-between gap-2">
+            <span className="flex items-center gap-1.5 text-xs font-semibold truncate">
+              {r.isAI && (
+                <Badge className="bg-primary text-primary-foreground text-[10px] px-1 py-0">
+                  AI
+                </Badge>
+              )}
+              {!r.isAI && (
+                <Badge variant="outline" className="text-[10px] px-1 py-0">
+                  {kindZh[r.kind] || r.kind}
+                </Badge>
+              )}
+              <span className="truncate">{r.source}</span>
+            </span>
+            <span className="flex items-center gap-2 shrink-0">
+              {r.scoreline && (
+                <span className="font-mono text-sm font-bold tabular-nums">
+                  {r.scoreline}
+                </span>
+              )}
+              <span className="text-[11px] text-muted-foreground">
+                {outcomeZh(r.outcome)}
+              </span>
+            </span>
+          </div>
+          <div className="flex items-center gap-1 mt-1.5">
+            <div className="flex h-1.5 flex-1 rounded-full overflow-hidden bg-muted">
+              <div className="bg-chart-1" style={{ width: `${Math.round(r.win_prob.home * 100)}%` }} />
+              <div className="bg-muted-foreground/40" style={{ width: `${Math.round(r.win_prob.draw * 100)}%` }} />
+              <div className="bg-chart-3" style={{ width: `${Math.round(r.win_prob.away * 100)}%` }} />
+            </div>
+          </div>
+          <div className="flex justify-between text-[10px] text-muted-foreground mt-1">
+            <span>主 {Math.round(r.win_prob.home * 100)}%</span>
+            <span>和 {Math.round(r.win_prob.draw * 100)}%</span>
+            <span>客 {Math.round(r.win_prob.away * 100)}%</span>
+          </div>
+          {r.note && (
+            <p className="text-[10px] text-muted-foreground mt-1 leading-snug">{r.note}</p>
           )}
         </div>
       ))}
@@ -259,9 +401,12 @@ export function PredictionCard({
   history?: Prediction[];
   fixture?: Fixture;
 }) {
+  const now = useNow();
   const kickoffStr = fixture ? kickoffHkt(fixture, { withWeekday: true }) : null;
+  const cd = fixture?.kickoff_utc ? countdown(fixture, now) : null;
   const top = pred.prediction.top_scorelines;
   const scenarios = pred.prediction.scenarios;
+  const benchmarks = pred.benchmarks;
   const correctOutcome = result && result.outcome === pred.prediction.outcome;
   const exactScore =
     result &&
@@ -272,7 +417,13 @@ export function PredictionCard({
     <Dialog>
       <DialogTrigger asChild>
         <button
-          className="text-left w-full bg-card border border-card-border rounded-xl p-4 hover-elevate active-elevate-2 transition"
+          className={`text-left w-full bg-card border rounded-xl p-4 hover-elevate active-elevate-2 transition ${
+            !result && cd?.phase === "live"
+              ? "border-destructive/60 ring-1 ring-destructive/30"
+              : !result && cd?.soon
+              ? "border-chart-2/60 ring-1 ring-chart-2/30"
+              : "border-card-border"
+          }`}
           data-testid={`card-prediction-${pred.match}`}
         >
           <div className="flex items-center justify-between mb-3">
@@ -334,9 +485,12 @@ export function PredictionCard({
           </div>
 
           {kickoffStr && (
-            <div className="flex items-center gap-1 mt-2.5 text-[11px] text-muted-foreground">
-              <Clock className="w-3 h-3" />
-              <span>{kickoffStr}（香港時間）</span>
+            <div className="flex items-center justify-between gap-2 mt-2.5">
+              <div className="flex items-center gap-1 text-[11px] text-muted-foreground">
+                <Clock className="w-3 h-3" />
+                <span>{kickoffStr}（香港時間）</span>
+              </div>
+              {!result && <CountdownBadge fixture={fixture} now={now} />}
             </div>
           )}
 
@@ -391,9 +545,12 @@ export function PredictionCard({
             </div>
 
             {kickoffStr && (
-              <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
-                <Clock className="w-4 h-4" />
-                <span>開賽：{kickoffStr}（香港時間）</span>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground flex-wrap">
+                <span className="flex items-center gap-1.5">
+                  <Clock className="w-4 h-4" />
+                  開賽：{kickoffStr}（香港時間）
+                </span>
+                {!result && <CountdownBadge fixture={fixture} now={now} />}
               </div>
             )}
 
@@ -417,6 +574,19 @@ export function PredictionCard({
                   多情境預測（{scenarios.length} 個角度）
                 </h4>
                 <Scenarios items={scenarios} />
+              </div>
+            )}
+
+            {benchmarks && benchmarks.length > 0 && (
+              <div>
+                <h4 className="text-sm font-semibold mb-2 flex items-center gap-1.5">
+                  <Scale className="w-4 h-4 text-chart-4" />
+                  AI vs 市場 vs 超級電腦（對比基準線）
+                </h4>
+                <Benchmarks ai={pred.prediction} items={benchmarks} />
+                <p className="text-[11px] text-muted-foreground mt-2">
+                  横條為三向勝負機率（主/和/客）；賽後可在「校準與基準」頁查看誰更準。
+                </p>
               </div>
             )}
 

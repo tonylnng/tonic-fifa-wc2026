@@ -332,6 +332,32 @@
     }
   ],
   "source_count": 50,
-  "kickoff_utc": "2026-06-14T02:00:00Z",
-  "kickoff_hkt": "2026-06-14 10:00"
+  "kickoff_utc": "2026-06-13T22:00:00Z",
+  "kickoff_hkt": "2026-06-14 10:00",
+  "benchmarks": [
+    {
+      "source": "Opta 超級電腦",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "outcome": "home",
+      "scoreline": "2:0",
+      "note": "Opta 看好巴西但摩洛哥防守頂級"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "outcome": "home",
+      "scoreline": "2:1",
+      "note": "巴西勝率約 55-60%"
+    }
+  ]
 }

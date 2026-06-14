@@ -9,10 +9,17 @@
   "run_timestamp": "2026-06-13T17:02:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": { "home": 2, "away": 1 },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
     "scoreline": "2:1",
     "outcome": "home",
-    "win_prob": { "home": 0.50, "draw": 0.22, "away": 0.28 },
+    "win_prob": {
+      "home": 0.5,
+      "draw": 0.22,
+      "away": 0.28
+    },
     "confidence": 0.58
   },
   "reasoning": {
@@ -29,56 +36,257 @@
     "dissent": "日本近期狀態優異（13場10勝），且2022年世界盃曾爆冷擊敗德國及西班牙，格外令人警惕。三笘薰缺席雖削弱邊路突破，但久保建英與上田綺世已足夠危險。部分博彩分析師（如Deadspin/BetOnline）提示日本-0.5勝率達35-40%，屬真正的「潛在爆冷熱門」，而非遠射冷門。"
   },
   "sources": [
-    { "type": "official", "name": "FIFA World Cup 2026 Group F Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F" },
-    { "type": "official", "name": "ESPN – Netherlands Confirm World Cup 2026 Squad", "url": "https://www.espn.com/soccer/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong-crysencio-summerville-picked" },
-    { "type": "official", "name": "Al Jazeera – Mitoma Fails to Make Japan Squad", "url": "https://www.aljazeera.com/sports/2026/5/15/mitoma-fails-to-make-japans-2026-world-cup-squad-due-to-hamstring-injury" },
-    { "type": "official", "name": "BBC – Captain Endo Out and Retires Japan", "url": "https://www.bbc.com/sport/football/articles/ckgpez39k50o" },
-    { "type": "official", "name": "ESPN – Mitoma Ruled Out World Cup Japan Squad", "url": "https://www.espn.com/soccer/story/_/id/48775615/kaoru-mitoma-ruled-world-cup-injury-takehiro-tomiyasu-recalled-japan-squad" },
-    { "type": "official", "name": "ESPN – Netherlands vs Japan TV Channel How To Watch", "url": "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups" },
-    { "type": "official", "name": "FOX Sports – Netherlands vs Japan Live Score June 14 2026", "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-netherlands-vs-japan-jun-14-2026-game-boxscore-647625" },
-    { "type": "media", "name": "Goal.com – Netherlands Squad World Cup 2026", "url": "https://www.goal.com/en-us/lists/netherlands-squad-world-cup-2026/bltab8e400140133c06" },
-    { "type": "media", "name": "Al Jazeera – Japan World Cup 2026 Team Preview", "url": "https://www.aljazeera.com/sports/2026/5/22/japans-world-cup-2026-team-preview-players-to-watch-group-squad" },
-    { "type": "media", "name": "The Guardian – Japan World Cup 2026 Team Guide", "url": "https://www.theguardian.com/football/2026/jun/02/japan-world-cup-2026-team-guide" },
-    { "type": "media", "name": "WTK Sports – World Cup 2026 Group F Preview Netherlands Japan Sweden Tunisia", "url": "https://wtksports.com/articles/world-cup-2026-group-f-preview-netherlands-japan-sweden-tunisia" },
-    { "type": "media", "name": "WTK Sports – Netherlands Tactical Preview 2026", "url": "https://wtksports.com/articles/netherlands-tactical-preview-world-cup-2026-koeman-van-dijk-de-jong" },
-    { "type": "media", "name": "WTK Sports – Netherlands vs Japan Prediction Group F", "url": "https://wtksports.com/articles/netherlands-vs-japan-prediction-world-cup-2026-group-f" },
-    { "type": "media", "name": "Sky Sports – World Cup 2026 Group F Guide", "url": "https://www.skysports.com/football/news/12021/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia" },
-    { "type": "media", "name": "ESPN – Could This World Cup Be Takefusa Kubo's Time to Shine", "url": "https://www.espn.com/soccer/story/_/id/48880665/fifa-world-cup-takefusa-kubo-shine-japan" },
-    { "type": "media", "name": "Beinsports – Netherlands Confirm Squad Frimpong Out", "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/isak-headlines-swedens-world-cup-squad-bardghji-and-kulusevski-absent-2026-05-12" },
-    { "type": "model", "name": "RotoWire – Netherlands vs Japan Lineups & Tactical Analysis", "url": "https://www.rotowire.com/soccer/article/netherlands-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-117958" },
-    { "type": "model", "name": "RotoWire – Group F Full Preview", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-f-preview-netherlands-japan-sweden-and-tunisia-lineups-odds-predictions-and-tactics-112643" },
-    { "type": "model", "name": "WC26 Intelligence – Netherlands Squad Stats", "url": "https://www.fifa-26.com/teams/netherlands" },
-    { "type": "model", "name": "United 2026 Guide – Japan Squad Formation", "url": "https://www.united-2026.com/teams/japan" },
-    { "type": "model", "name": "Opta Analyst – World Cup 2026 Supercomputer Projections", "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections" },
-    { "type": "model", "name": "ABHS.in – Netherlands vs Japan Upset Risk AI Analysis", "url": "https://www.abhs.in/blog/fifa-2026-june-14-predictions-germany-netherlands-japan-ivory-coast-sweden-ai" },
-    { "type": "betting", "name": "Sporting Life – Netherlands vs Japan Betting Odds", "url": "https://www.sportinglife.com/free-bets/news/netherlands-vs-japan-world-cup-2026/706" },
-    { "type": "betting", "name": "SportyTrader – Netherlands vs Japan Odds", "url": "https://www.sportytrader.com/en/odds/netherlands-japan-7937403/" },
-    { "type": "betting", "name": "Deadspin – Netherlands vs Japan Preview Lines Predictions", "url": "https://deadspin.com/betting/netherlands-vs-japan-world-cup-preview-picks-preview-odds-6-14-2026/" },
-    { "type": "betting", "name": "Goonersguide – Netherlands vs Japan Pick Japan +0.5", "url": "https://www.goonersguide.com/football-pick-59490-Netherlands-vs-Japan.htm" },
-    { "type": "forum", "name": "Reddit r/worldcup – Do You Think Japan Can Make Deep Run", "url": "https://www.reddit.com/r/worldcup/comments/1sc7yh2/do_you_think_japan_can_make_a_deep_run_at_the/" },
-    { "type": "forum", "name": "Reddit r/simcupsPredictions – Group F Simulation", "url": "https://www.reddit.com/r/simcupsPredictions/comments/1saaaek/prediction_2026_world_cup_group_f_simulation_with/" },
-    { "type": "kol", "name": "JuveFC – Netherlands vs Japan World Cup 2026 Prediction", "url": "https://www.juvefc.com/netherlands-v-japan-predictions/" },
-    { "type": "kol", "name": "Fanorate – Netherlands vs Japan Match Preview", "url": "https://www.fanorate.com/soccer-2026/match-previews/netherlands-vs-japan-world-cup-2026-preview/" },
-    { "type": "kol", "name": "WC2026 Report – Japan vs Netherlands Group F Outlook", "url": "https://www.wc2026report.com/en/news/japan-vs-netherlands-preview-group-f" },
-    { "type": "kol", "name": "WC2026 Report – Japan Squad 26-Man Predicted Announcement", "url": "https://www.wc2026report.com/en/news/japan-squad-announcement-may-15-2026" },
-    { "type": "youtube", "name": "YouTube – Netherlands vs Japan World Cup 2026 Preview (FIFA)", "url": "https://www.youtube.com/watch?v=XufN1wp62r0" },
-    { "type": "youtube", "name": "YouTube – Netherlands vs Japan Robert Ferringo Best Bets 6/14/26", "url": "https://www.youtube.com/watch?v=HzspNytK2NM" },
-    { "type": "youtube", "name": "YouTube – 2026 FIFA World Cup Netherlands vs Japan Preview", "url": "https://www.youtube.com/watch?v=QG50yHBfvcc" },
-    { "type": "youtube", "name": "YouTube – World Cup Group F Preview Netherlands Japan Sweden Tunisia", "url": "https://www.youtube.com/watch?v=13EhdaKX5I0" },
-    { "type": "youtube", "name": "YouTube – Could Curacao Do It Groups E+F WC2026 Preview", "url": "https://www.youtube.com/watch?v=FdSGylt1P90" },
-    { "type": "social", "name": "WC2026 Report – Japan Latest Squad Preview", "url": "https://www.wc2026report.com/en/news/japan-squad-announcement-may-15-2026" },
-    { "type": "media", "name": "Yahoo Sports – 2026 World Cup Group F Fixtures Schedule", "url": "https://sports.yahoo.com/soccer/article/2026-fifa-world-cup-daily-schedule-every-match-date-kickoff-time-and-venue-for-all-48-teams-234515087.html" },
-    { "type": "media", "name": "Sporting News – Alexander Isak Sweden Liverpool World Cup", "url": "https://www.sportingnews.com/uk/football/liverpool/news/alexander-isak-sweden-liverpool-world-cup/16cc2d8dd027c4cdf9e57c80" },
-    { "type": "media", "name": "ESPN SG – Sweden vs Tunisia Team Stats Espn", "url": "https://www.espn.com.sg/football/match/_/gameId/760424" },
-    { "type": "model", "name": "ThatSaGoal – Opta Supercomputer WC 2026 Netherlands 3.6%", "url": "https://www.thatsagoal.com/predictions/world-cup/opta-supercomputer-world-cup-2026-predictions" },
-    { "type": "media", "name": "Juve FC – Cote d'Ivoire v Ecuador Predictions (Group F context)", "url": "https://www.juvefc.com/cote-d-ivoire-v-ecuador-predictions/" },
-    { "type": "official", "name": "Sky Sports – Netherlands vs Japan Head to Head Form", "url": "https://www.skysports.com/football/sweden-vs-tunisia/549777" },
-    { "type": "media", "name": "WC2026 Report – Netherlands Japan Group F Matchday 1", "url": "https://www.wc2026report.com/en/news/japan-vs-netherlands-preview-group-f" },
-    { "type": "media", "name": "Beinsports – Ecuador Official Squad World Cup 2026", "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/sebasti%C3%A1n-beccacece-s-official-ecuador-squad-for-the-2026-fifa-world-cup-2026-06-01" },
-    { "type": "social", "name": "FotMob – Ivory Coast vs Ecuador Live Score Lineups", "url": "https://www.fotmob.com/matches/ecuador-vs-ivory-coast/1hl6kp" },
-    { "type": "media", "name": "Kalshi – FIFA World Cup Soccer Odds Netherlands Japan", "url": "https://kalshi.com/category/sports/soccer/fifa-world-cup/host-nation" },
-    { "type": "media", "name": "ESPN – Group F Preview Netherlands Japan Sweden Tunisia", "url": "https://www.espn.com/soccer/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026" },
-    { "type": "media", "name": "WhyFootball – Sweden Brief Graham Potter Isak Gyokeres", "url": "https://whyfootball.org/teams/sweden-brief" }
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 Group F Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Netherlands Confirm World Cup 2026 Squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong-crysencio-summerville-picked"
+    },
+    {
+      "type": "official",
+      "name": "Al Jazeera – Mitoma Fails to Make Japan Squad",
+      "url": "https://www.aljazeera.com/sports/2026/5/15/mitoma-fails-to-make-japans-2026-world-cup-squad-due-to-hamstring-injury"
+    },
+    {
+      "type": "official",
+      "name": "BBC – Captain Endo Out and Retires Japan",
+      "url": "https://www.bbc.com/sport/football/articles/ckgpez39k50o"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Mitoma Ruled Out World Cup Japan Squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48775615/kaoru-mitoma-ruled-world-cup-injury-takehiro-tomiyasu-recalled-japan-squad"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Netherlands vs Japan TV Channel How To Watch",
+      "url": "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "official",
+      "name": "FOX Sports – Netherlands vs Japan Live Score June 14 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-netherlands-vs-japan-jun-14-2026-game-boxscore-647625"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Netherlands Squad World Cup 2026",
+      "url": "https://www.goal.com/en-us/lists/netherlands-squad-world-cup-2026/bltab8e400140133c06"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Japan World Cup 2026 Team Preview",
+      "url": "https://www.aljazeera.com/sports/2026/5/22/japans-world-cup-2026-team-preview-players-to-watch-group-squad"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Japan World Cup 2026 Team Guide",
+      "url": "https://www.theguardian.com/football/2026/jun/02/japan-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "WTK Sports – World Cup 2026 Group F Preview Netherlands Japan Sweden Tunisia",
+      "url": "https://wtksports.com/articles/world-cup-2026-group-f-preview-netherlands-japan-sweden-tunisia"
+    },
+    {
+      "type": "media",
+      "name": "WTK Sports – Netherlands Tactical Preview 2026",
+      "url": "https://wtksports.com/articles/netherlands-tactical-preview-world-cup-2026-koeman-van-dijk-de-jong"
+    },
+    {
+      "type": "media",
+      "name": "WTK Sports – Netherlands vs Japan Prediction Group F",
+      "url": "https://wtksports.com/articles/netherlands-vs-japan-prediction-world-cup-2026-group-f"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – World Cup 2026 Group F Guide",
+      "url": "https://www.skysports.com/football/news/12021/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Could This World Cup Be Takefusa Kubo's Time to Shine",
+      "url": "https://www.espn.com/soccer/story/_/id/48880665/fifa-world-cup-takefusa-kubo-shine-japan"
+    },
+    {
+      "type": "media",
+      "name": "Beinsports – Netherlands Confirm Squad Frimpong Out",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/isak-headlines-swedens-world-cup-squad-bardghji-and-kulusevski-absent-2026-05-12"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – Netherlands vs Japan Lineups & Tactical Analysis",
+      "url": "https://www.rotowire.com/soccer/article/netherlands-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-117958"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – Group F Full Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-f-preview-netherlands-japan-sweden-and-tunisia-lineups-odds-predictions-and-tactics-112643"
+    },
+    {
+      "type": "model",
+      "name": "WC26 Intelligence – Netherlands Squad Stats",
+      "url": "https://www.fifa-26.com/teams/netherlands"
+    },
+    {
+      "type": "model",
+      "name": "United 2026 Guide – Japan Squad Formation",
+      "url": "https://www.united-2026.com/teams/japan"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Supercomputer Projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "model",
+      "name": "ABHS.in – Netherlands vs Japan Upset Risk AI Analysis",
+      "url": "https://www.abhs.in/blog/fifa-2026-june-14-predictions-germany-netherlands-japan-ivory-coast-sweden-ai"
+    },
+    {
+      "type": "betting",
+      "name": "Sporting Life – Netherlands vs Japan Betting Odds",
+      "url": "https://www.sportinglife.com/free-bets/news/netherlands-vs-japan-world-cup-2026/706"
+    },
+    {
+      "type": "betting",
+      "name": "SportyTrader – Netherlands vs Japan Odds",
+      "url": "https://www.sportytrader.com/en/odds/netherlands-japan-7937403/"
+    },
+    {
+      "type": "betting",
+      "name": "Deadspin – Netherlands vs Japan Preview Lines Predictions",
+      "url": "https://deadspin.com/betting/netherlands-vs-japan-world-cup-preview-picks-preview-odds-6-14-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Goonersguide – Netherlands vs Japan Pick Japan +0.5",
+      "url": "https://www.goonersguide.com/football-pick-59490-Netherlands-vs-Japan.htm"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Do You Think Japan Can Make Deep Run",
+      "url": "https://www.reddit.com/r/worldcup/comments/1sc7yh2/do_you_think_japan_can_make_a_deep_run_at_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/simcupsPredictions – Group F Simulation",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1saaaek/prediction_2026_world_cup_group_f_simulation_with/"
+    },
+    {
+      "type": "kol",
+      "name": "JuveFC – Netherlands vs Japan World Cup 2026 Prediction",
+      "url": "https://www.juvefc.com/netherlands-v-japan-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "Fanorate – Netherlands vs Japan Match Preview",
+      "url": "https://www.fanorate.com/soccer-2026/match-previews/netherlands-vs-japan-world-cup-2026-preview/"
+    },
+    {
+      "type": "kol",
+      "name": "WC2026 Report – Japan vs Netherlands Group F Outlook",
+      "url": "https://www.wc2026report.com/en/news/japan-vs-netherlands-preview-group-f"
+    },
+    {
+      "type": "kol",
+      "name": "WC2026 Report – Japan Squad 26-Man Predicted Announcement",
+      "url": "https://www.wc2026report.com/en/news/japan-squad-announcement-may-15-2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Netherlands vs Japan World Cup 2026 Preview (FIFA)",
+      "url": "https://www.youtube.com/watch?v=XufN1wp62r0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Netherlands vs Japan Robert Ferringo Best Bets 6/14/26",
+      "url": "https://www.youtube.com/watch?v=HzspNytK2NM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Netherlands vs Japan Preview",
+      "url": "https://www.youtube.com/watch?v=QG50yHBfvcc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – World Cup Group F Preview Netherlands Japan Sweden Tunisia",
+      "url": "https://www.youtube.com/watch?v=13EhdaKX5I0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Could Curacao Do It Groups E+F WC2026 Preview",
+      "url": "https://www.youtube.com/watch?v=FdSGylt1P90"
+    },
+    {
+      "type": "social",
+      "name": "WC2026 Report – Japan Latest Squad Preview",
+      "url": "https://www.wc2026report.com/en/news/japan-squad-announcement-may-15-2026"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports – 2026 World Cup Group F Fixtures Schedule",
+      "url": "https://sports.yahoo.com/soccer/article/2026-fifa-world-cup-daily-schedule-every-match-date-kickoff-time-and-venue-for-all-48-teams-234515087.html"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – Alexander Isak Sweden Liverpool World Cup",
+      "url": "https://www.sportingnews.com/uk/football/liverpool/news/alexander-isak-sweden-liverpool-world-cup/16cc2d8dd027c4cdf9e57c80"
+    },
+    {
+      "type": "media",
+      "name": "ESPN SG – Sweden vs Tunisia Team Stats Espn",
+      "url": "https://www.espn.com.sg/football/match/_/gameId/760424"
+    },
+    {
+      "type": "model",
+      "name": "ThatSaGoal – Opta Supercomputer WC 2026 Netherlands 3.6%",
+      "url": "https://www.thatsagoal.com/predictions/world-cup/opta-supercomputer-world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC – Cote d'Ivoire v Ecuador Predictions (Group F context)",
+      "url": "https://www.juvefc.com/cote-d-ivoire-v-ecuador-predictions/"
+    },
+    {
+      "type": "official",
+      "name": "Sky Sports – Netherlands vs Japan Head to Head Form",
+      "url": "https://www.skysports.com/football/sweden-vs-tunisia/549777"
+    },
+    {
+      "type": "media",
+      "name": "WC2026 Report – Netherlands Japan Group F Matchday 1",
+      "url": "https://www.wc2026report.com/en/news/japan-vs-netherlands-preview-group-f"
+    },
+    {
+      "type": "media",
+      "name": "Beinsports – Ecuador Official Squad World Cup 2026",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/sebasti%C3%A1n-beccacece-s-official-ecuador-squad-for-the-2026-fifa-world-cup-2026-06-01"
+    },
+    {
+      "type": "social",
+      "name": "FotMob – Ivory Coast vs Ecuador Live Score Lineups",
+      "url": "https://www.fotmob.com/matches/ecuador-vs-ivory-coast/1hl6kp"
+    },
+    {
+      "type": "media",
+      "name": "Kalshi – FIFA World Cup Soccer Odds Netherlands Japan",
+      "url": "https://kalshi.com/category/sports/soccer/fifa-world-cup/host-nation"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Group F Preview Netherlands Japan Sweden Tunisia",
+      "url": "https://www.espn.com/soccer/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026"
+    },
+    {
+      "type": "media",
+      "name": "WhyFootball – Sweden Brief Graham Potter Isak Gyokeres",
+      "url": "https://whyfootball.org/teams/sweden-brief"
+    }
   ],
-  "source_count": 50
+  "source_count": 50,
+  "kickoff_utc": "2026-06-14T20:00:00Z"
 }

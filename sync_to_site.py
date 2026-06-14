@@ -7,7 +7,8 @@ BASE = "/home/user/workspace/wc2026/data"
 SITE = "/home/user/workspace/wc2026/site/data"
 
 os.makedirs(os.path.join(SITE, "predictions"), exist_ok=True)
-for f in ["fixtures.json", "results.json", "accuracy.json"]:
+for f in ["fixtures.json", "results.json", "accuracy.json",
+          "calibration.json", "postmortems.json", "benchmark_scores.json"]:
     src = os.path.join(BASE, f)
     if os.path.exists(src):
         shutil.copy2(src, os.path.join(SITE, f))

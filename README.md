@@ -41,14 +41,18 @@
 
 | 路徑 | 用途 |
 |------|------|
-| `site/` | 全端網站（Express + Vite + React + Tailwind）：密碼登入、賽程 Master List、AI 預測卡（附 50+ 來源連結）、結果與準確率儀表板 |
-| `site/data/fixtures.json` | 104 場賽程 Master List（48 隊分 A–L 組 + 淘汰賽路徑） |
+| `site/` | 全端網站（Express + Vite + React + Tailwind）：賽程 Master List、AI 預測卡（附 50+ 來源連結 + 賽前倒數）、結果與準確率儀表板、校準與基準、賽後覆盤（無密碼，公開） |
+| `site/data/fixtures.json` | 104 場賽程 Master List（48 隊分 A–L 組 + 淘汰賽路徑），含權威 `kickoff_utc`（前端統一轉香港時間） |
 | `site/data/results.json` | 已完成比賽的最終比分 |
 | `site/data/accuracy.json` | 勝負命中率、比分命中率統計 |
-| `site/data/predictions/` | 每場每批次獨立保存的預測 JSON（永不覆蓋，檔名含 run_id） |
+| `site/data/calibration.json` | 信心校準：信心分桶 vs 實際命中率、Brier、ECE、過度自信 |
+| `site/data/benchmark_scores.json` | AI vs 博彩／Opta／預測市場 的並列計分排行榜 |
+| `site/data/postmortems.json` | 賽後覆盤：每場「為何命中／失準」短評（可搜尋知識庫） |
+| `site/data/predictions/` | 每場每批次獨立保存的預測 JSON（永不覆蓋，檔名含 run_id），含 top_scorelines／scenarios／benchmarks |
 | `Dockerfile` / `docker-compose.yml` | 自架部署用的容器設定 |
 | `deploy/` | 伺服器自動拉取與重啟工具（webhook + systemd timer + Nginx 設定） |
-| `update_accuracy.py` `sync_to_site.py` `push_to_github.py` | 雲端排程每輪呼叫的資料處理腳本 |
+| `update_accuracy.py` `compute_calibration.py` `compute_benchmark_scores.py` `build_postmortems.py` `sync_to_site.py` `push_to_github.py` | 雲端排程每輪呼叫的資料處理腳本 |
+| `fix_fixture_times.py` | 一次性開賽時間校正腳本（以權威 UTC 賽程修正 fixtures） |
 | `CRON_RUNBOOK.md` | 雲端排程每輪執行的完整手冊 |
 | `automation/排程自動化總覽.md` | 整套自動化邏輯與檔案說明 |
 | `docs/architecture.svg` | 上方的動態架構圖（overview） |

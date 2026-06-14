@@ -10,10 +10,12 @@ import {
 } from "@/lib/types";
 import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
-import { kickoffHkt } from "@/lib/utils";
+import { kickoffHkt, countdown } from "@/lib/utils";
 import { Header } from "@/components/Header";
 import { PredictionCard } from "@/components/PredictionCard";
 import { TrendsTab } from "@/components/TrendsTab";
+import { CalibrationTab } from "@/components/CalibrationTab";
+import { PostmortemsTab } from "@/components/PostmortemsTab";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -105,6 +107,8 @@ export default function Dashboard() {
   const isHistorical = snapshot !== "latest";
 
   // The prediction shown per match for the currently selected snapshot.
+  // Feature A: upcoming / live matches are pinned to the top, sorted by
+  // proximity to kickoff; completed and past matches fall to the bottom.
   const shownList = useMemo(() => {
     const out: any[] = [];
     for (const [, list] of Object.entries(preds)) {
@@ -118,8 +122,42 @@ export default function Dashboard() {
         if (pick) out.push(pick);
       }
     }
-    return out.sort((a, b) => a.match - b.match);
-  }, [preds, snapshot]);
+    // Historical snapshots keep the simple match-number order.
+    if (snapshot !== "latest") {
+      return out.sort((a, b) => a.match - b.match);
+    }
+    const now = Date.now();
+    // rank: 0 = live, 1 = upcoming (sooner first), 2 = completed, 3 = past-no-result
+    const rankOf = (p: any) => {
+      const f = fixtureByMatch[p.match];
+      const done = !!resultByMatch[p.match];
+      const c = f?.kickoff_utc ? countdown(f, now) : null;
+      if (!done && c?.phase === "live") return 0;
+      if (!done && c?.phase === "upcoming") return 1;
+      if (done) return 2;
+      return 3;
+    };
+    return out.sort((a, b) => {
+      const ra = rankOf(a);
+      const rb = rankOf(b);
+      if (ra !== rb) return ra - rb;
+      const fa = fixtureByMatch[a.match];
+      const fb = fixtureByMatch[b.match];
+      // Within upcoming/live: soonest kickoff first.
+      if (ra <= 1) {
+        const ta = fa?.kickoff_utc ? new Date(fa.kickoff_utc).getTime() : Infinity;
+        const tb = fb?.kickoff_utc ? new Date(fb.kickoff_utc).getTime() : Infinity;
+        if (ta !== tb) return ta - tb;
+      }
+      // Completed: most recent kickoff first; otherwise by match number.
+      if (ra === 2) {
+        const ta = fa?.kickoff_utc ? new Date(fa.kickoff_utc).getTime() : 0;
+        const tb = fb?.kickoff_utc ? new Date(fb.kickoff_utc).getTime() : 0;
+        if (ta !== tb) return tb - ta;
+      }
+      return a.match - b.match;
+    });
+  }, [preds, snapshot, fixtureByMatch, resultByMatch]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -200,6 +238,12 @@ export default function Dashboard() {
             <TabsTrigger value="results" data-testid="tab-results">
               結果與準確率
             </TabsTrigger>
+            <TabsTrigger value="calibration" data-testid="tab-calibration">
+              校準與基準
+            </TabsTrigger>
+            <TabsTrigger value="postmortems" data-testid="tab-postmortems">
+              賽後覆盤
+            </TabsTrigger>
           </TabsList>
 
           {/* PREDICTIONS */}
@@ -221,7 +265,7 @@ export default function Dashboard() {
                   <p className="text-sm text-muted-foreground flex-1">
                     {isHistorical
                       ? "正在檢視歷史批次快照（點擊卡片可看完整分析與歷史演變）"
-                      : "最新批次每場比賽的 AI 預測（點擊卡片可看完整分析、來源與歷史版本）"}
+                      : "即將開賽的比賽已自動置頂並顯示倒數；點擊卡片可看完整分析、來源與歷史版本。"}
                   </p>
                   <div className="flex items-center gap-2">
                     <History className="w-4 h-4 text-muted-foreground" />
@@ -284,6 +328,16 @@ export default function Dashboard() {
           {/* RESULTS */}
           <TabsContent value="results">
             <ResultsTab results={results} preds={preds} accuracy={accuracy} />
+          </TabsContent>
+
+          {/* CALIBRATION & BENCHMARKS */}
+          <TabsContent value="calibration">
+            <CalibrationTab />
+          </TabsContent>
+
+          {/* POSTMORTEMS */}
+          <TabsContent value="postmortems">
+            <PostmortemsTab />
           </TabsContent>
         </Tabs>
 

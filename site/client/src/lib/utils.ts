@@ -42,3 +42,51 @@ export function kickoffHkt(
   }
   return `${f.date.slice(5)} ${f.kickoff_local}`;
 }
+
+/** 賽前倒數狀態。根據 kickoff_utc 與當前時間，回傳供「即將開賽 / 進行中 / 已結束」標記用的資訊。
+ *  - phase: upcoming（未開賽）| live（開賽後 ~2.5h 內，視為進行中）| past（已結束）| unknown（無 kickoff_utc）
+ *  - msToKick: 距離開賽的毫秒數（負值代表已開賽）
+ *  - label: 繁中倒數標籤，例如「3 小時後開賽」「12 分鐘後開賽」「進行中」
+ *  - soon: 是否在 24 小時內開賽（用於置頂與醒目標記） */
+export interface CountdownInfo {
+  phase: "upcoming" | "live" | "past" | "unknown";
+  msToKick: number;
+  label: string;
+  soon: boolean;
+}
+
+const LIVE_WINDOW_MS = 2.5 * 60 * 60 * 1000; // 開賽後 2.5 小時內視為進行中
+
+export function countdown(
+  f: { kickoff_utc?: string },
+  now: number = Date.now()
+): CountdownInfo {
+  if (!f.kickoff_utc) {
+    return { phase: "unknown", msToKick: Infinity, label: "", soon: false };
+  }
+  const kick = new Date(f.kickoff_utc).getTime();
+  if (isNaN(kick)) {
+    return { phase: "unknown", msToKick: Infinity, label: "", soon: false };
+  }
+  const ms = kick - now;
+  if (ms <= 0) {
+    if (-ms <= LIVE_WINDOW_MS) {
+      return { phase: "live", msToKick: ms, label: "進行中", soon: false };
+    }
+    return { phase: "past", msToKick: ms, label: "已開賽", soon: false };
+  }
+  const soon = ms <= 24 * 60 * 60 * 1000;
+  const totalMin = Math.floor(ms / 60000);
+  const days = Math.floor(totalMin / (60 * 24));
+  const hours = Math.floor((totalMin % (60 * 24)) / 60);
+  const mins = totalMin % 60;
+  let label: string;
+  if (days >= 1) {
+    label = hours > 0 ? `${days} 天 ${hours} 小時後開賽` : `${days} 天後開賽`;
+  } else if (hours >= 1) {
+    label = mins > 0 ? `${hours} 小時 ${mins} 分鐘後開賽` : `${hours} 小時後開賽`;
+  } else {
+    label = `${Math.max(mins, 1)} 分鐘後開賽`;
+  }
+  return { phase: "upcoming", msToKick: ms, label, soon };
+}

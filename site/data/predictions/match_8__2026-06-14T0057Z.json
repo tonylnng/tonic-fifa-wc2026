@@ -332,6 +332,43 @@
     }
   ],
   "source_count": 50,
-  "kickoff_utc": "2026-06-14T11:00:00Z",
-  "kickoff_hkt": "2026-06-14 19:00"
+  "kickoff_utc": "2026-06-14T04:00:00Z",
+  "kickoff_hkt": "2026-06-14 19:00",
+  "benchmarks": [
+    {
+      "source": "Opta 超級電腦",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.205,
+        "draw": 0.241,
+        "away": 0.553
+      },
+      "outcome": "away",
+      "scoreline": "1:2",
+      "note": "土耳其 55.3% 勝率（10,000 次模擬）"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.24,
+        "draw": 0.24,
+        "away": 0.52
+      },
+      "outcome": "away",
+      "scoreline": "1:2",
+      "note": "土耳其約 -140 至 -160"
+    },
+    {
+      "source": "Polymarket 預測市場",
+      "kind": "market",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.225,
+        "away": 0.575
+      },
+      "outcome": "away",
+      "note": "土耳其 57.5%"
+    }
+  ]
 }

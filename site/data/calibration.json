@@ -1,0 +1,65 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "last_updated": "2026-06-14T04:48:32Z",
+  "total_evaluated": 2,
+  "buckets": [
+    {
+      "bucket": "<50%",
+      "lower": 0.0,
+      "upper": 0.5,
+      "mid": 0.25,
+      "count": 0,
+      "hit_rate": null,
+      "avg_confidence": null
+    },
+    {
+      "bucket": "50-60%",
+      "lower": 0.5,
+      "upper": 0.6,
+      "mid": 0.55,
+      "count": 0,
+      "hit_rate": null,
+      "avg_confidence": null
+    },
+    {
+      "bucket": "60-70%",
+      "lower": 0.6,
+      "upper": 0.7,
+      "mid": 0.65,
+      "count": 1,
+      "hit_rate": 0.0,
+      "avg_confidence": 0.62
+    },
+    {
+      "bucket": "70-80%",
+      "lower": 0.7,
+      "upper": 0.8,
+      "mid": 0.75,
+      "count": 1,
+      "hit_rate": 0.0,
+      "avg_confidence": 0.76
+    },
+    {
+      "bucket": "80-90%",
+      "lower": 0.8,
+      "upper": 0.9,
+      "mid": 0.85,
+      "count": 0,
+      "hit_rate": null,
+      "avg_confidence": null
+    },
+    {
+      "bucket": "90-100%",
+      "lower": 0.9,
+      "upper": 1.0,
+      "mid": 0.95,
+      "count": 0,
+      "hit_rate": null,
+      "avg_confidence": null
+    }
+  ],
+  "brier_score": 0.4667,
+  "ece": 0.69,
+  "overconfidence": 0.69,
+  "notes": "目前僅 2 場樣本，校準結果僅供參考，樣本越多越可靠。"
+}

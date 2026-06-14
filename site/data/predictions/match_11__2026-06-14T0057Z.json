@@ -337,6 +337,31 @@
     }
   ],
   "source_count": 51,
-  "kickoff_utc": "2026-06-15T03:00:00Z",
-  "kickoff_hkt": "2026-06-15 11:00"
+  "kickoff_utc": "2026-06-14T23:00:00Z",
+  "kickoff_hkt": "2026-06-15 11:00",
+  "benchmarks": [
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.31,
+        "away": 0.39
+      },
+      "outcome": "away",
+      "note": "厄瓜多爾為大熱、平局 +194 受推薦"
+    },
+    {
+      "source": "NerdyTips 模型",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "outcome": "away",
+      "scoreline": "1:2",
+      "note": "主推 2.5 球以下、低比分"
+    }
+  ]
 }

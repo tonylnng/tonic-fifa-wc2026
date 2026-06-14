@@ -1,0 +1,54 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "last_updated": "2026-06-14T04:43:31Z",
+  "postmortems": [
+    {
+      "match": 5,
+      "home": "Qatar",
+      "away": "Switzerland",
+      "stage": "Group B",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-14T0057Z",
+      "model": "claude-opus-4.8",
+      "headline": "AI 重押瑞士兩球大勝，卻被卡塔爾逼平爆冷",
+      "review": "AI 以 76% 信心預測瑞士 0:2 客勝，主要依據是博彩盤口（瑞士 -310 至 -426）、Opta 與 ESPN Elo 模型一面倒看好瑞士，以及 B 組被視為全賽事最弱組別。實際上瑞士雖控球佔優，但鋒線缺乏終結者的隱憂（Embolo 狀態平平、Vargas 賽前存疑）正是賽前反方觀點所警示之處，最終攻堅乏力。卡塔爾則如預期採低位防守加快速反擊，由 Akram Afif 製造威脅並把握機會破門逼和。這場是典型的『強隊預期進球未兌現 + 弱隊防反奏效』失準案例。",
+      "lessons": [
+        "強隊缺乏穩定射手時，應下修『大比分獲勝』的信心，避免被盤口與超級電腦的樂觀預期帶偏",
+        "賽前已點明的反方風險（鋒線終結力、關鍵傷兵存疑）若成立，模型共識的命中率會明顯下降",
+        "世界盃開幕階段強隊普遍慢熱，低位防反的弱隊更容易偷分，平局機率被系統性低估"
+      ],
+      "vs_benchmarks": "博彩與 Opta 同樣看好瑞士勝出（隱含勝率約 70-79%），與 AI 一致，因此本場屬市場與模型集體失準，AI 並未比基準線更差，但也未能識別爆冷訊號。",
+      "generated_at": "2026-06-14T04:43:31Z"
+    },
+    {
+      "match": 6,
+      "home": "Brazil",
+      "away": "Morocco",
+      "stage": "Group C",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-14T0057Z",
+      "model": "claude-opus-4.8",
+      "headline": "巴西傷兵滿營僅有 62% 信心，仍高估了主隊火力",
+      "review": "AI 以相對保守的 62% 信心預測巴西 2:1 小勝，已正確察覺 Neymar 缺陣與後防多名主力帶傷的重大變數，信心明顯低於一般強隊。然而最終巴西在摩洛哥世界級的防守組織前未能取得預期的兩球，僅能逼和。摩洛哥由 Hakimi、Brahim Diaz 領軍，延續其大賽穩守突擊的風格，正是賽前分析所強調的『防守一流』實際兌現。AI 方向錯誤但幅度有限——預測比分與實際僅差一球，且已適當壓低信心，屬於『方向誤判但風險已部分定價』的次佳失準。",
+      "lessons": [
+        "當主隊核心傷缺且對手以鐵桶陣聞名時，平局應被列為與主勝並列的主要情境，而非僅作反方觀點",
+        "62% 的低信心是正確訊號，未來可考慮把此類『高變數強隊』直接下修為三向接近的預測",
+        "摩洛哥型的頂級防守球隊在面對火力受限的強隊時，逼平能力被低估"
+      ],
+      "vs_benchmarks": "博彩與多數模型給巴西 55-60% 勝率、同樣偏好 2:1 或 2:0，AI 與基準線一致並略為保守。本場 AI 的低信心相對更貼近實況，校準表現略勝盤口。",
+      "generated_at": "2026-06-14T04:43:31Z"
+    }
+  ]
+}

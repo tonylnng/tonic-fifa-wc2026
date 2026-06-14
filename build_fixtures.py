@@ -21,6 +21,7 @@ groups = {
 }
 
 # Each match: (num, stage, date, kickoff_local, home, away, venue, city)
+# ⚠️ 注意：以下 date/kickoff_local 為未校正的原始值，正確開賽時間以 fix_fixture_times.py 校正為準。
 # Group stage matches #1-#72
 M = [
  (1,"Group A","2026-06-11","16:00","Mexico","South Africa","Estadio Azteca","Mexico City, Mexico"),

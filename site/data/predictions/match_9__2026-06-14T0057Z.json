@@ -337,6 +337,43 @@
     }
   ],
   "source_count": 51,
-  "kickoff_utc": "2026-06-14T22:00:00Z",
-  "kickoff_hkt": "2026-06-15 06:00"
+  "kickoff_utc": "2026-06-14T17:00:00Z",
+  "kickoff_hkt": "2026-06-15 06:00",
+  "benchmarks": [
+    {
+      "source": "Opta / ESPN Elo",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.96,
+        "draw": 0.03,
+        "away": 0.01
+      },
+      "outcome": "home",
+      "scoreline": "5:0",
+      "note": "ESPN Elo 預測 5-0；Opta 96.1% 出線"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.95,
+        "draw": 0.04,
+        "away": 0.01
+      },
+      "outcome": "home",
+      "scoreline": "4:0",
+      "note": "德國 1/25 至 1/20（隱含 95-97%）"
+    },
+    {
+      "source": "Kalshi 預測市場",
+      "kind": "market",
+      "win_prob": {
+        "home": 0.97,
+        "draw": 0.02,
+        "away": 0.01
+      },
+      "outcome": "home",
+      "note": "德國 97% 勝"
+    }
+  ]
 }

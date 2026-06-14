@@ -55,6 +55,22 @@ trail is auditable.
         "confidence": 0.6,
         "basis": "古拉索深度防守、德國開幕場慢熱"
       }
+    ],
+
+    "benchmarks": [                               // 【新】公開基準線隱含機率（2-4 個），用於與 AI 並列對照與計分
+      {
+        "source": "博彩隱含機率",                  // 來源名（繁中）
+        "kind": "betting",                         // betting | model | market | ai
+        "win_prob": { "home": 0.79, "draw": 0.14, "away": 0.07 },  // 三向隱含機率，總和≈1
+        "scoreline": "3:0",                        // 選填：該來源最可能比分
+        "note": "主流博彩讓球與大小盤推導"          // 一句來源說明（繁中）
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": { "home": 0.74, "draw": 0.17, "away": 0.09 },
+        "note": "Opta/ESPN Elo 等模型平均"
+      }
     ]
   },
   "reasoning": {
@@ -100,4 +116,12 @@ trail is auditable.
 - `top_scorelines` 機率總和不必等於 1（只是前幾個最可能比分）；`prediction.scoreline` 應等於 `top_scorelines[0].scoreline`。
 - `scenarios[0]` 通常對應主預測（同 `prediction.scoreline`）。
 - `win_prob` 三向機率總和 = 1.0。
+- `benchmarks[*].win_prob` 三向機率總和 ≈ 1.0；基準線數值須與 `key_factors` 輿論共識一致，不可自造。`compute_benchmark_scores.py` 會讀取這些基準線與 AI 並列計分。
 - `kickoff_utc` 必須與 `fixtures.json` 對應場次一致。
+
+## 賽後覆盤（postmortems.json）
+結果出爐後，每場產生一筆覆盤，合併鍵為 (match, run_id)，寫入 `data/postmortems.json`。欄位：`match`、`home`、`away`、`stage`、`predicted`、`predicted_outcome`、`final`、`actual_outcome`、`outcome_correct`、`exact_correct`、`verdict`(exact/outcome/miss)、`run_id`、`model`、`headline`、`review`、`lessons`(陣列)、`vs_benchmarks`。以 `echo '<json>' | python3 build_postmortems.py --merge-stdin` 寫入。
+
+## 校準與基準線計分
+- `data/calibration.json`：由 `compute_calibration.py` 產生，信心分桶 vs 實際命中率，含 Brier、ECE、overconfidence。
+- `data/benchmark_scores.json`：由 `compute_benchmark_scores.py` 產生，AI 與各基準線在相同已完成比賽上的排行榜。

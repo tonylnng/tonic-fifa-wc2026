@@ -1,0 +1,48 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "last_updated": "2026-06-14T04:48:32Z",
+  "total_matches_scored": 2,
+  "leaderboard": [
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "evaluated": 2,
+      "outcome_correct": 0,
+      "outcome_accuracy": 0.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.4177
+    },
+    {
+      "source": "Opta 超級電腦",
+      "kind": "model",
+      "evaluated": 2,
+      "outcome_correct": 0,
+      "outcome_accuracy": 0.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.4495
+    },
+    {
+      "source": "AI（本站 Opus）",
+      "kind": "ai",
+      "evaluated": 2,
+      "outcome_correct": 0,
+      "outcome_accuracy": 0.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.4667
+    },
+    {
+      "source": "Kalshi 預測市場",
+      "kind": "market",
+      "evaluated": 1,
+      "outcome_correct": 0,
+      "outcome_accuracy": 0.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.6304
+    }
+  ],
+  "notes": "AI 與各公開基準線在相同已完成比賽上的對照計分；僅納入該來源有提供預測的場次。"
+}

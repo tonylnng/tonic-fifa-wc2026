@@ -337,6 +337,32 @@
     }
   ],
   "source_count": 51,
-  "kickoff_utc": "2026-06-15T20:00:00Z",
-  "kickoff_hkt": "2026-06-16 04:00"
+  "kickoff_utc": "2026-06-15T16:00:00Z",
+  "kickoff_hkt": "2026-06-16 04:00",
+  "benchmarks": [
+    {
+      "source": "Opta / AI 模型",
+      "kind": "model",
+      "win_prob": {
+        "home": 0.89,
+        "draw": 0.07,
+        "away": 0.04
+      },
+      "outcome": "home",
+      "scoreline": "3:0",
+      "note": "AI 模型預測 2-0 或 3-0"
+    },
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.08,
+        "away": 0.04
+      },
+      "outcome": "home",
+      "scoreline": "3:0",
+      "note": "西班牙一面倒大熱、全勝預期"
+    }
+  ]
 }

@@ -9,10 +9,17 @@
   "run_timestamp": "2026-06-13T17:02:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": { "home": 0, "away": 2 },
+    "score": {
+      "home": 0,
+      "away": 2
+    },
     "scoreline": "0:2",
     "outcome": "away",
-    "win_prob": { "home": 0.09, "draw": 0.15, "away": 0.76 },
+    "win_prob": {
+      "home": 0.09,
+      "draw": 0.15,
+      "away": 0.76
+    },
     "confidence": 0.78
   },
   "reasoning": {
@@ -29,59 +36,272 @@
     "dissent": "少數聲音指出卡塔爾在2018年曾以1:0擊敗過瑞士，阿菲夫若能從側路突破威德默（Silvan Widmer），存在單球得分的可能性；部分模型如TWSN給出1:1平局的預測，但這屬於極少數異見，與主流概率嚴重背離。"
   },
   "sources": [
-    { "type": "model", "name": "Opta Analyst – Qatar vs Switzerland WC2026 Prediction", "url": "https://theanalyst.com/articles/qatar-vs-switzerland-prediction-world-cup-2026-match-preview" },
-    { "type": "model", "name": "Dimers – Switzerland vs Qatar Win Probability", "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_qat_sui" },
-    { "type": "media", "name": "Al Jazeera – Qatar vs Switzerland Group Match Preview", "url": "https://www.aljazeera.com/sports/2026/6/13/qatar-vs-switzerland-world-cup-group-match-preview-team-news-lineups" },
-    { "type": "media", "name": "RotoWire – Qatar vs Switzerland Preview & Lineups", "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815" },
-    { "type": "media", "name": "Sports Illustrated – Qatar vs Switzerland World Cup Preview", "url": "https://www.si.com/soccer/qatar-vs-switzerland-world-cup-preview-predictions-lineups-6-13-26" },
-    { "type": "media", "name": "Total Football Analysis – Qatar vs Switzerland Predictions", "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/qatar-v-switzerland-predictions" },
-    { "type": "media", "name": "Sofascore – Qatar vs Switzerland Preview Group B Opener", "url": "https://www.sofascore.com/news/qatar-vs-switzerland-preview-world-cup-group-b-opener" },
-    { "type": "media", "name": "Sports Mole – Qatar vs Switzerland Preview", "url": "https://www.sportsmole.co.uk/football/qatar/world-cup-2026/preview/qatar-vs-switzerland-prediction-team-news-lineups_598996.html" },
-    { "type": "media", "name": "Esports News UK – Qatar vs Switzerland Best Bets", "url": "https://esports-news.co.uk/2026/06/11/qatar-v-switzerland-predictions/" },
-    { "type": "media", "name": "Yahoo Sports – Qatar vs Switzerland Prediction", "url": "https://sports.yahoo.com/articles/qatar-vs-switzerland-prediction-world-085000415.html" },
-    { "type": "media", "name": "MLS Soccer – Group B Preview Canada Bosnia Qatar Switzerland", "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-b-preview-canada-bosnia-herzegovina-qatar-switzerland" },
-    { "type": "media", "name": "The Guardian – Switzerland World Cup 2026 Team Guide", "url": "https://www.theguardian.com/football/2026/may/29/switzerland-world-cup-2026-team-guide" },
-    { "type": "media", "name": "Vanguard News – Granit Xhaka Leading Switzerland", "url": "https://www.vanguardngr.com/2026/04/countdown-to-2026-fifa-world-cup-xhaka-leading-switzerland-to-genuine-contention/" },
-    { "type": "media", "name": "Goal.com – Switzerland Squad World Cup 2026", "url": "https://www.goal.com/en-us/lists/switzerland-squad-world-cup-2026/bltf2af984bafb74a30" },
-    { "type": "media", "name": "beIN Sports – Qatar Probable Lineup vs Switzerland", "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/probable-qatar-lineup-for-fifa-world-cup-2026-clash-against-switzerland-2026-06-13" },
-    { "type": "media", "name": "FWC Times – Qatar World Cup 2026 Squad & Fixtures", "url": "https://fifawatch.com/en/team/qatar/" },
-    { "type": "media", "name": "Ahram Online – Qatar WC2026 Star Player Akram Afif", "url": "https://english.ahram.org.eg/WorldCup2026/TeamWC2026/2026/1325.aspx" },
-    { "type": "media", "name": "FWC Times – Julen Lopetegui Qatar World Cup 2026", "url": "https://fwctimes.com/julen-lopetegui/" },
-    { "type": "media", "name": "BBC Sport – Lopetegui Picks Ali in Qatar Squad", "url": "https://www.bbc.com/sport/football/articles/c9wezdx7n0jo" },
-    { "type": "media", "name": "The Olympics – Switzerland Squad Key Stats WC2026", "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-switzerland-players-squad-list-key-stats-schedule" },
-    { "type": "media", "name": "ESPN – 2026 World Cup Squad Lists All 48 Teams", "url": "https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams" },
-    { "type": "official", "name": "Wikipedia – 2026 FIFA World Cup Squads", "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads" },
-    { "type": "official", "name": "Wikipedia – Granit Xhaka Profile", "url": "https://en.wikipedia.org/wiki/Granit_Xhaka" },
-    { "type": "official", "name": "Wikipedia – Akram Afif Profile", "url": "https://en.wikipedia.org/wiki/Akram_Afif" },
-    { "type": "model", "name": "Onthepitch – Granit Xhaka WC2026 Profile", "url": "https://onthepitch.now/players/e61b8aee/" },
-    { "type": "model", "name": "Cup26 AI – Manuel Akanji WC2026 Profile", "url": "https://cup26matches.com/en/player/5/" },
-    { "type": "model", "name": "Opta Analyst – Who Will Win WC2026 Supercomputer", "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer" },
-    { "type": "model", "name": "Wincomparator – Qatar vs Switzerland Prediction", "url": "https://www.wincomparator.com/predictions/qatar-switzerland-7937376/" },
-    { "type": "model", "name": "SX Bet Blog – Qatar vs Switzerland World Cup Preview", "url": "https://blog.sx.bet/world-cup/qatar-vs-switzerland/" },
-    { "type": "betting", "name": "Dimers – Qatar vs Switzerland Updated Prediction", "url": "https://www.dimers.com/news/switzerland-vs-qatar-updated-prediction-group-b-world-cup-2026-ac" },
-    { "type": "betting", "name": "Sportsgambler – Qatar vs Switzerland Odds & Prediction", "url": "https://www.sportsgambler.com/betting-tips/football/qatar-vs-switzerland-prediction-lineups-odds-2026-06-13/" },
-    { "type": "betting", "name": "WinComparator – 1X2 Prediction Qatar vs Switzerland", "url": "https://www.wincomparator.com/predictions/qatar-switzerland-7937376/" },
-    { "type": "media", "name": "Al Jazeera – WC Day 3 Opta Predictions", "url": "https://www.aljazeera.com/news/2026/6/13/fifa-world-cup-day-3-brazil-vs-morocco-prediction-schedule-what-to-know" },
-    { "type": "media", "name": "Sky Sports – Qatar vs Switzerland Live Blog", "url": "https://www.skysports.com/football/live-blog/12098/13551951/qatar-vs-switzerland-live-world-cup-2026-group-b-fixture-score-live-updates-and-team-news" },
-    { "type": "media", "name": "The Guardian – Qatar vs Switzerland World Cup Live", "url": "https://www.theguardian.com/football/live/2026/jun/13/qatar-v-switzerland-world-cup-2026-live" },
-    { "type": "media", "name": "FlashScore – WC2026 Day 3 Live Updates", "url": "https://www.flashscore.com/news/soccer-fifa-world-cup-2026-day-3-live-updates/E5RLk4B4/" },
-    { "type": "forum", "name": "Reddit r/worldcup – Group B Preview CAN/SWI/QAT/BIH", "url": "https://www.reddit.com/r/worldcup/comments/1u1k9nw/north_america_world_cup_2026_group_b_preview_can/" },
-    { "type": "forum", "name": "BigSoccer Forum – WC2026 Group Stage Predictions", "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/" },
-    { "type": "youtube", "name": "YouTube – Qatar vs Switzerland WC2026 Preview (Lopetegui)", "url": "https://www.youtube.com/watch?v=8l5KtkLR_28" },
-    { "type": "youtube", "name": "YouTube – Qatar vs Switzerland Full Match Preview", "url": "https://www.youtube.com/watch?v=JRpP5fCSlhk" },
-    { "type": "youtube", "name": "YouTube – 2026 FIFA World Cup Qatar vs Switzerland Preview", "url": "https://www.youtube.com/watch?v=7sVK3pmm5Ug" },
-    { "type": "youtube", "name": "YouTube – FC 26 Group B Qatar vs Switzerland Predictions", "url": "https://www.youtube.com/watch?v=IibPP_NK7rA" },
-    { "type": "youtube", "name": "YouTube – Can Qatar Finally Belong? Qatar vs Switzerland Preview", "url": "https://www.youtube.com/watch?v=-w2QwEhF6CA" },
-    { "type": "youtube", "name": "YouTube – Day 3 World Cup Preview All Four Matches", "url": "https://www.youtube.com/watch?v=LtFj4fe-HRI" },
-    { "type": "youtube", "name": "YouTube – 9 Injured Players Going to the World Cup", "url": "https://www.youtube.com/watch?v=vuQeCfRmC-U" },
-    { "type": "kol", "name": "Pouletips NL – Akram Afif Qatar WK 2026 Profile", "url": "https://pouletips.nl/wk-2026/land/qatar/akram-afif/" },
-    { "type": "media", "name": "Soccergraph – World Cup 2026 Injury Tracker", "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html" },
-    { "type": "media", "name": "FIFA Watch – Qatar 2026 World Cup Squad & Fixtures", "url": "https://fifawatch.com/en/team/qatar/" },
-    { "type": "media", "name": "WC26 Intelligence – Injuries & Absences Tracker", "url": "https://fifa-26.com/en/injuries" },
-    { "type": "media", "name": "ESPN – WC2026 Injuries Tracker Latest", "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info" },
-    { "type": "media", "name": "ESPN – Switzerland 2026 Stats", "url": "https://www.espn.in/football/team/stats/_/id/475" },
-    { "type": "media", "name": "TWSN – Tactical Analysis June 13 Matches", "url": "https://twsn.net/2026/06/13/fifa-world-cup-2026-tactical-analysis-and-predictions-for-the-june-13-matches/" },
-    { "type": "media", "name": "Facebook – Qatar Coach Lopetegui Shares Thoughts on Squad", "url": "https://www.facebook.com/thepeninsulaqatar/videos/qatar-national-team-head-coach-julen-lopetegui-shares-his-thoughts-on-the-26-man/1860326471610073/" }
+    {
+      "type": "model",
+      "name": "Opta Analyst – Qatar vs Switzerland WC2026 Prediction",
+      "url": "https://theanalyst.com/articles/qatar-vs-switzerland-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Dimers – Switzerland vs Qatar Win Probability",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_qat_sui"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Qatar vs Switzerland Group Match Preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/13/qatar-vs-switzerland-world-cup-group-match-preview-team-news-lineups"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Qatar vs Switzerland Preview & Lineups",
+      "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Qatar vs Switzerland World Cup Preview",
+      "url": "https://www.si.com/soccer/qatar-vs-switzerland-world-cup-preview-predictions-lineups-6-13-26"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis – Qatar vs Switzerland Predictions",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/qatar-v-switzerland-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore – Qatar vs Switzerland Preview Group B Opener",
+      "url": "https://www.sofascore.com/news/qatar-vs-switzerland-preview-world-cup-group-b-opener"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Qatar vs Switzerland Preview",
+      "url": "https://www.sportsmole.co.uk/football/qatar/world-cup-2026/preview/qatar-vs-switzerland-prediction-team-news-lineups_598996.html"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK – Qatar vs Switzerland Best Bets",
+      "url": "https://esports-news.co.uk/2026/06/11/qatar-v-switzerland-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports – Qatar vs Switzerland Prediction",
+      "url": "https://sports.yahoo.com/articles/qatar-vs-switzerland-prediction-world-085000415.html"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer – Group B Preview Canada Bosnia Qatar Switzerland",
+      "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-b-preview-canada-bosnia-herzegovina-qatar-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Switzerland World Cup 2026 Team Guide",
+      "url": "https://www.theguardian.com/football/2026/may/29/switzerland-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "Vanguard News – Granit Xhaka Leading Switzerland",
+      "url": "https://www.vanguardngr.com/2026/04/countdown-to-2026-fifa-world-cup-xhaka-leading-switzerland-to-genuine-contention/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Switzerland Squad World Cup 2026",
+      "url": "https://www.goal.com/en-us/lists/switzerland-squad-world-cup-2026/bltf2af984bafb74a30"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports – Qatar Probable Lineup vs Switzerland",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/probable-qatar-lineup-for-fifa-world-cup-2026-clash-against-switzerland-2026-06-13"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Qatar World Cup 2026 Squad & Fixtures",
+      "url": "https://fifawatch.com/en/team/qatar/"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online – Qatar WC2026 Star Player Akram Afif",
+      "url": "https://english.ahram.org.eg/WorldCup2026/TeamWC2026/2026/1325.aspx"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Julen Lopetegui Qatar World Cup 2026",
+      "url": "https://fwctimes.com/julen-lopetegui/"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Lopetegui Picks Ali in Qatar Squad",
+      "url": "https://www.bbc.com/sport/football/articles/c9wezdx7n0jo"
+    },
+    {
+      "type": "media",
+      "name": "The Olympics – Switzerland Squad Key Stats WC2026",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-switzerland-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – 2026 World Cup Squad Lists All 48 Teams",
+      "url": "https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup Squads",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Granit Xhaka Profile",
+      "url": "https://en.wikipedia.org/wiki/Granit_Xhaka"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Akram Afif Profile",
+      "url": "https://en.wikipedia.org/wiki/Akram_Afif"
+    },
+    {
+      "type": "model",
+      "name": "Onthepitch – Granit Xhaka WC2026 Profile",
+      "url": "https://onthepitch.now/players/e61b8aee/"
+    },
+    {
+      "type": "model",
+      "name": "Cup26 AI – Manuel Akanji WC2026 Profile",
+      "url": "https://cup26matches.com/en/player/5/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Who Will Win WC2026 Supercomputer",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Wincomparator – Qatar vs Switzerland Prediction",
+      "url": "https://www.wincomparator.com/predictions/qatar-switzerland-7937376/"
+    },
+    {
+      "type": "model",
+      "name": "SX Bet Blog – Qatar vs Switzerland World Cup Preview",
+      "url": "https://blog.sx.bet/world-cup/qatar-vs-switzerland/"
+    },
+    {
+      "type": "betting",
+      "name": "Dimers – Qatar vs Switzerland Updated Prediction",
+      "url": "https://www.dimers.com/news/switzerland-vs-qatar-updated-prediction-group-b-world-cup-2026-ac"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler – Qatar vs Switzerland Odds & Prediction",
+      "url": "https://www.sportsgambler.com/betting-tips/football/qatar-vs-switzerland-prediction-lineups-odds-2026-06-13/"
+    },
+    {
+      "type": "betting",
+      "name": "WinComparator – 1X2 Prediction Qatar vs Switzerland",
+      "url": "https://www.wincomparator.com/predictions/qatar-switzerland-7937376/"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – WC Day 3 Opta Predictions",
+      "url": "https://www.aljazeera.com/news/2026/6/13/fifa-world-cup-day-3-brazil-vs-morocco-prediction-schedule-what-to-know"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Qatar vs Switzerland Live Blog",
+      "url": "https://www.skysports.com/football/live-blog/12098/13551951/qatar-vs-switzerland-live-world-cup-2026-group-b-fixture-score-live-updates-and-team-news"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Qatar vs Switzerland World Cup Live",
+      "url": "https://www.theguardian.com/football/live/2026/jun/13/qatar-v-switzerland-world-cup-2026-live"
+    },
+    {
+      "type": "media",
+      "name": "FlashScore – WC2026 Day 3 Live Updates",
+      "url": "https://www.flashscore.com/news/soccer-fifa-world-cup-2026-day-3-live-updates/E5RLk4B4/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Group B Preview CAN/SWI/QAT/BIH",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u1k9nw/north_america_world_cup_2026_group_b_preview_can/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – WC2026 Group Stage Predictions",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Qatar vs Switzerland WC2026 Preview (Lopetegui)",
+      "url": "https://www.youtube.com/watch?v=8l5KtkLR_28"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Qatar vs Switzerland Full Match Preview",
+      "url": "https://www.youtube.com/watch?v=JRpP5fCSlhk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Qatar vs Switzerland Preview",
+      "url": "https://www.youtube.com/watch?v=7sVK3pmm5Ug"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – FC 26 Group B Qatar vs Switzerland Predictions",
+      "url": "https://www.youtube.com/watch?v=IibPP_NK7rA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Can Qatar Finally Belong? Qatar vs Switzerland Preview",
+      "url": "https://www.youtube.com/watch?v=-w2QwEhF6CA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Day 3 World Cup Preview All Four Matches",
+      "url": "https://www.youtube.com/watch?v=LtFj4fe-HRI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 9 Injured Players Going to the World Cup",
+      "url": "https://www.youtube.com/watch?v=vuQeCfRmC-U"
+    },
+    {
+      "type": "kol",
+      "name": "Pouletips NL – Akram Afif Qatar WK 2026 Profile",
+      "url": "https://pouletips.nl/wk-2026/land/qatar/akram-afif/"
+    },
+    {
+      "type": "media",
+      "name": "Soccergraph – World Cup 2026 Injury Tracker",
+      "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html"
+    },
+    {
+      "type": "media",
+      "name": "FIFA Watch – Qatar 2026 World Cup Squad & Fixtures",
+      "url": "https://fifawatch.com/en/team/qatar/"
+    },
+    {
+      "type": "media",
+      "name": "WC26 Intelligence – Injuries & Absences Tracker",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – WC2026 Injuries Tracker Latest",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Switzerland 2026 Stats",
+      "url": "https://www.espn.in/football/team/stats/_/id/475"
+    },
+    {
+      "type": "media",
+      "name": "TWSN – Tactical Analysis June 13 Matches",
+      "url": "https://twsn.net/2026/06/13/fifa-world-cup-2026-tactical-analysis-and-predictions-for-the-june-13-matches/"
+    },
+    {
+      "type": "media",
+      "name": "Facebook – Qatar Coach Lopetegui Shares Thoughts on Squad",
+      "url": "https://www.facebook.com/thepeninsulaqatar/videos/qatar-national-team-head-coach-julen-lopetegui-shares-his-thoughts-on-the-26-man/1860326471610073/"
+    }
   ],
-  "source_count": 53
+  "source_count": 53,
+  "kickoff_utc": "2026-06-13T19:00:00Z"
 }
