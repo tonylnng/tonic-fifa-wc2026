@@ -6,6 +6,30 @@
 
 ---
 
+## [1.5.0] — 2026-06-14
+
+### 變更（Changed）— 全站即時讀取按鈕移至頭部條
+
+1. **後端新端點 `/api/live-all`**（`site/server/routes.ts`）
+   - 一次並行抓取 GitHub raw 上**所有資料集**：`results`、`accuracy`、`calibration`、`postmortems`、`benchmark_scores`、`fixtures`，以及全部 `predictions`（先讀 `predictions/manifest.json` 取得檔案清單再並行抓取）。
+   - predictions 依場次分組、依 `run_timestamp` 由新到舊排序，與 `/api/predictions` 一致。
+   - 沿用 **60 秒快取**（`liveAllCache` / `LIVE_TTL_MS`）與 6 秒逾時保護（AbortController）；任一抓取失敗即整體回退本機打包資料並標明 `source`（`github` ／ `local-fallback`）。
+
+2. **頭部條全站即時讀取按鈕**（`site/client/src/components/Header.tsx`）
+   - 「即時讀取最新」按鈕移至頁面**頭部條**，**每一個分頁皆可見**（不再只限結果分頁）。
+   - 來源／時間徽章：GitHub 即時 ／ 讀取失敗·本機；載入時 `RefreshCw` 圖示旋轉。
+
+3. **點擊一鍵更新全站**（`site/client/src/pages/dashboard.tsx`）
+   - 點擊後查詢 `/api/live-all`，並以結果回填（seed）所有相關 query 快取：`/api/fixtures`、`/api/predictions`、`/api/results`、`/api/accuracy`、`/api/calibration`、`/api/postmortems`、`/api/benchmark-scores`，再使 `/api/status` 失效。
+   - **每一個分頁同步顯示 GitHub 最新內容**，不必等待下一次重新發布。
+   - 移除結果分頁專屬的舊「即時讀取」控制卡（功能整併至頭部）。
+
+4. **預測檔清單 `manifest.json`**（`sync_to_site.py`）
+   - `sync_to_site.py` 同步時自動產生 `site/data/predictions/manifest.json`（列出全部 `match_*.json` 檔名），供前端／`/api/live-all` 在 GitHub raw 上枚舉預測檔（raw 無目錄列舉能力）。
+   - `/api/predictions` 與 `/api/status` 掃描預測目錄時忽略 `manifest.json`。
+
+---
+
 ## [1.4.0] — 2026-06-14（run 2026-06-14T0551Z）
 
 ### 新增（Added）— 即時讀取 GitHub 最新結果

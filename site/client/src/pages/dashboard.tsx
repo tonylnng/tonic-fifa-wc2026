@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { queryClient } from "@/lib/queryClient";
 import {
   FixturesData,
   PredictionsData,
@@ -27,7 +28,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
 import {
   Target,
   Crosshair,
@@ -36,30 +36,7 @@ import {
   Search,
   Trophy,
   History,
-  RefreshCw,
-  Github,
 } from "lucide-react";
-
-// 即時讀取 GitHub 最新結果的回應型別。
-type LiveResultsData = ResultsData & {
-  source?: "github" | "local-fallback";
-  cached?: boolean;
-  error?: string;
-};
-
-function hktTimestamp(iso?: string) {
-  if (!iso) return "—";
-  const d = new Date(iso);
-  if (isNaN(d.getTime())) return iso;
-  return d.toLocaleString("zh-HK", {
-    timeZone: "Asia/Hong_Kong",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-}
 
 function runLabelZh(runId: string) {
   const m = runId.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2})(\d{2})Z$/);
@@ -98,12 +75,53 @@ function Stat({
   );
 }
 
+// 全站即時讀取 GitHub 最新資料的回應型別。
+type LiveAllData = {
+  results?: ResultsData;
+  accuracy?: AccuracyData;
+  calibration?: any;
+  postmortems?: any;
+  benchmark_scores?: any;
+  fixtures?: FixturesData;
+  predictions?: PredictionsData;
+  source?: "github" | "local-fallback";
+  cached?: boolean;
+  error?: string;
+};
+
 export default function Dashboard() {
   const fixturesQ = useQuery<FixturesData>({ queryKey: ["/api/fixtures"] });
   const predsQ = useQuery<PredictionsData>({ queryKey: ["/api/predictions"] });
   const resultsQ = useQuery<ResultsData>({ queryKey: ["/api/results"] });
   const accuracyQ = useQuery<AccuracyData>({ queryKey: ["/api/accuracy"] });
   const statusQ = useQuery<StatusData>({ queryKey: ["/api/status"] });
+
+  // ----- 全站即時讀取 GitHub 最新資料 -----
+  // 預設不自動拉；使用者按頭部按鈕才向 /api/live-all 取回 repo 上的最新全站資料，
+  // 成功後把每個資料集寫回對應的 query 快取，使「每個分頁」同步更新。
+  const liveAllQ = useQuery<LiveAllData>({
+    queryKey: ["/api/live-all"],
+    enabled: false,
+    staleTime: 60_000,
+  });
+  const liveSource = liveAllQ.data?.source ?? null;
+
+  async function handleLiveRefresh() {
+    const r = await liveAllQ.refetch();
+    const d = r.data;
+    if (!d) return;
+    // 將即時資料寫回各 query 快取 → 所有分頁立即反映 GitHub 最新內容。
+    if (d.fixtures) queryClient.setQueryData(["/api/fixtures"], d.fixtures);
+    if (d.predictions) queryClient.setQueryData(["/api/predictions"], d.predictions);
+    if (d.results) queryClient.setQueryData(["/api/results"], d.results);
+    if (d.accuracy) queryClient.setQueryData(["/api/accuracy"], d.accuracy);
+    if (d.calibration) queryClient.setQueryData(["/api/calibration"], d.calibration);
+    if (d.postmortems) queryClient.setQueryData(["/api/postmortems"], d.postmortems);
+    if (d.benchmark_scores)
+      queryClient.setQueryData(["/api/benchmark-scores"], d.benchmark_scores);
+    // status 由 predictions/accuracy 衍生，直接重新整理即可。
+    queryClient.invalidateQueries({ queryKey: ["/api/status"] });
+  }
 
   const loading =
     fixturesQ.isLoading || predsQ.isLoading || resultsQ.isLoading;
@@ -191,6 +209,9 @@ export default function Dashboard() {
           accuracy?.last_updated ||
           fixtures?.last_updated
         }
+        onLiveRefresh={handleLiveRefresh}
+        liveLoading={liveAllQ.isFetching}
+        liveSource={liveSource}
       />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
         {/* Hero strip */}
@@ -529,20 +550,9 @@ function ResultsTab({
   preds: PredictionsData;
   accuracy?: AccuracyData;
 }) {
-  // 功能：即時讀取 GitHub 上的最新結果。預設不自動拉，
-  // 使用者點「重新整理」才去 GitHub raw 取最新 results.json，
-  // 失敗時伺服器端會自動回退到本機資料並標明 source。
-  const liveQ = useQuery<LiveResultsData>({
-    queryKey: ["/api/live-results"],
-    enabled: false,
-    staleTime: 60_000,
-  });
-
-  // 有即時資料則優先顯示 GitHub 最新結果，否則用本機打包的資料。
-  const live = liveQ.data;
-  const active: ResultsData | undefined = live ?? results;
-  const fromGithub = !!live && live.source === "github";
-  const fellBack = !!live && live.source === "local-fallback";
+  // 結果資料來自 /api/results query。按頭部「即時讀取最新」後，Dashboard 會把
+  // GitHub 最新資料寫回該 query 快取，因此此處自動同步顯示最新結果。
+  const active = results;
 
   if (!active) return <Skeleton className="h-96 rounded-xl" />;
 
@@ -550,54 +560,6 @@ function ResultsTab({
 
   return (
     <div className="space-y-4">
-      {/* 即時讀取 GitHub 最新結果控制列 */}
-      <div className="bg-card border border-card-border rounded-xl p-4">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="min-w-0">
-            <div className="flex items-center gap-2 text-sm font-semibold">
-              <Github className="w-4 h-4" />
-              即時讀取 GitHub 最新結果
-            </div>
-            <p className="text-xs text-muted-foreground mt-1">
-              直接從 GitHub repo 拉取最新 results.json，不必等下一次重新發布。
-            </p>
-            <div className="flex flex-wrap items-center gap-2 mt-2">
-              {fromGithub && (
-                <Badge className="bg-primary text-primary-foreground text-[11px]">
-                  GitHub 即時{live?.cached ? "（快取）" : ""}
-                </Badge>
-              )}
-              {fellBack && (
-                <Badge variant="outline" className="text-[11px] text-destructive">
-                  GitHub 讀取失敗，已回退本機資料
-                </Badge>
-              )}
-              {!live && (
-                <Badge variant="secondary" className="text-[11px]">
-                  本機打包資料
-                </Badge>
-              )}
-              <span className="text-xs text-muted-foreground">
-                資料更新：{hktTimestamp(active.last_updated)}（香港時間）
-              </span>
-            </div>
-          </div>
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={() => liveQ.refetch()}
-            disabled={liveQ.isFetching}
-            data-testid="button-live-refresh"
-            className="shrink-0"
-          >
-            <RefreshCw
-              className={`w-4 h-4 mr-1.5 ${liveQ.isFetching ? "animate-spin" : ""}`}
-            />
-            {liveQ.isFetching ? "讀取中…" : "重新整理"}
-          </Button>
-        </div>
-      </div>
-
       {accuracy && accuracy.metrics.total_evaluated > 0 ? (
         <div className="bg-card border border-card-border rounded-xl p-4">
           <h3 className="text-sm font-semibold mb-3">AI 預測準確率</h3>

@@ -16,5 +16,15 @@ for f in ["fixtures.json", "results.json", "accuracy.json",
 for f in glob.glob(os.path.join(BASE, "predictions", "*")):
     shutil.copy2(f, os.path.join(SITE, "predictions", os.path.basename(f)))
 
-n = len(glob.glob(os.path.join(SITE, "predictions", "match_*.json")))
-print(f"Synced to site/data: {n} prediction files + fixtures/results/accuracy")
+# Write a manifest of prediction JSON filenames so the live (GitHub) endpoint
+# can discover which prediction files exist on the repo in a single request.
+import json
+pred_files = sorted(
+    os.path.basename(p)
+    for p in glob.glob(os.path.join(SITE, "predictions", "match_*.json"))
+)
+with open(os.path.join(SITE, "predictions", "manifest.json"), "w", encoding="utf-8") as fh:
+    json.dump({"files": pred_files, "count": len(pred_files)}, fh, ensure_ascii=False, indent=2)
+
+n = len(pred_files)
+print(f"Synced to site/data: {n} prediction files (+manifest) + fixtures/results/accuracy")

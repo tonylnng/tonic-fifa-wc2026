@@ -86,6 +86,111 @@ export async function registerRoutes(
     }
   });
 
+  // ----- 全站即時讀取 GitHub 最新資料 -----
+  // 一次抓取 repo 上所有資料檔（results/accuracy/calibration/postmortems/
+  // benchmark_scores/fixtures + 全部 predictions），讓整個網站每個分頁都能
+  // 同步顯示 GitHub 最新內容，不必等下一次重新發布。
+  const GH_RAW =
+    "https://raw.githubusercontent.com/tonylnng/tonic-fifa-wc2026/master/site/data";
+  let liveAllCache: { at: number; data: any } | null = null;
+
+  async function ghFetchJSON(url: string, timeoutMs = 6000): Promise<any> {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const r = await fetch(url, {
+        signal: controller.signal,
+        headers: { "Cache-Control": "no-cache" },
+      });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return await r.json();
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  app.get("/api/live-all", async (_req, res) => {
+    if (liveAllCache && Date.now() - liveAllCache.at < LIVE_TTL_MS) {
+      res.json({ ...liveAllCache.data, source: "github", cached: true });
+      return;
+    }
+    try {
+      // 單檔資料集並行抓取
+      const singles = [
+        "results",
+        "accuracy",
+        "calibration",
+        "postmortems",
+        "benchmark_scores",
+        "fixtures",
+      ] as const;
+      const singleResults = await Promise.all(
+        singles.map((name) => ghFetchJSON(`${GH_RAW}/${name}.json`))
+      );
+      const payload: Record<string, any> = {};
+      singles.forEach((name, i) => (payload[name] = singleResults[i]));
+
+      // predictions：先抓 manifest 取得檔案清單，再並行抓每個預測檔，
+      // 然後依場次分組、依 run_timestamp 由新到舊排序（與 /api/predictions 一致）。
+      const manifest = await ghFetchJSON(`${GH_RAW}/predictions/manifest.json`);
+      const files: string[] = Array.isArray(manifest?.files)
+        ? manifest.files
+        : [];
+      const preds = await Promise.all(
+        files.map((f) =>
+          ghFetchJSON(`${GH_RAW}/predictions/${f}`).catch(() => null)
+        )
+      );
+      const grouped: Record<string, any[]> = {};
+      for (const p of preds) {
+        if (!p || p.match == null) continue;
+        const key = String(p.match);
+        (grouped[key] = grouped[key] || []).push(p);
+      }
+      for (const k of Object.keys(grouped)) {
+        grouped[k].sort((a, b) =>
+          (b.run_timestamp || "").localeCompare(a.run_timestamp || "")
+        );
+      }
+      payload.predictions = grouped;
+
+      liveAllCache = { at: Date.now(), data: payload };
+      res.json({ ...payload, source: "github", cached: false });
+    } catch (e: any) {
+      // 全部回退到本機打包資料
+      const dir = join(dataDir(), "predictions");
+      const grouped: Record<string, any[]> = {};
+      if (existsSync(dir)) {
+        for (const f of readdirSync(dir)) {
+          if (!f.endsWith(".json") || f === "manifest.json") continue;
+          try {
+            const pred = JSON.parse(readFileSync(join(dir, f), "utf-8"));
+            const key = String(pred.match);
+            (grouped[key] = grouped[key] || []).push(pred);
+          } catch {
+            /* skip */
+          }
+        }
+        for (const k of Object.keys(grouped)) {
+          grouped[k].sort((a, b) =>
+            (b.run_timestamp || "").localeCompare(a.run_timestamp || "")
+          );
+        }
+      }
+      res.json({
+        results: readJSON("results.json"),
+        accuracy: readJSON("accuracy.json"),
+        calibration: readJSON("calibration.json"),
+        postmortems: readJSON("postmortems.json"),
+        benchmark_scores: readJSON("benchmark_scores.json"),
+        fixtures: readJSON("fixtures.json"),
+        predictions: grouped,
+        source: "local-fallback",
+        error: String(e?.message || e),
+      });
+    }
+  });
+
   app.get("/api/accuracy", (_req, res) => {
     res.json(readJSON("accuracy.json"));
   });
@@ -108,7 +213,7 @@ export async function registerRoutes(
     const out: Record<string, any[]> = {};
     if (existsSync(dir)) {
       for (const f of readdirSync(dir)) {
-        if (!f.endsWith(".json")) continue;
+        if (!f.endsWith(".json") || f === "manifest.json") continue;
         try {
           const pred = JSON.parse(readFileSync(join(dir, f), "utf-8"));
           const key = String(pred.match);
@@ -135,7 +240,7 @@ export async function registerRoutes(
     let predFiles = 0;
     if (existsSync(dir)) {
       for (const f of readdirSync(dir)) {
-        if (!f.endsWith(".json")) continue;
+        if (!f.endsWith(".json") || f === "manifest.json") continue;
         predFiles++;
         const m = f.match(/__(.+)\.json$/);
         if (m) runs.add(m[1]);
