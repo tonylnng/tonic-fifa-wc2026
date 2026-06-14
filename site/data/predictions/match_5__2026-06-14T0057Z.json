@@ -8,11 +8,63 @@
   "run_timestamp": "2026-06-14T00:57:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": {"home": 0, "away": 2},
+    "score": {
+      "home": 0,
+      "away": 2
+    },
     "scoreline": "0:2",
     "outcome": "away",
-    "win_prob": {"home": 0.07, "draw": 0.15, "away": 0.78},
-    "confidence": 0.76
+    "win_prob": {
+      "home": 0.07,
+      "draw": 0.15,
+      "away": 0.78
+    },
+    "confidence": 0.76,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.06
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.76,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.71,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.56,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "瑞士是B組的絕對大熱門，擁有明顯的技術及體能優勢。卡塔爾在此前六場競技賽中僅取得一勝，且缺乏頂級歐洲聯賽球員，整體陣容深度遠遜瑞士。幾乎所有主要博彩及統計模型都預測瑞士以兩球以上差距獲勝。",
@@ -28,58 +80,268 @@
     "dissent": "少數派觀點認為卡達可憑Akram Afif的個人突破製造意外，且瑞士整體缺乏頂尖殺手型前鋒（Embolo狀態一般），若Vargas缺席或令進攻端更加保守，比分或維持在1球差距（如1-0或1-1），但此類結果仍屬少數預測。少數分析師預測瑞士雖勝，但比分低於2球。"
   },
   "sources": [
-    {"type": "official", "name": "FIFA.com World Cup 2026 Schedule", "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"},
-    {"type": "media", "name": "Al Jazeera – Qatar vs Switzerland Preview", "url": "https://www.aljazeera.com/sports/2026/6/13/qatar-vs-switzerland-world-cup-group-match-preview-team-news-lineups"},
-    {"type": "media", "name": "Sports Illustrated – Qatar vs Switzerland Preview", "url": "https://www.si.com/soccer/qatar-vs-switzerland-world-cup-preview-predictions-lineups-6-13-26"},
-    {"type": "media", "name": "RotoWire – Qatar vs Switzerland Lineups & Preview", "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"},
-    {"type": "media", "name": "Mirror – Qatar vs Switzerland Preview", "url": "https://www.mirror.co.uk/betting/world-cup/qatar-switzerland-preview-prediction-tips-37284694"},
-    {"type": "media", "name": "JuveFc – Qatar vs Switzerland Prediction", "url": "https://www.juvefc.com/qatar-v-switzerland-predictions/"},
-    {"type": "media", "name": "Football Whispers – World Cup Group B Guide", "url": "https://footballwhispers.com/blog/2026-world-cup-group-b-guide-teams-fixtures-predictions-and-latest-odds/"},
-    {"type": "media", "name": "Flashscore – World Cup Group B Preview", "url": "https://www.flashscore.co.uk/news/world-cup-group-b-preview-canada-switzerland-qatar-bosnia-herzegovina/bLa7dPbs/"},
-    {"type": "media", "name": "The Independent – World Cup 2026 Group B Guide", "url": "https://www.the-independent.com/sport/football/world-cup-2026-group-d-usa-paraguay-australia-turkey-b2994874.html"},
-    {"type": "model", "name": "RotoWire – World Cup Group B Preview (Tactical)", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-b-preview-canada-bosnia-and-herzegovina-qatar-and-switzerland-lineups-odds-predictions-and-tactics-111899"},
-    {"type": "model", "name": "Opta Analyst – FIFA World Cup 2026 Groups Predictions", "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"},
-    {"type": "model", "name": "ESPN – World Cup Predictions (Elo-based)", "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"},
-    {"type": "model", "name": "Instagram – Opta Supercomputer Group B Predictions", "url": "https://www.instagram.com/p/DZLzi0kAvXt/"},
-    {"type": "betting", "name": "SportsBettingDime – Qatar vs Switzerland Odds", "url": "https://www.sportsbettingdime.com/news/soccer/best-bets-picks-predictions-qatar-vs-switzerland-june-13/"},
-    {"type": "betting", "name": "Betting.net – Qatar vs Switzerland Picks & Odds", "url": "https://www.betting.net/news/world-cup/qatar-switzerland-06-13/"},
-    {"type": "betting", "name": "Sports Gambler – Qatar vs Switzerland Odds", "url": "https://www.sportsgambler.com/betting-tips/football/qatar-vs-switzerland-prediction-lineups-odds-2026-06-13/"},
-    {"type": "betting", "name": "OddsChecker – Qatar vs Switzerland Tips", "url": "https://www.oddschecker.com/tips/football/world-cup-2026/20260613-qatar-vs-switzerland-predictions-bet-builder-tips-lineups-odds"},
-    {"type": "betting", "name": "Sports Interaction – Qatar vs Switzerland Odds", "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/qatar-vs-switzerland-odds-061326-217118"},
-    {"type": "betting", "name": "RotoWire – Qatar vs Switzerland Betting Odds", "url": "https://www.rotowire.com/betting/soccer/game/qatar-vs-switzerland-odds-2026-06-13-2608244"},
-    {"type": "betting", "name": "ESPN – Qatar vs Switzerland Odds", "url": "https://www.espn.com/soccer/odds/_/gameId/760420"},
-    {"type": "forum", "name": "Reddit r/soccer – Switzerland World Cup 2026 Preview", "url": "https://www.reddit.com/r/soccer/comments/1u4gbds/world_cup_2026_preview_switzerland_the_masters_of/"},
-    {"type": "forum", "name": "Reddit r/worldcup – Official World Cup Predictions Thread", "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"},
-    {"type": "forum", "name": "Reddit r/soccer – Qatar World Cup 2026 Preview", "url": "https://www.reddit.com/r/soccer/comments/1u49fij/world_cup_2026_preview_qatar_a_last_hurrah_for/"},
-    {"type": "forum", "name": "Reddit r/soccer – Match Thread Qatar vs Switzerland", "url": "https://www.reddit.com/r/soccer/comments/1u4yeg0/match_thread_qatar_vs_switzerland_fifa_world_cup/"},
-    {"type": "forum", "name": "Reddit r/SoccerBetting – Correct Score Predictions", "url": "https://www.reddit.com/r/SoccerBetting/comments/1u48rzy/ive_predicted_33_correct_scores_so_far_in_the/"},
-    {"type": "forum", "name": "Reddit r/AlignmentChartFills – Reddit Decides World Cup Group B", "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sc3t84/reddit_decides_the_world_cup_group_b_canada/"},
-    {"type": "youtube", "name": "YouTube – Qatar vs Switzerland Prediction & Tactical Analysis", "url": "https://www.youtube.com/watch?v=pIPDEoIQJm0"},
-    {"type": "youtube", "name": "YouTube – Qatar vs Switzerland AI Prediction", "url": "https://www.youtube.com/watch?v=D7HAKV7OoLA"},
-    {"type": "youtube", "name": "YouTube – FC 26 World Cup Group B Qatar vs Switzerland", "url": "https://www.youtube.com/watch?v=IibPP_NK7rA"},
-    {"type": "youtube", "name": "YouTube – 2026 FIFA World Cup Qatar vs Switzerland Preview", "url": "https://www.youtube.com/watch?v=7sVK3pmm5Ug"},
-    {"type": "youtube", "name": "YouTube – 2026 World Cup Group B Preview and Predictions", "url": "https://www.youtube.com/watch?v=rAzzsMwdOBs"},
-    {"type": "youtube", "name": "YouTube – Qatar vs Switzerland Predictions & Best Bets", "url": "https://www.youtube.com/watch?v=GojcS1B7Gzw"},
-    {"type": "youtube", "name": "YouTube – Qatar vs Switzerland Prediction World Cup Group B Picks", "url": "https://www.youtube.com/watch?v=sVTTFDsCC_A"},
-    {"type": "social", "name": "ESPN UK – Qatar 1-1 Switzerland Live Score", "url": "https://www.espn.co.uk/football/match/_/gameId/760420/switzerland-qatar"},
-    {"type": "media", "name": "Foot-Africa – Qatar vs Switzerland Final Score", "url": "https://foot-africa.com/en/news/2026-world-cup-qatar-switzerland-final-score-1241530/"},
-    {"type": "media", "name": "Fox Sports – Qatar vs Switzerland Box Score", "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-qatar-vs-switzerland-jun-13-2026-game-boxscore-647621"},
-    {"type": "media", "name": "Sporting Life – World Cup 2026 Fixtures June 14", "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"},
-    {"type": "media", "name": "BettingTop10 NZ – World Cup Odds June 14", "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"},
-    {"type": "media", "name": "DAZN – FIFA World Cup 2026 Fixtures & Results", "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"},
-    {"type": "model", "name": "ESPN – Qatar vs Switzerland Live Score", "url": "https://www.espn.com/soccer/match/_/gameId/760420/suiza-qatar"},
-    {"type": "betting", "name": "PredictHeCup – Opta Group B Predictions", "url": "https://www.predicthecup.com/es/news/who-will-win-the-2026-fifa-world-cup-the-opta-supercomputer-predictions-opta-analyst-2026-06-01-2c6ffb8b"},
-    {"type": "media", "name": "Sporting Life – World Cup Group B Analysis", "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-c-predictions-best-bets-and-preview/232186"},
-    {"type": "media", "name": "Ladbrokes – 2026 World Cup Group D Preview Odds", "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-d-preview-odds-predictions/"},
-    {"type": "model", "name": "Sports Illustrated – Opta Supercomputer 2026 World Cup Winner", "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"},
-    {"type": "forum", "name": "Reddit r/reddevils – World Cup Group Stage Game 1 Watch Thread", "url": "https://www.reddit.com/r/reddevils/comments/1u4vwqy/world_cup_watch_group_stage_game_1_qatar_vs/"},
-    {"type": "forum", "name": "Reddit r/simcupsPredictions – Group B Simulation", "url": "https://www.reddit.com/r/simcupsPredictions/comments/1s9xl8k/2026_world_cup_group_b_prediction_with_bosnia/"},
-    {"type": "media", "name": "ESPN – Brazil vs Morocco Match Report", "url": "https://www.espn.com/soccer/report/_/gameId/760419"},
-    {"type": "model", "name": "Opta Analyst – World Cup 2026 Pre-Tournament Projections", "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"},
-    {"type": "media", "name": "Vietnam TT&VH – World Cup 2026 Results June 14", "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"},
-    {"type": "media", "name": "Football Critic – World Cup Matches June 14", "url": "https://www.footballcritic.com/matches?date=2026-6-14"},
-    {"type": "media", "name": "Soccerbase – World Cup Results June 14", "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"},
-    {"type": "media", "name": "Reuters Connect – FIFA World Cup Matches June 14", "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"}
+    {
+      "type": "official",
+      "name": "FIFA.com World Cup 2026 Schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Qatar vs Switzerland Preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/13/qatar-vs-switzerland-world-cup-group-match-preview-team-news-lineups"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Qatar vs Switzerland Preview",
+      "url": "https://www.si.com/soccer/qatar-vs-switzerland-world-cup-preview-predictions-lineups-6-13-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Qatar vs Switzerland Lineups & Preview",
+      "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"
+    },
+    {
+      "type": "media",
+      "name": "Mirror – Qatar vs Switzerland Preview",
+      "url": "https://www.mirror.co.uk/betting/world-cup/qatar-switzerland-preview-prediction-tips-37284694"
+    },
+    {
+      "type": "media",
+      "name": "JuveFc – Qatar vs Switzerland Prediction",
+      "url": "https://www.juvefc.com/qatar-v-switzerland-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers – World Cup Group B Guide",
+      "url": "https://footballwhispers.com/blog/2026-world-cup-group-b-guide-teams-fixtures-predictions-and-latest-odds/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore – World Cup Group B Preview",
+      "url": "https://www.flashscore.co.uk/news/world-cup-group-b-preview-canada-switzerland-qatar-bosnia-herzegovina/bLa7dPbs/"
+    },
+    {
+      "type": "media",
+      "name": "The Independent – World Cup 2026 Group B Guide",
+      "url": "https://www.the-independent.com/sport/football/world-cup-2026-group-d-usa-paraguay-australia-turkey-b2994874.html"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup Group B Preview (Tactical)",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-b-preview-canada-bosnia-and-herzegovina-qatar-and-switzerland-lineups-odds-predictions-and-tactics-111899"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – FIFA World Cup 2026 Groups Predictions",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "ESPN – World Cup Predictions (Elo-based)",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "model",
+      "name": "Instagram – Opta Supercomputer Group B Predictions",
+      "url": "https://www.instagram.com/p/DZLzi0kAvXt/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsBettingDime – Qatar vs Switzerland Odds",
+      "url": "https://www.sportsbettingdime.com/news/soccer/best-bets-picks-predictions-qatar-vs-switzerland-june-13/"
+    },
+    {
+      "type": "betting",
+      "name": "Betting.net – Qatar vs Switzerland Picks & Odds",
+      "url": "https://www.betting.net/news/world-cup/qatar-switzerland-06-13/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambler – Qatar vs Switzerland Odds",
+      "url": "https://www.sportsgambler.com/betting-tips/football/qatar-vs-switzerland-prediction-lineups-odds-2026-06-13/"
+    },
+    {
+      "type": "betting",
+      "name": "OddsChecker – Qatar vs Switzerland Tips",
+      "url": "https://www.oddschecker.com/tips/football/world-cup-2026/20260613-qatar-vs-switzerland-predictions-bet-builder-tips-lineups-odds"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction – Qatar vs Switzerland Odds",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/qatar-vs-switzerland-odds-061326-217118"
+    },
+    {
+      "type": "betting",
+      "name": "RotoWire – Qatar vs Switzerland Betting Odds",
+      "url": "https://www.rotowire.com/betting/soccer/game/qatar-vs-switzerland-odds-2026-06-13-2608244"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN – Qatar vs Switzerland Odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760420"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – Switzerland World Cup 2026 Preview",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4gbds/world_cup_2026_preview_switzerland_the_masters_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Official World Cup Predictions Thread",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – Qatar World Cup 2026 Preview",
+      "url": "https://www.reddit.com/r/soccer/comments/1u49fij/world_cup_2026_preview_qatar_a_last_hurrah_for/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – Match Thread Qatar vs Switzerland",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4yeg0/match_thread_qatar_vs_switzerland_fifa_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/SoccerBetting – Correct Score Predictions",
+      "url": "https://www.reddit.com/r/SoccerBetting/comments/1u48rzy/ive_predicted_33_correct_scores_so_far_in_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills – Reddit Decides World Cup Group B",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sc3t84/reddit_decides_the_world_cup_group_b_canada/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Qatar vs Switzerland Prediction & Tactical Analysis",
+      "url": "https://www.youtube.com/watch?v=pIPDEoIQJm0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Qatar vs Switzerland AI Prediction",
+      "url": "https://www.youtube.com/watch?v=D7HAKV7OoLA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – FC 26 World Cup Group B Qatar vs Switzerland",
+      "url": "https://www.youtube.com/watch?v=IibPP_NK7rA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Qatar vs Switzerland Preview",
+      "url": "https://www.youtube.com/watch?v=7sVK3pmm5Ug"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 World Cup Group B Preview and Predictions",
+      "url": "https://www.youtube.com/watch?v=rAzzsMwdOBs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Qatar vs Switzerland Predictions & Best Bets",
+      "url": "https://www.youtube.com/watch?v=GojcS1B7Gzw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Qatar vs Switzerland Prediction World Cup Group B Picks",
+      "url": "https://www.youtube.com/watch?v=sVTTFDsCC_A"
+    },
+    {
+      "type": "social",
+      "name": "ESPN UK – Qatar 1-1 Switzerland Live Score",
+      "url": "https://www.espn.co.uk/football/match/_/gameId/760420/switzerland-qatar"
+    },
+    {
+      "type": "media",
+      "name": "Foot-Africa – Qatar vs Switzerland Final Score",
+      "url": "https://foot-africa.com/en/news/2026-world-cup-qatar-switzerland-final-score-1241530/"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports – Qatar vs Switzerland Box Score",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-qatar-vs-switzerland-jun-13-2026-game-boxscore-647621"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – World Cup 2026 Fixtures June 14",
+      "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "BettingTop10 NZ – World Cup Odds June 14",
+      "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"
+    },
+    {
+      "type": "media",
+      "name": "DAZN – FIFA World Cup 2026 Fixtures & Results",
+      "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"
+    },
+    {
+      "type": "model",
+      "name": "ESPN – Qatar vs Switzerland Live Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760420/suiza-qatar"
+    },
+    {
+      "type": "betting",
+      "name": "PredictHeCup – Opta Group B Predictions",
+      "url": "https://www.predicthecup.com/es/news/who-will-win-the-2026-fifa-world-cup-the-opta-supercomputer-predictions-opta-analyst-2026-06-01-2c6ffb8b"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – World Cup Group B Analysis",
+      "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-c-predictions-best-bets-and-preview/232186"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes – 2026 World Cup Group D Preview Odds",
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-d-preview-odds-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Sports Illustrated – Opta Supercomputer 2026 World Cup Winner",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/reddevils – World Cup Group Stage Game 1 Watch Thread",
+      "url": "https://www.reddit.com/r/reddevils/comments/1u4vwqy/world_cup_watch_group_stage_game_1_qatar_vs/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/simcupsPredictions – Group B Simulation",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1s9xl8k/2026_world_cup_group_b_prediction_with_bosnia/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil vs Morocco Match Report",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760419"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Pre-Tournament Projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "media",
+      "name": "Vietnam TT&VH – World Cup 2026 Results June 14",
+      "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"
+    },
+    {
+      "type": "media",
+      "name": "Football Critic – World Cup Matches June 14",
+      "url": "https://www.footballcritic.com/matches?date=2026-6-14"
+    },
+    {
+      "type": "media",
+      "name": "Soccerbase – World Cup Results June 14",
+      "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "Reuters Connect – FIFA World Cup Matches June 14",
+      "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"
+    }
   ],
-  "source_count": 52
+  "source_count": 52,
+  "kickoff_utc": "2026-06-14T02:00:00Z",
+  "kickoff_hkt": "2026-06-14 10:00"
 }

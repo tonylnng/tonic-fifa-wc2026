@@ -8,11 +8,63 @@
   "run_timestamp": "2026-06-14T00:57:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": {"home": 4, "away": 0},
+    "score": {
+      "home": 4,
+      "away": 0
+    },
     "scoreline": "4:0",
     "outcome": "home",
-    "win_prob": {"home": 0.93, "draw": 0.05, "away": 0.02},
-    "confidence": 0.88
+    "win_prob": {
+      "home": 0.93,
+      "draw": 0.05,
+      "away": 0.02
+    },
+    "confidence": 0.88,
+    "top_scorelines": [
+      {
+        "scoreline": "4:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "5:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "4:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "5:1",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "4:0",
+        "outcome": "home",
+        "confidence": 0.88,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.83,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.68,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "德國對古拉索是本屆世界盃小組賽最懸殊的對局之一。德國坐擁Musiala、Wirtz、Havertz、Sane等歐洲頂級球員，Opta超級電腦給出96.1%出線機率和92%單場勝率。古拉索為首次參加世界盃的最小國家（僅15.4萬人口），FIFA排名第81位，歷史上從未踢過世界盃。多數模型預測德國以3-0至5-0大勝，並指德國最大疑問只是「進多少球」。",
@@ -28,57 +80,263 @@
     "dissent": "少數派觀點：ISB YouTube頻道評論員認為比賽可能只是1-1（「緊張對局」），理由是德國在世界盃大賽開幕場有時欠缺狀態，且古拉索可能靠防守深蹲博得意外一分或一球。部分評論質疑Manuel Neuer年邁（39歲）是否能維持表現。Standard.co.uk預測只是2-0，較多媒體為保守估計。"
   },
   "sources": [
-    {"type": "official", "name": "ESPN – FIFA World Cup 2026 Match Schedule", "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"},
-    {"type": "media", "name": "RotoWire – Germany vs Curacao Lineups & Preview", "url": "https://www.rotowire.com/soccer/article/germany-vs-curacao-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-117956"},
-    {"type": "media", "name": "Ladbrokes – Germany vs Curacao Preview", "url": "https://www.ladbrokes.com/en/news/germany-curacao-world-cup-preview-predictions-tips-2026-06-12/"},
-    {"type": "media", "name": "Sports Mole – Germany vs Curacao Preview", "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-curacao-prediction-team-news-lineups_599044.html"},
-    {"type": "media", "name": "Racing Post – Germany vs Curacao World Cup Prediction", "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/germany-vs-curacao-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aCceV7d7CMtv/"},
-    {"type": "media", "name": "Standard – Germany vs Curacao Prediction", "url": "https://www.standard.co.uk/sport/football/germany-vs-curacao-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1285707.html"},
-    {"type": "media", "name": "Juvefc – Germany vs Curacao Prediction", "url": "https://www.juvefc.com/germany-v-curacao-predictions/"},
-    {"type": "media", "name": "NDTV Sports – World Cup Group E Preview", "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-group-e-preview-teams-schedule-top-players-and-prediction-11601864"},
-    {"type": "media", "name": "Sports Illustrated – Opta Germany World Cup Chances After Injury", "url": "https://www.si.com/soccer/supercomputer-predicts-germany-2026-world-cup-chances-injury-blow"},
-    {"type": "media", "name": "Footboom1 – Germany vs Curacao Preview", "url": "https://www.footboom1.com/en/news/football/1763233551-germany-curacao-match-preview-and-prediction"},
-    {"type": "media", "name": "Paddy Power News – Germany v Curacao Best Bets", "url": "https://news.paddypower.com/football/world-cup/2026/06/13/germany-v-curacao-tips-best-bets-sunday-world-cup-june-14/"},
-    {"type": "media", "name": "Dang Journal – World Cup Group E Preview", "url": "https://www.dangjournal.com/world-cup-2026-group-e-preview-germany-curacao-cote-divoire-ecuador/"},
-    {"type": "media", "name": "BettingTop10 NZ – World Cup Odds June 14", "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"},
-    {"type": "media", "name": "Sporting Life – June 14 Fixtures & Odds", "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"},
-    {"type": "model", "name": "Opta Analyst – World Cup 2026 Group E Predictions", "url": "https://theanalyst.com/articles/world-cup-2026-group-e-predictions-preview"},
-    {"type": "model", "name": "Football Meister UK – Germany vs Curacao AI Prediction", "url": "https://footballmeister.co.uk/world-cup-2026/germany-cura%C3%A7ao-2026-06-14/"},
-    {"type": "model", "name": "ESPN Elo – World Cup All Groups Predictions", "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"},
-    {"type": "model", "name": "Opta Analyst – World Cup 2026 Groups Overview", "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"},
-    {"type": "model", "name": "Opta Analyst – Who Will Win 2026 World Cup", "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"},
-    {"type": "model", "name": "Sports Illustrated – Opta World Cup Winner Predictions", "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"},
-    {"type": "model", "name": "RotoWire – World Cup Group E Preview Tactical", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-e-preview-germany-curacao-ivory-coast-ecuador-tactics-lineups-set-pieces-odds-109286"},
-    {"type": "model", "name": "RotoWire – World Cup Best Bets Sunday June 14", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-best-bets-today-8-picks-for-sunday-june-14-118085"},
-    {"type": "betting", "name": "Sports Gambler – Germany vs Curacao Prediction", "url": "https://www.sportsgambler.com/betting-tips/football/germany-vs-curacao-prediction-lineups-odds-2026-06-14/"},
-    {"type": "betting", "name": "Covers – Germany vs Curacao Picks & Odds", "url": "https://www.covers.com/world-cup/germany-vs-curacao-prediction-picks-odds-sunday-6-14-2026"},
-    {"type": "betting", "name": "ESPN – Germany vs Curacao Odds", "url": "https://www.espn.com/soccer/odds/_/gameId/760422"},
-    {"type": "betting", "name": "Sports Interaction – Germany vs Curacao Odds", "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/germany-vs-curacao-odds-061426-217139"},
-    {"type": "betting", "name": "Fox Sports – Germany vs Curacao Odds", "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-germany-vs-curacao-jun-14-2026-game-boxscore-647624"},
-    {"type": "betting", "name": "OddsChecker – World Cup Group E Odds & Predictions", "url": "https://www.oddschecker.com/us/insight/soccer/20260609-2026-fifa-world-cup-group-e-odds-predictions-analysis-for-germany-group"},
-    {"type": "betting", "name": "Doc Sports – World Cup Group E Odds & Predictions", "url": "https://www.docsports.com/2026/world-cup-soccer-group-e-odds-expert-betting-predictions.html"},
-    {"type": "social", "name": "Instagram – World Cup 2026 Group E Preview Germany Curacao", "url": "https://www.instagram.com/p/DYrr5XWlZsl/"},
-    {"type": "forum", "name": "Reddit r/soccer – FIFA World Cup 2026 Group Draws Discussion", "url": "https://www.reddit.com/r/soccer/comments/1pf3rf5/fifa_world_cup_2026_group_draws/"},
-    {"type": "forum", "name": "Reddit r/AlignmentChartFills – Reddit Decides Group E", "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1seoe1v/reddit_decides_the_world_cup_group_e_germany/"},
-    {"type": "forum", "name": "Reddit r/LiverpoolFC – World Cup 2026 Watch Thread MD1", "url": "https://www.reddit.com/r/LiverpoolFC/comments/1u2yeei/2026_fifa_world_cup_watch_thread_md1_part_1/"},
-    {"type": "forum", "name": "Reddit r/NetherlandsWorldCup – Schedule Including Curacao", "url": "https://www.reddit.com/r/NetherlandsWorldCup/comments/1rcm5cc/telegraaf_world_cup_2026_schedule_all_matches_of/"},
-    {"type": "forum", "name": "Reddit r/football – World Cup Predictions Megathread", "url": "https://www.reddit.com/r/football/comments/1u274zt/world_cup_predictions_megathread/"},
-    {"type": "youtube", "name": "YouTube – Germany vs Curacao Predictions FIFA World Cup 2026", "url": "https://www.youtube.com/watch?v=2NyUHxLz2zs"},
-    {"type": "youtube", "name": "YouTube – Germany vs Curacao Preview Ball Blast Sports", "url": "https://www.youtube.com/watch?v=F5SnPPHPpbU"},
-    {"type": "youtube", "name": "YouTube – Germany vs Curacao Prediction World Cup Group E", "url": "https://www.youtube.com/watch?v=CbSaF2217Xk"},
-    {"type": "youtube", "name": "YouTube – World Cup Group E Preview Who Advances", "url": "https://www.youtube.com/watch?v=TMmvsGFSUGw"},
-    {"type": "youtube", "name": "YouTube – 2026 FIFA World Cup Germany vs Curacao Preview", "url": "https://www.youtube.com/watch?v=etT1DM5cTvg"},
-    {"type": "youtube", "name": "YouTube – Germany Ecuador Ivory Coast Curacao Group E ISB", "url": "https://www.youtube.com/watch?v=D1UbGxeRaG0"},
-    {"type": "media", "name": "DAZN – World Cup 2026 Fixtures", "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"},
-    {"type": "media", "name": "Soccerbase – World Cup Results June 14", "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"},
-    {"type": "media", "name": "Football Critic – World Cup Matches June 14", "url": "https://www.footballcritic.com/matches?date=2026-6-14"},
-    {"type": "media", "name": "Reuters Connect – FIFA World Cup June 14", "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"},
-    {"type": "model", "name": "Opta Analyst – Pre-Tournament World Cup Projections", "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"},
-    {"type": "media", "name": "Vietnam TT&VH – World Cup June 14 Results", "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"},
-    {"type": "media", "name": "Ahram Online – Haiti vs Scotland Match Info (June 14 Group Stage)", "url": "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Haiti-vs.-Scotland/638.aspx?Championship_YearID=18"},
-    {"type": "forum", "name": "Reddit r/worldcup – Official World Cup Predictions Thread", "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"},
-    {"type": "media", "name": "ESPN – Germany vs Curacao Live Score", "url": "https://www.espn.com/soccer/match/_/gameId/760422"},
-    {"type": "media", "name": "Sporting Life – Germany vs Curacao Odds", "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"}
+    {
+      "type": "official",
+      "name": "ESPN – FIFA World Cup 2026 Match Schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Germany vs Curacao Lineups & Preview",
+      "url": "https://www.rotowire.com/soccer/article/germany-vs-curacao-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-117956"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes – Germany vs Curacao Preview",
+      "url": "https://www.ladbrokes.com/en/news/germany-curacao-world-cup-preview-predictions-tips-2026-06-12/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Germany vs Curacao Preview",
+      "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-curacao-prediction-team-news-lineups_599044.html"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post – Germany vs Curacao World Cup Prediction",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/germany-vs-curacao-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aCceV7d7CMtv/"
+    },
+    {
+      "type": "media",
+      "name": "Standard – Germany vs Curacao Prediction",
+      "url": "https://www.standard.co.uk/sport/football/germany-vs-curacao-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1285707.html"
+    },
+    {
+      "type": "media",
+      "name": "Juvefc – Germany vs Curacao Prediction",
+      "url": "https://www.juvefc.com/germany-v-curacao-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports – World Cup Group E Preview",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-group-e-preview-teams-schedule-top-players-and-prediction-11601864"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Opta Germany World Cup Chances After Injury",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-germany-2026-world-cup-chances-injury-blow"
+    },
+    {
+      "type": "media",
+      "name": "Footboom1 – Germany vs Curacao Preview",
+      "url": "https://www.footboom1.com/en/news/football/1763233551-germany-curacao-match-preview-and-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Paddy Power News – Germany v Curacao Best Bets",
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/13/germany-v-curacao-tips-best-bets-sunday-world-cup-june-14/"
+    },
+    {
+      "type": "media",
+      "name": "Dang Journal – World Cup Group E Preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-e-preview-germany-curacao-cote-divoire-ecuador/"
+    },
+    {
+      "type": "media",
+      "name": "BettingTop10 NZ – World Cup Odds June 14",
+      "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – June 14 Fixtures & Odds",
+      "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Group E Predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-e-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister UK – Germany vs Curacao AI Prediction",
+      "url": "https://footballmeister.co.uk/world-cup-2026/germany-cura%C3%A7ao-2026-06-14/"
+    },
+    {
+      "type": "model",
+      "name": "ESPN Elo – World Cup All Groups Predictions",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Groups Overview",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Who Will Win 2026 World Cup",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Sports Illustrated – Opta World Cup Winner Predictions",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup Group E Preview Tactical",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-e-preview-germany-curacao-ivory-coast-ecuador-tactics-lineups-set-pieces-odds-109286"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup Best Bets Sunday June 14",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-best-bets-today-8-picks-for-sunday-june-14-118085"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambler – Germany vs Curacao Prediction",
+      "url": "https://www.sportsgambler.com/betting-tips/football/germany-vs-curacao-prediction-lineups-odds-2026-06-14/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers – Germany vs Curacao Picks & Odds",
+      "url": "https://www.covers.com/world-cup/germany-vs-curacao-prediction-picks-odds-sunday-6-14-2026"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN – Germany vs Curacao Odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760422"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction – Germany vs Curacao Odds",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/germany-vs-curacao-odds-061426-217139"
+    },
+    {
+      "type": "betting",
+      "name": "Fox Sports – Germany vs Curacao Odds",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-germany-vs-curacao-jun-14-2026-game-boxscore-647624"
+    },
+    {
+      "type": "betting",
+      "name": "OddsChecker – World Cup Group E Odds & Predictions",
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260609-2026-fifa-world-cup-group-e-odds-predictions-analysis-for-germany-group"
+    },
+    {
+      "type": "betting",
+      "name": "Doc Sports – World Cup Group E Odds & Predictions",
+      "url": "https://www.docsports.com/2026/world-cup-soccer-group-e-odds-expert-betting-predictions.html"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – World Cup 2026 Group E Preview Germany Curacao",
+      "url": "https://www.instagram.com/p/DYrr5XWlZsl/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – FIFA World Cup 2026 Group Draws Discussion",
+      "url": "https://www.reddit.com/r/soccer/comments/1pf3rf5/fifa_world_cup_2026_group_draws/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills – Reddit Decides Group E",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1seoe1v/reddit_decides_the_world_cup_group_e_germany/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/LiverpoolFC – World Cup 2026 Watch Thread MD1",
+      "url": "https://www.reddit.com/r/LiverpoolFC/comments/1u2yeei/2026_fifa_world_cup_watch_thread_md1_part_1/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/NetherlandsWorldCup – Schedule Including Curacao",
+      "url": "https://www.reddit.com/r/NetherlandsWorldCup/comments/1rcm5cc/telegraaf_world_cup_2026_schedule_all_matches_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football – World Cup Predictions Megathread",
+      "url": "https://www.reddit.com/r/football/comments/1u274zt/world_cup_predictions_megathread/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao Predictions FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=2NyUHxLz2zs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao Preview Ball Blast Sports",
+      "url": "https://www.youtube.com/watch?v=F5SnPPHPpbU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao Prediction World Cup Group E",
+      "url": "https://www.youtube.com/watch?v=CbSaF2217Xk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – World Cup Group E Preview Who Advances",
+      "url": "https://www.youtube.com/watch?v=TMmvsGFSUGw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Germany vs Curacao Preview",
+      "url": "https://www.youtube.com/watch?v=etT1DM5cTvg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany Ecuador Ivory Coast Curacao Group E ISB",
+      "url": "https://www.youtube.com/watch?v=D1UbGxeRaG0"
+    },
+    {
+      "type": "media",
+      "name": "DAZN – World Cup 2026 Fixtures",
+      "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"
+    },
+    {
+      "type": "media",
+      "name": "Soccerbase – World Cup Results June 14",
+      "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "Football Critic – World Cup Matches June 14",
+      "url": "https://www.footballcritic.com/matches?date=2026-6-14"
+    },
+    {
+      "type": "media",
+      "name": "Reuters Connect – FIFA World Cup June 14",
+      "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Pre-Tournament World Cup Projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "media",
+      "name": "Vietnam TT&VH – World Cup June 14 Results",
+      "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online – Haiti vs Scotland Match Info (June 14 Group Stage)",
+      "url": "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Haiti-vs.-Scotland/638.aspx?Championship_YearID=18"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Official World Cup Predictions Thread",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Germany vs Curacao Live Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760422"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – Germany vs Curacao Odds",
+      "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"
+    }
   ],
-  "source_count": 51
+  "source_count": 51,
+  "kickoff_utc": "2026-06-14T22:00:00Z",
+  "kickoff_hkt": "2026-06-15 06:00"
 }

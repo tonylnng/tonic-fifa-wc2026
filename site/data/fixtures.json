@@ -97,7 +97,9 @@
       "result": {
         "home": 2,
         "away": 0
-      }
+      },
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-11T22:00:00Z"
     },
     {
       "match": 2,
@@ -113,7 +115,9 @@
       "result": {
         "home": 2,
         "away": 1
-      }
+      },
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-13T02:00:00Z"
     },
     {
       "match": 3,
@@ -129,7 +133,9 @@
       "result": {
         "home": 1,
         "away": 1
-      }
+      },
+      "timezone": "America/Toronto",
+      "kickoff_utc": "2026-06-12T19:00:00Z"
     },
     {
       "match": 4,
@@ -145,7 +151,9 @@
       "result": {
         "home": 4,
         "away": 1
-      }
+      },
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-14T01:00:00Z"
     },
     {
       "match": 5,
@@ -158,7 +166,9 @@
       "venue": "Levi's Stadium",
       "city": "Santa Clara, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-14T02:00:00Z"
     },
     {
       "match": 6,
@@ -171,7 +181,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-14T02:00:00Z"
     },
     {
       "match": 7,
@@ -184,7 +196,9 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-14T05:00:00Z"
     },
     {
       "match": 8,
@@ -197,7 +211,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-06-14T11:00:00Z"
     },
     {
       "match": 9,
@@ -210,7 +226,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-14T22:00:00Z"
     },
     {
       "match": 10,
@@ -223,7 +241,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-15T01:00:00Z"
     },
     {
       "match": 11,
@@ -236,7 +256,9 @@
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-15T03:00:00Z"
     },
     {
       "match": 12,
@@ -249,7 +271,9 @@
       "venue": "Estadio BBVA",
       "city": "Guadalupe, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Monterrey",
+      "kickoff_utc": "2026-06-15T08:00:00Z"
     },
     {
       "match": 13,
@@ -262,7 +286,9 @@
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-15T20:00:00Z"
     },
     {
       "match": 14,
@@ -275,7 +301,9 @@
       "venue": "Lumen Field",
       "city": "Seattle, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-16T02:00:00Z"
     },
     {
       "match": 15,
@@ -288,7 +316,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-16T02:00:00Z"
     },
     {
       "match": 16,
@@ -301,7 +331,9 @@
       "venue": "SoFi Stadium",
       "city": "Inglewood, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-16T08:00:00Z"
     },
     {
       "match": 17,
@@ -314,7 +346,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-16T23:00:00Z"
     },
     {
       "match": 18,
@@ -327,7 +361,9 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-17T02:00:00Z"
     },
     {
       "match": 19,
@@ -340,7 +376,9 @@
       "venue": "Arrowhead Stadium",
       "city": "Kansas City, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-17T06:00:00Z"
     },
     {
       "match": 20,
@@ -353,7 +391,9 @@
       "venue": "Levi's Stadium",
       "city": "Santa Clara, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-17T11:00:00Z"
     },
     {
       "match": 21,
@@ -366,7 +406,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-17T22:00:00Z"
     },
     {
       "match": 22,
@@ -379,7 +421,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-18T01:00:00Z"
     },
     {
       "match": 23,
@@ -392,7 +436,9 @@
       "venue": "BMO Field",
       "city": "Toronto, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Toronto",
+      "kickoff_utc": "2026-06-18T03:00:00Z"
     },
     {
       "match": 24,
@@ -405,7 +451,9 @@
       "venue": "Estadio Azteca",
       "city": "Mexico City, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-18T08:00:00Z"
     },
     {
       "match": 25,
@@ -418,7 +466,9 @@
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-18T20:00:00Z"
     },
     {
       "match": 26,
@@ -431,7 +481,9 @@
       "venue": "SoFi Stadium",
       "city": "Inglewood, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-19T02:00:00Z"
     },
     {
       "match": 27,
@@ -444,7 +496,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-06-19T05:00:00Z"
     },
     {
       "match": 28,
@@ -457,7 +511,9 @@
       "venue": "Estadio Akron",
       "city": "Zapopan, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-19T07:00:00Z"
     },
     {
       "match": 29,
@@ -470,7 +526,9 @@
       "venue": "Lumen Field",
       "city": "Seattle, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-20T02:00:00Z"
     },
     {
       "match": 30,
@@ -483,7 +541,9 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-20T02:00:00Z"
     },
     {
       "match": 31,
@@ -496,7 +556,9 @@
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-20T04:30:00Z"
     },
     {
       "match": 32,
@@ -509,7 +571,9 @@
       "venue": "Levi's Stadium",
       "city": "Santa Clara, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-20T10:00:00Z"
     },
     {
       "match": 33,
@@ -522,7 +586,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-20T22:00:00Z"
     },
     {
       "match": 34,
@@ -535,7 +601,9 @@
       "venue": "BMO Field",
       "city": "Toronto, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Toronto",
+      "kickoff_utc": "2026-06-21T00:00:00Z"
     },
     {
       "match": 35,
@@ -548,7 +616,9 @@
       "venue": "Arrowhead Stadium",
       "city": "Kansas City, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-21T05:00:00Z"
     },
     {
       "match": 36,
@@ -561,7 +631,9 @@
       "venue": "Estadio BBVA",
       "city": "Guadalupe, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Monterrey",
+      "kickoff_utc": "2026-06-21T10:00:00Z"
     },
     {
       "match": 37,
@@ -574,7 +646,9 @@
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-21T20:00:00Z"
     },
     {
       "match": 38,
@@ -587,7 +661,9 @@
       "venue": "SoFi Stadium",
       "city": "Inglewood, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-22T02:00:00Z"
     },
     {
       "match": 39,
@@ -600,7 +676,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-22T02:00:00Z"
     },
     {
       "match": 40,
@@ -613,7 +691,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-06-22T08:00:00Z"
     },
     {
       "match": 41,
@@ -626,7 +706,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-22T22:00:00Z"
     },
     {
       "match": 42,
@@ -639,7 +721,9 @@
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-23T01:00:00Z"
     },
     {
       "match": 43,
@@ -652,7 +736,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-23T04:00:00Z"
     },
     {
       "match": 44,
@@ -665,7 +751,9 @@
       "venue": "Levi's Stadium",
       "city": "Santa Clara, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-23T10:00:00Z"
     },
     {
       "match": 45,
@@ -678,7 +766,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-23T22:00:00Z"
     },
     {
       "match": 46,
@@ -691,7 +781,9 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-24T00:00:00Z"
     },
     {
       "match": 47,
@@ -704,7 +796,9 @@
       "venue": "BMO Field",
       "city": "Toronto, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Toronto",
+      "kickoff_utc": "2026-06-24T03:00:00Z"
     },
     {
       "match": 48,
@@ -717,7 +811,9 @@
       "venue": "Estadio Akron",
       "city": "Zapopan, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-24T08:00:00Z"
     },
     {
       "match": 49,
@@ -730,7 +826,9 @@
       "venue": "Lumen Field",
       "city": "Seattle, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-25T02:00:00Z"
     },
     {
       "match": 50,
@@ -743,7 +841,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-06-25T02:00:00Z"
     },
     {
       "match": 51,
@@ -756,7 +856,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-25T02:00:00Z"
     },
     {
       "match": 52,
@@ -769,7 +871,9 @@
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-25T02:00:00Z"
     },
     {
       "match": 53,
@@ -782,7 +886,9 @@
       "venue": "Estadio Azteca",
       "city": "Mexico City, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-25T07:00:00Z"
     },
     {
       "match": 54,
@@ -795,7 +901,9 @@
       "venue": "Estadio BBVA",
       "city": "Guadalupe, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Monterrey",
+      "kickoff_utc": "2026-06-25T07:00:00Z"
     },
     {
       "match": 55,
@@ -808,7 +916,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-26T00:00:00Z"
     },
     {
       "match": 56,
@@ -821,7 +931,9 @@
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-26T00:00:00Z"
     },
     {
       "match": 57,
@@ -834,7 +946,9 @@
       "venue": "Arrowhead Stadium",
       "city": "Kansas City, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-26T04:00:00Z"
     },
     {
       "match": 58,
@@ -847,7 +961,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-26T04:00:00Z"
     },
     {
       "match": 59,
@@ -860,7 +976,9 @@
       "venue": "Levi's Stadium",
       "city": "Santa Clara, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-26T09:00:00Z"
     },
     {
       "match": 60,
@@ -873,7 +991,9 @@
       "venue": "SoFi Stadium",
       "city": "Inglewood, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-26T09:00:00Z"
     },
     {
       "match": 61,
@@ -886,7 +1006,9 @@
       "venue": "BMO Field",
       "city": "Toronto, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Toronto",
+      "kickoff_utc": "2026-06-26T23:00:00Z"
     },
     {
       "match": 62,
@@ -899,7 +1021,9 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-26T23:00:00Z"
     },
     {
       "match": 63,
@@ -912,7 +1036,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-27T05:00:00Z"
     },
     {
       "match": 64,
@@ -925,7 +1051,9 @@
       "venue": "Estadio Akron",
       "city": "Zapopan, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-06-27T06:00:00Z"
     },
     {
       "match": 65,
@@ -938,7 +1066,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-06-27T10:00:00Z"
     },
     {
       "match": 66,
@@ -951,7 +1081,9 @@
       "venue": "Lumen Field",
       "city": "Seattle, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-06-27T10:00:00Z"
     },
     {
       "match": 67,
@@ -964,7 +1096,9 @@
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-28T01:00:00Z"
     },
     {
       "match": 68,
@@ -977,7 +1111,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-28T01:00:00Z"
     },
     {
       "match": 69,
@@ -990,7 +1126,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-28T03:30:00Z"
     },
     {
       "match": 70,
@@ -1003,7 +1141,9 @@
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-06-28T03:30:00Z"
     },
     {
       "match": 71,
@@ -1016,7 +1156,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-28T07:00:00Z"
     },
     {
       "match": 72,
@@ -1029,7 +1171,9 @@
       "venue": "Arrowhead Stadium",
       "city": "Kansas City, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-06-28T07:00:00Z"
     },
     {
       "match": 73,
@@ -1042,7 +1186,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-02T00:00:00Z"
     },
     {
       "match": 74,
@@ -1055,7 +1201,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-02T04:00:00Z"
     },
     {
       "match": 75,
@@ -1068,7 +1216,9 @@
       "venue": "SoFi Stadium",
       "city": "Los Angeles, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-07-03T03:00:00Z"
     },
     {
       "match": 76,
@@ -1081,7 +1231,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-03T04:00:00Z"
     },
     {
       "match": 77,
@@ -1094,7 +1246,9 @@
       "venue": "Estadio Azteca",
       "city": "Mexico City, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-07-03T08:00:00Z"
     },
     {
       "match": 78,
@@ -1107,7 +1261,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-04T00:00:00Z"
     },
     {
       "match": 79,
@@ -1120,7 +1276,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-07-04T05:00:00Z"
     },
     {
       "match": 80,
@@ -1133,7 +1291,9 @@
       "venue": "Levi's Stadium",
       "city": "San Francisco, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-07-04T06:00:00Z"
     },
     {
       "match": 81,
@@ -1146,7 +1306,9 @@
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-04T22:00:00Z"
     },
     {
       "match": 82,
@@ -1159,7 +1321,9 @@
       "venue": "Arrowhead Stadium",
       "city": "Kansas City, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-05T02:00:00Z"
     },
     {
       "match": 83,
@@ -1172,7 +1336,9 @@
       "venue": "Lumen Field",
       "city": "Seattle, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-07-05T07:00:00Z"
     },
     {
       "match": 84,
@@ -1185,7 +1351,9 @@
       "venue": "Estadio BBVA",
       "city": "Monterrey, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Monterrey",
+      "kickoff_utc": "2026-07-05T08:00:00Z"
     },
     {
       "match": 85,
@@ -1198,7 +1366,9 @@
       "venue": "BMO Field",
       "city": "Toronto, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Toronto",
+      "kickoff_utc": "2026-07-06T02:00:00Z"
     },
     {
       "match": 86,
@@ -1211,7 +1381,9 @@
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-06T04:00:00Z"
     },
     {
       "match": 87,
@@ -1224,7 +1396,9 @@
       "venue": "Estadio Akron",
       "city": "Guadalajara, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-07-06T08:00:00Z"
     },
     {
       "match": 88,
@@ -1237,7 +1411,9 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-07T02:00:00Z"
     },
     {
       "match": 89,
@@ -1250,7 +1426,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-08T03:00:00Z"
     },
     {
       "match": 90,
@@ -1263,7 +1441,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-08T07:00:00Z"
     },
     {
       "match": 91,
@@ -1276,7 +1456,9 @@
       "venue": "SoFi Stadium",
       "city": "Los Angeles, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-07-09T06:00:00Z"
     },
     {
       "match": 92,
@@ -1289,7 +1471,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-09T06:00:00Z"
     },
     {
       "match": 93,
@@ -1302,7 +1486,9 @@
       "venue": "NRG Stadium",
       "city": "Houston, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-10T04:00:00Z"
     },
     {
       "match": 94,
@@ -1315,7 +1501,9 @@
       "venue": "Levi's Stadium",
       "city": "San Francisco, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-07-10T09:00:00Z"
     },
     {
       "match": 95,
@@ -1328,7 +1516,9 @@
       "venue": "BC Place",
       "city": "Vancouver, Canada",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Vancouver",
+      "kickoff_utc": "2026-07-11T06:00:00Z"
     },
     {
       "match": 96,
@@ -1341,7 +1531,9 @@
       "venue": "Estadio Azteca",
       "city": "Mexico City, Mexico",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Mexico_City",
+      "kickoff_utc": "2026-07-11T08:00:00Z"
     },
     {
       "match": 97,
@@ -1354,7 +1546,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-12T02:00:00Z"
     },
     {
       "match": 98,
@@ -1367,7 +1561,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-12T06:00:00Z"
     },
     {
       "match": 99,
@@ -1380,7 +1576,9 @@
       "venue": "SoFi Stadium",
       "city": "Los Angeles, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Los_Angeles",
+      "kickoff_utc": "2026-07-13T05:00:00Z"
     },
     {
       "match": 100,
@@ -1393,7 +1591,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-13T05:00:00Z"
     },
     {
       "match": 101,
@@ -1406,7 +1606,9 @@
       "venue": "AT&T Stadium",
       "city": "Arlington, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/Chicago",
+      "kickoff_utc": "2026-07-15T04:00:00Z"
     },
     {
       "match": 102,
@@ -1419,7 +1621,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-16T03:00:00Z"
     },
     {
       "match": 103,
@@ -1432,7 +1636,9 @@
       "venue": "Hard Rock Stadium",
       "city": "Miami, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-19T02:00:00Z"
     },
     {
       "match": 104,
@@ -1445,7 +1651,9 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
-      "result": null
+      "result": null,
+      "timezone": "America/New_York",
+      "kickoff_utc": "2026-07-20T00:00:00Z"
     }
   ]
 }

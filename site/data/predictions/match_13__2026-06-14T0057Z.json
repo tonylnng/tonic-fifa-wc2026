@@ -19,7 +19,52 @@
       "draw": 0.08,
       "away": 0.04
     },
-    "confidence": 0.85
+    "confidence": 0.85,
+    "top_scorelines": [
+      {
+        "scoreline": "3:0",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "4:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "4:1",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.85,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.8,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.65,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "西班牙是本屆世界盃最大熱門之一，為FIFA世界排名第一，擁有拉明·亞馬爾、佩德里、尼科·威廉士等歐洲最頂尖的技術球員，並以歐國聯2024年衛冕冠軍之姿出賽。博彩公司給予西班牙一面倒賠率（-1050至-1400），暗示約85-93%勝率。維德角是世界盃首秀球隊，整支球隊在頂五歐洲聯賽中只有一名球員（洛根·科斯塔，比亞雷亞爾），陣容深度與個人質素與西班牙相差懸殊，幾乎無緣爆冷。",
@@ -291,5 +336,7 @@
       "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-spain-vs-cape-verde"
     }
   ],
-  "source_count": 51
+  "source_count": 51,
+  "kickoff_utc": "2026-06-15T20:00:00Z",
+  "kickoff_hkt": "2026-06-16 04:00"
 }

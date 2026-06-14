@@ -8,11 +8,63 @@
   "run_timestamp": "2026-06-14T00:57:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": {"home": 2, "away": 0},
+    "score": {
+      "home": 2,
+      "away": 0
+    },
     "scoreline": "2:0",
     "outcome": "home",
-    "win_prob": {"home": 0.50, "draw": 0.26, "away": 0.24},
-    "confidence": 0.56
+    "win_prob": {
+      "home": 0.5,
+      "draw": 0.26,
+      "away": 0.24
+    },
+    "confidence": 0.56,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.56,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.51,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "瑞典擁有亞歷山大·伊薩克（Liverpool）與維克托·久科里斯（Arsenal）兩大世界頂尖前鋒，進攻火力在本屆世界盃中名列前茅。主帥葛拉漢·波特（Graham Potter）接手後重塑球隊，成功帶隊出線，更延長合約至2030年。突尼西亞在非洲外圍賽表現相對穩定，但進攻創造力有限，近期賽果顯示為LLDWL（近五場），形勢不樂觀。整體博彩公司普遍看好瑞典（賠率-107至-115），Dimers模型給予瑞典49.9%勝率。",
@@ -28,56 +80,258 @@
     "dissent": "少數派留意突尼西亞在世界盃前幾屆表現頑強（2022年在卡塔爾雖無法出線，但成功逼平法國）。若突尼西亞以低位防守成功壓制久科里斯和伊薩克，再以定位球進攻，不排除最終平局甚至爆冷。部分博彩分析師（如VSiN）更指出突尼西亞+0.5受讓球賠率（-115）是良好性價比選擇，顯示市場對突尼西亞守平能力並非全無信心。"
   },
   "sources": [
-    {"type": "official", "name": "FIFA.com - World Cup 2026 Group F", "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"},
-    {"type": "media", "name": "MLS Soccer - 2026 FIFA World Cup Group F Preview", "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-f-preview-netherlands-j"},
-    {"type": "media", "name": "Sofascore - Sweden vs Tunisia World Cup Group F Preview", "url": "https://www.sofascore.com/news/sweden-vs-tunisia-world-cup-group-f-preview"},
-    {"type": "media", "name": "Yahoo Sports - 2026 World Cup Group F Preview All Eyes on Van Dijk vs Isak", "url": "https://sports.yahoo.com/articles/2026-world-cup-group-f-210000330.html"},
-    {"type": "media", "name": "BBC Sport - Isak and Gyokeres named in Sweden World Cup squad", "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o"},
-    {"type": "media", "name": "ESPN - Alexander Isak headlines final 26-man Sweden World Cup squad", "url": "https://www.espn.com/football/story/_/id/48754111/alexander-isak-headlines-final"},
-    {"type": "media", "name": "Chosun - Sweden World Cup Squad Omits Injured Kulusevski", "url": "https://www.chosun.com/english/sports-en/2026/05/13/TPQMT5ACIFDK3IV7WFOUACX5YA/"},
-    {"type": "media", "name": "Goal.com - World Cup dream dies for Dejan Kulusevski after 12 months of injury", "url": "https://www.goal.com/en/lists/world-cup-dejan-kulusevski-injury-tottenham-sweden"},
-    {"type": "media", "name": "SportBible - Difficult to treat Dejan Kulusevski injury explained Sweden", "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/spurs-dejan-kul"},
-    {"type": "official", "name": "ESPN - Tunisia 2026 Squad", "url": "https://www.espn.com/soccer/team/squad/_/id/659/tunisia"},
-    {"type": "media", "name": "Wikipedia - Tunisia national football team 2026 squad", "url": "https://en.wikipedia.org/wiki/Tunisia_national_football_team"},
-    {"type": "media", "name": "Yahoo Sports - Tunisia 2026 World Cup Squad Fixtures and Schedule", "url": "https://sports.yahoo.com/articles/tunisia-2026-world-cup-squad-081500495.html"},
-    {"type": "media", "name": "Wikipedia - Template Tunisia squad 2026 FIFA World Cup", "url": "https://en.wikipedia.org/wiki/Template:Tunisia_squad_2026_FIFA_World_Cup"},
-    {"type": "media", "name": "AP News - Sweden extends coach Graham Potter contract ahead of World Cup", "url": "https://apnews.com/article/sweden-coach-potter-world-cup-8409df43fbe0ef980d8b0d8"},
-    {"type": "media", "name": "Washington Post - Graham Potter dust off cowboy hat after leading Sweden to World Cup", "url": "https://www.washingtonpost.com/sports/soccer/2026/03/31/sweden-world-cup-potter/"},
-    {"type": "media", "name": "Guardian - Graham Potter I feel very Swedish when working", "url": "https://www.theguardian.com/football/2026/jun/05/graham-potter-sweden-head-coach"},
-    {"type": "media", "name": "Guardian - Graham Potter and Sweden revel in second chances World Cup", "url": "https://www.theguardian.com/football/2026/apr/01/graham-potter-sweden-second-cha"},
-    {"type": "media", "name": "Guardian - Viktor Gyokeres hat-trick Sweden beat Ukraine World Cup qualifier", "url": "https://www.theguardian.com/football/2026/mar/26/ukraine-sweden-world-cup-qualif"},
-    {"type": "media", "name": "DevDiscourse - Viktor Gyokeres dramatic goal secures Sweden World Cup spot", "url": "https://www.devdiscourse.com/article/sports-games/3932733-viktor-gyokeres-dramat"},
-    {"type": "media", "name": "BigDSoccer - Sweden 2026 World Cup Preview Gyokeres Isak", "url": "https://www.bigdsoccer.com/sweden-2026-world-cup-preview/"},
-    {"type": "media", "name": "CityMuzik - Sweden World Cup 2026 Team Profile Fixtures Squad", "url": "https://www.citimuzik.com/world-cup-2026/teams/sweden/"},
-    {"type": "media", "name": "RotoWire - 2026 World Cup Group F Preview Netherlands Japan Sweden Tunisia", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-f-preview-netherlan"},
-    {"type": "betting", "name": "ESPN - Sweden vs Tunisia Odds and Spread Jun 14 2026", "url": "https://www.espn.com/soccer/odds/_/gameId/760424"},
-    {"type": "betting", "name": "Sports Interaction - Sweden vs Tunisia Odds Stats June 15 2026", "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/sweden-vs-tunis"},
-    {"type": "betting", "name": "Dimers - Tunisia vs Sweden Prediction Picks World Cup 2026", "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_swe_tun"},
-    {"type": "betting", "name": "VSiN - Sweden vs Tunisia Prediction 2026 FIFA World Cup Preview", "url": "https://vsin.com/soccer/sweden-vs-tunisia-prediction-2026-fifa-world-cup-preview"},
-    {"type": "betting", "name": "Futbol24 - Sweden Tunisia betting tip best odds 15.06.2026", "url": "https://www.futbol24.com/betting-tips/preview/15-06-2026-sweden-tunisia-betting-"},
-    {"type": "betting", "name": "FIFA-26.com - World Cup 2026 injuries absences squad updates", "url": "https://fifa-26.com/en/injuries"},
-    {"type": "model", "name": "Squawka - Tunisia World Cup 2026 odds probability path to final", "url": "https://www.squawka.com/en/outright-markets/tunisia-world-cup-2026-odds/"},
-    {"type": "model", "name": "RotoWire - 2026 World Cup Team Projections Group F Sweden Tunisia", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projection"},
-    {"type": "model", "name": "CupChances - Sweden Knockout Chances 2026", "url": "https://cupchances.com/en/world-cup/2026/sweden"},
-    {"type": "youtube", "name": "YouTube - FIFA World Cup 2026 Group F Preview", "url": "https://www.youtube.com/watch?v=gWDZ7TkXro0"},
-    {"type": "youtube", "name": "YouTube - Sweden vs Tunisia Preview FIFA World Cup 2026 Group F Prediction Tactical Analysis", "url": "https://www.youtube.com/watch?v=-h0ZnDqVKBc"},
-    {"type": "media", "name": "ESPN - 2026 World Cup Injuries Tracker Timber out Netherlands", "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tra"},
-    {"type": "media", "name": "FIFA World Cup News - Injury Report Stars Racing to Be Fit Before Kickoff", "url": "https://www.fifaworldcup-news.org/2026/06/fifa-world-cup-2026-injury-report-star"},
-    {"type": "forum", "name": "Reddit r/worldcup - Sweden Tunisia Group F discussion", "url": "https://www.reddit.com/r/worldcup/"},
-    {"type": "social", "name": "Twitter/X - Sweden Tunisia World Cup 2026 Group F", "url": "https://twitter.com/search?q=Sweden+Tunisia+WorldCup2026"},
-    {"type": "media", "name": "Guardian - Sweden Cape Verde World Cup 2026 Group F preview", "url": "https://www.theguardian.com/football/sweden"},
-    {"type": "media", "name": "WCSoccerNZ2026 - World Cup 2026 Winner Odds Full Market Comparison Group F", "url": "https://wcsoccernz2026.com/world-cup-2026-odds/"},
-    {"type": "kol", "name": "Alexi Lalas - Group F Preview Sweden Tunisia Netherlands Japan", "url": "https://www.youtube.com/watch?v=FUfx-y51XOo"},
-    {"type": "media", "name": "OnThePitch - Sweden 2026 FIFA World Cup squad probabilities", "url": "https://onthepitch.now/countries/swe/"},
-    {"type": "media", "name": "Bundesliga.com - Group F Sweden Tunisia FIFA World Cup 2026 fixture", "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/sweden-vs-tun"},
-    {"type": "media", "name": "BBC Sport - Sweden World Cup 2026 squad preparation", "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o"},
-    {"type": "media", "name": "FourFourTwo - Sweden World Cup 2026 squad analysis Gyokeres Isak", "url": "https://www.fourfourtwo.com/team/sweden-world-cup-2026-squad"},
-    {"type": "media", "name": "Fox Sports - Sweden vs Tunisia Group F World Cup 2026", "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-sweden-vs-tunisia"},
-    {"type": "media", "name": "NBC Sports - 2026 FIFA World Cup Group F analysis Sweden Tunisia", "url": "https://www.nbcsports.com/soccer/world-cup/group-f"},
-    {"type": "media", "name": "Squawka - Sweden World Cup 2026 odds probability analysis", "url": "https://www.squawka.com/en/outright-markets/sweden-world-cup-2026-odds/"},
-    {"type": "social", "name": "Instagram - Sweden World Cup 2026 squad Gyokeres Isak", "url": "https://www.instagram.com/svenskfotboll/"},
-    {"type": "media", "name": "CityMuzik - Tunisia World Cup 2026 team profile fixtures group F", "url": "https://www.citimuzik.com/world-cup-2026/teams/tunisia/"},
-    {"type": "media", "name": "KickOracle - Sweden World Cup 2026 chances AI analysis", "url": "https://kickoracle.com/en/blog/sweden-world-cup-2026-analysis"}
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026 Group F",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer - 2026 FIFA World Cup Group F Preview",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-f-preview-netherlands-j"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore - Sweden vs Tunisia World Cup Group F Preview",
+      "url": "https://www.sofascore.com/news/sweden-vs-tunisia-world-cup-group-f-preview"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - 2026 World Cup Group F Preview All Eyes on Van Dijk vs Isak",
+      "url": "https://sports.yahoo.com/articles/2026-world-cup-group-f-210000330.html"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Isak and Gyokeres named in Sweden World Cup squad",
+      "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Alexander Isak headlines final 26-man Sweden World Cup squad",
+      "url": "https://www.espn.com/football/story/_/id/48754111/alexander-isak-headlines-final"
+    },
+    {
+      "type": "media",
+      "name": "Chosun - Sweden World Cup Squad Omits Injured Kulusevski",
+      "url": "https://www.chosun.com/english/sports-en/2026/05/13/TPQMT5ACIFDK3IV7WFOUACX5YA/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - World Cup dream dies for Dejan Kulusevski after 12 months of injury",
+      "url": "https://www.goal.com/en/lists/world-cup-dejan-kulusevski-injury-tottenham-sweden"
+    },
+    {
+      "type": "media",
+      "name": "SportBible - Difficult to treat Dejan Kulusevski injury explained Sweden",
+      "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/spurs-dejan-kul"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Tunisia 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/659/tunisia"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - Tunisia national football team 2026 squad",
+      "url": "https://en.wikipedia.org/wiki/Tunisia_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Tunisia 2026 World Cup Squad Fixtures and Schedule",
+      "url": "https://sports.yahoo.com/articles/tunisia-2026-world-cup-squad-081500495.html"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - Template Tunisia squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Tunisia_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "AP News - Sweden extends coach Graham Potter contract ahead of World Cup",
+      "url": "https://apnews.com/article/sweden-coach-potter-world-cup-8409df43fbe0ef980d8b0d8"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post - Graham Potter dust off cowboy hat after leading Sweden to World Cup",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/03/31/sweden-world-cup-potter/"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Graham Potter I feel very Swedish when working",
+      "url": "https://www.theguardian.com/football/2026/jun/05/graham-potter-sweden-head-coach"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Graham Potter and Sweden revel in second chances World Cup",
+      "url": "https://www.theguardian.com/football/2026/apr/01/graham-potter-sweden-second-cha"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Viktor Gyokeres hat-trick Sweden beat Ukraine World Cup qualifier",
+      "url": "https://www.theguardian.com/football/2026/mar/26/ukraine-sweden-world-cup-qualif"
+    },
+    {
+      "type": "media",
+      "name": "DevDiscourse - Viktor Gyokeres dramatic goal secures Sweden World Cup spot",
+      "url": "https://www.devdiscourse.com/article/sports-games/3932733-viktor-gyokeres-dramat"
+    },
+    {
+      "type": "media",
+      "name": "BigDSoccer - Sweden 2026 World Cup Preview Gyokeres Isak",
+      "url": "https://www.bigdsoccer.com/sweden-2026-world-cup-preview/"
+    },
+    {
+      "type": "media",
+      "name": "CityMuzik - Sweden World Cup 2026 Team Profile Fixtures Squad",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/sweden/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - 2026 World Cup Group F Preview Netherlands Japan Sweden Tunisia",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-f-preview-netherlan"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Sweden vs Tunisia Odds and Spread Jun 14 2026",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760424"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction - Sweden vs Tunisia Odds Stats June 15 2026",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/sweden-vs-tunis"
+    },
+    {
+      "type": "betting",
+      "name": "Dimers - Tunisia vs Sweden Prediction Picks World Cup 2026",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_swe_tun"
+    },
+    {
+      "type": "betting",
+      "name": "VSiN - Sweden vs Tunisia Prediction 2026 FIFA World Cup Preview",
+      "url": "https://vsin.com/soccer/sweden-vs-tunisia-prediction-2026-fifa-world-cup-preview"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - Sweden Tunisia betting tip best odds 15.06.2026",
+      "url": "https://www.futbol24.com/betting-tips/preview/15-06-2026-sweden-tunisia-betting-"
+    },
+    {
+      "type": "betting",
+      "name": "FIFA-26.com - World Cup 2026 injuries absences squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "model",
+      "name": "Squawka - Tunisia World Cup 2026 odds probability path to final",
+      "url": "https://www.squawka.com/en/outright-markets/tunisia-world-cup-2026-odds/"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - 2026 World Cup Team Projections Group F Sweden Tunisia",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projection"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Sweden Knockout Chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/sweden"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FIFA World Cup 2026 Group F Preview",
+      "url": "https://www.youtube.com/watch?v=gWDZ7TkXro0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Sweden vs Tunisia Preview FIFA World Cup 2026 Group F Prediction Tactical Analysis",
+      "url": "https://www.youtube.com/watch?v=-h0ZnDqVKBc"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 2026 World Cup Injuries Tracker Timber out Netherlands",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tra"
+    },
+    {
+      "type": "media",
+      "name": "FIFA World Cup News - Injury Report Stars Racing to Be Fit Before Kickoff",
+      "url": "https://www.fifaworldcup-news.org/2026/06/fifa-world-cup-2026-injury-report-star"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Sweden Tunisia Group F discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - Sweden Tunisia World Cup 2026 Group F",
+      "url": "https://twitter.com/search?q=Sweden+Tunisia+WorldCup2026"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Sweden Cape Verde World Cup 2026 Group F preview",
+      "url": "https://www.theguardian.com/football/sweden"
+    },
+    {
+      "type": "media",
+      "name": "WCSoccerNZ2026 - World Cup 2026 Winner Odds Full Market Comparison Group F",
+      "url": "https://wcsoccernz2026.com/world-cup-2026-odds/"
+    },
+    {
+      "type": "kol",
+      "name": "Alexi Lalas - Group F Preview Sweden Tunisia Netherlands Japan",
+      "url": "https://www.youtube.com/watch?v=FUfx-y51XOo"
+    },
+    {
+      "type": "media",
+      "name": "OnThePitch - Sweden 2026 FIFA World Cup squad probabilities",
+      "url": "https://onthepitch.now/countries/swe/"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com - Group F Sweden Tunisia FIFA World Cup 2026 fixture",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/sweden-vs-tun"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Sweden World Cup 2026 squad preparation",
+      "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Sweden World Cup 2026 squad analysis Gyokeres Isak",
+      "url": "https://www.fourfourtwo.com/team/sweden-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Sweden vs Tunisia Group F World Cup 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-sweden-vs-tunisia"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - 2026 FIFA World Cup Group F analysis Sweden Tunisia",
+      "url": "https://www.nbcsports.com/soccer/world-cup/group-f"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Sweden World Cup 2026 odds probability analysis",
+      "url": "https://www.squawka.com/en/outright-markets/sweden-world-cup-2026-odds/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Sweden World Cup 2026 squad Gyokeres Isak",
+      "url": "https://www.instagram.com/svenskfotboll/"
+    },
+    {
+      "type": "media",
+      "name": "CityMuzik - Tunisia World Cup 2026 team profile fixtures group F",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/tunisia/"
+    },
+    {
+      "type": "media",
+      "name": "KickOracle - Sweden World Cup 2026 chances AI analysis",
+      "url": "https://kickoracle.com/en/blog/sweden-world-cup-2026-analysis"
+    }
   ],
-  "source_count": 50
+  "source_count": 50,
+  "kickoff_utc": "2026-06-15T08:00:00Z",
+  "kickoff_hkt": "2026-06-15 16:00"
 }

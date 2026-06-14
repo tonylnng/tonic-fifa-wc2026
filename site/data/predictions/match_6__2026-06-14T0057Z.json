@@ -8,11 +8,63 @@
   "run_timestamp": "2026-06-14T00:57:00Z",
   "model": "research-pplx",
   "prediction": {
-    "score": {"home": 2, "away": 1},
+    "score": {
+      "home": 2,
+      "away": 1
+    },
     "scoreline": "2:1",
     "outcome": "home",
-    "win_prob": {"home": 0.57, "draw": 0.24, "away": 0.19},
-    "confidence": 0.62
+    "win_prob": {
+      "home": 0.57,
+      "draw": 0.24,
+      "away": 0.19
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.06
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "3:2",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.57,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "巴西是本場的大熱門，但由於Neymar因小腿傷缺陣，加上後防多名主力亦有傷患，令比賽存在較大變數。摩洛哥在防守組織上世界一流，且主要球員Hakimi、Brahim Diaz等均在歐洲頂級聯賽具豐富經驗。多數預測模型和博彩公司給予巴西55至60%勝率，比分以2-1或2-0為最多預測。",
@@ -28,56 +80,258 @@
     "dissent": "少數派觀點（BetMGM分析師）認為巴西防守漏洞加上摩洛哥頑強防守體系，最終比分可能停留在平局，甚至摩洛哥有約18-19%機率獲勝。Barstool Bush分析指衍生市場傾向上半場平局（43%），反映市場對緊張開局的預期。ESPN一位分析員預測比分為3-3或3-2，認為巴西防線極不可靠。Reddit r/Morocco板塊多數球迷預期摩洛哥能取分或爆冷。"
   },
   "sources": [
-    {"type": "official", "name": "ESPN – FIFA World Cup 2026 Match Schedule", "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"},
-    {"type": "media", "name": "Al Jazeera – Brazil vs Morocco Team News", "url": "https://www.aljazeera.com/sports/2026/6/13/brazil-vs-morocco-world-cup-team-news-neymar-start-time-and-how-to-watch"},
-    {"type": "media", "name": "RotoWire – Brazil vs Morocco Lineups & Preview", "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816"},
-    {"type": "media", "name": "CBS Sports – Brazil vs Morocco Odds & Picks", "url": "https://www.cbssports.com/soccer/news/brazil-vs-morocco-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-saturday/"},
-    {"type": "media", "name": "CBS Sports – Brazil vs Morocco Live Stream Preview", "url": "https://www.cbssports.com/soccer/news/brazil-morocco-world-cup-2026-preview-predictions-watch/"},
-    {"type": "media", "name": "Flashscore – Brazil vs Morocco Preview", "url": "https://www.flashscore.com/news/soccer-world-championship-world-cup-group-c-preview-brazil-chase-sixth-title-as-haiti-make-tournament-debut/vZHrpS0c/"},
-    {"type": "media", "name": "Flashscore UK – Brazil v Morocco Where to Watch", "url": "https://www.flashscore.co.uk/news/football-world-championship-brazil-v-morocco-where-to-watch-preview-line-ups-and-odds/UVb7WfdD/"},
-    {"type": "media", "name": "ESPN – Brazil vs Morocco Live Score", "url": "https://www.espn.com/soccer/match/_/gameId/760419/morocco-brazil"},
-    {"type": "media", "name": "ESPN – Brazil vs Morocco Game Analysis", "url": "https://www.espn.com/soccer/report/_/gameId/760419"},
-    {"type": "media", "name": "Fox Sports – Brazil vs Morocco Box Score", "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-brazil-vs-morocco-jun-13-2026-game-boxscore-647622"},
-    {"type": "media", "name": "ESPN – Brazil vs Morocco Story", "url": "https://www.espn.com/soccer/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news"},
-    {"type": "media", "name": "Sporting Life – World Cup Group C Betting Tips", "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-c-predictions-best-bets-and-preview/232186"},
-    {"type": "media", "name": "The Football Faithful – Brazil vs Morocco Prediction", "url": "https://thefootballfaithful.com/betting-news/brazil-vs-morocco-prediction-betting-tips-13-06-2026/"},
-    {"type": "model", "name": "RotoWire – World Cup Group C Preview Tactical", "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-c-preview-brazil-morocco-scotland-haiti-tactics-lineups-set-pieces-odds-109040"},
-    {"type": "model", "name": "Opta Analyst – World Cup 2026 Group C Predictions", "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"},
-    {"type": "model", "name": "ESPN Elo – World Cup Predictions All Groups", "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"},
-    {"type": "model", "name": "Opta Analyst – Who Will Win 2026 World Cup", "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"},
-    {"type": "betting", "name": "Barstool Bush – Brazil vs Morocco Odds & Prediction", "url": "https://barstoolbush.com/markets/world-cup/brazil-vs-morocco-june-13"},
-    {"type": "betting", "name": "OddsIndex – Morocco vs Brazil Prediction", "url": "https://oddsindex.com/sports/soccer/game-previews/44754856-brazil-vs-morocco"},
-    {"type": "betting", "name": "Polymarket – Brazil vs Morocco Odds", "url": "https://polymarket.com/sports/fifa-world-cup/fifwc-bra-mar-2026-06-13"},
-    {"type": "betting", "name": "Covers – Brazil vs Morocco Predictions", "url": "https://www.covers.com/world-cup/brazil-vs-morocco-picks-prediction-odds-today-6-13-2026"},
-    {"type": "betting", "name": "BetMGM – World Cup Group C Odds", "url": "https://sports.betmgm.com/en/blog/world-cup/group-c-world-cup-2026-odds-predictions-bm16/"},
-    {"type": "betting", "name": "BetCompare NG – Brazil vs Morocco Predictions", "url": "https://betcompare.ng/football/tips/brazil-vs-morocco-predictions-june-13-2026"},
-    {"type": "betting", "name": "Blog Gamblr – World Cup Group C Preview", "url": "https://blog.gamblr.io/hub/2026-fifa-world-cup-group-c-preview/"},
-    {"type": "forum", "name": "Reddit r/worldcup – Match Thread Brazil vs Morocco", "url": "https://www.reddit.com/r/worldcup/comments/1u51z16/match_thread_brazil_vs_morocco_world_cup_group_c/"},
-    {"type": "forum", "name": "Reddit r/soccer – Match Thread Brazil vs Morocco FIFA", "url": "https://www.reddit.com/r/soccer/comments/1u52qcm/match_thread_brazil_vs_morocco_fifa_world_cup/"},
-    {"type": "forum", "name": "Reddit r/worldcup – Post-Match Thread Brazil 1-1 Morocco", "url": "https://www.reddit.com/r/worldcup/comments/1u566z7/postmatch_thread_brazil_11_morocco_world_cup/"},
-    {"type": "forum", "name": "Reddit r/Morocco – Score Prediction Brazil vs Morocco", "url": "https://www.reddit.com/r/Morocco/comments/1u4mya3/match_day_morocco_vs_brasil_today_what_are_your/"},
-    {"type": "forum", "name": "Reddit r/Brazil – Morocco vs Brazil Score Prediction", "url": "https://www.reddit.com/r/Brazil/comments/1u4orh0/morocco_vs_brazil_today_whats_your_score/"},
-    {"type": "forum", "name": "Reddit r/worldcup – Brazil's 2026 Chances Discussion", "url": "https://www.reddit.com/r/worldcup/comments/1u3l1bb/i_want_to_have_a_detailed_discussion_about/"},
-    {"type": "youtube", "name": "YouTube – Brazil vs Morocco FIFA World Cup 2026 Preview (CBS Sports)", "url": "https://www.youtube.com/watch?v=nrEHbYj9o7I"},
-    {"type": "youtube", "name": "YouTube – Brazil vs Morocco Prediction & Tactical Analysis", "url": "https://www.youtube.com/watch?v=bW9-glXYQ8g"},
-    {"type": "youtube", "name": "YouTube – World Cup Group C Preview & Predictions", "url": "https://www.youtube.com/watch?v=D-zNPGnO7yw"},
-    {"type": "youtube", "name": "YouTube – 2026 World Cup Group C Preview & Predictions ISB", "url": "https://www.youtube.com/watch?v=ElsF2kRp6tw"},
-    {"type": "youtube", "name": "YouTube – Previewing Brazil vs Morocco NBC Sports", "url": "https://www.youtube.com/watch?v=7n6wiHGv3Xo"},
-    {"type": "youtube", "name": "YouTube – 2026 FIFA World Cup Brazil vs Morocco Preview", "url": "https://www.youtube.com/watch?v=ls3HEuAOMN4"},
-    {"type": "youtube", "name": "YouTube – Group C World Cup 2026 Preview Predictions", "url": "https://www.youtube.com/watch?v=QfE7XMVXE_4"},
-    {"type": "youtube", "name": "YouTube – The Match That Decides Group C – Brazil vs Morocco", "url": "https://www.youtube.com/watch?v=sHL3NqaoE1Q"},
-    {"type": "social", "name": "Reddit r/worldcup – How Will Brazil Do in 2026", "url": "https://www.reddit.com/r/worldcup/comments/1m1uvmy/how_do_you_think_brazil_will_likely_do_in_the/"},
-    {"type": "model", "name": "Sports Illustrated – Opta Supercomputer 2026 World Cup", "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"},
-    {"type": "media", "name": "BettingTop10 NZ – World Cup Odds June 14", "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"},
-    {"type": "media", "name": "Vietnam TT&VH – World Cup Results June 14", "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"},
-    {"type": "media", "name": "DAZN – World Cup 2026 Fixtures & Results", "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"},
-    {"type": "media", "name": "Soccerbase – World Cup Results June 14", "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"},
-    {"type": "model", "name": "Opta Analyst – World Cup 2026 Pre-Draw Projections", "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"},
-    {"type": "media", "name": "Reuters Connect – FIFA World Cup Matches June 14", "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"},
-    {"type": "forum", "name": "Reddit r/worldcup – World Cup Predictions Megathread", "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"},
-    {"type": "official", "name": "Ahram Online – Brazil vs Morocco Match Info", "url": "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Haiti-vs.-Scotland/638.aspx?Championship_YearID=18"},
-    {"type": "media", "name": "Football Critic – World Cup Matches June 14", "url": "https://www.footballcritic.com/matches?date=2026-6-14"},
-    {"type": "media", "name": "Sporting Life – June 14 Fixtures & Results", "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"}
+    {
+      "type": "official",
+      "name": "ESPN – FIFA World Cup 2026 Match Schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Brazil vs Morocco Team News",
+      "url": "https://www.aljazeera.com/sports/2026/6/13/brazil-vs-morocco-world-cup-team-news-neymar-start-time-and-how-to-watch"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Brazil vs Morocco Lineups & Preview",
+      "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Brazil vs Morocco Odds & Picks",
+      "url": "https://www.cbssports.com/soccer/news/brazil-vs-morocco-odds-picks-prediction-betting-preview-start-time-for-2026-world-cup-match-on-saturday/"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Brazil vs Morocco Live Stream Preview",
+      "url": "https://www.cbssports.com/soccer/news/brazil-morocco-world-cup-2026-preview-predictions-watch/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore – Brazil vs Morocco Preview",
+      "url": "https://www.flashscore.com/news/soccer-world-championship-world-cup-group-c-preview-brazil-chase-sixth-title-as-haiti-make-tournament-debut/vZHrpS0c/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore UK – Brazil v Morocco Where to Watch",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-brazil-v-morocco-where-to-watch-preview-line-ups-and-odds/UVb7WfdD/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil vs Morocco Live Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760419/morocco-brazil"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil vs Morocco Game Analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760419"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports – Brazil vs Morocco Box Score",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-brazil-vs-morocco-jun-13-2026-game-boxscore-647622"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil vs Morocco Story",
+      "url": "https://www.espn.com/soccer/story/_/id/49026946/fifa-world-cup-2026-brazil-vs-morocco-kickoff-how-watch-stats-team-news"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – World Cup Group C Betting Tips",
+      "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-c-predictions-best-bets-and-preview/232186"
+    },
+    {
+      "type": "media",
+      "name": "The Football Faithful – Brazil vs Morocco Prediction",
+      "url": "https://thefootballfaithful.com/betting-news/brazil-vs-morocco-prediction-betting-tips-13-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup Group C Preview Tactical",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-c-preview-brazil-morocco-scotland-haiti-tactics-lineups-set-pieces-odds-109040"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Group C Predictions",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "ESPN Elo – World Cup Predictions All Groups",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Who Will Win 2026 World Cup",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "betting",
+      "name": "Barstool Bush – Brazil vs Morocco Odds & Prediction",
+      "url": "https://barstoolbush.com/markets/world-cup/brazil-vs-morocco-june-13"
+    },
+    {
+      "type": "betting",
+      "name": "OddsIndex – Morocco vs Brazil Prediction",
+      "url": "https://oddsindex.com/sports/soccer/game-previews/44754856-brazil-vs-morocco"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket – Brazil vs Morocco Odds",
+      "url": "https://polymarket.com/sports/fifa-world-cup/fifwc-bra-mar-2026-06-13"
+    },
+    {
+      "type": "betting",
+      "name": "Covers – Brazil vs Morocco Predictions",
+      "url": "https://www.covers.com/world-cup/brazil-vs-morocco-picks-prediction-odds-today-6-13-2026"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM – World Cup Group C Odds",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-c-world-cup-2026-odds-predictions-bm16/"
+    },
+    {
+      "type": "betting",
+      "name": "BetCompare NG – Brazil vs Morocco Predictions",
+      "url": "https://betcompare.ng/football/tips/brazil-vs-morocco-predictions-june-13-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Blog Gamblr – World Cup Group C Preview",
+      "url": "https://blog.gamblr.io/hub/2026-fifa-world-cup-group-c-preview/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Match Thread Brazil vs Morocco",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u51z16/match_thread_brazil_vs_morocco_world_cup_group_c/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – Match Thread Brazil vs Morocco FIFA",
+      "url": "https://www.reddit.com/r/soccer/comments/1u52qcm/match_thread_brazil_vs_morocco_fifa_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Post-Match Thread Brazil 1-1 Morocco",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u566z7/postmatch_thread_brazil_11_morocco_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Morocco – Score Prediction Brazil vs Morocco",
+      "url": "https://www.reddit.com/r/Morocco/comments/1u4mya3/match_day_morocco_vs_brasil_today_what_are_your/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Brazil – Morocco vs Brazil Score Prediction",
+      "url": "https://www.reddit.com/r/Brazil/comments/1u4orh0/morocco_vs_brazil_today_whats_your_score/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Brazil's 2026 Chances Discussion",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u3l1bb/i_want_to_have_a_detailed_discussion_about/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Brazil vs Morocco FIFA World Cup 2026 Preview (CBS Sports)",
+      "url": "https://www.youtube.com/watch?v=nrEHbYj9o7I"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Brazil vs Morocco Prediction & Tactical Analysis",
+      "url": "https://www.youtube.com/watch?v=bW9-glXYQ8g"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – World Cup Group C Preview & Predictions",
+      "url": "https://www.youtube.com/watch?v=D-zNPGnO7yw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 World Cup Group C Preview & Predictions ISB",
+      "url": "https://www.youtube.com/watch?v=ElsF2kRp6tw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Previewing Brazil vs Morocco NBC Sports",
+      "url": "https://www.youtube.com/watch?v=7n6wiHGv3Xo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Brazil vs Morocco Preview",
+      "url": "https://www.youtube.com/watch?v=ls3HEuAOMN4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Group C World Cup 2026 Preview Predictions",
+      "url": "https://www.youtube.com/watch?v=QfE7XMVXE_4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – The Match That Decides Group C – Brazil vs Morocco",
+      "url": "https://www.youtube.com/watch?v=sHL3NqaoE1Q"
+    },
+    {
+      "type": "social",
+      "name": "Reddit r/worldcup – How Will Brazil Do in 2026",
+      "url": "https://www.reddit.com/r/worldcup/comments/1m1uvmy/how_do_you_think_brazil_will_likely_do_in_the/"
+    },
+    {
+      "type": "model",
+      "name": "Sports Illustrated – Opta Supercomputer 2026 World Cup",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"
+    },
+    {
+      "type": "media",
+      "name": "BettingTop10 NZ – World Cup Odds June 14",
+      "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"
+    },
+    {
+      "type": "media",
+      "name": "Vietnam TT&VH – World Cup Results June 14",
+      "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"
+    },
+    {
+      "type": "media",
+      "name": "DAZN – World Cup 2026 Fixtures & Results",
+      "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"
+    },
+    {
+      "type": "media",
+      "name": "Soccerbase – World Cup Results June 14",
+      "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Pre-Draw Projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "media",
+      "name": "Reuters Connect – FIFA World Cup Matches June 14",
+      "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – World Cup Predictions Megathread",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"
+    },
+    {
+      "type": "official",
+      "name": "Ahram Online – Brazil vs Morocco Match Info",
+      "url": "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Haiti-vs.-Scotland/638.aspx?Championship_YearID=18"
+    },
+    {
+      "type": "media",
+      "name": "Football Critic – World Cup Matches June 14",
+      "url": "https://www.footballcritic.com/matches?date=2026-6-14"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – June 14 Fixtures & Results",
+      "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"
+    }
   ],
-  "source_count": 50
+  "source_count": 50,
+  "kickoff_utc": "2026-06-14T02:00:00Z",
+  "kickoff_hkt": "2026-06-14 10:00"
 }

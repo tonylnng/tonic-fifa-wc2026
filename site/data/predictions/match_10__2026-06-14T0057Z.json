@@ -19,7 +19,52 @@
       "draw": 0.23,
       "away": 0.25
     },
-    "confidence": 0.55
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "3:2",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "荷蘭以FIFA世界排名第七之姿出賽，擁有范戴克、加克波、德佩等精英球員，理論上實力凌駕日本。然而日本在2022年世界盃力克德國與西班牙，加上荷蘭在科曼帶領下屢屢令人失望，本場勝負難料。日本因主帥遠藤航（腳部傷病）、三笘薰（腿後筋）及齊維·西蒙斯（荷蘭方面ACL撕裂）等關鍵球員缺席，雙方均受傷病困擾，令比賽更添懸念。",
@@ -291,5 +336,7 @@
       "url": "https://www.espn.com/soccer/story/_/id/49032127/japan-captain-wataru-e"
     }
   ],
-  "source_count": 51
+  "source_count": 51,
+  "kickoff_utc": "2026-06-15T01:00:00Z",
+  "kickoff_hkt": "2026-06-15 09:00"
 }

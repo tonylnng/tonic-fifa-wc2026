@@ -19,7 +19,52 @@
       "draw": 0.3,
       "away": 0.43
     },
-    "confidence": 0.5
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.07
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.05
+      },
+      {
+        "scoreline": "2:3",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.5,
+        "basis": "Opta / ESPN Elo 等超級電腦與多方預測之平均傾向"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.5,
+        "basis": "主流博彩讓球與大小盤口隱含之比分區間"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.45,
+        "basis": "考量弱隊深度防守、強隊大賽慢熱與臨場變數的下修估計"
+      }
+    ]
   },
   "reasoning": {
     "summary": "厄瓜多爾在CONMEBOL世預賽表現強勁，排名FIFA第25位，且技術能力和歐洲聯賽球員比例優於象牙海岸，博彩公司亦普遍看好厄瓜多爾（勝賠約2.41，象牙海岸勝賠約3.75）。象牙海岸雖有2023年非洲盃冠軍光環加持，但距上次出現於世界盃舞台（2014年）已超過十二年，且前晶牌球員扎哈（Zaha）未獲徵召，主力塞巴斯蒂安·阿勒（Haller）狀態需審視。兩隊實力相近，平局機率不低，但整體而言厄瓜多爾略佔優勢。",
@@ -291,5 +336,7 @@
       "url": "https://www.youtube.com/watch?v=rfSiqtzFtkE"
     }
   ],
-  "source_count": 51
+  "source_count": 51,
+  "kickoff_utc": "2026-06-15T03:00:00Z",
+  "kickoff_hkt": "2026-06-15 11:00"
 }
