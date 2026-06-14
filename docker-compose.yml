@@ -7,7 +7,7 @@ services:
       - "5000:5000"
     environment:
       # 登入密碼（請改成你自己的）
-      SITE_PASSWORD: "TN$$$$$$$$$$$$$$$$"
+      SITE_PASSWORD: "NO-PASSWORD"
       PORT: "5000"
     # 將預測資料夾掛載出來，方便用排程腳本更新後即時生效（可選）
     volumes:
