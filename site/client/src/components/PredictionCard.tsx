@@ -1,6 +1,7 @@
-import { Prediction, ResultItem } from "@/lib/types";
+import { Prediction, ResultItem, Fixture } from "@/lib/types";
 import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
+import { kickoffHkt } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import {
   Dialog,
@@ -15,8 +16,90 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { Check, X, TrendingUp, History, ChevronDown, ArrowRight } from "lucide-react";
+import {
+  Check,
+  X,
+  TrendingUp,
+  History,
+  ChevronDown,
+  ArrowRight,
+  Clock,
+  BarChart3,
+  Layers,
+} from "lucide-react";
 import { useState } from "react";
+
+function TopScorelines({
+  items,
+}: {
+  items: { scoreline: string; prob: number }[];
+}) {
+  const max = Math.max(...items.map((i) => i.prob), 0.01);
+  return (
+    <div className="space-y-1.5">
+      {items.map((it, i) => (
+        <div key={i} className="flex items-center gap-2">
+          <span className="font-mono text-sm font-semibold w-10 tabular-nums">
+            {it.scoreline}
+          </span>
+          <div className="flex-1 h-2.5 rounded-full bg-muted overflow-hidden">
+            <div
+              className={i === 0 ? "h-full bg-primary" : "h-full bg-chart-1/60"}
+              style={{ width: `${Math.round((it.prob / max) * 100)}%` }}
+            />
+          </div>
+          <span className="text-xs text-muted-foreground w-10 text-right tabular-nums">
+            {Math.round(it.prob * 100)}%
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function Scenarios({
+  items,
+}: {
+  items: {
+    name: string;
+    scoreline: string;
+    outcome: "home" | "draw" | "away";
+    confidence: number;
+    basis?: string;
+  }[];
+}) {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+      {items.map((s, i) => (
+        <div
+          key={i}
+          className="rounded-lg border border-border px-3 py-2"
+          data-testid={`scenario-${i}`}
+        >
+          <div className="flex items-center justify-between gap-2">
+            <span className="text-xs font-semibold">{s.name}</span>
+            <span className="font-mono text-sm font-bold tabular-nums">
+              {s.scoreline}
+            </span>
+          </div>
+          <div className="flex items-center justify-between mt-1">
+            <span className="text-[11px] text-muted-foreground">
+              {outcomeZh(s.outcome)}
+            </span>
+            <span className="text-[11px] text-muted-foreground">
+              信心 {Math.round(s.confidence * 100)}%
+            </span>
+          </div>
+          {s.basis && (
+            <p className="text-[11px] text-muted-foreground mt-1 leading-snug">
+              {s.basis}
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
 
 function runTimeZh(ts: string) {
   try {
@@ -169,11 +252,16 @@ export function PredictionCard({
   pred,
   result,
   history,
+  fixture,
 }: {
   pred: Prediction;
   result?: ResultItem;
   history?: Prediction[];
+  fixture?: Fixture;
 }) {
+  const kickoffStr = fixture ? kickoffHkt(fixture, { withWeekday: true }) : null;
+  const top = pred.prediction.top_scorelines;
+  const scenarios = pred.prediction.scenarios;
   const correctOutcome = result && result.outcome === pred.prediction.outcome;
   const exactScore =
     result &&
@@ -245,6 +333,13 @@ export function PredictionCard({
             )}
           </div>
 
+          {kickoffStr && (
+            <div className="flex items-center gap-1 mt-2.5 text-[11px] text-muted-foreground">
+              <Clock className="w-3 h-3" />
+              <span>{kickoffStr}（香港時間）</span>
+            </div>
+          )}
+
           <div className="mt-3">
             <ProbBar p={pred.prediction.win_prob} />
             <div className="flex justify-between text-xs text-muted-foreground mt-1.5">
@@ -294,6 +389,36 @@ export function PredictionCard({
                   : "—"}
               </div>
             </div>
+
+            {kickoffStr && (
+              <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+                <Clock className="w-4 h-4" />
+                <span>開賽：{kickoffStr}（香港時間）</span>
+              </div>
+            )}
+
+            {top && top.length > 0 && (
+              <div>
+                <h4 className="text-sm font-semibold mb-2 flex items-center gap-1.5">
+                  <BarChart3 className="w-4 h-4 text-primary" />
+                  最可能比分（Top {top.length}）
+                </h4>
+                <TopScorelines items={top} />
+                <p className="text-[11px] text-muted-foreground mt-2">
+                  百分比為各比分的估計出現機率（非三向勝負機率）。
+                </p>
+              </div>
+            )}
+
+            {scenarios && scenarios.length > 0 && (
+              <div>
+                <h4 className="text-sm font-semibold mb-2 flex items-center gap-1.5">
+                  <Layers className="w-4 h-4 text-chart-2" />
+                  多情境預測（{scenarios.length} 個角度）
+                </h4>
+                <Scenarios items={scenarios} />
+              </div>
+            )}
 
             <div>
               <h4 className="text-sm font-semibold mb-1.5">分析摘要</h4>

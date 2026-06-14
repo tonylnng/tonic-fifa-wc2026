@@ -4,6 +4,8 @@ export interface Fixture {
   group: string | null;
   date: string;
   kickoff_local: string;
+  kickoff_utc?: string;
+  timezone?: string;
   home: string;
   away: string;
   venue: string;
@@ -28,12 +30,26 @@ export interface PredictionSource {
   url: string;
 }
 
+export interface ScorelineProb {
+  scoreline: string;
+  prob: number;
+}
+
+export interface PredictionScenario {
+  name: string;
+  scoreline: string;
+  outcome: "home" | "draw" | "away";
+  confidence: number;
+  basis?: string;
+}
+
 export interface Prediction {
   match: number;
   stage: string;
   home: string;
   away: string;
   kickoff?: string;
+  kickoff_utc?: string;
   run_id: string;
   run_timestamp: string;
   model: string;
@@ -43,6 +59,8 @@ export interface Prediction {
     outcome: "home" | "draw" | "away";
     win_prob: { home: number; draw: number; away: number };
     confidence: number;
+    top_scorelines?: ScorelineProb[];
+    scenarios?: PredictionScenario[];
   };
   reasoning: {
     summary: string;

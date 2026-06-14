@@ -10,6 +10,7 @@ import {
 } from "@/lib/types";
 import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
+import { kickoffHkt } from "@/lib/utils";
 import { Header } from "@/components/Header";
 import { PredictionCard } from "@/components/PredictionCard";
 import { TrendsTab } from "@/components/TrendsTab";
@@ -92,6 +93,12 @@ export default function Dashboard() {
     return m;
   }, [results]);
 
+  const fixtureByMatch = useMemo(() => {
+    const m: Record<number, Fixture> = {};
+    fixtures?.fixtures.forEach((f) => (m[f.match] = f));
+    return m;
+  }, [fixtures]);
+
   // ----- Feature C: batch snapshot selector -----
   const allRuns = statusQ.data?.runs || [];
   const [snapshot, setSnapshot] = useState<string>("latest");
@@ -131,7 +138,7 @@ export default function Dashboard() {
             FIFA World Cup 2026
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
-            美國 · 加拿大 · 墨西哥 · 48 隊 · 104 場 · 每場 AI 預測收集 50+ 來源
+            美國 · 加拿大 · 墨西哥 · 48 隊 · 104 場 · Opus 4.8 預測 · 近賽每場 100+ 來源
           </p>
         </div>
 
@@ -252,6 +259,7 @@ export default function Dashboard() {
                       pred={p}
                       result={resultByMatch[p.match]}
                       history={preds[String(p.match)]}
+                      fixture={fixtureByMatch[p.match]}
                     />
                   ))}
                 </div>
@@ -370,7 +378,7 @@ function FixturesTab({
               <tr className="border-b border-border text-muted-foreground text-xs">
                 <th className="text-left font-medium px-3 py-2.5 w-12">#</th>
                 <th className="text-left font-medium px-3 py-2.5">階段</th>
-                <th className="text-left font-medium px-3 py-2.5">日期</th>
+                <th className="text-left font-medium px-3 py-2.5 whitespace-nowrap">開賽（香港時間）</th>
                 <th className="text-right font-medium px-3 py-2.5">主隊</th>
                 <th className="text-center font-medium px-3 py-2.5 w-24">比分 / 預測</th>
                 <th className="text-left font-medium px-3 py-2.5">客隊</th>
@@ -395,7 +403,7 @@ function FixturesTab({
                       </Badge>
                     </td>
                     <td className="px-3 py-2.5 text-muted-foreground whitespace-nowrap text-xs">
-                      {f.date.slice(5)} · {f.kickoff_local}
+                      {kickoffHkt(f, { withWeekday: true })}
                     </td>
                     <td className="px-3 py-2.5 text-right font-medium whitespace-nowrap">
                       {zh(f.home)} {flag(f.home)}
