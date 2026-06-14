@@ -1,37 +1,57 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-14T04:48:32Z",
-  "total_matches_scored": 2,
+  "last_updated": "2026-06-14T06:05:57Z",
+  "total_matches_scored": 4,
   "leaderboard": [
+    {
+      "source": "Football Meister AI",
+      "kind": "model",
+      "evaluated": 1,
+      "outcome_correct": 1,
+      "outcome_accuracy": 1.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.1296
+    },
     {
       "source": "博彩隱含機率",
       "kind": "betting",
-      "evaluated": 2,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
+      "evaluated": 4,
+      "outcome_correct": 1,
+      "outcome_accuracy": 0.25,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.4177
+      "brier_score": 0.3125
     },
     {
       "source": "Opta 超級電腦",
       "kind": "model",
-      "evaluated": 2,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
+      "evaluated": 4,
+      "outcome_correct": 1,
+      "outcome_accuracy": 0.25,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.4495
+      "brier_score": 0.3336
     },
     {
       "source": "AI（本站 Opus）",
       "kind": "ai",
-      "evaluated": 2,
+      "evaluated": 4,
+      "outcome_correct": 1,
+      "outcome_accuracy": 0.25,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.3386
+    },
+    {
+      "source": "Polymarket 預測市場",
+      "kind": "market",
+      "evaluated": 1,
       "outcome_correct": 0,
       "outcome_accuracy": 0.0,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.4667
+      "brier_score": 0.3306
     },
     {
       "source": "Kalshi 預測市場",

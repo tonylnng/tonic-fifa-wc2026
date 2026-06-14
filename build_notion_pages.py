@@ -12,6 +12,9 @@ ZH = {
     "Ivory Coast":"象牙海岸","Ecuador":"厄瓜多爾","Mexico":"墨西哥","South Africa":"南非",
     "South Korea":"南韓","Czech Republic":"捷克","Canada":"加拿大","Bosnia":"波黑",
     "United States":"美國","USA":"美國","Paraguay":"巴拉圭",
+    "Sweden":"瑞典","Tunisia":"突尼西亞","Spain":"西班牙","Cape Verde":"佛得角",
+    "Belgium":"比利時","Egypt":"埃及","Saudi Arabia":"沙烏地阿拉伯","Uruguay":"烏拉圭",
+    "Iran":"伊朗","New Zealand":"紐西蘭","Bosnia & Herzegovina":"波黑",
 }
 STAGE = {"Group":"小組賽","Round of 32":"32強","Round of 16":"16強",
          "Quarter":"八強","Semi":"四強","Third":"季軍戰","Final":"決賽"}

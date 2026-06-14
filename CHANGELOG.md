@@ -6,6 +6,33 @@
 
 ---
 
+## [1.4.0] — 2026-06-14（run 2026-06-14T0551Z）
+
+### 新增（Added）— 即時讀取 GitHub 最新結果
+
+1. **後端新端點 `/api/live-results`**（`site/server/routes.ts`）
+   - 即時抓取 GitHub raw（`https://raw.githubusercontent.com/tonylnng/tonic-fifa-wc2026/master/site/data/results.json`）的最新比賽結果，不需等待網站重新發布。
+   - 內建 **60 秒快取**（`liveCache` / `LIVE_TTL_MS`），避免每次請求都打 GitHub；6 秒逾時保護（AbortController）。
+   - 回傳完整結果物件 ＋ `source`（`github` ／ `local-fallback`）＋ `cached` 旗標；GitHub 讀取失敗時自動回退本機打包資料並標明來源。
+
+2. **前端「即時讀取」控制卡**（`site/client/src/pages/dashboard.tsx`）
+   - 結果頁新增手動「即時讀取 GitHub 最新結果」按鈕（`RefreshCw` 圖示），點擊後查詢 `/api/live-results`。
+   - 狀態徽章：GitHub 即時 ／ 快取 ／ 回退本機 ／ 本機打包，並以**香港時間**顯示資料更新時間（`hktTimestamp()` 輔助函式）。
+   - 有即時資料時優先顯示 GitHub 最新結果（`active = live ?? results`），否則使用本機打包資料。
+
+### 新增（Added）— 賽後覆盤改用 Opus 4.8
+
+- 賽後覆盤（postmortems）生成模型由先前流程改為 **Claude Opus 4.8**（與本站主預測一致），確保覆盤分析品質一致。
+
+### 資料更新（Data）
+
+- 新增第 7、8 場最終比分：第 7 場 海地 0:1 蘇格蘭（蘇格蘭勝）、第 8 場 澳洲 2:0 土耳其（澳洲勝，爆冷）。`results.json` 現含 8 場結果。
+- 第 7、8 場 Opus 4.8 賽後覆盤（run 2026-06-14T0057Z）：第 7 場勝負命中、比分失準；第 8 場爆冷失準。`postmortems.json` 現含第 5、6、7、8 場共 4 份覆盤。
+- 第 9–16 場全新 Opus 4.8 預測（run 2026-06-14T0551Z），含 top_scorelines／scenarios／頂層 benchmarks（含第三方 AI MiniMax／千問／DeepSeek）／consensus，並已同步至 Notion。
+- 重算 accuracy／calibration／benchmark_scores（已評估 4 場，勝負 1/4、比分 0/4、Brier 0.3386、ECE 0.415）。
+
+---
+
 ## [1.3.0] — 2026-06-14（run 2026-06-14T0057Z）
 
 ### 新增（Added）— 第三方多模型 AI 對照 ＋ 綜合共識

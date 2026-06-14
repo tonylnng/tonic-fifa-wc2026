@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-13T08:00:00Z",
+  "last_updated": "2026-06-14T05:49:11Z",
   "results": [
     {
       "match": 1,
@@ -86,6 +86,34 @@
       "recorded_at": "2026-06-14T00:57:00Z",
       "source": "https://www.skysports.com/football/brazil-vs-morocco/report/549771",
       "scoreline": "1:1"
+    },
+    {
+      "match": 7,
+      "stage": "Group C",
+      "home": "Haiti",
+      "away": "Scotland",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "outcome": "away",
+      "recorded_at": "2026-06-14T05:49:11Z",
+      "source": "https://www.skysports.com/football/haiti-vs-scotland/report/549772",
+      "scoreline": "0:1"
+    },
+    {
+      "match": 8,
+      "stage": "Group D",
+      "home": "Australia",
+      "away": "Turkey",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "outcome": "home",
+      "recorded_at": "2026-06-14T05:49:11Z",
+      "source": "https://www.sportingnews.com/au/football/news/australia-vs-turkey-world-cup-live-score-result-highlights/6ed8a86dd80e32b95d24d3b4",
+      "scoreline": "2:0"
     }
   ]
 }

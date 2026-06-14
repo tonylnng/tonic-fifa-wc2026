@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-14T04:43:31Z",
+  "last_updated": "2026-06-14T05:56:04Z",
   "postmortems": [
     {
       "match": 5,
@@ -49,6 +49,56 @@
       ],
       "vs_benchmarks": "博彩與多數模型給巴西 55-60% 勝率、同樣偏好 2:1 或 2:0，AI 與基準線一致並略為保守。本場 AI 的低信心相對更貼近實況，校準表現略勝盤口。",
       "generated_at": "2026-06-14T04:43:31Z"
+    },
+    {
+      "match": 7,
+      "home": "Haiti",
+      "away": "Scotland",
+      "stage": "Group C",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-14T0057Z",
+      "model": "claude-opus-4.8",
+      "headline": "蘇格蘭單刀小勝海地：勝負方向命中，比分稍偏樂觀",
+      "review": "AI 賽前判定蘇格蘭以客隊身份取勝（away，信心 0.68），實際蘇格蘭憑 McGinn 第 28 分鐘入球以 0:1 帶走勝利，勝負方向完全命中。惟主預測為 0:2，較實際多進一球，比分未能命中。事實上 0:1 正是 AI 列出的第二可能比分（機率 0.11），也正中「博彩盤口」與「保守情境」兩個次級情境的 0:1 預測，顯示模型對賽果的不確定區間掌握得宜，只是主比分偏向樂觀。海地深度防守令蘇格蘭難以擴大領先，正如賽前 dissent 提示的膠著風險。",
+      "lessons": [
+        "勝負方向判斷準確：對實力差距明顯、且博彩與超級電腦一致看好客隊的場次，AI 共識可靠。",
+        "主比分偏樂觀：面對弱隊深度防守時，宜下修強隊進球數，0:1 往往比 0:2 更貼近現實。",
+        "次級情境具參考價值：本場 0:1 已現於 top_scorelines 與保守情境，未來可提高低比分情境的權重。",
+        "重視 dissent 訊號：賽前已提示蘇格蘭大賽慢熱與海地防守韌性，與膠著的單球小勝相符。"
+      ],
+      "vs_benchmarks": "AI 與博彩盤口、Opta 超級電腦同樣看好蘇格蘭客勝，方向一致而無優劣之分；但 AI 主比分 0:2 較博彩隱含的 0:1 偏高，本場博彩盤口的比分區間判斷略勝一籌。",
+      "generated_at": "2026-06-14T05:56:04Z"
+    },
+    {
+      "match": 8,
+      "home": "Australia",
+      "away": "Turkey",
+      "stage": "Group D",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "2:0",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-14T0057Z",
+      "model": "claude-opus-4.8",
+      "headline": "澳洲爆冷 2:0 完封土耳其：勝負與比分皆失準",
+      "review": "AI 賽前看好土耳其客勝（away，信心僅 0.6），主比分 1:2，實際卻是澳洲以 Irankunda 27'、Metcalf 75' 入球 2:0 完封土耳其，勝負方向與比分雙雙落空，屬典型爆冷。模型過度倚重土耳其的個人技術與較高 xG，低估了澳洲的防守紀律與反擊效率，也未充分計入土耳其 Yildiz、Calhanoglu 等多名主力的傷病疑問對攻擊端的削弱。值得注意的是，賽前 AI 已在 dissent 標明半數模型看平、澳洲遭低估，惜主預測未採納此逆向訊號。",
+      "lessons": [
+        "高不確定場次需更謹慎：信心僅 0.6 且多模型分歧時，應降低對單一賽果的押注力度。",
+        "認真對待逆向訊號：dissent 已點明澳洲被低估、半數模型看平，主預測卻仍隨大流，錯失修正機會。",
+        "傷病影響須量化：土耳其多名攻擊主力存疑，模型未充分下修其進攻輸出，導致高估客隊。",
+        "防守型球隊的反擊威力易被忽略：澳洲的組織防守加反擊正是爆冷關鍵，未來應提高此類球隊的爆冷權重。"
+      ],
+      "vs_benchmarks": "本場 AI 與 Opta（土耳其 55.3%）、Polymarket、博彩盤口同步看好土耳其，集體被爆冷打臉，無人佔優；反而 AI 自身 dissent 所引述的 TuringStats 看平與「澳洲被低估」觀點，比主流基準線更接近真相。",
+      "generated_at": "2026-06-14T05:56:04Z"
     }
   ]
 }

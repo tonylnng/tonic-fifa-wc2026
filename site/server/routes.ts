@@ -48,6 +48,44 @@ export async function registerRoutes(
     res.json(readJSON("results.json"));
   });
 
+  // 即時讀取 GitHub 上的最新比賽結果（raw.githubusercontent）。
+  // GitHub 是這套自動化的權威資料來源：排程每輪把最新 results.json 推送到 repo，
+  // 此端點讓網站不必等下一次重新發布，就能直接顯示 repo 上的最新結果。
+  // 失敗時回退到本機打包的 results.json，並標明 source。
+  const GH_RESULTS_URL =
+    "https://raw.githubusercontent.com/tonylnng/tonic-fifa-wc2026/master/site/data/results.json";
+  let liveCache: { at: number; data: any } | null = null;
+  const LIVE_TTL_MS = 60_000; // 1 分鐘快取，避免每次請求都打 GitHub
+
+  app.get("/api/live-results", async (_req, res) => {
+    const local = readJSON("results.json");
+    // 命中快取
+    if (liveCache && Date.now() - liveCache.at < LIVE_TTL_MS) {
+      res.json({ ...liveCache.data, source: "github", cached: true });
+      return;
+    }
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 6000);
+      const r = await fetch(GH_RESULTS_URL, {
+        signal: controller.signal,
+        headers: { "Cache-Control": "no-cache" },
+      });
+      clearTimeout(timer);
+      if (!r.ok) throw new Error(`GitHub HTTP ${r.status}`);
+      const data = await r.json();
+      liveCache = { at: Date.now(), data };
+      res.json({ ...data, source: "github", cached: false });
+    } catch (e: any) {
+      // 回退到本機資料
+      res.json({
+        ...(local || { results: [] }),
+        source: "local-fallback",
+        error: String(e?.message || e),
+      });
+    }
+  });
+
   app.get("/api/accuracy", (_req, res) => {
     res.json(readJSON("accuracy.json"));
   });

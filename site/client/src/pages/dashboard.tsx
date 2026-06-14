@@ -27,6 +27,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
 import {
   Target,
   Crosshair,
@@ -35,7 +36,30 @@ import {
   Search,
   Trophy,
   History,
+  RefreshCw,
+  Github,
 } from "lucide-react";
+
+// 即時讀取 GitHub 最新結果的回應型別。
+type LiveResultsData = ResultsData & {
+  source?: "github" | "local-fallback";
+  cached?: boolean;
+  error?: string;
+};
+
+function hktTimestamp(iso?: string) {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  return d.toLocaleString("zh-HK", {
+    timeZone: "Asia/Hong_Kong",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
 
 function runLabelZh(runId: string) {
   const m = runId.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2})(\d{2})Z$/);
@@ -505,12 +529,75 @@ function ResultsTab({
   preds: PredictionsData;
   accuracy?: AccuracyData;
 }) {
-  if (!results) return <Skeleton className="h-96 rounded-xl" />;
+  // 功能：即時讀取 GitHub 上的最新結果。預設不自動拉，
+  // 使用者點「重新整理」才去 GitHub raw 取最新 results.json，
+  // 失敗時伺服器端會自動回退到本機資料並標明 source。
+  const liveQ = useQuery<LiveResultsData>({
+    queryKey: ["/api/live-results"],
+    enabled: false,
+    staleTime: 60_000,
+  });
 
-  const rows = [...results.results].sort((a, b) => b.match - a.match);
+  // 有即時資料則優先顯示 GitHub 最新結果，否則用本機打包的資料。
+  const live = liveQ.data;
+  const active: ResultsData | undefined = live ?? results;
+  const fromGithub = !!live && live.source === "github";
+  const fellBack = !!live && live.source === "local-fallback";
+
+  if (!active) return <Skeleton className="h-96 rounded-xl" />;
+
+  const rows = [...active.results].sort((a, b) => b.match - a.match);
 
   return (
     <div className="space-y-4">
+      {/* 即時讀取 GitHub 最新結果控制列 */}
+      <div className="bg-card border border-card-border rounded-xl p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-0">
+            <div className="flex items-center gap-2 text-sm font-semibold">
+              <Github className="w-4 h-4" />
+              即時讀取 GitHub 最新結果
+            </div>
+            <p className="text-xs text-muted-foreground mt-1">
+              直接從 GitHub repo 拉取最新 results.json，不必等下一次重新發布。
+            </p>
+            <div className="flex flex-wrap items-center gap-2 mt-2">
+              {fromGithub && (
+                <Badge className="bg-primary text-primary-foreground text-[11px]">
+                  GitHub 即時{live?.cached ? "（快取）" : ""}
+                </Badge>
+              )}
+              {fellBack && (
+                <Badge variant="outline" className="text-[11px] text-destructive">
+                  GitHub 讀取失敗，已回退本機資料
+                </Badge>
+              )}
+              {!live && (
+                <Badge variant="secondary" className="text-[11px]">
+                  本機打包資料
+                </Badge>
+              )}
+              <span className="text-xs text-muted-foreground">
+                資料更新：{hktTimestamp(active.last_updated)}（香港時間）
+              </span>
+            </div>
+          </div>
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={() => liveQ.refetch()}
+            disabled={liveQ.isFetching}
+            data-testid="button-live-refresh"
+            className="shrink-0"
+          >
+            <RefreshCw
+              className={`w-4 h-4 mr-1.5 ${liveQ.isFetching ? "animate-spin" : ""}`}
+            />
+            {liveQ.isFetching ? "讀取中…" : "重新整理"}
+          </Button>
+        </div>
+      </div>
+
       {accuracy && accuracy.metrics.total_evaluated > 0 ? (
         <div className="bg-card border border-card-border rounded-xl p-4">
           <h3 className="text-sm font-semibold mb-3">AI 預測準確率</h3>
@@ -537,7 +624,7 @@ function ResultsTab({
         </div>
       ) : (
         <div className="bg-card border border-card-border rounded-xl p-4 text-sm text-muted-foreground">
-          準確率將在已完成比賽有對應的賽前 AI 預測後自動計算。目前已記錄 {results.results.length} 場結果。
+          準確率將在已完成比賽有對應的賽前 AI 預測後自動計算。目前已記錄 {active.results.length} 場結果。
         </div>
       )}
 

@@ -1,0 +1,478 @@
+{
+  "match": 16,
+  "stage": "Group G",
+  "home": "Iran",
+  "away": "New Zealand",
+  "kickoff_utc": "2026-06-16T01:00:00Z",
+  "kickoff_hkt": "2026-06-16 09:00",
+  "run_id": "2026-06-14T0551Z",
+  "run_timestamp": "2026-06-14T05:51:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.54,
+      "draw": 0.26,
+      "away": 0.2
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "Dimers 給伊朗 55-58.5%、Opta 出線率 64.3%，最可能比分伊朗 1-0，塔雷米一錘定音"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "盤口伊朗約 5/6 至 2.10、讓 1 球、大小盤 2.5，KRUZEY 模型預測 2-1 伊朗勝"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "伊朗近五場進 10 球（含 5-0 大勝哥斯達黎加），若早進球可擴大比分壓制紐西蘭"
+      },
+      {
+        "name": "紐西蘭守和爆冷",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "紐西蘭以伍德為支點、定位球佔約三成 xG，加上伊朗本土聯賽停擺致狀態生疏，逼平甚至爆冷的劇本存在"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.27,
+          "away": 0.23
+        },
+        "outcome": "home",
+        "scoreline": "1:0",
+        "note": "Opta 給伊朗 Group G 出線率 64.3%、紐西蘭僅 47.8%，伊朗本場為較大熱門"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.256,
+          "away": 0.194
+        },
+        "outcome": "home",
+        "scoreline": "1:0",
+        "note": "Dimers 模擬伊朗 55.0%、平局 25.6%、紐西蘭 19.4%，最可能比分伊朗 1-0"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.27,
+          "away": 0.23
+        },
+        "outcome": "home",
+        "scoreline": "1:0",
+        "note": "伊朗約 5/6 至 2.10、平局 5/2 至 3.30、紐西蘭 7/2 至 3.40，讓 1 球"
+      },
+      {
+        "source": "KRUZEY 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.27,
+          "away": 0.23
+        },
+        "outcome": "home",
+        "scoreline": "2:1",
+        "note": "KRUZEY 給伊朗 50% 勝率，預測比分 2-1，大小盤偏 over 2.5"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "伊朗以 4-2-3-1 為主、可切換為更防守的 4-3-3，核心是奧林匹亞科斯前鋒梅赫迪·塔雷米，加上經驗豐富的門將貝蘭萬德與卡納尼扎德甘／哈利勒扎德赫中衛組合，整體實力與大賽經驗（第七次世界盃）優於首次重返世界盃 16 年的紐西蘭。但伊朗存在隱憂：頭號射手薩達爾·阿茲蒙因場外／政治爭議被排除於名單外，且本土聯賽自 2026 年 3 月停擺，多名國內球員缺乏比賽節奏。紐西蘭由諾丁漢森林前鋒、傷癒復出的隊長克里斯·伍德領銜，主打緊密 4-2-3-1 防守、卡卡切左路推進與定位球（約佔全隊三成 xG）。公開模型（Dimers 伊朗 55-58.5%、Opta 出線 64.3%）與博彩盤口（伊朗約 5/6）一致看好伊朗小勝，最可能比分 1-0 至 2-1。",
+    "key_factors": [
+      "球員狀態：伊朗倚靠塔雷米（近期狀態佳），但失去阿茲蒙後攻擊深度受損；紐西蘭隊長伍德膝傷手術後復出，承擔全隊約 43% xG，狀態與體能存在問號（34 歲）",
+      "傷停名單：伊朗排除阿茲蒙（場外爭議，非傷停），埃扎托拉希已從足傷康復可上陣；紐西蘭主力辛格、加比特、卡卡切年內曾受傷，但無重大缺陣，伍德已恢復",
+      "近期狀態/戰績：伊朗近五場三勝兩負，含 2-0 勝馬里、5-0 大勝哥斯達黎加、3-1 勝岡比亞，五場進 10 失 3；紐西蘭外圍賽 5 戰全勝進 29 失 1，但熱身賽近況起伏，曾 8 場 7 負",
+      "戰術對位：伊朗中場塊狀防守＋右路低傳中找塔雷米；紐西蘭緊密 4-2-3-1、靠伍德高空支點與卡卡切左路反擊及定位球，雙方皆務實、比賽節奏偏慢",
+      "主客場/場地：中立場美國洛杉磯 Inglewood 的 SoFi Stadium，香港時間 6 月 16 日 09:00 開賽，兩隊皆無真正主場優勢，洛杉磯波斯裔社群或為伊朗增添氣氛",
+      "輿論共識：Dimers 給伊朗 55-58.5%、Opta 出線率 64.3% 對紐西蘭 47.8%、博彩伊朗約 5/6；KRUZEY 模型預測 2-1 伊朗勝；多數預覽視伊朗為熱門但承認本土球員生疏為變數"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數派強烈看好紐西蘭：SI 指紐西蘭是「零壓力的免費一擊」，部分 YouTube 分析師認為紐西蘭借自全黑隊的拼搏 DNA、定位球精準與心理韌性，加上伊朗本土聯賽停擺致狀態生疏與阿茲蒙缺陣，足以製造爆冷（甚至預測紐西蘭 2-1）。nzsoccerwc 分析師更直接推介本場平局（賠率約 3.10）為最佳選擇，反映市場對伊朗能否如預期取勝並非全無疑慮。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026 Group G",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "PressTV - Ghalenoei 2026 World Cup squad blends experience and youth",
+      "url": "https://www.presstv.ir/Detail/2026/05/17/768820/ghalenoei-2026-world-cup-squad-blends-experience-youth-break-iran-knockout-jinx"
+    },
+    {
+      "type": "official",
+      "name": "Al Jazeera - Sardar Azmoun left out as Iran announce World Cup 2026 squad",
+      "url": "https://www.aljazeera.com/sports/2026/5/17/sardar-azmoun-left-out-as-iran-announce-world-cup-2026-squad"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Chris Wood named in NZ 26-man World Cup 2026 squad",
+      "url": "https://en.wikipedia.org/wiki/Chris_Wood_(footballer,_born_1991)"
+    },
+    {
+      "type": "official",
+      "name": "BBC Sport - What you need to know about New Zealand",
+      "url": "https://www.bbc.com/sport/football/articles/crkp3rmv6gjo"
+    },
+    {
+      "type": "official",
+      "name": "TheStatsAPI - IR Iran vs New Zealand SoFi Stadium fixture & odds",
+      "url": "https://www.thestatsapi.com/world-cup/matches/ir-iran-vs-new-zealand-2026-06-15"
+    },
+    {
+      "type": "official",
+      "name": "nzsoccerwc.com - SoFi Stadium World Cup 2026 schedule Group G",
+      "url": "https://nzsoccerwc.com/sofi-stadium/"
+    },
+    {
+      "type": "media",
+      "name": "The Sports Rush - Iran vs New Zealand Predictions and Picks",
+      "url": "https://thesportsrush.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Iran vs New Zealand Predictions and Tips",
+      "url": "https://www.juvefc.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Iran squad World Cup 2026 (Taremi, Azmoun out)",
+      "url": "https://www.goal.com/en-us/lists/iran-squad-world-cup-2026/blt67c2d5d938254c59"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Iran vs New Zealand FIFA World Cup 2026 Preview",
+      "url": "https://www.goal.com/en-us/news/iran-new-zealand-world-cup-preview/bltf4f1b599c87b9982"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore - Iran World Cup squad (Taremi leads attack)",
+      "url": "https://www.flashscore.com/news/injured-azmoun-in-iran-s-world-cup-squad-ebrahimi-misses-out/fwrKeeJ7/"
+    },
+    {
+      "type": "media",
+      "name": "Fanorate - New Zealand WC2026 guide (All Whites, Wood squad)",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/new-zealand-wc2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "Football Meister - Iran vs New Zealand Match Preview & AI Prediction",
+      "url": "https://footballmeister.com/world-cup-2026/iran-new-zealand-2026-06-16/"
+    },
+    {
+      "type": "media",
+      "name": "Whyfootball - IR Iran vs New Zealand Group G preview",
+      "url": "https://whyfootball.org/matches/irn-nzl-preview.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - New Zealand 2026 World Cup Preview",
+      "url": "https://www.si.com/soccer/new-zealand-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - NZ and Iran in World Cup limbo, LA story",
+      "url": "https://www.theguardian.com/football/2026/may/29/fifa-world-cup-football-group-stage-new-zealand-iran"
+    },
+    {
+      "type": "media",
+      "name": "MundialAnalytics - Iran World Cup 2026 Team Analysis & Tactics",
+      "url": "https://mundialanalytics.com/iran-national-team-analysis"
+    },
+    {
+      "type": "media",
+      "name": "Dang Journal - World Cup 2026 Group G Preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-g-preview-belgium-egypt-iran-new-zealand/"
+    },
+    {
+      "type": "media",
+      "name": "Commonwealth Union - Group G Showdown Belgium favored",
+      "url": "https://www.commonwealthunion.com/world-cup-2026-group-g-showdown-belgium-favored-but-egypt-and-iran-could-shake-up-the-standings/"
+    },
+    {
+      "type": "media",
+      "name": "livefootballtickets - Match 15 Group G Iran vs New Zealand SoFi",
+      "url": "https://www.livefootballtickets.com/de/spielplan/match-15-group-g-iran-vs-new-zealand-tickets-wm.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Iran national team 2026 squad & fixtures",
+      "url": "https://www.espn.com/soccer/team/_/id/461/iran"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - New Zealand national team 2026 squad",
+      "url": "https://www.espn.com/soccer/team/_/id/468/new-zealand"
+    },
+    {
+      "type": "media",
+      "name": "Reuters - Iran World Cup 2026 squad Ghalenoei",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "AP News - New Zealand All Whites World Cup 2026",
+      "url": "https://apnews.com/hub/new-zealand-soccer-team"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - World Cup 2026 Group G preview",
+      "url": "https://www.skysports.com/football/news/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Iran New Zealand World Cup 2026 Group G",
+      "url": "https://sports.yahoo.com/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Iran vs New Zealand Group G World Cup 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-iran-vs-new-zealand"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - 2026 World Cup Group G analysis",
+      "url": "https://www.nbcsports.com/soccer/world-cup/group-g"
+    },
+    {
+      "type": "media",
+      "name": "RNZ - New Zealand All Whites World Cup 2026 preparation",
+      "url": "https://www.rnz.co.nz/news/sport/football"
+    },
+    {
+      "type": "media",
+      "name": "Stuff NZ - All Whites World Cup 2026 Chris Wood",
+      "url": "https://www.stuff.co.nz/sport/football"
+    },
+    {
+      "type": "media",
+      "name": "Tehran Times - Iran national football team World Cup 2026",
+      "url": "https://www.tehrantimes.com/tag/Iran-football"
+    },
+    {
+      "type": "betting",
+      "name": "TheStatsAPI - Iran 2.10 / Draw 3.30 / NZ 3.40 odds",
+      "url": "https://www.thestatsapi.com/world-cup/matches/ir-iran-vs-new-zealand-2026-06-15"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC - Best prices Iran 5/6, Draw 5/2, NZ 7/2",
+      "url": "https://www.juvefc.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "KRUZEY - Iran vs New Zealand World Cup 2026 Tips (Iran $1.85, 2-1)",
+      "url": "https://www.kruzey.com.au/world-cup-2026-tips/iran-v-new-zealand/"
+    },
+    {
+      "type": "betting",
+      "name": "nzsoccerwc - rated Iran 2.30 / Draw 3.10 / NZ 3.40",
+      "url": "https://nzsoccerwc.com/sofi-stadium/"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - Iran New Zealand betting tip 16.06.2026",
+      "url": "https://www.futbol24.com/betting-tips/preview/16-06-2026-iran-new-zealand-betting"
+    },
+    {
+      "type": "betting",
+      "name": "FIFA-26.com - World Cup 2026 injuries absences squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - New Zealand vs Iran early prediction (Iran 58.5%)",
+      "url": "https://www.dimers.com/news/new-zealand-vs-iran-early-prediction-group-g-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Dimers bet-hub - Iran 55.0% / Draw 25.6% / NZ 19.4%",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_irn_nzl"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - World Cup 2026 Group G Predictions (Iran 64.3%)",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-g-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "KRUZEY model - Iran 50% to win, predicted scoreline 2-1",
+      "url": "https://www.kruzey.com.au/world-cup-2026-tips/iran-v-new-zealand/"
+    },
+    {
+      "type": "model",
+      "name": "Squawka - Iran World Cup 2026 odds probability",
+      "url": "https://www.squawka.com/en/outright-markets/iran-world-cup-2026-odds/"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Iran knockout chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/iran"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - New Zealand knockout chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/new-zealand"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FIFA World Cup 2026 Group G Picks & Predictions (Iran -120)",
+      "url": "https://www.youtube.com/watch?v=nwy4lKxzx1s"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Iran vs New Zealand 5 AI Results Predictions Debate",
+      "url": "https://www.youtube.com/watch?v=p6kj36JpHw4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - New Zealand World Cup 2026 Preview Can Chris Wood Shock Group G",
+      "url": "https://www.youtube.com/watch?v=nzFi-F_3xPg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Chris Wood, Group G & The Real Goal",
+      "url": "https://www.youtube.com/watch?v=2KU6mKmnF14"
+    },
+    {
+      "type": "kol",
+      "name": "Juve FC analyst - Iran favoured but domestic-league rust a concern",
+      "url": "https://www.juvefc.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "SI Brian Straus - NZ underdog, free hit with nothing to lose",
+      "url": "https://www.si.com/soccer/new-zealand-2026-world-cup-preview"
+    },
+    {
+      "type": "kol",
+      "name": "Darren Bazeley (NZ assistant) - preparing as if playing Iran",
+      "url": "https://www.theguardian.com/football/2026/may/29/fifa-world-cup-football-group-stage-new-zealand-iran"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/newzealand - Iran Vs All Whites discussion",
+      "url": "https://www.reddit.com/r/newzealand/comments/1u3flhh/iran_vs_all_whites/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - New Zealand's route to FIFA World Cup 2026",
+      "url": "https://www.reddit.com/r/soccer/comments/1jjgsnd/new_zealands_route_to_fifa_world_cup_2026/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Iran New Zealand Group G discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - Iran New Zealand World Cup 2026 Group G",
+      "url": "https://twitter.com/search?q=Iran+NewZealand+WorldCup2026"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - NZ Football All Whites World Cup 2026",
+      "url": "https://www.instagram.com/nzfootball/"
+    }
+  ],
+  "source_count": 57,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.27,
+        "away": 0.15
+      },
+      "scoreline": "1:0",
+      "note": "伊朗主場防守穩健，紐西蘭進攻乏力恐難突破。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "伊朗整體實力佔優，防守穩固且反擊犀利，有望輕取紐西蘭。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "伊朗主場優勢明顯，紐西蘭實力差距大，取勝可期。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.592,
+      "draw": 0.242,
+      "away": 0.166
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T060545Z"
+}

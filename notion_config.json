@@ -20,6 +20,11 @@
     "date:更新時間:start": "ISO datetime",
     "date:更新時間:is_datetime": 1
   },
-  "synced_runs": ["2026-06-13T0800Z"],
+  "synced_runs": [
+    "2026-06-13T0800Z",
+    "2026-06-13T1702Z",
+    "2026-06-14T0057Z",
+    "2026-06-14T0551Z"
+  ],
   "note": "Each prediction run creates new pages (one per match). After matches complete, results sync should update 最終比分/勝負命中/比分命中 on the latest pre-match prediction page for that match."
 }

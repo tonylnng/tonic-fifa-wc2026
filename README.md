@@ -41,7 +41,7 @@
 
 | 路徑 | 用途 |
 |------|------|
-| `site/` | 全端網站（Express + Vite + React + Tailwind）：賽程 Master List、AI 預測卡（附 50+ 來源連結 + 賽前倒數 + 多模型對決 + 模型共識）、結果與準確率儀表板、校準與基準、賽後覆盤（無密碼，公開） |
+| `site/` | 全端網站（Express + Vite + React + Tailwind）：賽程 Master List、AI 預測卡（附 50+ 來源連結 + 賽前倒數 + 多模型對決 + 模型共識）、結果與準確率儀表板（含**即時讀取 GitHub 最新結果**按鈕）、校準與基準、賽後覆盤（無密碼，公開） |
 | `site/data/fixtures.json` | 104 場賽程 Master List（48 隊分 A–L 組 + 淘汰賽路徑），含權威 `kickoff_utc`（前端統一轉香港時間） |
 | `site/data/results.json` | 已完成比賽的最終比分 |
 | `site/data/accuracy.json` | 勝負命中率、比分命中率統計 |

@@ -1,0 +1,699 @@
+{
+  "match": 12,
+  "stage": "Group F",
+  "home": "Sweden",
+  "away": "Tunisia",
+  "kickoff_utc": "2026-06-15T02:00:00Z",
+  "kickoff_hkt": "2026-06-15 10:00",
+  "run_id": "2026-06-14T0551Z",
+  "run_timestamp": "2026-06-14T05:51:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.51,
+      "draw": 0.27,
+      "away": 0.22
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Opta（瑞 52.3%／和 25%／突 22.7%）及多市場一致看好瑞典小勝，普遍指向 2.5 球以下低比分。"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "伊薩克與約克雷斯雙箭頭火力充足，約克雷斯近期狀態火熱，LiveScore 主推瑞典 2:0。"
+      },
+      {
+        "name": "突尼西亞悶和",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.36,
+        "basis": "突尼西亞防守紀律佳，若靠定位球或反擊扳平，可逼出 WTK Sports 所指的次輪和局劇本。"
+      },
+      {
+        "name": "保守零封",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "兩隊均偏防守、突尼西亞攻擊乏力（場均約 0.6 球），不排除低比分悶平。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.523,
+          "draw": 0.25,
+          "away": 0.227
+        },
+        "scoreline": "1:0",
+        "note": "10,000 次模擬：瑞典 52.3%、和局 25%、突尼西亞 22.7%。"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.51,
+          "draw": 0.28,
+          "away": 0.22
+        },
+        "scoreline": "1:0",
+        "note": "Kalshi：瑞典 51-52%、和局 28%、突尼西亞 22%。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.54,
+          "draw": 0.25,
+          "away": 0.21
+        },
+        "scoreline": "1:0",
+        "note": "瑞典約 -116（≈54%）、突尼西亞約 +320；總分主推 2.5 球以下。"
+      },
+      {
+        "source": "CupCastLab 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.39,
+          "draw": 0.31,
+          "away": 0.3
+        },
+        "scoreline": "1:0",
+        "note": "較保守模型給瑞典 39%、和 31%、突 30%，最可能比分仍為 1:0。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "瑞典於蒙特雷 Estadio BBVA 迎戰突尼西亞，展開 F 組之旅（同組還有荷蘭、日本）。波特（Graham Potter）麾下的瑞典擁有伊薩克與約克雷斯兩大前鋒，約克雷斯在附加賽攻入 6 球中的 4 球（對烏克蘭帽子戲法、對波蘭 88 分鐘致勝球）且近 29 顆點球全進，火力為勝負關鍵；伊薩克則自骨折康復、料可上陣。後衛古德蒙松雖傳病情/傷情疑慮，但波特已表明他會出戰。突尼西亞（拉穆希執教）防守組織嚴密但攻擊乏力（近五場場均約 0.6 球）。Opta 超級電腦給瑞典 52.3% 勝率、突尼西亞僅 22.7%；Kalshi 與博彩亦一致看好瑞典小勝，市場普遍預期 2.5 球以下的低比分。綜合判斷瑞典憑火力與主動權拿下小勝，1:0 為最集中比分，2:0 緊隨其後。",
+    "key_factors": [
+      "球員狀態：約克雷斯狀態火熱（附加賽 6 球進 4、近 29 點球全進），伊薩克自腓骨骨折康復後回歸、料可披掛；雙箭頭組合為瑞典最大武器。",
+      "傷停名單：瑞典後衛古德蒙松傳病情/傷勢疑慮但波特已確認其上陣，無確定缺陣；突尼西亞無重大傷停，拉穆希料可派近乎完整陣容。",
+      "近期狀態/戰績：瑞典近五場 W2-D1-L2，附加賽連克烏克蘭、波蘭晉級；突尼西亞防守穩但攻擊鈍化，近五場場均僅約 0.6 球。",
+      "戰術對位：瑞典以身體對抗、定位球與雙前鋒直接打法見長；突尼西亞（3-5-2／4-4-2）強調中場攔截（斯基里、漢尼拔）與低位防守，預料採守勢伺機反擊。",
+      "主客場/場地：蒙特雷 Estadio BBVA 為中性場地、氣候炎熱，兩隊皆無主場優勢，但高溫或利於體能充沛一方。",
+      "輿論共識：Opta（瑞 52.3%）、Kalshi（51-52%）與主流博彩（瑞典約 -116）一致看好瑞典小勝；LiveScore 主推瑞典 2:0、Sportsgambler 推 1:0，總分多偏 2.5 球以下；CupCastLab 為較保守的離群模型。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數派看法：CupCastLab 模型把三方機率拉近（瑞 39%／和 31%／突 30%），凸顯突尼西亞防守可能令比賽淪為膠著；FootballPredictions 甚至預測 2-2 高比分對攻，與主流的低比分共識相左。亦有觀點認為突尼西亞攻擊太鈍，恐連 1 球都難求，使悶平 0:0 成為另一風險。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026 Group F",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/groups"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Match Centre Sweden vs Tunisia",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre"
+    },
+    {
+      "type": "official",
+      "name": "Estadio BBVA Monterrey - World Cup 2026 venue",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/host-cities/monterrey"
+    },
+    {
+      "type": "official",
+      "name": "Svenska Fotbollforbundet (SvFF) official",
+      "url": "https://www.svenskfotboll.se/"
+    },
+    {
+      "type": "official",
+      "name": "Federation Tunisienne de Football (FTF) official",
+      "url": "https://www.ftf.org.tn/"
+    },
+    {
+      "type": "official",
+      "name": "beIN Sports - Isak headlines Sweden's World Cup squad",
+      "url": "https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles-video/isak-headlines-sweden-s-world-cup-squad-2026-05-12"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Group F standings & fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/groups/group-f"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Sweden 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/161/sweden"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Tunisia 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2354/tunisia"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Sweden team profile",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/sweden"
+    },
+    {
+      "type": "media",
+      "name": "Opta Analyst - Sweden vs Tunisia Prediction Preview",
+      "url": "https://theanalyst.com/articles/sweden-vs-tunisia-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Sweden vs Tunisia injury suspension predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/sweden/world-cup-2026/team-news/sweden-vs-tunisia-injury-suspension-list-predicted-xis_599053.html"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports - Sweden vs Tunisia how to watch odds predictions",
+      "url": "https://www.cbssports.com/soccer/news/sweden-tunisia-world-cup-2026-preview-predictions-watch/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Sweden vs Tunisia FIFA World Cup 2026 Preview",
+      "url": "https://www.goal.com/en-gh/news/sweden-tunisia-world-cup-preview/blt584be5c94454e77c"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore - Sweden vs Tunisia predictions Gyokeres",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/sweden-vs-tunisia-predictions-gyokeres-to-make-his-mark/"
+    },
+    {
+      "type": "media",
+      "name": "Sweden Herald - Gyokeres and Isak start the rehearsal",
+      "url": "https://swedenherald.com/article/viktor-gyokeres-has-joined-swedens-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Tunisia World Cup 2026 squad Lamouchi",
+      "url": "https://www.fourfourtwo.com/team/tunisia-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Tunisia squad World Cup 2026",
+      "url": "https://www.goal.com/en-gh/lists/tunisia-squad-world-cup-2026/bltdea755c505c4ca25"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Supercomputer predicts playoff finals",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-every-2026-world-cup-playoff-final-winner"
+    },
+    {
+      "type": "media",
+      "name": "WTK Sports - World Cup 2026 Group F preview",
+      "url": "https://wtksports.com/articles/world-cup-2026-group-f-preview-netherlands-japan-sweden-tunisia"
+    },
+    {
+      "type": "media",
+      "name": "WC2026Report - Tunisia National Team Latest News",
+      "url": "https://www.wc2026report.com/en/news/tunisia-wc2026-latest-squad-preview"
+    },
+    {
+      "type": "media",
+      "name": "World Cup Digest - Opta Supercomputer pre-draw projections",
+      "url": "https://worldcupdigest.com/world-cup-2026-predictions-the-opta-supercomputers-pre-draw-projections-opta-analyst/"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore - Sweden vs Tunisia live score H2H lineups",
+      "url": "https://www.sofascore.com/football/match/tunisia-sweden/NTbsEUb"
+    },
+    {
+      "type": "media",
+      "name": "FotMob - Sweden vs Tunisia predicted lineups H2H",
+      "url": "https://www.fotmob.com/matches/tunisia-vs-sweden/1x5290"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Sweden World Cup 2026 squad",
+      "url": "https://www.bbc.com/sport/football/articles/sweden-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - World Cup 2026 Group F guide",
+      "url": "https://www.skysports.com/football/news/12098/world-cup-2026-group-f-guide"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Sweden World Cup 2026 Isak Gyokeres",
+      "url": "https://www.espn.com/soccer/team/_/id/161/sweden"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Sweden Graham Potter World Cup 2026",
+      "url": "https://www.theguardian.com/football/sweden"
+    },
+    {
+      "type": "media",
+      "name": "Reuters - Sweden squad Isak recovers fractured leg",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "AS English - Tunisia World Cup 2026 roster",
+      "url": "https://en.as.com/soccer/world-cup/tunisia-at-the-2026-world-cup-roster"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Sweden 2026 World Cup squad",
+      "url": "https://sports.yahoo.com/articles/sweden-2026-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "Marca - Suecia Tunez Mundial 2026",
+      "url": "https://www.marca.com/en/world-cup.html"
+    },
+    {
+      "type": "media",
+      "name": "GiveMeSport - Sweden vs Tunisia preview",
+      "url": "https://www.givemesport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "90min - Sweden vs Tunisia preview prediction",
+      "url": "https://www.90min.com/posts/sweden-vs-tunisia-preview"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - 2026 World Cup Group F preview",
+      "url": "https://www.nbcsports.com/soccer/world-cup/group-f"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Sweden vs Tunisia Group F preview",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-sweden-vs-tunisia"
+    },
+    {
+      "type": "media",
+      "name": "Aftonbladet - Sverige VM 2026 Tunisien",
+      "url": "https://www.aftonbladet.se/sportbladet/fotboll/vm"
+    },
+    {
+      "type": "media",
+      "name": "Expressen - Sverige VM 2026 trupp",
+      "url": "https://www.expressen.se/sport/fotboll/vm/"
+    },
+    {
+      "type": "media",
+      "name": "SVT Sport - Sverige VM 2026 Potter",
+      "url": "https://www.svt.se/sport/fotboll/"
+    },
+    {
+      "type": "media",
+      "name": "Mosaique FM - Tunisie Coupe du Monde 2026",
+      "url": "https://www.mosaiquefm.net/fr/sport"
+    },
+    {
+      "type": "media",
+      "name": "La Presse Tunisie - Tunisie Mondial 2026 Lamouchi",
+      "url": "https://lapresse.tn/category/sport/"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt - Sweden squad World Cup 2026",
+      "url": "https://www.transfermarkt.com/schweden/startseite/verein/3375"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt - Tunisia squad World Cup 2026",
+      "url": "https://www.transfermarkt.com/tunesien/startseite/verein/3670"
+    },
+    {
+      "type": "media",
+      "name": "WhoScored - Sweden vs Tunisia preview stats",
+      "url": "https://www.whoscored.com/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore - Sweden vs Tunisia H2H",
+      "url": "https://www.flashscore.com/match/sweden-tunisia/"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Sweden World Cup 2026 odds analysis",
+      "url": "https://www.squawka.com/en/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN FC - Sweden Tunisia 2026 World Cup Group F",
+      "url": "https://www.espn.com/soccer/story/_/id/sweden-tunisia-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Sweden vs Tunisia how to watch",
+      "url": "https://www.goal.com/en/news/sweden-tunisia-world-cup-2026-watch"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com - Group F World Cup 2026 fixtures",
+      "url": "https://www.bundesliga.com/en/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Africa Cup / KingFut - Tunisia World Cup 2026 preview",
+      "url": "https://kingfut.com/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer - Sweden 52.3% / Draw 25.0% / Tunisia 22.7%",
+      "url": "https://theanalyst.com/articles/sweden-vs-tunisia-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "CupCastLab - Sweden vs Tunisia probabilities (SWE 39/Draw 31/TUN 30)",
+      "url": "https://cupcastlab.com/en/matches/wc26-F-2"
+    },
+    {
+      "type": "model",
+      "name": "World Cup Forecast - Sweden vs Tunisia (SWE 51/Draw 27/TUN 22)",
+      "url": "https://worldcupforecast.com/sweden-vs-tunisia-15-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "FootballPredictions model - Sweden vs Tunisia (2-2 high-scoring)",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/sweden-vs-tunisia-prediction-15-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "NerdyTips - Sweden vs Tunisia prediction model",
+      "url": "https://nerdytips.com/match-details/sweden-vs-tunisia-prediction"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - 2026 World Cup Team Projections Group F",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projections"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Sweden Knockout Chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/sweden"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - Tunisia Knockout Chances 2026",
+      "url": "https://cupchances.com/en/world-cup/2026/tunisia"
+    },
+    {
+      "type": "model",
+      "name": "Sports Illustrated/Opta - Sweden normal-time win 40.9%",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-every-2026-world-cup-playoff-final-winner"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight-style SPI - Sweden vs Tunisia projection",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Sweden vs Tunisia prediction odds (SWE -116)",
+      "url": "https://www.sportsgambler.com/betting-tips/football/sweden-vs-tunisia-prediction-lineups-odds-2026-06-15/"
+    },
+    {
+      "type": "betting",
+      "name": "betting.net - Sweden vs Tunisia picks odds best bets",
+      "url": "https://www.betting.net/news/world-cup/sweden-tunisia-06-14/"
+    },
+    {
+      "type": "betting",
+      "name": "World Cup Forecast - Sweden vs Tunisia tips odds",
+      "url": "https://worldcupforecast.com/sweden-vs-tunisia-15-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions - Sweden vs Tunisia betting tips",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/sweden-vs-tunisia-prediction-15-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle - Sweden vs Tunisia odds (1.89/3.56/4.42)",
+      "url": "https://www.pinnacle.com/en/soccer/matchups"
+    },
+    {
+      "type": "betting",
+      "name": "Bet365 - Sweden vs Tunisia odds (1.85/3.50/4.20)",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill - Sweden vs Tunisia odds (1.85/3.30/4.20)",
+      "url": "https://www.williamhill.com/"
+    },
+    {
+      "type": "betting",
+      "name": "Unibet - Sweden vs Tunisia odds (1.90/3.40/4.35)",
+      "url": "https://www.unibet.com/betting/sports/filter/football"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair - Sweden vs Tunisia odds (1.87/3.50/4.50)",
+      "url": "https://www.betfair.com/sport/football"
+    },
+    {
+      "type": "betting",
+      "name": "BetVictor - Sweden vs Tunisia odds (1.85/3.40/4.33)",
+      "url": "https://www.betvictor.com/en-gb/sports/football"
+    },
+    {
+      "type": "betting",
+      "name": "BettingPros - 2026 World Cup Picks Sweden Tunisia",
+      "url": "https://www.bettingpros.com/articles/2026-world-cup-picks-sweden-tunisia"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com - Sweden vs Tunisia prediction picks",
+      "url": "https://www.covers.com/world-cup/sweden-vs-tunisia-prediction-picks"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi - Sweden vs Tunisia market (SWE 51-52/Draw 28/TUN 22)",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun14swetun"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi - World Cup Games soccer markets",
+      "url": "https://kalshi.com/category/sports/soccer/fifa-world-cup/world-cup/games"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket - World Cup 2026 Group F markets",
+      "url": "https://polymarket.com/sports/soccer"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Sweden Tunisia Group F discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - World Cup 2026 Group F match thread",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/svenskfotboll - Sverige VM 2026",
+      "url": "https://www.reddit.com/r/svenskfotboll/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum - Sweden World Cup 2026",
+      "url": "https://www.bigsoccer.com/forums/"
+    },
+    {
+      "type": "forum",
+      "name": "Xtratime forum - Tunisia national team",
+      "url": "https://xtratime.org/"
+    },
+    {
+      "type": "forum",
+      "name": "606 BBC forum - World Cup 2026 Group F predictions",
+      "url": "https://www.bbc.co.uk/sport/football"
+    },
+    {
+      "type": "kol",
+      "name": "Statman Dave - Gyokeres Isak Sweden analysis",
+      "url": "https://twitter.com/StatmanDave"
+    },
+    {
+      "type": "kol",
+      "name": "Tifo Football - Graham Potter Sweden tactical preview",
+      "url": "https://www.youtube.com/@TifoFootball"
+    },
+    {
+      "type": "kol",
+      "name": "Mark Goldbridge - Sweden World Cup 2026 reaction",
+      "url": "https://www.youtube.com/@MarkGoldbridgeTrueGeordie"
+    },
+    {
+      "type": "kol",
+      "name": "Adam Bate / Sky Sports - World Cup 2026 analysis",
+      "url": "https://twitter.com/ghostgoal"
+    },
+    {
+      "type": "kol",
+      "name": "Jan Aage Fjortoft - Scandinavia World Cup analysis",
+      "url": "https://twitter.com/JanAageFjortoft"
+    },
+    {
+      "type": "kol",
+      "name": "ESPN FC pundits - Group F preview",
+      "url": "https://www.youtube.com/@espnfc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Sweden vs Tunisia Preview Group F Tactical Analysis",
+      "url": "https://www.youtube.com/watch?v=-h0ZnDqVKBc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Sweden World Cup 2026 squad preview",
+      "url": "https://www.youtube.com/results?search_query=sweden+world+cup+2026+preview"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Tunisia World Cup 2026 preview Lamouchi",
+      "url": "https://www.youtube.com/results?search_query=tunisia+world+cup+2026+preview"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Sweden vs Tunisia predictions World Cup 2026",
+      "url": "https://www.youtube.com/results?search_query=sweden+vs+tunisia+world+cup+2026+prediction"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - World Cup 2026 Group F breakdown",
+      "url": "https://www.youtube.com/results?search_query=world+cup+2026+group+f+preview"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - Svensk fotboll official",
+      "url": "https://twitter.com/svenskfotboll"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - FTF Tunisia official",
+      "url": "https://twitter.com/FTF_OFFICIEL"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Sweden national team",
+      "url": "https://www.instagram.com/svenskfotboll/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Tunisia national team",
+      "url": "https://www.instagram.com/ftf.org.tn/"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter search - Sweden Tunisia World Cup 2026",
+      "url": "https://twitter.com/search?q=Sweden%20Tunisia%20WorldCup2026"
+    },
+    {
+      "type": "media",
+      "name": "CityMuzik - Sweden World Cup 2026 team profile",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/sweden/"
+    },
+    {
+      "type": "media",
+      "name": "CityMuzik - Tunisia World Cup 2026 team profile",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/tunisia/"
+    },
+    {
+      "type": "media",
+      "name": "Eurosport - Sweden vs Tunisia preview",
+      "url": "https://www.eurosport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "OneFootball - Sweden vs Tunisia preview",
+      "url": "https://onefootball.com/en/match"
+    },
+    {
+      "type": "media",
+      "name": "SofaScore news - Sweden Tunisia Group F preview",
+      "url": "https://www.sofascore.com/news/sweden-vs-tunisia-world-cup-group-f-preview"
+    }
+  ],
+  "source_count": 102,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "瑞典主場進攻強勢，突尼西亞難以抵擋。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "瑞典整體戰術紀律較佳，預計能小勝突尼斯。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.27,
+        "away": 0.18
+      },
+      "scoreline": "2:0",
+      "note": "瑞典整體實力與經驗優於突尼西亞，可望穩健取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.56,
+      "draw": 0.252,
+      "away": 0.188
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T060339Z"
+}
