@@ -363,6 +363,54 @@
       "outcome": "home",
       "scoreline": "3:0",
       "note": "西班牙一面倒大熱、全勝預期"
+    },
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力懸殊，主場應輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力懸殊，將以傳控壓制並輕鬆取勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力碾壓，維德角難有招架之力，預期主隊輕鬆取勝。"
     }
-  ]
+  ],
+  "consensus": {
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.89,
+      "draw": 0.076,
+      "away": 0.034
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T053036Z"
 }

@@ -6,6 +6,41 @@
 
 ---
 
+## [1.3.0] — 2026-06-14（run 2026-06-14T0057Z）
+
+### 新增（Added）— 第三方多模型 AI 對照 ＋ 綜合共識
+
+本站主預測維持 **Claude Opus 4.8**；新增三家第三方 AI 作為對照基準，並產生跨模型「綜合共識」。
+
+1. **第三方多模型對照（Benchmarks · kind=ai）**
+   - 新增 `multimodel_predict.py`：讀取該場最新批次預測檔，經 [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) 同時呼叫三家最新模型——`minimax/minimax-m3`（MiniMax M3）、`alibaba/qwen3.7-max`（千問 Qwen3.7 Max）、`deepseek/deepseek-v4-pro`（DeepSeek V4 Pro）。
+   - 每家只回傳「**比分 ＋ 三向勝率 ＋ 一句話 take**」（不寫長篇理由，省用量），以 `kind:"ai"` ＋ `model_id` 追加到預測檔的**頂層** `benchmarks[]`（依 `source` 去重，保留既有 betting／model／market 條目）。
+   - SSL 相容性：透過 `curl --cacert /etc/ssl/certs/agent-proxy-ca-2.pem` 子程序呼叫 Gateway（代理環境下 Python `requests`／`urllib` 會 SSL 失敗）。
+   - 容錯：任一模型逾時／失敗即略過，其餘照常寫入。
+
+2. **跨模型綜合共識（Consensus）**
+   - 新增頂層 `consensus` 欄位：比分採多數決（平手靠近主預測）、勝率採加權平均（主預測 Opus 4.8 權重 2、每個第三方 AI 權重 1），並附繁中一句綜合邏輯。
+
+3. **前端「模型共識」＋「多模型對決」區**
+   - `PredictionCard` 新增 `ConsensusBlock`（顯示綜合共識比分／勝負／三向勝率）。
+   - 「多模型對決（本站 Opus 4.8 vs 第三方 AI vs 市場/超級電腦）」區並列本站、第三方 AI、博彩、超級電腦、預測市場各自的比分與勝率條，附一句來源說明。
+   - `lib/types.ts`：`Benchmark.kind` 加入 `"ai"`、`outcome` 改為選填、新增 `model_id`；新增 `Consensus` 介面與 `Prediction.consensus`。
+
+4. **計分整合**
+   - `compute_benchmark_scores.py` 把 `kind:"ai"` 條目一併納入基準線排行榜；條目無 `outcome` 時由 `win_prob` argmax 推導，賽後可在「校準與基準」頁比較本站與第三方 AI 誰更準。
+
+### 憑證（Credentials）
+
+- Vercel AI Gateway 金鑰存於使用者**憑證庫**（vault），供排程跨工作階段重用；腳本以 `api_credentials=["custom-cred:ai-gateway.vercel.sh"]` 取用，金鑰不落地、不入庫於 repo。
+
+### 文檔（Docs）
+
+- `CRON_RUNBOOK.md` 新增「2.5 第三方多模型 AI 對照 + 共識」步驟。
+- `site/data/predictions/SCHEMA.md` 新增「頂層 benchmarks[] 與 consensus」章節（含 `kind:"ai"`、`model_id`、`consensus` 結構與一致性規則）。
+- `README.md` 更新「這個項目包含什麼」，標註多模型對照與共識。
+
+---
+
 ## [1.2.0] — 2026-06-14
 
 ### 重大修正（Fixed）

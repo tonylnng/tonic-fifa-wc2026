@@ -1,4 +1,4 @@
-import { Prediction, ResultItem, Fixture, Benchmark } from "@/lib/types";
+import { Prediction, ResultItem, Fixture, Benchmark, Consensus } from "@/lib/types";
 import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
 import { kickoffHkt, countdown } from "@/lib/utils";
@@ -29,6 +29,7 @@ import {
   Radio,
   Hourglass,
   Scale,
+  Sparkles,
 } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -148,6 +149,15 @@ function Scenarios({
 }
 
 /** 對比基準線：AI 預測 vs 博彩/Opta/預測市場並列。 */
+function argmaxOutcome(wp: {
+  home: number;
+  draw: number;
+  away: number;
+}): "home" | "draw" | "away" {
+  const keys: ("home" | "draw" | "away")[] = ["home", "draw", "away"];
+  return keys.reduce((best, k) => (wp[k] > wp[best] ? k : best), "home");
+}
+
 function Benchmarks({
   ai,
   items,
@@ -182,7 +192,8 @@ function Benchmarks({
       source: b.source,
       kind: b.kind,
       scoreline: b.scoreline,
-      outcome: b.outcome,
+      // 第三方 AI 可能未存 outcome，由 win_prob 取最大向推導。
+      outcome: b.outcome || argmaxOutcome(b.win_prob),
       win_prob: b.win_prob,
       note: b.note,
     })),
@@ -239,6 +250,48 @@ function Benchmarks({
           )}
         </div>
       ))}
+    </div>
+  );
+}
+
+function ConsensusBlock({ c }: { c: Consensus }) {
+  return (
+    <div
+      className="rounded-xl border-2 border-chart-2/50 bg-chart-2/5 px-3.5 py-3"
+      data-testid="consensus-block"
+    >
+      <div className="flex items-center justify-between gap-2">
+        <span className="flex items-center gap-1.5 text-sm font-semibold">
+          <Sparkles className="w-4 h-4 text-chart-2" />
+          綜合共識
+          <Badge variant="outline" className="text-[10px] px-1 py-0">
+            {c.models_used} 模型
+          </Badge>
+        </span>
+        <span className="flex items-center gap-2 shrink-0">
+          <span className="font-mono text-lg font-bold tabular-nums">
+            {c.scoreline}
+          </span>
+          <span className="text-[11px] text-muted-foreground">
+            {outcomeZh(c.outcome)}
+          </span>
+        </span>
+      </div>
+      <div className="flex items-center gap-1 mt-2">
+        <div className="flex h-2 flex-1 rounded-full overflow-hidden bg-muted">
+          <div className="bg-chart-1" style={{ width: `${Math.round(c.win_prob.home * 100)}%` }} />
+          <div className="bg-muted-foreground/40" style={{ width: `${Math.round(c.win_prob.draw * 100)}%` }} />
+          <div className="bg-chart-3" style={{ width: `${Math.round(c.win_prob.away * 100)}%` }} />
+        </div>
+      </div>
+      <div className="flex justify-between text-[10px] text-muted-foreground mt-1">
+        <span>主 {Math.round(c.win_prob.home * 100)}%</span>
+        <span>和 {Math.round(c.win_prob.draw * 100)}%</span>
+        <span>客 {Math.round(c.win_prob.away * 100)}%</span>
+      </div>
+      {c.logic && (
+        <p className="text-[10px] text-muted-foreground mt-1.5 leading-snug">{c.logic}</p>
+      )}
     </div>
   );
 }
@@ -577,15 +630,21 @@ export function PredictionCard({
               </div>
             )}
 
+            {pred.consensus && (
+              <div>
+                <ConsensusBlock c={pred.consensus} />
+              </div>
+            )}
+
             {benchmarks && benchmarks.length > 0 && (
               <div>
                 <h4 className="text-sm font-semibold mb-2 flex items-center gap-1.5">
                   <Scale className="w-4 h-4 text-chart-4" />
-                  AI vs 市場 vs 超級電腦（對比基準線）
+                  多模型對決（本站 Opus 4.8 vs 第三方 AI vs 市場/超級電腦）
                 </h4>
                 <Benchmarks ai={pred.prediction} items={benchmarks} />
                 <p className="text-[11px] text-muted-foreground mt-2">
-                  横條為三向勝負機率（主/和/客）；賽後可在「校準與基準」頁查看誰更準。
+                  第三方 AI（MiniMax／千問／DeepSeek）經 Vercel AI Gateway 取得；横條為三向勝負機率（主/和/客）；賽後可在「校準與基準」頁查看誰更準。
                 </p>
               </div>
             )}

@@ -46,13 +46,23 @@ export interface PredictionScenario {
 /** 對比基準線：博彩隱含機率、Opta 超級電腦、ESPN Elo 等公開模型。
  *  win_prob 三向機率總和應近 1（博彩隱含機率可能含抽水，供顯示）。 */
 export interface Benchmark {
-  source: string; // 來源名稱，例：博彩隱含機率 / Opta 超級電腦 / ESPN Elo
-  kind: "betting" | "model" | "market"; // 類型
+  source: string; // 來源名稱，例：博彩隱含機率 / Opta 超級電腦 / MiniMax M3 / 千問 / DeepSeek
+  kind: "betting" | "model" | "market" | "ai"; // 類型（ai = 第三方大模型預測）
   win_prob: { home: number; draw: number; away: number };
-  outcome: "home" | "draw" | "away"; // 最高機率的向
+  outcome?: "home" | "draw" | "away"; // 最高機率的向
   scoreline?: string; // 可選：最可能比分
+  model_id?: string; // 第三方模型 Gateway ID（kind=ai）
   url?: string;
-  note?: string; // 繁中一句說明
+  note?: string; // 繁中一句說明 / take
+}
+
+/** 綜合共識（ensemble）：本站 Opus 4.8 主預測 + 三家第三方 AI 的加權平均。 */
+export interface Consensus {
+  scoreline: string;
+  outcome: "home" | "draw" | "away";
+  win_prob: { home: number; draw: number; away: number };
+  models_used: number; // 參與模型數（含主預測）
+  logic: string; // 綜合邏輯一句（繁中）
 }
 
 export interface Prediction {
@@ -75,6 +85,7 @@ export interface Prediction {
     scenarios?: PredictionScenario[];
   };
   benchmarks?: Benchmark[];
+  consensus?: Consensus; // 多模型綜合共識
   reasoning: {
     summary: string;
     key_factors: string[];

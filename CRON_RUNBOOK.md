@@ -39,6 +39,21 @@
 
 範本見 `data/predictions/SCHEMA.md`。
 
+## 2.5 第三方多模型 AI 對照 + 共識（A+C）
+
+**在每場比賽的 Opus 4.8 預測檔寫好之後**，為同一個預測檔補上第三方 AI 對照與綜合共識。第三方 AI 經 Vercel AI Gateway 取得，只回傳「比分 + 三向勝率 + 一句話 take」（不寫長篇理由，省用量）；本站主預測仍以 **Opus 4.8** 為準，第三方僅作對照基準。
+
+- 第三方模型（各取最新版）：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`。
+- 對每場即將開賽比賽，於帶憑證的 bash 執行（**必須**用 `api_credentials=["custom-cred:ai-gateway.vercel.sh"]`，Gateway 金鑰存於使用者憑證庫）：
+```bash
+python3 /home/user/workspace/wc2026/multimodel_predict.py --match {N}
+```
+  - 此腳本會讀取該場**最新批次**預測檔，呼叫 3 個第三方模型，把結果以 `kind:"ai"` 追加到該檔的**頂層** `benchmarks[]`（依 `source` 去重，保留既有 betting/model/market 條目），並計算頂層 `consensus`（比分多數決、勝率加權平均，主預測權重 2、每個 AI 權重 1）。
+  - 重要：腳本透過 `curl --cacert /etc/ssl/certs/agent-proxy-ca-2.pem` 子程序呼叫 Gateway（Python `requests`/`urllib` 在代理下會 SSL 失敗，**請勿改回 requests**）。
+  - 若某模型回傳失敗或逾時，腳本會略過該模型，其餘照常寫入；共識以可用模型計算。
+  - 若憑證庫該金鑰需核准（`list_credentials` 顯示 `requires_approval=true`），先 `approve_credential` 再執行。
+- 前端會讀取頂層 `pred.consensus` 與 `pred.benchmarks`（含 `kind:"ai"`、`model_id`），在卡片詳情顯示「模型共識」區與「多模型對決」區。
+
 ## 3. 更新已完成比賽的結果 + 賽後覆盤
 - 搜尋是否有新完成的比賽，將最終比分寫入 `data/results.json`（results 陣列，含 match, scoreline, home, away, date）。
 - **對每場新出爐結果，產生賽後覆盤 postmortem**（用 Opus 4.8，繁體中文）：比對該場最新批次預測與實際比分，生成「為何命中／失準」短評。每筆含 `match`、`home`、`away`、`stage`、`predicted`、`predicted_outcome`、`final`、`actual_outcome`、`outcome_correct`、`exact_correct`、`verdict`(exact/outcome/miss)、`run_id`、`model`、`headline`（繁中標題一句）、`review`（繁中詳述）、`lessons`（繁中清單）、`vs_benchmarks`（繁中：AI 與基準線相比的優劣）。以 stdin 合併寫入：

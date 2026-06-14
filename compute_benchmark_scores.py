@@ -82,8 +82,13 @@ def main():
         acc("AI（本站 Opus）", "ai", pp.get("outcome"), pp.get("scoreline"),
             pp.get("win_prob"), r)
         for b in pred.get("benchmarks", []):
-            acc(b["source"], b.get("kind", "model"), b.get("outcome"),
-                b.get("scoreline"), b.get("win_prob"), r)
+            wp = b.get("win_prob")
+            # 第三方 AI 基準線可能未存 outcome，由 win_prob 取最大向推導。
+            outcome = b.get("outcome")
+            if not outcome and wp:
+                outcome = max(wp, key=wp.get)
+            acc(b["source"], b.get("kind", "model"), outcome,
+                b.get("scoreline"), wp, r)
 
     leaderboard = []
     for a in agg.values():

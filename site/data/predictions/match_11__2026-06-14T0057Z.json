@@ -362,6 +362,54 @@
       "outcome": "away",
       "scoreline": "1:2",
       "note": "主推 2.5 球以下、低比分"
+    },
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "象牙海岸主場略優但厄瓜多防守穩健，預期和局收場"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "雙方實力接近，防守穩健，預計握手言和。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "象牙海岸陣容較強，主場之利下可望擊敗厄瓜多。"
     }
-  ]
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.338,
+      "draw": 0.33,
+      "away": 0.332
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T052944Z"
 }

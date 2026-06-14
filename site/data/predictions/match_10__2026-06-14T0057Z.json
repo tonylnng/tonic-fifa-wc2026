@@ -363,6 +363,54 @@
       "outcome": "home",
       "scoreline": "2:1",
       "note": "多家媒體看好荷蘭，惟提示日本爆冷力"
+    },
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.22,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭進攻火力強勁主場有望小勝日本。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力佔優，日本反擊犀利但難擋主隊攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "荷蘭整體實力佔優，日本防守穩健，預料荷蘭小勝。"
     }
-  ]
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.544,
+      "draw": 0.236,
+      "away": 0.22
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T052916Z"
 }

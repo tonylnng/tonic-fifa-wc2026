@@ -125,3 +125,46 @@ trail is auditable.
 ## 校準與基準線計分
 - `data/calibration.json`：由 `compute_calibration.py` 產生，信心分桶 vs 實際命中率，含 Brier、ECE、overconfidence。
 - `data/benchmark_scores.json`：由 `compute_benchmark_scores.py` 產生，AI 與各基準線在相同已完成比賽上的排行榜。
+
+## 頂層 benchmarks[] 與 consensus（第三方多模型 A+C）
+
+除了 `prediction.benchmarks`（由 Opus 研究時寫入的博彩/模型/市場基準線）之外，`multimodel_predict.py` 會在預測檔的**頂層**寫入兩個欄位，供前端「模型共識」與「多模型對決」區使用：
+
+```json
+{
+  // ...上述所有預測欄位...
+
+  "benchmarks": [                               // 【頂層】所有基準線（betting/model/market + 第三方 ai）合並於此
+    {
+      "source": "博彩隱含機率",
+      "kind": "betting",                          // betting | model | market | ai
+      "win_prob": { "home": 0.95, "draw": 0.04, "away": 0.01 },
+      "scoreline": "4:0",
+      "note": "德國 1/25 至 1/20（隱含 95-97%）"
+    },
+    {
+      "source": "MiniMax M3",                     // 第三方 AI
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",           // 【新】用於 AI 條目的 Gateway 模型 ID
+      "win_prob": { "home": 0.92, "draw": 0.06, "away": 0.02 },
+      "scoreline": "4:0",
+      "note": "德國實力碾壓庫拉索，應輕鬆取勝。"   // 第三方只回「一句話 take」，不寫長篇理由
+    }
+    // 另 alibaba/qwen3.7-max、deepseek/deepseek-v4-pro 同格式
+  ],
+
+  "consensus": {                                  // 【新頂層】本站主預測 + 3 家第三方的綜合共識
+    "scoreline": "4:0",                           // 比分多數決（平手靠近主預測）
+    "outcome": "home",
+    "win_prob": { "home": 0.924, "draw": 0.056, "away": 0.02 },  // 加權平均（主預測權重 2，每個 AI 權重 1）
+    "models_used": 4,                             // 參與共識的模型數（主預測 + 可用第三方）
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決。"  // 繁中一句綜合邏輯
+  }
+}
+```
+
+說明：
+- **主預測仍為 Opus 4.8**；第三方 AI 僅作對照基準（`kind:"ai"`）。
+- 頂層 `benchmarks[]` 依 `source` 去重；AI 條目多帶 `model_id`（Gateway 模型 ID）。第三方 `win_prob` 可能是整數（如 55/25/20），會被 sum-normalize 為總和 1。
+- `consensus.win_prob` 由主預測（權重 2）與各 AI（權重 1）加權平均；`scoreline` 為多數決，平手時靠近主預測。
+- `compute_benchmark_scores.py` 會把 `kind:"ai"` 條目一併納入基準線排行榜；若條目無 `outcome`，會由 `win_prob` argmax 推導。

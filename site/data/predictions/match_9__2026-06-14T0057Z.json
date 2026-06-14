@@ -374,6 +374,54 @@
       },
       "outcome": "home",
       "note": "德國 97% 勝"
+    },
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "4:0",
+      "note": "德國實力碾壓庫拉索，應輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.09,
+        "away": 0.03
+      },
+      "scoreline": "4:0",
+      "note": "德國實力佔優，庫拉索難抗衡，主隊將輕鬆贏球。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.96,
+        "draw": 0.03,
+        "away": 0.01
+      },
+      "scoreline": "5:0",
+      "note": "德國實力碾壓，庫拉索難有招架之力，主場輕鬆大勝。"
     }
-  ]
+  ],
+  "consensus": {
+    "scoreline": "4:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.924,
+      "draw": 0.056,
+      "away": 0.02
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T052857Z"
 }
