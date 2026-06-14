@@ -1,0 +1,773 @@
+{
+  "match": 10,
+  "stage": "Group F",
+  "home": "Netherlands",
+  "away": "Japan",
+  "kickoff_utc": "2026-06-14T20:00:00Z",
+  "kickoff_hkt": "2026-06-15 04:00",
+  "run_id": "2026-06-14T0855Z",
+  "run_timestamp": "2026-06-14T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.49,
+      "draw": 0.26,
+      "away": 0.25
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Opta 給荷蘭 49.2% 勝、和 24.8%、日本 26.0%，RotoWire 與多家預測荷蘭小勝 2-1。"
+      },
+      {
+        "name": "低比分膠著和局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.5,
+        "basis": "Kalshi 荷蘭 2.01、和 3.52、日本 3.52，多盤口偏 Under 2.5，最可能比分群落為 1-1；LiveScore、SI、Sportsgambler 均預測 1-1。"
+      },
+      {
+        "name": "日本爆冷",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.4,
+        "basis": "荷蘭傷兵滿營，日本帶 5-6 連勝氣勢、3 月作客 1-0 勝英格蘭，反擊或致勝；ESPN 評述員甚至選日本 2-1。"
+      },
+      {
+        "name": "荷蘭控球壓制",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "若荷蘭中場壓住日本高壓並零封，Gakpo、Malen 的個人質量可帶來多球勝。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.49,
+          "draw": 0.25,
+          "away": 0.26
+        },
+        "outcome": "home",
+        "scoreline": "2:1",
+        "note": "Opta 荷蘭勝 49.2%、和 24.8%、日本 26.0%；荷蘭為 F 組首名熱門。"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.47,
+          "draw": 0.27,
+          "away": 0.26
+        },
+        "outcome": "home",
+        "scoreline": "1:1",
+        "note": "Kalshi 荷蘭 2.01（隱含約 48%）、和 3.52、日本 3.52；正確比分市場以 1-1 最熱（賠率 6.74）。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.47,
+          "draw": 0.27,
+          "away": 0.26
+        },
+        "outcome": "home",
+        "scoreline": "1:1",
+        "note": "Polymarket 荷蘭 47.5%、和 27.5%、日本 26.5%，反映荷蘭深度與日本狀態接近。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.49,
+          "draw": 0.27,
+          "away": 0.24
+        },
+        "outcome": "home",
+        "scoreline": "1:1",
+        "note": "荷蘭約 2.00-2.05（隱含約 50%）、和約 3.6、日本約 3.6-4.0（+260～+285）；Covers、Sportsgambler 偏 Under 2.5。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "荷蘭對日本是 F 組開幕的硬仗，被市場視為本屆第一輪賠率最接近的強強對決之一。荷蘭被 Opta 列為小組首名熱門（單場勝 49.2%、晉級機率高，ESPN Elo 1868），但傷兵滿營——Xavi Simons 與 Schouten（皆十字韌帶）、de Ligt、Timber 缺陣，Koeman 須倚重 Van Hecke、Van de Ven，且熱身表現平平；惟門將 Verbruggen 已回歸訓練料可先發，為一大利好。日本同樣減員，王牌 Mitoma（腿後肌）與 Minamino（十字韌帶）落選，隊長兼中場引擎 Endo 賽前因傷退隊並退出國家隊，由 Kubo 扛旗、Ueda、Doan、Kamada、Tanaka 撐起攻防。日本帶著連勝氣勢與曾擊敗德國、西班牙、英格蘭的爆冷往績而來。多數模型與博彩偏荷蘭小勝（2-1）或 1-1 和局，比賽預期偏低比分且勢均力敵，主預測取 2-1 荷蘭小勝。",
+    "key_factors": [
+      "球員狀態：荷蘭 Virgil van Dijk 領防、Gakpo 為主要威脅、Gravenberch 與 Reijnders 撐中場，Verbruggen 回歸料先發；日本 Kubo（皇家社會，狀態正佳）接過 Mitoma 重任，Ueda（飛燕諾上季荷甲神射）、Doan、Kamada 提供攻擊火力。",
+      "傷停名單：荷蘭傷兵嚴重——Xavi Simons（ACL）、Schouten（ACL）、de Ligt、Timber 缺陣，Koeman 須以 Van Hecke、Van de Ven 補位；日本失 Mitoma（腿後肌）、Minamino（ACL），隊長兼中場核心 Endo 賽前傷退並退出國家隊，由 Tanaka 補上中場。",
+      "近期狀態/戰績：荷蘭歐洲資格賽全程不敗、攻入 27 球，但近期熱身欠佳（近三場一勝一和一負）；日本為公認黑馬，曾於卡塔爾擊敗德國、西班牙，2026 年 3 月作客溫布利 1-0 勝英格蘭，帶 5-6 連勝氣勢。",
+      "戰術對位：荷蘭 4-3-3 主導控球、由 de Jong/Gravenberch 組織，邊後衛 Dumfries 壓上會留下身後空間；日本 3-4-2-1 高位壓迫、靠 Kubo/Doan 的轉換與快速組合反擊，正欲利用荷蘭身後空檔；荷蘭空中與定位球（Van Dijk）為一大破門途徑。",
+      "主客場/場地：美國德州 Arlington（AT&T Stadium）中立場；日本在美亞裔與球迷動員力強，現場氣氛料偏中性。",
+      "輿論共識：Opta 荷蘭 49.2%／和 24.8%／日本 26.0%（偏 2-1）；Kalshi 荷蘭 2.01／和 3.52／日本 3.52、Polymarket 47.5/27.5/26.5；博彩荷蘭約 2.00-2.05、多盤口偏 Under 2.5、最可能比分 1-1；RotoWire、Sports Interaction 預測荷蘭 2-1/3-2，SI、LiveScore、Sportsgambler 預測 1-1，Sports Mole 預測 2-2，Football Whispers 與 ESPN 評述員選日本爆冷。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "明顯分歧：ESPN 逐場預測與 Football Whispers 選日本爆冷（甚至列日本 F 組首名），認為日本連勝狀態與爆冷強隊的能力被低估，建議讓分博日本；Sports Mole 預測 2-2 平手；不少 YouTuber 與論壇直接押和局或看好日本拿分。荷蘭傷兵嚴重與熱身欠佳，使主勝信心遠低於一般強隊開幕場。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com – 2026 World Cup Netherlands vs Japan match centre",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "KNVB – Netherlands National Team",
+      "url": "https://www.knvb.com/oranje"
+    },
+    {
+      "type": "official",
+      "name": "JFA – Japan Football Association SAMURAI BLUE",
+      "url": "https://www.jfa.jp/eng/samuraiblue/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA – Group F Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/groups"
+    },
+    {
+      "type": "official",
+      "name": "Al Jazeera – Mitoma fails to make Japan World Cup squad",
+      "url": "https://www.aljazeera.com/sports/2026/5/15/mitoma-fails-to-make-japans-2026-world-cup-squad-due-to-hamstring-injury"
+    },
+    {
+      "type": "official",
+      "name": "Al Jazeera – Wataru Endo retires after injury ends World Cup dream",
+      "url": "https://www.aljazeera.com/sports/2026/6/12/japans-wataru-endo-retires-after-injury-ends-world-cup-2026-dream"
+    },
+    {
+      "type": "official",
+      "name": "Olympics.com – Japan lose Wataru Endo before World Cup",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-japan-wataru-endo-o"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Netherlands vs Japan preview & lineups",
+      "url": "https://www.si.com/soccer/netherlands-vs-japan-world-cup-preview-predictions-lineups-6-14-26"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Netherlands vs Japan injury, suspension, XIs",
+      "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-japan-injury-suspension-list-predicted-xis_599066.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Will Tanaka step up in Endo's absence, predicted Japan XI",
+      "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/will-tanaka-step-up-in-endos-absence-predicted-japan-lineup-vs-netherlands_599063.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Netherlands vs Japan preview (We say 2-2)",
+      "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-japan-prediction-team-news-lineups_599059.html"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes – Netherlands vs Japan preview & tips",
+      "url": "https://www.ladbrokes.com/en/news/netherlands-japan-world-cup-preview-predictions-tips-2026-06-12/"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC – Netherlands vs Japan predictions Group F",
+      "url": "https://www.juvefc.com/netherlands-v-japan-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard – Netherlands XI vs Japan confirmed team news",
+      "url": "https://www.standard.co.uk/sport/football/netherlands-xi-vs-japan-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1285954.html"
+    },
+    {
+      "type": "media",
+      "name": "The Real EFL – Netherlands vs Japan prediction & tips",
+      "url": "https://therealefl.co.uk/2026/06/09/netherlands-vs-japan-prediction-odds-lineups-betting-tips-14-06-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "DutchNews – Injury-hit Dutch hopeful of World Cup surprise",
+      "url": "https://www.dutchnews.nl/2026/06/injury-hit-dutch-still-hopeful-of-springing-a-world-cup-surprise/"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – World Cup Day 4: Netherlands take on Japan",
+      "url": "https://www.aljazeera.com/sports/2026/6/14/fifa-world-cup-2026-schedule-netherlands-japan-prediction-germany-curacao-schedule"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports – Kubo vows to lead Japan with Mitoma out",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/takefusa-kubo-vows-to-lead-japan-at-fifa-world-cup-with-kaoru-mitoma-out-11502849"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Frenkie de Jong on Barcelona and World Cup",
+      "url": "https://www.theguardian.com/football/2026/may/02/frenkie-de-jong-barcelona-interview-world-cup-netherlands"
+    },
+    {
+      "type": "media",
+      "name": "Chosun – Koeman targets Japan, Dutch ambitions",
+      "url": "https://www.chosun.com/english/sports-en/2026/05/20/HYXZIUSASNHL3IDUNBMU63BAM4/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler – Netherlands vs Japan prediction & tips",
+      "url": "https://www.sportsgambler.com/betting-tips/football/netherlands-vs-japan-prediction-lineups-odds-2026-06-14/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Netherlands vs Japan preview & predicted lineups (2-1)",
+      "url": "https://www.rotowire.com/soccer/article/netherlands-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-117958"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – World Cup predictions Group F game-by-game",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – World Cup 2026 fixtures & schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – Netherlands vs Japan betting tip",
+      "url": "https://www.futbol24.com/betting-tips/preview/14-06-2026-netherlands-japan-betting-tip/"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore – World Cup 2026 Group F predictions Game 1 (1-1)",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-group-f-predictions-game-1-fixtures/"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – World Cup 2026 Group F guide",
+      "url": "https://www.bbc.com/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Netherlands vs Japan preview",
+      "url": "https://www.skysports.com/football/news/12040/13301240/world-cup-2026-netherlands-japan-preview"
+    },
+    {
+      "type": "media",
+      "name": "GOAL – Wataru Endo withdraws from Japan squad & retires",
+      "url": "https://www.goal.com/en-sa/lists/wataru-endo-withdraws-from-japan-world-cup-squad-retires-from-international-injury-liverpool-star-emotional-statement/blt11c70032812fb6c7"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic – Netherlands World Cup 2026 squad",
+      "url": "https://www.nytimes.com/athletic/football/netherlands/"
+    },
+    {
+      "type": "media",
+      "name": "Japan Times – Samurai Blue World Cup 2026 preview",
+      "url": "https://www.japantimes.co.jp/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "Kyodo News – Japan World Cup squad analysis",
+      "url": "https://english.kyodonews.net/"
+    },
+    {
+      "type": "media",
+      "name": "De Telegraaf – Oranje WK 2026 voorbeschouwing",
+      "url": "https://www.telegraaf.nl/sport/voetbal"
+    },
+    {
+      "type": "media",
+      "name": "Voetbal International – Nederland vs Japan WK preview",
+      "url": "https://www.vi.nl/"
+    },
+    {
+      "type": "media",
+      "name": "AD.nl – Oranje blessures voor WK opener",
+      "url": "https://www.ad.nl/voetbal"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – Inside Japan's World Cup roster 2026 (Nagatomo history)",
+      "url": "https://www.sportingnews.com/us/soccer/news/japan-world-cup-roster-2026-squad-players/8ce197c27b9423f597abc454"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports – Japan predicted lineup and team news vs Netherlands",
+      "url": "https://sports.yahoo.com/articles/japan-predicted-lineup-team-news-055500440.html"
+    },
+    {
+      "type": "media",
+      "name": "FWCTimes – Netherlands vs Japan lineups, starting 11, formation",
+      "url": "https://fwctimes.com/netherlands-vs-japan-lineups/"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com – Niederlande vs Japan lineup tracker",
+      "url": "https://www.bundesliga.com/de/weltmeisterschaft/spieltag/2026-2027/1/niederlande-vs-japan/lineup"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com – Netherlands vs Japan liveticker",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/netherlands-vs-japan/liveticker"
+    },
+    {
+      "type": "media",
+      "name": "Rebanse – World Cup 2026 Group F preview (ESPN Elo ratings)",
+      "url": "https://www.rebanse.ph/2026-fifa-world-cup-group-f-preview-netherlands-and-japan-lead-a-competitive-group/"
+    },
+    {
+      "type": "media",
+      "name": "DAZN – World Cup 2026 fixtures & schedule",
+      "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – June 14 fixtures & odds",
+      "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "GiveMeSport – Netherlands vs Japan prediction",
+      "url": "https://www.givemesport.com/football/world-cup-2026-netherlands-japan/"
+    },
+    {
+      "type": "media",
+      "name": "90min – Netherlands vs Japan preview",
+      "url": "https://www.90min.com/posts/netherlands-japan-world-cup-2026-preview"
+    },
+    {
+      "type": "media",
+      "name": "talkSPORT – Netherlands vs Japan odds & predictions",
+      "url": "https://talksport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Marca – Holanda vs Japón Mundial 2026 previa",
+      "url": "https://www.marca.com/futbol/mundial.html"
+    },
+    {
+      "type": "media",
+      "name": "AS – Mundial 2026 Grupo F previa",
+      "url": "https://as.com/futbol/mundial/"
+    },
+    {
+      "type": "media",
+      "name": "Soccerbase – World Cup results June 14",
+      "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "Football Critic – World Cup matches June 14",
+      "url": "https://www.footballcritic.com/matches?date=2026-6-14"
+    },
+    {
+      "type": "media",
+      "name": "Reuters – Japan World Cup 2026 squad announcement",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "NU.nl – Oranje WK 2026 opener tegen Japan",
+      "url": "https://www.nu.nl/voetbal"
+    },
+    {
+      "type": "media",
+      "name": "Nippon.com – Samurai Blue World Cup preview",
+      "url": "https://www.nippon.com/en/"
+    },
+    {
+      "type": "media",
+      "name": "Sport.es – Países Bajos vs Japón previa Mundial",
+      "url": "https://www.sport.es/es/futbol/"
+    },
+    {
+      "type": "media",
+      "name": "Betting Botswana – Netherlands vs Japan preview & odds",
+      "url": "https://bettingbotswana.com/netherlands-vs-japan-14-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Dang Journal – World Cup Group F preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-f-preview-netherlands-japan-sweden-tunisia/"
+    },
+    {
+      "type": "media",
+      "name": "2026fifa.tw – 荷蘭 vs 日本運彩分析與預測（荷蘭 1-0）",
+      "url": "https://2026fifa.tw/netherlands-vs-japan-2026-world-cup-group-f-2026-6-15-0400/"
+    },
+    {
+      "type": "media",
+      "name": "worldcup26.tw – 荷蘭 vs 日本預測｜2026 世足 F 組首戰",
+      "url": "https://worldcup26.tw/betting-tips/netherlands-vs-japan-2026-world-cup-group-f/"
+    },
+    {
+      "type": "media",
+      "name": "sportzw.com – 2026 世界盃 F 組深度分析（荷蘭日本）",
+      "url": "https://sportzw.com/world-cup-2026-group-f-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "worldcupfifa.com.tw – 2026 世足賽前分析與賽事前瞻",
+      "url": "https://www.worldcupfifa.com.tw/blog/categories/match-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Netherlands vs Japan prediction & preview",
+      "url": "https://theanalyst.com/articles/netherlands-vs-japan-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Group F predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "ESPN Elo – World Cup all groups predictions",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "model",
+      "name": "OddsGPT – Netherlands vs Japan AI forecast (Poisson)",
+      "url": "https://www.oddsgpt.com/predictions/football/1489376/Netherlands-vs-Japan/en"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister – Netherlands vs Japan AI model (43/27/30)",
+      "url": "https://footballmeister.com/world-cup-2026/netherlands-japan-2026-06-14/"
+    },
+    {
+      "type": "model",
+      "name": "Goaloverflow – Netherlands vs Japan model stats",
+      "url": "https://www.goaloverflow.com/matches/world-cup-2026/11-netherlands-vs-japan"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 groups overview",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Who will win 2026 World Cup",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Betting Botswana – model 81% Netherlands win",
+      "url": "https://bettingbotswana.com/netherlands-vs-japan-14-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – pre-tournament projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup Group F preview tactical",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-f-preview-netherlands-japan-sweden-tunisia-tactics-lineups-109290"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler – Netherlands vs Japan odds (Under 2.5, 1-1)",
+      "url": "https://www.sportsgambler.com/betting-tips/football/netherlands-vs-japan-prediction-lineups-odds-2026-06-14/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers – Netherlands vs Japan picks & odds (NED -103, Under 2.5)",
+      "url": "https://www.covers.com/world-cup/netherlands-vs-japan-prediction-picks-odds-sunday-6-14-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction – Netherlands +105 favourites, 3-2 score",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/netherlands-vs-japan-odds-prediction-061426-217145"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 – Netherlands vs Japan odds comparison",
+      "url": "https://www.futbol24.com/betting-tips/preview/14-06-2026-netherlands-japan-betting-tip/"
+    },
+    {
+      "type": "betting",
+      "name": "GoonersGuide – Japan +0.5 Asian handicap pick",
+      "url": "https://www.goonersguide.com/football-pick-59490-Netherlands-vs-Japan.htm"
+    },
+    {
+      "type": "betting",
+      "name": "bet365 – Netherlands vs Japan match odds",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill – Netherlands vs Japan World Cup odds",
+      "url": "https://sports.williamhill.com/betting/en-gb/football"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair – Netherlands vs Japan exchange odds",
+      "url": "https://www.betfair.com/sport/football"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle – Netherlands vs Japan sharp odds",
+      "url": "https://www.pinnacle.com/en/soccer/matchups/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM – Netherlands vs Japan markets",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "betting",
+      "name": "OddsChecker – World Cup Group F odds",
+      "url": "https://www.oddschecker.com/us/insight/soccer/world-cup-group-f-odds-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Paddy Power – Netherlands vs Japan best bets",
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/13/netherlands-v-japan-tips-best-bets-world-cup-june-14/"
+    },
+    {
+      "type": "betting",
+      "name": "Mozzart – Netherlands win best price 2.05",
+      "url": "https://www.mozzartbet.com/"
+    },
+    {
+      "type": "betting",
+      "name": "Easybet – Netherlands vs Japan correct score",
+      "url": "https://www.easybet.co.za/"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi – Netherlands vs Japan game market (2.01/3.52/3.52)",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun14nedjpn"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi – Netherlands World Cup futures & game markets",
+      "url": "https://kalshi.com/teams/soccer-team/netherlands"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi – Japan World Cup futures",
+      "url": "https://kalshi.com/teams/soccer-team/japan"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket – Netherlands vs Japan outcome (47.5/27.5/26.5)",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-nld-jpn-2026-06-14"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Outside opinions on Netherlands players",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u2h2sd/outside_opinions_on_the_netherlands_players_or_as/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/JLeague – World Cup group discussion",
+      "url": "https://www.reddit.com/r/JLeague/comments/1pf3xqm/world_cup_group/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Official World Cup predictions thread",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football – World Cup predictions megathread",
+      "url": "https://www.reddit.com/r/football/comments/1u274zt/world_cup_predictions_megathread/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – FIFA World Cup 2026 group draws",
+      "url": "https://www.reddit.com/r/soccer/comments/1pf3rf5/fifa_world_cup_2026_group_draws/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/LiverpoolFC – World Cup 2026 watch thread MD1",
+      "url": "https://www.reddit.com/r/LiverpoolFC/comments/1u2yeei/2026_fifa_world_cup_watch_thread_md1_part_1/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/NetherlandsWorldCup – Oranje schedule & squad",
+      "url": "https://www.reddit.com/r/NetherlandsWorldCup/comments/1rcm5cc/telegraaf_world_cup_2026_schedule_all_matches_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Redlib r/worldcup – Netherlands rating thread",
+      "url": "https://reddit.justtardis.com/r/worldcup/new"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – Japan World Cup 2026 thread",
+      "url": "https://www.bigsoccer.com/forums/japan.108/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – Netherlands World Cup 2026 thread",
+      "url": "https://www.bigsoccer.com/forums/netherlands.94/"
+    },
+    {
+      "type": "kol",
+      "name": "Football Whispers analyst – Japan to win 1-2 pick",
+      "url": "https://footballwhispers.com/blog/netherlands-vs-japan-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "kol",
+      "name": "Ladbrokes tipster – draw with BTTS, Gakpo & Kubo",
+      "url": "https://www.ladbrokes.com/en/news/netherlands-japan-world-cup-preview-predictions-tips-2026-06-12/"
+    },
+    {
+      "type": "kol",
+      "name": "Juve FC analyst – Netherlands win @ 11/10",
+      "url": "https://www.juvefc.com/netherlands-v-japan-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "SI pundit – Netherlands 1-1 Japan call",
+      "url": "https://www.si.com/soccer/netherlands-vs-japan-world-cup-preview-predictions-lineups-6-14-26"
+    },
+    {
+      "type": "kol",
+      "name": "ESPN pundit – Japan 2-1 Netherlands upset pick",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "kol",
+      "name": "GoonersGuide tipster – market bias toward Dutch",
+      "url": "https://www.goonersguide.com/football-pick-59490-Netherlands-vs-Japan.htm"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire analyst – narrow Dutch win 2-1",
+      "url": "https://www.rotowire.com/soccer/article/netherlands-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-117958"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – AI Predicts Netherlands vs Japan (narrow Dutch win)",
+      "url": "https://www.youtube.com/watch?v=XjkbEqZCREo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Netherlands vs Japan Pressing Trap Preview",
+      "url": "https://www.youtube.com/watch?v=TSj_NIFV2j4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Netherlands 43% vs Japan model leaned upset",
+      "url": "https://www.youtube.com/watch?v=6jK3KvpmkvE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 World Cup Netherlands vs Japan Preview",
+      "url": "https://www.youtube.com/watch?v=QG50yHBfvcc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – World Cup Group F preview who advances",
+      "url": "https://www.youtube.com/watch?v=TMmvsGFSUGw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Netherlands vs Japan prediction Group F search",
+      "url": "https://www.youtube.com/results?search_query=netherlands+vs+japan+world+cup+2026+prediction"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – @OptaJoe Netherlands 49.2% sim",
+      "url": "https://twitter.com/OptaJoe"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – @OnsOranje World Cup opener post",
+      "url": "https://twitter.com/OnsOranje"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – @jfa_samuraiblue World Cup feed",
+      "url": "https://twitter.com/jfa_samuraiblue"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – World Cup 2026 Group F preview",
+      "url": "https://www.instagram.com/fifaworldcup/"
+    }
+  ],
+  "source_count": 116,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力優於日本，進攻端更具威脅。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力佔優，日本反擊具威脅，預計荷蘭小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力占優，日本防守穩健但難阻對手，預測橙軍小勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.526,
+      "draw": 0.254,
+      "away": 0.22
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T091522Z"
+}

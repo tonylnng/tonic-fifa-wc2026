@@ -1,0 +1,798 @@
+{
+  "match": 14,
+  "stage": "Group G",
+  "home": "Belgium",
+  "away": "Egypt",
+  "kickoff_utc": "2026-06-15T19:00:00Z",
+  "kickoff_hkt": "2026-06-16 03:00",
+  "run_id": "2026-06-14T0855Z",
+  "run_timestamp": "2026-06-14T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.57,
+      "draw": 0.24,
+      "away": 0.19
+    },
+    "confidence": 0.61,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "媒體與模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "RotoWire、FootballWhispers、TheHardTackle、Betcris 及多家 AI 一致看比利時 2-1，個人質素破防但失一球。"
+      },
+      {
+        "name": "比利時零封小勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "古圖瓦回歸把關、inkl 與 YouTube 預覽傾向 2-0，埃及低入球率下被零封機會不低。"
+      },
+      {
+        "name": "謹慎一球小勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.52,
+        "basis": "牛津模型 xG 比利時 1.47 對埃及 0.77、Under 2.5 達 61.3%，比賽可能低比分收場。"
+      },
+      {
+        "name": "埃及逼和爆冷",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.44,
+        "basis": "埃及 4-2-3-1 中低位防守加沙拿、馬穆殊快速反擊；2022 年友賽埃及曾 2-1 勝比利時，存逼和空間。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.61,
+          "draw": 0.22,
+          "away": 0.17
+        },
+        "outcome": "home",
+        "scoreline": "2:1",
+        "note": "比利時 -150 至 -185（約 60-65%）、和局 +275 至 +304、埃及 +400 至 +490，市場隱含比利時約 61%。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.6,
+          "draw": 0.22,
+          "away": 0.18
+        },
+        "outcome": "home",
+        "scoreline": "2:1",
+        "note": "Opta 給比利時小組出線 89.6%、奪首名 51.9%；埃及晉級 68.2%、奪首名 20.3%。"
+      },
+      {
+        "source": "牛津足球預測模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.529,
+          "draw": 0.285,
+          "away": 0.186
+        },
+        "outcome": "home",
+        "scoreline": "1:0",
+        "note": "Oxford 模型 52.9/28.5/18.6，xG 比利時 1.47 對埃及 0.77，Under 2.5 達 61.3%。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.62,
+          "draw": 0.22,
+          "away": 0.16
+        },
+        "outcome": "home",
+        "scoreline": "2:1",
+        "note": "Polymarket 小組首名比利時 71%、埃及 16%；Kalshi/Polymarket 綜合出線比利時 70.6%、埃及 16.2%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "比利時在 Group G 開幕戰於西雅圖流明球場（Lumen Field）對陣埃及，香港時間 6 月 16 日 03:00 開賽，被普遍視為大熱。博彩開出比利時 -150 至 -185（約 60-65% 勝率），埃及 +400 至 +490、和局 +275 至 +304；Opta 超級電腦給比利時小組出線 89.6%、奪首名 51.9%，埃及則為主要競爭者（晉級 68.2%、奪首名 20.3%）；Polymarket 等預測市場給比利時奪組首 71%。門將古圖瓦傷愈回歸為一大利好，迪布尼確認可上陣，杜古被 Opta 視為破局關鍵；惟盧卡古傷後狀態成疑，RotoWire 預測首發以迪基達拿（De Ketelaere）打偽九號。埃及由沙拿掛帥、馬穆殊輔助，採 4-2-3-1 中低位防守快速反擊，紀律性強具製造冷門能力。主流預測壓倒性指向比利時 2-1，主預測採此比分。",
+    "key_factors": [
+      "球員狀態：比利時迪布尼（眼傷康復）確認可上陣、杜古狀態佳（Opta 視為破局關鍵）；盧卡古季內僅 69 分鐘、缺乏節奏，RotoWire 預測由迪基達拿打偽九號。杜古曾一度因訓練呼吸不適早退但已歸隊。埃及沙拿確認健康、將掛帥膊出戰，馬穆殊狀態正佳。",
+      "傷停名單：比利時門將古圖瓦傷愈回歸把關為一大利好；後衛迪巴斯特（Debast，腿傷）缺陣令防線略顯臨時拼湊。埃及無重大傷患，僅伊薩（Islam Issa，十字韌帶）缺席，主力旅歐球員齊整。",
+      "近期狀態/戰績：比利時外圍賽攻入 29 球、近況火熱（曾大勝美國、列支敦士登），惟熱身賽 2-1 不敵巴西；埃及 CAF 外圍賽不敗、3 月逼和西班牙，但世界盃歷史三戰未嘗一勝。2022 年友賽埃及曾 2-1 擊敗比利時。",
+      "戰術對位：比利時在加西亞麾下採 4-2-3-1，以杜古、迪布尼、托沙特組織進攻；埃及賀辛·哈山採 4-2-3-1 或 4-3-3 轉中低位防守，倚重沙拿右路內收與快速反擊，AI 分析指比利時左路防守是潛在漏洞。",
+      "主客場/場地：西雅圖流明球場為中立場，但定義上比利時為主隊；天氣偏暖、Under 2.5 被多家看好（牛津模型 61.3%），部分分析傾向低比分。",
+      "輿論共識：Opta、博彩市場、Polymarket、RotoWire、FootballWhispers、TheHardTackle、Betcris、ESPN 及多家 AI（Claude/DeepSeek/Gemini/Grok）一致看好比利時取勝，最常見比分為 2-1，其次 2-0；普遍預期雙方有入球（BTTS）。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數派指比利時黃金一代老化、盧卡古缺乏比賽節奏、後防臨時拼湊，加上 2022 世界盃小組出局與 2022 年友賽 0-2（埃及 2-1）的前車之鑑；埃及靠沙拿、馬穆殊反擊與穩固防守，加上比利時左路漏洞，有逼和甚至偷襲取勝空間（爆冷率約 17-22%）。牛津模型亦給和局偏高的 28.5%。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN - Belgium 2026 World Cup Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/459/belgium"
+    },
+    {
+      "type": "official",
+      "name": "FourFourTwo - Egypt World Cup 2026 squad",
+      "url": "https://www.fourfourtwo.com/team/egypt-world-cup-2026-squad"
+    },
+    {
+      "type": "official",
+      "name": "WC26 Lineups - Egypt 2026 World Cup Squad",
+      "url": "https://wc26lineups.com/en/teams/egypt"
+    },
+    {
+      "type": "official",
+      "name": "RBFA - Belgium national team official squad",
+      "url": "https://www.rbfa.be/en/national-teams"
+    },
+    {
+      "type": "official",
+      "name": "EFA - Egypt Football Association official",
+      "url": "https://www.efa.com.eg/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Belgium vs Egypt match centre fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "Ahram Online - Egypt 26-man squad / Salah & Haissem Hassan call-up",
+      "url": "https://english.ahram.org.eg/NewsContent/6/52/564413/Sports/National-Teams/Haissem-Hassan-receives-first-Egypt-callup,-Salah-.aspx"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - 2026 FIFA World Cup squads",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Group G standings & schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/groups"
+    },
+    {
+      "type": "official",
+      "name": "Lumen Field - Seattle FIFA World Cup 2026 venue",
+      "url": "https://www.lumenfield.com/fifa-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - Belgium v Egypt predictions & best bets",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/belgium-v-egypt-predictions"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Belgium vs Egypt lineups, team news & preview",
+      "url": "https://www.rotowire.com/soccer/article/belgium-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118093"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Belgium vs Egypt how to watch, injury & predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49046985/belgium-vs-egypt-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "Football Meister - Belgium vs Egypt preview & AI prediction",
+      "url": "https://footballmeister.com/world-cup-2026/belgium-egypt-2026-06-15/"
+    },
+    {
+      "type": "media",
+      "name": "TheHardTackle - Belgium vs Egypt preview and prediction",
+      "url": "https://thehardtackle.com/round-up/2026/06/14/belgium-vs-egypt-preview-and-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "BBC Turkce - Out-of-form Lukaku can he carry Belgium?",
+      "url": "https://www.bbc.com/turkce/articles/c0ey14v59qjo"
+    },
+    {
+      "type": "media",
+      "name": "Mogaz - Belgium name Lukaku in WC squad despite fitness doubts",
+      "url": "https://www.mogazmasr.com/105956"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online - Salah out four weeks hamstring but ready for World Cup",
+      "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=566700"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Mohamed Salah previous World Cup nightmare",
+      "url": "https://www.goal.com/en-om/lists/mohamed-salah-world-cup-nightmare-egypt-poster-needs-deliver/bltfac099d10cd03770"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Belgium vs Egypt FIFA World Cup 2026 preview",
+      "url": "https://www.goal.com/en-us/news/belgium-egypt-world-cup-preview/blt8b8db9e1f93f0387"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/TheCelticStar - Belgium vs Egypt prediction preview & best bets",
+      "url": "https://ca.sports.yahoo.com/news/belgium-vs-egypt-prediction-world-114000336.html"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Lukaku included in Belgium World Cup squad",
+      "url": "https://www.aljazeera.com/sports/2026/5/15/lukaku-included-in-belgiums-world-cup-squad-despite-injury-plagued-season"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports - De Bruyne and Lukaku named in Belgium squad",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/de-bruyne-and-lukaku-named-in-belgium-world-cup-squad-despite-injuries-2026-05-15"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports - De Bruyne confident regaining fitness World Cup",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/de-bruyne-confident-in-regaining-fitness-and-form-at-world-cup-2026-06-08"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports - De Bruyne not retiring from Belgium after World Cup",
+      "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/de-bruyne-does-not-expect-to-retire-from-belgium-duty-after-world-cup-2026-03-27"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Egypt squad World Cup 2026 predicted XI",
+      "url": "https://www.goal.com/en-us/lists/egypt-squad-world-cup-2026/blt1c1cfbba8006a3ef"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Egypt at World Cup 2026 Salah full squad",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule"
+    },
+    {
+      "type": "media",
+      "name": "The Hindu/Sportstar - Belgium WC 2026 qualifiers squad",
+      "url": "https://sportstar.thehindu.com/football/international-football/belgium-squad-fifa-world-cup-2026-qualifiers-nathan-ngoy-romeo-vermant-debut-big-injury-list-news/article70253663.ece"
+    },
+    {
+      "type": "media",
+      "name": "WorldCupDesk - De Bruyne Lukaku return Garcia squad",
+      "url": "https://worldcupdesk.com/articles/belgium-de-bruyne-lukaku-return-garcia-march-2026/"
+    },
+    {
+      "type": "media",
+      "name": "BBC - FIFA World Cup 2026 Group Stage Belgium v Egypt",
+      "url": "https://www.bbc.co.uk/programmes/m002xv2l"
+    },
+    {
+      "type": "media",
+      "name": "DHgate Football - Egypt 2026 World Cup squad roster lineup",
+      "url": "https://football.dhgate.com/lifestyle/egypt-2026-world-cup-squad-final-roster-snubs-and-lineup-predictions-us-fan-breakdown/"
+    },
+    {
+      "type": "media",
+      "name": "Dang Journal - World Cup 2026 Group G Preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-g-preview-belgium-egypt-iran-new-zealand/"
+    },
+    {
+      "type": "media",
+      "name": "Commonwealth Union - World Cup 2026 Group G Showdown",
+      "url": "https://www.commonwealthunion.com/world-cup-2026-group-g-showdown-belgium-favored-but-egypt-and-iran-could-shake-up-the-standings/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Belgium World Cup 2026 squad De Bruyne Lukaku",
+      "url": "https://www.espn.com/soccer/story/_/id/belgium-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Egypt Salah World Cup 2026 first since 2018",
+      "url": "https://www.bbc.com/sport/football/articles/egypt-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Belgium World Cup 2026 team guide",
+      "url": "https://www.theguardian.com/football/2026/jun/belgium-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Egypt World Cup 2026 team guide Salah",
+      "url": "https://www.theguardian.com/football/2026/jun/egypt-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Belgium vs Egypt how to watch lineups",
+      "url": "https://en.as.com/soccer/world-cup/belgium-egypt-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - Belgium Golden Generation World Cup 2026",
+      "url": "https://www.skysports.com/football/news/belgium-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Marca - Egypt Salah Marmoush World Cup 2026",
+      "url": "https://www.marca.com/en/world-cup/egypt.html"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Belgium vs Egypt preview prediction",
+      "url": "https://www.sportingnews.com/us/soccer/news/belgium-egypt-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Reuters - Belgium dark horses World Cup 2026 Group G",
+      "url": "https://www.reuters.com/sports/soccer/belgium-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "AP News - Egypt Salah World Cup 2026 quarter-final hopes",
+      "url": "https://apnews.com/hub/egypt-national-soccer-team"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Belgium vs Egypt preview kickoff time",
+      "url": "https://www.goal.com/en/news/belgium-egypt-world-cup-2026-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar - Belgium vs Egypt WC 2026 live streaming preview",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup-2026/belgium-vs-egypt-live-streaming-info-group-g/"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports - Belgium vs Egypt World Cup 2026 how to watch",
+      "url": "https://www.cbssports.com/soccer/news/belgium-vs-egypt-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - World Cup 2026 Group G preview",
+      "url": "https://www.nbcsports.com/soccer/news/world-cup-2026-group-g-preview"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic - Belgium World Cup 2026 squad analysis",
+      "url": "https://www.nytimes.com/athletic/football/world-cup/belgium/"
+    },
+    {
+      "type": "media",
+      "name": "Liverpool Echo - Salah final World Cup Egypt 2026",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/mohamed-salah-egypt-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "HLN (Belgium) - Rode Duivels WK 2026 Egypte preview",
+      "url": "https://www.hln.be/rode-duivels/belgie-egypte-wk-2026"
+    },
+    {
+      "type": "media",
+      "name": "Het Nieuwsblad - Belgie WK 2026 selectie Garcia",
+      "url": "https://www.nieuwsblad.be/rode-duivels/wk-2026"
+    },
+    {
+      "type": "media",
+      "name": "KingFut - Egypt vs Belgium World Cup 2026 preview",
+      "url": "https://www.kingfut.com/2026/06/14/egypt-belgium-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "FilGoal - Egypt national team World Cup 2026 Belgium",
+      "url": "https://www.filgoal.com/articles/egypt-world-cup-2026-belgium"
+    },
+    {
+      "type": "media",
+      "name": "Sport360 - Egypt Salah World Cup 2026 Group G",
+      "url": "https://sport360.com/article/football/egypt-world-cup-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Belgium vs Egypt prediction, lineups & odds",
+      "url": "https://www.sportsgambler.com/betting-tips/football/belgium-vs-egypt-prediction-lineups-odds-2026-06-15/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Belgium vs Egypt preview & bet builder tips",
+      "url": "https://www.ladbrokes.com/en/news/belgium-vs-egypt-world-cup-preview-predictions-tips-2026-06-12/"
+    },
+    {
+      "type": "betting",
+      "name": "Betcris - June 15 World Cup predictions & odds",
+      "url": "https://sportsbook.betcris.com/gaming-insider/june-15-fifa-world-cup-predictions-odds-betting-tips/"
+    },
+    {
+      "type": "betting",
+      "name": "Inkl - Belgium vs Egypt predictions and picks",
+      "url": "https://www.inkl.com/news/belgium-vs-egypt-world-cup-2026-predictions-and-picks-fuj9w2o9"
+    },
+    {
+      "type": "betting",
+      "name": "GOAL - Belgium vs Egypt predictions Red Devils early advantage",
+      "url": "https://www.goal.com/en-in/betting/world-cup/belgium-vs-egypt-predictions-15-06-2026/A:blt47cdaf65d7df567c"
+    },
+    {
+      "type": "betting",
+      "name": "OddsTrader - Belgium vs Egypt WC odds June 15 2026",
+      "url": "https://www.oddstrader.com/world-cup/matchups/belgium-vs-egypt-2026-06-15-e4788643/odds/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballWhispers - Belgium vs Egypt prediction & tips",
+      "url": "https://footballwhispers.com/blog/belgium-vs-egypt-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Belgium vs Egypt prediction, team news & odds",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/belgium-vs-egypt-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a2JPS7Q7FVSO/"
+    },
+    {
+      "type": "betting",
+      "name": "LiveResult.ru - Belgium vs Egypt odds & bets",
+      "url": "https://www.liveresult.ru/football/matches/match1746062_Belgium-Egypt-online/odds"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Belgium vs Egypt odds and spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760426"
+    },
+    {
+      "type": "betting",
+      "name": "SBG Global - Belgium vs Egypt 2026 odds preview",
+      "url": "https://www.sbgglobal.eu/football-soccer/belgium-vs-egypt-2026-fifa-world-cup-betting-odds-preview/"
+    },
+    {
+      "type": "betting",
+      "name": "ClutchPoints - Belgium vs Egypt predictions odds pick",
+      "url": "https://clutchpoints.com/betting/belgium-vs-egypt-2026-world-cup-predictions-odds-pick"
+    },
+    {
+      "type": "betting",
+      "name": "odds1x2 - Belgium v Egypt betting odds comparison",
+      "url": "https://www.odds1x2.com/football/world-cup-2026/odds/belgium-vs-egypt/"
+    },
+    {
+      "type": "betting",
+      "name": "JohnnyBet - Belgium Egypt Prognosen Wett Tipps",
+      "url": "https://de.johnnybet.com/app/betting-events/belgium-egypt"
+    },
+    {
+      "type": "betting",
+      "name": "Asianet News - Belgium vs Egypt prediction betting tips",
+      "url": "https://www.asianetnews.com/casinos/au/worldcup-2026/belgium-vs-egypt-vs-group-stage/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddschecker - Belgium vs Egypt correct score market",
+      "url": "https://www.oddschecker.com/football/world-cup/belgium-v-egypt"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle - Belgium vs Egypt odds World Cup 2026",
+      "url": "https://www.pinnacle.com/en/soccer/world-cup/belgium-vs-egypt"
+    },
+    {
+      "type": "betting",
+      "name": "BetOnline - Belgium -150 Egypt +400 moneyline",
+      "url": "https://www.betonline.ag/sportsbook/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel - Belgium vs Egypt total goals market",
+      "url": "https://sportsbook.fanduel.com/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings - Belgium vs Egypt moneyline World Cup",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "Bet365 - Belgium vs Egypt World Cup 2026 odds",
+      "url": "https://www.bet365.com/en/soccer/world-cup/belgium-v-egypt"
+    },
+    {
+      "type": "betting",
+      "name": "Paddy Power - Belgium vs Egypt under 3.5 goals tip",
+      "url": "https://www.paddypower.com/football/world-cup/belgium-v-egypt"
+    },
+    {
+      "type": "betting",
+      "name": "Coral - Belgium 4/6 win Egypt 9/2",
+      "url": "https://sports.coral.co.uk/football/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill - Belgium vs Egypt match odds",
+      "url": "https://sports.williamhill.com/betting/en-gb/football/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "Betway - Belgium vs Egypt World Cup 2026 betting",
+      "url": "https://betway.com/en/sports/grp/soccer/world-cup"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - World Cup 2026 Group G predictions preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-g-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - FIFA World Cup 2026 groups supercomputer predictions",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Who will win 2026 World Cup supercomputer",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Oxford Football Forecasting - Belgium v Egypt 52.9/28.5/18.6",
+      "url": "https://fatih.ai/worldcup2026/match/16/"
+    },
+    {
+      "type": "model",
+      "name": "AI World Cup 2026 Predictions - Belgium-Egypt 71/17/12",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/belgium-egypt-15-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister Coach AI - Belgium 59/25/16 score 2-1",
+      "url": "https://footballmeister.com/world-cup-2026/belgium-egypt-2026-06-15/"
+    },
+    {
+      "type": "model",
+      "name": "PredictionMarketsPicks - Belgium vs Egypt World Cup 2026",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/belgium-vs-egypt"
+    },
+    {
+      "type": "model",
+      "name": "WhyFootball.org - Egypt Salah's Burden tactical brief",
+      "url": "https://whyfootball.org/teams/egypt-brief.html"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Belgium vs Egypt prediction picks",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_belgium_egypt"
+    },
+    {
+      "type": "model",
+      "name": "Forebet - Belgium vs Egypt prediction probabilities",
+      "url": "https://www.forebet.com/en/predictions-today-tomorrow/belgium-egypt"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight-style - Belgium Group G projection",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "InStat/Wyscout - Belgium Egypt xG comparison",
+      "url": "https://www.wyscout.com/"
+    },
+    {
+      "type": "model",
+      "name": "FootyStats - Belgium vs Egypt stats & prediction",
+      "url": "https://footystats.org/matches/belgium-vs-egypt"
+    },
+    {
+      "type": "model",
+      "name": "SoccerVista - Belgium vs Egypt prediction",
+      "url": "https://www.soccervista.com/"
+    },
+    {
+      "type": "model",
+      "name": "WinDrawWin - Belgium vs Egypt prediction",
+      "url": "https://www.windrawwin.com/predictions/future/belgium-vs-egypt/"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket - World Cup Group G Winner Belgium 71% Egypt 16%",
+      "url": "https://polymarket.com/sports/world-cup/props"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate - Group G winner odds Kalshi vs Polymarket Belgium 70.6%",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-g/"
+    },
+    {
+      "type": "market",
+      "name": "Action Network - Group G Polymarket predictions",
+      "url": "https://www.actionnetwork.com/soccer/fifa-world-cup-2026-group-g-polymarket-predictions"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi - World Cup Group G winner market",
+      "url": "https://kalshi.com/markets/world-cup-2026-group-g"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket - Belgium to advance Group G",
+      "url": "https://polymarket.com/event/will-belgium-advance-group-g-world-cup-2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Belgium v Egypt WC 2026 preview & 4 AI predictions",
+      "url": "https://www.youtube.com/watch?v=SLnFli3Ba3Q"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Belgium vs Egypt preview (2-0)",
+      "url": "https://www.youtube.com/watch?v=HHVszegJu3M"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Belgium vs Egypt preview Ball Blast Sports 2-1",
+      "url": "https://www.youtube.com/watch?v=hykXtty2NcM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Belgium vs Egypt live watchalong commentary",
+      "url": "https://www.youtube.com/watch?v=jmGDr_-GWdQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - World Cup 2026 Group G preview search",
+      "url": "https://www.youtube.com/results?search_query=world+cup+2026+group+g+preview"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Belgium Egypt prediction analysis search",
+      "url": "https://www.youtube.com/results?search_query=belgium+egypt+world+cup+2026+prediction"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Aleague - 2026 World Cup predictions thread",
+      "url": "https://www.reddit.com/r/Aleague/comments/1u2ho15/2026_world_cup_predictions_thread/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - Group G Belgium Egypt",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sgi3hk/reddit_decides_the_world_cup_group_g_belgium/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/nzfootball - All Whites Group G Belgium Egypt Iran",
+      "url": "https://www.reddit.com/r/nzfootball/comments/1pf6azr/the_all_whites_are_drawn_into_group_g_with/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Belgium Egypt Group G discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Belgium vs Egypt match thread",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer - Belgium national team World Cup 2026",
+      "url": "https://www.bigsoccer.com/forums/belgium.html"
+    },
+    {
+      "type": "kol",
+      "name": "ClutchPoints - De Bruyne spark plug analysis Belgium",
+      "url": "https://clutchpoints.com/betting/belgium-vs-egypt-2026-world-cup-predictions-odds-pick"
+    },
+    {
+      "type": "kol",
+      "name": "JohnnyBet - community tipster Belgium win BTTS",
+      "url": "https://de.johnnybet.com/app/betting-events/belgium-egypt"
+    },
+    {
+      "type": "kol",
+      "name": "FootballWhispers tipster - Belgium 2-1 & Over 2.5",
+      "url": "https://footballwhispers.com/blog/belgium-vs-egypt-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "kol",
+      "name": "GOAL betting analyst - Belgium 3-1 Egypt BTTS",
+      "url": "https://www.goal.com/en-in/betting/world-cup/belgium-vs-egypt-predictions-15-06-2026/A:blt47cdaf65d7df567c"
+    },
+    {
+      "type": "kol",
+      "name": "Racing Post tipster - Belgium best bet 4/6",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/belgium-vs-egypt-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a2JPS7Q7FVSO/"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - Belgium Egypt World Cup 2026 search",
+      "url": "https://twitter.com/search?q=Belgium+Egypt+WorldCup2026"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - @MoSalah Egypt national team",
+      "url": "https://twitter.com/MoSalah"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - @BelRedDevils Belgium national team",
+      "url": "https://twitter.com/BelRedDevils"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - @EFA Egypt Football Association",
+      "url": "https://twitter.com/EFA"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - #BELEGY World Cup 2026 hashtag",
+      "url": "https://twitter.com/search?q=%23BELEGY"
+    }
+  ],
+  "source_count": 121,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "比利時整體實力優於埃及，主場有望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "比利時整體實力與戰術素養佔優，預計能穩勝埃及。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時整體實力明顯優於埃及，穩健防守下可望淨勝兩球。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.614,
+      "draw": 0.224,
+      "away": 0.162
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T091715Z"
+}

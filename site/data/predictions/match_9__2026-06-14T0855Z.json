@@ -1,0 +1,878 @@
+{
+  "match": 9,
+  "stage": "Group E",
+  "home": "Germany",
+  "away": "Curacao",
+  "kickoff_utc": "2026-06-14T17:00:00Z",
+  "kickoff_hkt": "2026-06-15 01:00",
+  "run_id": "2026-06-14T0855Z",
+  "run_timestamp": "2026-06-14T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "scoreline": "4:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.93,
+      "draw": 0.05,
+      "away": 0.02
+    },
+    "confidence": 0.89,
+    "top_scorelines": [
+      {
+        "scoreline": "4:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "5:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "4:0",
+        "outcome": "home",
+        "confidence": 0.89,
+        "basis": "Opta 超級電腦 90.7% 德國勝、ESPN 與多家媒體預測落在 4-0 至 5-0 大勝。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.85,
+        "basis": "主流博彩讓球 -3.5、大小盤 4.5，隱含德國淨勝 3-4 球的最可能比分。"
+      },
+      {
+        "name": "進攻火力全開",
+        "scoreline": "5:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "德國熱身五戰全勝進 18 球、九連勝，若早段破門恐大比數狂勝（LiveScore、90min 看 5-0）。"
+      },
+      {
+        "name": "保守低比分",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "庫拉索 78 歲教頭阿德沃卡特或改打 5 後衛深蹲，德國實驗陣容開局或慢熱，破門時間恐較晚。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.91,
+          "draw": 0.06,
+          "away": 0.03
+        },
+        "outcome": "home",
+        "scoreline": "4:0",
+        "note": "Opta 1 萬次模擬德國勝 90.7%、和 5.7%、庫拉索勝 3.6%。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.96,
+          "draw": 0.03,
+          "away": 0.01
+        },
+        "outcome": "home",
+        "scoreline": "4:0",
+        "note": "CBS 顯示德國 -2000（約 95%）、讓球 -3.5（-115）、大小盤 4.5；Sportsgambler 列德國 -3333（約 97%）、庫拉索 +4000。"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.94,
+          "draw": 0.04,
+          "away": 0.02
+        },
+        "outcome": "home",
+        "scoreline": "4:0",
+        "note": "Kalshi 即時交易德國勝約 94%、和 5%、庫拉索 3%（成交量逾 670 萬美元）；正確比分熱門 3-0(15%)、4-0(14%)、2-0(11%)。"
+      },
+      {
+        "source": "Football Meister Coach AI / 282 名預測者",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.93,
+          "draw": 0.05,
+          "away": 0.02
+        },
+        "outcome": "home",
+        "scoreline": "4:0",
+        "note": "Coach AI 德國勝 93%、和 5%、庫拉索 2%；282 名社群預測者 94% 押德國勝，最熱比分 4-0。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "德國對庫拉索是本屆世界盃小組賽實力最懸殊的對局之一。開賽前夕的記者會上，納格斯曼已敲定多個搖擺位置：39 歲門將 Neuer 小腿傷癒確定先發、Eintracht 的 Nathaniel Brown 出任左閘（壓過 Raum）、傷後復出的 Musiala 鎮守 10 號位，全隊 26 人均健康可用。德國熱身五戰全勝轟入 18 球、目前九連勝，納帥主打全攻型 4-2-3-1，Wirtz、Musiala、Sané、Havertz 火力充沛。庫拉索是史上人口最少的世界盃參賽國，由 78 歲名帥阿德沃卡特帶領首征，賽前熱身近五戰僅一勝（曾 1-4 不敵蘇格蘭），整體競技水平與德國差距懸殊。Opta 超級電腦給德國 90.7% 勝率，博彩隱含約 95-97%，Kalshi 約 94%，多數模型與媒體預測 3-0 至 5-0 大勝，主預測取 4-0。",
+    "key_factors": [
+      "球員狀態：德國前場 Florian Wirtz（左路）、Jamal Musiala（10 號位，傷後復出獲納帥力挺先發）、Leroy Sané（右路）、Kai Havertz（中鋒）構成最具創造力進攻群；Kimmich 改打右閘並統籌，Neuer 傷癒坐鎮。庫拉索靠 Tahith Chong、Jürgen Locadia（對蘇格蘭領紅後解禁）與 Bacuna 兄弟尋找零星機會。",
+      "傷停名單：德國全隊 26 人健康，Neuer 小腿傷確定可出戰、無停賽；Lennart Karl 賽前退出由 Assan Ouédraogo 替補入隊。庫拉索無重大傷停，但整體實力與德國差距懸殊。",
+      "近期狀態/戰績：德國熱身五戰全勝進 18 球、九連勝且效率極高；庫拉索近五場熱身僅一勝（3 敗 1 和、僅進 3 球），曾 1-4 慘敗蘇格蘭，對頂級強隊缺乏對抗實證。",
+      "戰術對位：德國以 Nmecha-Pavlovic 雙後腰解放 Wirtz、Musiala 自由活動，預期 70% 以上控球並高位壓迫；庫拉索預計 4-3-3 或臨場改 5-3-2 深蹲防守，靠反擊與個人突破博機會。",
+      "主客場/場地：美國休士頓 NRG Stadium 中立場（容量約 7.2 萬），當地週日中午 12 時開賽（炎熱時段），主裁為摩洛哥籍 Jalal Jayed；德國僑民球迷預期到場助威。",
+      "輿論共識：Opta 90.7% 德國勝（看好 4-0）、博彩德國 -2000 至 -3333（讓 -3.5、大盤 4.5）、Kalshi 約 94%、Football Meister Coach AI 93% 且 282 名預測者 94% 押德國、SI/CBS/GOAL 預測 4-0，LiveScore 與 90min 看 5-0，一致看好德國大勝且零封。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數派觀點：部分 Reddit r/soccer 與 YouTube 評論員（如 ISB）認為德國大賽開幕場有慢熱前科，庫拉索前 45-60 分鐘深蹲難以攻破，理論上仍有博得意外進球甚至迫和的微小機會；個別模型（如 ChatGPT 估 83%、和 12%）對德國勝率給出較保守數字，並對 39 歲 Neuer 復出狀態與納帥起用傷癒的 Musiala 存有疑慮。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com – 2026 World Cup Match Centre Germany vs Curacao",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "DFB.de – Germany National Team World Cup",
+      "url": "https://www.dfb.de/en/national-teams/the-team/"
+    },
+    {
+      "type": "official",
+      "name": "FFK Curacao Football Federation",
+      "url": "https://www.ffk.cw/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA – Group E Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/groups"
+    },
+    {
+      "type": "official",
+      "name": "BBC Sport – Curacao name debut 26-man World Cup squad",
+      "url": "https://www.bbc.com/sport/football/articles/c70798249j0o"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Manuel Neuer fit to start for Germany vs Curacao (Nagelsmann)",
+      "url": "https://www.espn.com/soccer/story/_/id/49055167/manuel-neuer-fit-start-germany-curacao-nagelsmann"
+    },
+    {
+      "type": "official",
+      "name": "Sportschau.de – Neuer, Brown und Musiala mit Start-Garantie gegen Curacao",
+      "url": "https://www.sportschau.de/fussball/fifa-wm-2026/neuer-brown-und-musiala-mit-start-garantie-gegen-curacao,wm-dfb-team-aufstellung-curacao-100.html"
+    },
+    {
+      "type": "official",
+      "name": "Sportschau.de – WM-Liveblog: Nagelsmann bestätigt Brown in der Startelf",
+      "url": "https://www.sportschau.de/fussball/fifa-wm-2026/nagelsmann-bestaetigt-brown-steht-in-der-startelf,wm-liveblog-dfb-team-100.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Germany vs Curacao TV channel, predicted lineups",
+      "url": "https://www.espn.com/soccer/story/_/id/49035928/germany-vs-curacao-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN UK – Germany vs Curacao how to watch, predicted line-ups",
+      "url": "https://www.espn.co.uk/football/story/_/id/49035928/germany-vs-curacao-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Germany vs Curacao Preview, Predictions and Lineups",
+      "url": "https://www.si.com/soccer/germany-vs-curacao-world-cup-preview-predictions-lineups-6-14-26"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Germany Predicted Lineup vs Curacao Group E",
+      "url": "https://www.si.com/soccer/germany-predicted-lineup-vs-curacao-world-cup-6-14-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Germany vs Curacao Lineups & Preview",
+      "url": "https://www.rotowire.com/soccer/article/germany-vs-curacao-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-117956"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard – Germany XI vs Curacao confirmed team news",
+      "url": "https://www.standard.co.uk/sport/football/germany-xi-vs-curacao-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1285951.html"
+    },
+    {
+      "type": "media",
+      "name": "Standard – Germany vs Curacao Prediction",
+      "url": "https://www.standard.co.uk/sport/football/germany-vs-curacao-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1285707.html"
+    },
+    {
+      "type": "media",
+      "name": "The Sporting News – Germany vs Curacao prediction, lineups, odds",
+      "url": "https://www.sportingnews.com/uk/football/news/germany-vs-curacao-world-cup-prediction-lineup-odds-bet-builder/786bfe2829f5342e19092e37"
+    },
+    {
+      "type": "media",
+      "name": "The Sporting News – Where to watch Germany vs Curacao live stream",
+      "url": "https://www.sportingnews.com/us/soccer/news/watch-germany-vs-curacao-live-stream-channel-time-world-cup/85a6d085914196bae2bee102"
+    },
+    {
+      "type": "media",
+      "name": "GOAL – Germany vs Curacao predictions",
+      "url": "https://www.goal.com/en-za/betting/world-cup/germany-vs-curacao-predictions-14-06-2026/A:blt3250bbc90f9ea70b"
+    },
+    {
+      "type": "media",
+      "name": "GOAL – Germany vs Curacao where to watch & probable lineups",
+      "url": "https://www.goal.com/en/news/live-stream-online-tv-where-to-watch-germany-v-curacao/bltd599bb63ddfe6470"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com UK – Germany vs Curacao live stream & lineups",
+      "url": "https://www.goal.com/en-gb/news/live-stream-online-tv-where-to-watch-germany-v-curacao/bltbecc0a17f8a2b74b"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers – Germany vs Curacao prediction & preview",
+      "url": "https://footballwhispers.com/blog/germany-vs-curacao-prediction-cup-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes – Germany vs Curacao Preview & bet builder",
+      "url": "https://www.ladbrokes.com/en/news/germany-curacao-world-cup-preview-predictions-tips-2026-06-12/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Germany vs Curacao Preview",
+      "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-curacao-prediction-team-news-lineups_599044.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Germany vs Curacao injury, suspension list, predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/team-news/germany-vs-curacao-injury-suspension-list-predicted-xis_599045.html"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post – Germany vs Curacao Prediction",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/germany-vs-curacao-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aCceV7d7CMtv/"
+    },
+    {
+      "type": "media",
+      "name": "Juvefc – Germany vs Curacao Prediction",
+      "url": "https://www.juvefc.com/germany-v-curacao-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports – World Cup Group E Preview",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-group-e-preview-teams-schedule-top-players-and-prediction-11601864"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Opta Germany World Cup chances after injury",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-germany-2026-world-cup-chances-injury-blow"
+    },
+    {
+      "type": "media",
+      "name": "Footboom1 – Germany vs Curacao Preview",
+      "url": "https://www.footboom1.com/en/news/football/1763233551-germany-curacao-match-preview-and-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Paddy Power News – Germany v Curacao Best Bets",
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/13/germany-v-curacao-tips-best-bets-sunday-world-cup-june-14/"
+    },
+    {
+      "type": "media",
+      "name": "Dang Journal – World Cup Group E Preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-e-preview-germany-curacao-cote-divoire-ecuador/"
+    },
+    {
+      "type": "media",
+      "name": "BettingTop10 NZ – World Cup Odds June 14",
+      "url": "https://www.bettingtop10.co.nz/betting-tips/football/world-cup-2026-odds-june-14/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life – June 14 Fixtures & Odds",
+      "url": "https://www.sportinglife.com/football/fixtures-results/2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Meet Curacao, smallest country at a World Cup",
+      "url": "https://www.aljazeera.com/sports/2026/5/12/what-to-know-about-curacao-at-the-fifa-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – How the smallest World Cup nation recruited its team",
+      "url": "https://www.foxsports.com/stories/soccer/curacao-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sports-King – Germany vs Curacao Betting Preview",
+      "url": "https://www.sports-king.com/contests/germany-vs-curacao-betting-preview-14-june-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Germany vs Curacao odds, prediction, time, picks",
+      "url": "https://www.cbssports.com/soccer/news/germany-curacao-odds-prediction-time-2026-world-cup-picks-best-bets/"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore – All Day 4 World Cup 2026 Predictions June 14",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/all-day-4-world-cup-2026-predictions-14th-june/"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore – Germany vs Curacao predictions: minnows face crushing defeat",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/germany-vs-curacao-predictions-caribbean-minnows-face-a-crushing-defeat/"
+    },
+    {
+      "type": "media",
+      "name": "Ground News – World Cup Match Day 4 Germany Curacao preview",
+      "url": "https://ground.news/article/world-cup-match-day-4-germany-curacao-netherlands-japan-make-a-sunday-funday"
+    },
+    {
+      "type": "media",
+      "name": "Kickoff Calendar – Germany vs Curacao squads & info",
+      "url": "https://kickoff.guide/matches/germany-vs-curacao-2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "DAZN – World Cup 2026 Fixtures",
+      "url": "https://www.dazn.com/en-GB/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z"
+    },
+    {
+      "type": "media",
+      "name": "Soccerbase – World Cup Results June 14",
+      "url": "https://www.soccerbase.com/matches/results.sd?date=2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "Football Critic – World Cup Matches June 14",
+      "url": "https://www.footballcritic.com/matches?date=2026-6-14"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – World Cup 2026 fixtures & schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Germany vs Curacao Live Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760422"
+    },
+    {
+      "type": "media",
+      "name": "Reuters Connect – FIFA World Cup June 14",
+      "url": "https://www.reutersconnect.com/collection/fifa-world-cup-matches-14th-june"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – Germany vs Curacao Live Score & lineups",
+      "url": "https://www.futbol24.com/match/2026/06/14/international/FIFA/World-Cup/2026/Group-E/Germany/vs/Curacao"
+    },
+    {
+      "type": "media",
+      "name": "365Scores – Germany vs Curacao Live, Lineups, H2H & Odds",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/curacao-germany-2372-24397-5930"
+    },
+    {
+      "type": "media",
+      "name": "Thethao247 – Supercomputer Germany vs Curacao",
+      "url": "https://thethao247.vn/world-cup/461-sieu-may-tinh-chi-thang-ket-qua-duc-vs-curacao-xe-tang-de-bep-doi-thu-d423737.html"
+    },
+    {
+      "type": "media",
+      "name": "IT-Boltwise – KI-Prognose Deutschland gegen Curacao",
+      "url": "https://www.it-boltwise.de/ki-prognose-zur-wm-2026-deutschland-startet-gegen-curacao-klar-wie-opta-und-chatgpt-rechnen.html"
+    },
+    {
+      "type": "media",
+      "name": "Tagesschau – Nagelsmann beendet Diskussion um Musiala (Startelf)",
+      "url": "https://www.tagesschau.de/sport/nagelsmann-beendet-diskussion-um-sorgenkind-musiala,wm-jamal-musiala-100.html"
+    },
+    {
+      "type": "media",
+      "name": "Frankfurter Rundschau – Deutschland-Aufstellung gegen Curacao bestätigt",
+      "url": "https://www.fr.de/sport/fussball/entscheidung-gefallen-deutschland-aufstellung-gegen-curacao-neuer-zr-94349137.html"
+    },
+    {
+      "type": "media",
+      "name": "AS Colombia – Alineaciones Alemania vs Curazao Mundial 2026",
+      "url": "https://colombia.as.com/resultados/futbol/mundial/2026/directo/grupos_e_1_6908832c421e482/alineaciones/amp/"
+    },
+    {
+      "type": "media",
+      "name": "Gazeta Sporturilor – LIVE Germania - Curacao echipe probabile",
+      "url": "https://www.gsp.ro/international/campionatul-mondial-de-fotbal-2026/live-germania-curacao-grupa-e-campionatul-mondial-948238.html"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta dello Sport – Probabili formazioni Germania-Curacao",
+      "url": "https://www.gazzetta.it/calcio/mondiali/Probabili-Formazioni/germania-cura%C3%A7ao/2608249"
+    },
+    {
+      "type": "media",
+      "name": "San Francisco Chronicle (AP) – Neuer fit to start vs Curacao",
+      "url": "https://www.sfchronicle.com/sports/article/nagelsmann-goalkeeper-manuel-neuer-fit-to-start-22304428.php"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – World Cup 2026 Group E preview",
+      "url": "https://www.skysports.com/football/news/12040/13301234/world-cup-2026-group-e-germany-curacao-preview"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – World Cup 2026 Group E guide",
+      "url": "https://www.bbc.com/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic – Germany World Cup 2026 squad analysis",
+      "url": "https://www.nytimes.com/athletic/football/germany/"
+    },
+    {
+      "type": "media",
+      "name": "Bild – Deutschland gegen Curacao WM 2026",
+      "url": "https://www.bild.de/sport/fussball/"
+    },
+    {
+      "type": "media",
+      "name": "Kicker – DFB-Team WM 2026 Auftakt",
+      "url": "https://www.kicker.de/nationalmannschaft/startseite"
+    },
+    {
+      "type": "media",
+      "name": "Marca – Alemania vs Curazao Mundial 2026",
+      "url": "https://www.marca.com/futbol/mundial.html"
+    },
+    {
+      "type": "media",
+      "name": "AS – Mundial 2026 Grupo E previa",
+      "url": "https://as.com/futbol/mundial/"
+    },
+    {
+      "type": "media",
+      "name": "Footballmeister – Germany vs Curacao AI prediction",
+      "url": "https://footballmeister.com/world-cup-2026/germany-cura%C3%A7ao-2026-06-14/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – World Cup Group E full guide",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-e-germany-ecuador"
+    },
+    {
+      "type": "media",
+      "name": "Deadspin – Germany v Curacao predictions, picks & props",
+      "url": "https://deadspin.com/prediction-markets/trending/germany-v-curacao-predictions-picks-props/"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online – World Cup June 14 match info",
+      "url": "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Haiti-vs.-Scotland/638.aspx?Championship_YearID=18"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – Germany vs Curacao betting tip",
+      "url": "https://www.futbol24.com/betting-tips/preview/14-06-2026-germany-curacao-betting-tip/"
+    },
+    {
+      "type": "media",
+      "name": "GiveMeSport – Germany vs Curacao prediction",
+      "url": "https://www.givemesport.com/football/world-cup-2026-germany-curacao/"
+    },
+    {
+      "type": "media",
+      "name": "90min – Germany vs Curacao preview",
+      "url": "https://www.90min.com/posts/germany-curacao-world-cup-2026-preview"
+    },
+    {
+      "type": "media",
+      "name": "Goal – World Cup 2026 Group E preview",
+      "url": "https://www.goal.com/en/lists/world-cup-2026-group-e-preview/"
+    },
+    {
+      "type": "media",
+      "name": "talkSPORT – Germany vs Curacao odds & predictions",
+      "url": "https://talksport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Vietnam TT&VH – World Cup June 14 Results",
+      "url": "https://thethaovanhoa.vn/ket-qua-bong-da-world-cup-2026-hom-nay-ngay-14-6-20260613211501512.htm"
+    },
+    {
+      "type": "media",
+      "name": "Injuries and Suspensions – FIFA World Cup 2026 Germany vs Curacao",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-4/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Germany vs Curacao prediction & preview",
+      "url": "https://theanalyst.com/articles/germany-vs-curacao-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Group E Predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-e-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "ESPN Elo – World Cup all groups predictions",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 groups overview",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Who will win 2026 World Cup",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Sports Illustrated – Opta World Cup winner predictions",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup Group E preview tactical",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-e-preview-germany-curacao-ivory-coast-ecuador-tactics-lineups-set-pieces-odds-109286"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – World Cup best bets Sunday June 14",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-best-bets-today-8-picks-for-sunday-june-14-118085"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister – Germany vs Curacao Coach AI prediction",
+      "url": "https://footballmeister.com/world-cup-2026/germany-cura%C3%A7ao-2026-06-14/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – pre-tournament World Cup projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "model",
+      "name": "livetipsportal – Germany vs Curacao AI prediction",
+      "url": "https://www.livetipsportal.com/en/sportsbetting-tips/germany-vs-curacao-wc-10713815/"
+    },
+    {
+      "type": "model",
+      "name": "OddsGPT – Germany vs Curacao AI forecast",
+      "url": "https://www.oddsgpt.com/predictions/football/germany-vs-curacao/en"
+    },
+    {
+      "type": "model",
+      "name": "Goaloverflow – Germany vs Curacao model preview",
+      "url": "https://www.goaloverflow.com/matches/world-cup-2026/9-germany-vs-curacao"
+    },
+    {
+      "type": "model",
+      "name": "90min.de – KI-Prognose Deutschland vs Curacao (Opta/ChatGPT)",
+      "url": "https://www.90min.de/ki-prognose-zu-deutschland-vs-curacao-14-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambler – Germany vs Curacao odds & tips",
+      "url": "https://www.sportsgambler.com/betting-tips/football/germany-vs-curacao-prediction-lineups-odds-2026-06-14/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers – Germany vs Curacao picks & odds",
+      "url": "https://www.covers.com/world-cup/germany-vs-curacao-prediction-picks-odds-sunday-6-14-2026"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN – Germany vs Curacao odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760422"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction – Germany vs Curacao odds",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/germany-vs-curacao-odds-061426-217139"
+    },
+    {
+      "type": "betting",
+      "name": "Fox Sports – Germany vs Curacao odds",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-germany-vs-curacao-jun-14-2026-game-boxscore-647624"
+    },
+    {
+      "type": "betting",
+      "name": "OddsChecker – World Cup Group E odds & predictions",
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260609-2026-fifa-world-cup-group-e-odds-predictions-analysis-for-germany-group"
+    },
+    {
+      "type": "betting",
+      "name": "Doc Sports – World Cup Group E odds & predictions",
+      "url": "https://www.docsports.com/2026/world-cup-soccer-group-e-odds-expert-betting-predictions.html"
+    },
+    {
+      "type": "betting",
+      "name": "bet365 – Germany vs Curacao match odds",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill – Germany vs Curacao World Cup odds",
+      "url": "https://sports.williamhill.com/betting/en-gb/football"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair – Germany vs Curacao exchange odds",
+      "url": "https://www.betfair.com/sport/football"
+    },
+    {
+      "type": "betting",
+      "name": "SpreadEx – Germany vs Curacao spread markets",
+      "url": "https://www.spreadex.com/sports/en-GB/spread-betting/football"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle – Germany vs Curacao sharp odds",
+      "url": "https://www.pinnacle.com/en/soccer/matchups/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM – Germany vs Curacao same game parlay",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi – Germany vs Curacao game market",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun14gercuw"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi – Germany World Cup futures & game markets",
+      "url": "https://kalshi.com/teams/soccer-team/germany"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi – Curacao World Cup futures & predictions",
+      "url": "https://kalshi.com/teams/soccer-team/curacao"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket – Curacao vs Germany odds & predictions",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-ger-kor-2026-06-14"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket – Germany vs Curacao outcome",
+      "url": "https://polymarket.com/event/germany-vs-curacao-world-cup"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – World Cup 2026 Preview: Germany (17/48)",
+      "url": "https://www.reddit.com/r/soccer/comments/1u5f844/world_cup_2026_preview_germany_a_team_in/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – World Cup 2026 Preview: Curacao (18/48)",
+      "url": "https://www.reddit.com/r/soccer/comments/1u5foaf/world_cup_2026_preview_cura%C3%A7ao_the_ultimate/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football – Germany not impressive but will surprise",
+      "url": "https://www.reddit.com/r/football/comments/1u22deg/germany_arent_that_impressive_but_i_genuinely/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – FIFA World Cup 2026 group draws",
+      "url": "https://www.reddit.com/r/soccer/comments/1pf3rf5/fifa_world_cup_2026_group_draws/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/LiverpoolFC – World Cup 2026 watch thread MD1",
+      "url": "https://www.reddit.com/r/LiverpoolFC/comments/1u2yeei/2026_fifa_world_cup_watch_thread_md1_part_1/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football – World Cup predictions megathread",
+      "url": "https://www.reddit.com/r/football/comments/1u274zt/world_cup_predictions_megathread/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Curacao name debut World Cup squad",
+      "url": "https://www.reddit.com/r/worldcup/comments/1th6hzr/2026_world_cup_smallest_nation_curacao_name_debut/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Official World Cup predictions thread",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tut1oq/official_world_cup_predictions_thread/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – Match Thread Germany vs Finland friendly",
+      "url": "https://www.reddit.com/r/soccer/comments/1tt3j1y/match_thread_germany_vs_finnland_international/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – Match Thread Curacao vs Bermuda",
+      "url": "https://www.reddit.com/r/soccer/comments/1nd06fy/match_thread_curacao_vs_bermuda/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – Germany World Cup 2026 thread",
+      "url": "https://www.bigsoccer.com/forums/germany.92/"
+    },
+    {
+      "type": "kol",
+      "name": "Racing Post tipster – Germany vs Curacao 4-0/5-0 advice",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/germany-vs-curacao-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aCceV7d7CMtv/"
+    },
+    {
+      "type": "kol",
+      "name": "Paddy Power tipster – Germany v Curacao best bets",
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/13/germany-v-curacao-tips-best-bets-sunday-world-cup-june-14/"
+    },
+    {
+      "type": "kol",
+      "name": "GOAL analyst – Havertz & Musiala to score",
+      "url": "https://www.goal.com/en-za/betting/world-cup/germany-vs-curacao-predictions-14-06-2026/A:blt3250bbc90f9ea70b"
+    },
+    {
+      "type": "kol",
+      "name": "Football Whispers analyst – Germany -3 handicap pick",
+      "url": "https://footballwhispers.com/blog/germany-vs-curacao-prediction-cup-world-cup-2026/"
+    },
+    {
+      "type": "kol",
+      "name": "LiveScore tipster (Elliott Bretland) – Germany over 4.5 goals, 5-0",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/all-day-4-world-cup-2026-predictions-14th-june/"
+    },
+    {
+      "type": "kol",
+      "name": "LiveScore tipster (Daniel Childs) – Germany -3.5, 4-0",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/germany-vs-curacao-predictions-caribbean-minnows-face-a-crushing-defeat/"
+    },
+    {
+      "type": "kol",
+      "name": "CBS Sports (Chuck Booth/Green) – lean Over 4.5 goals",
+      "url": "https://www.cbssports.com/soccer/news/germany-curacao-odds-prediction-time-2026-world-cup-picks-best-bets/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao Predictions World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=2NyUHxLz2zs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao Preview Ball Blast Sports",
+      "url": "https://www.youtube.com/watch?v=F5SnPPHPpbU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao Prediction Group E Picks",
+      "url": "https://www.youtube.com/watch?v=CbSaF2217Xk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – World Cup Group E Preview Who Advances",
+      "url": "https://www.youtube.com/watch?v=TMmvsGFSUGw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 World Cup Germany vs Curacao Preview",
+      "url": "https://www.youtube.com/watch?v=etT1DM5cTvg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany Ecuador Ivory Coast Curacao Group E ISB",
+      "url": "https://www.youtube.com/watch?v=D1UbGxeRaG0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Curacao 'Bacuna Matata' Preview",
+      "url": "https://www.youtube.com/watch?v=J3Mc4PUz9ZI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – FC 26 World Cup Germany vs Curacao simulation",
+      "url": "https://www.youtube.com/watch?v=McbKINQJpNc"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – World Cup 2026 Group E preview Germany Curacao",
+      "url": "https://www.instagram.com/p/DYrr5XWlZsl/"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – @OptaJoe Germany 90.7% win sim",
+      "url": "https://twitter.com/OptaJoe"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – DFB_Team World Cup opener post",
+      "url": "https://twitter.com/DFB_Team"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – Kalshi World Cup markets feed",
+      "url": "https://twitter.com/Kalshi"
+    }
+  ],
+  "source_count": 137,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "3:0",
+      "note": "德國實力懸殊，主場應能輕取庫拉索。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "4:0",
+      "note": "德國實力懸殊，迎戰庫拉索將輕鬆取得大勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.96,
+        "draw": 0.03,
+        "away": 0.01
+      },
+      "scoreline": "4:0",
+      "note": "德國實力遠超庫拉索，預計輕鬆大勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "4:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.932,
+      "draw": 0.05,
+      "away": 0.018
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-14T091449Z"
+}
