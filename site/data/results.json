@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-14T05:49:11Z",
+  "last_updated": "2026-06-15T22:07:33Z",
   "results": [
     {
       "match": 1,
@@ -170,6 +170,34 @@
       "recorded_at": "2026-06-15T09:10:00Z",
       "source": "https://www.espn.com/soccer/report/_/gameId/760424",
       "scoreline": "5:1"
+    },
+    {
+      "match": 13,
+      "stage": "Group H",
+      "home": "Spain",
+      "away": "Cape Verde",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "outcome": "draw",
+      "recorded_at": "2026-06-15T18:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760424",
+      "scoreline": "0:0"
+    },
+    {
+      "match": 14,
+      "stage": "Group F",
+      "home": "Belgium",
+      "away": "Egypt",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "outcome": "away",
+      "recorded_at": "2026-06-15T21:00:00Z",
+      "source": "https://www.365scores.com/football/match/belgium-egypt",
+      "scoreline": "0:1"
     }
   ]
 }

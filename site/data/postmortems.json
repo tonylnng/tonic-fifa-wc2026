@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-15T09:08:19Z",
+  "last_updated": "2026-06-15T22:09:36Z",
   "postmortems": [
     {
       "match": 5,
@@ -195,6 +195,56 @@
       ],
       "vs_benchmarks": "本站 Opus 與 Opta、Dimers、Kalshi/Polymarket、博彩盤口在此役幾乎完全同調（皆 1:0 主勝、under 2.5），因此在『勝負方向』上與基準線同步命中、在『比分與大小球』上與基準線同步失準——沒有任何一條公開基準線預見 5:1。本站未因此落後於對照基準，但也未能展現超越共識的洞察。",
       "generated_at": "2026-06-15T09:08:19Z"
+    },
+    {
+      "match": 13,
+      "home": "Spain",
+      "away": "Cape Verde",
+      "stage": "Group H",
+      "predicted": "3:0",
+      "predicted_outcome": "home",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-15T2209Z",
+      "model": "claude-opus-4.8",
+      "headline": "西班牙爆冷0:0被維德角逼和，AI全數預測失準",
+      "review": "西班牙被評為小組賽強烈主場奪勝熱門，七家 AI 模型一致預測西班牙大勝（共識 3:0）。然而維德角防守嚴密、佔據低位防線，西班牙前場創造力不足，無法破門，最終0:0平局震驚全場。這是本屆世界盃最大冷門之一。",
+      "lessons": [
+        "非洲球隊防守能力往往被低估，尤其對抗頂級對手時展現超水準",
+        "AI 和博彩盤口對技術主場球隊過度自信",
+        "多模型共識一致時反而需警惕「羊群效應」偏差",
+        "維德角上屆非洲盃表現出色，情報收集應更重視非洲球隊近況"
+      ],
+      "vs_benchmarks": "所有7家 AI 與博彩基準線均預測西班牙勝，無任何模型預測平局，本場為集體失準。",
+      "generated_at": "2026-06-15T22:09:36Z"
+    },
+    {
+      "match": 14,
+      "home": "Belgium",
+      "away": "Egypt",
+      "stage": "Group F",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-15T2209Z",
+      "model": "claude-opus-4.8",
+      "headline": "埃及1:0爆冷擊敗比利時，多模型主場預測全軍覆沒",
+      "review": "AI 共識預測比利時以 2:1 主勝，然而埃及展現出色防守反擊，把握單次機會打進制勝一球。比利時黃金一代過渡期青黃不接的問題再度暴露，埃及前鋒薩拉赫領導下的進攻效率遠超預期。",
+      "lessons": [
+        "比利時後黃金時代重建期球隊不應給予過高信心值",
+        "埃及以薩拉赫為核心的進攻反擊質量被系統性低估",
+        "小組首場比賽各隊戰術保守，防守優先，AI 模型慣性偏向進攻型球隊",
+        "「名氣偏差」：知名球隊名氣往往導致勝率被高估 5-10%"
+      ],
+      "vs_benchmarks": "博彩盤口亦預測比利時主勝（博彩隱含機率 home ~0.55），埃及爆冷概率僅 ~0.20，本場為多模型與博彩共同低估的冷門。",
+      "generated_at": "2026-06-15T22:09:36Z"
     }
   ]
 }
