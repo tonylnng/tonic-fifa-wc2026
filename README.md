@@ -55,6 +55,7 @@
 | `update_accuracy.py` `compute_calibration.py` `compute_benchmark_scores.py` `build_postmortems.py` `sync_to_site.py` `push_to_github.py` | 雲端排程每輪呼叫的資料處理腳本 |
 | `fix_fixture_times.py` | 一次性開賽時間校正腳本（以權威 UTC 賽程修正 fixtures） |
 | `CRON_RUNBOOK.md` | 雲端排程每輪執行的完整手冊 |
+| `PREDICTION_METHODOLOGY.md` | 預測方法完整說明：主預測引擎、第三方對照、評分與校準機制 |
 | `automation/排程自動化總覽.md` | 整套自動化邏輯與檔案說明 |
 | `docs/architecture.svg` | 上方的動態架構圖（overview） |
 | `docs/技術圖表.md` | Mermaid 技術圖：應用架構 / 工作流程 / 狀態 / 循序 / ER 圖 / 資料字典 |
@@ -193,6 +194,68 @@ sudo systemctl status certbot.timer                 # 憑證自動續期
 本 repo 的資料處理腳本與 JSON 結構（`update_accuracy.py` / `sync_to_site.py` / `push_to_github.py`）可直接沿用。
 
 完整每輪步驟見 [`CRON_RUNBOOK.md`](CRON_RUNBOOK.md) 與 [`automation/排程自動化總覽.md`](automation/排程自動化總覽.md)。
+
+---
+
+## 預測方法（Prediction Methodology）
+
+> 這一節說明「如何產生一場比賽的 AI 預測」以及「如何評分與對照」的完整邏輯。完整版另見 [`PREDICTION_METHODOLOGY.md`](PREDICTION_METHODOLOGY.md)。
+
+### 一次排程做了什麼
+
+定時任務每 8 小時觸發（小組賽；16 強起每 4 小時），走一條完整管線：
+
+```
+判斷階段 → 找未來 48h 內、尚無結果的即將開賽比賽
+  → 對每場：①Opus 4.8 深度研究預測  ②第三方多模型對照+共識
+    → 收錄新完成比賽結果 + Opus 賽後覆盤
+      → 重算 準確率 / 校準 / 基準線排行
+        → 同步：網站 → Notion → GitHub → 重新發布 pplx.app → 發繁中通知
+```
+
+### ① 主預測引擎：Claude Opus 4.8
+
+本站主預測固定為 **Anthropic Claude Opus 4.8**。每場由獨立研究子代理負責，**證據驅動而非記憶驅動**：
+
+- **來源數分級**（依開賽急迫度）：
+  - 近 36 小時內開賽 → **≥100 處來源**
+  - 其餘 48 小時窗口內 → **≥50 處來源**
+- **來源涵蓋多視角**：官方（FIFA／足協／球隊）、媒體（ESPN／BBC／Goal／The Athletic…）、博彩／模型（盤口、Opta 超級電腦、Elo）、論壇社群（Reddit）、KOL／名嘴、YouTube 賽前分析。
+- **關鍵判斷因素**：球員狀態、傷停名單、近期戰績、戰術對位、主客場／場地、輿論共識。
+- **輸出非單一比分**，而是機率分佈與多角度：主預測比分＋三向勝率（總和=1）＋信心（0–1）、`top_scorelines`（3–5 個最可能比分）、`scenarios`（2–4 個情境）、`benchmarks`（博彩／Opta／市場等公開基準線）、繁中 `reasoning`。
+- **每批次獨立保存**：寫入 `data/predictions/match_{場次}__{run_id}.json`，**永不覆蓋**舊批次，可回溯賽前最後判斷並稽核推理鏈。
+
+> ⚠️ 宣稱「尚未開賽比賽最終比分」的 YouTube／網路「賽後 review」多為 AI 捏造，一律不採信。
+
+### ② 第三方多模型對照 + 綜合共識
+
+主預測寫好後，經 **Vercel AI Gateway** 呼叫三家第三方 AI（`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`）作對照。第三方**只回傳比分＋三向勝率＋一句話 take**，僅作基準（`kind:"ai"`），本站結論永遠是 Opus 4.8。
+
+- 三家 AI 追加到預測檔頂層 `benchmarks[]`；整數機率會 sum-normalize 為總和 1。
+- **綜合共識（consensus）**：勝率採加權平均（**主預測權重 2、每家第三方權重 1**），比分採多數決（平手靠近主預測）。
+
+### 賽後覆盤
+
+比賽完成後寫入 `results.json`，並用 Opus 4.8 生成繁中覆盤（`postmortems.json`）：`verdict` 分 exact（比分全中）／outcome（方向中）／miss（落空），含 headline／review／lessons／vs_benchmarks。
+
+### 評分機制（衡量準不準）
+
+每輪以「該場最新一筆賽前預測」對比實際比分，重算三組指標：
+
+| 指標檔 | 內容 |
+|---|---|
+| `accuracy.json` | 勝負命中率（1X2）、比分命中率（完全相同），並按階段分組 |
+| `calibration.json` | **Brier**（機率均方差，越低越好）、**ECE**（期望校準誤差）、**過度自信**（平均信心 − 平均命中率） |
+| `benchmark_scores.json` | 本站 AI 與所有基準線（博彩／Opta／市場／三家第三方 AI）在相同已完成比賽上的並列排行 |
+
+### 設計原則
+
+1. **權威主預測單一化** — 結論永遠是 Opus 4.8，第三方只作對照。
+2. **證據驅動** — 每場強制蒐集 50–100+ 處即時來源。
+3. **表達不確定性** — 機率分佈、多情境、多基準線，而非單點猜測。
+4. **可稽核、不可竄改歷史** — 每批次獨立保存。
+5. **持續自我評估** — 準確率／校準／基準排行三管齊下 + Opus 賽後覆盤。
+6. **全繁中、香港時間** — 所有使用者面向內容一致。
 
 ---
 

@@ -6,6 +6,18 @@
 
 ---
 
+## [文件] 2026-06-15 新增預測方法說明（HKT 6/15 晚間）
+
+### 新增（Added）
+
+- 新增 [`PREDICTION_METHODOLOGY.md`](PREDICTION_METHODOLOGY.md)：完整預測方法說明，涵蓋主預測引擎（Claude Opus 4.8、來源數分級、關鍵因素、輸出欄位）、第三方多模型對照與共識算法、賽後覆盤、評分與校準機制、設計原則。
+
+### 變更（Changed）
+
+- `README.md` 新增「預測方法（Prediction Methodology）」章節，摘要整條預測與評分邏輯並連結至完整文件；檔案索引表加入 `PREDICTION_METHODOLOGY.md`。
+
+---
+
 ## [資料更新] 2026-06-15T0904Z 預測批次（HKT 6/15 下午）
 
 ### 新增（Added）— 第 13–20 場小組賽預測（8 場，主模型 Claude Opus 4.8）
