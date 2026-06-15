@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-14T05:56:04Z",
+  "last_updated": "2026-06-15T01:18:57Z",
   "postmortems": [
     {
       "match": 5,
@@ -99,6 +99,78 @@
       ],
       "vs_benchmarks": "本場 AI 與 Opta（土耳其 55.3%）、Polymarket、博彩盤口同步看好土耳其，集體被爆冷打臉，無人佔優；反而 AI 自身 dissent 所引述的 TuringStats 看平與「澳洲被低估」觀點，比主流基準線更接近真相。",
       "generated_at": "2026-06-14T05:56:04Z"
+    },
+    {
+      "match": 9,
+      "home": "Germany",
+      "away": "Curacao",
+      "stage": "Group E",
+      "predicted": "4:0",
+      "predicted_outcome": "home",
+      "final": "7:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-14T1655Z",
+      "model": "claude-opus-4.8",
+      "headline": "勝負精準命中，但德國火力遠超預期——7:1 改寫開幕場慢熱劇本",
+      "review": "本站 Opus 4.8 主預測德國 4:0 取勝（信心 0.89、勝率 0.93），勝負方向完全正確，惟比分嚴重低估德國火力。實際德國 7:1 血洗世界盃新軍庫拉索（Nmecha 6'、Schlotterbeck 38'、Havertz 45+5' 與 88' 梅開二度、Musiala 47'、Brown 68'、Undav 78'），庫拉索僅靠 Comenencia 第 21 分鐘扳平一度製造「藍色驚魂」。預測的關鍵判斷（德國熱身全勝、Opta 給 90%+ 勝率、庫拉索實力懸殊）全數應驗，但模型把最可能比分壓在 4:0／3:0，未能預見納格斯曼球隊在下半場連灌的屠殺幅度。",
+      "lessons": [
+        "面對實力懸殊且急於擺脫『開幕場慢熱魔咒』的傳統強隊，主預測比分宜上修一檔（5:0／6:0），top_scorelines 應給大比分更高權重。",
+        "庫拉索第 21 分鐘的扳平顯示新軍開賽階段仍有威脅，但無礙最終淨勝；防線深度差距會在體能下降的下半場被放大。",
+        "信心 0.89 的勝負命中驗證了高把握場次的判斷可靠，但『比分命中』仍是 AI 預測最難的一環。"
+      ],
+      "vs_benchmarks": "三家第三方 AI 與本站共識同樣落在 3:0–4:0（MiniMax 3:0、Qwen 4:0、DeepSeek 3:0），全體一致低估了實際的 7:1，顯示這是一場連博彩盤口與超級電腦都未料到的大勝；本站主預測 4:0 在所有模型中略偏進取，方向正確。",
+      "generated_at": "2026-06-15T01:18:57Z"
+    },
+    {
+      "match": 10,
+      "home": "Netherlands",
+      "away": "Japan",
+      "stage": "Group F",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:2",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-14T1655Z",
+      "model": "claude-opus-4.8",
+      "headline": "鎌田大地補時 88' 扳平——本站標記的『日本爆冷／和局』分歧情境成真",
+      "review": "本站 Opus 4.8 主預測荷蘭 2:1 小勝（信心僅 0.56、勝率主 0.50／和 0.26／客 0.24），勝負與比分皆未命中：實際荷蘭 2-2 被日本逼和。Summerville 第 64 分鐘為荷蘭再度超前，但鎌田大地第 88 分鐘一記折射球扳平，演出本屆最戲劇化的賽事之一。值得肯定的是，這正是本站預測檔 dissent 明確標記的風險——『Racing Post、Sports Mole（2-2）與多名 YouTuber／Reddit 用戶看好日本爆冷或和局，市場資金近日流向日本』；低信心（0.56）與接近的三向勝率也如實反映了這是場硬仗，並非把握十足的主勝。",
+      "lessons": [
+        "當三向勝率接近（主 0.50／和 0.26／客 0.24）且 dissent 指向具體的和局風險時，主預測或可直接採和局或調低主勝比分，以更貼近期望值。",
+        "日本『近 26 場僅 2 負、慣於對強權搶分』的特質在預測中已被點名，未來面對此類韌性球隊應提高和局權重。",
+        "補時失球的隨機性難以預測，但低信心標記已成功傳達不確定性——校準（calibration）層面屬合理表現。"
+      ],
+      "vs_benchmarks": "三家第三方 AI（MiniMax／Qwen／DeepSeek）與本站共識均為荷蘭 2:1，集體看走眼；本站雖同樣主預測 2:1，但以最低的信心 0.56 與最完整的『日本和局』dissent，是所有模型中對爆冷風險揭示最充分者。",
+      "generated_at": "2026-06-15T01:18:57Z"
+    },
+    {
+      "match": 11,
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "stage": "Group E",
+      "predicted": "1:1",
+      "predicted_outcome": "draw",
+      "final": "1:0",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-14T1655Z",
+      "model": "claude-opus-4.8",
+      "headline": "迪亞洛 90' 替補絕殺——勢均力敵的硬仗被一記讀秒進球打破和局預測",
+      "review": "本站 Opus 4.8 主預測 1:1 和局（信心僅 0.42、三向勝率主 0.31／和 0.33／客 0.36），是本批次刻意標示的最難預測場次。實際象牙海岸 1-0 力克厄瓜多爾：替補登場的曼聯球星阿馬德·迪亞洛（Amad Diallo）第 90 分鐘接辛戈助攻破門絕殺，終結厄瓜多爾長達 19 場的不敗紀錄；全場橫樑三度拒絕進球（厄瓜多爾兩次、象牙海岸一次），戲劇性十足。預測準確掌握了『勢均力敵、低比分、和局偏厚』的盤口共識（consensus_lean=draw），唯一沒料到的是讀秒階段的個人能力絕殺——這正是一球小勝與 1:1 和局之間的一線之差。",
+      "lessons": [
+        "三向勝率近乎均等（0.31／0.33／0.36）的『硬仗』，最終常由替補奇兵或定位球／個人能力在尾聲一錘定音，模型對『讀秒絕殺』缺乏預測力。",
+        "和局預測在勝負命中上風險最高：只要任一方尾段進球即落空；可考慮在此類場次同時輸出『1:0 任一方小勝』作為次優情境的更高權重。",
+        "本場低信心 0.42 已誠實反映高度不確定，校準上屬合理；輿論共識（和局／低比分）方向正確，僅輸在最後一擊。"
+      ],
+      "vs_benchmarks": "第三方 AI 出現分歧（MiniMax 2:1、Qwen 1:2、DeepSeek 1:1），本站與 DeepSeek 同採 1:1 共識；沒有任何模型預見象牙海岸 1:0 的讀秒絕殺，反映這確實是一場連博彩與超級電腦都判為『擲銅板』的對決。",
+      "generated_at": "2026-06-15T01:18:57Z"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-14T17:27:09Z",
+  "last_updated": "2026-06-15T01:29:47Z",
   "metrics": {
-    "total_evaluated": 4,
-    "outcome_correct": 1,
-    "outcome_accuracy": 0.25,
+    "total_evaluated": 7,
+    "outcome_correct": 2,
+    "outcome_accuracy": 0.2857,
     "exact_score_correct": 0,
     "exact_score_accuracy": 0.0
   },
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 4,
-      "outcome_correct": 1,
+      "evaluated": 7,
+      "outcome_correct": 2,
       "exact_correct": 0
     }
   },
@@ -68,6 +68,42 @@
       "outcome_correct": false,
       "exact_correct": false,
       "run_id": "2026-06-14T0057Z"
+    },
+    {
+      "match": 9,
+      "home": "Germany",
+      "away": "Curacao",
+      "predicted": "4:0",
+      "predicted_outcome": "home",
+      "final": "7:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-14T1655Z"
+    },
+    {
+      "match": 10,
+      "home": "Netherlands",
+      "away": "Japan",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:2",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-14T1655Z"
+    },
+    {
+      "match": 11,
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "predicted": "1:1",
+      "predicted_outcome": "draw",
+      "final": "1:0",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-14T1655Z"
     }
   ]
 }

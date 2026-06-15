@@ -1,0 +1,474 @@
+{
+  "match": 17,
+  "stage": "Group I",
+  "home": "France",
+  "away": "Senegal",
+  "kickoff_utc": "2026-06-16T19:00:00Z",
+  "kickoff_hkt": "2026-06-17 03:00",
+  "run_id": "2026-06-15T0855Z",
+  "run_timestamp": "2026-06-15T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.62,
+      "draw": 0.22,
+      "away": 0.16
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "Opta 給法國全組第一 60.3%、Dimers 法國勝率 63.5%（最可能比分 1-0），多家預測站點名法國小勝、塞內加爾前場有破門能力，綜合偏 2-1。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "法國讓盤約 1/2 至 5/12（隱含 65-70%），ML 塞內加爾 +650、和局 +370；Polymarket/Kalshi 小組冠軍法國約 68-71%，Dimers 最常見比分為 1-0。"
+      },
+      {
+        "name": "進攻火力（雙方互交白卷）",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "Topend Sports、Sportskeeda 預測 3-1 並 BTTS Yes；Mbappé、Dembélé、Olise 火力深厚，塞內加爾前場 Jackson/Mané/Sarr 具威脅，Over 2.5 盤口接近平盤。"
+      },
+      {
+        "name": "塞內加爾低位反擊偷分",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.42,
+        "basis": "多位 KOL 與 Sporting Life 名嘴看好塞國中場身體對抗與反擊，重演 2002 爆冷氛圍；Wincomparator 給塞國高達 36% 勝率，逼和或偷分有現實路徑。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.67,
+          "draw": 0.18,
+          "away": 0.15
+        },
+        "scoreline": "1:0",
+        "note": "法國 ML 約 -240 至 5/12（隱含約 65-70%）、和局 +370、塞國 +650；多家點名法國 1-0 至 2-1 小勝。"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.635,
+          "draw": 0.222,
+          "away": 0.143
+        },
+        "scoreline": "1:0",
+        "note": "Dimers：法國 63.5%、和局 22.2%、塞國 14.3%，最可能比分法國 1-0（約 12.5%）。"
+      },
+      {
+        "source": "Polymarket / Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.68,
+          "draw": 0.2,
+          "away": 0.13
+        },
+        "scoreline": "1:0",
+        "note": "Polymarket/Kalshi 小組冠軍法國約 68-71%、塞國僅 9-13%，市場明確偏法國。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.63,
+          "draw": 0.22,
+          "away": 0.15
+        },
+        "scoreline": "1:0",
+        "note": "Opta 給法國全組第一 60.3%、晉級 95.3%；塞國晉級 62.0%，單場仍明顯偏法國。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "法國以陣容深度、Mbappé/Dembélé 領銜的進攻火力與 Deschamps 的盃賽經驗成為明顯熱門，模型與博彩一致給其約 63-70% 勝率。塞內加爾具身體對抗與反擊威脅（Jackson、Mané、I. Sarr），有重演 2002 爆冷的可能，但深度與傷情略遜。綜合判斷法國小勝、最可能比分 2-1，雙方均有破門。",
+    "key_factors": [
+      "球員狀態：法國 Mbappé 狀態火熱，Dembélé（金球）、Olise、Doué 構成深厚進攻群；塞國 Jackson、Mané、I. Sarr 前場具速度與身體威脅。",
+      "傷停名單：法國 Saliba 背傷已恢復訓練、可望先發，Rabiot/Koundé/Maignan 小傷無礙，Ekitike（跟腱）與 Chevalier（大腿）缺陣但非主力；塞國 Koulibaly 已康復，但 Ismaïla Sarr、Jakobs 與 Iliman Ndiaye 有體能/出賽疑問。",
+      "近期狀態/戰績：法國 3 月兩場大勝、熱身 3-1 勝北愛；塞國 3 月熱身 xG 達 2.27 與 1.48，前場效率不俗、為 AFCON 衛冕冠軍。",
+      "戰術對位：法國 4-2-3-1/4-3-3 高位控場，塞國預期低位防守＋快速反擊，Mané 內收、Jackson 留高當出球點，轉換是關鍵戰場。",
+      "主客場/場地：中立場 MetLife Stadium（東盧瑟福），法國視為近主場優勢、人才庫更深，五換人＋酷暑下深度為利。",
+      "輿論共識：Opta/Dimers/Wincomparator/PredictsZone 與 Polymarket/Kalshi 一致偏法國；多家媒體（Topend、Sportskeeda、FootballPredictions、WhichBookie）給 2-1 或 3-1 法國小勝、Over 2.5 與 BTTS 接近平盤。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分 KOL（YouTube 名嘴）與 Sporting Life 名嘴看好塞內加爾中場身體與反擊，認為其可重演 2002 爆冷以 1-0 取勝；Wincomparator 模型更給塞國高達 36% 勝率，Dimers 亦點出塞國 +650 具長線價值。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - France vs Senegal Match 17",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "BBC - France v Senegal World Cup 2026 Group Stage",
+      "url": "https://www.bbc.co.uk/programmes/m002xv6t"
+    },
+    {
+      "type": "official",
+      "name": "APS Agence de Presse Sénégalaise - Pape Thiaw mise sur le collectif",
+      "url": "https://aps.sn/mondial-2026-pape-thiaw-mise-sur-le-collectif-pour-faire-briller-le-senegal/"
+    },
+    {
+      "type": "official",
+      "name": "AfricaSoccer - Pape Thiaw ambition and humility",
+      "url": "https://africasoccer.com/pape-thiaw-senegal-world-cup-2026-ambition-message/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - France 2026 World Cup squad: Camavinga, Kolo Muani miss out",
+      "url": "https://www.espn.com/football/story/_/id/48771039/france-2026-world-cup-squad-mbappe-camavinga-kolo-muani-dembele"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Senegal include injured Koulibaly as Bamba Dieng returns",
+      "url": "https://www.espn.com/espn/story/_/id/48834466/senegal-include-injured-kalidou-koulibaly-bamba-dieng-returns-premier-league-heavy-squad"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - France vs Senegal: TV channel, how to watch, predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - France World Cup 2026 squad: Deschamps' final selection",
+      "url": "https://www.fourfourtwo.com/team/france-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - France World Cup 2026 squad (qualifiers)",
+      "url": "https://www.fourfourtwo.com/features/france-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "BBC Pidgin - Squad list of African countries at 2026 World Cup",
+      "url": "https://www.bbc.com/pidgin/articles/cn7pn2j50yjo"
+    },
+    {
+      "type": "media",
+      "name": "Le Monde - Deschamps reveals squad with surprises and bold offensive shift",
+      "url": "https://www.lemonde.fr/en/sports/article/2026/05/15/2026-world-cup-france-coach-deschamps-reveals-squad-with-surprises-key-players-and-bold-offensive-shift_6753484_9.html"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports - Injured Mane named in Senegal World Cup squad",
+      "url": "https://www.beinsports.com/en-mena/articles/injured-mane-named-in-senegal-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Deschamps interview: Mbappé speaks for all the players",
+      "url": "https://www.theguardian.com/football/2026/jun/09/didier-deschamps-france-world-cup-kylian-mbappe"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - World Cup 2026 preview: Groups I-L (Football Weekly)",
+      "url": "https://www.theguardian.com/football/audio/2026/jun/10/world-cup-2026-preview-groups-i-l-football-weekly"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta dello Sport - Deschamps interview: France, World Cup, Mbappé",
+      "url": "https://www.gazzetta.it/en/football/world-cup/07-06-2026/deschamps-interview-france-world-cup-serie-mbappe_amp.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Republic World - Deschamps update on Mbappe and Saliba",
+      "url": "https://www.republicworld.com/sports/football/fifa-world-cup-2026-france-coach-didier-deschamps-provides-crucial-update-on-kylian-mbappe-and-william-saliba-2026-06-04-126936"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Senegal have 'big dreams' for 2026 World Cup",
+      "url": "https://sports.yahoo.com/articles/senegal-big-dreams-2026-world-150023915.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - France vs Senegal head-to-head record",
+      "url": "https://www.sportsmole.co.uk/football/france/world-cup/head-to-head/france-vs-senegal-head-to-head-record-and-past-meetings_599162.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Predicted Senegal XI vs France (Jackson in, Ndiaye out)",
+      "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/predicted-lineups/jackson-in-ndiaye-out-predicted-senegal-xi-vs-france_599159.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Predicted France XI vs Senegal after Saliba update",
+      "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/saliba-status-doue-decision-predicted-france-xi-vs-senegal_599158.html"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post - France vs Senegal prediction, team news, odds, tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/france-vs-senegal-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-awjzq9i1ar35/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - World Cup 2026 Group I Preview: France, Senegal, Iraq, Norway",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-i-preview-france-senegal-iraq-norway-tactics-lineups-set-pieces-odds-111129"
+    },
+    {
+      "type": "media",
+      "name": "FotMob - France vs Senegal predicted lineups and H2H stats",
+      "url": "https://www.fotmob.com/matches/senegal-vs-france/1f8fvo"
+    },
+    {
+      "type": "media",
+      "name": "11v11 - Senegal record v France",
+      "url": "https://www.11v11.com/teams/senegal/tab/opposingTeams/opposition/France/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda - France vs Senegal prediction and betting tips",
+      "url": "https://www.sportskeeda.com/football/france-vs-senegal-prediction-betting-tips-june-16th-2026"
+    },
+    {
+      "type": "media",
+      "name": "Historical Soccer - France vs Senegal predictions for 2026 World Cup",
+      "url": "https://historicalsoccer.com/blog/france-vs-senegal"
+    },
+    {
+      "type": "media",
+      "name": "Business Today - Opta supercomputer predictions World Cup 2026",
+      "url": "https://www.businesstoday.in/sports/story/who-will-win-fifa-world-cup-2026-opta-supercomputer-534491-2026-06-03"
+    },
+    {
+      "type": "media",
+      "name": "Apex Football - Supercomputer predicts 2026 World Cup winner",
+      "url": "https://lite.apex-football.com/en-SS/news/6cc63273260403en_ss"
+    },
+    {
+      "type": "media",
+      "name": "Facebook ZealPlusX - Thiaw targets World Cup glory",
+      "url": "https://www.facebook.com/ZealPlusX/posts/1303859825262829/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - World Cup 2026 Group I Predictions and Preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-i-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Senegal vs France prediction & picks (France 63.5%)",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_fra_sen"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Senegal vs France early prediction (France 64.7%)",
+      "url": "https://www.dimers.com/news/senegal-vs-france-early-prediction-group-i-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Wincomparator - France vs Senegal algorithm prediction",
+      "url": "https://www.wincomparator.com/predictions/france-senegal-7937421/"
+    },
+    {
+      "type": "model",
+      "name": "PredictsZone - France vs Senegal prediction & tips",
+      "url": "https://predictszone.com/football/world-cup-2026/group-i/france-vs-senegal-prediction"
+    },
+    {
+      "type": "model",
+      "name": "prediction.games - France vs Senegal AI prediction 2:1",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15431"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC - France v Senegal predictions & best bets",
+      "url": "https://www.juvefc.com/france-v-senegal-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Mr Green - France vs Senegal betting odds",
+      "url": "https://www.mrgreen.com/sport/football/international/world-cup-2026/france-vs-senegal-e-6818806/"
+    },
+    {
+      "type": "betting",
+      "name": "Topend Sports (UK) - France vs Senegal prediction & odds",
+      "url": "https://www.topendsports.com/en-gb/sports-betting/football/world-cup/predictions/france-vs-senegal/"
+    },
+    {
+      "type": "betting",
+      "name": "Topend Sports (US) - Where to bet on France vs Senegal",
+      "url": "https://www.topendsports.com/en-us/sports-betting/soccer/world-cup/predictions/france-vs-senegal/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket - France vs Senegal odds & predictions",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-fra-sen-2026-06-16"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi - France vs Senegal & Senegal futures",
+      "url": "https://kalshi.com/teams/soccer-team/senegal"
+    },
+    {
+      "type": "betting",
+      "name": "DeFiRate - 2026 World Cup Power Rankings: Kalshi vs Polymarket",
+      "url": "https://defirate.com/news/2026-world-cup-power-rankings-kalshi-vs-polymarket/"
+    },
+    {
+      "type": "betting",
+      "name": "WhichBookie - France vs Senegal prediction, tips & preview",
+      "url": "https://www.whichbookie.co.uk/free-betting-tips/world-cup/france-vs-senegal-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - France vs Senegal 2-1 prediction & tips",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/france-vs-senegal-prediction-16-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - France-Senegal betting tip & best odds",
+      "url": "https://www.futbol24.com/betting-tips/preview/16-06-2026-france-senegal-betting-tip/"
+    },
+    {
+      "type": "betting",
+      "name": "Sporting Life - World Cup 2026 Group I betting tips",
+      "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-i-predictions-best-bets-and-team-verdicts/232193"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambling Podcast Network - Group I analysis and best bets",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/08/fifa-world-cup-2026-group-i-analysis-preview-and-best-bets/"
+    },
+    {
+      "type": "betting",
+      "name": "Red Card Media / Gooners Guide - ArmchairPunter betting preview",
+      "url": "https://www.goonersguide.com/amp-mobile-pick-59494-France-vs-Senegal.htm"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Senegal - France faces Senegal in 2026 World Cup",
+      "url": "https://www.reddit.com/r/Senegal/comments/1pf831g/france_faces_senegal_in_the_2026_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/simcupsPredictions - 2026 World Cup Group I prediction",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1pv1mna/2026_world_cup_group_i_prediction_norway_vs/"
+    },
+    {
+      "type": "kol",
+      "name": "Sporting Life pundit verdict - Senegal given the nod (Group I tips)",
+      "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-i-predictions-best-bets-and-team-verdicts/232193"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup France vs Senegal Preview (analysis)",
+      "url": "https://www.youtube.com/watch?v=qTDGRUtZmfw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - ESPN FC: 'France vs Senegal will be a MASSIVE game!' (preview)",
+      "url": "https://www.youtube.com/watch?v=ztKPLw3Bbzw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - France vs Senegal Preview Match 17 Group I (preview)",
+      "url": "https://www.youtube.com/watch?v=bczNu3Q3aiw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Senegal's Midfield Underrated, Can Upset France (analysis)",
+      "url": "https://www.youtube.com/watch?v=ZdTYNyNU1Y4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Déjà Vu for Les Bleus? France v Senegal Preview (analysis)",
+      "url": "https://www.youtube.com/watch?v=0BxanCH3x4g"
+    },
+    {
+      "type": "social",
+      "name": "PredictsZone confidence 75% France win (community signal)",
+      "url": "https://predictszone.com/football/world-cup-2026/group-i/france-vs-senegal-prediction"
+    }
+  ],
+  "source_count": 57,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國主場戰力強大，攻守俱佳，應能輕取塞內加爾。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力佔優，主場作戰勝算極高。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力超群，主場優勢下可輕取塞內加爾。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.672,
+      "draw": 0.204,
+      "away": 0.124
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T012822Z"
+}

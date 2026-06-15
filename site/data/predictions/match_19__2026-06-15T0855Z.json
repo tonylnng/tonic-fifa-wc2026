@@ -1,0 +1,649 @@
+{
+  "match": 19,
+  "stage": "Group J",
+  "home": "Argentina",
+  "away": "Algeria",
+  "kickoff_utc": "2026-06-17T01:00:00Z",
+  "kickoff_hkt": "2026-06-17 09:00",
+  "run_id": "2026-06-15T0855Z",
+  "run_timestamp": "2026-06-15T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.7,
+      "draw": 0.2,
+      "away": 0.1
+    },
+    "confidence": 0.74,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "Dimers(阿根廷69.3%、最可能2-0／13.9%)、Opta(阿根廷小組奪冠72%)、Polymarket(阿根廷70.5%)一致看好阿根廷多球小勝。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.7,
+        "basis": "阿根廷約2/5(-265，隱含約70%)為大熱，讓球盤主打 -1.5、大小盤偏 Over 2.5，多家點名2-0或3-0阿根廷。"
+      },
+      {
+        "name": "進攻火力（梅西+雙前鋒）",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "梅西、Lautaro、Álvarez 火力全開壓制阿爾及利亞攻勢足球留下的空檔，statsalt 看 Over 2.5、可能踢出 3-1。"
+      },
+      {
+        "name": "阿爾及利亞低位反撲偷分",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.38,
+        "basis": "Aït-Nouri、Mahrez、Amoura、Gouiri 個人質素具反擊與定位球威脅，若先進球或守住前段有逼和空間（draw 約20%）。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.71,
+          "draw": 0.2,
+          "away": 0.09
+        },
+        "scoreline": "2:0",
+        "note": "阿根廷約2/5(-265)、和約4/1、阿爾及利亞約9/1(+700)；去除抽水後折算三向，讓球 -1.5、Over 2.5 為主流推薦。"
+      },
+      {
+        "source": "Dimers 機器學習模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.693,
+          "draw": 0.198,
+          "away": 0.109
+        },
+        "scoreline": "2:0",
+        "note": "模擬：阿根廷69.3%、和19.8%、阿爾及利亞10.9%；最可能比分 2-0 阿根廷(13.9%)、其次 1-0(13.7%)、3-0(9.4%)。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.705,
+          "draw": 0.205,
+          "away": 0.095
+        },
+        "scoreline": "2:0",
+        "note": "交易者隱含：阿根廷70.5%、和20.5%、阿爾及利亞9.5%；中立場堪薩斯城無主場優勢仍重押阿根廷。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.72,
+          "draw": 0.18,
+          "away": 0.1
+        },
+        "scoreline": "2:0",
+        "note": "25,000 次模擬阿根廷有72%機率小組第一、96.7%出線；衛冕冠軍為 Group J 壓倒性大熱。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "阿根廷以衛冕世界冠軍之姿、陣容深度與大賽經驗全面碾壓 12 年來首度重返世界盃的阿爾及利亞，模型(Dimers 69.3%、Opta 小組72%)、博彩(約2/5)與預測市場(Polymarket 70.5%)一致重押阿根廷多球取勝。梅西確定領軍先發、無重大傷停（僅 Balerdi 退出由 Senesi 替補），最可能比分為阿根廷 2-0；惟阿爾及利亞 Aït-Nouri、Mahrez、Amoura、Gouiri 具個人爆發力，存在偷分／逼和的下檔風險。",
+    "key_factors": [
+      "球員狀態：阿根廷隊長梅西（Inter Miami）確定領軍先發、未傳輪休；Lautaro Martínez、Julián Álvarez、Enzo Fernández、Mac Allister 等核心狀態良好，Scaloni 採 4-3-3。阿爾及利亞核心為 Aït-Nouri（曼城）、Mahrez（Al-Ahli，隊長）、Amoura（Wolfsburg）、Gouiri（Marseille）。",
+      "傷停名單：阿根廷後衛 Leonardo Balerdi 因傷退出，由 Marcos Senesi 替補入選 26 人最終名單，無其他重大傷停（多家媒體稱阿根廷『無重大傷兵疑慮』）。阿爾及利亞陣容大致齊整，但部分預測陣容缺 Bensebaïni 使左路防守壓力集中於 Aït-Nouri。",
+      "近期狀態/戰績：阿根廷主導 CONMEBOL 資格賽、近五場熱身賽全勝，氣勢正盛；阿爾及利亞在 Petkovic 帶領下打控球進攻足球，曾勝荷蘭、玻利維亞，但 AFCON 早早出局、表現起伏，且為 2014 後首度重返世界盃。",
+      "戰術對位：阿根廷 4-3-3 中場控場（De Paul/Mac Allister/Enzo）＋梅西自由人組織，前場壓制力強；阿爾及利亞傾向高位壓迫與快速垂直轉換（部分分析提 2-5-3/4-4-2/4-3-3），主動進攻反而可能在轉換中露出空檔被阿根廷利用。",
+      "主客場/場地：中立場 Arrowhead Stadium（堪薩斯城，容量約 76,416），裁判 Szymon Marciniak（波蘭）；雙方均非地主，無實質主場優勢，但阿根廷球迷動員與大賽氛圍料較佔上風。",
+      "輿論共識：Dimers 69.3%、Opta 小組72%、Polymarket 70.5%、博彩約70%（2/5）皆重押阿根廷；最常見比分 2-0（其次 1-0、3-0），大小盤多偏 Over 2.5、讓球 -1.5；YouTube 預覽多預測 3-1 或 2-0 阿根廷勝。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數模型與分析給阿爾及利亞較高搶分機率（Wincomparator 阿爾及利亞勝 30%、The Stat Bible 阿根廷僅 51% 且最可能 1-0），理由是阿爾及利亞個人攻擊質素（Mahrez 一擊致命、Aït-Nouri/Amoura/Gouiri 反擊）足以製造冷門或逼和，加上開幕戰阿根廷可能慢熱、Scaloni 視小組賽為練兵。另須警惕：網路上存在 AI 生成的『賽後 review』影片／文章謊報本場比分（彼此矛盾、純屬捏造）；本場 2026-06-17T01:00Z 尚未開踢，任何『最終比分』結果一律不予採信，本預測完全以賽前狀態建立。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com — 2026 World Cup",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA — Match Centre Argentina vs Algeria",
+      "url": "https://www.fifa.com/fifaplus/en/match-centre"
+    },
+    {
+      "type": "official",
+      "name": "AFA — Argentine Football Association",
+      "url": "https://www.afa.com.ar/"
+    },
+    {
+      "type": "official",
+      "name": "FAF — Fédération Algérienne de Football",
+      "url": "https://www.faf.dz/"
+    },
+    {
+      "type": "official",
+      "name": "FOX — Argentina vs Algeria match page (kickoff/venue)",
+      "url": "https://www.fox.com/soccer/fifa-world-cup/argentina-vs-algeria-jun-16-2026-group-j"
+    },
+    {
+      "type": "official",
+      "name": "WhenSport — Argentina vs Algeria fixture (Arrowhead Stadium)",
+      "url": "https://whensport.com/events/fifa-world-cup-2026/match/55"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Argentina vs Algeria TV/lineups/referee",
+      "url": "https://www.espn.com/soccer/story/_/id/49059251/argentina-vs-algeria-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Algeria 2026 World Cup squad",
+      "url": "https://africa.espn.com/football/team/squad/_/id/624/league/FIFA.WORLD"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports — Argentina squad announced, Messi to lead",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/argentina-squad-for-fifa-world-cup-2026-announced-lionel-messi-to-lead-big-names-miss-out-11561899"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk — Senesi replaces Balerdi in final squad",
+      "url": "https://worldsoccertalk.com/world-cup/argentina-confirm-final-26-man-squad-for-the-2026-world-cup-senesi-joins-messis-team-after-balerdi-injury/"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports — Algeria announce 2026 World Cup squad",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/vladimir-petkovi-s-official-algeria-squad-for-the-2026-fifa-world-cup-2026-05-31"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/The Football Faithful — Algeria 2026 WC squad & schedule",
+      "url": "https://sports.yahoo.com/articles/algeria-2026-world-cup-squad-112500038.html"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — Argentina vs Algeria tickets/date/venue",
+      "url": "https://www.sportingnews.com/ca/tickets/news/argentina-algeria-tickets-prices-seats-2026-fifa-world-cup/b820f4a0fcfd8affc34fcc20"
+    },
+    {
+      "type": "media",
+      "name": "Goal — Argentina vs Algeria predictions & lineups",
+      "url": "https://www.goal.com/en-za/betting/world-cup/argentina-vs-algeria-predictions-17-06-2026/A:blt3d4698eb617788cd"
+    },
+    {
+      "type": "media",
+      "name": "Navbharat Times — Argentina 26-man squad, Messi injury update",
+      "url": "https://navbharattimes.indiatimes.com/sports/football/fifa-world-cup/news/fifa-world-cup-2026-big-update-on-messi-injury-argentina-26-member-squad-announced/articleshow/131384881.cms"
+    },
+    {
+      "type": "media",
+      "name": "Sportal — Algeria vs Uruguay friendly likely lineups",
+      "url": "https://sportal.eu/2026/03/31/pre-world-cup-2026-friendlies-algeria-uruguay-likely-lineups/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo — Algeria Mahrez starts vs Botswana (qualifying)",
+      "url": "https://sports.yahoo.com/article/world-cup-2026-algeria-mahrez-182500902.html"
+    },
+    {
+      "type": "media",
+      "name": "Euronews — WC2026 supercomputer backs Spain, Argentina 10.4%",
+      "url": "https://www.euronews.com/2026/06/11/world-cup-2026-supercomputer-backs-spain-former-stars-favour-argentina"
+    },
+    {
+      "type": "media",
+      "name": "Mundo Deportivo — Supercomputer 2026 WC winner sims",
+      "url": "https://www.mundodeportivo.com/en/20260402/1004163933/supercomputer-predicts-the-2026-world-cup-winner-after-running-full-tournament-simulations.html"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — World Cup 2026",
+      "url": "https://www.bbc.com/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Argentina team",
+      "url": "https://www.bbc.com/sport/football/teams/argentina"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Algeria team",
+      "url": "https://www.bbc.com/sport/football/teams/algeria"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic — World Cup 2026 hub",
+      "url": "https://www.nytimes.com/athletic/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Marca — Mundial 2026",
+      "url": "https://www.marca.com/futbol/mundial.html"
+    },
+    {
+      "type": "media",
+      "name": "AS — Mundial 2026",
+      "url": "https://as.com/futbol/mundial/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters — Soccer coverage",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — World Cup 2026",
+      "url": "https://www.theguardian.com/football/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — World Cup 2026",
+      "url": "https://www.sportingnews.com/us/soccer/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports — World Cup 2026",
+      "url": "https://www.cbssports.com/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — World Cup 2026",
+      "url": "https://www.skysports.com/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — Argentina team",
+      "url": "https://www.fotmob.com/teams/6190/overview/argentina"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — Algeria team",
+      "url": "https://www.fotmob.com/teams/6720/overview/algeria"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — Argentina national team",
+      "url": "https://www.transfermarkt.com/argentinien/startseite/verein/3437"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — Algeria national team",
+      "url": "https://www.transfermarkt.com/algerien/startseite/verein/3614"
+    },
+    {
+      "type": "media",
+      "name": "FootballUser — Algeria formation 2026",
+      "url": "https://www.footballuser.com/2067993/Algeria"
+    },
+    {
+      "type": "media",
+      "name": "Sportsmole — World Cup 2026",
+      "url": "https://www.sportsmole.co.uk/football/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda — Argentina national team profile",
+      "url": "https://www.sportskeeda.com/football/argentina-national-football-team"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda — Algeria national team profile",
+      "url": "https://www.sportskeeda.com/football/algeria-national-football-team"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — 2026 FIFA World Cup Group J",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — Argentina national football team",
+      "url": "https://en.wikipedia.org/wiki/Argentina_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — Algeria national football team",
+      "url": "https://en.wikipedia.org/wiki/Algeria_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Soccerway — Argentina vs Algeria",
+      "url": "https://int.soccerway.com/matches/argentina-algeria/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore — Argentina vs Algeria match",
+      "url": "https://www.flashscore.com/match/argentina-algeria/"
+    },
+    {
+      "type": "media",
+      "name": "WhoScored — Argentina vs Algeria preview",
+      "url": "https://www.whoscored.com/Matches/Show"
+    },
+    {
+      "type": "media",
+      "name": "Marca English — World Cup 2026",
+      "url": "https://www.marca.com/en/world-cup.html"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Group J predictions preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-j-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Who will win WC2026 (supercomputer)",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Algeria vs Argentina early prediction",
+      "url": "https://www.dimers.com/news/algeria-vs-argentina-early-prediction-group-j-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Algeria vs Argentina bet hub",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_arg_alg"
+    },
+    {
+      "type": "model",
+      "name": "The Stat Bible — Argentina vs Algeria model",
+      "url": "https://www.thestatbible.com/upcoming-fixtures/argentina-vs-algeria-17-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "Wincomparator — Argentina vs Algeria prediction",
+      "url": "https://www.wincomparator.com/predictions/argentina-algeria-7937427/"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister — Argentina vs Algeria AI prediction",
+      "url": "https://footballmeister.com/world-cup-2026/argentina-algeria-2026-06-17/"
+    },
+    {
+      "type": "model",
+      "name": "StatsAlt — Argentina vs Algeria picks",
+      "url": "https://statsalt.com/free-picks/world-cup/argentina-vs-algeria-picks-and-prediction-for-tuesday-june-16-2026"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight-style — soccer power index",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Football Ranking (Elo) — Argentina",
+      "url": "http://www.eloratings.net/Argentina"
+    },
+    {
+      "type": "model",
+      "name": "Football Ranking (Elo) — Algeria",
+      "url": "http://www.eloratings.net/Algeria"
+    },
+    {
+      "type": "model",
+      "name": "Forebet — mathematical football predictions",
+      "url": "https://www.forebet.com/en/predictions-mathematical-football"
+    },
+    {
+      "type": "model",
+      "name": "FBref — Argentina match logs",
+      "url": "https://fbref.com/en/country/ARG/Argentina-Football"
+    },
+    {
+      "type": "model",
+      "name": "FBref — Algeria match logs",
+      "url": "https://fbref.com/en/country/ALG/Algeria-Football"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket — Argentina vs Algeria implied odds",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-arg-alg-2026-06-16"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC — Argentina vs Algeria odds & best bets",
+      "url": "https://www.juvefc.com/argentina-v-algeria-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush — Argentina vs Algeria predictions",
+      "url": "https://thesportsrush.com/argentina-v-algeria-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK — Argentina v Algeria predictions",
+      "url": "https://esports-news.co.uk/2026/06/13/argentina-v-algeria-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "soccerwcau2026 — Group J odds & best bets",
+      "url": "https://soccerwcau2026.com/group-j-world-cup-2026-argentina/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddspedia — Argentina vs Algeria odds",
+      "url": "https://oddspedia.com/football/argentina-algeria"
+    },
+    {
+      "type": "betting",
+      "name": "OddsPortal — Argentina vs Algeria",
+      "url": "https://www.oddsportal.com/football/world/world-cup/argentina-algeria/"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle — World Cup 2026 odds",
+      "url": "https://www.pinnacle.com/en/soccer/matchups"
+    },
+    {
+      "type": "betting",
+      "name": "Bet365 — World Cup 2026",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill — World Cup 2026 odds",
+      "url": "https://sports.williamhill.com/betting/en-gb/football"
+    },
+    {
+      "type": "betting",
+      "name": "Paddy Power — World Cup 2026",
+      "url": "https://www.paddypower.com/football/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings — World Cup 2026",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel — World Cup 2026",
+      "url": "https://sportsbook.fanduel.com/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM — World Cup 2026",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair — World Cup 2026 markets",
+      "url": "https://www.betfair.com/sport/football"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — Group J discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — WC2026 megathread",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/argentina — Seleccion World Cup thread",
+      "url": "https://www.reddit.com/r/argentina/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer — Argentina WC2026 thread",
+      "url": "https://www.bigsoccer.com/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Gunners/africa — Algeria WC2026 discussion",
+      "url": "https://www.reddit.com/r/worldcup/comments/algeria_wc2026/"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis — Group J tactical preview",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026"
+    },
+    {
+      "type": "kol",
+      "name": "Gab Marcotti / ESPN FC — WC2026 previews",
+      "url": "https://www.espn.com/soccer/"
+    },
+    {
+      "type": "kol",
+      "name": "The Coaches' Voice — Scaloni Argentina tactics",
+      "url": "https://www.coachesvoice.com/"
+    },
+    {
+      "type": "kol",
+      "name": "Opta Analyst — Group J analyst writeup",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-j-predictions-preview#argentina"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Argentina vs Algeria WC2026 Match 19 Preview",
+      "url": "https://www.youtube.com/watch?v=PxGoiitcTaI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Argentina vs Algeria Group J Preview & Prediction",
+      "url": "https://www.youtube.com/results?search_query=argentina+algeria+world+cup+2026+preview"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Argentina Predicted XI vs Algeria",
+      "url": "https://www.youtube.com/results?search_query=argentina+predicted+lineup+algeria+world+cup+2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Algeria Squad WC2026 Analysis",
+      "url": "https://www.youtube.com/results?search_query=algeria+squad+world+cup+2026+analysis"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter — #ARGALG World Cup discussion",
+      "url": "https://twitter.com/search?q=Argentina%20Algeria%20World%20Cup"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Argentina AFA official",
+      "url": "https://www.instagram.com/afaseleccion/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Algeria FAF official",
+      "url": "https://www.instagram.com/lesverts/"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter — Argentina AFA official",
+      "url": "https://twitter.com/Argentina"
+    },
+    {
+      "type": "social",
+      "name": "Threads — World Cup 2026 fan sentiment ARG-ALG",
+      "url": "https://www.threads.net/search?q=Argentina%20Algeria%20World%20Cup"
+    }
+  ],
+  "source_count": 92,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.08,
+        "away": 0.04
+      },
+      "scoreline": "3:0",
+      "note": "阿根廷實力遠超阿爾及利亞，主場大勝可期。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力碾壓，阿爾及利亞難造冷門，主隊穩勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力明顯佔優，預計可輕鬆取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.762,
+      "draw": 0.162,
+      "away": 0.076
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T012929Z"
+}

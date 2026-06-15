@@ -1,0 +1,649 @@
+{
+  "match": 18,
+  "stage": "Group I",
+  "home": "Iraq",
+  "away": "Norway",
+  "kickoff_utc": "2026-06-16T22:00:00Z",
+  "kickoff_hkt": "2026-06-17 06:00",
+  "run_id": "2026-06-15T0855Z",
+  "run_timestamp": "2026-06-15T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.07,
+      "draw": 0.13,
+      "away": 0.8
+    },
+    "confidence": 0.78,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.78,
+        "basis": "Opta（晉級82.3% vs 27.1%）、Dimers（挪威75.6%、最可能2-0佔13.6%）、Forebet（56%、2-0）、ESPN Elo（預測0-2）多家模型平均皆指向挪威2球淨勝、最常見比分2-0。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.8,
+        "basis": "挪威2/9（隱含約81%）為壓倒性熱門、伊拉克12/1至15/1、和約6/1至13/2；大小盤總分線設在3.0，多家點名『挪威贏球且零封』。"
+      },
+      {
+        "name": "進攻火力（Haaland發威）",
+        "scoreline": "1:3",
+        "outcome": "away",
+        "confidence": 0.55,
+        "basis": "Haaland（50場55球、歐洲區資格賽神射手）領銜挪威+32淨球差攻擊群，若提早破門可能大勝，Footy Statman/Sports Mole預測1-3。"
+      },
+      {
+        "name": "伊拉克低位封堵搶分",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "Graham Arnold的緊湊防守組織與隊長門將Jalal Hassan，加上挪威開幕場慢熱，少數論壇與KOL認為伊拉克有機會逼出低比分悶和或偷分。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.13,
+          "away": 0.81
+        },
+        "scoreline": "0:2",
+        "note": "挪威2/9（約-460至-650）、伊拉克12/1至15/1、和6/1至13/2；去除抽水後折算三向，盤口點名『挪威贏球零封』。"
+      },
+      {
+        "source": "Kalshi / Polymarket 預測市場",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.13,
+          "away": 0.81
+        },
+        "scoreline": "0:2",
+        "note": "Kalshi 報價伊拉克1.19/挪威/平手隱含約 挪威83%、和13%、伊拉克6%；Polymarket 同樣將挪威定為壓倒性熱門。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.1,
+          "draw": 0.14,
+          "away": 0.76
+        },
+        "scoreline": "0:2",
+        "note": "25,000 次賽前模擬：挪威晉級率82.3%、伊拉克27.1%；單場勝率折算約挪威76%、和14%、伊拉克10%。"
+      },
+      {
+        "source": "Dimers 機器學習模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.085,
+          "draw": 0.159,
+          "away": 0.756
+        },
+        "scoreline": "0:2",
+        "note": "挪威75.6%、和15.9%、伊拉克8.5%；最可能比分2-0挪威（13.6%），Under 2.5 佔64.1%、BTTS No 56.3%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "挪威在球員實力、世界排名（約第23-44）、陣容深度與攻擊火力上全面碾壓伊拉克，且核心Haaland與Ødegaard均健康確定先發；模型與博彩一致看好挪威2球以上淨勝。伊拉克時隔40年重返世界盃、以緊湊防守組織為主、進攻火力有限（資格賽9場僅10球），最可能落在挪威2-0或更大比分，並保留Haaland大爆發或伊拉克頑強逼出低比分的兩端風險。",
+    "key_factors": [
+      "球員狀態：挪威頭號球星 Erling Haaland（50場55球、歐洲區資格賽最佳射手）健康確定先發；隊長 Martin Ødegaard（Arsenal）健康領軍，Sørloth、Nusa、Berge 全員可用。伊拉克核心前鋒 Aymen Hussein（對玻利維亞附加賽進致勝球）確定先發，惟抵美時曾在芝加哥機場遭長時間滯留略影響備戰。",
+      "傷停名單：挪威官方與媒體（BBC、Goal、Winio）均未列任何傷停，『世界級攻擊核心完全健康』。伊拉克後衛 Ahmed Yahya 因腿後肌傷退出，由 Ahmed Makenzie 遞補；其餘無重大傷停。",
+      "近期狀態/戰績：挪威世界盃歐洲區資格賽8戰全勝、進37失5（含客場4-1義大利、11-1摩爾多瓦），近5戰2勝2和1負（3-1瑞典、1-1摩洛哥）；伊拉克資格賽21場馬拉松式晉級（4勝3和2負、9場僅10球），近5戰2勝1和2負（1-1西班牙、0-2委內瑞拉）。",
+      "戰術對位：挪威 Solbakken 採 4-3-3，靠 Ødegaard 供輸與 Haaland 禁區內爆發力＋整體攻擊深度與終結效率取勝；伊拉克 Graham Arnold 以緊湊窄中場、低位防守與快速反擊（Aymen Hussein、Ali Al-Hamadi）為主，關鍵對位是 Al-Ammari 能否限制 Haaland 的後插上跑位。",
+      "主客場/場地：中立場 Gillette Stadium（波士頓 Foxborough）；雙方皆已抵美備戰，伊拉克營地設於西維吉尼亞 Lewisburg。兩隊歷史上無正式交手紀錄。",
+      "輿論共識：Opta（晉級82.3% vs 27.1%）、Dimers（挪威75.6%）、Forebet（56%、2-0）、ESPN Elo（0-2）、博彩2/9（約81%）、Kalshi（挪威83%）皆一面倒看好挪威；最常見比分2-0（部分1-3、0-1、1-2），大小盤總分線設在3.0、Under 2.5 略佔優，多家點名『挪威贏球零封』。"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數聲音認為挪威被過度高估、伊拉克有機會搶分：r/soccer 與 r/AlignmentChartFills 部分球迷指『Iraq 有潛力對挪威拿分』、可能逼出 0-0 或小負；理由是伊拉克防守組織嚴密（資格賽失球少）、挪威為世界盃新貴（1998 年後首次參賽）大賽經驗有限、開幕場常見慢熱，且 Solbakken 可能為後續對法國/塞內加爾保留體能與避免吃牌。另須警惕：網路上存在 AI 生成的『賽後 review』影片/文章謊報本場最終比分（彼此矛盾、純屬捏造），本場 2026-06-16T22:00Z 尚未開踢，該等結果一律不予採信。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com — 2026 World Cup",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA — Match Centre Iraq vs Norway",
+      "url": "https://www.fifa.com/fifaplus/en/match-centre"
+    },
+    {
+      "type": "official",
+      "name": "UEFA — Norway at the World Cup 2026 squad/fixtures",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d1592b3f90-2ef16e2c5255-1000--norway-at-the-world-cup-2026-squad-fixtures-group-and-hi/"
+    },
+    {
+      "type": "official",
+      "name": "Iraq FA / AGCFF — Arnold names Iraq final WC2026 squad",
+      "url": "https://agcff.com/en/13959/"
+    },
+    {
+      "type": "official",
+      "name": "Straits Times — Makenzie replaces injured Yahya in Iraq squad",
+      "url": "https://www.straitstimes.com/sport/football/makenzie-replaces-injured-yahya-in-iraqs-world-cup-squad"
+    },
+    {
+      "type": "official",
+      "name": "Norges Fotballforbund (NFF) — landslag",
+      "url": "https://www.fotball.no/landslag/"
+    },
+    {
+      "type": "official",
+      "name": "BBC Sport — Haaland and Odegaard head Norway WC squad",
+      "url": "https://www.bbc.com/sport/football/articles/c74d7j5lw8po"
+    },
+    {
+      "type": "official",
+      "name": "BBC — Iraq squad includes Al-Hamadi and Iqbal",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy526nrz39eo"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Iraq vs Norway WC2026 Preview",
+      "url": "https://www.goal.com/en-in/news/iraq-norway-world-cup-preview/blt35615d31b35c17b2"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com (QA) — Iraq vs Norway preview & squads",
+      "url": "https://www.goal.com/en-qa/news/iraq-norway-world-cup-preview/blt35615d31b35c17b2"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Iraq vs Norway preview, team news, lineups",
+      "url": "https://www.sportsmole.co.uk/football/iraq/world-cup-2026/preview/iraq-vs-norway-prediction-team-news-lineups_599176.html"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports — Graham Arnold's official Iraq squad",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/graham-arnold-s-official-iraq-squad-for-the-2026-fifa-world-cup-2026-06-01"
+    },
+    {
+      "type": "media",
+      "name": "Heavy Sports — Norway announces WC2026 squad",
+      "url": "https://heavy.com/sports/soccer/world-cup/norway-announces-squad-fifa-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — Haaland next World Cup match schedule",
+      "url": "https://www.sportingnews.com/us/soccer/news/erling-haaland-next-world-cup-match-fixture-schedule-time-draw-bracket/149a2a535ea6793426ee52df"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Iraq 2026 squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/4375/iraq"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — World Cup predictions every game (Elo)",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone — Iraq vs Norway preview & prediction",
+      "url": "https://www.thestatszone.com/iraq-vs-norway-preview-team-news-prediction-fifa-world-cup-2026-group-stage-195766"
+    },
+    {
+      "type": "media",
+      "name": "Mundial Player Tracker — Norway WC2026 squad (Odegaard & Haaland)",
+      "url": "https://mundialplayertracker.com/insights/norway-world-cup-2026-squad-degaard-and-haaland/"
+    },
+    {
+      "type": "media",
+      "name": "Winio — Haaland WC2026 fitness & Golden Boot threat",
+      "url": "https://winio.ai/football/news/haaland-world-cup-2026-norway-s-return-golden-boot-threat-and-latest-fitness-news"
+    },
+    {
+      "type": "media",
+      "name": "Opta Analyst — Norway mean business at WC2026 preview",
+      "url": "https://theanalyst.com/articles/norway-world-cup-2026-preview-dark-horses-stats"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — World Cup 2026 hub",
+      "url": "https://www.skysports.com/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — World Cup 2026 schedule",
+      "url": "https://www.bbc.com/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Norway team",
+      "url": "https://www.bbc.com/sport/football/teams/norway"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Iraq team",
+      "url": "https://www.bbc.com/sport/football/teams/iraq"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic — World Cup 2026 hub",
+      "url": "https://www.nytimes.com/athletic/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters — World Cup 2026 coverage",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — World Cup 2026",
+      "url": "https://www.theguardian.com/football/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Marca English — World Cup 2026",
+      "url": "https://www.marca.com/en/world-cup.html"
+    },
+    {
+      "type": "media",
+      "name": "AS English — Mundial 2026",
+      "url": "https://en.as.com/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports — World Cup 2026",
+      "url": "https://www.cbssports.com/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — World Cup 2026",
+      "url": "https://www.sportingnews.com/us/soccer/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — Iraq vs Norway predicted lineups & H2H",
+      "url": "https://www.fotmob.com/matches/iraq-vs-norway/"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — Norway team overview",
+      "url": "https://www.fotmob.com/teams/5707/overview/norway"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — Iraq team overview",
+      "url": "https://www.fotmob.com/teams/6716/overview/iraq"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — Norway national team",
+      "url": "https://www.transfermarkt.com/norwegen/startseite/verein/3440"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — Iraq national team",
+      "url": "https://www.transfermarkt.com/irak/startseite/verein/3525"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — 2026 FIFA World Cup Group I",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — Norway national football team",
+      "url": "https://en.wikipedia.org/wiki/Norway_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — Iraq national football team",
+      "url": "https://en.wikipedia.org/wiki/Iraq_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Soccerway — Iraq vs Norway",
+      "url": "https://int.soccerway.com/matches/iraq-norway/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore — Iraq vs Norway match",
+      "url": "https://www.flashscore.com/match/iraq-norway/"
+    },
+    {
+      "type": "media",
+      "name": "Goal — Erling Haaland profile",
+      "url": "https://www.goal.com/en/people/erling-haaland/"
+    },
+    {
+      "type": "media",
+      "name": "Goal — Aymen Hussein profile",
+      "url": "https://www.goal.com/en/people/aymen-hussein/"
+    },
+    {
+      "type": "media",
+      "name": "abhs.in — Haaland World Cup debut Norway vs Iraq",
+      "url": "https://www.abhs.in/blog/erling-haaland-first-world-cup-norway-vs-iraq-june-16-2026"
+    },
+    {
+      "type": "media",
+      "name": "Asianet News — Iraq vs Norway prediction & tips",
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/iraq-vs-norway-vs-group-stage/"
+    },
+    {
+      "type": "media",
+      "name": "NZ-style WC media — Group I preview hub",
+      "url": "https://www.dimers.com/sports/soccer/world-cup"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — World Cup 2026 Group I predictions/preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-i-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Who will win WC2026 (supercomputer)",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Iraq vs Norway updated prediction (win probs)",
+      "url": "https://www.dimers.com/news/norway-vs-iraq-updated-prediction-group-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Norway vs Iraq early prediction",
+      "url": "https://www.dimers.com/news/norway-vs-iraq-early-prediction-group-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Forebet — Iraq vs Norway preview & prediction (2-0)",
+      "url": "https://www.forebet.com/en/football-match-previews/28601-iraq-vs-norway-preview-solbakkens-side-bring-strong-form-into-group-i"
+    },
+    {
+      "type": "model",
+      "name": "The Footy Statman — Iraq vs Norway model (1-3)",
+      "url": "https://thefootystatman.com/fixture/iraq-vs-norway/"
+    },
+    {
+      "type": "model",
+      "name": "FootballForecast.io — Group I predictions",
+      "url": "https://www.footballforecast.io/groups/group-i"
+    },
+    {
+      "type": "model",
+      "name": "Eloratings.net — Norway",
+      "url": "http://www.eloratings.net/Norway"
+    },
+    {
+      "type": "model",
+      "name": "Eloratings.net — Iraq",
+      "url": "http://www.eloratings.net/Iraq"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight-style — Soccer Power Index",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "FBref — Norway match logs",
+      "url": "https://fbref.com/en/country/NOR/Norway-Football"
+    },
+    {
+      "type": "model",
+      "name": "FBref — Iraq match logs",
+      "url": "https://fbref.com/en/country/IRQ/Iraq-Football"
+    },
+    {
+      "type": "model",
+      "name": "Predictz — Iraq vs Norway",
+      "url": "https://www.predictz.com/predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Infogol — xG model Iraq vs Norway",
+      "url": "https://www.infogol.net/"
+    },
+    {
+      "type": "model",
+      "name": "JohnnyBet — AI prediction Iraq vs Norway",
+      "url": "https://en.johnnybet.com/app/betting-events/iraq-norway"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi — Iraq vs Norway moneyline & totals",
+      "url": "https://kalshi.com/teams/soccer-team/norway"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket — Iraq vs Norway odds & predictions",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-irq-nor-2026-06-16"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post — Iraq vs Norway prediction, odds, tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/iraq-vs-norway-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aaXwW1a7805C/"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC — Iraq vs Norway prediction & best bets",
+      "url": "https://www.juvefc.com/iraq-v-norway-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK — Iraq vs Norway prediction & best bets",
+      "url": "https://esports-news.co.uk/2026/06/13/iraq-v-norway-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush — Iraq vs Norway predictions & best bets",
+      "url": "https://thesportsrush.com/iraq-v-norway-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddspedia — Iraq vs Norway odds",
+      "url": "https://oddspedia.com/football/iraq-norway"
+    },
+    {
+      "type": "betting",
+      "name": "OddsPortal — Iraq vs Norway",
+      "url": "https://www.oddsportal.com/football/world/world-cup/iraq-norway/"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle — World Cup 2026 odds",
+      "url": "https://www.pinnacle.com/en/soccer/matchups"
+    },
+    {
+      "type": "betting",
+      "name": "Bet365 — World Cup 2026",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill — World Cup 2026 odds",
+      "url": "https://sports.williamhill.com/betting/en-gb/football"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings — World Cup 2026",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel — World Cup 2026",
+      "url": "https://sportsbook.fanduel.com/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM — World Cup 2026",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Group I confirmed discussion",
+      "url": "https://www.reddit.com/r/soccer/comments/1s9bcgg/group_i_of_the_fifa_word_cup_2026_has_been/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills — Reddit decides WC Group I",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sigyzq/reddit_decides_the_world_cup_group_i_france/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/simcupsPredictions — WC2026 Group I predictions",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1s9bt8a/world_cup_finals_2026_group_i_predictions_with/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/MCFC — Haaland Norway international break",
+      "url": "https://www.reddit.com/r/MCFC/comments/1s1ikpn/haaland_getting_time_off_during_norways/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — Group I discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "kol",
+      "name": "Talking Tactics — Norway / Iraq Group I preview",
+      "url": "https://www.youtube.com/watch?v=5LGA9mmsu_E"
+    },
+    {
+      "type": "kol",
+      "name": "Group I Preview Predictions (France/Senegal/Norway/Iraq)",
+      "url": "https://www.youtube.com/watch?v=GUK5QFfqLEA"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis — WC2026 Group I tactical writeups",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026"
+    },
+    {
+      "type": "kol",
+      "name": "ESPN FC — Gab Marcotti WC2026 previews",
+      "url": "https://www.espn.com/soccer/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iraq vs Norway Prediction | Haaland xG Spotlight (preview)",
+      "url": "https://www.youtube.com/watch?v=EslwRe2tOGc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — 2026 WC Group I Preview (France/Senegal/Iraq/Norway) (preview)",
+      "url": "https://www.youtube.com/watch?v=R1Xg9Ei5yxY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — 2026 World Cup Preview: Iraq (preview)",
+      "url": "https://www.youtube.com/watch?v=0vgbRvDnIq8"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iraq Team Arrives in USA for WC2026 (news)",
+      "url": "https://www.youtube.com/watch?v=KqjsubYtZN8"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Opta supercomputer WC2026 win chances",
+      "url": "https://www.instagram.com/reel/DZPeN0XBmWZ/"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter — #IRQNOR World Cup discussion",
+      "url": "https://twitter.com/search?q=Iraq%20Norway%20World%20Cup"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Norway national team official",
+      "url": "https://www.instagram.com/nff_fotball/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Iraq FA official",
+      "url": "https://www.instagram.com/iraqfa/"
+    }
+  ],
+  "source_count": 92,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "挪威整體實力優於伊拉克，客場有望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "挪威整體實力佔優，夏蘭特領銜鋒線有望輕鬆破門。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "挪威實力明顯高出一籌，哈蘭德可望建功，伊拉克主場難阻敗局。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.154,
+      "draw": 0.206,
+      "away": 0.64
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T012852Z"
+}

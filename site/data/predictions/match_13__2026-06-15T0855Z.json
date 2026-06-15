@@ -1,0 +1,718 @@
+{
+  "match": 13,
+  "stage": "Group H",
+  "home": "Spain",
+  "away": "Cape Verde",
+  "kickoff_utc": "2026-06-15T16:00:00Z",
+  "kickoff_hkt": "2026-06-16 00:00",
+  "run_id": "2026-06-15T0855Z",
+  "run_timestamp": "2026-06-15T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.87,
+      "draw": 0.085,
+      "away": 0.045
+    },
+    "confidence": 0.8,
+    "top_scorelines": [
+      {
+        "scoreline": "3:0",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "4:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.82,
+        "basis": "Opta（西班牙 87.2%）與多家預覽（Sports Mole/RotoWire/Sportsgambler）均倒向西班牙 3-0 輕取。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.78,
+        "basis": "博彩讓球 -2.5、大小盤 3.5、BTTS No 推導，隱含最可能 2-0（Dimers/WC Betting Tips）。"
+      },
+      {
+        "name": "保守低區塊",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "佛得角 4-2-3-1 深蹲、Logan Costa 領陣並靠 Mendes/Livramento 反擊，西班牙開幕慎熱、Yamal/Williams 輪休可能縮小比分。"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "4:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "西班牙資格賽進 21 球、上屆世界盃開幕 7-0，若早進球可能大勝（Standard 預測 4-0）。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.89,
+          "draw": 0.07,
+          "away": 0.04
+        },
+        "scoreline": "2:0",
+        "note": "bet365 西班牙 1/12、和 11/1、佛得角 20/1；去佣金後隱含機率約 89/7/4。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.872,
+          "draw": 0.081,
+          "away": 0.048
+        },
+        "scoreline": "3:0",
+        "note": "25,000 次賽前模擬：西班牙 87.2%、和 8.1%、佛得角 4.8%。"
+      },
+      {
+        "source": "Dimers",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.862,
+          "draw": 0.099,
+          "away": 0.039
+        },
+        "scoreline": "2:0",
+        "note": "依確認陣容更新：西班牙 86.2%、和 9.9%、佛得角 3.9%；最可能 2-0。"
+      },
+      {
+        "source": "預測市場（Polymarket/DeFiRate）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.905,
+          "draw": 0.06,
+          "away": 0.035
+        },
+        "note": "預測市場隱含西班牙約 90.5% 勝率。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "衛冕歐冠、FIFA 排名第二的西班牙作為本屆世界盃聯繫奪冠熱門，於亞特蘭大進行小組首戰，面對首次打進世界盃、FIFA 排名約 67-72 名的佛得角。模型與盤口一致看好西班牙輕取（Opta 87.2%），主預測 3-0；雖然 Yamal、Nico Williams 預期輪休出發，西班牙陣容深度仍足以掉控比賽。佛得角唯一希望在於深蹲反擊與門將表現。",
+    "key_factors": [
+      "球員狀態：西班牙 Lamine Yamal、Nico Williams 已從腿後肌傷勢恢復並納入名單，但 De la Fuente 明言兩人不先發，預期替補出場；Ferran Torres、Álex Baena、Oyarzabal 預期頂上陣。",
+      "傷停名單：西班牙 Victor Muñoz 因肌肉負荷/小腿傷存疑；Merino 足部應力性骨折後復出但狀態待觀。佛得角無明顯傷停，但主力中後衛 Logan Costa 剛經歷 10 個月 ACL 傷勢、比賽節奏不足（賽前僅 13 分鐘聯賽複出）。",
+      "近期狀態/戰績：西班牙資格賽 6 場 5 勝 1 和、進 21 失 2，近 33 場不敗；熱身賽 3-1 勝秘魯。佛得角資格賽 7 場 6 勝力壓喀麥隆捧頭，熱身賽兩度 3-0 勝塞維亞與百慕達。",
+      "戰術對位：西班牙 4-3-3（Rodri/Pedri/Fabián Ruíz）控球高壓、邊路一對一威脅；佛得角 4-2-3-1 深蹲低區塊、靠 Mendes、Livramento、Jovane Cabral 反擊與定位球。Opta 預期 xG 約 2.18 vs 0.58。",
+      "主客場/場地：中立場亞特蘭大 Mercedes-Benz Stadium（容量 68,239），西語裔及群眾可能親西班牙；佛得角依靠新英格蘭/葡萄牙裔加油但人數處下風。預計天氣 26°C。",
+      "輿論共識：主流媒體與模型幾乎一面倒看好西班牙輕取；BBC 名宿（Giroud/Rooney）視西班牙為奪冠熱門。讓球與大小盤為焦點，多數倒向 BTTS No、小於 3.5 球。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "佛得角隊長 Ryan Mendes 公開表示若全隊團結、紀律並勇敢，可能以防守與反擊「驚詫世人」，並引沙烏地阿拉伯 2022 驚防阿根廷為例；部分模型給佛得角 34% 出線機率，反映以守為攻的上限。但幾乎無人預測佛得角能賺西班牙拿分。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA — Cabo Verde / Ryan Mendes",
+      "url": "https://web.fifaclearinghouse.org/organisation/news/cabo-verde-fifa-series-ryan-mendes"
+    },
+    {
+      "type": "official",
+      "name": "FOX One — Spain vs Cape Verde 直播頁",
+      "url": "https://www.fox.com/soccer/fifa-world-cup/spain-vs-cape-verde-jun-15-2026-group-h"
+    },
+    {
+      "type": "official",
+      "name": "Sky Sports — Cape Verde 球隊頁",
+      "url": "https://www.skysports.com/cape-verde"
+    },
+    {
+      "type": "official",
+      "name": "ESPN — Cape Verde 2026 Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2597/cape-verde"
+    },
+    {
+      "type": "official",
+      "name": "ESPN — Cape Verde WC2026 Squad (FIFA.WORLD)",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2597/league/FIFA.WORLD"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Africa — Spain vs Cabo Verde 賽事頁",
+      "url": "https://africa.espn.com/football/match/_/gameId/760428/cabo-verde-espana"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Spain World Cup 2026 squad confirmed",
+      "url": "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confirmed"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Spain vs Cape Verde TV/how to watch/predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49047205/fifa-world-cup-2026-spain-vs-cape-verde-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN UK — Spain vs Cape Verde TV/how to watch",
+      "url": "https://www.espn.co.uk/football/story/_/id/49047205/fifa-world-cup-2026-spain-vs-cape-verde-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — 2026 WC draw: De la Fuente win-win-win mandate",
+      "url": "https://www.espn.com/soccer/story/_/id/47215799/2026-world-cup-draw-spain-coach-de-la-fuente-issues-triple-win-mandate-draw"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — Zero Real Madrid players in Spain squad",
+      "url": "https://www.theguardian.com/football/2026/may/25/spain-world-cup-squad-2026-lamine-yamal-injury"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — Cape Verde WC2026 team guide",
+      "url": "https://www.theguardian.com/football/2026/jun/05/cape-verde-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Spain vs Cape Verde predictions / how to watch",
+      "url": "https://www.aljazeera.com/sports/2026/6/14/spain-vs-cape-verde-world-cup-predictions-lamine-yamal-schedule-how-to-watch"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Cape Verde clinches historic qualification",
+      "url": "https://www.aljazeera.com/sports/2025/10/14/cape-verde-clinches-historic-first-qualification-for-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — What to know about Cape Verde at WC2026",
+      "url": "https://www.aljazeera.com/sports/2026/5/24/what-to-know-about-cape-verde-at-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Yamal & Williams set to be fit for opener",
+      "url": "https://www.aljazeera.com/sports/2026/6/3/lamine-yamal-and-nico-williams-set-to-be-fit-for-spains-world-cup-opener"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Yamal & Williams in a position to play",
+      "url": "https://www.aljazeera.com/sports/2026/6/8/yamal-williams-to-be-available-for-spains-opening-world-cup-match"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Spain WC2026 preview / players to watch",
+      "url": "https://www.aljazeera.com/sports/2026/6/6/spains-world-cup-2026-team-preview-players-to-watch-group-matches-squad"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Spain vs Cape Verde preview/lineups",
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/spain-vs-cape-verde-prediction-team-news-lineups_599107.html"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Spain vs Cape Verde WC2026 preview",
+      "url": "https://www.goal.com/en/news/spain-cape-verde-world-cup-preview/blt1cba94a69b707822"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Spain squad World Cup 2026",
+      "url": "https://www.goal.com/en-sa/lists/spain-squad-world-cup-2026/bltb2d75157ef7fbc28"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Former Cape Verde int'l: we can trouble Spain",
+      "url": "https://www.goal.com/en-au/lists/former-cape-verdean-player-tells-koora-we-hold-the-advantage-over-saudi-arabia-in-this-scenario-and-we-are-capable-of-causing-spain-headaches/blt88c7e971bc06f687"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Spain vs Cabo Verde predictions (betting)",
+      "url": "https://www.goal.com/en-in/betting/world-cup/spain-vs-cabo-verde-predictions-15-06-26/A:blt8550d1fbaca278cd"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard — Spain XI vs Cape Verde confirmed team news",
+      "url": "https://www.standard.co.uk/sport/football/spain-xi-vs-cape-verde-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1286051.html"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard — Spain vs Cape Verde prediction/odds/h2h",
+      "url": "https://www.standard.co.uk/sport/football/spain-vs-cape-verde-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1286040.html"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Who will win the World Cup? Pundits predict",
+      "url": "https://www.bbc.com/sport/football/articles/cg7485gyxz9o"
+    },
+    {
+      "type": "media",
+      "name": "CNN — Cape Verde WC debutants 'nothing is impossible'",
+      "url": "https://www.cnn.com/sport/cape-verde-world-cup-debutants-nothing-is-impossible-spc"
+    },
+    {
+      "type": "media",
+      "name": "DW — Cape Verde celebrates historic qualification",
+      "url": "https://www.dw.com/en/cape-verde-celebrates-historic-world-cup-qualification/a-74354337"
+    },
+    {
+      "type": "media",
+      "name": "DAZN — Spain vs Cabo Verde preview/how to watch",
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-spain-vs-cabo-verde-preview-team-news-how-to-watch/1l03l96kivlrk1jakt4hwnu5is"
+    },
+    {
+      "type": "media",
+      "name": "DAZN — Spain fixtures/schedule WC2026",
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-spain-fixtures-resutls-dates-kick-off-times-full-schedule-squad-venues/kn94b3d0en5o19emv95id0hq7"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Spain vs Cape Verde lineups/preview",
+      "url": "https://www.rotowire.com/soccer/article/spain-vs-cape-verde-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118092"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Spain vs Cape Verde live commentary",
+      "url": "https://www.skysports.com/football/spain-vs-cape-verde/live/549780"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Telmo Arcanjo interview (Cape Verde)",
+      "url": "https://www.skysports.com/football/news/11095/13549964/telmo-arcanjo-interview-cape-verdes-unity-key-to-world-cup-achievement-as-they-plan-to-surprise-the-opposition"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — Cape Verde WC2026 squad",
+      "url": "https://www.fourfourtwo.com/team/cape-verde-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "OneFootball — Logan Costa returns after 10 months",
+      "url": "https://onefootball.com/en/news/logan-costa-returns-after-10-months-and-earns-world-cup-call-42895329"
+    },
+    {
+      "type": "media",
+      "name": "Reuters/The Star — Cape Verde gamble on Costa fitness",
+      "url": "https://www.thestar.com.my/sport/football/2026/05/18/soccer-cape-verde-gamble-on-fitness-of-defender-costa"
+    },
+    {
+      "type": "media",
+      "name": "Atlanta Journal-Constitution — Cape Verde ultimate underdogs",
+      "url": "https://images.ajc.com/sports/2026/06/cape-verde-blue-sharks-come-to-atlanta-as-ultimate-world-cup-underdogs/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports — Spain vs Cape Verde how to watch",
+      "url": "https://sports.yahoo.com/soccer/article/spain-vs-cape-verde-how-to-watch-the-group-h-world-cup-match-tv-channel-start-time-where-to-stream-free-and-more-161500306.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/Standard — Spain vs Cape Verde prediction/TV",
+      "url": "https://uk.sports.yahoo.com/news/spain-vs-cape-verde-world-183742935.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/Barca Blaugranes — Spain midfield WC2026",
+      "url": "https://sports.yahoo.com/articles/starts-spain-midfield-2026-world-180817209.html"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times — Spain favorites (Goldman Sachs model)",
+      "url": "https://www.straitstimes.com/sport/football/spain-favorites-to-win-world-cup-goldman-model-shows"
+    },
+    {
+      "type": "media",
+      "name": "Squawka — Spain to win WC2026 odds/tactics/squad",
+      "url": "https://www.squawka.com/en/outright-markets/spain-world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated — Every team's odds to win WC2026",
+      "url": "https://www.si.com/betting/every-teams-odds-to-win-the-2026-world-cup-spain-set-as-favorites-ahead-of-opening-match"
+    },
+    {
+      "type": "media",
+      "name": "Business Today — Opta supercomputer favourite",
+      "url": "https://www.businesstoday.in/sports/story/fifa-world-cup-winner-opta-supercomputer-picks-this-country-as-favourite-messis-argentina-lags-536029-2026-06-10"
+    },
+    {
+      "type": "media",
+      "name": "Foot-Africa — De la Fuente on Yamal (pre-match)",
+      "url": "https://foot-africa.com/en/news/2026-world-cup-spain-luis-de-la-fuente-opens-up-again-about-yamal-1241668/"
+    },
+    {
+      "type": "media",
+      "name": "Midtown Atlanta — World Cup primer teams & traditions",
+      "url": "https://www.midtownatl.com/post/for-the-casual-fan-an-atlanta-world-cup-primer-on-teams-and-traditions"
+    },
+    {
+      "type": "media",
+      "name": "SoccerGraph — Cape Verde 2026 WC 26-man squad",
+      "url": "https://www.soccergraph.com/2026/05/cape-verde-2026-fifa-world-cup-squad-full-roster-al-player-list.html"
+    },
+    {
+      "type": "media",
+      "name": "Mykhel — Spain vs Cape Verde lineup",
+      "url": "https://www.mykhel.com/football/fifa-world-cup-2026-spain-vs-cape-verde-match-line-up-102314/"
+    },
+    {
+      "type": "media",
+      "name": "MundialAnalytics — Cape Verde team analysis",
+      "url": "https://mundialanalytics.com/cape-verde-national-team-analysis"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Spain vs Cape Verde preview (87.2/8.1/4.8)",
+      "url": "https://theanalyst.com/articles/spain-vs-cape-verde-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Who will win WC2026 (supercomputer)",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Cabo Verde vs Spain updated prediction (86.2/9.9/3.9)",
+      "url": "https://www.dimers.com/news/cabo-verde-vs-spain-updated-prediction-group-h-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Cabo Verde vs Spain bet hub (most likely 0-2)",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_esp_cpv"
+    },
+    {
+      "type": "model",
+      "name": "WC Betting Tips — model 76/16/8, pred 2-0",
+      "url": "https://wcbettingtips.com/spain-vs-cape-verde-live"
+    },
+    {
+      "type": "model",
+      "name": "PredictNext — AI forecast Spain 3-0 (82/13/5)",
+      "url": "https://predictnext.ai/match/spain-vs-cape-verde-islands-prediction-june-2026-19609162"
+    },
+    {
+      "type": "model",
+      "name": "FotMob — predicted lineups & H2H stats",
+      "url": "https://www.fotmob.com/matches/cape-verde-vs-spain/1bbtuo"
+    },
+    {
+      "type": "model",
+      "name": "SofaScore — Spain vs Cape Verde stats/odds",
+      "url": "https://www.sofascore.com/football/match/cabo-verde-spain/YTbsdVb"
+    },
+    {
+      "type": "model",
+      "name": "365Scores — Spain vs Cabo Verde stats/odds",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/cape-verde-spain-5050-5411-5930"
+    },
+    {
+      "type": "model",
+      "name": "FootballPredictions.com — Spain vs Cape Verde",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/spain-vs-cape-verde-prediction-15-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes — Spain vs Cape Verde preview/tips",
+      "url": "https://www.ladbrokes.com/en/news/spain-cape-verde-world-cup-preview-predictions-tips-2026-06-12/"
+    },
+    {
+      "type": "betting",
+      "name": "SBG Global — Spain vs Cape Verde odds & preview",
+      "url": "https://www.sbgglobal.eu/football-soccer/2026-world-cup-spain-vs-cape-verde-betting-odds-preview/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction — prediction/picks (Spain 3-0)",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/spain-vs-cape-verde-odds-prediction-061526-217166"
+    },
+    {
+      "type": "betting",
+      "name": "Flashscore — Spain v Cape Verde predictions/odds",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-spain-v-cape-verde-world-cup-2026-predictions-best-bets-and-odds/rs9jgbZg/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler — Spain vs Cape Verde prediction/lineups",
+      "url": "https://www.sportsgambler.com/betting-tips/football/spain-vs-cape-verde-prediction-lineups-odds-2026-06-15/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket — Spain vs Cabo Verde odds",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-esp-cvi-2026-06-15"
+    },
+    {
+      "type": "betting",
+      "name": "DeFiRate — Group H prediction-market odds",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-h/"
+    },
+    {
+      "type": "betting",
+      "name": "DeFiRate — Spain prediction-site odds (90.5%)",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/spain/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com — Spain vs Cape Verde picks/odds",
+      "url": "https://www.covers.com/world-cup/spain-vs-cape-verde-prediction-picks-odds-monday-6-15-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post — prediction/team news/bet builder",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/spain-vs-cape-verde-betting-tips-predictions-team-news-odds-bet-builder-aicRQ8L439n7/"
+    },
+    {
+      "type": "betting",
+      "name": "oddschecker — Group H odds/predictions",
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260609-2026-fifa-world-cup-group-h-odds-predictions-analysis-for-spain-group"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 — Spain vs Cape Verde betting tip",
+      "url": "https://www.futbol24.com/betting-tips/preview/15-06-2026-spain-cape-verde-betting-tip/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Cape Verde qualify for first WC",
+      "url": "https://www.reddit.com/r/soccer/comments/1o5r3vk/cape_verde_have_qualified_for_their_first_ever/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Cape Verde 2-0 Eswatini",
+      "url": "https://www.reddit.com/r/soccer/comments/1o5q0cb/cape_verde_20_eswatini_willy_semedo_54/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Opta supercomputer Spain WC2026",
+      "url": "https://www.instagram.com/p/DZc265lofP9/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Spain WC starting XI (De la Fuente)",
+      "url": "https://www.instagram.com/reel/DZVpX-qSHJD/"
+    },
+    {
+      "type": "social",
+      "name": "Facebook — Spain road to WC2026 (Match 1)",
+      "url": "https://www.facebook.com/61556468164839/posts/-spain-road-to-world-cup-2026-_lamine-yamal-and-la-roja-start-their-journey-june/122283169814215605/"
+    },
+    {
+      "type": "kol",
+      "name": "Wikipedia — Bubista (Cape Verde head coach)",
+      "url": "https://en.wikipedia.org/wiki/Bubista"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Cape Verde WC2026 Preview: Shock Group H? (preview)",
+      "url": "https://www.youtube.com/watch?v=fTvkpWCnero"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Spain leave hotel in Chattanooga (preview)",
+      "url": "https://www.youtube.com/watch?v=rRw51Rg5Awg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Spain vs Cape Verde Preview Match 14 (preview)",
+      "url": "https://www.youtube.com/watch?v=qKf3d-PXEeE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — 19 experts boldest predictions (analysis)",
+      "url": "https://www.youtube.com/watch?v=5TFw645ivtw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Spain vs Cape Verde (prediction preview)",
+      "url": "https://www.youtube.com/watch?v=SAqF0URTV5M"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Spain vs Cape Verde Possession vs Low Block (analysis)",
+      "url": "https://www.youtube.com/watch?v=cEN7R2_tdvE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Cape Verde 7 staff/diaspora (analysis)",
+      "url": "https://www.youtube.com/watch?v=Dp5xy1ltwmA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — De la Fuente press conference (pre-game)",
+      "url": "https://www.youtube.com/watch?v=ZaR4_DoHyOg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Spain WC2026 analysis Group H favorites (preview)",
+      "url": "https://www.youtube.com/watch?v=Cb_lEqQjxrg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — 2026 World Cup: Cape Verde (preview)",
+      "url": "https://www.youtube.com/watch?v=b_KbNrfGAxM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Cape Verde's First WC: survive Group H? (preview)",
+      "url": "https://www.youtube.com/watch?v=TfHXFosbayg"
+    },
+    {
+      "type": "betting",
+      "name": "Pickswise — ESP vs CPV prediction/odds/picks",
+      "url": "https://www.pickswise.com/world-cup/games/spain-cabo-verde-world-cup-26-2026-06-15-1600/picks/"
+    },
+    {
+      "type": "betting",
+      "name": "Sport-News.ca — Spain vs Cape Verde preview/tips",
+      "url": "https://sport-news.ca/news/spain-cape-verde-prediction-betting-tips"
+    },
+    {
+      "type": "media",
+      "name": "Sport-News.ca — Spain vs Cape Verde predicted lineups",
+      "url": "https://sport-news.ca/news/spain-vs-cape-verde-predicted-lineups-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — What you need to know about Spain",
+      "url": "https://www.bbc.com/sport/football/articles/cg5p9g6p7z8o"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Cape Verde second-smallest nation to reach WC",
+      "url": "https://www.bbc.com/sport/football/articles/c04q0gd0yedo"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Spain 2026 WC preview/squad/prediction",
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup/feature/spain-2026-world-cup-preview-squad-fixtures-and-prediction_598984.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/Football Faithful — Cape Verde WC squad/fixtures",
+      "url": "https://sports.yahoo.com/articles/cape-verde-2026-world-cup-130000866.html"
+    },
+    {
+      "type": "model",
+      "name": "WhoScored — Group H preview & prediction (Spain 3-0)",
+      "url": "https://www.whoscored.com/articles/ObBZOnUsyk-hziO73mWrlw/show/whoscoreds-world-cup-2026-group-h-preview-prediction"
+    },
+    {
+      "type": "model",
+      "name": "FootyStats — Spain vs Cape Verde H2H/xG",
+      "url": "https://footystats.org/international/spain-national-team-vs-cape-verde-islands-national-team-h2h-stats"
+    },
+    {
+      "type": "betting",
+      "name": "Betway Insider — 3/1 bet builder Spain v Cape Verde",
+      "url": "https://blog.betway.com/football/world-cup/world-cup-tips-a-31-bet-builder-for-spain-v-cape-verde/"
+    },
+    {
+      "type": "betting",
+      "name": "Betway Insider — how to bet on Spain odds",
+      "url": "https://blog.betway.com/football/world-cup/spain-football-betting/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Group H preview tactics/lineups/odds",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-h-preview-spain-uruguay-saudi-arabia-cape-verde-tactics-lineups-set-pieces-odds-109699"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports — Group H preview/prediction",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-group-h-preview-teams-schedule-top-players-and-prediction-11619470"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC — Spain vs Cape Verde preview & best bets",
+      "url": "https://www.juvefc.com/spain-v-cape-verde-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Angola vs Cape Verde CAF qualifier H2H",
+      "url": "https://www.bbc.com/sport/football/live/c204yqk9e1lt"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post — Spain vs Cape Verde prediction (alt)",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/spain-vs-cape-verde-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aicRQ8L439n7/"
+    },
+    {
+      "type": "betting",
+      "name": "SBG Global — Cape Verde +2½ handicap line",
+      "url": "https://www.sbgglobal.eu/football-soccer/2026-world-cup-spain-vs-cape-verde-betting-odds-preview/#odds"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Opta picks Spain WC2026 (reel)",
+      "url": "https://www.instagram.com/p/DZc265lofP9/?img_index=1"
+    }
+  ],
+  "source_count": 106,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.91,
+        "draw": 0.06,
+        "away": 0.03
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力遠超佛得角，主場應輕鬆大勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "2:0",
+      "note": "西班牙實力碾壓且控球優勢明顯，佛得角難以爆冷。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力明顯佔優，佛得角難構成威脅，預料主隊輕鬆取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.87,
+      "draw": 0.086,
+      "away": 0.044
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T012616Z"
+}

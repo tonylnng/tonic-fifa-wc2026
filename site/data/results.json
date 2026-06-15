@@ -114,6 +114,48 @@
       "recorded_at": "2026-06-14T05:49:11Z",
       "source": "https://www.sportingnews.com/au/football/news/australia-vs-turkey-world-cup-live-score-result-highlights/6ed8a86dd80e32b95d24d3b4",
       "scoreline": "2:0"
+    },
+    {
+      "match": 9,
+      "stage": "Group E",
+      "home": "Germany",
+      "away": "Curacao",
+      "score": {
+        "home": 7,
+        "away": 1
+      },
+      "outcome": "home",
+      "recorded_at": "2026-06-15T01:15:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760422",
+      "scoreline": "7:1"
+    },
+    {
+      "match": 10,
+      "stage": "Group F",
+      "home": "Netherlands",
+      "away": "Japan",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "outcome": "draw",
+      "recorded_at": "2026-06-15T01:15:00Z",
+      "source": "https://www.theguardian.com/football/2026/jun/14/netherlands-japan-world-cup-match-report",
+      "scoreline": "2:2"
+    },
+    {
+      "match": 11,
+      "stage": "Group E",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "outcome": "home",
+      "recorded_at": "2026-06-15T01:15:00Z",
+      "source": "https://www.espn.in/football/match/_/gameId/760423",
+      "scoreline": "1:0"
     }
   ]
 }

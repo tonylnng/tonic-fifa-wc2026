@@ -1,25 +1,25 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-14T17:27:09Z",
-  "total_evaluated": 4,
+  "last_updated": "2026-06-15T01:29:47Z",
+  "total_evaluated": 7,
   "buckets": [
     {
       "bucket": "<50%",
       "lower": 0.0,
       "upper": 0.5,
       "mid": 0.25,
-      "count": 0,
-      "hit_rate": null,
-      "avg_confidence": null
+      "count": 1,
+      "hit_rate": 0.0,
+      "avg_confidence": 0.42
     },
     {
       "bucket": "50-60%",
       "lower": 0.5,
       "upper": 0.6,
       "mid": 0.55,
-      "count": 0,
-      "hit_rate": null,
-      "avg_confidence": null
+      "count": 1,
+      "hit_rate": 0.0,
+      "avg_confidence": 0.56
     },
     {
       "bucket": "60-70%",
@@ -44,9 +44,9 @@
       "lower": 0.8,
       "upper": 0.9,
       "mid": 0.85,
-      "count": 0,
-      "hit_rate": null,
-      "avg_confidence": null
+      "count": 1,
+      "hit_rate": 1.0,
+      "avg_confidence": 0.89
     },
     {
       "bucket": "90-100%",
@@ -58,8 +58,8 @@
       "avg_confidence": null
     }
   ],
-  "brier_score": 0.3386,
-  "ece": 0.415,
-  "overconfidence": 0.415,
-  "notes": "目前僅 4 場樣本，校準結果僅供參考，樣本越多越可靠。"
+  "brier_score": 0.2455,
+  "ece": 0.3929,
+  "overconfidence": 0.3614,
+  "notes": "已評估 7 場：AI 平均信心高於實際命中率約 36 個百分點，呈現過度自信傾向。"
 }
