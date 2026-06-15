@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-15T01:29:47Z",
-  "total_matches_scored": 7,
+  "last_updated": "2026-06-15T09:16:33Z",
+  "total_matches_scored": 8,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -16,42 +16,42 @@
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 3,
-      "outcome_correct": 2,
-      "outcome_accuracy": 0.6667,
+      "evaluated": 4,
+      "outcome_correct": 3,
+      "outcome_accuracy": 0.75,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.1982
+      "brier_score": 0.1847
     },
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 3,
-      "outcome_correct": 2,
-      "outcome_accuracy": 0.6667,
+      "evaluated": 4,
+      "outcome_correct": 3,
+      "outcome_accuracy": 0.75,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.245
+      "brier_score": 0.2238
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 3,
-      "outcome_correct": 1,
-      "outcome_accuracy": 0.3333,
+      "evaluated": 4,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.5,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.1731
+      "brier_score": 0.2055
     },
     {
       "source": "AI（本站 Opus）",
       "kind": "ai",
-      "evaluated": 7,
-      "outcome_correct": 2,
-      "outcome_accuracy": 0.2857,
+      "evaluated": 8,
+      "outcome_correct": 3,
+      "outcome_accuracy": 0.375,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.2455
+      "brier_score": 0.2436
     },
     {
       "source": "博彩隱含機率",

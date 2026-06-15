@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-15T01:18:57Z",
+  "last_updated": "2026-06-15T09:08:19Z",
   "postmortems": [
     {
       "match": 5,
@@ -171,6 +171,30 @@
       ],
       "vs_benchmarks": "第三方 AI 出現分歧（MiniMax 2:1、Qwen 1:2、DeepSeek 1:1），本站與 DeepSeek 同採 1:1 共識；沒有任何模型預見象牙海岸 1:0 的讀秒絕殺，反映這確實是一場連博彩與超級電腦都判為『擲銅板』的對決。",
       "generated_at": "2026-06-15T01:18:57Z"
+    },
+    {
+      "match": 12,
+      "home": "Sweden",
+      "away": "Tunisia",
+      "stage": "Group F",
+      "predicted": "1:0",
+      "predicted_outcome": "home",
+      "final": "5:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-15T0855Z",
+      "model": "claude-opus-4.8",
+      "headline": "勝負方向命中、比分嚴重低估：瑞典火力遠超盤口共識的 5:1 大勝",
+      "review": "本站於 0855Z 批次預測瑞典 1:0 小勝（主勝信心 0.57，win_prob 主 0.52／和 0.26／客 0.22），與 Opta（瑞 51.1%）、Dimers（50.8%）、Kalshi/Polymarket（約 51-52%）及主流博彩（瑞 -110/-115）高度一致——全體共識都把此役定調為「低比分、2.5 球以下的瑞典小勝」，最熱比分正是 1:0。實際走勢前半場一度只是 2:1 的拉鋸（Tunisia 由 Rekik 43' 追回一球），符合賽前『勢均、低比分』的輿論基調；但下半場瑞典連入三球完全失控於共識之外，最終 5:1 大勝。Ayari 梅開二度（7'、90+6'），Isak（30'）、Gyökeres（59'）、Svanberg（84'）先後破門，Isak 另有兩次助攻。這是瑞典自 1938 年以來首度在世界盃單場攻入五球。勝負方向（主勝）命中，但主預測與所有公開基準線一樣把進球數壓得太低，比分與大小球方向（賽前一致看 under 2.5，實際 6 球 over）皆失準。",
+      "lessons": [
+        "當雙前鋒（Isak＋Gyökeres）皆為頂級射手且對手後防深度不足時，模型與盤口的『低比分小勝』共識存在系統性低估上檔的傾向，應在 top_scorelines 給 3:0／4:1 等大勝情境更高權重。",
+        "前半場 2:1 的拉鋸並不代表全場走向；對防線單薄的非種子隊，應預留『下半場崩盤、淨勝球擴大』的尾部風險。",
+        "本場再次印證：當 AI 與博彩、超級電腦完全同調時，命中的是勝負方向，但比分／大小球的極端結果往往是共識集體失準之處。"
+      ],
+      "vs_benchmarks": "本站 Opus 與 Opta、Dimers、Kalshi/Polymarket、博彩盤口在此役幾乎完全同調（皆 1:0 主勝、under 2.5），因此在『勝負方向』上與基準線同步命中、在『比分與大小球』上與基準線同步失準——沒有任何一條公開基準線預見 5:1。本站未因此落後於對照基準，但也未能展現超越共識的洞察。",
+      "generated_at": "2026-06-15T09:08:19Z"
     }
   ]
 }

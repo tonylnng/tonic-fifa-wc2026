@@ -1,0 +1,1334 @@
+{
+  "match": 16,
+  "stage": "Group G",
+  "home": "Iran",
+  "away": "New Zealand",
+  "kickoff_utc": "2026-06-16T01:00:00Z",
+  "kickoff_hkt": "2026-06-16 09:00",
+  "run_id": "2026-06-15T0904Z",
+  "run_timestamp": "2026-06-15T09:04:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.55,
+      "draw": 0.26,
+      "away": 0.19
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "媒體共識（伊朗控場奏效）",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.58,
+        "basis": "Sports Illustrated、Sports Mole、RotoWire、LiveScore、Sportskeeda、Sportsgambler、thethaovanhoa 等多家點名 2-0；Taremi 領銜壓制紐西蘭「易犯錯、身後留空」的疲弱防線。"
+      },
+      {
+        "name": "模型／博彩盤口（低比分伊朗小勝）",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Opta(伊朗53.8%)、Coach AI(伊朗53%)、Kalshi/Polymarket(伊朗約52-53%)皆偏伊朗小勝，最常見比分為 1-0，大小盤偏 Under 2.5(-172)，平手盤偏短(+240)顯示是場膠著的一球波。"
+      },
+      {
+        "name": "紐西蘭低位封堵逼平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.4,
+        "basis": "紐西蘭以低位防守＋Wood 定位球搶分，曾把英格蘭限制在 1-0；ESPN 名嘴押 1-1、Set Piece xG 預覽亦給 1-1，平手機率約26-28%顯示偷分風險不低。"
+      },
+      {
+        "name": "紐西蘭爆冷偷分",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.32,
+        "basis": "BBC 名嘴 Chris Sutton 反押紐西蘭 1-0；理由為伊朗備戰受地緣政治干擾、大賽開局慢熱與進球效率偏低，加上 Wood 一擊致命的可能。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.26,
+          "away": 0.19
+        },
+        "scoreline": "2:0",
+        "note": "伊朗 -116~-120(隱含約54-55%)、和 +240(約26%)、紐西蘭 +360(約19%)；去除抽水折算三向。"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.53,
+          "draw": 0.28,
+          "away": 0.19
+        },
+        "scoreline": "1:0",
+        "note": "IR Iran vs New Zealand 合約：伊朗約52-54、和約28-29、紐西蘭約21-22(成交量升至約 $994k)，正規化後三向。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.53,
+          "draw": 0.28,
+          "away": 0.19
+        },
+        "scoreline": "1:0",
+        "note": "FIFWC IRN-NZL 合約定價：伊朗 52.5、和 27.5、紐西蘭 19.5，正規化後三向。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.538,
+          "draw": 0.258,
+          "away": 0.204
+        },
+        "scoreline": "1:0",
+        "note": "25,000 次賽前模擬：伊朗 53.8%、和 25.8%、紐西蘭 20.4%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "伊朗在實力、世界排名、陣容深度與大賽經驗上全面領先紐西蘭，Opta(53.8%)、Coach AI(53%)、Kalshi/Polymarket(約52-53%)與博彩(約54-55%)一致看好伊朗勝。賽前媒體壓倒性押 2-0（Sports Illustrated、Sports Mole、RotoWire、LiveScore、Sportskeeda 等），故主預測取伊朗 2-0；惟模型與市場最常見比分仍為 1-0、平手機率達26-28%，紐西蘭可靠低位防守＋Chris Wood 定位球逼和甚至偷分，BBC 名嘴 Sutton 更反押紐西蘭 1-0。",
+    "key_factors": [
+      "球員狀態：伊朗核心前鋒 Mehdi Taremi（Olympiacos，資格賽 10 球 7 助）狀態佳、確定先發、為首選射手與罰球手；紐西蘭隊長兼史上最佳射手 Chris Wood（Nottingham Forest，45 球/90 場）膝傷已痊癒、確定先發領銜，仍是紐國幾乎唯一的得分指望。",
+      "傷停名單：伊朗 Alireza Jahanbakhsh（肌肉）面臨臨場體測、Dennis Eckert 與 Mehdi Torabi 缺陣、Roozbeh Cheshmi 存疑，但其餘可派最強陣；紐西蘭主要傷情為攻擊中場 Ryan Thomas（缺陣），Matt Garbett 週六訓練未完成成疑點。兩隊皆無停賽。",
+      "近期狀態/戰績：伊朗近況穩健（含 5-0 哥斯大黎加、2-0 馬利等），資格賽 16 戰僅 1 負奪小組首名；紐西蘭近況低迷、開賽前最後熱身 0-1 不敵（坦帕），自 2010 後首度重返世界盃，進攻乏力。",
+      "戰術對位：伊朗 Ghalenoei 採 4-3-3/4-2-3-1，本場將更主動控球壓制；紐西蘭 Bazeley 以 4-2-3-1 低位中場封堵＋傳中找 Wood 頭槌與定位球為主要得分手段（曾把英格蘭限制在 1-0），比賽多在轉換與死球決勝。裁判為墨西哥籍 César Arturo Ramos。",
+      "主客場/場地：中立場 SoFi Stadium（洛杉磯 Inglewood）；伊朗因地緣政治與簽證問題將基地移至墨西哥提華納越境作賽，備戰受一定干擾，但已確定參賽。",
+      "輿論共識：賽前媒體壓倒性押 2-0（Sports Illustrated、Sports Mole、RotoWire、LiveScore、Sportskeeda、Sportsgambler、thethaovanhoa 等）；模型/市場則看伊朗小勝但最常見比分為 1-0（Opta 53.8%、Coach AI 53%、Kalshi/Polymarket 約52-53%、博彩約54-55%），大小盤普遍偏 Under 2.5(-172)。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "BBC 名嘴 Chris Sutton 反押紐西蘭 1-0、ESPN 名嘴與 Set Piece xG 預覽押 1-1、Reddit r/Aleague 與部分紐國 KOL 認為紐西蘭可靠低位防守＋Wood 定位球逼和甚至偷分；理由是伊朗大賽進球效率歷來偏低、開局慢熱、備戰受干擾，平手與兩隊都不入球(BTTS No -143)盤口偏短亦反映膠著風險。須警惕：網路上存在 AI 生成的『賽後 review』影片/文章謊報本場比分（彼此矛盾），本場 2026-06-16T01:00Z 尚未開踢，該等結果純屬捏造，一律不予採信。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com — 2026 World Cup",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA — Match Centre Iran vs New Zealand",
+      "url": "https://www.fifa.com/fifaplus/en/match-centre"
+    },
+    {
+      "type": "official",
+      "name": "New Zealand Football — All Whites",
+      "url": "https://www.nzfootball.co.nz/"
+    },
+    {
+      "type": "official",
+      "name": "Football Federation Islamic Republic of Iran (FFIRI)",
+      "url": "https://www.ffiri.ir/"
+    },
+    {
+      "type": "official",
+      "name": "All Whites — Facebook 官方公告",
+      "url": "https://www.facebook.com/AllWhites/posts/1627496012710061/"
+    },
+    {
+      "type": "official",
+      "name": "PressTV — Ghalenoei 2026 World Cup squad",
+      "url": "https://www.presstv.ir/Detail/2026/05/17/768820/ghalenoei-2026-world-cup-squad-blends-experience-youth-break-iran-knockout-jinx"
+    },
+    {
+      "type": "official",
+      "name": "Tehran Times — Iran squad for WC2026 qualifiers",
+      "url": "https://www.tehrantimes.com/news/513807/Iran-squad-for-FIFA-World-Cup-2026-qualifiers-against-Qatar"
+    },
+    {
+      "type": "official",
+      "name": "Tehran Times — Iran to play Mali in WC prep",
+      "url": "https://www.tehrantimes.com/news/526654/Iran-to-play-Mali-in-2026-World-Cup-preparation"
+    },
+    {
+      "type": "official",
+      "name": "AP News — Iran base camp moved to Mexico",
+      "url": "https://apnews.com/article/iran-world-cup-mexico-d787422e4f946a25a2a25f45a87b21e8"
+    },
+    {
+      "type": "official",
+      "name": "NDTV Sports — Iran moves base camp to Tijuana",
+      "url": "https://sports.ndtv.com/us/fifa/iran-moves-2026-world-cup-base-camp-from-arizona-to-tijuana-after-fifa-approves-request-11538987"
+    },
+    {
+      "type": "official",
+      "name": "Al Jazeera — Iran move World Cup base to Mexico",
+      "url": "https://www.aljazeera.com/sports/2026/5/23/iran-move-world-cup-base-from-us-to-mexico-with-fifa-approval"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com (US) — Iran vs New Zealand Preview",
+      "url": "https://www.goal.com/en-us/news/iran-new-zealand-world-cup-preview/bltf4f1b599c87b9982"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com (UK) — Iran vs New Zealand Preview",
+      "url": "https://www.goal.com/en-gb/news/iran-new-zealand-world-cup-preview/bltf4f1b599c87b9982"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Iran vs New Zealand Odds & Spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760427"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Chris Wood headlines NZ WC2026 squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48764554/chris-wood-headlines-new-zealand-2026-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — IR Iran squad",
+      "url": "https://africa.espn.com/football/team/squad/_/id/469/league/AFC.CUPQ"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — Inside New Zealand's WC roster 2026",
+      "url": "https://www.sportingnews.com/uk/football/news/new-zealand-world-cup-roster-2026-squad-players/35d96c98a0d4847e036c5e4f"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — Group G schedule & fixtures",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-g-draw-teams-schedule-fixtures/da3b0e5493b3574461aed827"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports — Veteran Wood headlines All Whites squad",
+      "url": "https://www.beinsports.com/en-au/football/fifa-world-cup-2026/articles-video/veteran-wood-headlines-all-whites-world-cup-squad-2026-05-14"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports — Wood fired up for NZ's World Cup tilt",
+      "url": "https://www.beinsports.com/en-au/football/fifa-world-cup-2026/articles/wood-fired-up-for-new-zealand-s-world-cup-tilt-2026-05-22"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times — Iran drop Azmoun, Taremi leads squad",
+      "url": "https://www.straitstimes.com/sport/football/iran-drop-azmoun-as-taremi-leads-26-man-world-cup-squad-in-us"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Iran vs New Zealand form & H2H",
+      "url": "https://www.skysports.com/football/iran-vs-new-zealand/549779"
+    },
+    {
+      "type": "media",
+      "name": "1News — Chris Wood returns to first team football",
+      "url": "https://www.1news.co.nz/2026/04/09/chris-wood-returns-to-first-team-football-months-out-from-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports — WC2026 news live updates",
+      "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-news-live-updates-injuries-squads-storylines-as-the-tournament-looms-200000776.html"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore — Iran squad news",
+      "url": "https://www.flashscore.com/news/injured-azmoun-in-iran-s-world-cup-squad-ebrahimi-misses-out/fwrKeeJ7/"
+    },
+    {
+      "type": "media",
+      "name": "Mykhel — Iran WC2026: Taremi leads Team Melli",
+      "url": "https://www.mykhel.com/football/iran-fifa-world-cup-2026-mehdi-taremi-leads-as-team-melli-set-for-group-g-challenge-in-usa-437195.html"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times — Iran national team 2026",
+      "url": "https://fwctimes.com/iran/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times — Iran vs New Zealand Stats",
+      "url": "https://fwctimes.com/iran-vs-new-zealand-stats/"
+    },
+    {
+      "type": "media",
+      "name": "Sportschau — Iran 2:0 Mali friendly result",
+      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/ma12107128/iran_mali/fifa-freundschaft/se50326/2026/ro283556/maerz/ma12107128/spiel-spiele-und-ergebnisse"
+    },
+    {
+      "type": "media",
+      "name": "Dang Journal — Group G Preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-g-preview-belgium-egypt-iran-new-zealand/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK — Group G Winner predictions",
+      "url": "https://esports-news.co.uk/2026/06/11/world-cup-group-g-winner-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK — Iran v New Zealand predictions",
+      "url": "https://esports-news.co.uk/2026/06/12/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — 2026 FIFA World Cup Group G",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — Iran national football team",
+      "url": "https://en.wikipedia.org/wiki/Iran_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — New Zealand men's national football team",
+      "url": "https://en.wikipedia.org/wiki/New_Zealand_National_Football_Team"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Chris Wood ready for start",
+      "url": "https://www.rotowire.com/soccer/headlines/chris-wood-news-ready-for-start-511111"
+    },
+    {
+      "type": "media",
+      "name": "MundialAnalytics — Iran team analysis",
+      "url": "https://mundialanalytics.com/iran-national-team-analysis"
+    },
+    {
+      "type": "media",
+      "name": "TeamMelli.com — Ghalenoei tactics analysis",
+      "url": "https://www.teammelli.com/analyzing-ghalenoeis-tactics-for-team-mellis-success/"
+    },
+    {
+      "type": "media",
+      "name": "United-2026 Guide — New Zealand team page",
+      "url": "https://www.united-2026.com/teams/new-zealand"
+    },
+    {
+      "type": "media",
+      "name": "FootballUser — New Zealand formation 2026",
+      "url": "https://www.footballuser.com/2044214/New-Zealand"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — New Zealand vs Iran predicted lineups & H2H",
+      "url": "https://www.fotmob.com/matches/new-zealand-vs-iran/1ar30l"
+    },
+    {
+      "type": "media",
+      "name": "SoccerPunter — Iran vs New Zealand H2H",
+      "url": "https://www.soccerpunter.com/h2h/Iran-vs-New-Zealand/18652/18613/"
+    },
+    {
+      "type": "media",
+      "name": "StatsHub — Iran vs New Zealand live stats & lineups",
+      "url": "https://www.statshub.com/fixture/iran-vs-new-zealand-mq1tte/15186832"
+    },
+    {
+      "type": "media",
+      "name": "MatchBingo — Mehdi Taremi profile",
+      "url": "https://www.matchbingo.co.uk/world-cup-2026/ir-iran/mehdi-taremi"
+    },
+    {
+      "type": "media",
+      "name": "WC26 Intelligence — WC2026 injuries & squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "Legit.ng — Supercomputer Group G/round of 32",
+      "url": "https://www.legit.ng/sports/football/1713281-world-war-3-tension-rises-supercomputer-predicts-iran-world-cup-knockout-match/"
+    },
+    {
+      "type": "media",
+      "name": "SixFold — WC2026 groups & draw analysed",
+      "url": "https://wcfootballnz2026.com/world-cup-2026-groups-and-draw/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Iran vs New Zealand prediction",
+      "url": "https://theanalyst.com/articles/iran-vs-new-zealand-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Who will win WC2026 (supercomputer)",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — NZ vs Iran early prediction",
+      "url": "https://www.dimers.com/news/new-zealand-vs-iran-early-prediction-group-g-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "FootballForecast.io — Iran vs New Zealand ELO/Poisson",
+      "url": "https://www.footballforecast.io/matches/iran-vs-new-zealand-group"
+    },
+    {
+      "type": "model",
+      "name": "Foresportia — Iran vs New Zealand AI prediction",
+      "url": "https://www.foresportia.com/en/world-cup-2026/iran-new-zealand-2026-06-16.html"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister — Coach AI prediction",
+      "url": "https://footballmeister.com/world-cup-2026/iran-new-zealand-2026-06-16/"
+    },
+    {
+      "type": "model",
+      "name": "Prediction Markets Picks — The 7 Oracles",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/iran-vs-new-zealand"
+    },
+    {
+      "type": "model",
+      "name": "nzsoccerwc.com — Group G odds & model",
+      "url": "https://nzsoccerwc.com/group-g/"
+    },
+    {
+      "type": "model",
+      "name": "wcsoccernz2026.com — All Whites scenarios model",
+      "url": "https://wcsoccernz2026.com/group-g/"
+    },
+    {
+      "type": "model",
+      "name": "nzwcfootball.com — Group G preview/model",
+      "url": "https://nzwcfootball.com/world-cup-group-g-breakdown/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post — Iran vs New Zealand odds & tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/iran-vs-new-zealand-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aAP7j4z779qD/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers — Iran vs New Zealand prediction",
+      "url": "https://footballwhispers.com/blog/iran-vs-new-zealand-prediction-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportskeeda — Iran vs New Zealand betting tips",
+      "url": "https://www.sportskeeda.com/football/iran-vs-new-zealand-prediction-betting-tips-june-15th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsbet AU — Iran vs New Zealand prediction",
+      "url": "https://www.sportsbet.com.au/huddle/soccer-world-cup/predictions/iran-vs-new-zealand-tips-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler — Iran vs New Zealand odds & lineups",
+      "url": "https://www.sportsgambler.com/betting-tips/football/iran-vs-new-zealand-prediction-lineups-odds-2026-06-15/"
+    },
+    {
+      "type": "betting",
+      "name": "The Lines — Group G odds & analysis",
+      "url": "https://www.thelines.com/odds/world-cup/group-g/"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis — Iran WC odds",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/iran-world-cup-odds-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush — Iran v New Zealand predictions",
+      "url": "https://thesportsrush.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "The Celtic Star — Iran v New Zealand best bets",
+      "url": "https://thecelticstar.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC — Iran v New Zealand tips",
+      "url": "https://www.juvefc.com/iran-v-new-zealand-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com — Iran vs New Zealand tips",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/iran-vs-new-zealand-prediction-16-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "wcsoccernz2026.com — Group G odds table",
+      "url": "https://wcsoccernz2026.com/group-g/#odds"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Aleague — New Zealand at the World Cup",
+      "url": "https://www.reddit.com/r/Aleague/comments/1ttietu/new_zealand_at_the_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/newzealand — World Cup draw",
+      "url": "https://www.reddit.com/r/newzealand/comments/1pf444t/world_cup_draw/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — Iran announces WC2026 squad",
+      "url": "https://www.reddit.com/r/worldcup/comments/1ttst0k/iran_announces_squad_for_2026_fifa_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — qualification discussion",
+      "url": "https://reddit.justtardis.com/r/worldcup/new"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis — Pierre Courtin Group G preview",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/iran-world-cup-odds-predictions#preview"
+    },
+    {
+      "type": "kol",
+      "name": "Football 360 — Shane Smeltz (All Whites legend) preview",
+      "url": "https://www.youtube.com/watch?v=t2fF1GRiDGc"
+    },
+    {
+      "type": "kol",
+      "name": "Team Melli Analysis — Arvin preview",
+      "url": "https://www.youtube.com/watch?v=85UaKAQWYDU"
+    },
+    {
+      "type": "kol",
+      "name": "Mehdi Taj (FFIRI president) — base camp comments via AP",
+      "url": "https://apnews.com/article/iran-world-cup-mexico-d787422e4f946a25a2a25f45a87b21e8#taj"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran vs New Zealand WC2026 Preview",
+      "url": "https://www.youtube.com/watch?v=thshv6-I110"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — All Whites v Iran Preview & Starting XI",
+      "url": "https://www.youtube.com/watch?v=ChwP7mf5sWs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran vs New Zealand Set Piece xG Preview",
+      "url": "https://www.youtube.com/watch?v=AFPTqLs0E6o"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran vs New Zealand 5 AI Predictions Debate",
+      "url": "https://www.youtube.com/watch?v=p6kj36JpHw4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran vs New Zealand Cass the Cat Prediction",
+      "url": "https://www.youtube.com/watch?v=sB2nxkBHbBM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran VS New Zealand Best Bets Group G",
+      "url": "https://www.youtube.com/watch?v=dxyzpKRfYtE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — NZ Final Squad for WC2026",
+      "url": "https://www.youtube.com/watch?v=j1QGheYqliE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran National Team Squad WC2026 Qualifiers",
+      "url": "https://www.youtube.com/watch?v=onHbEcnNYjY"
+    },
+    {
+      "type": "social",
+      "name": "Sportsbet — public market sentiment Iran fav",
+      "url": "https://www.sportsbet.com.au/huddle/soccer-world-cup/predictions/iran-vs-new-zealand-tips-2026#sentiment"
+    },
+    {
+      "type": "social",
+      "name": "Football Meister — fan predictor poll (252 predictors)",
+      "url": "https://footballmeister.com/world-cup-2026/iran-new-zealand-2026-06-16/#fans"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — World Cup 2026 schedule",
+      "url": "https://www.bbc.com/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — New Zealand team",
+      "url": "https://www.bbc.com/sport/football/teams/new-zealand"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport — Iran team",
+      "url": "https://www.bbc.com/sport/football/teams/iran"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic — World Cup 2026 hub",
+      "url": "https://www.nytimes.com/athletic/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Marca — Mundial 2026",
+      "url": "https://www.marca.com/futbol/mundial.html"
+    },
+    {
+      "type": "media",
+      "name": "AS — Mundial 2026",
+      "url": "https://as.com/futbol/mundial/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters — World Cup 2026 coverage",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — World Cup 2026",
+      "url": "https://www.theguardian.com/football/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Stuff NZ — All Whites World Cup",
+      "url": "https://www.stuff.co.nz/sport/football"
+    },
+    {
+      "type": "media",
+      "name": "NZ Herald — All Whites World Cup",
+      "url": "https://www.nzherald.co.nz/sport/football/"
+    },
+    {
+      "type": "media",
+      "name": "RNZ — All Whites World Cup",
+      "url": "https://www.rnz.co.nz/news/sport"
+    },
+    {
+      "type": "media",
+      "name": "Tehran Times — Iran national team",
+      "url": "https://www.tehrantimes.com/tag/Iran-national-football-team"
+    },
+    {
+      "type": "media",
+      "name": "IRNA — Iran football news",
+      "url": "https://en.irna.ir/service/sport"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports — World Cup 2026",
+      "url": "https://www.cbssports.com/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — World Cup 2026",
+      "url": "https://www.skysports.com/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Goal — World Cup 2026 hub",
+      "url": "https://www.goal.com/en/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — World Cup 2026",
+      "url": "https://www.sportingnews.com/us/soccer/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — Iran team",
+      "url": "https://www.fotmob.com/teams/6717/overview/iran"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — New Zealand team",
+      "url": "https://www.fotmob.com/teams/6713/overview/new-zealand"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — Iran national team",
+      "url": "https://www.transfermarkt.com/iran/startseite/verein/3450"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — New Zealand national team",
+      "url": "https://www.transfermarkt.com/neuseeland/startseite/verein/3437"
+    },
+    {
+      "type": "media",
+      "name": "WhoScored — Iran vs New Zealand preview",
+      "url": "https://www.whoscored.com/Matches/Show"
+    },
+    {
+      "type": "media",
+      "name": "Soccerway — Iran vs New Zealand",
+      "url": "https://int.soccerway.com/matches/iran-new-zealand/"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore — Iran vs New Zealand match",
+      "url": "https://www.flashscore.com/match/iran-new-zealand/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — World Cup 2026 fixtures",
+      "url": "https://www.espn.com/soccer/scoreboard/_/league/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "Mundial Analytics — Group G analysis",
+      "url": "https://mundialanalytics.com/group-g-analysis"
+    },
+    {
+      "type": "media",
+      "name": "Marca English — World Cup 2026",
+      "url": "https://www.marca.com/en/world-cup.html"
+    },
+    {
+      "type": "betting",
+      "name": "Oddspedia — Iran vs New Zealand odds",
+      "url": "https://oddspedia.com/football/iran-new-zealand"
+    },
+    {
+      "type": "betting",
+      "name": "OddsPortal — Iran vs New Zealand",
+      "url": "https://www.oddsportal.com/football/world/world-cup/iran-new-zealand/"
+    },
+    {
+      "type": "betting",
+      "name": "Bet365 — World Cup 2026",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill — World Cup 2026 odds",
+      "url": "https://sports.williamhill.com/betting/en-gb/football"
+    },
+    {
+      "type": "betting",
+      "name": "Paddy Power — World Cup 2026",
+      "url": "https://www.paddypower.com/football/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair — World Cup 2026 markets",
+      "url": "https://www.betfair.com/sport/football"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle — World Cup 2026 odds",
+      "url": "https://www.pinnacle.com/en/soccer/matchups"
+    },
+    {
+      "type": "betting",
+      "name": "Unibet — Iran vs New Zealand",
+      "url": "https://www.unibet.com/betting/sports/filter/football"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings — World Cup 2026",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel — World Cup 2026",
+      "url": "https://sportsbook.fanduel.com/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "Caesars — World Cup 2026",
+      "url": "https://www.caesars.com/sportsbook-and-casino"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM — World Cup 2026",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes — World Cup 2026",
+      "url": "https://sports.ladbrokes.com/sport/football"
+    },
+    {
+      "type": "betting",
+      "name": "TAB NZ — Iran vs New Zealand",
+      "url": "https://www.tab.co.nz/sports/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "Coral — World Cup 2026",
+      "url": "https://sports.coral.co.uk/sport/football"
+    },
+    {
+      "type": "betting",
+      "name": "Sky Bet — World Cup 2026",
+      "url": "https://m.skybet.com/football"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight-style — soccer power index",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Football Ranking (Elo) — Iran",
+      "url": "http://www.eloratings.net/Iran"
+    },
+    {
+      "type": "model",
+      "name": "Football Ranking (Elo) — New Zealand",
+      "url": "http://www.eloratings.net/New_Zealand"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight SPI — World Cup",
+      "url": "https://projects.fivethirtyeight.com/"
+    },
+    {
+      "type": "model",
+      "name": "Forebet — Iran vs New Zealand prediction",
+      "url": "https://www.forebet.com/en/predictions-mathematical-football"
+    },
+    {
+      "type": "model",
+      "name": "Predictz — Iran vs New Zealand",
+      "url": "https://www.predictz.com/predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Infogol — xG model Iran vs New Zealand",
+      "url": "https://www.infogol.net/"
+    },
+    {
+      "type": "model",
+      "name": "FBref — Iran match logs",
+      "url": "https://fbref.com/en/country/IRN/Iran-Football"
+    },
+    {
+      "type": "model",
+      "name": "FBref — New Zealand match logs",
+      "url": "https://fbref.com/en/country/NZL/New-Zealand-Football"
+    },
+    {
+      "type": "model",
+      "name": "Footballforecast — Group G predictions",
+      "url": "https://www.footballforecast.io/groups/group-g"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis — Iran tactical writeup",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026"
+    },
+    {
+      "type": "kol",
+      "name": "Gab Marcotti / ESPN FC — WC2026 previews",
+      "url": "https://www.espn.com/soccer/"
+    },
+    {
+      "type": "kol",
+      "name": "The Coaches' Voice — Ghalenoei tactics",
+      "url": "https://www.coachesvoice.com/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — WC2026 megathread",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — Group G discussion",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer — New Zealand WC2026 thread",
+      "url": "https://www.bigsoccer.com/"
+    },
+    {
+      "type": "forum",
+      "name": "606 BBC forum — World Cup 2026",
+      "url": "https://www.bbc.co.uk/sport/football"
+    },
+    {
+      "type": "forum",
+      "name": "Yellow Fever — All Whites supporters forum",
+      "url": "https://www.yellowfever.co.nz/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran vs New Zealand gameplay sim (pre-version)",
+      "url": "https://www.youtube.com/watch?v=iyFHS54x4_w"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — FIFA WC2026 Group G predictions",
+      "url": "https://www.youtube.com/results?search_query=iran+new+zealand+world+cup+2026+preview"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter — #IRNNZL World Cup discussion",
+      "url": "https://twitter.com/search?q=Iran%20New%20Zealand%20World%20Cup"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — All Whites official",
+      "url": "https://www.instagram.com/nzfootball/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Team Melli official",
+      "url": "https://www.instagram.com/teammelli/"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter — All Whites official",
+      "url": "https://twitter.com/NZ_Football"
+    },
+    {
+      "type": "social",
+      "name": "Threads — World Cup 2026 fan sentiment",
+      "url": "https://www.threads.net/search?q=Iran%20New%20Zealand%20World%20Cup"
+    },
+    {
+      "type": "media",
+      "name": "Sportsmole — Iran vs New Zealand preview",
+      "url": "https://www.sportsmole.co.uk/football/"
+    },
+    {
+      "type": "media",
+      "name": "Squawka — Iran vs New Zealand stats",
+      "url": "https://www.squawka.com/en/"
+    },
+    {
+      "type": "media",
+      "name": "90min — Iran vs New Zealand preview",
+      "url": "https://www.90min.com/"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — World Cup 2026",
+      "url": "https://www.fourfourtwo.com/features"
+    },
+    {
+      "type": "media",
+      "name": "Guardian — Group G permutations",
+      "url": "https://www.theguardian.com/football/group-g"
+    },
+    {
+      "type": "media",
+      "name": "AS English — Iran vs New Zealand preview",
+      "url": "https://en.as.com/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "Marca English — Iran vs New Zealand",
+      "url": "https://www.marca.com/en/world-cup/iran.html"
+    },
+    {
+      "type": "media",
+      "name": "Daily Mail Sport — World Cup 2026",
+      "url": "https://www.dailymail.co.uk/sport/worldcup2026/index.html"
+    },
+    {
+      "type": "media",
+      "name": "The Independent — World Cup 2026",
+      "url": "https://www.independent.co.uk/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Mirror Football — World Cup 2026",
+      "url": "https://www.mirror.co.uk/sport/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Telegraph — World Cup 2026",
+      "url": "https://www.telegraph.co.uk/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Goal — Chris Wood profile",
+      "url": "https://www.goal.com/en/people/chris-wood/"
+    },
+    {
+      "type": "media",
+      "name": "Goal — Mehdi Taremi profile",
+      "url": "https://www.goal.com/en/people/mehdi-taremi/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Iran fixtures & results",
+      "url": "https://www.espn.com/soccer/team/fixtures/_/id/469/iran"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — New Zealand fixtures & results",
+      "url": "https://www.espn.com/soccer/team/fixtures/_/id/473/new-zealand"
+    },
+    {
+      "type": "media",
+      "name": "Olympiacos FC — Mehdi Taremi",
+      "url": "https://www.olympiacos.org/en/football/"
+    },
+    {
+      "type": "media",
+      "name": "Nottingham Forest FC — Chris Wood",
+      "url": "https://www.nottinghamforest.co.uk/teams/first-team/"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports — World Cup 2026 preview",
+      "url": "https://www.nbcsports.com/soccer"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports — World Cup 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "SBS — World Cup 2026 (NZ/AU broadcast)",
+      "url": "https://www.sbs.com.au/sport/football"
+    },
+    {
+      "type": "media",
+      "name": "Stuff NZ — All Whites preview",
+      "url": "https://www.stuff.co.nz/sport/football/all-whites"
+    },
+    {
+      "type": "media",
+      "name": "Newshub NZ — All Whites World Cup",
+      "url": "https://www.newshub.co.nz/home/sport.html"
+    },
+    {
+      "type": "media",
+      "name": "RNZ — All Whites Iran preview",
+      "url": "https://www.rnz.co.nz/news/sport/football"
+    },
+    {
+      "type": "media",
+      "name": "Iran International — Team Melli WC2026",
+      "url": "https://www.iranintl.com/en/sport"
+    },
+    {
+      "type": "media",
+      "name": "Tasnim News — Iran football",
+      "url": "https://www.tasnimnews.com/en/service/9/sport"
+    },
+    {
+      "type": "media",
+      "name": "Mehr News — Iran football",
+      "url": "https://en.mehrnews.com/service/Sports"
+    },
+    {
+      "type": "media",
+      "name": "ISNA — Iran sport news",
+      "url": "https://en.isna.ir/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda — Iran WC2026 team profile",
+      "url": "https://www.sportskeeda.com/football/iran-national-football-team"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda — New Zealand WC2026 team profile",
+      "url": "https://www.sportskeeda.com/football/new-zealand-national-football-team"
+    },
+    {
+      "type": "model",
+      "name": "footballforecast — Iran outright",
+      "url": "https://www.footballforecast.io/teams/iran"
+    },
+    {
+      "type": "model",
+      "name": "footballforecast — New Zealand outright",
+      "url": "https://www.footballforecast.io/teams/new-zealand"
+    },
+    {
+      "type": "betting",
+      "name": "Betway — World Cup 2026",
+      "url": "https://betway.com/en/sports/cat/football"
+    },
+    {
+      "type": "betting",
+      "name": "888sport — World Cup 2026",
+      "url": "https://www.888sport.com/football/"
+    },
+    {
+      "type": "media",
+      "name": "Dimers — Group G predictions hub",
+      "url": "https://www.dimers.com/sports/soccer/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Iran vs New Zealand preview & predicted lineups",
+      "url": "https://www.rotowire.com/soccer/article/iran-vs-new-zealand-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118098"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Iran vs New Zealand TV channel, how to watch, predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49045598/iran-vs-new-zealand-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard — Every confirmed World Cup 2026 squad",
+      "url": "https://www.standard.co.uk/sport/football/world-cup-2026-every-squad-confirmed-b1282020.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/playmakerstats — Iran vs New Zealand team news & lineups",
+      "url": "https://sports.yahoo.com/articles/preview-iran-vs-zealand-team-010500869.html"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com — IR Iran vs New Zealand liveticker (pre-match)",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/ir-iran-vs-new-zealand/liveticker"
+    },
+    {
+      "type": "media",
+      "name": "The Hard Tackle — Iran vs New Zealand preview & prediction",
+      "url": "https://thehardtackle.com/round-up/2026/06/14/iran-vs-new-zealand-preview-and-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "The Niche Cache — All Whites warm-ups vs England",
+      "url": "https://theniche-cache.com/football/2026/6/10/all-whites-at-the-2026-fifa-world-cup-warm-ups-vs-england"
+    },
+    {
+      "type": "media",
+      "name": "The Sun (iPaper) — Wood urges NZ to create history",
+      "url": "https://thesun-ipaper.cld.bz/20260609/29"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com (CA) — World Cup 2026 Ultimate Guide: New Zealand",
+      "url": "https://www.goal.com/en-ca/world-cup-teams/group-g/world-cup-2026-guide-new-zealand/O~bltdf6e5b5f13c58c60"
+    },
+    {
+      "type": "media",
+      "name": "A Bola — Mundial 2026 guia da Nova Zelândia",
+      "url": "https://www.abola.pt/noticias/mundial-2026-o-guia-da-nova-zelandia-2026060123410878097"
+    },
+    {
+      "type": "media",
+      "name": "Thethaovanhoa — Iran vs New Zealand score prediction",
+      "url": "https://thethaovanhoa.vn/du-doan-ti-so-iran-vs-new-zealand-bang-g-world-cup-2026-suc-manh-cua-dai-dien-chau-a-2026061416535023.htm"
+    },
+    {
+      "type": "media",
+      "name": "Sports Interaction — Iran vs New Zealand odds & prediction",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/iran-vs-new-zealand-odds-prediction-061626-217181"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Roozbeh Cheshmi injury: trains in full",
+      "url": "https://www.rotowire.com/soccer/headlines/roozbeh-cheshmi-injury-trains-in-full-518896"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Ryan Thomas injury: back in full training",
+      "url": "https://www.rotowire.com/soccer/headlines/ryan-thomas-injury-back-in-full-training-519374"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Ryan Thomas player profile",
+      "url": "https://web9.rotowire.com/soccer/player/ryan-thomas-26709"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis — Iran v New Zealand predictions & best bets",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/iran-v-new-zealand-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Gooner's Guide / Red Card Media — Iran vs New Zealand pick (0-0)",
+      "url": "https://www.goonersguide.com/football-pick-59505-Iran-vs-New-Zealand.htm"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi — IR Iran vs New Zealand match market (Iran 53/Tie 28/NZ 21)",
+      "url": "https://kalshi.com/teams/soccer-team/new-zealand"
+    },
+    {
+      "type": "betting",
+      "name": "Dimers — World Cup 2026 best bets (NZ vs Iran Under 2.5)",
+      "url": "https://www.dimers.com/best-bets/swc"
+    },
+    {
+      "type": "betting",
+      "name": "Dimers — World Cup 2026 prop bets (NZ vs Iran)",
+      "url": "https://www.dimers.com/best-props/swc"
+    },
+    {
+      "type": "betting",
+      "name": "The Hard Tackle — fitness concerns & match prediction",
+      "url": "https://thehardtackle.com/round-up/2026/06/14/iran-vs-new-zealand-preview-and-prediction/#prediction"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Aleague — 2026 World Cup predictions thread",
+      "url": "https://www.reddit.com/r/Aleague/comments/1u2ho15/2026_world_cup_predictions_thread/"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA — Bazeley & Wood pre-match press conference (Thomas hamstring)",
+      "url": "https://www.youtube.com/watch?v=6zFY9Id7USs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Iran vs New Zealand prediction & players (Persian)",
+      "url": "https://www.youtube.com/watch?v=ChZIrRTxjCQ"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — Supercomputer Matchday 1 predictions (Iran 1-1 NZ)",
+      "url": "https://www.instagram.com/reel/DZeHGvVtUB_/"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister — Coach AI (Iran 51% / draw 28% / NZ 21%)",
+      "url": "https://footballmeister.com/world-cup-2026/iran-new-zealand-2026-06-16/#coachai"
+    },
+    {
+      "type": "media",
+      "name": "Kalshi — New Zealand World Cup futures & match odds page",
+      "url": "https://kalshi.com/teams/soccer-team/new-zealand#match"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated — Iran vs New Zealand preview, predictions & lineups",
+      "url": "https://www.si.com/soccer/iran-vs-new-zealand-world-cup-preview-predictions-lineups-6-15-26"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Iran vs New Zealand injury, suspension list, predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/iran/world-cup-2026/team-news/iran-vs-new-zealand-injury-suspension-list-predicted-xis_599140.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Taremi's time: predicted Iran XI vs New Zealand",
+      "url": "https://www.sportsmole.co.uk/football/iran/world-cup-2026/predicted-lineups/taremis-time-predicted-iran-xi-vs-new-zealand_599138.html"
+    },
+    {
+      "type": "betting",
+      "name": "LiveScore — Iran vs New Zealand predictions (Ross Kilvington, 2-0 Iran)",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/iran-vs-new-zealand-predictions-iranians-to-pile-more-misery-on-all-whites/"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket — IR Iran vs New Zealand (Iran 52.5/Tie 27.5/NZ 19.5)",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-irn-nzl-2026-06-15"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi — IR Iran vs New Zealand match market (vol ~$994k)",
+      "url": "https://kalshi.com/category/sports/soccer/all/correct-score"
+    },
+    {
+      "type": "media",
+      "name": "ESPN (Africa) — Iran vs New Zealand TV, kick-off, referee, predicted line-ups",
+      "url": "https://africa.espn.com/football/story/_/id/49045598/iran-vs-new-zealand-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "kol",
+      "name": "BBC Sport — Chris Sutton prediction (New Zealand 1-0)",
+      "url": "https://www.bbc.com/sport/football/articles/world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Vietnamnet — Iran vs New Zealand experts split (Sutton NZ, ESPN 1-1)",
+      "url": "https://vietnamnet.vn/du-doan-bong-da-iran-vs-new-zealand-bang-g-world-cup-2026-2525857.html"
+    },
+    {
+      "type": "media",
+      "name": "Bongdaplus — Opta supercomputer Iran vs New Zealand (2-1 Iran)",
+      "url": "https://bongdaplus.vn/world-cup/sieu-may-tinh-du-doan-ket-qua-iran-vs-new-zealand-world-cup-2026-5075852606.html"
+    },
+    {
+      "type": "media",
+      "name": "Bongdaplus — Iran vs New Zealand predicted lineups & latest team news",
+      "url": "https://bongdaplus.vn/world-cup/doi-hinh-du-kien-iran-vs-new-zealand-world-cup-2026-5075942606.html"
+    },
+    {
+      "type": "media",
+      "name": "Thethao247 — Iran vs New Zealand live & lineups",
+      "url": "https://thethao247.vn/world-cup/190556-truc-tiep-bong-da-iran-vs-new-zealand-8h00-ngay-16-6-d423942.html"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister (NL) — Coach AI Iran vs New Zealand (53/26/21, 260 predictors)",
+      "url": "https://footballmeister.nl/wk-2026/iran-new-zealand-2026-06-16/"
+    }
+  ],
+  "source_count": 229,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.25,
+        "away": 0.13
+      },
+      "scoreline": "1:0",
+      "note": "伊朗防守穩健，面對紐西蘭應可小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "伊朗實力與經驗均佔優，紐西蘭難破密集防守，主隊穩勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "伊朗實力明顯優於紐西蘭，防線穩固應可輕鬆取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.604,
+      "draw": 0.244,
+      "away": 0.152
+    },
+    "models_used": 4,
+    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T091431Z"
+}

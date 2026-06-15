@@ -156,6 +156,20 @@
       "recorded_at": "2026-06-15T01:15:00Z",
       "source": "https://www.espn.in/football/match/_/gameId/760423",
       "scoreline": "1:0"
+    },
+    {
+      "match": 12,
+      "stage": "Group F",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "outcome": "home",
+      "recorded_at": "2026-06-15T09:10:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760424",
+      "scoreline": "5:1"
     }
   ]
 }
