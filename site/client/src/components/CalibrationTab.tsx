@@ -4,8 +4,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
 import { Gauge, Scale, TriangleAlert, Trophy } from "lucide-react";
 import {
-  ComposedChart,
-  Line,
+  ScatterChart,
   Scatter,
   XAxis,
   YAxis,
@@ -50,6 +49,30 @@ function Metric({
   );
 }
 
+/** 自訂 tooltip：只顯示散點（信心分桶）本身的數值，避免與對角線錄位。 */
+function ReliabilityTooltip({ active, payload }: any) {
+  if (!active || !payload || payload.length === 0) return null;
+  // 只取含 bucket 欄位的散點 payload（排除對角線 ideal 系列）
+  const pt = payload.find((p: any) => p?.payload && p.payload.bucket !== undefined)?.payload;
+  if (!pt) return null;
+  return (
+    <div
+      style={{
+        background: "hsl(var(--card))",
+        border: "1px solid hsl(var(--border))",
+        borderRadius: 8,
+        fontSize: 12,
+        padding: "8px 10px",
+      }}
+    >
+      <div style={{ fontWeight: 600, marginBottom: 4 }}>{pt.bucket} 信心區間</div>
+      <div>宣稱信心：{pt.x}%</div>
+      <div>實際命中率：{pt.y}%</div>
+      <div style={{ color: "hsl(var(--muted-foreground))" }}>樣本數：{pt.count} 場</div>
+    </div>
+  );
+}
+
 /** 可靠度圖：x = 宣稱信心，y = 實際命中率；對角線為完美校準。 */
 function ReliabilityChart({ cal }: { cal: CalibrationData }) {
   const points = cal.buckets
@@ -61,10 +84,6 @@ function ReliabilityChart({ cal }: { cal: CalibrationData }) {
       bucket: b.bucket,
     }));
 
-  const ideal = [
-    { x: 0, ideal: 0 },
-    { x: 100, ideal: 100 },
-  ];
 
   return (
     <div className="bg-card border border-card-border rounded-xl p-4">
@@ -81,12 +100,13 @@ function ReliabilityChart({ cal }: { cal: CalibrationData }) {
         </div>
       ) : (
         <ResponsiveContainer width="100%" height={300}>
-          <ComposedChart margin={{ top: 10, right: 16, bottom: 24, left: 0 }}>
+          <ScatterChart margin={{ top: 10, right: 16, bottom: 24, left: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
             <XAxis
               type="number"
               dataKey="x"
               domain={[0, 100]}
+              ticks={[0, 25, 50, 75, 100]}
               tick={{ fontSize: 11 }}
               label={{ value: "宣稱信心 %", position: "bottom", fontSize: 11 }}
             />
@@ -94,36 +114,30 @@ function ReliabilityChart({ cal }: { cal: CalibrationData }) {
               type="number"
               dataKey="y"
               domain={[0, 100]}
+              ticks={[0, 25, 50, 75, 100]}
               tick={{ fontSize: 11 }}
               label={{ value: "命中率 %", angle: -90, position: "insideLeft", fontSize: 11 }}
             />
-            <Tooltip
-              contentStyle={{
-                background: "hsl(var(--card))",
-                border: "1px solid hsl(var(--border))",
-                borderRadius: 8,
-                fontSize: 12,
-              }}
-              formatter={(val: any, name: string) =>
-                name === "ideal" ? [`${val}%`, "完美校準"] : [`${val}%`, "命中率"]
-              }
-              labelFormatter={(l) => `信心 ${l}%`}
-            />
-            <Line
-              data={ideal}
-              dataKey="ideal"
+            {/* 完美校準對角線（參考線，不參與 tooltip） */}
+            <ReferenceLine
+              segment={[
+                { x: 0, y: 0 },
+                { x: 100, y: 100 },
+              ]}
               stroke="hsl(var(--muted-foreground))"
               strokeDasharray="5 5"
-              dot={false}
-              isAnimationActive={false}
+              ifOverflow="extendDomain"
+            />
+            <Tooltip
+              cursor={{ strokeDasharray: "3 3" }}
+              content={<ReliabilityTooltip />}
             />
             <Scatter
               data={points}
-              dataKey="y"
               fill="hsl(var(--chart-2))"
               isAnimationActive={false}
             />
-          </ComposedChart>
+          </ScatterChart>
         </ResponsiveContainer>
       )}
     </div>
