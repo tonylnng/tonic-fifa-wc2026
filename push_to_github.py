@@ -27,6 +27,27 @@ for f in os.listdir(os.path.join(SRC, "predictions")):
     shutil.copy2(os.path.join(SRC, "predictions", f),
                  os.path.join(DST, "predictions", f))
 
+# 1b. 同步前端／後端原始碼（client/server/shared + site 設定檔）。
+#     以往 push_to_github 只同步 data/，導致標題等代碼變更未推到 GitHub。
+#     排除 node_modules / dist / data（data 由上方另行處理）。
+SITE_SRC = os.environ.get("WC_SITE_SRC", "/home/user/workspace/wc2026/site")
+SITE_DST = os.path.join(REPO, "site")
+_IGNORE = shutil.ignore_patterns("node_modules", "dist", "data", ".git")
+if os.path.isdir(SITE_SRC):
+    for sub in ["client", "server", "shared", "script"]:
+        s = os.path.join(SITE_SRC, sub)
+        if os.path.isdir(s):
+            d = os.path.join(SITE_DST, sub)
+            if os.path.isdir(d):
+                shutil.rmtree(d)
+            shutil.copytree(s, d, ignore=_IGNORE)
+    for cfg in ["package.json", "package-lock.json", "tsconfig.json",
+                "vite.config.ts", "tailwind.config.ts", "postcss.config.js",
+                "components.json", "drizzle.config.ts"]:
+        s = os.path.join(SITE_SRC, cfg)
+        if os.path.exists(s):
+            shutil.copy2(s, os.path.join(SITE_DST, cfg))
+
 # 2. git add + 檢查是否有變更
 run(["git", "add", "-A"], cwd=REPO)
 status = run(["git", "status", "--porcelain"], cwd=REPO)
