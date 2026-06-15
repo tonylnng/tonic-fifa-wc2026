@@ -1,0 +1,1071 @@
+{
+  "match": 15,
+  "stage": "Group H",
+  "home": "Saudi Arabia",
+  "away": "Uruguay",
+  "kickoff_utc": "2026-06-15T22:00:00Z",
+  "kickoff_hkt": "2026-06-16 06:00",
+  "run_id": "2026-06-15T1710Z",
+  "run_timestamp": "2026-06-15T17:10:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.14,
+      "draw": 0.22,
+      "away": 0.64
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "媒體與模型共識",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.62,
+        "basis": "Sports Illustrated、TheHardTackle、RotoWire、LiveScore、footyalpha 多家一致看烏拉圭 0-2 客勝；努尼斯下半場破門、比爾沙高位逼搶最終撕開沙特防線。"
+      },
+      {
+        "name": "烏拉圭控場一球小勝",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.55,
+        "basis": "101 Great Goals 預測 0-1、Covers 力推 Under 2.5（烏拉圭近 20 場 15 場 2 球或以下）；烏拉圭後防多人傷缺，料磨一場低比分。"
+      },
+      {
+        "name": "沙特死守逼和",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.42,
+        "basis": "沙特最終熱身 0-0 逼和塞內加爾、防守組織尚可；Opta 給和局約 21-22%，新帥東尼斯可能擺大巴搶分。"
+      },
+      {
+        "name": "沙特反擊偷襲",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.36,
+        "basis": "薩勒姆·杜沙利個人能力與定位球具威脅，烏拉圭因阿勞祖、希梅內斯傷缺後防臨時拼湊，存在被偷襲逼和的劇本（2022 沙特曾爆冷阿根廷）。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.13,
+          "draw": 0.22,
+          "away": 0.65
+        },
+        "outcome": "away",
+        "scoreline": "0:2",
+        "note": "烏拉圭 4/9 至 -212（約 65-68%）、和局 7/2 至 +376、沙特 7/1 至 +733；亞盤掛烏拉圭 -1（-1.5 +138），大小盤偏 Under 2.5。"
+      },
+      {
+        "source": "Opta 超級電腦（賽前 25,000 次模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.148,
+          "draw": 0.214,
+          "away": 0.638
+        },
+        "outcome": "away",
+        "scoreline": "0:2",
+        "note": "Opta 給烏拉圭 63.2-64.7%、和局約 21-22%、沙特 13.9-14.8%；烏拉圭出線率 84.3%、沙特 39.9%。"
+      },
+      {
+        "source": "Football Meister Coach AI 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.11,
+          "draw": 0.24,
+          "away": 0.65
+        },
+        "outcome": "away",
+        "scoreline": "0:2",
+        "note": "Coach AI 給烏拉圭 65%、和局 24%、沙特 11%，257 名預測者中 77% 揀烏拉圭，最常見比分 0-2。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.115,
+          "draw": 0.225,
+          "away": 0.66
+        },
+        "outcome": "away",
+        "scoreline": "0:2",
+        "note": "Polymarket 隱含烏拉圭勝約 66.5%、沙特 11.5%、和局 22.5%；小組賽烏拉圭出線約 79-84%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "沙特阿拉伯於 Group H 開幕戰在邁阿密花園硬石球場（Hard Rock Stadium）對陣烏拉圭，香港時間 6 月 16 日 06:00 開賽。博彩與超級電腦一面倒看好烏拉圭：市場開出烏拉圭 4/9 至 -212（約 65-68%）、和局 7/2、沙特 7/1，Opta 給烏拉圭 63.2-64.7% 勝、Polymarket 隱含 66.5%、Coach AI 65%。烏拉圭中場三人組華維迪、烏加迪、賓坦古質素碾壓，努尼斯領銜鋒線、比爾沙高位逼搶為主軸。惟烏拉圭後防出現多人傷缺：阿勞祖（肌肉傷返回西班牙）、隊長希梅內斯確定缺陣，卡塞利斯、維拿存疑，迪阿拉斯卡耶達本場無法上陣，後防臨時拼湊或影響零封。沙特方面因雷納德四月離任、由東尼斯（Donis）接掌，賽前準備有限、近八場僅一勝（最終熱身 0-0 逼和塞內加爾）。多家媒體共識看烏拉圭 0-2 客勝（SI、TheHardTackle、RotoWire、LiveScore），主預測採此比分，惟因烏拉圭後防傷缺與其進攻效率偏低（近 20 場多數 2 球或以下），維持中等信心並上調和局權重。",
+    "key_factors": [
+      "球員狀態：烏拉圭華維迪（皇馬）領銜中場、努尼斯（生涯 13 球 / 38 場）頂前，賓坦古傷愈狀態回勇；沙特倚重隊長薩勒姆·杜沙利、布拉根與穆薩布·祖韋爾。努尼斯本季缺乏比賽節奏為隱憂。",
+      "傷停名單：烏拉圭後防傷兵眾多——阿勞祖（肌肉傷，已返回西班牙）、隊長希梅內斯確定缺陣，卡塞利斯與維拿存疑，迪阿拉斯卡耶達本場無法上陣；料由華里拿、布安奴/卡塞利斯、奧利維拿頂上。沙特門將阿基迪存疑，餘無重大傷停。",
+      "近期狀態：烏拉圭三月友賽 1-1 戰平英格蘭、0-0 戰平阿爾及利亞，賽前未有正式熱身；沙特新帥東尼斯近八場僅一勝，含 0-4 不敵埃及、2-1 負厄瓜多爾、最終熱身 0-0 逼和塞內加爾。",
+      "戰術對位：比爾沙採高位逼搶與垂直快攻，華維迪後插上、努尼斯走通道為殺著；沙特新帥可能採 4-2-3-1 或 3-4-2-1 低位防守，倚重杜沙利左路與定位球反擊。中場掌控權是勝負關鍵，烏拉圭明顯佔優。",
+      "主客場/場地：硬石球場為中立場、定義上沙特為主隊；邁阿密天氣酷熱（28-30°C）並有雷暴預報，可能拖慢節奏；多家分析（Covers、LiveScore）力推 Under 2.5、烏拉圭零封。",
+      "輿論共識：博彩市場、Opta（63.2-64.7%）、Polymarket（66.5%）、Coach AI（65%）、SI（0-2）、TheHardTackle（0-2）、RotoWire（0-2）一面倒看烏拉圭客勝，最常見比分 0-2 / 0-1；反方僅見沙特死守逼和或定位球偷襲的小機率劇本。"
+    ],
+    "consensus_lean": "away",
+    "dissent": "烏拉圭後防因阿勞祖、希梅內斯傷缺臨時拼湊，加上努尼斯缺乏比賽節奏、球隊近 20 場多數僅入 2 球或以下、賽前未有正式熱身，進攻效率與後防穩定性同存疑；沙特最終熱身 0-0 逼和塞內加爾顯示防守組織尚可，加上 2022 曾爆冷擊敗阿根廷的前科，具備死守逼和甚至定位球偷襲的劇本，和局與爆冷合計機率不容完全忽視。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026 Group H",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com - Match Centre Saudi Arabia vs Uruguay",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "Saudi Professional League - Donis announces Saudi Arabia 2026 World Cup squad",
+      "url": "https://www.spl.com.sa/en/news/1069913/donis-announces-saudi-arabias-2026-world-cup-squad"
+    },
+    {
+      "type": "official",
+      "name": "beIN Sports - Georgios Donis official Saudi Arabia squad for 2026 World Cup",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/georgios-donis-official-saudi-arabia-squad-for-the-2026-fifa-world-cup-2026-06-01"
+    },
+    {
+      "type": "official",
+      "name": "AUF - Uruguay official site (national team)",
+      "url": "https://www.auf.org.uy/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com - Uruguay team profile WC2026",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/uruguay"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com - Saudi Arabia team profile WC2026",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/saudi-arabia"
+    },
+    {
+      "type": "official",
+      "name": "FourFourTwo - Uruguay World Cup 2026 squad (Bielsa)",
+      "url": "https://www.fourfourtwo.com/features/uruguay-world-cup-2026-squad"
+    },
+    {
+      "type": "official",
+      "name": "FourFourTwo - Saudi Arabia World Cup 2026 squad (final selection)",
+      "url": "https://www.fourfourtwo.com/team/saudi-arabia-world-cup-2026-squad"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Saudi Arabia vs Uruguay how to watch, referee, predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49050294/fifa-world-cup-2026-saudi-arabia-vs-uruguay-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "official",
+      "name": "Hard Rock Stadium - Miami Stadium FIFA World Cup 26 venue",
+      "url": "https://www.hardrockstadium.com/fifaworldcup26/"
+    },
+    {
+      "type": "official",
+      "name": "Gianluca Di Marzio - FIFA designa Maurizio Mariani per Arabia Saudita-Uruguay",
+      "url": "https://www.gianlucadimarzio.com/news-calcio/mondiali-2026-maurizio-mariani-arbitrera-arabia-saudita-uruguay-493446"
+    },
+    {
+      "type": "official",
+      "name": "Montevideo Portal - FIFA confirma arbitro Mariani para debut de Uruguay",
+      "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-FIFA-confirmo-el-arbitro-que-pitara-en-debut-de-Uruguay-con-Arabia-Saudita-uc964994"
+    },
+    {
+      "type": "media",
+      "name": "Marca - Uruguay & Bielsa announce World Cup squad (Araujo, Gimenez, Valverde; no Suarez)",
+      "url": "https://www.marca.com/en/world-cup/2026/05/31/uruguay-and-bielsa-announce-their-world-cup-squad-with-araujo-gimenez-and-valverde-and-without-luis-suarez.html"
+    },
+    {
+      "type": "media",
+      "name": "Mix Vale - Uruguay loses Arrascaeta, Araujo and Gimenez for 2026 WC debut",
+      "url": "https://www.mixvale.com.br/2026/06/11/uruguay-loses-arrascaeta-ronald-araujo-and-jose-maria-gimenez-for-its-2026-world-cup-debut-en/"
+    },
+    {
+      "type": "media",
+      "name": "Mix Vale - Injuries change plan: Bielsa sets Uruguay to debut without Arrascaeta",
+      "url": "https://www.mixvale.com.br/2026/06/12/injuries-change-plan-marcelo-bielsa-sets-uruguay-to-debut-in-the-world-cup-without-arrascaeta-en/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Brasil - Arrascaeta e mais dois titulares do Uruguai sao desfalques para estreia",
+      "url": "https://www.espn.com.br/futebol/copa-do-mundo/artigo/_/id/16825291/copa-do-mundo-arrascaeta-e-mais-dois-titulares-do-uruguai-sao-desfalques-para-estreia"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Argentina - Los tres descartados en Uruguay para el debut ante Arabia Saudita",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16823998/ronald-araujo-josema-gimenez-de-arrascaeta-bielsa-uruguay-lesionados-descartados-debut"
+    },
+    {
+      "type": "media",
+      "name": "GE Globo - Arrascaeta e mais dois estao fora da estreia do Uruguai na Copa",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/11/arrascaeta-e-mais-dois-estao-fora-da-estreia-do-uruguai-na-copa-do-mundo.ghtml"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Bielsa's new-look Uruguay test Saudi dreams of another World Cup upset",
+      "url": "https://www.straitstimes.com/sport/football/bielsas-new-look-uruguay-test-saudi-dreams-of-another-world-cup-upset"
+    },
+    {
+      "type": "media",
+      "name": "Saudi Gazette - Saudi Arabia braces for Bielsa's Uruguay in World Cup opener",
+      "url": "https://saudigazette.com.sa/article/662132/sports/saudi-arabia-ready-for-uruguay-test-in-fifa-world-cup-2026-opener"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post - Saudi Arabia vs Uruguay prediction, team news, odds, betting tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/saudi-arabia-vs-uruguay-betting-tips-predictions-team-news-odds-bet-builder-ad5p50X6jjZM/"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Saudi Arabia World Cup 2026 team guide (no clean sheets)",
+      "url": "https://www.theguardian.com/football/2026/jun/05/saudi-arabia-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Saudi Arabia v Uruguay match page",
+      "url": "https://www.theguardian.com/football/match/2026/jun/15/saudiarabia-v-uruguay"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Uruguay 2026 World Cup preview (4-3-3)",
+      "url": "https://www.si.com/soccer/uruguay-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Saudi Arabia vs Uruguay Lineups, Team News & Preview (0-2 pick)",
+      "url": "https://www.rotowire.com/soccer/article/saudi-arabia-vs-uruguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118095"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire (apps) - Saudi Arabia vs Uruguay predicted XIs auto-update",
+      "url": "https://apps.rotowire.com/soccer/article/saudi-arabia-vs-uruguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118095"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone - Saudi Arabia vs Uruguay preview, team news, prediction",
+      "url": "https://www.thestatszone.com/saudi-arabia-vs-uruguay-preview-team-news-prediction-fifa-world-cup-2026-group-stage-195711"
+    },
+    {
+      "type": "media",
+      "name": "Khas Press - Saudi Arabia vs Uruguay World Cup 2026 Guide (0-2 prediction)",
+      "url": "https://www.khaspress.com/2026/06/saudi-arabia-vs-uruguay-world-cup-2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "ToffeeWeb - Saudi Arabia vs Uruguay Predictions, Picks & Odds (Away win 1.37)",
+      "url": "https://www.toffeeweb.com/saudi-arabia-vs-uruguay-predictions-picks-odds-15-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "The Sports Rush - Saudi Arabia vs Uruguay Predictions and Picks",
+      "url": "https://thesportsrush.com/saudi-arabia-v-uruguay-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Saudi Arabia vs Uruguay World Cup 2026 Predictions",
+      "url": "https://www.juvefc.com/saudi-arabia-v-uruguay-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda - Saudi Arabia vs Uruguay Prediction and Betting Tips",
+      "url": "https://www.sportskeeda.com/football/saudi-arabia-vs-uruguay-prediction-betting-tips-june-15th-2026"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK - Saudi Arabia vs Uruguay Predictions and Best Bets",
+      "url": "https://esports-news.co.uk/2026/06/12/saudi-arabia-v-uruguay-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Saudi Arabia vs Uruguay Match Guide & Data Analysis (URU 48%)",
+      "url": "https://www.sportsmole.co.uk/football/world-cup/saudi-arabia-vs-uruguay_game_248736.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Team News: injury, suspension list, predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/team-news/saudi-arabia-vs-uruguay-injury-suspension-list-predicted-xis_599116.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Predicted XI for Bielsa's Uruguay vs Saudi Arabia",
+      "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/predicted-lineups/injury-concerns-for-bielsa-how-uruguay-could-line-up-vs-saudi-arabia_599117.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Predicted XI for Donis' Saudi Arabia (Al-Dawsari to lead)",
+      "url": "https://www.sportsmole.co.uk/football/uruguay/world-cup-2026/predicted-lineups/salem-al-dawsari-to-lead-the-charge-how-saudi-arabia-could-line-up-vs-uruguay_599118.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Saudi Arabia vs Uruguay head-to-head record",
+      "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/head-to-head/saudi-arabia-vs-uruguay-head-to-head-record-and-past-meetings_599098.html"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Saudi Arabia vs Uruguay Predictions, Picks & Odds (lineups, injuries)",
+      "url": "https://www.covers.com/world-cup/saudi-arabia-vs-uruguay-prediction-picks-odds-monday-6-15-2026"
+    },
+    {
+      "type": "media",
+      "name": "Mykhel - Uruguay vs Saudi Arabia Head to Head in FIFA World Cup",
+      "url": "https://www.mykhel.com/football/fifa-world-cup-uruguay-vs-saudi-arabia-head-to-head-lg40/"
+    },
+    {
+      "type": "media",
+      "name": "Mykhel - Uruguay World Cup 2026 Squad announced by Bielsa",
+      "url": "https://www.mykhel.com/football/uruguay-2026-world-cup-squad-bielsa-011-436789.html"
+    },
+    {
+      "type": "media",
+      "name": "Tuko - Supercomputer Predicts FIFA World Cup 2026 Winner",
+      "url": "https://www.tuko.co.ke/sports/football/622134-supercomputer-predicts-fifa-world-cup-2026-winner-48-teams-qualify/"
+    },
+    {
+      "type": "media",
+      "name": "KooraBreak - Donis Names Saudi Arabia Final Squad for FIFA World Cup 2026",
+      "url": "https://koorabreak.com/en/298196/"
+    },
+    {
+      "type": "media",
+      "name": "365Scores - Saudi Arabia vs Uruguay Scores, Lineups, H2H & Odds",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/saudi-arabia-uruguay-5073-5087-5930"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore - 2026 World Cup Groups Predictions & Scenarios",
+      "url": "https://www.sofascore.com/news/2026-world-cup-groups-early-predictions-possible-group-scenarios"
+    },
+    {
+      "type": "media",
+      "name": "WildStat - World Cup Uruguay vs Saudi Arabia H2H stats",
+      "url": "https://wildstat.com/p/1/cht/14/team1/URU/team2/KSA"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Saudi Arabia vs Uruguay FIFA World Cup 2026 preview (squads, lineups)",
+      "url": "https://www.goal.com/en-us/news/saudi-arabia-uruguay-world-cup-preview/blt74bb218ed91bb964"
+    },
+    {
+      "type": "media",
+      "name": "Goal Espana - Cifras impactantes sacuden a Arabia Saudi antes de Uruguay (Opta)",
+      "url": "https://www.goal.com/es/listados/secretos-y-realidades-cifras-impactantes-sacuden-a-arabia-saudi-antes-del-partido-contra-uruguay/blt4c6083eb58dcc739"
+    },
+    {
+      "type": "media",
+      "name": "Goal Espana - Quebradero saudi: Donis duda en tres posiciones (Mandash)",
+      "url": "https://www.goal.com/es/noticias/el-secreto-esta-en-tres-posiciones-un-quebradero-de-cabeza-saudi-persigue-a-donis-antes-del-partido-contra-uruguay/blt01300e45b498034c"
+    },
+    {
+      "type": "media",
+      "name": "Goal Espana - Donis no quiere que se repita lo que paso contra Argentina",
+      "url": "https://www.goal.com/es/noticias/el-plan-secreto-para-el-mundial-dennis-no-quiere-que-se-repita-lo-que-paso-contra-argentina/blt91aacca284669e87"
+    },
+    {
+      "type": "media",
+      "name": "AS - Uruguay World Cup 2026 squad Bielsa",
+      "url": "https://en.as.com/soccer/uruguay-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Line up Saudi Arabia vs Uruguay Mundial 2026",
+      "url": "https://en.as.com/resultados/futbol/mundial/2026/directo/grupos_h_1_6908832c421eb13/alineaciones/"
+    },
+    {
+      "type": "media",
+      "name": "Los Andes - Uruguay de Bielsa debut ante Arabia Saudita: hora, TV, formaciones, arbitro",
+      "url": "https://www.losandes.com.ar/deportes/la-uruguay-marcelo-bielsa-y-un-debut-pesado-arabia-saudita-hora-tv-formaciones-n5994776"
+    },
+    {
+      "type": "media",
+      "name": "Yardbarker - World Cup 2026 Group H guide (Spain 1st, Uruguay 2nd, Saudi 4th)",
+      "url": "https://www.yardbarker.com/soccer/articles/world_cup_2026_group_h_guide_spain_cape_verde_saudi_arabia_and_uruguay_fixtures_key_players_and_prediction/s1_17664_43952816"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports - FIFA World Cup Group H preview, schedule, prediction",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-group-h-preview-teams-schedule-top-players-and-prediction-11619470"
+    },
+    {
+      "type": "media",
+      "name": "YSscores - Todo sobre el arbitro Mariani Arabia Saudita-Uruguay",
+      "url": "https://www.ysscores.com/es/news/13982391/todo-lo-que-necesitas-saber-sobre-el-%C3%A1rbitro-del-partido-entre-arabia-saudita-y-uruguay-en-la-copa-del-mundo"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - World Cup 2026",
+      "url": "https://www.bbc.com/sport/football/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Saudi Arabia vs Uruguay Group H World Cup 2026",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-saudi-arabia-vs-uruguay"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - World Cup 2026 Group H preview",
+      "url": "https://www.skysports.com/football/news/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "AP News - Uruguay soccer team / Bielsa squad",
+      "url": "https://apnews.com/hub/uruguay-soccer-team"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Preview Saudi Arabia vs Uruguay team news, lineups, predictions",
+      "url": "https://sports.yahoo.com/articles/preview-saudi-arabia-vs-uruguay-220500482.html"
+    },
+    {
+      "type": "media",
+      "name": "The Football Faithful (Yahoo) - Saudi Arabia 2026 World Cup squad, fixtures",
+      "url": "https://sports.yahoo.com/articles/saudi-arabia-2026-world-cup-130000811.html"
+    },
+    {
+      "type": "media",
+      "name": "Thethao247 - Opta supercomputer points to Uruguay (Vietnamese)",
+      "url": "https://thethao247.vn/world-cup/175391-sieu-may-tinh-opta-chi-thang-doi-thang-tran-a-rap-saudi-vs-uruguay-ap-dao-d423872.html"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore - Uruguay quintet honoured / Araujo fitness concerns",
+      "url": "https://www.flashscore.com/news/uruguay-quintet-honoured-for-contesting-fourth-world-cup-fitness-concerns-for-araujo/jmp65oGr/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Saudi Arabia vs Uruguay preview hub",
+      "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "TheScore - Uruguay vs Saudi Arabia June 15 2026",
+      "url": "https://m.thescore.com/worldcup/events/93080"
+    },
+    {
+      "type": "media",
+      "name": "WC26 Intelligence - World Cup 2026 injuries, absences and squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Saudi Arabia vs Uruguay Team Stats (Hard Rock Stadium)",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760429"
+    },
+    {
+      "type": "media",
+      "name": "Marca - Bielsa Uruguay defensive reshuffle without Araujo & Gimenez",
+      "url": "https://www.marca.com/en/world-cup/2026.html"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - World Cup 2026 Group H standings & fixtures",
+      "url": "https://en.as.com/world_cup/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters - Uruguay Saudi Arabia World Cup opener preview",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "GiveMeSport - Saudi Arabia vs Uruguay preview & prediction",
+      "url": "https://www.givemesport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Football Espana - Uruguay Bielsa World Cup squad analysis",
+      "url": "https://www.football-espana.net/"
+    },
+    {
+      "type": "media",
+      "name": "talkSPORT - World Cup 2026 Group H predictions",
+      "url": "https://talksport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "OneFootball - Saudi Arabia vs Uruguay preview Group H",
+      "url": "https://onefootball.com/en/match/saudi-arabia-vs-uruguay"
+    },
+    {
+      "type": "media",
+      "name": "Bolavip - Uruguay vs Arabia Saudita pronostico Mundial 2026",
+      "url": "https://bolavip.com/us/mundial-2026"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Deportes - Uruguay vs Arabia Saudita previa Grupo H",
+      "url": "https://espndeportes.espn.com/futbol/mundial/"
+    },
+    {
+      "type": "media",
+      "name": "Ovacion (El Pais Uruguay) - Bielsa formacion vs Arabia Saudita",
+      "url": "https://www.ovaciondigital.com.uy/seleccion-uruguaya"
+    },
+    {
+      "type": "media",
+      "name": "Referi (El Observador) - Uruguay debut Mundial 2026 cobertura",
+      "url": "https://www.referi.uy/seleccion-uruguaya"
+    },
+    {
+      "type": "media",
+      "name": "Tribuna - Saudi Arabia vs Uruguay World Cup 2026 preview",
+      "url": "https://tribuna.com/en/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Saudi Arabia vs Uruguay Prediction WC2026 Match Preview (URU 64.7%)",
+      "url": "https://theanalyst.com/articles/saudi-arabia-vs-uruguay-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - World Cup 2026 Group H Predictions and Preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-h-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - FIFA World Cup 2026 Groups Supercomputer Predictions",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Uruguay vs Saudi Arabia Prediction & Picks (URU win, score 0-1)",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_ksa_uru"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Updated prediction (Saudi 12.2%, Uruguay 66.8%, Draw 21.0%)",
+      "url": "https://www.dimers.com/news/uruguay-vs-saudi-arabia-updated-prediction-group-h-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Early prediction Uruguay vs Saudi Arabia (URU 61.3%, score 0-1)",
+      "url": "https://www.dimers.com/news/uruguay-vs-saudi-arabia-early-prediction-group-h-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Goalence Pi-Ratings - Saudi Arabia vs Uruguay (URU favourite, score 0-1)",
+      "url": "https://goalence.com/league/world-cup/saudi-arabia-vs-uruguay-2026-06-15"
+    },
+    {
+      "type": "model",
+      "name": "TuringStats - Saudi Arabia vs Uruguay AI Picks",
+      "url": "https://turingstats.com/football-predictions/saudi-arabia-vs-uruguay-1489379"
+    },
+    {
+      "type": "model",
+      "name": "Sofascore - Saudi Arabia vs Uruguay live score, H2H, lineups & community vote",
+      "url": "https://www.sofascore.com/football/match/saudi-arabia-uruguay/AUbsJWb"
+    },
+    {
+      "type": "model",
+      "name": "WC Betting Tips - Saudi Arabia 0-2 Uruguay (model URU win 61%)",
+      "url": "https://wcbettingtips.com/saudi-arabia-vs-uruguay-betting-tips"
+    },
+    {
+      "type": "model",
+      "name": "xGscore - Saudi Arabia vs Uruguay xG & predicted score",
+      "url": "https://xgscore.io/world-cup/saudi-arabia-uruguay/preview"
+    },
+    {
+      "type": "model",
+      "name": "xGscore - Saudi A. vs Uruguay xG and stats",
+      "url": "https://xgscore.io/world-cup/saudi-arabia-uruguay/xg-statistics"
+    },
+    {
+      "type": "model",
+      "name": "ForzaPitch - Saudi Arabia vs Uruguay prediction (URU 35%, score 0-1)",
+      "url": "https://forzapitch.com/matches/saudi-arabia-vs-uruguay-2026-06-16"
+    },
+    {
+      "type": "model",
+      "name": "The Stat Bible - Saudi Arabia vs Uruguay model (URU 48%, draw 27%)",
+      "url": "https://www.thestatbible.com/upcoming-fixtures/saudi-arabia-vs-uruguay-15-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "APWin - Saudi Arabia vs Uruguay stats, standings and H2H",
+      "url": "https://www.apwin.com/match/uruguay-saudi-arabia/gtPLdd/"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister - Coach AI Saudi Arabia vs Uruguay (URU 65%)",
+      "url": "https://footballmeister.com/world-cup-2026/saudi-arabia-uruguay-2026-06-15/"
+    },
+    {
+      "type": "model",
+      "name": "OddsLot - Saudi Arabia vs Uruguay model (away win, URU 1.44)",
+      "url": "https://oddslot.com/football/match/world-cup/saudi-arabia/uruguay/15-jun-2026/"
+    },
+    {
+      "type": "model",
+      "name": "FootyStats - Saudi Arabia vs Uruguay prediction & stats",
+      "url": "https://footystats.org/matches/saudi-arabia-vs-uruguay"
+    },
+    {
+      "type": "model",
+      "name": "Forebet - Saudi Arabia vs Uruguay mathematical prediction",
+      "url": "https://www.forebet.com/en/football-tips-and-predictions-for-saudi-arabia"
+    },
+    {
+      "type": "model",
+      "name": "Soccerway - Saudi Arabia vs Uruguay form & stats",
+      "url": "https://int.soccerway.com/"
+    },
+    {
+      "type": "model",
+      "name": "PredictZ - Saudi Arabia vs Uruguay prediction",
+      "url": "https://www.predictz.com/predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Infogol - Saudi Arabia vs Uruguay xG model preview",
+      "url": "https://www.infogol.net/en/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Saudi Arabia vs Uruguay Odds (Uruguay -212/-225 ML favorite)",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760429"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Saudi Arabia vs Uruguay prediction (URU AH -1.25, score 0-3)",
+      "url": "https://www.sportsgambler.com/betting-tips/football/saudi-arabia-vs-uruguay-prediction-lineups-odds-2026-06-15/"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush - Odds table (Uruguay 4/9, Draw 7/2, Saudi 7/1)",
+      "url": "https://thesportsrush.com/saudi-arabia-v-uruguay-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - Saudi Arabia vs Uruguay Betting Tips (0-1)",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/saudi-arabia-vs-uruguay-prediction-15-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "World Cup Forecast - Saudi Arabia vs Uruguay Prediction & Betting Tips",
+      "url": "https://worldcupforecast.com/saudi-arabia-vs-uruguay-15-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "BetMines - Saudi Arabia vs Uruguay analysis (Under 2.5 lean)",
+      "url": "https://betmines.com/match-preview/saudi-arabia-vs-uruguay-prediction-match-preview-and-analysis-world-cup-15-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsbookish - Saudi Arabia vs Uruguay Kalshi odds (spread -1, total 2.5)",
+      "url": "https://sportsbookish.com/sports/wc/2026/saudi-arabia-vs-uruguay-jun-15"
+    },
+    {
+      "type": "betting",
+      "name": "SportsBettingDime - 2026 WC Picks & Computer Predictions Matchday 1",
+      "url": "https://www.sportsbettingdime.com/news/soccer/2026-world-cup-picks-computer-predictions-matchday-1-every-game/"
+    },
+    {
+      "type": "betting",
+      "name": "DeFiRate - 2026 World Cup Odds Tracker (Kalshi & Polymarket live)",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddspedia - Saudi Arabia vs Uruguay odds comparison",
+      "url": "https://oddspedia.com/football/saudi-arabia-uruguay"
+    },
+    {
+      "type": "betting",
+      "name": "OddsPortal - Saudi Arabia vs Uruguay World Cup odds",
+      "url": "https://www.oddsportal.com/football/world/world-cup/"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle - Saudi Arabia vs Uruguay World Cup markets",
+      "url": "https://www.pinnacle.com/en/soccer/international/fifa-world-cup/"
+    },
+    {
+      "type": "betting",
+      "name": "Bet365 - Saudi Arabia vs Uruguay match odds",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers - Saudi Arabia vs Uruguay odds & picks (Uruguay -1.5 +138 top pick)",
+      "url": "https://www.covers.com/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network - World Cup 2026 odds & picks Group H",
+      "url": "https://www.actionnetwork.com/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "OLBG - Saudi Arabia vs Uruguay betting tips",
+      "url": "https://www.olbg.com/betting-tips/Football/16"
+    },
+    {
+      "type": "betting",
+      "name": "BettingExpert - Saudi Arabia vs Uruguay tips",
+      "url": "https://www.bettingexpert.com/tips/football"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket - Saudi Arabia vs Uruguay (Uruguay ~67%, Draw 22%, Saudi 12%)",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-ksa-ury-2026-06-15"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket - Uruguay World Cup Soccer Odds 2026 (match markets)",
+      "url": "https://polymarket.com/teams/fifwc/uruguay"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi - Saudi Arabia vs Uruguay match & correct score markets ($217k vol)",
+      "url": "https://kalshi.com/teams/soccer-team/saudi-arabia"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi - Saudi Arabia vs Uruguay game markets",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun15ksauru"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket - Saudi Arabia World Cup team markets",
+      "url": "https://polymarket.com/teams/fifwc/saudi-arabia"
+    },
+    {
+      "type": "betting",
+      "name": "Sporting News - World Cup prediction market apps (Saudi vs Uruguay 12.2/21.0/66.8)",
+      "url": "https://www.sportingnews.com/us/predictions-markets/news/world-cup-prediction-market-apps-make-trades-polymarket-kalshi-more/671e76e06065bdcf161d89ad"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire analyst - Score Prediction Saudi Arabia 0-2 Uruguay",
+      "url": "https://www.rotowire.com/soccer/article/saudi-arabia-vs-uruguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118095"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis - pundit pick Uruguay to win, under 2.5",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/saudi-arabia-v-uruguay-predictions"
+    },
+    {
+      "type": "kol",
+      "name": "The Stats Zone analyst - Uruguay to win & under 3.5 goals",
+      "url": "https://www.thestatszone.com/saudi-arabia-vs-uruguay-preview-team-news-prediction-fifa-world-cup-2026-group-stage-195711"
+    },
+    {
+      "type": "kol",
+      "name": "Sportsgambler expert - Uruguay AH -1.25 value pick",
+      "url": "https://www.sportsgambler.com/betting-tips/football/saudi-arabia-vs-uruguay-prediction-lineups-odds-2026-06-15/"
+    },
+    {
+      "type": "kol",
+      "name": "Racing Post tipster - Uruguay opener analysis & bet builder",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/saudi-arabia-vs-uruguay-betting-tips-predictions-team-news-odds-bet-builder-ad5p50X6jjZM/"
+    },
+    {
+      "type": "kol",
+      "name": "Sportskeeda analyst - Uruguay win betting tip",
+      "url": "https://www.sportskeeda.com/football/saudi-arabia-vs-uruguay-prediction-betting-tips-june-15th-2026"
+    },
+    {
+      "type": "kol",
+      "name": "Juve FC analyst - Uruguay quality edge prediction",
+      "url": "https://www.juvefc.com/saudi-arabia-v-uruguay-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "Covers.com handicapper - Uruguay by a couple of goals, Under 2.5",
+      "url": "https://www.covers.com/world-cup/saudi-arabia-vs-uruguay-prediction-picks-odds-monday-6-15-2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube (Ball Blast Sports) - Saudi Arabia vs Uruguay Preview (predicts 0:2)",
+      "url": "https://www.youtube.com/watch?v=mh_XOkqTpTo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Saudi Arabia vs Uruguay Prediction Uruguay xG Edge (preview)",
+      "url": "https://www.youtube.com/watch?v=RZL_C6pemEA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uruguay WC2026 Preview: Bielsa Tactics, Valverde & Nunez Group H",
+      "url": "https://www.youtube.com/watch?v=fHfZKMa5F4k"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FIFA WC2026 Group H Breakdown (Spain, Uruguay, Cape Verde, Saudi)",
+      "url": "https://www.youtube.com/watch?v=JIDPVQVLSdY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Araujo & Gimenez absent from training ahead of opener (Valverde, preview)",
+      "url": "https://www.youtube.com/watch?v=cHuPbKaxTdI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Saudi Arabia vs Uruguay Preview",
+      "url": "https://www.youtube.com/watch?v=Znt5rzeeFYs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 'Uruguay and Bielsa have to deliver!' WC2026 Group H preview",
+      "url": "https://www.youtube.com/watch?v=splLqZ_zk6s"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube (PickDawgz) - Saudi Arabia vs Uruguay Free Picks 6/15 (preview, BTTS lean)",
+      "url": "https://www.youtube.com/watch?v=f-m3RcC2qWE"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Hard Rock Stadium WC pitch, Saudi & Uruguay first to play",
+      "url": "https://www.reddit.com/r/soccer/comments/1tq7di4/frontofficesports_hard_rock_stadium_which_will_be/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - Reddit decides Group H (Spain, Uruguay, Saudi)",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1shfchi/reddit_decides_the_world_cup_group_h_spain_cabo/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Group H discussion thread",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Saudi Arabia 2-1 Egypt 2018 (group context)",
+      "url": "https://www.reddit.com/r/soccer/comments/8trn94/post_match_thread_saudi_arabia_2_1_egypt/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum - Uruguay national team World Cup 2026",
+      "url": "https://www.bigsoccer.com/forums/uruguay.95/"
+    },
+    {
+      "type": "forum",
+      "name": "RedCafe - World Cup 2026 group stage discussion",
+      "url": "https://www.redcafe.net/forums/football-forum.5/"
+    },
+    {
+      "type": "forum",
+      "name": "Facebook group - Uruguay WC debut without Gimenez, Araujo, De Arrascaeta",
+      "url": "https://www.facebook.com/groups/737966101814731/posts/1346515737626428/"
+    },
+    {
+      "type": "forum",
+      "name": "606 BBC forum - World Cup 2026 Group H",
+      "url": "https://www.bbc.co.uk/sport/football"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - AUFOficial Uruguay national team World Cup 2026",
+      "url": "https://www.instagram.com/uruguay/"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - Saudi Arabia Uruguay World Cup 2026 Group H discussion",
+      "url": "https://twitter.com/search?q=SaudiArabia+Uruguay+WorldCup2026"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter - SaudiNT official Saudi Arabia national team",
+      "url": "https://twitter.com/SaudiNT_EN"
+    },
+    {
+      "type": "social",
+      "name": "Wikipedia - 2026 FIFA World Cup Group H",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+    },
+    {
+      "type": "social",
+      "name": "Polymarket id - Saudi Arabia vs Uruguay early trading",
+      "url": "https://polymarket.com/id/predictions/saudia-arabia"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Saudi Arabia vs Uruguay preview, predictions, lineups (0-0 pick)",
+      "url": "https://www.si.com/soccer/saudi-arabia-vs-uruguay-world-cup-preview-predictions-lineups-6-15-26"
+    },
+    {
+      "type": "media",
+      "name": "FotMob - Uruguay vs Saudi Arabia predicted lineups & live (Valverde, Nunez)",
+      "url": "https://www.fotmob.com/matches/uruguay-vs-saudi-arabia/1izuvb"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Saudi Arabia vs Uruguay projected lineups, starting 11 Group H",
+      "url": "https://www.sportingnews.com/in/football/news/saudi-arabia-vs-uruguay-lineups-starting-11-world-cup-2026-group-h/29b2a893ee795461fcf80d25"
+    },
+    {
+      "type": "media",
+      "name": "Maxifoot - Arabie saoudite-Uruguay compositions probables (Valverde capitaine)",
+      "url": "https://m.maxifoot.fr/cdm/arabie-saoudite-uruguay-les-compos-prob-foot-457771.htm"
+    },
+    {
+      "type": "media",
+      "name": "Gazzetta dello Sport - Arabia Saudita-Uruguay probabili formazioni",
+      "url": "https://www.gazzetta.it/calcio/mondiali/Probabili-Formazioni/arabia-saudita-uruguay/2608256"
+    },
+    {
+      "type": "media",
+      "name": "AS Colombia - Alineaciones Arabia Saudi vs Uruguay Mundial 2026",
+      "url": "https://colombia.as.com/resultados/futbol/mundial/2026/directo/grupos_h_1_6908832c421eb13/alineaciones/amp/"
+    },
+    {
+      "type": "media",
+      "name": "Metropoles - Arrascaeta esta fora da estreia do Uruguai (lesao grau 2 panturrilha)",
+      "url": "https://www.metropoles.com/esportes/arrascaeta-esta-fora-da-estreia-do-uruguai-na-copa-do-mundo"
+    },
+    {
+      "type": "media",
+      "name": "Antara News - Arab Saudi vs Uruguay: bisakah The Green Falcons bikin kejutan",
+      "url": "https://www.antaranews.com/berita/5608395/arab-saudi-vs-uruguay-bisakah-the-green-falcons-bikin-kejutan-lagi"
+    },
+    {
+      "type": "model",
+      "name": "90min.de - KI-Prognose Saudi-Arabien vs Uruguay (Opta 64.7%, ChatGPT 66%, Tipp 3-1)",
+      "url": "https://www.90min.de/ki-prognose-zu-saudi-arabien-vs-uruguay"
+    },
+    {
+      "type": "betting",
+      "name": "DeFiRate - World Cup Odds This Week: Polymarket & Kalshi prices every match",
+      "url": "https://defirate.com/news/world-cup-odds-this-week-polymarket-and-kalshi-prices-for-every-match/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket (DE) - Saudi Arabia vs Uruguay Quoten & Prognosen Jun 15",
+      "url": "https://polymarket.com/de/sports/world-cup/fifwc-ksa-ury-2026-06-15"
+    }
+  ],
+  "source_count": 166,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.27,
+        "away": 0.55
+      },
+      "scoreline": "0:2",
+      "note": "烏拉圭鋒線經驗豐富，沙地主場難擋南美勁旅。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "烏拉圭整體實力佔優，防線穩固，預計能順利拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.2,
+        "away": 0.68
+      },
+      "scoreline": "0:2",
+      "note": "烏拉圭實力明顯高於沙烏地，預計將輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.22,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "烏拉圭整體實力更均衡，有望穩守突擊帶走勝利"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.13,
+        "draw": 0.22,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "烏拉圭整體實力與戰術執行力遠勝，預計能穩健拿下勝利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "烏拉圭實力占優，客場勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "烏拉圭實力占優，客場擊敗沙烏地阿拉伯。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.16,
+      "draw": 0.239,
+      "away": 0.601
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T172825Z"
+}

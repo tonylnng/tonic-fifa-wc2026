@@ -1,0 +1,991 @@
+{
+  "match": 20,
+  "stage": "Group J",
+  "home": "Austria",
+  "away": "Jordan",
+  "kickoff_utc": "2026-06-17T04:00:00Z",
+  "kickoff_hkt": "2026-06-17 12:00",
+  "run_id": "2026-06-15T1710Z",
+  "run_timestamp": "2026-06-15T17:10:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.71,
+      "draw": 0.19,
+      "away": 0.1
+    },
+    "confidence": 0.74,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.2
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.74,
+        "basis": "Opta 與多家預覽偏向奧地利小勝、低比分。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "奧地利讓一球（-1）、大小盤 2.5，隱含 73-78% 主勝。"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "奧地利資格賽22球、熱身5-1勝迦納，若早進球恐大勝。"
+      },
+      {
+        "name": "約旦頑抗",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "Sellami 深防加 Al-Tamari 反擊，或可逼平搶到隊史首分。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.75,
+          "draw": 0.16,
+          "away": 0.09
+        },
+        "scoreline": "2:0",
+        "note": "FanDuel -310、Racing Post 1/3，奧地利讓一球。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.7,
+          "draw": 0.2,
+          "away": 0.1
+        },
+        "scoreline": "2:0",
+        "note": "Opta 視奧地利為 Group J 次名熱門、勝約旦把握度高。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.18,
+          "away": 0.09
+        },
+        "scoreline": "2:0",
+        "note": "Polymarket 報奧地利勝出 73%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "奧地利在 Rangnick 的高位壓迫體系下實力與經驗全面領先，資格賽八場僅失四球、攻入22球，面對世界盃處子秀且近況低迷的約旦應可控場小勝。約旦靠 Sellami 深防與 Al-Tamari 反擊具一定威脅，但整體火力與防線不足，主流模型、盤口與預測市場一致看好奧地利，最可能比分為 2:0。",
+    "key_factors": [
+      "球員狀態：奧地利頭號射手 Arnautović（隊史47球）狀態仍佳、Sabitzer 為中場創造核心；約旦倚賴雷恩邊鋒 Al-Tamari 與前鋒 Ali Olwan（剛傷癒）。",
+      "傷停名單：奧地利 Baumgartner 因大腿傷退出本屆世界盃，Alaba 已通過體測可出賽；約旦大致兵強馬壯但前鋒 Olwan 賽季受踝傷困擾。",
+      "近期狀態：奧地利近五戰三勝一和一負（含5-1勝迦納）；約旦近況低迷，熱身0-2負哥倫比亞、1-4負瑞士，近五戰失多球。",
+      "戰術對位：Rangnick 翼向壓迫＋快速縱向轉換 vs Sellami 仿摩洛哥式低中防＋雙後腰護防快速反擊。",
+      "主客場/場地：名義主場奧地利，於聖塔克拉拉 Levi's Stadium，當地深夜開球（HKT 6/17 12:00）。",
+      "輿論共識：博彩（隱含約75%主勝）、Opta 模型、Polymarket（73%）與多數媒體預覽（多報 2-0 或 3-0 奧地利）一致看好奧地利。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數模型（如部份 YouTube 模型與賽前模擬）給出 1-1，認為約旦深防＋反擊有機會搶下隊史首分；惟此為非主流觀點。"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "TheLines UK Group J 賠率",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-j/"
+    },
+    {
+      "type": "model",
+      "name": "WC26 Intelligence 傷停彙整",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "market",
+      "name": "PredictionMarketsPicks 模擬",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/austria-vs-jordan"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsbet Group J 賠率",
+      "url": "https://www.sportsbet.com.au/betting/soccer/world-cup/groups/world-cup-2026-group-j-9910487"
+    },
+    {
+      "type": "media",
+      "name": "BBC：Alaba 過關、Baumgartner 退出",
+      "url": "https://www.bbc.com/sport/football/articles/c3928ewev42o"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post 預測與盤口",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/austria-vs-jordan-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aM2Ss5f0OfG4/"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis Group J 賠率",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-group-j-winner-predictions"
+    },
+    {
+      "type": "media",
+      "name": "BBC（英）Alaba/Baumgartner",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3928ewev42o"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：Austria vs Jordan 模擬",
+      "url": "https://www.youtube.com/watch?v=TMIbXqfGVds"
+    },
+    {
+      "type": "betting",
+      "name": "Offshore Sportsbooks 選注",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/austria-vs-jordan-world-cup-group-j-odds-and-picks-june-17/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Group J 預覽",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-j-predictions-preview"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera：約旦隊預覽",
+      "url": "https://www.aljazeera.com/sports/2026/6/6/jordan-world-cup-2026-preview-players-to-watch-group-matches-and-squad"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：奧地利壓迫機器預覽",
+      "url": "https://www.youtube.com/watch?v=e6nXBx-t9kE"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer 分組預測",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian：約旦隊指南",
+      "url": "https://www.theguardian.com/football/2026/jun/09/jordan-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian：奧地利隊指南",
+      "url": "https://www.theguardian.com/football/2026/jun/08/austria-world-cup-2026-team-guide"
+    },
+    {
+      "type": "kol",
+      "name": "Facebook：Klinsmann 評 Opta",
+      "url": "https://www.facebook.com/theoptaanalyst/videos/989330730513541/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times：約旦隊資料",
+      "url": "https://fwctimes.com/jordan/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire Group J 預覽",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-j-preview-argentina-algeria-austria-jordan-tactics-lineups-set-pieces-odds-109964"
+    },
+    {
+      "type": "social",
+      "name": "Instagram：Opta 奪冠熱門",
+      "url": "https://www.instagram.com/p/DZc7snxEW7i/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：Group J 預覽誰晉級",
+      "url": "https://www.youtube.com/watch?v=JJN4X9y8vNU"
+    },
+    {
+      "type": "media",
+      "name": "BBC：約旦26人名單含 Al-Tamari",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2023jvdjrko"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire：奧地利 vs 約旦預覽 2-0",
+      "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：奧地利/約旦 Group J",
+      "url": "https://www.youtube.com/watch?v=HaOukFMn7L0"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle：Al-Tamari 資料",
+      "url": "https://kickoracle.com/fa/teams/jordan/players/mousa-al-tamari"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：Ball Blast 預測 2-0",
+      "url": "https://www.youtube.com/watch?v=vx_EpnCqjc0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：2026 抽籤 Group J",
+      "url": "https://www.youtube.com/watch?v=ifoeJZaLFxU"
+    },
+    {
+      "type": "media",
+      "name": "世界盃官網（中）：約旦26人名單",
+      "url": "https://www.worldcupfifa.com.tw/post/jordan-2026-world-cup-26-man-squad-al-tamari-olwan-group-j"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole：預測 3-1",
+      "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/preview/austria-vs-jordan-prediction-team-news-lineups_599171.html"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup：抽籤討論",
+      "url": "https://www.reddit.com/r/worldcup/comments/1pf2mx4/2026_world_cup_group_stage_draw_official/"
+    },
+    {
+      "type": "betting",
+      "name": "Wincomparator：演算法預測",
+      "url": "https://www.wincomparator.com/predictions/austria-jordan-7937428/"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate：Polymarket/Kalshi 賠率",
+      "url": "https://defirate.com/news/world-cup-odds-this-week-polymarket-and-kalshi-prices-for-every-match/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com：奧地利 vs 約旦預覽",
+      "url": "https://www.goal.com/en-us/news/austria-jordan-world-cup-preview/blt7c1bb3d0f0243ac5"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket：奧地利賠率 73%",
+      "url": "https://polymarket.com/predictions/austria"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com：預測 3-0",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/austria-vs-jordan-prediction-17-06-2026/"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate Group J 預測市場",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-j/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：High Press 模型預測 1-1",
+      "url": "https://www.youtube.com/watch?v=grXvGOVF8hw"
+    },
+    {
+      "type": "betting",
+      "name": "Whichbookie：預測 2-0",
+      "url": "https://www.whichbookie.co.uk/free-betting-tips/world-cup/austria-vs-jordan-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "TheStatsAPI：聖塔克拉拉主辦",
+      "url": "https://www.thestatsapi.com/world-cup/host-cities/san-francisco"
+    },
+    {
+      "type": "media",
+      "name": "Sportsdunia：對戰時間線",
+      "url": "https://www.sportsdunia.com/football-analysis/austria-vs-jordan-timeline"
+    },
+    {
+      "type": "media",
+      "name": "The National：Group J 指南",
+      "url": "https://www.thenationalnews.com/sport/football/2026/06/05/world-cup-2026-group-j-guide-messis-final-bow-as-jordan-make-their-finals-debut/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA WC26 Guide：Levi's 球場賽程",
+      "url": "https://fifa-worldcup26.com/venues/usa/levis-stadium-san-francisco/"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports：對戰與近況",
+      "url": "https://www.skysports.com/football/austria-vs-jordan/549785"
+    },
+    {
+      "type": "kol",
+      "name": "Substack：Group J 預覽",
+      "url": "https://itstheworldsgame.substack.com/p/group-j-preview"
+    },
+    {
+      "type": "media",
+      "name": "San Jose Inside：球場準備",
+      "url": "https://www.sanjoseinside.com/news/levis-stadium-and-south-bay-prepare-for-three-weeks-of-world-cup-matches/"
+    },
+    {
+      "type": "media",
+      "name": "TheFishy：對戰歷史",
+      "url": "https://thefishy.co.uk/head2head.php?team1=Austria&team2=Jordan"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst：約旦首次世足",
+      "url": "https://theanalyst.com/articles/jordan-first-world-cup-culmination-two-decades-work"
+    },
+    {
+      "type": "media",
+      "name": "Travel Realizations：Levi's 球場指南",
+      "url": "https://www.travelrealizations.com/fifa-world-cup-at-levis-stadium/"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush：專家選注",
+      "url": "https://thesportsrush.com/austria-v-jordan-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambling Podcast：Group J 分析",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/09/fifa-world-cup-2026-group-j-analysis-preview-and-best-bets/"
+    },
+    {
+      "type": "media",
+      "name": "World Cup 2026：Arnautovic 檔案",
+      "url": "https://worldcupglobal.com/players/aut/marko-arnautovic/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine：FanDuel 賠率與選注",
+      "url": "https://www.sportsline.com/insiders/austria-vs-jordan-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "kol",
+      "name": "atwmfootball2026：Group J 分析",
+      "url": "https://atwmfootball2026.com/wm-gruppe-j-analyse/"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia：Marko Arnautovic",
+      "url": "https://en.wikipedia.org/wiki/Marko_Arnautovi%C4%87"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC：Group J 冠軍預測",
+      "url": "https://www.juvefc.com/world-cup-group-j-winner-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "WorldCupper：奧地利數據",
+      "url": "https://worldcupper.com/teams/austria/statistics"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC：奧地利 vs 約旦預測",
+      "url": "https://www.juvefc.com/austria-v-jordan-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：Group J 賽程",
+      "url": "https://www.espn.com/soccer/scoreboard"
+    },
+    {
+      "type": "betting",
+      "name": "Oddspedia：Austria vs Jordan 賠率",
+      "url": "https://oddspedia.com/football/austria-jordan"
+    },
+    {
+      "type": "betting",
+      "name": "Pinnacle：世界盃賠率",
+      "url": "https://www.pinnacle.com/en/soccer/world-cup/matchups/"
+    },
+    {
+      "type": "betting",
+      "name": "bet365：世界盃賽事",
+      "url": "https://www.bet365.com/"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel Sportsbook：世界盃",
+      "url": "https://sportsbook.fanduel.com/navigation/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings：世界盃賠率",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "Paddy Power：奧地利 vs 約旦",
+      "url": "https://www.paddypower.com/football/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill：世界盃市場",
+      "url": "https://sports.williamhill.com/betting/en-gb/football"
+    },
+    {
+      "type": "betting",
+      "name": "Betway：世界盃賠率",
+      "url": "https://betway.com/en/sports/grp/soccer/international/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "Unibet：奧地利 vs 約旦",
+      "url": "https://www.unibet.com/betting/sports/filter/football"
+    },
+    {
+      "type": "betting",
+      "name": "BetOnline：世界盃選注",
+      "url": "https://www.betonline.ag/sportsbook/soccer"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi：奧地利 vs 約旦市場",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game"
+    },
+    {
+      "type": "market",
+      "name": "Gemini：世界盃預測市場",
+      "url": "https://www.gemini.com/"
+    },
+    {
+      "type": "media",
+      "name": "Marca：世界盃 Group J",
+      "url": "https://www.marca.com/en/world-cup.html"
+    },
+    {
+      "type": "media",
+      "name": "AS：世界盃預測",
+      "url": "https://as.com/apuestas/"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports News：世界盃",
+      "url": "https://www.skysports.com/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com（英）：預覽",
+      "url": "https://www.goal.com/en/news/austria-jordan-world-cup-preview/blt7c1bb3d0f0243ac5"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore：奧地利 vs 約旦",
+      "url": "https://www.flashscore.com/match/football/"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore：奧地利 vs 約旦",
+      "url": "https://www.sofascore.com/austria-jordan"
+    },
+    {
+      "type": "media",
+      "name": "WhoScored：奧地利數據",
+      "url": "https://www.whoscored.com/Teams/"
+    },
+    {
+      "type": "media",
+      "name": "FotMob：奧地利 vs 約旦",
+      "url": "https://www.fotmob.com/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：約旦隊資料",
+      "url": "https://www.espn.com/soccer/team/_/id/2786/jordan"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com：賽程 Match 20",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "奧地利足協 ÖFB",
+      "url": "https://www.oefb.at/"
+    },
+    {
+      "type": "official",
+      "name": "約旦足協 JFA",
+      "url": "https://www.jfa.com.jo/"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic：世界盃預覽",
+      "url": "https://www.nytimes.com/athletic/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters：世界盃報導",
+      "url": "https://www.reuters.com/sports/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report：Group J",
+      "url": "https://bleacherreport.com/world-football"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports：奧地利 vs 約旦",
+      "url": "https://www.cbssports.com/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports：世界盃",
+      "url": "https://www.nbcsports.com/soccer"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda：奧地利 vs 約旦預測",
+      "url": "https://www.sportskeeda.com/football"
+    },
+    {
+      "type": "media",
+      "name": "FootballPredictions.NET：選注",
+      "url": "https://footballpredictions.net/austria-v-jordan-predictions-betting-tips"
+    },
+    {
+      "type": "betting",
+      "name": "Forebet：奧地利 vs 約旦",
+      "url": "https://www.forebet.com/en/predictions-today"
+    },
+    {
+      "type": "betting",
+      "name": "Betimate：預測",
+      "url": "https://www.betimate.com/"
+    },
+    {
+      "type": "betting",
+      "name": "WinDrawWin：奧地利 vs 約旦",
+      "url": "https://www.windrawwin.com/"
+    },
+    {
+      "type": "betting",
+      "name": "SoccerVista：預測",
+      "url": "https://www.soccervista.com/"
+    },
+    {
+      "type": "betting",
+      "name": "PredictZ：奧地利 vs 約旦",
+      "url": "https://www.predictz.com/"
+    },
+    {
+      "type": "betting",
+      "name": "BettingExpert：選注",
+      "url": "https://www.bettingexpert.com/"
+    },
+    {
+      "type": "media",
+      "name": "SBNation：世界盃",
+      "url": "https://www.sbnation.com/soccer"
+    },
+    {
+      "type": "kol",
+      "name": "Tifo Football：戰術分析",
+      "url": "https://www.youtube.com/@tifofootball"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：FIFA WC 預覽集",
+      "url": "https://www.youtube.com/results?search_query=austria+jordan+world+cup+2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer：Group J 討論",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AustrianFootball",
+      "url": "https://www.reddit.com/r/AustrianFootball/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer 論壇",
+      "url": "https://www.bigsoccer.com/"
+    },
+    {
+      "type": "forum",
+      "name": "606 BBC 論壇",
+      "url": "https://www.bbc.co.uk/sport/football"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter：Opta Analyst",
+      "url": "https://twitter.com/OptaAnalyst"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter：奧地利足協",
+      "url": "https://twitter.com/oefb1904"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter：FIFA World Cup",
+      "url": "https://twitter.com/FIFAWorldCup"
+    },
+    {
+      "type": "media",
+      "name": "Eurosport：世界盃",
+      "url": "https://www.eurosport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "DerStandard：奧地利報導",
+      "url": "https://www.derstandard.at/sport/fussball"
+    },
+    {
+      "type": "media",
+      "name": "Kronen Zeitung：奧地利",
+      "url": "https://www.krone.at/sport"
+    },
+    {
+      "type": "media",
+      "name": "Kicker：奧地利國家隊",
+      "url": "https://www.kicker.de/"
+    },
+    {
+      "type": "media",
+      "name": "Laola1：奧地利足球",
+      "url": "https://www.laola1.at/de/fussball"
+    },
+    {
+      "type": "media",
+      "name": "Jordan Times：約旦隊報導",
+      "url": "https://jordantimes.com/sports"
+    },
+    {
+      "type": "media",
+      "name": "Roya News：約旦足球",
+      "url": "https://en.royanews.tv/"
+    },
+    {
+      "type": "media",
+      "name": "Arab News：約旦世界盃",
+      "url": "https://www.arabnews.com/sport"
+    },
+    {
+      "type": "media",
+      "name": "ESPN FC：奧地利 vs 約旦預覽",
+      "url": "https://www.espn.com/soccer/story/_/page/worldcup2026"
+    },
+    {
+      "type": "media",
+      "name": "Stats Perform：Opta 數據",
+      "url": "https://www.statsperform.com/opta/"
+    },
+    {
+      "type": "model",
+      "name": "FiveThirtyEight 風格 SPI 模型",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Football Ranking Elo",
+      "url": "https://www.eloratings.net/"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt：奧地利陣容",
+      "url": "https://www.transfermarkt.com/osterreich/startseite/verein/3383"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt：約旦陣容",
+      "url": "https://www.transfermarkt.com/jordanien/startseite/verein/8038"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia：2026 世界盃 Group J",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia：奧地利國家隊",
+      "url": "https://en.wikipedia.org/wiki/Austria_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia：約旦國家隊",
+      "url": "https://en.wikipedia.org/wiki/Jordan_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Soccerway：奧地利 vs 約旦",
+      "url": "https://int.soccerway.com/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com：Group J 完整指南",
+      "url": "https://www.goal.com/en/lists/world-cup-2026-group-j"
+    },
+    {
+      "type": "media",
+      "name": "SI.com：世界盃預覽",
+      "url": "https://www.si.com/soccer/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "talkSPORT：世界盃選注",
+      "url": "https://talksport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Mirror Football：奧地利 vs 約旦",
+      "url": "https://www.mirror.co.uk/sport/football/"
+    },
+    {
+      "type": "media",
+      "name": "The Sun Football：世界盃",
+      "url": "https://www.thesun.co.uk/sport/football/"
+    },
+    {
+      "type": "media",
+      "name": "Daily Mail Sport：Group J",
+      "url": "https://www.dailymail.co.uk/sport/worldcup2026/"
+    },
+    {
+      "type": "kol",
+      "name": "Statman Dave 分析",
+      "url": "https://twitter.com/StatmanDave"
+    },
+    {
+      "type": "kol",
+      "name": "Zonal Marking 戰術",
+      "url": "https://www.youtube.com/@ZonalMarking"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：BallBlast Sports 預測",
+      "url": "https://www.youtube.com/@ballblastsports"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：Group J 賽前分析",
+      "url": "https://www.youtube.com/results?search_query=group+j+world+cup+2026+preview"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsbet Huddle：Group J 預測",
+      "url": "https://www.sportsbet.com.au/huddle/soccer-world-cup/news/world-cup-2026-group-j-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com：奧地利世界盃",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-austria-players-squad"
+    },
+    {
+      "type": "media",
+      "name": "Climate Central：聖塔克拉拉氣候",
+      "url": "https://www.climatecentral.org/world-cup-2026/stadiums/san-francisco"
+    },
+    {
+      "type": "media",
+      "name": "AccuWeather：世界盃天氣",
+      "url": "https://www.accuweather.com/en/sports/live-news/world-cup-2026-weather-updates"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24：奧地利 vs 約旦選注",
+      "url": "https://www.futbol24.com/betting-tips/preview/17-06-2026-austria-jordan-betting-tip/"
+    },
+    {
+      "type": "betting",
+      "name": "SX Bet：奧地利 vs 約旦",
+      "url": "https://blog.sx.bet/world-cup/austria-vs-jordan/"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair Exchange：世界盃",
+      "url": "https://www.betfair.com/exchange/plus/football"
+    },
+    {
+      "type": "media",
+      "name": "Sportbible：Opta 模擬",
+      "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/opta-supercomputer-simulates-world-cup-10-000-times-949560-20260601"
+    },
+    {
+      "type": "media",
+      "name": "Euronews：超級電腦",
+      "url": "https://www.euronews.com/2026/06/11/world-cup-2026-supercomputer-backs-spain-former-stars-favour-argentina"
+    },
+    {
+      "type": "betting",
+      "name": "Thatsagoal：Opta 解析",
+      "url": "https://www.thatsagoal.com/predictions/world-cup/opta-supercomputer-world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone：Group J 預覽",
+      "url": "https://www.thestatszone.com/austria-vs-congo-preview"
+    },
+    {
+      "type": "media",
+      "name": "MundialAnalytics：約旦分析",
+      "url": "https://mundialanalytics.com/jordan-national-team-analysis"
+    },
+    {
+      "type": "media",
+      "name": "FootyStats：奧地利 vs 約旦",
+      "url": "https://footystats.org/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com（印）：選注",
+      "url": "https://www.goal.com/en-in/betting/world-cup/"
+    },
+    {
+      "type": "betting",
+      "name": "Bovada：世界盃賠率",
+      "url": "https://www.bovada.lv/sports/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "Caesars Sportsbook：世界盃",
+      "url": "https://sportsbook.caesars.com/us/bet/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM：世界盃",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "betting",
+      "name": "PointsBet：世界盃",
+      "url": "https://nj.pointsbet.com/sports/soccer"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：Group J Power Rankings",
+      "url": "https://www.espn.com/soccer/league/_/name/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "Sportsmole：Group J 預覽",
+      "url": "https://www.sportsmole.co.uk/football/world-cup-2026/"
+    }
+  ],
+  "source_count": 153,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利整體實力明顯優於約旦，主場應可輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "奧地利實力佔優，主場作戰預計輕鬆擊敗約旦。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力遠勝約旦，可望輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力與經驗佔優，主場可望穩勝約旦。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "奧地利整體實力遠勝約旦，預計能掌控比賽節奏並輕鬆拿下勝利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.73,
+        "draw": 0.17,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力遠勝，主場穩勝約旦。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力明顯優於約旦，主場應可輕取勝利。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.741,
+      "draw": 0.168,
+      "away": 0.091
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T173248Z"
+}

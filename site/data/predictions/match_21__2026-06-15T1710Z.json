@@ -1,0 +1,541 @@
+{
+  "match": 21,
+  "stage": "Group K",
+  "home": "Portugal",
+  "away": "DR Congo",
+  "kickoff_utc": "2026-06-17T17:00:00Z",
+  "kickoff_hkt": "2026-06-18 01:00",
+  "run_id": "2026-06-15T1710Z",
+  "run_timestamp": "2026-06-15T17:10:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.75,
+      "draw": 0.16,
+      "away": 0.09
+    },
+    "confidence": 0.74,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.19
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.74,
+        "basis": "Opta 評葡萄牙 59% 贏組、94.9% 晉級，個人實力碾壓。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.74,
+        "basis": "葡萄牙 -350、讓1.5、大小盤約2.75，隱含 77-78% 主勝。"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "葡萄牙資格賽六場20球，若打開局面或大勝；剛果具反擊偷襲力。"
+      },
+      {
+        "name": "剛果頑抗",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "Desabre 緊湊防守＋Wissa 反擊，加上休士頓高溫，恐踢成低比分悶戰。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.77,
+          "draw": 0.15,
+          "away": 0.08
+        },
+        "scoreline": "2:0",
+        "note": "ESPN -350、Juve FC 3/10，葡萄牙讓1.5球。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.74,
+          "draw": 0.17,
+          "away": 0.09
+        },
+        "scoreline": "2:0",
+        "note": "Opta 葡萄牙贏 Group K 59%、晉級 94.9%。"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.77,
+          "draw": 0.15,
+          "away": 0.08
+        },
+        "scoreline": "2:0",
+        "note": "Kalshi 報葡萄牙勝出約 77%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "葡萄牙陣容深度與個人實力全面碾壓，Ronaldo（第六屆世界盃）領銜、Bruno Fernandes 與 Vitinha 把持中場，資格賽六場攻入20球；面對睽違52年重返、實力與經驗有限的剛果民主，主流模型、盤口與預測市場一致看好葡萄牙。剛果在 Desabre 的緊湊防守與 Wissa 反擊下具偷襲力，加上休士頓逾90%機率出現影響表現的高溫，可能壓低節奏與比分，綜合判斷最可能比分為 2:0。",
+    "key_factors": [
+      "球員狀態：葡萄牙 Ronaldo（近10場國家隊8球）與 Bruno Fernandes、Vitinha、Leão 狀態俱佳；剛果倚賴紐卡素 Wissa（傷癒復出）與老將 Bakambu。",
+      "傷停名單：葡萄牙陣中健康、Martinez 全員可選；剛果亦大致齊整，Wissa 自膝傷康復趕上、為最大利多。",
+      "近期狀態：葡萄牙資格賽四勝六場攻20球（含9-1勝亞美尼亞），曾爆冷0-2負愛爾蘭（Ronaldo 被逐）；剛果熱身0-0悶平丹麥、1-0小勝牙買加。",
+      "戰術對位：Martinez 4-3-3／4-2-3-1 控球＋邊路超載 vs Desabre 4-2-3-1 緊湊防守＋Wissa／Mbuku 快速反擊與定位球。",
+      "主客場/場地：名義主場葡萄牙，於休士頓 NRG Stadium；AccuWeather 警示當日逾90%機率出現影響表現的高溫，恐削弱壓迫節奏。",
+      "輿論共識：博彩（隱含約77%主勝）、Opta（59%贏組、94.9%晉級）、Kalshi（77%）與多數媒體（多報 2-0 或 3-0／3-1 葡萄牙）一致看好葡萄牙。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部份分析（如 The Stats Zone、The Betting Insider）認為高溫＋剛果防守紀律會讓比分比預期更接近，葡萄牙恐僅以一球小勝（如 1-0）；剛果則靠反擊與定位球力拚搶分。"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "Juve FC：葡萄牙 vs 剛果預測",
+      "url": "https://www.juvefc.com/portugal-v-dr-congo-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Offshore Sportsbooks：選注",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/portugal-vs-dr-congo-world-cup-group-k-odds-and-picks-june-17/"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera：Martinez 公布名單",
+      "url": "https://www.aljazeera.com/sports/2026/5/19/ronaldo-to-lead-portugal-at-sixth-world-cup-as-martinez-names-squad"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post：葡萄牙 vs 剛果選注",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/portugal-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aFQKs5y07Snd/"
+    },
+    {
+      "type": "model",
+      "name": "Dimers：早期預測",
+      "url": "https://www.dimers.com/news/congo-dr-vs-portugal-early-prediction-group-k-world-cup-2026-ac"
+    },
+    {
+      "type": "media",
+      "name": "Plataforma Media：Ronaldo 傷情",
+      "url": "https://www.plataformamedia.com/en/2026/03/18/portugal-squad-martinez-world-cup-2026-ronaldo-absent-third-striker/"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis：葡萄牙 vs 剛果",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/portugal-v-dr-congo-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Fanatics Sportsbook：Group K 賠率",
+      "url": "https://betfanatics.com/sportsbook/soccer/fifa-world-cup/group-k"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore：Ronaldo 傷缺名單",
+      "url": "https://www.flashscore.com/news/soccer-world-cup-portugal-boss-martinez-gives-mateus-fernandes-first-call-up-ronaldo-absent-through-injury/rVzN1OJN/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：葡萄牙 vs 剛果預覽 3-1",
+      "url": "https://www.youtube.com/watch?v=4ny_70Z9QDU"
+    },
+    {
+      "type": "betting",
+      "name": "Thatsagoal：Opta 解析",
+      "url": "https://www.thatsagoal.com/predictions/world-cup/opta-supercomputer-world-cup-2026-predictions"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia：剛果民主26人名單",
+      "url": "https://en.wikipedia.org/wiki/Template:DR_Congo_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "market",
+      "name": "SX Bet Blog：葡萄牙 vs 剛果",
+      "url": "https://blog.sx.bet/world-cup/portugal-vs-congo-dr/"
+    },
+    {
+      "type": "media",
+      "name": "Euronews：超級電腦",
+      "url": "https://www.euronews.com/2026/06/11/world-cup-2026-supercomputer-backs-spain-former-stars-favour-argentina"
+    },
+    {
+      "type": "media",
+      "name": "BBC：Wan-Bissaka、Wissa 入選",
+      "url": "https://www.bbc.com/sport/football/articles/c0k2d8ejr4do"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst：Group K 預覽",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-k-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst：抽籤前預測",
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com：剛果民主名單",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-dr-congo-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Sportbible：Opta 模擬",
+      "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/opta-supercomputer-simulates-world-cup-10-000-times-949560-20260601"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：葡萄牙 vs 剛果積分",
+      "url": "https://africa.espn.com/football/match/_/gameId/760435/rd-del-congo-portugal"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian：剛果民主隊指南",
+      "url": "https://www.theguardian.com/football/2026/jun/10/dr-congo-world-cup-2026-team-guide"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsbet：Group K 預測 3-0",
+      "url": "https://www.sportsbet.com.au/huddle/soccer-world-cup/news/world-cup-2026-group-k-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "The Betting Insider：選注",
+      "url": "https://www.thebettinginsider.com/worldcup/games/portugal-vs-dr-congo-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "Karlobag：剛果 0-0 丹麥熱身",
+      "url": "https://karlobag.eu/en/sports/dr-congo-and-denmark-finish-goalless-in-liege-in-a-tough-test-before-the-2026-wo-msmwb/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.NET：預測 3-1",
+      "url": "https://footballpredictions.net/dr-congo-v-portugal-predictions-betting-tips"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore News：剛果熱身",
+      "url": "https://www.sofascore.com/news/the-2026-world-cup-warm-up-dr-congo"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole：預測 3-0",
+      "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-congo-dr-prediction-team-news-lineups_599288.html"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/simcupsPredictions：Group K",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1sah7l0/2026_world_cup_group_k_prediction_with_dr_congo/"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate：Polymarket/Kalshi",
+      "url": "https://defirate.com/news/world-cup-odds-this-week-polymarket-and-kalshi-prices-for-every-match/"
+    },
+    {
+      "type": "betting",
+      "name": "GOAL：葡萄牙 vs 剛果預測 2-0",
+      "url": "https://www.goal.com/en-in/betting/world-cup/portugal-vs-dr-congo-predictions-17-06-2026/A:blt35eb8e9490690ad3"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24：選注 1.33",
+      "url": "https://www.futbol24.com/betting-tips/preview/17-06-2026-portugal-dr-congo-betting-tip/"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket：葡萄牙 vs 剛果",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-prt-cdr-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone：葡萄牙 vs 剛果",
+      "url": "https://www.thestatszone.com/portugal-vs-congo-dr-preview-team-news-prediction-fifa-world-cup-2026-group-stage-195848"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com：預測 2-0",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/portugal-vs-dr-congo-prediction-17-06-2026/"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate：世界盃賠率追蹤",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "Whichbookie：葡萄牙 vs 剛果預測",
+      "url": "https://www.whichbookie.co.uk/free-betting-tips/world-cup/portugal-vs-dr-congo-prediction/"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi：葡萄牙 vs 剛果市場",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun17porcod"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：葡萄牙2026 完整分析",
+      "url": "https://www.youtube.com/watch?v=e7sEhN92ZsM"
+    },
+    {
+      "type": "media",
+      "name": "AccuWeather：休士頓高溫警示",
+      "url": "https://www.accuweather.com/en/sports/live-news/world-cup-2026-weather-updates-forecasts-for-key-matches-stadium-conditions-and-fan-impacts/1898671"
+    },
+    {
+      "type": "kol",
+      "name": "portugoal.net：葡萄牙數據分析",
+      "url": "https://portugoal.net/selecao/5576-portugal-at-world-cup-2026-what-the-numbers-say-what-martinez-believes"
+    },
+    {
+      "type": "media",
+      "name": "Climate Central：休士頓氣候",
+      "url": "https://www.climatecentral.org/world-cup-2026/stadiums/houston"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire：Group K 預覽",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+    },
+    {
+      "type": "media",
+      "name": "Futbol Update：葡萄牙預測陣容",
+      "url": "https://www.futbolupdate.com/portugal-predicted-lineup-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "TheStatsAPI：休士頓主辦",
+      "url": "https://www.thestatsapi.com/world-cup/host-cities/houston"
+    },
+    {
+      "type": "media",
+      "name": "SoccerGraph：剛果民主檔案",
+      "url": "https://www.soccergraph.com/2026/06/dr-congo-2026-world-cup-profile-schedule-fixture-dates-kickoff-times-roster.html"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube：葡萄牙戰術洩漏",
+      "url": "https://www.youtube.com/watch?v=8x92zHRN11A"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN：賠率與讓分",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760435"
+    },
+    {
+      "type": "media",
+      "name": "MundialAnalytics：剛果分析",
+      "url": "https://mundialanalytics.com/dr-congo-national-team-analysis"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：收看方式與陣容",
+      "url": "https://www.espn.com/soccer/story/_/id/49069166/fifa-world-cup-2026-portugal-vs-dr-congo-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "GOAL：剛果民主終極指南",
+      "url": "https://www.goal.com/en-in/originals/world-cup-2026-guide-dr-congo/blt7fa00975814cf233"
+    },
+    {
+      "type": "media",
+      "name": "AS：葡萄牙 vs 剛果預測",
+      "url": "https://as.com/apuestas/pronosticos/portugal-vs-rd-congo-pronostico-17-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis：剛果賠率",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/dr-congo-world-cup-odds-predictions"
+    },
+    {
+      "type": "social",
+      "name": "Instagram：Opta Group K",
+      "url": "https://www.instagram.com/p/DZXaGCpE4IG/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports：葡萄牙 vs 剛果預測",
+      "url": "https://sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-100000533.html"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com：賽程 Match 21",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "葡萄牙足協 FPF",
+      "url": "https://www.fpf.pt/"
+    },
+    {
+      "type": "official",
+      "name": "剛果民主足協 FECOFA",
+      "url": "https://www.fecofa.cd/"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt：葡萄牙陣容",
+      "url": "https://www.transfermarkt.com/portugal/startseite/verein/3300"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia：2026 世界盃 Group K",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer：Group K 討論",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/portugal football",
+      "url": "https://www.reddit.com/r/portugal/"
+    },
+    {
+      "type": "kol",
+      "name": "Tifo Football：葡萄牙戰術",
+      "url": "https://www.youtube.com/@tifofootball"
+    },
+    {
+      "type": "social",
+      "name": "X/Twitter：葡萄牙足協",
+      "url": "https://twitter.com/selecaoportugal"
+    }
+  ],
+  "source_count": 63,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.82,
+        "draw": 0.12,
+        "away": 0.06
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙整體實力遠優於剛果，預期輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力佔優，預計能輕鬆擊敗剛果民主共和國。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力明顯佔優，預期輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙整體實力優勢明顯，預期輕鬆贏球鎖定小組優勢"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙陣容實力與經驗遠勝對手，預計能輕鬆掌控節奏並取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力雄厚，預計主場輕鬆取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力懸殊，剛果難以招架，主隊穩勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.772,
+      "draw": 0.147,
+      "away": 0.081
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-15T173334Z"
+}
