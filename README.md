@@ -51,7 +51,7 @@
 | `site/data/predictions/` | 每場每批次獨立保存的預測 JSON（永不覆蓋，檔名含 run_id），含 top_scorelines／scenarios／頂層 benchmarks（含第三方 AI）／consensus |
 | `Dockerfile` / `docker-compose.yml` | 自架部署用的容器設定 |
 | `deploy/` | 伺服器自動拉取與重啟工具（webhook + systemd timer + Nginx 設定） |
-| `multimodel_predict.py` | 經 Vercel AI Gateway 呼叫第三方 AI（MiniMax／千問／DeepSeek），寫入頂層 benchmarks（kind=ai）與 consensus |
+| `multimodel_predict.py` | 經 Vercel AI Gateway 呼叫七家第三方 AI（MiniMax／千問／DeepSeek／OpenAI GPT／Google Gemini／xAI Grok／Z.ai GLM），寫入頂層 benchmarks（kind=ai）與 consensus |
 | `update_accuracy.py` `compute_calibration.py` `compute_benchmark_scores.py` `build_postmortems.py` `sync_to_site.py` `push_to_github.py` | 雲端排程每輪呼叫的資料處理腳本 |
 | `fix_fixture_times.py` | 一次性開賽時間校正腳本（以權威 UTC 賽程修正 fixtures） |
 | `CRON_RUNBOOK.md` | 雲端排程每輪執行的完整手冊 |
@@ -229,10 +229,10 @@ sudo systemctl status certbot.timer                 # 憑證自動續期
 
 ### ② 第三方多模型對照 + 綜合共識
 
-主預測寫好後，經 **Vercel AI Gateway** 呼叫三家第三方 AI（`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`）作對照。第三方**只回傳比分＋三向勝率＋一句話 take**，僅作基準（`kind:"ai"`），本站結論永遠是 Opus 4.8。
+主預測寫好後，經 **Vercel AI Gateway** 呼叫七家第三方 AI 作對照：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`、`openai/gpt-5.1-thinking`、`google/gemini-3.1-pro-preview`、`xai/grok-4.20-reasoning`、`zai/glm-4.7`。第三方**只回傳比分＋三向勝率＋一句話 take**，僅作基準（`kind:"ai"`），本站結論永遠是 Opus 4.8。
 
-- 三家 AI 追加到預測檔頂層 `benchmarks[]`；整數機率會 sum-normalize 為總和 1。
-- **綜合共識（consensus）**：勝率採加權平均（**主預測權重 2、每家第三方權重 1**），比分採多數決（平手靠近主預測）。
+- 各家 AI 追加到預測檔頂層 `benchmarks[]`；整數機率會 sum-normalize 為總和 1。reasoning 模型需較大 `max_tokens`（設 3000）才能在推理後輸出 JSON；逾時或無有效回應即自動略過。
+- **綜合共識（consensus）**：勝率採加權平均（**主預測權重 2、每家第三方權重 1**；七家全到齊時 `models_used = 8`），比分採多數決（平手靠近主預測）。
 
 ### 賽後覆盤
 
@@ -246,7 +246,7 @@ sudo systemctl status certbot.timer                 # 憑證自動續期
 |---|---|
 | `accuracy.json` | 勝負命中率（1X2）、比分命中率（完全相同），並按階段分組 |
 | `calibration.json` | **Brier**（機率均方差，越低越好）、**ECE**（期望校準誤差）、**過度自信**（平均信心 − 平均命中率） |
-| `benchmark_scores.json` | 本站 AI 與所有基準線（博彩／Opta／市場／三家第三方 AI）在相同已完成比賽上的並列排行 |
+| `benchmark_scores.json` | 本站 AI 與所有基準線（博彩／Opta／市場／七家第三方 AI）在相同已完成比賽上的並列排行 |
 
 ### 設計原則
 

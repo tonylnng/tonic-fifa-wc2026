@@ -627,24 +627,24 @@
       "kind": "ai",
       "model_id": "minimax/minimax-m3",
       "win_prob": {
-        "home": 0.82,
-        "draw": 0.12,
-        "away": 0.06
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
       },
       "scoreline": "2:0",
-      "note": "阿根廷主場攻守俱佳，阿爾及利亞難擋其鋒"
+      "note": "阿根廷整體實力遠勝阿爾及利亞，主場穩勝。"
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
       "model_id": "alibaba/qwen3.7-max",
       "win_prob": {
-        "home": 0.85,
-        "draw": 0.1,
-        "away": 0.05
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
       },
       "scoreline": "2:0",
-      "note": "阿根廷實力佔優，預計輕鬆拿下小組賽首勝。"
+      "note": "阿根廷實力明顯佔優，中場控制力強，預計主隊輕鬆獲勝。"
     },
     {
       "source": "DeepSeek V4 Pro",
@@ -656,19 +656,67 @@
         "away": 0.1
       },
       "scoreline": "2:0",
-      "note": "阿根廷實力明顯高於阿爾及利亞，主場優勢下應可順利拿下勝利。"
+      "note": "阿根廷實力明顯佔優，主場優勢下掌控節奏，阿爾及利亞難構成威脅。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷整體實力壓制，主場穩守反擊可勝出。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷整體實力遠勝對手，預計能輕鬆掌控節奏並全取三分。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.76,
+        "draw": 0.15,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力遠勝，主場穩取三分。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "阿根廷實力強大，全取三分無虞。"
     }
   ],
   "consensus": {
     "scoreline": "2:0",
     "outcome": "home",
     "win_prob": {
-      "home": 0.764,
-      "draw": 0.154,
-      "away": 0.082
+      "home": 0.743,
+      "draw": 0.168,
+      "away": 0.089
     },
-    "models_used": 4,
-    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
   },
-  "multimodel_updated_at": "2026-06-15T091549Z"
+  "multimodel_updated_at": "2026-06-15T161742Z"
 }

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """多模型第三方預測（A + C 方案）。
 
-對單一場比賽，透過 Vercel AI Gateway 呼叫 MiniMax / 千問 Qwen / DeepSeek，
-各自產生「比分 + 三向勝率 + 一句話 take（繁中）」，併入該場最新預測檔的
-prediction.benchmarks[]（kind="ai"），並計算「綜合共識」寫入 prediction.consensus。
+對單一場比賽，透過 Vercel AI Gateway 呼叫多家第三方 AI
+（MiniMax / 千問 Qwen / DeepSeek / OpenAI GPT / Google Gemini / xAI Grok / Z.ai GLM），
+各自產生「比分 + 三向勝率 + 一句話 take（繁中）」，併入該場最新預測檔頂層的
+benchmarks[]（kind="ai"），並計算「綜合共識」寫入頂層 consensus。
+（reasoning 模型需較大 max_tokens 才能在推理後輸出 JSON，故設 3000。）
 
 本站主預測（Opus 4.8 / research-pplx）維持不變。
 
@@ -25,9 +27,13 @@ CA = os.environ.get("SSL_CERT_FILE", "/etc/ssl/certs/agent-proxy-ca-2.pem")
 
 # 「全部用最新 model」：依 Gateway 最新可用檔
 MODELS = [
-    {"id": "minimax/minimax-m3",      "label": "MiniMax M3"},
-    {"id": "alibaba/qwen3.7-max",     "label": "千問 Qwen3.7 Max"},
-    {"id": "deepseek/deepseek-v4-pro", "label": "DeepSeek V4 Pro"},
+    {"id": "minimax/minimax-m3",          "label": "MiniMax M3"},
+    {"id": "alibaba/qwen3.7-max",         "label": "千問 Qwen3.7 Max"},
+    {"id": "deepseek/deepseek-v4-pro",    "label": "DeepSeek V4 Pro"},
+    {"id": "openai/gpt-5.1-thinking",     "label": "OpenAI GPT-5.1 Thinking"},
+    {"id": "google/gemini-3.1-pro-preview", "label": "Google Gemini 3.1 Pro"},
+    {"id": "xai/grok-4.20-reasoning",     "label": "xAI Grok 4.20 Reasoning"},
+    {"id": "zai/glm-4.7",                 "label": "Z.ai GLM-4.7"},
 ]
 
 SYSTEM = (
@@ -58,7 +64,7 @@ def call_model(model_id, payload_msg):
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": payload_msg},
         ],
-        "max_tokens": 600,
+        "max_tokens": 3000,
         "temperature": 0.4,
     }
     proc = subprocess.run(
@@ -128,6 +134,9 @@ def predict_one_model(m, ctx, retries=1):
             scoreline = str(obj.get("scoreline", "")).replace("-", ":").strip()
             outcome = obj.get("outcome") or outcome_from_probs(wp)
             take = str(obj.get("take", "")).strip()[:60]
+            # 防退化：模型未給出可用比分（空 scoreline）代表無效回應，視同失敗。
+            if not re.match(r"^\d+:\d+$", scoreline):
+                raise ValueError(f"invalid/empty scoreline: {scoreline!r}")
             return {
                 "source": m["label"],
                 "kind": "ai",

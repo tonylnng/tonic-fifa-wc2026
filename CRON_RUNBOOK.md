@@ -43,7 +43,7 @@
 
 **在每場比賽的 Opus 4.8 預測檔寫好之後**，為同一個預測檔補上第三方 AI 對照與綜合共識。第三方 AI 經 Vercel AI Gateway 取得，只回傳「比分 + 三向勝率 + 一句話 take」（不寫長篇理由，省用量）；本站主預測仍以 **Opus 4.8** 為準，第三方僅作對照基準。
 
-- 第三方模型（各取最新版）：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`。
+- 第三方模型（七家，各取最新版）：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`、`openai/gpt-5.1-thinking`、`google/gemini-3.1-pro-preview`、`xai/grok-4.20-reasoning`、`zai/glm-4.7`。reasoning 模型需較大 max_tokens（設 3000）才能輸出 JSON。
 - 對每場即將開賽比賽，於帶憑證的 bash 執行（**必須**用 `api_credentials=["custom-cred:ai-gateway.vercel.sh"]`，Gateway 金鑰存於使用者憑證庫）：
 ```bash
 python3 /home/user/workspace/wc2026/multimodel_predict.py --match {N}

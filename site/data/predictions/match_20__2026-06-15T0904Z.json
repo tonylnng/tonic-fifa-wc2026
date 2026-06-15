@@ -417,12 +417,12 @@
       "kind": "ai",
       "model_id": "minimax/minimax-m3",
       "win_prob": {
-        "home": 0.78,
-        "draw": 0.15,
-        "away": 0.07
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
       },
-      "scoreline": "3:0",
-      "note": "奧地利實力遠勝約旦，主場應輕鬆取勝。"
+      "scoreline": "2:0",
+      "note": "奧地利實力與主場優勢明顯，約旦晉級難度高。"
     },
     {
       "source": "千問 Qwen3.7 Max",
@@ -434,7 +434,7 @@
         "away": 0.1
       },
       "scoreline": "2:0",
-      "note": "奧地利實力與戰術素養遠勝約旦，有望穩穩拿下小組賽勝利。"
+      "note": "奧地利實力佔優，主場穩紮穩打，約旦難以構成威脅。"
     },
     {
       "source": "DeepSeek V4 Pro",
@@ -442,23 +442,71 @@
       "model_id": "deepseek/deepseek-v4-pro",
       "win_prob": {
         "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力遠超約旦，主場作戰控場能力強，料取兩球完勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.73,
+        "draw": 0.19,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力與經驗全面領先，例行穩紮穩打取勝。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利整體陣容實力明顯佔優，高壓逼搶將讓約旦難以招架。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.74,
+        "draw": 0.17,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力遠勝約旦，主場預計輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
         "draw": 0.15,
         "away": 0.1
       },
       "scoreline": "2:0",
-      "note": "奧地利實力佔優，可望輕取約旦穩奪小組首勝。"
+      "note": "奧地利實力明顯優於約旦，主場應可輕取勝利。"
     }
   ],
   "consensus": {
     "scoreline": "2:0",
     "outcome": "home",
     "win_prob": {
-      "home": 0.744,
-      "draw": 0.158,
-      "away": 0.098
+      "home": 0.731,
+      "draw": 0.173,
+      "away": 0.096
     },
-    "models_used": 4,
-    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
   },
-  "multimodel_updated_at": "2026-06-15T091616Z"
+  "multimodel_updated_at": "2026-06-15T161930Z"
 }

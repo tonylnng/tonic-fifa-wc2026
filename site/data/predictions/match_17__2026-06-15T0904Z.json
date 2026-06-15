@@ -812,12 +812,12 @@
       "kind": "ai",
       "model_id": "minimax/minimax-m3",
       "win_prob": {
-        "home": 0.68,
-        "draw": 0.2,
-        "away": 0.12
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
       },
       "scoreline": "2:0",
-      "note": "法國主場攻守俱佳，實力明顯優於塞內加爾。"
+      "note": "法國主場戰力強勁，應能輕取塞內加爾。"
     },
     {
       "source": "千問 Qwen3.7 Max",
@@ -829,31 +829,79 @@
         "away": 0.1
       },
       "scoreline": "2:0",
-      "note": "法國整體實力佔優，主場作戰有望穩穩拿下勝利。"
+      "note": "法國整體實力佔優，塞內加爾難以抵擋其鋒線火力。"
     },
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
       "model_id": "deepseek/deepseek-v4-pro",
       "win_prob": {
-        "home": 0.6,
-        "draw": 0.25,
+        "home": 0.68,
+        "draw": 0.21,
+        "away": 0.11
+      },
+      "scoreline": "2:1",
+      "note": "法國整體實力較強，擁有主場優勢，可望擊敗塞內加爾。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "法國攻守均衡深度佳，看好穩守反擊贏球"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國整體陣容實力佔優，預計能穩健控制節奏並順利取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.71,
+        "draw": 0.18,
+        "away": 0.11
+      },
+      "scoreline": "2:0",
+      "note": "法國實力遠勝塞內加爾，主場優勢大預計勝出。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
         "away": 0.15
       },
       "scoreline": "2:1",
-      "note": "法國整體實力佔優，但塞內加爾反擊不容小覷，預料法國小勝。"
+      "note": "法國陣容深厚，進攻火力強，塞內加爾難以抵擋。"
     }
   ],
   "consensus": {
-    "scoreline": "2:1",
+    "scoreline": "2:0",
     "outcome": "home",
     "win_prob": {
-      "home": 0.658,
-      "draw": 0.208,
-      "away": 0.134
+      "home": 0.679,
+      "draw": 0.197,
+      "away": 0.124
     },
-    "models_used": 4,
-    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
   },
-  "multimodel_updated_at": "2026-06-15T091458Z"
+  "multimodel_updated_at": "2026-06-15T161527Z"
 }

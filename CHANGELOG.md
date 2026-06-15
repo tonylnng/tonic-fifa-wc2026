@@ -6,6 +6,22 @@
 
 ---
 
+## [變更] 2026-06-16 第三方多模型對照擴充至 7 家（HKT 6/16 清晨）
+
+### 新增（Added）
+
+- 第三方對照新增 4 家最新模型（經 Vercel AI Gateway）：OpenAI GPT-5.1 Thinking、Google Gemini 3.1 Pro、xAI Grok 4.20 Reasoning、Z.ai GLM-4.7。連同原有 MiniMax M3／千問 Qwen3.7 Max／DeepSeek V4 Pro，第三方對照共 7 家；加上本站 Opus 4.8 主預測，綜合共識 `models_used` 最多達 8。
+
+### 變更（Changed）
+
+- `multimodel_predict.py`：`MODELS` 擴充為 7 家；`max_tokens` 600 → 3000（reasoning 模型 Gemini／GLM 需較大上限才能在推理後輸出 JSON）；新增退化防護（比分須符合 `^\d+:\d+$`，否則視同失敗）。
+- 回填 #13–#20：對 8 場既有預測各跑一次七模型對照，重算頂層 `benchmarks`（kind=ai）與 `consensus`。主 Opus 預測維持不變。回填後共識：#13 西班牙 3:0 · #14 比利時 2:0 · #15 沙烏地 0:2 客 · #16 伊朗 2:0 · #17 法國 2:0 · #18 伊拉克 0:2 客 · #19 阿根廷 2:0 · #20 奧地利 2:0。
+- 文檔同步更新：`PREDICTION_METHODOLOGY.md`、`README.md`（§預測方法）、`data/predictions/SCHEMA.md`、`CRON_RUNBOOK.md` 全部改為 7 家模型、`max_tokens 3000`；前端 `PredictionCard` 對照說明列出 7 家來源。
+- 指標重算（`accuracy.json`／`calibration.json`／`benchmark_scores.json`）。新增 4 家模型僅出現在尚無結果的 #13–#20，待相關比賽結束後才納入對照排行榜。
+- 詳見 [`RELEASE_NOTES_2026-06-16-multimodel-7.md`](RELEASE_NOTES_2026-06-16-multimodel-7.md)。
+
+---
+
 ## [文件] 2026-06-15 新增預測方法說明（HKT 6/15 晚間）
 
 ### 新增（Added）

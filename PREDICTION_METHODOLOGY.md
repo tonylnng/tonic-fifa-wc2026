@@ -83,7 +83,7 @@
 
 ## 三、第三方多模型對照 + 綜合共識
 
-主預測寫好後，對**同一份預測檔**補上三家第三方 AI 的對照，再算出綜合共識。第三方**僅作對照基準，本站主預測永遠是 Opus 4.8**。
+主預測寫好後，對**同一份預測檔**補上多家第三方 AI 的對照，再算出綜合共識。第三方**僅作對照基準，本站主預測永遠是 Opus 4.8**。
 
 ### 3.1 執行方式
 
@@ -92,16 +92,21 @@ python3 multimodel_predict.py --match {場次}
 # 需帶憑證：api_credentials=["custom-cred:ai-gateway.vercel.sh"]
 ```
 
-- 經 **Vercel AI Gateway** 呼叫三家模型：
-  - `minimax/minimax-m3`
-  - `alibaba/qwen3.7-max`
-  - `deepseek/deepseek-v4-pro`
+- 經 **Vercel AI Gateway** 呼叫七家模型：
+  - `minimax/minimax-m3`（MiniMax M3）
+  - `alibaba/qwen3.7-max`（千問 Qwen3.7 Max）
+  - `deepseek/deepseek-v4-pro`（DeepSeek V4 Pro）
+  - `openai/gpt-5.1-thinking`（OpenAI GPT-5.1 Thinking）
+  - `google/gemini-3.1-pro-preview`（Google Gemini 3.1 Pro）
+  - `xai/grok-4.20-reasoning`（xAI Grok 4.20 Reasoning）
+  - `zai/glm-4.7`（Z.ai GLM-4.7）
 - 第三方只回傳精簡內容（省用量）：**比分 + 三向勝率 + 一句話 take**，不寫長篇理由。
+- reasoning 類模型（GPT-5.1 Thinking／Gemini 3.1 Pro／Grok Reasoning／GLM-4.7）會先消耗 token 做內部推理才輸出答案，故 `max_tokens` 設為 3000；若某模型逾時、回傳空答案或無有效比分即自動略過，不寫入退化條目。
 - 技術細節：腳本以 `curl --cacert` 子程序呼叫 Gateway（代理環境下 Python requests 會 SSL 失敗，故不用 requests）。某模型逾時／失敗即略過，其餘照常寫入。
 
 ### 3.2 結果如何寫回
 
-- 三家 AI 以 `kind:"ai"`（含 `model_id`）追加到預測檔**頂層** `benchmarks[]`（依來源去重，保留既有 betting/model/market 條目）。
+- 各家 AI 以 `kind:"ai"`（含 `model_id`）追加到預測檔**頂層** `benchmarks[]`（依來源去重，保留既有 betting/model/market 條目）。
 - 第三方若回傳整數機率（如 55/25/20），會自動 sum-normalize 為總和 1。
 
 ### 3.3 綜合共識（consensus）的算法
@@ -109,10 +114,10 @@ python3 multimodel_predict.py --match {場次}
 腳本把「本站 Opus 主預測 + 可用第三方」合成一個頂層 `consensus`：
 
 - **勝率**：加權平均 — **主預測權重 2，每家第三方權重 1**。
-  （例：本站 + 3 家 AI 全到齊 → 權重 2:1:1:1，`models_used = 4`。）
+  （例：本站 + 7 家 AI 全到齊 → 權重 2:1:1:1:1:1:1:1，`models_used = 8`。實際 `models_used` 依當輪成功回應的模型數而定。）
 - **比分**：多數決；若平手則靠近主預測。
 
-前端卡片詳情會顯示「模型共識」區與「多模型對決」區，呈現四個模型的比分與勝率對照。
+前端卡片詳情會顯示「模型共識」區與「多模型對決」區，呈現本站 Opus 與各第三方模型的比分與勝率對照。
 
 ---
 
@@ -147,7 +152,7 @@ python3 multimodel_predict.py --match {場次}
 
 ### 5.3 基準線排行（benchmark_scores.json）
 
-在**相同的已完成比賽**上，把本站 AI 與所有基準線（博彩、Opta、預測市場、三家第三方 AI…）**並列計分**：
+在**相同的已完成比賽**上，把本站 AI 與所有基準線（博彩、Opta、預測市場、七家第三方 AI…）**並列計分**：
 
 - 各來源計算 outcome 命中、exact 命中、Brier。
 - 第三方 AI 若未存 `outcome`，由其 `win_prob` 取最大向推導。

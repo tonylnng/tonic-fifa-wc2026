@@ -150,15 +150,16 @@ trail is auditable.
       "scoreline": "4:0",
       "note": "德國實力碾壓庫拉索，應輕鬆取勝。"   // 第三方只回「一句話 take」，不寫長篇理由
     }
-    // 另 alibaba/qwen3.7-max、deepseek/deepseek-v4-pro 同格式
+    // 另 alibaba/qwen3.7-max、deepseek/deepseek-v4-pro、openai/gpt-5.1-thinking、
+    // google/gemini-3.1-pro-preview、xai/grok-4.20-reasoning、zai/glm-4.7 同格式（共 7 家）
   ],
 
-  "consensus": {                                  // 【新頂層】本站主預測 + 3 家第三方的綜合共識
+  "consensus": {                                  // 【新頂層】本站主預測 + 多家第三方的綜合共識
     "scoreline": "4:0",                           // 比分多數決（平手靠近主預測）
     "outcome": "home",
     "win_prob": { "home": 0.924, "draw": 0.056, "away": 0.02 },  // 加權平均（主預測權重 2，每個 AI 權重 1）
-    "models_used": 4,                             // 參與共識的模型數（主預測 + 可用第三方）
-    "logic": "綜合 4 個模型（本站 Opus 4.8 + 3 家第三方）：勝率採主預測加權平均、比分採多數決。"  // 繁中一句綜合邏輯
+    "models_used": 8,                             // 參與共識的模型數（主預測 + 可用第三方；7 家全到齊為 8）
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決。"  // 繁中一句綜合邏輯
   }
 }
 ```
