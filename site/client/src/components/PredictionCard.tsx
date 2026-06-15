@@ -644,7 +644,7 @@ export function PredictionCard({
                 </h4>
                 <Benchmarks ai={pred.prediction} items={benchmarks} />
                 <p className="text-[11px] text-muted-foreground mt-2">
-                  第三方 AI（MiniMax／千問／DeepSeek）經 Vercel AI Gateway 取得；横條為三向勝負機率（主/和/客）；賽後可在「校準與基準」頁查看誰更準。
+                  第三方 AI（MiniMax／千問／DeepSeek／OpenAI GPT／Google Gemini／xAI Grok／Z.ai GLM）經 Vercel AI Gateway 取得；横條為三向勝負機率（主/和/客）；賽後可在「校準與基準」頁查看誰更準。
                 </p>
               </div>
             )}

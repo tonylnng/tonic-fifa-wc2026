@@ -38,7 +38,7 @@ export function Header({
             <circle cx="16" cy="15" r="2.2" fill="hsl(var(--chart-2))" />
           </svg>
           <div className="leading-tight min-w-0">
-            <div className="font-extrabold tracking-tight text-base truncate">世界盃 2026</div>
+            <div className="font-extrabold tracking-tight text-base truncate">Tonic 世界盃 2026 預測</div>
             <div className="text-xs text-muted-foreground hidden sm:block">
               AI 預測與準確率追蹤
             </div>
