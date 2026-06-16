@@ -1,0 +1,777 @@
+{
+  "match": 20,
+  "stage": "Group J",
+  "home": "Austria",
+  "away": "Jordan",
+  "kickoff_utc": "2026-06-17T04:00:00Z",
+  "run_id": "2026-06-16T0055Z",
+  "run_timestamp": "2026-06-16T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.68,
+      "draw": 0.18,
+      "away": 0.14
+    },
+    "confidence": 0.7,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "奧地利掌控取勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "蘭尼克高位壓迫與中場宰制逐步破解約旦低位防線，亞瑙托維奇與薩比策製造並把握機會。"
+      },
+      {
+        "name": "謹慎一球小勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "約旦組織嚴密死守，奧地利靠定位球或下半場替補突破僅以一球分勝負。"
+      },
+      {
+        "name": "約旦反擊偷分",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.25,
+        "basis": "塔馬里在轉換中製造威脅，約旦若能撐到下半場並把握一次反擊或定位球可逼平。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.703,
+          "draw": 0.169,
+          "away": 0.129
+        },
+        "note": "Opta 給奧地利 70.3% 勝率、約旦僅 12.9%，與輿論共識一致。"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.678,
+          "draw": 0.191,
+          "away": 0.132
+        },
+        "scoreline": "2:0",
+        "note": "Dimers 預測奧地利 67.8% 勝率，最可能比分 2-0。"
+      },
+      {
+        "source": "FanDuel/市場盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.72,
+          "draw": 0.17,
+          "away": 0.11
+        },
+        "note": "盤口奧地利約 -290/-310、約旦 +800，隱含奧地利重度被看好。"
+      },
+      {
+        "source": "VSiN / Sportsgambler 讓分",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.66,
+          "draw": 0.19,
+          "away": 0.15
+        },
+        "scoreline": "2:0",
+        "note": "讓球 -1.5 與『奧地利零封獲勝』為主流推介，多數預測 2-0。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "奧地利睽違 28 年重返世界盃，蘭尼克打造高強度壓迫體系，歐洲資格賽 8 戰 6 勝、進 22 失 4，近五場 4 勝 1 和（含 5-1 勝迦納、1-0 勝南韓與突尼西亞），整體深度與經驗遠勝對手。約旦首次參賽，採 3-4-3／5-3-2 低位防守加塔馬里轉換反擊，但近五場不勝、丟 11–13 球，且資格賽最佳射手 Al-Naimat 因十字韌帶傷缺陣、Olwan 剛從傷癒回，鋒線火力銳減。奧地利損失 Baumgartner（大腿傷退賽）但 Alaba 已過關可先發，防線穩固。主流模型（Opta 70.3%、Dimers 67.8%）、盤口（-290 至 -310）與各大預覽一致看好奧地利掌控比賽並零封小勝，最可能比分為 2-0。場地為聖塔克拉拉 Levi's Stadium，深夜開球屬中立場，對雙方影響有限。綜合判斷預測奧地利 2-0。",
+    "key_factors": [
+      "球員狀態：奧地利 Sabitzer、Laimer、Arnautovic 狀態佳，賽前三連勝；約旦塔馬里為唯一具世界級威脅者。",
+      "傷停：約旦頭號射手 Al-Naimat（ACL）缺陣為重大打擊；奧地利 Baumgartner 大腿傷退賽，但 Alaba 已恢復可先發。",
+      "近況：奧地利近五場 4 勝 1 和進 9 失 3；約旦近五場 3 負 2 和不勝、失 11–13 球，賽前友誼遭瑞士 4-1、哥倫比亞 2-0。",
+      "戰術對位：奧地利高位壓迫＋中場宰制 vs 約旦低位封鎖＋塔馬里轉換反擊，關鍵在能否撕破密集防線。",
+      "場地：聖塔克拉拉 Levi's Stadium，深夜開球中立場，無明顯主客場優勢。",
+      "輿論共識：Opta、Dimers、盤口與媒體一致重押奧地利，主流預測多為 2-0／1-0 奧地利零封小勝。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "反向觀點：約旦在亞洲盃曾打進決賽，防守組織與紀律性強，若能撐住前段並靠塔馬里一次反擊或定位球先馳得點，深夜中立場加上世界盃首戰的情緒能量，理論上有逼出 1-1 平局甚至偷一分的空間；部分 AI 模型亦給出接近 1-1 的低比分結果。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA Match Centre — Austria v Jordan",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "ÖFB — Austrian FA",
+      "url": "https://www.oefb.at/"
+    },
+    {
+      "type": "official",
+      "name": "Jordan FA",
+      "url": "https://jfa.com.jo/"
+    },
+    {
+      "type": "official",
+      "name": "Bundesliga Liveticker — Austria vs Jordan",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/austria-vs-jordan/liveticker"
+    },
+    {
+      "type": "official",
+      "name": "Olympics.com — Austria squad & schedule",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-austria-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "official",
+      "name": "Olympics.com — Jordan squad & schedule",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-jordan-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Match Page — Austria v Jordan",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760431/jordan-austria"
+    },
+    {
+      "type": "official",
+      "name": "SofaScore — Austria vs Jordan",
+      "url": "https://www.sofascore.com/football/match/austria-jordan/"
+    },
+    {
+      "type": "official",
+      "name": "365Scores — Group J fixtures",
+      "url": "https://www.365scores.com/football/fifa-world-cup-5930"
+    },
+    {
+      "type": "official",
+      "name": "FlashScore — Austria news",
+      "url": "https://www.flashscore.com/news/austria-won-t-call-up-replacement-to-world-cup-squad-despite-christoph-baumgartner-injury/8Kj5ez54/"
+    },
+    {
+      "type": "media",
+      "name": "BBC — Jordan final 26-man squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2023jvdjrko"
+    },
+    {
+      "type": "media",
+      "name": "BBC — Alaba fit, Baumgartner out",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3928ewev42o"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Austria vs Jordan how to watch & lineups",
+      "url": "https://www.espn.com/soccer/story/_/id/49058237/fifa-world-cup-2026-austria-vs-jordan-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Austria 2026 squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/474/austria"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Jordan WC preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/6/jordan-world-cup-2026-preview-players-to-watch-group-matches-and-squad"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — Jordan team guide",
+      "url": "https://www.theguardian.com/football/2026/jun/09/jordan-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Austria vs Jordan preview (US)",
+      "url": "https://www.goal.com/en-us/news/austria-jordan-world-cup-preview/blt7c1bb3d0f0243ac5"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Austria vs Jordan preview (GB)",
+      "url": "https://www.goal.com/en-gb/news/austria-jordan-world-cup-preview/blt7c1bb3d0f0243ac5"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Jordan squad WC2026",
+      "url": "https://www.goal.com/en-us/lists/jordan-squad-world-cup-2026/bltda9cdf2fa63fc83f"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — WC2026 Ultimate Guide Austria",
+      "url": "https://www.goal.com/en-gb/world-cup-teams/group-j/world-cup-2026-guide-austria/O~bltca55517ebeb2d826"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Austria vs Jordan preview & lineups",
+      "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated — Austria vs Jordan preview",
+      "url": "https://www.si.com/soccer/austria-vs-jordan-world-cup-preview-predictions-lineups-6-16-26"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Austria vs Jordan preview",
+      "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/preview/austria-vs-jordan-prediction-team-news-lineups_599171.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Jordan lineup vs Austria",
+      "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/predicted-lineups/olwan-to-lead-the-line-predicted-jordan-lineup-vs-austria_599178.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — Austria WC2026 squad",
+      "url": "https://www.fourfourtwo.com/team/austria-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "The National — Jordan talking points Al Tamari",
+      "url": "https://www.thenationalnews.com/sport/football/2026/06/05/jordan-world-cup-talking-points-mousa-al-tamari-carries-nations-hopes-up-against-lionel-messi-and-co/"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times — Jordan WC debut",
+      "url": "https://www.straitstimes.com/sport/football/ambitious-jordan-out-to-make-their-mark-on-world-cup-debut"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis — Austria v Jordan",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/austria-v-jordan-predictions"
+    },
+    {
+      "type": "media",
+      "name": "101 Great Goals — Austria v Jordan preview",
+      "url": "https://www.101greatgoals.com/match-previews/world-cup-matches/austria-v-jordan-world-cup-2026-line-ups-stats-preview-tv-channel-live-online-stream-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/thefootballfaithful — Austria squad",
+      "url": "https://sports.yahoo.com/articles/austria-2026-world-cup-squad-094000763.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/thefootballfaithful — Jordan squad",
+      "url": "https://sports.yahoo.com/articles/jordan-2026-world-cup-squad-112500099.html"
+    },
+    {
+      "type": "media",
+      "name": "Devdiscourse — Al-Tamari headlines Jordan squad",
+      "url": "https://www.devdiscourse.com/article/sports-games/3928863-soccer-forward-altamari-headlines-jordans-first-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "Devdiscourse — Jordan assembles squad",
+      "url": "https://www.devdiscourse.com/article/sports-games/3929908-jordan-assembles-squad-for-historic-world-cup-debut"
+    },
+    {
+      "type": "media",
+      "name": "MENAFN — Jordan qualify for first World Cup",
+      "url": "https://menafn.com/1109647611/Jordan-Make-History-Qualify-For-Fifa-World-Cup-For-First-Time"
+    },
+    {
+      "type": "media",
+      "name": "SportPesa Blog — Austria vs Jordan preview",
+      "url": "https://blog.sportpesa.com/2026/06/15/austria-vs-jordan-preview-prediction-world-cup-2026/amp/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK — Austria v Jordan preview",
+      "url": "https://esports-news.co.uk/2026/06/13/austria-v-jordan-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Inkl — Austria vs Jordan predictions",
+      "url": "https://www.inkl.com/news/austria-vs-jordan-world-cup-2026-predictions-and-picks"
+    },
+    {
+      "type": "media",
+      "name": "Fanorate — Austria vs Jordan preview",
+      "url": "https://www.fanorate.com/soccer-2026/match-previews/austria-vs-jordan-world-cup-2026-preview/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times — Group J coverage",
+      "url": "https://fwctimes.com/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Jordan squad (EN)",
+      "url": "https://www.goal.com/en/lists/jordan-squad-world-cup-2026/bltda9cdf2fa63fc83f"
+    },
+    {
+      "type": "media",
+      "name": "Yardbarker — Groups J/K/L advance preview",
+      "url": "https://www.yardbarker.com/soccer/articles/world_cup_preview_whos_likely_to_advance_from_groups_j_k_and_l/s1_13132_43939063"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — Austria national team",
+      "url": "https://en.wikipedia.org/wiki/Austria_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "SportsWorldGhana — Group context",
+      "url": "https://sportsworldghana.com/"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports — Austria vs Jordan boxscore",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-austria-vs-jordan-jun-17-2026-game-boxscore"
+    },
+    {
+      "type": "media",
+      "name": "ahram Online — DR Congo WC profile (group hub)",
+      "url": "https://english.ahram.org.eg/WorldCup2026/TeamWC2026/2026/1360.aspx"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Austria vs Jordan prediction",
+      "url": "https://theanalyst.com/articles/austria-vs-jordan-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Group J predictions & preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-j-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — WC2026 groups predictions",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Jordan vs Austria prediction",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_aut_jor"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle — Group J analysis",
+      "url": "https://kickoracle.com/en/groups/J"
+    },
+    {
+      "type": "model",
+      "name": "Footlab — Group J analysis",
+      "url": "https://footlab-data.com/en/world-cup/groups/J"
+    },
+    {
+      "type": "model",
+      "name": "AsianetNews — Austria vs Jordan model",
+      "url": "https://www.asianetnews.com/casinos/au/worldcup-2026/austria-vs-jordan-vs-group-stage/"
+    },
+    {
+      "type": "model",
+      "name": "BetMines — Austria vs Jordan analysis",
+      "url": "https://betmines.com/match-preview/austria-vs-jordan-prediction-match-preview-and-analysis-world-cup-17-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "PredictionMarketsPicks — Austria vs Jordan sim",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/austria-vs-jordan"
+    },
+    {
+      "type": "model",
+      "name": "SX Bet Blog — Group J teams/odds/Opta",
+      "url": "https://blog.sx.bet/world-cup/group-j/"
+    },
+    {
+      "type": "model",
+      "name": "atwmfootball2026 — Group J analysis",
+      "url": "https://atwmfootball2026.com/wm-gruppe-j-analyse/"
+    },
+    {
+      "type": "model",
+      "name": "Polymarket(AR) — Group J prediction",
+      "url": "https://polymarkets.co.il/ar/news/world-cup-2026-group-j-prediction/"
+    },
+    {
+      "type": "betting",
+      "name": "VSiN — Austria vs Jordan pick",
+      "url": "https://vsin.com/soccer/austria-vs-jordan-prediction-2026-fifa-world-cup-preview-and-pick/"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 — Austria vs Jordan betting tip",
+      "url": "https://www.futbol24.com/betting-tips/preview/17-06-2026-austria-jordan-betting-tip/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post — Austria vs Jordan tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/austria-vs-jordan-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aM2Ss5f0OfG4/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine — Austria vs Jordan odds & picks",
+      "url": "https://www.sportsline.com/insiders/austria-vs-jordan-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler — Austria vs Jordan tips",
+      "url": "https://www.sportsgambler.com/betting-tips/football/austria-vs-jordan-prediction-lineups-odds-2026-06-16/"
+    },
+    {
+      "type": "betting",
+      "name": "TheFootballFaithful — Austria vs Jordan tips",
+      "url": "https://thefootballfaithful.com/betting-news/austria-vs-jordan-prediction-betting-tips-17-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "LiveScore — Bet Builder tips 17 June",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-bet-builder-tips-9-1-four-fold-for-wednesday-17-june/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddstrader — Austria vs Jordan odds",
+      "url": "https://www.oddstrader.com/world-cup/matchups/austria-vs-jordan-2026-06-16-e4788649/odds/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballWhispers — Austria vs Jordan tips",
+      "url": "https://footballwhispers.com/blog/austria-vs-jordan-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambling Podcast — Group J bets",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/09/fifa-world-cup-2026-group-j-analysis-preview-and-best-bets/"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel — World Cup odds",
+      "url": "https://sportsbook.fanduel.com/navigation/soccer"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings — World Cup odds",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM — World Cup odds",
+      "url": "https://sports.betmgm.com/en/sports/soccer-4"
+    },
+    {
+      "type": "betting",
+      "name": "BetUS — World Cup odds hub",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/"
+    },
+    {
+      "type": "betting",
+      "name": "Asianet — Austria vs Jordan tips",
+      "url": "https://www.asianetnews.com/casinos/au/worldcup-2026/austria-vs-jordan-vs-group-stage/?ref=odds"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — Baumgartner injured",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tuo6rh/austria_baumgartner_injured_during_warm_up/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Jordan on its way to WC",
+      "url": "https://www.reddit.com/r/soccer/comments/1l45fv3/jordan_is_on_its_way_to_the_world_cup_for_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Al Tamari push up",
+      "url": "https://www.reddit.com/r/soccer/comments/1tt9gln/jordan_captain_mousa_al_tamari_tells_teammates_to/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Jordan fans start work late",
+      "url": "https://www.reddit.com/r/soccer/comments/1tt7bu1/jordan_to_let_fans_start_work_late_for_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Jordan vs Qatar Asian Cup",
+      "url": "https://www.reddit.com/r/soccer/comments/1anhww1/match_thread_jordan_vs_qatar_afc_asian_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup — players you knew nothing about",
+      "url": "https://www.reddit.com/r/worldcup/comments/1aqctxx/are_there_any_players_that_you_previously_knew/"
+    },
+    {
+      "type": "social",
+      "name": "Facebook — Austria squad list WC2026",
+      "url": "https://www.facebook.com/groups/557760688437161/posts/1972001233679759/"
+    },
+    {
+      "type": "kol",
+      "name": "SportsLine (Eimer pick) — over 2.5",
+      "url": "https://www.sportsline.com/insiders/austria-vs-jordan-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/?ref=eimer"
+    },
+    {
+      "type": "kol",
+      "name": "Simon Winter (LiveScore) — Sabitzer SOT",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-bet-builder-tips-9-1-four-fold-for-wednesday-17-june/?ref=winter"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire analyst — score prediction 2-0",
+      "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225?ref=analyst"
+    },
+    {
+      "type": "kol",
+      "name": "SI writer — Austria 3-0 prediction",
+      "url": "https://www.si.com/soccer/austria-vs-jordan-world-cup-preview-predictions-lineups-6-16-26?ref=writer"
+    },
+    {
+      "type": "kol",
+      "name": "Fanorate — Sabitzer MOTM bold call",
+      "url": "https://www.fanorate.com/soccer-2026/match-previews/austria-vs-jordan-world-cup-2026-preview/?ref=bold"
+    },
+    {
+      "type": "youtube",
+      "name": "Ball Blast Sports — Austria vs Jordan preview",
+      "url": "https://www.youtube.com/watch?v=vx_EpnCqjc0"
+    },
+    {
+      "type": "youtube",
+      "name": "2026 WC Austria vs Jordan preview",
+      "url": "https://www.youtube.com/watch?v=yOUIYNmytRw"
+    },
+    {
+      "type": "youtube",
+      "name": "Austria vs Jordan high-press model edge",
+      "url": "https://www.youtube.com/watch?v=grXvGOVF8hw"
+    },
+    {
+      "type": "youtube",
+      "name": "Austria vs Jordan prediction & highlights",
+      "url": "https://www.youtube.com/watch?v=dwQhVkbQSRg"
+    },
+    {
+      "type": "youtube",
+      "name": "FC26 WC2026 Group J Austria vs Jordan sim",
+      "url": "https://www.youtube.com/watch?v=TMIbXqfGVds"
+    },
+    {
+      "type": "youtube",
+      "name": "Jordan official WC2026 squad — 26 players",
+      "url": "https://www.youtube.com/watch?v=PY2doFSUWPI"
+    },
+    {
+      "type": "youtube",
+      "name": "Jordan final squad WC2026",
+      "url": "https://www.youtube.com/watch?v=KCKdUIyAEZw"
+    },
+    {
+      "type": "youtube",
+      "name": "WC2026 draw reaction Group J knockout paths",
+      "url": "https://www.youtube.com/watch?v=9zsvs4yndog"
+    },
+    {
+      "type": "youtube",
+      "name": "Austria-Jordan eFootball PES sim",
+      "url": "https://www.youtube.com/watch?v=0EGoVMgj2yo"
+    },
+    {
+      "type": "youtube",
+      "name": "Austria-Jordan FIFA98 PC sim",
+      "url": "https://www.youtube.com/watch?v=cBS6I80C2wk"
+    },
+    {
+      "type": "youtube",
+      "name": "Austria-Jordan PES full match sim",
+      "url": "https://www.youtube.com/watch?v=vMTTyjl17p8"
+    },
+    {
+      "type": "youtube",
+      "name": "WC2026 draw — Argentina Algeria Austria Jordan",
+      "url": "https://www.youtube.com/watch?v=ifoeJZaLFxU"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Austria-Jordan preview (US dup region)",
+      "url": "https://www.goal.com/en-us/news/austria-jordan-world-cup-preview/blt7c1bb3d0f0243ac5?region=us"
+    },
+    {
+      "type": "media",
+      "name": "The Betting Insider — Austria vs Jordan",
+      "url": "https://www.thebettinginsider.com/worldcup/games/austria-vs-jordan-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com — Jordan dream big",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-jordan-dream-big-on-debut"
+    },
+    {
+      "type": "media",
+      "name": "Worldcup26usa — Jordan team page",
+      "url": "https://worldcup26usa.com/en/teams/jordan"
+    },
+    {
+      "type": "media",
+      "name": "fifa-26.com — injuries hub",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "Football/26 — Jordan squad & fixtures",
+      "url": "https://worldcup26usa.com/en/teams/jordan?tab=fixtures"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Austria-Jordan match (alt id)",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760431/jordania-austria"
+    },
+    {
+      "type": "media",
+      "name": "ESPN.in — group coverage",
+      "url": "https://www.espn.in/football/fifa-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "The Celtic Star — Group J context",
+      "url": "https://thecelticstar.com/"
+    },
+    {
+      "type": "betting",
+      "name": "betmines main — WC predictions hub",
+      "url": "https://betmines.com/match-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — World Cup hub",
+      "url": "https://www.skysports.com/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Marca — World Cup 2026",
+      "url": "https://www.marca.com/en/world-cup.html"
+    },
+    {
+      "type": "media",
+      "name": "AS — World Cup 2026",
+      "url": "https://en.as.com/resultados/futbol/mundial/"
+    },
+    {
+      "type": "media",
+      "name": "The Athletic — World Cup 2026",
+      "url": "https://www.nytimes.com/athletic/football/world-cup/"
+    }
+  ],
+  "source_count": 110,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.17,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力遠勝約旦，主場有望完封對手。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利整體實力佔優，預計能穩穩拿下約旦取得開門紅。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力明顯佔優，可望輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.82,
+        "draw": 0.12,
+        "away": 0.06
+      },
+      "scoreline": "3:0",
+      "note": "奧地利實力與經驗皆優，主場可望輕鬆完封約旦"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.19,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "奧地利整體實力與戰術素養遠勝約旦，預計能穩健掌控局勢並取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.74,
+        "draw": 0.17,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力遠勝，主場預計輕取約旦。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "奧地利實力明顯優於約旦，主場應可輕取勝利。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.727,
+      "draw": 0.17,
+      "away": 0.103
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T012750Z"
+}

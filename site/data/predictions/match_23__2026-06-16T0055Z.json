@@ -1,0 +1,567 @@
+{
+  "match": 23,
+  "stage": "Group L",
+  "home": "Ghana",
+  "away": "Panama",
+  "kickoff_utc": "2026-06-17T23:00:00Z",
+  "run_id": "2026-06-16T0055Z",
+  "run_timestamp": "2026-06-16T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.46,
+      "draw": 0.27,
+      "away": 0.27
+    },
+    "confidence": 0.46,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "迦納靠個人能力小勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "威廉斯與塞門尼奧的速度與個人質素撕開巴拿馬5-4-1防線，但對方仍以反擊或定位球扳回一城。"
+      },
+      {
+        "name": "巴拿馬密集防守逼平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.4,
+        "basis": "巴拿馬深蹲吸收壓力、把握一次反擊或定位球，迦納近期狀態低迷無法全取三分。"
+      },
+      {
+        "name": "迦納謹慎零封小勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "奎羅斯務實佈陣，迦納靠帕爾蒂控中場與一次破門守住一球之差。"
+      },
+      {
+        "name": "巴拿馬偷襲反勝",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.27,
+        "basis": "伊斯梅爾·迪亞斯的反擊速度懲罰迦納失衡防線，巴拿馬拿下隊史世界盃首勝。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.405,
+          "draw": 0.261,
+          "away": 0.334
+        },
+        "note": "Dimers 機器學習給迦納40.5%、平局26.1%、巴拿馬33.4%，最可能比分1-1。"
+      },
+      {
+        "source": "TuringStats 多模型聚合",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.62,
+          "draw": 0.26,
+          "away": 0.12
+        },
+        "note": "10個AI模型8個偏向迦納，平均比分1-0、信心中等，迦納為明確共識。"
+      },
+      {
+        "source": "Pickswise",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.49,
+          "draw": 0.0,
+          "away": 0.51
+        },
+        "note": "盤口GHA -192、PAN +148；其勝率模型甚至點出巴拿馬有讓分價值，反映賽事接近。"
+      },
+      {
+        "source": "Wincomparator 算法",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.351,
+          "draw": 0.205,
+          "away": 0.444
+        },
+        "note": "演算法偏向巴拿馬(44.4%)，凸顯此戰存在分歧、迦納優勢不大。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "迦納在小組賽首戰面對巴拿馬，多數博彩盤口與AI模型(TuringStats 8/10模型、Opta小組數據)視迦納為小熱門，主因其威廉斯、塞門尼奧的邊路速度與個人質素，加上帕爾蒂坐鎮中場；但這份優勢相當有限。核心利空是頭號創造者庫杜斯因股四頭肌/腿後肌傷勢確定缺陣，且迦納近七場不勝、連續七場未能零封，賽前友賽1-5慘敗奧地利、再負墨西哥，狀態堪憂。巴拿馬在克里斯蒂安森麾下以5-4-1密集防守與定位球見長，外圍賽不敗，伊斯梅爾·迪亞斯的反擊速度是其最可靠得分手段；部分模型(Wincomparator、Pickswise)甚至偏向巴拿馬，Dimers最可能比分為1-1。場地為多倫多BMO Field(專用足球場、真草)，對雙方皆為中立。綜合而言，迦納個人能力略佔上風，主預測取2-1小勝；但因其防守不穩與巴拿馬的紀律，平局(1-1)與零封小勝(1-0)機率同樣高，信心偏低。",
+    "key_factors": [
+      "球員狀態：迦納倚重威廉斯、塞門尼奧的速度與帕爾蒂的中場控制；巴拿馬以伊斯梅爾·迪亞斯反擊與卡拉斯基亞組織為核心。",
+      "傷停：迦納頭號球星庫杜斯因傷確定缺席世界盃，賈久(Djiku)亦傳替換，攻擊創造力受損；巴拿馬陣容大致齊整。",
+      "近況：迦納近七場不勝、連七場無零封，友賽1-5負奧地利、再負墨西哥；巴拿馬外圍賽不敗但熱身5場0勝1和4負。",
+      "戰術對位：迦納邊路速度與轉換 對 巴拿馬5-4-1密集防守與定位球，能否破密集防線是勝負關鍵。",
+      "場地：多倫多BMO Field為專用足球場、真草、約4.5萬人，對兩隊皆中立，無明顯主場優勢。",
+      "輿論共識：多數盤口與AI模型偏向迦納小勝(2-1或1-0)，惟Wincomparator、Pickswise反向看好巴拿馬，分歧明顯、平局亦熱門。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "反向觀點認為迦納缺少庫杜斯後進攻缺乏創造力、近況極差且防守鬆散，而巴拿馬組織紀律、外圍賽不敗並擅長定位球與反擊；Wincomparator與Pickswise模型甚至更看好巴拿馬，本場完全可能爆出平局或巴拿馬偷取隊史世界盃首勝。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - 2026 World Cup tournament hub",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "Concacaf - Panama team profile",
+      "url": "https://www.concacaf.com/competitions/fifa-world-cup/news/fifa-world-cup-2026-team-profile-panama"
+    },
+    {
+      "type": "official",
+      "name": "GhanaWeb - FIFA publishes Black Stars squad numbers",
+      "url": "https://www.ghanaweb.com/GhanaHomePage/SportsArchive/FIFA-publishes-Black-Stars-squad-numbers-for-2026-World-Cup-2037493"
+    },
+    {
+      "type": "official",
+      "name": "Football/26 - Panama squad & fixtures",
+      "url": "https://worldcup26usa.com/en/teams/panama"
+    },
+    {
+      "type": "official",
+      "name": "blogTO - Ghana vs Panama at BMO Field",
+      "url": "https://www.blogto.com/events/fifa-world-cup-26-group-l-ghana-vs-panama-toronto/"
+    },
+    {
+      "type": "official",
+      "name": "Xinhua - Ghana name squad without Kudus",
+      "url": "https://english.news.cn/20260602/4860b7831aec43b7998d86774b48827d/c.html"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - Ghana v Panama predictions",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/ghana-v-panama-predictions"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 2026 World Cup injuries tracker (Kudus)",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Ghana provisional squad Kudus out",
+      "url": "https://www.espn.com/espn/story/_/id/48878999/antoine-semenyo-thomas-partey-headline-ghana-provisional-fifa-world-cup-squad-injured-mohammed-kudus-out"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Queiroz tactical vision Ghana",
+      "url": "https://www.espn.com/espn/story/_/id/48908368/ghana-boss-carlos-queiroz-tactical-vision-clear-does-squad-meet-it"
+    },
+    {
+      "type": "media",
+      "name": "NDTV - Ghana name squad without Kudus",
+      "url": "https://sports.ndtv.com/us/fifa/ghana-name-2026-world-cup-squad-without-mohammed-kudus-after-quad-injury-rules-him-out-of-tournament-11582637"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Panama full squad & key stats",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-panama-all-players-full-squad-list-key-stats-and-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Ghana full squad & key stats",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-ghana-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Ghana vs Panama World Cup preview",
+      "url": "https://www.goal.com/en-au/news/ghana-panama-world-cup-preview/bltc57f7610ee6813ff"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Ghana squad World Cup 2026 predicted XI",
+      "url": "https://www.goal.com/en-ae/lists/ghana-squad-world-cup-2026/blt96bf719b2e716a5e"
+    },
+    {
+      "type": "media",
+      "name": "The Sports Rush - Ghana v Panama predictions",
+      "url": "https://thesportsrush.com/ghana-v-panama-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Ghana v Panama predictions",
+      "url": "https://www.juvefc.com/ghana-v-panama-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Ghana World Cup 2026 squad",
+      "url": "https://www.fourfourtwo.com/team/ghana-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Panama team guide",
+      "url": "https://www.theguardian.com/football/2026/jun/11/panama-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Kudus ruled out of Ghana squad",
+      "url": "https://www.straitstimes.com/sport/football/injury-rules-spurs-kudus-out-of-ghanas-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Panama names World Cup roster",
+      "url": "https://en.as.com/soccer/world-cup/panama-names-2026-world-cup-roster-these-are-the-26-players-chosen-by-thomas-christiansen-f202605-n/"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Panama pick Jose Cordoba in squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy522xelvk6o"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Partey in preliminary Ghana squad",
+      "url": "https://www.bbc.com/sport/football/articles/cp9ppezl4v1o"
+    },
+    {
+      "type": "media",
+      "name": "bein Sports - Queiroz official Ghana squad",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/carlos-queiroz-s-official-ghana-squad-for-the-2026-fifa-world-cup-2026-05-27"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Panama 2026 World Cup preview",
+      "url": "https://www.si.com/soccer/panama-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times - Ghana team profile & XI",
+      "url": "https://fwctimes.com/ghana/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times - Panama squad & outlook",
+      "url": "https://fwctimes.com/panama/"
+    },
+    {
+      "type": "media",
+      "name": "La Prensa Panama - Ismael Diaz analiza a Ghana",
+      "url": "https://www.prensa.com/deportes/ismael-diaz-analiza-a-ghana-y-destaca-evolucion-de-carrasquilla/"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta - Ghana fantasy guide & XI",
+      "url": "https://www.gazzetta.it/en/football/fantanews/06-06-2026/ghana-world-cup-fantasy-football-key-players-penalty-takers-and-tips_amp.shtml"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta - Panama fantasy starters",
+      "url": "https://www.gazzetta.it/en/football/fantanews/09-06-2026/panama-world-fantasy-championship-starters-penalty-taker-and-player-recommendations-for-the-world-cup_amp.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Foot-Africa - Focus on Ghana Black Stars",
+      "url": "https://foot-africa.com/en/news/focus-on-ghana-the-black-stars-on-a-quest-to-reclaim-their-greatness-1234375/"
+    },
+    {
+      "type": "media",
+      "name": "Africa Top Sports - Queiroz unveils 26-man squad",
+      "url": "https://en.africatopsports.com/queiroz-unveils-ghanas-26-man-squad-for-2026-fifa-world-cup-campaign/"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore - Panama World Cup preview",
+      "url": "https://www.sofascore.com/news/the-2026-world-cup-warm-up-panama"
+    },
+    {
+      "type": "media",
+      "name": "Pulse Ghana - Supercomputer Ghana chances",
+      "url": "https://www.pulse.com.gh/story/supercomputer-predicts-ghanas-chances-of-winning-2026-world-cup-2026060315471667605"
+    },
+    {
+      "type": "media",
+      "name": "Yen.com.gh - Confirmed Black Stars XI vs Wales",
+      "url": "https://yen.com.gh/sports/football/305646-wales-ghana-confirmed-black-stars-starting-xi-pre-world-cup-match/"
+    },
+    {
+      "type": "media",
+      "name": "Channel NewsAsia - Ghana delay naming squad",
+      "url": "https://www.channelnewsasia.com/sport/ghana-delay-naming-world-cup-squad-6154926"
+    },
+    {
+      "type": "media",
+      "name": "The News Mill - Ghana 26-man without key players",
+      "url": "https://thenewsmill.com/2026/06/ghana-names-26-man-squad-for-2026-fifa-world-cup-without-key-players/"
+    },
+    {
+      "type": "media",
+      "name": "thefootballfaithful (Yahoo) - Panama squad & schedule",
+      "url": "https://sports.yahoo.com/articles/panama-2026-world-cup-squad-064000504.html"
+    },
+    {
+      "type": "media",
+      "name": "Yen.com.gh - Ghana vs Panama at BMO Field",
+      "url": "https://yen.com.gh/sports/football/295956-2026-fifa-world-cup-ghana-panama-place-bmo-filed-toronto/"
+    },
+    {
+      "type": "media",
+      "name": "SportsTiger - Panama squad & Group L preview",
+      "url": "https://www.sportstiger.com/football/panama-fifa-world-cup-2026-squad"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Ghana vs Panama revised prediction",
+      "url": "https://www.dimers.com/news/panama-vs-ghana-updated-prediction-group-l-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Panama vs Ghana early prediction",
+      "url": "https://www.dimers.com/news/panama-vs-ghana-early-prediction-group-l-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "TuringStats - Ghana vs Panama AI picks",
+      "url": "https://turingstats.com/football-predictions/ghana-vs-panama-1489385"
+    },
+    {
+      "type": "model",
+      "name": "Wincomparator - Ghana vs Panama prediction",
+      "url": "https://www.wincomparator.com/predictions/ghana-panama-7937441/"
+    },
+    {
+      "type": "model",
+      "name": "PredictionMarketsPicks - Ghana vs Panama 10K sim",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/ghana-vs-panama"
+    },
+    {
+      "type": "model",
+      "name": "AI World Cup 2026 Predictions - Ghana-Panama",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/ghana-panama-17-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "Legit.ng - Supercomputer Ghana prospects",
+      "url": "https://www.legit.ng/sports/football/1713888-supercomputer-predicts-chances-black-stars-ghana-winning-2026-world-cup/"
+    },
+    {
+      "type": "model",
+      "name": "Watchability - Ghana vs Panama score 57/100",
+      "url": "https://www.watchabilityscore.com/game/ghana-vs-panama-world-cup-2026-06-17"
+    },
+    {
+      "type": "betting",
+      "name": "Pickswise - GHA vs PAN odds & picks",
+      "url": "https://www.pickswise.com/world-cup/games/ghana-panama-world-cup-26-2026-06-17-2300/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM - Group L odds (Ghana/Panama context)",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-l-world-cup-2026-odds-predictions-bm16/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/coys - Kudus not in Ghana squad",
+      "url": "https://www.reddit.com/r/coys/comments/1tnosx0/kudus_not_included_in_ghana_world_cup_squad_for/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Kudus ruled out (Reuters)",
+      "url": "https://www.reddit.com/r/soccer/comments/1tnwzd8/reuters_tottenhams_mohammed_kudus_ruled_out_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/ghana - Venues for Ghana group games",
+      "url": "https://www.reddit.com/r/ghana/comments/1pfxcjb/venues_for_ghana_group_games_for_2026_fifa_world/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/tfc - World Cup games at BMO Field",
+      "url": "https://www.reddit.com/r/tfc/comments/1pgsynl/thoughts_on_the_world_cup_games_at_bmo_field/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/toronto - WC2026 Toronto fixtures",
+      "url": "https://www.reddit.com/r/toronto/comments/1pfwbye/2026_fifa_world_cup_fixtures_for_toronto_selected/"
+    },
+    {
+      "type": "kol",
+      "name": "Yen.com.gh - 10 Ghana stars guaranteed spots",
+      "url": "https://yen.com.gh/sports/football/303642-ghana-world-cup-squad-10-stars-guaranteed-spots-carlos-queiroz/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana's Speed & Power vs Panama's Counterattack",
+      "url": "https://www.youtube.com/watch?v=u1OdhHkeoIY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ball Blast Ghana vs Panama preview (G 2-1)",
+      "url": "https://www.youtube.com/watch?v=g8Fg0EFu2hU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana vs Panama best bets",
+      "url": "https://www.youtube.com/watch?v=O6soRqelMLA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA WC Ghana vs Panama preview",
+      "url": "https://www.youtube.com/watch?v=gxVfTfpbo-w"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana best XI to beat Panama 3-0",
+      "url": "https://www.youtube.com/watch?v=96d6lsABAPI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Deadly Black Stars lineup under Queiroz",
+      "url": "https://www.youtube.com/watch?v=iIi-Z9qOr7o"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ismael Diaz full press conference Panama",
+      "url": "https://www.youtube.com/watch?v=Tgh_8G82pxI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Panama World Cup 2026 squad announcement",
+      "url": "https://www.youtube.com/watch?v=UMjP7syXd_c"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Ghana injuries reel",
+      "url": "https://www.instagram.com/reel/DZc5mm5qmga/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Djiku replaced (Queiroz)",
+      "url": "https://www.instagram.com/reel/DZDQNz2ONZR/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Kudus will miss WC2026",
+      "url": "https://www.instagram.com/p/DYzlSUiCEE4/"
+    }
+  ],
+  "source_count": 67,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "迦納主場火力強，防守略不穩可小勝巴拿馬。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "加納體能與反擊佔優，巴拿馬進攻乏力，看好主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "加納實力略勝一籌，預計小勝巴拿馬取得開門紅。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.64,
+        "draw": 0.23,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "迦納攻守均衡優勢明顯，巴拿馬恐難突破防線"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "迦納整體實力與進攻天賦佔優，預計能在膠著戰中險勝巴拿馬。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.56,
+        "draw": 0.26,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "迦納實力占優，主場優勢下勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.25,
+        "away": 0.17
+      },
+      "scoreline": "2:1",
+      "note": "加納實力占優，進攻端更具威脅，預測主隊勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.511,
+      "draw": 0.27,
+      "away": 0.219
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T013042Z"
+}

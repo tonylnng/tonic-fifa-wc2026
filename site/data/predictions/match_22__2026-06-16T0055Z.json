@@ -1,0 +1,587 @@
+{
+  "match": 22,
+  "stage": "Group L",
+  "home": "England",
+  "away": "Croatia",
+  "kickoff_utc": "2026-06-17T20:00:00Z",
+  "run_id": "2026-06-16T0055Z",
+  "run_timestamp": "2026-06-16T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.57,
+      "draw": 0.25,
+      "away": 0.18
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "英格蘭攻防俱佳的勝利",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "英格蘭憑邊路寬度與定位球攻破克羅埃西亞老化後防，但對方仍能靠經驗回敬一球。"
+      },
+      {
+        "name": "穩健小勝/零封",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "圖赫爾延續資格賽零失球的防守紀律，全場低比分由凱恩或薩卡一擊定江山。"
+      },
+      {
+        "name": "克羅埃西亞拖住節奏逼平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "莫德里奇、科瓦契奇控住中場節奏並先進球，英格蘭追平但難破密集防守。"
+      },
+      {
+        "name": "克羅埃西亞偷襲爆冷",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.22,
+        "basis": "克羅埃西亞重演2018經驗，靠定位球與轉換把握少數機會反勝。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Polymarket",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.57,
+          "draw": 0.245,
+          "away": 0.185
+        },
+        "note": "預測市場交易者共識報英格蘭約56.5–57.5%，平局約24.5%，克羅埃西亞約19.5%。"
+      },
+      {
+        "source": "bet365 (Sports-King 隱含機率)",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.59,
+          "draw": 0.27,
+          "away": 0.21
+        },
+        "note": "1.70/3.75/4.75 換算後英格蘭約59%、平局27%、克羅埃西亞21%（含抽水）。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.62,
+          "draw": 0.23,
+          "away": 0.15
+        },
+        "note": "Opta 模擬英格蘭奪小組首名約67.5–67.8%，單場明顯領先克羅埃西亞。"
+      },
+      {
+        "source": "Betting Botswana 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.67,
+          "draw": 0.21,
+          "away": 0.12
+        },
+        "note": "算法給英格蘭67%勝率，xG 2.1對0.58，看好英格蘭主導。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "英格蘭在圖赫爾帶領下以八戰全勝、22球零失球的完美戰績完成歐洲資格賽，凱恩、貝林漢與薩卡組成的攻擊核心齊整，雖然缺少福登、帕爾默與馬奎爾，但這些並非鐵定主力，球隊深度仍冠絕小組。克羅埃西亞為莫德里奇的最後一屆世界盃而戰，惟賽前對比利時(0-2)、巴西(1-3)的友賽暴露後防脆弱，達利奇也公開表明對英格蘭會採取更防守、增加中場人數的策略。莫德里奇顴骨骨折後可望復出、格瓦迪奧爾傷癒歸隊。場地為德州室內的AT&T體育場，草皮與環境理想且為中立場。市場、Opta超級電腦與多數KOL/YouTube預測一致看好英格蘭小勝，主流比分落在2-1與1-0之間；我們取2-1為主預測，反映英格蘭攻擊深度可破老化防線、但克羅埃西亞經驗仍能回敬一球。",
+    "key_factors": [
+      "球員狀態：凱恩、貝林漢確認完全健康，薩卡獲謹慎管理但可望先發；克羅埃西亞核心莫德里奇(40歲)顴骨傷後復出。",
+      "傷停：英格蘭無福登、帕爾默、馬奎爾(均非鐵定主力)，利夫拉門托等小傷；克羅埃西亞格瓦迪奧爾傷癒、莫德里奇可能戴面罩出戰。",
+      "近況：英格蘭資格賽8戰全勝22-0、友賽3-0勝哥斯大黎加但3月曾0-1負日本；克羅埃西亞近5場進9失7，友賽連敗比利時、巴西。",
+      "戰術對位：英格蘭4-2-3-1靠賴斯與安德森控中場、薩卡與戈登拉邊製造寬度；克羅埃西亞料深蹲、以莫德里奇/科瓦契奇拖慢節奏。",
+      "場地：中立場AT&T體育場(德州室內)，草皮理想、無主場優勢，定位球與轉換或成關鍵。",
+      "輿論共識：博彩、Opta超級電腦、模型與KOL一致偏向英格蘭小勝，主流比分2-1或1-0，平局被視為次可能。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "反向觀點認為克羅埃西亞大賽經驗豐富、近兩屆世界盃殿軍與亞軍，達利奇刻意防守反擊；只要先進球並讓英格蘭陷入像2018那樣的焦躁，便可能逼平甚至偷襲爆冷，且英格蘭友賽進攻效率時有起伏。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - Match Centre England v Croatia",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FA - England squad & fixtures",
+      "url": "https://www.englandfootball.com/"
+    },
+    {
+      "type": "official",
+      "name": "HNS - Croatian Football Federation",
+      "url": "https://hns.family/"
+    },
+    {
+      "type": "official",
+      "name": "Football/26 - England vs Croatia match page",
+      "url": "https://worldcup26usa.com/en/matches/group-l-md1-m1"
+    },
+    {
+      "type": "official",
+      "name": "United 2026 Guide - Croatia team",
+      "url": "https://www.united-2026.com/teams/croatia"
+    },
+    {
+      "type": "official",
+      "name": "Concacaf/FIFA Group L profile",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/groups"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - England v Croatia predictions",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/england-v-croatia-predictions"
+    },
+    {
+      "type": "media",
+      "name": "BBC - England World Cup squad dilemmas Tuchel",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj3pvj3egddo"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Croatia name Modric in World Cup squad",
+      "url": "https://www.bbc.com/sport/football/articles/c0m2pvnwymxo"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - England vs Croatia World Cup preview",
+      "url": "https://www.goal.com/en-us/news/england-croatia-world-cup-preview/bltde3becdc05790db0"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Tuchel England World Cup squad big questions",
+      "url": "https://www.espn.com/soccer/story/_/id/48804507/thomas-tuchel-england-world-cup-2026-squad-big-questions-need-answering"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Eleven unlucky to miss England squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48842639/eleven-unlucky-players-miss-england-2026-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Modric set for 5th World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/48807700/luka-modric-set-5th-world-cup-part-croatia-squad"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Croatia squad World Cup 2026",
+      "url": "https://www.goal.com/en-us/lists/croatia-squad-world-cup-2026/blte475b4a9f48f3997"
+    },
+    {
+      "type": "media",
+      "name": "BBC - England taking care of Saka before World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cq61ll2p5pzo"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo - Croatia names Modric-led World Cup squad",
+      "url": "https://sports.yahoo.com/articles/croatia-names-modric-led-world-135344115.html"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - England v Croatia predictions",
+      "url": "https://www.juvefc.com/england-v-croatia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - England squad dropouts Stones",
+      "url": "https://www.theguardian.com/football/2026/mar/28/england-squad-hit-by-more-dropouts-as-stones-and-arsenal-trio-pull-out-of-japan-game"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Tuchel finalises 26-man squad",
+      "url": "https://www.theguardian.com/football/2026/may/21/england-world-cup-squad-2026-thomas-tuchel"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Croatia World Cup 2026 squad",
+      "url": "https://www.fourfourtwo.com/team/croatia-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Big D Soccer - Croatia 2026 World Cup preview",
+      "url": "https://www.bigdsoccer.com/croatia-2026-world-cup-preview/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Group L preview lineups odds tactics",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - England rocked by Tuchel injury admission",
+      "url": "https://www.si.com/soccer/england-rocked-thomas-tuchel-injury-admission-before-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post - England v Croatia tips & team news",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/england-vs-croatia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-agmd28D2S6Cm/"
+    },
+    {
+      "type": "media",
+      "name": "WorldCupEngland2026 - England injury news",
+      "url": "https://worldcupengland2026.com/articles/england-injury-news-world-cup-2026-confirmed-absences-squad/"
+    },
+    {
+      "type": "media",
+      "name": "GOAL - England vs Croatia predictions narrow win",
+      "url": "https://www.goal.com/en-za/betting/world-cup/england-vs-croatia-predictions-17-06-2026/A:bltf3a73c494e1e934c"
+    },
+    {
+      "type": "media",
+      "name": "Marca - Croatian rival praises Kane",
+      "url": "https://www.marca.com/en/world-cup/2026/06/15/croatian-rival-praises-harry-kane-ahead-of-world-cup-opener-he-s-master-of-the-game.html"
+    },
+    {
+      "type": "media",
+      "name": "Marca - England vs Croatia tickets/info",
+      "url": "https://www.marca.com/en/world-cup/2026/06/03/get-your-tickets-for-england-vs-croatia-at-the-2026-world-cup-on-tickets-marca.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - England vs Croatia preview & we say 2-1",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-croatia-prediction-team-news-lineups_599262.html"
+    },
+    {
+      "type": "media",
+      "name": "DAZN - England vs Croatia preview & how to watch",
+      "url": "https://www.dazn.com/en-GB/news/football/fifa-world-cup-26-england-croatia-preview-team-news-how-to-watch/1872w52f4v6un1fwh5p2fqgz38"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Modric still casts a spell warm-up",
+      "url": "https://www.theguardian.com/football/2026/jun/07/modric-still-casts-a-spell-as-croatia-win-warm-up-with-england-to-come"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Dalic opener can destroy everything",
+      "url": "https://www.theguardian.com/football/2026/jun/08/zlatko-dalic-croatia-world-cup-opener-england"
+    },
+    {
+      "type": "media",
+      "name": "AP - Modric breaks cheekbone race to be fit",
+      "url": "https://apnews.com/article/modric-injury-milan-croatia-world-cup-a0ebb589a0adc3b7bbf9579d7fefa0ba"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Croatia confident of Modric recovery",
+      "url": "https://www.bbc.com/sport/football/articles/cqjpl4zj0ezo"
+    },
+    {
+      "type": "media",
+      "name": "The Independent - Modric surgery before England clash",
+      "url": "https://www.independent.co.uk/bulletin/sport/luka-modric-injury-england-croatia-world-cup-b2966249.html"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk - Modric injury update Dalic",
+      "url": "https://worldsoccertalk.com/news/luka-modric-injury-update-croatia-coach-zlatko-dalic-speaks-ahead-of-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports - Gvardiol back in time for World Cup",
+      "url": "https://www.foxsports.com/stories/soccer/josko-gvardiol-returns-man-city-training-world-cup-croatia"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - England third favourites between the lines",
+      "url": "https://www.skysports.com/football/news/12040/13552254/englands-world-cup-chances-assessed-as-they-are-rated-third-favourites-behind-spain-and-france-between-the-lines"
+    },
+    {
+      "type": "media",
+      "name": "Sportbible - Croatia announce 26-man squad",
+      "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/croatia-squad-tournament-luka-modric-josko-gvardiol-463136-20260518"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life - England vs Croatia betting preview",
+      "url": "https://www.sportinglife.com/free-bets/news/paddy-power-welcome-offer-england-croatia-world-cup-17062026/744"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes - England vs Croatia preview & tips",
+      "url": "https://www.ladbrokes.com/en/news/england-croatia-world-cup-preview-predictions-tips-2026-06-15/"
+    },
+    {
+      "type": "media",
+      "name": "Whyfootball - England vs Croatia tactical forecast",
+      "url": "https://whyfootball.org/matches/eng-hrv-preview.html"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Who will win 2026 World Cup supercomputer",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - World Cup 2026 Group L predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-l-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - FIFA WC2026 groups supercomputer",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Sports Illustrated - Supercomputer England chances",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-england-2026-world-cup-chances-kobbie-mainoo"
+    },
+    {
+      "type": "model",
+      "name": "Thatsagoal - Opta supercomputer WC2026 explained",
+      "url": "https://www.thatsagoal.com/predictions/world-cup/opta-supercomputer-world-cup-2026-predictions"
+    },
+    {
+      "type": "model",
+      "name": "KickOff UK - England vs Croatia predictive algorithm",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/england-vs-croatia/"
+    },
+    {
+      "type": "model",
+      "name": "Betting Botswana - England vs Croatia model 67%",
+      "url": "https://bettingbotswana.com/england-vs-croatia-17-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "KickOff26 - Group L data & odds simulation",
+      "url": "https://wcsoccerau2026.com/group-l-england-croatia/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM - Group L odds & predictions",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-l-world-cup-2026-odds-predictions-bm16/"
+    },
+    {
+      "type": "betting",
+      "name": "Fan Bet Odds - England vs Croatia 1X2",
+      "url": "https://fanbetodds.com/world-cup/match/england-croatia"
+    },
+    {
+      "type": "betting",
+      "name": "Sports-King - England vs Croatia betting preview bet365",
+      "url": "https://www.sports-king.com/en-gb/england-vs-croatia-betting-preview-17-june-2026-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket - England vs Croatia odds",
+      "url": "https://polymarket.com/world-cup/fifwc-eng-hrv-2026-06-17"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket (uk) - Croatia vs England consensus",
+      "url": "https://polymarket.com/uk/sports/fifa-world-cup/fifwc-eng-hrv-2026-06-17"
+    },
+    {
+      "type": "market",
+      "name": "KuCoin - England vs Croatia prediction market activity",
+      "url": "https://www.kucoin.com/news/flash/england-vs-croatia-world-cup-match-sparks-prediction-market-activity"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Final Croatian squad",
+      "url": "https://www.reddit.com/r/soccer/comments/1ttyn2l/final_croatian_squad_for_the_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Dalic opener can destroy everything",
+      "url": "https://www.reddit.com/r/soccer/comments/1u09ylu/dalic_admits_croatias_world_cup_opener_against/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Croatian here, our chances?",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u4apfp/croatian_here_wondering_what_you_think_our/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - England most frequent opponent",
+      "url": "https://www.reddit.com/r/soccer/comments/1r3s2m1/england_is_set_to_become_croatias_most_frequent/"
+    },
+    {
+      "type": "kol",
+      "name": "Marca - Caleta-Car / Croatia camp comments",
+      "url": "https://www.marca.com/en/world-cup/2026/06/15/croatian-rival-praises-harry-kane-ahead-of-world-cup-opener-he-s-master-of-the-game.html"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ball Blast England vs Croatia preview (E 2-1)",
+      "url": "https://www.youtube.com/watch?v=PwBhF-3KMZo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Can Croatia shock England again?",
+      "url": "https://www.youtube.com/watch?v=ucqhQUs4BvI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - England vs Croatia midfield control battle (1-1)",
+      "url": "https://www.youtube.com/watch?v=y57RHciiotc&vl=id"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Must win opener against Croatia",
+      "url": "https://www.youtube.com/watch?v=l1OqIxM1-sE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Difficult game! England's World Cup hopes",
+      "url": "https://www.youtube.com/watch?v=fd70_-vpoC0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Group L preview England Croatia Ghana Panama",
+      "url": "https://www.youtube.com/watch?v=_qBXsyC9mwc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - England train in Kansas City ahead of Croatia",
+      "url": "https://www.youtube.com/watch?v=LDbJHMfgpOY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Tuchel England squad full analysis",
+      "url": "https://www.youtube.com/watch?v=t3eFfhG4dRY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - England get Croatia worst possible draw?",
+      "url": "https://www.youtube.com/watch?v=oPVPHz2LYHY"
+    },
+    {
+      "type": "social",
+      "name": "Blogger - England v Croatia Opta chances",
+      "url": "https://footballworldcup2026tickets.blogspot.com/2026/04/england-vs-croatia-tickets-england_20.html"
+    }
+  ],
+  "source_count": 71,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭主場進攻火力強，剋制克羅埃西亞老化的中場。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭實力佔優，預期能憑藉主場氣勢小勝對手。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.5,
+        "draw": 0.3,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭攻守俱佳，有望險勝克羅地亞。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭板凳深度與鋒線火力略勝克羅埃西亞。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.26,
+        "away": 0.16
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭陣容深度佔優，克羅埃西亞核心老化，主隊有望穩取勝利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭實力占優，主場優勢下預計小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭陣容鼎盛，克羅埃西亞老化難阻三獅軍團取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.549,
+      "draw": 0.259,
+      "away": 0.192
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T012941Z"
+}

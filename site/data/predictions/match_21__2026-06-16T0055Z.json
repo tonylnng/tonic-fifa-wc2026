@@ -1,0 +1,597 @@
+{
+  "match": 21,
+  "stage": "Group K",
+  "home": "Portugal",
+  "away": "DR Congo",
+  "kickoff_utc": "2026-06-17T17:00:00Z",
+  "run_id": "2026-06-16T0055Z",
+  "run_timestamp": "2026-06-16T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.72,
+      "draw": 0.18,
+      "away": 0.1
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "葡萄牙掌控取勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "葡萄牙以控球與邊路超載破解剛果（金）密集防守，下半場體能與替補深度拉開差距並零封。"
+      },
+      {
+        "name": "進球大勝",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "若葡萄牙早段破門，剛果被迫壓出防線，Leão、B.費爾南德斯、C.羅製造多次機會擴大比分，對手靠反擊扳回一球。"
+      },
+      {
+        "name": "剛果頑強逼近",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "休士頓高溫拖慢節奏，剛果（金）以 Mbemba、Wan-Bissaka 領銜的密集中場擋住攻勢，葡萄牙僅小勝一球。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.738,
+          "draw": 0.177,
+          "away": 0.085
+        },
+        "scoreline": "2:0",
+        "note": "Dimers 給葡萄牙 73.8% 勝率，最可能比分 2-0。"
+      },
+      {
+        "source": "Footballmeister Coach AI",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.75,
+          "draw": 0.16,
+          "away": 0.09
+        },
+        "scoreline": "2:0",
+        "note": "Coach AI 預測葡萄牙 75% 勝率、最常見比分 2-0，與輿論共識一致。"
+      },
+      {
+        "source": "Opta 超級電腦（群組）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.18,
+          "away": 0.09
+        },
+        "note": "Opta 給葡萄牙 94.9% 晉級、59% 奪 K 組第一，對剛果（金）為壓倒性看好。"
+      },
+      {
+        "source": "FanDuel/市場盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.74,
+          "draw": 0.17,
+          "away": 0.09
+        },
+        "note": "盤口葡萄牙約 -350/-370、剛果（金）+1000，隱含葡萄牙重度被看好。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "葡萄牙為奪冠熱門之一（Opta 給約 7% 奪冠、列第五），由馬丁尼斯打造攻勢足球，資格賽 6 戰進 20 球，賽前對美國、智利、奈及利亞三連勝，陣中 C.羅、B.費爾南德斯、B.席爾瓦、Leão、Pedro Neto 等火力與深度驚人。C.羅已親口宣示體能無虞並參與全部訓練。剛果（金）睽違 52 年重返世界盃（前身薩伊 1974 年），戴沙伯打造防守紀律強、轉換快的球隊，靠 Wissa、Bakambu、Bongonda 反擊與 Mbemba、Wan-Bissaka、Tuanzebe、Masuaku 的防線組織，曾以 0-0 逼平丹麥展現防守韌性，但面對頂級控球與低位破解能力恐吃緊。主流模型（Dimers 73.8%、Coach AI 75%、Opta 群組壓倒性）、盤口（-350 至 -370）與各大預覽一致看好葡萄牙掌控並零封小勝，最可能比分 2-0；唯休士頓六月高溫與剛果防守組織可能讓比分接近。場地為休士頓 NRG Stadium（室內可控環境），雙方皆非主場。綜合判斷預測葡萄牙 2-0。",
+    "key_factors": [
+      "球員狀態：C.羅宣示體能無虞、訓練全勤；B.費爾南德斯、Leão、Pedro Neto 等攻擊群狀態佳；剛果核心 Wissa、Bakambu 具速度反擊威脅。",
+      "傷停：葡萄牙主力大致到位（先前 3 月友誼缺 C.羅／B.席爾瓦屬輪休，已歸隊）；剛果（金）無重大傷停公告，陣容齊整。",
+      "近況：葡萄牙近五場 4 勝（含對美、智、奈三連勝）；剛果（金）季前對丹麥 0-0、不敵智利與阿爾及利亞，防守佳但鋒線創造力有限。",
+      "戰術對位：葡萄牙控球＋邊路超載（3-2-5 進攻形）vs 剛果（金）密集中低位＋快速轉換，勝負取決於能否早段破門撕開密防。",
+      "場地：休士頓 NRG Stadium（可開合屋頂、空調），中立場且六月高溫可能拖慢節奏，略利於防守一方。",
+      "輿論共識：Dimers、Coach AI、Opta、盤口與媒體一致重押葡萄牙，主流預測多為 2-0／3-0／3-1 葡萄牙勝。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "反向觀點：剛果（金）擁有 Wan-Bissaka、Mbemba、Masuaku、Wissa 等歐洲頂級聯賽球員，防守組織與身體對抗強，曾逼平丹麥；若採極度紀律的低位封鎖並在反擊或定位球把握機會，加上休士頓高溫與世界盃揭幕戰葡萄牙常見的謹慎開局，理論上能將比分壓在 1-0，甚至偷一分爆冷。部分盤口分析亦指出小球（Under 2.5）具價值。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA Match Centre — fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "FPF — Portuguese FA",
+      "url": "https://www.fpf.pt/"
+    },
+    {
+      "type": "official",
+      "name": "FECOFA — DR Congo FA",
+      "url": "https://www.facebook.com/FECOFA.officiel/"
+    },
+    {
+      "type": "official",
+      "name": "CAF — Desabre names fearless DR Congo squad",
+      "url": "https://www.cafonline.com/news/desabre-names-fearless-dr-congo-squad-for-historic-world-cup-return/"
+    },
+    {
+      "type": "official",
+      "name": "Olympics.com — DR Congo squad & schedule",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-dr-congo-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "official",
+      "name": "SofaScore — Portugal vs DR Congo",
+      "url": "https://www.sofascore.com/football/match/dr-congo-portugal/eUbsyWb"
+    },
+    {
+      "type": "official",
+      "name": "365Scores — Portugal vs DR Congo",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/dr-congo-portugal-5028-14650-5930"
+    },
+    {
+      "type": "official",
+      "name": "FOX Sports — Portugal vs Congo DR boxscore",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-portugal-vs-congo-dr-jun-17-2026-game-boxscore-647636"
+    },
+    {
+      "type": "official",
+      "name": "ESPN — Congo DR 2026 squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2850/congo-dr"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Ronaldo to lead Portugal, squad named",
+      "url": "https://www.aljazeera.com/sports/2026/5/19/ronaldo-to-lead-portugal-at-sixth-world-cup-as-martinez-names-squad"
+    },
+    {
+      "type": "media",
+      "name": "ESPN.in — Portugal vs DR Congo how to watch & XI",
+      "url": "https://www.espn.in/football/story/_/id/49069166/fifa-world-cup-2026-portugal-vs-dr-congo-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "BBC — Wan-Bissaka & Wissa in DR Congo squad",
+      "url": "https://www.bbc.com/sport/football/articles/c0k2d8ejr4do"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Portugal vs DR Congo preview",
+      "url": "https://www.goal.com/en-us/news/portugal-dr-congo-world-cup-preview/blt66cc12e25e84e735"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Ronaldo dismisses fitness concerns",
+      "url": "https://www.goal.com/en-us/lists/world-cup-portugal-cristiano-ronaldo-fitness-concerts-congo-dr/blt956973b774852467"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com — Ronaldo & Bernardo Silva absent (Mar)",
+      "url": "https://www.goal.com/en-us/lists/portugal-squad-cristiano-ronaldo-bernardo-silva-injury-update-roberto-martinez/blt7ac7677c5940dbfd"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — Portugal team guide",
+      "url": "https://www.theguardian.com/football/2026/jun/09/portugal-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Portugal vs Congo DR preview",
+      "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-congo-dr-prediction-team-news-lineups_599288.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — DR Congo WC2026 squad",
+      "url": "https://www.fourfourtwo.com/team/dr-congo-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis — Portugal v DR Congo",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/portugal-v-dr-congo-predictions"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports — Desabre official squad",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/s%C3%A9bastien-desabre-s-official-dr-congo-squad-for-the-2026-fifa-world-cup-2026-05-18"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports — Portugal contenders not favourites",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/portugal-contenders-not-favourites-for-world-cup-glory-says-veiga-2026-06-08"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — Portugal WC roster",
+      "url": "https://www.sportingnews.com/uk/football/news/portugal-world-cup-roster-2026-squad-players/ff8a06ec2f7e26d861b33aae"
+    },
+    {
+      "type": "media",
+      "name": "Tribune India — Ronaldo declares fitness",
+      "url": "https://www.tribuneindia.com/news/sports/physically-im-fine-ronaldo-declares-fitness-ahead-of-portugals-2026-fifa-world-cup-opener/"
+    },
+    {
+      "type": "media",
+      "name": "Ground News — Portugal train Palm Beach",
+      "url": "https://ground.news/article/cristiano-ronaldo-shares-training-photos-as-portugal-prepare-for-their-fifa-world-cup-2026-opener"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times — Portugal vs DR Congo preview",
+      "url": "https://fwctimes.com/portugal-vs-dr-congo-preview/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/juvefc — Portugal vs DR Congo prediction",
+      "url": "https://sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-100000533.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/thefootballfaithful — DR Congo squad",
+      "url": "https://sports.yahoo.com/articles/dr-congo-2026-world-cup-160000108.html"
+    },
+    {
+      "type": "media",
+      "name": "SportsWorldGhana — DR Congo 26-man squad",
+      "url": "https://sportsworldghana.com/d-r-congo-returns-to-fifa-world-cup-who-is-in-sebastian-desabres-26-man-squad/"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta — DR Congo fantasy guide",
+      "url": "https://www.gazzetta.it/en/football/fantanews/06-06-2026/congo-fantasy-football-starters-penalty-takers-and-world-cup-picks_amp.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Inshorts — Ronaldo on fitness",
+      "url": "https://inshorts.com/en/amp_news/have-you-not-seen-my-matches--cristiano-ronaldo-on-his-fitness-1781340477895"
+    },
+    {
+      "type": "media",
+      "name": "Newswav — Ronaldo snaps back",
+      "url": "https://newswav.com/article/cristiano-ronaldo-snaps-back-at-media-after-fitness-question-before-portuga-A2606_89m1dJ"
+    },
+    {
+      "type": "media",
+      "name": "SoccerGraph — DR Congo WC profile",
+      "url": "https://www.soccergraph.com/2026/06/dr-congo-2026-world-cup-profile-schedule-fixture-dates-kickoff-times-roster.html"
+    },
+    {
+      "type": "media",
+      "name": "The National — Ronaldo left out (Mar)",
+      "url": "https://www.thenationalnews.com/sport/football/2026/03/22/cristiano-ronaldo-left-out-of-portugal-squad-as-al-nassr-captain-delivers-eid-message/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Ronaldo to miss USMNT/Mexico friendlies",
+      "url": "https://www.espn.com/soccer/story/_/id/48257794/cristiano-ronaldo-not-portugal-squad-pre-world-cup-friendlies"
+    },
+    {
+      "type": "media",
+      "name": "The Celtic Star — Portugal v DR Congo preview",
+      "url": "https://thecelticstar.com/portugal-v-dr-congo-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "matchbingo — DR Congo team page",
+      "url": "https://www.matchbingo.co.uk/world-cup-2026/congo-dr"
+    },
+    {
+      "type": "media",
+      "name": "My World Cup Guide — Portugal vs DR Congo",
+      "url": "https://myworldcupguide.com/matches/portugal-vs-dr-congo-65/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — Group K preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — Group K predictions & preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-k-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst — WC2026 groups predictions",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Congo DR vs Portugal prediction",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_por_cod"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Portugal vs Congo DR refreshed",
+      "url": "https://www.dimers.com/news/congo-dr-vs-portugal-updated-prediction-group-k-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Footballmeister — Portugal vs Congo DR AI",
+      "url": "https://footballmeister.com/world-cup-2026/portugal-congo-dr-2026-06-17/"
+    },
+    {
+      "type": "model",
+      "name": "PredictionMarketsPicks — Portugal vs DR Congo sim",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/portugal-vs-dr-congo"
+    },
+    {
+      "type": "model",
+      "name": "SX Bet Blog — Portugal vs Congo DR prediction",
+      "url": "https://blog.sx.bet/world-cup/portugal-vs-congo-dr/"
+    },
+    {
+      "type": "model",
+      "name": "AsianetNews — Portugal vs Congo DR model",
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/portugal-vs-congo-dr-vs-group-stage/"
+    },
+    {
+      "type": "model",
+      "name": "SpilXperten — DR Congo analysis",
+      "url": "https://www.spilxperten.com/fodbold/dr-congo-landshold/"
+    },
+    {
+      "type": "model",
+      "name": "MundialAnalytics — DR Congo analysis",
+      "url": "https://mundialanalytics.com/dr-congo-national-team-analysis"
+    },
+    {
+      "type": "model",
+      "name": "Báo Lao Động — Group K prediction",
+      "url": "https://news.laodong.vn/bong-da-quoc-te/du-doan-bang-k-world-cup-2026-su-vuot-troi-cua-bo-dao-nha-1715083.ldo"
+    },
+    {
+      "type": "model",
+      "name": "Euronews — Opta backs Spain (Portugal 7%)",
+      "url": "https://www.euronews.com/2026/06/11/world-cup-2026-supercomputer-backs-spain-former-stars-favour-argentina"
+    },
+    {
+      "type": "betting",
+      "name": "VSiN — Portugal vs DR Congo pick",
+      "url": "https://vsin.com/soccer/portugal-vs-dr-congo-prediction-2026-fifa-world-cup-preview-and-pick/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post — Portugal vs DR Congo tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/portugal-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aFQKs5y07Snd/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine — Portugal vs DR Congo picks",
+      "url": "https://www.sportsline.com/insiders/portugal-vs-dr-congo-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "BetUS — Portugal vs Congo DR odds",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/portugal-vs-congo-dr/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddstrader — Portugal vs DR Congo odds",
+      "url": "https://www.oddstrader.com/world-cup/matchups/congo-dr-vs-portugal-2026-06-17-e4788650/odds/"
+    },
+    {
+      "type": "betting",
+      "name": "GoBet AU — Portugal vs DR Congo predictions",
+      "url": "https://www.gobet.com.au/fifa-world-cup/portugal-vs-dr-congo-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "GOAL — Portugal vs DR Congo predictions/tips",
+      "url": "https://www.goal.com/en-in/betting/world-cup/portugal-vs-dr-congo-predictions-17-06-2026/A:blt35eb8e9490690ad3"
+    },
+    {
+      "type": "betting",
+      "name": "Africa Bet Tips — Group K value picks",
+      "url": "https://africabettips.com/world-cup-2026/group-k/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — Kinshasa celebrations",
+      "url": "https://www.reddit.com/r/soccer/comments/1s99dmx/streets_of_kinshasa_dr_congo_after_qualifying_for/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer — WC2026 match thread hub",
+      "url": "https://www.reddit.com/r/soccer/comments/1u5pp6u/match_thread_germany_vs_cura%C3%A7ao_fifa_world_cup/"
+    },
+    {
+      "type": "social",
+      "name": "Facebook — Can DR Congo spring upset?",
+      "url": "https://www.facebook.com/groups/africansfootball/posts/4393531287459237/"
+    },
+    {
+      "type": "social",
+      "name": "Facebook — Portugal departs Lisbon (CGTN)",
+      "url": "https://www.facebook.com/CGTNSportsScene/posts/1460607949433712/"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Mole video — Ronaldo weak link? preview",
+      "url": "https://www.youtube.com/watch?v=Xs3Fxocfaos"
+    },
+    {
+      "type": "kol",
+      "name": "SportsLine (Green pick) — over 2.5",
+      "url": "https://www.sportsline.com/insiders/portugal-vs-dr-congo-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/?ref=green"
+    },
+    {
+      "type": "kol",
+      "name": "SX Bet analyst — Portugal 3-0 call",
+      "url": "https://blog.sx.bet/world-cup/portugal-vs-congo-dr/?ref=analyst"
+    },
+    {
+      "type": "youtube",
+      "name": "Ball Blast Sports — Portugal vs DR Congo (M23)",
+      "url": "https://www.youtube.com/watch?v=4ny_70Z9QDU"
+    },
+    {
+      "type": "youtube",
+      "name": "Portugal vs DR Congo tactics & prediction",
+      "url": "https://www.youtube.com/watch?v=0mmEL2pgqsg"
+    },
+    {
+      "type": "youtube",
+      "name": "Portugal vs DR Congo possession xG edge",
+      "url": "https://www.youtube.com/watch?v=U-gp5Yb62ss"
+    },
+    {
+      "type": "youtube",
+      "name": "Portugal vs DR Congo preview & analysis",
+      "url": "https://www.youtube.com/watch?v=pXDQkj2AF7M"
+    },
+    {
+      "type": "youtube",
+      "name": "2026 WC Portugal vs DR Congo preview",
+      "url": "https://www.youtube.com/watch?v=cr_Ab3BbdBM"
+    },
+    {
+      "type": "youtube",
+      "name": "DR Congo final squad WC2026",
+      "url": "https://www.youtube.com/watch?v=3GEajcC4SD8"
+    },
+    {
+      "type": "youtube",
+      "name": "Portugal prepare for opener LIVE",
+      "url": "https://www.youtube.com/watch?v=Z8AFYYF4nV4"
+    },
+    {
+      "type": "youtube",
+      "name": "Ronaldo looking fitter than ever",
+      "url": "https://www.youtube.com/watch?v=1366ox1SN_Q"
+    },
+    {
+      "type": "youtube",
+      "name": "Group K teams overview",
+      "url": "https://www.youtube.com/watch?v=7nVXVSpXg-A"
+    }
+  ],
+  "source_count": 74,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙整體實力遠超對手，主場應輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力佔優且火力猛，民主剛果防線難以抵擋。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力明顯占優，預期輕鬆擊敗剛果民主共和國。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.8,
+        "draw": 0.13,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙整體實力占優，控球壓制贏面極大"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙整體實力遠勝對手，預計能輕鬆掌控比賽並順利取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力遠勝，預計主場輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力懸殊，剛果難以招架，主隊穩勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.786,
+      "draw": 0.141,
+      "away": 0.073
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T012854Z"
+}

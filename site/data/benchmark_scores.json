@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-15T22:08:51Z",
-  "total_matches_scored": 10,
+  "last_updated": "2026-06-16T01:30:51Z",
+  "total_matches_scored": 11,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -16,42 +16,42 @@
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 6,
+      "evaluated": 7,
       "outcome_correct": 3,
-      "outcome_accuracy": 0.5,
+      "outcome_accuracy": 0.4286,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.3056
+      "brier_score": 0.3051
     },
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 6,
+      "evaluated": 7,
       "outcome_correct": 3,
-      "outcome_accuracy": 0.5,
+      "outcome_accuracy": 0.4286,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.3442
+      "brier_score": 0.3611
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 6,
+      "evaluated": 7,
       "outcome_correct": 2,
-      "outcome_accuracy": 0.3333,
+      "outcome_accuracy": 0.2857,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.3278
+      "brier_score": 0.3324
     },
     {
       "source": "AI（本站 Opus）",
       "kind": "ai",
-      "evaluated": 10,
+      "evaluated": 11,
       "outcome_correct": 3,
-      "outcome_accuracy": 0.3,
+      "outcome_accuracy": 0.2727,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.3039
+      "brier_score": 0.3135
     },
     {
       "source": "博彩隱含機率",
@@ -86,42 +86,42 @@
     {
       "source": "OpenAI GPT-5.1 Thinking",
       "kind": "ai",
-      "evaluated": 2,
+      "evaluated": 3,
       "outcome_correct": 0,
       "outcome_accuracy": 0.0,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.4797
-    },
-    {
-      "source": "Google Gemini 3.1 Pro",
-      "kind": "ai",
-      "evaluated": 2,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.5725
-    },
-    {
-      "source": "Z.ai GLM-4.7",
-      "kind": "ai",
-      "evaluated": 2,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.5985
+      "brier_score": 0.4398
     },
     {
       "source": "xAI Grok 4.20 Reasoning",
       "kind": "ai",
-      "evaluated": 2,
+      "evaluated": 3,
       "outcome_correct": 0,
       "outcome_accuracy": 0.0,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.612
+      "brier_score": 0.4755
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "evaluated": 3,
+      "outcome_correct": 0,
+      "outcome_accuracy": 0.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.519
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "evaluated": 3,
+      "outcome_correct": 0,
+      "outcome_accuracy": 0.0,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.5225
     },
     {
       "source": "Kalshi 預測市場",
