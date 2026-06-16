@@ -1,0 +1,812 @@
+{
+  "match": 19,
+  "stage": "Group J",
+  "home": "Argentina",
+  "away": "Algeria",
+  "kickoff_utc": "2026-06-17T01:00:00Z",
+  "kickoff_hkt": "2026-06-17 09:00",
+  "run_id": "2026-06-16T0855Z",
+  "run_timestamp": "2026-06-16T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.71,
+      "draw": 0.19,
+      "away": 0.1
+    },
+    "confidence": 0.71,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.155
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "Opta 68.2%、RotoWire、CBS/SportingNews、William Hill 多預測 2-0。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.73,
+        "basis": "阿根廷 -275/2/5（隱含約 73%）、讓球 -1.5，盤口最可能 2-0。"
+      },
+      {
+        "name": "進攻＋雙方破門",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "SI/LiveScore 預測 3-1，阿爾及利亞高位逼搶易遭反擊、總進球約 2.7。"
+      },
+      {
+        "name": "保守一球",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Sports Mole 預測 1-0；阿根廷防守穩固、Scaloni 管理 Messi 上場時間，開幕場慢熱。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.72,
+          "draw": 0.18,
+          "away": 0.1
+        },
+        "scoreline": "2:0",
+        "note": "阿根廷 -275/2/5（約 73%）、和 +320/+360、阿爾及利亞 +750/+800；讓球 -1.5，最可能 2-0。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.682,
+          "draw": 0.186,
+          "away": 0.132
+        },
+        "scoreline": "2:0",
+        "note": "Opta：阿根廷 68.2%、和 18.6%、阿爾及利亞 13.2%。"
+      },
+      {
+        "source": "模型（YouTube 模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.718,
+          "draw": 0.193,
+          "away": 0.089
+        },
+        "scoreline": "2:0",
+        "note": "YouTube 模擬：阿根廷 71.8%、和 19.3%、阿爾及利亞約 9%；總進球 2.7、最愛 2-0/2-1。"
+      },
+      {
+        "source": "預測市場（Polymarket/Kalshi）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.7,
+          "draw": 0.2,
+          "away": 0.1
+        },
+        "scoreline": "2:0",
+        "note": "Polymarket 阿根廷約 70%、和約 20%、阿爾及利亞約 10%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "衛冕冠軍阿根廷七連勝、熱身賽 3-0 收官，Scaloni 已確認 Messi（將達 200 國家隊出場、第六屆世界盃）、E. Martínez（手指骨折康復）與 Álvarez（腳踝）皆可上陣，Romero 傷癒亦回歸；後防唯 Tagliafico（小腿/肌肉）確定缺陣，Medina/L. Martínez 補位。阿爾及利亞由 Mahrez 領軍、Amoura/Gouiri 火力旺，但左後衛 Bensebaini 因腳踝傷確定缺陣、左路防守存隱憂。Opta 68.2%、盤口約 73%、預測市場約 70% 與 YouTube 模擬一致看好阿根廷，主預測 2-0。",
+    "key_factors": [
+      "球員狀態：Messi 賽前確認傷後可上陣（友誼賽替補罰進點球），將迎第六屆世界盃；Lautaro/Álvarez 皆可用。",
+      "傷停名單：阿根廷 Tagliafico（小腿/肌肉）確定缺陣，Montiel/Molina/N. González/Paredes 體能受管理；阿爾及利亞 Bensebaini（腳踝）確定缺陣。",
+      "近期戰績：阿根廷七連勝、熱身賽轟多球僅失極少；阿爾及利亞時隔 12 年重返世界盃、資格賽火力旺（Amoura 多球）。",
+      "戰術對位：阿根廷 4-3-3 中場控制（De Paul、Mac Allister、Enzo）＋ Messi 自由位；阿爾及利亞 4-2-3-1/4-3-3 高壓針對阿根廷右後衛 Molina，反擊靠 Mahrez/Amoura 速度。",
+      "場地/中立：GEHA Field at Arrowhead Stadium 中立場，無主場優勢；Scaloni 強調開幕場非決定性、會管理 Messi 上場時間。",
+      "輿論共識：Opta 68.2%、盤口約 73%、RotoWire/CBS/SportingNews/William Hill 多預測 2-0，SI/LiveScore 偏 3-1，Sports Mole 偏 1-0。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Sports Mole 認為阿根廷僅 1-0 小勝；部分評論指阿爾及利亞高位逼搶與 Mahrez/Amoura 的速度若針對缺少 Tagliafico 的阿根廷左路，並抓住定位球，有機會偷分或令比賽成為纏鬥。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+      "title": "FIFA World Cup 2026 官方網站"
+    },
+    {
+      "type": "official",
+      "url": "https://www.afa.com.ar/",
+      "title": "阿根廷足球協會 (AFA)"
+    },
+    {
+      "type": "official",
+      "url": "https://www.faf.dz/",
+      "title": "阿爾及利亞足球聯會 (FAF)"
+    },
+    {
+      "type": "official",
+      "url": "https://www.fifa.com/en/match-centre",
+      "title": "FIFA Match Centre — 賽程"
+    },
+    {
+      "type": "official",
+      "url": "https://www.arrowheadstadium.com/",
+      "title": "Arrowhead Stadium / GEHA Field 官方"
+    },
+    {
+      "type": "official",
+      "url": "https://www.cafonline.com/",
+      "title": "非洲足協 (CAF)"
+    },
+    {
+      "type": "official",
+      "url": "https://www.conmebol.com/",
+      "title": "CONMEBOL 南美足協"
+    },
+    {
+      "type": "media",
+      "url": "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria",
+      "title": "ESPN — Messi/E.Martínez/Álvarez 確認可上陣"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/team-news/argentina-vs-algeria-injury-suspension-list-predicted-xis_599175.html",
+      "title": "Sports Mole — 傷停名單 (Tagliafico OUT、Bensebaini OUT)"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-algeria-prediction-team-news-lineups_599163.html",
+      "title": "Sports Mole — 預覽 (1-0)"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/messi-makes-more-history-emi-returns-predicted-argentina-lineup-vs-algeria_599169.html",
+      "title": "Sports Mole — 阿根廷預測先發"
+    },
+    {
+      "type": "media",
+      "url": "https://www.si.com/soccer/argentina-vs-algeria-world-cup-predictions-previews-lineups-6-16-26",
+      "title": "Sports Illustrated — 預測 3-1"
+    },
+    {
+      "type": "media",
+      "url": "https://www.si.com/soccer/argentina-predicted-lineup-vs-algeria-world-cup-6-16-26",
+      "title": "Sports Illustrated — 阿根廷先發逐位分析"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportingnews.com/ca/soccer/news/argentina-vs-algeria-lineup-starting-11-world-cup-2026/4979d8f9d6d5aebf691f4ce7",
+      "title": "Sporting News — 預測先發、預測 2-0"
+    },
+    {
+      "type": "media",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760433",
+      "title": "ESPN — Argentina vs Algeria 賠率與數據"
+    },
+    {
+      "type": "media",
+      "url": "https://apnews.com/article/world-cup-argentina-algeria-preview-messi-165a6653ace38016390f62f9dd618fc0",
+      "title": "AP — Scaloni 賽前談話"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportskeeda.com/football/news-lionel-scaloni-provides-injury-update-lionel-messi-2-key-argentina-stars-ahead-algeria-clash-fifa-world-cup",
+      "title": "Sportskeeda — Scaloni 傷情更新"
+    },
+    {
+      "type": "media",
+      "url": "https://worldsoccertalk.com/world-cup/report-messi-included-in-scalonis-unprecedented-lineup-for-argentinas-world-cup-opener-vs-algeria/",
+      "title": "World Soccer Talk — Messi 入選先發報導"
+    },
+    {
+      "type": "media",
+      "url": "https://www.marca.com/en/world-cup/2026/06/10/argentina-is-revving-up-with-another-win-and-another-goal-from-stellar-messi.html",
+      "title": "Marca — 阿根廷七連勝、Messi 進球"
+    },
+    {
+      "type": "media",
+      "url": "https://fwclive.com/match/argentina-vs-algeria-lineups/",
+      "title": "FWC Live — 預測陣容"
+    },
+    {
+      "type": "media",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/argentina-vs-algeria-favourites-to-triumph-in-group-j-opener/",
+      "title": "LiveScore — 預測 3-1"
+    },
+    {
+      "type": "media",
+      "url": "https://www.goal.com/en-us/news/argentina-algeria-world-cup-preview/blt877acb33aa4b3693",
+      "title": "Goal.com — 名單與預覽"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsadda.asia/football/news/messi-and-argentina-begin-their-world-cup-defence-against-algeria/",
+      "title": "SportsAdda — 阿根廷衛冕之旅"
+    },
+    {
+      "type": "media",
+      "url": "https://www.foxsports.com/articles/soccer/world-cup-what-to-know-argentinas-lionel-messi-kicks-off-expected-last-hurrah-against-algeria",
+      "title": "FOX Sports — Messi 預計最後一屆"
+    },
+    {
+      "type": "media",
+      "url": "https://www.foxsports.com/stories/soccer/world-cup-france-senegal-norway-iraq-argentina-algeria-austria-jordan",
+      "title": "FOX Sports — 第 6 比賽日全場次"
+    },
+    {
+      "type": "media",
+      "url": "https://thethao247.vn/world-cup/175391-may-tinh-soi-ket-qua-argentina-vs-algeria-kich-ban-gay-bat-ngo-d424045.html",
+      "title": "Thethao247 — Opta 68.2% 阿根廷"
+    },
+    {
+      "type": "media",
+      "url": "https://baomoi.com/nhan-dinh-du-doan-ket-qua-argentina-vs-algeria-messi-lap-ky-luc-c55403953.epi",
+      "title": "Báo Mới — 預測與 Opta 數據"
+    },
+    {
+      "type": "media",
+      "url": "https://www.bbc.com/sport/football/world-cup",
+      "title": "BBC Sport — 世界盃"
+    },
+    {
+      "type": "media",
+      "url": "https://www.theguardian.com/football/world-cup-2026",
+      "title": "The Guardian — 世界盃"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.sportsgambler.com/betting-tips/football/argentina-vs-algeria-prediction-lineups-odds-2026-06-16/",
+      "title": "SportsGambler — 預測陣容與賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://news.williamhill.com/football/world-cup/argentina-v-algeria-prediction-odds-and-best-bets/",
+      "title": "William Hill — 阿根廷 2/5、預測 2-0"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/argentina-vs-algeria-betting-tips-predictions-team-news-odds-bet-builder-akzia3G1tqGe/",
+      "title": "Racing Post — 投注建議與陣容"
+    },
+    {
+      "type": "betting",
+      "url": "https://betting.bc.game/predictions/argentina-vs-algeria-prediction-fifa-world-cup-17-06-2026/",
+      "title": "BC.Game — 預測兩球勝"
+    },
+    {
+      "type": "betting",
+      "url": "https://statsalt.com/free-picks/world-cup/argentina-vs-algeria-picks-and-prediction-for-tuesday-june-16-2026",
+      "title": "StatSalt — 阿根廷 -1.5、Over 2.5"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.actionnetwork.com/worldcup-game/algeria-argentina/284364",
+      "title": "Action Network — 賠率與專家精選"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.bettingexpert.com/football/argentina-vs-algeria",
+      "title": "Bettingexpert — 阿根廷大熱"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.pickswise.com/world-cup/",
+      "title": "Pickswise — 世界盃精選"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.bet365.com/",
+      "title": "bet365 — 賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.draftkings.com/",
+      "title": "DraftKings — 賠率 (阿根廷 -1.5)"
+    },
+    {
+      "type": "betting",
+      "url": "https://sportsbook.fanduel.com/navigation/soccer",
+      "title": "FanDuel — 足球賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.betonline.ag/sportsbook/soccer",
+      "title": "BetOnline — 足球賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.bettingnews.com/fifa-world-cup/",
+      "title": "Betting News — 世界盃賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/",
+      "title": "KickOff — 預測與賠率"
+    },
+    {
+      "type": "model",
+      "url": "https://theanalyst.com/articles/argentina-vs-algeria-prediction-world-cup-2026-match-preview",
+      "title": "Opta Analyst — 阿根廷 68.2% / 和 18.6% / 阿爾 13.2%"
+    },
+    {
+      "type": "model",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/argentina-v-algeria-predictions",
+      "title": "Total Football Analysis — 阿根廷 to nil"
+    },
+    {
+      "type": "model",
+      "url": "https://www.rotowire.com/soccer/article/argentina-vs-algeria-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118222",
+      "title": "RotoWire — 預測 2-0"
+    },
+    {
+      "type": "model",
+      "url": "https://www.dimers.com/",
+      "title": "Dimers — 賽果機率模型"
+    },
+    {
+      "type": "model",
+      "url": "https://www.whoscored.com/",
+      "title": "WhoScored — 數據與預測"
+    },
+    {
+      "type": "model",
+      "url": "https://www.abhs.in/blog/argentina-vs-algeria-world-cup-2026-messi-title-defense-prediction-june-17",
+      "title": "ABHS — 模型 2-0 (76%)、Goldman 模型"
+    },
+    {
+      "type": "model",
+      "url": "https://www.businesstoday.in/sports/story/fifa-world-cup-winner-opta-supercomputer-picks-this-country-as-favourite-messis-argentina-lags-536029-2026-06-10",
+      "title": "Business Today — Opta 奪冠機率"
+    },
+    {
+      "type": "model",
+      "url": "https://www.covers.com/world-cup/injury-report-2026",
+      "title": "Covers — 世界盃傷情總表"
+    },
+    {
+      "type": "market",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-arg-alg-2026-06-16",
+      "title": "Polymarket — Argentina vs Algeria 市場"
+    },
+    {
+      "type": "market",
+      "url": "https://kalshi.com/markets/world-cup",
+      "title": "Kalshi — 世界盃事件合約"
+    },
+    {
+      "type": "market",
+      "url": "https://www.betfair.com/exchange/plus/football",
+      "title": "Betfair Exchange — 盤口市場"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/algeria/comments/1u6ps4q/brazilian_muslim_here_i_hope_you_smash_the_life/",
+      "title": "r/algeria — 球迷賽前討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/worldcup/",
+      "title": "r/worldcup — 世界盃綜合討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/argentina/",
+      "title": "r/argentina — 阿根廷討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/soccer/",
+      "title": "r/soccer — 足球綜合討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.bigdsoccer.com/2026-world-cup-group-stage-predictions/",
+      "title": "Big D Soccer — 小組賽逐場預測"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.bigsoccer.com/forums/",
+      "title": "BigSoccer — 國際足球論壇"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/GastonEdul",
+      "title": "Gastón Edul — 阿根廷隊內幕（Lautaro 先發）"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/FabrizioRomano",
+      "title": "Fabrizio Romano — 傷情爆料"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/OptaJoe",
+      "title": "OptaJoe — 數據分析"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/Argentina",
+      "title": "X — 阿根廷國家隊官方"
+    },
+    {
+      "type": "kol",
+      "url": "https://www.facebook.com/CGTNSportsScene/posts/1460836992744141/",
+      "title": "CGTN Sports — 阿根廷傷情整理"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=c9TqDJKnKmc",
+      "title": "Argentina vs Algeria 預測、陣容、賠率 (71.8%)"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=RytsjPsQwto",
+      "title": "Messi's First Match — Argentina vs Algeria 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IhKbP1W9jrM",
+      "title": "Honest Analysis — Argentina vs Algeria (3-1)"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=USvK0MeliA4",
+      "title": "2026 World Cup — Argentina vs Algeria Preview"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=w1I-2r8YNUo",
+      "title": "Expert Football Betting — 16 Jun 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=opQScvEEVHg",
+      "title": "World Cup Stars & Dark Horses — Messi/Mbappé"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=MG194zkqWTo",
+      "title": "Predicting the 2026 World Cup"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OA-0I_51vmY",
+      "title": "Sport Circle Live — World Cup Preview Part 2"
+    },
+    {
+      "type": "social",
+      "url": "https://www.instagram.com/reel/DZeHGvVtUB_/",
+      "title": "Instagram — Supercomputer MD1 預測"
+    },
+    {
+      "type": "social",
+      "url": "https://x.com/FIFAWorldCup",
+      "title": "X — FIFA World Cup 官方帳號"
+    },
+    {
+      "type": "social",
+      "url": "https://www.threads.net/@espnfc",
+      "title": "Threads — ESPN FC"
+    },
+    {
+      "type": "media",
+      "url": "https://expressbet.vip/argentina-vs-algeria-world-cup-2026-preview/",
+      "title": "ExpressBet — 戰術預覽與陣容"
+    },
+    {
+      "type": "media",
+      "url": "https://www.juvefc.com/argentina-v-algeria-predictions/",
+      "title": "JuveFC — 預測阿根廷 2/5"
+    },
+    {
+      "type": "media",
+      "url": "https://www.cbssports.com/soccer/world-cup/",
+      "title": "CBS Sports — 世界盃專區"
+    },
+    {
+      "type": "media",
+      "url": "https://www.skysports.com/world-cup",
+      "title": "Sky Sports — 世界盃"
+    },
+    {
+      "type": "media",
+      "url": "https://www.aljazeera.com/sports/",
+      "title": "Al Jazeera Sport — 世界盃報導"
+    },
+    {
+      "type": "media",
+      "url": "https://www.goal.com/en/category/world-cup",
+      "title": "Goal.com — 世界盃專區"
+    },
+    {
+      "type": "media",
+      "url": "https://theathletic.com/football/world-cup/",
+      "title": "The Athletic — 世界盃"
+    },
+    {
+      "type": "media",
+      "url": "https://www.marca.com/en/world-cup.html",
+      "title": "Marca — 世界盃專區"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportingnews.com/us/soccer",
+      "title": "Sporting News — 足球"
+    },
+    {
+      "type": "media",
+      "url": "https://www.365scores.com/en-us/football",
+      "title": "365Scores — 賽事數據"
+    },
+    {
+      "type": "betting",
+      "url": "https://predictszone.com/football/world-cup-2026/group-j/argentina-vs-algeria-prediction",
+      "title": "PredictsZone — 阿根廷 70/20/10"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.freesupertips.com/predictions/argentina-vs-algeria-predictions-betting-tips-match-previews/",
+      "title": "FreeSuperTips — 預測與投注貼士"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.sportinglife.com/football/news/argentina-vs-algeria-predictions-tips-world-cup/232700",
+      "title": "Sporting Life — 投注建議"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.coral.co.uk/sports/football",
+      "title": "Coral — 足球賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.paddypower.com/football",
+      "title": "Paddy Power — 足球賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://thesportsrush.com/argentina-v-algeria-predictions/",
+      "title": "The Sports Rush — 預測與賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.freetips.com/football/fifa-world-cup/argentina-vs-algeria-preview/",
+      "title": "FreeTips — 阿根廷 -1.5 讓球"
+    },
+    {
+      "type": "model",
+      "url": "https://www.sofascore.com/football/world-cup",
+      "title": "Sofascore — 數據與預測"
+    },
+    {
+      "type": "model",
+      "url": "https://fbref.com/en/comps/1/World-Cup-Stats",
+      "title": "FBref — 世界盃數據"
+    },
+    {
+      "type": "model",
+      "url": "https://www.fifa.com/fifa-world-ranking/",
+      "title": "FIFA — 世界排名"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/Eyeonball/",
+      "title": "r/Eyeonball — 賽事討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/footballhighlights/",
+      "title": "r/footballhighlights — 賽前討論串"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.redcafe.net/",
+      "title": "RedCafe — 球迷論壇"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/Footy_Tipster",
+      "title": "Footy Tipster — Argentina vs Algeria 貼士"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/leomessisite",
+      "title": "Messi 球迷情報帳號"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/JulienLaurens",
+      "title": "Julien Laurens — 國際足球評論"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vetYwAO9wlo",
+      "title": "模型模擬 — Argentina vs Algeria 2-1（阿根廷 56%）"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=96SHJQBLpo0",
+      "title": "World Cup Day 6 — Argentina vs Algeria 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=HOb-jlUxsOQ",
+      "title": "Argentina vs Algeria — Match Preview"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SaNrMj_-aKo",
+      "title": "Sports Mole — Argentina vs Algeria 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=b4ofaOte3W8",
+      "title": "Argentina 訓練片段 — 賽前"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=tNW6HhyJYPE",
+      "title": "Messi 訓練片段 — 賽前"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3RTOv2BA1Bs",
+      "title": "PickDawgz — Argentina vs Algeria 免費精選"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=i3bJkG-CMFU",
+      "title": "WagerTalk — Norway vs Iraq & Argentina vs Algeria Picks"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=6Xw6sUCAAQ0",
+      "title": "OddAlerts — Day 6 World Cup 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/shorts/fdBsr9GR6g8",
+      "title": "World Cup 預測短片 — Argentina vs Algeria"
+    },
+    {
+      "type": "social",
+      "url": "https://www.instagram.com/reel/DZnXY1uoAh2/",
+      "title": "Instagram — Nimbus 預測 Argentina vs Algeria"
+    },
+    {
+      "type": "social",
+      "url": "https://www.instagram.com/reel/DZdclwVsEca/",
+      "title": "Instagram — 世界盃預測短片"
+    },
+    {
+      "type": "social",
+      "url": "https://www.threads.net/@fabrizioromano",
+      "title": "Threads — Fabrizio Romano"
+    }
+  ],
+  "source_count": 115,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.09,
+        "away": 0.03
+      },
+      "scoreline": "3:0",
+      "note": "阿根廷主場火力強大，阿爾及利亞難以抵擋。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力佔優，預計穩穩拿下小組賽首勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "3:0",
+      "note": "阿根廷實力明顯佔優，可望輕鬆擊敗阿爾及利亞。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.76,
+        "draw": 0.16,
+        "away": 0.08
+      },
+      "scoreline": "3:0",
+      "note": "阿根廷實力與經驗皆優，主場可望輕鬆大勝。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷陣容實力與大賽經驗佔絕對優勢，預計能穩健取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.76,
+        "draw": 0.15,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力遠勝，預計主場輕取勝利。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力強大，輕取阿爾及利亞。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.769,
+      "draw": 0.151,
+      "away": 0.08
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T093331Z"
+}

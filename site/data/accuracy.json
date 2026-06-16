@@ -1,11 +1,11 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-16T01:30:51Z",
+  "last_updated": "2026-06-16T09:38:31Z",
   "metrics": {
-    "total_evaluated": 11,
+    "total_evaluated": 12,
     "outcome_correct": 3,
-    "outcome_accuracy": 0.2727,
+    "outcome_accuracy": 0.25,
     "exact_score_correct": 0,
     "exact_score_accuracy": 0.0
   },
@@ -15,7 +15,7 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 11,
+      "evaluated": 12,
       "outcome_correct": 3,
       "exact_correct": 0
     }
@@ -148,6 +148,18 @@
       "predicted": "0:2",
       "predicted_outcome": "away",
       "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-15T1710Z"
+    },
+    {
+      "match": 16,
+      "home": "Iran",
+      "away": "New Zealand",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "2:2",
       "actual_outcome": "draw",
       "outcome_correct": false,
       "exact_correct": false,

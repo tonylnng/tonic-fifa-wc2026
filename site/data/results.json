@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-14T05:49:11Z",
+  "last_updated": "2026-06-16T08:55:00Z",
   "results": [
     {
       "match": 1,
@@ -212,6 +212,20 @@
       "recorded_at": "2026-06-16T00:55:00Z",
       "source": "https://www.skysports.com/football/saudi-arabia-vs-uruguay/report/549781",
       "scoreline": "1:1"
+    },
+    {
+      "match": 16,
+      "stage": "Group G",
+      "home": "Iran",
+      "away": "New Zealand",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "scoreline": "2:2",
+      "outcome": "draw",
+      "recorded_at": "2026-06-16T08:55:00Z",
+      "source": "[ESPN](https://www.espn.com/soccer/story/_/id/49075338/iran-new-zealand-live-world-cup-2026-latest-updates-commentary-score-result)"
     }
   ]
 }

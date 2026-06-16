@@ -1,0 +1,773 @@
+{
+  "match": 17,
+  "stage": "Group I",
+  "home": "France",
+  "away": "Senegal",
+  "kickoff_utc": "2026-06-16T19:00:00Z",
+  "kickoff_hkt": "2026-06-17 03:00",
+  "run_id": "2026-06-16T0855Z",
+  "run_timestamp": "2026-06-16T08:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.64,
+      "draw": 0.22,
+      "away": 0.14
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.125
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "Opta 法國 64.8%、RotoWire 與 Mint 均預測 2-1，主預測與多數模型一致。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "法國 -225 至 -227（隱含約 69%）、讓球 -1，盤口偏向法國小勝且常見 1-0/2-0。"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "Mbappé、Dembélé、Olise 火力全開，SI 與多家預測 3-1，BTTS 受青睞。"
+      },
+      {
+        "name": "塞內加爾爆冷",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.3,
+        "basis": "2002 年塞內加爾曾爆冷勝法國；模擬顯示若塞內加爾高壓進攻，可將法國勝率壓至約 40%。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.66,
+          "draw": 0.21,
+          "away": 0.13
+        },
+        "scoreline": "1:0",
+        "note": "法國 -225/-227（隱含約 69%，去抽水約 66%）、和 +320/7.0、塞內加爾 +550/+700；讓球 -1。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.648,
+          "draw": 0.203,
+          "away": 0.149
+        },
+        "scoreline": "2:1",
+        "note": "Opta：法國 64.8%、和 20.3%、塞內加爾 14.9%；最可能 2-1。"
+      },
+      {
+        "source": "KickOff 演算法",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.64,
+          "draw": 0.22,
+          "away": 0.14
+        },
+        "scoreline": "2:1",
+        "note": "KickOff 預測模型：法國 64%，PG 法國 2.0、塞內加爾 0.8。"
+      },
+      {
+        "source": "預測市場（Polymarket/Kalshi）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.67,
+          "draw": 0.22,
+          "away": 0.11
+        },
+        "scoreline": "2:1",
+        "note": "預測市場法國約 67%、和約 22%、塞內加爾約 11%，較盤口略偏法國。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "法國坐擁全隊近乎滿狀態的冠軍級陣容（Mbappé、Dembélé、Olise、Doué），核心後衛 Saliba 背傷已回歸全隊合練並完成末場熱身，料可先發；Kounde 肌肉小傷亦完全康復。塞內加爾近乎全員到齊，隊長 Koulibaly 大腿傷康復可先發、Mané 領軍反擊具威脅。綜合 Opta 64.8%、盤口約 66-69% 與預測市場約 67%，法國明顯佔優；唯 2002 爆冷史與塞內加爾的身體與轉換速度令爆冷風險不可忽視，主預測法國 2-1。",
+    "key_factors": [
+      "球員狀態：Mbappé 距追平 Giroud 法國隊史進球紀錄僅差 1 球，Olise 熱身賽帽子戲法狀態火熱，Dembélé 為現任金球獎得主。",
+      "傷停名單：法國 Saliba（背傷）回歸全隊合練料先發、Kounde（肌肉）已康復，全隊無重大傷停（Ekitike 阿基里斯腱長期缺陣）。",
+      "塞內加爾傷情：隊長 Koulibaly 大腿/股四頭肌傷（熱身僅上陣 8 分鐘）已被多媒體列為康復可先發，全隊近乎滿員；Cherif Ndiaye 狀態存疑。",
+      "近期戰績：法國近 5 戰 4 勝、開幕場連續 6 屆大賽首戰獲勝；塞內加爾資格賽 10 戰僅失 3 球、防守紀律佳。",
+      "戰術對位：法國 4-2-3-1 邊路速度與深度壓制；塞內加爾 4-3-3 高壓與快速轉換是法國後防的主要威脅（Mané、I. Sarr、Jackson）。",
+      "場地/歷史：中立場 MetLife Stadium，無主場優勢；雙方唯一世界盃交手為 2002 年塞內加爾 1-0 爆冷，增添心理張力。",
+      "輿論共識：Opta、RotoWire、Mint、ChatGPT 多預測 2-1；CBS/SportingNews 偏 2-0、SI/LiveScore/FreeSuperTips 偏 3-1，盤口大小球 2.5 接近五五。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分博彩與獨立 xG 模型（YouTube 50,000 次模擬）認為差距僅約 4 個百分點（法 40.7% 對塞 36.9%），點名 2002 爆冷與塞內加爾高壓可能把比賽拖入纏鬥甚至爆冷。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+      "title": "FIFA World Cup 2026 官方網站"
+    },
+    {
+      "type": "official",
+      "url": "https://www.fff.fr/",
+      "title": "法國足球總會 (FFF)"
+    },
+    {
+      "type": "official",
+      "url": "https://fsfoot.sn/",
+      "title": "塞內加爾足球聯會 (FSF)"
+    },
+    {
+      "type": "official",
+      "url": "https://www.fifa.com/en/match-centre",
+      "title": "FIFA Match Centre — 賽程"
+    },
+    {
+      "type": "official",
+      "url": "https://www.metlifestadium.com/",
+      "title": "MetLife Stadium 官方"
+    },
+    {
+      "type": "official",
+      "url": "https://www.uefa.com/european-qualifiers/",
+      "title": "UEFA 歐洲區資格賽"
+    },
+    {
+      "type": "official",
+      "url": "https://www.cafonline.com/",
+      "title": "非洲足協 (CAF)"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/saliba-status-doue-decision-predicted-france-xi-vs-senegal_599158.html",
+      "title": "Sports Mole — 法國預測先發 (Saliba 回歸)"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/predicted-lineups/jackson-in-ndiaye-out-predicted-senegal-xi-vs-france_599159.html",
+      "title": "Sports Mole — 塞內加爾預測先發"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-senegal-injury-suspension-list-predicted-xis_599161.html",
+      "title": "Sports Mole — 法國 vs 塞內加爾傷停名單"
+    },
+    {
+      "type": "media",
+      "url": "https://www.aljazeera.com/sports/2026/6/15/france-vs-senegal-world-cup-2026-mbappe-teams-lineups-start-dembele",
+      "title": "Al Jazeera — France vs Senegal 預覽"
+    },
+    {
+      "type": "media",
+      "url": "https://www.aol.com/articles/william-saliba-fit-final-friendly-181359000.html",
+      "title": "Field Level Media — Saliba 末場熱身過關"
+    },
+    {
+      "type": "media",
+      "url": "https://www.standard.co.uk/sport/football/france-vs-senegal-lineups-predicted-xis-confirmed-team-news-injury-latest-world-cup-today-b1286182.html",
+      "title": "Evening Standard — 陣容與傷情"
+    },
+    {
+      "type": "media",
+      "url": "https://www.straitstimes.com/sport/football/frances-saliba-to-miss-training",
+      "title": "Straits Times — Saliba 缺席單次訓練"
+    },
+    {
+      "type": "media",
+      "url": "https://madeinfoot.ouest-france.fr/infos/article-senegal-une-tres-grosse-incertitude-pese-sur-la-defense-senegalaise-a-deux-jours-d-affronter-l-equipe-de-france-527296.html",
+      "title": "Ouest-France — 塞內加爾後防不確定性"
+    },
+    {
+      "type": "media",
+      "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+      "title": "ESPN — 收看方式與預測陣容"
+    },
+    {
+      "type": "media",
+      "url": "https://www.espn.com/espn/story/_/id/49048242/france-vs-senegal-kick-team-news-how-watch-fifa-world-cup",
+      "title": "ESPN — 開球時間與球隊消息"
+    },
+    {
+      "type": "media",
+      "url": "https://bleacherreport.com/articles/25437927-world-cup-2026-starting-lineups-notable-injury-news-and-potential-replacements",
+      "title": "Bleacher Report — 世界盃先發與傷情"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportingnews.com/uk/football/news/france-vs-senegal-lineup-starting-11-world-cup-2026/05832f534d6795b6b6997dcb",
+      "title": "Sporting News — 預測先發 11 人"
+    },
+    {
+      "type": "media",
+      "url": "https://khelnow.com/football/world-football-players-watch-france-vs-senegal-fifa-world-cup-202606",
+      "title": "Khel Now — 五大看點球員"
+    },
+    {
+      "type": "media",
+      "url": "https://www.foxsports.com/soccer/jules-kounde-player",
+      "title": "FOX Sports — Kounde 傷情更新（可上陣）"
+    },
+    {
+      "type": "media",
+      "url": "https://africasoccer.com/world-cup-2026-france-handed-william-saliba-injury-lift-as-senegal-opener-looms/",
+      "title": "AfricaSoccer — Saliba 回歸利好"
+    },
+    {
+      "type": "media",
+      "url": "https://africasoccer.com/world-cup-2026-france-vs-senegal-preview/",
+      "title": "AfricaSoccer — 法國 vs 塞內加爾預覽"
+    },
+    {
+      "type": "media",
+      "url": "https://dailycannon.com/2026/06/saliba-injury-france-arsenal/",
+      "title": "Daily Cannon — Saliba 回歸訓練"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportingnews.com/us/soccer/news/france-receives-positive-update-arsenal-defender-amid-injury-woes/91a2ae120bd6b2d03a95493d",
+      "title": "Sporting News — Saliba 正面消息"
+    },
+    {
+      "type": "media",
+      "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=569435",
+      "title": "Ahram Online — 塞內加爾名單與 Koulibaly 傷情"
+    },
+    {
+      "type": "media",
+      "url": "https://www.101greatgoals.com/match-previews/world-cup-matches/france-v-senegal-world-cup-2026-line-ups-stats-preview-tv-channel-live-online-stream-prediction/",
+      "title": "101 Great Goals — 預覽與預測 (3-1)"
+    },
+    {
+      "type": "media",
+      "url": "https://www.goal.com/en-us/news/france-senegal-world-cup-preview/blt57c148cbbe5bd343",
+      "title": "Goal.com — France vs Senegal 預覽"
+    },
+    {
+      "type": "media",
+      "url": "https://www.cbssports.com/soccer/news/france-vs-senegal-world-cup-2026-preview-predictions-watch/",
+      "title": "CBS Sports — 預測 France 2-0"
+    },
+    {
+      "type": "media",
+      "url": "https://www.si.com/soccer/france-vs-senegal-world-cup-preview-predictions-lineups-6-16-26",
+      "title": "Sports Illustrated — 預測 France 3-1"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sofascore.com/news/france-vs-senegal-preview-form-odds-and-projected-lineups-for-world-cup-group-i",
+      "title": "Sofascore — 預覽、賠率、預測陣容"
+    },
+    {
+      "type": "media",
+      "url": "https://www.independent.co.uk/sport/football/world-cup/france-vs-senegal-prediction-2026-world-cup-betting-tips-odds-b2994260.html",
+      "title": "The Independent — 預測與投注建議"
+    },
+    {
+      "type": "media",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/deschamps-believes-spain-are-world-cup-favourites-not-france-2026-06-15",
+      "title": "beIN Sports — Deschamps 談奪冠熱門"
+    },
+    {
+      "type": "media",
+      "url": "https://en.as.com/soccer/world-cup/before-spains-first-game-ai-delivers-a-bold-world-cup-verdict-f202606-n/",
+      "title": "AS USA — AI 奪冠模擬"
+    },
+    {
+      "type": "media",
+      "url": "https://www.sportingnews.com/uk/football/news/france-vs-senegal-prediction-lineups-odds-bet-builder-tips-world-cup/a4ae67dea00a13e232b400af",
+      "title": "Sporting News — 預測、賠率、Bet Builder"
+    },
+    {
+      "type": "media",
+      "url": "https://www.livemint.com/sports/football-news/france-vs-senegal-prediction-i-asked-chatgpt-who-d-win-the-group-i-match-fifa-world-cup-2026-11781573710461.html",
+      "title": "Mint — ChatGPT 預測 2-1"
+    },
+    {
+      "type": "media",
+      "url": "https://rwatimes.substack.com/p/france-vs-senegal-world-cup-2026",
+      "title": "RWA Times — 預覽"
+    },
+    {
+      "type": "media",
+      "url": "https://foot-africa.com/en/news/france-senegal-were-playing-against-the-african-champion-kylian-mbappe-lights-the-fuse-1240363/",
+      "title": "Foot-Africa — Mbappé 賽前言論"
+    },
+    {
+      "type": "media",
+      "url": "https://blog.ke.sportpesa.com/2026/06/16/koulibaly-diatta-back-sadio-mane-to-inspire-senegals-quest-for-world-cup-glory/",
+      "title": "SportPesa — Koulibaly/Diatta 力挺 Mané"
+    },
+    {
+      "type": "media",
+      "url": "https://www.foxsports.com/articles/soccer/world-cup-what-to-know-argentinas-lionel-messi-kicks-off-expected-last-hurrah-against-algeria",
+      "title": "FOX Sports — 世界盤第 6 比賽日重點"
+    },
+    {
+      "type": "media",
+      "url": "https://www.foxsports.com/stories/soccer/world-cup-france-senegal-norway-iraq-argentina-algeria-austria-jordan",
+      "title": "FOX Sports — 第 6 比賽日全場次"
+    },
+    {
+      "type": "media",
+      "url": "https://www.rugby-addict.com/en-sco/article/saracens/france-vs-senegal-injury-suspension-list-predicted-xis-world-cup-2026/6a304f9e448c38582c0c5406",
+      "title": "Rugby-Addict — 傷停與預測陣容轉載"
+    },
+    {
+      "type": "media",
+      "url": "https://www.rugby-addict.com/en-cy/article/bath/arsenal-and-france-receive-new-william-saliba-injury-update-before-senegal-opener-at-2026-world-cup/6a2e5594d83d27b4ba031db4",
+      "title": "Rugby-Addict — Saliba 最新傷情"
+    },
+    {
+      "type": "media",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/france-senegal-5061-5102-5930",
+      "title": "365Scores — 賽前數據與賠率"
+    },
+    {
+      "type": "media",
+      "url": "https://www.mogazmasr.com/121379",
+      "title": "Mogaz — 法國奪冠之路"
+    },
+    {
+      "type": "media",
+      "url": "https://thethao247.vn/world-cup/426-may-tinh-soi-ket-qua-phap-vs-senegal-con-so-uy-tin-d424041.html",
+      "title": "Thethao247 — Opta 模擬數據"
+    },
+    {
+      "type": "media",
+      "url": "https://www.marca.com/en/world-cup/2026/06/10/argentina-is-revving-up-with-another-win-and-another-goal-from-stellar-messi.html",
+      "title": "Marca — 熱身賽戰況"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.bettingexpert.com/football/france-vs-senegal",
+      "title": "Bettingexpert — 法國 1.47 / 和 4.36 / 塞 7.1"
+    },
+    {
+      "type": "betting",
+      "url": "https://betting.betfair.com/football/world-cup-2026/france-v-senegal-world-cup-tips-predictions-match-preview-bet-builder-140626-1063.html",
+      "title": "Betfair — 法國 4/9 主隊熱門"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.sportsgambler.com/betting-tips/football/france-vs-senegal-prediction-lineups-odds-2026-06-16/",
+      "title": "SportsGambler — 法國 -227 (約 69%)、塞 +700"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.sportinglife.com/amp/football/news/france-vs-senegal-predictions-tips-best-bets-and-world-cup-preview/232614",
+      "title": "Sporting Life — 投注建議"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.freesupertips.com/predictions/france-vs-senegal-predictions-betting-tips-match-previews/",
+      "title": "FreeSuperTips — 預測 3-1"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/france-vs-senegal/",
+      "title": "KickOff — 演算法給法國 64%"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/",
+      "title": "Racing Post — 世界盃投注建議"
+    },
+    {
+      "type": "betting",
+      "url": "https://news.williamhill.com/football/world-cup/",
+      "title": "William Hill — 世界盃預測專區"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.actionnetwork.com/world-cup",
+      "title": "Action Network — 世界盃賠率與專家精選"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.pickswise.com/world-cup/",
+      "title": "Pickswise — 世界盃精選"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.bettingnews.com/fifa-world-cup/",
+      "title": "Betting News — 世界盃賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://betting.bc.game/predictions/",
+      "title": "BC.Game — 賽事預測"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.futbol24.com/betting-tips/",
+      "title": "Futbol24 — 投注貼士"
+    },
+    {
+      "type": "betting",
+      "url": "https://thesportsrush.com/",
+      "title": "The Sports Rush — 預測與賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://statsalt.com/free-picks/world-cup/",
+      "title": "StatSalt — 免費精選"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.draftkings.com/",
+      "title": "DraftKings — 賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.bet365.com/",
+      "title": "bet365 — 賠率（法國 12/25）"
+    },
+    {
+      "type": "betting",
+      "url": "https://sportsbook.fanduel.com/navigation/soccer",
+      "title": "FanDuel — 足球賠率"
+    },
+    {
+      "type": "betting",
+      "url": "https://www.betonline.ag/sportsbook/soccer",
+      "title": "BetOnline — 足球賠率"
+    },
+    {
+      "type": "model",
+      "url": "https://theanalyst.com/articles/france-vs-senegal-prediction-world-cup-2026-match-preview",
+      "title": "Opta Analyst — 法國 64.8% / 和 20.3% / 塞 14.9%"
+    },
+    {
+      "type": "model",
+      "url": "https://www.businesstoday.in/sports/story/fifa-world-cup-winner-opta-supercomputer-picks-this-country-as-favourite-messis-argentina-lags-536029-2026-06-10",
+      "title": "Business Today — Opta 超級電腦奪冠機率"
+    },
+    {
+      "type": "model",
+      "url": "https://www.dimers.com/",
+      "title": "Dimers — 賽果機率模型"
+    },
+    {
+      "type": "model",
+      "url": "https://www.rotowire.com/soccer/article/france-vs-senegal-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-i-118219",
+      "title": "RotoWire — 預測 France 2-1"
+    },
+    {
+      "type": "model",
+      "url": "https://www.whoscored.com/",
+      "title": "WhoScored — 數據與預測"
+    },
+    {
+      "type": "model",
+      "url": "https://projects.fivethirtyeight.com/soccer-predictions/",
+      "title": "FiveThirtyeight 風格 — SPI 模型"
+    },
+    {
+      "type": "model",
+      "url": "https://www.covers.com/world-cup/injury-report-2026",
+      "title": "Covers — 世界盃傷情總表"
+    },
+    {
+      "type": "market",
+      "url": "https://polymarket.com/sports/world-cup",
+      "title": "Polymarket — 世界盃預測市場"
+    },
+    {
+      "type": "market",
+      "url": "https://kalshi.com/markets/world-cup",
+      "title": "Kalshi — 世界盃事件合約"
+    },
+    {
+      "type": "market",
+      "url": "https://www.moomoo.com/community/feed/world-cup-predictor-round-2-france-vs-senegal-make-your-116736540672006",
+      "title": "Moomoo — France vs Senegal 預測投票"
+    },
+    {
+      "type": "market",
+      "url": "https://www.betfair.com/exchange/plus/football",
+      "title": "Betfair Exchange — 盤口市場"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/soccer/comments/1u3jm90/mbappe_on_facing_senegal_in_their_opening_match/",
+      "title": "r/soccer — Mbappé 賽前言論討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/worldcup/",
+      "title": "r/worldcup — 世界盃綜合討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.reddit.com/r/equipedefrance/",
+      "title": "r/equipedefrance — 法國隊討論"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.bigsoccer.com/forums/",
+      "title": "BigSoccer — 國際足球論壇"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.redcafe.net/",
+      "title": "RedCafe — 球迷論壇"
+    },
+    {
+      "type": "forum",
+      "url": "https://www.bigdsoccer.com/2026-world-cup-group-stage-predictions/",
+      "title": "Big D Soccer — 小組賽逐場預測"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/FabrizioRomano",
+      "title": "Fabrizio Romano — Saliba 回歸訓練爆料"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/FabriceHawkins",
+      "title": "Fabrice Hawkins — 法國隊內幕"
+    },
+    {
+      "type": "kol",
+      "url": "https://www.lequipe.fr/Football/",
+      "title": "L'Équipe — Kounde/Saliba 報導"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/OptaJoe",
+      "title": "OptaJoe — 數據分析"
+    },
+    {
+      "type": "kol",
+      "url": "https://x.com/JulienLaurens",
+      "title": "Julien Laurens — 法國足球評論"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=cHz7b7U4ZVc",
+      "title": "CBS Sports — France vs Senegal 預覽與預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0HGHyep3qlk",
+      "title": "ESPN UK — 'Senegal Can Beat Them!' 預覽"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=seLvIVO1jg4",
+      "title": "ESPN FC — 塞內加爾能否挑戰法國"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0BxanCH3x4g",
+      "title": "Déjà Vu for Les Bleus? — France v Senegal 預覽"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rCnukya11D8",
+      "title": "AI Predicts Exact Score: France vs Senegal (2-1)"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rMzOp69CtFU",
+      "title": "Data Simulation: France vs Senegal Preview"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Y4r1cerXhX4",
+      "title": "Action Network — France vs Senegal 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4eiIk-lIaJs",
+      "title": "WagerTalk — France vs Senegal Props & SGP"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=gF1huGtQtVs",
+      "title": "PickDawgz — France vs Senegal 免費精選"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=AMvRut22zS4",
+      "title": "WagerTalk — France vs Senegal BEST Bets"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=I3LNsvhq2Hg",
+      "title": "World Cup Preview — Senegal high press 評論 (2-1 France)"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0DV3_saDeko",
+      "title": "World Cup Fantasy MD1 — Predicted Lineups"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=w1I-2r8YNUo",
+      "title": "Expert Football Betting — 16 Jun 預測"
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=OA-0I_51vmY",
+      "title": "Sport Circle Live — World Cup Preview Part 2"
+    },
+    {
+      "type": "social",
+      "url": "https://www.instagram.com/reel/DZeHGvVtUB_/",
+      "title": "Instagram — Supercomputer MD1 (France 3-1 Senegal)"
+    },
+    {
+      "type": "social",
+      "url": "https://www.instagram.com/p/DZmLzOmjUlc/",
+      "title": "Instagram — Deschamps 尊重塞內加爾"
+    },
+    {
+      "type": "social",
+      "url": "https://www.instagram.com/reel/DZnP5rgoQz2/",
+      "title": "Instagram — Nimbus 預測 France 3-0"
+    },
+    {
+      "type": "social",
+      "url": "https://x.com/FIFAWorldCup",
+      "title": "X — FIFA World Cup 官方帳號"
+    },
+    {
+      "type": "social",
+      "url": "https://www.threads.net/@espnfc",
+      "title": "Threads — ESPN FC"
+    }
+  ],
+  "source_count": 107,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國主場攻守俱佳，板凳深度足以壓制塞內加爾。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力佔優，主場作戰有望穩穩拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力明顯優於塞內加爾，預計輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "法國攻守均衡且板凳深度佳，看好穩勝塞內加爾。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力與進攻火力佔絕對優勢，預計能穩健擊退塞內加爾。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "法國實力雄厚，主場優勢明顯。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "法國陣容深度極佳，擊敗塞內加爾問題不大。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.664,
+      "draw": 0.204,
+      "away": 0.131
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T093129Z"
+}
