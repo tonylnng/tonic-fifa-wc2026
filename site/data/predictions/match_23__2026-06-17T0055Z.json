@@ -1,0 +1,719 @@
+{
+  "match": 23,
+  "stage": "Group L",
+  "home": "Ghana",
+  "away": "Panama",
+  "kickoff_utc": "2026-06-17T23:00:00Z",
+  "kickoff_hkt": "2026-06-18 07:00",
+  "run_id": "2026-06-17T0055Z",
+  "run_timestamp": "2026-06-17T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.44,
+      "draw": 0.27,
+      "away": 0.29
+    },
+    "confidence": 0.46,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "主場險勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.46,
+        "basis": "博彩盤口微傾迦納（約 +115/2.0），主場與 Semenyo、Partey 個人能力可在後段打開局面。"
+      },
+      {
+        "name": "模型偏好巴拿馬",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.4,
+        "basis": "Opta 超級電腦給巴拿馬 45.2% 高於迦納 29.6%，反映其資格賽不敗的紀律性與低位防守反擊。"
+      },
+      {
+        "name": "低比分平手",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.42,
+        "basis": "兩隊近期皆難保持清白之身，迦納熱身賽狀態低迷，首戰互交白卷後平分機率不低。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.296,
+          "draw": 0.252,
+          "away": 0.452
+        },
+        "scoreline": "1:2",
+        "note": "Opta 模型偏好巴拿馬，視其為小組黑馬。"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.391,
+          "draw": 0.27,
+          "away": 0.339
+        },
+        "scoreline": "1:1",
+        "note": "Dimers 微傾迦納，最可能比分為 1-1。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.46,
+          "draw": 0.27,
+          "away": 0.27
+        },
+        "scoreline": "2:1",
+        "note": "主流博彩讓迦納為小熱（約 +115/+120），巴拿馬約 +242/+265。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "迦納坐擁主場與 Semenyo、Partey、Jordan Ayew 等個人能力，博彩盤口微傾迦納；但 Opta 模型反而看好紀律嚴明、資格賽不敗的巴拿馬。Kudus 因傷缺陣削弱迦納創造力，預期主隊在拉鋸戰中以 2-1 險勝，惟平手與爆冷風險均不可低估。",
+    "key_factors": [
+      "傷停名單：迦納主力 Kudus 確定因傷缺陣，創造力受損；Semenyo、Partey、隊長 Jordan Ayew 領軍。",
+      "近期狀態：迦納熱身賽低迷（曾 1-5 慘敗奧地利，並負德國、墨西哥），狀態存疑。",
+      "對手實力：巴拿馬資格賽保持不敗，3-4-2-1 低位防守反擊，Carrasquilla、Godoy、Ismael Diaz 具威脅。",
+      "戰術對位：Queiroz 的迦納務實偏被動，面對巴拿馬密集防守需把握定位球與個人能力。",
+      "主客場/場地：迦納名義主場（多倫多 BMO Field），具一定地利。",
+      "輿論共識：盤口微傾迦納、Opta 偏巴拿馬、Dimers 看 1-1，意見分歧，屬五五波對碰。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Opta 超級電腦明顯看好巴拿馬（45.2% vs 迦納 29.6%），認為其防守紀律足以爆冷或逼平。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com - Match Centre 賽程",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "Ghana Football Association 官網",
+      "url": "https://www.ghanafa.org/"
+    },
+    {
+      "type": "official",
+      "name": "GFA - 世界盃缺陣傷兵公告",
+      "url": "https://www.ghanafa.org/players-missing-2026-fifa-world-cup-qualifiers-against-mali-central-african-republic-due-to-injury"
+    },
+    {
+      "type": "official",
+      "name": "Fepafut - Panama 足協官網",
+      "url": "https://www.fepafut.com/"
+    },
+    {
+      "type": "official",
+      "name": "BMO Field 場館官網",
+      "url": "https://www.bmofield.com/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Ghana 公布世界盃名單、Kudus 傷缺",
+      "url": "https://www.espn.co.uk/espn/story/_/id/48878999/antoine-semenyo-thomas-partey-headline-ghana-provisional-fifa-world-cup-squad-injured-mohammed-kudus-out"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Ghana 2026 陣容",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/4469/ghana"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Partey 入選世界盃名單",
+      "url": "https://www.bbc.com/sport/football/articles/cp9ppezl4v1o"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Kudus 傷缺世界盃",
+      "url": "https://www.straitstimes.com/sport/football/injury-rules-spurs-kudus-out-of-ghanas-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Ghana vs Panama 預覽",
+      "url": "https://www.goal.com/en-us/news/ghana-panama-world-cup-preview/bltc57f7610ee6813ff"
+    },
+    {
+      "type": "media",
+      "name": "GOAL - Ghana vs Panama 預測（爆冷論）",
+      "url": "https://www.goal.com/en-in/betting/world-cup/ghana-vs-panama-predictions-18-06-2026/A:blt35ed818358f79a9e"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Ghana vs Panama 預覽（1-1）",
+      "url": "https://www.sportsmole.co.uk/football/ghana/world-cup-2026/preview/ghana-vs-panama-prediction-team-news-lineups_599284.html"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post - Ghana vs Panama 預測與盤口",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/ghana-vs-panama-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aj21Q5f2UcNi/"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Ghana 世界盃陣容",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-ghana-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers - Ghana vs Panama 預測（1-1）",
+      "url": "https://footballwhispers.com/blog/ghana-vs-panama-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - Ghana vs Panama 預測",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/ghana-v-panama-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Xinhua - Ghana 球迷憂主力傷情",
+      "url": "https://english.news.cn/africa/20260109/b8fe246ac891401987223677514c2c67/c.html"
+    },
+    {
+      "type": "media",
+      "name": "Inkl - Ghana vs Panama 預測與最佳投注",
+      "url": "https://www.inkl.com/news/ghana-vs-panama-world-cup-2026-predictions-and-best-bets"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo/TheSportsRush - Ghana vs Panama 預測",
+      "url": "https://sports.yahoo.com/articles/ghana-vs-panama-picks-predictions-095640854.html"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Ghana vs Panama 預測",
+      "url": "https://www.juvefc.com/ghana-v-panama-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "ToffeeWeb - Ghana vs Panama 預測",
+      "url": "https://www.toffeeweb.com/ghana-vs-panama-predictions-picks-odds-18-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Ghana vs Panama 預測（Panama 45.2%）",
+      "url": "https://theanalyst.com/articles/ghana-vs-panama-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - 世界盃分組預測",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Panama vs Ghana 預測（Ghana 39.1%）",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_gha_pan"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Panama vs Ghana 早期預測",
+      "url": "https://www.dimers.com/news/panama-vs-ghana-early-prediction-group-l-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "oddslot - Ghana vs Panama 模型與盤口",
+      "url": "https://oddslot.com/football/match/world-cup/ghana/panama/17-jun-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Ghana vs Panama 盤口",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760434"
+    },
+    {
+      "type": "betting",
+      "name": "888sport - Ghana vs Panama 盤口",
+      "url": "https://www.888sport.com/football/international/world-cup-2026/ghana-vs-panama-e-6818816/"
+    },
+    {
+      "type": "betting",
+      "name": "BetUS - Ghana vs Panama 正確比分盤",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/props/ghana-vs-panama/"
+    },
+    {
+      "type": "betting",
+      "name": "World Cup Odds - Ghana v Panama 賠率",
+      "url": "https://worldcup-odds.com/2026/fixtures/ghana-v-panama.htm"
+    },
+    {
+      "type": "betting",
+      "name": "SportyTrader - Ghana vs Panama 賠率比較",
+      "url": "https://www.sportytrader.com/en/odds/ghana-panama-7937441/"
+    },
+    {
+      "type": "market",
+      "name": "RotoWire - Ghana vs Panama 陣容與分析（2-1）",
+      "url": "https://www.rotowire.com/soccer/article/ghana-vs-panama-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-l-118362"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Ghana vs Panama 預覽討論",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u30vpn/ghana_vs_panama_fifa_world_cup_2026_preview/"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Interaction - Group L 分析",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-a-preview-betting-odds-prediction-194606"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana vs Panama 預覽 Match 21",
+      "url": "https://www.youtube.com/watch?v=g8Fg0EFu2hU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana Speed vs Panama Counter 預覽",
+      "url": "https://www.youtube.com/watch?v=u1OdhHkeoIY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - GFA 公布世界盃名單",
+      "url": "https://www.youtube.com/watch?v=JS2vZywAt6U"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana vs Panama 預覽 Goal",
+      "url": "https://www.youtube.com/watch?v=gxVfTfpbo-w"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cass the Cat 預測",
+      "url": "https://www.youtube.com/watch?v=9XwknftoxhU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 5 AI 預測辯論 Ghana vs Panama",
+      "url": "https://www.youtube.com/watch?v=oKaexTRLU1U"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana vs Panama 投注精選",
+      "url": "https://www.youtube.com/watch?v=O6soRqelMLA"
+    },
+    {
+      "type": "social",
+      "name": "Straits Times - Panama 公布世界盃名單",
+      "url": "https://www.straitstimes.com/sport/football/panama-name-experienced-squad-for-second-world-cup-appearance"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Ghana 球隊指南",
+      "url": "https://www.theguardian.com/football/2026/jun/11/ghana-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Ghana 須知",
+      "url": "https://www.bbc.com/sport/football/articles/c1k2xlngdk7o"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Queiroz 戰術藍圖分析",
+      "url": "https://www.espn.com/espn/story/_/id/48908368/ghana-boss-carlos-queiroz-tactical-vision-clear-does-squad-meet-it"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Ghana 世界盃預覽",
+      "url": "https://www.si.com/soccer/ghana-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Panama 世界盃預覽",
+      "url": "https://www.si.com/soccer/panama-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Panama 世界盃陣容",
+      "url": "https://www.fourfourtwo.com/team/panama-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Panama 世界盃陣容",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-panama-all-players-full-squad-list-key-stats-and-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Surprise Sports - Ghana 賽程與陣容",
+      "url": "https://surprisesports.com/football/fifa-world-cup/ghana-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports - Panama 世界盃預覽",
+      "url": "https://www.foxsports.com/stories/soccer/panama-world-cup-2026-preview-best-players-roster-history-jersey-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Fantasy Football Scout - Ghana 預覽",
+      "url": "https://www.fantasyfootballscout.co.uk/2026/05/26/fantasy-fifa-world-cup-2026-team-previews-ghana"
+    },
+    {
+      "type": "media",
+      "name": "SportsTiger - Panama 世界盃陣容",
+      "url": "https://www.sportstiger.com/football/panama-fifa-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "WorldCup.NYC - Panama 第二次世界盃",
+      "url": "https://www.worldcup.nyc/news/panama-2026-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times - Panama 陣容與賽程",
+      "url": "https://fwctimes.com/panama/"
+    },
+    {
+      "type": "media",
+      "name": "freetips - Ghana 世界盃預覽",
+      "url": "https://www.freetips.com/football/ghana-2026-world-cup-preview-black-stars-are-underdogs-in-group-l-20260522-0036/"
+    },
+    {
+      "type": "media",
+      "name": "MundialAnalytics - Ghana 隊伍分析",
+      "url": "https://mundialanalytics.com/ghana-national-team-analysis"
+    },
+    {
+      "type": "media",
+      "name": "Football/26 - Panama 陣容與賽程",
+      "url": "https://worldcup26usa.com/en/teams/panama"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Ghana vs Panama 預測（Ghana 1-0）",
+      "url": "https://www.sportsgambler.com/betting-tips/football/ghana-vs-panama-prediction-lineups-odds-2026-06-17/"
+    },
+    {
+      "type": "betting",
+      "name": "Bet Experts - Ghana vs Panama 預測",
+      "url": "https://www.bet-experts.com/fifa-world-cup-2026/ghana-vs-panama-prediction-betting-tips-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportskeeda - Ghana vs Panama 預測（2-1）",
+      "url": "https://www.sportskeeda.com/football/ghana-vs-panama-prediction-betting-tips-june-17th-2026"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Gambling Podcast - Group L 分析",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/09/fifa-world-cup-2026-group-k-analysis-preview-and-best-bets-2/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana 隊伍分析 Dawn News",
+      "url": "https://www.youtube.com/watch?v=-w3tDGKDEs4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Panama 世界盃名單公布",
+      "url": "https://www.youtube.com/watch?v=UMjP7syXd_c"
+    },
+    {
+      "type": "market",
+      "name": "PredictionMarketsPicks - Ghana vs Panama 模擬機率",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/ghana-vs-panama"
+    },
+    {
+      "type": "betting",
+      "name": "KickOff UK - Ghana vs Panama 預測與賠率",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/ghana-vs-panama/"
+    },
+    {
+      "type": "betting",
+      "name": "AI World Cup 2026 - Ghana vs Panama AI 預測",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/ghana-panama-17-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "ThePuntersPage KickForm - Ghana vs Panama",
+      "url": "https://www.thepunterspage.com/kickform/world-cup/ghana-vs-panama/Z5LZG/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsbet Huddle - Group L 預測",
+      "url": "https://www.sportsbet.com.au/huddle/soccer-world-cup/news/world-cup-2026-group-l-predictions"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - 首次參賽國家彙整",
+      "url": "https://www.instagram.com/reel/DZlplX2CLju/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum - Ghana vs Panama 賽前討論",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-l-ghana-vs-panama.2139020/"
+    },
+    {
+      "type": "betting",
+      "name": "JohnnyBet - Ghana vs Panama 預測（Ghana 2.00）",
+      "url": "https://www.johnnybet.com/ghana-vs-panama-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "Pickswise - GHA vs PAN 勝率（Panama 51%）",
+      "url": "https://www.pickswise.com/world-cup/games/ghana-panama-world-cup-26-2026-06-17-2300/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddstrader - Panama vs Ghana 賠率",
+      "url": "https://www.oddstrader.com/world-cup/matchups/ghana-vs-panama-2026-06-17-e4788652/"
+    },
+    {
+      "type": "betting",
+      "name": "Bookmaker Expert - Ghana vs Panama 分析（和局）",
+      "url": "https://bookmaker-expert.com/tips/ghana-panama/"
+    },
+    {
+      "type": "betting",
+      "name": "Feedinco - Ghana vs Panama 預測（1-0）",
+      "url": "https://www.feedinco.com/predictions/2026-06-18/Ghana-vs-Panama-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "Winflix - Ghana Panama 分析與賠率",
+      "url": "https://winflix.net/football/pronostics-foot/pronostic-ghana-panama/"
+    },
+    {
+      "type": "model",
+      "name": "prediction.games - Ghana vs Panama AI（1-1）",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15437"
+    },
+    {
+      "type": "model",
+      "name": "SB Predictions - Ghana vs Panama（2-2）",
+      "url": "https://www.scotbycycles.co.uk/predictions/ghana-vs-panama-17-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Daily Beirut - Ghana 陣容預覽",
+      "url": "https://dailybeirut.com/en/world-cup-2026/ghanas-2026-world-cup-squad-preview/"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports - Queiroz 公布 Ghana 名單",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/carlos-queiroz-s-official-ghana-squad-for-the-2026-fifa-world-cup-2026-05-27"
+    },
+    {
+      "type": "media",
+      "name": "SuperSport - Semenyo/Partey 入選 Ghana",
+      "url": "https://supersport.com/football/news/b0ff6052-5fca-43a3-9672-1798744fa92b/semenyo-partey-named-in-ghana-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "GhanaWeb - Ghana 28 人賽前名單",
+      "url": "https://www.ghanaweb.com/GhanaHomePage/bbc/Antoine-Semenyo-Partey-Inaki-dey-part-of-Ghana-28-man-pre-World-Cup-squad-ahead-of-Wales-friendly-2036367"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Ghana 世界盃陣容",
+      "url": "https://www.fourfourtwo.com/team/ghana-world-cup-2026-squad"
+    },
+    {
+      "type": "official",
+      "name": "GFA - Queiroz 公布世界盃名單",
+      "url": "https://www.ghanafa.org/carlos-queiroz-names-2026-fifa-world-cup-squad"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Ghana 戰術分析（西語）",
+      "url": "https://www.youtube.com/watch?v=WAsaHzSB4-E"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Ghana vs Panama 預覽",
+      "url": "https://www.goal.com/en/news/ghana-panama-world-cup-preview/bltc57f7610ee6813ff"
+    },
+    {
+      "type": "market",
+      "name": "prediction.games - Ghana vs Panama 預測頁",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15437#stats"
+    },
+    {
+      "type": "media",
+      "name": "FotMob - Ghana vs Panama 賽事頁",
+      "url": "https://www.fotmob.com/matches/ghana-vs-panama/2tbk00"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Panama 世界盃預覽與關鍵球員",
+      "url": "https://en.as.com/soccer/panama-at-the-2026-world-cup-squad-key-players-and-schedule-n/"
+    },
+    {
+      "type": "media",
+      "name": "Surprise Sports - Panama 賽程與陣容",
+      "url": "https://surprisesports.com/football/fifa-world-cup/panama-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta - Ghana Fantasy 陣容與關鍵球員",
+      "url": "https://www.gazzetta.it/en/football/fantanews/10-06-2026/ghana-at-the-fantasy-world-cup-key-players-penalty-taker-and-transfer-tips.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda - Panama 世界盃陣容與賽程",
+      "url": "https://www.sportskeeda.com/football/panama-fifa-world-cup-2026-squad-fixtures-schedule"
+    },
+    {
+      "type": "betting",
+      "name": "SportyTrader - Ghana vs Panama 賠率比較 2",
+      "url": "https://www.sportytrader.com/en/odds/ghana-panama-7937440/"
+    },
+    {
+      "type": "betting",
+      "name": "Bet-Experts - Ghana vs Panama 預測貼士",
+      "url": "https://www.bet-experts.com/world-cup-2026/ghana-vs-panama-prediction-betting-tips/"
+    },
+    {
+      "type": "model",
+      "name": "Forebet - Ghana vs Panama 預測",
+      "url": "https://www.forebet.com/en/football-tips-and-predictions-for-today/ghana-vs-panama"
+    },
+    {
+      "type": "market",
+      "name": "365Scores - Ghana vs Panama 賽事頁",
+      "url": "https://www.365scores.com/en-uk/football/match/fifa-world-cup-5930/ghana-panama-5045-5104-5930"
+    },
+    {
+      "type": "kol",
+      "name": "SmartBettingGuide - Ghana vs Panama 預測",
+      "url": "https://smartbettingguide.com/fifa-world-cup-ghana-panama/"
+    },
+    {
+      "type": "social",
+      "name": "The South African - Ghana 世界盃名單與狀態",
+      "url": "https://www.thesouthafrican.com/sport/soccer/soccer-world-cup/ghana-fifa-world-cup-2026-squad-preview/"
+    }
+  ],
+  "source_count": 100,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "scoreline": "2:1",
+      "note": "迦納主場略佔優，防守反擊具威脅，應能小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "加納整體實力略勝一籌，主場氣勢有望助其小勝巴拿馬。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.5,
+        "draw": 0.3,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "迦納整體實力優於巴拿馬，有望小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.63,
+        "draw": 0.23,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "迦納整體實力與身體對抗占優，可望零封取勝。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.29,
+        "away": 0.23
+      },
+      "scoreline": "2:1",
+      "note": "迦納在身體素質與大賽經驗上佔優，預計能險勝巴拿馬。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "迦納實力較強且具主場優勢，預計小勝巴拿馬。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "迦納戰力較強，巴拿馬難以突破，主隊勝出。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.523,
+      "draw": 0.264,
+      "away": 0.212
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T174012Z"
+}

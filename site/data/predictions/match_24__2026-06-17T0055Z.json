@@ -1,0 +1,729 @@
+{
+  "match": 24,
+  "stage": "Group K",
+  "home": "Uzbekistan",
+  "away": "Colombia",
+  "kickoff_utc": "2026-06-18T02:00:00Z",
+  "kickoff_hkt": "2026-06-18 10:00",
+  "run_id": "2026-06-17T0055Z",
+  "run_timestamp": "2026-06-17T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.13,
+      "draw": 0.2,
+      "away": 0.67
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "哥倫比亞掌控",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.6,
+        "basis": "James、Luis Diaz、Luis Suarez 進攻火力遠勝對手，多家媒體共識比分為 0-2。"
+      },
+      {
+        "name": "小勝一球",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.5,
+        "basis": "阿茲特克球場高海拔（2240 米）與烏茲別克 5-4-1 密集防守，或令哥倫比亞僅小勝。"
+      },
+      {
+        "name": "首秀逼平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "烏茲別克世界盃首秀拼勁十足、Khusanov 領銜後防，若把握反擊有機會爆冷逼平。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.175,
+          "draw": 0.201,
+          "away": 0.624
+        },
+        "scoreline": "0:2",
+        "note": "Opta 明顯看好哥倫比亞。"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.116,
+          "draw": 0.202,
+          "away": 0.681
+        },
+        "scoreline": "0:1",
+        "note": "Dimers 給哥倫比亞 68.1%，最可能 1-0（客隊）。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.1,
+          "draw": 0.18,
+          "away": 0.72
+        },
+        "scoreline": "0:2",
+        "note": "哥倫比亞約 1.39-1.42（-250），烏茲別克約 9/1。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "哥倫比亞陣中坐擁 James、Luis Diaz、Luis Suarez，實力與深度全面壓倒世界盃首秀的烏茲別克，模型與博彩一致重押客隊。Cannavaro 麾下的烏茲別克以 5-4-1 死守反擊、Khusanov 領防，加上阿茲特克高海拔場地或拖慢比賽，預期哥倫比亞穩健地以 0-2 客場取勝。",
+    "key_factors": [
+      "球員狀態：哥倫比亞由隊長 James Rodriguez、Luis Diaz、Luis Suarez 領軍，4-2-3-1 進攻多元。",
+      "對手定位：烏茲別克世界盃首秀，主帥 Cannavaro 採 3-4-2-1 轉 5-4-1 密集防守，隊長 Shomurodov、Fayzullaev 主導反擊。",
+      "近期狀態：烏茲別克熱身賽連敗（負荷蘭 1-2、負加拿大 0-2），哥倫比亞 Lorenzo 帶隊狀態穩定。",
+      "場地因素：阿茲特克／Banorte 球場海拔約 2240 米，體能與節奏受影響，裁判 Anthony Taylor 執法。",
+      "戰術對位：哥倫比亞須破密集防守，Khusanov（曼城）領銜的烏茲別克後防是首道難關。",
+      "輿論共識：Opta 62.4%、Dimers 68.1%、博彩約 72% 一致看好哥倫比亞，主流比分為 0-2 或 0-1。"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數聲音認為烏茲別克首秀拼勁加密集防守，配合高海拔，有機會把比分壓在一球以內甚至逼平。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com - 賽程",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "FCF - Colombia 足協官網",
+      "url": "https://fcf.com.co/"
+    },
+    {
+      "type": "official",
+      "name": "UFA - Uzbekistan 足協官網",
+      "url": "https://uff.uz/"
+    },
+    {
+      "type": "official",
+      "name": "Estadio Azteca 官網",
+      "url": "https://www.estadioazteca.com.mx/"
+    },
+    {
+      "type": "media",
+      "name": "MLSsoccer - Group K 預覽",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-colombia"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - Group K 賽程指南",
+      "url": "https://www.skysports.com/football/news/12040/13543106/world-cup-2026-group-k-guide-fixtures-schedule-standings-and-odds-for-portugal-dr-congo-uzbekistan-and-colombia"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Group K 賽程",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-k-draw-teams-schedule-fixtures/e10475b7c39b489bb79bd58c"
+    },
+    {
+      "type": "media",
+      "name": "DAZN - Group K 指南",
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-group-k-portugal-uzbekistan-colombia-congo/1kq5i3vn64z4t1cabf3k6maie2"
+    },
+    {
+      "type": "media",
+      "name": "NYT The Athletic - Group K 指南",
+      "url": "https://www.nytimes.com/athletic/6842268/2025/12/05/group-k-guide-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Uzbekistan vs Colombia 預覽",
+      "url": "https://www.goal.com/en/news/uzbekistan-colombia-world-cup-preview/bltd5f07d2b89067908"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Uzbekistan 世界盃首秀對 Colombia",
+      "url": "https://www.straitstimes.com/sport/football/uzbekistan-make-world-cup-debut-against-revived-colombia"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Uzbekistan vs Colombia 預覽（0-1）",
+      "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/preview/uzbekistan-vs-colombia-prediction-team-news-lineups_599296.html"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post - Uzbekistan vs Colombia 預測",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/uzbekistan-vs-colombia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-arLVQ9O2OR9D/"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Uzbekistan 世界盃陣容",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-uzbekistan-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "IzRus - Uzbekistan 世界盃首秀資訊",
+      "url": "https://iz.ru/en/2113424/2026-06-10/national-team-uzbekistan-will-play-fifa-world-cup-first-time-what-known"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports - Uzbekistan 世界盃賽程",
+      "url": "https://www.foxsports.com/stories/soccer/uzbekistan-world-cup-2026-schedule-locations-dates-times"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone - Uzbekistan vs Colombia 預覽",
+      "url": "https://www.thestatszone.com/uzbekistan-vs-colombia-preview-team-news-prediction-fifa-world-cup-2026-group-stage-195860"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia - 2026 世界盃 Group K",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Uzbekistan vs Colombia 預測",
+      "url": "https://www.juvefc.com/uzbekistan-v-colombia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Colombia 奪冠賠率與分析",
+      "url": "https://www.juvefc.com/colombia-world-cup-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - 世界盃實力榜",
+      "url": "https://www.si.com/soccer/world-cup-2026-power-rankings-spain-argentina-favorites-norway-dark-horses"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Colombia 奪冠賠率與陣容",
+      "url": "https://www.squawka.com/en/outright-markets/colombia-world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "Action Network - 世界盃賠率",
+      "url": "https://www.actionnetwork.com/soccer/2026-fifa-world-cup-odds"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Uzbekistan vs Colombia 預測（Colombia 62.4%）",
+      "url": "https://theanalyst.com/articles/uzbekistan-vs-colombia-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - 世界盃分組預測",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - 誰會奪冠超級電腦",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network - Colombia vs Uzbekistan 賠率",
+      "url": "https://www.actionnetwork.com/worldcup-game/colombia-uzbekistan/284368"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Colombia 賽事盤口",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760481"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill - Colombia 世界盃指南與賠率",
+      "url": "https://news.williamhill.com/football/world-cup/colombia/"
+    },
+    {
+      "type": "betting",
+      "name": "Flashscore - Group K 投注預覽",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-world-cup-2026-group-k-betting-preview-predictions-odds-best-bets/hhI0cWT6/"
+    },
+    {
+      "type": "market",
+      "name": "RotoWire - Uzbekistan vs Colombia 陣容與分析（0-2）",
+      "url": "https://www.rotowire.com/soccer/article/uzbekistan-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-118365"
+    },
+    {
+      "type": "market",
+      "name": "The SportsRush - Uzbekistan vs Colombia 預測（0-2）",
+      "url": "https://thesportsrush.com/uzbekistan-v-colombia-predictions/"
+    },
+    {
+      "type": "market",
+      "name": "The Celtic Star - Uzbekistan vs Colombia 預測",
+      "url": "https://thecelticstar.com/uzbekistan-v-colombia-predictions/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Group K 討論",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uzbekistan vs Colombia Diaz 創造力測試",
+      "url": "https://www.youtube.com/watch?v=2SqAjGfFor4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uzbekistan vs Colombia 投注精選",
+      "url": "https://www.youtube.com/watch?v=Fj9tJJ8WueU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Group K 抽籤分析",
+      "url": "https://www.youtube.com/watch?v=XEYd8z4UkJ0"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Uzbekistan vs Colombia 預覽與陣容",
+      "url": "https://sports.yahoo.com/articles/preview-uzbekistan-vs-colombia-team-020500912.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - James/Diaz 領軍 Colombia 名單",
+      "url": "https://www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis-diaz-colombia-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Uzbekistan vs Colombia 觀賽與預測陣容",
+      "url": "https://www.espn.com/soccer/story/_/id/49069699/uzbekistan-vs-colombia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Uzbekistan 世界盃預覽",
+      "url": "https://www.si.com/soccer/uzbekistan-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Colombia 世界盃預覽",
+      "url": "https://www.si.com/soccer/colombia-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Colombia 公布世界盃名單",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyppvlpl44o"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Khusanov 入選 Uzbekistan 名單",
+      "url": "https://www.bbc.com/sport/football/articles/c5yenm7xllyo"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Uzbekistan 需知",
+      "url": "https://www.bbc.com/sport/football/articles/c8x7ry24xrzo"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports - Colombia 名單、Duran 落選",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/james-rodriguez-headlines-colombias-world-cup-squad-as-duran-left-out-2026-05-25"
+    },
+    {
+      "type": "media",
+      "name": "ColombiaOne - Cannavaro 公布 Uzbekistan 名單",
+      "url": "https://colombiaone.com/2026/05/29/fabio-cannavaro-uzbekistan-squad-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "PrizePicks - Colombia 預覽與陣容",
+      "url": "https://www.prizepicks.com/playbook-article/colombia-world-cup-2026-preview-lineup-best-players-group-picks"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk - Colombia 初選名單",
+      "url": "https://worldsoccertalk.com/world-cup/james-rodriguez-and-luis-diaz-headline-colombias-55-men-preliminary-squad-for-the-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Shomurodov/Khusanov 領軍 Uzbekistan",
+      "url": "https://www.straitstimes.com/sport/football/shomurodov-and-khusanov-lead-uzbekistans-first-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Colombia 世界盃陣容預測",
+      "url": "https://www.goal.com/en-us/lists/colombia-squad-world-cup-2026/bltf252af4fae7c7b3e"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Colombia 預測陣容 vs Uzbekistan",
+      "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/diaz-rodriguez-ready-for-world-cup-opener-predicted-colombia-xi-vs-uzbekistan_599304.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Uzbekistan 預測陣容 vs Colombia",
+      "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/predicted-lineups/key-role-for-khusanov-in-cannavaros-xi-predicted-uzbekistan-lineup-vs-colombia_599299.html"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta dello Sport - Uzbekistan 可能陣容",
+      "url": "https://www.gazzetta.it/en/football/fantanews/10-06-2026/uzbekistan-at-the-fantasy-world-cup-key-players-penalty-taker-and-transfer-tips.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Fanorate - Uzbekistan 世界盃指南",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/uzbekistan-wc2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo - Uzbekistan 首秀推升足球熱潮",
+      "url": "https://sports.yahoo.com/articles/uzbekistans-debut-world-cup-crowns-040611319.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Colombia 2026 陣容表",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/208/colombia"
+    },
+    {
+      "type": "media",
+      "name": "Bulinews - Uzbekistan vs Colombia 預測陣容",
+      "url": "https://bulinews.com/fixture/742710/predicted-lineups/uzbekistan-colombia"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Colombia vs Uzbekistan（Colombia 68.1%、1-0）",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_uzb_col"
+    },
+    {
+      "type": "betting",
+      "name": "oddslot - Uzbekistan vs Colombia（Colombia 1.40）",
+      "url": "https://oddslot.com/football/match/world-cup/uzbekistan/colombia/18-jun-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Inkl - Uzbekistan vs Colombia（2-0/3-0）",
+      "url": "https://www.inkl.com/news/uzbekistan-vs-colombia-world-cup-2026-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "AI World Cup 2026 - Uzbekistan vs Colombia（Colombia 70%）",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/uzbekistan-colombia-18-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "KickOff UK - Uzbekistan v Colombia 預測與賠率",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/uzbekistan-vs-colombia/"
+    },
+    {
+      "type": "betting",
+      "name": "DexWin - Uzbekistan vs Colombia 賠率與模型",
+      "url": "https://sportsbook.dexwin.bet/sportsbook/football/international-tournaments/world-cup/uzbekistan-colombia-1006000000000077353749"
+    },
+    {
+      "type": "betting",
+      "name": "Kladionica Olimp - Uzbekistan vs Colombia 預測",
+      "url": "https://kladionicaolimp.com/uzbekistan-vs-colombia-prognoza-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Uzbekistan vs Colombia 賠率",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760436"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - Uzbekistan vs Colombia（1-2）",
+      "url": "https://footballwhispers.com/blog/uzbekistan-vs-colombia-prediction-world-cup-2026/"
+    },
+    {
+      "type": "market",
+      "name": "PredictionMarketsPicks - Colombia vs Uzbekistan（Colombia 71%）",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/colombia-vs-uzbekistan"
+    },
+    {
+      "type": "market",
+      "name": "SX Bet Blog - Uzbekistan vs Colombia（0-2）",
+      "url": "https://blog.sx.bet/world-cup/uzbekistan-vs-colombia/"
+    },
+    {
+      "type": "market",
+      "name": "ESPN - Uzbekistan v Colombia 賽事頁",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum - Colombia vs Uzbekistan 賽前討論",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-k-colombia-vs-uzbekistan-6-17-26-wednesday-10-pm-est.2139015/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/Uzbekistan - 世界盃討論",
+      "url": "https://www.reddit.com/r/Uzbekistan/comments/1rag7tj/helloi_wanted_to_ask_you_guys_what_do_you_think/"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire - Group K 預覽與戰術",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uzbekistan 陣容預測×Cannavaro",
+      "url": "https://www.youtube.com/watch?v=q5aDdGQ2ljo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Colombia 初選陣容更新",
+      "url": "https://www.youtube.com/watch?v=Z1lS-9-28o8"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - James/Colombia 熱身訓練",
+      "url": "https://www.youtube.com/watch?v=XTOdlybLfNU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uzbekistan 預覽×xG 分析",
+      "url": "https://www.youtube.com/watch?v=G1ujxpYj5K0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Colombia vs Uzbekistan 預覽（西語）",
+      "url": "https://www.youtube.com/watch?v=m3iEQeKXS6U"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Group K 預覽",
+      "url": "https://www.youtube.com/watch?v=J3hArgIRvAQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uzbekistan vs Colombia 預覽 2",
+      "url": "https://www.youtube.com/watch?v=lwxxTAh6s-M"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports - Colombia 世界盃預覽",
+      "url": "https://www.foxsports.com/stories/soccer/colombia-world-cup-2026-preview-best-players-roster-history-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Colombia 世界盃陣容",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-colombia-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta - Colombia Fantasy 陣容與關鍵球員",
+      "url": "https://www.gazzetta.it/en/football/fantanews/10-06-2026/colombia-at-the-fantasy-world-cup-key-players-penalty-taker-and-transfer-tips.shtml"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Colombia 世界盃陣容",
+      "url": "https://www.fourfourtwo.com/team/colombia-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Uzbekistan 世界盃陣容",
+      "url": "https://www.fourfourtwo.com/team/uzbekistan-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Surprise Sports - Colombia 賽程與陣容",
+      "url": "https://surprisesports.com/football/fifa-world-cup/colombia-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "WorldCup26USA - Uzbekistan 陣容與賽程",
+      "url": "https://worldcup26usa.com/en/teams/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "WorldCup26USA - Colombia 陣容與賽程",
+      "url": "https://worldcup26usa.com/en/teams/colombia"
+    },
+    {
+      "type": "media",
+      "name": "SportsTiger - Colombia 世界盃陣容",
+      "url": "https://www.sportstiger.com/football/colombia-fifa-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Colombia 世界盃預覽與關鍵球員",
+      "url": "https://en.as.com/soccer/colombia-at-the-2026-world-cup-squad-key-players-and-schedule-n/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda - Uzbekistan vs Colombia 預測貼士",
+      "url": "https://www.sportskeeda.com/football/uzbekistan-vs-colombia-prediction-betting-tips-june-18th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Oddstrader - Uzbekistan vs Colombia 賠率",
+      "url": "https://www.oddstrader.com/world-cup/matchups/uzbekistan-vs-colombia-2026-06-17-e4788653/"
+    },
+    {
+      "type": "betting",
+      "name": "Pickswise - Uzbekistan vs Colombia 勝率與預測",
+      "url": "https://www.pickswise.com/world-cup/games/uzbekistan-colombia-world-cup-26-2026-06-18-0200/"
+    },
+    {
+      "type": "betting",
+      "name": "SportyTrader - Uzbekistan vs Colombia 賠率比較",
+      "url": "https://www.sportytrader.com/en/odds/uzbekistan-colombia-7937443/"
+    },
+    {
+      "type": "betting",
+      "name": "Feedinco - Uzbekistan vs Colombia 預測",
+      "url": "https://www.feedinco.com/predictions/2026-06-18/Uzbekistan-vs-Colombia-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "Bet-Experts - Uzbekistan vs Colombia 預測貼士",
+      "url": "https://www.bet-experts.com/fifa-world-cup-2026/uzbekistan-vs-colombia-prediction-betting-tips-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "ToffeeWeb - Uzbekistan vs Colombia 預測與賠率",
+      "url": "https://www.toffeeweb.com/uzbekistan-vs-colombia-predictions-picks-odds-18-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Forebet - Uzbekistan vs Colombia 預測",
+      "url": "https://www.forebet.com/en/football-tips-and-predictions-for-today/uzbekistan-vs-colombia"
+    },
+    {
+      "type": "model",
+      "name": "prediction.games - Uzbekistan vs Colombia AI 預測",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15438"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Gambling Podcast - Group K 分析與最佳投注",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/09/fifa-world-cup-2026-group-k-analysis-preview-and-best-bets-2/"
+    },
+    {
+      "type": "social",
+      "name": "The Athletic - Uzbekistan 首秀故事",
+      "url": "https://www.nytimes.com/athletic/6889251/2026/06/10/uzbekistan-world-cup-2026-debut/"
+    }
+  ],
+  "source_count": 102,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.28,
+        "away": 0.5
+      },
+      "scoreline": "0:1",
+      "note": "哥倫比亞整體實力優於烏茲別克，客場有望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞實力較強，烏茲別克難抵擋，客隊有望順利拿下。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞整體實力明顯勝過烏茲別克，可望輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.25,
+        "away": 0.53
+      },
+      "scoreline": "1:2",
+      "note": "哥倫比亞整體實力較優，仍須提防烏茲別克主場韌性"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞整體實力與大賽經驗遠勝對手，預計能輕鬆取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "scoreline": "1:2",
+      "note": "哥倫比亞實力明顯占優，客場勝面較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "哥倫比亞整體實力優勢明顯，預測客勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.176,
+      "draw": 0.242,
+      "away": 0.582
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T174107Z"
+}

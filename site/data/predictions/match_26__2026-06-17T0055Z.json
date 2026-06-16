@@ -1,0 +1,546 @@
+{
+  "match": 26,
+  "stage": "Group B",
+  "home": "Switzerland",
+  "away": "Bosnia & Herzegovina",
+  "kickoff_utc": "2026-06-18T19:00:00Z",
+  "kickoff_hkt": "2026-06-19 03:00",
+  "run_id": "2026-06-17T0055Z",
+  "run_timestamp": "2026-06-17T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.62,
+      "draw": 0.24,
+      "away": 0.14
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.155
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.115
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.105
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.075
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "ESPN 超級電腦預測瑞士 2-1、abhs AI 與 FootballPredictions.NET 皆為瑞士 2-0（信心 73%）、MEXC 模型瑞士勝率 73%，多數模型指向瑞士兩球小勝。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.58,
+        "basis": "瑞士 -165 至 -175（隱含約 63-66%）、和 +310、波 +475；大小盤普遍受捧 Under 2.5，KickOff 正確比分主推瑞士 1-0，反映低比分小勝。"
+      },
+      {
+        "name": "瑞士控球小勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Sports Mole、Sportskeeda 預測瑞士 1-0；瑞士首戰對卡達射門 26 次、xG 約 3.28 卻僅入 1 球，控球壓制但臨門乏力，可能再演低比分絞殺。"
+      },
+      {
+        "name": "波士尼亞逼平偷分",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.32,
+        "basis": "Forebet 主推 1-1（和局 41%）、Football Predictions AI 亦傾向 1-1；波士尼亞近五場四和、防守紀律佳，靠哲科與定位球可能再逼出一分。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.64,
+          "draw": 0.22,
+          "away": 0.14
+        },
+        "scoreline": "1:0",
+        "note": "瑞士 -165~-175、和 +310、波 +475，去除水位後三向隱含約 64/22/14。"
+      },
+      {
+        "source": "Opta 超級電腦／ESPN",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.6,
+          "draw": 0.25,
+          "away": 0.15
+        },
+        "scoreline": "2:1",
+        "note": "ESPN 逐場預測瑞士 2-1；Opta 視瑞士為 B 組最強，出線率 85.4%。"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.626,
+          "draw": 0.219,
+          "away": 0.155
+        },
+        "scoreline": "0:1",
+        "note": "Dimers 給瑞士勝率 62.6%，最可能比分波 0-1 瑞士。"
+      },
+      {
+        "source": "Polymarket 市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.615,
+          "draw": 0.22,
+          "away": 0.155
+        },
+        "note": "Polymarket 交易者共識瑞士 61.5%、和 22%、波 15.5%。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "瑞士為 B 組頭號種子、實力與大賽經驗全面領先，博彩與模型一致看好其取下首勝；惟瑞士首戰雖狂攻卡達卻僅 1-1，加上波士尼亞近五場四和、防守組織嚴密，預期為一場低比分的瑞士小勝。主預測瑞士 2-0。",
+    "key_factors": [
+      "球員狀態：瑞士由哲卡（隊長）領軍，恩博洛首戰已入球、恩多耶射門積極；波士尼亞倚賴 40 歲哲科與迪米羅維奇的鋒線與定位球。",
+      "傷停名單：Polymarket 提及瑞士恩多耶、奧卡福或有狀況，波士尼亞塔巴科維奇傳傷；整體瑞士陣容深度仍明顯佔優。",
+      "近期狀態/戰績：瑞士資格賽 4 勝 2 和不敗、僅失 2 球，首戰對卡達射門 26 次 xG 約 3.28；波士尼亞近五場 1 勝 3 和 1 負、進攻乏力。",
+      "戰術對位：瑞士控球壓制（預期 3-4-2-1／4-2-3-1），波士尼亞深蹲 4-4-2／3-5-2 死守並靠哲科爭頂與反擊偷襲。",
+      "主客場/場地：名義主隊瑞士，惟賽事於中立場 SoFi Stadium（洛杉磯 Inglewood）舉行，無真正主場優勢。",
+      "輿論共識：Sports Mole/Sportskeeda 主推瑞士 1-0、ESPN 2-1、多家 AI 2-0；博彩瑞士 -165~-175，市場 Polymarket 瑞士 61.5%，共識偏瑞士低比分小勝。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Forebet 與 Football Predictions AI 預測 1-1 和局（和局機率 41%）；部分 KOL 認為波士尼亞淘汰義大利的氣勢與哲科經驗足以再偷一分。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "Sports Mole 賽前預覽：瑞士 1-0 波士尼亞",
+      "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-bosnia-hvina-prediction-team-news-lineups_599327.html"
+    },
+    {
+      "type": "betting",
+      "name": "SportPesa 預測：瑞士勝率 83%",
+      "url": "https://blog.ke.sportpesa.com/2026/06/16/switzerland-vs-bosnia-and-herzegovina-prediction-world-cup-2026-preview-team-news-lineups-h2h/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports：瑞士 8/13 大熱",
+      "url": "https://sports.yahoo.com/articles/switzerland-vs-bosnia-herzegovina-prediction-122500555.html"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube 戰術預覽：瑞士 xG 1.48 vs 波 0.93",
+      "url": "https://www.youtube.com/watch?v=y8GqinBQk4I"
+    },
+    {
+      "type": "betting",
+      "name": "TheLines B 組賠率分析",
+      "url": "https://www.thelines.com/odds/world-cup/group-b/"
+    },
+    {
+      "type": "media",
+      "name": "The Celtic Star 預測：瑞士 8/13",
+      "url": "https://thecelticstar.com/switzerland-v-bosnia-and-herzegovina-predictions/amp/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes 預測：瑞士 2-1",
+      "url": "https://www.ladbrokes.com/en/news/switzerland-vs-bosnia-herzegovina-world-cup-preview-predictions-and-bet-builder-tips/"
+    },
+    {
+      "type": "official",
+      "name": "Olympics.com 瑞士球員與賽程",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-switzerland-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "betting",
+      "name": "FreeTips：力撐瑞士取勝",
+      "url": "https://www.freetips.com/football/switzerland-vs-bosnia-herzegovina-tips-20260614-0017/"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket 市場隱含機率",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-che-bih-2026-06-18"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire 瑞士陣容與戰術",
+      "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com 賽前預覽（SoFi Stadium）",
+      "url": "https://www.goal.com/en-us/news/switzerland-bosnia-herzegovina-world-cup-preview/bltb96d9176142a8fe0"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush：瑞士 -165 主推",
+      "url": "https://thesportsrush.com/switzerland-v-bosnia-and-herzegovina-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian 瑞士隊指南",
+      "url": "https://www.theguardian.com/football/2026/may/29/switzerland-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "Whyfootball 戰術深度預覽",
+      "url": "https://whyfootball.org/matches/che-bih-preview.html"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers B 組賠率",
+      "url": "https://footballwhispers.com/blog/2026-world-cup-group-b-guide-teams-fixtures-predictions-and-latest-odds/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：哲卡擔任瑞士隊長",
+      "url": "https://www.espn.com/soccer/story/_/id/48818354/granit-xhaka-captain-switzerland-world-cup-squad"
+    },
+    {
+      "type": "model",
+      "name": "PredictionMarketsPicks 模擬",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/switzerland-vs-bosnia-and-herzegovina"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN 賠率頁：瑞士 -175",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760439"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com 瑞士大名單與預測陣容",
+      "url": "https://www.goal.com/en-us/lists/switzerland-squad-world-cup-2026/bltf2af984bafb74a30"
+    },
+    {
+      "type": "model",
+      "name": "FootballPredictions.com：瑞士 2-1",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/switzerland-vs-bosnia-herzegovina-prediction-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Fan Bet Odds B 組賠率",
+      "url": "https://fanbetodds.com/world-cup/groups/B"
+    },
+    {
+      "type": "social",
+      "name": "Instagram 瑞士首戰陣容貼文",
+      "url": "https://www.instagram.com/p/DZiFyfWkY9K/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube 5 AI 模型辯論：多數判瑞士",
+      "url": "https://www.youtube.com/watch?v=jgwYU9ypf3c"
+    },
+    {
+      "type": "market",
+      "name": "Robinhood 預測市場盤口",
+      "url": "https://robinhood.com/us/en/prediction-markets/soccer/events/26-group-b-switzerland-vs-bosnia-herzegovina-spread-jun-18-2026/"
+    },
+    {
+      "type": "social",
+      "name": "Facebook 瑞士傷兵討論貼文",
+      "url": "https://www.facebook.com/uhZade/posts/985588551131085/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda 預測：瑞士 1-0",
+      "url": "https://www.sportskeeda.com/football/switzerland-vs-bosnia-herzegovina-prediction-betting-tips-june-18th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Sporting Life B 組投注分析",
+      "url": "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-b-predictions-best-bets-and-preview/232339"
+    },
+    {
+      "type": "model",
+      "name": "Dimers 模型：瑞士勝率 62.6%、比分 0-1",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_2_sui_bih"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo 波士尼亞大名單",
+      "url": "https://www.fourfourtwo.com/team/bosnia-world-cup-2026-squad"
+    },
+    {
+      "type": "model",
+      "name": "ESPN 逐場預測：瑞士 2-1 波",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "波士尼亞隊指南與預測陣容",
+      "url": "https://soccerscheduleprintable.com/bosnia-and-herzegovina-world-cup-2026-team-guide/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst B 組超級電腦預測",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-b-predictions-preview"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24：瑞士 1.61 主勝",
+      "url": "https://www.futbol24.com/betting-tips/preview/18-06-2026-switzerland-bosnia-betting-tip/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube 波士尼亞官方大名單",
+      "url": "https://www.youtube.com/watch?v=6UQRIree2bg"
+    },
+    {
+      "type": "social",
+      "name": "Instagram Opta B 組出線機率",
+      "url": "https://www.instagram.com/p/DZLzi0kAvXt/"
+    },
+    {
+      "type": "model",
+      "name": "abhs.in AI 預測：瑞士 2-0（信心 73%）",
+      "url": "https://www.abhs.in/blog/fifa-2026-june-18-predictions-mexico-south-korea-canada-qatar-switzerland-ai"
+    },
+    {
+      "type": "media",
+      "name": "世界盃足球賽（繁中）波士尼亞大名單",
+      "url": "https://www.worldcupfifa.com.tw/post/bosnia-herzegovina-2026-world-cup-26-man-squad-dzeko-demirovic-bajraktarevic-group-b"
+    },
+    {
+      "type": "model",
+      "name": "Predict The Cup：Opta B 組",
+      "url": "https://www.predicthecup.com/es/news/who-will-win-the-2026-fifa-world-cup-the-opta-supercomputer-predictions-opta-analyst-2026-06-01-2c6ffb8b"
+    },
+    {
+      "type": "model",
+      "name": "FootballPredictions.NET：瑞士 2-0",
+      "url": "https://footballpredictions.net/bosnia-herzegovina-v-switzerland-predictions-betting-tips"
+    },
+    {
+      "type": "media",
+      "name": "Gazzetta 波士尼亞預測陣容",
+      "url": "https://www.gazzetta.it/en/football/fantanews/10-06-2026/bosnia-at-the-fantasy-world-cup-starters-penalty-taker-and-tips-on-who-to-pick_amp.shtml"
+    },
+    {
+      "type": "model",
+      "name": "SI：Opta 義大利附加賽預測",
+      "url": "https://www.si.com/soccer/supercomputer-predicts-every-2026-world-cup-playoff-final-winner"
+    },
+    {
+      "type": "official",
+      "name": "ESPN 波士尼亞陣容數據",
+      "url": "https://www.espn.in/football/team/squad/_/id/452/sort/position/dir/desc/fifa.worldq.uefa"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst 全分組預測總覽",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "forum",
+      "name": "prediction.games 社群預測：瑞士 84%",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15440"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 波士尼亞名單",
+      "url": "https://www.sportingnews.com/au/football/news/bosnia-herzegovina-world-cup-roster-2026-squad-players/107a2dc59a0b6ed8fe20e963"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket（越南版）市場機率",
+      "url": "https://polymarket.com/vi/sports/fifa-world-cup/fifwc-che-bih-2026-06-18"
+    },
+    {
+      "type": "media",
+      "name": "WorldCuply 波士尼亞隊深度",
+      "url": "https://worldcuply.com/bosnia-and-herzegovina.html"
+    },
+    {
+      "type": "model",
+      "name": "Football Predictions AI：偏向和局/1-1",
+      "url": "https://footballpredictions.ai/football-predictions/switzerland-vs-bosnia-&-herzegovina-predictions-tips-18-jun-2026/"
+    },
+    {
+      "type": "model",
+      "name": "MEXC AI 分析：瑞士模型勝率 73%",
+      "url": "https://www.mexc.com/news/1138265"
+    },
+    {
+      "type": "media",
+      "name": "Fanorate 波士尼亞隊指南",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/bosnia-herzegovina-wc2026-guide/"
+    },
+    {
+      "type": "model",
+      "name": "Forebet 預覽：偏和局 41%",
+      "url": "https://www.forebet.com/en/football-match-previews/28633-switzerland-and-bosnia-herzegovina-set-for-tight-group-b-test"
+    },
+    {
+      "type": "model",
+      "name": "Forebet 數據頁：瑞士主場強勢",
+      "url": "https://www.forebet.com/en/football/matches/switzerland-bosnia-herzegovina-2463154"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer 瑞士隊預覽",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4gbds/world_cup_2026_preview_switzerland_the_masters_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer 波士尼亞隊預覽",
+      "url": "https://www.reddit.com/r/soccer/comments/1u2qnrr/world_cup_2026_preview_bosnia_and_herzegovina/"
+    },
+    {
+      "type": "betting",
+      "name": "FreeSuperTips：瑞士 2-0（xG 3.28）",
+      "url": "https://www.freesupertips.com/predictions/switzerland-vs-bosnia-and-herzegovina-predictions-betting-tips-match-previews/"
+    },
+    {
+      "type": "betting",
+      "name": "KickOff UK 正確比分：瑞士 1-0",
+      "url": "https://www.kickoff.co.uk/predictions/correct-score/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube 瑞士 vs 波士尼亞 賽前直播預告",
+      "url": "https://www.youtube.com/watch?v=jSeziSSYvJs"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia 2026 世界盃 B 組",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Profit B 組預覽與近況",
+      "url": "https://www.ndtvprofit.com/sports/fifa-world-cup-2026-group-b-preview-switzerland-lead-open-race-featuring-canada-qatar-and-bosnia-11618876/amp/1"
+    },
+    {
+      "type": "betting",
+      "name": "Daily Mirror B 組賠率",
+      "url": "https://www.mirror.co.uk/betting/world-cup/group-b-squad-odds-teams-37224017"
+    },
+    {
+      "type": "media",
+      "name": "BBC：波士尼亞你需要知道的事",
+      "url": "https://www.bbc.com/sport/football/articles/c98r6j4wwy7o"
+    }
+  ],
+  "source_count": 62,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "瑞士主場穩健，波士尼亞進攻乏力難破門。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "瑞士整體實力與戰術紀律優於波黑，主場勝算高。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "瑞士整體實力及主場優勢明顯，波黑難撼穩守。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.31,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "瑞士防守穩健略勝一籌，小比分艱難取勝"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.23,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "瑞士整體實力與組織遠勝波士尼亞，預計能穩健掌控局勢並取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "瑞士實力占優，主場勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "瑞士陣容整齊，波赫稍遜，瑞士穩拿三分。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.617,
+      "draw": 0.237,
+      "away": 0.147
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T174255Z"
+}

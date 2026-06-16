@@ -1,0 +1,548 @@
+{
+  "match": 25,
+  "stage": "Group A",
+  "home": "Czech Republic",
+  "away": "South Africa",
+  "kickoff_utc": "2026-06-18T16:00:00Z",
+  "kickoff_hkt": "2026-06-19 00:00",
+  "run_id": "2026-06-17T0055Z",
+  "run_timestamp": "2026-06-17T00:55:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.54,
+      "draw": 0.25,
+      "away": 0.21
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "定位球致勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "捷克擁 Schick、Soucek、隊長 Krejci 的強力定位球與制空力，面對缺兩主力的南非可多點開花。"
+      },
+      {
+        "name": "小勝一球",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.48,
+        "basis": "Dimers 最可能比分為 0-1（主隊小勝），南非改 4-2-3-1 後防仍具韌性。"
+      },
+      {
+        "name": "南非搶分",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.32,
+        "basis": "南非首戰僅 0.07 xG 但拼勁仍在，Mofokeng 自由人角色若奏效有望逼平。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.533,
+          "draw": 0.25,
+          "away": 0.217
+        },
+        "scoreline": "1:0",
+        "note": "Dimers 給捷克 53.3%，最可能 0-1（主隊小勝）。"
+      },
+      {
+        "source": "RotoWire 市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.546,
+          "draw": 0.257,
+          "away": 0.197
+        },
+        "note": "RotoWire 去除抽水後的市場隱含機率。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.24,
+          "away": 0.21
+        },
+        "scoreline": "2:0",
+        "note": "捷克約 1.75-1.81（4/5），和局 11/4，南非約 4/1。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "兩隊首戰皆負（捷克 1-2 負南韓、南非 0-2 負墨西哥），本場屬必爭之戰。捷克擁 Schick、Soucek、隊長 Krejci 的制空與定位球優勢，加上南非 Sithole 與 Zwane 雙雙因紅牌停賽、被迫改打 4-2-3-1，模型與博彩一致看好捷克，預期主隊以 2-0 收下關鍵三分。",
+    "key_factors": [
+      "球員狀態：捷克由 Schick（國家隊 26 球）、Soucek（西漢姆，定位球）、隊長 Krejci（制空）領軍。",
+      "傷停名單：南非 Sphephelo Sithole 與 Themba Zwane 因對墨西哥染紅雙雙停賽，陣容大洗牌。",
+      "近期狀態：兩隊首輪皆敗，南非對墨西哥僅 0.07 xG 進攻乏力，本場輸不起。",
+      "戰術對位：捷克強於定位球與高空轟炸；南非改 4-2-3-1，Mofokeng 自由 8 號位、Williams 把關。",
+      "主客場/場地：亞特蘭大 Mercedes-Benz Stadium，主帥 Broos 領南非力求調整止血。",
+      "輿論共識：Dimers 53.3%、RotoWire 54.6%、博彩約 55% 一致看好捷克，主流比分 2-0 或 1-0。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分預測（如 Sportskeeda）看好 1-1，認為南非拼勁與 Mofokeng 創造力足以搶得一分。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA.com - World Cup 2026",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA.com - 賽程",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "type": "official",
+      "name": "FACR - Czech 足協官網",
+      "url": "https://www.fotbal.cz/"
+    },
+    {
+      "type": "official",
+      "name": "SAFA - South Africa 足協官網",
+      "url": "https://www.safa.net/"
+    },
+    {
+      "type": "official",
+      "name": "Mercedes-Benz Stadium 場館官網",
+      "url": "https://www.mercedesbenzstadium.com/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - South Africa 公布世界盃名單",
+      "url": "https://www.espn.com/espn/story/_/id/48880453/brandon-petersen-axed-south-africa-fifa-world-cup-squad-iqraam-rayners-included"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Bafana Bafana 世界盃名單",
+      "url": "https://www.aljazeera.com/sports/2026/5/28/bafana-bafana-world-cup-squad-south-africa-names-two-uncapped-players"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports - Group A 賽程指南",
+      "url": "https://www.skysports.com/football/news/12098/13540670/world-cup-2026-group-a-guide-fixtures-schedule-standings-and-odds-for-mexico-south-africa-south-korea-and-czech-republic"
+    },
+    {
+      "type": "media",
+      "name": "The Independent - Group A 指南",
+      "url": "https://www.independent.co.uk/sport/football/world-cup-group-a-mexico-south-africa-south-korea-czech-republic-b2982719.html"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Czech vs South Africa 預覽",
+      "url": "https://www.goal.com/en-us/news/czech-republic-south-africa-world-cup-preview/blt2698eb3974683720"
+    },
+    {
+      "type": "media",
+      "name": "Afrik-Foot - Czech vs South Africa 預覽（停賽與陣容）",
+      "url": "https://www.afrik-foot.com/en-za/czech-republic-vs-south-africa-preview"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - Czech vs South Africa 預測",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/czech-republic-v-south-africa-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - Czech vs South Africa 預覽",
+      "url": "https://sports.yahoo.com/articles/preview-czech-republic-vs-south-160500994.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports CA - Czech vs South Africa 預測",
+      "url": "https://ca.sports.yahoo.com/news/czech-republic-vs-south-africa-113500954.html"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Czech vs South Africa 預測",
+      "url": "https://www.juvefc.com/czech-republic-v-south-africa-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "The Celtic Star - Czech vs South Africa 預測",
+      "url": "https://thecelticstar.com/czech-republic-v-south-africa-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK - Czech vs South Africa 預測",
+      "url": "https://esports-news.co.uk/2026/06/15/czech-republic-v-south-africa-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "The South African - Bafana Bafana 世界盃每日",
+      "url": "https://www.thesouthafrican.com/sport/soccer/soccer-world-cup/bafana-bafana-world-cup-daily-experienced-star-returns-from-injury/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - 世界盃分組預測",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Group A 預測預覽",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-a-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - South Africa vs Czechia 預測（Czech 53.3%、0-1）",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_2_cze_rsa"
+    },
+    {
+      "type": "model",
+      "name": "The Stat Bible - Czech vs South Africa（37/27/36）",
+      "url": "https://www.thestatbible.com/upcoming-fixtures/czech-republic-vs-south-africa-18-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "OddsGPT - Czech vs South Africa AI 預測（51.5%）",
+      "url": "https://www.oddsgpt.com/predictions/football/1539004/Czech-Republic-vs-South-Africa/en"
+    },
+    {
+      "type": "model",
+      "name": "OddsFlow - Group A AI 預測",
+      "url": "https://www.oddsflow.ai/worldcup/groups/a"
+    },
+    {
+      "type": "model",
+      "name": "Football Prediction - Czech 球隊預測",
+      "url": "https://footballprediction.app/team/czech-republic"
+    },
+    {
+      "type": "model",
+      "name": "Forebet - Czech vs South Africa 預測（2-0）",
+      "url": "https://www.forebet.com/en/football-match-previews/28632-czech-republic-target-group-a-lift-as-south-africa-miss-suspended-pair"
+    },
+    {
+      "type": "model",
+      "name": "WC Betting Tips - Group A 機率（Czech 49%）",
+      "url": "https://wcbettingtips.com/world-cup-2026-group-a"
+    },
+    {
+      "type": "model",
+      "name": "Nerdytips - Czech vs South Africa 預測（2-1）",
+      "url": "https://nerdytips.com/blog/czech-republic-vs-south-africa-prediction-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN - Czechia vs South Africa 盤口",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760438"
+    },
+    {
+      "type": "betting",
+      "name": "oddslot - Czech vs South Africa 賠率",
+      "url": "https://oddslot.com/football/match/world-cup/czech-republic/south-africa/18-jun-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "TheLines UK - Group A 賠率",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-a/"
+    },
+    {
+      "type": "betting",
+      "name": "TheLines - Group A 賠率比較",
+      "url": "https://www.thelines.com/odds/world-cup/group-a/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - Group A 指南與賠率",
+      "url": "https://footballwhispers.com/blog/2026-world-cup-group-a-guide-teams-fixtures-predictions-and-latest-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "livetipsportal - Czech vs South Africa AI 預測",
+      "url": "https://www.livetipsportal.com/en/sportsbetting-tips/czech-republic-vs-south-africa-wc-10426790/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - Czech vs South Africa（1-0）",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/czech-republic-vs-south-africa-prediction-18-06-2026/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Group A 討論",
+      "url": "https://www.reddit.com/r/worldcup/"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Interaction - Group A 預覽與預測",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-a-preview-betting-odds-prediction-194606"
+    },
+    {
+      "type": "kol",
+      "name": "SmartBettingGuide - Czech vs South Africa",
+      "url": "https://smartbettingguide.com/fifa-world-cup-czech-republic-south-africa/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Czech vs South Africa 預覽",
+      "url": "https://www.youtube.com/watch?v=ksAX0BXFxsw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 5 AI 模型辯論 Czechia vs South Africa",
+      "url": "https://www.youtube.com/watch?v=GobQoPY7B4U"
+    },
+    {
+      "type": "social",
+      "name": "The South African - Bafana 世界盃名單倒數",
+      "url": "https://www.thesouthafrican.com/sport/soccer/soccer-world-cup/bafana-bafana-fifa-world-cup-2026-squad-countdown-expect-surprises/"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post - Czech vs South Africa 預測與投注建議",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/czech-republic-vs-south-africa-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-agsWj2c9RFvC/"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers - Czechia vs South Africa 預測（2-1）",
+      "url": "https://footballwhispers.com/blog/czechia-vs-south-africa-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Inkl - Czech vs South Africa 世界盃預測",
+      "url": "https://www.inkl.com/news/czech-republic-vs-south-africa-world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Cape Town Today - Broos 世界盃存亡關鍵調整",
+      "url": "https://capetown.today/news/broos-big-decisions-the-bafana-changes-needed-for-world-cup-survival"
+    },
+    {
+      "type": "media",
+      "name": "Briefly - Broos 點名 Bafana 最大問題",
+      "url": "https://briefly.co.za/sports/football/244159-world-cup-2026-hugo-broos-identifies-bafana-bafanas-biggest-problem-czech-republic-clash/"
+    },
+    {
+      "type": "media",
+      "name": "Polyglot News - 南非世界盃前景因停賽蒙陰影",
+      "url": "https://polyglotnews.com/story/south-africas-world-cup-hopes-dim-as-key-players-face-suspension"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore - 南非對 Czech 應作何調整",
+      "url": "https://www.flashscore.com/news/soccer-world-championship-what-south-africa-should-change-ahead-of-their-second-world-cup-clash-with-czech-republic/pbuzBd85/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Africa - Czechia vs South Africa 開球與陣容",
+      "url": "https://africa.espn.com/espn/story/_/id/49052624/czechia-vs-south-africa-kick-team-news-how-watch-bafana-second-world-cup-game"
+    },
+    {
+      "type": "media",
+      "name": "Daily Maverick - Bafana 艱難分組苦戰",
+      "url": "https://www.dailymaverick.co.za/article/2026-06-01-bafana-bafana-face-uphill-battle-in-tough-group-at-2026-fifa-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Czechia 世界盃預覽",
+      "url": "https://www.si.com/soccer/czechia-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "FotMob - South Africa vs Czechia 賽事頁",
+      "url": "https://www.fotmob.com/matches/south-africa-vs-czechia/1tbjja"
+    },
+    {
+      "type": "betting",
+      "name": "Sportskeeda - Czechia vs South Africa 預測（1-1）",
+      "url": "https://www.sportskeeda.com/football/czechia-vs-south-africa-prediction-betting-tips-june-18th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.ai - Czechia vs South Africa 預測",
+      "url": "https://footballpredictions.ai/football-predictions/czechia-vs-south-africa-predictions-tips-18-jun-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "GOAL - Czechia vs South Africa 預測",
+      "url": "https://www.goal.com/en-za/betting/world-cup/czechia-vs-south-africa-predictions-18-06-2026/A:bltf197fd987a2499e6"
+    },
+    {
+      "type": "betting",
+      "name": "WhichBookie - Czech vs South Africa 預測與貼士",
+      "url": "https://www.whichbookie.co.uk/free-betting-tips/world-cup/czech-republic-vs-south-africa-prediction-betting-tips-preview/"
+    },
+    {
+      "type": "betting",
+      "name": "FreeSuperTips - Czechia vs South Africa 貼士",
+      "url": "https://www.freesupertips.com/predictions/czechia-vs-south-africa-predictions-betting-tips-match-previews/"
+    },
+    {
+      "type": "betting",
+      "name": "Footy Accumulators - Czechia vs South Africa 預測",
+      "url": "https://footyaccumulators.com/predictions/wc-2026/czechia-vs-south-africa-preview-prediction-and-betting-tips"
+    },
+    {
+      "type": "betting",
+      "name": "JohnnyBet - Czech vs South Africa 預測",
+      "url": "https://www.johnnybet.com/czech-republic-vs-south-africa-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "BettingExpert - Czechia vs South Africa",
+      "url": "https://www.bettingexpert.com/football/czechia-vs-south-africa"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - Czech vs South Africa 投注貼士",
+      "url": "https://www.futbol24.com/betting-tips/preview/18-06-2026-czech-republic-south-africa-betting-tip/"
+    },
+    {
+      "type": "market",
+      "name": "RotoWire - Czech vs South Africa 賠率（去水機率）",
+      "url": "https://www.rotowire.com/betting/soccer/game/czech-republic-vs-south-africa-odds-2026-06-18-2608266"
+    },
+    {
+      "type": "market",
+      "name": "365Scores - Czech vs South Africa 賽事頁",
+      "url": "https://www.365scores.com/en-uk/football/match/fifa-world-cup-5930/czech-republic-south-africa-5040-5103-5930"
+    },
+    {
+      "type": "market",
+      "name": "prediction.games - Czech vs South Africa 預測頁",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15439"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Czech vs South Africa 預覽分析",
+      "url": "https://www.youtube.com/watch?v=mj7ejdj0GRQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Czech vs South Africa 預測",
+      "url": "https://www.youtube.com/watch?v=z7oYJyW1MMc"
+    }
+  ],
+  "source_count": 66,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.26,
+        "away": 0.22
+      },
+      "scoreline": "2:1",
+      "note": "捷克主場稍佔優勢，應能小勝拚勁十足的南非。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:0",
+      "note": "捷克整體實力優於南非，憑藉主場優勢有望穩穩拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "捷克整體實力較強且主場出擊，南非進攻火力有限，料難爆冷。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.49,
+        "draw": 0.29,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "捷克整體實力與控球優勢較明顯，小勝南非"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.28,
+        "away": 0.17
+      },
+      "scoreline": "2:0",
+      "note": "捷克戰術素養與陣容深度佔優，預計能穩健掌控節奏並擊退南非。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.56,
+        "draw": 0.27,
+        "away": 0.17
+      },
+      "scoreline": "2:1",
+      "note": "捷克實力占優，主場優勢預計取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "捷克整體實力占優，南非難以突破，主隊小勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.55,
+      "draw": 0.261,
+      "away": 0.189
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-16T174200Z"
+}
