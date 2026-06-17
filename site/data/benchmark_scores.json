@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-17T01:09:51Z",
+  "last_updated": "2026-06-17T01:43:02Z",
   "total_matches_scored": 14,
   "leaderboard": [
     {
@@ -44,7 +44,7 @@
       "brier_score": 0.2972
     },
     {
-      "source": "AI（本站 Opus）",
+      "source": "AI（本站主預測）",
       "kind": "ai",
       "evaluated": 14,
       "outcome_correct": 5,

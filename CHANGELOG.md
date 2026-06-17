@@ -6,6 +6,18 @@
 
 ---
 
+## [設定變更] 2026-06-17 主預測模型切換 Opus 4.8 → Sonnet 4.6（僅未來）
+
+### 變更（Changed）
+
+- 依使用者指示，定時任務 AI 預測主模型由 **Claude Opus 4.8** 切換為 **Claude Sonnet 4.6（最新型號）**：研究子代理 `model="claude_sonnet_4_6"`、預測檔 `model:"claude-sonnet-4.6"`、賽後覆盤生成模型同步更新。
+- 同步更新 cron `c53acfd7` 任務定義、技能 `wc2026-prediction-automation`（SKILL.md + runbook.md，已重新驗證存庫）、`CRON_RUNBOOK.md`。
+- 網站基準計分主預測標籤改為模型中立的「AI（本站主預測）」；`multimodel_predict.py` 共識說明改為依預測檔 `model` 欄動態顯示實際模型。
+- **僅影響未來預測批次**；所有歷史預測檔、賽後覆盤與舊版發行紀錄保留不動。
+- 詳見 [`RELEASE_NOTES_2026-06-17-model-switch-sonnet46.md`](RELEASE_NOTES_2026-06-17-model-switch-sonnet46.md)。
+
+---
+
 ## [資料更新] 2026-06-17T0107Z 新增 #28 預測 + 補記 #17/#18 賽果（HKT 6/17 上午）
 
 ### 新增（Added）

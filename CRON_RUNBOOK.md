@@ -16,7 +16,7 @@
 
 ## 2. 收集最新情況 + 產生預測
 
-**預測使用模型：Anthropic Claude Opus 4.8。** 研究子代理請以 `run_subagent(..., model="claude_opus_4_8")` 啟動，並在每個預測檔的 `model` 欄位填 `"claude-opus-4.8"`。
+**預測使用模型：Anthropic Claude Sonnet 4.6。** 研究子代理請以 `run_subagent(..., model="claude_sonnet_4_6")` 啟動，並在每個預測檔的 `model` 欄位填 `"claude-sonnet-4.6"`。
 
 **來源數要求（依開賽時間分級）：**
 - **近 36 小時內開賽**的比賽：**收集最少 100 處來源**（≥100）。
@@ -41,7 +41,7 @@
 
 ## 2.5 第三方多模型 AI 對照 + 共識（A+C）
 
-**在每場比賽的 Opus 4.8 預測檔寫好之後**，為同一個預測檔補上第三方 AI 對照與綜合共識。第三方 AI 經 Vercel AI Gateway 取得，只回傳「比分 + 三向勝率 + 一句話 take」（不寫長篇理由，省用量）；本站主預測仍以 **Opus 4.8** 為準，第三方僅作對照基準。
+**在每場比賽的 Sonnet 4.6 預測檔寫好之後**，為同一個預測檔補上第三方 AI 對照與綜合共識。第三方 AI 經 Vercel AI Gateway 取得，只回傳「比分 + 三向勝率 + 一句話 take」（不寫長篇理由，省用量）；本站主預測仍以 **Sonnet 4.6** 為準，第三方僅作對照基準。
 
 - 第三方模型（七家，各取最新版）：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`、`openai/gpt-5.1-thinking`、`google/gemini-3.1-pro-preview`、`xai/grok-4.20-reasoning`、`zai/glm-4.7`。reasoning 模型需較大 max_tokens（設 3000）才能輸出 JSON。
 - 對每場即將開賽比賽，於帶憑證的 bash 執行（**必須**用 `api_credentials=["custom-cred:ai-gateway.vercel.sh"]`，Gateway 金鑰存於使用者憑證庫）：
@@ -56,7 +56,7 @@ python3 /home/user/workspace/wc2026/multimodel_predict.py --match {N}
 
 ## 3. 更新已完成比賽的結果 + 賽後覆盤
 - 搜尋是否有新完成的比賽，將最終比分寫入 `data/results.json`（results 陣列，含 match, scoreline, home, away, date）。
-- **對每場新出爐結果，產生賽後覆盤 postmortem**（用 Opus 4.8，繁體中文）：比對該場最新批次預測與實際比分，生成「為何命中／失準」短評。每筆含 `match`、`home`、`away`、`stage`、`predicted`、`predicted_outcome`、`final`、`actual_outcome`、`outcome_correct`、`exact_correct`、`verdict`(exact/outcome/miss)、`run_id`、`model`、`headline`（繁中標題一句）、`review`（繁中詳述）、`lessons`（繁中清單）、`vs_benchmarks`（繁中：AI 與基準線相比的優劣）。以 stdin 合併寫入：
+- **對每場新出爐結果，產生賽後覆盤 postmortem**（用 Sonnet 4.6，繁體中文）：比對該場最新批次預測與實際比分，生成「為何命中／失準」短評。每筆含 `match`、`home`、`away`、`stage`、`predicted`、`predicted_outcome`、`final`、`actual_outcome`、`outcome_correct`、`exact_correct`、`verdict`(exact/outcome/miss)、`run_id`、`model`、`headline`（繁中標題一句）、`review`（繁中詳述）、`lessons`（繁中清單）、`vs_benchmarks`（繁中：AI 與基準線相比的優劣）。以 stdin 合併寫入：
 ```bash
 echo '<postmortem json 物件或陣列>' | python3 /home/user/workspace/wc2026/build_postmortems.py --merge-stdin
 ```

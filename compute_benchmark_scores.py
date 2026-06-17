@@ -79,7 +79,7 @@ def main():
         if not pred:
             continue
         pp = pred["prediction"]
-        acc("AI（本站 Opus）", "ai", pp.get("outcome"), pp.get("scoreline"),
+        acc("AI（本站主預測）", "ai", pp.get("outcome"), pp.get("scoreline"),
             pp.get("win_prob"), r)
         for b in pred.get("benchmarks", []):
             wp = b.get("win_prob")
