@@ -1,0 +1,2611 @@
+{
+  "match": 24,
+  "stage": "Group K",
+  "home": "Uzbekistan",
+  "away": "Colombia",
+  "kickoff_utc": "2026-06-18T02:00:00Z",
+  "kickoff_hkt": "2026-06-18 10:00",
+  "run_id": "2026-06-17T0912Z",
+  "run_timestamp": "2026-06-17T09:12:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.11,
+      "draw": 0.2,
+      "away": 0.69
+    },
+    "confidence": 0.71,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.72,
+        "basis": "Sportradar StatsHub模型：哥倫比亞68%、平局20%、烏茲別克12%。Foresportia AI模型：哥倫比亞63.3%、平局23.3%、烏茲別克13.4%。Dimers數據模型：哥倫比亞68.7%、平局20%、烏茲別克"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.69,
+        "basis": "哥倫比亞為大熱門，賠率約-260（隱含勝率~72%），烏茲別克+800（約11%），平局+390（約20%）。讓球盤哥倫比亞-1.5獲正碼，顯示賠率商預期哥倫比亞勝但未必大勝。大小球2.5幾乎各半，稍微偏向大球。"
+      },
+      {
+        "name": "次likely情境",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.5,
+        "basis": "次高機率比分 0:1，反映另一可能走勢。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.112,
+          "draw": 0.196,
+          "away": 0.692
+        },
+        "scoreline": "0:2",
+        "note": "哥倫比亞為大熱門，賠率約-260（隱含勝率~72%），烏茲別克+800（約11%），平局+390（約20%）。讓球盤哥倫比亞-1.5獲正碼，顯示賠率商預期哥倫比亞勝但未必大勝。大小球2.5幾乎各半，稍微偏向大球。"
+      },
+      {
+        "source": "Opta/超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.112,
+          "draw": 0.2,
+          "away": 0.688
+        },
+        "note": "Sportradar StatsHub模型：哥倫比亞68%、平局20%、烏茲別克12%。Foresportia AI模型：哥倫比亞63.3%、平局23.3%、烏茲別克13.4%。Dimers數據模型：哥倫比亞68.7%、平局20%、烏茲別克11.3%。Rotobot：Elo差21"
+      },
+      {
+        "source": "預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.113,
+          "draw": 0.205,
+          "away": 0.682
+        },
+        "note": "Kalshi已開設本場賽事市場（kxwcgame-26jun17uzbcol）。Dimers預測市場：哥倫比亞68.7%、平局20%、烏茲別克11.3%。Cupchances蒙地卡羅模擬：哥倫比亞奪冠機率1.7%。與博彩盤口高度吻合，哥倫比亞為絕對大熱。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "此役為烏茲別克史上首次世界盃出賽，主帥卡納瓦羅以3-4-2-1穩守，但主力創造者Masharipov確認缺陣，進攻遠程受限。哥倫比亞陣容豪華——Díaz（拜仁）、James Rodríguez（MLS）、Suárez（體育里斯本）組成三叉戟——惟停賽缺Mojica，左路防守存隱患，且近兩場熱身賽面對法國、克羅地亞連敗，防線仍有弱點。各大數據模型（Sportradar、Dimers、Foresportia）一致預測哥倫比亞勝率63-69%，多數評論員推薦哥倫比亞-1或取勝但謹慎對待讓1.5球。最可能結果為哥倫比亞以1-0或2-0窄勝，但烏茲別克憑藉防守紀律與Khusanov的個人能力，保持進攻入球可能（最可能分析認為0-2概率約14%，1-2約9%）。",
+    "key_factors": [
+      "哥倫比亞FIFA排名第12-13位（Luis Díaz狀態顛峰，拜仁慕尼黑本季奪德甲冠軍），烏茲別克排名第50-65位，實力差距顯著",
+      "烏茲別克主帥卡納瓦羅（Cannavaro）採3-4-2-1穩守防線，資格賽10場失球僅7粒，哨探報告顯示壓縮中路、利用邊路反擊",
+      "Masharipov（主要創造力球員）確認缺陣（椎間盤突出），烏茲別克進攻組織受損",
+      "哥倫比亞停賽缺Mojica（左後衛），左路防守出現缺口，烏茲別克可能針對性進攻",
+      "哥倫比亞盤口-1.5給正碼，顯示市場認為哥倫比亞即使勝出，大勝機率也存疑；分析師建議烏茲別克+1.25亞盤",
+      "賽場位於墨西哥城海拔2,240公尺的阿茲特克球場，高海拔對雙方均為挑戰，但體能差異有限",
+      "烏茲別克世界盃首秀，球員心理壓力巨大；哥倫比亞缺陣2022後「復仇」鬥志強烈",
+      "James Rodríguez資格賽貢獻7次助攻，Díaz貢獻7個進球，Suárez本賽季在體育里斯本攻入28球，哥倫比亞進攻火力充沛",
+      "Khusanov（曼城中衛）為烏茲別克最高水平球員，但本賽季上場時間受限，銳利度存疑",
+      "博彩盤口Over/Under 2.5幾乎各半，Foresportia模型傾向偏向低分（Under多），最可能比分為0-1（哥倫比亞勝）"
+    ],
+    "consensus_lean": "多數評論員、數據模型及博彩盤口一致看好哥倫比亞以1-0或2-0獲勝，為「安全奪冠」首選，哥倫比亞是Group K第二強隊的身份被普遍認可。",
+    "dissent": "SportsGambler等少數分析師建議烏茲別克+1.25亞盤作為價值投注，認為其防守組織與哥倫比亞的老化後防可能令哥倫比亞難以大比分勝出，甚至不排除1:1平局。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "africa.espn.com/football/team/results/_/id/2570/league/FIFA.",
+      "url": "https://africa.espn.com/football/team/results/_/id/2570/league/FIFA.FRIENDLY"
+    },
+    {
+      "type": "media",
+      "name": "aiworldcup2026predictions.com/fifa-world-cup/uzbekistan-colo",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/uzbekistan-colombia-18-06-2026"
+    },
+    {
+      "type": "media",
+      "name": "betfanatics.com/sportsbook/soccer/fifa-world-cup/group-k",
+      "url": "https://betfanatics.com/sportsbook/soccer/fifa-world-cup/group-k"
+    },
+    {
+      "type": "media",
+      "name": "betting.bc.game/predictions/uzbekistan-vs-colombia-predictio",
+      "url": "https://betting.bc.game/predictions/uzbekistan-vs-colombia-prediction-fifa-world-cup-2026-18-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "betting.betfair.com/football/world-cup-2026/world-cup-2026-g",
+      "url": "https://betting.betfair.com/football/world-cup-2026/world-cup-2026-group-k-team-guide-congo-dr-colombia-portugal-uzbekistan-310526-1416.html"
+    },
+    {
+      "type": "media",
+      "name": "betting.betfair.com/football/world-cup-2026/world-cup-tips-d",
+      "url": "https://betting.betfair.com/football/world-cup-2026/world-cup-tips-day-7-tipsheet-best-bets-and-predictions-including-an-112-treble-160626-1329.html"
+    },
+    {
+      "type": "media",
+      "name": "blog.sx.bet/world-cup/group-k/",
+      "url": "https://blog.sx.bet/world-cup/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "blog.udn.com/daccfbe9/189243075",
+      "url": "https://blog.udn.com/daccfbe9/189243075"
+    },
+    {
+      "type": "media",
+      "name": "blog.wego.com/fifa-world-cup-schedule-in-uzbekistan/",
+      "url": "https://blog.wego.com/fifa-world-cup-schedule-in-uzbekistan/"
+    },
+    {
+      "type": "media",
+      "name": "bolavip.com/en/soccer/colombia-vs-jordan-live-2026-pre-world",
+      "url": "https://bolavip.com/en/soccer/colombia-vs-jordan-live-2026-pre-world-cup-friendly"
+    },
+    {
+      "type": "media",
+      "name": "bolavip.com/en/soccer/colombias-james-rodriguez-sends-hopefu",
+      "url": "https://bolavip.com/en/soccer/colombias-james-rodriguez-sends-hopeful-message-about-his-physical-condition-ahead-of-the-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "bolavip.com/en/world-cup/james-rodriguez-to-face-cristiano-r",
+      "url": "https://bolavip.com/en/world-cup/james-rodriguez-to-face-cristiano-ronaldo-as-colombia-reveal-2026-world-cup-roster"
+    },
+    {
+      "type": "media",
+      "name": "cnnespanol.cnn.com/2026/06/03/deportes/falcao-colombia-mundi",
+      "url": "https://cnnespanol.cnn.com/2026/06/03/deportes/falcao-colombia-mundial-2026-orix"
+    },
+    {
+      "type": "media",
+      "name": "colombia.as.com/futbol/colombianos-por-el-mundo/demichelis-d",
+      "url": "https://colombia.as.com/futbol/colombianos-por-el-mundo/demichelis-da-parte-de-tranquilidad-tras-lesion-de-johan-mojica-f202605-n/"
+    },
+    {
+      "type": "media",
+      "name": "colombiafootballnews.com/en/news/colombia-analisis-de-formac",
+      "url": "https://colombiafootballnews.com/en/news/colombia-analisis-de-formaciones-y-ajustes-tacticos-clave-reqx"
+    },
+    {
+      "type": "media",
+      "name": "colombiamagico.com/blog/colombia-2026-world-cup-squad",
+      "url": "https://colombiamagico.com/blog/colombia-2026-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "colombiaone.com/2026/03/19/falcao-colombia-world-cup-delegat",
+      "url": "https://colombiaone.com/2026/03/19/falcao-colombia-world-cup-delegation/"
+    },
+    {
+      "type": "media",
+      "name": "colombiaone.com/2026/06/03/radamel-falcao-commentator-2026-w",
+      "url": "https://colombiaone.com/2026/06/03/radamel-falcao-commentator-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "colombiaone.com/2026/06/08/colombia-the-new-york-times-2026-",
+      "url": "https://colombiaone.com/2026/06/08/colombia-the-new-york-times-2026-world-cup-ranking-puts-surprising-spot/"
+    },
+    {
+      "type": "media",
+      "name": "colombiaone.com/2026/06/13/colombia-world-cup-chances-2026-p",
+      "url": "https://colombiaone.com/2026/06/13/colombia-world-cup-chances-2026-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "cupchances.com/pt/colombia-forma-recente-2026",
+      "url": "https://cupchances.com/pt/colombia-forma-recente-2026"
+    },
+    {
+      "type": "media",
+      "name": "defirate.com/prediction-markets/world-cup-odds/",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/"
+    },
+    {
+      "type": "media",
+      "name": "dunyo.info/en/news/nemeckie-smi-nazvali-uzbekistan-samym-opa",
+      "url": "https://dunyo.info/en/news/nemeckie-smi-nazvali-uzbekistan-samym-opasnym-debyutantom-chm-2026"
+    },
+    {
+      "type": "media",
+      "name": "en.as.com/soccer/world-cup/colombia-names-2026-world-cup-squ",
+      "url": "https://en.as.com/soccer/world-cup/colombia-names-2026-world-cup-squad-these-are-the-26-players-chosen-by-nestor-lorenzo-f202605-n/"
+    },
+    {
+      "type": "media",
+      "name": "en.as.com/soccer/world-cup/colombia-vs-jordan-live-online-sc",
+      "url": "https://en.as.com/soccer/world-cup/colombia-vs-jordan-live-online-score-stats-goals-updates-international-friendly-world-cup-2026-warm-up-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(CON",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(CONMEBOL)"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Abdukodir_Khusanov",
+      "url": "https://en.wikipedia.org/wiki/Abdukodir_Khusanov"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Colombia_at_the_FIFA_World_Cup",
+      "url": "https://en.wikipedia.org/wiki/Colombia_at_the_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Colombia_national_football_team",
+      "url": "https://en.wikipedia.org/wiki/Colombia_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Eldor_Shomurodov",
+      "url": "https://en.wikipedia.org/wiki/Eldor_Shomurodov"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Estadio_Azteca",
+      "url": "https://en.wikipedia.org/wiki/Estadio_Azteca"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Template:Colombia_squad_2026_FIFA_Worl",
+      "url": "https://en.wikipedia.org/wiki/Template:Colombia_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Template:Uzbekistan_squad_2026_FIFA_Wo",
+      "url": "https://en.wikipedia.org/wiki/Template:Uzbekistan_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Uzbekistan_at_the_FIFA_World_Cup",
+      "url": "https://en.wikipedia.org/wiki/Uzbekistan_at_the_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Uzbekistan_national_football_team",
+      "url": "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "english.ahram.org.eg/WorldCup2026/Article/570179",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/570179"
+    },
+    {
+      "type": "media",
+      "name": "english.ahram.org.eg/WorldCup2026/Article/570253",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/570253"
+    },
+    {
+      "type": "media",
+      "name": "english.ahram.org.eg/WorldCup2026/PlayerWC2026/2026/8035.asp",
+      "url": "https://english.ahram.org.eg/WorldCup2026/PlayerWC2026/2026/8035.aspx"
+    },
+    {
+      "type": "media",
+      "name": "esosoccer.com/colombia/colombia-2026-world-cup-team-analysis",
+      "url": "https://esosoccer.com/colombia/colombia-2026-world-cup-team-analysis-roster-projection-tournament-preview/"
+    },
+    {
+      "type": "media",
+      "name": "espndeportes.espn.com/futbol/mundial/nota/_/id/16852551/colo",
+      "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16852551/colombia-vs-uzbekistan-5-duelos-clave-pueden-definir-partido-mundial-2026"
+    },
+    {
+      "type": "media",
+      "name": "esports-news.co.uk/2026/06/11/uzbekistan-world-cup-odds-pred",
+      "url": "https://esports-news.co.uk/2026/06/11/uzbekistan-world-cup-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "fansided.com/soccer/predicting-all-72-group-stage-matches-of",
+      "url": "https://fansided.com/soccer/predicting-all-72-group-stage-matches-of-the-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "fcbayern.com/en/news/2025/09/luis-diaz-colombia-qualify-for-",
+      "url": "https://fcbayern.com/en/news/2025/09/luis-diaz-colombia-qualify-for-2026-world-cup-germany-make-false-start"
+    },
+    {
+      "type": "media",
+      "name": "fifa-26.com/en/injuries",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "fifawatch.com/es/news/world-cup-predictions-2026/",
+      "url": "https://fifawatch.com/es/news/world-cup-predictions-2026/"
+    },
+    {
+      "type": "media",
+      "name": "fifawcupdates.com/colombia-fifa-world-cup-2026-qualifiers/",
+      "url": "https://fifawcupdates.com/colombia-fifa-world-cup-2026-qualifiers/"
+    },
+    {
+      "type": "media",
+      "name": "fifaworldcup26.suites.fifa.com/events/Colombia-vs-Uzbekistan",
+      "url": "https://fifaworldcup26.suites.fifa.com/events/Colombia-vs-Uzbekistan-111650/"
+    },
+    {
+      "type": "media",
+      "name": "football.dhgate.com/lifestyle/colombia-at-the-2026-world-cup",
+      "url": "https://football.dhgate.com/lifestyle/colombia-at-the-2026-world-cup-realistic-chances-dark-horse-hype-and-what-history-tells-us/"
+    },
+    {
+      "type": "media",
+      "name": "football.dhgate.com/lifestyle/who-is-coaching-colombia-at-th",
+      "url": "https://football.dhgate.com/lifestyle/who-is-coaching-colombia-at-the-2026-world-cup-inside-the-tactics-drama-pressure/"
+    },
+    {
+      "type": "media",
+      "name": "footballiewc.com/world-cup-2026-dark-horses/",
+      "url": "https://footballiewc.com/world-cup-2026-dark-horses/"
+    },
+    {
+      "type": "media",
+      "name": "footballpredictions.com/footballpredictions/world-cup-predic",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "footballpredictions.com/footballpredictions/world-cup-predic",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/uzbekistan-vs-colombia-prediction-18-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "footballwcca2026.com/world-cup-dark-horses/",
+      "url": "https://footballwcca2026.com/world-cup-dark-horses/"
+    },
+    {
+      "type": "media",
+      "name": "footballwhispers.com/blog/uzbekistan-vs-colombia-prediction-",
+      "url": "https://footballwhispers.com/blog/uzbekistan-vs-colombia-prediction-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "footlab-data.com/en/world-cup/equipe/colombia",
+      "url": "https://footlab-data.com/en/world-cup/equipe/colombia"
+    },
+    {
+      "type": "media",
+      "name": "footlab-data.com/en/world-cup/equipe/uzbekistan",
+      "url": "https://footlab-data.com/en/world-cup/equipe/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "footystats.org/world-cup",
+      "url": "https://footystats.org/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "footywow.com/world/world-cup/2026/teams/uzbekistan/",
+      "url": "https://footywow.com/world/world-cup/2026/teams/uzbekistan/"
+    },
+    {
+      "type": "media",
+      "name": "fwclive.com/teams/colombia/",
+      "url": "https://fwclive.com/teams/colombia/"
+    },
+    {
+      "type": "media",
+      "name": "fwclive.com/teams/uzbekistan/",
+      "url": "https://fwclive.com/teams/uzbekistan/"
+    },
+    {
+      "type": "media",
+      "name": "fwctimes.com/fabio-cannavaro/",
+      "url": "https://fwctimes.com/fabio-cannavaro/"
+    },
+    {
+      "type": "media",
+      "name": "heavy.com/sports/soccer/world-cup/uzbekistan-announces-squad",
+      "url": "https://heavy.com/sports/soccer/world-cup/uzbekistan-announces-squad-fifa-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "iesoccerwc2026.com/world-cup-2026-group-predictions/",
+      "url": "https://iesoccerwc2026.com/world-cup-2026-group-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "injuriesandsuspensions.com/fifa-world-cup-2026-injuries-susp",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-7/"
+    },
+    {
+      "type": "media",
+      "name": "iz.ru/en/2113424/2026-06-10/national-team-uzbekistan-will-pl",
+      "url": "https://iz.ru/en/2113424/2026-06-10/national-team-uzbekistan-will-play-fifa-world-cup-first-time-what-known"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun17u",
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun17uzbcol"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/markets/kxwcmention/world-cup-mentions/kxwcmentio",
+      "url": "https://kalshi.com/markets/kxwcmention/world-cup-mentions/kxwcmention-26jun17uzbcol"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/teams/soccer-team/colombia",
+      "url": "https://kalshi.com/teams/soccer-team/colombia"
+    },
+    {
+      "type": "media",
+      "name": "khelnow.com/football/world-football-colombia-preliminary-squ",
+      "url": "https://khelnow.com/football/world-football-colombia-preliminary-squad-fifa-world-cup-202605"
+    },
+    {
+      "type": "media",
+      "name": "khelnow.com/football/world-football-fifa-world-cup-2026-pred",
+      "url": "https://khelnow.com/football/world-football-fifa-world-cup-2026-predicted-lineups-48-nations-202606"
+    },
+    {
+      "type": "media",
+      "name": "khelnow.com/football/world-football-players-left-out-colombi",
+      "url": "https://khelnow.com/football/world-football-players-left-out-colombia-final-squad-fifa-world-cup-202605"
+    },
+    {
+      "type": "media",
+      "name": "kun.uz/en/72430963",
+      "url": "https://kun.uz/en/72430963"
+    },
+    {
+      "type": "media",
+      "name": "kun.uz/en/news/2026/05/26/opta-supercomputer-assesses-uzbeki",
+      "url": "https://kun.uz/en/news/2026/05/26/opta-supercomputer-assesses-uzbekistans-2026-world-cup-chances-7b5972"
+    },
+    {
+      "type": "media",
+      "name": "kun.uz/en/news/2026/06/02/uzbekistan-suffers-20-defeat-again",
+      "url": "https://kun.uz/en/news/2026/06/02/uzbekistan-suffers-20-defeat-against-canada-ahead-of-world-cup-debut-77ff73"
+    },
+    {
+      "type": "media",
+      "name": "m.allfootballapp.com/news/Bundesliga/RMC-Colombia-hopes-to-m",
+      "url": "https://m.allfootballapp.com/news/Bundesliga/RMC-Colombia-hopes-to-make-a-strong-World-Cup-run-James-and-Diaz-ready-to-shine/4587389"
+    },
+    {
+      "type": "media",
+      "name": "m.kun.uz/en/news/2025/12/02/supercomputer-puts-uzbekistans-w",
+      "url": "https://m.kun.uz/en/news/2025/12/02/supercomputer-puts-uzbekistans-world-cup-2026-title-chances-at-just-02"
+    },
+    {
+      "type": "media",
+      "name": "mail.tashkenttimes.uz/national/17742-opta-supercomputer-rate",
+      "url": "https://mail.tashkenttimes.uz/national/17742-opta-supercomputer-rates-uzbekistan-s-2026-world-cup-long-shot-odds"
+    },
+    {
+      "type": "media",
+      "name": "mundialanalytics.com/colombia-national-team-analysis",
+      "url": "https://mundialanalytics.com/colombia-national-team-analysis"
+    },
+    {
+      "type": "media",
+      "name": "news.paddypower.com/football/world-cup/2026/06/16/bet-builde",
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/16/bet-builder-tips-world-cup-thursday-18-june/"
+    },
+    {
+      "type": "media",
+      "name": "news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-k-preview-betting-odds-prediction-129467"
+    },
+    {
+      "type": "media",
+      "name": "news.sportsinteraction.com/soccer/fifa-world-cup/story/uzbek",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/uzbekistan-vs-colombia-odds-prediction-061826-217220"
+    },
+    {
+      "type": "media",
+      "name": "news.williamhill.com/football/world-cup/colombia/",
+      "url": "https://news.williamhill.com/football/world-cup/colombia/"
+    },
+    {
+      "type": "media",
+      "name": "onefootball.com/en/news/luis-diaz-included-in-colombias-worl",
+      "url": "https://onefootball.com/en/news/luis-diaz-included-in-colombias-world-cup-squad-42923334"
+    },
+    {
+      "type": "media",
+      "name": "open.kg/en/news/in-the-world/101163-sbornaja-uzbekistana-ust",
+      "url": "https://open.kg/en/news/in-the-world/101163-sbornaja-uzbekistana-ustupila-kanade-v-tovarischeskom-matche-pered-chm.html"
+    },
+    {
+      "type": "media",
+      "name": "otyb6888.com/2026%E4%B8%96%E8%B6%B3k%E7%B5%84%E5%89%8D%E7%9E",
+      "url": "https://otyb6888.com/2026%E4%B8%96%E8%B6%B3k%E7%B5%84%E5%89%8D%E7%9E%BB%EF%BC%9A%E7%83%8F%E8%8C%B2%E5%88%A5%E5%85%8B%E5%B0%8D%E5%93%A5%E5%80%AB%E6%AF%94%E4%BA%9E%E7%AF%80%E5%A5%8F%E5%B0%8D%E6%B1%BA%E8%88%87%E4%B8%8B/"
+    },
+    {
+      "type": "media",
+      "name": "picksandparlays.net/free-picks/soccer/uzbekistan-vs-colombia",
+      "url": "https://picksandparlays.net/free-picks/soccer/uzbekistan-vs-colombia-picks-and-prediction-for-wednesday-june-17-2026"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/predictions/colombia",
+      "url": "https://polymarket.com/predictions/colombia"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/sports/world-cup/fifwc-uzb-col-2026-06-17",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-uzb-col-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/teams/fifwc/colombia",
+      "url": "https://polymarket.com/teams/fifwc/colombia"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/tl/predictions/colombia",
+      "url": "https://polymarket.com/tl/predictions/colombia"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.copilot.markets/sports/world-cup/fifwc-mar-hai-20",
+      "url": "https://polymarket.copilot.markets/sports/world-cup/fifwc-mar-hai-2026-06-24"
+    },
+    {
+      "type": "media",
+      "name": "polymarketworldcup.com/polymarket-world-cup-2026-matches",
+      "url": "https://polymarketworldcup.com/polymarket-world-cup-2026-matches"
+    },
+    {
+      "type": "media",
+      "name": "ppforum.pakpassion.net/threads/fifa-world-cup-2026-group-k-p",
+      "url": "https://ppforum.pakpassion.net/threads/fifa-world-cup-2026-group-k-portugal-congo-dr-uzbekistan-colombia-discussion-thread.321585/"
+    },
+    {
+      "type": "media",
+      "name": "prediction.games/resultprediction/worldcup2026/match/15438",
+      "url": "https://prediction.games/resultprediction/worldcup2026/match/15438"
+    },
+    {
+      "type": "media",
+      "name": "predictionmarketspicks.com/sports/world-cup-2026",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "predictionmarketspicks.com/sports/world-cup-2026/colombia-vs",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/colombia-vs-uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "predictions.draftkings.com/en/featured/market-group-details/",
+      "url": "https://predictions.draftkings.com/en/featured/market-group-details/DKP3-SPFIFAGPBTTSXAN4UYFFM6R9R5WD8ZCRT"
+    },
+    {
+      "type": "media",
+      "name": "predictions.draftkings.com/en/world-cup",
+      "url": "https://predictions.draftkings.com/en/world-cup"
+    },
+    {
+      "type": "media",
+      "name": "predscope.com/guide/world-cup-2026-predictions",
+      "url": "https://predscope.com/guide/world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "robinhood.com/us/en/prediction-markets/soccer/events/2026-wo",
+      "url": "https://robinhood.com/us/en/prediction-markets/soccer/events/2026-world-cup-group-b-winner-jun-24-2026/"
+    },
+    {
+      "type": "media",
+      "name": "rotobot.ai/world-cup/team/COL",
+      "url": "https://rotobot.ai/world-cup/team/COL"
+    },
+    {
+      "type": "media",
+      "name": "rotobot.ai/world-cup/team/UZB",
+      "url": "https://rotobot.ai/world-cup/team/UZB"
+    },
+    {
+      "type": "media",
+      "name": "scarvesandspikes.com/2026/06/01/uzbekistan-world-cup-2026-ou",
+      "url": "https://scarvesandspikes.com/2026/06/01/uzbekistan-world-cup-2026-outlook-group-k-atlanta-players-to-watch/"
+    },
+    {
+      "type": "media",
+      "name": "scores.sir.sportradar.com/en/match/66457032",
+      "url": "https://scores.sir.sportradar.com/en/match/66457032"
+    },
+    {
+      "type": "media",
+      "name": "scores24.live/en/soccer/m-18-06-2026-uzbekistan-colombia-h2h",
+      "url": "https://scores24.live/en/soccer/m-18-06-2026-uzbekistan-colombia-h2h"
+    },
+    {
+      "type": "media",
+      "name": "sgodds.com/football/current-odds/Uzbekistan-vs-Colombia-1399",
+      "url": "https://sgodds.com/football/current-odds/Uzbekistan-vs-Colombia-139993"
+    },
+    {
+      "type": "media",
+      "name": "sillyseason.com/betting/odds/colombia-to-win-world-cup-odds-",
+      "url": "https://sillyseason.com/betting/odds/colombia-to-win-world-cup-odds-230640/"
+    },
+    {
+      "type": "media",
+      "name": "sk.wikipedia.org/wiki/Abdukodir_Khusanov",
+      "url": "https://sk.wikipedia.org/wiki/Abdukodir_Khusanov"
+    },
+    {
+      "type": "media",
+      "name": "smarkets.com/football/world-cup/2026/06/18/02-00/uzbekistan-",
+      "url": "https://smarkets.com/football/world-cup/2026/06/18/02-00/uzbekistan-vs-colombia/44754808/"
+    },
+    {
+      "type": "media",
+      "name": "soccer365.net/players/2449978/",
+      "url": "https://soccer365.net/players/2449978/"
+    },
+    {
+      "type": "media",
+      "name": "soccerwcie2026.com/world-cup-2026-odds/",
+      "url": "https://soccerwcie2026.com/world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "sportgrill.co.uk/2026/06/16/2026-fifa-world-cup-group-k-uzbe",
+      "url": "https://sportgrill.co.uk/2026/06/16/2026-fifa-world-cup-group-k-uzbekistan-vs-colombia/amp/"
+    },
+    {
+      "type": "media",
+      "name": "sports.williamhill.com/betting/en-gb/football/OB_EV37948671/",
+      "url": "https://sports.williamhill.com/betting/en-gb/football/OB_EV37948671/uzbekistan-vs-colombia"
+    },
+    {
+      "type": "media",
+      "name": "sports.williamhill.com/betting/en-gb/football/competitions/O",
+      "url": "https://sports.williamhill.com/betting/en-gb/football/competitions/OB_TY52321/world-cup-2026/matches"
+    },
+    {
+      "type": "media",
+      "name": "sports.williamhill.com/betting/en-gb/football/price-boost",
+      "url": "https://sports.williamhill.com/betting/en-gb/football/price-boost"
+    },
+    {
+      "type": "media",
+      "name": "sports.williamhill.com/betting/en-gb?siteid=190568&btag=a_19",
+      "url": "https://sports.williamhill.com/betting/en-gb?siteid=190568&btag=a_190568b_815c_"
+    },
+    {
+      "type": "media",
+      "name": "sports.williamhill.it/betting/it-it/calcio/coppa-del-mondo/m",
+      "url": "https://sports.williamhill.it/betting/it-it/calcio/coppa-del-mondo/mondiali-2026/uzbekistan-vs-colombia"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/article/roma-striker-shomurodov-takes-uzbek",
+      "url": "https://sports.yahoo.com/article/roma-striker-shomurodov-takes-uzbekistan-184100000.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/colombia-2026-world-cup-squad-1600",
+      "url": "https://sports.yahoo.com/articles/colombia-2026-world-cup-squad-160000339.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/luis-d-az-turns-dominant-143000056",
+      "url": "https://sports.yahoo.com/articles/luis-d-az-turns-dominant-143000056.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/n-stor-lorenzo-promise-world-17160",
+      "url": "https://sports.yahoo.com/articles/n-stor-lorenzo-promise-world-171600851.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/preview-uzbekistan-vs-colombia-tea",
+      "url": "https://sports.yahoo.com/articles/preview-uzbekistan-vs-colombia-team-020500912.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/uzbekistan-2026-world-cup-squad-16",
+      "url": "https://sports.yahoo.com/articles/uzbekistan-2026-world-cup-squad-160000886.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/uzbekistan-vs-colombia-predicted-l",
+      "url": "https://sports.yahoo.com/articles/uzbekistan-vs-colombia-predicted-lineup-050000666.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/soccer/article/2026-fifa-world-cup-daily-sc",
+      "url": "https://sports.yahoo.com/soccer/article/2026-fifa-world-cup-daily-schedule-every-match-date-kickoff-time-and-venue-234515267.html"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/soccer/article/2026-world-cup-winners-sched",
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-winners-schedule-teams-fixtures-results-how-to-watch-050724826.html"
+    },
+    {
+      "type": "media",
+      "name": "sportsbook.dexwin.bet/sportsbook/football/international-tour",
+      "url": "https://sportsbook.dexwin.bet/sportsbook/football/international-tournaments/world-cup/uzbekistan-colombia-1006000000000077353749"
+    },
+    {
+      "type": "media",
+      "name": "sportsbook.draftkings.com/leagues/soccer/world-cup-2026?cate",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup-2026?category=groups&subcategory=group-k"
+    },
+    {
+      "type": "media",
+      "name": "surprisesports.com/football/fifa-world-cup/uzbekistan-world-",
+      "url": "https://surprisesports.com/football/fifa-world-cup/uzbekistan-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "tashkenttimes.uz/national/17742-opta-supercomputer-rates-uzb",
+      "url": "https://tashkenttimes.uz/national/17742-opta-supercomputer-rates-uzbekistan-s-2026-world-cup-long-shot-odds"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/fifa-world-cup-2026-groups-predictio",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/uzbekistan-vs-colombia-prediction-wo",
+      "url": "https://theanalyst.com/articles/uzbekistan-vs-colombia-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/who-will-win-2026-fifa-world-cup-pre",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/world-cup-2026-draw-easiest-toughest",
+      "url": "https://theanalyst.com/articles/world-cup-2026-draw-easiest-toughest-groups"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/world-cup-2026-group-k-predictions-p",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-k-predictions-preview"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/world-cup-groups-2026-easiest-hardes",
+      "url": "https://theanalyst.com/articles/world-cup-groups-2026-easiest-hardest-opta-power-rankings"
+    },
+    {
+      "type": "media",
+      "name": "thecelticstar.com/uzbekistan-v-colombia-predictions/",
+      "url": "https://thecelticstar.com/uzbekistan-v-colombia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "thefishy.co.uk/head2head.php?team1=Uzbekistan&team2=Colombia",
+      "url": "https://thefishy.co.uk/head2head.php?team1=Uzbekistan&team2=Colombia"
+    },
+    {
+      "type": "media",
+      "name": "thesportsrush.com/colombia-world-cup-odds-predictions/",
+      "url": "https://thesportsrush.com/colombia-world-cup-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "thesportsrush.com/uzbekistan-v-colombia-predictions/",
+      "url": "https://thesportsrush.com/uzbekistan-v-colombia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "thethaovanhoa.vn/du-doan-ty-so-uzbekistan-vs-colombia-bang-k",
+      "url": "https://thethaovanhoa.vn/du-doan-ty-so-uzbekistan-vs-colombia-bang-k-world-cup-2026-cach-biet-toi-thieu-20260616210203452.htm"
+    },
+    {
+      "type": "media",
+      "name": "totalfootballanalysis.com/competitions/fifa-world-cup-2026/c",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/colombia-world-cup-odds-predictions"
+    },
+    {
+      "type": "media",
+      "name": "totalfootballanalysis.com/competitions/fifa-world-cup-2026/u",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/uzbekistan-v-colombia-predictions"
+    },
+    {
+      "type": "media",
+      "name": "totalfootballanalysis.com/competitions/fifa-world-cup-2026/w",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-group-k-winner-predictions"
+    },
+    {
+      "type": "media",
+      "name": "tribuna.com/en/team/uzbekistan/table/2026/",
+      "url": "https://tribuna.com/en/team/uzbekistan/table/2026/"
+    },
+    {
+      "type": "media",
+      "name": "udn.com/worldcup2026/predict/24",
+      "url": "https://udn.com/worldcup2026/predict/24"
+    },
+    {
+      "type": "media",
+      "name": "uz.kursiv.media/en/2025-06-11/uzbekistan-closes-out-2026-wor",
+      "url": "https://uz.kursiv.media/en/2025-06-11/uzbekistan-closes-out-2026-world-cup-qualifiers-with-victory-over-qatar/"
+    },
+    {
+      "type": "media",
+      "name": "uz.kursiv.media/en/2026-06-02/uzbekistan-confirm-final-26-ma",
+      "url": "https://uz.kursiv.media/en/2026-06-02/uzbekistan-confirm-final-26-man-squad-for-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "vietnamnet.vn/du-doan-bong-da-uzbekistan-vs-colombia-bang-k-",
+      "url": "https://vietnamnet.vn/du-doan-bong-da-uzbekistan-vs-colombia-bang-k-world-cup-2026-2526554.html"
+    },
+    {
+      "type": "media",
+      "name": "wager.tw/article/world-cup-2026-group-k",
+      "url": "https://wager.tw/article/world-cup-2026-group-k"
+    },
+    {
+      "type": "media",
+      "name": "wc26lineups.com/en/teams/uzbekistan",
+      "url": "https://wc26lineups.com/en/teams/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "wc26lineups.com/es/teams/colombia",
+      "url": "https://wc26lineups.com/es/teams/colombia"
+    },
+    {
+      "type": "media",
+      "name": "wcfootballca2026.com/estadio-azteca-world-cup-2026-opening-g",
+      "url": "https://wcfootballca2026.com/estadio-azteca-world-cup-2026-opening-guide/"
+    },
+    {
+      "type": "media",
+      "name": "whyfootball.org/teams/uzbekistan-brief.html",
+      "url": "https://whyfootball.org/teams/uzbekistan-brief.html"
+    },
+    {
+      "type": "media",
+      "name": "winnersandwhiners.com/free-picks/world-cup/uzbekistan-vs-col",
+      "url": "https://winnersandwhiners.com/free-picks/world-cup/uzbekistan-vs-colombia-predictions-odds-and-line-movement-june-17-2026"
+    },
+    {
+      "type": "media",
+      "name": "winsports.tw/sports-picks/2026-world-cup-preview-uzbekistan-",
+      "url": "https://winsports.tw/sports-picks/2026-world-cup-preview-uzbekistan-vs-colombia/"
+    },
+    {
+      "type": "media",
+      "name": "worldcup-2026.bet/us/",
+      "url": "https://worldcup-2026.bet/us/"
+    },
+    {
+      "type": "media",
+      "name": "worldcup26.tw/news/uzbekistan-vs-colombia-2026-world-cup-gro",
+      "url": "https://worldcup26.tw/news/uzbekistan-vs-colombia-2026-world-cup-group-k/"
+    },
+    {
+      "type": "media",
+      "name": "worldcupdesk.com/articles/colombia-lorenzo-altitude-strategy",
+      "url": "https://worldcupdesk.com/articles/colombia-lorenzo-altitude-strategy-2026/"
+    },
+    {
+      "type": "media",
+      "name": "worldcuplocaltime.com/2026-world-cup-group-k/",
+      "url": "https://worldcuplocaltime.com/2026-world-cup-group-k/"
+    },
+    {
+      "type": "media",
+      "name": "worldcupper.com/teams/uzbekistan",
+      "url": "https://worldcupper.com/teams/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "worldcuppolymarket.vercel.app",
+      "url": "https://worldcuppolymarket.vercel.app"
+    },
+    {
+      "type": "media",
+      "name": "worldfootballindex.com/2026/05/world-cup-2026-dark-horses-co",
+      "url": "https://worldfootballindex.com/2026/05/world-cup-2026-dark-horses-colombias-offensive-firepower-can-bring-back-2014-magic/"
+    },
+    {
+      "type": "media",
+      "name": "worldsoccertalk.com/world-cup/colombia-vs-jordan-live-update",
+      "url": "https://worldsoccertalk.com/world-cup/colombia-vs-jordan-live-updates-minute-by-minute-coverage-of-2026-international-friendly/"
+    },
+    {
+      "type": "media",
+      "name": "www.365scores.com/en-us/football/match/fifa-world-cup-5930/c",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/colombia-uzbekistan-5071-5085-5930"
+    },
+    {
+      "type": "media",
+      "name": "www.888sport.ca/soccer/international/world-cup-2026/uzbekist",
+      "url": "https://www.888sport.ca/soccer/international/world-cup-2026/uzbekistan-vs-colombia-e-6819344/"
+    },
+    {
+      "type": "media",
+      "name": "www.abhs.in/blog/fifa-2026-june-18-predictions-mexico-south-",
+      "url": "https://www.abhs.in/blog/fifa-2026-june-18-predictions-mexico-south-korea-canada-qatar-switzerland-ai"
+    },
+    {
+      "type": "media",
+      "name": "www.actionnetwork.com/soccer/2026-fifa-world-cup-odds",
+      "url": "https://www.actionnetwork.com/soccer/2026-fifa-world-cup-odds"
+    },
+    {
+      "type": "media",
+      "name": "www.actionnetwork.com/worldcup-game/colombia-uzbekistan/2843",
+      "url": "https://www.actionnetwork.com/worldcup-game/colombia-uzbekistan/284368"
+    },
+    {
+      "type": "media",
+      "name": "www.actionnetwork.com/worldcup/injury-report",
+      "url": "https://www.actionnetwork.com/worldcup/injury-report"
+    },
+    {
+      "type": "media",
+      "name": "www.aljazeera.com/sports/2025/12/6/full-match-schedule-of-th",
+      "url": "https://www.aljazeera.com/sports/2025/12/6/full-match-schedule-of-the-fifa-world-cup-2026-dates-start-times-stadiums"
+    },
+    {
+      "type": "media",
+      "name": "www.aljazeera.com/sports/2026/6/11/the-world-cups-most-stori",
+      "url": "https://www.aljazeera.com/sports/2026/6/11/the-world-cups-most-storied-stadium-prepares-for-another-chapter"
+    },
+    {
+      "type": "media",
+      "name": "www.asianetnews.com/casinos/au/worldcup-2026/canada-vs-qatar",
+      "url": "https://www.asianetnews.com/casinos/au/worldcup-2026/canada-vs-qatar-vs-group-stage/"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.co.uk/sport/football/articles/c5yenm7xllyo",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yenm7xllyo"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.co.uk/sport/football/articles/clyppvlpl44o",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyppvlpl44o"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/c5yenm7xllyo",
+      "url": "https://www.bbc.com/sport/football/articles/c5yenm7xllyo"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/c8x7ry24xrzo",
+      "url": "https://www.bbc.com/sport/football/articles/c8x7ry24xrzo"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/clyppvlpl44o",
+      "url": "https://www.bbc.com/sport/football/articles/clyppvlpl44o"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/cq6p3v43pdlo",
+      "url": "https://www.bbc.com/sport/football/articles/cq6p3v43pdlo"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/cvgdxg2v5d7o",
+      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/live/c4g7n70g0rpt",
+      "url": "https://www.bbc.com/sport/football/live/c4g7n70g0rpt"
+    },
+    {
+      "type": "media",
+      "name": "www.beforeyoubet.com.au/world-cup-2026-day-7-predictions-bet",
+      "url": "https://www.beforeyoubet.com.au/world-cup-2026-day-7-predictions-betting-tips-thursday-june-18"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/colombia-s-preliminary-squad-for-the-2026-fifa-world-cup-lorenzo-reveals-special-plan-for-james-rodr%C3%ADguez-2026-05-14"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/concerns-over-james-rodr%C3%ADguez-s-form-2026-04-16"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/how-and-where-to-watch-uzbekistan-vs-colombia-in-group-k-of-the-2026-fifa-world-cup-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/james-rodr%C3%ADguez-needs-a-miracle-to-reach-peak-form-for-the-world-cup-with-colombia-2026-04-17"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/james-rodr%C3%ADguez-trains-alone-as-uncertainty-grows-ahead-of-2026-world-cup-2026-01-31"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/james-rodriguez-headlines-colombias-world-cup-squad-as-duran-left-out-2026-05-25"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/friendlies/articles/colombia",
+      "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/colombia-2-0-jordan-arias-brace-concludes-world-cup-preparations-2026-06-08"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/friendlies/articles/colombia",
+      "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/colombia-3-1-costa-rica-diaz-scores-one-and-assists-another-in-friendly-win-2026-06-02"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/friendlies/articles/netherla",
+      "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/netherlands-2-1-uzbekistan-gakpo-nets-two-penalties-for-koemans-10-men-2026-06-08"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/world-cup/uzbekistan-vs-colo",
+      "url": "https://www.beinsports.com/en-us/soccer/world-cup/uzbekistan-vs-colombia-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "www.bettingexpert.com/football/colombia-vs-uzbekistan",
+      "url": "https://www.bettingexpert.com/football/colombia-vs-uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "www.betus.com.pa/sportsbook/fifa/world-cup/props/uzbekistan-",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/props/uzbekistan-vs-colombia/"
+    },
+    {
+      "type": "media",
+      "name": "www.betus.com.pa/sportsbook/fifa/world-cup/uzbekistan-vs-col",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/uzbekistan-vs-colombia/"
+    },
+    {
+      "type": "media",
+      "name": "www.bigsoccer.com/forums/k-portugal-uzbekistan-colombia-cong",
+      "url": "https://www.bigsoccer.com/forums/k-portugal-uzbekistan-colombia-congo-dr.1740/"
+    },
+    {
+      "type": "media",
+      "name": "www.bigsoccer.com/threads/2026-world-cup-group-k-colombia-vs",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-k-colombia-vs-uzbekistan-6-17-26-%E2%80%93-wednesday-%E2%80%93-10-pm-est.2139015/"
+    },
+    {
+      "type": "media",
+      "name": "www.bigsoccer.com/threads/2026-world-cup-group-k-colombia-vs",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-k-colombia-vs-uzbekistan-6-17-26-%E2%80%93-wednesday-%E2%80%93-10-pm-est.2139015/page-2"
+    },
+    {
+      "type": "media",
+      "name": "www.bloomberg.com/news/articles/2026-06-16/world-cup-exposes",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-16/world-cup-exposes-growing-global-rift-over-prediction-markets"
+    },
+    {
+      "type": "media",
+      "name": "www.bundesliga.com/en/bundesliga/news/luis-diaz-colombia-qua",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/luis-diaz-colombia-qualify-for-2026-world-cup-33898"
+    },
+    {
+      "type": "media",
+      "name": "www.bundesliga.com/en/bundesliga/news/world-cup-stars-luis-d",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/world-cup-stars-luis-diaz-bayern-munich-colombia-36722"
+    },
+    {
+      "type": "media",
+      "name": "www.bundesliga.com/en/world-cup/matchday/2026-2027/1/uzbekis",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/uzbekistan-vs-colombia/liveticker"
+    },
+    {
+      "type": "media",
+      "name": "www.business-standard.com/article/news-ians/falcao-named-in-",
+      "url": "https://www.business-standard.com/article/news-ians/falcao-named-in-colombia-s-provisional-world-cup-squad-114051400364_1.html"
+    },
+    {
+      "type": "media",
+      "name": "www.bwin.com/en/sports/events/uzbekistan-colombia-2:7722051",
+      "url": "https://www.bwin.com/en/sports/events/uzbekistan-colombia-2:7722051"
+    },
+    {
+      "type": "media",
+      "name": "www.calcio.com/pronostici/pronostico-uzbekistan-colombia-ana",
+      "url": "https://www.calcio.com/pronostici/pronostico-uzbekistan-colombia-analisi-e-probabili-formazioni-17062026-coppa-del-mondo"
+    },
+    {
+      "type": "media",
+      "name": "www.calibrsports.com/wc/what-calibrsports-offers",
+      "url": "https://www.calibrsports.com/wc/what-calibrsports-offers"
+    },
+    {
+      "type": "media",
+      "name": "www.canadasportsbetting.ca/news/world-cup/group-k-2026-tourn",
+      "url": "https://www.canadasportsbetting.ca/news/world-cup/group-k-2026-tournament-preview/"
+    },
+    {
+      "type": "media",
+      "name": "www.cbc.ca/sports/soccer/worldcup/colombia-s-radamel-falcao-",
+      "url": "https://www.cbc.ca/sports/soccer/worldcup/colombia-s-radamel-falcao-ruled-out-of-world-cup-1.2662836"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/soccer/news/uzbekistan-colombia-world-cup-",
+      "url": "https://www.cbssports.com/soccer/news/uzbekistan-colombia-world-cup-2026-preview-predictions-watch/"
+    },
+    {
+      "type": "media",
+      "name": "www.chaseyoursport.com/football/how-uzbekistan-qualified-for",
+      "url": "https://www.chaseyoursport.com/football/how-uzbekistan-qualified-for-fifa-world-cup-2026/12300"
+    },
+    {
+      "type": "media",
+      "name": "www.citimuzik.com/world-cup-2026/teams/uzbekistan/",
+      "url": "https://www.citimuzik.com/world-cup-2026/teams/uzbekistan/"
+    },
+    {
+      "type": "media",
+      "name": "www.covers.com/world-cup/ai-bracket-predictions-2026",
+      "url": "https://www.covers.com/world-cup/ai-bracket-predictions-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.covers.com/world-cup/colombia-vs-uzbekistan-prediction-p",
+      "url": "https://www.covers.com/world-cup/colombia-vs-uzbekistan-prediction-picks-odds-wednesday-6-17-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.covers.com/world-cup/group-standings",
+      "url": "https://www.covers.com/world-cup/group-standings"
+    },
+    {
+      "type": "media",
+      "name": "www.deportesrcn.com/futbol/lorenzo-armo-plan-para-salvar-a-c",
+      "url": "https://www.deportesrcn.com/futbol/lorenzo-armo-plan-para-salvar-a-colombia-de-catastrofe-en-mundial-2026-126336"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/bet-hub/swc/schedule/2026_1_uzb_col",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_uzb_col"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/news/colombia-vs-uzbekistan-early-prediction-",
+      "url": "https://www.dimers.com/news/colombia-vs-uzbekistan-early-prediction-group-k-world-cup-2026-ac"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/news/colombia-vs-uzbekistan-updated-predictio",
+      "url": "https://www.dimers.com/news/colombia-vs-uzbekistan-updated-prediction-group-k-world-cup-2026-ac"
+    },
+    {
+      "type": "media",
+      "name": "www.el-balad.com/6786193",
+      "url": "https://www.el-balad.com/6786193"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/match/_/gameId/401862320/jordan-colombia",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401862320/jordan-colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/match/_/gameId/401866134/costa-rica-colo",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401866134/costa-rica-colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/match/_/gameId/760436",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760436"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekista",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/odds/_/gameId/760436",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760436"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/37555778/colombia-name-world-",
+      "url": "https://www.espn.com/soccer/story/_/id/37555778/colombia-name-world-cup-squad-radamel-falcao-james-rodriguez-feature"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/39283277/why-uzbekistan-break",
+      "url": "https://www.espn.com/soccer/story/_/id/39283277/why-uzbekistan-breakout-stars-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/45458584/world-cup-2026-quali",
+      "url": "https://www.espn.com/soccer/story/_/id/45458584/world-cup-2026-qualified-uzbekistan-australia-south-korea-jordan"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/46161256/uruguay-colombia-par",
+      "url": "https://www.espn.com/soccer/story/_/id/46161256/uruguay-colombia-paraguay-qualify-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/47211639/2026-world-cup-draw-",
+      "url": "https://www.espn.com/soccer/story/_/id/47211639/2026-world-cup-draw-groups-takeaways-predictions-see-games"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48427326/luis-diaz-made-right",
+      "url": "https://www.espn.com/soccer/story/_/id/48427326/luis-diaz-made-right-choice-swapping-liverpool-bayern-munichluis-daz-made-right-choice-swapping-liverpool-bayern-munich"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis",
+      "url": "https://www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis-diaz-colombia-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48962628/world-cup-prediction",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49069699/uzbekistan-vs-colomb",
+      "url": "https://www.espn.com/soccer/story/_/id/49069699/uzbekistan-vs-colombia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/_/id/208/colombia",
+      "url": "https://www.espn.com/soccer/team/_/id/208/colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/results/_/id/208/colombia",
+      "url": "https://www.espn.com/soccer/team/results/_/id/208/colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/results/_/id/2570/league/FIFA.WORLD",
+      "url": "https://www.espn.com/soccer/team/results/_/id/2570/league/FIFA.WORLD"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/results/_/id/2570/uzbekistan",
+      "url": "https://www.espn.com/soccer/team/results/_/id/2570/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/squad/_/id/208/colombia",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/208/colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/squad/_/id/208/league/FIFA.WORLD/se",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/208/league/FIFA.WORLD/season/2026"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/squad/_/id/2570/uzbekistan",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2570/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/stats/_/id/208/colombia",
+      "url": "https://www.espn.com/soccer/team/stats/_/id/208/colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/stats/_/id/208/league/FIFA.WORLD/se",
+      "url": "https://www.espn.com/soccer/team/stats/_/id/208/league/FIFA.WORLD/season/2018"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/stats/_/id/2570/league/FIFA.WORLD/s",
+      "url": "https://www.espn.com/soccer/team/stats/_/id/2570/league/FIFA.WORLD/season/2026/view/performance"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.in/football/match/_/gameId/760436/colombia-uzbekist",
+      "url": "https://www.espn.in/football/match/_/gameId/760436/colombia-uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.in/football/team/results/_/id/208/league/FIFA.WORLD",
+      "url": "https://www.espn.in/football/team/results/_/id/208/league/FIFA.WORLD/season/2026"
+    },
+    {
+      "type": "media",
+      "name": "www.euronews.com/2025/06/11/uzbekistan-celebrates-historic-w",
+      "url": "https://www.euronews.com/2025/06/11/uzbekistan-celebrates-historic-world-cup-qualification-with-victory-against-qatar"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/footmooddaily/photos/uzbekistan-colombia%EF",
+      "url": "https://www.facebook.com/footmooddaily/photos/uzbekistan-colombia%EF%B8%8F-thursday-18-june-2026-gmt-0200-bst-0300-fifa-world-cup-roun/1024716083228359/"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/legitngsports/posts/optas-supercomputer-has",
+      "url": "https://www.facebook.com/legitngsports/posts/optas-supercomputer-has-predicted-all-32-teams-that-will-reach-the-2026-world-cu/1424465276379178/"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/sportsmole/posts/sports-mole-takes-an-in-de",
+      "url": "https://www.facebook.com/sportsmole/posts/sports-mole-takes-an-in-depth-look-at-how-colombia-could-line-up-for-wednesdays-/1424156803074912/"
+    },
+    {
+      "type": "media",
+      "name": "www.fanorate.com/soccer-2026/team-guides/colombia-wc2026-gui",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/colombia-wc2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "www.fanorate.com/soccer-2026/team-guides/uzbekistan-wc2026-g",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/uzbekistan-wc2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "www.fanorate.com/soccer-2026/venue-guides/estadio-azteca-fif",
+      "url": "https://www.fanorate.com/soccer-2026/venue-guides/estadio-azteca-fifa-world-cup-2026-mexico-city-guide/"
+    },
+    {
+      "type": "media",
+      "name": "www.flashscore.com/news/soccer-world-championship-uzbekistan",
+      "url": "https://www.flashscore.com/news/soccer-world-championship-uzbekistan-celebrate-historic-success-after-sealing-spot-at-world-cup-for-first-time/4jKlo8qp/"
+    },
+    {
+      "type": "media",
+      "name": "www.footballuser.com/2068175/Colombia",
+      "url": "https://www.footballuser.com/2068175/Colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.footboom1.com/en/news/football/2447012-colombia-faces-br",
+      "url": "https://www.footboom1.com/en/news/football/2447012-colombia-faces-brazil-with-key-players-at-risk-of-suspension"
+    },
+    {
+      "type": "media",
+      "name": "www.foresportia.com/en/world-cup-2026/uzbekistan-colombia-20",
+      "url": "https://www.foresportia.com/en/world-cup-2026/uzbekistan-colombia-2026-06-18.html"
+    },
+    {
+      "type": "media",
+      "name": "www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9",
+      "url": "https://www.fotmob.com/en-GB/matches/colombia-vs-uzbekistan/2dm7x9"
+    },
+    {
+      "type": "media",
+      "name": "www.fotmob.com/fr/topnews/13705-how-nestor-lorenzo-turned-ti",
+      "url": "https://www.fotmob.com/fr/topnews/13705-how-nestor-lorenzo-turned-tide-colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.fotmob.com/matches/colombia-vs-uzbekistan/2dm7x9",
+      "url": "https://www.fotmob.com/matches/colombia-vs-uzbekistan/2dm7x9"
+    },
+    {
+      "type": "media",
+      "name": "www.fotmob.com/ro/matches/3k-vs-4k/20k3ea0i0",
+      "url": "https://www.fotmob.com/ro/matches/3k-vs-4k/20k3ea0i0"
+    },
+    {
+      "type": "media",
+      "name": "www.fourfourtwo.com/team/colombia-world-cup-2026-squad",
+      "url": "https://www.fourfourtwo.com/team/colombia-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.fourfourtwo.com/team/uzbekistan-world-cup-2026-squad",
+      "url": "https://www.fourfourtwo.com/team/uzbekistan-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.fox.com/soccer/fifa-world-cup/uzbekistan-vs-colombia-jun",
+      "url": "https://www.fox.com/soccer/fifa-world-cup/uzbekistan-vs-colombia-jun-17-2026-group-k"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/eldor-shomurodov-player",
+      "url": "https://www.foxsports.com/soccer/eldor-shomurodov-player"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-co",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/johan-mojica-player",
+      "url": "https://www.foxsports.com/soccer/johan-mojica-player"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-f",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-favored-advance-knockout-stage"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/stories/soccer/2026-world-cup-portugal-dr-",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-portugal-dr-congo-odds-prediction-picks"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/stories/soccer/uzebekistan-world-cup-2026-",
+      "url": "https://www.foxsports.com/stories/soccer/uzebekistan-world-cup-2026-preview-best-players-roster-history-jersey-predictions"
+    },
+    {
+      "type": "media",
+      "name": "www.futbol24.com/betting-tips/preview/18-06-2026-uzbekistan-",
+      "url": "https://www.futbol24.com/betting-tips/preview/18-06-2026-uzbekistan-colombia-betting-tip/"
+    },
+    {
+      "type": "media",
+      "name": "www.futbol24.com/es/comparar-equipos/AFC/Uzbekistan/vs/CONME",
+      "url": "https://www.futbol24.com/es/comparar-equipos/AFC/Uzbekistan/vs/CONMEBOL/Colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.futbolupdate.com/colombia-2026-fifa-world-cup-schedule-r",
+      "url": "https://www.futbolupdate.com/colombia-2026-fifa-world-cup-schedule-results/"
+    },
+    {
+      "type": "media",
+      "name": "www.futbolupdate.com/fifa-world-cup-2026-group-k-standings/",
+      "url": "https://www.futbolupdate.com/fifa-world-cup-2026-group-k-standings/"
+    },
+    {
+      "type": "media",
+      "name": "www.gazeta.uz/en/2026/06/02/canada-uzb-football/",
+      "url": "https://www.gazeta.uz/en/2026/06/02/canada-uzb-football/"
+    },
+    {
+      "type": "media",
+      "name": "www.gazeta.uz/en/2026/06/02/uzb-team-football/",
+      "url": "https://www.gazeta.uz/en/2026/06/02/uzb-team-football/"
+    },
+    {
+      "type": "media",
+      "name": "www.gazzetta.it/en/football/fantanews/storie/10-06-2026/worl",
+      "url": "https://www.gazzetta.it/en/football/fantanews/storie/10-06-2026/world-cup-2026-starting-xis-and-predicted-line-ups-for-48-teams/uzbekistan.shtml"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-ca/news/uzbekistan-colombia-world-cup-previe",
+      "url": "https://www.goal.com/en-ca/news/uzbekistan-colombia-world-cup-preview/bltd5f07d2b89067908"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-gb/news/uzbekistan-colombia-world-cup-previe",
+      "url": "https://www.goal.com/en-gb/news/uzbekistan-colombia-world-cup-preview/bltd5f07d2b89067908"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-qa/lists/probable-line-ups-world-cup-2026-st",
+      "url": "https://www.goal.com/en-qa/lists/probable-line-ups-world-cup-2026-starters-and-expected-starting-xi-of-the-48-national-teams/blt0d21c342d47a4cc2"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-us/lists/colombia-squad-world-cup-2026/bltf2",
+      "url": "https://www.goal.com/en-us/lists/colombia-squad-world-cup-2026/bltf252af4fae7c7b3e"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-us/lists/ex-real-madrid-star-james-rodriguez",
+      "url": "https://www.goal.com/en-us/lists/ex-real-madrid-star-james-rodriguez-vows-grace-2026-world-cup-colombia-good-shape-making-first-mls-start-minnesota-united/blt72fff9bbca9abc49"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-us/team/colombia/table/7km4szeh6fs5bbdgypshh",
+      "url": "https://www.goal.com/en-us/team/colombia/table/7km4szeh6fs5bbdgypshh0snd"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en/team/uzbekistan/table/elayenut7wtobtmg7hyujz",
+      "url": "https://www.goal.com/en/team/uzbekistan/table/elayenut7wtobtmg7hyujzdoe"
+    },
+    {
+      "type": "media",
+      "name": "www.goonersguide.com/football-pick-59516-Uzbekistan-vs-Colom",
+      "url": "https://www.goonersguide.com/football-pick-59516-Uzbekistan-vs-Colombia.htm"
+    },
+    {
+      "type": "media",
+      "name": "www.infobae.com/colombia/deportes/2026/03/03/nestor-lorenzo-",
+      "url": "https://www.infobae.com/colombia/deportes/2026/03/03/nestor-lorenzo-hablo-sobre-su-plan-con-la-seleccion-colombia-en-el-mundial-de-2026-tiene-que-mostrar-lo-suyo/"
+    },
+    {
+      "type": "media",
+      "name": "www.infobae.com/colombia/deportes/2026/03/17/radamel-falcao-",
+      "url": "https://www.infobae.com/colombia/deportes/2026/03/17/radamel-falcao-estaria-con-la-seleccion-colombia-en-el-mundial-2026-este-seria-su-rol-en-la-delegacion/"
+    },
+    {
+      "type": "media",
+      "name": "www.infobae.com/en/2022/03/29/the-spanish-league-withdrew-th",
+      "url": "https://www.infobae.com/en/2022/03/29/the-spanish-league-withdrew-the-two-date-sanction-against-colombian-johan-mojica/"
+    },
+    {
+      "type": "media",
+      "name": "www.inkl.com/news/uzbekistan-vs-colombia-world-cup-2026-pred",
+      "url": "https://www.inkl.com/news/uzbekistan-vs-colombia-world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/p/DYrjAYvCRrr/",
+      "url": "https://www.instagram.com/p/DYrjAYvCRrr/"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/p/DZWETqvE2GD/",
+      "url": "https://www.instagram.com/p/DZWETqvE2GD/"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/p/DZXaGCpE4IG/",
+      "url": "https://www.instagram.com/p/DZXaGCpE4IG/"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/p/DZm_EKwk5T5/",
+      "url": "https://www.instagram.com/p/DZm_EKwk5T5/"
+    },
+    {
+      "type": "media",
+      "name": "www.juvefc.com/uzbekistan-v-colombia-predictions/",
+      "url": "https://www.juvefc.com/uzbekistan-v-colombia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.juvefc.com/uzbekistan-world-cup-odds-predictions/",
+      "url": "https://www.juvefc.com/uzbekistan-world-cup-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.kickoffadventures.com/events/world-cup-26/schedule/by-ci",
+      "url": "https://www.kickoffadventures.com/events/world-cup-26/schedule/by-city/mexico-city"
+    },
+    {
+      "type": "media",
+      "name": "www.kickoffclock.com/schedule/uzbekistan",
+      "url": "https://www.kickoffclock.com/schedule/uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "www.kun.uz/en/news/2025/06/10/uzbekistan-seals-world-cup-qua",
+      "url": "https://www.kun.uz/en/news/2025/06/10/uzbekistan-seals-world-cup-qualifiers-with-a-dominant-win-over-qatar"
+    },
+    {
+      "type": "media",
+      "name": "www.lacopamundo.com/en/players/eldor-shomurodov",
+      "url": "https://www.lacopamundo.com/en/players/eldor-shomurodov"
+    },
+    {
+      "type": "media",
+      "name": "www.ladbrokes.com/en/news/2026-world-cup-group-k-preview-odd",
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-k-preview-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.livefootballtickets.com/football-news/19409/world-cup-20",
+      "url": "https://www.livefootballtickets.com/football-news/19409/world-cup-2026-group-stage-predictions--all-12-groups.html"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/football/international/world-cup-2026/s",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/standings/"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/football/world-cup-2026/group-k/",
+      "url": "https://www.livescore.com/en/football/world-cup-2026/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/football/world-cup-2026/group-k/standin",
+      "url": "https://www.livescore.com/en/football/world-cup-2026/group-k/standings/"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/football/world-cup-qualification/conmeb",
+      "url": "https://www.livescore.com/en/football/world-cup-qualification/conmebol-qualification/"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/news/football/world-cup/predictions/uzb",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/uzbekistan-v-colombia-predictions-colombia-can-make-strong-start/"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/news/football/world-cup/predictions/wor",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-bet-builder-tips-10-1-five-fold-for-thursday-18-june/"
+    },
+    {
+      "type": "media",
+      "name": "www.livetipsportal.com/en/sportsbetting-tips/uzbekistan-vs-c",
+      "url": "https://www.livetipsportal.com/en/sportsbetting-tips/uzbekistan-vs-colombia-wc-10713926/"
+    },
+    {
+      "type": "media",
+      "name": "www.mancity.com/features/khusanov-story/",
+      "url": "https://www.mancity.com/features/khusanov-story/"
+    },
+    {
+      "type": "media",
+      "name": "www.mancity.com/news/mens/abdukodir-khusanov-uzbekistan-qata",
+      "url": "https://www.mancity.com/news/mens/abdukodir-khusanov-uzbekistan-qatar-63885178"
+    },
+    {
+      "type": "media",
+      "name": "www.marca.com/co/2026/03/16/falcao-garcia-mundial-2026-inesp",
+      "url": "https://www.marca.com/co/2026/03/16/falcao-garcia-mundial-2026-inesperada-revelacion-directivo-fcf.html"
+    },
+    {
+      "type": "media",
+      "name": "www.marca.com/co/2026/05/10/alarma-seleccion-colombia-johan-",
+      "url": "https://www.marca.com/co/2026/05/10/alarma-seleccion-colombia-johan-mojica-retira-lesionado-preocupa-cara-mundial.html"
+    },
+    {
+      "type": "media",
+      "name": "www.marca.com/en/world-cup/2026/03/27/69c6dc2722601de2288b45",
+      "url": "https://www.marca.com/en/world-cup/2026/03/27/69c6dc2722601de2288b45ed.html"
+    },
+    {
+      "type": "media",
+      "name": "www.marca.com/en/world-cup/2026/04/17/69e21ab846163f65768b45",
+      "url": "https://www.marca.com/en/world-cup/2026/04/17/69e21ab846163f65768b458c.html"
+    },
+    {
+      "type": "media",
+      "name": "www.marca.com/en/world-cup/schedule/group-k.html",
+      "url": "https://www.marca.com/en/world-cup/schedule/group-k.html"
+    },
+    {
+      "type": "media",
+      "name": "www.matchbingo.co.uk/world-cup-2026/colombia/james-rodriguez",
+      "url": "https://www.matchbingo.co.uk/world-cup-2026/colombia/james-rodriguez"
+    },
+    {
+      "type": "media",
+      "name": "www.matchbingo.co.uk/world-cup-2026/colombia/luis-diaz",
+      "url": "https://www.matchbingo.co.uk/world-cup-2026/colombia/luis-diaz"
+    },
+    {
+      "type": "media",
+      "name": "www.matchbingo.co.uk/world-cup-2026/uzbekistan/abdukodir-khu",
+      "url": "https://www.matchbingo.co.uk/world-cup-2026/uzbekistan/abdukodir-khusanov"
+    },
+    {
+      "type": "media",
+      "name": "www.mexc.com/news/1149427",
+      "url": "https://www.mexc.com/news/1149427"
+    },
+    {
+      "type": "media",
+      "name": "www.mightytips.com/football-predictions/uzbekistan-vs-colomb",
+      "url": "https://www.mightytips.com/football-predictions/uzbekistan-vs-colombia-prediction-18-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.mightytips.com/news/fifa-world-cup/wc-2026-group-stage-p",
+      "url": "https://www.mightytips.com/news/fifa-world-cup/wc-2026-group-stage-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.mirror.co.uk/sport/football/news/world-cup-colombia-luis",
+      "url": "https://www.mirror.co.uk/sport/football/news/world-cup-colombia-luis-diaz-37104591"
+    },
+    {
+      "type": "media",
+      "name": "www.mlssoccer.com/news/2026-fifa-world-cup-group-k-preview-p",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.mlssoccer.com/news/james-rodriguez-headlines-colombia-20",
+      "url": "https://www.mlssoccer.com/news/james-rodriguez-headlines-colombia-2026-world-cup-roster"
+    },
+    {
+      "type": "media",
+      "name": "www.mlssoccer.com/news/osorio-nelson-lead-canada-to-win-over",
+      "url": "https://www.mlssoccer.com/news/osorio-nelson-lead-canada-to-win-over-uzbekistan-in-pre-world-cup-friendly"
+    },
+    {
+      "type": "media",
+      "name": "www.moredetailnews.com/%E9%AB%94%E8%82%B2/2026%E4%B8%96%E7%9",
+      "url": "https://www.moredetailnews.com/%E9%AB%94%E8%82%B2/2026%E4%B8%96%E7%95%8C%E7%9B%83%E8%B6%B3%E7%90%83%E8%B3%BD/%E5%93%A5%E5%80%AB%E6%AF%94%E4%BA%9Evs%E7%83%8F%E8%8C%B2%E5%88%A5%E5%85%8B%EF%BD%9C2026%E4%B8%96%E7%95%8C%E7%9B%83k%E7%B5%84%E7%84%A6%E9%BB%9E%E6%88%B0%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%90%E8%88%87/"
+    },
+    {
+      "type": "media",
+      "name": "www.mrgreen.com/sport/football/international/world-cup-2026/",
+      "url": "https://www.mrgreen.com/sport/football/international/world-cup-2026/uzbekistan-vs-colombia-e-6819344/"
+    },
+    {
+      "type": "media",
+      "name": "www.mykhel.com/football/colombia-tp832/stats/",
+      "url": "https://www.mykhel.com/football/colombia-tp832/stats/"
+    },
+    {
+      "type": "media",
+      "name": "www.mykhel.com/football/fifa-world-cup-2026-uzbekistan-eldor",
+      "url": "https://www.mykhel.com/football/fifa-world-cup-2026-uzbekistan-eldor-shomurodov-p205048-tp1359-l4/"
+    },
+    {
+      "type": "media",
+      "name": "www.natesilver.net/p/world-cup-2026-odds-predictions",
+      "url": "https://www.natesilver.net/p/world-cup-2026-odds-predictions"
+    },
+    {
+      "type": "media",
+      "name": "www.nbcsports.com/soccer/news/conmebol-qualifying-schedule-f",
+      "url": "https://www.nbcsports.com/soccer/news/conmebol-qualifying-schedule-fixtures-results-for-2026-world-cup-qualifying"
+    },
+    {
+      "type": "media",
+      "name": "www.nownews.com/news/6840575",
+      "url": "https://www.nownews.com/news/6840575"
+    },
+    {
+      "type": "media",
+      "name": "www.nytimes.com/athletic/6842268/2025/12/05/group-k-guide-wo",
+      "url": "https://www.nytimes.com/athletic/6842268/2025/12/05/group-k-guide-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.odds1x2.com/football/world-cup-2026/odds/uzbekistan-vs-c",
+      "url": "https://www.odds1x2.com/football/world-cup-2026/odds/uzbekistan-vs-colombia/"
+    },
+    {
+      "type": "media",
+      "name": "www.olympics.com/en/news/fifa-world-cup-2026-colombia-player",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-colombia-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "www.olympics.com/en/news/fifa-world-cup-2026-uzbekistan-all-",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-uzbekistan-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "www.pickswise.com/world-cup/games/uzbekistan-colombia-world-",
+      "url": "https://www.pickswise.com/world-cup/games/uzbekistan-colombia-world-cup-26-2026-06-18-0200/"
+    },
+    {
+      "type": "media",
+      "name": "www.polymarketworldcup.com",
+      "url": "https://www.polymarketworldcup.com"
+    },
+    {
+      "type": "media",
+      "name": "www.predictionhunt.com/odds/world_cup/colombia-vs-uzbekistan",
+      "url": "https://www.predictionhunt.com/odds/world_cup/colombia-vs-uzbekistan-2026-06-17/21390"
+    },
+    {
+      "type": "media",
+      "name": "www.prizepicks.com/playbook-article/2026-world-cup-group-k-w",
+      "url": "https://www.prizepicks.com/playbook-article/2026-world-cup-group-k-winner-prediction-team-previews-favorites"
+    },
+    {
+      "type": "media",
+      "name": "www.prizepicks.com/playbook-article/colombia-world-cup-2026-",
+      "url": "https://www.prizepicks.com/playbook-article/colombia-world-cup-2026-preview-lineup-best-players-group-picks"
+    },
+    {
+      "type": "media",
+      "name": "www.profee.com/articles/uzbekistan-national-football-team",
+      "url": "https://www.profee.com/articles/uzbekistan-national-football-team"
+    },
+    {
+      "type": "media",
+      "name": "www.racingpost.com/sport/football-tips/world-cup-2026/uzbeki",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/uzbekistan-vs-colombia-betting-tips-predictions-team-news-odds-bet-builder-arLVQ9O2OR9D/"
+    },
+    {
+      "type": "media",
+      "name": "www.racingpost.com/sport/football-tips/world-cup-2026/uzbeki",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/uzbekistan-vs-colombia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-arLVQ9O2OR9D/"
+    },
+    {
+      "type": "media",
+      "name": "www.racingpost.com/sport/football-tips/world-cup-2026/world-",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/world-cup-football-accumulator-tips-for-wednesday-june-17-back-our-acca-at-13-2-amapf3Q8yDyO/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/LiverpoolFC/comments/1u6j2ja/2026_fifa_worl",
+      "url": "https://www.reddit.com/r/LiverpoolFC/comments/1u6j2ja/2026_fifa_world_cup_watch_thread_md1_part_2/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/Uzbekistan/comments/1g5pbay/uzbekistan_2026",
+      "url": "https://www.reddit.com/r/Uzbekistan/comments/1g5pbay/uzbekistan_2026_world_cup_qualification_chances/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/Uzbekistan/comments/1u5054k/dr_congo_vs_uzb",
+      "url": "https://www.reddit.com/r/Uzbekistan/comments/1u5054k/dr_congo_vs_uzbekistan_world_cup_2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/simcupsPredictions/comments/1sah7l0/2026_wo",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1sah7l0/2026_world_cup_group_k_prediction_with_dr_congo/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/ucf/comments/1u3vf1n/colombia_v_uzbekistan_",
+      "url": "https://www.reddit.com/r/ucf/comments/1u3vf1n/colombia_v_uzbekistan_game_viewing/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/worldcup/comments/1l4640q/the_uzbeks_have_d",
+      "url": "https://www.reddit.com/r/worldcup/comments/1l4640q/the_uzbeks_have_done_it_uzbekistan_make_the_2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/worldcup/comments/1l46y8o/uzbekistan_have_q",
+      "url": "https://www.reddit.com/r/worldcup/comments/1l46y8o/uzbekistan_have_qualified_for_the_2026_world_cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/worldcup/comments/1tngwb0/colombia_national",
+      "url": "https://www.reddit.com/r/worldcup/comments/1tngwb0/colombia_national_team_announces_squad_for_2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/betting/soccer/game/uzbekistan-vs-colombia-",
+      "url": "https://www.rotowire.com/betting/soccer/game/uzbekistan-vs-colombia-odds-2026-06-17-2608262?book=caesars"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/article/2026-world-cup-group-k-previ",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/article/uzbekistan-vs-colombia-previ",
+      "url": "https://www.rotowire.com/soccer/article/uzbekistan-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-118365"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/headlines/jaloliddin-masharipov-inju",
+      "url": "https://www.rotowire.com/soccer/headlines/jaloliddin-masharipov-injury-ruled-out-of-world-cup-519673"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/player/johan-mojica-25022",
+      "url": "https://www.rotowire.com/soccer/player/johan-mojica-25022"
+    },
+    {
+      "type": "media",
+      "name": "www.rugby-addict.com/en-ie/article/worcester-warriors/uzbeki",
+      "url": "https://www.rugby-addict.com/en-ie/article/worcester-warriors/uzbekistan-vs-colombia-prediction-team-news-lineups-world-cup-2026/6a3017ac39b1252a47019f26"
+    },
+    {
+      "type": "media",
+      "name": "www.semana.com/deportes/articulo/colombia-vs-uzbekistan-inte",
+      "url": "https://www.semana.com/deportes/articulo/colombia-vs-uzbekistan-inteligencia-artificial-pronostica-marcador-final-del-partido-en-el-mundial/202634/"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-",
+      "url": "https://www.si.com/betting/2026-world-cup-odds-and-best-bets-to-win-every-group-colombia-paraguay-and-egypt-are-great-plus-money-plays-01ktmbkgc6pj"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/betting/best-dark-horse-world-cup-predictions-and",
+      "url": "https://www.si.com/betting/best-dark-horse-world-cup-predictions-and-pick-ecuadors-defense-makes-them-fascinating-long-shot-option"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/es-us/futbol/uzbekistan-vs-colombia-previa-predic",
+      "url": "https://www.si.com/es-us/futbol/uzbekistan-vs-colombia-previa-predicciones-y-alineaciones-17-6-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/uzbekistan-2026-world-cup-preview",
+      "url": "https://www.si.com/soccer/uzbekistan-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/uzbekistan-vs-colombia-world-cup-preview-p",
+      "url": "https://www.si.com/soccer/uzbekistan-vs-colombia-world-cup-preview-predictions-lineups-6-17-26"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/world-cup/standings",
+      "url": "https://www.si.com/soccer/world-cup/standings"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/news/12040/13543106/world-cup-202",
+      "url": "https://www.skysports.com/football/news/12040/13543106/world-cup-2026-group-k-guide-fixtures-schedule-standings-and-odds-for-portugal-dr-congo-uzbekistan-and-colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/uzbekistan-vs-colombia/549787",
+      "url": "https://www.skysports.com/football/uzbekistan-vs-colombia/549787"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/uzbekistan-vs-colombia/table/5497",
+      "url": "https://www.skysports.com/football/uzbekistan-vs-colombia/table/549787"
+    },
+    {
+      "type": "media",
+      "name": "www.soccerpunter.com/h2h/Uzbekistan-vs-Colombia/18745/18720/",
+      "url": "https://www.soccerpunter.com/h2h/Uzbekistan-vs-Colombia/18745/18720/"
+    },
+    {
+      "type": "media",
+      "name": "www.soccerpunter.com/team/all/26618/18745/Uzbekistan-in-Worl",
+      "url": "https://www.soccerpunter.com/team/all/26618/18745/Uzbekistan-in-World-World-Cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.sofascore.com/football/match/colombia-uzbekistan/yUbsvWb",
+      "url": "https://www.sofascore.com/football/match/colombia-uzbekistan/yUbsvWb"
+    },
+    {
+      "type": "media",
+      "name": "www.sportbotai.com/news/uzbekistan-vs-colombia-fifa-world-cu",
+      "url": "https://www.sportbotai.com/news/uzbekistan-vs-colombia-fifa-world-cup-2026-prediction"
+    },
+    {
+      "type": "media",
+      "name": "www.sportbusy.com/world-cup-2026/teams/colombia/players/luis",
+      "url": "https://www.sportbusy.com/world-cup-2026/teams/colombia/players/luis-diaz/"
+    },
+    {
+      "type": "media",
+      "name": "www.sportinglife.com/amp/football/news/best-bets-world-cup-t",
+      "url": "https://www.sportinglife.com/amp/football/news/best-bets-world-cup-tips-and-predictions-for-june-18-and-19-or-czechia-vs-south-africa-canada-vs-qatar-mexico-vs-south-korea/232694"
+    },
+    {
+      "type": "media",
+      "name": "www.sportinglife.com/football/news/jake-osgathorpes-2026-wor",
+      "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-2026-world-cup-tips-and-predictions-group-stage-round-one/232562"
+    },
+    {
+      "type": "media",
+      "name": "www.sportinglife.com/free-bets/news/colombia-world-cup-2026/",
+      "url": "https://www.sportinglife.com/free-bets/news/colombia-world-cup-2026/671"
+    },
+    {
+      "type": "media",
+      "name": "www.sportinglife.com/free-bets/news/uzbekistan-vs-colombia-w",
+      "url": "https://www.sportinglife.com/free-bets/news/uzbekistan-vs-colombia-world-cup-2026-betting-preview-odds-free-bets/719"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/ca/soccer/news/uzbekistan-colombia-line",
+      "url": "https://www.sportingnews.com/ca/soccer/news/uzbekistan-colombia-lineup-starting-11-world-cup-2026/57cf89adaf36f917b61e58f0"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/ca/soccer/news/world-cup-group-k-standi",
+      "url": "https://www.sportingnews.com/ca/soccer/news/world-cup-group-k-standings-results-table-2026-portugal/7a4e10a194b91a6159878551"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/in/football/news/uzbekistan-colombia-li",
+      "url": "https://www.sportingnews.com/in/football/news/uzbekistan-colombia-lineup-starting-11-world-cup-2026/57cf89adaf36f917b61e58f0"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/us/soccer/news/colombia-world-cup-roste",
+      "url": "https://www.sportingnews.com/us/soccer/news/colombia-world-cup-roster-2026-squad-players/3b457634ec84371eb217eab2"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/us/soccer/news/world-cup-2026-group-k-d",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-k-draw-teams-schedule-fixtures/e10475b7c39b489bb79bd58c"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsgambler.com/betting-tips/football/uzbekistan-vs-co",
+      "url": "https://www.sportsgambler.com/betting-tips/football/uzbekistan-vs-colombia-prediction-lineups-odds-2026-06-17/"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsline.com/insiders/colombia-vs-uzbekistan-odds-pred",
+      "url": "https://www.sportsline.com/insiders/colombia-vs-uzbekistan-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk",
+      "url": "https://www.sportsmole.co.uk"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/colombia/world-cup-2026/predic",
+      "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/diaz-rodriguez-ready-for-world-cup-opener-predicted-colombia-xi-vs-uzbekistan_599304.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/preview/",
+      "url": "https://www.sportsmole.co.uk/football/preview/"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/pred",
+      "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/predicted-lineups/key-role-for-khusanov-in-cannavaros-xi-predicted-uzbekistan-lineup-vs-colombia_599299.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/prev",
+      "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/preview/uzbekistan-vs-colombia-prediction-team-news-lineups_599296.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/team",
+      "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/team-news/uzbekistan-vs-colombia-injury-suspension-list-predicted-xis_599305.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/world-cup/uzbekistan-vs-colomb",
+      "url": "https://www.sportsmole.co.uk/football/world-cup/uzbekistan-vs-colombia_game_248752.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportstiger.com/football/uzbekistan-announce-fifa-world-",
+      "url": "https://www.sportstiger.com/football/uzbekistan-announce-fifa-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.squawka.com/en/outright-markets/uzbekistan-world-cup-202",
+      "url": "https://www.squawka.com/en/outright-markets/uzbekistan-world-cup-2026-odds/"
+    },
+    {
+      "type": "media",
+      "name": "www.straitstimes.com/multimedia/graphics/2025/12/worldcup-20",
+      "url": "https://www.straitstimes.com/multimedia/graphics/2025/12/worldcup-2026-fixtures/matches/uzbekistan-colombia-06-18/"
+    },
+    {
+      "type": "media",
+      "name": "www.straitstimes.com/sport/football/shomurodov-and-khusanov-",
+      "url": "https://www.straitstimes.com/sport/football/shomurodov-and-khusanov-lead-uzbekistans-first-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.straitstimes.com/sport/football/uzbekistan-reach-first-w",
+      "url": "https://www.straitstimes.com/sport/football/uzbekistan-reach-first-world-cup-as-government-investment-pays-off1"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/09/colombia-world-cup-",
+      "url": "https://www.theguardian.com/football/2026/jun/09/colombia-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/10/uzbekistan-world-cu",
+      "url": "https://www.theguardian.com/football/2026/jun/10/uzbekistan-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "www.thelines.com/odds/world-cup/group-k/",
+      "url": "https://www.thelines.com/odds/world-cup/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "www.thelines.com/uk/odds/world-cup/group-k/",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "www.thesoccerworldcups.com/head_to_head/uzbekistan_vs_colomb",
+      "url": "https://www.thesoccerworldcups.com/head_to_head/uzbekistan_vs_colombia.php"
+    },
+    {
+      "type": "media",
+      "name": "www.thesoccerworldcups.com/national_teams/colombia_national_",
+      "url": "https://www.thesoccerworldcups.com/national_teams/colombia_national_team.php"
+    },
+    {
+      "type": "media",
+      "name": "www.thesoccerworldcups.com/national_teams/uzbekistan_nationa",
+      "url": "https://www.thesoccerworldcups.com/national_teams/uzbekistan_national_team.php"
+    },
+    {
+      "type": "media",
+      "name": "www.thestar.com.my/sport/football/2026/06/02/soccer-diaz-fue",
+      "url": "https://www.thestar.com.my/sport/football/2026/06/02/soccer-diaz-fuels-colombia039s-hopes-on-world-cup-return"
+    },
+    {
+      "type": "media",
+      "name": "www.ticombo.it/en/world-cup-2026/standings/group-k",
+      "url": "https://www.ticombo.it/en/world-cup-2026/standings/group-k"
+    },
+    {
+      "type": "media",
+      "name": "www.toffeeweb.com/uzbekistan-vs-colombia-predictions-picks-o",
+      "url": "https://www.toffeeweb.com/uzbekistan-vs-colombia-predictions-picks-odds-18-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.trustnbet.com/betting-predictions/wc-uzbekistan-vs-colom",
+      "url": "https://www.trustnbet.com/betting-predictions/wc-uzbekistan-vs-colombia-predictions-06-17-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.united-2026.com/matches",
+      "url": "https://www.united-2026.com/matches"
+    },
+    {
+      "type": "media",
+      "name": "www.united-2026.com/stadiums/estadio-azteca",
+      "url": "https://www.united-2026.com/stadiums/estadio-azteca"
+    },
+    {
+      "type": "media",
+      "name": "www.united-2026.com/teams/colombia",
+      "url": "https://www.united-2026.com/teams/colombia"
+    },
+    {
+      "type": "media",
+      "name": "www.vegasinsider.com/soccer/odds/world-cup/",
+      "url": "https://www.vegasinsider.com/soccer/odds/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.watchabilityscore.com/game/uzbekistan-vs-colombia-world-",
+      "url": "https://www.watchabilityscore.com/game/uzbekistan-vs-colombia-world-cup-2026-06-18"
+    },
+    {
+      "type": "media",
+      "name": "www.wc2026report.com/en/news/wcup-warmup-friendlies-june8-20",
+      "url": "https://www.wc2026report.com/en/news/wcup-warmup-friendlies-june8-2026-results"
+    },
+    {
+      "type": "media",
+      "name": "www.wincomparator.com/predictions/uzbekistan-colombia-793743",
+      "url": "https://www.wincomparator.com/predictions/uzbekistan-colombia-7937434/"
+    },
+    {
+      "type": "media",
+      "name": "www.worldcup.org.uk/football/2026/groups/GroupK.shtml",
+      "url": "https://www.worldcup.org.uk/football/2026/groups/GroupK.shtml"
+    },
+    {
+      "type": "media",
+      "name": "www.worldcup26hub.com/stats",
+      "url": "https://www.worldcup26hub.com/stats"
+    },
+    {
+      "type": "media",
+      "name": "www.worldcupfifa.com.tw/post/uzbekistan-vs-colombia-2026-wor",
+      "url": "https://www.worldcupfifa.com.tw/post/uzbekistan-vs-colombia-2026-world-cup-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=-_0ZsFpCD3g",
+      "url": "https://www.youtube.com/watch?v=-_0ZsFpCD3g"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=-gP7YDJo8BQ",
+      "url": "https://www.youtube.com/watch?v=-gP7YDJo8BQ"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=20MoOVi6VK0",
+      "url": "https://www.youtube.com/watch?v=20MoOVi6VK0"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=26AitSwB1JI",
+      "url": "https://www.youtube.com/watch?v=26AitSwB1JI"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=2SqAjGfFor4",
+      "url": "https://www.youtube.com/watch?v=2SqAjGfFor4"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=4nVWG6wfDFs",
+      "url": "https://www.youtube.com/watch?v=4nVWG6wfDFs"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=5c5H7w9U2FM",
+      "url": "https://www.youtube.com/watch?v=5c5H7w9U2FM"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=79zSSd_72A4",
+      "url": "https://www.youtube.com/watch?v=79zSSd_72A4"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=88gqXKsHNcM",
+      "url": "https://www.youtube.com/watch?v=88gqXKsHNcM"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=8E578_uIN4g",
+      "url": "https://www.youtube.com/watch?v=8E578_uIN4g"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=9NDGx0s8zhs",
+      "url": "https://www.youtube.com/watch?v=9NDGx0s8zhs"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=E7dQXEbL6o8",
+      "url": "https://www.youtube.com/watch?v=E7dQXEbL6o8"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=F-X9xINz9bc",
+      "url": "https://www.youtube.com/watch?v=F-X9xINz9bc"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=Fj9tJJ8WueU",
+      "url": "https://www.youtube.com/watch?v=Fj9tJJ8WueU"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=FqAhlRJ7JDM",
+      "url": "https://www.youtube.com/watch?v=FqAhlRJ7JDM"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=G1ujxpYj5K0",
+      "url": "https://www.youtube.com/watch?v=G1ujxpYj5K0"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=G1ujxpYj5K0&vl=ja",
+      "url": "https://www.youtube.com/watch?v=G1ujxpYj5K0&vl=ja"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=G1ujxpYj5K0&vl=pl",
+      "url": "https://www.youtube.com/watch?v=G1ujxpYj5K0&vl=pl"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=G1ujxpYj5K0&vl=ru",
+      "url": "https://www.youtube.com/watch?v=G1ujxpYj5K0&vl=ru"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=GyFE5KZg-GM",
+      "url": "https://www.youtube.com/watch?v=GyFE5KZg-GM"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=HAZjYzD2N1w",
+      "url": "https://www.youtube.com/watch?v=HAZjYzD2N1w"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=Inu8pUB5-7o",
+      "url": "https://www.youtube.com/watch?v=Inu8pUB5-7o"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=N4lZEr8jkv8",
+      "url": "https://www.youtube.com/watch?v=N4lZEr8jkv8"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=OtgHJ9I7CYs",
+      "url": "https://www.youtube.com/watch?v=OtgHJ9I7CYs"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=PkV4o03Llj0",
+      "url": "https://www.youtube.com/watch?v=PkV4o03Llj0"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=PyuGAkoPQAY",
+      "url": "https://www.youtube.com/watch?v=PyuGAkoPQAY"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=WQfeRCkeG6A",
+      "url": "https://www.youtube.com/watch?v=WQfeRCkeG6A"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=XCPOWpMKILg",
+      "url": "https://www.youtube.com/watch?v=XCPOWpMKILg"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=Y7ufoAI79SM",
+      "url": "https://www.youtube.com/watch?v=Y7ufoAI79SM"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=YVSGj9sTEJs",
+      "url": "https://www.youtube.com/watch?v=YVSGj9sTEJs"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=ZOR0MBIy6X4",
+      "url": "https://www.youtube.com/watch?v=ZOR0MBIy6X4"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=ZS0hlrE1exY",
+      "url": "https://www.youtube.com/watch?v=ZS0hlrE1exY"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=ZaHedLZZClw",
+      "url": "https://www.youtube.com/watch?v=ZaHedLZZClw"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=ab47MuC_idc",
+      "url": "https://www.youtube.com/watch?v=ab47MuC_idc"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=dhSqp_xj38o",
+      "url": "https://www.youtube.com/watch?v=dhSqp_xj38o"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=eLZb3SoJPvg",
+      "url": "https://www.youtube.com/watch?v=eLZb3SoJPvg"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=hEuLxC6x_DE",
+      "url": "https://www.youtube.com/watch?v=hEuLxC6x_DE"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=hr95bgkriog",
+      "url": "https://www.youtube.com/watch?v=hr95bgkriog"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=igMnNnOZdY8",
+      "url": "https://www.youtube.com/watch?v=igMnNnOZdY8"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=lJYSnpUhle8",
+      "url": "https://www.youtube.com/watch?v=lJYSnpUhle8"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=ltOjo5PqrXE",
+      "url": "https://www.youtube.com/watch?v=ltOjo5PqrXE"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=lwxxTAh6s-M",
+      "url": "https://www.youtube.com/watch?v=lwxxTAh6s-M"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=lwxxTAh6s-M&vl=ko",
+      "url": "https://www.youtube.com/watch?v=lwxxTAh6s-M&vl=ko"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=lxyyHxWRNDI",
+      "url": "https://www.youtube.com/watch?v=lxyyHxWRNDI"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=m3iEQeKXS6U&vl=en-US",
+      "url": "https://www.youtube.com/watch?v=m3iEQeKXS6U&vl=en-US"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=mwPcm9xvqQk",
+      "url": "https://www.youtube.com/watch?v=mwPcm9xvqQk"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=oH4LWY7EvH0",
+      "url": "https://www.youtube.com/watch?v=oH4LWY7EvH0"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=ojbtmjx3EC4",
+      "url": "https://www.youtube.com/watch?v=ojbtmjx3EC4"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=pV6JK3XCBW8",
+      "url": "https://www.youtube.com/watch?v=pV6JK3XCBW8"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=qSmb_n_Vh7I",
+      "url": "https://www.youtube.com/watch?v=qSmb_n_Vh7I"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=rEBINzrAaq0",
+      "url": "https://www.youtube.com/watch?v=rEBINzrAaq0"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=tPfsPQtT2eY",
+      "url": "https://www.youtube.com/watch?v=tPfsPQtT2eY"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=wjAipTF-lEs",
+      "url": "https://www.youtube.com/watch?v=wjAipTF-lEs"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=xppgAEzSFrA",
+      "url": "https://www.youtube.com/watch?v=xppgAEzSFrA"
+    },
+    {
+      "type": "media",
+      "name": "x.com/SportsMole/status/2066601664631509052",
+      "url": "https://x.com/SportsMole/status/2066601664631509052"
+    },
+    {
+      "type": "media",
+      "name": "xeniaevents.com/venue-guide/estadio-azteca-mexico-city/",
+      "url": "https://xeniaevents.com/venue-guide/estadio-azteca-mexico-city/"
+    },
+    {
+      "type": "media",
+      "name": "zamin.uz/en/sport/204666-uzbekistan-s-chances-of-advancing-f",
+      "url": "https://zamin.uz/en/sport/204666-uzbekistan-s-chances-of-advancing-from-the-2026-world-cup-group-stage-evaluated.html"
+    },
+    {
+      "type": "media",
+      "name": "zamin.uz/en/sport/204945-supercomputer-rates-uzbekistan-s-20",
+      "url": "https://zamin.uz/en/sport/204945-supercomputer-rates-uzbekistan-s-2026-world-cup-chances-highly.html"
+    },
+    {
+      "type": "media",
+      "name": "zamin.uz/en/sport/206271-bad-news-regarding-masharipov-ahead",
+      "url": "https://zamin.uz/en/sport/206271-bad-news-regarding-masharipov-ahead-of-the-world-cup.html"
+    }
+  ],
+  "source_count": 478,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.24,
+        "away": 0.58
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞整體實力明顯優於烏茲別克，客場有望取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.2,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞實力明顯佔優，預計能順利擊敗烏茲別克。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞實力明顯佔優，有望客場取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "烏茲別克攻守均衡但經驗遜色，哥倫比亞技術與硬度更勝一籌"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.13,
+        "draw": 0.22,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞陣容實力與大賽經驗遠勝對手，預計能穩健拿下勝利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.27,
+        "away": 0.55
+      },
+      "scoreline": "0:2",
+      "note": "哥倫比亞實力占優，客場勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "哥倫比亞實力較強，客場全取三分機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.162,
+      "draw": 0.231,
+      "away": 0.607
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T093002Z"
+}

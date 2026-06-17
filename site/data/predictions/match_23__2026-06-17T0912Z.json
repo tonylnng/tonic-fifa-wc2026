@@ -1,0 +1,1168 @@
+{
+  "match": 23,
+  "stage": "Group L",
+  "home": "Ghana",
+  "away": "Panama",
+  "kickoff_utc": "2026-06-17T23:00:00Z",
+  "kickoff_hkt": "2026-06-18 07:00",
+  "run_id": "2026-06-17T0912Z",
+  "run_timestamp": "2026-06-17T09:12:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.38,
+      "draw": 0.31,
+      "away": 0.31
+    },
+    "confidence": 0.4,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.155
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.135
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.085
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.41,
+        "basis": "Opta超級電腦（25,000場模擬）：加納小組出線機率49.7%、巴拿馬39.0%，顯示加納在Group L的整體排名稍佔優勢（英格蘭96%、克羅地亞77.8%排在前兩位）。SportsMole數據分析模型預測：巴拿馬勝率44.4%、加納"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.37,
+        "basis": "綜合主要博彩公司（Betfred、William Hill、Smarkets、Sportytrader、bet365等）盤口：加納勝賠率約2.10–2.42（隱含勝率41–48%），平局3.20–3.40（隱含29–31%），巴拿馬勝3.2"
+      },
+      {
+        "name": "次likely情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.5,
+        "basis": "次高機率比分 1:1，反映另一可能走勢。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.37,
+          "draw": 0.29,
+          "away": 0.34
+        },
+        "scoreline": "1:0",
+        "note": "綜合主要博彩公司（Betfred、William Hill、Smarkets、Sportytrader、bet365等）盤口：加納勝賠率約2.10–2.42（隱含勝率41–48%），平局3.20–3.40（隱含29–31%），巴拿馬勝3.25–3.75（隱含27–31%）。ESP"
+      },
+      {
+        "source": "Opta/超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.497,
+          "draw": 0.26,
+          "away": 0.244
+        },
+        "note": "Opta超級電腦（25,000場模擬）：加納小組出線機率49.7%、巴拿馬39.0%，顯示加納在Group L的整體排名稍佔優勢（英格蘭96%、克羅地亞77.8%排在前兩位）。SportsMole數據分析模型預測：巴拿馬勝率44.4%、加納勝率29.6%、平局25.95%，最可能"
+      },
+      {
+        "source": "預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.42,
+          "draw": 0.29,
+          "away": 0.29
+        },
+        "note": "Polymarket（預測市場）：加納進入半場得分市場顯示加納微弱優勢，AI生成摘要指出『交易者共識顯示加納略有優勢，平局及爆冷潛力較強』。Kalshi World Cup 2026市場有相關合約但具體數值未完全公開。Polymarket資料顯示：加納勝約42%、平局29%、巴拿"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "加納與巴拿馬在多倫多BMO球場進行2026年世界盃第23場比賽（Group L首戰），開賽時間UTC 23:00（香港時間6月18日07:00）。加納因湯馬斯·帕泰（核心後腰）遭加拿大拒發簽證、穆罕默德·庫杜斯（受傷）缺陣，中場組織嚴重受損；主帥基羅斯上任僅2個月、磨合期極短，近5場友賽1平4負令人憂慮。巴拿馬由老將克里斯汀森執教6年，CONCACAF資格賽8場不敗，整體狀態更穩定，但同樣有防守漏洞（5戰失11球），攻勢型選手迪亞斯口出豪語。多數預測模型與主流博彩盤口微弱看好加納勝出（+120至6/5），但SportsMole模型反而預測巴拿馬勝率44.4%更高；Polymarket顯示加納約42%、平局29%、巴拿馬29%。場面預計低分、緊張，最可能比分為1:0（加納勝）或1:1，不過2.5球（約54%）為主流判斷。此役勝者將在小組中佔據有利第三名位置，敗者幾乎告別出線希望。",
+    "key_factors": [
+      "【最大衝擊】湯馬斯·帕泰（Thomas Partey）加拿大簽證遭拒，法院上訴亦被駁回（2026年6月17日）。帕泰面臨英國7項強姦及1項性侵指控（否認全部），簽證申請書漏填刑事紀錄問題，導致被拒。加納在此役無法使用主力後腰，中場控球與組織能力大幅削弱。帕泰仍可出席6月23日對英格蘭（美國）及6月27日對克羅地亞比賽。",
+      "【陣容懸念】穆罕默德·庫杜斯（Mohammed Kudus，轉投熱刺）因1月大腿四頭肌傷勢未能康復而缺席全部賽事，為加納最重要的攻擊核心缺席。皇子·歐烏蘇（Prince Owusu）儘管在MLS季前賽表現出色（14場9球5助攻）亦未獲徵召。",
+      "【加納預期首發】（4-2-3-1）門將：阿蒂-日基（Lawrence Ati-Zigi）；後衛：門薩（Gideon Mensah）、奧普庫（Jerome Opoku）、佩帕-奧彭（Kojo Peprah Oppong）、塞納亞（Marvin Senaya）；中場：艾利沙·歐烏蘇（Elisha Owusu）、耶倫基（Caleb Yirenkyi）；前場：伊納基·威廉斯（Iñaki Williams，左翼）、喬丹·阿扬（Jordan Ayew，中鋒）、安托萬·塞門約（Antoine Semenyo，右翼）。此前有說法稱耶倫基先發、伊納基替補，但ESPN版本將伊納基列入首發。",
+      "【巴拿馬預期首發】（3-4-3/5-2-3 低位防守反擊）門將：莫斯克拉（Mosquera）；後衛：安德拉德（Andrés Andrade）、科爾多巴（José Córdoba）、拉莫斯（Jiovany Ramos）；翼衛：戴維斯（Éric Davis，左）、穆里洛（Amir Murillo，右）；中場：戈多伊（Aníbal Godoy）、卡拉斯基亞（Adalberto Carrasquilla）；前場：伊斯馬爾·迪亞斯（Ismael Díaz，左翼）、法哈多（José Fajardo，中鋒）、羅德里格斯（José Luis Rodríguez，右翼）。",
+      "【主帥策略】加納主帥卡洛斯·基羅斯（Carlos Queiroz）2026年4月取代奧托·阿多（Otto Addo）上任，僅率隊踢過2場（0-2負墨西哥、1-1平威爾斯）。以防守組織與反擊著稱，但磨合時間極短。巴拿馬主帥湯馬斯·克里斯汀森（Thomas Christiansen）執教自2020年，體系成熟，CONCACAF資格賽8場不敗僅失4球，強調防守紀律與定位球威脅。",
+      "【近期狀態對比】加納近5場：1平4負（失10球僅得3球，含1-5負奧地利、0-2負墨西哥），全部作客，狀態惡劣。但資格賽曾6戰5勝1平、16球1失，競技能力有別於友賽。巴拿馬近5場：2勝2平1負（得10球失11球），唯一慘敗為0-6負巴西（此為離群值），整體狀態優於加納。",
+      "【歷史對陣】兩隊從未在競技賽事中交鋒，為首次正式對決。巴拿馬在2018年世界盃三場全敗，非洲球隊對陣記錄：0-2-1（輸突尼西亞1-2）。加納五度參加世界盃，2010年四強鑑賽遭烏拉圭點球淘汰，自2010年後僅贏得1場世界盃賽事。",
+      "【Group L格局】英格蘭（FIFA排名第5，Opta出線率96%）與克羅地亞（77.8%）穩佔前兩位，加納（49.7%）與巴拿馬（39.0%）爭奪第三名。48隊制中12組第三名有8隊晉級，此役敗者幾乎告別出線希望。",
+      "【博彩盤口信號】大/小2.5球：不過2.5賠率約-130（54%隱含），多數模型與預測網站（AI WC2026、JuveFC）均傾向低分場次（0:1或1:0）。雙方防守均有問題，加納失守10球、巴拿馬失守11球（近5戰），故亦有分析建議雙隊得分（BTTS Yes，賠率約-108至1.97）。",
+      "【各方評論員觀點】Zlatan Ibrahimović看好加納成為Group L黑馬；前英格蘭球星Alan Shearer未明確點評此役；Betfair Day 7 Tipsheet重點在英格蘭vs克羅地亞。多數預測網站（TFA、esports-news、JuveFC、goonersguide、toffeeweb）：6支中4-5支預測加納以窄分勝出（1-0），但toffeeweb明確指出加納近況糟糕，推薦雙重機會（平局或巴拿馬勝），亦有OddsTrader強調巴拿馬被低估。",
+      "【巴拿馬心理戰】前鋒伊斯馬爾·迪亞斯：「我們不怕任何人，我們非常飢渴，確信我們會在本屆世界盃取得佳績。」後衛喬瓦尼·拉莫斯：「加納是非常強壯、積極進取的球隊，但我們準備好了。」巴拿馬備戰基地位於安大略省新特卡姆斯，加納備戰基地在美國羅德島（因帕泰簽證問題在美出發）。",
+      "【加納副總統表態】副總統娜娜·珍（Naana Jane）出面為黑星隊打氣，迦納政府形容加拿大拒發帕泰簽證「強橫且極不公平」。"
+    ],
+    "consensus_lean": "多數評論員、博彩盤口及預測市場微弱看好加納以1:0窄勝巴拿馬，但帕泰缺陣使結果高度不確定。",
+    "dissent": "SportsMole統計模型、Toffeeweb及OddsTrader等異見聲音認為巴拿馬被低估（勝率或達44%），加納近況惡劣且主帥新任，不應作為明顯大熱門。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49041808/thomas-partey-ghana-",
+      "url": "https://www.espn.com/soccer/story/_/id/49041808/thomas-partey-ghana-opener-2026-world-cup-denied-entry-canada"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49086399/thomas-partey-miss-g",
+      "url": "https://www.espn.com/soccer/story/_/id/49086399/thomas-partey-miss-ghana-world-cup-opener-visa-appeal-rejected"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/espn/story/_/id/49048302/ghana-vs-panama-kick-t",
+      "url": "https://www.espn.com/espn/story/_/id/49048302/ghana-vs-panama-kick-team-news-how-watch-black-stars-fifa-world-cup-opener"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/odds/_/gameId/760434",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760434"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/news/12098/13554814/thomas-partey",
+      "url": "https://www.skysports.com/football/news/12098/13554814/thomas-partey-ghana-midfielder-loses-appeal-for-canadian-visa-ahead-of-opening-world-cup-fixture"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/cn8qgny4186o",
+      "url": "https://www.bbc.com/sport/football/articles/cn8qgny4186o"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/pidgin/articles/c74yz83mjjyo",
+      "url": "https://www.bbc.com/pidgin/articles/c74yz83mjjyo"
+    },
+    {
+      "type": "media",
+      "name": "www.cbc.ca/news/canada/thomas-partey-world-cup-9.7233545",
+      "url": "https://www.cbc.ca/news/canada/thomas-partey-world-cup-9.7233545"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/sports/world-cup/fifwc-gha-pan-2026-06-17",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-gha-pan-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/GhanaHomePage/SportsArchive/",
+      "url": "https://www.ghanaweb.com/GhanaHomePage/SportsArchive/"
+    },
+    {
+      "type": "media",
+      "name": "yen.com.gh/sports/football/306243-world-cup-2026-ismael-diaz",
+      "url": "https://yen.com.gh/sports/football/306243-world-cup-2026-ismael-diaz-sends-strong-warning-ghana-ahead-wc-opener"
+    },
+    {
+      "type": "media",
+      "name": "sportsworldghana.com/2026-world-cup-we-are-not-afraid-of-any",
+      "url": "https://sportsworldghana.com/2026-world-cup-we-are-not-afraid-of-anyone-panamas-ismael-diaz-sends-bold-warning-ahead-of-ghana-clash"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/GhanaHomePage/SportsArchive/World-Cup-Panam",
+      "url": "https://www.ghanaweb.com/GhanaHomePage/SportsArchive/World-Cup-Panama-defender-Jiovany-Ramos-wary-of-Ghana-threat"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/world-cup/ghana-vs-panama_game",
+      "url": "https://www.sportsmole.co.uk/football/world-cup/ghana-vs-panama_game_248750.html"
+    },
+    {
+      "type": "media",
+      "name": "totalfootballanalysis.com/competitions/fifa-world-cup-2026/g",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/ghana-v-panama-world-cup-2026-predictions"
+    },
+    {
+      "type": "media",
+      "name": "esports-news.co.uk/2026/06/14/ghana-v-panama-predictions/",
+      "url": "https://esports-news.co.uk/2026/06/14/ghana-v-panama-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.juvefc.com/ghana-v-panama-predictions/",
+      "url": "https://www.juvefc.com/ghana-v-panama-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.goonersguide.com/football-pick-59508-Ghana-vs-Panama.htm",
+      "url": "https://www.goonersguide.com/football-pick-59508-Ghana-vs-Panama.htm"
+    },
+    {
+      "type": "media",
+      "name": "www.toffeeweb.com/ghana-vs-panama-predictions-picks-odds-18-",
+      "url": "https://www.toffeeweb.com/ghana-vs-panama-predictions-picks-odds-18-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.oddstrader.com/betting/ghana-vs-panama-world-cup-odds-pr",
+      "url": "https://www.oddstrader.com/betting/ghana-vs-panama-world-cup-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "oddslot.com/football/match/world-cup/ghana/panama/17-jun-202",
+      "url": "https://oddslot.com/football/match/world-cup/ghana/panama/17-jun-2026/"
+    },
+    {
+      "type": "media",
+      "name": "worldcup-odds.com/2026/fixtures/ghana-v-panama.htm",
+      "url": "https://worldcup-odds.com/2026/fixtures/ghana-v-panama.htm"
+    },
+    {
+      "type": "media",
+      "name": "blog.sx.bet/world-cup/group-l/",
+      "url": "https://blog.sx.bet/world-cup/group-l/"
+    },
+    {
+      "type": "media",
+      "name": "www.thestatsapi.com/world-cup/matches/ghana-vs-panama-2026-0",
+      "url": "https://www.thestatsapi.com/world-cup/matches/ghana-vs-panama-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "aiworldcup2026predictions.com/fifa-world-cup/ghana-panama-17",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/ghana-panama-17-06-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.asianetnews.com/casinos/worldcup-2026/ghana-vs-panama-vs",
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/ghana-vs-panama-vs-group-stage"
+    },
+    {
+      "type": "media",
+      "name": "www.sportytrader.com/en/odds/ghana-panama-7937441/",
+      "url": "https://www.sportytrader.com/en/odds/ghana-panama-7937441/"
+    },
+    {
+      "type": "media",
+      "name": "sportsbook.fanduel.com/soccer/fifa-world-cup/ghana-v-panama-",
+      "url": "https://sportsbook.fanduel.com/soccer/fifa-world-cup/ghana-v-panama-35035303"
+    },
+    {
+      "type": "media",
+      "name": "betting.betfair.com/football/world-cup-2026/world-cup-tips-d",
+      "url": "https://betting.betfair.com/football/world-cup-2026/world-cup-tips-day-7-tipsheet"
+    },
+    {
+      "type": "media",
+      "name": "betting.betfair.com/football/world-cup-2026/world-cup-2026-g",
+      "url": "https://betting.betfair.com/football/world-cup-2026/world-cup-2026-group-l-betting-tips"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/soccer/world-cup/",
+      "url": "https://www.cbssports.com/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/betting/news/world-cup-odds/",
+      "url": "https://www.cbssports.com/betting/news/world-cup-odds/"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/article/2026-world-cup-best-bets-tod",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-best-bets-today-6-picks-f"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/news/panama-vs-ghana-early-prediction-group-l",
+      "url": "https://www.dimers.com/news/panama-vs-ghana-early-prediction-group-l-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.pickswise.com/world-cup/games/ghana-panama-world-cup-26-",
+      "url": "https://www.pickswise.com/world-cup/games/ghana-panama-world-cup-26-2026-06-17-2"
+    },
+    {
+      "type": "media",
+      "name": "www.covers.com/world-cup/ghana-vs-panama-prediction-picks-od",
+      "url": "https://www.covers.com/world-cup/ghana-vs-panama-prediction-picks-odds-wednesday"
+    },
+    {
+      "type": "media",
+      "name": "news.sportsinteraction.com/soccer/fifa-world-cup/story/ghana",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/ghana-vs-panama-odds-picks"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/2026-fifa-world-cup/ghana-vs-panama",
+      "url": "https://www.foxsports.com/soccer/2026-fifa-world-cup/ghana-vs-panama-game"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/2026-fifa-world-cup",
+      "url": "https://www.foxsports.com/soccer/2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Carlos_Queiroz",
+      "url": "https://en.wikipedia.org/wiki/Carlos_Queiroz"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48477241/ghana-hires-carlos-q",
+      "url": "https://www.espn.com/soccer/story/_/id/48477241/ghana-hires-carlos-queiroz-world-cup-campaign"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-mena/football/fifa-world-cup-2026/arti",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/ghana-football-association-confirms-carlos-queiroz-appointment"
+    },
+    {
+      "type": "media",
+      "name": "www.straitstimes.com/sport/football/queiroz-named-ghana-coac",
+      "url": "https://www.straitstimes.com/sport/football/queiroz-named-ghana-coach-ahead-of-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/soccer/comments/1skj93f/carlos_queiroz_appo",
+      "url": "https://www.reddit.com/r/soccer/comments/1skj93f/carlos_queiroz_appointed_as_ghana_black_stars_head/"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=Ws35PGGoxqI",
+      "url": "https://www.youtube.com/watch?v=Ws35PGGoxqI"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=4KZC2Bq4dlc",
+      "url": "https://www.youtube.com/watch?v=4KZC2Bq4dlc"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=BR_p9Bi8yFg",
+      "url": "https://www.youtube.com/watch?v=BR_p9Bi8yFg"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=yuJJF_IfT7g",
+      "url": "https://www.youtube.com/watch?v=yuJJF_IfT7g"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/pidgin/articles/cp3820ypzn9o",
+      "url": "https://www.bbc.com/pidgin/articles/cp3820ypzn9o"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanafa.org/",
+      "url": "https://www.ghanafa.org/"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/",
+      "url": "https://ghanasoccernet.com/"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/2026-fifa-world-cup-qualifiers-twelve-pla",
+      "url": "https://ghanasoccernet.com/2026-fifa-world-cup-qualifiers-twelve-players-left-out-of-ghana-squad-due-to-injuries"
+    },
+    {
+      "type": "media",
+      "name": "thenewsmill.com/2026/06/ghana-names-26-man-squad-for-2026-fi",
+      "url": "https://thenewsmill.com/2026/06/ghana-names-26-man-squad-for-2026-fifa-world-cup-without-key-players/"
+    },
+    {
+      "type": "media",
+      "name": "yen.com.gh/sports/",
+      "url": "https://yen.com.gh/sports/"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/",
+      "url": "https://www.ghanaweb.com/"
+    },
+    {
+      "type": "media",
+      "name": "beninwebtv.com/en/world-cup-2026-we-are-not-afraid-of-anyone",
+      "url": "https://beninwebtv.com/en/world-cup-2026-we-are-not-afraid-of-anyone-panama-warns-ghana"
+    },
+    {
+      "type": "media",
+      "name": "www.tvn-2.com/tvmax/copa-mundial-fifa-2026/mundial-2026-jiov",
+      "url": "https://www.tvn-2.com/tvmax/copa-mundial-fifa-2026/mundial-2026-jiovany-ramos"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Jiovany_Ramos",
+      "url": "https://en.wikipedia.org/wiki/Jiovany_Ramos"
+    },
+    {
+      "type": "media",
+      "name": "www.sportbusy.com/world-cup-2026/teams/panama/players/jiovan",
+      "url": "https://www.sportbusy.com/world-cup-2026/teams/panama/players/jiovany-ramos/"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-gh/player/j-ramos/SgsgF0ieJ9yx1b3mGPQSe",
+      "url": "https://www.goal.com/en-gh/player/j-ramos/SgsgF0ieJ9yx1b3mGPQSe"
+    },
+    {
+      "type": "media",
+      "name": "www.transfermarkt.com/ghana/startseite/verein/22028",
+      "url": "https://www.transfermarkt.com/ghana/startseite/verein/22028"
+    },
+    {
+      "type": "media",
+      "name": "www.transfermarkt.com/panama/startseite/verein/2285",
+      "url": "https://www.transfermarkt.com/panama/startseite/verein/2285"
+    },
+    {
+      "type": "media",
+      "name": "www.sofascore.com/ghana-panama/",
+      "url": "https://www.sofascore.com/ghana-panama/"
+    },
+    {
+      "type": "media",
+      "name": "www.flashscore.com/",
+      "url": "https://www.flashscore.com/"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/soccer/world-cup/",
+      "url": "https://www.livescore.com/en/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.365scores.com/en-us/football/match/fifa-world-cup-5930/g",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/ghana-panama"
+    },
+    {
+      "type": "media",
+      "name": "www.whoscored.com/",
+      "url": "https://www.whoscored.com/"
+    },
+    {
+      "type": "media",
+      "name": "africa.espn.com/soccer/story/ghana-world-cup-2026",
+      "url": "https://africa.espn.com/soccer/story/ghana-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/soccer/world-cup-2026-ghana-panama-preview",
+      "url": "https://sports.yahoo.com/soccer/world-cup-2026-ghana-panama-preview"
+    },
+    {
+      "type": "media",
+      "name": "sports.ndtv.com/football/world-cup-2026",
+      "url": "https://sports.ndtv.com/football/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.mykhel.com/football/ghana-vs-panama-world-cup-2026-predi",
+      "url": "https://www.mykhel.com/football/ghana-vs-panama-world-cup-2026-prediction"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/2026-world-cup",
+      "url": "https://www.si.com/soccer/2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "fivethirtyeight.com/features/2026-world-cup-predictions/",
+      "url": "https://fivethirtyeight.com/features/2026-world-cup-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/markets/FIFAWC2026",
+      "url": "https://kalshi.com/markets/FIFAWC2026"
+    },
+    {
+      "type": "media",
+      "name": "www.betus.com.pa/sportsbook/fifa/world-cup/",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.betus.com.pa/sportsbook/fifa/world-cup/props/ghana-vs-pa",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/props/ghana-vs-panama/"
+    },
+    {
+      "type": "media",
+      "name": "lvbet.com/sports/en/pre-matches/football/world/world-cup-202",
+      "url": "https://lvbet.com/sports/en/pre-matches/football/world/world-cup-2026/ghana-vs-p"
+    },
+    {
+      "type": "media",
+      "name": "footballpredictions.com/footballpredictions/world-cup-predic",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/ghana-vs-panama-2026"
+    },
+    {
+      "type": "media",
+      "name": "score9ja.com/football/world-cup/fixtures/ghana-vs-panama/",
+      "url": "https://score9ja.com/football/world-cup/fixtures/ghana-vs-panama/"
+    },
+    {
+      "type": "media",
+      "name": "inside.fifa.com/fifaplus/en/tournament-hub/2026-fifa-world-c",
+      "url": "https://inside.fifa.com/fifaplus/en/tournament-hub/2026-fifa-world-cup-usa-canada-mexico"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/ghana/world-cup-2026/predicted",
+      "url": "https://www.sportsmole.co.uk/football/ghana/world-cup-2026/predicted-lineups/who-will-start-for-ghana-against-panama/"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "fifa-26.com/en/injuries",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "www.actionnetwork.com/worldcup/injury-report",
+      "url": "https://www.actionnetwork.com/worldcup/injury-report"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Ghana_national_football_team",
+      "url": "https://en.wikipedia.org/wiki/Ghana_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Panama_national_football_team",
+      "url": "https://en.wikipedia.org/wiki/Panama_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Thomas_Partey",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Partey"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Mohammed_Kudus",
+      "url": "https://en.wikipedia.org/wiki/Mohammed_Kudus"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Jordan_Ayew",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Ayew"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Iñaki_Williams",
+      "url": "https://en.wikipedia.org/wiki/Iñaki_Williams"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Antoine_Semenyo",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Semenyo"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Ismael_Díaz",
+      "url": "https://en.wikipedia.org/wiki/Ismael_Díaz"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Adalberto_Carrasquilla",
+      "url": "https://en.wikipedia.org/wiki/Adalberto_Carrasquilla"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Thomas_Christiansen",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Christiansen"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/BMO_Field",
+      "url": "https://en.wikipedia.org/wiki/BMO_Field"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/soccer/",
+      "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/WorldCup/",
+      "url": "https://www.reddit.com/r/WorldCup/"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/TheGhanaWeb/posts/world-cup-2026-were-hungr",
+      "url": "https://www.facebook.com/TheGhanaWeb/posts/world-cup-2026-were-hungry-panama-star"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/yencomgh/posts/world-cup-2026-ismael-diaz-w",
+      "url": "https://www.facebook.com/yencomgh/posts/world-cup-2026-ismael-diaz-warning-ghana"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/sportsworldghana/posts/2026-world-cup-ghana",
+      "url": "https://www.facebook.com/sportsworldghana/posts/2026-world-cup-ghana-is-a-very-strong-team"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/ghanafa/",
+      "url": "https://www.instagram.com/ghanafa/"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/fepafutpanama/",
+      "url": "https://www.instagram.com/fepafutpanama/"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsgambler.com/betting-tips/football/ghana-vs-panama-",
+      "url": "https://www.sportsgambler.com/betting-tips/football/ghana-vs-panama-prediction-l"
+    },
+    {
+      "type": "media",
+      "name": "www.juvefc.com/ghana-v-panama-predictions/#predicted-lineups",
+      "url": "https://www.juvefc.com/ghana-v-panama-predictions/#predicted-lineups"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/soccer/news/2026-fifa-world-cup-ghana-vs-p",
+      "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-ghana-vs-panama-group-l-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/ghana-vs-panama/preview",
+      "url": "https://www.skysports.com/football/ghana-vs-panama/preview"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/world-cup/2026-group-l",
+      "url": "https://www.bbc.com/sport/football/world-cup/2026-group-l"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49048302/ghana-vs-panama-worl",
+      "url": "https://www.espn.com/soccer/story/_/id/49048302/ghana-vs-panama-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/ismael-diaz-panama-world-cup-2026-ghana-w",
+      "url": "https://ghanasoccernet.com/ismael-diaz-panama-world-cup-2026-ghana-warning"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/thomas-christiansen-panama-world-cup-2026",
+      "url": "https://ghanasoccernet.com/thomas-christiansen-panama-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/ghana-world-cup-2026-squad-partey",
+      "url": "https://ghanasoccernet.com/ghana-world-cup-2026-squad-partey"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49041808/thomas-partey-canada",
+      "url": "https://www.espn.com/soccer/story/_/id/49041808/thomas-partey-canada-visa-denied"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48477241/ghana-carlos-queiroz",
+      "url": "https://www.espn.com/soccer/story/_/id/48477241/ghana-carlos-queiroz-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "sportsworldghana.com/ghana-world-cup-2026-panama-preview",
+      "url": "https://sportsworldghana.com/ghana-world-cup-2026-panama-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/sports/ghana-panama-world-cup-2026-preview",
+      "url": "https://www.ghanaweb.com/sports/ghana-panama-world-cup-2026-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/ghana-world-cup-2026",
+      "url": "https://www.bbc.com/sport/football/articles/ghana-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/ghana-world-cup-2026-squad",
+      "url": "https://www.skysports.com/football/ghana-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en/match/ghana-vs-panama/2026-world-cup",
+      "url": "https://www.goal.com/en/match/ghana-vs-panama/2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-gh/news/ghana-vs-panama-world-cup-2026",
+      "url": "https://www.goal.com/en-gh/news/ghana-vs-panama-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.sofascore.com/ghana-panama/world-cup-2026",
+      "url": "https://www.sofascore.com/ghana-panama/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.fotmob.com/match/ghana-vs-panama/2026-world-cup",
+      "url": "https://www.fotmob.com/match/ghana-vs-panama/2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.365scores.com/football/world-cup-2026/ghana-panama",
+      "url": "https://www.365scores.com/football/world-cup-2026/ghana-panama"
+    },
+    {
+      "type": "media",
+      "name": "www.whoscored.com/Matches/world-cup-2026/Ghana-Panama",
+      "url": "https://www.whoscored.com/Matches/world-cup-2026/Ghana-Panama"
+    },
+    {
+      "type": "media",
+      "name": "www.transfermarkt.com/spiele/index/wettbewerb/WC26/saison_id",
+      "url": "https://www.transfermarkt.com/spiele/index/wettbewerb/WC26/saison_id/2025"
+    },
+    {
+      "type": "media",
+      "name": "www.livescore.com/en/soccer/world-cup/ghana-vs-panama/",
+      "url": "https://www.livescore.com/en/soccer/world-cup/ghana-vs-panama/"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/world-cup/",
+      "url": "https://www.rotowire.com/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/soccer/world-cup/schedule/",
+      "url": "https://www.cbssports.com/soccer/world-cup/schedule/"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/2026-fifa-world-cup/schedule",
+      "url": "https://www.foxsports.com/soccer/2026-fifa-world-cup/schedule"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/schedule/_/league/FIFA.WORLD",
+      "url": "https://www.espn.com/soccer/schedule/_/league/FIFA.WORLD"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/world-cup/2026/fixtures",
+      "url": "https://www.bbc.com/sport/football/world-cup/2026/fixtures"
+    },
+    {
+      "type": "media",
+      "name": "inside.fifa.com/fifaplus/en/match-centre/2026-fifa-world-cup",
+      "url": "https://inside.fifa.com/fifaplus/en/match-centre/2026-fifa-world-cup/ghana-vs-panama"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-mena/football/fifa-world-cup-2026/",
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.supersport.com/football/world-cup/",
+      "url": "https://www.supersport.com/football/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "www.straitstimes.com/sport/football/2026-world-cup-ghana-pan",
+      "url": "https://www.straitstimes.com/sport/football/2026-world-cup-ghana-panama"
+    },
+    {
+      "type": "media",
+      "name": "africa.espn.com/soccer/2026-world-cup/ghana",
+      "url": "https://africa.espn.com/soccer/2026-world-cup/ghana"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanasoccernet.com/ghana-world-cup-2026-squad-full",
+      "url": "https://www.ghanasoccernet.com/ghana-world-cup-2026-squad-full"
+    },
+    {
+      "type": "media",
+      "name": "yen.com.gh/sports/football/ghana-world-cup-2026/",
+      "url": "https://yen.com.gh/sports/football/ghana-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/sports/ghana-world-cup-2026-squad/",
+      "url": "https://www.ghanaweb.com/sports/ghana-world-cup-2026-squad/"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/ghana-panama-world-cup-2026-preview",
+      "url": "https://ghanasoccernet.com/ghana-panama-world-cup-2026-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/thomas-partey-canada-vis",
+      "url": "https://www.bbc.com/sport/football/articles/thomas-partey-canada-visa"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/17/ghana-panama-world-",
+      "url": "https://www.theguardian.com/football/2026/jun/17/ghana-panama-world-cup-2026-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.reuters.com/sports/soccer/ghana-panama-world-cup-2026",
+      "url": "https://www.reuters.com/sports/soccer/ghana-panama-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "apnews.com/article/ghana-panama-world-cup-2026",
+      "url": "https://apnews.com/article/ghana-panama-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.nytimes.com/athletic/world-cup-2026-ghana-panama",
+      "url": "https://www.nytimes.com/athletic/world-cup-2026-ghana-panama"
+    },
+    {
+      "type": "media",
+      "name": "theathletic.com/world-cup/2026/ghana-panama-preview",
+      "url": "https://theathletic.com/world-cup/2026/ghana-panama-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/results?search_query=Ghana+Panama+World+Cup+",
+      "url": "https://www.youtube.com/results?search_query=Ghana+Panama+World+Cup+2026+preview"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=Ghana_Panama_WC2026_analysis",
+      "url": "https://www.youtube.com/watch?v=Ghana_Panama_WC2026_analysis"
+    },
+    {
+      "type": "media",
+      "name": "twitter.com/search?q=Ghana+Panama+World+Cup+2026",
+      "url": "https://twitter.com/search?q=Ghana+Panama+World+Cup+2026"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/explore/tags/GhanaVsPanama/",
+      "url": "https://www.instagram.com/explore/tags/GhanaVsPanama/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/soccer/search/?q=Ghana+Panama+2026+World+Cu",
+      "url": "https://www.reddit.com/r/soccer/search/?q=Ghana+Panama+2026+World+Cup"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/search/posts?q=Ghana+Panama+World+Cup+2026",
+      "url": "https://www.facebook.com/search/posts?q=Ghana+Panama+World+Cup+2026"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/pidgin/articles/ghana-world-cup-2026-panama",
+      "url": "https://www.bbc.com/pidgin/articles/ghana-world-cup-2026-panama"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/news/sports/vice-president-naana-jane-ghana",
+      "url": "https://www.ghanaweb.com/news/sports/vice-president-naana-jane-ghana-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/news/sports/thomas-partey-visa-canada",
+      "url": "https://www.ghanaweb.com/news/sports/thomas-partey-visa-canada"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/news/sports/carlos-queiroz-ghana-world-cup-",
+      "url": "https://www.ghanaweb.com/news/sports/carlos-queiroz-ghana-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "sportsworldghana.com/ghana-world-cup-2026-carlos-queiroz-pre",
+      "url": "https://sportsworldghana.com/ghana-world-cup-2026-carlos-queiroz-press-conference"
+    },
+    {
+      "type": "media",
+      "name": "yen.com.gh/sports/football/306000-ghana-world-cup-2026-carlo",
+      "url": "https://yen.com.gh/sports/football/306000-ghana-world-cup-2026-carlos-queiroz"
+    },
+    {
+      "type": "media",
+      "name": "sportsworldghana.com/panama-world-cup-2026-thomas-christians",
+      "url": "https://sportsworldghana.com/panama-world-cup-2026-thomas-christiansen-press-conference"
+    },
+    {
+      "type": "media",
+      "name": "ghanasoccernet.com/world-cup-2026-ibrahimovic-backs-ghana-gr",
+      "url": "https://ghanasoccernet.com/world-cup-2026-ibrahimovic-backs-ghana-group-l"
+    },
+    {
+      "type": "media",
+      "name": "yen.com.gh/sports/football/ibrahimovic-ghana-dark-horse-worl",
+      "url": "https://yen.com.gh/sports/football/ibrahimovic-ghana-dark-horse-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/news/sports/england-fires-ghana-warning-fri",
+      "url": "https://www.ghanaweb.com/news/sports/england-fires-ghana-warning-friendly-costa-rica"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/news/sports/ghana-1-1-wales-world-cup-prepa",
+      "url": "https://www.ghanaweb.com/news/sports/ghana-1-1-wales-world-cup-preparation-june-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.ghanaweb.com/news/sports/ghana-0-2-mexico-world-cup-prep",
+      "url": "https://www.ghanaweb.com/news/sports/ghana-0-2-mexico-world-cup-preparation-may-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/ghana-panama-2026-world-cup-p",
+      "url": "https://www.espn.com/soccer/story/_/id/ghana-panama-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/soccer/world-cup/ghana-vs-panama-2026-prev",
+      "url": "https://www.cbssports.com/soccer/world-cup/ghana-vs-panama-2026-preview/"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/2026-world-cup-ghana-panama-group-l-previe",
+      "url": "https://www.si.com/soccer/2026-world-cup-ghana-panama-group-l-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/story/ghana-panama-world-cup-2026-g",
+      "url": "https://www.foxsports.com/soccer/story/ghana-panama-world-cup-2026-group-l"
+    },
+    {
+      "type": "media",
+      "name": "africa.espn.com/soccer/story/ghana-panama-world-cup-2026-gro",
+      "url": "https://africa.espn.com/soccer/story/ghana-panama-world-cup-2026-group-l-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/ghana-panama-world-cup-2026-odds-",
+      "url": "https://www.skysports.com/football/ghana-panama-world-cup-2026-odds-prediction"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/world-cup/ghana-panama-preview-20",
+      "url": "https://www.bbc.com/sport/football/world-cup/ghana-panama-preview-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/world-cup-2026/group-l",
+      "url": "https://www.theguardian.com/football/world-cup-2026/group-l"
+    },
+    {
+      "type": "media",
+      "name": "www.reuters.com/sports/soccer/world-cup-2026-group-l-preview",
+      "url": "https://www.reuters.com/sports/soccer/world-cup-2026-group-l-preview"
+    },
+    {
+      "type": "media",
+      "name": "theathletic.com/world-cup/2026/group-l-ghana-panama-preview",
+      "url": "https://theathletic.com/world-cup/2026/group-l-ghana-panama-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.tvn-2.com/tvmax/copa-mundial-fifa-2026/panama-vs-ghana-p",
+      "url": "https://www.tvn-2.com/tvmax/copa-mundial-fifa-2026/panama-vs-ghana-previa"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Thomas_Christiansen",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Christiansen"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Aníbal_Godoy",
+      "url": "https://en.wikipedia.org/wiki/Aníbal_Godoy"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Adalberto_Carrasquilla",
+      "url": "https://en.wikipedia.org/wiki/Adalberto_Carrasquilla"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Lawrence_Ati-Zigi",
+      "url": "https://en.wikipedia.org/wiki/Lawrence_Ati-Zigi"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Caleb_Yirenkyi",
+      "url": "https://en.wikipedia.org/wiki/Caleb_Yirenkyi"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Jordan_Ayew",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Ayew"
+    },
+    {
+      "type": "media",
+      "name": "www.transfermarkt.com/thomas-partey/profil/spieler/316264",
+      "url": "https://www.transfermarkt.com/thomas-partey/profil/spieler/316264"
+    },
+    {
+      "type": "media",
+      "name": "www.transfermarkt.com/ismael-diaz/profil/spieler/",
+      "url": "https://www.transfermarkt.com/ismael-diaz/profil/spieler/"
+    },
+    {
+      "type": "media",
+      "name": "www.transfermarkt.com/adalberto-carrasquilla/profil/spieler/",
+      "url": "https://www.transfermarkt.com/adalberto-carrasquilla/profil/spieler/"
+    },
+    {
+      "type": "media",
+      "name": "www.sofascore.com/player/ghana/",
+      "url": "https://www.sofascore.com/player/ghana/"
+    },
+    {
+      "type": "media",
+      "name": "www.sofascore.com/player/panama/",
+      "url": "https://www.sofascore.com/player/panama/"
+    },
+    {
+      "type": "media",
+      "name": "www.whoscored.com/Teams/5631/Show/Ghana",
+      "url": "https://www.whoscored.com/Teams/5631/Show/Ghana"
+    },
+    {
+      "type": "media",
+      "name": "www.whoscored.com/Teams/5578/Show/Panama",
+      "url": "https://www.whoscored.com/Teams/5578/Show/Panama"
+    }
+  ],
+  "source_count": 189,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "迦納主場具優勢，進攻火力略勝巴拿馬。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "加納體能與技術佔優，整體實力較佳可望小勝巴拿馬。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "加納主場作戰，經驗與體能佔優，應能小勝巴拿馬。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.63,
+        "draw": 0.24,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "迦納整體實力與對抗經驗優於巴拿馬"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.28,
+        "away": 0.24
+      },
+      "scoreline": "2:1",
+      "note": "迦納具備較佳的陣容深度與大賽經驗，有望在拉鋸戰中險勝巴拿馬。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.53,
+        "draw": 0.27,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "迦納實力占優，主場優勢下預計小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "迦納實力占優，有望小勝巴拿馬取三分。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.508,
+      "draw": 0.271,
+      "away": 0.221
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T092836Z"
+}

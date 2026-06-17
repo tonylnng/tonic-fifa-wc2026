@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-06-17T08:52:53Z",
+  "last_updated": "2026-06-17T09:32:27Z",
   "scorers": [
+    {
+      "id": "ARG-messi",
+      "name_zh": "美斯",
+      "name_en": "Lionel Messi",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "NZL-just",
       "name_zh": "伊利亞·賈斯特",
@@ -79,6 +91,18 @@
       "name_en": "Alexander Isak",
       "team_zh": "瑞典",
       "team": "Sweden",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "JOR-olwan",
+      "name_zh": "阿里·奧萬",
+      "name_en": "Ali Olwan",
+      "team_zh": "約旦",
+      "team": "Jordan",
       "position": "FW",
       "shirt_no": 9,
       "goals": 1,
@@ -338,6 +362,18 @@
       "red_cards": 0
     },
     {
+      "id": "AUT-arnautovic",
+      "name_zh": "阿諾圖域",
+      "name_en": "Marko Arnautović",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "FW",
+      "shirt_no": 7,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-svanberg",
       "name_zh": "馬提亞斯·斯萬貝里",
       "name_en": "Mattias Svanberg",
@@ -465,6 +501,18 @@
       "team": "Mexico",
       "position": "FW",
       "shirt_no": 9,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "AUT-schmid",
+      "name_zh": "施密德",
+      "name_en": "Romano Schmid",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -880,6 +928,18 @@
       "red_cards": 0
     },
     {
+      "id": "AUT-sabitzer",
+      "name_zh": "沙比策",
+      "name_en": "Marcel Sabitzer",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "MF",
+      "shirt_no": 9,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "EGY-marwanattia",
       "name_zh": "馬爾萬·阿提亞",
       "name_en": "Marwan Attia",
@@ -1097,9 +1157,9 @@
     }
   ],
   "totals": {
-    "players": 346,
-    "goals": 51,
-    "yellow_cards": 43,
+    "players": 347,
+    "goals": 57,
+    "yellow_cards": 44,
     "red_cards": 3
   }
 }

@@ -1,0 +1,1213 @@
+{
+  "match": 21,
+  "stage": "Group K",
+  "home": "Portugal",
+  "away": "DR Congo",
+  "kickoff_utc": "2026-06-17T17:00:00Z",
+  "kickoff_hkt": "2026-06-18 01:00",
+  "run_id": "2026-06-17T0912Z",
+  "run_timestamp": "2026-06-17T09:12:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.726,
+      "draw": 0.183,
+      "away": 0.091
+    },
+    "confidence": 0.75,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.148
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.112
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.105
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.098
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.075
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.76,
+        "basis": "Opta超級電腦（theanalyst.com，25,000次模擬）：葡萄牙勝54.6%、平局22.3%、剛果勝23.1%。組別晉級：葡萄牙94.9%，剛果22.1%。小組賽冠軍：葡萄牙59.0%，哥倫比亞34.9%。另一模型（footba"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "綜合多家博彩公司（Betfred、William Hill、Smarkets、FanDuel、bet365等）賠率換算：葡萄牙勝賠率約1.28–1.34（隱含勝率≈75–78%），平局約4.60–5.70（隱含17–22%），剛果民主共和國"
+      },
+      {
+        "name": "次likely情境",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "次高機率比分 3:0，反映另一可能走勢。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.725,
+          "draw": 0.185,
+          "away": 0.09
+        },
+        "scoreline": "2:0",
+        "note": "綜合多家博彩公司（Betfred、William Hill、Smarkets、FanDuel、bet365等）賠率換算：葡萄牙勝賠率約1.28–1.34（隱含勝率≈75–78%），平局約4.60–5.70（隱含17–22%），剛果民主共和國約9–12.50（隱含8–11%）。市場"
+      },
+      {
+        "source": "Opta/超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.546,
+          "draw": 0.223,
+          "away": 0.231
+        },
+        "note": "Opta超級電腦（theanalyst.com，25,000次模擬）：葡萄牙勝54.6%、平局22.3%、剛果勝23.1%。組別晉級：葡萄牙94.9%，剛果22.1%。小組賽冠軍：葡萄牙59.0%，哥倫比亞34.9%。另一模型（footballmeister.com CoachA"
+      },
+      {
+        "source": "預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.755,
+          "draw": 0.167,
+          "away": 0.078
+        },
+        "note": "預測市場數據（2026-06-17截止）：Polymarket — 葡萄牙勝77%（Portugal vs DR Congo match），DR Congo 8%，平局17%（交易量$384K）；Polymarket奪冠市場：西班牙16–28%、法國12–18%、英格蘭10–14"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "葡萄牙以大熱身份迎戰首次闖入世界盃決賽圈（自1974年）的剛果民主共和國，雙方從未在世界盃碰頭，為史上首場對決。唯一重要傷兵是葡萄牙後防核心Rúben Dias確認缺陣，由Gonçalo Inácio與Renato Veiga搭檔中衛，略為削弱後防穩定性。葡萄牙中前場資源極為豐富，C羅（41歲，本季28球）、Bruno Fernandes（21次助攻）、Vitinha、Bernardo Silva、Leão等俱為頂尖球星，陣容深度是本屆參賽隊伍中最優之一。剛果採低位壓縮防守+快速反擊模式，依賴Wissa（紐卡素）和Bakambu（皇家貝蒂斯）在反擊中製造威脅。Opta、Dimers、footballmeister等模型及Polymarket/Kalshi預測市場均一致看好葡萄牙以2:0或3:0獲勝，但Opta給剛果23.1%的勝率比博彩市場（8–11%）更高，反映前者對防守組織的尊重。",
+    "key_factors": [
+      "Rúben Dias確認缺陣（唯一重大傷兵），葡萄牙後防核心缺陣，Inácio+Veiga搭檔為未知數，可能是比賽中唯一的不確定因素",
+      "C羅以41歲之齡出戰第六屆世界盃，在Al-Nassr本季進28球奪沙特職業聯賽冠軍，狀態火熱，Kalshi C羅射門1+賠率1.67（隱含58%）",
+      "剛果民主是1974年以來首次參加世界盃（當年以薩伊名義出戰），全場士氣高昂但世界大賽經驗幾乎為零",
+      "博彩盤口：葡萄牙-1.5讓球約-115至-125，顯示市場預期2球差以上，但並非壓倒性讓球，反映防守不確定性",
+      "Opta超級電腦（25,000次模擬）：葡萄牙54.6%，剛果民主23.1%（較一般預期更接近），Opta比博彩市場更保守，反映剛果在防守上的組織性",
+      "葡萄牙Bruno Fernandes本季21次助攻創英超紀錄，Vitinha+João Neves中場掌控力強，進攻資源全面",
+      "剛果民主有Aaron Wan-Bissaka、Axel Tuanzebe等英超老將，防守硬度足夠，Wissa+Bakambu有速度威脅",
+      "Leão友誼賽紅牌不影響正式賽資格，可正常出場",
+      "Rocky Bushiri（剛果CB）傷缺，由Aaron Tshibola頂替，後防微弱",
+      "多個模型共識最可能比分為2:0（Dimers 13.9%，footballmeister 16%），其次2:1、3:0",
+      "預測市場（Polymarket/Kalshi/Robinhood）全部顯示葡萄牙77–78%勝率，與博彩市場吻合",
+      "Dimers：BTTS雙方均入球僅38.8%，預測葡萄牙較可能零封剛果（葡萄牙不失球概率49.1%）"
+    ],
+    "consensus_lean": "壓倒性共識看好葡萄牙勝（勝率72–78%），最可能比分2:0，大多數模型、預測市場及媒體評論員均預測葡萄牙2球差以上勝出。",
+    "dissent": "少數意見認為剛果民主有機會以低位防守+反擊搏得平局甚至冷門（Opta給剛果23.1%勝率，遠高於博彩隱含的9–10%），也有中文KOL及部分分析師建議大小球偏小（2.5以下），並對Dias缺陣後葡萄牙後防的穩定性持保留態度；Reddit模擬帖甚至預測剛果1-1逼平葡萄牙首戰。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "fifa-26.com/en/injuries",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/us/soccer/news/portugal-world-cup-roste",
+      "url": "https://www.sportingnews.com/us/soccer/news/portugal-world-cup-roster-2026-squad-players/ff8a06ec2f7e26d861b33aae"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/england/world-cup/feature/worl",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup/feature/world-cup-injury-list-absent-players-and-doubts_597036.html"
+    },
+    {
+      "type": "media",
+      "name": "www.soccergraph.com/2026/04/world-cup-2026-injury-update-whi",
+      "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html"
+    },
+    {
+      "type": "media",
+      "name": "www.flashscore.com/news/soccer-world-cup-portugal-boss-marti",
+      "url": "https://www.flashscore.com/news/soccer-world-cup-portugal-boss-martinez-gives-mateus-fernandes-first-call-up-ronaldo-absent-through-injury/rVzN1OJN/"
+    },
+    {
+      "type": "media",
+      "name": "injuriesandsuspensions.com/fifa-world-cup-2026-injuries-susp",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-7/"
+    },
+    {
+      "type": "media",
+      "name": "www.msn.com/en-us/sports/soccer/bad-news-for-cristiano-ronal",
+      "url": "https://www.msn.com/en-us/sports/soccer/bad-news-for-cristiano-ronaldo-two-key-portugal-teammates-ruled-out-due-to-injury-for-crucial-2026-world-cup-qualifiers/ar-AA1Q7AyH"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/portugal/world-cup-2026/team-n",
+      "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/team-news/portugal-vs-congo-dr-injury-suspension-list-predicted-xis_599290.html"
+    },
+    {
+      "type": "media",
+      "name": "www.flashscore.com/news/soccer-world-cup-dr-congo-forced-int",
+      "url": "https://www.flashscore.com/news/soccer-world-cup-dr-congo-forced-into-world-cup-squad-change-after-bushiri-ruled-out-through-injury/23onHCCs/"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/PortugalTillIDie/posts/breakingruben-dias-i",
+      "url": "https://www.facebook.com/PortugalTillIDie/posts/breakingruben-dias-is-set-to-miss-the-world-cup-opener-tomorrow-vs-dr-congo-conf/1604865981644234/"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/LorenzK0/posts/dr-congo-defender-rocky-bush",
+      "url": "https://www.facebook.com/LorenzK0/posts/dr-congo-defender-rocky-bushiri-has-pulled-out-of-the-2026-fifa-world-cup-squad-/1570581215076434/"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/p/DYkGnELkePU/",
+      "url": "https://www.instagram.com/p/DYkGnELkePU/"
+    },
+    {
+      "type": "media",
+      "name": "en.africatopsports.com/dr-congo-suffer-bushiri-blow-ahead-of",
+      "url": "https://en.africatopsports.com/dr-congo-suffer-bushiri-blow-ahead-of-world-cup-as-tshibola-earns-call-up/"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/09/portugal-world-cup-",
+      "url": "https://www.theguardian.com/football/2026/jun/09/portugal-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/cn4p1332exzo",
+      "url": "https://www.bbc.com/sport/football/articles/cn4p1332exzo"
+    },
+    {
+      "type": "media",
+      "name": "www.dazn.com/en-US/news/soccer/portugal-squad-list-fifa-worl",
+      "url": "https://www.dazn.com/en-US/news/soccer/portugal-squad-list-fifa-world-cup-26-captains-jersey-numbers-luis-roberto-martinez-coaching-staff/1hs2vchyeshz10nxs8fh6k5rr"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/squad/_/id/482/portugal",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/482/portugal"
+    },
+    {
+      "type": "media",
+      "name": "onefootball.com/en/news/portugals-world-cup-2026-squad-annou",
+      "url": "https://onefootball.com/en/news/portugals-world-cup-2026-squad-announced-42891044"
+    },
+    {
+      "type": "media",
+      "name": "fifawatch.com/en/news/portugal-ronaldo-sexta-copa/",
+      "url": "https://fifawatch.com/en/news/portugal-ronaldo-sexta-copa/"
+    },
+    {
+      "type": "media",
+      "name": "www.livemint.com/sports/football-news/portugal-at-fifa-world",
+      "url": "https://www.livemint.com/sports/football-news/portugal-at-fifa-world-cup-2026-can-cristiano-ronaldo-finally-win-the-big-trophy-and-match-lionel-messi/amp-11781057537601.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportingnews.com/uk/football/news/portugal-dr-congo-line",
+      "url": "https://www.sportingnews.com/uk/football/news/portugal-dr-congo-lineup-starting-11-world-cup-2026/e914f1fcc09c97367875a317"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/dr-congo-predicted-lineup-team-050",
+      "url": "https://sports.yahoo.com/articles/dr-congo-predicted-lineup-team-050000981.html"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsmole.co.uk/football/portugal/world-cup-2026/previe",
+      "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-congo-dr-prediction-team-news-lineups_599288.html"
+    },
+    {
+      "type": "media",
+      "name": "www.aljazeera.com/sports/2026/6/16/ronaldos-last-dance-as-po",
+      "url": "https://www.aljazeera.com/sports/2026/6/16/ronaldos-last-dance-as-portugal-face-dr-congo-in-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "www.nytimes.com/2026/06/15/style/congo-team-leopard-suits-wo",
+      "url": "https://www.nytimes.com/2026/06/15/style/congo-team-leopard-suits-world-cup.html"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.co.uk/sport/football/articles/c0k2d8ejr4do",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0k2d8ejr4do"
+    },
+    {
+      "type": "media",
+      "name": "www.canadasportsbetting.ca/news/world-cup/portugal-dr-congo-",
+      "url": "https://www.canadasportsbetting.ca/news/world-cup/portugal-dr-congo-june-17-world-cup-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "www.toffeeweb.com/portugal-vs-congo-dr-predictions-picks-odd",
+      "url": "https://www.toffeeweb.com/portugal-vs-congo-dr-predictions-picks-odds-17-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "www.covers.com/world-cup/portugal-vs-congo-prediction-picks-",
+      "url": "https://www.covers.com/world-cup/portugal-vs-congo-prediction-picks-odds-wednesday-6-17-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.thebettinginsider.com/worldcup/games/portugal-vs-dr-cong",
+      "url": "https://www.thebettinginsider.com/worldcup/games/portugal-vs-dr-congo-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/bet-hub/swc/schedule/2026_1_por_cod",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_1_por_cod"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/odds/_/gameId/760435",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760435"
+    },
+    {
+      "type": "media",
+      "name": "vsin.com/soccer/portugal-vs-dr-congo-prediction-2026-fifa-wo",
+      "url": "https://vsin.com/soccer/portugal-vs-dr-congo-prediction-2026-fifa-world-cup-preview-and-pick/"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/fifa-world-cup-men-portugal-vs-cong",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-portugal-vs-congo-dr-jun-17-2026-game-boxscore-647636"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-10",
+      "url": "https://sports.yahoo.com/articles/portugal-vs-dr-congo-prediction-100000533.html"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/soccer/news/portugal-dr-congo-odds-predict",
+      "url": "https://www.cbssports.com/soccer/news/portugal-dr-congo-odds-prediction-time-2026-world-cup-picks-best-bets/"
+    },
+    {
+      "type": "media",
+      "name": "betolimp.co.za/sports/soccer-betting/world-cup-2026-group-st",
+      "url": "https://betolimp.co.za/sports/soccer-betting/world-cup-2026-group-stage/portugal-dr-congo-84572777"
+    },
+    {
+      "type": "media",
+      "name": "www.sportsgambler.com/betting-tips/football/portugal-vs-dr-c",
+      "url": "https://www.sportsgambler.com/betting-tips/football/portugal-vs-dr-congo-prediction-lineups-odds-2026-06-17/"
+    },
+    {
+      "type": "media",
+      "name": "www.flashscore.co.uk/news/football-world-championship-portug",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-portugal-v-dr-congo-world-cup-predictions-best-bets-and-odds/QFJUUAwB/"
+    },
+    {
+      "type": "media",
+      "name": "africabettips.com/world-cup-2026/group-k/",
+      "url": "https://africabettips.com/world-cup-2026/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "tips.wolfbet.com/predictions/football/portugal-vs-dr-congo-p",
+      "url": "https://tips.wolfbet.com/predictions/football/portugal-vs-dr-congo-prediction-betting-tips-fifa-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "footballpredictions.com/footballpredictions/world-cup-predic",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/portugal-vs-dr-congo-prediction-17-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "thecelticstar.com/portugal-v-dr-congo-predictions/",
+      "url": "https://thecelticstar.com/portugal-v-dr-congo-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/stories/soccer/2026-world-cup-portugal-dr-",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-portugal-dr-congo-odds-prediction-picks"
+    },
+    {
+      "type": "media",
+      "name": "winnersandwhiners.com/free-picks/wnba/portugal-vs-dr-congo-p",
+      "url": "https://winnersandwhiners.com/free-picks/wnba/portugal-vs-dr-congo-predictions-odds-and-line-movement-june-17-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.futbolupdate.com/portugal-2026-fifa-world-cup-chances-od",
+      "url": "https://www.futbolupdate.com/portugal-2026-fifa-world-cup-chances-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "cupchances.com/en/portugal-title-chances-2026",
+      "url": "https://cupchances.com/en/portugal-title-chances-2026"
+    },
+    {
+      "type": "media",
+      "name": "amp.foxsports.com/stories/soccer/2026-world-cup-portugal-dr-",
+      "url": "https://amp.foxsports.com/stories/soccer/2026-world-cup-portugal-dr-congo-odds-prediction-picks"
+    },
+    {
+      "type": "media",
+      "name": "statsalt.com/free-picks/world-cup/portugal-vs-dr-congo-picks",
+      "url": "https://statsalt.com/free-picks/world-cup/portugal-vs-dr-congo-picks-and-prediction-for-wednesday-june-17-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.racingpost.com/sport/football-tips/world-cup-2026/portug",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/portugal-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aFQKs5y07Snd/"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.co.uk/programmes/m002xv0t",
+      "url": "https://www.bbc.co.uk/programmes/m002xv0t"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/preview-portugal-vs-dr-congo-17050",
+      "url": "https://sports.yahoo.com/articles/preview-portugal-vs-dr-congo-170500924.html"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/cevpwn9ryn1o",
+      "url": "https://www.bbc.com/sport/football/articles/cevpwn9ryn1o"
+    },
+    {
+      "type": "media",
+      "name": "www.standard.co.uk/sport/football/portugal-xi-vs-dr-congo-co",
+      "url": "https://www.standard.co.uk/sport/football/portugal-xi-vs-dr-congo-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1286398.html"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=Xs3Fxocfaos",
+      "url": "https://www.youtube.com/watch?v=Xs3Fxocfaos"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.co.uk/sport/football/articles/c30y35lq0dvo",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c30y35lq0dvo"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=gpRIbm3ULSQ",
+      "url": "https://www.youtube.com/watch?v=gpRIbm3ULSQ"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/portugal-vs-dr-congo-prediction-worl",
+      "url": "https://theanalyst.com/articles/portugal-vs-dr-congo-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=pXDQkj2AF7M",
+      "url": "https://www.youtube.com/watch?v=pXDQkj2AF7M"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/09/portugal-world-cup-",
+      "url": "https://www.theguardian.com/football/2026/jun/09/portugal-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/article/portugal-vs-dr-congo-preview",
+      "url": "https://www.rotowire.com/soccer/article/portugal-vs-dr-congo-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-118360"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/audio/2026/jun/10/world-cup-202",
+      "url": "https://www.theguardian.com/football/audio/2026/jun/10/world-cup-2026-preview-groups-i-l-football-weekly"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=jTNIDmogp-E",
+      "url": "https://www.youtube.com/watch?v=jTNIDmogp-E"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49069166/fifa-world-cup-2026-",
+      "url": "https://www.espn.com/soccer/story/_/id/49069166/fifa-world-cup-2026-portugal-vs-dr-congo-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.co.uk/football/story/_/id/49069166/fifa-world-cup-2",
+      "url": "https://www.espn.co.uk/football/story/_/id/49069166/fifa-world-cup-2026-portugal-vs-dr-congo-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-fu",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=MJpDmvCVrqk",
+      "url": "https://www.youtube.com/watch?v=MJpDmvCVrqk"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en/lists/cristiano-ronaldo-update-roberto-marti",
+      "url": "https://www.goal.com/en/lists/cristiano-ronaldo-update-roberto-martinez-future-portugal-manager-world-cup/bltb90dfad146532c54"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/portugal-travels-to-miami-with-mart%C3%ADnez-determined-to-conquer-the-2026-world-cup-2026-06-12"
+    },
+    {
+      "type": "media",
+      "name": "www.aljazeera.com/sports/2026/5/19/ronaldo-to-lead-portugal-",
+      "url": "https://www.aljazeera.com/sports/2026/5/19/ronaldo-to-lead-portugal-at-sixth-world-cup-as-martinez-names-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/mar/28/roberto-martinez-in",
+      "url": "https://www.theguardian.com/football/2026/mar/28/roberto-martinez-interview-portugal-world-cup-cristiano-ronaldo"
+    },
+    {
+      "type": "media",
+      "name": "www.philstar.com/sports/2026/06/17/2535869/ronaldo-excited-s",
+      "url": "https://www.philstar.com/sports/2026/06/17/2535869/ronaldo-excited-sixth-world-cup-his-first-says-portugal-coach"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=cU2bg-r9QUs",
+      "url": "https://www.youtube.com/watch?v=cU2bg-r9QUs"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=0gScGA4fR_k",
+      "url": "https://www.youtube.com/watch?v=0gScGA4fR_k"
+    },
+    {
+      "type": "media",
+      "name": "www.plataformamedia.com/en/2026/03/31/roberto-martinez-portu",
+      "url": "https://www.plataformamedia.com/en/2026/03/31/roberto-martinez-portugal-focus-world-cup-2026-preparation/"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=0yxXNEHQzjE",
+      "url": "https://www.youtube.com/watch?v=0yxXNEHQzjE"
+    },
+    {
+      "type": "media",
+      "name": "www.straitstimes.com/sport/football/no-fear-for-dr-congo-aga",
+      "url": "https://www.straitstimes.com/sport/football/no-fear-for-dr-congo-against-ronaldo-led-portugal-coach-says"
+    },
+    {
+      "type": "media",
+      "name": "africasoccer.com/dr-congo-2026-world-cup-squad-announcement-",
+      "url": "https://africasoccer.com/dr-congo-2026-world-cup-squad-announcement-date-desabre/"
+    },
+    {
+      "type": "media",
+      "name": "www.bbc.com/sport/football/articles/ceqpeyezr48o",
+      "url": "https://www.bbc.com/sport/football/articles/ceqpeyezr48o"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/14/dr-congo-world-cup-",
+      "url": "https://www.theguardian.com/football/2026/jun/14/dr-congo-world-cup-houston"
+    },
+    {
+      "type": "media",
+      "name": "sportnewsafrica.com/articles/2026-fifa-wc-dr-congos-list-not",
+      "url": "https://sportnewsafrica.com/articles/2026-fifa-wc-dr-congos-list-not-without-controversies"
+    },
+    {
+      "type": "media",
+      "name": "worldcup26usa.com/en/players/cristiano-ronaldo-portugal",
+      "url": "https://worldcup26usa.com/en/players/cristiano-ronaldo-portugal"
+    },
+    {
+      "type": "media",
+      "name": "www.aljazeera.com/sports/2026/5/21/ronaldo-scores-twice-to-s",
+      "url": "https://www.aljazeera.com/sports/2026/5/21/ronaldo-scores-twice-to-seal-saudi-pro-league-at-last-with-al-nassr"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-nz/football/fifa-world-cup-2026/articl",
+      "url": "https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles/have-you-not-seen-my-matches--ronaldo-brimming-with-confidence-ahead-of-world-cup-2026-06-13"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-in/lists/portugal-squad-world-cup-2026/bltdc",
+      "url": "https://www.goal.com/en-in/lists/portugal-squad-world-cup-2026/bltdc09b12c47cb4518"
+    },
+    {
+      "type": "media",
+      "name": "www.fourfourtwo.com/team/portugal-world-cup-2026-squad",
+      "url": "https://www.fourfourtwo.com/team/portugal-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.aljazeera.com/sports/2026/6/8/portugal-world-cup-2026-pr",
+      "url": "https://www.aljazeera.com/sports/2026/6/8/portugal-world-cup-2026-preview-players-to-watch-group-matches-and-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.yardbarker.com/soccer/articles/portugal_predicted_xi_for",
+      "url": "https://www.yardbarker.com/soccer/articles/portugal_predicted_xi_for_the_2026_world_cup/s1_17738_43472028"
+    },
+    {
+      "type": "media",
+      "name": "www.theguardian.com/football/2026/jun/16/bruno-fernandes-vit",
+      "url": "https://www.theguardian.com/football/2026/jun/16/bruno-fernandes-vitinha-portugal-win-world-cup-1966-squad"
+    },
+    {
+      "type": "media",
+      "name": "khelnow.com/football/world-football-portugal-fifa-world-cup-",
+      "url": "https://khelnow.com/football/world-football-portugal-fifa-world-cup-squad-202605"
+    },
+    {
+      "type": "media",
+      "name": "rotobot.ai/world-cup/team/COD",
+      "url": "https://rotobot.ai/world-cup/team/COD"
+    },
+    {
+      "type": "media",
+      "name": "kawowo.com/2026/03/31/dr-congo-eyes-historic-world-cup-retur",
+      "url": "https://kawowo.com/2026/03/31/dr-congo-eyes-historic-world-cup-return-in-clash-with-jamaica/"
+    },
+    {
+      "type": "media",
+      "name": "worldcup26usa.com/en/teams/dr-congo",
+      "url": "https://worldcup26usa.com/en/teams/dr-congo"
+    },
+    {
+      "type": "media",
+      "name": "africasoccer.com/2026-world-cup-qualifiers-cedric-bakambu-ne",
+      "url": "https://africasoccer.com/2026-world-cup-qualifiers-cedric-bakambu-nets-brace-to-power-d-r-congo-to-4-1-win-against-south-sudan/"
+    },
+    {
+      "type": "media",
+      "name": "www.soccergraph.com/2026/06/dr-congo-2026-world-cup-profile-",
+      "url": "https://www.soccergraph.com/2026/06/dr-congo-2026-world-cup-profile-schedule-fixture-dates-kickoff-times-roster.html"
+    },
+    {
+      "type": "media",
+      "name": "www.myjoyonline.com/portugal-world-cup-2026-team-guide/",
+      "url": "https://www.myjoyonline.com/portugal-world-cup-2026-team-guide/"
+    },
+    {
+      "type": "media",
+      "name": "sports.ndtv.com/fifa-world-cup-2026/bruno-fernandes-stars-as",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/bruno-fernandes-stars-as-portugal-hand-fifa-world-cup-2026-hosts-usa-massive-reality-check-11294323"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=3GEajcC4SD8",
+      "url": "https://www.youtube.com/watch?v=3GEajcC4SD8"
+    },
+    {
+      "type": "media",
+      "name": "mundialplayertracker.com/insights/dr-congo-fall-1-2-to-chile",
+      "url": "https://mundialplayertracker.com/insights/dr-congo-fall-1-2-to-chile-in-final-world-cup-warm-up/"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/news/congo-dr-vs-portugal-early-prediction-gr",
+      "url": "https://www.dimers.com/news/congo-dr-vs-portugal-early-prediction-group-k-world-cup-2026-ac"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/world-cup-2026-group-k-predictions-p",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-k-predictions-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.sportskeeda.com/football/news-he-s-fit-game-roberto-mart",
+      "url": "https://www.sportskeeda.com/football/news-he-s-fit-game-roberto-martinez-confirms-portugal-superstar-will-miss-opening-fifa-world-cup-game-dr-congo"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz",
+      "url": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/headlines/ruben-dias-injury-wont-be-",
+      "url": "https://www.rotowire.com/soccer/headlines/ruben-dias-injury-wont-be-risked-in-congo-game-519710"
+    },
+    {
+      "type": "media",
+      "name": "www.rotowire.com/soccer/headlines/ruben-dias-injury-availabi",
+      "url": "https://www.rotowire.com/soccer/headlines/ruben-dias-injury-availability-in-doubt-for-opener-519636"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/portugal-vs-dr-congo-world-cup-preview-pre",
+      "url": "https://www.si.com/soccer/portugal-vs-dr-congo-world-cup-preview-predictions-lineups-6-17-26"
+    },
+    {
+      "type": "media",
+      "name": "www.bundesliga.com/en/world-cup/matchday/2026-2027/1/portuga",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/1/portugal-vs-congo-dr/lineup"
+    },
+    {
+      "type": "media",
+      "name": "mylineups.app/world-cup-2026/teams/dr-congo/",
+      "url": "https://mylineups.app/world-cup-2026/teams/dr-congo/"
+    },
+    {
+      "type": "media",
+      "name": "fwctimes.com/dr-congo/",
+      "url": "https://fwctimes.com/dr-congo/"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/Gon%C3%A7alo_Ramos",
+      "url": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Ramos"
+    },
+    {
+      "type": "media",
+      "name": "www.fotmob.com/news/1ur7rjmg8d2fh17k6jnbcd7a4g-rafael-leao-h",
+      "url": "https://www.fotmob.com/news/1ur7rjmg8d2fh17k6jnbcd7a4g-rafael-leao-hails-hat-trick-hero-ramos-as-president-purrs-over-portugal-world-cup-six-hitters"
+    },
+    {
+      "type": "media",
+      "name": "footballmeister.com/world-cup-2026/portugal-congo-dr-2026-06",
+      "url": "https://footballmeister.com/world-cup-2026/portugal-congo-dr-2026-06-17/"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/news/congo-dr-vs-portugal-updated-prediction-",
+      "url": "https://www.dimers.com/news/congo-dr-vs-portugal-updated-prediction-group-k-world-cup-2026-ac"
+    },
+    {
+      "type": "media",
+      "name": "www.365scores.com/football/match/fifa-world-cup-5930/dr-cong",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/dr-congo-portugal-5028-14650-5930"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/portugal-vs-dr-congo/stats/549786",
+      "url": "https://www.skysports.com/football/portugal-vs-dr-congo/stats/549786"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/prediction-markets/polymarket-world-cup-odds-port",
+      "url": "https://www.si.com/prediction-markets/polymarket-world-cup-odds-portugal-surging-behind-england-01ktc9995qeh"
+    },
+    {
+      "type": "media",
+      "name": "polymarketworldcup.com",
+      "url": "https://polymarketworldcup.com"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/teams/fifwc/portugal",
+      "url": "https://polymarket.com/teams/fifwc/portugal"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/event/world-cup-winner",
+      "url": "https://polymarket.com/event/world-cup-winner"
+    },
+    {
+      "type": "media",
+      "name": "defirate.com/prediction-markets/world-cup-odds/portugal/",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/portugal/"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/event/2026-fifa-world-cup-winner-595/will-cap",
+      "url": "https://polymarket.com/event/2026-fifa-world-cup-winner-595/will-cape-verde-win-the-2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com/predictions/portugal",
+      "url": "https://polymarket.com/predictions/portugal"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/markets/kxwcgoal/world-cup-goal/kxwcgoal-26jun17p",
+      "url": "https://kalshi.com/markets/kxwcgoal/world-cup-goal/kxwcgoal-26jun17porcod"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/teams/soccer-team/portugal",
+      "url": "https://kalshi.com/teams/soccer-team/portugal"
+    },
+    {
+      "type": "media",
+      "name": "www.kalshiarbitragebot.com/world-cup-2026/groups/k",
+      "url": "https://www.kalshiarbitragebot.com/world-cup-2026/groups/k"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/prediction/news/kalshi-promo-code-cbssport",
+      "url": "https://www.cbssports.com/prediction/news/kalshi-promo-code-cbssports-10-bonus-for-2026-world-cup-winner-prediction-market-picks/"
+    },
+    {
+      "type": "media",
+      "name": "kalshi.com/category/sports/soccer/fifa-world-cup/world-cup/g",
+      "url": "https://kalshi.com/category/sports/soccer/fifa-world-cup/world-cup/group-stage-props"
+    },
+    {
+      "type": "media",
+      "name": "robinhood.com/us/en/prediction-markets/soccer/world-cup/",
+      "url": "https://robinhood.com/us/en/prediction-markets/soccer/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "defirate.com/prediction-markets/world-cup-odds/group-stage/",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-stage/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/sportsbook/comments/1u7ygxx/soccer_world_cu",
+      "url": "https://www.reddit.com/r/sportsbook/comments/1u7ygxx/soccer_world_cup_betting_and_picks_daily/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/simcupsPredictions/comments/1sah7l0/2026_wo",
+      "url": "https://www.reddit.com/r/simcupsPredictions/comments/1sah7l0/2026_world_cup_group_k_prediction_with_dr_congo/"
+    },
+    {
+      "type": "media",
+      "name": "www.reddit.com/r/sportsbook/comments/1u7su45/pick_of_the_day",
+      "url": "https://www.reddit.com/r/sportsbook/comments/1u7su45/pick_of_the_day_61726_wednesday/"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-us/news/portugal-dr-congo-world-cup-preview/",
+      "url": "https://www.goal.com/en-us/news/portugal-dr-congo-world-cup-preview/blt66cc12e25e84e735"
+    },
+    {
+      "type": "media",
+      "name": "www.worldcupfifa.com.tw/post/portugal-vs-dr-congo-2026-world",
+      "url": "https://www.worldcupfifa.com.tw/post/portugal-vs-dr-congo-2026-world-cup-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=DR4Nre58lNY",
+      "url": "https://www.youtube.com/watch?v=DR4Nre58lNY"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=nscGy3fXGX0",
+      "url": "https://www.youtube.com/watch?v=nscGy3fXGX0"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=R-05CvqjFaI",
+      "url": "https://www.youtube.com/watch?v=R-05CvqjFaI"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=H9AgcqzzNcY",
+      "url": "https://www.youtube.com/watch?v=H9AgcqzzNcY"
+    },
+    {
+      "type": "media",
+      "name": "sunnighteditions.com/2026/06/15/world-cup-2026-portugal-dr-c",
+      "url": "https://sunnighteditions.com/2026/06/15/world-cup-2026-portugal-dr-congo-schedule-betting/"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/61577395472391/posts/%E7%90%83%E8%B5%9B%E9%",
+      "url": "https://www.facebook.com/61577395472391/posts/%E7%90%83%E8%B5%9B%E9%A2%84%E6%B5%8B2026%E5%B9%B46%E6%9C%8817%E6%97%A5-%E8%91%A1%E8%90%84%E7%89%99portugal-vs-%E5%88%9A%E6%9E%9C%E6%B0%91%E4%B8%BB%E5%85%B1%E5%92%8C%E5%9B%BDdr-congo-%E9%98%BF%E5%85%B9%E7%89%B9%E5%85%8B%E7%90%83%E5%9C%BAestadio-azteca%E8%91%A1%E8%90%84%E7%89%99%E5%B0%86%E5%9C%A82026%E5%B9%B46%E6%9C%8817/122184097958913182/"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com/articles/portugal-vs-dr-congo-prediction-worl",
+      "url": "https://theanalyst.com/articles/portugal-vs-dr-congo-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "www.euronews.com/2026/06/11/world-cup-2026-supercomputer-bac",
+      "url": "https://www.euronews.com/2026/06/11/world-cup-2026-supercomputer-backs-spain-former-stars-favour-argentina"
+    },
+    {
+      "type": "media",
+      "name": "www.instagram.com/reel/DZPeN0XBmWZ/",
+      "url": "https://www.instagram.com/reel/DZPeN0XBmWZ/"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/portugal-contenders-not-favourites-for-world-cup-glory-says-veiga-2026-06-08"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-world-cup-is-what-matters--martinez-brushes-aside-portugal-future-speculation-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "www.standard.co.uk/sport/football/portugal-vs-dr-congo-predi",
+      "url": "https://www.standard.co.uk/sport/football/portugal-vs-dr-congo-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1286396.html"
+    },
+    {
+      "type": "media",
+      "name": "www.thesoccerworldcups.com/head_to_head/portugal_vs_rd_congo",
+      "url": "https://www.thesoccerworldcups.com/head_to_head/portugal_vs_rd_congo.php"
+    },
+    {
+      "type": "media",
+      "name": "www.flashscore.com/match/football/d-r-congo-phn9mm8H/portuga",
+      "url": "https://www.flashscore.com/match/football/d-r-congo-phn9mm8H/portugal-WvJrjFVN/"
+    },
+    {
+      "type": "media",
+      "name": "www.pulse.com.gh/story/dr-congo-seal-historic-world-cup-retu",
+      "url": "https://www.pulse.com.gh/story/dr-congo-seal-historic-world-cup-return-after-52-years-2026040109014216250"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/DR_Congo_at_the_FIFA_World_Cup",
+      "url": "https://en.wikipedia.org/wiki/DR_Congo_at_the_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "www.skysports.com/football/news/12028/13526766/democratic-re",
+      "url": "https://www.skysports.com/football/news/12028/13526766/democratic-republic-of-congo-how-the-leopards-qualified-for-their-first-world-cup-since-1974"
+    },
+    {
+      "type": "media",
+      "name": "news.rthk.hk/rthk/en/component/k2/1849588-20260401.htm",
+      "url": "https://news.rthk.hk/rthk/en/component/k2/1849588-20260401.htm"
+    },
+    {
+      "type": "media",
+      "name": "www.facebook.com/groups/2413757252123955/posts/3468044920028",
+      "url": "https://www.facebook.com/groups/2413757252123955/posts/3468044920028511/"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org/wiki/2025_UEFA_Nations_League_Finals",
+      "url": "https://en.wikipedia.org/wiki/2025_UEFA_Nations_League_Finals"
+    },
+    {
+      "type": "media",
+      "name": "www.thenationalnews.com/sport/world-cup-2026/2026/06/07/worl",
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/07/world-cup-2026-group-k-guide-cristiano-ronaldo-and-portugal-have-unfinished-business/"
+    },
+    {
+      "type": "media",
+      "name": "www.nytimes.com/athletic/6213018/2025/03/20/uefa-nations-lea",
+      "url": "https://www.nytimes.com/athletic/6213018/2025/03/20/uefa-nations-league-latest-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/team/results/_/id/482/portugal",
+      "url": "https://www.espn.com/soccer/team/results/_/id/482/portugal"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/match/_/gameId/401867372/nigeria-portuga",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401867372/nigeria-portugal"
+    },
+    {
+      "type": "media",
+      "name": "www.sofascore.com/football/match/nigeria-portugal/eUbsKVb",
+      "url": "https://www.sofascore.com/football/match/nigeria-portugal/eUbsKVb"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/friendlies-men-portugal-vs-nigeria-",
+      "url": "https://www.foxsports.com/soccer/friendlies-men-portugal-vs-nigeria-jun-10-2026-game-boxscore-822156"
+    },
+    {
+      "type": "media",
+      "name": "en.as.com/soccer/world-cup/portugal-vs-nigeria-live-online-s",
+      "url": "https://en.as.com/soccer/world-cup/portugal-vs-nigeria-live-online-score-stats-goals-updates-international-friendly-world-cup-2026-warm-up-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/match/_/gameId/401862883/chile-portugal",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401862883/chile-portugal"
+    },
+    {
+      "type": "media",
+      "name": "en.as.com/soccer/world-cup/portugal-vs-chile-live-online-sco",
+      "url": "https://en.as.com/soccer/world-cup/portugal-vs-chile-live-online-score-stats-goals-updates-international-friendly-world-cup-2026-warm-up-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "mundialplayertracker.com/insights/dr-congo-fall-1-2-to-chile",
+      "url": "https://mundialplayertracker.com/insights/dr-congo-fall-1-2-to-chile-in-final-world-cup-warm-up/"
+    },
+    {
+      "type": "media",
+      "name": "www.foxsports.com/soccer/friendlies-men-portugal-vs-chile-ju",
+      "url": "https://www.foxsports.com/soccer/friendlies-men-portugal-vs-chile-jun-06-2026-game-boxscore-763821"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/article/world-cup-2026-q-senegal-182500204.",
+      "url": "https://sports.yahoo.com/article/world-cup-2026-q-senegal-182500204.html"
+    },
+    {
+      "type": "media",
+      "name": "www.dimers.com/futures/swc",
+      "url": "https://www.dimers.com/futures/swc"
+    },
+    {
+      "type": "media",
+      "name": "africasoccer.com/dr-congo-coach-sebastien-desabre-urges-play",
+      "url": "https://africasoccer.com/dr-congo-coach-sebastien-desabre-urges-players-to-rise-for-nation-ahead-of-crucial-jamaica-showdown/"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com/articles/rafael-leao-miss-portugals-world-1",
+      "url": "https://sports.yahoo.com/articles/rafael-leao-miss-portugals-world-190050498.html"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en-gb/news/portugal-dr-congo-world-cup-preview/",
+      "url": "https://www.goal.com/en-gb/news/portugal-dr-congo-world-cup-preview/blt66cc12e25e84e735"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/48999003/portugal-rafael-leao",
+      "url": "https://www.espn.com/soccer/story/_/id/48999003/portugal-rafael-leao-defends-punching-ivan-roman-protecting-teammate"
+    },
+    {
+      "type": "media",
+      "name": "striver.football/the-game/rafael-leao-red-card-portugal-worl",
+      "url": "https://striver.football/the-game/rafael-leao-red-card-portugal-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.republicworld.com/sports/football/will-rafael-leao-miss-",
+      "url": "https://www.republicworld.com/sports/football/will-rafael-leao-miss-portugal-s-fifa-world-cup-opener-against-dr-congo-after-receiving-red-card-for-punching-2026-06-07-127242"
+    },
+    {
+      "type": "media",
+      "name": "www.goal.com/en/lists/a-friendly-match-just-before-the-world",
+      "url": "https://www.goal.com/en/lists/a-friendly-match-just-before-the-world-cup-spiralled-completely-out-of-control-a-portugal-star-was-sent-off-for-violent-conduct-and-now-faces-severe-consequences/bltaecb4cfeaad8f53e"
+    },
+    {
+      "type": "media",
+      "name": "africasoccer.com/rafael-leao-suspension-risk-dr-congo/",
+      "url": "https://africasoccer.com/rafael-leao-suspension-risk-dr-congo/"
+    },
+    {
+      "type": "media",
+      "name": "www.si.com/soccer/dr-congo-2026-world-cup-preview",
+      "url": "https://www.si.com/soccer/dr-congo-2026-world-cup-preview"
+    },
+    {
+      "type": "media",
+      "name": "fwctimes.com/portugal-vs-dr-congo-preview/",
+      "url": "https://fwctimes.com/portugal-vs-dr-congo-preview/"
+    },
+    {
+      "type": "media",
+      "name": "www.gazzetta.it/en/football/fantanews/06-06-2026/congo-fanta",
+      "url": "https://www.gazzetta.it/en/football/fantanews/06-06-2026/congo-fantasy-football-starters-penalty-takers-and-world-cup-picks_amp.shtml"
+    },
+    {
+      "type": "media",
+      "name": "www.fourfourtwo.com/team/dr-congo-world-cup-2026-squad",
+      "url": "https://www.fourfourtwo.com/team/dr-congo-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "www.cafonline.com/news/desabre-names-fearless-dr-congo-squad",
+      "url": "https://www.cafonline.com/news/desabre-names-fearless-dr-congo-squad-for-historic-world-cup-return/"
+    },
+    {
+      "type": "media",
+      "name": "www.racingpost.com/sport/football-tips/world-cup-2026/portug",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/portugal-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aFQKs5y07Snd/"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=S3Wm0W9arYI",
+      "url": "https://www.youtube.com/watch?v=S3Wm0W9arYI"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=OtgHJ9I7CYs",
+      "url": "https://www.youtube.com/watch?v=OtgHJ9I7CYs"
+    },
+    {
+      "type": "media",
+      "name": "www.sportinglife.com/free-bets/news/portugal-vs-dr-congo-bet",
+      "url": "https://www.sportinglife.com/free-bets/news/portugal-vs-dr-congo-bet-builder-tips-world-cup-2026/780"
+    },
+    {
+      "type": "media",
+      "name": "www.nownews.com/amp/news/6847546",
+      "url": "https://www.nownews.com/amp/news/6847546"
+    },
+    {
+      "type": "media",
+      "name": "www.moredetailnews.com/%E9%AB%94%E8%82%B2/2026%E4%B8%96%E7%9",
+      "url": "https://www.moredetailnews.com/%E9%AB%94%E8%82%B2/2026%E4%B8%96%E7%95%8C%E7%9B%83%E8%B6%B3%E7%90%83%E8%B3%BD/%E8%91%A1%E8%90%84%E7%89%99vs%E5%89%9B%E6%9E%9C%EF%BD%9C2026%E4%B8%96%E7%95%8C%E7%9B%83k%E7%B5%84%E7%84%A6%E9%BB%9E%E6%88%B0%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%90%E8%88%87%E9%A0%90%E6%B8%AC/"
+    },
+    {
+      "type": "media",
+      "name": "winsports.tw/sports-picks/2026-world-cup-preview-portugal-vs",
+      "url": "https://winsports.tw/sports-picks/2026-world-cup-preview-portugal-vs-dr-congo/"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/soccer/story/_/id/49089415/roberto-martinez-sig",
+      "url": "https://www.espn.com/soccer/story/_/id/49089415/roberto-martinez-signals-portugal-exit-world-cup-already-discussed"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=cr_Ab3BbdBM",
+      "url": "https://www.youtube.com/watch?v=cr_Ab3BbdBM"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=s37FIKQs6wc",
+      "url": "https://www.youtube.com/watch?v=s37FIKQs6wc"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=nOaLpKYE_zg",
+      "url": "https://www.youtube.com/watch?v=nOaLpKYE_zg"
+    },
+    {
+      "type": "media",
+      "name": "www.youtube.com/watch?v=LaO7oZJlTlc",
+      "url": "https://www.youtube.com/watch?v=LaO7oZJlTlc"
+    },
+    {
+      "type": "media",
+      "name": "www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup",
+      "url": "https://www.espn.com/espn/betting/story/_/id/48807078/fifa-world-cup-betting-preview-best-bets-picks-odds-props-futures-2026"
+    },
+    {
+      "type": "media",
+      "name": "www.livemint.com/sports/football-news/did-portugal-break-the",
+      "url": "https://www.livemint.com/sports/football-news/did-portugal-break-the-fifas-strict-world-cup-2026-rules-by-naming-a-27-1-squad-heres-what-the-actual-rulebook-say/amp-11781519548837.html"
+    },
+    {
+      "type": "media",
+      "name": "www.cbssports.com/prediction/news/kalshi-promo-code-cbssport",
+      "url": "https://www.cbssports.com/prediction/news/kalshi-promo-code-cbssports-10-bonus-for-2026-world-cup-winner-prediction-market-picks/"
+    },
+    {
+      "type": "media",
+      "name": "www.beinsports.com/en-nz/football/fifa-world-cup-2026/articl",
+      "url": "https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles/have-you-not-seen-my-matches--ronaldo-brimming-with-confidence-ahead-of-world-cup-2026-06-13"
+    },
+    {
+      "type": "media",
+      "name": "www.thenationalnews.com/sport/world-cup-2026/2026/06/07/worl",
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/07/world-cup-2026-group-k-guide-cristiano-ronaldo-and-portugal-have-unfinished-business/"
+    }
+  ],
+  "source_count": 198,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力懸殊，主場輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力佔優，預計穩控節奏並順利贏球。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力明顯佔優，剛果難阻強攻，預測主隊輕取三分。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙攻守全面領先，主場大勝機率高。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙陣容實力遠勝對手，預計能掌控節奏並輕鬆取得勝利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力遠勝對手，預計主場輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙整體實力明顯優於剛果民主共和國，應可輕取勝利。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.756,
+      "draw": 0.158,
+      "away": 0.086
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T092620Z"
+}

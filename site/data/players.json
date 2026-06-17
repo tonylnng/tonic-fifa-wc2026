@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-17T08:52:53Z",
+  "last_updated": "2026-06-17T09:32:27Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -156,12 +156,19 @@
       "is_key": true,
       "bio_zh": "史上最偉大球員之一，本屆為其第六次也是最後一次世界盃，背負衛冕冠軍隊長重任。在美職聯雖賽事水平較低，但國家隊表現依然出色，是阿根廷進攻核心與精神領袖。",
       "stats": {
-        "goals": 0,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          19
+        ]
       },
-      "sources": []
+      "sources": [
+        "FIFA official match report",
+        "ESPN",
+        "Sky Sports",
+        "The Guardian match centre"
+      ]
     },
     {
       "id": "ARG-macallister",
@@ -408,12 +415,19 @@
       "is_key": true,
       "bio_zh": "奧地利副隊長及歷史射手王，進球逾48球，曾效力西漢姆、史篤城等英超球隊。雖年屆37歲仍持續入選，是球隊前線絕對核心，對球隊的進攻至關重要。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          20
+        ]
       },
-      "sources": []
+      "sources": [
+        "FIFA official match report",
+        "ESPN",
+        "Sky Sports",
+        "The Guardian match centre"
+      ]
     },
     {
       "id": "AUT-sabitzer",
@@ -429,11 +443,18 @@
       "bio_zh": "奧地利第三隊長，效力多特蒙德，國家隊出場逾99次，進球達26球。技術全面、跑動積極，擔任中場攻守橋樑，是球隊中場最重要的組織核心。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          20
+        ]
       },
-      "sources": []
+      "sources": [
+        "FIFA official match report",
+        "ESPN",
+        "Sky Sports",
+        "The Guardian match centre"
+      ]
     },
     {
       "id": "AUT-laimer",
@@ -454,6 +475,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "AUT-schmid",
+      "name_en": "Romano Schmid",
+      "name_zh": "施密德",
+      "team": "Austria",
+      "team_zh": "奧地利",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          20
+        ]
+      },
+      "sources": [
+        "FIFA official match report",
+        "ESPN",
+        "Sky Sports",
+        "The Guardian match centre"
+      ]
     },
     {
       "id": "AUT-danso",
@@ -3746,12 +3794,19 @@
       "is_key": true,
       "bio_zh": "約旦歷史進球最多的前鋒之一，代表國家隊打入逾29球，亞洲區外圍賽排名前列射手。速度快、禁區內嗅覺敏銳，是塔馬里之外約旦進攻的另一重要威脅。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          20
+        ]
       },
-      "sources": []
+      "sources": [
+        "FIFA official match report",
+        "ESPN",
+        "Sky Sports",
+        "The Guardian match centre"
+      ]
     },
     {
       "id": "JOR-altamari",
