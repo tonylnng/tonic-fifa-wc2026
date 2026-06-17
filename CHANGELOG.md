@@ -6,6 +6,23 @@
 
 ---
 
+## [新功能] 2026-06-17 新增「球員介紹」功能 + 定時更新球員統計
+
+### 新增（Added）
+
+- 網站新增**「球員」分頁**：展示重點球員基本資料與繁中簡介、本屆統計（進球／黃牌／紅牌），並提供**射手榜**與**紀律榜**。
+- 新增資料檔 `players.json`（48 隊重點球員，目前共 346 人）與 `leaderboards.json`（自動計算榜單），以及 `data/PLAYERS_SCHEMA.md` 結構文檔。
+- 後端新增 `/api/players`、`/api/leaderboards` 路由；前端新增 `PlayersTab.tsx`（搜尋＋球隊篩選＋分組卡片）。
+- 新增 `update_players.py` 合併引擎：`--merge-stdin` 依 `id` 與 `matches_with_events` **冪等累加**單場進球／紅黃牌，名單外球員自動建檔，並重算榜單。
+- 定時任務 `c53acfd7` 新增**步驟 (3.5)**：每場賽後用 Sonnet 4.6 研究入球者與紅黃牌球員（烏龍球不計），合併更新球員統計。排程維持每 8 小時不變。
+
+### 變更（Changed）
+
+- `sync_to_site.py`、`push_to_github.py` 同步清單加入 `players.json`／`leaderboards.json`；`CRON_RUNBOOK.md` 與技能 `wc2026-prediction-automation`（SKILL.md + runbook.md，已重新驗證存庫）同步新增球員統計步驟。
+- 詳見 [`RELEASE_NOTES_2026-06-17-players-feature.md`](RELEASE_NOTES_2026-06-17-players-feature.md)。
+
+---
+
 ## [網站文字] 2026-06-17 前端主模型標示更新為 Sonnet 4.6
 
 ### 變更（Changed）
