@@ -1,0 +1,972 @@
+{
+  "match": 25,
+  "stage": "Group A",
+  "home": "Czech Republic",
+  "away": "South Africa",
+  "kickoff_utc": "2026-06-18T16:00:00Z",
+  "kickoff_hkt": "2026-06-19 00:00",
+  "run_id": "2026-06-17T1655Z",
+  "run_timestamp": "2026-06-17T16:55:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.56,
+      "draw": 0.25,
+      "away": 0.19
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "Opta超級電腦（10,000次模擬）：捷克54.9%，平局23.3%，南非21.8%（Al Jazeera/Opta Analyst，6月17日）。捷克晉級32強機率51.7%，南非僅23.9%（Opta）。Opta賽前（第一輪賽前）預測"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "綜合多家博彩公司盤口（6月17日截至），捷克主勝賠率範圍：1.62（Betfred）至1.85（1XBET/Betwinner），去抽水後隱含勝率約55-58%；平局賠率3.60至3.90，隱含約26%；南非客勝賠率4.33至4.90（美式"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "少數異見觀點：1）Sports Mole數學模型認為兩隊勝率幾乎相同（CZE 36.8% vs RSA 36.45%），理由是捷克進攻效率有限，對強隊創造力欠佳；2）JohnnyBet預測1:1平局，認為南非在沒有壓力的情況下防守極具紀律，"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.541,
+          "draw": 0.255,
+          "away": 0.204
+        },
+        "scoreline": "1:0",
+        "note": "綜合多家博彩公司盤口（6月17日截至），捷克主勝賠率範圍：1.62（Betfred）至1.85（1XBET/Betwinner），去抽水後隱含勝率約55-58%；平局賠率3.60至3.90，隱含約26"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.549,
+          "draw": 0.233,
+          "away": 0.218
+        },
+        "note": "Opta超級電腦（10,000次模擬）：捷克54.9%，平局23.3%，南非21.8%（Al Jazeera/Opta Analyst，6月17日）。捷克晉級32強機率51.7%，南非僅23.9%（O"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "捷克主場迎戰南非（Group A）。Opta超級電腦（10,000次模擬）：捷克54.9%，平局23.3%，南非21.8%（Al Jazeera/Opta Analyst，6月17日）。捷克晉級32強機率51.7%，南非僅23.9%（O。綜合多家博彩公司盤口（6月17日截至），捷克主勝賠率範圍：1.62（Betfred）至1.85（1XBET/Betwinner），去抽水後隱含勝率約55-58%；平局賠率3.60至。AI 主預測 2:0（捷克勝），信心 0.62。",
+    "key_factors": [
+      "球員狀態：謝克（Schick）26國際進球、Bundesliga本季16球，是小組火力最集中的前鋒；對南韓一戰雖未進球，但仍是主要射門點。蘇切克（Souček）中場引擎、空中球優勢顯著。捷克有霍拉澤克從傷停中回歸，提供板凳深度。南非福斯特首戰發揮平平，阿波利斯速度是唯一反擊利器，但缺中場支撐。",
+      "傷停名單：捷克零傷停零停賽，全員可戰，庫赫塔腳踝無大礙已完整訓練。南非重大劣勢：Sithole（防守型中場）及Zwane（隊長，創造力中場）均因紅牌停賽，兩名核心缺陣令中場能力大降，須依賴Adams+Mbatha替補，質量落差明顯。",
+      "近期狀態/戰績：捷克首戰對南韓1:2略為不敵，但已在質量更高的歐洲附加賽（對愛爾蘭、對丹麥）展現堅韌心理素質。對危地馬拉3:1、科索沃2:1熱身賽表現不錯。南非：首戰0:2負墨西哥（僅2次正中目標射門），友誼賽1:0勝牙買加，近10場資格賽5勝3平2負，進球僅15個（偏少）。南非進攻效率長期偏低。歷史交鋒：唯一一次正式交鋒為1997年世界盃聯合會杯2:2平（利雅德），沒有世界盃交手紀錄。",
+      "戰術對位：捷克3-4-2-1或4-2-3-1強調定位球和空中球，南非4-2-3-1倚重速度反擊。Sithole+Zwane停賽嚴重削弱南非中場壓制能力，捷克Souček等人可主宰中路。南非若能利用阿波利斯速度撕開捷克後三衛防線右路，仍有反擊機會；但自身進攻串連缺乏高水平中場組織。捷克定位球（資格賽8個）是南非高度不佔優的重大威脅。",
+      "主客場/場地：Mercedes-Benz Stadium（Atlanta Stadium），容量75,000，可開合屋頂全程關閉，恆溫空調，6月亞特蘭大高溫不成問題。天然草（FIFA標準）質量良好。無絕對主場優勢（雙方均非東道主），但捷克球迷/歐洲球迷在美國相對較多。場地條件中性，不影響雙方表現。",
+      "輿論共識：博彩市場（捷克隱含55-58%）、Opta超級電腦（54.9%）、主流媒體評論員（BBC、Sky Sports、Guardian、Al Jazeera等）、預測網站（Total Football Analysis、RotoWire、The Hard Tackle、NerdyTips等）均大幅傾向捷克獲勝。預測比分最多為2:0（ScoreGPT 5模型一致、Forebet、RotoWire、SportsGambler、Afrik-Foot、Wolfbet）或2:1（NerdyTips、Sports Mole、The Hard Tackle、Pulse Sports）。反向觀點（部分分析師）：Sports Mole量化模型認為兩隊勝率接近（各約36%），捷克防守在南韓賽後暴露漏洞，南非速度反擊可創機會；若南非中場Adams+Mbatha穩住陣腳，有可能逼出平局。JohnnyBet傾向1:1平局。Racing Post看好大波。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數異見觀點：1）Sports Mole數學模型認為兩隊勝率幾乎相同（CZE 36.8% vs RSA 36.45%），理由是捷克進攻效率有限，對強隊創造力欠佳；2）JohnnyBet預測1:1平局，認為南非在沒有壓力的情況下防守極具紀律，捷克無法突破；3）部分南非媒體（The Star、Briefly.co.za）指出，馬塞科（Maseko）等球員揚言要讓懷疑論者閉嘴，南非隊內凝聚力被低估；4）Racing Post看好大波（過2.5球@11-10），認為兩隊均需進攻求勝會令比賽更開放；5）YouTube個別評論員預測南非2:捷克3（認為比賽進球較多）。捷克首戰已因反擊被翻盤，若守備失誤持續，南非可能把握機會。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA Watch – Czechia Team Page",
+      "url": "https://fifawatch.com/en/team/czechia/"
+    },
+    {
+      "type": "official",
+      "name": "UEFA – Czechia at the World Cup 2026 Squad/Fixtures/History",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d15945d06d-c1587a40d2a4-1000--czechia-at-the-world-cup-2026-squad-fixtures-group-and-hi/"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Czech Republic national football team results (2026)",
+      "url": "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Template: Czech Republic squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Czech_Republic_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup qualification UEFA Group L",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_L"
+    },
+    {
+      "type": "official",
+      "name": "UEFA – European Qualifiers 2026 Fixtures and Results (Play-off)",
+      "url": "https://www.uefa.com/european-qualifiers/news/0294-1c916a81655d-47c1bac26fb9-1000--european-qualifiers-for-2026-world-cup-all-the-fixtures-a/"
+    },
+    {
+      "type": "official",
+      "name": "CAF Online – Bafana Bafana return to World Cup after 16 years",
+      "url": "https://www.cafonline.com/fifa-world-cup/news/bafana-bafana-return-to-world-cup-after-16-years-senegal-and-cote-d-ivoire-also-qualify/"
+    },
+    {
+      "type": "official",
+      "name": "Xinhua – South Africa names 26-man squad for 2026 World Cup",
+      "url": "https://english.news.cn/20260528/b3e5bed97cc14926b38d274089784deb/c.html"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Mercedes-Benz Stadium",
+      "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium"
+    },
+    {
+      "type": "official",
+      "name": "Mercedes-Benz Stadium – FIFA World Cup 26 Semi-final Event Page",
+      "url": "https://www.mercedesbenzstadium.com/events/fifa-world-cup-26-tm---semi-final"
+    },
+    {
+      "type": "official",
+      "name": "Olympics.com – South Africa 2026 World Cup Full Squad & Stats",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-how-far-will-broos-discipline-take-south-africa-s-expressive-team-all-players-full-squad-list-key-stats-and-schedule"
+    },
+    {
+      "type": "official",
+      "name": "EWN – FIFA World Cup 2026: Broos names final Bafana Bafana squad",
+      "url": "https://www.ewn.co.za/2026/05/27/fifa-world-cup-2026-broos-names-final-bafana-bafana-squad"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Czechia 2026 World Cup Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/450/league/FIFA.WORLD/sort/yellowCards"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Czechia 2026 Season FIFA World Cup Scoring Stats",
+      "url": "https://www.espn.com/soccer/team/stats?id=450&league=FIFA.WORLD&view=scoring"
+    },
+    {
+      "type": "official",
+      "name": "Bundesliga – World Cup stars Patrik Schick profile",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/czechia-vs-south-africa/stats"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Czechia World Cup 2026 Team Guide",
+      "url": "https://www.bbc.com/sport/football/articles/ce8p6l68rw5o"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – World Cup 2026: Tomas Soucek in Czech Republic squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckgp77e0yp7o"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – South Korea come from behind to beat Czech Republic",
+      "url": "https://www.bbc.com/sport/football/live/ckg0vvrg70vt"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Mexico 2-0 South Africa: Nightmare for Bafana Bafana",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn4dx3v9wjgo"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – South Korea 2-1 Czechia match report",
+      "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Raúl Jiménez seals Mexico's win vs nine-man South Africa",
+      "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026-group-a-match-report"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Czechia World Cup 2026 Team Guide",
+      "url": "https://www.theguardian.com/football/2026/may/27/czechia-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – South Africa World Cup 2026 Team Guide",
+      "url": "https://www.theguardian.com/football/2026/may/27/south-africa-world-cup-2026-team-guide-soccer"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – World Cup 2026: South Korea 2-1 Czech Republic report",
+      "url": "https://www.skysports.com/football/korea-republic-vs-czech-republic/549766"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Form and H2H stats Czech Rep vs S. Africa",
+      "url": "https://www.skysports.com/football/czech-republic-vs-south-africa/549790"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – South Korea 2-1 Czechia Game Analysis",
+      "url": "https://www.espn.com.au/football/report/_/gameId/760414"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Mexico 2-0 South Africa Final Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760415/south-africa-mexico"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – South Africa vs Czechia Odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760438"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – South Korea overcome Czechia via Hwang In-Beom brilliant display",
+      "url": "https://www.espn.com/soccer/story/_/id/49037668/south-korea-overcome-czechia-via-hwang-beom-brilliant-display-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Bafana coach Hugo Broos accepts too soft Themba Zwane red card",
+      "url": "https://www.espn.com.au/espn/story/_/id/49034326/south-africa-coach-hugo-broos-bafana-accept-too-soft-themba-zwane-red-card"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Preview South Africa plays Czechia seeks first WC win",
+      "url": "https://www.aljazeera.com/sports/2026/6/17/south-africa-plays-czechia-seeks-first-world-cup-win-after-mexico-defeat"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Two uncapped players named in South Africa World Cup squad",
+      "url": "https://www.aljazeera.com/sports/2026/5/28/bafana-bafana-world-cup-squad-south-africa-names-two-uncapped-players"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Which European nation best chance World Cup 2026",
+      "url": "https://www.aljazeera.com/sports/2026/6/8/which-european-nation-has-the-best-chance-to-win-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report – Final Power Ranking All 48 Teams 2026 World Cup",
+      "url": "https://bleacherreport.com/articles/25434991-final-power-ranking-all-48-teams-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Reuters – Czechs ease to 6-0 win over Gibraltar in World Cup qualifier",
+      "url": "https://www.reuters.com/sports/soccer/czechs-ease-6-0-win-over-gibraltar-world-cup-qualifier-2025-11-17"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post – Midfielder Hložek returns from injury in Czech Republic's preliminary World Cup squad",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/05/21/czech-republic-squad-world-cup/2b02b502-550f-11f1-9c40-7a0a12d9e745_story.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – Czech Republic World Cup 2026 squad",
+      "url": "https://www.fourfourtwo.com/team/czech-republic-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Chosun – Czech Republic Finalizes World Cup Squad",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/01/IYITYMPLQRB75POIF2RDXIJIZI/"
+    },
+    {
+      "type": "media",
+      "name": "FWC LIVE – South Africa National Football Team 2026 Squad",
+      "url": "https://fwclive.com/teams/south-africa/"
+    },
+    {
+      "type": "media",
+      "name": "FWC LIVE – Czechia 2026 World Cup Squad/Fixtures/Standings",
+      "url": "https://fwclive.com/teams/czechia/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – South Africa 2026 National Football Team",
+      "url": "https://fwctimes.com/south-africa/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Czechia vs South Africa Head to Head",
+      "url": "https://fwctimes.com/czechia-vs-south-africa-head-to-head/"
+    },
+    {
+      "type": "media",
+      "name": "The South African – World Rankings all 48 FIFA World Cup 2026 teams",
+      "url": "https://www.thesouthafrican.com/sport/soccer/soccer-world-cup/world-rankings-of-all-48-fifa-world-cup-2026-teams-updated/"
+    },
+    {
+      "type": "media",
+      "name": "The South African – Bafana Bafana vs Czech Republic date kickoff",
+      "url": "https://www.thesouthafrican.com/sport/soccer/soccer-world-cup/fifa-world-cup-2026-bafana-bafana-vs-czech-republic-date-and-kick-off-time/"
+    },
+    {
+      "type": "media",
+      "name": "Cape Argus – Sithole and Zwane World Cup dream potentially over",
+      "url": "https://capeargus.co.za/fifa-world-cup-2026/updates/2026-06-13-sphephelo-sithole-and-themba-zwanes-world-cup-dream-potentially-over/"
+    },
+    {
+      "type": "media",
+      "name": "Briefly.co.za – 2 Bafana stars to replace Sithole and Zwane vs Czech Republic",
+      "url": "https://briefly.co.za/sports/football/244214-world-cup-2026-2-bafana-bafana-stars-replace-sithole-themba-zwane-czech-republic/"
+    },
+    {
+      "type": "media",
+      "name": "Soccer24 – Punishment facing Bafana duo Sithole and Zwane after red cards",
+      "url": "https://www.soccer24.co.zw/2026/06/12/explained-the-punishment-facing-bafana-duo-sithole-and-zwane-after-straight-red-cards-in-world-cup-opener/"
+    },
+    {
+      "type": "media",
+      "name": "The Star – Bafana Bafana 2026 FIFA World Cup squad announcement",
+      "url": "https://thestar.co.za/fifa-world-cup-2026/updates/2026-05-27-blog-live-coverage-of-bafana-bafanas-2026-fifa-world-cup-squad-announcement/"
+    },
+    {
+      "type": "media",
+      "name": "The Star – Thapelo Maseko vows Bafana will silence doubters vs Czech Republic",
+      "url": "https://thestar.co.za/fifa-world-cup-2026/updates/2026-06-17-world-cup-2026-thapelo-maseko-vows-bafana-bafana-will-silence-doubters-in-vital-czech-republic-clash/"
+    },
+    {
+      "type": "media",
+      "name": "DailyNews.co.za – World Cup 2026: Inside Bafana camp as squad resets for must-win Czech clash",
+      "url": "https://dailynews.co.za/fifa-world-cup-2026/updates/2026-06-17-world-cup-2026-inside-the-bafana-bafana-camp-as-hugo-broos-squad-mentally-resets-for-must-win-czech-clash/"
+    },
+    {
+      "type": "media",
+      "name": "Afrik-Foot – Bafana Bafana next matches fixtures and results",
+      "url": "https://www.afrik-foot.com/en-za/south-africa-next-match-bafana-bafana-team-fixtures-and-results-2024-25"
+    },
+    {
+      "type": "media",
+      "name": "Afrik-Foot – Czech Republic vs South Africa Preview Prediction Tips Team News",
+      "url": "https://www.afrik-foot.com/en-za/czech-republic-vs-south-africa-preview"
+    },
+    {
+      "type": "media",
+      "name": "Afrik-Foot – Bafana Bafana vs Czech Republic predicted XI",
+      "url": "https://www.afrik-foot.com/en-za/bafana-bafana-czech-pirates-sundowns-xi"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports – Mexico vs South Africa live score World Cup 2026",
+      "url": "https://www.nbcsports.com/soccer/live/mexico-vs-south-africa-live-updates-score-goals-highlights-stats-opening-ceremony-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Mexico down South Africa in three red card match",
+      "url": "https://www.cbssports.com/soccer/news/mexico-vs-south-africa-live-updates-world-cup-2026-score-result/live/"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports – Mexico vs South Africa Highlights FIFA World Cup 2026",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/mexico-vs-south-africa-live-score-fifa-world-cup-2026-opening-ceremony-mex-vs-rsa-match-1-live-updates-football-11624128"
+    },
+    {
+      "type": "media",
+      "name": "SuperSport – South Africa 3-0 Rwanda qualifying report (WC 2026 qualifying)",
+      "url": "https://supersport.com/football/wc-qualification-africa/news/2e155097-86c0-4f80-9eb9-252d274c5480/advantage-bafana-at-the-break-south-africa-2-0-rwanda"
+    },
+    {
+      "type": "media",
+      "name": "SuperSport – FIFA World Cup 2026 African Teams Group Stage Guide",
+      "url": "https://supersport.com/football/news/900abbf5-cc73-4c0a-a924-380bc730f1a2/fifa-world-cup-2026-african-teams-group-stage-guide"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Czech Republic vs South Africa World Cup Preview",
+      "url": "https://www.goal.com/en/news/czech-republic-south-africa-world-cup-preview/blt2698eb3974683720"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Czechia vs South Africa predictions 18-06-2026",
+      "url": "https://www.goal.com/en-za/betting/world-cup/czechia-vs-south-africa-predictions-18-06-2026/A:bltf197fd987a2499e6"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – South Africa squad World Cup 2026",
+      "url": "https://www.goal.com/en/lists/south-africa-squad-world-cup-2026/bltedd11a9c0b3fc3f3"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – World Cup 2026 Ultimate Guide Czechia",
+      "url": "https://www.goal.com/en-qa/world-cup-teams/group-a/world-cup-2026-guide-czechia/O~blt9db29936d6f04652"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – World Cup 2026 Ultimate Guide South Africa",
+      "url": "https://www.goal.com/en-sg/world-cup-teams/group-a/world-cup-2026-guide-south-africa/O~blt672e24856af495fb"
+    },
+    {
+      "type": "media",
+      "name": "Khel Now – Czechia vs South Africa all-time H2H record",
+      "url": "https://khelnow.com/football/world-football-czechia-vs-south-africa-head-to-head-fifa-world-cup-202606"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – FIFA World Rankings 2026 every World Cup nation",
+      "url": "https://www.sportingnews.com/in/football/news/fifa-world-cup-rankings-list/f605dbebd60c5eb9e5698bc2"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – How and where to watch Czech Republic vs South Africa",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/how-and-where-to-watch-czech-republic-vs-south-africa-in-group-a-of-the-2026-fifa-world-cup-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – Czech Republic at the 2026 World Cup squad key players",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/czech-republic-at-the-2026-world-cup-squad-key-players-and-everything-you-need-to-know-2026-05-26"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – Hugo Broos Official South Africa Squad 2026 FIFA WC",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hugo-broos-official-south-africa-squad-for-the-2026-fifa-world-cup-2026-05-27"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk – South Africa 2026 World Cup preview squad tactical analysis",
+      "url": "https://worldsoccertalk.com/amp/world-cup/south-africa-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk – Czechia 2026 World Cup preview squad tactical analysis",
+      "url": "https://worldsoccertalk.com/world-cup/czechia-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "AS USA – Inside Mercedes-Benz Stadium: Busiest stadium in America",
+      "url": "https://en.as.com/soccer/inside-mercedes-benz-stadium-the-busiest-stadium-in-america-f202605-n/"
+    },
+    {
+      "type": "media",
+      "name": "AS USA – South Africa at the 2026 World Cup roster squad players group",
+      "url": "https://en.as.com/soccer/world-cup/south-africa-at-the-2026-world-cup-roster-squad-players-group-and-schedule-f202606-n-2/"
+    },
+    {
+      "type": "media",
+      "name": "AJC – Mercedes-Benz will be known as Atlanta Stadium for 2026 World Cup",
+      "url": "https://www.ajc.com/sports/atlanta-united/mbs-will-be-known-as-atlanta-stadium-in-2026-world-cup/RUZDIECEPZG2HG6FFLVJOHC4SM/"
+    },
+    {
+      "type": "media",
+      "name": "AJC – From Spain to Haiti: one thing about World Cup teams playing in Atlanta",
+      "url": "https://www.ajc.com/sports/2026/06/from-spain-to-haiti-heres-one-thing-about-world-cup-teams-playing-in-atlanta/"
+    },
+    {
+      "type": "media",
+      "name": "FARPost – PSL flexes muscles as Bafana Bafana dominate Africa in WC representation",
+      "url": "https://farpost.co.za/2026/06/04/psl-flexes-muscles-as-bafana-dominate-africa-in-world-cup-stats/"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore – South Korea edge Czech Republic (World Cup daily news 20260612)",
+      "url": "https://www.livescore.com/en/news/football/competition/world-cup/daily/friday-world-cup-daily-news-20260612/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Czechia vs South Africa Prediction (54.9% CZE / 21.8% RSA / 23.3% draw)",
+      "url": "https://theanalyst.com/articles/czechia-vs-south-africa-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – South Korea vs Czechia Prediction (pre-MD1: 42.9% KOR / 31.1% CZE)",
+      "url": "https://theanalyst.com/articles/south-korea-vs-czechia-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "ScoreGPT – World Cup 2026 AI predictions all matches (5 models agree 2-0 for CZE)",
+      "url": "https://scoregpt.app/world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "Forebet – Czech Republic Target Group A Lift as South Africa Miss Suspended Pair (50% CZE win, 2-0 prediction)",
+      "url": "https://www.forebet.com/en/football-match-previews/28632-czech-republic-target-group-a-lift-as-south-africa-miss-suspended-pair"
+    },
+    {
+      "type": "model",
+      "name": "LiveTipsPortal – Czech Republic vs South Africa AI prediction 18.06.2026",
+      "url": "https://www.livetipsportal.com/en/sportsbetting-tips/czech-republic-vs-south-africa-wc-10426790/"
+    },
+    {
+      "type": "model",
+      "name": "Sports Mole – Czech Republic vs South Africa (36.8% CZE / 26.7% draw / 36.45% RSA)",
+      "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/preview/czech-republic-vs-south-africaprediction-team-news-lineups_599402.html"
+    },
+    {
+      "type": "model",
+      "name": "Football Prediction App – Czech Republic 2026 World Cup Prediction model (61% qualify)",
+      "url": "https://footballprediction.app/team/czech-republic"
+    },
+    {
+      "type": "model",
+      "name": "SX Bet Blog – Czechia vs South Africa Prediction (Opta 64.2% Round of 32)",
+      "url": "https://blog.sx.bet/world-cup/czech-republic-vs-south-africa/"
+    },
+    {
+      "type": "model",
+      "name": "YouTube shorts model – Must-win in Atlanta by the numbers (CZE 53% / draw 26% / RSA 21%)",
+      "url": "https://www.youtube.com/watch?v=3bHbNaYylX8"
+    },
+    {
+      "type": "model",
+      "name": "AsianetNews prediction model – CZE 37% / draw 27% / RSA 36% (alternative model)",
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/czech-republic-vs-south-africa-vs-group-stage/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsGambler – Czech Republic vs South Africa Prediction Betting Tips Odds (CZE -143)",
+      "url": "https://www.sportsgambler.com/betting-tips/football/czech-republic-vs-south-africa-prediction-lineups-odds-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine – Czechia vs South Africa odds (FanDuel: CZE -132 / draw +268 / RSA +363)",
+      "url": "https://www.sportsline.com/insiders/czechia-vs-south-africa-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "ToffeeWeb – Czech Republic vs South Africa best odds (Betfred 1.62 / WH 1.75 / Smarkets 1.83)",
+      "url": "https://www.toffeeweb.com/czech-republic-vs-south-africa-predictions-picks-odds-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "TheSportsRush – Czech Republic vs South Africa Picks Predictions Betting Odds (-130)",
+      "url": "https://thesportsrush.com/czech-republic-v-south-africa-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Wolfbet – Czech Republic vs South Africa prediction odds (Home 1.79)",
+      "url": "https://tips.wolfbet.com/predictions/football/czech-republic-vs-south-africa-prediction-betting-tips-fifa-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Gainblers USA – Czech Republic vs South Africa prediction (CZE 1.82)",
+      "url": "https://gainblers.com/us/predictions/football/international/world-cup/prediction-czech-republic-south-africa-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post – Czech Republic vs South Africa prediction 7-2 Bet Builder (3-4 / 7-2 / 14-5)",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/czech-republic-vs-south-africa-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-agsWj2c9RFvC/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com – Czechia vs South Africa predictions picks odds (CZE -122 / draw +285 / RSA +376)",
+      "url": "https://www.covers.com/world-cup/czechia-vs-south-africa-prediction-picks-odds-thursday-6-18-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 – Czech Republic South Africa betting tip best odds 18.06.2026 (1.85 home)",
+      "url": "https://www.futbol24.com/betting-tips/preview/18-06-2026-czech-republic-south-africa-betting-tip/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com – Czech Republic vs South Africa prediction (1-0 CZE)",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/czech-republic-vs-south-africa-prediction-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "NerdyTips – Czech Republic vs South Africa prediction (2-1 CZE, confidence 8.5/10)",
+      "url": "https://nerdytips.com/blog/czech-republic-vs-south-africa-prediction-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Gambling News – Czech Republic vs South Africa odds prediction picks (2-0 CZE)",
+      "url": "https://www.gamblingnews.com/news/czech-republic-vs-south-africa-odds-prediction-picks-2026-fifa-world-cup-group-stage/"
+    },
+    {
+      "type": "betting",
+      "name": "VSiN – Czechia vs South Africa 2026 FIFA WC preview pick (CZE -130)",
+      "url": "https://vsin.com/soccer/czechia-vs-south-africa-prediction-2026-fifa-world-cup-preview-and-pick/"
+    },
+    {
+      "type": "betting",
+      "name": "JohnnyBet – Czech Republic vs South Africa prediction (draw 3.88 or CZE 1.85)",
+      "url": "https://www.johnnybet.com/czech-republic-vs-south-africa-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "Pulse Sports Nigeria – Czech Republic vs South Africa preview & betting tips (CZE 1.81)",
+      "url": "https://www.pulsesports.ng/story/czech-republic-vs-south-africa-2026-world-cup-preview-team-news-prediction-and-betting-tips-loser-on-their-way-home-2026061618413664831"
+    },
+    {
+      "type": "betting",
+      "name": "SportPesa Blog – Czech Republic vs South Africa prediction 2026 WC",
+      "url": "https://blog.sportpesa.com/2026/06/16/czech-republic-vs-south-africa-prediction-world-cup-2026/amp/"
+    },
+    {
+      "type": "betting",
+      "name": "Rotowire – Czechia vs South Africa preview predicted lineups team news (2-0 CZE)",
+      "url": "https://www.rotowire.com/soccer/article/czechia-vs-south-africa-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-118513"
+    },
+    {
+      "type": "betting",
+      "name": "Rotowire – Jan Kuchta ankle training fully ahead of South Africa",
+      "url": "https://www.rotowire.com/soccer/headlines/jan-kuchta-injury-likely-for-opener-519066"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football – World Cup Group A: What is everyone's predictions?",
+      "url": "https://www.reddit.com/r/football/comments/1u2r2q6/world_cup_group_a_what_is_everyones_predictions/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Matchday 1 preview Mexico vs South Africa / Korea vs Czechia",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u2vabv/matchday_1_preview_in_the_post_mexico_vs_south/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – South Africa unveils squad for 2026 World Cup",
+      "url": "https://www.reddit.com/r/soccer/comments/1tpdz4p/south_africa_unveils_its_squad_for_the_2026_world/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/SoccerBetting – Daily Picks Thread June 11 2026 (CZE/KOR picks)",
+      "url": "https://www.reddit.com/r/SoccerBetting/comments/1u2d25w/daily_picks_thread_thursday_11th_june_2026/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/reddevils – World Cup Watch Group Stage Game 1 Mexico vs South Africa",
+      "url": "https://www.reddit.com/r/reddevils/comments/1u360j1/world_cup_watch_group_stage_game_1_mexico_vs/"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis – Czech Republic vs South Africa predictions (CZE win 4/5, under 2.5 4/5)",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/czech-republic-v-south-africa-predictions"
+    },
+    {
+      "type": "kol",
+      "name": "The Hard Tackle – Czech Republic vs South Africa preview and prediction (2-1 CZE)",
+      "url": "https://thehardtackle.com/round-up/2026/06/17/czech-republic-vs-south-africa-preview-and-prediction/"
+    },
+    {
+      "type": "kol",
+      "name": "JuveFC – Czech Republic vs South Africa predictions (CZE win 4/5)",
+      "url": "https://www.juvefc.com/czech-republic-v-south-africa-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "Esports News UK – Czech Republic vs South Africa predictions (4/5 CZE)",
+      "url": "https://esports-news.co.uk/2026/06/15/czech-republic-v-south-africa-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "WorldCupLocalTime.com – Czech Republic vs South Africa June 18 2026 full preview (2-1 CZE)",
+      "url": "https://worldcuplocaltime.com/match/czech-republic-south-africa-2026-06-18/"
+    },
+    {
+      "type": "kol",
+      "name": "Snigdha Blogs – Czechia vs South Africa Group A 2026-06-18 (H2H + detailed analysis)",
+      "url": "https://blog.snigdhainvitations.com/sports/fifa-world-cup/matches/czechia-v-south-africa-group-a-2026-06-18"
+    },
+    {
+      "type": "kol",
+      "name": "Dang Journal – World Cup 2026 Group A Preview Mexico/Korea/Czechia/South Africa",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-a-preview-mexico-korea-czechia-south-africa/"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Mole – Czech Republic vs South Africa prediction team news lineups (2-1 CZE)",
+      "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/preview/czech-republic-vs-south-africaprediction-team-news-lineups_599402.html"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire – 2026 World Cup Group A Preview Tactics Lineups Set Pieces Odds",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-a-preview-mexico-south-africa-south-korea-czechia-tactics-lineups-set-pieces-odds-111369"
+    },
+    {
+      "type": "kol",
+      "name": "Onthepitch – South Africa vs Czech Republic 2026 FIFA World Cup forecast (H2H + xG)",
+      "url": "https://onthepitch.now/fixtures/gs-026/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czech Republic FULL 26-Man Squad 2026 World Cup Data Visualisation",
+      "url": "https://www.youtube.com/watch?v=_6CUyEASZvQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czech Republic 2026 World Cup Squad Every Player #Shorts",
+      "url": "https://www.youtube.com/watch?v=6UgSSp1Zg74"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czech Republic's Official World Cup 2026 Squad 26 Players",
+      "url": "https://www.youtube.com/watch?v=Qx0GYII5y2k"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – South Africa World Cup 2026 Squad 26 Players",
+      "url": "https://www.youtube.com/watch?v=0Dpcp91ehxA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – LIVE Bafana Bafana FIFA World Cup 2026 Squad Announcement",
+      "url": "https://www.youtube.com/watch?v=BJeDclQ45yo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Breakdown of Bafana Bafana World Cup squad (Sifiso Ramara)",
+      "url": "https://www.youtube.com/watch?v=d2fWDHVp5hM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Review of Bafana Bafana World Cup squad",
+      "url": "https://www.youtube.com/watch?v=nn6NbnBdmOg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Bafana Bafana squad for World Cup (Lyle Foster leads line)",
+      "url": "https://www.youtube.com/watch?v=5BQ2N_JVSV0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – FIFA World Cup 2026 Bafana: We can bounce back",
+      "url": "https://www.youtube.com/watch?v=AQWHSwJS4Y4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Will Bafana Bafana Reach The Knock-out Stages",
+      "url": "https://www.youtube.com/watch?v=5OJrN7XJ78g"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – South Korea vs Czechia 2-1 FIFA World Cup 2026 highlights",
+      "url": "https://www.youtube.com/watch?v=pBJLCDvRMXM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Africa 2-0 Highlights FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=ohaVwXIp6TA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Czech Republic vs South Africa Preview",
+      "url": "https://www.youtube.com/watch?v=ksAX0BXFxsw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – CZECH REPUBLIC vs SOUTH AFRICA Prediction 2026 World Cup",
+      "url": "https://www.youtube.com/watch?v=JJlkCzIzGJM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – CZECH REPUBLIC vs SOUTH AFRICA World Cup 2026 Full Match Simulation",
+      "url": "https://www.youtube.com/watch?v=G-OHS-Y-E6E"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – FC 26 World Cup 2026 Predictions Group A Czechia vs South Africa",
+      "url": "https://www.youtube.com/watch?v=7mW6lETp9TU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czech Republic vs South Africa 2026 WC Cass the Cat Prediction",
+      "url": "https://www.youtube.com/watch?v=9-QAvZOPUBg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 World Cup Group A Czechia vs South Africa Ping Pong Ball Prediction",
+      "url": "https://www.youtube.com/watch?v=XK-eQcj03WA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czech Republic vs South Africa Highlights & Goals FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=BQpgRdi5z3I"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – World Cup 2026 Matchday 1 Predictions Mexico-South Africa South Korea-Czechia",
+      "url": "https://www.youtube.com/watch?v=1TLUIL5f2Os"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Inside the 1.6 Billion Mercedes Benz Stadium Atlanta 2026 FIFA World Cup",
+      "url": "https://www.youtube.com/watch?v=-MSL1rbjFvg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – South Korea vs Czech Republic World Cup 2026 Expert Tactical Analysis",
+      "url": "https://www.youtube.com/watch?v=DaFfe3PhEuU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czech Republic vs Guatemala 3-1 Friendly WorldCup 2026 Highlights",
+      "url": "https://www.youtube.com/watch?v=qv_NwxkeSiw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Bafana Bafana secures World Cup spot (3-0 vs Rwanda)",
+      "url": "https://www.youtube.com/watch?v=sllx2pHxv1o"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Czechia vs South Africa Preview Must-Win World Cup Clash for Bafana Bafana",
+      "url": "https://www.youtube.com/watch?v=z7oYJyW1MMc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Africa Review What Went Wrong for Bafana",
+      "url": "https://www.youtube.com/watch?v=C0PXXWuR-4E"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Czechia vs Bafana Bafana matchday post (FIFA official)",
+      "url": "https://www.instagram.com/p/DZo4tvRIH9H/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Someone perfectly predicted every World Cup score (viral reel)",
+      "url": "https://www.instagram.com/reel/DZgEOScSWqq/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Bafana Bafana long journey to World Cup reel",
+      "url": "https://www.instagram.com/reel/DZafua6IIqF/"
+    },
+    {
+      "type": "social",
+      "name": "FlashScore – Czech Republic vs South Africa Live Match Page",
+      "url": "https://www.flashscore.com/match/football/czech-republic-6LHwBDGU/south-africa-W2ijYvlr/"
+    },
+    {
+      "type": "social",
+      "name": "FotMob – Czechia vs South Africa live score predicted lineups H2H",
+      "url": "https://www.fotmob.com/matches/south-africa-vs-czechia/1tbjja"
+    },
+    {
+      "type": "social",
+      "name": "365Scores – Czechia vs South Africa Scores Results Lineups H2H Odds",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/czech-republic-south-africa-5040-5103-5930"
+    },
+    {
+      "type": "social",
+      "name": "SeatGeek – World Cup 2026 tickets in Atlanta (South Africa vs Czechia listing)",
+      "url": "https://seatgeek.com/fifa-world-cup-tickets/atlanta"
+    },
+    {
+      "type": "social",
+      "name": "FootyStats – Czech Republic vs South Africa H2H Stats xG",
+      "url": "https://footystats.org/international/czech-republic-national-team-vs-south-africa-national-team-h2h-stats"
+    }
+  ],
+  "source_count": 153,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "捷克主場略佔優，南非反擊具威脅，預期小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "捷克實力佔優且戰術嚴謹，有望擊敗南非全取三分。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "捷克整體實力明顯佔優，主場作戰應能穩穩拿下南非。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "scoreline": "2:1",
+      "note": "捷克整體實力與經驗更佳，小勝南非可期"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "捷克具備較佳的戰術素養與身體對抗優勢，預計能穩健取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.25,
+        "away": 0.17
+      },
+      "scoreline": "2:1",
+      "note": "捷克主場優勢明顯，預計取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "捷克實力占優，南非防守欠穩，主隊可小勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.586,
+      "draw": 0.241,
+      "away": 0.173
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T171629Z"
+}

@@ -1,0 +1,932 @@
+{
+  "match": 27,
+  "stage": "Group B",
+  "home": "Canada",
+  "away": "Qatar",
+  "kickoff_utc": "2026-06-18T22:00:00Z",
+  "kickoff_hkt": "2026-06-19 06:00",
+  "run_id": "2026-06-17T1655Z",
+  "run_timestamp": "2026-06-17T16:55:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.73,
+      "draw": 0.165,
+      "away": 0.105
+    },
+    "confidence": 0.73,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.22
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.73,
+        "basis": "Opta超級電腦（25,000次模擬）：加拿大72.9%、平局16.5%、卡塔爾10.6%——為本場所有模型最具權威的預測來源（2026年6月17日更新）。Football Meister Coach AI：加拿大74%、平局17%、卡塔爾"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.73,
+        "basis": "博彩市場普遍以加拿大為壓倒性大熱。美國線：BetMGM/Kalshi加拿大-385（隱含機率79%），平局+475（約17%），卡塔爾+875-+1100（約8-9%）。英國線：3/10（加拿大），5/1（平），12/1（卡塔爾）。亞洲讓球"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "少數反向觀點認為：（1）加拿大在首場攻門效率極差（13射4正射，1.23 xG），若重複同樣問題則卡塔爾憑藉定位球或Afif的個人能力可能偷分；（2）卡塔爾門將Abunada在首場展現出色狀態，面對加拿大射門亦可能有連續撲救；（3）兩隊均急"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.752,
+          "draw": 0.162,
+          "away": 0.086
+        },
+        "scoreline": "2:0",
+        "note": "博彩市場普遍以加拿大為壓倒性大熱。美國線：BetMGM/Kalshi加拿大-385（隱含機率79%），平局+475（約17%），卡塔爾+875-+1100（約8-9%）。英國線：3/10（加拿大），5"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.729,
+          "draw": 0.165,
+          "away": 0.106
+        },
+        "note": "Opta超級電腦（25,000次模擬）：加拿大72.9%、平局16.5%、卡塔爾10.6%——為本場所有模型最具權威的預測來源（2026年6月17日更新）。Football Meister Coach"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "加拿大主場迎戰卡塔爾（Group B）。Opta超級電腦（25,000次模擬）：加拿大72.9%、平局16.5%、卡塔爾10.6%——為本場所有模型最具權威的預測來源（2026年6月17日更新）。Football Meister Coach。博彩市場普遍以加拿大為壓倒性大熱。美國線：BetMGM/Kalshi加拿大-385（隱含機率79%），平局+475（約17%），卡塔爾+875-+1100（約8-9%）。英國線：3。AI 主預測 2:0（加拿大勝），信心 0.73。",
+    "key_factors": [
+      "球員狀態：Jonathan David（尤文圖斯，38球，加拿大全時最高射手）、Tajon Buchanan及Stephen Eustáquio均狀態良好；卡塔爾方面Akram Afif（AFC兩屆年度最佳）為最危險球員，其餘主力俱樂部層級遠低於對手。加拿大陣中12名效力歐洲五大聯賽球員對比卡塔爾幾乎清一色卡塔爾超級聯賽球員，質量差距懸殊。",
+      "傷停名單：最大變數為Alphonso Davies（腿後肌）極可能缺陣或最多替補登場；若其缺陣由Richie Laryea（多倫多FC）頂替左後衛，攻強守弱的可能性上升。Moïse Bombito（脛骨）仍有出場疑問。卡塔爾無傷停，全員適戰。",
+      "近期狀態/戰績：加拿大2026年8場不敗（7勝1平），在BC Place最近4場進17失2；世界盃首場拿下史上首分（1-1平波黑），但進攻效率仍待提升（13射僅4正射）。卡塔爾近7場無勝（4負），備戰成績慘淡（0-3負突尼西亞、0-1負愛爾蘭），世界盃首場靠補時第90+4分鐘進球逼平瑞士，實際整場被瑞士壓著打（32%控球、被26腳射門）。歷史交鋒僅1場友誼賽：加拿大2022年9月維也納2-0勝。本屆世界盃東道主面對亞洲球隊全勝（3次共勝），加拿大歷史上不曾輸給過卡塔爾。",
+      "戰術對位：加拿大高位逼搶4-2-3-1體系在主場球迷支持下可以高速壓制；卡塔爾防線將面臨龐大壓力（首場vs瑞士被37腳射門等），若仍以32%控球率應戰，被加拿大突破是大概率事件。最危險對位：卡塔爾快速反擊vs加拿大高防線後場空間，Afif或可利用此點創造機會。加拿大若 Davies 復出，左路突擊能力大幅提升；若缺陣，Laryea+Buchanan左路組合仍可應付，但速度威脅下降。",
+      "主客場/場地：BC Place（48,821容量，世界盃期間天然草）是加拿大本屆世界盃事實上的主場基地，兩場小組賽均在此舉行；雙頂棚設計令主場氛圍更為響亮。歷屆東道主面對亞洲隊全勝（包括法國4-0、俄羅斯5-0沙特），主場優勢顯著。卡塔爾作為遠道客隊，需在全城投入的熱烈氛圍中承受心理壓力，屬不利因素。",
+      "輿論共識：Opta超電腦（25,000次模擬）給出72.9%加拿大勝率，為全體模型最高。主流博彩盤口加拿大-385（隱含79%）。多數預測網站選擇2-0加拿大。Reddit/BigSoccer等球迷論壇一面倒支持加拿大，B組「愛與和平」平局梗走紅900萬次瀏覽，本場勝負成B組走向決定因素，加拿大若勝則基本確保出線。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數反向觀點認為：（1）加拿大在首場攻門效率極差（13射4正射，1.23 xG），若重複同樣問題則卡塔爾憑藉定位球或Afif的個人能力可能偷分；（2）卡塔爾門將Abunada在首場展現出色狀態，面對加拿大射門亦可能有連續撲救；（3）兩隊均急需三分，比賽心理壓力可能讓加拿大過於謹慎，最終逼出低比分平局；（4）Covers.com分析員推薦卡塔爾+1.5（+101）及Under 2.5（+109），認為這場比賽不太可能超過一球差距；（5）若Davies突然復出可能打亂陣型默契，影響整體配合。總體而言，卡塔爾拿分的概率約26%（平局17%+冷門勝約9%），不容完全忽視。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA Watch – Canada Squad & Fixtures",
+      "url": "https://fifawatch.com/en/team/canada/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA Watch – Qatar Squad & Fixtures",
+      "url": "https://fifawatch.com/en/team/qatar/"
+    },
+    {
+      "type": "official",
+      "name": "Canada Soccer – Official World Cup Page (MLS Soccer)",
+      "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/canada-vs-qatar-how-to-watch-stream-world-cup-group-b-match"
+    },
+    {
+      "type": "official",
+      "name": "Qatar News Agency (QNA) – Qatar vs Canada Preview",
+      "url": "https://qna.org.qa/en/news/news-details?id=fifa-2026-world-cup-qatar-faces-canada-to-boost-chance-of-qualifying-for-next-stage&date=17%2F06%2F2026"
+    },
+    {
+      "type": "official",
+      "name": "BC Gov News – BC Place FIFA 2026 Economic Impact",
+      "url": "https://news.gov.bc.ca/releases/2026TACS0027-000625"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – 2026 World Cup Squad Lists All 48 Teams",
+      "url": "https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – 2026 FIFA World Cup Standings Group B",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Canada vs Qatar Odds & Game Info",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760440"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Canada vs Bosnia Final Score Jun 12",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760416/bosnia-herzegovina-canada"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Qatar 1-1 Switzerland Final Score Jun 13",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar"
+    },
+    {
+      "type": "official",
+      "name": "FIFA Men's Top 50 World Rankings June 2026 – ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/46664763/fifa-mens-top-50-world-rankings"
+    },
+    {
+      "type": "media",
+      "name": "Sportsnet – Marsch Navigates Injuries to Finalize Canada's WC Roster",
+      "url": "https://www.sportsnet.ca/fifa-world-cup/article/marsch-navigates-injuries-to-finalize-canadas-world-cup-roster/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsnet – Canada World Cup Power Rankings",
+      "url": "https://www.sportsnet.ca/fifa-world-cup/article/fifa-world-cup-power-rankings-how-does-canada-stack-up-against-the-rest/"
+    },
+    {
+      "type": "media",
+      "name": "CBC – What to know about Canada's World Cup team",
+      "url": "https://www.cbc.ca/sports/the-buzzer-newsletter-world-cup-2026-primer-canada-9.7232304"
+    },
+    {
+      "type": "media",
+      "name": "CBC – Davies status update Jun 16",
+      "url": "https://www.cbc.ca/sports/the-buzzer-newsletter-world-cup-2026-world-cup-update-davies-9.7237842"
+    },
+    {
+      "type": "media",
+      "name": "CBC – Davies appears unlikely to play vs Qatar",
+      "url": "https://www.cbc.ca/sports/soccer/worldcup/fifa-canada-world-cup-ali-ahmed-chris-jones-june-15-9.7236016"
+    },
+    {
+      "type": "media",
+      "name": "CBC – Canada WC Roster Revealed (Davies included)",
+      "url": "https://www.cbc.ca/sports/soccer/worldcup/canada-soccer-world-cup-team-roster-chris-jones-may-29-9.7217118"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post – Davies still limited in practice",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/15/world-cup-alphonso-davies-canada/b8dde6a8-68fb-11f1-830e-133d20cadd28_story.html"
+    },
+    {
+      "type": "media",
+      "name": "BBC News – Everything to know about Canada's men's team at 2026 WC",
+      "url": "https://www.bbc.com/news/articles/c1kyenz90m7o"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – Canada vs Bosnia Live Score Result Highlights",
+      "url": "https://www.sportingnews.com/us/soccer/news/canada-vs-bosnia-herzegovina-world-cup-live-score-result-highlights/6ae125dfd1de631462dd4883"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – Canada 2026 World Cup Roster Confirmed",
+      "url": "https://www.sportingnews.com/us/soccer/news/canada-world-cup-roster-2026-squad/97d5edeb349045ee8838e51c"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – FIFA World Rankings 2026 All WC Nations",
+      "url": "https://www.sportingnews.com/in/football/news/fifa-world-cup-rankings-list/f605dbebd60c5eb9e5698bc2"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Canada Injury Replacement Before Opener (Jayden Nelson)",
+      "url": "https://www.si.com/soccer/canada-names-injury-replacement-before-world-cup-opener"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Canada 2026 World Cup Roster Confirmed",
+      "url": "https://www.si.com/soccer/canada-2026-world-cup-roster-confirmed-full-list-players"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Ranking 16 FIFA World Cup Host Cities (Vancouver BC Place)",
+      "url": "https://www.si.com/soccer/ranking-16-fifa-world-cup-host-cities"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Canada World Cup 2026 Team Preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/1/canadas-world-cup-2026-team-preview-squad-players-to-watch-group-stage-matches"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Qatar 'dream' with first WC knockouts in sight (Lopetegui)",
+      "url": "https://www.aljazeera.com/sports/2026/6/3/fifa-world-cup-2026-qatar-squad-team-players-group-knockouts"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Ranking MENA Teams at WC 2026",
+      "url": "https://www.aljazeera.com/sports/2026/6/9/ranking-the-middle-east-and-north-african-teams-at-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – World Cup Day 2 Predictions (Opta Canada vs BIH)",
+      "url": "https://www.aljazeera.com/news/2026/6/12/world-cup-day-2-usa-canada-begin-schedule-predictions-and-how-to-watch"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Qatar vs Switzerland Live Jun 13",
+      "url": "https://www.aljazeera.com/sports/2026/6/13/qatar-vs-switzerland-world-cup-group-match-preview-team-news-lineups"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – Canada vs Bosnia Match Boxscore Jun 12",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-canada-vs-bosnia-and-herzegovina-jun-12-2026-game-boxscore-647618"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – Qatar vs Switzerland Live Updates Jun 13",
+      "url": "https://www.foxsports.com/live-blog/soccer/qatar-vs-switzerland-live-updates-score-top-plays-from-todays-action"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – Winners Losers from Canada's WC Squad",
+      "url": "https://www.foxsports.com/stories/soccer/winners-and-losers-from-canadas-world-cup-squad-promise-davids-recovery-alphonso-davies-progress-and-ralph-prisos-heartbreak"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – Vancouver World Cup City Guide",
+      "url": "https://www.foxsports.com/articles/soccer/vancouver-has-a-lot-more-than-just-soccer-to-offer-fans-during-the-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Canada vs Qatar TV Channel How to Watch Predicted Lineups",
+      "url": "https://www.espn.com/soccer/story/_/id/49080149/canada-vs-qatar-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – World Cup Power Rankings 48 hours out",
+      "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Alphonso Davies Injury Canada World Cup Qatar",
+      "url": "https://www.espn.com/soccer/story/_/id/49076456/alphonso-davies-injury-canada-world-cup-qatar"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – 2026 World Cup Injuries Tracker",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Qatar 2026 Squad Full Roster",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/4398/sort/redCards/dir/asc/jersey"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Canada vs Bosnia WC 2026 Live",
+      "url": "https://www.theguardian.com/football/live/2026/jun/12/canada-v-bosnia-and-herzegovina-world-cup-2026-live"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Qatar vs Switzerland WC 2026",
+      "url": "https://www.theguardian.com/football/match/2026/jun/13/qatar-v-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report – Final Power Ranking All 48 Teams WC 2026",
+      "url": "https://bleacherreport.com/articles/25434991-final-power-ranking-all-48-teams-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report – Canada vs Bosnia Live WC 2026 Updates",
+      "url": "https://bleacherreport.com/liveblogs/25438834-canada-vs-bosnia-herzegovina-live-world-cup-2026-updates-scores-and-highlights"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Alphonso Davies Injury Misses Opener",
+      "url": "https://www.goal.com/en/lists/world-cup-news-canada-alphonso-davies-injury-misses-opener/blt70b8865d97c189dc"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Canada vs Qatar World Cup Preview",
+      "url": "https://www.goal.com/en-us/news/canada-qatar-world-cup-preview/blteef9d2c72de87600"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Canada 2026 WC Roster Projection",
+      "url": "https://www.goal.com/en-us/lists/jonathan-david-leads-the-way-but-injuries-to-alphonso-davies-and-others-impact-canada-s-chances-2026-canada-world-cup-roster-projection/blt5a743ad1a7de5028"
+    },
+    {
+      "type": "media",
+      "name": "Daily Hive – Davies injury update before WC",
+      "url": "https://dailyhive.com/vancouver/canada-bad-news-injury-davies-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Daily Hive – BC Place surprising advantage World Cup",
+      "url": "https://dailyhive.com/vancouver/bc-place-fifa-world-cup-advantage"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times – Doubts remain over Davies ahead of Qatar match",
+      "url": "https://www.straitstimes.com/sport/football/doubts-remain-over-davies-as-canada-prepare-for-qatar-match"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times – Canada World Cup dreams face first test",
+      "url": "https://www.straitstimes.com/sport/football/canadas-world-cup-dreams-face-first-test-as-injury-hit-hosts-meet-bosnia"
+    },
+    {
+      "type": "media",
+      "name": "The Star Malaysia – Canada face Qatar with wide-open Group B",
+      "url": "https://www.thestar.com.my/sport/football/2026/06/17/soccer-canada-face-qatar-in-vancouver-with-wide-open-group-b-in-focus-at-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com – Davies still in return-to-play protocol Jun 17",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/2026-fifa-world-cup-live-news-blog-germany-37602"
+    },
+    {
+      "type": "media",
+      "name": "TheScore – World Cup Injury Tracker",
+      "url": "https://www.thescore.com/worldcup/news/3550982/world-cup-injury-tracker-timber-karl-wesley-join-list-of-absentees"
+    },
+    {
+      "type": "media",
+      "name": "TheScore – Switzerland vs Qatar June 13 Matchup",
+      "url": "https://www.thescore.com/worldcup/event/93087"
+    },
+    {
+      "type": "media",
+      "name": "TheScore – Bosnia vs Canada June 12 Matchup",
+      "url": "https://www.thescore.com/worldcup/event/93100"
+    },
+    {
+      "type": "media",
+      "name": "RTÉ – Qatar stun Switzerland with injury-time equaliser",
+      "url": "https://www.rte.ie/sport/world-cup-2026/2026/0613/1578226-qatar-stun-switzerland-with-injury-time-equaliser/"
+    },
+    {
+      "type": "media",
+      "name": "One Soccer – Qatar stun Switzerland Group B",
+      "url": "https://onesoccer.ca/a/group-b-watch-qatar-stun-switzerland-with-late-draw-in-tournament-opener"
+    },
+    {
+      "type": "media",
+      "name": "Now Toronto – Group B goes viral perfectly tied standings",
+      "url": "https://nowtoronto.com/sports/canada-group-b-world-cup-tied-reactions/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsnet – Canada Beats Uzbekistan WC Tune-up",
+      "url": "https://www.sportsnet.ca/fifa-world-cup/article/canada-beats-uzbekistan-in-world-cup-tune-up/"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – Canada in FIFA World Cup 2026 Squad Key Players",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/canada-in-the-fifa-world-cup-2026-squad-key-players-and-everything-you-need-to-know-2026-05-29"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – Qatar Squad Lopetegui 2026 WC",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/julen-lopetegui-s-official-squad-for-qatar-at-the-2026-fifa-world-cup-2026-06-01"
+    },
+    {
+      "type": "media",
+      "name": "AS USA – Qatar at 2026 WC Roster Players Group Schedule",
+      "url": "https://en.as.com/soccer/world-cup/qatar-at-the-2026-world-cup-roster-squad-players-group-and-schedule-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "Encyclopedia Britannica – 2026 FIFA World Cup Teams Qatar",
+      "url": "https://www.britannica.com/sports/2026-FIFA-World-Cup-Teams"
+    },
+    {
+      "type": "media",
+      "name": "BVM Sports – Marsch Finalizes Canada's 2026 WC Roster",
+      "url": "https://bvmsports.com/2026/05/29/marsch-finalizes-canadas-2026-world-cup-roster-amid-injuries/"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard – Canada WC 2026 Guide",
+      "url": "https://www.standard.co.uk/sport/football/canada-world-cup-2026-guide-fixtures-prediction-key-player-odds-b1284177.html"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Canada vs Qatar Form and Head to Head Stats",
+      "url": "https://www.skysports.com/football/canada-vs-qatar/stats/549792"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore – Qatar vs Switzerland Match Jun 13",
+      "url": "https://www.sofascore.com/football/match/qatar-switzerland/ZTbsRVb"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore – FIFA Football Rankings 2026",
+      "url": "https://www.sofascore.com/football/rankings/fifa"
+    },
+    {
+      "type": "media",
+      "name": "FotMob – Canada vs Qatar H2H and Recent Form",
+      "url": "https://www.fotmob.com/nb/matches/canada-vs-qatar/14u9ym"
+    },
+    {
+      "type": "media",
+      "name": "365Scores – Qatar 1-1 Switzerland Match Report",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/qatar-switzerland-5032-5079-5930"
+    },
+    {
+      "type": "media",
+      "name": "365Scores – Canada vs Qatar Head to Head Stats",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/canada-qatar-2388-5079-5930"
+    },
+    {
+      "type": "media",
+      "name": "Bolavip – Qatar FIFA Ranking Group B Opponents",
+      "url": "https://bolavip.com/en/world-cup/qatars-fifa-ranking-more-about-canadas-2026-world-cup-group-b-opponent"
+    },
+    {
+      "type": "media",
+      "name": "Sport Mole – Canada vs Qatar Head-to-Head Record",
+      "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/head-to-head/canada-vs-qatar-head-to-head-record-and-past-meetings_599329.html"
+    },
+    {
+      "type": "media",
+      "name": "Sport Mole – Canada vs Qatar Prediction Team News Lineups",
+      "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/preview/canada-vs-qatar-prediction-team-news-lineups_599337.html"
+    },
+    {
+      "type": "media",
+      "name": "Sport Mole – Qatar vs Switzerland Team News Predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup/team-news/qatar-vs-switzerland-injury-suspension-list-predicted-xis_598997.html"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – Canada vs Qatar H2H Compare Teams",
+      "url": "https://www.futbol24.com/team-compare/CONCACAF/Canada/vs/AFC/Qatar"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – Qatar squad 2026 FIFA World Cup Template",
+      "url": "https://en.wikipedia.org/wiki/Template:Qatar_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Qatar FIFA World Cup 2026 Full Squad Roster",
+      "url": "https://fwctimes.com/qatar/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Live – Canada World Cup 2026 Squad Fixtures Standings",
+      "url": "https://fwclive.com/teams/canada/"
+    },
+    {
+      "type": "media",
+      "name": "FIFA World Cup News – Canada Men's National Football Team",
+      "url": "https://www.fifaworldcupnews.com/canada-mens-national-football-team/"
+    },
+    {
+      "type": "media",
+      "name": "WorldCuply.com – Group B Canada Fixtures Venues Predictions",
+      "url": "https://worldcuply.com/group-b.html"
+    },
+    {
+      "type": "media",
+      "name": "Mundial Player Tracker – Bombito stays Canada WC roster",
+      "url": "https://mundialplayertracker.com/insights/canada-bombito-stays-on-canadas-world-cup-roster-despite/"
+    },
+    {
+      "type": "media",
+      "name": "Injuries and Suspensions – FIFA World Cup 2026 June 12",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-2/"
+    },
+    {
+      "type": "media",
+      "name": "Injuries and Suspensions – FIFA World Cup 2026 June 13 Qatar vs Switzerland",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-3/"
+    },
+    {
+      "type": "media",
+      "name": "True North Foot – Canada Availability Report Day-to-Day",
+      "url": "https://truenorthfoot.ca/article/canadas-availability-report-day-to-day-updates-during-the-world-cup-647"
+    },
+    {
+      "type": "media",
+      "name": "Stadium Journey – 2026 FIFA World Cup Venues Canada",
+      "url": "https://www.stadiumjourney.com/stadiums/2026-fifa-world-cup-venues-canada"
+    },
+    {
+      "type": "media",
+      "name": "141 Venn-U – BC Place Venue Risk Brief WC 2026",
+      "url": "https://141vennu.substack.com/p/vancouver-stadium-bc-place-venue"
+    },
+    {
+      "type": "media",
+      "name": "Guest Manual – FIFA 2026 Airbnb Host Guide Vancouver BC Place",
+      "url": "https://www.guestmanual.com/blog/fifa-2026-airbnb-host-guide-vancouver"
+    },
+    {
+      "type": "media",
+      "name": "Commbitz – FIFA WC 2026 Canada Schedule Stadiums Tickets Travel",
+      "url": "https://commbitz.com/blogs/fifa-world-cup-2026-canada-schedule-stadiums-tickets-travel-guide-for-fans/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports/Playmakerstats – Canada vs Qatar Team News Lineups Preview",
+      "url": "https://sports.yahoo.com/articles/preview-canada-vs-qatar-team-220500170.html"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Canada vs Qatar Lineups Team News Tactical Analysis",
+      "url": "https://www.rotowire.com/soccer/article/canada-vs-qatar-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-118506"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Canada vs Qatar Prediction (25,000 simulations)",
+      "url": "https://theanalyst.com/articles/canada-vs-qatar-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Canada vs Bosnia Prediction (pre-match 10,000 sims)",
+      "url": "https://theanalyst.com/articles/canada-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister – Coach AI Canada vs Qatar (74% win probability)",
+      "url": "https://footballmeister.com/world-cup/canada-qatar-2026-06-18/"
+    },
+    {
+      "type": "model",
+      "name": "The Independent – 1 million simulations WC 2026 Canada Group Chances",
+      "url": "https://www.independent.co.uk/sport/football/world-cup/world-cup-prediction-computer-model-forecast-b2994267.html"
+    },
+    {
+      "type": "model",
+      "name": "On The Pitch – FIFA 2026 WC Model Win Probabilities Lineups",
+      "url": "https://onthepitch.now"
+    },
+    {
+      "type": "model",
+      "name": "Football Explorer – WC 2026 Predictions AI Analysis",
+      "url": "https://www.footballexplorer.com/en/world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "ABHS – FIFA 2026 June 18 AI Predictions Canada Qatar (77% Canada)",
+      "url": "https://www.abhs.in/blog/fifa-2026-june-18-predictions-mexico-south-korea-canada-qatar-switzerland-ai"
+    },
+    {
+      "type": "model",
+      "name": "Canada Sports Betting – Data Model Canada vs Qatar (2.09-0.59 xG advantage)",
+      "url": "https://www.canadasportsbetting.ca/news/world-cup/canada-qatar-june-18-world-cup-prediction/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM – Canada vs Qatar WC 2026 Analysis & Betting Lines",
+      "url": "https://sports.betmgm.ca/en/blog/world-cup/canada-vs-qatar-world-cup-2026-analysis-betting-lines-bm22/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM – Alphonso Davies Injury Update World Cup 2026",
+      "url": "https://sports.betmgm.ca/en/blog/world-cup/alphonso-davies-injury-update-world-cup-2026-bm22/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler – Canada vs Qatar Prediction Betting Tips Lineups Odds",
+      "url": "https://www.sportsgambler.com/betting-tips/football/canada-vs-qatar-prediction-lineups-odds-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com – Canada vs Qatar Prediction Picks Odds Jun 18",
+      "url": "https://www.covers.com/world-cup/canada-vs-qatar-prediction-picks-odds-thursday-6-18-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com – Canada 2026 World Cup Odds",
+      "url": "https://www.covers.com/world-cup/canada-odds"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post – Canada vs Qatar WC 2026 Prediction Odds Betting Tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/canada-vs-qatar-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-acVXW4O79F8N/"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush – Canada vs Qatar Prediction Odds Betting",
+      "url": "https://thesportsrush.com/canada-v-qatar-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket – Canada vs Qatar WC 2026 Prediction Markets",
+      "url": "https://polymarket.com/es/sports/world-cup/fifwc-can-qat-2026-06-18"
+    },
+    {
+      "type": "betting",
+      "name": "NerdyTips – Canada vs Qatar Prediction Odds Betting Tips",
+      "url": "https://nerdytips.com/blog/canada-vs-qatar-prediction-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMines – Canada vs Qatar Prediction Match Preview Analysis",
+      "url": "https://betmines.com/match-preview/canada-vs-qatar-prediction-match-preview-and-analysis-world-cup-18-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Football Predictions – Canada vs Qatar WC Prediction Jun 18",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/canada-vs-qatar-prediction-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "World Sports Network – Canada vs Qatar 2026 Predictions",
+      "url": "https://www.wsn.com/world-cup/canada-vs-qatar-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportskeeda – Canada vs Qatar Prediction Betting Tips June 18",
+      "url": "https://www.sportskeeda.com/football/canada-vs-qatar-prediction-betting-tips-june-18th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis – Canada vs Qatar WC 2026 Predictions Best Bets",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/canada-v-qatar-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "The Celtic Star – Canada vs Qatar WC 2026 Preview Best Bets",
+      "url": "https://thecelticstar.com/canada-v-qatar-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "LiveScore – WC 2026 Bet Builder Tips Jun 18 (Canada vs Qatar)",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-bet-builder-tips-10-1-five-fold-for-thursday-18-june/"
+    },
+    {
+      "type": "betting",
+      "name": "Inkl/Various – Canada vs Qatar WC 2026 Predictions Best Bets",
+      "url": "https://www.inkl.com/news/canada-vs-qatar-world-cup-2026-predictions-and-best-bets"
+    },
+    {
+      "type": "betting",
+      "name": "SportPesa Blog – Canada vs Qatar Prediction WC 2026",
+      "url": "https://blog.sportpesa.com/2026/06/16/canada-vs-qatar-prediction-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "SportPesa KE Blog – Canada vs Qatar H2H Team News Lineups Odds",
+      "url": "https://blog.ke.sportpesa.com/2026/06/16/canada-vs-qatar-prediction-world-cup-2026-preview-team-news-lineups-odds-h2h/"
+    },
+    {
+      "type": "betting",
+      "name": "MEXC – Canada vs Qatar WC 2026 Host-Nation Pressure Pick",
+      "url": "https://www.mexc.com/news/1151606"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – CANADA vs QATAR WC 2026 Full Match Simulation & Prediction (CRPJY0Gimnc)",
+      "url": "https://www.youtube.com/watch?v=CRPJY0Gimnc"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Canada vs Qatar Prediction Home Pressure Edge (xG 1.82 vs 0.67)",
+      "url": "https://www.youtube.com/watch?v=9Ggnhxo_kAc"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Canada vs Qatar FIFA WC 2026 Preview (nV7dBIFDG1A)",
+      "url": "https://www.youtube.com/watch?v=nV7dBIFDG1A"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – 2026 FIFA WC Canada vs Qatar Preview (cNcoE74evQs)",
+      "url": "https://www.youtube.com/watch?v=cNcoE74evQs"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Canada vs Qatar Group B Preview & Predictions (37q6Pf90Ajk)",
+      "url": "https://www.youtube.com/watch?v=37q6Pf90Ajk"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – FC26 WC 2026 Predictions Group B Canada vs Qatar (hn_1K4xALgM)",
+      "url": "https://www.youtube.com/watch?v=hn_1K4xALgM"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – My 2026 WC Predictions vs SUPERCOMPUTER (wBJj8-maC2Y)",
+      "url": "https://www.youtube.com/watch?v=wBJj8-maC2Y"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Is CanMNT playing mind games ahead of Qatar match (H4FpoNDyde0)",
+      "url": "https://www.youtube.com/watch?v=H4FpoNDyde0"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Qatar Official WC 2026 Squad Reveal (jd5xZ09oCkA)",
+      "url": "https://www.youtube.com/watch?v=jd5xZ09oCkA"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Qatar Official WC 2026 Squad 26 Players (-CJamuwbgwQ)",
+      "url": "https://www.youtube.com/watch?v=-CJamuwbgwQ"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – Qatar vs Switzerland Preview Key Facts Lineups (fZx1Roqb9s8)",
+      "url": "https://www.youtube.com/watch?v=fZx1Roqb9s8"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube – 2026 WC Complete Analysis Group B Preview (hq6IrYFiD1w)",
+      "url": "https://www.youtube.com/watch?v=hq6IrYFiD1w"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – World Cup 2026 Preview Canada (u/worldcup_preview)",
+      "url": "https://www.reddit.com/r/soccer/comments/1u3c5g8/world_cup_2026_preview_canada_home_soil_high/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – World Cup 2026 Preview Qatar Last Hurrah",
+      "url": "https://www.reddit.com/r/soccer/comments/1u49fij/world_cup_2026_preview_qatar_a_last_hurrah_for/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/sportsbook – Soccer World Cup Betting Discussion 6/17",
+      "url": "https://www.reddit.com/r/sportsbook/comments/1u7ygxx/soccer_world_cup_betting_and_picks_daily/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/sportsbook – Soccer World Cup Betting Discussion 6/13",
+      "url": "https://www.reddit.com/r/sportsbook/comments/1u4ee57/soccer_world_cup_betting_and_picks_daily/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – FIFA WC 2026 Results Discussion Thread",
+      "url": "https://www.bigsoccer.com/threads/fifa-world-cup-2026-results-discussion-thread-r.2139029/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – 2026 World Cup Group Stage Predictions",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/"
+    },
+    {
+      "type": "forum",
+      "name": "Covers.com Forum – 2026 FIFA World Cup Picks and Fun Facts",
+      "url": "https://www.covers.com/forum/soccer-36/2026-fifa-world-cup---picks-some-fun-facts-104035944"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Opta Supercomputer WC 2026 Favourites Post",
+      "url": "https://www.instagram.com/p/DZc7snxEW7i/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – FIFA Ranking 2026 WC Teams Post",
+      "url": "https://www.instagram.com/p/DZVddqyDEF6/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Qatar 1-1 Switzerland WC 2026 Group B",
+      "url": "https://www.instagram.com/p/DZioHjJCFMq/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Qatar's dramatic WC 2026 draw viral reel",
+      "url": "https://www.instagram.com/reel/DZjpl-5MAhO/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Alphonso Davies pregame speech viral reel",
+      "url": "https://www.instagram.com/reel/DZf4baev3jy/"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) – FIFA WC 2026 June 13 Results CataPaul2",
+      "url": "https://x.com/CataPaul2/status/2065796811336360201"
+    },
+    {
+      "type": "social",
+      "name": "Facebook – ATMSports Day 2 Results Group B Standings",
+      "url": "https://www.facebook.com/ATMsports10/posts/2026-fifa-world-cup-updates-with-atmsports-%EF%B8%8F-%EF%B8%8F-day-2-results-standings-canada-1-/1487091203433176/"
+    }
+  ],
+  "source_count": 145,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "加拿大主場作戰，地利加持，整體實力略勝卡塔爾。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "加拿大具主場優勢且實力較強，預測能穩穩拿下卡達。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:0",
+      "note": "加拿大主場出擊實力佔優，有望輕取卡達。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.29,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "主場加拿大整體實力較佳，小勝卡塔爾機會大。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "加拿大擁有強大主場優勢與旅歐球星，預計能穩健擊敗卡達。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.27,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "加拿大主場優勢明顯，預計2:1小勝卡達。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "加拿大主場之利，實力明顯高於卡達，預計輕取。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.621,
+      "draw": 0.221,
+      "away": 0.158
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T171833Z"
+}

@@ -1,0 +1,1012 @@
+{
+  "match": 26,
+  "stage": "Group B",
+  "home": "Switzerland",
+  "away": "Bosnia & Herzegovina",
+  "kickoff_utc": "2026-06-18T19:00:00Z",
+  "kickoff_hkt": "2026-06-19 03:00",
+  "run_id": "2026-06-17T1655Z",
+  "run_timestamp": "2026-06-17T16:55:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.62,
+      "draw": 0.23,
+      "away": 0.15
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "Opta超級電腦（theanalyst.com）：瑞士晉級機率85.4%，贏得小組42.1%模擬中居首。波黑晉級62.6%，但居末機率達30.5%。Opta vs 加拿大首場前數據：波黑晉級60.3%，顯示僅些微差異。RotoWire投影："
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "主流博彩盤口（截至6月17日）：瑞士勝率約-175至-189（Sportsgambler），即隱含機率約61-65%；平局約+310至+320（隱含24%）；波黑約+500至+550（隱含15-17%）。大小球：大2.5（約+100至+10"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "少數唱反調觀點：（1）Football Whispers指波黑近6場均以平局告終，現有趨勢利好平局甚至波黑勝；認為Džeko進球賠率3/1很具價值，推介1-1平局。（2）YouTube KOL（瑞士vs波黑預測影片）中有DeepSeek模型"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.61,
+          "draw": 0.24,
+          "away": 0.15
+        },
+        "scoreline": "2:1",
+        "note": "主流博彩盤口（截至6月17日）：瑞士勝率約-175至-189（Sportsgambler），即隱含機率約61-65%；平局約+310至+320（隱含24%）；波黑約+500至+550（隱含15-17%"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.62,
+          "draw": 0.23,
+          "away": 0.15
+        },
+        "note": "Opta超級電腦（theanalyst.com）：瑞士晉級機率85.4%，贏得小組42.1%模擬中居首。波黑晉級62.6%，但居末機率達30.5%。Opta vs 加拿大首場前數據：波黑晉級60.3%"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "瑞士主場迎戰波黑（Group B）。Opta超級電腦（theanalyst.com）：瑞士晉級機率85.4%，贏得小組42.1%模擬中居首。波黑晉級62.6%，但居末機率達30.5%。Opta vs 加拿大首場前數據：波黑晉級60.3%。主流博彩盤口（截至6月17日）：瑞士勝率約-175至-189（Sportsgambler），即隱含機率約61-65%；平局約+310至+320（隱含24%）；波黑約+500至+55。AI 主預測 2:1（瑞士勝），信心 0.6。",
+    "key_factors": [
+      "球員狀態：瑞士Breel Embolo恢復狀態並首場點球建功，Dan Ndoye6次射門積極（但效率低），Granit Xhaka年屆33仍是全隊節奏核心；波黑Ermedin Demirovic（斯圖加特，今季聯賽12球）是主要進攻點，Edin Džeko（40歲）復出大概率重返首發增加高空威脅。",
+      "傷停名單：瑞士傷停名單清潔（無重要球員缺陣），波黑Tabaković（腳踝）確認缺陣第二場；Džeko（肩傷）首場坐板凳但已確認可上陣，本場預計首發或早段換入；門將Hadžikić因傷退出大名單，已由Jurkas接替。整體而言瑞士傷停優勢明顯。",
+      "近期狀態/戰績：瑞士預選賽不敗（W4D2）進14球，但熱身賽3-4負德國及首場被卡塔爾追平（90+4分鐘失球）稍露疲態；波黑附加賽奇蹟式打敗義大利（4-1點球），首場對加拿大1-1（先進後失，只得39%控球），展示防守堅固、進攻有限的特點。兩隊均未贏得首場比賽，心理壓力相若。",
+      "戰術對位：瑞士4-3-3持球壓迫，邊路速度（Ndoye/Vargas）突破，Xhaka指揮全局；波黑4-2-3-1低塊反擊，雙後腰護防，Džeko高空球和Demirovic直線衝刺為主要破門路徑。瑞士持球優勢明顯，預計65-70%控球，波黑以防守固守等待反擊空檔或定位球機會，戰術對位利好瑞士（但需突破低防）。",
+      "主客場/場地：SoFi Stadium（洛杉磯Inglewood，70,000席）中立場地，對兩隊均等。洛杉磯有大量歐裔球迷，或稍微偏向瑞士。無論如何兩隊均處北美中立場作賽，沒有主客場優勢之別。瑞士體能優勢（FIFA排名第17-19 vs 波黑第63-65）在高水準賽場更容易發揮。",
+      "輿論共識：壓倒性多數媒體、博彩機構及模型均看好瑞士勝出（62-65%隱含機率）；約23%看平局；波黑只有約15%勝出機率。RotoWire、ESPN、Goal.com、Sports Mole等主流媒體均預測瑞士窄勝1-0至2-1，Football Whispers為少數看平意見（1-1，認為波黑連平趨勢持續）。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數唱反調觀點：（1）Football Whispers指波黑近6場均以平局告終，現有趨勢利好平局甚至波黑勝；認為Džeko進球賠率3/1很具價值，推介1-1平局。（2）YouTube KOL（瑞士vs波黑預測影片）中有DeepSeek模型預測波黑2-1（主張Demirovic進攻動能及Džeko心理價值）。（3）Forebet模型給予平局最高機率（41%）。（4）部分論壇球迷指出2016年兩隊交鋒波黑2-0勝（若屬實），以及波黑在高壓賽事中有附加賽擊敗義大利的強心藏，不應低估。（5）瑞士首場26腳射門僅進1球（xG 3.20），效率問題若延續則可能平局或更差。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA官方賽程頁 - 本場比賽 #26",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "UEFA - Switzerland at World Cup 2026 Squad & Fixtures",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d1595c1b77-996be0df685e-1000--switzerland-at-the-world-cup-2026-squad-fixtures-group-a/"
+    },
+    {
+      "type": "official",
+      "name": "UEFA - Bosnia and Herzegovina at World Cup 2026 Squad & Fixtures",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d1594a5469-659bdc40eca9-1000--bosnia-and-herzegovina-at-the-world-cup-2026-squad-fixtur/"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Switzerland squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Switzerland_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Bosnia and Herzegovina squad 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Template:Bosnia_and_Herzegovina_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia - Switzerland national football team (current squad & caps)",
+      "url": "https://en.wikipedia.org/wiki/Switzerland_national_football_team"
+    },
+    {
+      "type": "official",
+      "name": "SoFi Stadium官網 - FIFA World Cup 26 賽事頁面",
+      "url": "https://www.sofistadium.com/events/detail/fifa-world-cup-usa-paraguay"
+    },
+    {
+      "type": "official",
+      "name": "Los Angeles World Cup Host Committee",
+      "url": "https://losangelesfwc26.com"
+    },
+    {
+      "type": "official",
+      "name": "2026 FIFA World Cup Group B - Simple English Wikipedia",
+      "url": "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Switzerland World Cup 2026 team guide",
+      "url": "https://www.theguardian.com/football/2026/may/29/switzerland-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Bosnia and Herzegovina World Cup 2026 team guide",
+      "url": "https://www.theguardian.com/football/2026/may/28/bosnia-and-herzegovina-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - Xhaka makes fourth Switzerland World Cup squad",
+      "url": "https://www.bbc.com/sport/football/articles/cqlp4d52eg3o"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - What you need to know about Switzerland",
+      "url": "https://www.bbc.com/sport/football/articles/c2d2w7gzgrlo"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport - What you need to know about Bosnia-Herzegovina",
+      "url": "https://www.bbc.com/sport/football/articles/c98r6j4wwy7o"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Group B at the 2026 World Cup: Teams, records, stats",
+      "url": "https://www.espn.com/football/story/_/id/48975049/group-b-2026-world-cup-teams-records-stats-know-canada-bosnia-herzegovnia-qatar-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Switzerland vs Bosnia and Herzegovina at World Cup 2026 preview",
+      "url": "https://www.espn.com/soccer/story/_/id/49079683/fifa-world-cup-2026-switzerland-vs-bosnia-herzegovina-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Qatar 1-1 Switzerland match report",
+      "url": "https://www.espn.com/soccer/story/_/id/49051620/qatar-vs-switzerland-live-2026-world-cup-updates-score-commentary"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Qatar vs Switzerland analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760420"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Canada 1-1 Bosnia and Herzegovina match report",
+      "url": "https://www.espn.com/football/story/_/id/49041213/canada-bosnia-herzegovina-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Canada vs Bosnia Herzegovina kickoff team news",
+      "url": "https://www.espn.co.uk/football/story/_/id/48972712/fifa-world-cup-2026-canada-vs-bosnia-herzegovina-kickoff-how-watch-stats-team-news"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Switzerland 2026 Squad",
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/475/sui"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Switzerland devastated as Qatar win 1st World Cup point",
+      "url": "https://www.espn.com/soccer/story/_/id/49053969/switzerland-qatar-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 2026 World Cup injuries tracker",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Switzerland vs Bosnia odds and live score page",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760439/bosnia-herzegovina-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - World Cup 2026 predictions every game",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Switzerland squad World Cup 2026",
+      "url": "https://www.goal.com/en-us/lists/switzerland-squad-world-cup-2026/bltf2af984bafb74a30"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Switzerland vs Bosnia and Herzegovina World Cup preview",
+      "url": "https://www.goal.com/en-us/news/switzerland-bosnia-herzegovina-world-cup-preview/bltb96d9176142a8fe0"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - SoFi Stadium Los Angeles World Cup Guide",
+      "url": "https://www.goal.com/en-in/news/sofi-stadium-los-angeles-world-cup-guide-tickets/bltc2ddde56f6871884"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Inside Bosnia and Herzegovina World Cup roster 2026",
+      "url": "https://www.sportingnews.com/us/soccer/news/bosnia-herzegovina-world-cup-roster-2026-squad-players/107a2dc59a0b6ed8fe20e963"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - SoFi Stadium tickets and match schedule WC2026",
+      "url": "https://www.sportingnews.com/ca/tickets/news/world-cup-sofi-stadium-tickets-schedule-2026-los-angeles/c036d1825bccf803c9547568"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times - Switzerland World Cup 2026 Squad Fixtures",
+      "url": "https://fwctimes.com/switzerland/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times - Bosnia and Herzegovina World Cup 2026",
+      "url": "https://fwctimes.com/bosnia-and-herzegovina/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times - SoFi Stadium travel guide",
+      "url": "https://fwctimes.com/sofi-stadium/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Live - Switzerland at World Cup 2026",
+      "url": "https://fwclive.com/teams/switzerland/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Live - Bosnia and Herzegovina at World Cup 2026",
+      "url": "https://fwclive.com/teams/bosnia-and-herzegovina/"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com - Switzerland World Cup 2026 squad list key stats",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-switzerland-players-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk - Switzerland 2026 World Cup preview",
+      "url": "https://worldsoccertalk.com/world-cup/switzerland-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Switzerland World Cup 2026 squad",
+      "url": "https://www.fourfourtwo.com/team/switzerland-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo - Bosnia World Cup 2026 squad",
+      "url": "https://www.fourfourtwo.com/team/bosnia-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report - Canada vs Bosnia Herzegovina World Cup 2026 liveblog",
+      "url": "https://bleacherreport.com/liveblogs/25438834-canada-vs-bosnia-herzegovina-live-world-cup-2026-updates-scores-and-highlights"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - Canada 1-1 Bosnia Herzegovina recap",
+      "url": "https://www.nbcsports.com/soccer/live/canada-1-1-bosnia-and-herzegovina-2026-world-cup-video-highlights-analysis-recap"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Canada vs Bosnia Herzegovina match report",
+      "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian - Qatar vs Switzerland live blog full time",
+      "url": "https://www.theguardian.com/football/live/2026/jun/13/qatar-v-switzerland-world-cup-2026-live"
+    },
+    {
+      "type": "media",
+      "name": "Deutsche Welle - Edin Dzeko still going strong for Bosnia WC2026",
+      "url": "https://www.dw.com/en/world-cup-2026-edin-dzeko-still-going-strong-for-bosnia/a-77340981"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Which European nation has best chance to win World Cup 2026",
+      "url": "https://www.aljazeera.com/sports/2026/6/8/which-european-nation-has-the-best-chance-to-win-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer - 2026 FIFA World Cup Group B preview what to know",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-b-preview-canada-bosnia-herzegovina-qatar-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "The Independent - World Cup 2026 Group B guide Switzerland to dominate",
+      "url": "https://www.independent.co.uk/sport/football/world-cup-2026-group-b-canada-bosnia-and-herzegovina-qatar-switzerland-b2986941.html"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Qatar vs Switzerland live blog",
+      "url": "https://www.foxsports.com/live-blog/soccer/qatar-vs-switzerland-live-updates-score-top-plays-from-todays-action"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - Qatar vs Switzerland final score boxscore",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-qatar-vs-switzerland-jun-13-2026-game-boxscore-647621"
+    },
+    {
+      "type": "media",
+      "name": "RTE Sport - Qatar 1-1 Switzerland recap WC2026",
+      "url": "https://www.rte.ie/sport/soccer/2026/0613/1578295-world-cup-2026-qatar-v-switzerland-updates/"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Canada vs Bosnia Herzegovina score stats World Cup",
+      "url": "https://en.as.com/soccer/world-cup/canada-vs-bosnia-herzegovina-live-online-opening-ceremony-score-stats-goals-updates-world-cup-2026-group-b-f202606-d/"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com - Switzerland vs Bosnia & Herzegovina match preview",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/switzerland-vs-bosnia-and-herzegovina/liveticker"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga.com - Canada vs Bosnia Herzegovina match report",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/canada-bosnia-herzegovina-match-report-highlights-matchday-1-37801"
+    },
+    {
+      "type": "media",
+      "name": "Team Canada Olympic - Group B preview Canada stack up",
+      "url": "https://olympic.ca/2026/06/11/group-b-preview-canada-stack-up-fifa-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Euronews Travel - Los Angeles World Cup 2026 host city guide",
+      "url": "https://www.euronews.com/travel/2026/05/31/los-angeles-a-travel-guide-to-the-2026-fifa-world-cup-host-city"
+    },
+    {
+      "type": "media",
+      "name": "Your Away Day - SoFi Stadium World Cup 2026 Guide",
+      "url": "https://yourawayday.com/world-cup-2026/sofi-stadium"
+    },
+    {
+      "type": "media",
+      "name": "BoletoXpress - SoFi Stadium FIFA 2026 Ultimate Fan Guide",
+      "url": "https://boletoxpress.com/blog/sofi-stadium-fifa-fan-guide/"
+    },
+    {
+      "type": "media",
+      "name": "ABC7 - World Cup 2026 SoFi Stadium first match",
+      "url": "https://abc7.com/live-updates/world-cup-2026-southern-california-gears-tournament-ahead-matches-sofi-stadium/19277087/"
+    },
+    {
+      "type": "media",
+      "name": "Karlobag.eu - Barbarez names Bosnia squad World Cup 2026",
+      "url": "https://karlobag.eu/en/sports/barbarez-names-bosnia-and-herzegovina-squad-for-world-cup-2026-as-dzeko-leads-26-a0fxk/"
+    },
+    {
+      "type": "media",
+      "name": "Karlobag.eu - Dzeko on the bench against Canada shoulder injury",
+      "url": "https://karlobag.eu/en/sports/dzeko-on-the-bench-against-canada-bosnia-captain-protected-after-shoulder-injury-up6gx/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsnet - Dzeko available for Bosnia World Cup opener vs Canada",
+      "url": "https://www.sportsnet.ca/fifa-world-cup/article/dzeko-available-for-bosnia-and-herzegovinas-world-cup-opener-vs-canada/"
+    },
+    {
+      "type": "media",
+      "name": "bein Sports - Canada vs Bosnia preview WC2026",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/how-and-where-to-watch-canada-vs-bosnia-and-herzegovina-in-group-b-of-the-2026-fifa-world-cup-2026-06-12"
+    },
+    {
+      "type": "media",
+      "name": "Khel Now - Top players left out of Switzerland WC2026 squad",
+      "url": "https://khelnow.com/football/world-football-players-left-out-switzerland-fifa-world-cup-final-squad-202605"
+    },
+    {
+      "type": "media",
+      "name": "Fanorate - Switzerland at World Cup 2026 guide",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/switzerland-wc2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "Fanorate - Bosnia and Herzegovina at World Cup 2026 guide",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/bosnia-herzegovina-wc2026-guide/"
+    },
+    {
+      "type": "media",
+      "name": "FIFA Watch - Bosnia-Herzegovina 2026 World Cup Squad & Fixtures",
+      "url": "https://fifawatch.com/en/team/bosnia-herzegovina/"
+    },
+    {
+      "type": "media",
+      "name": "Firstpost - FIFA World Cup 2026 full fixtures dates",
+      "url": "https://www.firstpost.com/sports/football-news/fifa-world-cup-2026-full-list-of-fixtures-results-match-times-stadiums-14018750.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Canada vs Bosnia injury suspension list predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/team-news/canada-vs-bosnia-herzegovina-injury-suspension-list-predicted-xis_598904.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Switzerland vs Bosnia preview prediction lineups",
+      "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-bosnia-hvina-prediction-team-news-lineups_599327.html"
+    },
+    {
+      "type": "media",
+      "name": "Hard Tackle - Switzerland vs Bosnia and Herzegovina preview prediction",
+      "url": "https://thehardtackle.com/round-up/2026/06/17/switzerland-vs-bosnia-and-herzegovina-preview-and-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "Sen.com.au - FIFA World Cup 2026 results goals key facts",
+      "url": "https://www.sen.com.au/news/2026/06/15/fifa-world-cup-2026-results-every-matchday-man-of-the-match-awards-red-cards-live-updates"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - World Cup 2026 Group B Predictions & Preview (supercomputer)",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-b-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - FIFA World Cup 2026 Groups predictions previews",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Canada vs Bosnia Herzegovina prediction WC2026",
+      "url": "https://theanalyst.com/articles/canada-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Switzerland vs Qatar model projection WC2026",
+      "url": "https://www.dimers.com/news/switzerland-vs-qatar-final-prediction-group-b-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - 2026 World Cup team projections goals points odds Group B",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projections-goals-points-odds-for-all-48-teams-114402"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - Group B preview Canada Bosnia Qatar Switzerland tactics odds",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-b-preview-canada-bosnia-and-herzegovina-qatar-and-switzerland-lineups-odds-predictions-and-tactics-111899"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire - Switzerland vs Bosnia lineups team news tactical analysis",
+      "url": "https://www.rotowire.com/soccer/article/switzerland-vs-bosnia-and-herzegovina-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-118514"
+    },
+    {
+      "type": "model",
+      "name": "CupChances - FIFA World Cup 2026 winner semifinalist odds model",
+      "url": "https://cupchances.com/en/world-cup/2026"
+    },
+    {
+      "type": "model",
+      "name": "Cup26 AI - World Cup 2026 Group B preview model simulation",
+      "url": "https://cup26matches.com/en/blog/world-cup-2026-group-b-preview/"
+    },
+    {
+      "type": "model",
+      "name": "Polymarket - Switzerland vs Bosnia Herzegovina prediction market",
+      "url": "https://polymarket.com/sports/fifa-world-cup/fifwc-che-bih-2026-06-18"
+    },
+    {
+      "type": "model",
+      "name": "AI World Cup 2026 Predictions - Switzerland vs Bosnia Claude/Gemini/DeepSeek model",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/switzerland-bosnia-herzegovina-18-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "ABHS.in - FIFA WC2026 match predictions Opta probability framework",
+      "url": "https://www.abhs.in/blog/fifa-world-cup-2026-match-predictions-every-matchday"
+    },
+    {
+      "type": "model",
+      "name": "Onthepitch.now - FIFA World Cup 2026 win probabilities model",
+      "url": "https://onthepitch.now"
+    },
+    {
+      "type": "model",
+      "name": "Forebet - Switzerland vs Bosnia probability model prediction",
+      "url": "https://www.forebet.com/en/football-match-previews/28633-switzerland-and-bosnia-herzegovina-set-for-tight-group-b-test"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Switzerland vs Bosnia prediction betting tips odds",
+      "url": "https://www.sportsgambler.com/betting-tips/football/switzerland-vs-bosnia-herzegovina-prediction-lineups-odds-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network - Bosnia and Herzegovina vs Switzerland odds spread total",
+      "url": "https://www.actionnetwork.com/worldcup-game/bosnia-and-herzegovina-switzerland/287933"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi - Bosnia and Herzegovina World Cup odds 2026",
+      "url": "https://kalshi.com/teams/soccer-team/bosnia-and-herzegovina"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Switzerland vs Bosnia prediction best bet builder",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/switzerland-vs-bosnia-world-cup-2026-prediction-team-news-odds-betting-tips-and-bet-builder-ai9Pc0H28Nj3/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Switzerland vs Bosnia World Cup preview predictions tips",
+      "url": "https://www.ladbrokes.com/en/news/switzerland-bosnia-world-cup-preview-predictions-tips-2026-06-16/"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC - Switzerland vs Bosnia World Cup 2026 prediction odds",
+      "url": "https://www.juvefc.com/switzerland-v-bosnia-and-herzegovina-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush - Switzerland vs Bosnia World Cup 2026 Group B Picks",
+      "url": "https://thesportsrush.com/switzerland-v-bosnia-and-herzegovina-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - Switzerland vs Bosnia betting tips",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/switzerland-vs-bosnia-herzegovina-prediction-18-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - Switzerland vs Bosnia prediction World Cup 2026",
+      "url": "https://footballwhispers.com/blog/switzerland-vs-bosnia-and-herzegovina-prediction-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - World Cup Group B guide predictions odds",
+      "url": "https://footballwhispers.com/blog/2026-world-cup-group-b-guide-teams-fixtures-predictions-and-latest-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportskeeda - Switzerland vs Bosnia prediction betting tips June 18",
+      "url": "https://www.sportskeeda.com/football/switzerland-vs-bosnia-herzegovina-prediction-betting-tips-june-18th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "The Lines - World Cup Group B odds betting analysis 2026",
+      "url": "https://www.thelines.com/odds/world-cup/group-b/"
+    },
+    {
+      "type": "betting",
+      "name": "The Lines UK - World Cup Group B odds predictions update",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-b/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddschecker - World Cup 2026 Group B fixtures odds predictions",
+      "url": "https://www.oddschecker.com/tips/football/20260608-world-cup-2026-group-b-fixtures-odds-schedule-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Oddschecker US - 2026 FIFA World Cup Group B odds predictions analysis",
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260608-2026-fifa-world-cup-group-b-odds-predictions-analysis-for-switzerland-canada-group"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM - World Cup Group B Odds Predictions 2026",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-b-world-cup-2026-odds-predictions-bm16/"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis - World Cup Group B odds predictions best bets",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-group-b-winner-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction - 2026 FIFA World Cup Group B preview odds",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-b-preview-betting-odds-prediction-106200"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Gambling Podcast - FIFA World Cup 2026 Group B analysis best bets",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/01/fifa-world-cup-2026-group-b-analysis-preview-and-best-bets/"
+    },
+    {
+      "type": "betting",
+      "name": "Freetips.com - Switzerland vs Bosnia tips World Cup 2026",
+      "url": "https://www.freetips.com/football/switzerland-vs-bosnia-herzegovina-tips-20260614-0017/"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - Switzerland vs Bosnia betting tip and match model",
+      "url": "https://www.futbol24.com/betting-tips/preview/18-06-2026-switzerland-bosnia-betting-tip/"
+    },
+    {
+      "type": "betting",
+      "name": "NEO.bet - Switzerland vs Bosnia and Herzegovina WC2026 odds",
+      "url": "https://neo.bet/en/Sportbets/Football/FIFA/World-Cup/2026-06-18-Switzerland-vs-Bosnia-and-Herzegovina-3187213-FB-NEO"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com - Switzerland vs Bosnia prediction picks odds",
+      "url": "https://www.covers.com/world-cup/switzerland-vs-bosnia-prediction-picks-odds-thursday-6-18-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Nerdytips - Switzerland vs Bosnia prediction",
+      "url": "https://nerdytips.com/blog/switzerland-vs-bosnia-herzegovina-prediction-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Sporting Life - Switzerland vs Bosnia predictions tips best bets",
+      "url": "https://www.sportinglife.com/football/news/switzerland-vs-bosnia-and-herzegovina-predictions-tips-best-bets-and-world-cup-preview/232699"
+    },
+    {
+      "type": "betting",
+      "name": "365Scores - Switzerland vs Bosnia match odds",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/bosnia-&-herzegovina-switzerland-5032-5048-5930"
+    },
+    {
+      "type": "betting",
+      "name": "FotMob - Switzerland vs Bosnia match page",
+      "url": "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - World Cup 2026 Preview: Switzerland (post)",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4gbds/world_cup_2026_preview_switzerland_the_masters_of/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Switzerland squad for World Cup 2026",
+      "url": "https://www.reddit.com/r/soccer/comments/1thpdo0/switzerland_squad_for_world_cup_2026/"
+    },
+    {
+      "type": "forum",
+      "name": "Instagram - Group B all four teams drew (1-1 results discussion)",
+      "url": "https://www.instagram.com/p/DZnndKDF8Wb/"
+    },
+    {
+      "type": "forum",
+      "name": "Instagram - Canada 1-1 Bosnia & Herzegovina result",
+      "url": "https://www.instagram.com/reel/DZgA2IkMMk_/"
+    },
+    {
+      "type": "forum",
+      "name": "Wavysport Substack - Canada vs Bosnia World Cup 2026 analysis",
+      "url": "https://thewavysport.substack.com/p/canada-vs-bosnia-and-herzegovina"
+    },
+    {
+      "type": "kol",
+      "name": "The Celtic Star - Switzerland vs Bosnia prediction World Cup 2026",
+      "url": "https://thecelticstar.com/switzerland-v-bosnia-and-herzegovina-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "Injuries and Suspensions - FIFA World Cup 2026 Switzerland injury list",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-3/"
+    },
+    {
+      "type": "kol",
+      "name": "Injuries and Suspensions - FIFA World Cup 2026 Bosnia injury list",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-2/"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire - Haris Tabakovic Injury ankle should return before third game",
+      "url": "https://www.rotowire.com/soccer/headlines/haris-tabakovic-injury-should-return-before-third-game-518479"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire - Haris Tabakovic Injury not facing Canada",
+      "url": "https://www.rotowire.com/soccer/headlines/haris-tabakovic-injury-not-facing-canada-519149"
+    },
+    {
+      "type": "kol",
+      "name": "Soccergraph - World Cup 2026 Player Injury Tracker",
+      "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html"
+    },
+    {
+      "type": "kol",
+      "name": "La Gazzetta dello Sport - World Cup injuries players named squads",
+      "url": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/storie/08-06-2026/world-cup-injuries-players-named-squads-forced-to-withdraw/"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA Official - Highlights Qatar 1-1 Switzerland World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=KVz43-eddIQ"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA Official - Qatar vs Switzerland Extended Highlights",
+      "url": "https://www.youtube.com/watch?v=jSJs2nPJeLo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland World Cup 2026 Squad Announcement Group B Full Team",
+      "url": "https://www.youtube.com/watch?v=XH9lLBCOuGA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 26 Men One Nation Bosnia World Cup 2026 Squad",
+      "url": "https://www.youtube.com/watch?v=_mlHgPteuQk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Bosnia World Cup 2026 Preview Dzeko Factor Group B (tactical)",
+      "url": "https://www.youtube.com/watch?v=0j50baRYS8w"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland World Cup 2026 Preview Most Reliable Team Group B",
+      "url": "https://www.youtube.com/watch?v=ZhoA00JZzn4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia AI Prediction Score Prediction",
+      "url": "https://www.youtube.com/watch?v=8n5thmGuvX4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - SWITZERLAND vs BOSNIA Prediction 2026 World Cup",
+      "url": "https://www.youtube.com/watch?v=x687WMXC_Dw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia 5 AI Models Debate Who Wins",
+      "url": "https://www.youtube.com/watch?v=jgwYU9ypf3c"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia FIFA World Cup 2026 Group B Betting Picks (odds breakdown)",
+      "url": "https://www.youtube.com/watch?v=pFS9FGguzz0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia Full Match Simulation Prediction",
+      "url": "https://www.youtube.com/watch?v=zmybvNYMpcI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FC26 World Cup 2026 Predictions Group B Switzerland vs Bosnia",
+      "url": "https://www.youtube.com/watch?v=U_w9IdI5MR0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia AI Simulated 10K Times",
+      "url": "https://www.youtube.com/watch?v=JoDN8cesQ4s"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia Midfield Control Test xG analysis",
+      "url": "https://www.youtube.com/watch?v=y8GqinBQk4I"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Canada 1-1 Bosnia World Cup 2026 Match Review tactical breakdown",
+      "url": "https://www.youtube.com/watch?v=ooruOIaKZgs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Bosnia Will SHOCK EVERYONE at World Cup 2026 preview",
+      "url": "https://www.youtube.com/watch?v=DBgd5E9mfv8"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 World Cup Group B Picks Best Bets Bruce Marshall",
+      "url": "https://www.youtube.com/watch?v=LmgFPNPn6OE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Group B Analysis Canada Switzerland Bosnia Qatar",
+      "url": "https://www.youtube.com/watch?v=ZOnUZMw76f8"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Canada vs Qatar Switzerland vs Bosnia Group B Preview Predictions",
+      "url": "https://www.youtube.com/watch?v=37q6Pf90Ajk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - World Cup 2026 Week 2 Predictions Best Bets",
+      "url": "https://www.youtube.com/watch?v=C4vDyDPd6jE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Group B World Cup 2026 Preview Predictions Canada Switzerland Bosnia Qatar",
+      "url": "https://www.youtube.com/watch?v=NIhzzj8ATTU"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - SoFi Stadium FIFA 2026 World Cup Stadium Guide Los Angeles",
+      "url": "https://www.youtube.com/watch?v=VI11Gj2EL1k"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - How to Get to SoFi Stadium FIFA World Cup 2026 Travel Guide",
+      "url": "https://www.youtube.com/watch?v=rwbtZbVzbxw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Inside SoFi Stadium for the World Cup",
+      "url": "https://www.youtube.com/watch?v=rE2zAXYkvpA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Switzerland vs Bosnia Cass the Cat Prediction WC2026",
+      "url": "https://www.youtube.com/watch?v=XJhZipKmoG4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 World Cup Group B Analysis Predictions Strengths Weaknesses",
+      "url": "https://www.youtube.com/watch?v=BD0s3_ifBPk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - My World Cup Round 1 Preview Predictions June 17 2026",
+      "url": "https://www.youtube.com/watch?v=pF9ZeGMMsdM"
+    },
+    {
+      "type": "social",
+      "name": "Squawka Football News Facebook - Switzerland official squad announcement",
+      "url": "https://www.facebook.com/SquawkaFootballNews/posts/official-murat-yakin-has-named-his-26-man-switzerland-squad-for-the-2026-world-c/1561872158628413/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Switzerland World Cup squad all with injury symbol (viral post)",
+      "url": "https://www.instagram.com/reel/DYlAIUxh19Y/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Bosnia Jovo Lukic scores header off corner Fox Sports clip",
+      "url": "https://www.foxsports.com/watch-vertical/fmc-vj0vlpqtgwqrqf4i"
+    },
+    {
+      "type": "social",
+      "name": "theScore - Bosnia-Herzegovina vs Switzerland matchup page",
+      "url": "https://www.thescore.com/worldcup/event/93097"
+    },
+    {
+      "type": "social",
+      "name": "Sky Sports - Switzerland vs Bosnia form H2H stats",
+      "url": "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/549791"
+    },
+    {
+      "type": "social",
+      "name": "Futbol24 - Switzerland vs Bosnia H2H compare teams",
+      "url": "https://www.futbol24.com/team-compare/UEFA/Switzerland/vs/UEFA/Bosnia-Herzegovina"
+    },
+    {
+      "type": "social",
+      "name": "Sportsdunia - Switzerland vs Bosnia H2H record stats results",
+      "url": "https://www.sportsdunia.com/football-analysis/switzerland-vs-bosnia-and-herzegovina-head-to-head-record-stats-results"
+    },
+    {
+      "type": "social",
+      "name": "FootballPredictions.net - Switzerland vs Bosnia live stream prediction",
+      "url": "https://footballpredictions.net/bosnia-herzegovina-v-switzerland-predictions"
+    },
+    {
+      "type": "social",
+      "name": "Mykhel - World Cup 2026 Group B current standings results",
+      "url": "https://www.mykhel.com/football/world-cup-2026-points-table-group-b-live-table-results-standings-as-qatar-play-switzerland-439867.html"
+    },
+    {
+      "type": "social",
+      "name": "WC Scores Live - FIFA World Cup 2026 Group B live standings",
+      "url": "https://wcscores.live"
+    }
+  ],
+  "source_count": 161,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.24,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "瑞士主場穩健，波士尼亞進攻乏力難破門。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "瑞士實力與戰術素養更勝一籌，有望憑藉主場優勢穩拿勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "瑞士整體實力較強，可望在主場優勢下小勝波黑。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.28,
+        "away": 0.24
+      },
+      "scoreline": "2:1",
+      "note": "瑞士整體實力與經驗較佳，看好小勝波黑。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.24,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "瑞士整體實力與大賽經驗佔優，中後場防守穩固，預計能順利取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "瑞士實力與主場優勢明顯，看好取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "瑞士整體實力較強，波赫難以招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.609,
+      "draw": 0.233,
+      "away": 0.158
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T171730Z"
+}

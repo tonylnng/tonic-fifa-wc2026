@@ -1,0 +1,987 @@
+{
+  "match": 28,
+  "stage": "Group A",
+  "home": "Mexico",
+  "away": "South Korea",
+  "kickoff_utc": "2026-06-19T01:00:00Z",
+  "kickoff_hkt": "2026-06-19 09:00",
+  "run_id": "2026-06-17T1655Z",
+  "run_timestamp": "2026-06-17T16:55:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.48,
+      "draw": 0.28,
+      "away": 0.24
+    },
+    "confidence": 0.46,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.46,
+        "basis": "Opta超級電腦（25,000次模擬）：墨西哥勝49.1%、平局26.6%、南韓勝24.3%，是最接近市場共識的主流模型。ESPN Elo模型：墨西哥勝率95%晉級小組，南韓77%（賽前整體預測，非單場）。AI統計模型（YouTube分析頻"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.46,
+        "basis": "主流博彩公司盤口（FanDuel/DraftKings/BetMGM/Caesars）：墨西哥贏 +100（隱含約50%勝率）、平局 +230至+245（約29%隱含概率）、南韓贏 +290至+330（約23-25%隱含概率）。大小球：2."
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "不同觀點主要集中於：(1) Racing Post與Gainblers認為南韓+1.5讓球盤有價值，南韓具備逆轉能力，若能複製對捷克的後半場表現，平局或低分輸球的概率被市場低估；(2) Football Whispers Group A最終"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.481,
+          "draw": 0.288,
+          "away": 0.231
+        },
+        "scoreline": "1:1",
+        "note": "主流博彩公司盤口（FanDuel/DraftKings/BetMGM/Caesars）：墨西哥贏 +100（隱含約50%勝率）、平局 +230至+245（約29%隱含概率）、南韓贏 +290至+330"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.49,
+          "draw": 0.27,
+          "away": 0.24
+        },
+        "note": "Opta超級電腦（25,000次模擬）：墨西哥勝49.1%、平局26.6%、南韓勝24.3%，是最接近市場共識的主流模型。ESPN Elo模型：墨西哥勝率95%晉級小組，南韓77%（賽前整體預測，非單"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "墨西哥主場迎戰南韓（Group A）。Opta超級電腦（25,000次模擬）：墨西哥勝49.1%、平局26.6%、南韓勝24.3%，是最接近市場共識的主流模型。ESPN Elo模型：墨西哥勝率95%晉級小組，南韓77%（賽前整體預測，非單。主流博彩公司盤口（FanDuel/DraftKings/BetMGM/Caesars）：墨西哥贏 +100（隱含約50%勝率）、平局 +230至+245（約29%隱含概率）、南韓贏。AI 主預測 2:1（墨西哥勝），信心 0.46。",
+    "key_factors": [
+      "球員狀態：Raúl Jiménez（本屆已入球，過往兩次對南韓均有進球）和 Julián Quiñones 狀態火熱，是墨西哥主要威脅；南韓 Hwang In-beom 對捷克雙響，是本屆最佳球員之一；Son Heung-min 對捷克表現平淡（無進球），但本屆仍是最大危險人物。",
+      "傷停名單：墨西哥最重大缺陣為 César Montes（停賽），後防線需重組；Edson Álvarez（踝傷後復出，體能仍有不確定性）；Santiago Giménez（踝傷後復出，尚未恢復巔峰）。南韓方面 Bae Jun-ho（腳踝傷，6月16日恢復訓練但仍有疑慮）和 Kim Tae-hyeon（腳踝韌帶傷）有望復出，Cho Yu-min 整個世界盃缺陣對後防線有衝擊。",
+      "近期狀態/戰績：墨西哥8場不敗，2026年世界盃首場2-0勝南非；南韓2-1逆轉捷克，展現強大心理素質。歷史交鋒：15場中墨西哥8勝4負3平，世界盃2戰全勝（1998年3-1、2018年2-1）。最近一次對陣（2025年9月友誼賽）2-2平，雙方均有入球。",
+      "戰術對位：墨西哥4-3-3的高位逼搶與南韓3-4-2-1的有組織防守形成對比；南韓後防三人組被長邊路定位球針對（見捷克之戰Krejčí頭槌），墨西哥定位球質量高（Luis Chávez、Edson Álvarez）將是關鍵威脅；南韓的反擊速度（Son、Lee Kang-in）可利用墨西哥後防因Montes缺陣產生的不確定性。",
+      "主客場/場地：Estadio Akron海拔1,560米，對南韓形成體能挑戰；滿場約48,000名墨西哥球迷，主場氣氛極為有利；南韓已在此地（對捷克）上陣一次，有一定適應。熱帶高溫（30°C以上）是雙方均需面對的體能考驗。",
+      "輿論共識：Opta超電腦、主流博彩市場和多數媒體分析師傾向「墨西哥勝」，比分預測最多為2-1；但相當數量的分析師（包括ClutchPoints、RotoWire、FootballPredictions、CBS Sports）預測1-1平局，認為這是A組「最難預測的比賽」，幾乎是五五波。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "不同觀點主要集中於：(1) Racing Post與Gainblers認為南韓+1.5讓球盤有價值，南韓具備逆轉能力，若能複製對捷克的後半場表現，平局或低分輸球的概率被市場低估；(2) Football Whispers Group A最終預測竟將南韓排第一（超越墨西哥），理由是南韓對歐洲強隊的殺手本色（連克德國2018、葡萄牙2022、捷克2026）及墨西哥在世界盃淘汰賽前的歷史瓶頸（連續7屆止步16強）；(3) ClutchPoints和多位YouTube分析師認為1-1平局才是最合理結果，雙方在積分同樣3分的情況下都有足夠動力求勝但不願冒險；(4) OddsFlow Dixon-Coles模型顯示兩隊win probability幾乎相同（墨西哥36%、南韓36.2%），質疑市場對墨西哥的主場溢價是否合理。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 – Mexico Squad (ESPN Official)",
+      "url": "https://www.espn.com.mx/futbol/equipo/plantel/_/id/203/mex"
+    },
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 – South Korea Squad (Wikipedia Template)",
+      "url": "https://en.wikipedia.org/wiki/Template:South_Korea_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Mexico Squad Wikipedia 2026 FIFA World Cup",
+      "url": "https://simple.wikipedia.org/wiki/Template:Mexico_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "CONCACAF – FIFA World Cup 2026 Team Profile: Mexico",
+      "url": "https://www.concacaf.com/news/fifa-world-cup-2026-team-profile-mexico"
+    },
+    {
+      "type": "official",
+      "name": "CONCACAF – Rosters Submitted for FIFA World Cup 2026",
+      "url": "https://www.concacaf.com/news/concacaf-nations-submit-rosters-for-fifa-world-cup-2026"
+    },
+    {
+      "type": "official",
+      "name": "Korea Republic – 2026 World Cup Squad & Fixtures (FIFA Watch)",
+      "url": "https://fifawatch.com/en/team/south-korea/"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – South Korea 2-1 Czechia Final Score (Match 2)",
+      "url": "https://global.espn.com/football/match/_/gameId/760414/czechia-south-korea"
+    },
+    {
+      "type": "official",
+      "name": "ESPN – Mexico vs South Korea Live Score Page",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760441/south-korea-mexico"
+    },
+    {
+      "type": "official",
+      "name": "MLS Soccer – 2026 FIFA World Cup All Squads",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-all-squads"
+    },
+    {
+      "type": "official",
+      "name": "National Football Teams – Mexico 2026 Matches",
+      "url": "https://www.national-football-teams.com/country/121/2026/Mexico.html"
+    },
+    {
+      "type": "official",
+      "name": "National Football Teams – South Korea 2026 Matches",
+      "url": "https://www.national-football-teams.com/country/173/2026/South_Korea.html"
+    },
+    {
+      "type": "official",
+      "name": "Yonhap News – Injured Players Return to Training for South Korea (June 16)",
+      "url": "https://en.yna.co.kr/view/AEN20260616001100315"
+    },
+    {
+      "type": "official",
+      "name": "Yonhap News – Son Heung-min Set for Record-Tying 4th Appearance",
+      "url": "https://en.yna.co.kr/view/AEN20260612003500315"
+    },
+    {
+      "type": "official",
+      "name": "Yonhap News – Unheralded Defender Cho Wi-je Makes Final WC Squad",
+      "url": "https://en.yna.co.kr/view/AEN20260602001400315"
+    },
+    {
+      "type": "official",
+      "name": "Yonhap News – S. Korea Coach Pleased with Warm-up Win",
+      "url": "https://en.yna.co.kr/view/AEN20260531002600315"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Mexico's Ochoa Named to Record 6th World Cup Squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48924377/mexico-2026-world-cup-squad-guillermo-ochoa"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Can Edson Álvarez Lead Mexico to Elusive World Cup QF?",
+      "url": "https://www.latimes.com/sports/soccer/story/2026-06-07/can-edson-alvarez-lead-mexico-to-elusive-world-cup-quarterfinals"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Fourth World Cup Still Has Son Heung-Min Feeling Like a Kid",
+      "url": "https://www.espn.com/soccer/story/_/id/49023594/fourth-fifa-world-cup-south-korea-captain-son-heung-min-feeling-kid"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Will 2026 Prove Son Heung-Min's Final World Cup Hurrah?",
+      "url": "https://www.espn.com/soccer/story/_/id/48974192/2026-prove-son-heung-min-final-fifa-world-cup-hurrah"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – South Korea Overcome Czechia via Hwang In-Beom's Display",
+      "url": "https://www.espn.com/soccer/story/_/id/49037668/south-korea-overcome-czechia-via-hwang-beom-brilliant-display-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Mexico vs South Korea Preview (ESPN UK)",
+      "url": "https://www.espn.co.uk/football/story/_/id/49079638/mexico-vs-south-korea-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Mexico World Cup 2026 Team Guide",
+      "url": "https://www.theguardian.com/football/2026/may/27/mexico-world-cup-2026-team-guide-soccer"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – South Korea World Cup 2026 Team Guide",
+      "url": "https://www.theguardian.com/football/2026/may/28/south-korea-world-cup-2026-team-guide-soccer"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – South Korea Beat Czechia 2-1 Match Report",
+      "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Mexico World Cup 2026 Preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/5/mexico-world-cup-2026-preview-players-to-watch-group-matches-and-squad"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – World Cup Day 1 Predictions and Stories",
+      "url": "https://www.aljazeera.com/news/2026/6/11/world-cup-day-1-schedule-predictions-opening-ceremony-and-what-to-watch"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Three Takeaways from Mexico's Pre-WC Friendlies",
+      "url": "https://www.si.com/soccer/three-takeaways-mexico-pre-world-cup-friendlies"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – Best XI from USMNT, Canada and Mexico WC2026",
+      "url": "https://www.si.com/soccer/best-xi-players-from-usmnt-canada-mexico-fifa-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – Mexico World Cup Roster 2026",
+      "url": "https://www.sportingnews.com/us/soccer/news/mexico-world-cup-roster-2026-squad-players-el-tri/2e52cf6eb6a8bd52735a32c5"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – South Korea Injury Setback Pre-WC Friendly",
+      "url": "https://www.sportingnews.com/us/soccer/news/south-korea-face-injury-setback-during-pre-world-cup-friendly/65f6a3cadd34fb58cf22e8e9"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – Mexico World Cup 2026 Squad",
+      "url": "https://www.fourfourtwo.com/team/mexico-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – South Korea World Cup 2026 Squad",
+      "url": "https://www.fourfourtwo.com/team/south-korea-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Mexico World Cup 2026 Squad, Fixtures, Standings & Kits",
+      "url": "https://fwctimes.com/mexico/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – South Korea World Cup 2026 Squad",
+      "url": "https://fwctimes.com/south-korea/"
+    },
+    {
+      "type": "media",
+      "name": "FWC Times – Mexico vs South Korea Head to Head",
+      "url": "https://fwctimes.com/mexico-vs-south-korea-head-to-head/"
+    },
+    {
+      "type": "media",
+      "name": "FWC LIVE – Mexico World Cup 2026 Squad, Fixtures, Standings",
+      "url": "https://fwclive.com/teams/mexico/"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – Mexico WC 2026 Squad Key Players",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/fifa-world-cup-2026-mexico-squad-key-players-and-everything-you-need-to-know-2026-06-01"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports – South Korea 1-0 El Salvador Final WC Warm-up",
+      "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/south-korea-1-0-el-salvador-lee-free-kick-settles-hosts-final-world-cup-warm-up-2026-06-04"
+    },
+    {
+      "type": "media",
+      "name": "AP News – Mexico Recovers from Deficit to Beat Serbia 5-1",
+      "url": "https://apnews.com/article/mexico-world-cup-2026-raul-jimenez-a90ee74f0e1d823966b36783121babae"
+    },
+    {
+      "type": "media",
+      "name": "AP News – 2026 World Cup Stadium Guide: Estadio Akron",
+      "url": "https://apnews.com/article/2026-world-cup-stadium-glance-e69b356b62eca4e096585961d6b98c3a"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post – Mexico Beats Ghana 2-0 in World Cup Warm-up",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/05/23/mexico-ghana-world-cup-2026/bb376f48-5661-11f1-9c40-7a0a12d9e745_story.html"
+    },
+    {
+      "type": "media",
+      "name": "Channel NewsAsia – Mexico and South Korea Battle for Group A Control",
+      "url": "https://www.channelnewsasia.com/sport/mexico-south-korea-battle-control-world-cup-group-6187981"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Mexico vs South Korea World Cup 2026 Preview",
+      "url": "https://www.goal.com/en-gb/news/mexico-south-korea-world-cup-preview/blt8005f425257b98f0"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Mexico vs South Korea Predictions Home Advantage",
+      "url": "https://www.goal.com/en-za/betting/world-cup/mexico-vs-south-korea-predictions-19-06-2026/A:blt2d0d91759935f5da"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports – South Korea Prospects vs Mexico Preview",
+      "url": "https://www.nbcsports.com/watch/soccer/world-cup/south-koreas-prospects-are-pretty-good-vs-mexico-in-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports – How to Watch Mexico vs South Korea",
+      "url": "https://www.nbcsports.com/soccer/news/how-to-watch-mexico-vs-south-korea-live-stream-tv-channel-team-news-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – South Korea 2-1 Czech Republic Match Report",
+      "url": "https://www.skysports.com/football/korea-republic-vs-czech-republic/549766"
+    },
+    {
+      "type": "media",
+      "name": "NDTV – South Korea vs Czechia Highlights WC 2026",
+      "url": "https://sports.ndtv.com/us/fifa/south-korea-at-fifa-world-cup-2026-full-squad-group-a-fixtures-and-everything-you-need-to-know-11596572"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – South Korea 2026 Squad",
+      "url": "https://www.espn.in/football/team/squad/_/id/451/kors"
+    },
+    {
+      "type": "media",
+      "name": "Seoul Economic Daily – Son Heung-min Starts as Lone Striker vs Czechia",
+      "url": "https://en.sedaily.com/sports/2026/06/12/son-heung-min-starts-as-lone-striker-in-koreas-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Seoul Economic Daily – Defender Cho Yu-min Out of World Cup Squad",
+      "url": "https://en.sedaily.com/sports/2026/05/31/defender-cho-yu-min-out-of-world-cup-squad-after-friendly"
+    },
+    {
+      "type": "media",
+      "name": "Seoul Economic Daily – Korea Beats El Salvador 1-0 in Final Tune-up",
+      "url": "https://en.sedaily.com/sports/2026/06/04/hong-myung-bos-korea-beats-el-salvador-1-0-in-final-tune-up"
+    },
+    {
+      "type": "media",
+      "name": "Chosunilbo – Mexico's Injury Woes Ahead of WC Opener vs South Africa",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/04/5ZSAF3LNAVEPTOGOJABGEESONU/"
+    },
+    {
+      "type": "media",
+      "name": "Chosunilbo – Opta Predicts South Korea Victory Over Czech Republic",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/10/2VCVZL7IKJBTBOONRYP63FAQC4/"
+    },
+    {
+      "type": "media",
+      "name": "Chosunilbo – México's Key Defender Montes Suspended for South Korea",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/12/QQYBXWYNRVBG5AQYLIQTA4K6VA/"
+    },
+    {
+      "type": "media",
+      "name": "Chosunilbo – Son Heung-min Brace Boosts South Korea WC Prep",
+      "url": "https://www.chosun.com/english/sports-en/2026/05/31/7WKOT6CWJBF3RODJTFV3DUDGCE/"
+    },
+    {
+      "type": "media",
+      "name": "Chosunbiz – Son Heung-min Shows Sharp Form",
+      "url": "https://biz.chosun.com/en/en-sports/2026/05/27/4SDTEGFMONHC7DKXM364MKAJNQ/"
+    },
+    {
+      "type": "media",
+      "name": "Marca – Aguirre Faces Serious Problem Ahead of South Korea Match",
+      "url": "https://www.marca.com/en/world-cup/2026/06/16/javier-aguirre-faces-serious-problem-ahead-of-the-match-between-the-mexican-national-team-and-south-korea.html"
+    },
+    {
+      "type": "media",
+      "name": "Korea Times – Injured Defender Recovering Quickly, Available for Group Stage",
+      "url": "https://www.koreatimes.co.kr/sports/20260613/injured-defender-recovering-quickly-available-in-group-stage"
+    },
+    {
+      "type": "media",
+      "name": "SBS News South Korea – Who Will Replace Suspended Montes vs South Korea?",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008608538"
+    },
+    {
+      "type": "media",
+      "name": "KyungHyang Sinmun – Captain Son Heung-min to Spearhead Attack vs Czechia",
+      "url": "https://www.khan.co.kr/en/article/202606121338017/"
+    },
+    {
+      "type": "media",
+      "name": "Starnews Korea – South Korea Bae Jun-ho & Cho Yu-min Injuries",
+      "url": "https://www.starnewskorea.com/en/sports/2026/05/31/2026053112151841609"
+    },
+    {
+      "type": "media",
+      "name": "Starnews Korea – Supercomputer Surprise Prediction South Korea 70% WC Advance",
+      "url": "https://www.starnewskorea.com/en/sports/2026/06/02/2026060205571391339"
+    },
+    {
+      "type": "media",
+      "name": "FC Bayern – South Korea Beats El Salvador 1-0 WC Warm-up",
+      "url": "https://fcbayern.com/en/news/2026/06/world-cup-warm-up-south-korea-with-minjae-kim-vs.-el-salvador"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report – Mexico vs South Korea Top Storylines, Odds, Live Stream",
+      "url": "https://bleacherreport.com/articles/25441612-mexico-vs-south-korea-top-storylines-odds-live-stream-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report – Mexico Wins Group A Opener",
+      "url": "https://bleacherreport.com/mexico-national-football"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times – World Cup 2026 Preview: Son Shining in the States",
+      "url": "https://www.straitstimes.com/sport/football/world-cup-2026-preview-son-shining-in-the-states"
+    },
+    {
+      "type": "media",
+      "name": "NPR – 'Coreano Hermano': Mexico vs South Korea Fan Culture",
+      "url": "https://www.npr.org/2026/06/17/nx-s1-5835229/mexico-south-korea-world-cup-fans-coreano-hermano"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – Mexico vs South Korea H2H Record",
+      "url": "https://www.futbol24.com/team-compare/CONCACAF/Mexico/vs/AFC/South-Korea"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – Mexico Results 2026",
+      "url": "https://www.futbol24.com/team/CONCACAF/Mexico"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 – South Korea Results 2026",
+      "url": "https://www.futbol24.com/team/AFC/South-Korea/results"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore – Mexico vs South Korea WC Group A Preview",
+      "url": "https://www.sofascore.com/news/mexico-vs-south-korea-world-cup-group-a-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sofascore News – 2026 FIFA World Cup Stadium Guide: Estadio Akron",
+      "url": "https://www.sofascore.com/news/2026-fifa-world-cup-stadium-guide-estadio-akron"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Mexico vs South Korea Preview, Lineups & Tactical Analysis",
+      "url": "https://www.rotowire.com/soccer/article/mexico-vs-south-korea-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-118510"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – 2026 World Cup Group A Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-a-preview-mexico-south-africa-south-korea-czechia-tactics-lineups-set-pieces-odds-111369"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Mexico vs South Korea Preview Predicted Lineups",
+      "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/preview/mexico-vs-south-korea-prediction-team-news-lineups_599397.html"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis – Mexico vs South Korea Prediction WC2026",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/mexico-v-south-korea-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post – Mexico vs South Korea Prediction Bet Builder",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/mexico-vs-south-korea-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-avQBM7X4bg7j/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Mexico vs South Korea Prediction WC2026 (49.1% Mexico win)",
+      "url": "https://theanalyst.com/articles/mexico-vs-south-korea-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup 2026 Group A Predictions & Preview",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-a-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Who Will Win 2026 FIFA World Cup? Supercomputer Predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – FIFA World Cup 2026 Groups Predictions Previews",
+      "url": "https://theanalyst.com/articles/fifa-world-cup-2026-groups-predictions-previews"
+    },
+    {
+      "type": "model",
+      "name": "ESPN – World Cup Predictions Picking Every Game (Elo model)",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "model",
+      "name": "Fox Sports – 2026 World Cup Simulated 100,000 Times",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-simulated-100000-times-results"
+    },
+    {
+      "type": "model",
+      "name": "RotoWire – 2026 World Cup Team Projections: Goals, Points & Odds",
+      "url": "https://googlenews.rotowire.com/soccer/article/2026-world-cup-team-projections-goals-points-odds-for-all-48-teams-114402"
+    },
+    {
+      "type": "model",
+      "name": "OddsFlow AI – World Cup 2026 Group A Predictions (Dixon-Coles)",
+      "url": "https://www.oddsflow.ai/worldcup/groups/a"
+    },
+    {
+      "type": "model",
+      "name": "Octagon AI – Group A Qualifiers Sports Prediction Market",
+      "url": "https://octagonai.co/markets/sports/soccer/group-a-qualifiers/"
+    },
+    {
+      "type": "model",
+      "name": "Octagon AI – Group A Winner Sports Prediction Market (Mexico 63%)",
+      "url": "https://octagonai.co/markets/sports/soccer/group-a-winner/"
+    },
+    {
+      "type": "model",
+      "name": "Onthepitch Monte Carlo – Mexico 2026 WC Squad Probabilities (100k sims)",
+      "url": "https://onthepitch.now/countries/mex/"
+    },
+    {
+      "type": "model",
+      "name": "Golmetria Model – Mexico vs South Africa Preview (Mexico 65% win)",
+      "url": "https://www.golmetria.com.br/en/articles/preview-mexico-vs-south-africa-2026-06-06"
+    },
+    {
+      "type": "model",
+      "name": "FM Blog – FM26 World Cup 2026 Simulation (Mexico tops Group A)",
+      "url": "https://www.footballmanagerblog.org/2026/06/fm26-world-cup-2026-simulation.html"
+    },
+    {
+      "type": "model",
+      "name": "Action Network – Mexico World Cup 2026 Preview (85.2% advance)",
+      "url": "https://www.actionnetwork.com/soccer/mexico-world-cup-2026-preview"
+    },
+    {
+      "type": "model",
+      "name": "Heavy – World Cup Predictions AI Reveals Mexico's 2026 Chances (Oddschecker AI)",
+      "url": "https://heavy.com/sports/soccer/world-cup-predictions-ai-reveals-mexicos-2026-chances/"
+    },
+    {
+      "type": "model",
+      "name": "iPredicta – Group A at the 2026 FIFA World Cup (Polymarket model)",
+      "url": "https://ipredicta.co/world-cup/2026/group-a/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com – Mexico vs South Korea Predictions, Picks & Odds",
+      "url": "https://www.covers.com/world-cup/mexico-vs-south-korea-prediction-picks-odds-thursday-6-18-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers – Mexico vs South Korea Prediction Betting Tips Preview",
+      "url": "https://footballwhispers.com/blog/mexico-vs-south-korea-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "The Top Bookies – Mexico vs South Korea Prediction 19 Jun 2026",
+      "url": "https://www.thetopbookies.com/betting-tips/football/mex-vs-kor-19-jun-2026"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine – Mexico vs South Korea Odds, Predictions, Time WC2026",
+      "url": "https://www.sportsline.com/insiders/mexico-vs-south-korea-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "World Sports Network – Mexico vs South Korea 2026 WC Predictions",
+      "url": "https://www.wsn.com/world-cup/mexico-vs-south-korea-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "ClutchPoints – Mexico vs South Korea 2026 WC Predictions Odds Pick",
+      "url": "https://clutchpoints.com/betting/mexico-vs-south-korea-2026-world-cup-predictions-odds-pick"
+    },
+    {
+      "type": "betting",
+      "name": "GamblingNews – South Korea vs Mexico Odds Prediction Picks WC 2026",
+      "url": "https://www.gamblingnews.com/news/south-korea-vs-mexico-odds-prediction-picks-2026-fifa-world-cup-group-stage/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket – Mexico vs Korea Republic Odds Jun 18 2026",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-mex-kr-2026-06-18"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM – Mexico vs South Korea Prediction Odds Preview WC",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/mexico-vs-south-korea-prediction-odds-preview-world-cup-june-18-bm16/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes – 2026 World Cup Group A Preview Odds Predictions",
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-a-preview-odds-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "TheLines UK – Group A World Cup Odds 2026 Latest Team Rankings",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-a/"
+    },
+    {
+      "type": "betting",
+      "name": "TheLines – Group A World Cup Odds Comparison 2026",
+      "url": "https://www.thelines.com/odds/world-cup/group-a/"
+    },
+    {
+      "type": "betting",
+      "name": "JuveFC – Mexico vs South Korea Prediction WC 2026",
+      "url": "https://www.juvefc.com/mexico-v-south-korea-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "JuveFC – World Cup 2026 Group A Winner Odds Predictions",
+      "url": "https://www.juvefc.com/world-cup-group-a-winner-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers – 2026 World Cup Group A Guide Teams Fixtures",
+      "url": "https://footballwhispers.com/blog/2026-world-cup-group-a-guide-teams-fixtures-predictions-and-latest-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "CBS Sports – 2026 FIFA World Cup Odds Futures Picks",
+      "url": "https://www.cbssports.com/betting/news/world-cup-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "Yahoo Sports – 2026 World Cup Odds Best Bets Group Stage",
+      "url": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-odds-best-bets-for-group-stage-golden-boot-and-winner-195049854.html"
+    },
+    {
+      "type": "betting",
+      "name": "Betzoid – Mexico 2026 WC Squad Veteran-Heavy Injury-Hit",
+      "url": "https://betzoid.com/news/mexicos-2026-world-cup-squad-veteran-heavy-injury-hit-and-playing-on-home-soil/"
+    },
+    {
+      "type": "betting",
+      "name": "Fox Sports – 2026 World Cup Odds Teams Favored to Advance",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-favored-advance-knockout-stage"
+    },
+    {
+      "type": "betting",
+      "name": "World Cup Forecast – Mexico vs South Korea Prediction 19.06.2026",
+      "url": "https://worldcupforecast.com/mexico-vs-south-korea-19-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Gainblers – Mexico vs South Korea Prediction Betting Analysis",
+      "url": "https://gainblers.com/us/predictions/football/international/world-cup/prediction-mexico-south-korea-19-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Predictions – Mexico vs South Korea Prediction 19/06/2026",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/mexico-vs-south-korea-prediction-19-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Khel Now – Mexico vs South Korea Betting Tips and Odds Preview",
+      "url": "https://khelnow.com/football/world-football-mexico-vs-south-korea-preview-fifa-world-cup-202606"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico's Official World Cup 2026 Squad! (Mexican KOL Channel)",
+      "url": "https://www.youtube.com/watch?v=7fF5G5Jqvw0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – ROSTER PREVIEW: Mexico 2026 World Cup SPOTLIGHT",
+      "url": "https://www.youtube.com/watch?v=7iOeRvzByRc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico's BEST Starting XI For World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=TtnEey_59lI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Mexico Players Part 2 Analysis",
+      "url": "https://www.youtube.com/watch?v=DNGArkBTQLM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – South Korea Full Squad 2026 FIFA World Cup (Arirang News Full Squad Training)",
+      "url": "https://www.youtube.com/watch?v=D4u-X9YIO68"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Okay, The 2026 South Korea Squad Is Not Normal",
+      "url": "https://www.youtube.com/watch?v=TXyS3H0BLBE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Korea | Speed vs Pressure (AI Model Prediction)",
+      "url": "https://www.youtube.com/watch?v=Xl6qT5GT_xg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – MEXICO VS SOUTH KOREA AI-Simulated 10K Times",
+      "url": "https://www.youtube.com/watch?v=mZbBKseCJZg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Group A Tactical Preview",
+      "url": "https://www.youtube.com/watch?v=yU0YPgPEHJw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico World Cup 2026 Preview Group A Prediction Key Players",
+      "url": "https://www.youtube.com/watch?v=IiYQYfbplYQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Korea Will Decide the Group (KOL preview)",
+      "url": "https://www.youtube.com/watch?v=5pYnlXqyKpQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – México vs South Korea Preview! (Spanish KOL)",
+      "url": "https://www.youtube.com/watch?v=EDW6AoHJVvE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – SOUTH KOREA vs MEXICO MATCH PREVIEW (Albert & Jason)",
+      "url": "https://www.youtube.com/watch?v=io3-o-78azg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – MEXICO vs SOUTH KOREA World Cup 2026 MATCH PREVIEW (Conrad/Balboa/Meola)",
+      "url": "https://www.youtube.com/watch?v=9kCebeMDp4Q"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Korea FIFA WC 2026 Preview (w5dGMyJPbRk)",
+      "url": "https://www.youtube.com/watch?v=w5dGMyJPbRk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Korea H2H Archive World Cup 2026 Ep.2",
+      "url": "https://www.youtube.com/watch?v=GescWNNmnhs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Korea Saved Mexico... And This Happened (Fan Friendship Story)",
+      "url": "https://www.youtube.com/watch?v=fI4mH2yfupM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – SOUTH KOREA 2-1 CZECHIA Full Match Result Highlights",
+      "url": "https://www.youtube.com/watch?v=Uo0Vjg2Sr4Y"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – I Simulated 495 World Cup Brackets Here's the 91% Likely Winner",
+      "url": "https://www.youtube.com/watch?v=JkPhn4SFYzg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Every 2026 World Cup Stadium Explained (Estadio Akron)",
+      "url": "https://www.youtube.com/watch?v=7_p6W6Bw-eM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Mexico vs South Africa Opta Supercomputer Prediction WC2026",
+      "url": "https://www.youtube.com/watch?v=pRxy2XRRrqw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Mexico vs South Korea Group Stage Simulation",
+      "url": "https://www.youtube.com/watch?v=kSg3Mr6UKus"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – MEXICO vs SOUTH KOREA Battle for Group A Top Spot Full Simulation",
+      "url": "https://www.youtube.com/watch?v=IN_ml18JcIo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Javier Hernandez REACTS to Mexico's Win Over South Africa",
+      "url": "https://www.youtube.com/watch?v=JzFzX90mSF8"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – World Cup 2026 Preview: Mexico Hosts, Altitude",
+      "url": "https://www.reddit.com/r/soccer/comments/1u1w3gc/world_cup_2026_preview_mexico_the_hosts_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/sports – Mexicans Dancing and Singing Gangnam Style with Koreans",
+      "url": "https://www.reddit.com/r/sports/comments/1u4aut7/mexicans_dancing_and_singing_gangnam_style_with/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – 2026 FIFA World Cup Mexico vs South Korea Thread",
+      "url": "https://www.bigsoccer.com/threads/2026-fifa-world-cup-mexico-vs-south-korea-june-18-2026.2138985/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – 2026 World Cup Group Stage Predictions",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/"
+    },
+    {
+      "type": "forum",
+      "name": "Molineux Mix Forum – Mexico vs South Korea Picks Predictions Betting",
+      "url": "https://www.molineuxmix.co.uk/forum/index.php?threads%2Fmexico-vs-south-korea-picks-predictions-betting-odds-world-cup-2026-preview.786443%2F"
+    },
+    {
+      "type": "social",
+      "name": "X (Twitter) @holazuni – South Korea Cho Yu-min Ruled Out WC Injury",
+      "url": "https://x.com/holazuni/status/2061258965221290026"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – FIFA World Cup Red Card for Cesar Montes Reel",
+      "url": "https://www.instagram.com/reel/DZdcT_iSBxQ/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Mexican and Korean Fan Friendship Viral Reel",
+      "url": "https://www.instagram.com/reel/DZfiabUxkuN/"
+    },
+    {
+      "type": "social",
+      "name": "Yahoo Sports – Poll: 82% of Yahoo Users Pick Mexico to Win Group A",
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-there-isnt-much-disagreement-among-yahoo-users-on-who-will-win-each-of-the-12-groups-190726811.html"
+    },
+    {
+      "type": "kol",
+      "name": "FutbolFantasy – Lee Tae-seok Returns; Son Projected as Striker vs Czechia",
+      "url": "https://www.futbolfantasy.com/world-cup/noticias/145330-lee-tae-seok-vuelve-al-grupo-y-hong-myun-bo-empieza-a-perfilar-su-once-con-son-como-referenci"
+    },
+    {
+      "type": "kol",
+      "name": "MindCast AI – Mexico vs South Korea Cultural Innovation Vision (Trap Regime Analysis)",
+      "url": "https://www.mindcast-ai.com/p/2026-world-cup-mexico-skorea"
+    },
+    {
+      "type": "kol",
+      "name": "The Blazing Musket – Group A Recaps Mexico Solid South Korea Upsets Czechia",
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-a-recaps-mexico-south-korea/"
+    },
+    {
+      "type": "kol",
+      "name": "Dang Journal – World Cup 2026 Group A Preview Mexico Korea Czechia South Africa",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-a-preview-mexico-korea-czechia-south-africa/"
+    },
+    {
+      "type": "kol",
+      "name": "Fantasy Football Scout – World Cup 2026 Team Previews: Korea Republic",
+      "url": "https://www.fantasyfootballscout.co.uk/2026/06/03/fantasy-fifa-world-cup-2026-team-previews-korea-republic"
+    },
+    {
+      "type": "kol",
+      "name": "Futbol Update – South Korea WC 2026 Preview Squad Prediction Key Players",
+      "url": "https://www.futbolupdate.com/south-korea-world-cup-2026-preview-squad-prediction-key-players-chances/"
+    }
+  ],
+  "source_count": 156,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場氣勢強，南韓防守反擊具威脅，預期小比分取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥具北美主場優勢，預計能小勝體能充沛的南韓。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "墨西哥憑主場之利與實力優勢，可望擊退韓國奪取開門紅。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.29,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場氣勢較盛，小勝穩佔主動。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥憑藉強大的主場優勢與進攻火力，有望險勝韓國。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.54,
+        "draw": 0.27,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場優勢明顯，預計小勝南韓。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.25,
+        "away": 0.17
+      },
+      "scoreline": "2:0",
+      "note": "墨西哥主場氣勢強盛，南韓難以招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.507,
+      "draw": 0.277,
+      "away": 0.217
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T171931Z"
+}
