@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-16T08:55:00Z",
+  "last_updated": "2026-06-17T01:08:41Z",
   "results": [
     {
       "match": 1,
@@ -226,6 +226,34 @@
       "outcome": "draw",
       "recorded_at": "2026-06-16T08:55:00Z",
       "source": "[ESPN](https://www.espn.com/soccer/story/_/id/49075338/iran-new-zealand-live-world-cup-2026-latest-updates-commentary-score-result)"
+    },
+    {
+      "match": 17,
+      "stage": "Group I",
+      "home": "France",
+      "away": "Senegal",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "scoreline": "3:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-17T01:08:41Z",
+      "source": "[ESPN](https://www.espn.com.sg/football/report/_/gameId/760432)；[Sky Sports](https://www.skysports.com/football/iraq-vs-norway/report/549783)；[Washington Post](https://www.washingtonpost.com/sports/soccer/2026/06/16/france-senegal-score-world-cup/)；[Guardian](https://www.theguardian.com/football/live/2026/jun/16/france-v-senegal-world-cup-2026-live)"
+    },
+    {
+      "match": 18,
+      "stage": "Group I",
+      "home": "Iraq",
+      "away": "Norway",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "scoreline": "1:4",
+      "outcome": "away",
+      "recorded_at": "2026-06-17T01:08:41Z",
+      "source": "[ESPN](https://www.espn.com/soccer/report/_/gameId/760430)；[Sky Sports](https://www.skysports.com/football/iraq-vs-norway/report/549783)；[FOX Sports](https://www.foxsports.com/stories/soccer/4-takeaways-from-norways-statement-win-vs-iraq-world-cup)；[India Today](https://www.indiatoday.in/amp/sports/football/story/fifa-world-cup-2026-norway-vs-iraq-erling-haaland-brace-boston-2928156-2026-06-17)"
     }
   ]
 }

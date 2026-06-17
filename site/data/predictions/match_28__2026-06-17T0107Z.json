@@ -1,0 +1,747 @@
+{
+  "match": 28,
+  "stage": "Group A",
+  "home": "Mexico",
+  "away": "South Korea",
+  "kickoff_utc": "2026-06-19T01:00:00Z",
+  "kickoff_hkt": "2026-06-19 09:00",
+  "run_id": "2026-06-17T0107Z",
+  "run_timestamp": "2026-06-17T01:07:00Z",
+  "model": "claude-opus-4.8",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.49,
+      "draw": 0.28,
+      "away": 0.23
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "Dimers（墨 51.8%）、Octagon（墨 49%）、RotoBot（去抽水墨 47%）與 TuringStats（10 模型 8 票墨、均分 2-1）多數偏向墨西哥小勝。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "主流博彩墨西哥約 1.9-2.0（+100）、讓球盤多在 -0.5/-0.75、大小盤 2.5、Bet365 最可能正確比分掛 1-0，隱含墨西哥小勝。"
+      },
+      {
+        "name": "平手低比分",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "多家模型（Footballforecast、OddsFlow、FootballPredictions、韓媒 3 大 AI）指 1-1 為最可能單一比分；雙方各取一分即可保有出線主動權，氛圍偏謹慎。"
+      },
+      {
+        "name": "南韓反客為主",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.35,
+        "basis": "Montes 停賽削弱墨後防，孫興慜、李剛仁的轉換速度與李在城策動，若南韓先進球並死守反擊，有機會複製其逆轉劇本。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.27,
+          "away": 0.23
+        },
+        "scoreline": "1:0",
+        "note": "FanDuel/DraftKings 墨西哥 +100、平手 +230、南韓 +310，大小盤 2.5；去抽水後約 50/27/23。"
+      },
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.518,
+          "draw": 0.262,
+          "away": 0.22
+        },
+        "scoreline": "1:0",
+        "note": "Dimers 給墨西哥 51.8%、平手 26.2%、南韓 22.0%，最可能比分墨西哥 1-0。"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.49,
+          "draw": 0.28,
+          "away": 0.23
+        },
+        "scoreline": "1:1",
+        "note": "Opta 對 A 組模擬墨西哥居首機率最高（48%），對本場與 Octagon/RotoBot 等模型一致偏墨小勝。"
+      },
+      {
+        "source": "Polymarket/Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.28,
+          "away": 0.22
+        },
+        "scoreline": "2:1",
+        "note": "Polymarket 墨西哥約 50%、平手 28.5%、南韓 24.5%；Kalshi 同向，墨西哥贏盤約 49-50¢（去抽水後約 50/28/22）。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "這是 A 組榜首之爭：墨西哥（3 分、淨勝球 +2）與南韓（3 分、+1）首輪皆獲勝，本場勝者基本鎖定 32 強席位。地主墨西哥坐鎮瓜達拉哈拉 Estadio Akron、海拔約 1,566 公尺、主場氛圍與近五戰四勝一和的狀態居優，但中堅 Cesar Montes 因紅牌停賽是隱憂。綜合博彩、模型與預測市場，墨西哥小勝（最可能 2:1）為主流共識，惟平手機率偏高、南韓轉換反擊仍具威脅。",
+    "key_factors": [
+      "賽事權重：A 組榜首與提前出線之爭，勝者基本確定晉級，雙方至少一分即握主動權，氣氛偏謹慎。",
+      "傷停名單：墨西哥主力中堅 Cesar Montes 因對南非的直紅停賽一場，後防組合需重組（Vásquez 搭配 Álvarez 或 Reyes/Lee 補位）；南韓 Bae Joon-ho、Kim Tae-hyeon 傷缺。",
+      "近期狀態：墨西哥近五戰四勝一和、開幕 2-0 完封南非並對塞爾維亞 5-1；南韓 2-1 逆轉捷克展現韌性，但近期防線多次失球。",
+      "戰術對位：墨西哥 4-3-3 高壓控球＋快速轉換，Edson Álvarez 對位孫興慜為關鍵；南韓採高位逼搶與反擊，孫興慜、李剛仁、黃喜燦在轉換中具威脅。",
+      "主客場/場地：地主主場、海拔約 1,566 公尺、瓜達拉哈拉狂熱主場氛圍對墨西哥有利，南韓首入墨西哥需適應。",
+      "輿論共識：Dimers 51.8%、Octagon 49%、RotoBot 47%、Polymarket/Kalshi 約 50% 皆偏墨西哥；多家模型指 1-1 為最可能單一比分，TuringStats 10 模型均分 2-1。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分模型與韓媒（Footballforecast、OddsFlow、FootballPredictions 及韓國 3 大 AI 綜合）以 1-1 平手為最可能單一比分，並指 Montes 停賽削弱墨後防、孫興慜領軍的快速反擊可能令南韓偷分甚至逆轉，南韓勝率仍約 22-25%。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA 世界盃 26 — 墨西哥 vs 南韓 賽事頁",
+      "url": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "type": "official",
+      "name": "FOX One 轉播頁（墨西哥 vs 南韓）",
+      "url": "https://www.fox.com/soccer/fifa-world-cup/mexico-vs-south-korea-jun-18-2026-group-a"
+    },
+    {
+      "type": "official",
+      "name": "BBC 世界盃紅牌停賽規則說明",
+      "url": "https://www.bbc.com/sport/football/articles/cd95xz5xndlo"
+    },
+    {
+      "type": "official",
+      "name": "Estadio Akron 維基資料",
+      "url": "https://en.wikipedia.org/wiki/Estadio_Akron"
+    },
+    {
+      "type": "official",
+      "name": "mexi.co 球迷指南（場地/資訊）",
+      "url": "https://mexi.co/matches/mexico-vs-south-korea-2026-06-18/"
+    },
+    {
+      "type": "official",
+      "name": "Fanorate Estadio Akron 場館導覽",
+      "url": "https://www.fanorate.com/soccer-2026/venue-guides/estadio-akron-fifa-world-cup-2026-guadalajara-guide/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com 賽前預覽",
+      "url": "https://www.goal.com/en-us/news/mexico-south-korea-world-cup-preview/blt8005f425257b98f0"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 賽前指南與預測首發",
+      "url": "https://www.espn.com/soccer/story/_/id/49079638/mexico-vs-south-korea-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 賽事盤口頁",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760441"
+    },
+    {
+      "type": "media",
+      "name": "The Independent — A 組導覽",
+      "url": "https://www.independent.co.uk/sport/football/world-cup-group-a-mexico-south-africa-south-korea-czech-republic-b2982719.html"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire — A 組戰術/陣容/盤口預覽",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-a-preview-mexico-south-africa-south-korea-czechia-tactics-lineups-set-pieces-odds-111369"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — 南韓世界盃球隊指南",
+      "url": "https://www.theguardian.com/football/2026/may/28/south-korea-world-cup-2026-team-guide-soccer"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — 南韓 2-1 逆轉捷克戰報",
+      "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — 南韓逆轉捷克報導",
+      "url": "https://www.aljazeera.com/sports/2026/6/12/south-korea-vs-czechia-world-cup-2026-oh-hyeon-gyu-hwang-in-beom"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — 墨西哥世界盃預覽",
+      "url": "https://www.aljazeera.com/sports/2026/6/5/mexico-world-cup-2026-preview-players-to-watch-group-matches-and-squad"
+    },
+    {
+      "type": "media",
+      "name": "SBS News — 紅牌風暴與 Montes 停賽",
+      "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-12/ogazcegwe"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — 南韓 26 人名單",
+      "url": "https://www.fourfourtwo.com/team/south-korea-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — 墨西哥世界盃名單",
+      "url": "https://www.fourfourtwo.com/team/mexico-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports — 墨西哥名單 4 大重點",
+      "url": "https://www.foxsports.com/stories/soccer/mexicos-world-cup-roster-selection"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports — 墨西哥隊情報",
+      "url": "https://www.cbssports.com/soccer/news/what-to-know-about-mexico-ahead-of-fifa-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "MLS Soccer — A 組預覽",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-a-preview-mexico-south-africa-south-korea-czechia"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated — 墨西哥傷兵",
+      "url": "https://www.si.com/soccer/mexico-national-team-injuries-every-player-missing-last-world-cup-warmup"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — 墨西哥/加拿大傷兵潮",
+      "url": "https://www.theguardian.com/sport/2026/mar/20/mexico-canada-world-cup-squad-injuries"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — 南韓 vs 捷克首發",
+      "url": "https://www.sportingnews.com/uk/football/news/south-korea-vs-czechia-lineups-starting-11-world-cup-2026/e45a4daa30c4e311f44bb69e"
+    },
+    {
+      "type": "media",
+      "name": "Sportsbook Review — 海拔與主場優勢",
+      "url": "https://www.sportsbookreview.com/picks/soccer/world-cup-altitude-mexico-host-nation-home-field-advantage-2026/"
+    },
+    {
+      "type": "media",
+      "name": "The Chosun Daily — Aguirre 稱南韓最難對手",
+      "url": "https://www.chosun.com/english/sports-en/2025/12/07/OKL7IAEGWJGMVBLT3P77A3ONNI/"
+    },
+    {
+      "type": "media",
+      "name": "Chosun — Opta 超級電腦 A 組預測",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/10/25R46GMQLVBBBOF2HV3H54XJ5I/"
+    },
+    {
+      "type": "media",
+      "name": "STARNEWS — Montes 停賽利多南韓",
+      "url": "https://www.starnewskorea.com/en/sports/2026/06/12/2026061206255275462"
+    },
+    {
+      "type": "media",
+      "name": "STARNEWS — 洪明甫對墨陣容決策",
+      "url": "https://www.starnewskorea.com/en/sports/2026/06/13/2026061314222159493"
+    },
+    {
+      "type": "media",
+      "name": "STARNEWS — 首入墨西哥利好南韓",
+      "url": "https://www.starnewskorea.com/en/sports/2026/06/16/2026061608421051970"
+    },
+    {
+      "type": "media",
+      "name": "KyungHyang — 紅牌與 Montes 停賽分析",
+      "url": "https://www.khan.co.kr/en/article/202606122300017"
+    },
+    {
+      "type": "media",
+      "name": "Seoul Economic Daily — Aguirre：對韓最重要",
+      "url": "https://en.sedaily.com/sports/2026/06/12/mexico-coach-aguirre-match-against-korea-is-most-important"
+    },
+    {
+      "type": "media",
+      "name": "CHOSUNBIZ — 洪明甫賽前記者會",
+      "url": "https://biz.chosun.com/en/en-international/2026/06/11/6LADG67VNFGFZJF2XN4K5EQ3R4/"
+    },
+    {
+      "type": "media",
+      "name": "Yonhap — 南韓抵墨訓練",
+      "url": "https://en.yna.co.kr/view/AEN20260607000600315"
+    },
+    {
+      "type": "media",
+      "name": "Soy Futbol — Montes 停賽令 Aguirre 頭痛",
+      "url": "https://www.soyfutbol.com/en/news/cesar-montes-leaves-aguirre-in-a-pickle-at-the-world-cup-20260612-0014.html"
+    },
+    {
+      "type": "media",
+      "name": "AP — 墨西哥傷兵與賽前",
+      "url": "https://apnews.com/article/javier-aguirre-mexico-2026-world-cup-f6737f712e6c45b0b3b2599e6094666f"
+    },
+    {
+      "type": "media",
+      "name": "India Today — A 組預覽",
+      "url": "https://www.indiatoday.in/amp/sports/football/story/fifa-world-cup-2026-group-a-preview-schedule-mexico-czechia-south-africa-south-korea-2920132-2026-06-01"
+    },
+    {
+      "type": "media",
+      "name": "Mykhel — A 組預覽",
+      "url": "https://www.mykhel.com/football/fifa-world-cup-group-a-2026-preview-mexico-south-korea-czechia-south-africa-fixtures-explained-430307.html"
+    },
+    {
+      "type": "media",
+      "name": "Olympics.com — 南韓陣容介紹",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-republic-of-korea-all-players-full-squad-list-key-stats-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Lethbridge Herald — 海拔挑戰",
+      "url": "https://lethbridgeherald.com/sports/national-sports/2026/06/06/mexico-citys-altitude-poses-a-key-challenge-for-teams-at-the-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — 南韓 2-1 捷克分析",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760414"
+    },
+    {
+      "type": "media",
+      "name": "FotMob — 預測首發與停賽",
+      "url": "https://www.fotmob.com/matches/mexico-vs-south-korea/1qpvav"
+    },
+    {
+      "type": "media",
+      "name": "365Scores — 陣容與賠率",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/mexico-south-korea-2383-5106-5930"
+    },
+    {
+      "type": "media",
+      "name": "매일경제 — Aguirre 賽前談話",
+      "url": "https://www.mk.co.kr/en/sports/11414515"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — 模型勝率與比分",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_2_mex_kor"
+    },
+    {
+      "type": "model",
+      "name": "Octagon AI — 模型 vs 市場",
+      "url": "https://octagonai.co/markets/sports/soccer/mexico-vs-korea-republic/"
+    },
+    {
+      "type": "model",
+      "name": "RotoBot AI — 去抽水盤口與數據",
+      "url": "https://rotobot.ai/world-cup/matchups?m=28"
+    },
+    {
+      "type": "model",
+      "name": "TuringStats — 10 個 AI 模型彙整",
+      "url": "https://turingstats.com/football-predictions/mexico-vs-south-korea-1489388"
+    },
+    {
+      "type": "model",
+      "name": "Footballforecast.io — ELO/Poisson 模型",
+      "url": "https://www.footballforecast.io/matches/mexico-vs-south-korea-group"
+    },
+    {
+      "type": "model",
+      "name": "OddsFlow AI — A 組 AI 預測",
+      "url": "https://www.oddsflow.ai/worldcup/groups/a"
+    },
+    {
+      "type": "model",
+      "name": "OddsFactory AI — 比分機率",
+      "url": "https://oddsfactoryai.com/world-cup-2026/mexico-vs-south-korea"
+    },
+    {
+      "type": "model",
+      "name": "KickOff — 預測算法",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/mexico-vs-south-korea/"
+    },
+    {
+      "type": "model",
+      "name": "Marca — Opta 超級電腦",
+      "url": "https://www.marca.com/en/world-cup/2026/04/02/69ce90b222601d45418b456c.html"
+    },
+    {
+      "type": "model",
+      "name": "WC Betting Tips — 模型機率表",
+      "url": "https://wcbettingtips.com/mexico-vs-south-korea-live"
+    },
+    {
+      "type": "model",
+      "name": "MindCast AI — 結構性預測",
+      "url": "https://www.mindcast-ai.com/p/2026-world-cup-mexico-skorea"
+    },
+    {
+      "type": "betting",
+      "name": "World Cup Forecast — 預測與賠率",
+      "url": "https://worldcupforecast.com/mexico-vs-south-korea-19-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Football/26 — 賠率表",
+      "url": "https://worldcup26usa.com/en/matches/group-a-md2-m1"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis — 預測與最佳投注",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/mexico-v-south-korea-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Betzoid — 博彩預測",
+      "url": "https://betzoid.com/en/mexico-south-korea-19-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com — 1-1 預測",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/mexico-vs-south-korea-prediction-19-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "KickOff26 — A 組數據與賠率",
+      "url": "https://wcsoccerau2026.com/group-a-mexico-south-korea/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine — 專家預測",
+      "url": "https://www.sportsline.com/insiders/mexico-vs-south-korea-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "OddsDigger — 盤口",
+      "url": "https://oddsdigger.com/football/nt-mexico-vs-nt-south-korea-92887809"
+    },
+    {
+      "type": "betting",
+      "name": "World Sports Network — 預測",
+      "url": "https://www.wsn.com/world-cup/mexico-vs-south-korea-2026-06-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Gambling News — 賠率與選秀",
+      "url": "https://www.gamblingnews.com/news/south-korea-vs-mexico-odds-prediction-picks-2026-fifa-world-cup-group-stage/"
+    },
+    {
+      "type": "betting",
+      "name": "Betrush — 讓分推介",
+      "url": "https://www.betrush.com/pick,Mexico___South_Korea,250130.html"
+    },
+    {
+      "type": "betting",
+      "name": "Tipstop — 數據預測",
+      "url": "https://tipstop.co/en/match/football/4667754/mexico-vs-south-korea"
+    },
+    {
+      "type": "betting",
+      "name": "The Celtic Star — 預覽與最佳投注",
+      "url": "https://thecelticstar.com/mexico-v-south-korea-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "The SportsRush — 預測與選秀",
+      "url": "https://thesportsrush.com/mexico-v-south-korea-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "VegasOdds — 預覽",
+      "url": "https://www.vegasodds.com/predictions/soccer/mexico-vs-south-korea-world-cup-picks-preview-jun-18/"
+    },
+    {
+      "type": "betting",
+      "name": "Online-Bookmakers — H2H 與賠率",
+      "url": "https://online-bookmakers.com/world-cup/mexico-v-south-korea-2026-06-19/"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK — 預覽與選秀",
+      "url": "https://esports-news.co.uk/2026/06/15/mexico-v-south-korea-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes — A 組預測",
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-a-preview-odds-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Squawka — 墨西哥奪冠賠率",
+      "url": "https://www.squawka.com/en/outright-markets/mexico-world-cup-2026-odds/"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket — 墨西哥 vs 南韓賽事市場",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-mex-kr-2026-06-18"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket — A 組優勝市場",
+      "url": "https://polymarket.com/event/world-cup-group-a-winner"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi — 墨西哥隊市場",
+      "url": "https://kalshi.com/teams/soccer-team/mexico"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate — Kalshi/Polymarket 彙整",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/"
+    },
+    {
+      "type": "market",
+      "name": "DeFiRate — A 組優勝市場",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-a/"
+    },
+    {
+      "type": "market",
+      "name": "Oddschecker — Kalshi vs Polymarket",
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260609-kalshi-vs-polymarket-where-to-trade-on-the-2026-world-cup"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/KLeague — A 組討論",
+      "url": "https://www.reddit.com/r/KLeague/comments/1pf3sfv/breaking_news_korea_is_in_group_a_with_mexico/"
+    },
+    {
+      "type": "forum",
+      "name": "Tavern of the Taeguk Warriors — 海拔議題",
+      "url": "https://www.taegukwarriors.com/the-elevation-dilemma-advantage-korea/"
+    },
+    {
+      "type": "forum",
+      "name": "나무위키 — 洪明甫號對墨西哥戰",
+      "url": "https://namu.wiki/w/%ED%99%8D%EB%AA%85%EB%B3%B4%ED%98%B8(%EC%84%B1%EC%9D%B8%202%EA%B8%B0)/2026%20FIFA%20%EC%9B%94%EB%93%9C%ECBB%B5/%EB%A9%95%EC%8B%9C%EC%BD%94%EC%A0%84"
+    },
+    {
+      "type": "social",
+      "name": "네이트 — AI 預測墨西哥 2-1 韓國",
+      "url": "https://sports.news.nate.com/view/20260615n18886"
+    },
+    {
+      "type": "social",
+      "name": "네이트 — 墨 17 歲新星先發預測",
+      "url": "https://sports.news.nate.com/view/20260614n14970"
+    },
+    {
+      "type": "social",
+      "name": "Daum/世界日報 — 3 大 AI 預測",
+      "url": "https://v.daum.net/v/20260612161522136"
+    },
+    {
+      "type": "social",
+      "name": "TISTORY gnhong — 韓墨展望",
+      "url": "https://gnhong.com/6675"
+    },
+    {
+      "type": "social",
+      "name": "TISTORY techsnap — A 組分析",
+      "url": "https://techsnap.tistory.com/1293"
+    },
+    {
+      "type": "social",
+      "name": "브런치 — 韓墨戰評析",
+      "url": "https://brunch.co.kr/@gumgyul/13"
+    },
+    {
+      "type": "social",
+      "name": "Instagram — 韓墨比分預測互動",
+      "url": "https://www.instagram.com/reel/DZmnNadTPce/"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire — Cesar Montes 球員動態",
+      "url": "https://www.rotowire.com/soccer/player/cesar-montes-21705"
+    },
+    {
+      "type": "kol",
+      "name": "Sofascore — Montes 停賽記錄",
+      "url": "https://www.sofascore.com/football/player/cesar-montes/818406"
+    },
+    {
+      "type": "kol",
+      "name": "YTN — 專家：金玟哉缺陣分析",
+      "url": "https://www.ytn.co.kr/_ln/0107_202606131114466677"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Mole — 預測與陣容（KOL 觀點）",
+      "url": "https://www.sportsmole.co.uk/football/mexico/preview/mexico-vs-south-korea-prediction-team-news-lineups_581026.html"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Mexico vs South Korea Will Decide The Group",
+      "url": "https://www.youtube.com/watch?v=5pYnlXqyKpQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — MEXICO vs SOUTH KOREA Match Preview",
+      "url": "https://www.youtube.com/watch?v=9kCebeMDp4Q"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Speed vs Pressure 預測",
+      "url": "https://www.youtube.com/watch?v=Xl6qT5GT_xg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Son 最後世界盃 Polymarket 23%",
+      "url": "https://www.youtube.com/watch?v=E0l1m_GUJV4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — 2026 FIFA WC Mexico vs South Korea Preview",
+      "url": "https://www.youtube.com/watch?v=w5dGMyJPbRk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — Group A Preview",
+      "url": "https://www.youtube.com/watch?v=oTkGTLY5e1I"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — 韓國 32 強進出 AI 分析",
+      "url": "https://www.youtube.com/watch?v=kmpEQcuP3kc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube — South Korea WC Preview: Group A Shock?",
+      "url": "https://www.youtube.com/watch?v=bszZKRrknSc"
+    }
+  ],
+  "source_count": 102,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場氣氛強，南韓實力不俗但地利偏向主隊。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥擁北美主場優勢，南韓反擊犀利，看好主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥整體實力略勝，前場把握能力成關鍵，有望小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.29,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場優勢明顯，攻勢更有層次可小勝韓國"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥擁有強大的主場優勢，預計能在激戰中以微弱差距擊退韓國。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場優勢明顯，預計小勝南韓。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "墨西哥主場作戰實力佔優，穩健防守下小勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.498,
+      "draw": 0.278,
+      "away": 0.224
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Opus 4.8 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-17T011327Z"
+}

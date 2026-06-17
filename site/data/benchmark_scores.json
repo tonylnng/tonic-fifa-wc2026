@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-16T17:48:40Z",
-  "total_matches_scored": 12,
+  "last_updated": "2026-06-17T01:09:51Z",
+  "total_matches_scored": 14,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -14,24 +14,84 @@
       "brier_score": 0.1296
     },
     {
-      "source": "MiniMax M3",
-      "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 3,
-      "outcome_accuracy": 0.375,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.315
-    },
-    {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 3,
-      "outcome_accuracy": 0.375,
+      "evaluated": 10,
+      "outcome_correct": 5,
+      "outcome_accuracy": 0.5,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.3772
+      "brier_score": 0.3322
+    },
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "evaluated": 10,
+      "outcome_correct": 4,
+      "outcome_accuracy": 0.4,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.2759
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "evaluated": 10,
+      "outcome_correct": 4,
+      "outcome_accuracy": 0.4,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.2972
+    },
+    {
+      "source": "AI（本站 Opus）",
+      "kind": "ai",
+      "evaluated": 14,
+      "outcome_correct": 5,
+      "outcome_accuracy": 0.3571,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.281
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "evaluated": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.344
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "evaluated": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.3621
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "evaluated": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.393
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "evaluated": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333,
+      "exact_correct": 0,
+      "exact_accuracy": 0.0,
+      "brier_score": 0.4049
     },
     {
       "source": "博彩隱含機率",
@@ -44,16 +104,6 @@
       "brier_score": 0.3125
     },
     {
-      "source": "AI（本站 Opus）",
-      "kind": "ai",
-      "evaluated": 12,
-      "outcome_correct": 3,
-      "outcome_accuracy": 0.25,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.3126
-    },
-    {
       "source": "Opta 超級電腦",
       "kind": "model",
       "evaluated": 4,
@@ -64,16 +114,6 @@
       "brier_score": 0.3336
     },
     {
-      "source": "千問 Qwen3.7 Max",
-      "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 2,
-      "outcome_accuracy": 0.25,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.3437
-    },
-    {
       "source": "Polymarket 預測市場",
       "kind": "market",
       "evaluated": 1,
@@ -82,46 +122,6 @@
       "exact_correct": 0,
       "exact_accuracy": 0.0,
       "brier_score": 0.3306
-    },
-    {
-      "source": "OpenAI GPT-5.1 Thinking",
-      "kind": "ai",
-      "evaluated": 4,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.4454
-    },
-    {
-      "source": "xAI Grok 4.20 Reasoning",
-      "kind": "ai",
-      "evaluated": 4,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.4688
-    },
-    {
-      "source": "Google Gemini 3.1 Pro",
-      "kind": "ai",
-      "evaluated": 4,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.4819
-    },
-    {
-      "source": "Z.ai GLM-4.7",
-      "kind": "ai",
-      "evaluated": 4,
-      "outcome_correct": 0,
-      "outcome_accuracy": 0.0,
-      "exact_correct": 0,
-      "exact_accuracy": 0.0,
-      "brier_score": 0.5048
     },
     {
       "source": "Kalshi 預測市場",
