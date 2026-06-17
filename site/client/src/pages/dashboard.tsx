@@ -221,7 +221,7 @@ export default function Dashboard() {
             FIFA World Cup 2026
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
-            美國 · 加拿大 · 墨西哥 · 48 隊 · 104 場 · Opus 4.8 預測 · 近賽每場 100+ 來源
+            美國 · 加拿大 · 墨西哥 · 48 隊 · 104 場 · Sonnet 4.6 預測 · 近賽每場 100+ 來源
           </p>
         </div>
 

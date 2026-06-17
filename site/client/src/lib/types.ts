@@ -56,7 +56,7 @@ export interface Benchmark {
   note?: string; // 繁中一句說明 / take
 }
 
-/** 綜合共識（ensemble）：本站 Opus 4.8 主預測 + 三家第三方 AI 的加權平均。 */
+/** 綜合共識（ensemble）：本站主預測（Sonnet 4.6）+ 三家第三方 AI 的加權平均。 */
 export interface Consensus {
   scoreline: string;
   outcome: "home" | "draw" | "away";

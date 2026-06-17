@@ -640,7 +640,7 @@ export function PredictionCard({
               <div>
                 <h4 className="text-sm font-semibold mb-2 flex items-center gap-1.5">
                   <Scale className="w-4 h-4 text-chart-4" />
-                  多模型對決（本站 Opus 4.8 vs 第三方 AI vs 市場/超級電腦）
+                  多模型對決（本站 Sonnet 4.6 vs 第三方 AI vs 市場/超級電腦）
                 </h4>
                 <Benchmarks ai={pred.prediction} items={benchmarks} />
                 <p className="text-[11px] text-muted-foreground mt-2">
