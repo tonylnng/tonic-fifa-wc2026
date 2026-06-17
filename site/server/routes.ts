@@ -207,6 +207,22 @@ export async function registerRoutes(
     res.json(readJSON("benchmark_scores.json"));
   });
 
+  // 球員介紹 + 本屆統計（進球/黃牌/紅牌）。
+  app.get("/api/players", (_req, res) => {
+    res.json(readJSON("players.json") ?? { players: [] });
+  });
+
+  // 射手榜 + 紀律榜（由 update_players.py 計算）。
+  app.get("/api/leaderboards", (_req, res) => {
+    res.json(
+      readJSON("leaderboards.json") ?? {
+        scorers: [],
+        discipline: [],
+        totals: { players: 0, goals: 0, yellow_cards: 0, red_cards: 0 },
+      }
+    );
+  });
+
   // All predictions, grouped by match, sorted by run timestamp (latest first)
   app.get("/api/predictions", (_req, res) => {
     const dir = join(dataDir(), "predictions");

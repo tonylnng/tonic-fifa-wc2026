@@ -4,7 +4,7 @@
 
 ## 0. 環境
 - 專案根目錄：`/home/user/workspace/wc2026/`
-- 資料目錄：`data/`（fixtures.json, results.json, accuracy.json, predictions/）
+- 資料目錄：`data/`（fixtures.json, results.json, accuracy.json, players.json, leaderboards.json, predictions/）
 - 網站目錄：`site/`（部署用）
 - Notion 設定：`notion_config.json`（data_source_id: 112974c5-2bbd-4e5e-b3b7-28fd2ed96b6a）
 - GitHub 同步站：`/home/user/workspace/wc2026/gitsync/`（已 clone 自 private repo tonylnng/tonic-fifa-wc2026，remote=origin）
@@ -62,6 +62,16 @@ echo '<postmortem json 物件或陣列>' | python3 /home/user/workspace/wc2026/b
 ```
   合併鍵為 (match, run_id)，不會覆蓋既有不同場次的覆盤。
 
+## 3.5 更新球員本屆統計（進球／紅黃牌）
+- **對每場新出爐結果**，用 Sonnet 4.6 研究子代理搜尋權威來源（FIFA 官方／ESPN／Sky／衛報／賽事中心），找出該場的入球者與紅黃牌球員。切勿杜撰；找不到確證的事件就略過。烏龍球不計入任何球員 `goals`。
+- 球員 id 規則：`{隊三碼大寫}-{姓氏小寫}`（與 `data/players.json` 既有 id 一致）。若球員不在名單中，事件物件附帶 `name_en`/`name_zh`/`team`（須與 fixtures 英文隊名逐字一致）/`team_zh`/`position`，腳本會自動建檔。
+- 以 stdin 合併（單場物件或多場陣列），腳本依 `id` 與 `stats.matches_with_events` **冪等累加**，並重算 `data/leaderboards.json`（射手榜／紀律榜）：
+```bash
+echo '[{"match":17,"events":[{"id":"FRA-mbappe","goals":2},{"id":"SEN-mbaye","goals":1,"name_en":"Ibrahim Mbaye","name_zh":"伊布拉欣·姆巴耶","team":"Senegal","team_zh":"塞內加爾","position":"FW"}],"sources":["https://..."]}]' | python3 /home/user/workspace/wc2026/update_players.py --merge-stdin
+```
+- 每場 events 內各球員只記「該場」事件數（勿跨場累加）；每場進球總數應與比分一致（烏龍球除外）。
+- 完整格式見 `data/PLAYERS_SCHEMA.md`。
+
 ## 4. 重算準確率、校準與基準線計分
 ```bash
 python3 /home/user/workspace/wc2026/update_accuracy.py
@@ -76,7 +86,7 @@ python3 /home/user/workspace/wc2026/compute_benchmark_scores.py
 ```bash
 python3 /home/user/workspace/wc2026/sync_to_site.py
 ```
-（會一併複製 fixtures/results/accuracy/predictions 以及 `calibration.json`、`postmortems.json`、`benchmark_scores.json`。）
+（會一併複製 fixtures/results/accuracy/predictions 以及 `calibration.json`、`postmortems.json`、`benchmark_scores.json`、`players.json`、`leaderboards.json`。）
 
 ## 6. 同步到 Notion
 - 對每場新預測，呼叫 `notion-create-pages`（parent.data_source_id = 112974c5-2bbd-4e5e-b3b7-28fd2ed96b6a）。

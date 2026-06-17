@@ -18,7 +18,8 @@ def run(cmd, cwd=None):
 # 1. 同步 data/（predictions 為累加，不刪舊批次；fixtures/results/accuracy 覆蓋）
 os.makedirs(os.path.join(DST, "predictions"), exist_ok=True)
 for f in ["fixtures.json", "results.json", "accuracy.json",
-          "calibration.json", "postmortems.json", "benchmark_scores.json"]:
+          "calibration.json", "postmortems.json", "benchmark_scores.json",
+          "players.json", "leaderboards.json"]:
     s = os.path.join(SRC, f)
     if os.path.exists(s):
         shutil.copy2(s, os.path.join(DST, f))

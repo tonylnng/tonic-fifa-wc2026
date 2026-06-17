@@ -17,6 +17,7 @@ import { PredictionCard } from "@/components/PredictionCard";
 import { TrendsTab } from "@/components/TrendsTab";
 import { CalibrationTab } from "@/components/CalibrationTab";
 import { PostmortemsTab } from "@/components/PostmortemsTab";
+import { PlayersTab } from "@/components/PlayersTab";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -289,6 +290,9 @@ export default function Dashboard() {
             <TabsTrigger value="postmortems" data-testid="tab-postmortems">
               賽後覆盤
             </TabsTrigger>
+            <TabsTrigger value="players" data-testid="tab-players">
+              球員
+            </TabsTrigger>
           </TabsList>
 
           {/* PREDICTIONS */}
@@ -383,6 +387,11 @@ export default function Dashboard() {
           {/* POSTMORTEMS */}
           <TabsContent value="postmortems">
             <PostmortemsTab />
+          </TabsContent>
+
+          {/* PLAYERS */}
+          <TabsContent value="players">
+            <PlayersTab />
           </TabsContent>
         </Tabs>
 

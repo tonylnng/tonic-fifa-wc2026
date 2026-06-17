@@ -207,3 +207,56 @@ export interface StatusData {
   runs: string[];
   accuracy: AccuracyData["metrics"];
 }
+
+// 球員本屆統計
+export interface PlayerStats {
+  goals: number;
+  yellow_cards: number;
+  red_cards: number;
+  matches_with_events: number[];
+}
+
+// 球員資料卡
+export interface Player {
+  id: string;
+  name_en: string;
+  name_zh: string;
+  team: string; // 英文隊名（對應 fixtures，用於 flag/zh）
+  team_zh: string;
+  position: "GK" | "DF" | "MF" | "FW" | string;
+  shirt_no: number | null;
+  age: number | null;
+  club: string;
+  is_key: boolean;
+  bio_zh: string;
+  stats: PlayerStats;
+  sources?: string[];
+}
+
+export interface PlayersData {
+  tournament: string;
+  last_updated: string;
+  note?: string;
+  players: Player[];
+}
+
+// 排行榜列
+export interface LeaderRow {
+  id: string;
+  name_zh: string;
+  name_en: string;
+  team_zh: string;
+  team: string;
+  position: string;
+  shirt_no?: number | null;
+  goals: number;
+  yellow_cards: number;
+  red_cards: number;
+}
+
+export interface LeaderboardsData {
+  last_updated: string;
+  scorers: LeaderRow[];
+  discipline: LeaderRow[];
+  totals: { players: number; goals: number; yellow_cards: number; red_cards: number };
+}
