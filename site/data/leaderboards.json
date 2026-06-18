@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T01:20:47Z",
+  "last_updated": "2026-06-18T09:16:09Z",
   "scorers": [
     {
       "id": "ARG-messi",
@@ -94,6 +94,18 @@
       "position": "MF",
       "shirt_no": null,
       "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "UZB-fayzullaev",
+      "name_zh": "法伊祖拉耶夫",
+      "name_en": "Abbosbek Fayzullaev",
+      "team_zh": "烏茲別克",
+      "team": "Uzbekistan",
+      "position": "MF",
+      "shirt_no": 22,
+      "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -206,6 +218,18 @@
       "red_cards": 0
     },
     {
+      "id": "COL-munoz",
+      "name_zh": "穆紐斯",
+      "name_en": "Daniel Muñoz",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "DF",
+      "shirt_no": 2,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "GER-undav",
       "name_zh": "德尼茲·溫達夫",
       "name_en": "Deniz Undav",
@@ -297,6 +321,18 @@
       "team": "Germany",
       "position": "MF",
       "shirt_no": 10,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "COL-campaz",
+      "name_zh": "哈明頓·坎帕斯",
+      "name_en": "Jaminton Campaz",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -650,6 +686,18 @@
       "red_cards": 0
     },
     {
+      "id": "GHA-yirenkyi",
+      "name_zh": "卡萊布·伊倫恩基",
+      "name_en": "Caleb Yirenkyi",
+      "team_zh": "迦納",
+      "team": "Ghana",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "NED-summerville",
       "name_zh": "克里森西奧·薩默維爾",
       "name_en": "Crysencio Summerville",
@@ -669,6 +717,18 @@
       "team": "Bosnia & Herzegovina",
       "position": "FW",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "COL-diaz",
+      "name_zh": "路易斯·迪亞斯",
+      "name_en": "Luis Díaz",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -719,6 +779,18 @@
       "team": "Scotland",
       "position": "DF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "UZB-khusanov",
+      "name_zh": "胡薩諾夫",
+      "name_en": "Abdukodir Khusanov",
+      "team_zh": "烏茲別克",
+      "team": "Uzbekistan",
+      "position": "DF",
+      "shirt_no": 2,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -784,6 +856,30 @@
       "red_cards": 0
     },
     {
+      "id": "GHA-yirenkyi",
+      "name_zh": "卡萊布·伊倫恩基",
+      "name_en": "Caleb Yirenkyi",
+      "team_zh": "迦納",
+      "team": "Ghana",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "PAN-harvey",
+      "name_zh": "卡洛斯·哈維",
+      "name_en": "Carlos Harvey",
+      "team_zh": "巴拿馬",
+      "team": "Panama",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BRA-casemiro",
       "name_zh": "卡塞米羅",
       "name_en": "Casemiro",
@@ -816,6 +912,18 @@
       "position": "FW",
       "shirt_no": null,
       "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "PAN-blackman",
+      "name_zh": "塞薩爾·布萊克曼",
+      "name_en": "César Blackman",
+      "team_zh": "巴拿馬",
+      "team": "Panama",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -952,6 +1060,30 @@
       "red_cards": 0
     },
     {
+      "id": "COL-arias",
+      "name_zh": "約翰·阿里亞斯",
+      "name_en": "Jhon Arias",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "COL-mojica",
+      "name_zh": "約翰·莫希卡",
+      "name_en": "Johan Mojica",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-lukic",
       "name_zh": "約沃·盧基奇",
       "name_en": "Jovo Lukić",
@@ -1020,6 +1152,18 @@
       "position": "DF",
       "shirt_no": null,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "COL-diaz",
+      "name_zh": "路易斯·迪亞斯",
+      "name_en": "Luis Díaz",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "FW",
+      "shirt_no": 7,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -1289,9 +1433,9 @@
     }
   ],
   "totals": {
-    "players": 351,
-    "goals": 65,
-    "yellow_cards": 48,
+    "players": 357,
+    "goals": 70,
+    "yellow_cards": 55,
     "red_cards": 3
   }
 }

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-18T01:20:47Z",
+  "last_updated": "2026-06-18T09:16:09Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1437,12 +1437,19 @@
       "is_key": true,
       "bio_zh": "效力拜仁慕尼黑的哥倫比亞快翼，速度驚人、突破能力強，轉會德甲後繼續發光發熱。代表國家隊進球逾22球，是球隊最危險的進攻武器，本屆備受矚目。",
       "stats": {
-        "goals": 0,
-        "yellow_cards": 0,
+        "goals": 1,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          24
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
     },
     {
       "id": "COL-rios",
@@ -1485,6 +1492,87 @@
       "sources": []
     },
     {
+      "id": "COL-campaz",
+      "name_en": "Jaminton Campaz",
+      "name_zh": "哈明頓·坎帕斯",
+      "team": "Colombia",
+      "team_zh": "哥倫比亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          24
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
+    },
+    {
+      "id": "COL-arias",
+      "name_en": "Jhon Arias",
+      "name_zh": "約翰·阿里亞斯",
+      "team": "Colombia",
+      "team_zh": "哥倫比亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          24
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
+    },
+    {
+      "id": "COL-mojica",
+      "name_en": "Johan Mojica",
+      "name_zh": "約翰·莫希卡",
+      "team": "Colombia",
+      "team_zh": "哥倫比亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          24
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
+    },
+    {
       "id": "COL-munoz",
       "name_en": "Daniel Muñoz",
       "name_zh": "穆紐斯",
@@ -1497,12 +1585,19 @@
       "is_key": true,
       "bio_zh": "效力水晶宮的右後衛，攻守兼備，在英超展現了出色的跑動能力和傳中質量。近年成為哥倫比亞正選右後衛，本屆有望在世界盃舞台上展示其在英超磨練出的頂級水準。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          24
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
     },
     {
       "id": "COL-sanchez",
@@ -3057,6 +3152,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "GHA-yirenkyi",
+      "name_en": "Caleb Yirenkyi",
+      "name_zh": "卡萊布·伊倫恩基",
+      "team": "Ghana",
+      "team_zh": "迦納",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          23
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760434/panama-ghana",
+        "https://www.espn.com/soccer/report/_/gameId/760434",
+        "https://www.bbc.co.uk/sport/football/videos/c1jyrn83ep2o",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-ghana-vs-panama-jun-17-2026-game-boxscore-647638?tab=playbyplay"
+      ]
     },
     {
       "id": "GHA-atizigi",
@@ -4913,6 +5035,60 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "PAN-harvey",
+      "name_en": "Carlos Harvey",
+      "name_zh": "卡洛斯·哈維",
+      "team": "Panama",
+      "team_zh": "巴拿馬",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          23
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760434/panama-ghana",
+        "https://www.espn.com/soccer/report/_/gameId/760434",
+        "https://www.bbc.co.uk/sport/football/videos/c1jyrn83ep2o",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-ghana-vs-panama-jun-17-2026-game-boxscore-647638?tab=playbyplay"
+      ]
+    },
+    {
+      "id": "PAN-blackman",
+      "name_en": "César Blackman",
+      "name_zh": "塞薩爾·布萊克曼",
+      "team": "Panama",
+      "team_zh": "巴拿馬",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          23
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760434/panama-ghana",
+        "https://www.espn.com/soccer/report/_/gameId/760434",
+        "https://www.bbc.co.uk/sport/football/videos/c1jyrn83ep2o",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-ghana-vs-panama-jun-17-2026-game-boxscore-647638?tab=playbyplay"
+      ]
     },
     {
       "id": "PAN-murillo",
@@ -7652,12 +7828,19 @@
       "is_key": true,
       "bio_zh": "烏茲別克最具創意的中場球員，效力土超伊斯坦堡巴沙斯基。技術靈活、傳球視野開闊，是Shomurodov身後最重要的創造者，本屆被視為球隊對抗強隊的秘密武器。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          24
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
     },
     {
       "id": "UZB-khusanov",
@@ -7673,11 +7856,18 @@
       "bio_zh": "效力英超曼城的烏茲別克年輕中堅，是本屆陣容中最著名的歐洲頂級聯賽球員。防守果斷、判斷力強，雖年輕但已在英超站穩腳跟，是球隊後防的核心樑柱。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          24
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
+        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+      ]
     },
     {
       "id": "UZB-yusupov",

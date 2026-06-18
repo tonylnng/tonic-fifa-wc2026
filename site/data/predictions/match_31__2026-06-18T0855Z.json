@@ -1,0 +1,699 @@
+{
+  "match": 31,
+  "home": "Brazil",
+  "away": "Haiti",
+  "home_zh": "巴西",
+  "away_zh": "海地",
+  "stage": "Group C",
+  "kickoff_utc": "2026-06-20T01:00:00Z",
+  "kickoff_hkt": "2026-06-20 09:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-18T0855Z",
+  "run_timestamp": "2026-06-18T08:55:00Z",
+  "source_count": 98,
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA官方 Brazil v Haiti 賽前預覽",
+      "url": "https://www.fifa.com/tournaments/mens/worldcup/2026-usa-canada-mexico/match-centre"
+    },
+    {
+      "type": "official",
+      "name": "CONCACAF官方 Haiti vs Scotland 報道",
+      "url": "https://www.concacaf.com/competitions/fifa-world-cup/news/haiti-makes-world-cup-return-with-loss-to-scotland"
+    },
+    {
+      "type": "official",
+      "name": "CBF Brazilian Football Confederation Squad Announcement",
+      "url": "https://agenciabrasil.ebc.com.br/en/esportes/noticia/2026-05/ancelotti-announces-brazils-world-cup-squad"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Brazil vs Haiti Match Page (Live Score)",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760444/haiti-brazil"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Haiti 0-1 Scotland Final Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760418/scotland-haiti"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Brazil 1-1 Morocco Game Analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760419"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Brazil vs Haiti TV Channel 官方預測陣容",
+      "url": "https://www.espn.com/soccer/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport 世界盃傷停追蹤",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0ey82g18xjo"
+    },
+    {
+      "type": "media",
+      "name": "BBC FIFA World Cup 2026 Scotland beat Haiti 高光",
+      "url": "https://www.bbc.co.uk/sport/football/live/cr47lgg64kvt"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian Haiti 0-1 Scotland 比賽報道",
+      "url": "https://www.theguardian.com/football/match/2026/jun/14/haiti-football-team-v-scotland"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian Haiti World Cup 2026 球隊指南",
+      "url": "https://www.theguardian.com/football/2026/may/30/haiti-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian Brazil World Cup 2026 球隊指南",
+      "url": "https://www.theguardian.com/football/2026/may/29/brazil-world-cup-2026-team-guide"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian Ancelotti 賽前新聞發布會",
+      "url": "https://www.theguardian.com/football/2026/jun/12/more-pressure-than-the-president-ancelotti-sets-out-to-end-brazils-world-cup-drought"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports Brazil vs Morocco 實時比分",
+      "url": "https://www.cbssports.com/soccer/news/brazil-vs-morocco-live-updates-world-cup-2026-score-result/live/"
+    },
+    {
+      "type": "media",
+      "name": "The Straits Times Neymar Haiti回歸遙遙無期",
+      "url": "https://www.straitstimes.com/sport/football/neymar-takes-first-step-back-on-pitch-but-haiti-return-remains-remote"
+    },
+    {
+      "type": "media",
+      "name": "The Straits Times Brazil對Haiti前尋求重振",
+      "url": "https://www.straitstimes.com/sport/football/brazil-seek-haiti-reset-after-morocco-expose-familiar-cracks"
+    },
+    {
+      "type": "media",
+      "name": "The Straits Times Brazil Wesley受傷退出",
+      "url": "https://www.straitstimes.com/sport/football/brazil-lose-injured-wesley-from-world-cup-squad-call-up-ederson"
+    },
+    {
+      "type": "media",
+      "name": "The Independent Brazil vs Morocco 實況",
+      "url": "https://www.independent.co.uk/sport/football/brazil-morocco-world-cup-2026-live-score-result-b2995162.html"
+    },
+    {
+      "type": "media",
+      "name": "The Independent Neymar Brazil 陣容入選",
+      "url": "https://www.independent.co.uk/sport/football/neymar-brazil-squad-world-cup-2026-ancelotti-b2979073.html"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports Haiti 0-1 Scotland 比賽報道",
+      "url": "https://www.skysports.com/football/news/11781/13552633/world-cup-2026-haiti-0-1-scotland-john-mcginn-gives-steve-clarkes-side-winning-return-to-footballs-biggest-stage"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports Brazil vs Haiti 近期狀態 H2H統計",
+      "url": "https://www.skysports.com/football/brazil-vs-haiti/549794"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports Haiti 0-1 Scotland 比分",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-haiti-vs-scotland-jun-13-2026-game-boxscore-647623"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports Brazil vs Morocco 即時更新",
+      "url": "https://www.foxsports.com/live-blog/soccer/brazil-vs-morocco-live-updates-score-top-plays-from-todays-action"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk Brazil 1-1 Morocco 報道",
+      "url": "https://worldsoccertalk.com/world-cup/brazil-vs-morocco-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-c-game/"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk Haiti 2026 World Cup 球隊預覽",
+      "url": "https://worldsoccertalk.com/world-cup/haiti-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda Brazil vs Haiti 預測",
+      "url": "https://www.sportskeeda.com/football/brazil-vs-haiti-prediction-betting-tips-june-19th-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News Brazil World Cup 2026 陣容",
+      "url": "https://www.sportingnews.com/us/soccer/news/brazil-world-cup-roster-2026-squad-players/5630e108dda3de7c4dd7cdda"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 2026 World Cup 傷停追蹤總覽",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "The Score 世界盃傷停追蹤 (Wesley)",
+      "url": "https://www.thescore.com/news/3550982"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com Brazil vs Haiti FIFA World Cup 2026 預覽全文",
+      "url": "https://www.goal.com/en-gb/news/brazil-haiti-world-cup-preview/blte15b62338e20169d"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com Brazil Squad World Cup 2026",
+      "url": "https://www.goal.com/en-ca/lists/brazil-squad-world-cup-2026/blt08d5bff83176ff6a"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta dello Sport Ancelotti 被批評",
+      "url": "https://www.gazzetta.it/en/football/world-cup/15-06-2026/brazil-ancelotti-under-fire-after-opening-draw-against-morocco.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online Douglas Santos Brazil不能指望輕鬆擊敗Haiti",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/570977"
+    },
+    {
+      "type": "media",
+      "name": "India Today Neymar恢復訓練Brazil vs Haiti",
+      "url": "https://www.indiatoday.in/sports/football/story/neymar-brazil-world-cup-2026-training-return-haiti-clash-2928144-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports Neymar訓練激起回歸希望",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/-did-you-miss-me-neymar-sparks-brazil-hope-ahead-of-potential-return-vs-haiti-2026-06-17"
+    },
+    {
+      "type": "media",
+      "name": "Cricket Country Neymar是否出賽Haiti最新傷情分析",
+      "url": "https://www.cricketcountry.com/news/will-neymar-play-against-haiti-in-fifa-world-cup-2026-latest-injury-update-explained-1349187/"
+    },
+    {
+      "type": "media",
+      "name": "Ge Globo 海地教練賽後發布會巴西戰分析 (葡語)",
+      "url": "https://ge.globo.com/google/amp/futebol/copa-do-mundo/noticia/2026/06/14/tecnico-do-haiti-cita-montanha-contra-brasil-mas-diz-rivais-tem-muito-mais-a-perder-do-que-nos.ghtml"
+    },
+    {
+      "type": "media",
+      "name": "BBC 世界盃戰術趨勢 4-4-2 分析",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3dy8147dmzo"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Group C 預測超級電腦 (25,000次模擬)",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-c-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Brazil 1-1 Morocco 數據分析",
+      "url": "https://theanalyst.com/articles/brazil-vs-morocco-stats-world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "xGscore Brazil vs Haiti 預測 (xG模型)",
+      "url": "https://xgscore.io/world-cup/brazil-haiti/preview"
+    },
+    {
+      "type": "model",
+      "name": "xGscore 世界盃2026 xG統計頁",
+      "url": "https://xgscore.io/xg-statistics/world-cup/2026"
+    },
+    {
+      "type": "model",
+      "name": "Foresportia Brazil vs Haiti 勝平負機率模型",
+      "url": "https://www.foresportia.com/en/world-cup-2026/brazil-haiti-2026-06-20.html"
+    },
+    {
+      "type": "model",
+      "name": "OnThePitch Dixon-Coles模型 Brazil vs Haiti",
+      "url": "https://onthepitch.now/countries/bra/"
+    },
+    {
+      "type": "model",
+      "name": "WC Betting Tips xG機率模型 Brazil 82%勝",
+      "url": "https://wcbettingtips.com/brazil-vs-haiti-highlights"
+    },
+    {
+      "type": "model",
+      "name": "FootyStats Brazil vs Haiti 統計預測",
+      "url": "https://footystats.org/international/brazil-national-team-vs-haiti-national-team-h2h-stats"
+    },
+    {
+      "type": "model",
+      "name": "AI World Cup 2026 Predictions (AI模型 70%信心)",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/brazil-haiti-20-06-2026"
+    },
+    {
+      "type": "model",
+      "name": "NerdyTips AI預測模型",
+      "url": "https://nerdytips.com/ru/prognoz/brazil-vs-haiti-prognostika-1274096"
+    },
+    {
+      "type": "model",
+      "name": "Tactical Football Analysis Ancelotti Brazil戰術分析",
+      "url": "https://tacticalfootballanalysis.com/carlo-ancelotti-tactics-brazil-2026-world-cup-tactical-analysis/"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket Brazil vs Haiti 預測市場賠率",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-bra-hai-2026-06-19"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post Brazil vs Haiti 博彩預測 (bet365 1/11)",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/brazil-vs-haiti-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aNhQP3k9Gl4Q/"
+    },
+    {
+      "type": "betting",
+      "name": "Flashscore Brazil vs Haiti 博彩賠率與建議",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-brazil-v-haiti-world-cup-2026-predictions-best-bets-and-odds/ClJxuLa3/"
+    },
+    {
+      "type": "betting",
+      "name": "OffshoreSOrtbooks Brazil -1400 賠率",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/brazil-vs-haiti-world-cup-group-c-odds-picks-jun-19/"
+    },
+    {
+      "type": "betting",
+      "name": "The Lines Group C 博彩賠率（Brazil -150出線）",
+      "url": "https://www.thelines.com/odds/world-cup/group-c/"
+    },
+    {
+      "type": "betting",
+      "name": "Betfanatics Group C 博彩賠率",
+      "url": "https://betfanatics.com/sportsbook/soccer/fifa-world-cup/group-c"
+    },
+    {
+      "type": "betting",
+      "name": "The Celtic Star Brazil vs Haiti 賠率與最佳投注",
+      "url": "https://thecelticstar.com/brazil-v-haiti-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "TheSportsRush Brazil -800 BetOnline 最優賠率",
+      "url": "https://thesportsrush.com/brazil-v-haiti-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "TonyBet Brazil vs Haiti SGP建議 (Vini Jr score)",
+      "url": "https://blog.tonybet.com/ca/predictions/brazil-vs-haiti-prediction-odds-sgp-19-06-26/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer 2026 FIFA World Cup Daily Hub",
+      "url": "https://www.reddit.com/r/soccer/comments/1u3rvcx/2026_fifa_world_cup_daily_hub/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer Brazil World Cup 2026 Preview討論",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4nssm/world_cup_2026_preview_brazil_ancelotti_pressure/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer Haiti World Cup 2026 Preview討論",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4gofj/world_cup_2026_preview_haiti_exile_esims_and_the/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/boston Haiti vs Scotland 波士頓觀看派對",
+      "url": "https://www.reddit.com/r/boston/comments/1u6eohk/from_the_ha%C3%AFti_vs_scotland_watch_party_at_mcec_on/"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire Brazil vs Haiti 全面預測（KOL分析師陣容與戰術）",
+      "url": "https://www.rotowire.com/soccer/article/brazil-vs-haiti-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-118660"
+    },
+    {
+      "type": "kol",
+      "name": "RotoWire Neymar 傷情追蹤（Haiti出賽存疑）",
+      "url": "https://www.rotowire.com/soccer/headlines/neymar-injury-joins-partial-team-training-519810"
+    },
+    {
+      "type": "kol",
+      "name": "Sports Mole Brazil 4-0 Haiti 預測",
+      "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-haiti-prediction-team-news-lineups_599463.html"
+    },
+    {
+      "type": "kol",
+      "name": "SportPesa Blog Brazil to win + over 2.5 goals 最佳投注建議",
+      "url": "https://blog.sportpesa.com/2026/06/16/brazil-vs-haiti-preview-prediction-world-cup-2026/"
+    },
+    {
+      "type": "kol",
+      "name": "FreeTips Vini Jr 得分 3-0 Brazil勝預測",
+      "url": "https://www.freetips.com/football/brazil-vs-haiti-predictions-20260618-0008/"
+    },
+    {
+      "type": "kol",
+      "name": "MEXC Brazil 3-0 Haiti 預測（含Neymar情況）",
+      "url": "https://www.mexc.com/news/1151978"
+    },
+    {
+      "type": "kol",
+      "name": "JuveFC Brazil vs Haiti 分析 over 3.5 goals建議",
+      "url": "https://www.juvefc.com/brazil-v-haiti-predictions/"
+    },
+    {
+      "type": "kol",
+      "name": "WorldCuply.com Brazil 2026深度球隊分析",
+      "url": "https://worldcuply.com/brazil.html"
+    },
+    {
+      "type": "kol",
+      "name": "Sportzw 巴西深度分析繁中版 (Vinícius與Ancelotti奪冠路)",
+      "url": "https://sportzw.com/brazil-world-cup-2026/"
+    },
+    {
+      "type": "kol",
+      "name": "RotoBot AI Haiti 2026 World Cup 戰術與陣容",
+      "url": "https://rotobot.ai/world-cup/team/HAI"
+    },
+    {
+      "type": "kol",
+      "name": "FWC Times Brazil 2026世界盃球隊頁",
+      "url": "https://fwctimes.com/brazil/"
+    },
+    {
+      "type": "kol",
+      "name": "FWC Times Haiti 2026世界盃球隊頁",
+      "url": "https://fwctimes.com/haiti/"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA官方 Brazil 1-1 Morocco 延長精彩片段",
+      "url": "https://www.youtube.com/watch?v=63MUoqp6hJ0"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA官方 Haiti vs Scotland Alt Cast 精彩片段",
+      "url": "https://www.youtube.com/watch?v=yoZfi1qoEzg"
+    },
+    {
+      "type": "youtube",
+      "name": "Inside MetLife Stadium World Cup 2026 Final",
+      "url": "https://www.youtube.com/watch?v=Zg0E1jRM3FY"
+    },
+    {
+      "type": "youtube",
+      "name": "2026 FIFA World Cup Brazil vs Haiti Preview (YouTube分析)",
+      "url": "https://www.youtube.com/watch?v=71kbllZQdto"
+    },
+    {
+      "type": "youtube",
+      "name": "Brazil vs Haiti Prediction Heavy Favorite xG Model",
+      "url": "https://www.youtube.com/watch?v=ov7MaDAoYtI"
+    },
+    {
+      "type": "youtube",
+      "name": "Haiti vs Brazil 5 AI Models Debate",
+      "url": "https://www.youtube.com/watch?v=gKvA0GJmulY"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA World Cup Haiti Vs Brazil UPSET ALERT預測",
+      "url": "https://www.youtube.com/watch?v=tUn4P1nMEFY"
+    },
+    {
+      "type": "youtube",
+      "name": "Brazil World Cup 2026 Preview Ancelotti Tactical Machine",
+      "url": "https://www.youtube.com/watch?v=tHUWFnDggeQ"
+    },
+    {
+      "type": "youtube",
+      "name": "NEYMAR BACK IN BRAZIL TRAINING Brazil v Haiti 2026",
+      "url": "https://www.youtube.com/watch?v=enCrvX1QHjM"
+    },
+    {
+      "type": "youtube",
+      "name": "WHO SHOULD START FOR BRAZIL VS HAITI 陣容爭議討論",
+      "url": "https://www.youtube.com/watch?v=w6edPUekqoE"
+    },
+    {
+      "type": "youtube",
+      "name": "Brazil VS Haiti Prediction & Best Bets YouTube博彩分析",
+      "url": "https://www.youtube.com/watch?v=OeBa4XDzrw0"
+    },
+    {
+      "type": "youtube",
+      "name": "Haiti World Cup 2026 Preview Can the Underdogs Shock Group C",
+      "url": "https://www.youtube.com/watch?v=thtgDhHU9mY"
+    },
+    {
+      "type": "youtube",
+      "name": "Brazil vs Haiti Realistic Prediction Gameplay 2026",
+      "url": "https://www.youtube.com/watch?v=UYJQ-XH-JBQ"
+    },
+    {
+      "type": "youtube",
+      "name": "WORLD CUP 2026 WEEK 2 PREDICTIONS & BEST BETS (3-1 Brazil)",
+      "url": "https://www.youtube.com/watch?v=C4vDyDPd6jE"
+    },
+    {
+      "type": "youtube",
+      "name": "MetLife Stadium World Cup 2026 Guide NY/NJ",
+      "url": "https://www.youtube.com/watch?v=OzAT5L10ofk"
+    },
+    {
+      "type": "youtube",
+      "name": "Haiti Short World Cup 2026 Player Rankings Squad Preview",
+      "url": "https://www.youtube.com/watch?v=oEM_nRXNzG4"
+    },
+    {
+      "type": "youtube",
+      "name": "Brazil vs Morocco Match Preview Group C World Cup",
+      "url": "https://www.youtube.com/watch?v=fDg6ERZrpR0"
+    },
+    {
+      "type": "social",
+      "name": "Instagram FOX Sports Vini Jr World Cup 高光",
+      "url": "https://www.instagram.com/reel/DZspvsbv4dN/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram Brazil Brazil World Cup IGTV 首發XI預測",
+      "url": "https://www.instagram.com/reel/DZgMd1zy4GO/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram Brazil Brazil Times Square球迷聚集",
+      "url": "https://www.instagram.com/p/DZiJ2b4DaIp/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram Haiti球迷World Cup預測討論",
+      "url": "https://www.instagram.com/reel/DZfG99sT2f-/"
+    },
+    {
+      "type": "social",
+      "name": "Facebook Scotland官方 Haiti 0-1 Scotland 全場時間 貼文",
+      "url": "https://www.facebook.com/scotlandnationalteam/posts/full-time-haiti-0-1-scotlanda-win-to-kick-off-our-fifa-world-cup-campaignhaisco-/1417763900381813/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram Brazil Brazil未嘗敗績世界盃開賽紀錄貼文",
+      "url": "https://www.instagram.com/p/DZi6uqiDXEn/"
+    },
+    {
+      "type": "media",
+      "name": "ABC 6 Philadelphia World Cup更新 Brazil vs Haiti",
+      "url": "https://6abc.com/live-updates/2026-world-cup-live-updates-philadelphia/19264999/"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.82,
+      "draw": 0.11,
+      "away": 0.07
+    },
+    "confidence": 0.82,
+    "top_scorelines": [
+      {
+        "scoreline": "3:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "4:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.82,
+        "basis": "各大模型概率綜合：Opta超級電腦（25,000次模擬）：巴西贏C組60.2%，海地進淘汰賽僅15.8%（全48隊最低）。AI World Cup 2026 Predictions：巴西勝84%、平10%、海地6%。xGscore模型：巴西預期xG 1.9 vs 海地0.9；xG模型YouTube分析師：巴西77%、平16%、海地7%（總xG 2.85，巴西2.35 vs 海地0.50）。OnTh"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.87,
+        "basis": "博彩市場一面倒看好巴西：bet365開盤巴西1/11（隱含機率約91%）、平局10/1（9.1%）、海地22/1（4.3%）。ESPN盤口巴西-1000（ML），Polymarket加密預測市場巴西壓倒性；多家博彩商（BetOnline）巴西-800至-1400，最高至-1400（offshoresportbooks）。含juice前隱含機率：巴西≈88%、平局≈9%、海地≈4.5%。Asian "
+      },
+      {
+        "name": "保守情境（海地守和或偷分）",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.11,
+        "basis": "少數觀點認為巴西在首戰摩洛哥一場暴露出中場控制力不足、臨門缺乏穩定射手（無純中鋒）等問題，加上Ancelotti執教國家隊磨合時間極短，不排除比賽初段海地以紀律防守守出平局甚至率先入球的局面；xGscore模型亦有BTTS Yes 43%的概率，暗示海地有反擊入球機會。部分AI模型（Haiti vs Brazil 5 AI Models中Claude）甚至給出Haiti 2-1的離奇預測，強調海地"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.867,
+          "draw": 0.0887,
+          "away": 0.0443
+        },
+        "scoreline": "3:0",
+        "note": "博彩市場一面倒看好巴西：bet365開盤巴西1/11（隱含機率約91%）、平局10/1（9.1%）、海地22/1（4.3%）。ESPN盤口巴西-1000（ML），Polymarket加密預測市場巴西壓倒性；多家博彩商（BetOnline）巴西-800至-1400，最高至-1400（offshoresportbooks）。含juice前隱含機率：巴西≈88%、平局≈9%、海地≈4.5%。Asian Handicap：巴西-2.5球。進球盤：大3.5球為主流（bet365 over 3.5 10/11）。正確比分推薦：多數博彩商推薦3-0（bet365 6/"
+      },
+      {
+        "source": "數據模型綜合（Opta／AI 超級電腦等）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.82,
+          "draw": 0.11,
+          "away": 0.07
+        },
+        "note": "各大模型概率綜合：Opta超級電腦（25,000次模擬）：巴西贏C組60.2%，海地進淘汰賽僅15.8%（全48隊最低）。AI World Cup 2026 Predictions：巴西勝84%、平10%、海地6%。xGscore模型：巴西預期xG 1.9 vs 海地0.9；xG模型YouTube分析師：巴西77%、平16%、海地7%（總xG 2.85，巴西2.35 vs 海地0.50）。OnThePitch Dixon-Coles模型：巴西勝最高機率場景（詳細機率需訂閱）。WC Betting Tips：巴西82%、平12%、海地6%。Forespor"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "巴西主場（中立場）迎戰海地。各大模型概率綜合：Opta超級電腦（25,000次模擬）：巴西贏C組60.2%，海地進淘汰賽僅15.8%（全48隊最低）。AI World Cup 2026 Predictions：巴西勝84%、平10%、海地6%。xGscore模型：巴西 博彩市場一面倒看好巴西：bet365開盤巴西1/11（隱含機率約91%）、平局10/1（9.1%）、海地22/1（4.3%）。ESPN盤口巴西-1000（ML），Polymarket加密預測市場巴西壓倒性；多家博彩商（BetOnline）巴 AI 主預測 3:0（巴西大勝），信心 0.82。",
+    "key_factors": [
+      "球員狀態：Vinícius Júnior首戰轟出世界波，狀態出色；Raphinha首戰被克制，本場需重新發力；Neymar幾乎確定缺席，攻擊創造力受限但其他人才充足。",
+      "傷停名單：巴西確定缺陣Rodrygo（ACL）、Eder Militão（腿後肌）、Estêvão（腿後肌）、Wesley（大腿），Neymar（小腿二級）仍在恢復，出賽本場機率極低；海地缺Leverton Pierre（跟腱/內收肌），整體陣容相對完整。",
+      "近期狀態：巴西首戰1-1平摩洛哥（表現低迷），但陣容實力仍屬世界頂級；海地首戰0-1負蘇格蘭，表現優於預期但臨門一腳欠缺。歷史交鋒巴西3戰全勝，合共22-2（最近一場2016年美洲盃7-1）。",
+      "戰術對位：巴西邊路速度（Vinicius/Raphinha）對位海地全閘是極度不均衡錯配；巴西中場（Guimarães、Casemiro）能牢牢控制節奏；海地依賴定位球和反擊，面對巴西高水準控球難有機會。",
+      "主客場：林肯金融球場（費城）為中立場，氣候炎熱潮濕，對體力消耗型的海地後段不利；巴西球迷人數更多，氛圍近似主場；巴西歷次世界盃首戰均不敗。",
+      "輿論共識：幾乎全部媒體、模型、博彩分析師一致指向巴西勝出，比分預測集中在3-0至4-0。唯一分歧在「海地能否進一球」——部分人（Racing Post、FreeTips、NerdyTips）押巴西乾淨勝，部分人（SportPredict Hub）預測4-1。巴西面對壓力急需提振信心，進攻預期比首戰更積極主動。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數觀點認為巴西在首戰摩洛哥一場暴露出中場控制力不足、臨門缺乏穩定射手（無純中鋒）等問題，加上Ancelotti執教國家隊磨合時間極短，不排除比賽初段海地以紀律防守守出平局甚至率先入球的局面；xGscore模型亦有BTTS Yes 43%的概率，暗示海地有反擊入球機會。部分AI模型（Haiti vs Brazil 5 AI Models中Claude）甚至給出Haiti 2-1的離奇預測，強調海地2025年資格賽氣勢。然而主流研判認為即便海地先入球或守住上半場，巴西的陣容深度和板凳實力（Endrick、Martinelli、Matheus Cunha）足以在下半場翻盤，歷史17-1的進球比差距過大，不足以推翻壓倒性預測。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.93,
+        "draw": 0.05,
+        "away": 0.02
+      },
+      "scoreline": "4:0",
+      "note": "巴西實力遠超海地，主場大勝可期。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "4:0",
+      "note": "巴西實力碾壓，海地難以抵擋，主隊將輕鬆取得大勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.95,
+        "draw": 0.04,
+        "away": 0.01
+      },
+      "scoreline": "4:0",
+      "note": "巴西實力懸殊，海地難有招架之力，預期主隊輕鬆大勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.9,
+        "draw": 0.07,
+        "away": 0.03
+      },
+      "scoreline": "4:0",
+      "note": "巴西火力全面碾壓，海地難以招架。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.92,
+        "draw": 0.06,
+        "away": 0.02
+      },
+      "scoreline": "4:0",
+      "note": "巴西整體實力完全輾壓，預計將輕鬆大勝海地全取三分。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.82,
+        "draw": 0.12,
+        "away": 0.06
+      },
+      "scoreline": "3:0",
+      "note": "巴西實力遠勝海地，主場預計大勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.08,
+        "away": 0.04
+      },
+      "scoreline": "3:0",
+      "note": "巴西實力懸殊，海地難以招架，預計大比分獲勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "4:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.884,
+      "draw": 0.078,
+      "away": 0.038
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-18T091401Z"
+}

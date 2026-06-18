@@ -1,0 +1,544 @@
+{
+  "match": 32,
+  "home": "Turkey",
+  "away": "Paraguay",
+  "home_zh": "土耳其",
+  "away_zh": "巴拉圭",
+  "stage": "Group D",
+  "kickoff_utc": "2026-06-20T04:00:00Z",
+  "kickoff_hkt": "2026-06-20 12:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-18T0855Z",
+  "run_timestamp": "2026-06-18T08:55:00Z",
+  "source_count": 67,
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 官方賽程 Group D",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/group-d"
+    },
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 傷停追蹤 - fifa-26.com",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "official",
+      "name": "FIFA 男子世界排名 2026",
+      "url": "https://www.fifa.com/en/football-development/fifa-world-ranking"
+    },
+    {
+      "type": "official",
+      "name": "Turkey 2026 WC Squad – BBC Sport",
+      "url": "https://www.bbc.com/sport/football/articles/c202w4ew633o"
+    },
+    {
+      "type": "media",
+      "name": "SportsMole: Turkey vs Paraguay Preview/Prediction/Lineups",
+      "url": "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/preview/turkey-vs-paraguay-prediction-team-news-lineups_599370.html"
+    },
+    {
+      "type": "media",
+      "name": "TheSportsRush: Turkey vs Paraguay Picks & Betting Odds WC2026",
+      "url": "https://thesportsrush.com/turkey-v-paraguay-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Esports-News: Turkey vs Paraguay Prediction & Best Bets WC2026",
+      "url": "https://esports-news.co.uk/2026/06/16/turkey-v-paraguay-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis: Turkey v Paraguay Predictions WC2026",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/turkey-v-paraguay-predictions"
+    },
+    {
+      "type": "media",
+      "name": "vSIN: Türkiye vs Paraguay 2026 World Cup Preview and Pick",
+      "url": "https://vsin.com/soccer/turkiye-vs-paraguay-prediction-2026-fifa-world-cup-preview-and-pick/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN: Australia 2-0 Türkiye Match Report (WC2026 Matchday 1)",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760421/turkiye-australia"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian: World Cup playoffs – Arda Güler helps Turkey edge Romania",
+      "url": "https://www.theguardian.com/football/2026/mar/26/world-cup-playoffs-turkey"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports: Turkey vs Paraguay Form & H2H Stats",
+      "url": "https://www.skysports.com/football/turkey-vs-paraguay/549796"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports: Australia vs Turkey Form & H2H Stats (WC2026 Matchday 1)",
+      "url": "https://www.skysports.com/football/australia-vs-turkey/549773"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News: Australia vs Turkey World Cup 2026 Result/Highlights",
+      "url": "https://www.sportingnews.com/au/football/news/australia-vs-turkey-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News: World Cup 2026 Injuries & Doubts Player Status",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-injuries-players"
+    },
+    {
+      "type": "media",
+      "name": "SportsMole: World Cup 2026 全球傷停名單 (更新版)",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup/feature/world-cup-injury-list-absent-players-and-doubts_597036.html"
+    },
+    {
+      "type": "media",
+      "name": "Infobae: Montella 確認 Kerem Aktürkoğlu 可出戰世界盃",
+      "url": "https://www.infobae.com/espana/agencias/2026/05/29/montella-preve-disponer-de-kerem-akturkoglu-en-el-mundial-pese-a-su-lesion/"
+    },
+    {
+      "type": "media",
+      "name": "Türkiye Gazetesi: Kerem Aktürkoğlu 傷後首次發言",
+      "url": "https://www.turkiyegazetesi.com.tr/spor/dunya-kupasinda-oynayabilecek-mi-kerem-akturkoglundan-sakatlik-sonrasi-ilk-aciklama-1792837"
+    },
+    {
+      "type": "media",
+      "name": "Daily Sabah: Türkiye 憂慮 Çalhanoğlu & Güler 健康狀況",
+      "url": "https://www.dailysabah.com/sports/football/turkiye-fret-over-calhanoglu-guler-fitness"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport: Arda Güler – Turkey World Cup 2026 Squad",
+      "url": "https://www.bbc.com/sport/football/articles/c202w4ew633o"
+    },
+    {
+      "type": "media",
+      "name": "The Independent: Arda Güler – Turkey's key man WC2026",
+      "url": "https://www.independent.co.uk/sport/football/arda-guler-turkey-real-madrid-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Yeni Şafak: Arda Güler Player Profile & Career News",
+      "url": "https://en.yenisafak.com/sports/football/player/arda-guler-258770"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com: Kenan Yildiz calf injury Turkey World Cup 2026",
+      "url": "https://www.goal.com/en-us/lists/kenan-yildiz-is-out-with-an-injury-turkey-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire: Kerem Aktürkoğlu 傷情追蹤（GTD/膝傷）",
+      "url": "https://googlenews.rotowire.com/soccer/player/kerem-akturkoglu-34750"
+    },
+    {
+      "type": "media",
+      "name": "Injuries & Suspensions: FIFA World Cup 2026 全更新",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com: World Cup Injuries 2026 Player Status Updates",
+      "url": "https://www.covers.com/world-cup/injury-report-2026"
+    },
+    {
+      "type": "media",
+      "name": "Australia stuns Türkiye - Mundo Deportivo",
+      "url": "https://www.mundodeportivo.com/en/20260614/1004194860/australia-stuns-turkey-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Economic Times: Australia wins vs Turkey WC2026 match report",
+      "url": "https://economictimes.indiatimes.com/news/sports/soccer-australia-wins-turkey-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Baku.ws: Turkey lost to Australia – first match WC2026",
+      "url": "https://baku.ws/en/sport/fifa-world-cup-2026-turkey-lost-to-australia"
+    },
+    {
+      "type": "media",
+      "name": "Real Madrid: Arda Güler World Cup 2026 news & assists",
+      "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/"
+    },
+    {
+      "type": "media",
+      "name": "SportBusy: Arda Güler Turkey 2026 WC Stats & Profile",
+      "url": "https://www.sportbusy.com/world-cup-2026/teams/turkey/players/arda-guler"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia: Arda Güler Player Profile",
+      "url": "https://en.wikipedia.org/wiki/Arda_G%C3%BCler"
+    },
+    {
+      "type": "betting",
+      "name": "WorldCup-Odds.com: Turkey v Paraguay 完整賠率表（最新）",
+      "url": "https://worldcup-odds.com/2026/fixtures/turkey-v-paraguay.htm"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM: Turkey vs Paraguay Prediction & Match Preview WC2026",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/turkey-vs-paraguay-prediction-odds-preview-world-cup-june-19-bm16/"
+    },
+    {
+      "type": "betting",
+      "name": "BetUS: Türkiye vs Paraguay 2026 World Cup 完整盤口",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/turkiye-vs-paraguay/"
+    },
+    {
+      "type": "betting",
+      "name": "WorldCup26usa.com: Paraguay vs Türkiye 賠率（Group D MD3）",
+      "url": "https://worldcup26usa.com/en/matches/group-d-md3-m2"
+    },
+    {
+      "type": "betting",
+      "name": "vSIN: Türkiye -105 | Draw +240 | Paraguay +320 盤口",
+      "url": "https://vsin.com/soccer/turkiye-vs-paraguay-prediction-2026-fifa-world-cup-preview-and-pick/"
+    },
+    {
+      "type": "betting",
+      "name": "Parimatch World Cup 2026 Turkey Paraguay welcome bonus odds",
+      "url": "https://www.parimatch.com/en/sport/football/world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle: Paraguay vs Turkey AI Model 預測（Turkey 48%, Draw 17%, Paraguay 35%）",
+      "url": "https://kickoracle.com/en/compare/paraguay-vs-turkey"
+    },
+    {
+      "type": "model",
+      "name": "The Soccer World Cups: Turkey vs Paraguay H2H World Cup History",
+      "url": "https://www.thesoccerworldcups.com/head_to_head/turkey_vs_paraguay.php"
+    },
+    {
+      "type": "model",
+      "name": "11v11.com: Paraguay vs Turkey 歷史交鋒紀錄",
+      "url": "https://www.11v11.com/teams/paraguay/tab/opposingTeams/opposition/Turkey/"
+    },
+    {
+      "type": "model",
+      "name": "SofaScore: Turkey vs Paraguay 2026 World Cup Match Stats",
+      "url": "https://www.sofascore.com/turkey-paraguay/GdbuNdb"
+    },
+    {
+      "type": "model",
+      "name": "FBRef: Turkey 2026 World Cup Player Stats",
+      "url": "https://fbref.com/en/squads/turkey-world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "WhoScored: Turkey World Cup 2026 Form & Ratings",
+      "url": "https://www.whoscored.com/Teams/85/Show/Turkey"
+    },
+    {
+      "type": "model",
+      "name": "Transfermarkt: Turkey vs Paraguay 2026 陣容市值比較",
+      "url": "https://www.transfermarkt.com/turkish-national-team/startseite/verein/3881"
+    },
+    {
+      "type": "model",
+      "name": "FotMob: Turkey 2026 World Cup Stats",
+      "url": "https://www.fotmob.com/leagues/77/teams/1835/turkey"
+    },
+    {
+      "type": "forum",
+      "name": "TigerDroppings: World Cup 2026 Group D 深度討論串",
+      "url": "https://www.tigerdroppings.com/rant/soccer/world-cup-2026-group-d-usa-turkey-australia-paraguay-discussion/123914358/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer: Turkey Paraguay 2026 World Cup Match Thread",
+      "url": "https://www.reddit.com/r/soccer/comments/wc2026_turkey_paraguay"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup: Group D Discussion Thread – Turkey/Paraguay",
+      "url": "https://www.reddit.com/r/worldcup/comments/group_d_turkey_paraguay_2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/PremierLeague: Çalhanoğlu World Cup performance discussion",
+      "url": "https://www.reddit.com/r/PremierLeague/comments/calhanoglu_world_cup"
+    },
+    {
+      "type": "social",
+      "name": "Facebook – Turkey defeat in World Cup opener (ASEAN Football)",
+      "url": "https://www.facebook.com/asean.footbal/posts/-turkey-suffer-defeat-in-world-cup-opener"
+    },
+    {
+      "type": "social",
+      "name": "Facebook – Türkiye 2026 World Cup opener (Türkiye Today)",
+      "url": "https://www.facebook.com/turkiyetodaycom/posts/turkiye-world-cup-2026-opener"
+    },
+    {
+      "type": "social",
+      "name": "Facebook – Paraguay prepare for World Cup (CGTN Sports)",
+      "url": "https://www.facebook.com/CGTNSportsScene/videos/paraguay-prepare-for-world-cup-2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Turkey's 2026 World Cup Squad Is SCARY! Full Player Analysis",
+      "url": "https://www.youtube.com/watch?v=Pdl24bI7I9Y"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 2026 FIFA World Cup Turkey vs Paraguay Preview",
+      "url": "https://www.youtube.com/watch?v=aBPFdjz1qDk"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: USA vs Australia & Turkey vs Paraguay Group D Matchday 2 Preview",
+      "url": "https://www.youtube.com/watch?v=vjb6oG9j8u4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Turkey vs Paraguay H2H ARCHIVE World Cup 2026 Ep.22",
+      "url": "https://www.youtube.com/watch?v=q8ESmNu3Xsw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Paraguay vs Türkiye AI Tactical Analysis & Prediction 2026",
+      "url": "https://www.youtube.com/watch?v=xPw1XKCceto"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 2026 WC Group D Preview USA Turkey Australia Paraguay Analysis",
+      "url": "https://www.youtube.com/watch?v=-oq8jbix_gE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: FIFA World Cup 2026 Group D Explained",
+      "url": "https://www.youtube.com/watch?v=aAnPGQ09040"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: USA vs Australia Turkey vs Paraguay Group D Previews",
+      "url": "https://www.youtube.com/watch?v=OxfDOZSG5Yo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Türkiye vs Paraguay eFootball PES Prediction 2026",
+      "url": "https://www.youtube.com/watch?v=FBxediUMH6w"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: AKTÜRKOĞLU-SCHOCK in Riva! Arda Güler zurück – Türkei WM-Update",
+      "url": "https://www.youtube.com/watch?v=VhfkZTWGmYg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: SCHOCK-DIAGNOSE Türkei Superstars verpassen WM?",
+      "url": "https://www.youtube.com/watch?v=lSmjPj4y_gA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 2026 WC Group Stage D Preview (USA Paraguay Australia Türkiye)",
+      "url": "https://www.youtube.com/watch?v=ecDVEXVLwoY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 2026 FIFA World Cup Paraguay Players Short Version",
+      "url": "https://www.youtube.com/watch?v=ghIMnxRwafs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 2026 FIFA World Cup Turkey Players Short Version Part 1",
+      "url": "https://www.youtube.com/watch?v=NtHtYR10ltE"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.48,
+      "draw": 0.25,
+      "away": 0.27
+    },
+    "confidence": 0.42,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.48,
+        "basis": "KickOracle AI模型（綜合FIFA排名、陣容化學值、近況、士氣）：土耳其勝48% | 平局17% | 巴拉圭勝35%主要指標差距：土耳其FIFA排名26（vs巴拉圭52），陣容化學值72（vs 66），士氣評分79（vs 70）SportsMole預測：土耳其勝（「We say: Turkey 2」，建議Turkey勝，但下半場補時進球得分）TheSportsRush：推薦 Turkey"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.47,
+        "basis": "主要盤口綜合（2026-06-17/18截取）：土耳其勝：約2.00–2.10（隱含勝率約47–50%）平局：約3.25–3.40（隱含29–31%）巴拉圭勝：約3.60–4.00（隱含25–28%）BetUS美線：土耳其 Even（隱含50%）；巴拉圭 +290（隱含26%）；平局 +235（隱含30%）vSIN美線：土耳其 -105；平局 +240；巴拉圭 +320大/小球：2.5球 Unde"
+      },
+      {
+        "name": "反方情境（巴拉圭偷分）",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.25,
+        "basis": "主要異見：①BetMGM分析師認為土耳其進攻效率疑問大（1.4xG/30射），且巴拉圭多一天休息加地利，推薦「巴拉圭首半場Over 0.5」；②vSIN指出土耳其首戰後旅途負擔（亞利桑那→舊金山），而巴拉圭在灣區基地備戰更充裕；③部分Reddit/論壇用戶對土耳其首戰表現存疑，認為巴拉圭防守若恢復正常亦可奪1分；④世界盃大賽壓力下（近13場4勝），土耳其大賽表現成疑，可能再次不能兌現。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.4712,
+          "draw": 0.2788,
+          "away": 0.25
+        },
+        "scoreline": "1:0",
+        "note": "主要盤口綜合（2026-06-17/18截取）：土耳其勝：約2.00–2.10（隱含勝率約47–50%）平局：約3.25–3.40（隱含29–31%）巴拉圭勝：約3.60–4.00（隱含25–28%）BetUS美線：土耳其 Even（隱含50%）；巴拉圭 +290（隱含26%）；平局 +235（隱含30%）vSIN美線：土耳其 -105；平局 +240；巴拉圭 +320大/小球：2.5球 Under -135（偏向低分），Over +110讓球：土耳其 -0.5 盤（意即土耳其須贏球才算讓球勝）BetMGM推薦：巴拉圭上半場 Over 0.5 (+160"
+      },
+      {
+        "source": "KickOracle AI／數據模型綜合",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.48,
+          "draw": 0.17,
+          "away": 0.35
+        },
+        "note": "KickOracle AI模型（綜合FIFA排名、陣容化學值、近況、士氣）：土耳其勝48% | 平局17% | 巴拉圭勝35%主要指標差距：土耳其FIFA排名26（vs巴拉圭52），陣容化學值72（vs 66），士氣評分79（vs 70）SportsMole預測：土耳其勝（「We say: Turkey 2」，建議Turkey勝，但下半場補時進球得分）TheSportsRush：推薦 Turkey to Win at +105（value bet）TotalFootballAnalysis：土耳其 1/1 推薦，認為其資格賽佳績與巴拉圭4-1慘敗令土耳其"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "土耳其名義主場迎戰巴拉圭，兩隊首戰皆敗、勢必爭勝。KickOracle AI模型（綜合FIFA排名、陣容化學值、近況、士氣）：土耳其勝48% | 平局17% | 巴拉圭勝35%主要指標差距：土耳其FIFA排名26（vs巴拉圭52），陣容化學值72（vs 66），士氣評分 主要盤口綜合（2026-06-17/18截取）：土耳其勝：約2.00–2.10（隱含勝率約47–50%）平局：約3.25–3.40（隱含29–31%）巴拉圭勝：約3.60–4.00（隱含25–28%）BetUS美線：土耳 AI 主預測 1:0（土耳其小勝），信心 0.42。",
+    "key_factors": [
+      "球員狀態：土耳其居勒爾/恰爾漢奧盧/卡迪奧盧均預計先發；伊爾迪茲小腿傷大概率先發但需觀察；阿克圖科魯首戰遭高大後衛壓制，德尼茲·古爾（6尺3）可能取代先發；巴拉圭恩西索完全康復，阿爾米龍領銜；卡瓦列羅/索薩傷疑",
+      "傷停名單：土耳其：伊爾迪茲（小腿，勉強先發），阿克圖科魯（膝，輕微管理）；巴拉圭：卡瓦列羅（肌肉傷疑），索薩（足踝疑），波瓦迪利亞（首戰表現差可能換人），兩隊均無確定性長期缺陣",
+      "近期狀態：土耳其：近6場聯賽+友賽4勝1平1負，但大賽近13場僅4勝；巴拉圭：首戰0-4半場（4-1終）對東道主美國，防守嚴重失誤，但資格賽曾擊敗巴西和阿根廷",
+      "戰術對位：土耳其4-2-3-1攻勢控球（首戰30射）對巴拉圭4-4-2組織防守；巴拉圭依賴阿爾米龍反擊和定位球；土耳其若能提升轉換效率，質量優勢應可兌現；巴拉圭需防止過早失球（首戰第7分鐘烏龍球）",
+      "主客場：土耳其為名義主隊（1X2盤口），賽地Levi's Stadium聖克拉拉；巴拉圭首戰後返回舊金山基地，比土耳其（從亞利桑那梅薩出發）少跋涉，多一天休息，地理略佔優",
+      "輿論共識：多家媒體（SportsMole、TFA、TheSportsRush、Esports-News）均推薦土耳其勝；BetMGM/vSIN另有巴拉圭首半場進球特別投注；KickOracle AI預測土耳其48勝17平35負；盤口Turkey約50%隱含勝率；唯一重要異見為BetMGM看好巴拉圭早段進球機會（+160）"
+    ],
+    "consensus_lean": "home",
+    "dissent": "主要異見：①BetMGM分析師認為土耳其進攻效率疑問大（1.4xG/30射），且巴拉圭多一天休息加地利，推薦「巴拉圭首半場Over 0.5」；②vSIN指出土耳其首戰後旅途負擔（亞利桑那→舊金山），而巴拉圭在灣區基地備戰更充裕；③部分Reddit/論壇用戶對土耳其首戰表現存疑，認為巴拉圭防守若恢復正常亦可奪1分；④世界盃大賽壓力下（近13場4勝），土耳其大賽表現成疑，可能再次不能兌現。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.3,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "土耳其主場氣氛佳，整體實力略勝巴拉圭一籌。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "土耳其新星閃耀攻堅力強，巴拉圭防線老化難阻主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.28,
+        "away": 0.24
+      },
+      "scoreline": "1:0",
+      "note": "土耳其主場優勢明顯，可望小勝實力稍有下滑的巴拉圭。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.37,
+        "draw": 0.36,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "土耳其控球優勢但效率一般，巴拉圭防反搶分成和局"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "土耳其前場天賦較佳，有望突破巴拉圭的鐵血防線取得險勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "土耳其主場優勢明顯，預計小勝巴拉圭。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.42,
+        "draw": 0.33,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "土耳其實力略優，巴拉圭防守頑強但進攻不足。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.473,
+      "draw": 0.286,
+      "away": 0.241
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-18T091458Z"
+}
