@@ -1,0 +1,597 @@
+{
+  "match": 29,
+  "stage": "Group D",
+  "home": "USA",
+  "away": "Australia",
+  "kickoff_utc": "2026-06-19T19:00:00Z",
+  "kickoff_hkt": "2026-06-20 03:00",
+  "run_id": "2026-06-18T0055Z",
+  "run_timestamp": "2026-06-18T00:55:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.58,
+      "draw": 0.22,
+      "away": 0.2
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "Dimers進階AI模型（最新模擬）：美國勝55.4%、平局24.3%、澳洲勝20.3%；2.5球Under機率52.7%；美國零封機率32.9%；澳洲零封機率11.2%；Double Chance（美國或平局）79.7%。Opta超級電腦"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "以FanDuel賠率（最新）：美國-170（隱含機率約63%），澳洲+420（19%），平局+340（23%）；過/不過2.5球賠率-105/-130；SuperBook更新至美國-170/澳洲+440/平局+335。開盤美國-135/澳洲"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.42,
+        "basis": "少數異見：BigSoccer部分論壇用戶認為澳洲戰術紀律可複製其對土耳其的表現，在西雅圖扯平甚至爆冷；澳洲球迷圈（r/australia）對Irankunda形式樂觀；CBS分析師被稱輕敵的「lay-up說」已遭澳洲球員正面挑戰。Total"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.6,
+          "draw": 0.219,
+          "away": 0.181
+        },
+        "scoreline": "2:1",
+        "note": "以FanDuel賠率（最新）：美國-170（隱含機率約63%），澳洲+420（19%），平局+340（23%）；過/不過2.5球賠率-105/-130；SuperBook更新至美國-170/澳洲+44"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.554,
+          "draw": 0.243,
+          "away": 0.203
+        },
+        "note": "Dimers進階AI模型（最新模擬）：美國勝55.4%、平局24.3%、澳洲勝20.3%；2.5球Under機率52.7%；美國零封機率32.9%；澳洲零封機率11.2%；Double Chance（"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "美國主場迎戰澳洲（Group D）。Dimers進階AI模型（最新模擬）：美國勝55.4%、平局24.3%、澳洲勝20.3%；2.5球Under機率52.7%；美國零封機率32.9%；澳洲零封機率11.2%；Double Chance（。以FanDuel賠率（最新）：美國-170（隱含機率約63%），澳洲+420（19%），平局+340（23%）；過/不過2.5球賠率-105/-130；SuperBook更新至美國。AI 主預測 2:1（美國勝），信心 0.62。",
+    "key_factors": [
+      "球員狀態：Pulisic小腿傷勢「每日評估」，教練及隊友保持樂觀，預計可出賽但全場效率存疑；Balogun首場兩球狀態絕佳；澳洲Irankunda（20歲）首場一球驚艷。",
+      "傷停名單：美國Patrick Agyemang（跟腱）缺陣；澳洲Riley McGree（腿後肌撕裂）、Nick D'Agostino（腿傷）確認退出世界盃。",
+      "近期狀態：美國首場4-1大勝巴拉圭，氣勢如虹；澳洲首場2-0勝土耳其，組織防守出色，反擊致命。兩隊均以3分並列D組榜首。",
+      "戰術對位：美國3-2-5攻勢與澳洲4-2-3-1低位防守反擊之對決；澳洲定點球威脅（33%進球來自死球）是美國后防主要隱患；美國高位逼搶壓制澳洲建攻為勝負關鍵。",
+      "主客場：西雅圖Lumen Field滿場美國球迷，主場優勢顯著；美國FIFA排名第17（澳洲第27），在北美本土作賽心理優勢極大；2025年10月熱身賽美國2-1勝澳洲。",
+      "輿論共識：博彩/模型/評論員高度一致傾向美國主場勝，美國隱含賠率約60-63%；澳洲約20%；Dimers模型美國勝55.4%；Opta美國晉級機率77%；唯澳洲防守組織強悍及反擊威脅令部分分析師保留謹慎態度。"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數異見：BigSoccer部分論壇用戶認為澳洲戰術紀律可複製其對土耳其的表現，在西雅圖扯平甚至爆冷；澳洲球迷圈（r/australia）對Irankunda形式樂觀；CBS分析師被稱輕敵的「lay-up說」已遭澳洲球員正面挑戰。Total Football Analysis指美國3月友誼賽失7球（對比利時、葡萄牙），防守脆弱性仍在；Topendsports則注意到BTTS No為最佳賭注，顯示澳洲進攻創造力不足，反令比分可能偏低。Opta認為D組為「無Top 50以外球隊的均質組」，實力差距未如表面懸殊。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN 2026世界盃傷停追蹤器",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "official",
+      "name": "Socceroos官網 澳洲隊陣容更新",
+      "url": "https://socceroos.com.au/news/commbank-socceroos-squad-update-0"
+    },
+    {
+      "type": "official",
+      "name": "US Soccer 官方球員資料 Folarin Balogun",
+      "url": "https://www.ussoccer.com/players/b/folarin-balogun"
+    },
+    {
+      "type": "official",
+      "name": "FIFA 官方美國隊FIFA排名頁",
+      "url": "https://inside.fifa.com/fifa-world-ranking/USA?gender=men"
+    },
+    {
+      "type": "official",
+      "name": "FIFA 官方澳洲隊FIFA排名頁",
+      "url": "https://inside.fifa.com/fifa-world-ranking/AUS"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia 2026世界盃D組",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia 澳洲2026世界盃陣容",
+      "url": "https://en.wikipedia.org/wiki/Template:Australia_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "official",
+      "name": "Socceroos Connor Metcalfe新聞發布會",
+      "url": "https://socceroos.com.au/video/connor-metcalfe-iconic-fifa-world-cup-goal-turkiye-win-usa-focus-press-conference"
+    },
+    {
+      "type": "media",
+      "name": "ESPN USA 4-1 巴拉圭 比賽報告",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760417"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 澳洲2-0土耳其 比賽報告",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760421"
+    },
+    {
+      "type": "media",
+      "name": "ESPN USA世界盃 賽程/結果/傷停總覽",
+      "url": "https://www.espn.com/soccer/story/_/id/48940468/usa-world-cup-2026-schedule-fixtures-results-scores-group-d-how-watch-news-analysis-injuries"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Socceroos世界盃每日報導",
+      "url": "https://www.espn.com/soccer/story/_/id/48811876/socceroos-world-cup-daily-news-updates-all-need-know"
+    },
+    {
+      "type": "media",
+      "name": "ESPN USMNT晉級情境/賠率",
+      "url": "https://www.espn.com/soccer/story/_/id/48953200/usmnt-usa-world-cup-scenarios-bracket-permutations-qualify-betting-odds-projections-predictions"
+    },
+    {
+      "type": "media",
+      "name": "ESPN USA vs Australia 盤口頁面",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760442"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Gio Reyna世界盃美夢",
+      "url": "https://www.espn.com/espn/story/_/id/49046863/2026-fifa-world-cup-american-dream-gio-reyna-us-dreaming-again"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Pulisic狀態分析",
+      "url": "https://www.espn.com/soccer/story/_/id/47267474/christian-pulisic-form-fitness-ac-milan-make-undroppable-usmnt-2026-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Guardian Pulisic傷勢報告",
+      "url": "https://www.theguardian.com/football/2026/jun/15/christian-pulisic-injury-world-cup-usmnt"
+    },
+    {
+      "type": "media",
+      "name": "Guardian USMNT 26人名單確認",
+      "url": "https://www.theguardian.com/football/2026/may/26/usmnt-world-cup-roster-2026"
+    },
+    {
+      "type": "media",
+      "name": "Guardian 世界盃2026各家記者預測",
+      "url": "https://www.theguardian.com/football/2026/jun/10/world-cup-2026-guardian-writers-predictions-for-the-tournament"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Pulisic傷勢每日更新",
+      "url": "https://sports.yahoo.com/articles/christian-pulisic-injury-updates-umsnt-202610989.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Pulisic小腿傷勢詳情",
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-christian-pulisic-limited-in-training-as-usmnt-star-manages-calf-injury-192553595.html"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports 美澳比賽預測",
+      "url": "https://ca.sports.yahoo.com/news/united-states-vs-australia-prediction-080500520.html"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports USMNT名單分析",
+      "url": "https://www.cbssports.com/soccer/news/full-usmnt-world-cup-roster-2026/"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports 美澳賠率/預測",
+      "url": "https://www.cbssports.com/soccer/news/usmnt-australia-odds-prediction-time-2026-world-cup-picks/"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports USMNT名單分析",
+      "url": "https://www.nbcsports.com/soccer/news/usmnt-roster-for-2026-world-cup-how-will-yanks-line-up-and-whos-missing-from-the-squad"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports 美國4-1巴拉圭報導",
+      "url": "https://www.skysports.com/football/news/17251/13552628/world-cup-2026-usa-4-1-paraguay-folarin-balogun-at-double-as-mauricio-pochettinos-hosts-deliver-statement-victory"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 澳洲2-0土耳其報導",
+      "url": "https://www.aljazeera.com/sports/2026/6/14/2026-world-cup-australia-stun-turkiye-2-0-in-counterattacking-masterclass"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 美國世界盃陣容",
+      "url": "https://www.sportingnews.com/us/soccer/news/usmnt-roster-2026-squad-players-usmnt/2447be8706732f3e3968d32d"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 澳洲世界盃陣容",
+      "url": "https://www.sportingnews.com/uk/football/news/australia-world-cup-roster-2026-socceroos-squad-players/43d34f3aa70f8c371a8b3437"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News Pochettino戰術風格分析",
+      "url": "https://www.sportingnews.com/us/soccer/news/mauricio-pochettino-usmnt-tactics-style-2026-world-cup-plan/4c9bba219347151e09ae90df"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports USMNT 26人名單介紹",
+      "url": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-roster-2026-pulisic-mckennie-weah-adams"
+    },
+    {
+      "type": "media",
+      "name": "NPR USMNT 26人名單",
+      "url": "https://www.npr.org/2026/06/12/nx-s1-5855763/2026-world-cup-usmnt-players-roster"
+    },
+    {
+      "type": "media",
+      "name": "ABC Australia Irankunda世界盃首球",
+      "url": "https://www.abc.net.au/news/2026-06-15/south-australia-world-cup-goal-nestory-irankunda/106798640"
+    },
+    {
+      "type": "media",
+      "name": "ABC Australia 美國警告澳洲",
+      "url": "https://www.abc.net.au/news/2026-06-17/world-cup-2026-america-sends-ominous-warning-to-socceroos/106806614"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com 美澳比賽預覽",
+      "url": "https://www.goal.com/en-us/news/usa-australia-world-cup-preview/blt5390354708818a6c"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com USMNT澳洲口水戰",
+      "url": "https://www.goal.com/en-us/lists/usmnt-australia-world-cup-war-of-words/blt089b9c4a0e01ae52"
+    },
+    {
+      "type": "media",
+      "name": "MLSSoccer.com D組預覽",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-d-preview-usa-australia-paraguay-turkey"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole 美澳歷史交鋒",
+      "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/head-to-head/usa-vs-australia-head-to-head-record-and-past-meetings_599461.html"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport Chris Sutton 世界盃預測",
+      "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o"
+    },
+    {
+      "type": "media",
+      "name": "US News Pulisic傷勢更新",
+      "url": "https://www.usnews.com/news/sports/articles/2026-06-16/us-forward-christian-pulisic-practices-on-his-own-in-calf-injury-rehab-team-says-he-is-day-to-day"
+    },
+    {
+      "type": "media",
+      "name": "Ubyssey 澳洲2-0土耳其賽後分析",
+      "url": "https://ubyssey.ca/sports/world-cup-2026-australia-turkey-recap-06-16-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Dimers AI模型預測（美勝55.4%）",
+      "url": "https://www.dimers.com/news/australia-vs-united-states-final-prediction-group-d-world-cup-2026-ac"
+    },
+    {
+      "type": "model",
+      "name": "Opta超級電腦 D組評級",
+      "url": "https://theanalyst.com/articles/world-cup-groups-2026-easiest-hardest-opta-power-rankings"
+    },
+    {
+      "type": "model",
+      "name": "Opta USA晉級機率77%、D組冠軍32.4%",
+      "url": "https://heavy.com/sports/soccer/world-cup/world-cup-group-d-usa-prediction/"
+    },
+    {
+      "type": "model",
+      "name": "Footlab 澳洲數據分析",
+      "url": "https://footlab-data.com/en/world-cup/equipe/australia"
+    },
+    {
+      "type": "model",
+      "name": "MindCast AI 美澳認知模擬",
+      "url": "https://www.mindcast-ai.com/p/2026-world-cup-us-australia"
+    },
+    {
+      "type": "model",
+      "name": "Total Football Analysis 美澳預測",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/united-states-v-australia-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "VegasInsider 美澳賠率走勢",
+      "url": "https://www.vegasinsider.com/soccer/usa-australia-odds-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine Martin Green 專業分析師預測",
+      "url": "https://www.sportsline.com/insiders/usmnt-vs-australia-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "888sport 美澳博彩賠率",
+      "url": "https://www.888sport.com/football/international/world-cup-2026/usa-vs-australia-e-7685379/"
+    },
+    {
+      "type": "betting",
+      "name": "Topendsports 美澳預測與賠率",
+      "url": "https://www.topendsports.com/en-us/sports-betting/soccer/world-cup/predictions/usa-vs-australia/"
+    },
+    {
+      "type": "betting",
+      "name": "agamble.com Polymarket預測市場D組賠率",
+      "url": "https://agamble.com/predictions/usa-lead-the-early-forecast-in-world-cup-group-d-odds/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup D組預覽討論",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u2blza/north_america_world_cup_2026_group_d_preview_usa/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/australia Socceroos勝算討論",
+      "url": "https://www.reddit.com/r/australia/comments/1u2wzy1/what_are_the_socceroos_chances_this_world_cup/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/sportsbook D組賠率討論",
+      "url": "https://www.reddit.com/r/sportsbook/comments/1pf58hd/world_cup_groups_betting_predictions_discussion/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer 2026世界盃小組賽預測討論",
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/"
+    },
+    {
+      "type": "kol",
+      "name": "Alexi Lalas + Colin Cowherd YouTube: 美國世界盃反應與預測",
+      "url": "https://www.youtube.com/watch?v=IL50No74bts"
+    },
+    {
+      "type": "kol",
+      "name": "Backheeled 戰術博客 Pochettino USMNT陣型分析",
+      "url": "https://www.backheeled.com/pochettino-usmnt-tactics-2026-world-cup-formation-analysis-shape/"
+    },
+    {
+      "type": "kol",
+      "name": "wcausoccer.com Socceroos世界盃完整分析",
+      "url": "https://wcausoccer.com/socceroos-world-cup-2026/"
+    },
+    {
+      "type": "kol",
+      "name": "Fanorate 澳洲Popovic D組指南",
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/australia-wc2026-guide/"
+    },
+    {
+      "type": "kol",
+      "name": "KC Soccer Journal USMNT名單追蹤",
+      "url": "https://kcsoccerjournal.com/05/20/2026/the-last-push-usmnt-tracker-fifa-world-cup-2026/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: USMNT vs Australia World Cup 2026 Match PREVIEW",
+      "url": "https://www.youtube.com/watch?v=rf_Wv_JubJY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: USMNT v Australia preview FIFA World Cup 2026（官方）",
+      "url": "https://www.youtube.com/watch?v=g9toTM7BGuQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: USMNT vs Australia Full Scouting Report（Tom Bogert/Tab Ramos）",
+      "url": "https://www.youtube.com/watch?v=7QHQwqLL708"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Gio Reyna精彩進球（各角度）",
+      "url": "https://www.youtube.com/watch?v=Kotap43KNaE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 澳洲2-0土耳其精華",
+      "url": "https://www.youtube.com/watch?v=5eqzEDe8wHs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: How Pochettino Turned USA Into a TACTICAL MONSTER",
+      "url": "https://www.youtube.com/watch?v=gflLqG25XSs"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Tony Popovic Socceroos獨家專訪",
+      "url": "https://www.youtube.com/watch?v=WFKxNy5xqMY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Harry Souttar 世界盃直播",
+      "url": "https://www.youtube.com/watch?v=tpLO1sPCkxA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Connor Metcalfe 進球慶祝訪問",
+      "url": "https://www.youtube.com/watch?v=Nn299fC9l0Y"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: Connor Metcalfe 進球精彩",
+      "url": "https://www.youtube.com/watch?v=rS_gr3tXChc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: 2026 FIFA World Cup USA vs Australia Preview（Breaking Down）",
+      "url": "https://www.youtube.com/watch?v=aKrV-z-4n-8"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube: USMNT A Super USA clashes with tricky Australia（Full Preview）",
+      "url": "https://www.youtube.com/watch?v=cHvoMy25GXc"
+    },
+    {
+      "type": "social",
+      "name": "ESPN AusNZ Facebook：Riley McGree因傷退出世界盃",
+      "url": "https://www.facebook.com/ESPNAusNZ/posts/australia-has-been-dealt-a-major-blow-as-attacker-riley-mcgree-has-been-ruled-ou/1589706249178628/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram ESPN：兩名Socceroos隊員受傷",
+      "url": "https://www.instagram.com/p/DYs1aPMFrqX/"
+    },
+    {
+      "type": "media",
+      "name": "worldcupdigest.com Opta全部資格球隊數據",
+      "url": "https://worldcupdigest.com/world-cup-2026-draw-pots-stats-and-facts-on-every-qualified-team-opta-analyst/"
+    },
+    {
+      "type": "media",
+      "name": "FoxSports 2026世界盃晉級機率",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-teams-favored-advance-knockout-stage"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 2026世界盃Stats：Richards/Balogun數據",
+      "url": "https://www.espn.co.uk/football/story/_/id/49045099/fifa-world-cup-2026-stats-chris-richards-perfect-83-cyle-larin-121-folarin-balogun-first-96-years"
+    }
+  ],
+  "source_count": 78,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "美國主場優勢明顯，澳洲進攻火力有限。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:0",
+      "note": "美國具主場優勢且旅歐球星多，澳洲防線恐難抵擋其快攻。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "美國坐擁地主優勢，攻守體系成熟，可望在球迷助威下擊退體能勁旅澳洲。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.28,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "美國主場優勢與攻擊火力更佳，小勝澳洲。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "美國擁有強大主場優勢與陣容深度，預計能擊退球風強硬的澳洲。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "美國主場優勢明顯，預計小勝澳洲。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "美國主場之利，陣容年輕有活力，擊敗澳洲。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.559,
+      "draw": 0.243,
+      "away": 0.198
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-18T011918Z"
+}

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-17T09:32:27Z",
+  "last_updated": "2026-06-18T01:20:47Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1585,6 +1585,33 @@
       "sources": []
     },
     {
+      "id": "CRO-musa",
+      "name_en": "Petar Musa",
+      "name_zh": "穆薩",
+      "team": "Croatia",
+      "team_zh": "克羅地亞",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          22
+        ]
+      },
+      "sources": [
+        "Sky Sports",
+        "NBC Sports",
+        "England Football",
+        "The Guardian"
+      ]
+    },
+    {
       "id": "CRO-kovacic",
       "name_en": "Mateo Kovačić",
       "name_zh": "高華錫治",
@@ -1623,6 +1650,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "CRO-baturina",
+      "name_en": "Martin Baturina",
+      "name_zh": "巴圖里納",
+      "team": "Croatia",
+      "team_zh": "克羅地亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          22
+        ]
+      },
+      "sources": [
+        "Sky Sports",
+        "NBC Sports",
+        "England Football",
+        "The Guardian"
+      ]
     },
     {
       "id": "CRO-gvardiol",
@@ -1970,12 +2024,19 @@
       "is_key": true,
       "bio_zh": "效力紐卡素的快速前鋒，在英超賽事中表現出色，進球能力強。憑藉速度與靈巧的腳法，是剛果民主共和國進攻線上最具威脅的球員，本屆有望在世界舞台上一鳴驚人。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          21
+        ]
       },
-      "sources": []
+      "sources": [
+        "ESPN",
+        "Sky Sports",
+        "The Guardian",
+        "Sofascore"
+      ]
     },
     {
       "id": "COD-wanbissaka",
@@ -2011,11 +2072,18 @@
       "bio_zh": "剛果民主共和國隊長，效力法甲里爾，出場逾109次是球隊最具威望的後衛。防守領導力強、作風硬朗，帶領剛果民主共和國首次征戰世界盃決賽圈，意義非凡。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          21
+        ]
       },
-      "sources": []
+      "sources": [
+        "ESPN",
+        "Sky Sports",
+        "The Guardian",
+        "Sofascore"
+      ]
     },
     {
       "id": "COD-mpasi",
@@ -2394,12 +2462,19 @@
       "is_key": true,
       "bio_zh": "英格蘭隊長及歷史最高進球球員，進球逾79球，效力拜仁慕尼黑在德甲繼續高效射門。本屆是其職業生涯贏取第一個重要錦標的最後機會，責任重大，備受全球關注。",
       "stats": {
-        "goals": 0,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          22
+        ]
       },
-      "sources": []
+      "sources": [
+        "Sky Sports",
+        "NBC Sports",
+        "England Football",
+        "The Guardian"
+      ]
     },
     {
       "id": "ENG-rashford",
@@ -2414,12 +2489,19 @@
       "is_key": true,
       "bio_zh": "效力巴塞隆拿的英格蘭前鋒，速度快、突破直接，在近年世界盃決賽圈屢有貢獻。加盟巴薩後重燃鬥志，本屆以全新姿態出戰，有望成為英格蘭進攻的重要利器。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          22
+        ]
       },
-      "sources": []
+      "sources": [
+        "Sky Sports",
+        "NBC Sports",
+        "England Football",
+        "The Guardian"
+      ]
     },
     {
       "id": "ENG-rice",
@@ -2454,12 +2536,19 @@
       "is_key": true,
       "bio_zh": "效力皇家馬德里的英格蘭最耀眼中場天才，進攻能力強、大賽表現出眾，是球隊最具票房號召力的球員。本屆年僅23歲卻已身經百戰，有望成為英格蘭奪冠的最大功臣。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          22
+        ]
       },
-      "sources": []
+      "sources": [
+        "Sky Sports",
+        "NBC Sports",
+        "England Football",
+        "The Guardian"
+      ]
     },
     {
       "id": "ENG-pickford",
@@ -5188,11 +5277,18 @@
       "bio_zh": "葡萄牙中場天才，效力曼城屢獲英超冠軍，以技術細膩、跑動積極著稱。能踢多個中場位置，是主帥馬天尼斯陣型中不可或缺的多面手，本屆備受關注。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          21
+        ]
       },
-      "sources": []
+      "sources": [
+        "ESPN",
+        "Sky Sports",
+        "The Guardian",
+        "Sofascore"
+      ]
     },
     {
       "id": "POR-neves",
@@ -5207,12 +5303,19 @@
       "is_key": true,
       "bio_zh": "葡萄牙最具前途的年輕中場，效力巴黎聖日耳門，以成熟表現令人嘆服。搶截強、傳球視野佳，已迅速成為國家隊正選，本屆有望成為葡萄牙中場的未來核心。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          21
+        ]
       },
-      "sources": []
+      "sources": [
+        "ESPN",
+        "Sky Sports",
+        "The Guardian",
+        "Sofascore"
+      ]
     },
     {
       "id": "POR-dias",
@@ -5233,6 +5336,60 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "POR-semedo",
+      "name_en": "Nelson Semedo",
+      "name_zh": "塞梅多",
+      "team": "Portugal",
+      "team_zh": "葡萄牙",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          21
+        ]
+      },
+      "sources": [
+        "ESPN",
+        "Sky Sports",
+        "The Guardian",
+        "Sofascore"
+      ]
+    },
+    {
+      "id": "POR-araujo",
+      "name_en": "Tomas Araujo",
+      "name_zh": "托馬斯·阿勞霍",
+      "team": "Portugal",
+      "team_zh": "葡萄牙",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          21
+        ]
+      },
+      "sources": [
+        "ESPN",
+        "Sky Sports",
+        "The Guardian",
+        "Sofascore"
+      ]
     },
     {
       "id": "QAT-alhaydos",

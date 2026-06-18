@@ -282,6 +282,34 @@
       "outcome": "home",
       "recorded_at": "2026-06-17T09:30:29Z",
       "source": "[www.skysports.com](https://www.skysports.com/football/austria-vs-jordan/report/549785)；[www.espn.com](https://www.espn.com/soccer/report/_/gameId/760431)；[www.espn.in](https://www.espn.in/football/match/_/gameId/760431/jordan-austria)；[africa.espn.com](https://africa.espn.com/football/match/_/gameId/760431/jordan-austria)"
+    },
+    {
+      "match": 21,
+      "stage": "Group K",
+      "home": "Portugal",
+      "away": "DR Congo",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreline": "1:1",
+      "outcome": "draw",
+      "recorded_at": "2026-06-18T01:00:00Z",
+      "source": "[ESPN](https://africa.espn.com/football/match/_/gameId/760435/congo-dr-portugal)；[Sky Sports](https://www.skysports.com/football/portugal-vs-dr-congo/549786)；[NBC Sports](https://www.nbcsports.com/soccer/live/portugal-vs-dr-congo-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-17)；[The Guardian](https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report)；[Sofascore](https://www.sofascore.com/football/match/dr-congo-portugal/eUbsyWb)"
+    },
+    {
+      "match": 22,
+      "stage": "Group L",
+      "home": "England",
+      "away": "Croatia",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "scoreline": "4:2",
+      "outcome": "home",
+      "recorded_at": "2026-06-18T01:00:00Z",
+      "source": "[Sky Sports](https://www.skysports.com/football/england-vs-croatia/report/549788)；[NBC Sports](https://www.nbcsports.com/soccer/live/england-vs-croatia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-17)；[England Football](https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/england-v-croatia-fifa-world-cup-wednesday-17-june-2026-match-centre)；[The Guardian](https://www.theguardian.com/football/2026/jun/17/england-croatia-world-cup-2026-group-l-match-report)"
     }
   ]
 }

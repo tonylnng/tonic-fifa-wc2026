@@ -1,11 +1,11 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-17T17:19:46Z",
+  "last_updated": "2026-06-18T01:20:54Z",
   "metrics": {
-    "total_evaluated": 16,
-    "outcome_correct": 7,
-    "outcome_accuracy": 0.4375,
+    "total_evaluated": 18,
+    "outcome_correct": 8,
+    "outcome_accuracy": 0.4444,
     "exact_score_correct": 0,
     "exact_score_accuracy": 0.0
   },
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 16,
-      "outcome_correct": 7,
+      "evaluated": 18,
+      "outcome_correct": 8,
       "exact_correct": 0
     }
   },
@@ -212,6 +212,30 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-06-17T0055Z"
+    },
+    {
+      "match": 21,
+      "home": "Portugal",
+      "away": "DR Congo",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-17T0912Z"
+    },
+    {
+      "match": 22,
+      "home": "England",
+      "away": "Croatia",
+      "predicted": "1:0",
+      "predicted_outcome": "home",
+      "final": "4:2",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-17T0912Z"
     }
   ]
 }

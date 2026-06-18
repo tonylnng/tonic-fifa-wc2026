@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-17T17:19:46Z",
-  "total_matches_scored": 16,
+  "last_updated": "2026-06-18T01:20:54Z",
+  "total_matches_scored": 18,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -16,82 +16,82 @@
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 12,
-      "outcome_correct": 7,
-      "outcome_accuracy": 0.5833,
+      "evaluated": 14,
+      "outcome_correct": 8,
+      "outcome_accuracy": 0.5714,
       "exact_correct": 1,
-      "exact_accuracy": 0.0833,
-      "brier_score": 0.2854
+      "exact_accuracy": 0.0714,
+      "brier_score": 0.2993
     },
     {
       "source": "OpenAI GPT-5.1 Thinking",
       "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 4,
+      "evaluated": 10,
+      "outcome_correct": 5,
       "outcome_accuracy": 0.5,
       "exact_correct": 1,
-      "exact_accuracy": 0.125,
-      "brier_score": 0.2743
+      "exact_accuracy": 0.1,
+      "brier_score": 0.3024
     },
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 12,
-      "outcome_correct": 6,
+      "evaluated": 14,
+      "outcome_correct": 7,
       "outcome_accuracy": 0.5,
       "exact_correct": 1,
-      "exact_accuracy": 0.0833,
-      "brier_score": 0.2376
+      "exact_accuracy": 0.0714,
+      "brier_score": 0.2656
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 12,
-      "outcome_correct": 6,
+      "evaluated": 14,
+      "outcome_correct": 7,
       "outcome_accuracy": 0.5,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.2547
+      "brier_score": 0.273
     },
     {
       "source": "Google Gemini 3.1 Pro",
       "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 4,
+      "evaluated": 10,
+      "outcome_correct": 5,
       "outcome_accuracy": 0.5,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.2872
+      "brier_score": 0.3063
     },
     {
       "source": "xAI Grok 4.20 Reasoning",
       "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 4,
+      "evaluated": 10,
+      "outcome_correct": 5,
       "outcome_accuracy": 0.5,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.311
+      "brier_score": 0.3236
     },
     {
       "source": "Z.ai GLM-4.7",
       "kind": "ai",
-      "evaluated": 8,
-      "outcome_correct": 4,
+      "evaluated": 10,
+      "outcome_correct": 5,
       "outcome_accuracy": 0.5,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.3175
+      "brier_score": 0.3261
     },
     {
       "source": "AI（本站主預測）",
       "kind": "ai",
-      "evaluated": 16,
-      "outcome_correct": 7,
-      "outcome_accuracy": 0.4375,
+      "evaluated": 18,
+      "outcome_correct": 8,
+      "outcome_accuracy": 0.4444,
       "exact_correct": 0,
       "exact_accuracy": 0.0,
-      "brier_score": 0.2567
+      "brier_score": 0.2684
     },
     {
       "source": "博彩隱含機率",

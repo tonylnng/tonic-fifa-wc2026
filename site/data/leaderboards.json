@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T09:32:27Z",
+  "last_updated": "2026-06-18T01:20:47Z",
   "scorers": [
     {
       "id": "ARG-messi",
@@ -45,6 +45,18 @@
       "team": "USA",
       "position": "FW",
       "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-kane",
+      "name_zh": "卡尼",
+      "name_en": "Harry Kane",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "FW",
+      "shirt_no": 9,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -302,6 +314,30 @@
       "red_cards": 0
     },
     {
+      "id": "POR-neves",
+      "name_zh": "祖奧·尼維斯",
+      "name_en": "João Neves",
+      "team_zh": "葡萄牙",
+      "team": "Portugal",
+      "position": "MF",
+      "shirt_no": 15,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-bellingham",
+      "name_zh": "貝寧咸",
+      "name_en": "Jude Bellingham",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": 10,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "MEX-quinones",
       "name_zh": "胡利安·基諾內斯",
       "name_en": "Julián Quiñones",
@@ -362,6 +398,18 @@
       "red_cards": 0
     },
     {
+      "id": "ENG-rashford",
+      "name_zh": "拉舒福特",
+      "name_en": "Marcus Rashford",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "FW",
+      "shirt_no": 11,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "AUT-arnautovic",
       "name_zh": "阿諾圖域",
       "name_en": "Marko Arnautović",
@@ -369,6 +417,18 @@
       "team": "Austria",
       "position": "FW",
       "shirt_no": 7,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CRO-baturina",
+      "name_zh": "巴圖里納",
+      "name_en": "Martin Baturina",
+      "team_zh": "克羅地亞",
+      "team": "Croatia",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -482,6 +542,18 @@
       "red_cards": 0
     },
     {
+      "id": "CRO-musa",
+      "name_zh": "穆薩",
+      "name_en": "Petar Musa",
+      "team_zh": "克羅地亞",
+      "team": "Croatia",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "IRN-rezaeian",
       "name_zh": "拉明·雷扎伊安",
       "name_en": "Ramin Rezaeian",
@@ -549,6 +621,18 @@
       "team": "Netherlands",
       "position": "DF",
       "shirt_no": 4,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "COD-wissa",
+      "name_zh": "韋薩",
+      "name_en": "Yoane Wissa",
+      "team_zh": "剛果民主",
+      "team": "DR Congo",
+      "position": "FW",
+      "shirt_no": 20,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -676,6 +760,18 @@
       "red_cards": 0
     },
     {
+      "id": "POR-silva",
+      "name_zh": "伯納度·施華",
+      "name_en": "Bernardo Silva",
+      "team_zh": "葡萄牙",
+      "team": "Portugal",
+      "position": "MF",
+      "shirt_no": 10,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "MEX-gutierrez",
       "name_zh": "布萊恩·古蒂雷斯",
       "name_en": "Brian Gutiérrez",
@@ -695,6 +791,18 @@
       "team": "Brazil",
       "position": "MF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "COD-mbemba",
+      "name_zh": "姆貝姆巴",
+      "name_en": "Chancel Mbemba",
+      "team_zh": "剛果民主",
+      "team": "DR Congo",
+      "position": "DF",
+      "shirt_no": 22,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1000,6 +1108,18 @@
       "red_cards": 0
     },
     {
+      "id": "POR-semedo",
+      "name_zh": "塞梅多",
+      "name_en": "Nelson Semedo",
+      "team_zh": "葡萄牙",
+      "team": "Portugal",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-katic",
       "name_zh": "尼古拉·卡蒂奇",
       "name_en": "Nikola Katić",
@@ -1108,6 +1228,18 @@
       "red_cards": 0
     },
     {
+      "id": "POR-araujo",
+      "name_zh": "托馬斯·阿勞霍",
+      "name_en": "Tomas Araujo",
+      "team_zh": "葡萄牙",
+      "team": "Portugal",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "USA-adams",
       "name_zh": "泰萊·亞當斯",
       "name_en": "Tyler Adams",
@@ -1157,9 +1289,9 @@
     }
   ],
   "totals": {
-    "players": 347,
-    "goals": 57,
-    "yellow_cards": 44,
+    "players": 351,
+    "goals": 65,
+    "yellow_cards": 48,
     "red_cards": 3
   }
 }

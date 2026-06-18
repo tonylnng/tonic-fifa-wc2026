@@ -1,0 +1,602 @@
+{
+  "match": 30,
+  "stage": "Group C",
+  "home": "Scotland",
+  "away": "Morocco",
+  "kickoff_utc": "2026-06-19T22:00:00Z",
+  "kickoff_hkt": "2026-06-20 06:00",
+  "run_id": "2026-06-18T0055Z",
+  "run_timestamp": "2026-06-18T00:55:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.22,
+      "draw": 0.28,
+      "away": 0.5
+    },
+    "confidence": 0.42,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.42,
+        "basis": "多個模型加權平均：Football Meister Coach AI（蘇22%/平28%/摩50%）、YouTube AI模型-Set-Piece vs Transition（蘇29%/平30%/摩41%，xG：蘇1.03/摩1.35）、M"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.42,
+        "basis": "綜合Polymarket（摩洛哥56.5% / 和局26.5% / 蘇格蘭17.5%）、Kalshi（摩洛哥57% / 和局26% / 蘇格蘭18%）、PredictionHunt（摩57% / 平26.5% / 蘇18.5%）三大預測市場"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.42,
+        "basis": "少數觀點（約25-30%）認為本場可能是平局：Football Whispers主推1-1和局（Draw 13/5）、YouTube KOL亦提及1-1可能、FootballPredictions.com預測1-1。理由是摩洛哥對歐洲球隊近"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.18,
+          "draw": 0.265,
+          "away": 0.555
+        },
+        "scoreline": "1:2",
+        "note": "綜合Polymarket（摩洛哥56.5% / 和局26.5% / 蘇格蘭17.5%）、Kalshi（摩洛哥57% / 和局26% / 蘇格蘭18%）、PredictionHunt（摩57% / 平2"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.245,
+          "draw": 0.285,
+          "away": 0.47
+        },
+        "note": "多個模型加權平均：Football Meister Coach AI（蘇22%/平28%/摩50%）、YouTube AI模型-Set-Piece vs Transition（蘇29%/平30%/摩4"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "蘇格蘭主場迎戰摩洛哥（Group C）。多個模型加權平均：Football Meister Coach AI（蘇22%/平28%/摩50%）、YouTube AI模型-Set-Piece vs Transition（蘇29%/平30%/摩4。綜合Polymarket（摩洛哥56.5% / 和局26.5% / 蘇格蘭17.5%）、Kalshi（摩洛哥57% / 和局26% / 蘇格蘭18%）、PredictionHunt。AI 主預測 1:2（摩洛哥勝），信心 0.42。",
+    "key_factors": [
+      "球員狀態：蘇格蘭McTominay、McGinn、Robertson核心健在，首戰表現穩健；摩洛哥Hakimi、Brahim Diaz、Saibari均可出戰，Saibari已對巴西入球，士氣正旺",
+      "傷停名單：蘇格蘭痛失關鍵中場Gilmour（膝傷，缺席整個世界盃），中場深度受損；摩洛哥失去主力中衛Aguerd（恥骨手術）及潛力翼鋒Ezzalzouli（膝韌帶撕裂），防守重組，Mazraoui肩傷後已恢復",
+      "近期狀態：蘇格蘭3連勝（含兩場友誼賽）+首戰1-0勝海地，世界盃28年後首勝；摩洛哥資格賽完美成績（5W1D），首戰1-1平巴西表現出色被輿論視為「如勝」，近5場不敗",
+      "戰術對位：核心對決為Hakimi右路突破 vs Robertson/Hickey左路防守——分析師普遍認為Hakimi享有優勢；蘇格蘭強項在定置球與二爭球，摩洛哥強項在快速反擊與中場控制（Amrabat-Bouaddi-El Aynaoui三中場）；Brahim Diaz穿刺直傳是蘇格蘭防線最大威脅",
+      "主客場：名義上蘇格蘭為主隊，但比賽在美國Foxborough中立場地進行，無主客場優勢之分；兩支球隊均無本地球迷優勢，Tartan Army大批赴美但預計摩洛哥支持者也相當聲勢",
+      "輿論共識：博彩市場與模型預測一致傾向摩洛哥勝（約50-57%概率），平局次之（約26-29%），蘇格蘭勝出最低（約17-22%）；唯一歷史交鋒記錄1998年WC摩洛哥3-0大勝，對蘇格蘭心理略有影響；48隊擴大賽制下蘇格蘭即便輸球仍可能晉級，可能傾向穩守求和"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數觀點（約25-30%）認為本場可能是平局：Football Whispers主推1-1和局（Draw 13/5）、YouTube KOL亦提及1-1可能、FootballPredictions.com預測1-1。理由是摩洛哥對歐洲球隊近5場僅1勝（2018輸葡萄牙1-0），蘇格蘭在大賽中防守頑強，Clarke可能主動部署保守策略求和；加上48隊制下1分或許已足夠晉級，兩隊均有動機接受平局。另有極少數聲音（YouTube KOL FanDuel節目）甚至認為蘇格蘭和局價值更好（+110）。此外，YouTube AI模型（Set-Piece vs Transition）給出蘇格蘭29%概率，與其他模型相比相對樂觀，並預測1-1最可能比分。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN – Scotland WC2026 Schedule, Injuries & Squad",
+      "url": "https://www.espn.com/soccer/story/_/id/48701669/scotland-world-cup-2026-schedule-fixtures-results-scores-group-c-how-watch-uk-news-analysis-injuries"
+    },
+    {
+      "type": "official",
+      "name": "UEFA – Scotland at the World Cup 2026 Squad & Fixtures",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d159741fe9-a2a8fac9839d-1000--scotland-at-the-world-cup-2026-squad-fixtures-group-and-hi/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA – Morocco Squad Change (Aguerd / Ezzalzouli)",
+      "url": "https://www.injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-3/"
+    },
+    {
+      "type": "official",
+      "name": "Gillette Stadium – 2026 World Cup: Scotland v Morocco Event Page",
+      "url": "https://www.gillettestadium.com/events/2026-world-cup-group-stage-match-580/"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup Group C",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C"
+    },
+    {
+      "type": "media",
+      "name": "STV News – Scotland Get Defensive Injury Boost (McKenna Returns)",
+      "url": "https://news.stv.tv/sport/scotland-get-defensive-injury-boost-as-steve-clarkes-side-prepare-for-morocco"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Scotland Key Issues: Gilmour, McTominay, Strikers",
+      "url": "https://www.espn.com/soccer/story/_/id/49022812/key-issues-scotland-2026-world-cup-billy-gilmour-scott-mctominay-striker"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – McTominay Fit for Scotland's World Cup Opener",
+      "url": "https://www.espn.com/soccer/story/_/id/49041582/scott-mctominay-fit-scotland-world-cup-opener-stomach-bug"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Billy Gilmour Injury / Scotland World Cup",
+      "url": "https://www.espn.com/soccer/story/_/id/49034240/billy-gilmour-injury-scotland-world-cup-2026-miami"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Injured Gilmour Arrives at World Cup to Support Scotland",
+      "url": "https://www.bbc.com/sport/articles/clye7g8vedjo"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – McTominay Should Be Fit Despite Stomach Bug",
+      "url": "https://www.theguardian.com/football/2026/jun/11/scott-mctominay-scotland-world-cup-opener-stomach-bug"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian – Haiti 0-1 Scotland Match Report",
+      "url": "https://www.theguardian.com/football/2026/jun/14/haiti-scotland-world-cup-match-report"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Haiti 0-1 Scotland Recap / McGinn Winner",
+      "url": "https://www.espn.com/soccer/story/_/id/49055260/haiti-scotland-world-cup-2026-result-score-recap-john-mcginn-ben-gannon-doak-group-c"
+    },
+    {
+      "type": "media",
+      "name": "The Independent – Scotland Sweating on McTominay Before Opener",
+      "url": "https://www.independent.co.uk/bulletin/sport/scott-mctominay-scotland-haiti-world-cup-2026-b2994141.html"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard – Scotland XI vs Haiti: Starting Lineup & Injury Latest",
+      "url": "https://www.standard.co.uk/sport/football/scotland-xi-vs-haiti-starting-lineup-confirmed-team-news-injury-latest-world-cup-2026-today-b1285927.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – Which Players Are Out of World Cup 2026 (Gilmour)",
+      "url": "https://www.fourfourtwo.com/competition/which-players-are-out-of-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post – Morocco Injuries: Ezzalzouli, Aguerd Out",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/11/world-cup-morocco-injuries-ezzalzouli/91ef90c0-6589-11f1-bdd4-805ebb99a693_story.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Morocco Cut Aguerd, Ezzalzouli in Last-Minute Reshuffle",
+      "url": "https://global.espn.com/football/story/_/id/49027277/morocco-cut-injured-aguerd-ezzalzouli-last-minute-world-cup-reshuffle"
+    },
+    {
+      "type": "media",
+      "name": "Morocco World News – Ezzalzouli Departs Morocco World Cup Camp",
+      "url": "https://www.moroccoworldnews.com/2026/06/320249/ezzalzouli-departs-morocco-world-cup-camp-to-start-rehabilitation/"
+    },
+    {
+      "type": "media",
+      "name": "Morocco World News – Morocco vs Brazil Preview",
+      "url": "https://www.moroccoworldnews.com/2026/06/319161/2026-world-cups-much-anticipated-morocco-vs-brazil-preview-more/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda – Morocco Double Injury Blow (Aguerd, Ezzalzouli)",
+      "url": "https://www.sportskeeda.com/football/rumour-morocco-handed-double-injury-blow-ahead-2026-fifa-world-cup-opener-brazil-reports"
+    },
+    {
+      "type": "media",
+      "name": "theScore – World Cup Injury Tracker (Ezzalzouli Listed)",
+      "url": "https://www.thescore.com/worldcup/news/3550982/world-cup-injury-tracker-timber-karl-wesley-join-list-of-absentees"
+    },
+    {
+      "type": "media",
+      "name": "Foot-Africa – Morocco Loses Ezzalzouli & Aguerd Before Brazil",
+      "url": "https://foot-africa.com/en/news/a-cruel-deja-vu-morocco-loses-defensive-bedrock-right-before-facing-brazil-1241203/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil 1-1 Morocco Match Analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760419"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports – Brazil 1-1 Morocco Live Score",
+      "url": "https://www.nbcsports.com/soccer/world-cup/live/brazil-vs-morocco-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-13"
+    },
+    {
+      "type": "media",
+      "name": "The Star (Malaysia) – Morocco Ready to Battle Top Nations, Ouahbi Says",
+      "url": "https://www.thestar.com.my/sport/football/2026/06/13/soccer-underdogs-no-more-morocco-ready-to-battle-top-nations-says-ouahbi"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Scotland Beat Haiti 1-0 / World Cup Return",
+      "url": "https://www.aljazeera.com/sports/2026/6/14/scotland-beat-haiti-1-0-to-mark-a-winning-return-to-the-world"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – World Cup 2026 Biggest Takeaways Brazil-Morocco",
+      "url": "https://www.aljazeera.com/sports/2026/6/14/world-cup-2026-biggest-takeaways-from-brazil-morocco-group-match"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Haiti 0-1 Scotland Match Report",
+      "url": "https://www.skysports.com/football/haiti-vs-scotland/report/549772"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Form & H2H Stats Scotland vs Morocco",
+      "url": "https://www.skysports.com/football/scotland-vs-morocco/549795"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports – Brazil vs Morocco Live Score",
+      "url": "https://www.cbssports.com/soccer/news/brazil-vs-morocco-live-updates-world-cup-2026-score-result/live/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Africa – Scotland v Morocco TV, Lineup, Preview",
+      "url": "https://africa.espn.com/football/story/_/id/49079686/fifa-world-cup-2026-scotland-vs-morocco-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Scotland vs Morocco Head-to-Head Record (1998 WC)",
+      "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/head-to-head/scotland-vs-morocco-head-to-head-record-and-past-meetings_599444.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Scotland vs Morocco Preview & Prediction",
+      "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-morocco-prediction-team-news-lineups_599454.html"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore UK – Scotland v Morocco Head-to-Head & Form",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-scotland-v-morocco-where-to-watch-preview-lineups-and-odds/CYGnQzS0/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Scotland vs Morocco World Cup Preview",
+      "url": "https://www.goal.com/en-us/news/scotland-morocco-world-cup-preview/blt9d44c918a7f9c876"
+    },
+    {
+      "type": "media",
+      "name": "Washington Post – Scotland Beats Haiti for 1st WC Win Since 1990",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/13/haiti-scotland-world-cup-score/0e9d5f78-679f-11f1-bdd4-805ebb99a693_story.html"
+    },
+    {
+      "type": "media",
+      "name": "DAZN – 2026 World Cup Group C Guide",
+      "url": "https://www.dazn.com/en-US/news/soccer/2026-world-cup-group-c-brazil-scotland-morocco-haiti/1wa4dxm21dnrr16jzmqeflmc6y"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister Coach AI – Scotland 22% / Draw 28% / Morocco 50%, 0-2 prediction",
+      "url": "https://footballmeister.com/world-cup-2026/scotland-morocco-2026-06-19/"
+    },
+    {
+      "type": "model",
+      "name": "YouTube AI Model (Set-Piece vs Transition) – xG: SCO 1.03 / MAR 1.35; Morocco 41%",
+      "url": "https://www.youtube.com/watch?v=3JF-cOnPsMY"
+    },
+    {
+      "type": "model",
+      "name": "Covers.com – ChatGPT WC2026 Predictions (Morocco wins 2-1)",
+      "url": "https://www.covers.com/world-cup/ai-bracket-predictions-2026"
+    },
+    {
+      "type": "model",
+      "name": "MEXC Exchange – Scotland 27% / Draw 30% / Morocco 43%, Scotland 1-2 Morocco",
+      "url": "https://www.mexc.com/news/1151870"
+    },
+    {
+      "type": "model",
+      "name": "Tiki Taka – Morocco 48% Win Probability Data-Driven Analysis",
+      "url": "https://www.tikitaka.gg/articles/1489390-scotland-vs-morocco-preview"
+    },
+    {
+      "type": "model",
+      "name": "KhasPress / Analytical Forecast – Morocco 47.9% win, 28.7% draw, 23.4% Scotland",
+      "url": "https://www.khaspress.com/2026/06/scotland-vs-morocco-2026-schedule-time-tv-tickets/"
+    },
+    {
+      "type": "model",
+      "name": "Asian Net News – Scotland 28% / Draw 25% / Morocco 47%; predicted 1-1",
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/scotland-vs-morocco-vs-group-stage/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN – Scotland vs Morocco Odds (Scotland +400, Morocco -135, Draw +265)",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760445"
+    },
+    {
+      "type": "betting",
+      "name": "Polymarket – Morocco 56.5% / Draw 26.5% / Scotland 17.5%",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-sco-mar-2026-06-19"
+    },
+    {
+      "type": "betting",
+      "name": "Kalshi – Morocco 57% / Draw 26% / Scotland 18%",
+      "url": "https://kalshi.com/teams/soccer-team/scotland"
+    },
+    {
+      "type": "betting",
+      "name": "Prediction Hunt – Morocco 57% / Draw 26.5% / Scotland 18.5%",
+      "url": "https://www.predictionhunt.com/odds/world_cup/morocco-vs-scotland-2026-06-19/21395"
+    },
+    {
+      "type": "betting",
+      "name": "The Sports Rush – Morocco -130 / Draw +272 / Scotland +418～+460",
+      "url": "https://thesportsrush.com/scotland-v-morocco-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis – Scotland 9/2, Draw 11/4, Morocco 4/5",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/scotland-v-morocco-predictions"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes Preview – Morocco Favourites; Brahim Diaz Assist Tip",
+      "url": "https://www.ladbrokes.com/en/news/scotland-morocco-world-cup-preview-predictions-tips-2026-06-17/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post – Scotland vs Morocco Bet Builder Tips (5.44-1)",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/scotland-vs-morocco-world-cup-bet-builder-tips-picks-and-odds-ae5567L483I9/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Predictions.com – Correct Score 1-1 @ 600; BTTS Yes",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/scotland-vs-morocco-prediction-19-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Vegas Odds – Scotland vs Morocco Picks & Preview",
+      "url": "https://www.vegasodds.com/predictions/soccer/scotland-vs-morocco-world-cup-picks-preview-jun-19/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers – Draw Hot Tip; Scotland 1-1 Morocco",
+      "url": "https://footballwhispers.com/blog/scotland-vs-morocco-prediction-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC – Morocco Win 4/5, Under 2.5 Goals 4/6",
+      "url": "https://www.juvefc.com/scotland-v-morocco-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Goonersguide – Scotland 1-2 Morocco; BTTS Yes @ 2.20",
+      "url": "https://www.goonersguide.com/football-pick-59517-Scotland-vs-Morocco.htm"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK – Morocco 4/5, Under 2.5 Goals 4/6",
+      "url": "https://esports-news.co.uk/2026/06/16/scotland-v-morocco-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "WC Betting Tips – Scotland vs Morocco H2H & Highlights",
+      "url": "https://wcbettingtips.com/scotland-vs-morocco-highlights"
+    },
+    {
+      "type": "betting",
+      "name": "Sportskeeda – Prediction Scotland 0-2 Morocco; Morocco Win",
+      "url": "https://www.sportskeeda.com/football/scotland-vs-morocco-prediction-betting-tips-june-19th-2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer – World Cup 2026 Preview Scotland Thread",
+      "url": "https://www.reddit.com/r/soccer/comments/1u4gyox/world_cup_2026_preview_scotland_back_at_the_world/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/sportsbook – Pick of the Day 13/6/26 (Brazil-Morocco discussion)",
+      "url": "https://www.reddit.com/r/sportsbook/comments/1u49uit/pick_of_the_day_61326_saturday/"
+    },
+    {
+      "type": "forum",
+      "name": "BigSoccer Forum – FIFA World Cup 2026 Results & Discussion Thread",
+      "url": "https://www.bigsoccer.com/threads/fifa-world-cup-2026-results-discussion-thread-r.2139029/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Bolavip Soccer: Scotland Injury Blow Post",
+      "url": "https://www.facebook.com/Bolavip.soccer/posts/scotlands-highly-anticipated-return-to-the-global-stage-has-been-dealt-a-heartbr/1423269646501024/"
+    },
+    {
+      "type": "social",
+      "name": "Instagram – Scotland vs Morocco Preview Post (Morocco team will beat Scotland)",
+      "url": "https://www.instagram.com/p/DZnCTwjjzu6/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Scotland vs Morocco Preview (tXXqWkCP-gc)",
+      "url": "https://www.youtube.com/watch?v=tXXqWkCP-gc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Scotland vs Morocco Prediction Set-Piece vs Transition (3JF-cOnPsMY)",
+      "url": "https://www.youtube.com/watch?v=3JF-cOnPsMY"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – WORLD CUP 2026 WEEK 2 PREDICTIONS & BEST BETS (C4vDyDPd6jE)",
+      "url": "https://www.youtube.com/watch?v=C4vDyDPd6jE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Scotland vs Morocco 5 AI Models Debate Who Wins (NmOVbm3Lze4)",
+      "url": "https://www.youtube.com/watch?v=NmOVbm3Lze4"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Scotland VS Morocco Prediction & Best Bets FIFA WC2026 (MSrMKm3FrP0)",
+      "url": "https://www.youtube.com/watch?v=MSrMKm3FrP0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Hakimi Leads Injury-Hit Morocco (AFP via YouTube, -uy17eA-mYo)",
+      "url": "https://www.youtube.com/watch?v=-uy17eA-mYo"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Scotland Short WC2026 Player Rankings & Squad Preview (waYv2HXyvU0)",
+      "url": "https://www.youtube.com/watch?v=waYv2HXyvU0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – SCOTLAND WIN FIRST MATCH SINCE 1990! WC2026 (GED0x7Fe-_Y)",
+      "url": "https://www.youtube.com/watch?v=GED0x7Fe-_Y"
+    },
+    {
+      "type": "kol",
+      "name": "Total Football Analysis – Tactical Preview: Hakimi vs Scottish Left Side",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/scotland-v-morocco-predictions"
+    },
+    {
+      "type": "kol",
+      "name": "IE Soccer WC2026 – Morocco Dark Horse Credentials Rated",
+      "url": "https://iesoccerwc2026.com/morocco-world-cup-2026-dark-horse-rated/"
+    },
+    {
+      "type": "kol",
+      "name": "IE Soccer WC2026 – Group C Full Preview",
+      "url": "https://iesoccerwc2026.com/world-cup-2026-group-c/"
+    },
+    {
+      "type": "kol",
+      "name": "SportPesa Blog – Scotland vs Morocco H2H & Preview",
+      "url": "https://blog.ke.sportpesa.com/2026/06/17/scotland-vs-morocco-prediction-world-cup-2026-preview-team-news-lineups-h2h/"
+    },
+    {
+      "type": "kol",
+      "name": "World Soccer Talk – Morocco 2026 Preview: Squad, Tactics & Key Players",
+      "url": "https://worldsoccertalk.com/amp/world-cup/morocco-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+    }
+  ],
+  "source_count": 79,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.38,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "蘇格蘭主場穩健但火力有限，摩洛哥反擊具威脅，悶和機率高。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "摩洛哥防反犀利，蘇格蘭攻堅乏力，看好客隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥實力佔優且狀態穩定，客場有望取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.36,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，蘇格蘭硬朗摩洛哥技術佳，和局機會高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "摩洛哥防守穩固且反擊銳利，蘇格蘭恐難以突破其防線。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.29,
+        "draw": 0.31,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥整體實力占優，客場勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "摩洛哥實力較強，防守紮實，小勝機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.266,
+      "draw": 0.312,
+      "away": 0.422
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-18T012013Z"
+}
