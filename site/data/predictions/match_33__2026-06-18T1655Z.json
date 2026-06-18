@@ -1,0 +1,318 @@
+{
+  "match": 33,
+  "home": "Netherlands",
+  "away": "Sweden",
+  "home_zh": "荷蘭",
+  "away_zh": "瑞典",
+  "stage": "Group F",
+  "kickoff_utc": "2026-06-20T17:00:00Z",
+  "kickoff_hkt": "2026-06-21 01:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-18T1655Z",
+  "run_timestamp": "2026-06-18T16:55:00Z",
+  "source_count": 107,
+  "sources": [
+    "https://www.goal.com/en/news/netherlands-sweden-world-cup-preview/bltf9940d1e6141f392",
+    "https://en.as.com/soccer/world-cup/world-cup-2026-group-f-standings-results-and-who-can-qualify-f202606-n/",
+    "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-4/",
+    "https://www.livefootballtickets.com/football-news/19572/world-cup-2026-group-f-update-after-round-1.html",
+    "https://www.espn.com/soccer/story/_/id/49105032/netherlands-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+    "https://www.espn.com/soccer/match/_/gameId/760447/sweden-netherlands",
+    "https://www.washingtonpost.com/sports/soccer/2026/06/14/world-cup-netherlands-memphis-depay-injury/0927d572-6854-11f1-830e-133d20cadd28_story.html",
+    "https://www.fourfourtwo.com/competition/which-players-are-out-of-world-cup-2026",
+    "https://www.youtube.com/watch?v=lDU6KddCjZg",
+    "https://www.youtube.com/watch?v=G3T15s1u7D0",
+    "https://www.youtube.com/watch?v=4jntB7t1YTk",
+    "https://www.youtube.com/watch?v=rCDPS5q_0V8",
+    "https://www.youtube.com/watch?v=TLRBrrOan4Q",
+    "https://www.youtube.com/watch?v=EVdADSiLchk",
+    "https://www.youtube.com/watch?v=YLG6pXitahI",
+    "https://www.youtube.com/watch?v=DY_3SMS8jG8",
+    "https://www.the-independent.com/sport/football/fifa-world-cup-sweden-tunisia-graham-potter-ear-bitten-b2995806.html",
+    "https://www.bbc.co.uk/sport/football/articles/c77y88076n1o",
+    "https://www.espn.com/soccer/story/_/id/49064457/sweden-tunisia-live-world-cup-2026-latest-updates-commentary-score-result",
+    "https://www.theguardian.com/football/2026/jun/15/sweden-graham-potter-world-cup-2026-football-daily-newsletter",
+    "https://www.theguardian.com/football/live/2026/jun/14/netherlands-v-japan-world-cup-2026-live",
+    "https://www.aljazeera.com/sports/2026/6/15/sweden-beat-tunisia-5-1-in-strong-start-to-world-cup",
+    "https://khelnow.com/football/world-football-graham-potter-update-gabriel-gudmundsson-injury-sweden-win-vs-tunisia-202606",
+    "https://www.beinsports.com/en-au/football/fifa-world-cup-2026/articles-video/potter-says-key-attacking-stars-will-only-get-better-2026-06-15",
+    "https://www.skysports.com/football/sweden-vs-tunisia/549777",
+    "https://www.foxsports.com/stories/soccer/sweden-tunisia-world-cup-4-takeaways",
+    "https://web9.rotowire.com/soccer/news.php",
+    "https://theanalyst.com/articles/sweden-vs-tunisia-stats-world-cup-2026",
+    "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+    "https://www.worldcup.org.uk/football/2026/groups/GroupF.shtml",
+    "https://www.sportingnews.com/uk/football/news/world-cup-group-f-standings-results-table-2026/d6cc9a7a7d6b2f52b327d936",
+    "https://www.rsssf.org/tablesn/nedzweres.html",
+    "https://www.fotmob.com/matches/netherlands-vs-sweden/1x1gy6",
+    "https://www.11v11.com/teams/netherlands/tab/opposingTeams/opposition/Sweden/",
+    "https://www.national-football-teams.com/matches/report/18409/Netherlands_Sweden.html",
+    "https://www.skysports.com/football/netherlands-vs-sweden/549800",
+    "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/netherlands-sweden-2371-2377-5930",
+    "https://www.espn.com/soccer/odds/_/gameId/760447",
+    "https://footballpredictions.com/footballpredictions/world-cup-predictions/netherlands-vs-sweden-prediction-20-06-2026/",
+    "https://www.futbol24.com/betting-tips/preview/20-06-2026-netherlands-sweden-betting-tip/",
+    "https://www.inkl.com/news/netherlands-vs-sweden-world-cup-2026-predictions-and-picks",
+    "https://www.mexc.com/news/1147210",
+    "https://www.mexc.com/news/1154921",
+    "https://esports-news.co.uk/2026/06/17/netherlands-v-sweden-predictions/",
+    "https://sports.betmgm.com/en/blog/world-cup/netherlands-vs-sweden-prediction-odds-preview-world-cup-june-20-bm16/",
+    "https://www.bwin.com/en/sports/football-4/betting/world-6/world-cup-2026-0:14",
+    "https://cleatz.com/world-cup-odds/",
+    "https://polymarket.com/sports/world-cup/fifwc-nld-swe-2026-06-20",
+    "https://onthepitch.now/countries/ned/",
+    "https://footballmeister.com/world-cup-2026/netherlands-sweden-2026-06-20/",
+    "https://www.goonersguide.com/football-pick-59514-Netherlands-vs-Sweden.htm",
+    "https://www.racingpost.com/sport/football-tips/world-cup-2026/netherlands-vs-sweden-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-awlZS3M1PcnW/",
+    "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-bet-builder-tips-28-1-four-fold-for-saturday-20-june/",
+    "https://www.sportinglife.com/football/news/jake-osgathorpes-2026-world-cup-tips-and-predictions-group-stage-round-two/232710",
+    "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/netherlands-v-sweden-predictions",
+    "https://bettinglounge.co.uk/odds/football/world-cup/",
+    "https://oddsguard.com/odds/gb/soccer/fifa-world-cup",
+    "https://matchen.nu/ligor/world-cup/2026/netherlands-sweden/odds",
+    "https://www.straitstimes.com/sport/football/gakpo-says-dutch-must-be-ready-for-fit-again-isak-in-sweden-showdown",
+    "https://www.straitstimes.com/sport/football/high-flying-sweden-take-on-disappointed-dutch-in-group-f",
+    "https://www.flashscore.com/news/soccer-world-championship-sweden-aim-to-stay-on-high-as-they-prepare-for-dutch-with-a-point-to-prove/KWchklY8/",
+    "https://ca.sports.yahoo.com/news/sweden-faced-alexander-isak-injury-065500667.html",
+    "https://www.sportsmole.co.uk/football/sweden/world-cup-2026/predicted-lineups/isak-gyokeres-to-continue-partnership-how-sweden-could-line-up-vs-netherlands_599533.html",
+    "https://apnews.com/article/world-cup-netherlands-memphis-depay-injury-4e548ed212c96f16960ba4242098a48e",
+    "https://www.reddit.com/r/soccer/comments/1u5gaxz/world_cup_2026_preview_netherlands_oranje/",
+    "https://www.reddit.com/r/worldcup/comments/1u5sp68/match_thread_netherlands_vs_japan_world_cup_group/",
+    "https://www.independent.co.uk/sport/football/isak-gyokeres-sweden-world-cup-2026-b2995339.html",
+    "https://www.bbc.com/sport/football/articles/cwy0dqg5nyno",
+    "https://www.bbc.com/sport/football/live/cr47lgg64kvt",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/sweden-5-1-tunisia-isak-and-gyokeres-star-in-emphatic-win-2026-06-15",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/potter-isak-and-gyokeres-will-only-get-better-at-world-cup-2026-06-15",
+    "https://www.sportsmole.co.uk/football/sweden/world-cup/news/isak-and-gyokeres-deliver-early-world-cup-statement-for-sweden-in-group-f-opener_599243.html",
+    "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-f-preview-betting-odds-prediction-91626",
+    "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-e-and-f-what-does-scorecasting-suggest",
+    "https://english.elpais.com/sports/2026-06-17/who-will-win-the-world-cup-here-are-our-predictions.html",
+    "https://www.actionnetwork.com/soccer/world-cup-tournament-projections-full-tournament-simulations",
+    "https://www.thegroupstage.com",
+    "https://fwctimes.com/netherlands-vs-sweden-lineups/",
+    "https://blog.ke.sportpesa.com/2026/06/17/netherlands-vs-sweden-prediction-world-cup-2026-preview-team-news-key-stats-h2h/",
+    "https://www.goal.com/en-za/betting/world-cup/netherlands-vs-sweden-predictions-20-06-26/A:blt46a9f87488536d45",
+    "https://www.youtube.com/watch?v=584p43sTyqY",
+    "https://www.youtube.com/watch?v=_ufVt73Vpj4",
+    "https://www.youtube.com/watch?v=4Aw2U8OM1Oc",
+    "https://www.youtube.com/watch?v=lbiE6zpvk3o",
+    "https://www.mykhel.com/football/sweden-world-cup-debut-isak-gyokeres-improvement-2026-011-440279.html",
+    "https://dailycannon.com/2026/06/gyokeres-sweden-tunisia-goal-assist/",
+    "https://www.foxsports.com/soccer/alexander-isak-player",
+    "https://www.soccernews.nl/news/vermoedelijke-wk-opstelling-nederland-tegen-zweden/",
+    "https://www.prizepicks.com/playbook-article/netherland-injury-report-vs-japan-today-kluivert-verbruggen-depay-updates",
+    "https://en.thairath.co.th/sport/worldcup/2939539",
+    "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-2026-fixtures-results-schedule-kick-off-times-results-every-country/9no3kctukecazvu0f0v9h27z",
+    "https://www.telesurenglish.net/netherlands-and-japan-play-to-2%E2%80%912-draw-in-group-f-opener-at-2026-fifa-world-cup/",
+    "https://www.sportsadda.asia/football/news/netherlands-meet-a-fearless-japan-to-get-group-f-under-way/",
+    "https://www.cubaheadlines.com/articles/332287",
+    "https://www.standard.co.uk/sport/football/netherlands-xi-vs-japan-predicted-lineup-confirmed-team-news-injury-latest-world-cup-2026-today-b1285954.html",
+    "https://www.espn.com/espn/story/_/id/49064704/2026-fifa-world-cup-germany-curacao-japan-netherlands-ivory-coast-ecuador-sweden-tunisia-recap",
+    "https://footmundo.co.uk/world-cup-injury-list-players-ruled-out-fifa-2026/",
+    "https://defirate.com/prediction-markets/world-cup-odds/netherlands/",
+    "https://www.independent.co.uk/sport/football/world-cup/world-cup-2026-predictions-computer-b2996801.html",
+    "https://www.mirror.co.uk/sport/football/news/world-cup-prediction-netherlands-fifa-37293444",
+    "https://tgmresearch.com/predicting-fifa-world-cup-2026.html",
+    "https://www.yardbarker.com/soccer/articles/world_cup_2026_group_f_guide_netherlands_japan_sweden_and_tunisia_head_into_battle/s1_17664_43949484",
+    "https://www.sportsmole.co.uk/football/world-cup-2026/feature/world-cup-2026-live-latest-news-updates-reaction-and-buildup-from-day-5_599255.html",
+    "https://www.sportsdunia.com/football-teams/sweden-national-football-team",
+    "https://www.flashscoreusa.com/news/isak-and-gyokeres-up-front-for-sweden-as-gundmundsson-fit-enough-to-start/tC1xUFzR/",
+    "https://www.goal.com/en-my/lists/alexander-isak-and-viktor-gyokeres-among-goals-sweden-thrash-tunisia-to-open-world-cup-campaign-in-style/blt998f5d3b1b06a71e",
+    "https://gipedara.com/sweden-hit-by-pre-world-cup-blow-as-gabriel-gudmundsson-falls-ill-in-dallas/"
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.55,
+      "draw": 0.24,
+      "away": 0.21
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "多個統計模型加權平均：onthepitch.now模型荷蘭58.9%／平局23.6%／瑞典17.5%；Polymarket預測市場荷蘭56.5%／24.5%／19.5%；FootballMeister Coach AI 荷蘭57%／24%／19%；另有模型（AI模型均值）呈現荷蘭42-57%，平局24-39%，瑞典19-27%的寬幅，整體仍偏向荷蘭"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.58,
+        "basis": "主流莊家（DraftKings -140/+295/+380、Bwin 1.68/3.90/4.75、Bet365 4/6/3/1/4/1）一致讓荷蘭以約58%隱含機率居主力地位，瑞典賠率約+380至+424，盤口反映荷蘭為明確大熱"
+      },
+      {
+        "name": "反方情境（瑞典雙鋒火力扳平／偷分）",
+        "scoreline": "2:2",
+        "outcome": "draw",
+        "confidence": 0.24,
+        "basis": "少數異見：部分模型（如MEXC分析、YouTube rCDPS5q_0V8）認為平局機率高達39%，甚至三向幾乎均等（各32%）；Goonersguide認為莊家嚴重高估荷蘭（真實勝率僅約45%），建議投注瑞典讓球；理由是荷蘭陣容因多名主力缺陣（Simons、de Ligt、Timber等）而被嚴重削弱，且首戰對日本已暴露定位球防守漏洞；另一風險情境為Isak全速出戰並複製突尼西亞場表現，屆時荷蘭"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.58,
+          "draw": 0.23,
+          "away": 0.19
+        },
+        "scoreline": "2:1",
+        "note": "主流莊家（DraftKings -140/+295/+380、Bwin 1.68/3.90/4.75、Bet365 4/6/3/1/4/1）一致讓荷蘭以約58%隱含機率居主力地位，瑞典賠率約+380至+424，盤口反映荷蘭為明確大熱"
+      },
+      {
+        "source": "數據模型綜合（onthepitch.now／Polymarket／Coach AI 等）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.24,
+          "away": 0.21
+        },
+        "note": "多個統計模型加權平均：onthepitch.now模型荷蘭58.9%／平局23.6%／瑞典17.5%；Polymarket預測市場荷蘭56.5%／24.5%／19.5%；FootballMeister Coach AI 荷蘭57%／24%／19%；另有模型（AI模型均值）呈現荷蘭42-57%，平局24-39%，瑞典19-27%的寬幅，整體仍偏向荷蘭"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "荷蘭（中立場 NRG 體育場）迎戰瑞典，F 組第二輪。多個統計模型加權平均：onthepitch.now模型荷蘭58.9%／平局23.6%／瑞典17.5%；Polymarket預測市場荷蘭56.5%／24.5%／19.5%；FootballMeister Coach AI  主流莊家（DraftKings -140/+295/+380、Bwin 1.68/3.90/4.75、Bet365 4/6/3/1/4/1）一致讓荷蘭以約58%隱含機率居主力地位，瑞典賠率約+380至+424，盤口反映荷 AI 主預測 2:1（荷蘭小勝），信心 0.62。",
+    "key_factors": [
+      "【荷蘭傷兵重創】賽前已失去Xavi Simons（ACL撕裂，缺席整屆）、Matthijs de Ligt（背部手術）、Stefan de Vrij、Jurriën Timber（鼠蹊傷）、Jerdy Schouten（ACL），主力前場Memphis Depay攜腿後肌問題出賽，首戰對日本僅在70分鐘替補登場且未能製造威脅，荷蘭攻擊線深度嚴重受損",
+      "【荷蘭首戰表現欠佳】對日本2:2平局暴露戰術盲點：領先後Koeman換上五後衛保守防守，反被第89分鐘角球頭槌扳平；Koeman賽後坦言「我們需要打得更好」，隊長Van Dijk批評失球來自可避免的失誤",
+      "【瑞典攻擊線狀態火熱】Isak（Liverpool）與Gyökeres（Arsenal）首戰對突尼西亞雙雙破門兼助攻，重現1966年以來首次瑞典球員同場各有進球兼助攻的紀錄；Gyökeres代表國家隊33場20球，Isak58場17球，是本屆最危險的前鋒搭檔之一",
+      "【瑞典資格戰艱辛但季後賽狀態火熱】Graham Potter執教後球隊在歐洲附加賽先後擊敗烏克蘭（3:1）及波蘭（3:2），Gyökeres在兩場附加賽合共4球，信心十足；本屆首場5:1大勝突尼西亞是瑞典自1938年來世界盃最大勝仗",
+      "【歷史交鋒荷蘭佔優】近代10場交鋒：荷蘭9勝1平（近六場）或整體11勝6平8負（全部紀錄）。近五次正式對決荷蘭3勝1平1負，包括2017年世界盃外圍賽主場2:0、2010年歐國盃資格賽4:1，但2011年瑞典曾在客場以3:2取勝；在世界盃舞台此前僅對過一次（1974年0:0）",
+      "【小組積分壓力不對稱】荷蘭目前積1分（與日本同）位列第三，必須搏勝以掌握晉級主動；瑞典積3分領頭，勝出即提前晉級，形成攻守動機差異——荷蘭必攻，瑞典可謹慎防守等待反擊，心理壓力對荷蘭不利",
+      "【Isak傷勢隱患】Isak在首戰後被報道獨立訓練（extra recovery program），球隊新聞官稱屬預防性措施而非嚴重傷患；若Isak狀態下降或無法全場，瑞典攻擊威力將大打折扣",
+      "【場地因素及排陣預期】NRG體育場（休斯頓，容量68,777），中性場地；荷蘭預計4-3-3（Verbruggen; Dumfries, Van Hecke/Van de Ven, Van Dijk, Aké; Gravenberch, De Jong, Reijnders; Gakpo, Malen/Depay, Summerville），瑞典預計4-2-3-1或5-3-2（Nordfeldt; Hien, Lindelöf, Lagerbielke; Ayari/Svanberg; Isak, Gyökeres）"
+    ],
+    "consensus_lean": "市場與統計模型共同傾向荷蘭獲勝（主流莊家隱含機率約57-60%，Polymarket 56.5%，onthepitch.now 58.9%），推薦比分2:1；荷蘭中場Frenkie de Jong控場優勢明顯，積分壓力迫使荷蘭主動進攻，歷史交鋒記錄亦偏向荷蘭；但多個分析師及AI模型（如YouTube統計模型）預測平局概率較高（達39%），2:2亦屬熱門比分，兩隊均有進球（BTTS）的共識在51-54%，預計為一場進球場面",
+    "dissent": "少數異見：部分模型（如MEXC分析、YouTube rCDPS5q_0V8）認為平局機率高達39%，甚至三向幾乎均等（各32%）；Goonersguide認為莊家嚴重高估荷蘭（真實勝率僅約45%），建議投注瑞典讓球；理由是荷蘭陣容因多名主力缺陣（Simons、de Ligt、Timber等）而被嚴重削弱，且首戰對日本已暴露定位球防守漏洞；另一風險情境為Isak全速出戰並複製突尼西亞場表現，屆時荷蘭後防恐不足以應付，瑞典以2:1或2:2反超亦非小概率"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "荷蘭主場戰力強悍，瑞典進攻乏力難破門。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力佔優，主場氣勢加持下有望小勝瑞典。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力較強，主導比賽節奏，預料小勝瑞典。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭攻勢更勝一籌，小勝瑞典鎖定關鍵三分"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體陣容實力佔優，預計能在激戰中擊退瑞典。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.25,
+        "away": 0.17
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭實力占優，主場優勢預計取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "荷蘭整體實力優勢明顯，預計穩勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.556,
+      "draw": 0.251,
+      "away": 0.193
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-18T171240Z"
+}

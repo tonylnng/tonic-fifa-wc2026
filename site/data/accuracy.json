@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-18T09:16:13Z",
+  "last_updated": "2026-06-18T17:12:48Z",
   "metrics": {
     "total_evaluated": 20,
     "outcome_correct": 10,
