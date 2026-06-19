@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-19T01:16:45Z",
+  "last_updated": "2026-06-19T09:15:33Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -4392,6 +4392,34 @@
       ]
     },
     {
+      "id": "MEX-romo",
+      "name_en": "Luis Romo",
+      "name_zh": "路易斯·羅莫",
+      "team": "Mexico",
+      "team_zh": "墨西哥",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          28
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/mexico-vs-korea-republic/report/549793",
+        "https://www.espn.com/soccer/story/_/id/49110685/mexico-south-korea-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.theguardian.com/football/2026/jun/19/mexico-south-korea-world-cup-2026-group-a-match-report",
+        "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+        "https://www.cbssports.com/soccer/news/mexico-vs-south-korea-live-updates-world-cup-2026-score-result/live/"
+      ]
+    },
+    {
       "id": "MEX-alvarez",
       "name_en": "Edson Álvarez",
       "name_zh": "艾華雷斯",
@@ -6858,6 +6886,62 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "KOR-lee_kangin",
+      "name_en": "Lee Kang-In",
+      "name_zh": "李剛仁",
+      "team": "South Korea",
+      "team_zh": "南韓",
+      "position": "",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          28
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/mexico-vs-korea-republic/report/549793",
+        "https://www.espn.com/soccer/story/_/id/49110685/mexico-south-korea-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.theguardian.com/football/2026/jun/19/mexico-south-korea-world-cup-2026-group-a-match-report",
+        "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+        "https://www.cbssports.com/soccer/news/mexico-vs-south-korea-live-updates-world-cup-2026-score-result/live/"
+      ]
+    },
+    {
+      "id": "KOR-paik",
+      "name_en": "Paik Seung-Ho",
+      "name_zh": "白昇浩",
+      "team": "South Korea",
+      "team_zh": "南韓",
+      "position": "",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          28
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/mexico-vs-korea-republic/report/549793",
+        "https://www.espn.com/soccer/story/_/id/49110685/mexico-south-korea-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.theguardian.com/football/2026/jun/19/mexico-south-korea-world-cup-2026-group-a-match-report",
+        "https://www.bbc.com/sport/football/live/cvgme6np19pt",
+        "https://www.cbssports.com/soccer/news/mexico-vs-south-korea-live-updates-world-cup-2026-score-result/live/"
+      ]
     },
     {
       "id": "ESP-olmo",

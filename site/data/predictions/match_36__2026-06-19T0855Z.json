@@ -1,0 +1,629 @@
+{
+  "match": 36,
+  "home": "Tunisia",
+  "away": "Japan",
+  "home_zh": "突尼西亞",
+  "away_zh": "日本",
+  "stage": "Group F",
+  "kickoff_utc": "2026-06-21T04:00:00Z",
+  "kickoff_hkt": "2026-06-21 12:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-19T0855Z",
+  "run_timestamp": "2026-06-19T08:55:00Z",
+  "source_count": 104,
+  "sources": [
+    {
+      "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/preview/tunisia-vs-japan-prediction-team-news-lineups_599494.html",
+      "type": "news"
+    },
+    {
+      "url": "https://africa.espn.com/football/story/_/id/49106410/fifa-world-cup-2026-tunisia-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760449/japan-tunisia",
+      "type": "official"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/tunisia-vs-japan-predictions-team-news-odds-betting-tips-bet-builder-a1nmS7s9uYmG/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/netherlands-japan-lineups-starting-11-world-cup-2026/d6a1792347ab092c9cf996cc",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/tunisia-japan-world-cup-preview/blt6f5bc99ab7c81265",
+      "type": "news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/13/best-in-asia-no-longer-enough-japan-world-cup-breakthrough",
+      "type": "news"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/tunisia-men-team?p=9",
+      "type": "news"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/tunisias-new-coach-faces-baptism-of-fire-against-best-team-in-asia",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49079184/tunisia-hire-renard-lamouchi-exit-world-cup",
+      "type": "news"
+    },
+    {
+      "url": "https://people.com/tunisia-soccer-team-fires-head-coach-one-game-into-2026-world-cup-12000166",
+      "type": "news"
+    },
+    {
+      "url": "https://www.wboc.com/sports/national/tunisia-s-herv-renard-embraces-challenge-against-japan-in-world-cup-debut/article_ae354b87-5d43-5dad-90a7-177e931c3000.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/17/tunisia-renard-coach-world-cup/1108cc06-6a02-11f1-830e-133d20cadd28_story.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.japantimes.co.jp/sports/2026/06/17/soccer/world-cup/tunisia-hires-renard/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.japantimes.co.jp/sports/2026/06/19/soccer/world-cup/herve-renard-first-test-japan/",
+      "type": "news"
+    },
+    {
+      "url": "https://english.adnkronos.com/2026/06/19/japans-kubo-to-miss-world-cup-match-against-tunisia/",
+      "type": "news"
+    },
+    {
+      "url": "https://english.news.cn/asiapacific/20260618/269776bf3f1048338c925001a695e7a7/c.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.starnewskorea.com/en/sports/2026/06/18/2026061810385271602",
+      "type": "news"
+    },
+    {
+      "url": "https://mainichi.jp/english/articles/20260618/p2g/00m/0sp/017000c",
+      "type": "news"
+    },
+    {
+      "url": "https://newsonjapan.com/article/149718.php",
+      "type": "news"
+    },
+    {
+      "url": "https://english.kyodonews.net/articles/-/78176",
+      "type": "news"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-4/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.foxnews.com/sports/tunisia-fires-coach-mid-world-cup-decimated-sweden",
+      "type": "news"
+    },
+    {
+      "url": "https://www.cafonline.com/fifa-world-cup/news/tunisia-appoint-herve-renard-in-bid-to-rescue-2026-world-cup-campaign/",
+      "type": "official"
+    },
+    {
+      "url": "https://qna.org.qa/en/news/news-details?id=2026-fifa-world-cup-herve-renard-appointed-as-tunisias-new-couch&date=16%2F06%2F2026",
+      "type": "official"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+      "type": "official"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Tunisia_squad_2026_FIFA_World_Cup",
+      "type": "official"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Template:Japan_squad_2026_FIFA_World_Cup",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/659/tun",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/627/jpn",
+      "type": "official"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-tun-jpn-2026-06-21",
+      "type": "model"
+    },
+    {
+      "url": "https://footballmeister.com/world-cup-2026/tunisia-japan-2026-06-21/",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/sweden-vs-tunisia-prediction-world-cup-2026-match-preview",
+      "type": "model"
+    },
+    {
+      "url": "https://www.covers.com/world-cup/ai-bracket-predictions-2026",
+      "type": "model"
+    },
+    {
+      "url": "https://aiworldcup2026predictions.com",
+      "type": "model"
+    },
+    {
+      "url": "https://scoregpt.app/world-cup-2026",
+      "type": "model"
+    },
+    {
+      "url": "https://nerdytips.com/blog/tunisia-vs-japan-prediction-2026-06-21/",
+      "type": "model"
+    },
+    {
+      "url": "https://betmines.com/match-preview/tunisia-vs-japan-prediction-match-preview-and-analysis-world-cup-21-06-2026",
+      "type": "model"
+    },
+    {
+      "url": "https://thesportsrush.com/tunisia-v-japan-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/tunisia-vs-japan/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760449",
+      "type": "betting"
+    },
+    {
+      "url": "https://kalshi.com/markets/kxwcgame/world-cup-game/kxwcgame-26jun21tunjpn",
+      "type": "betting"
+    },
+    {
+      "url": "https://sportsbook.fanduel.com/soccer/fifa-world-cup/tunisia-v-japan-35546767",
+      "type": "betting"
+    },
+    {
+      "url": "https://blog.tonybet.com/ca/predictions/tunisia-vs-japan-prediction-odds-sgp-21-06-26/",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/tunisia-vs-japan-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.juvefc.com/tunisia-v-japan-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://thecelticstar.com/tunisia-v-japan-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/tunisia-vs-japan-prediction-betting-tips-june-20th-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/tunisia-vs-japan-prediction-21-06-2026/",
+      "type": "model"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/17/tunisia-v-japan-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.reddit.com/r/football/comments/1u5quii/north_america_world_cup_2026_group_f_analysis/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u5hfbv/world_cup_2026_preview_tunisia_the_eagles_of/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u5g65s/world_cup_2026_preview_japan_overcoming_the_round/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UatR-xDvN6M",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3bZoG986mD0",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ej971ozH0sg",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_BG2A7EJoSU",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pw4Yt6WS6Tk",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=F7gcRmTYHus",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hIJXjY5LMHA",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ffbY6OOoeUA",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4Aw2U8OM1Oc",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gWDZ7TkXro0",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8H8lvdh96tU",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0KRXJx0LXQc",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J5vIaYve1l8",
+      "type": "video"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZkFxmPllqO/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DZthW8Ruws3/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.facebook.com/100064943460154/posts/here-are-the-group-f-standings-of-the-2026-fifa-world-cup-after-matchday-oneafri/1398939905614112/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-injuries-players-missing-2026-fifa-tournament/fc7bc16508cfc5996534ddbc",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-group-f-standings-results-table-2026/d6cc9a7a7d6b2f52b327d936",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/betting/news/world-cup-2026-group-stage-predictions-who-qualify-round-32/739e11e8ea6ee7cb2d7ed094",
+      "type": "news"
+    },
+    {
+      "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-group-stage-table-full-standings-for-all-12-groups",
+      "type": "official"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule-live-scores-group-stage-updates-and-how-to-watch-050724193.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.wsn.com/world-cup/groups/",
+      "type": "betting"
+    },
+    {
+      "url": "https://carthagemagazine.com/tunisia-vs-japan/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/tunisia-vs-japan-vs-group-stage/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.mexc.com/news/1155030",
+      "type": "model"
+    },
+    {
+      "url": "https://www.livetipsportal.com/en/sportsbetting-tips/tunisia-vs-japan-wc-10713842/",
+      "type": "model"
+    },
+    {
+      "url": "https://technosports.co.in/tunisia-vs-japan-match-preview/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.uponreview.com/soccer/world-cup-2026/2026-06-15/sweden-tunisia",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/sweden-5-1-tunisia-5-talking-points-estadio-monterrey-2026-fifa-world-cup",
+      "type": "news"
+    },
+    {
+      "url": "https://blog.ke.sportpesa.com/2026/06/17/tunisia-vs-japan-prediction-world-cup-2026-preview-team-news-current-form-lineups-odds-h2h/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/kubo-injury-blow-sugawara-doan-decisions-predicted-japan-lineup-vs-tunisia_599496.html",
+      "type": "news"
+    },
+    {
+      "url": "https://africasoccer.com/world-cup-2026-herve-renard-embraces-tough-tunisia-challenge-ahead-of-japan-clash/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49038031/sweden-vs-tunisia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/japan-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://news.williamhill.com/football/world-cup/japan/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.prizepicks.com/playbook-article/japan-world-cup-2026-preview-lineup-best-players-group-picks",
+      "type": "news"
+    },
+    {
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-f-preview-betting-odds-prediction-91626",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.mundodeportivo.com/futbol/mundial/20260618/1004196430/tunez-japon-partido-1-000-historia-mundiales-fifa.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.livemint.com/sports/football-news/fifa-world-cup-s-1000th-match-to-be-played-at-monterrey-stadium-in-mexico-tunisia-vs-mexico-to-feature-in-historic-tie/amp-11781767738244.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/tunisia-vs-japan-how-to-watch-stream-world-cup-group-f-match",
+      "type": "official"
+    },
+    {
+      "url": "https://en.thairath.co.th/sport/worldcup/2939537",
+      "type": "news"
+    },
+    {
+      "url": "https://www.chosun.com/english/sports-en/2026/06/16/Y7ZG4JQ62FFXJNKQ6IWEZH7YKA/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.chosun.com/english/sports-en/2026/06/17/243CQV7R2RBSZJ3DWSU7MCNKEQ/",
+      "type": "news"
+    },
+    {
+      "url": "https://fwctimes.com/tunisia-vs-japan-lineups/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.nippon.com/en/japan-data/h02782/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.sfgate.com/sports/article/tunisia-s-herve-renard-embraces-challenge-22308871.php",
+      "type": "news"
+    },
+    {
+      "url": "https://abcnews.com/Sports/wireStory/tunisias-herv-renard-embraces-challenge-japan-world-cup-133949914",
+      "type": "news"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/japan-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.si.com/soccer/world-cup/standings",
+      "type": "official"
+    },
+    {
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/japan-tunisia-2382-5104-5930",
+      "type": "model"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/world-cup-group-f-teams-fixtures-predictions-odds/",
+      "type": "betting"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.13,
+      "draw": 0.24,
+      "away": 0.63
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.72,
+        "basis": "Polymarket預測市場（成交量逾$23萬美元，日本64.5%）、Football Meister Coach AI（日本63%）、MEXC模型（日本58%）與多數超級電腦中位數約62–63%指向日本勝；最常見預測比分為0:2。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.7,
+        "basis": "Bet365、BetUS、BetOnline、FanDuel等莊家將日本列為大熱門（約-190，隱含勝率約63%），突尼西亞約+600（13%），平局約+310（24%）；亞洲讓球日本-0.5、大細盤2.5球。"
+      },
+      {
+        "name": "保守/反方情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "突尼西亞換帥（法國名帥雷納爾）後或有「新帥效應」；Pressing Trap xG模型偏保守（日本xG 1.38 vs 突尼西亞xG 0.92，僅45%日本勝、30%和局），不排除日本受傷兵潮影響而陷入苦戰、爆冷或平局。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.13,
+          "draw": 0.24,
+          "away": 0.63
+        },
+        "scoreline": "0:2",
+        "note": "多家莊家（Bet365、BetUS、BetOnline、FanDuel）均將日本列為大熱門，賠率約-190（勝率約63%）；突尼西亞賠率約+600（13%），平局約+310（24%）；亞洲讓球日本-0.5，大細盤2.5球，多倉家掛「大」於+108至+125之間，反映市場預期低開高走但不排除多球場面。"
+      },
+      {
+        "source": "預測模型/超級電腦（Polymarket/Football Meister/xG 綜合）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.14,
+          "draw": 0.24,
+          "away": 0.62
+        },
+        "scoreline": "0:2",
+        "note": "Polymarket預測市場（$23萬美元成交量）：日本64.5%、平局23.5%、突尼西亞12.5%；Football Meister Coach AI：日本63%、平局23%、突尼西亞14%；Pressing Trap xG模型（Tunisia xG 0.92 vs Japan xG 1.38）：日本45%、平局30%、突尼西亞25%；綜合多個模型中位數為日本約62%、平局24%、突尼西亞14%；最常見預測比分為0-2（日本勝）。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "日本（亞洲傳統強隊）首戰展現實力，本場面對首戰0-5慘敗、緊急換帥（法國名帥雷納爾，僅約5天備戰）的突尼西亞，主流博彩與AI模型壓倒性看好日本。雖然日本有久保建英（膝）、三笘薰（膕繩肌）、遠藤航（腳踝）、南野拓實（ACL）等傷兵潮，但鐮田大地、中村敬斗、上田綺世等核心仍可出戰，整體深度足以掌控比賽。日本對突尼西亞4戰3勝1負、世界盃從未落敗（2002年2-0）。綜合博彩63%、Polymarket 64.5%、Football Meister 63%，主預測日本0:2客場勝，信心中高（0.72）。突尼西亞的雷納爾「新帥效應」與Pressing Trap保守xG模型為少數異見。",
+    "key_factors": [
+      "突尼西亞首場0-5慘敗於瑞典（入球比1:5），賽後即炒帥，在賽前僅約5天時間內緊急聘用法國名帥艾爾韋·雷納爾（Hervé Renard）擔任新任主帥；新官上任備戰時間極短，戰術磨合存在重大隱患。",
+      "日本頭號球星久保建英（Takefusa Kubo）因對荷蘭時膝蓋受傷，經MRI確認缺陣本場及餘下小組賽；加上賽前已缺陣的三笘薰（Kaoru Mitoma，膕繩肌）、遠藤航（Wataru Endo，腳踝）及南野拓實（Takumi Minamino，ACL），日本攻中缺少核心球員，但整體陣容仍保持競爭力。",
+      "頭碰頭歷史：日本對突尼西亞4場比賽中贏3場（含2002年世界盃2-0勝）；突尼西亞唯一勝仗為2022年友賽3-0客勝。日本在世界盃賽場上從未輸給突尼西亞。",
+      "近期狀態嚴重傾斜：日本近5場4勝1平（含客勝英格蘭、大勝巴西），對荷蘭演出2-2神奇追平；突尼西亞近5場僅1勝1平3敗，合計入2球、失11球（含5-0不敵比利時友賽及5-1大敗瑞典）。",
+      "突尼西亞防線問題嚴重：對瑞典被打出5球，防線組織混亂；新帥雷納爾僅有數天時間整頓，防守體系能否在短期內重建存疑；雷納爾坦言「日本是亞洲最強球隊」。",
+      "日本整體陣容深度依然充裕：中場核心田中碧（Ao Tanaka）、鐮田大地（Daichi Kamada）、中村敬斗（Keito Nakamura）、佐野海舟（Kaishu Sano）均可出戰；前鋒上田綺世（Ayase Ueda）、前田大然（Daizen Maeda）組成強力鋒線；主教練森保一（Moriyasu）明確表示「力爭3分」。",
+      "突尼西亞頭號明星穆斯坎尼（Youssef Msakni）早在賽前因膝蓋傷患退出世界盃陣容；本場突尼西亞最具創意球員漢尼拔·梅賈布里（Hannibal Mejbri）在對瑞典一役只造出2次機會，整場進攻依賴定位球。",
+      "本場是世界盃歷史上第1000場比賽，具里程碑意義，雙方球衣均印有紀念徽章；在G組積分戰略上，突尼西亞必須勝出才能保留晉級希望；日本若勝出則基本鎖定小組出線席位。",
+      "輿論共識極度傾向日本：151位Football Meister用戶中83%預測日本勝；各大媒體（Racing Post、Football Whispers、SportsRush、Sportskeeda、TechnoSports等）均推薦日本獲勝；ChatGPT/AI預測（Covers.com）和多個超級電腦模型亦全數看好日本以2-0或2-1勝出。"
+    ],
+    "consensus_lean": "壓倒性共識傾向日本獲勝。博彩市場、Polymarket預測市場、多個AI模型及足球媒體預測分析網站均以60-65%左右機率看好日本，最多數預測比分為0:2（突尼西亞 對 日本）。突尼西亞賽前換帥、防守羸弱、攻擊缺乏組織被普遍視為關鍵負面因素；日本雖失久保建英但整體陣容厚度仍佔優，且對突尼西亞歷史戰績佔上風。",
+    "dissent": "少數意見認為雷納爾的「新帥效應」不可低估——他曾於2022年率沙特阿拉伯爆冷擊敗阿根廷；此外Pressing Trap xG模型評估日本勝率只有45%（低於市場共識），認為1:1平局概率最高，理由是突尼西亞若以低位防守加定位球騷擾，配合梅賈布里的創意，有機會搏取平局甚至爆冷；Reddit部分球迷亦認為突尼西亞防守體系在雷納爾調教下或有改善。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "雙方實力接近，日本略強但突尼西亞主場難破。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "日本整體實力與戰術素養更勝一籌，預計能小勝突尼西亞。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "0:1",
+      "note": "日本技術與經驗碾壓突尼西亞，料將穩健取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.22,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "日本技術優勢明顯，控制比賽節奏拿下勝利"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "0:1",
+      "note": "日本具備技術與速度優勢，能突破突尼西亞防線取得小勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.29,
+        "draw": 0.31,
+        "away": 0.4
+      },
+      "scoreline": "0:1",
+      "note": "日本整體實力較強，客場預計小勝突尼西亞。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "日本技術戰術優勢明顯，穩操勝券。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.209,
+      "draw": 0.268,
+      "away": 0.523
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-19T091500Z"
+}

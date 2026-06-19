@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T01:16:45Z",
+  "last_updated": "2026-06-19T09:15:33Z",
   "scorers": [
     {
       "id": "CAN-david",
@@ -465,6 +465,18 @@
       "team": "Curacao",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "MEX-romo",
+      "name_zh": "路易斯·羅莫",
+      "name_en": "Luis Romo",
+      "team_zh": "墨西哥",
+      "team": "Mexico",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1324,6 +1336,18 @@
       "red_cards": 0
     },
     {
+      "id": "KOR-lee_kangin",
+      "name_zh": "李剛仁",
+      "name_en": "Lee Kang-In",
+      "team_zh": "南韓",
+      "team": "South Korea",
+      "position": "",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CAN-defougerolles",
       "name_zh": "盧克·德富熱羅爾",
       "name_en": "Luc de Fougerolles",
@@ -1480,6 +1504,18 @@
       "red_cards": 0
     },
     {
+      "id": "KOR-paik",
+      "name_zh": "白昇浩",
+      "name_en": "Paik Seung-Ho",
+      "team_zh": "南韓",
+      "team": "South Korea",
+      "position": "",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ESP-pedri",
       "name_zh": "佩德利",
       "name_en": "Pedri",
@@ -1625,9 +1661,9 @@
     }
   ],
   "totals": {
-    "players": 367,
-    "goals": 82,
-    "yellow_cards": 61,
+    "players": 370,
+    "goals": 83,
+    "yellow_cards": 63,
     "red_cards": 6
   }
 }

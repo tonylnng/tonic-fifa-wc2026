@@ -380,6 +380,20 @@
       "outcome": "home",
       "recorded_at": "2026-06-19T00:00:00Z",
       "source": "[skysports.com](https://www.skysports.com/football/canada-vs-qatar/report/549792)；[espn.com](https://www.espn.com/soccer/report/_/gameId/760440)；[foxsports.com](https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar)；[sportingnews.com](https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89)"
+    },
+    {
+      "match": 28,
+      "stage": "Group A",
+      "home": "Mexico",
+      "away": "South Korea",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scoreline": "1:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-19T08:55:00Z",
+      "source": "[skysports.com](https://www.skysports.com/football/mexico-vs-korea-republic/report/549793)；[espn.com](https://www.espn.com/soccer/story/_/id/49110685/mexico-south-korea-world-cup-2026-latest-updates-commentary-score-result)；[theguardian.com](https://www.theguardian.com/football/2026/jun/19/mexico-south-korea-world-cup-2026-group-a-match-report)；[bbc.com](https://www.bbc.com/sport/football/live/cvgme6np19pt)"
     }
   ]
 }
