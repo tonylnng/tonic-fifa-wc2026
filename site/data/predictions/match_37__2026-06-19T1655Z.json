@@ -1,0 +1,594 @@
+{
+  "match": 37,
+  "home": "Spain",
+  "away": "Saudi Arabia",
+  "home_zh": "西班牙",
+  "away_zh": "沙烏地阿拉伯",
+  "stage": "Group H",
+  "kickoff_utc": "2026-06-21T16:00:00Z",
+  "kickoff_hkt": "2026-06-22 00:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-19T1655Z",
+  "run_timestamp": "2026-06-19T16:55:00Z",
+  "source_count": 95,
+  "sources": [
+    {
+      "url": "https://www.goal.com/en/news/spain-saudi-arabia-world-cup-preview/blt1074ef2b7b2a625b",
+      "type": "news"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d159556fdf-60d8385f463f-1000--spain-at-the-world-cup-2026-squad-fixtures-group-and-history/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/12/world-cup-spain-injuries-yamal-williams-munoz/290f502c-66ab-11f1-bdd4-805ebb99a693_story.html",
+      "type": "news"
+    },
+    {
+      "url": "https://terrikon.com/en/football/matches/156630",
+      "type": "news"
+    },
+    {
+      "url": "https://www.moroccoworldnews.com/2026/06/320041/2026-world-cup-yamal-news-lineups-and-preview-for-spain-vs-cape-verde/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/spain-face-world-cup-newcomers-cape-verde-in-group-h-opener-2026-06-15",
+      "type": "news"
+    },
+    {
+      "url": "https://www.si.com/soccer/why-lamine-yamal-isnt-playing-spain-vs-cabo-verde-2026-world-cup-opener",
+      "type": "news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/world-cup-2026-every-squad-confirmed-b1282020.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.independent.co.uk/sport/football/world-cup-2026-injury-latest-neymar-lamine-yamal-christian-pulisic-b2994892.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/164/esp",
+      "type": "official"
+    },
+    {
+      "url": "https://www.si.com/soccer/spain-predicted-lineup-vs-cabo-verde-world-cup-6-15-26",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/spain-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.dazn.com/en-GB/news/football/why-spain-are-the-team-to-stop-at-world-cup-2026/90nv9a5i6udv1s8m9ycqb3ow9",
+      "type": "news"
+    },
+    {
+      "url": "https://heavy.com/sports/soccer/world-cup/spain-world-cup-squad-club-teams/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.foxsports.com/live-blog/soccer/saudi-arabia-vs-uruguay-live-updates-score-top-plays-from-group-shodown",
+      "type": "news"
+    },
+    {
+      "url": "https://footballmeister.com/world-cup-2026/saudi-arabia-uruguay-2026-06-15/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/655/sort/redCards/dir/desc/appearances",
+      "type": "official"
+    },
+    {
+      "url": "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/saudi-arabia-and-uruguay-seek-group-h-advantage-2026-06-15",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/in/football/news/saudi-arabia-vs-uruguay-lineups-starting-11-world-cup-2026-group-h/29b2a893ee795461fcf80d25",
+      "type": "news"
+    },
+    {
+      "url": "https://fwctimes.com/saudi-arabia/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/saudi-arabia-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://saudigazette.com.sa/article/662239/sports/saudi-arabia-begins-preparations-for-crucial-world-cup-clash-with-spain",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+      "type": "official"
+    },
+    {
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/in/football/news/world-cup-group-h-standings-results-table-2026/d90922c761921d99f9204088",
+      "type": "news"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H",
+      "type": "official"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-h-standings-results-and-who-can-qualify-f202606-n/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/spain-vs-cape-verde/table/549780",
+      "type": "news"
+    },
+    {
+      "url": "https://bleacherreport.com/articles/25440865-world-cup-2026-group-standings-schedule-after-mondays-results-ahead-ko-bracket",
+      "type": "news"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/spain/",
+      "type": "model"
+    },
+    {
+      "url": "https://2026fifa.tw/spain-vs-saudi-arabia-2026-world-cup-group-h-2026-6-22-0000/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.juvefc.com/spain-v-saudi-arabia-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://thefootystatman.com/fixture/spain-vs-saudi-arabia/",
+      "type": "model"
+    },
+    {
+      "url": "https://thesportsrush.com/spain-v-saudi-arabia-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.soccergraph.com/2026/06/spain-vs-suadi-arabia-world-cup-kickoff-time-live-stream-lineups-prediction.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760453",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/spain-vs-saudi-arabia/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.thebettinginsider.com/worldcup/games/spain-vs-saudi-arabia-2026-06-21",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.asianetnews.com/casinos/au/worldcup-2026/spain-vs-saudi-arabia-vs-group-stage/",
+      "type": "model"
+    },
+    {
+      "url": "https://kalshi.com/teams/soccer-team/spain",
+      "type": "model"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/before-spains-first-game-ai-delivers-a-bold-world-cup-verdict-f202606-n/?outputType=amp",
+      "type": "model"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1714645-supercomputer-predicts-2026-fifa-world-cup-winner-spains-draw-cape-verde/",
+      "type": "model"
+    },
+    {
+      "url": "https://cup26matches.com/en/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.abhs.in/blog/fifa-world-cup-2026-final-prediction-spain-france-claude-ai-model-golden-ball-boot",
+      "type": "model"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/spain-vs-saudi-arabia-prediction-21-06-2026/",
+      "type": "model"
+    },
+    {
+      "url": "https://statsalt.com/free-picks/world-cup/spain-vs-saudi-arabia-picks-and-prediction-for-sunday-june-21-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/rodri-criticism-insulting-says-spain-boss-de-la-fuente-2026-06-19",
+      "type": "news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/spain-vs-saudi-arabia-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1286832.html",
+      "type": "news"
+    },
+    {
+      "url": "https://worldsoccertalk.com/amp/world-cup/2026-world-cup-luis-de-la-fuente-defends-spains-performance-after-0-0-draw-against-cape-verde/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/spain-vs-saudi-arabia-prediction-team-news-lineups_599589.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/head-to-head/spain-vs-saudi-arabia-head-to-head-record-and-past-meetings_599579.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/spain-vs-saudi-arabia/549804",
+      "type": "news"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-esp-ksa-2026-06-21",
+      "type": "model"
+    },
+    {
+      "url": "https://polymarket.com/predictions/saudi",
+      "type": "model"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/games/week/1",
+      "type": "model"
+    },
+    {
+      "url": "https://www.predictionhunt.com/odds/world_cup/saudi-arabia-vs-spain-2026-06-21/21402",
+      "type": "model"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u6gn6g/world_cup_2026_preview_spain_la_roja_arrive_with/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u6hczr/world_cup_2026_preview_saudi_arabia_the_green/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/sportsanalytics/comments/1u6gtnp/spain_30_cape_verde_surprisingly_all_9_ai_models/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-rAl5D1IlNI",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wFvc_OgDbtY",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vsULX4ufuGk",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hwk9Ie9qwg8",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lWEIyNedC94",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CRRSAI6UhhE",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yWbbkbd30K8",
+      "type": "video"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZu_2Grk63o/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZoH92ciamz/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZpzhlkNJvl/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DZnb49MN6Z_/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DZniQIivZRl/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/news-run-back-it-can-happen-fans-react-coincidences-suggest-spain-will-win-fifa-world-cup-2026",
+      "type": "social"
+    },
+    {
+      "url": "https://www.pulsesports.ng/story/2026-fifa-world-cup-1-out-of-every-10-casillas-reacts-to-spain-vs-cape-verde-2026061618312591857",
+      "type": "social"
+    },
+    {
+      "url": "https://www.footboom1.com/en/news/football/1763234086-casillas-spain-played-well-in-cape-verde-draw",
+      "type": "social"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj6g88ernggo",
+      "type": "news"
+    },
+    {
+      "url": "https://www.lavanguardia.com/deportes/futbol/20260619/11568679/luis-de-la-fuente-espana-entrevista-mundial-2026.html",
+      "type": "news"
+    },
+    {
+      "url": "https://fwctimes.com/spain-vs-saudi-arabia-lineups/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.freetips.com/football/fifa-world-cup/spain-vs-saudi-arabia-predictions-tips-20260618-0025/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/spain-saudi-arabia-world-cup-preview-predictions-tips-2026-06-18/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.futbol24.com/betting-tips/preview/21-06-2026-spain-saudi-arabia-betting-tip/",
+      "type": "betting"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/18/spain-v-saudi-arabia-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.mexc.com/news/1155130",
+      "type": "model"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/spain-vs-saudi-arabia-predictions-21-06-26/A:blt404e9d1a2eb254f3",
+      "type": "news"
+    },
+    {
+      "url": "https://www.si.com/es-us/futbol/espana-vs-arabia-saudita-previa-predicciones-y-alineaciones-21-6-2026",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59538-Spain-vs-Saudi-Arabia.htm",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.thecelticstar.com/spain-v-saudi-arabia-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.dailysabah.com/sports/football/spain-look-to-avoid-another-world-cup-slip-as-saudi-arabia-await",
+      "type": "news"
+    },
+    {
+      "url": "https://www.ysscores.com/en/news/13986208/history-of-matches-between-spain-and-saudi-arabia-before-sundays-encounter",
+      "type": "news"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/saudi-arabia-vs-uruguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118095",
+      "type": "news"
+    },
+    {
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/saudi-arabia-spain-5050-5087-5930",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760453/saudi-arabia-spain",
+      "type": "official"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/spain-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.prizepicks.com/playbook-article/spain-world-cup-2026-preview-lineup-best-players-group-picks",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.rtve.es/play/videos/directo/mundial-rueda-prensa-luis-de-la-fuente-20-junio/",
+      "type": "official"
+    },
+    {
+      "url": "https://m.allfootballapp.com/news/Headline/World-Cup-predictions-Spain-look-to-dethrone-Messis-Argentina/4547546",
+      "type": "model"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.82,
+      "draw": 0.12,
+      "away": 0.06
+    },
+    "confidence": 0.83,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.25
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.83,
+        "basis": "Polymarket預測市場（成交量逾$70.8萬美元，西班牙88.5%）、Kalshi（88.5%）、Opta超級電腦（西班牙奪冠機率15.96%全場最高）與Goldman Sachs Elo模型（26%最高）一致將西班牙列為壓倒性大熱門；主流AI統計模型最常見預測為2:0或3:0西班牙淨勝。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.82,
+        "basis": "BetOnline、Ladbrokes等莊家西班牙賠率約1/9（-900，隱含約86%），平局約11/1，沙烏地阿拉伯約28/1（約4.5%）；歐洲盤西班牙讓2至2.5球、大小球開3球線，反映市場對西班牙壓倒性優勢的高度共識。"
+      },
+      {
+        "name": "保守/反方情境",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "西班牙首輪0:0悶平暴露破門效率問題；沙烏地阿拉伯無傷患、依賴低位防守反擊，新帥上任僅7週或以鐵桶陣拖延比賽，不排除西班牙僅小勝1:0甚至再度被逼悶和的低比分情境。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.86,
+          "draw": 0.095,
+          "away": 0.045
+        },
+        "scoreline": "2:0",
+        "note": "主流博彩盤口西班牙賠率約1/9（-900），平局約11/1（+900），沙烏地阿拉伯約28/1（+2000），市場隱含西班牙勝率高達85至90%；歐洲盤西班牙讓2至2.5球，大小球開3球線；反映市場對西班牙壓倒性優勢的高度共識。"
+      },
+      {
+        "source": "預測模型/超級電腦（Opta/Polymarket/Kalshi/Goldman Sachs 綜合）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.85,
+          "draw": 0.09,
+          "away": 0.04
+        },
+        "scoreline": "2:0",
+        "note": "Opta超級電腦跑25,000次模擬，西班牙奪冠機率15.96%（全場最高）；預測市場Polymarket西班牙單場勝率88.5%（$708K交易量）、Kalshi 88.5%；Goldman Sachs Elo模型西班牙奪冠機率26%；多個AI統計模型預測比分2:0或3:0西班牙勝，主流比分預測高度集中在西班牙2至3球淨勝。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "西班牙（2024歐國盃冠軍級陣容、FIFA排名前列）面對亞洲球隊沙烏地阿拉伯，實力差距懸殊。首輪0:0悶平後西班牙有強烈反彈動機，教練明言將提升進攻節奏，亞馬爾（Yamal）與尼科·威廉斯（Nico Williams）雙翼預計首發全開。H組四隊同積1分，西班牙需取三分掌握晉級主動。歷史交鋒西班牙3戰全勝（總比分9:2，含2012年5:0）。博彩隱含西班牙約86%、Polymarket/Kalshi 88.5%、Opta與Goldman模型皆列其為奪冠大熱，主流比分預測集中於2:0或3:0淨勝。主預測西班牙2:0主場勝，信心高（0.83）。沙烏地新帥僅上任7週、依賴低位防反，西班牙破門效率問題為唯一變數，反方情境為1:0小勝或再度悶和。",
+    "key_factors": [
+      "西班牙FIFA排名世界第2（2026年6月），為本屆世界盃最大熱門之一，2024歐國盃冠軍，近32場不敗，綜合實力遠超沙烏地阿拉伯（FIFA排名第61）。",
+      "拉明·亞馬爾（Lamine Yamal）預計將首次先發出場：首輪對維德角僅替補登場19分鐘，本場預計從首發登場；尼科·威廉斯（Nico Williams）亦有望復出先發，雙翼齊備令西班牙攻擊線大幅提升。",
+      "西班牙首輪0:0悶平世界盃首次參賽的維德角，受到廣泛批評，教練德拉富恩特（De la Fuente）明確表示本場將提升進攻節奏，球隊有強烈反彈動機。",
+      "沙烏地阿拉伯首輪以1:1戰平烏拉圭，表現出色；門將穆罕默德·阿爾·奧瓦伊斯（Mohammed Al-Owais）全場9次撲救，展現頑強防守意志；陣容無傷患，士氣高昂。",
+      "H組積分榜四隊同積1分，西班牙必須在本場拿三分以確保晉級主動權；壓力下反彈是主流預測方向。",
+      "歷史交鋒：西班牙3勝0平0負（9球進、2球失），包括2006年世界盃1:0、2012年熱身賽5:0大勝；沙烏地阿拉伯從未在正式賽事擊敗西班牙。",
+      "沙烏地阿拉伯2022年曾爆冷擊敗阿根廷，本屆新教練格奧爾基奧斯·多尼斯（Georgios Donis）在開賽前7週才上任，戰術磨合有限；95%球員效力沙烏地聯賽，歐洲頂尖球員Saud Abdulhamid（蘭斯）是唯一例外。",
+      "西班牙中場擁有世界最高水準：羅德里（Rodri）、佩德里（Pedri）、法比安·魯伊斯（Fabian Ruiz）控球能力出眾，沙烏地阿拉伯低位防守將面臨巨大壓力。",
+      "博彩大小球線為3球（多數盤口Over 3 -140），反映市場認為比賽得分中等；BTTS（兩隊皆進球）市場偏向「否」，顯示沙烏地阿拉伯進球機會有限。",
+      "Polymarket、Kalshi等預測市場交易量逾70萬美元，西班牙勝率均維持在88至89%，顯示市場高度共識看好西班牙。"
+    ],
+    "consensus_lean": "主流共識壓倒性看好西班牙獲勝：博彩盤口（85-90%隱含勝率）、預測市場（Polymarket/Kalshi 88.5%）、Opta超級電腦（15.96%奪冠機率全場最高）、主流媒體（Goal、Sports Mole、Evening Standard、Ladbrokes等）及多數KOL/分析師均預測西班牙以2:0或3:0獲勝；亞馬爾先發登場被視為本場決定性因素。",
+    "dissent": "少數聲音提醒沙烏地阿拉伯2022年創下世界盃最大爆冷神話（1:0擊敗阿根廷），且本屆首輪僅落後烏拉圭10分鐘；部份分析師（如The Betting Insider、MEXC）指出西班牙首輪創造力不足，認為比分可能更接近1:0而非大勝，並警告世界盃小組賽出現驚喜的概率不可忽視；一個YouTube戰術模型（wFvc_OgDbtY）給出西班牙勝率僅68%的較保守估計，並提出2:1作為可能比分。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.86,
+        "draw": 0.1,
+        "away": 0.04
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力遠超對手，主場進攻火力壓制輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力佔優，預計輕鬆拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.14,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "西班牙實力明顯佔優，沙烏地難擋鬥牛士傳控，輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "西班牙攻勢全面壓制，沙國難以抵擋。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.8,
+        "draw": 0.15,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力與控球優勢明顯，沙烏地阿拉伯難以爆冷。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.82,
+        "draw": 0.12,
+        "away": 0.06
+      },
+      "scoreline": "2:0",
+      "note": "西班牙實力雄厚，沙烏地難以抗衡，主場穩勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.16,
+        "away": 0.06
+      },
+      "scoreline": "3:0",
+      "note": "西班牙實力遠勝，預料掌控全場大勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.812,
+      "draw": 0.129,
+      "away": 0.059
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-19T172148Z"
+}
