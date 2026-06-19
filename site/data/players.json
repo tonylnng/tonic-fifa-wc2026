@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-18T09:16:09Z",
+  "last_updated": "2026-06-19T01:16:45Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -776,11 +776,45 @@
       "bio_zh": "波斯尼亞傳奇隊長，歷史最佳射手，曾效力曼城、羅馬、國際米蘭等豪門，技術全面、大賽經驗豐富，40歲仍帶領球隊出征人生首屆世界盃，是當之無愧的民族英雄。",
       "stats": {
         "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          26
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
+    },
+    {
+      "id": "BIH-mahmic",
+      "name_en": "Ermin Mahmic",
+      "name_zh": "埃爾明·馬赫米奇",
+      "team": "Bosnia & Herzegovina",
+      "team_zh": "波黑",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          26
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
     },
     {
       "id": "BIH-lukic",
@@ -850,6 +884,33 @@
       "sources": []
     },
     {
+      "id": "BIH-muharemovic",
+      "name_en": "Tarik Muharemovic",
+      "name_zh": "塔里克·穆哈雷莫維奇",
+      "team": "Bosnia & Herzegovina",
+      "team_zh": "波黑",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 1,
+        "matches_with_events": [
+          26
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
+    },
+    {
       "id": "BIH-dedic",
       "name_en": "Amar Dedić",
       "name_zh": "德迪奇",
@@ -863,11 +924,18 @@
       "bio_zh": "波斯尼亞年輕右後衛，效力本菲卡，以積極助攻和快速突破見稱，是波斯尼亞隊最具潛力的旅歐球員之一，右路進攻中發揮著重要作用。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          26
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
     },
     {
       "id": "BIH-katic",
@@ -1110,18 +1178,19 @@
       "is_key": true,
       "bio_zh": "加拿大歷史入球王，效力修咸頓，以強壯的身體和禁區內的把握能力著稱，擅長利用身體對抗和頭球得分，是加拿大鋒線的重要支點。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          3
+          3,
+          27
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
-        "https://www.espn.com/soccer/report/_/gameId/760416",
-        "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
+        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+        "https://www.espn.com/soccer/report/_/gameId/760440",
+        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
+        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
       ]
     },
     {
@@ -1137,12 +1206,19 @@
       "is_key": true,
       "bio_zh": "加拿大頭號射手，剛加盟祖雲達斯，在里爾效力期間屢創進球紀錄，射術精準、跑位靈活，是加拿大攻線最大威脅，也是歐洲最受追捧的前鋒之一。",
       "stats": {
-        "goals": 0,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          27
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+        "https://www.espn.com/soccer/report/_/gameId/760440",
+        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
+        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
+      ]
     },
     {
       "id": "CAN-eustaquio",
@@ -1203,6 +1279,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "CAN-saliba",
+      "name_en": "Nathan Saliba",
+      "name_zh": "內森·薩利巴",
+      "team": "Canada",
+      "team_zh": "加拿大",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          27
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+        "https://www.espn.com/soccer/report/_/gameId/760440",
+        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
+        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
+      ]
     },
     {
       "id": "CAN-davies",
@@ -2020,6 +2123,33 @@
       "sources": []
     },
     {
+      "id": "CZE-sadilek",
+      "name_en": "Michal Sadílek",
+      "name_zh": "米夏爾·薩迪萊克",
+      "team": "Czech Republic",
+      "team_zh": "捷克",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          25
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/czech-republic-vs-south-africa/549790",
+        "https://africa.espn.com/football/match/_/gameId/760438",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-czechia-vs-south-africa-jun-18-2026-game-boxscore-647640",
+        "https://heavy.com/sports/soccer/world-cup/czech-republic-vs-south-africa-match-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
       "id": "CZE-krejci",
       "name_en": "Ladislav Krejčí",
       "name_zh": "克雷基",
@@ -2033,17 +2163,18 @@
       "bio_zh": "捷克隊長，效力狼隊，是球隊後防線的核心組織者，以冷靜應對和出球能力見稱，年紀輕輕已承擔起領袖重任，是捷克防線的定海神針。",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          2
+          2,
+          25
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/korea-republic-vs-czech-republic/549766",
-        "https://www.espn.com/soccer/report/_/gameId/760414",
-        "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report",
-        "https://www.espn.com/soccer/match/_/gameId/760414/czechia-south-korea"
+        "https://www.skysports.com/football/czech-republic-vs-south-africa/549790",
+        "https://africa.espn.com/football/match/_/gameId/760438",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-czechia-vs-south-africa-jun-18-2026-game-boxscore-647640",
+        "https://heavy.com/sports/soccer/world-cup/czech-republic-vs-south-africa-match-results-today-fifa-world-cup-2026-live-score-updates-stats/"
       ]
     },
     {
@@ -5668,6 +5799,60 @@
       "sources": []
     },
     {
+      "id": "QAT-madibo",
+      "name_en": "Assim Madibo",
+      "name_zh": "阿西姆·馬迪博",
+      "team": "Qatar",
+      "team_zh": "卡達",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 1,
+        "matches_with_events": [
+          27
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+        "https://www.espn.com/soccer/report/_/gameId/760440",
+        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
+        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
+      ]
+    },
+    {
+      "id": "QAT-elamin",
+      "name_en": "Homam El Amin",
+      "name_zh": "霍馬姆·阿爾阿明",
+      "team": "Qatar",
+      "team_zh": "卡達",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 1,
+        "matches_with_events": [
+          27
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+        "https://www.espn.com/soccer/report/_/gameId/760440",
+        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
+        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
+      ]
+    },
+    {
       "id": "QAT-gaber",
       "name_en": "Jassem Gaber",
       "name_zh": "賈西姆·蓋伯",
@@ -6310,18 +6495,19 @@
       "is_key": true,
       "bio_zh": "南非中場發動機，效力馬梅洛迪桑唐斯，以奔跑能力強、搶截積極見稱，是南非中場組織核心，也是球隊最具進攻威脅的中場球員。",
       "stats": {
-        "goals": 0,
-        "yellow_cards": 1,
+        "goals": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          1
+          1,
+          25
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/mexico-vs-s-africa/report/549767",
-        "https://www.espn.com/soccer/report/_/gameId/760415",
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-south-africa-jun-11-2026-game-boxscore-647616?tab=playbyplay"
+        "https://www.skysports.com/football/czech-republic-vs-south-africa/549790",
+        "https://africa.espn.com/football/match/_/gameId/760438",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-czechia-vs-south-africa-jun-18-2026-game-boxscore-647640",
+        "https://heavy.com/sports/soccer/world-cup/czech-republic-vs-south-africa-match-results-today-fifa-world-cup-2026-live-score-updates-stats/"
       ]
     },
     {
@@ -6349,6 +6535,33 @@
         "https://www.espn.com/soccer/report/_/gameId/760415",
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
         "https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-south-africa-jun-11-2026-game-boxscore-647616?tab=playbyplay"
+      ]
+    },
+    {
+      "id": "RSA-mbatha",
+      "name_en": "Thalente Mbatha",
+      "name_zh": "塔蘭特·姆巴薩",
+      "team": "South Africa",
+      "team_zh": "南非",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          25
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/czech-republic-vs-south-africa/549790",
+        "https://africa.espn.com/football/match/_/gameId/760438",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-czechia-vs-south-africa-jun-18-2026-game-boxscore-647640",
+        "https://heavy.com/sports/soccer/world-cup/czech-republic-vs-south-africa-match-results-today-fifa-world-cup-2026-live-score-updates-stats/"
       ]
     },
     {
@@ -7004,6 +7217,60 @@
       "sources": []
     },
     {
+      "id": "SUI-manzambi",
+      "name_en": "Johan Manzambi",
+      "name_zh": "約翰·曼贊比",
+      "team": "Switzerland",
+      "team_zh": "瑞士",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 2,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          26
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
+    },
+    {
+      "id": "SUI-vargas",
+      "name_en": "Rubén Vargas",
+      "name_zh": "魯本·巴加斯",
+      "team": "Switzerland",
+      "team_zh": "瑞士",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          26
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
+    },
+    {
       "id": "SUI-freuler",
       "name_en": "Remo Freuler",
       "name_zh": "弗羅伊勒",
@@ -7036,12 +7303,19 @@
       "is_key": true,
       "bio_zh": "瑞士隊長，現效力桑德蘭，曾長期效力阿仙奴及拜爾勒沃庫森，是瑞士中場的精神核心，以強悍的搶截、遠射和領袖氣質著稱，帶領瑞士多次在大賽中爆冷。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          26
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+      ]
     },
     {
       "id": "SUI-zakaria",
@@ -7068,6 +7342,33 @@
         "https://www.espn.com/soccer/report/_/gameId/760420",
         "https://www.theguardian.com/football/2026/jun/13/qatar-switzerland-world-cup-match-report",
         "https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar"
+      ]
+    },
+    {
+      "id": "SUI-elvedi",
+      "name_en": "Nico Elvedi",
+      "name_zh": "尼科·埃爾韋迪",
+      "team": "Switzerland",
+      "team_zh": "瑞士",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          26
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
+        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
+        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
       ]
     },
     {

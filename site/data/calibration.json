@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-18T17:12:48Z",
-  "total_evaluated": 20,
+  "last_updated": "2026-06-19T01:19:32Z",
+  "total_evaluated": 23,
   "buckets": [
     {
       "bucket": "<50%",
@@ -26,18 +26,18 @@
       "lower": 0.6,
       "upper": 0.7,
       "mid": 0.65,
-      "count": 5,
-      "hit_rate": 0.4,
-      "avg_confidence": 0.62
+      "count": 7,
+      "hit_rate": 0.4286,
+      "avg_confidence": 0.6171
     },
     {
       "bucket": "70-80%",
       "lower": 0.7,
       "upper": 0.8,
       "mid": 0.75,
-      "count": 6,
-      "hit_rate": 0.6667,
-      "avg_confidence": 0.7333
+      "count": 7,
+      "hit_rate": 0.7143,
+      "avg_confidence": 0.7329
     },
     {
       "bucket": "80-90%",
@@ -58,8 +58,8 @@
       "avg_confidence": null
     }
   ],
-  "brier_score": 0.2655,
-  "ece": 0.1615,
-  "overconfidence": 0.1435,
-  "notes": "已評估 20 場：AI 平均信心高於實際命中率約 14 個百分點，呈現過度自信傾向。"
+  "brier_score": 0.254,
+  "ece": 0.1383,
+  "overconfidence": 0.1226,
+  "notes": "已評估 23 場：AI 平均信心高於實際命中率約 12 個百分點，呈現過度自信傾向。"
 }

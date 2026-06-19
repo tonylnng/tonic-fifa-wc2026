@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-06-18T09:16:09Z",
+  "last_updated": "2026-06-19T01:16:45Z",
   "scorers": [
+    {
+      "id": "CAN-david",
+      "name_zh": "喬納森·大衛",
+      "name_en": "Jonathan David",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "ARG-messi",
       "name_zh": "美斯",
@@ -10,6 +22,18 @@
       "position": "FW",
       "shirt_no": 10,
       "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CAN-larin",
+      "name_zh": "拉林",
+      "name_en": "Cyle Larin",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -57,6 +81,18 @@
       "team": "England",
       "position": "FW",
       "shirt_no": 9,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "SUI-manzambi",
+      "name_zh": "約翰·曼贊比",
+      "name_en": "Johan Manzambi",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "FW",
+      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -194,18 +230,6 @@
       "red_cards": 0
     },
     {
-      "id": "CAN-larin",
-      "name_zh": "拉林",
-      "name_en": "Cyle Larin",
-      "team_zh": "加拿大",
-      "team": "Canada",
-      "position": "FW",
-      "shirt_no": 9,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "JPN-kamada",
       "name_zh": "鐮田大地",
       "name_en": "Daichi Kamada",
@@ -254,6 +278,18 @@
       "red_cards": 0
     },
     {
+      "id": "BIH-mahmic",
+      "name_zh": "埃爾明·馬赫米奇",
+      "name_en": "Ermin Mahmic",
+      "team_zh": "波黑",
+      "team": "Bosnia & Herzegovina",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "GER-nmecha",
       "name_zh": "菲利克斯·恩梅查",
       "name_en": "Felix Nmecha",
@@ -273,6 +309,18 @@
       "team": "USA",
       "position": "MF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "SUI-xhaka",
+      "name_zh": "沙卡",
+      "name_en": "Granit Xhaka",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "MF",
+      "shirt_no": 10,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -398,18 +446,6 @@
       "red_cards": 0
     },
     {
-      "id": "CZE-krejci",
-      "name_zh": "克雷基",
-      "name_en": "Ladislav Krejčí",
-      "team_zh": "捷克",
-      "team": "Czech Republic",
-      "position": "DF",
-      "shirt_no": 7,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "NOR-ostigard",
       "name_zh": "萊奧·厄斯蒂加爾德",
       "name_en": "Leo Østigård",
@@ -506,6 +542,18 @@
       "red_cards": 0
     },
     {
+      "id": "CZE-sadilek",
+      "name_zh": "米夏爾·薩迪萊克",
+      "name_en": "Michal Sadílek",
+      "team_zh": "捷克",
+      "team": "Czech Republic",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "IRN-mohebi",
       "name_zh": "穆赫比",
       "name_en": "Mohammad Mohebi",
@@ -513,6 +561,18 @@
       "team": "Iran",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CAN-saliba",
+      "name_zh": "內森·薩利巴",
+      "name_en": "Nathan Saliba",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -626,6 +686,18 @@
       "red_cards": 0
     },
     {
+      "id": "SUI-vargas",
+      "name_zh": "魯本·巴加斯",
+      "name_en": "Rubén Vargas",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-gyokeres",
       "name_zh": "維克多·居約克雷斯",
       "name_en": "Viktor Gyökeres",
@@ -722,6 +794,18 @@
       "red_cards": 0
     },
     {
+      "id": "CZE-krejci",
+      "name_zh": "克雷基",
+      "name_en": "Ladislav Krejčí",
+      "team_zh": "捷克",
+      "team": "Czech Republic",
+      "position": "DF",
+      "shirt_no": 7,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "COL-diaz",
       "name_zh": "路易斯·迪亞斯",
       "name_en": "Luis Díaz",
@@ -732,9 +816,33 @@
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
+    },
+    {
+      "id": "RSA-mokoena",
+      "name_zh": "莫科埃納",
+      "name_en": "Teboho Mokoena",
+      "team_zh": "南非",
+      "team": "South Africa",
+      "position": "MF",
+      "shirt_no": 14,
+      "goals": 1,
+      "yellow_cards": 2,
+      "red_cards": 0
     }
   ],
   "discipline": [
+    {
+      "id": "QAT-madibo",
+      "name_zh": "阿西姆·馬迪博",
+      "name_en": "Assim Madibo",
+      "team_zh": "卡達",
+      "team": "Qatar",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 1
+    },
     {
       "id": "MEX-montes",
       "name_zh": "塞薩爾·蒙特斯",
@@ -742,6 +850,18 @@
       "team_zh": "墨西哥",
       "team": "Mexico",
       "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 1
+    },
+    {
+      "id": "QAT-elamin",
+      "name_zh": "霍馬姆·阿爾阿明",
+      "name_en": "Homam El Amin",
+      "team_zh": "卡達",
+      "team": "Qatar",
+      "position": "MF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 0,
@@ -760,6 +880,18 @@
       "red_cards": 1
     },
     {
+      "id": "BIH-muharemovic",
+      "name_zh": "塔里克·穆哈雷莫維奇",
+      "name_en": "Tarik Muharemovic",
+      "team_zh": "波黑",
+      "team": "Bosnia & Herzegovina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 1
+    },
+    {
       "id": "RSA-zwane",
       "name_zh": "滕巴·茲瓦尼",
       "name_en": "Themba Zwane",
@@ -770,6 +902,18 @@
       "goals": 0,
       "yellow_cards": 0,
       "red_cards": 1
+    },
+    {
+      "id": "RSA-mokoena",
+      "name_zh": "莫科埃納",
+      "name_en": "Teboho Mokoena",
+      "team_zh": "南非",
+      "team": "South Africa",
+      "position": "MF",
+      "shirt_no": 14,
+      "goals": 1,
+      "yellow_cards": 2,
+      "red_cards": 0
     },
     {
       "id": "SCO-hickey",
@@ -827,6 +971,18 @@
       "team": "Canada",
       "position": "DF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "BIH-dedic",
+      "name_zh": "德迪奇",
+      "name_en": "Amar Dedić",
+      "team_zh": "波黑",
+      "team": "Bosnia & Herzegovina",
+      "position": "DF",
+      "shirt_no": 7,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -947,6 +1103,18 @@
       "team": "Paraguay",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "BIH-dzeko",
+      "name_zh": "哲高",
+      "name_en": "Edin Džeko",
+      "team_zh": "波黑",
+      "team": "Bosnia & Herzegovina",
+      "position": "FW",
+      "shirt_no": 11,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1132,6 +1300,18 @@
       "red_cards": 0
     },
     {
+      "id": "CZE-krejci",
+      "name_zh": "克雷基",
+      "name_en": "Ladislav Krejčí",
+      "team_zh": "捷克",
+      "team": "Czech Republic",
+      "position": "DF",
+      "shirt_no": 7,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "KOR-lee-gihyuk",
       "name_zh": "李基赫",
       "name_en": "Lee Gi-Hyuk",
@@ -1264,6 +1444,18 @@
       "red_cards": 0
     },
     {
+      "id": "SUI-elvedi",
+      "name_zh": "尼科·埃爾韋迪",
+      "name_en": "Nico Elvedi",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-katic",
       "name_zh": "尼古拉·卡蒂奇",
       "name_en": "Nikola Katić",
@@ -1348,13 +1540,13 @@
       "red_cards": 0
     },
     {
-      "id": "RSA-mokoena",
-      "name_zh": "莫科埃納",
-      "name_en": "Teboho Mokoena",
+      "id": "RSA-mbatha",
+      "name_zh": "塔蘭特·姆巴薩",
+      "name_en": "Thalente Mbatha",
       "team_zh": "南非",
       "team": "South Africa",
       "position": "MF",
-      "shirt_no": 14,
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1433,9 +1625,9 @@
     }
   ],
   "totals": {
-    "players": 357,
-    "goals": 70,
-    "yellow_cards": 55,
-    "red_cards": 3
+    "players": 367,
+    "goals": 82,
+    "yellow_cards": 61,
+    "red_cards": 6
   }
 }

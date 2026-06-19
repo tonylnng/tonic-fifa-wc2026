@@ -338,6 +338,48 @@
       "outcome": "away",
       "recorded_at": "2026-06-18T02:00:00Z",
       "source": "[espn.com](https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan)；[skysports.com](https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787)；[foxsports.com](https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639)"
+    },
+    {
+      "match": 25,
+      "stage": "Group A",
+      "home": "Czech Republic",
+      "away": "South Africa",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreline": "1:1",
+      "outcome": "draw",
+      "recorded_at": "2026-06-18T18:00:00Z",
+      "source": "[skysports.com](https://www.skysports.com/football/czech-republic-vs-south-africa/549790)；[africa.espn.com](https://africa.espn.com/football/match/_/gameId/760438)；[foxsports.com](https://www.foxsports.com/soccer/fifa-world-cup-men-czechia-vs-south-africa-jun-18-2026-game-boxscore-647640)；[heavy.com](https://heavy.com/sports/soccer/world-cup/czech-republic-vs-south-africa-match-results-today-fifa-world-cup-2026-live-score-updates-stats/)"
+    },
+    {
+      "match": 26,
+      "stage": "Group B",
+      "home": "Switzerland",
+      "away": "Bosnia & Herzegovina",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "scoreline": "4:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-18T21:00:00Z",
+      "source": "[skysports.com](https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791)；[espn.co.uk](https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland)；[foxsports.com](https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641)；[fotmob.com](https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx)"
+    },
+    {
+      "match": 27,
+      "stage": "Group B",
+      "home": "Canada",
+      "away": "Qatar",
+      "score": {
+        "home": 6,
+        "away": 0
+      },
+      "scoreline": "6:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-19T00:00:00Z",
+      "source": "[skysports.com](https://www.skysports.com/football/canada-vs-qatar/report/549792)；[espn.com](https://www.espn.com/soccer/report/_/gameId/760440)；[foxsports.com](https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar)；[sportingnews.com](https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89)"
     }
   ]
 }

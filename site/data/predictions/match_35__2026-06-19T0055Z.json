@@ -1,0 +1,262 @@
+{
+  "match": 35,
+  "home": "Ecuador",
+  "away": "Curacao",
+  "home_zh": "厄瓜多",
+  "away_zh": "庫拉索",
+  "stage": "Group E",
+  "kickoff_utc": "2026-06-21T00:00:00Z",
+  "kickoff_hkt": "2026-06-21 08:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-19T0055Z",
+  "run_timestamp": "2026-06-19T00:55:00Z",
+  "source_count": 53,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
+    "https://footballpredictions.com/footballpredictions/world-cup-predictions/ecuador-vs-curacao-prediction-21-06-2026/",
+    "https://www.juvefc.com/ecuador-v-curacao-predictions/",
+    "https://thesportsrush.com/ecuador-v-curacao-predictions/",
+    "https://www.goal.com/en/news/ecuador-curacao-world-cup-preview/bltf1db9902de34c7ea",
+    "https://www.espn.com/soccer/odds/_/gameId/760446",
+    "https://www.offshoresportsbooks.com/picks/soccer/2026/ecuador-vs-curacao-world-cup-group-j-odds-and-picks-june-20/",
+    "https://www.directv.com/insider/curacao-vs-ecuador/",
+    "https://sports.yahoo.com/articles/ecuador-vs-cura-ao-prediction-092000474.html",
+    "https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles/ivory-coast-1-0-ecuador-super-sub-amad-snatches-late-winner-in-group-e-showdown-2026-06-15",
+    "https://predictnext.ai/match/ecuador-vs-curacao-prediction-june-2026-19609174",
+    "https://footballmeister.com/world-cup-2026/ecuador-cura%C3%A7ao-2026-06-21/",
+    "https://www.sportsmole.co.uk/football/world-cup/ecuador-vs-curacao_game_248810.html",
+    "https://sportsbook.fanduel.com/soccer/fifa-world-cup/ecuador-v-curacao-35546801",
+    "https://www.goonersguide.com/football-pick-59524-Ecuador-vs-Curacao.htm",
+    "https://www.mexc.com/news/1154923",
+    "https://www.espn.com/soccer/report/_/gameId/760422",
+    "https://www.racingpost.com/sport/football-tips/world-cup-2026/ecuador-vs-curacao-predictions-team-news-odds-betting-tips-bet-builder-anHRj5I7yf2y/",
+    "https://www.sportsline.com/insiders/ecuador-vs-curacao-odds-predictions-2026-world-cup-picks-by-proven-soccer-expert/",
+    "https://www.dimers.com/bet-hub/swc/schedule/2026_2_ecu_cur",
+    "https://www.whoscored.com/articles/wBH4z47rhUmlNzKpXkQ5Mw/show/whoscoreds-world-cup-2026-group-e-preview-prediction",
+    "https://www.freetips.com/football/fifa-world-cup/ecuador-vs-curacao-preview-20260617-0028/",
+    "https://en.wikipedia.org/wiki/Ecuador_at_the_FIFA_World_Cup",
+    "https://en.wikipedia.org/wiki/Cura%C3%A7ao_national_football_team",
+    "https://www.reddit.com/r/soccer/comments/1u5grzm/world_cup_2026_preview_ecuador_the_south_american/",
+    "https://www.reddit.com/r/ecuador/comments/1qxb5lg/i_got_tickets_to_see_ecuador_vs_curacao_at_the/",
+    "https://www.reddit.com/r/football/comments/1u5pld6/north_america_world_cup_2026_group_e_analysis_the/",
+    "https://en.as.com/soccer/world-cup/world-cup-2026-group-e-standings-results-and-who-can-qualify-f202606-n/",
+    "https://www.skysports.com/football/news/12098/13543089/world-cup-2026-group-e-guide-fixtures-schedule-standings-and-odds-for-germany-curacao-ivory-coast-and-ecuador",
+    "https://www.espn.com/soccer/story/_/id/49108038/ecuador-curacao-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+    "https://www.fotmob.com/en-GB/matches/ecuador-vs-curacao/jy3jhs3",
+    "https://www.skysports.com/football/ecuador-vs-curacao/549799",
+    "https://www.flashscore.com/match/football/curacao-bLLGpOkQ/ecuador-8tbm8Tri/",
+    "https://thecelticstar.com/ecuador-v-curacao-predictions/",
+    "https://www.youtube.com/watch?v=l1wtAHqnVKw",
+    "https://www.youtube.com/watch?v=aNRvN2JDPs8",
+    "https://www.youtube.com/watch?v=j9ykrbLGkDc",
+    "https://www.youtube.com/watch?v=TMmvsGFSUGw",
+    "https://www.youtube.com/watch?v=B6-Z5ul2ccQ",
+    "https://www.bbc.co.uk/programmes/m002y49s",
+    "https://theanalyst.com/articles/world-cup-2026-group-e-predictions-preview",
+    "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections",
+    "https://www.theguardian.com/football/2026/jun/01/curacao-world-cup-2026-team-guide",
+    "https://www.theguardian.com/football/2026/jun/02/ecuador-world-cup-2026-team-guide",
+    "https://www.sofascore.com/football/match/curacao-germany/lUbsCqx",
+    "https://www.rotowire.com/soccer/article/2026-world-cup-group-e-preview-germany-curacao-ivory-coast-ecuador-tactics-lineups-set-pieces-odds-109286",
+    "https://www.forebet.com/en/football-match-previews/28642-ecuador-vs-curaao-preview-defensive-control-points-toward-a-2-0-result",
+    "https://www.oddschecker.com/tips/football/20260610-world-cup-2026-group-e-fixtures-odds-schedule-predictions",
+    "https://www.sportinglife.com/football/news/world-cup-2026-betting-tips-group-e-predictions-best-bets-and-preview/232189",
+    "https://www.marca.com/en/world-cup/2026/06/16/ecuador-can-go-from-dark-horse-to-earliest-biggest-dissappointment-at-the-world-cup.html",
+    "https://www.straitstimes.com/sport/football/ecuador-under-pressure-to-rebound-against-curacao-at-world-cup",
+    "https://www.si.com/soccer/how-curacao-achieved-impossible-made-world-cup-history",
+    "https://www.concacaf.com/competitions/fifa-world-cup/news/fifa-world-cup-2026-team-profile-curacao"
+  ],
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.77,
+      "draw": 0.14,
+      "away": 0.09
+    },
+    "confidence": 0.78,
+    "top_scorelines": [
+      {
+        "scoreline": "3:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.77,
+        "basis": "Opta（The Analyst）超級電腦及多個AI預測模型（Dimers 81.6%、FootballMeister CoachAI 81%、PredictNext AI 72%、SportsMole統計模型49.3%偏低但為一般公式計算）整體指向厄瓜多勝率75–82%；Opta xG模型預測厄瓜多xG約2.85，庫拉索xG約0.40；多數模型最可能比分為3:0。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.87,
+        "basis": "主流博彩公司（bet365、Pinnacle、William Hill、FanDuel）賠率：厄瓜多主勝約1.08–1.11（隱含機率約87%），和局約10–11、庫拉索勝約19–35；FanDuel賠率厄瓜多 -390（隱含機率約79.6%），和局+605，庫拉索 +1400（隱含機率約6.7%）；整體博彩市場高度一面倒看好厄瓜多。"
+      },
+      {
+        "name": "保守情境（厄瓜多低進球風格窄勝）",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.31,
+        "basis": "少數異見：SportsMole統計模型基於歷史通算數據給出厄瓜多僅49.3%勝率（含庫拉索24.75%），顯示若厄瓜多打回Beccacece慣常低進球保守風格（過去16場12場得分1球以下），比賽可能比預期艱難；Racing Post特別指出厄瓜多很少大勝對手，推薦「厄瓜多勝+不超3.5球」；此外庫拉索Tahith Chong及Juninho Bacuna具備一定個人突破能力，若厄瓜多防線輕敵可能"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.87,
+          "draw": 0.09,
+          "away": 0.04
+        },
+        "scoreline": "3:0",
+        "note": "主流博彩公司（bet365、Pinnacle、William Hill、FanDuel）賠率：厄瓜多主勝約1.08–1.11（隱含機率約87%），和局約10–11、庫拉索勝約19–35；FanDuel賠率厄瓜多 -390（隱含機率約79.6%），和局+605，庫拉索 +1400（隱含機率約6.7%）；整體博彩市場高度一面倒看好厄瓜多。"
+      },
+      {
+        "source": "Opta 超級電腦／AI 模型綜合（Dimers／CoachAI 等）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.77,
+          "draw": 0.14,
+          "away": 0.09
+        },
+        "note": "Opta（The Analyst）超級電腦及多個AI預測模型（Dimers 81.6%、FootballMeister CoachAI 81%、PredictNext AI 72%、SportsMole統計模型49.3%偏低但為一般公式計算）整體指向厄瓜多勝率75–82%；Opta xG模型預測厄瓜多xG約2.85，庫拉索xG約0.40；多數模型最可能比分為3:0。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "厄瓜多（中立場）迎戰世界盃初哥庫拉索，E 組第二輪。Opta（The Analyst）超級電腦及多個AI預測模型（Dimers 81.6%、FootballMeister CoachAI 81%、PredictNext AI 72%、SportsMole統計模型49.3% 主流博彩公司（bet365、Pinnacle、William Hill、FanDuel）賠率：厄瓜多主勝約1.08–1.11（隱含機率約87%），和局約10–11、庫拉索勝約19–35；FanDuel賠率厄瓜多 -390 AI 主預測 3:0（厄瓜多大勝），信心 0.78。",
+    "key_factors": [
+      "厄瓜多首戰0:1負於象牙海岸（第90分鐘被Amad絕殺），全場射中門框三次、進攻表現遠勝結果，xG達1.20卻零進球，數據顯示「進球荒反彈」強烈，本仗必須贏球才能保留出線希望。",
+      "庫拉索首戰1:7慘敗德國，是本屆人口最少（約15.6萬）的參賽國，亦是首次晉身世界盃；備戰期成績惡劣：近期5場客場僅1勝，先後0:2負中國、1:5負澳洲、1:4負蘇格蘭，防線極度脆弱，場均失球超3球。",
+      "傷兵與陣容：厄瓜多隊長Enner Valencia（49國際球）小腿輕傷已康復可出賽；主帥Beccacece預計啟用Kevin Rodriguez先發（Union Saint-Gilloise本季20球），並將Pervis Estupiñán（AC Milan）加入後衛；整體陣容健康，無重大缺陣。庫拉索後衛Armando Obispo承壓但適合出賽，主帥Dick Advocaat（78歲，本屆最年長教練）可能調整陣容。",
+      "陣型與戰術：厄瓜多採Beccacece 4-3-3高位壓迫體系，中場核心Moises Caicedo（Chelsea）控場，後衛Piero Hincapié（Arsenal）和Willian Pacho（PSG）世界級中堅組合（兩人上季共同參與歐冠決賽）；庫拉索4-2-3-1，依靠Tahith Chong（Sheffield United）及Juninho Bacuna（Volendam）創造力，但整體質素差距懸殊。",
+      "歷史交鋒：兩隊史上從未交手，為歷史首次對陣；厄瓜多本屆為第五度參加世界盃（歷史最佳2006年16強），庫拉索則為世界盃首秀；資歷、FIFA排名（厄瓜多23、庫拉索82）及陣容質素差距極大。",
+      "情境壓力：厄瓜多若落敗，出線機會幾近終結（仍需戰德國）；庫拉索若獲分，已屬歷史性成就。厄瓜多面臨強烈的求勝動力，而庫拉索自知難度極高，可能採取防守姿態爭取保住體面比分，但防線於1:7慘敗後信心低落，Beccacece的高壓戰術料能創造大量機會。"
+    ],
+    "consensus_lean": "博彩市場、多個AI模型及媒體分析員高度一致看好厄瓜多大勝：厄瓜多勝率估算77–87%，隱含比分主流傾向2:0至3:0；庫拉索防線在德國比賽中暴露嚴重弱點，厄瓜多則受首戰「門框效應」反彈助力，普遍預期輕鬆三分；首選比分3:0，另有部分分析員看2:0或3:1。",
+    "dissent": "少數異見：SportsMole統計模型基於歷史通算數據給出厄瓜多僅49.3%勝率（含庫拉索24.75%），顯示若厄瓜多打回Beccacece慣常低進球保守風格（過去16場12場得分1球以下），比賽可能比預期艱難；Racing Post特別指出厄瓜多很少大勝對手，推薦「厄瓜多勝+不超3.5球」；此外庫拉索Tahith Chong及Juninho Bacuna具備一定個人突破能力，若厄瓜多防線輕敵可能失球，形成1:2或2:1局面的小概率情境。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "厄瓜多主場實力明顯優於庫拉索，勝券在握。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "厄瓜多爾實力佔優，主場作戰有望穩穩拿下庫拉索。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.2,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "厄瓜多實力明顯佔優，可望輕鬆擊敗庫拉索。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.22,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "厄瓜多實力與經驗優勢明顯，主場穩控節奏取勝"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.8,
+        "draw": 0.15,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "厄瓜多整體實力與大賽經驗遠勝對手，預計能輕鬆壓制庫拉索取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.73,
+        "draw": 0.17,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "厄瓜多實力占優，主場穩取勝利。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.8,
+        "draw": 0.15,
+        "away": 0.05
+      },
+      "scoreline": "2:0",
+      "note": "厄瓜多實力明顯高出一截，庫拉索難以招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.756,
+      "draw": 0.163,
+      "away": 0.081
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-19T011925Z"
+}

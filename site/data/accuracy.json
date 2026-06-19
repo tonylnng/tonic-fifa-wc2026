@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-18T17:12:48Z",
+  "last_updated": "2026-06-19T01:19:32Z",
   "metrics": {
-    "total_evaluated": 20,
-    "outcome_correct": 10,
-    "outcome_accuracy": 0.5,
+    "total_evaluated": 23,
+    "outcome_correct": 12,
+    "outcome_accuracy": 0.5217,
     "exact_score_correct": 1,
-    "exact_score_accuracy": 0.05
+    "exact_score_accuracy": 0.0435
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 20,
-      "outcome_correct": 10,
+      "evaluated": 23,
+      "outcome_correct": 12,
       "exact_correct": 1
     }
   },
@@ -260,6 +260,42 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-06-17T0912Z"
+    },
+    {
+      "match": 25,
+      "home": "Czech Republic",
+      "away": "South Africa",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-17T1655Z"
+    },
+    {
+      "match": 26,
+      "home": "Switzerland",
+      "away": "Bosnia & Herzegovina",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "4:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-17T1655Z"
+    },
+    {
+      "match": 27,
+      "home": "Canada",
+      "away": "Qatar",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "6:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-17T1655Z"
     }
   ]
 }
