@@ -151,6 +151,22 @@ export interface CalibrationData {
   notes?: string;
 }
 
+/** 基準線逐場明細：某來源在單場比賽的預測與命中情況。 */
+export interface BenchmarkMatchDetail {
+  match: number;
+  stage: string;
+  home: string;
+  away: string;
+  home_zh: string;
+  away_zh: string;
+  pred_scoreline: string | null;
+  pred_outcome: "home" | "draw" | "away" | null;
+  final_scoreline: string;
+  final_outcome: "home" | "draw" | "away";
+  outcome_hit: boolean;
+  exact_hit: boolean;
+}
+
 /** 對比基準線排行榜。 */
 export interface BenchmarkScoreRow {
   source: string;
@@ -161,12 +177,16 @@ export interface BenchmarkScoreRow {
   exact_correct: number;
   exact_accuracy: number;
   brier_score: number | null;
+  latest_match?: number | null;
+  stale?: boolean;
+  matches?: BenchmarkMatchDetail[];
 }
 
 export interface BenchmarkScoresData {
   tournament: string;
   last_updated: string;
   total_matches_scored: number;
+  max_match_completed?: number;
   leaderboard: BenchmarkScoreRow[];
   notes?: string;
 }

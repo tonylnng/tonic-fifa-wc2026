@@ -1,8 +1,23 @@
+import { Fragment, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { CalibrationData, BenchmarkScoresData } from "@/lib/types";
+import {
+  CalibrationData,
+  BenchmarkScoresData,
+  BenchmarkScoreRow,
+} from "@/lib/types";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
-import { Gauge, Scale, TriangleAlert, Trophy } from "lucide-react";
+import {
+  Gauge,
+  Scale,
+  TriangleAlert,
+  Trophy,
+  ChevronDown,
+  ChevronRight,
+  Check,
+  X,
+  Target,
+} from "lucide-react";
 import {
   ScatterChart,
   Scatter,
@@ -144,8 +159,90 @@ function ReliabilityChart({ cal }: { cal: CalibrationData }) {
   );
 }
 
+/** 某 AI 模型展開後的逐場明細表：每場預測 vs 實際 + 勝負/比分命中圖示。 */
+function MatchDetailTable({ row }: { row: BenchmarkScoreRow }) {
+  const matches = (row.matches ?? []).slice().sort((a, b) => a.match - b.match);
+  if (matches.length === 0) {
+    return (
+      <div className="px-4 py-3 text-xs text-muted-foreground">
+        尚無逐場明細資料。
+      </div>
+    );
+  }
+  return (
+    <div className="bg-muted/30 px-3 py-3 border-t border-border/60">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mb-2 text-[11px] text-muted-foreground">
+        <span className="flex items-center gap-1">
+          <Check className="w-3.5 h-3.5 text-primary" /> 勝負命中
+        </span>
+        <span className="flex items-center gap-1">
+          <Target className="w-3.5 h-3.5 text-chart-2" /> 比分命中
+        </span>
+        <span className="flex items-center gap-1">
+          <X className="w-3.5 h-3.5 text-destructive" /> 未中
+        </span>
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-xs">
+          <thead>
+            <tr className="text-muted-foreground border-b border-border/60">
+              <th className="text-left font-medium px-2 py-1.5 whitespace-nowrap">場次</th>
+              <th className="text-left font-medium px-2 py-1.5">對戰</th>
+              <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">預測</th>
+              <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">實際</th>
+              <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">勝負</th>
+              <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">比分</th>
+            </tr>
+          </thead>
+          <tbody>
+            {matches.map((m) => (
+              <tr
+                key={m.match}
+                className={`border-b border-border/40 last:border-0 ${
+                  m.exact_hit ? "bg-chart-2/10" : ""
+                }`}
+              >
+                <td className="px-2 py-1.5 tabular-nums text-muted-foreground whitespace-nowrap">
+                  #{m.match}
+                </td>
+                <td className="px-2 py-1.5 whitespace-nowrap">
+                  {m.home_zh} <span className="text-muted-foreground">vs</span>{" "}
+                  {m.away_zh}
+                </td>
+                <td className="px-2 py-1.5 text-center tabular-nums whitespace-nowrap">
+                  {m.pred_scoreline ?? "—"}
+                </td>
+                <td className="px-2 py-1.5 text-center tabular-nums font-semibold whitespace-nowrap">
+                  {m.final_scoreline}
+                </td>
+                <td className="px-2 py-1.5 text-center">
+                  {m.outcome_hit ? (
+                    <Check className="w-4 h-4 text-primary inline" />
+                  ) : (
+                    <X className="w-4 h-4 text-destructive inline" />
+                  )}
+                </td>
+                <td className="px-2 py-1.5 text-center">
+                  {m.exact_hit ? (
+                    <Target className="w-4 h-4 text-chart-2 inline" />
+                  ) : (
+                    <span className="text-muted-foreground">–</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 function Leaderboard({ data }: { data: BenchmarkScoresData }) {
   const lb = data.leaderboard;
+  const [expanded, setExpanded] = useState<Record<number, boolean>>({});
+  const toggle = (i: number) => setExpanded((s) => ({ ...s, [i]: !s[i] }));
+
   return (
     <div className="bg-card border border-card-border rounded-xl overflow-hidden">
       <div className="p-4 pb-2">
@@ -154,7 +251,7 @@ function Leaderboard({ data }: { data: BenchmarkScoresData }) {
           AI vs 市場 vs 超級電腦 — 準確率排行
         </h3>
         <p className="text-xs text-muted-foreground mt-1">
-          在 {data.total_matches_scored} 場已完成比賽上的對照計分（僅納入該來源有提供預測的場次）。
+          在 {data.total_matches_scored} 場已完成比賽上的對照計分（僅納入該來源有提供預測的場次）。點擊 AI 模型列可展開逐場命中明細。
         </p>
       </div>
       <div className="overflow-x-auto">
@@ -168,50 +265,80 @@ function Leaderboard({ data }: { data: BenchmarkScoresData }) {
             </tr>
           </thead>
           <tbody>
-            {lb.map((r, i) => (
-              <tr
-                key={i}
-                className={`border-b border-border/60 last:border-0 ${
-                  r.kind === "ai" ? "bg-primary/5" : ""
-                }`}
-                data-testid={`leaderboard-row-${i}`}
-              >
-                <td className="px-3 py-2.5 font-medium whitespace-nowrap">
-                  <span className="flex items-center gap-1.5">
-                    {r.kind === "ai" ? (
-                      <Badge className="bg-primary text-primary-foreground text-[10px] px-1 py-0">
-                        AI
-                      </Badge>
-                    ) : (
-                      <Badge variant="outline" className="text-[10px] px-1 py-0">
-                        {r.kind === "betting" ? "博彩" : r.kind === "market" ? "市場" : "模型"}
-                      </Badge>
-                    )}
-                    {r.source}
-                  </span>
-                </td>
-                <td className="px-3 py-2.5 text-center tabular-nums">
-                  {pct(r.outcome_accuracy)}
-                  <span className="text-muted-foreground text-xs ml-1">
-                    ({r.outcome_correct}/{r.evaluated})
-                  </span>
-                </td>
-                <td className="px-3 py-2.5 text-center tabular-nums">
-                  {pct(r.exact_accuracy)}
-                  <span className="text-muted-foreground text-xs ml-1">
-                    ({r.exact_correct}/{r.evaluated})
-                  </span>
-                </td>
-                <td className="px-3 py-2.5 text-center tabular-nums text-muted-foreground">
-                  {r.brier_score === null ? "—" : r.brier_score.toFixed(3)}
-                </td>
-              </tr>
-            ))}
+            {lb.map((r, i) => {
+              const isAI = r.kind === "ai";
+              const open = !!expanded[i];
+              return (
+                <Fragment key={i}>
+                  <tr
+                    onClick={isAI ? () => toggle(i) : undefined}
+                    className={`border-b border-border/60 last:border-0 ${
+                      isAI ? "bg-primary/5 cursor-pointer hover:bg-primary/10" : ""
+                    } ${open ? "border-b-0" : ""}`}
+                    data-testid={`leaderboard-row-${i}`}
+                  >
+                    <td className="px-3 py-2.5 font-medium whitespace-nowrap">
+                      <span className="flex items-center gap-1.5">
+                        {isAI ? (
+                          open ? (
+                            <ChevronDown className="w-3.5 h-3.5 text-muted-foreground shrink-0" />
+                          ) : (
+                            <ChevronRight className="w-3.5 h-3.5 text-muted-foreground shrink-0" />
+                          )
+                        ) : (
+                          <span className="w-3.5 shrink-0" />
+                        )}
+                        {isAI ? (
+                          <Badge className="bg-primary text-primary-foreground text-[10px] px-1 py-0">
+                            AI
+                          </Badge>
+                        ) : (
+                          <Badge variant="outline" className="text-[10px] px-1 py-0">
+                            {r.kind === "betting" ? "博彩" : r.kind === "market" ? "市場" : "模型"}
+                          </Badge>
+                        )}
+                        {r.source}
+                        {r.stale && (
+                          <Badge
+                            variant="outline"
+                            className="text-[10px] px-1 py-0 text-amber-500 border-amber-500/50 whitespace-nowrap"
+                          >
+                            已停更·止於 #{r.latest_match}
+                          </Badge>
+                        )}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2.5 text-center tabular-nums">
+                      {pct(r.outcome_accuracy)}
+                      <span className="text-muted-foreground text-xs ml-1">
+                        ({r.outcome_correct}/{r.evaluated})
+                      </span>
+                    </td>
+                    <td className="px-3 py-2.5 text-center tabular-nums">
+                      {pct(r.exact_accuracy)}
+                      <span className="text-muted-foreground text-xs ml-1">
+                        ({r.exact_correct}/{r.evaluated})
+                      </span>
+                    </td>
+                    <td className="px-3 py-2.5 text-center tabular-nums text-muted-foreground">
+                      {r.brier_score === null ? "—" : r.brier_score.toFixed(3)}
+                    </td>
+                  </tr>
+                  {isAI && open && (
+                    <tr>
+                      <td colSpan={4} className="p-0">
+                        <MatchDetailTable row={r} />
+                      </td>
+                    </tr>
+                  )}
+                </Fragment>
+              );
+            })}
           </tbody>
         </table>
       </div>
       <p className="text-[11px] text-muted-foreground p-3 pt-2">
-        Brier 分數越低代表機率校準越好（0 = 完美，1 = 最差）。
+        Brier 分數越低代表機率校準越好（0 = 完美，1 = 最差）。標「已停更」者為早期手動寫入的公開市場/超級電腦基準線，後續批次未再供應資料，樣本有限僅供參考。
       </p>
     </div>
   );
