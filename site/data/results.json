@@ -450,6 +450,34 @@
       "outcome": "away",
       "recorded_at": "2026-06-20T11:03:00Z",
       "source": "https://fdp.fifa.org/assetspublic/ce281/r12470/pdf/FullTimeMatchReport-English.pdf"
+    },
+    {
+      "match": 33,
+      "stage": "Group F",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "score": {
+        "home": 5,
+        "away": 1
+      },
+      "scoreline": "5:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-20T23:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760447"
+    },
+    {
+      "match": 34,
+      "stage": "Group E",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-20T23:00:00Z",
+      "source": "https://www.skysports.com/football/germany-vs-ivory-coast/report/549798"
     }
   ]
 }

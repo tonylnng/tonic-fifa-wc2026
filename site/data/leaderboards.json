@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-06-20T11:11:13Z",
+  "last_updated": "2026-06-20T23:10:29Z",
   "scorers": [
+    {
+      "id": "GER-undav",
+      "name_zh": "德尼茲·溫達夫",
+      "name_en": "Deniz Undav",
+      "team_zh": "德國",
+      "team": "Germany",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "CAN-david",
       "name_zh": "喬納森·大衛",
@@ -22,6 +34,30 @@
       "position": "FW",
       "shirt_no": 10,
       "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "NED-brobbey",
+      "name_zh": "布萊恩·布羅貝",
+      "name_en": "Brian Brobbey",
+      "team_zh": "荷蘭",
+      "team": "Netherlands",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "NED-gakpo",
+      "name_zh": "科迪·卡波",
+      "name_en": "Cody Gakpo",
+      "team_zh": "荷蘭",
+      "team": "Netherlands",
+      "position": "FW",
+      "shirt_no": 11,
+      "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -146,15 +182,15 @@
       "red_cards": 0
     },
     {
-      "id": "SWE-ayari",
-      "name_zh": "亞辛·阿亞里",
-      "name_en": "Yasin Ayari",
-      "team_zh": "瑞典",
-      "team": "Sweden",
-      "position": "MF",
+      "id": "NED-summerville",
+      "name_zh": "克里森西奧·薩默維爾",
+      "name_en": "Crysencio Summerville",
+      "team_zh": "荷蘭",
+      "team": "Netherlands",
+      "position": "FW",
       "shirt_no": null,
       "goals": 2,
-      "yellow_cards": 0,
+      "yellow_cards": 1,
       "red_cards": 0
     },
     {
@@ -164,6 +200,18 @@
       "team_zh": "美國",
       "team": "USA",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SWE-ayari",
+      "name_zh": "亞辛·阿亞里",
+      "name_en": "Yasin Ayari",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "MF",
       "shirt_no": null,
       "goals": 2,
       "yellow_cards": 1,
@@ -225,6 +273,18 @@
       "team": "Ivory Coast",
       "position": "FW",
       "shirt_no": 15,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "SWE-elanga",
+      "name_zh": "安東尼·埃蘭加",
+      "name_en": "Anthony Elanga",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "FW",
+      "shirt_no": 11,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -297,18 +357,6 @@
       "team": "Colombia",
       "position": "DF",
       "shirt_no": 2,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "GER-undav",
-      "name_zh": "德尼茲·溫達夫",
-      "name_en": "Deniz Undav",
-      "team_zh": "德國",
-      "team": "Germany",
-      "position": "FW",
-      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -806,13 +854,13 @@
       "red_cards": 0
     },
     {
-      "id": "NED-summerville",
-      "name_zh": "克里森西奧·薩默維爾",
-      "name_en": "Crysencio Summerville",
-      "team_zh": "荷蘭",
-      "team": "Netherlands",
-      "position": "FW",
-      "shirt_no": null,
+      "id": "CIV-kessie",
+      "name_zh": "法蘭克·基斯",
+      "name_en": "Franck Kessié",
+      "team_zh": "象牙海岸",
+      "team": "Ivory Coast",
+      "position": "MF",
+      "shirt_no": 8,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1175,7 +1223,7 @@
       "team": "Netherlands",
       "position": "FW",
       "shirt_no": null,
-      "goals": 1,
+      "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -1319,7 +1367,7 @@
       "team": "Ivory Coast",
       "position": "MF",
       "shirt_no": 8,
-      "goals": 0,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -1330,6 +1378,18 @@
       "team_zh": "海地",
       "team": "Haiti",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SWE-gudmundsson",
+      "name_zh": "加布里埃爾·古德蒙松",
+      "name_en": "Gabriel Gudmundsson",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "DF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -1559,6 +1619,18 @@
       "team": "Canada",
       "position": "DF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SWE-bergvall",
+      "name_zh": "盧卡斯·伯格瓦爾",
+      "name_en": "Lucas Bergvall",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "MF",
+      "shirt_no": 7,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1828,6 +1900,18 @@
       "red_cards": 0
     },
     {
+      "id": "SWE-ayari",
+      "name_zh": "亞辛·阿亞里",
+      "name_en": "Yasin Ayari",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "TUR-akgun",
       "name_zh": "尤努斯·阿克昆",
       "name_en": "Yunus Akgün",
@@ -1865,9 +1949,9 @@
     }
   ],
   "totals": {
-    "players": 381,
-    "goals": 89,
-    "yellow_cards": 77,
+    "players": 383,
+    "goals": 98,
+    "yellow_cards": 80,
     "red_cards": 7
   }
 }

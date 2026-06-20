@@ -1,0 +1,592 @@
+{
+  "match": 41,
+  "stage": "Group J",
+  "home": "Argentina",
+  "away": "Austria",
+  "kickoff_utc": "2026-06-22T17:00:00Z",
+  "run_id": "2026-06-20T2300Z",
+  "run_timestamp": "2026-06-20T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.62,
+      "draw": 0.24,
+      "away": 0.14
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "阿根廷控制場面穩勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.68,
+        "basis": "阿根廷中場三叉戟控制主動、梅西與勞塔羅雙箭頭高效轉化，奧地利防線無力應付"
+      },
+      {
+        "name": "奧地利高位壓迫製造驚喜",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.18,
+        "basis": "蘭尼克高壓戰術干擾阿根廷出球，奧地利通過快速反擊追平比分"
+      },
+      {
+        "name": "阿根廷大勝奠定出線",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.12,
+        "basis": "梅西延續帽子戲法狀態，後半段加速發力，奧地利打入一球但難以逆轉"
+      },
+      {
+        "name": "奧地利逆轉爆冷",
+        "scoreline": "2:1",
+        "outcome": "away",
+        "confidence": 0.05,
+        "basis": "奧地利利用阿根廷防線失誤、定位球及阿爾納烏托維奇頭槌完成低概率翻盤"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.625,
+          "draw": 0.235,
+          "away": 0.145
+        },
+        "scoreline": "2:1",
+        "note": "去中心化預測市場，超過76萬美元交易量，阿根廷勝率62.5%為市場共識"
+      },
+      {
+        "source": "博彩盤口綜合（BetOnline/BetUS/Betfred）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.615,
+          "draw": 0.225,
+          "away": 0.16
+        },
+        "scoreline": "2:0",
+        "note": "主流博彩商阿根廷勝率介於1.57至1.62（隱含61–64%），奧地利5.50至6.41，平局3.60至4.20"
+      },
+      {
+        "source": "Dimers預測模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.622,
+          "draw": 0.23,
+          "away": 0.148
+        },
+        "scoreline": "2:0",
+        "note": "Dimers數學模型預測阿根廷勝62.2%，最高頻率比分為阿根廷1:0（15%）及2:0（13.1%）"
+      },
+      {
+        "source": "Opta超級電腦（25000次模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.65,
+          "draw": 0.21,
+          "away": 0.14
+        },
+        "scoreline": "2:1",
+        "note": "賽前Opta模擬顯示阿根廷以12.28%機率奪冠（全場第三），對陣奧地利時勝率估計約65%"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "阿根廷以衛冕冠軍身份出戰，在世界盃首場以3:0擊敗阿爾及利亞，梅西上演帽子戲法並追平克洛澤的16球世界盃進球紀錄，狀態如日中天。奧地利在蘭尼克麾下以3:1險勝約旦，時隔28年再戰世界盃，展現了一定競爭力，但與阿根廷相比，無論是陣容深度、個人質素還是大賽經驗均差距顯著。阿根廷主要傷兵塔利亞菲科（小腿）及巴萊爾迪（大腿）缺席，但科爾多巴的梅西、勞塔羅·馬丁內斯、德保羅等核心球員均在狀態，陣容相當完整。奧地利失去鮑姆加特納（大腿傷，缺席整屆）、波什（懷疑骨折面臨缺陣）及阿拉巴（腳部問題，出場存疑），削弱了防守穩定性。博彩盤口、預測市場（Polymarket）及多個分析模型（Dimers、Opta）均一致將阿根廷勝率置於62-65%的區間。歷史交手方面，兩隊友誼賽僅三次碰面（1966年世界盃未有交手），最後一次為1990年1:1平局，最大差距是1980年奧地利主場1:5慘敗。綜合所有因素，阿根廷以2:1小勝的預測最為符合市場共識——阿根廷火力充足但奧地利高壓戰術有一定反擊威脅，主隊在比賽某個階段最可能取得1球的優勢而不是大勝。",
+    "key_factors": [
+      "梅西帽子戲法後狀態極佳，距突破克洛澤世界盃進球記錄僅一步之遙，進攻動力強烈",
+      "阿根廷近6場全勝，共進16球僅失1球，攻防兩端均極高效",
+      "奧地利關鍵球員鮑姆加特納（本屆最佳創造者之一）全場缺席，嚴重削弱攻擊組織",
+      "奧地利防守核心波什（骨折疑問）及阿拉巴（腳部問題）均面臨缺陣危機",
+      "奧地利對陣約旦雖3:1勝，但上半場表現參差，先失球後靠下半場自入球及補時點球才穩住",
+      "Rangnick高壓戰術在Euro 2024表現出色，對阿根廷傳控體系有一定干擾能力",
+      "阿根廷中場麥卡利斯特、恩佐·費爾南德斯、德保羅三人組控制能力強，是球隊最重要的攻防橋樑",
+      "兩隊均以3分並列小組前二，本場勝者幾乎鎖定出線，雙方均無動力求平",
+      "AT&T史丹頓德薩斯球場中立場地，阿根廷球迷人數佔優但算不上真主場優勢",
+      "賠率市場：阿根廷約-160至-170，奧地利+500至+550，反映較大差距"
+    ],
+    "consensus_lean": "絕大多數博彩公司、預測市場及分析模型均看好阿根廷勝出，共識勝率約62-65%；主流預測比分為2:0或2:1，少數異見看法認為奧地利有機會逼平",
+    "dissent": "Goal.com ZA分析員預測2:2平局；YouTube頻道「Messi's Biggest Group Stage Test」預測平局；少數KOL認為奧地利蘭尼克高壓戰術可能壓制梅西發揮；模型顯示BTTS（雙方均入球）概率約47-49%，不排除奧地利入球的可能性"
+  },
+  "sources": [
+    {
+      "url": "https://www.fourfourtwo.com/team/argentina-world-cup-2026-squad",
+      "type": "squad_news"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/17/messi-fires-argentina-to-win-against-algeria-in-world-cup-defence-opener",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/messi-makes-more-history-emi-returns-predicted-argentina-lineup-vs-algeria_599169.html",
+      "type": "lineup_prediction"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-6/",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://www.espn.in/football/team/squad/_/id/202/arg",
+      "type": "squad_stats"
+    },
+    {
+      "url": "https://www.sportingnews.com/ca/soccer/news/argentina-vs-algeria-lineup-starting-11-world-cup-2026/4979d8f9d6d5aebf691f4ce7",
+      "type": "lineup_confirmed"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/is-lionel-messi-playing-argentina-vs-algeria-projected-lineups-for-the-2026-world-cup-group-j-match/",
+      "type": "lineup_confirmed"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/argentina-xi-vs-algeria-predicted-lineup-confirmed-team-news-injury-latest-world-cup-2026-today-b1286340.html",
+      "type": "lineup_prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-us/lists/monumental-lionel-messi-fully-fit-for-argentina-world-cup-opener-emi-martinez-julian-alvarez-updates-also-given-by-lionel-scaloni/bltcfecc5bc3acbfd7c",
+      "type": "injury_update"
+    },
+    {
+      "url": "https://english.ahram.org.eg/NewsContentP/66/570097/World-Cup-/Messi,-Mbappe-and-Yamal-are-all-going-to-the-World.aspx",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-injuries-players-missing-2026-fifa-tournament/fc7bc16508cfc5996534ddbc",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://www.skysports.com/football/argentina-vs-algeria/teams/549784",
+      "type": "match_lineups"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/austria-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n-2/",
+      "type": "squad_news"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/predicted-lineups/kalajdzic-or-arnautovic-predicted-austria-xi-vs-argentina_599693.html",
+      "type": "lineup_prediction"
+    },
+    {
+      "url": "https://www.koha.net/en/boterori-2026/posch-i-austrise-dyshohet-se-e-ka-thyer-nofullen",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://www.skysports.com/football/austria-vs-jordan/teams/549785",
+      "type": "match_lineups"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/austria-bench-veteran-striker-arnautovic-for-world-cup-opener-v-jordan",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u7yz6k/match_thread_austria_vs_jordan_fifa_world_cup/",
+      "type": "forum_discussion"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49083659/austria-vs-jordan-live-world-cup-2026-latest-updates-commentary-score-result",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d159406296-f54718194327-1000--austria-at-the-world-cup-2026-squad-fixtures-group-and-hi/",
+      "type": "squad_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/474/sort/ctz/austria",
+      "type": "squad_stats"
+    },
+    {
+      "url": "https://www.independent.co.uk/sport/football/world-cup-2026-austria-jordan-b2997181.html",
+      "type": "match_report"
+    },
+    {
+      "url": "https://africa.espn.com/football/report/_/gameId/760433",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/17/lionel-messi-hat-trick-algeria-argentina-world-cup",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.sportingnews.com/au/football/news/argentina-vs-algeria-world-cup-live-score-result-highlights/5f51727ae9720f02ea9d60f8",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/argentina-algeria/QTbsuWb",
+      "type": "match_stats"
+    },
+    {
+      "url": "https://www.skysports.com/football/argentina-vs-austria/549808",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://seatpick.com/argentina-vs-austria-world-cup-tickets",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://www.11v11.com/teams/argentina/tab/opposingTeams/opposition/Austria/",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Austria_at_the_FIFA_World_Cup",
+      "type": "historical_record"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DoZ4gEFoLyc",
+      "type": "youtube_analysis"
+    },
+    {
+      "url": "https://www.futbol24.com/betting-tips/preview/22-06-2026-argentina-austria-betting-tip/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://thesportsrush.com/argentina-v-austria-predictions/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://therealefl.co.uk/2026/06/19/argentina-vs-austria-world-cup-prediction-odds-lineups-betting-tips-22-06-2026/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/argentina-vs-austria/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/argentina-vs-austria-prediction-22-06-2026/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/argentina-austria-2378-5059-5930",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://sgodds.com/football/current-odds/Argentina-vs-Austria-140097",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.betinireland.ie/sports-betting/football/world-cup/argentina-v-austria-june-2026/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.thetopbookies.com/betting-tips/football/arg-vs-aust-22-jun-2026",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://blog.tonybet.com/ca/predictions/argentina-vs-austria-prediction-odds-sgp-22-06-26/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://clutchpoints.com/betting/argentina-vs-austria-2026-world-cup-predictions-odds-pick",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/argentina-vs-austria-prediction-betting-tips-june-22nd-2026",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/argentina-vs-austria-world-cup-bet-builder-tips-picks-and-odds-an4pi1w06cQk/",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://news.22bet.com/predictions/argentina-vs-austria-prediction-booking-code-22-06-2026/amp/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-arg-aut-2026-06-22",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://polymarket.com/predictions/austria",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.dimers.com/news/polymarket-invite-code-world-cup-june-17-2026",
+      "type": "prediction_model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/austria-vs-jordan-prediction-world-cup-2026-match-preview",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/argentina-vs-algeria-prediction-world-cup-2026-match-preview",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.tuko.co.ke/sports/football/629891-supercomputer-predicts-win-2026-fifa-world-cup-spain-brazil-struggle/",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/before-spains-first-game-ai-delivers-a-bold-world-cup-verdict-f202606-n/",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://ua.news/en/sport/superkompiuter-opta-zminiv-favorita-chempionatu-svitu-z-futbolu",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715188-supercomputer-predicts-world-cup-winner-round/",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=76Q5v18lAPs",
+      "type": "youtube_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AqdRjMag5Sk",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nlPpVg5x35k",
+      "type": "youtube_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VDeL93Rzv7w",
+      "type": "youtube_ai_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tLqtqEnIzO8",
+      "type": "youtube_ai_debate"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DpRw7-N4Mdg",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pU-mPZcuENY",
+      "type": "youtube_highlights"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JH_WRKTCPK4",
+      "type": "youtube_highlights"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=m0AzBn5_q3k",
+      "type": "youtube_prediction"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u7efzs/world_cup_2026_preview_austria_rangnicks_pressing/",
+      "type": "forum_discussion"
+    },
+    {
+      "url": "https://www.reddit.com/r/Kalshi/comments/1uapkoj/what_you_guys_think_about_my_parlay_predictions/",
+      "type": "forum_discussion"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/argentina-austria-world-cup-preview/blt540bff692d03f5a1",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/argentina-vs-austria-predictions-22-06-2026/A:bltf287eab0ad00f874",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://www.vegasinsider.com/soccer/2026-world-cup-group-j-odds-to-win-or-qualify/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-j-preview-betting-odds-prediction-21317",
+      "type": "group_preview"
+    },
+    {
+      "url": "https://nzsoccerwc.com/group-j/",
+      "type": "group_preview"
+    },
+    {
+      "url": "https://www.juvefc.com/argentina-v-austria-predictions/",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://thecelticstar.com/argentina-v-austria-predictions/amp/",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/19/argentina-v-austria-predictions/",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://www.topendsports.com/en-us/sports-betting/soccer/world-cup/predictions/argentina-vs-austria/",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59540-Argentina-vs-Austria.htm",
+      "type": "expert_analysis"
+    },
+    {
+      "url": "https://www.toffeeweb.com/argentina-vs-austria-predictions-picks-odds-22-06-2026/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/argentina/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.fotmob.com/en-GB/matches/argentina-vs-austria/1un2w8",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://karlobag.eu/en/sports/austria-vs-jordan-3-1-late-goals-decide-group-j-opener-at-the-2026-fifa-world-cu-w8avl/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760456",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://blog.wego.com/argentina-vs-austria-at-the-fifa-world-cup/",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/argentina-s-possible-lineup-to-face-algeria-at-the-fifa-world-cup-2026-2026-06-16",
+      "type": "lineup_prediction"
+    },
+    {
+      "url": "https://www.soyfutbol.com/en/news/argentina-will-dibu-martinez-and-lionel-messi-start-scaloni-keeps-fans-guessing-ahead-of-algeria-opener-20260616-0001.html",
+      "type": "squad_news"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/headlines/florian-grillitsch-injury-should-be-available-tuesday-519578",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://web9.rotowire.com/soccer/player/david-alaba-17165",
+      "type": "injury_update"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4jntB7t1YTk",
+      "type": "youtube_prediction"
+    },
+    {
+      "url": "https://en.thairath.co.th/sport/worldcup/2940453",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://m.allfootballapp.com/news/Headline/World-Cup-predictions-Spain-look-to-dethrone-Messis-Argentina/4547546",
+      "type": "opta_model"
+    }
+  ],
+  "source_count": 88,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.74,
+        "draw": 0.18,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷主場攻強守穩，奧地利難擋梅西體系。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力明顯佔優，奧地利防線難以抵擋衛冕冠軍。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "阿根廷攻守兼備，奧地利具一定威脅，仍看好主隊取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.64,
+        "draw": 0.22,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷火力與控球優勢明顯，奧地利客場難有作為"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷整體實力佔優，有望憑藉強大進攻火力穩穩擊退奧地利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.14,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力遠勝，主場穩取三分。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷攻守兼備，奧地利難以爆冷取分。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.676,
+      "draw": 0.204,
+      "away": 0.12
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-20T230835Z"
+}

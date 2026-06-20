@@ -1,0 +1,672 @@
+{
+  "match": 42,
+  "stage": "Group I",
+  "home": "France",
+  "away": "Iraq",
+  "kickoff_utc": "2026-06-22T21:00:00Z",
+  "run_id": "2026-06-20T2300Z",
+  "run_timestamp": "2026-06-20T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "scoreline": "4:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.88,
+      "draw": 0.08,
+      "away": 0.04
+    },
+    "confidence": 0.87,
+    "top_scorelines": [
+      {
+        "scoreline": "4:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "5:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "法國輕鬆大勝（主要情景）",
+        "scoreline": "4:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "姆巴佩領銜、奧利斯/德姆貝萊全速壓制，伊拉克防線重演對挪威慘敗態勢，法國保持零封。"
+      },
+      {
+        "name": "法國穩健獲勝（適度旋轉）",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "德尚輪換部分主力（科內/迪涅換入），法國節奏稍降，仍輕鬆出線但進球略少。"
+      },
+      {
+        "name": "伊拉克找到一球安慰（雙方均進球）",
+        "scoreline": "4:1",
+        "outcome": "home",
+        "confidence": 0.08,
+        "basis": "艾曼·胡塞因把握定位球機會，法國後防失誤送出一球，惟最終仍大差距落敗。"
+      },
+      {
+        "name": "法國超大比分（全速進攻）",
+        "scoreline": "5:0",
+        "outcome": "home",
+        "confidence": 0.07,
+        "basis": "法國早早鎖定勝局後銳意多進球，在得分排行上佔據優勢，伊拉克毫無還手之力。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.885,
+          "draw": 0.075,
+          "away": 0.032
+        },
+        "scoreline": "N/A",
+        "note": "截至2026年6月20日，Polymarket交易量達892,020美元，法國勝率88.5%，平局7.5%，伊拉克3.2%。"
+      },
+      {
+        "source": "Opta超級電腦（賽後更新）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.9,
+          "draw": 0.07,
+          "away": 0.03
+        },
+        "scoreline": "N/A",
+        "note": "Opta在法國3-1勝塞內加爾後將法國世界盃奪冠概率提升至15.73%，為48隊最高；伊拉克出線概率僅約5%。"
+      },
+      {
+        "source": "Bet365 / Racing Post 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.923,
+          "draw": 0.091,
+          "away": 0.038
+        },
+        "scoreline": "5:1",
+        "note": "Bet365法國賠率1/12（隱含勝率92.3%），平局10/1，伊拉克25/1；Racing Post推薦Bet Builder 5-1。"
+      },
+      {
+        "source": "William Hill / BettingLounge 博彩聚合",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.935,
+          "draw": 0.083,
+          "away": 0.037
+        },
+        "scoreline": "N/A",
+        "note": "William Hill法國1/12，平局9/1，伊拉克33/1；多家英國博企共識反映法國為壓倒性大熱。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "法國與伊拉克在世界盃歷史上從未交手，此乃兩隊首次碰面。在2026年世界盃小組賽第二輪，法國在費城林肯金融球場迎戰伊拉克。法國在首輪以3-1擊敗塞內加爾，姆巴佩打入兩球，成為法國史上進球最多的球員（超越吉魯的57球），展現出強大的攻擊實力。伊拉克在首輪以1-4不敵挪威，暴露其防守體系面對頂級球隊時的嚴重漏洞——艾曼·胡塞因在39分鐘打入一球，但整體表現遠遜預期。\n\n實力差距方面：法國FIFA排名第2（Elo評分2081），伊拉克排名第57（58）；法國陣容坐擁姆巴佩、德姆貝萊、奧利斯、巴爾科拉、杜埃等世界頂級攻擊手，伊拉克則依賴聯賽層級相對有限的球員。德尚麾下球隊在最近12場國際賽勝10場，狀態出色；伊拉克最近五場賽事勝2負2平1，備戰狀態一般（賽前以0-2負於委內瑞拉）。\n\n博彩市場與模型：法國賠率約1/10至1/12，隱含勝率91-93%；Polymarket市場法國勝率88.5%；Opta超級電腦（25,000次模擬）在法國首輪勝利後將其奪冠概率升至15.73%，為48隊最高。xG模型預測法國xG約2.10、伊拉克僅0.58，法國佔78%預期進球份額。多家博彩網站推薦「法國勝且總進球超過3.5」，賠率約1/1（隱含50%）。\n\n傷兵方面：法國薩利巴（背部）、埃爾南德斯、帕萬卡納都繼續輕度管理體能，但預計全員可上；德尚可能輪換科內（替換喬梅尼）和迪涅（替換特奧·埃爾南德斯）。伊拉克賈辛在挪威一役帶傷下場，但已恢復全訓；全隊無停賽。\n\n戰術分析：伊拉克以4-4-2緊守反擊，在對陣挪威時開場40分鐘表現尚可，但一旦失去陣型即快速崩盤。面對法國的高位逼搶和快速邊路，伊拉克的後腰齊德·伊斯梅爾紀律問題（7場國際賽已收3張黃牌）和側翼空間可能成為致命弱點。法國有動力在第二輪確保晉級，且有能力輪換而不失競爭力。主流預測集中在法國3-0至4-0勝出。",
+    "key_factors": [
+      "法國FIFA排名第2 vs 伊拉克第57/58，實力差距極為懸殊，為本屆世界盃組別賽最大差距之一",
+      "姆巴佩狀態神勇，首輪打入2球成為法國史上射手王，本屆世界盃已有14個世界盃進球（27歲）",
+      "伊拉克首輪1-4不敵挪威，防守體系已被證明對頂級攻擊隊伍毫無辦法，尤其後防兩側空間極大",
+      "Opta超級電腦預測法國本屆奪冠概率15.73%（48隊最高），伊拉克出線概率僅約5-21%",
+      "博彩市場高度一致：法國賠率1/10至1/12，伊拉克25-33/1，市場共識罕見地明確",
+      "法國有動力在第二輪出線（勝出即可確保晉級最後16強），不會輕易讓步",
+      "伊拉克時隔40年重返世界盃（上一次是1986年），整組均無積分，士氣壓力極大",
+      "伊拉克中場伊斯梅爾紀律差，7場國際賽3張黃牌，面對法國進攻球員可能早早被罰下",
+      "法國陣容深度驚人：姆巴佩/德姆貝萊/奧利斯/巴爾科拉/杜埃/圖拉姆均可首發或替補，伊拉克防線難以應對",
+      "無交手歷史（兩隊從未在任何級別對陣），但客觀實力差距消除了這一不確定性",
+      "Polymarket預測市場（交易量89.2萬美元）法國勝率88.5%，市場流動性高，共識強",
+      "xG模型：法國預期進球2.10 vs 伊拉克0.58，法國佔78%進球份額",
+      "法國備戰積極，德尚在對陣伊拉克前封閉訓練，消息稱陣容微調而非大輪換",
+      "Opta數據：伊拉克過去4場世界盃全敗（1986年3場+2026年首輪），從未在世界盃取得積分"
+    ],
+    "consensus_lean": "壓倒性共識：法國大勝，主流預測為3-0至5-0，多數專業博彩分析師（Racing Post、Sports Mole、FootyAccumulators、Evening Standard、Sportskeeda、Goal.com、JuveFC、EsportsNewsUK等）推薦「法國勝且超過3.5球」。YouTube KOL最高預測5-1（甚至6-0），Opta模型與Polymarket市場均顯示法國勝率逾88%，博彩市場總體一致。",
+    "dissent": "少數聲音（如YouTube xG模型頻道）預測法國2-0，認為總進球數可能偏低，因伊拉克可能以低線緊守為主，且法國在前45分鐘對塞內加爾表現遜色、可能有輕敵心態。也有分析師認為伊拉克艾曼·胡塞因的定位球威脅和反擊速度可能製造一球機會（BTTS派估計35%概率）。NerdyTips的AI預測更有趣地給出法國3-1（半場1-1），但這屬於少數異見。"
+  },
+  "sources": [
+    {
+      "url": "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings",
+      "type": "news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/preview-france-vs-iraq-team-210500468.html",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/france-vs-iraq-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aYhPe6u3dWgr/",
+      "type": "betting_tips"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-6/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule-live-scores-group-stage-updates-and-how-to-watch-050724193.html",
+      "type": "standings"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-i-standings-results-and-who-can-qualify-f202606-n/",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-i-standings-results-table-2026/e0c681e074cb3b3bc2f8f958",
+      "type": "standings"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/france-vs-iraq-prediction-world-083500660.html",
+      "type": "prediction"
+    },
+    {
+      "url": "https://africasoccer.com/world-cup-2026-france-handed-william-saliba-injury-lift-as-senegal-opener-looms/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
+      "type": "reference"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/preview/france-vs-iraq-prediction-team-news-lineups_599660.html",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/france-vs-iraq-predictions-22-06-26/A:blt679db32e3c9bf326",
+      "type": "betting_tips"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/france-vs-iraq-prediction-22-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.juvefc.com/france-v-iraq-predictions/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://thesportsrush.com/france-v-iraq-predictions/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/france-iraq-fifa-world-cup-preview/blt7799929ae5686d5d",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.goal.com/en-au/news/iraq-norway-world-cup-preview/blt35615d31b35c17b2",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/france-vs-iraq-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1286931.html",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/france-vs-iraq/",
+      "type": "odds"
+    },
+    {
+      "url": "https://sports.williamhill.com/betting/en-gb/football/OB_EV39908949/france-vs-iraq",
+      "type": "odds"
+    },
+    {
+      "url": "https://oddsguard.com/odds/gb/soccer/fifa-world-cup",
+      "type": "odds_aggregator"
+    },
+    {
+      "url": "https://www.predictionhunt.com/odds/world_cup/iraq-vs-france-2026-06-22/21407",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-fra-irq-2026-06-22",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://cryptoslate.com/predictions/market/fifwc-fra-irq-2026-06-22/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://kalshi.com/teams/soccer-team/france",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://theanalyst.com/articles/iraq-vs-norway-prediction-world-cup-2026-match-preview",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/16/world-cup-can-senegal-stun-france-again-predictions-schedule-on-day-6",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/before-spains-first-game-ai-delivers-a-bold-world-cup-verdict-f202606-n/",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.mogazmasr.com/121379",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715188-supercomputer-predicts-world-cup-winner-round/",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://en.thairath.co.th/sport/worldcup/2940453",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.tuko.co.ke/sports/football/629891-supercomputer-predicts-win-2026-fifa-world-cup-spain-brazil-struggle/",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://www.surfacedigitale.fr/blog/comment-fonctionne-supercalculateur-opta-predictions-france-mondial-2026",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://onthepitch.now/countries/fra/",
+      "type": "model"
+    },
+    {
+      "url": "https://octagonai.co/markets/sports/soccer/group-i-winner/",
+      "type": "model"
+    },
+    {
+      "url": "https://cup26matches.com/en/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-i-and-j-what-does-scorecasting-suggest",
+      "type": "academic_model"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760457",
+      "type": "odds"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760457/iraq-france",
+      "type": "live_score"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/report/_/gameId/760430",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-i-tv-schedule-and-primer-france-iraq-norway-senegal/",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.independent.co.uk/sport/football/iraq-world-cup-2026-qualification-war-graham-arnold-b2995775.html",
+      "type": "feature"
+    },
+    {
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/14/ahmed-qasem-iraq-world-cup/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://shafaq.com/en/sport/Iraq-coach-works-to-fix-flaws-before-France-challenge",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/rumor-france-star-injures-ankle-training-ahead-fifa-world-cup-clash-iraq-reports",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.gazzetta.it/en/football/fantanews/20-06-2026/mbappe-leads-france-attack-set-to-start-as-no-9-against-iraq.shtml",
+      "type": "team_news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/france-unlikely-major-changes-against-112000387.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/france-may-tweak-not-tinker-as-iraq-world-cup-test-looms",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/deschamps-believes-spain-are-world-cup-favourites-not-france-2026-06-15",
+      "type": "news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/15/iraq-head-coach-graham-arnold-world-cup-2026",
+      "type": "feature"
+    },
+    {
+      "url": "https://www.theguardian.com/football/live/2026/jun/16/iraq-v-norway-world-cup-2026-live",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49082534/group-2026-world-cup-teams-records-stats-know-france-senegal-iraq-norway",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+      "type": "schedule"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-i-preview-france-senegal-iraq-norway-tactics-lineups-set-pieces-odds-111129",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/headlines/jules-kounde-injury-will-be-available-for-wc-opener-519376",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/france-world-cup-2026-squad",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d159288012-ce02189d2504-1000--france-at-the-world-cup-2026-squad-fixtures-group-and-hi/",
+      "type": "official"
+    },
+    {
+      "url": "https://blog.wego.com/asian-teams-at-the-world-cup/",
+      "type": "reference"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-possible-lineup-of-iraq-to-face-norway-in-the-2026-fifa-world-cup-2026-06-16",
+      "type": "lineup"
+    },
+    {
+      "url": "https://www.i24news.tv/en/news/fifa-world-cup-2026/artc-the-lions-of-mesopotamia-iraq-returns-to-the-world-cup-after-40-years-and-face-a-historic-test",
+      "type": "feature"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/iraq-at-the-2026-world-cup-roster-list-players-and-group-stage-schedule-f202606-n/",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/4375/irq",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.footballwhispers.com/blog/world-cup-group-i-teams-fixtures-predictions-odds/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.thelines.com/odds/world-cup/group-i/",
+      "type": "odds"
+    },
+    {
+      "url": "https://www.oddschecker.com/us/insight/soccer/20260609-2026-fifa-world-cup-group-i-odds-predictions-analysis-for-france-group",
+      "type": "odds"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-i-preview-odds-predictions/",
+      "type": "odds"
+    },
+    {
+      "url": "https://www.dimers.com/news/todays-world-cup-2026-predictions-and-betting-guide-ft-messi-mbappe-haaland-tuesday-june-16",
+      "type": "model"
+    },
+    {
+      "url": "https://www.mexc.co/en-PH/news/1157579",
+      "type": "prediction"
+    },
+    {
+      "url": "https://bettinglounge.co.uk/odds/football/world-cup/",
+      "type": "odds_aggregator"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/19/france-v-iraq-predictions/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://footyaccumulators.com/predictions/wc-2026/france-vs-iraq-preview-prediction-and-betting-tips",
+      "type": "betting_tips"
+    },
+    {
+      "url": "https://thecelticstar.com/france-v-iraq-predictions/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://nerdytips.com/blog/france-vs-iraq-prediction-2026-06-22/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://sports.betmgm.com/en/blog/world-cup/france-vs-iraq-prediction-odds-preview-world-cup-june-22-bm16/",
+      "type": "odds"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59535-France-vs-Iraq.htm",
+      "type": "betting_tips"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Nm7WA5DYyes",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gQUE_37Wyg0",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cU8ZaeNb3i4",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8Fy6K45MuEc",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KYXY7yNzD3w",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-4DuV2A3AYY",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gRygORSXFv4",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AXnXwijXKXc",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.reddit.com/r/SoccerBetting/comments/1u73yao/daily_picks_thread_wednesday_17th_june_2026/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/SoccerBetting/comments/1u7277o/daily_picks_thread_tuesday_1662026/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/sportsbook/comments/1u723gn/soccer_world_cup_betting_and_picks_daily/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZqohNdiDIM/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/BWfootyMag/posts/2026-fifa-world-cup-group-ir1-results-france-3-1-senegal-iraq-1-4-norwayr2-22-23/1013064154563243/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://nzsoccerwc.com/france/",
+      "type": "betting_guide"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/iraq-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "preview"
+    },
+    {
+      "url": "https://news.northeastern.edu/2026/06/18/world-cup-round-1-results/",
+      "type": "academic_news"
+    },
+    {
+      "url": "https://english.newsfirst.lk/2026/06/17/norway-crush-iraq-4-1-in-fifa-world-cup-2026-as-haaland-steals-the-show",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.gmanetwork.com/news/sports/football/991789/2026-fifa-world-cup-updates-and-results-june-17-2026/story/?amp",
+      "type": "news"
+    },
+    {
+      "url": "https://www.thesouthafrican.com/sport/soccer/soccer-world-cup/fifa-world-cup-2026-every-result-from-all-104-matches/",
+      "type": "results"
+    },
+    {
+      "url": "https://africa.espn.com/football/story/_/id/49123829/fifa-world-cup-2026-france-vs-iraq-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/france-iraq-5061-5078-5930",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.fotmob.com/matches/iraq-vs-france/1au1fo",
+      "type": "stats"
+    },
+    {
+      "url": "https://footystats.org/international/france-national-team-vs-iraq-national-team-h2h-stats",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.thesoccerworldcups.com/head_to_head/france_vs_iraq.php",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.independent.co.uk/sport/football/world-cup-2026-england-squad-croatia-messi-mbappe-partey-b2997036.html",
+      "type": "news"
+    },
+    {
+      "url": "https://blog.wego.com/mbappe-at-the-world-cup/",
+      "type": "feature"
+    },
+    {
+      "url": "https://english.ahram.org.eg/NewsContentP/66/570097/World-Cup-/Messi,-Mbappe-and-Yamal-are-all-going-to-the-World.aspx",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.thescore.com/worldcup/event/93104",
+      "type": "stats"
+    },
+    {
+      "url": "https://english.aawsat.com/sports/5284676-iraq-have-everything-gain-will-try-shock-world-says-coach-arnold",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.sportingpedia.com/2026/06/15/saliba-back-in-training-as-france-finalise-preparations-for-world-cup-clash-with-senegal/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://dailycannon.com/2026/06/saliba-injury-france-arsenal/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/france-vs-senegal-lineups-confirmed-team-news-starting-xi-injury-latest-world-cup-2026-today-b1286182.html",
+      "type": "lineup"
+    }
+  ],
+  "source_count": 100,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.08,
+        "away": 0.04
+      },
+      "scoreline": "3:0",
+      "note": "法國實力碾壓，伊拉克難以招架，預期大勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.09,
+        "away": 0.03
+      },
+      "scoreline": "3:0",
+      "note": "法國實力碾壓伊拉克，預計輕鬆取勝並零封對手。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "法國實力遠勝伊拉克，預料輕鬆贏波，分組賽開門紅。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.87,
+        "draw": 0.09,
+        "away": 0.04
+      },
+      "scoreline": "4:0",
+      "note": "法國整體實力遠勝伊拉克，主場大勝機率高。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.88,
+        "draw": 0.09,
+        "away": 0.03
+      },
+      "scoreline": "3:0",
+      "note": "法國整體實力具絕對優勢，預計能輕鬆掌控比賽並大勝伊拉克。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.81,
+        "draw": 0.13,
+        "away": 0.06
+      },
+      "scoreline": "3:0",
+      "note": "法國實力遠勝伊拉克，主場預計大勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "法國戰力遠勝，預計大比分完勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.864,
+      "draw": 0.093,
+      "away": 0.042
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-20T230928Z"
+}

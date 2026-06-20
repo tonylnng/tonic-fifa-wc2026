@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-20T11:11:13Z",
+  "last_updated": "2026-06-20T23:10:29Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -3114,17 +3114,16 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          9
+          9,
+          34
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany",
-        "https://www.espn.com/soccer/report/_/gameId/760422",
-        "https://www.nbcsports.com/soccer/world-cup/live/germany-vs-curacao-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-14"
+        "https://www.skysports.com/football/germany-vs-ivory-coast/report/549798"
       ]
     },
     {
@@ -4034,17 +4033,16 @@
       "is_key": true,
       "bio_zh": "象牙海岸隊長，效力沙特阿爾阿赫利，曾征戰意甲及巴塞隆拿，強悍的後腰在搶斷及組織兩方面均有出色發揮。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          11
+          11,
+          34
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760423/ecuador-ivory-coast",
-        "https://english.ahram.org.eg/WorldCup2026/Article/570756",
-        "https://www.livemint.com/sports/football-news/fifa-world-cup-ivory-coast-1501-vs-ecuador-2382-live-score-1489375"
+        "https://www.skysports.com/football/germany-vs-ivory-coast/report/549798"
       ]
     },
     {
@@ -4910,12 +4908,40 @@
       "is_key": true,
       "bio_zh": "效力利物浦的荷蘭前鋒，速度快、射術精準，2022年世界盃連場入球揚威，本屆是其爭奪世界冠軍的最佳機會。",
       "stats": {
-        "goals": 0,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          33
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760447"
+      ]
+    },
+    {
+      "id": "NED-brobbey",
+      "name_en": "Brian Brobbey",
+      "name_zh": "布萊恩·布羅貝",
+      "team": "Netherlands",
+      "team_zh": "荷蘭",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 2,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          33
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760447"
+      ]
     },
     {
       "id": "NED-summerville",
@@ -4930,17 +4956,16 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          10
+          10,
+          33
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands",
-        "https://www.espn.com/soccer/report/_/gameId/760425",
-        "https://terrikon.com/en/football/matches/156666"
+        "https://www.espn.com/soccer/report/_/gameId/760447"
       ]
     },
     {
@@ -7384,12 +7409,16 @@
       "is_key": true,
       "bio_zh": "效力紐卡素的瑞典邊鋒，速度出眾、盤帶靈活，曾在曼聯出道，轉會後表現更見成熟，是瑞典鋒線上的快速突破利器。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          33
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760447"
+      ]
     },
     {
       "id": "SWE-gyokeres",
@@ -7431,11 +7460,15 @@
       "bio_zh": "效力熱刺的瑞典中場天才，年僅20歲已成為球隊重要人物，技術精湛、成熟度超齡，是瑞典足球未來的最大希望。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          33
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760447"
+      ]
     },
     {
       "id": "SWE-svanberg",
@@ -7477,16 +7510,15 @@
       "bio_zh": "",
       "stats": {
         "goals": 2,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          12
+          12,
+          33
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760424/tunisia-sweden",
-        "https://www.espn.com/soccer/report/_/gameId/760424",
-        "https://english.ahram.org.eg/WorldCup2026/Article/570757"
+        "https://www.espn.com/soccer/report/_/gameId/760447"
       ]
     },
     {
@@ -7508,6 +7540,30 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "SWE-gudmundsson",
+      "name_en": "Gabriel Gudmundsson",
+      "name_zh": "加布里埃爾·古德蒙松",
+      "team": "Sweden",
+      "team_zh": "瑞典",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          33
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760447"
+      ]
     },
     {
       "id": "SWE-nordfeldt",

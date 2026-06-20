@@ -1,8 +1,8 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-20T11:12:42Z",
-  "total_matches_scored": 28,
-  "max_match_completed": 32,
+  "last_updated": "2026-06-20T23:10:34Z",
+  "total_matches_scored": 30,
+  "max_match_completed": 34,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -36,13 +36,13 @@
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 24,
-      "outcome_correct": 16,
-      "outcome_accuracy": 0.6667,
-      "exact_correct": 2,
-      "exact_accuracy": 0.0833,
-      "brier_score": 0.2572,
-      "latest_match": 32,
+      "evaluated": 26,
+      "outcome_correct": 18,
+      "outcome_accuracy": 0.6923,
+      "exact_correct": 3,
+      "exact_accuracy": 0.1154,
+      "brier_score": 0.2514,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -404,19 +404,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.55,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.6,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "Z.ai GLM-4.7",
       "kind": "ai",
-      "evaluated": 20,
-      "outcome_correct": 13,
-      "outcome_accuracy": 0.65,
+      "evaluated": 22,
+      "outcome_correct": 15,
+      "outcome_accuracy": 0.6818,
       "exact_correct": 2,
-      "exact_accuracy": 0.1,
-      "brier_score": 0.2603,
-      "latest_match": 32,
+      "exact_accuracy": 0.0909,
+      "brier_score": 0.2486,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -718,19 +748,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.6,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.68,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "Google Gemini 3.1 Pro",
       "kind": "ai",
-      "evaluated": 20,
-      "outcome_correct": 13,
-      "outcome_accuracy": 0.65,
+      "evaluated": 22,
+      "outcome_correct": 15,
+      "outcome_accuracy": 0.6818,
       "exact_correct": 1,
-      "exact_accuracy": 0.05,
-      "brier_score": 0.2549,
-      "latest_match": 32,
+      "exact_accuracy": 0.0455,
+      "brier_score": 0.2465,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -1032,19 +1092,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.55,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.65,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "xAI Grok 4.20 Reasoning",
       "kind": "ai",
-      "evaluated": 20,
-      "outcome_correct": 13,
-      "outcome_accuracy": 0.65,
+      "evaluated": 22,
+      "outcome_correct": 15,
+      "outcome_accuracy": 0.6818,
       "exact_correct": 1,
-      "exact_accuracy": 0.05,
-      "brier_score": 0.2697,
-      "latest_match": 32,
+      "exact_accuracy": 0.0455,
+      "brier_score": 0.256,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -1346,19 +1436,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.58,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.75,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 24,
-      "outcome_correct": 15,
-      "outcome_accuracy": 0.625,
+      "evaluated": 26,
+      "outcome_correct": 17,
+      "outcome_accuracy": 0.6538,
       "exact_correct": 2,
-      "exact_accuracy": 0.0833,
-      "brier_score": 0.2487,
-      "latest_match": 32,
+      "exact_accuracy": 0.0769,
+      "brier_score": 0.2397,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -1720,19 +1840,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.55,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.75,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "OpenAI GPT-5.1 Thinking",
       "kind": "ai",
-      "evaluated": 20,
-      "outcome_correct": 12,
-      "outcome_accuracy": 0.6,
+      "evaluated": 22,
+      "outcome_correct": 14,
+      "outcome_accuracy": 0.6364,
       "exact_correct": 1,
-      "exact_accuracy": 0.05,
-      "brier_score": 0.2522,
-      "latest_match": 32,
+      "exact_accuracy": 0.0455,
+      "brier_score": 0.2471,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -2034,19 +2184,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.45,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.7,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 24,
-      "outcome_correct": 14,
-      "outcome_accuracy": 0.5833,
+      "evaluated": 26,
+      "outcome_correct": 16,
+      "outcome_accuracy": 0.6154,
       "exact_correct": 1,
-      "exact_accuracy": 0.0417,
-      "brier_score": 0.2293,
-      "latest_match": 32,
+      "exact_accuracy": 0.0385,
+      "brier_score": 0.2202,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -2408,19 +2588,49 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.62,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.72,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "AI（本站主預測）",
       "kind": "ai",
-      "evaluated": 28,
-      "outcome_correct": 16,
-      "outcome_accuracy": 0.5714,
-      "exact_correct": 2,
-      "exact_accuracy": 0.0714,
-      "brier_score": 0.2429,
-      "latest_match": 32,
+      "evaluated": 30,
+      "outcome_correct": 18,
+      "outcome_accuracy": 0.6,
+      "exact_correct": 3,
+      "exact_accuracy": 0.1,
+      "brier_score": 0.238,
+      "latest_match": 34,
       "stale": false,
       "matches": [
         {
@@ -2842,6 +3052,36 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 33,
+          "stage": "Group F",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_zh": "荷蘭",
+          "away_zh": "瑞典",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.62,
+          "final_scoreline": "5:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
+        },
+        {
+          "match": 34,
+          "stage": "Group E",
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_zh": "德國",
+          "away_zh": "象牙海岸",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.68,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
