@@ -1,0 +1,488 @@
+{
+  "match": 38,
+  "home": "Belgium",
+  "away": "Iran",
+  "home_zh": "比利時",
+  "away_zh": "伊朗",
+  "stage": "Group G",
+  "kickoff_utc": "2026-06-21T19:00:00Z",
+  "kickoff_hkt": "2026-06-22 03:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-20T0055Z",
+  "run_timestamp": "2026-06-20T00:55:00Z",
+  "source_count": 69,
+  "sources": [
+    {
+      "url": "https://www.goal.com/en/news/belgium-iran-world-cup-preview/blt18a8c3038b7d06a1",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48777814/romelu-lukaku-named-belgium-world-cup-squad-injury-troubles",
+      "type": "news"
+    },
+    {
+      "url": "https://worldcupdesk.com/articles/belgium-world-cup-march-2026-injuries/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/cpwp17pxvxdo",
+      "type": "news"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/5/15/lukaku-included-in-belgiums-world-cup-squad-despite-injury-plagued-season",
+      "type": "news"
+    },
+    {
+      "url": "https://www.foxsports.com/articles/soccer/iran-finalizes-world-cup-squad-with-17-homebased-players-and-no-azmoun",
+      "type": "news"
+    },
+    {
+      "url": "https://www.tapmad.com/blog/iran-suffers-injury-blow-ali-gholizadeh-ruled-out-world-cup-2026/5625-7-0",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/belgium-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://sports.yahoo.com/article/world-cup-2026-q-belgium-151500374.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/iran-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/04/iran-world-cup-2026-team-guide",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goal.com/en-us/lists/iran-squad-world-cup-2026/blt67c2d5d938254c59",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/results/_/id/459/belgium",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goal.com/en-za/team/belgium/table/pfvmhackqyhhk02majd2tb8l",
+      "type": "news"
+    },
+    {
+      "url": "https://heavy.com/sports/soccer/world-cup/belgium-vs-egypt-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.reuters.com/sports/soccer/iran-qualify-2026-world-cup-with-uzbekistan-victory-2025-03-25/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2025/mar/25/iran-world-cup-2026-visa-issues",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/44403276/world-cup-2026-iran-qualifies-uzbekistan",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/belgium-vs-iran/table/549802",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-g-standings-results-table-2026/1718b02f21d1b076ccc56614",
+      "type": "news"
+    },
+    {
+      "url": "https://www.juvefc.com/belgium-v-iran-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-g-preview-belgium-egypt-iran-new-zealand-tactics-lineups-set-pieces-odds-109591",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/belgium-iran-world-cup-preview-predictions-tips-2026-06-18/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/belgium-vs-iran-predictions-21-06-2026/A:blt47a0acb120a73223",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760451",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.futbol24.com/betting-tips/preview/21-06-2026-belgium-iran-betting-tip/",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/belgium-vs-iran-prediction-21-06-2026/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/belgium-vs-iran/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.inkl.com/news/belgium-vs-iran-world-cup-2026-predictions-and-best-bets",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.pickswise.com/world-cup/games/belgium-iran-world-cup-26-2026-06-21-1900/",
+      "type": "betting"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/belgium-vs-iran",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.olbg.com/news/world-cup-2026-group-g-betting-preview",
+      "type": "betting"
+    },
+    {
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-g-world-cup-2026-odds-predictions-bm16/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.oddschecker.com/tips/football/world-cup-2026/20260611-world-cup-2026-group-g-fixtures-odds-schedule-predictions",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.squawka.com/en/outright-markets/world-cup-2026-group-g-odds/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ebxU9zHsAuQ",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=riH0_jF89ZA",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z16DrxagmK0",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CyxAH3h-kLg",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_LLKKjS1pFE",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dYWTkt3wJDI",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0S8XV42lXx4",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=i-P7-7zDEp8",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Walp5vrbfAw",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rLO5oSFLI0o",
+      "type": "video"
+    },
+    {
+      "url": "https://fifa-26.com/en/injuries",
+      "type": "official"
+    },
+    {
+      "url": "https://www.flashscore.com/news/injured-azmoun-in-iran-s-world-cup-squad-ebrahimi-misses-out/fwrKeeJ7/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/459/belgium",
+      "type": "official"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Belgium_national_football_team",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/469/iran",
+      "type": "official"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G",
+      "type": "official"
+    },
+    {
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/belgium-vs-ir-iran/liveticker",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760451/iran-belgium",
+      "type": "official"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u6idq4/world_cup_2026_preview_iran_chaos_aging_stars_and/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u6h9qf/world_cup_2026_preview_belgium_the_red_devils/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/Aleague/comments/1ttietu/new_zealand_at_the_world_cup/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/MLS/comments/1u6ye2v/match_thread_new_zealand_vs_iran_fifa_world_cup/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/football/comments/1u79yb4/irans_world_cup_situation_puts_them_at_a_complete/",
+      "type": "forum"
+    },
+    {
+      "url": "https://cupchances.com/en/belgium-recent-form-2026",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-g-predictions-preview",
+      "type": "model"
+    },
+    {
+      "url": "https://cup26matches.com/en/team/belgium/",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/world-cup-2026-predictions-opta-supercomputers-pre-draw-projections",
+      "type": "model"
+    },
+    {
+      "url": "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner",
+      "type": "model"
+    },
+    {
+      "url": "https://fivethirtyeight.com/features/world-cup-crib-notes-day-15/",
+      "type": "model"
+    },
+    {
+      "url": "https://fivethirtyeight.com/features/world-cup-crib-notes-day-10/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DZpRcxtjqiN/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.facebook.com/belgium/posts/-fifa-world-cup-belgium-vs-iran-this-sunday-the-belgian-red-devils-will-play-aga/1336494811916520/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.facebook.com/bbcnews/posts/irans-fifa-world-cup-2026-football-team-landed-in-mexico-during-an-ongoing-row-o/1495300365967284/",
+      "type": "social"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.63,
+      "draw": 0.23,
+      "away": 0.14
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "Opta超級電腦、預測市場與xG模型主流共識傾向比利時；Opta超級電腦（25,000次模擬）預測比利時從G組晉級機率達89.6%，PredictionMarketsPicks模型給出比利時勝55%、平局27%、伊朗勝18%；利物浦大學超級電腦及Kickoff.co.uk算法均認為比利時勝率在63-67%之間，各模型一致看好比利時。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "多家博彩公司（BetUS、Wolfbet、Ladbrokes）均將比利時列為大熱門，賠率約-235至-235（美式），隱含勝率約67%；伊朗賠率約+675，隱含勝率僅約12%；盤口傾向比利時-1球讓分，過/低2.5球旗鼓相當，反映預期進球約2至3球。"
+      },
+      {
+        "name": "反方/保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.32,
+        "basis": "少數聲音指出：伊朗在首場對紐西蘭中表現出強韌的回追精神（兩次落後均追平），且比利時黃金一代在大賽表現歷來令人失望（2022世界盃小組賽出局）；Lukaku體能存疑、De Bruyne賽季表現受傷兵影響，部分分析師（如BetMGM專家）看好埃及甚至提出比利時被高估；伊朗教練Ghalenoei在3月友賽中已針對比利時演練3-6-1防守戰術，若能執行得宜，可能製造冷門。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.67,
+          "draw": 0.2,
+          "away": 0.12
+        },
+        "scoreline": "2:1",
+        "note": "多家博彩公司（BetUS、Wolfbet、Ladbrokes）均將比利時列為大熱門，賠率約-235至-235（美式），隱含勝率約67%；伊朗賠率約+675，隱含勝率僅約12%；盤口傾向比利時-1球讓分，過/低2.5球旗鼓相當，反映預期進球約2至3球。"
+      },
+      {
+        "source": "預測模型/超級電腦（Opta/預測市場/xG 綜合）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.63,
+          "draw": 0.23,
+          "away": 0.14
+        },
+        "scoreline": "2:1",
+        "note": "Opta超級電腦（25,000次模擬）預測比利時從G組晉級機率達89.6%，PredictionMarketsPicks模型給出比利時勝55%、平局27%、伊朗勝18%；利物浦大學超級電腦及Kickoff.co.uk算法均認為比利時勝率在63-67%之間，各模型一致看好比利時。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "比利時（歐洲傳統強隊）面對亞洲勁旅伊朗，首輪均為平局（比利時1-1埃及、伊朗2-2紐西蘭），G組四隊同積1分，雙方均急需勝仗。比利時陣中盧卡庫（哈姆傷、體能欠佳）首輪已出場助攻、迪布尼體能審慎管理，整體實力與深度佔優；伊朗則遭遇重大打擊——戈利扎德（十字韌帶撕裂）缺陣、阿斯蒙因政治原因被除名、後勤須每場賽後即時返回蒂華納基地，教練稱球隊「本屆最受委屈」。博彩隱含比利時約67%，Opta超級電腦給予比利時89.6%晉級機率，主流預測比利時2:1取勝。主預測比利時2:1主場勝，信心中高（0.62）。伊朗的防守韌性與比利時破門效率為變數，反方情境為平局。",
+    "key_factors": [
+      "比利時陣容實力遠勝伊朗：FIFA排名第9對第20，球員均效力歐洲頂級聯賽，Kevin De Bruyne、Thibaut Courtois、Jeremy Doku等世界級球員提供全面優勢",
+      "傷兵問題影響兩隊：比利時Romelu Lukaku（哈姆斯特拉肌傷）被教練Garcia形容「體能欠佳」，Zeno Debast（腿傷）預計缺席前兩場，但Lukaku首場已成功入替並助攻破門，De Bruyne賽前管理謹慎；伊朗方面Ali Gholizadeh（膝蓋前十字韌帶撕裂）缺陣，Sardar Azmoun因政治原因被除名，主力中場Mehdi Torabi有小腿傷患",
+      "伊朗後勤大受干擾：美伊政治緊張局勢迫使伊朗以墨西哥蒂華納為訓練基地，每場主場比賽後即須立即乘機返墨，coach Ghalenoei直斥球隊是「本屆最受委屈的球隊」，體能恢復嚴重受損",
+      "小組賽形勢高壓，雙方首輪均平局：比利時1-1平埃及，伊朗2-2平紐西蘭，形勢膠著，本場形同淘汰賽，勝者掌握出線主動權",
+      "戰術對比：比利時採用4-2-3-1陣形，中場De Bruyne為核心組織，Doku左路帶來速度優勢；伊朗採用4-4-2或3-6-1防守反擊體系，Mehdi Taremi（Olympiakos，56球）是主要威脅，但伊朗整體進攻依賴定位球而非陣地進攻",
+      "頭對頭歷史：比利時與伊朗在世界盃有對戰記錄，比利時具優勢，伊朗從未於任何世界盃晉身小組賽之外",
+      "比利時近期備戰形式強勁：與突尼西亞5-0勝、克羅地亞2-0勝、美國5-2勝，平均每場得分2.8球，防守僅失0.8球，顯示高水準備戰狀態",
+      "伊朗17名球員效力停賽國內聯賽，比賽節奏和體能儲備遠遜比利時；伊朗海外球員如Taremi（Olympiakos）、Ezatolahi（Vejle）數量有限，缺乏頂級聯賽磨礪"
+    ],
+    "consensus_lean": "主流共識一面倒看好比利時勝出——多家媒體（Goal.com、BBC、ESPN、The Guardian、FourFourTwo、Ladbrokes、William Hill）及多個預測模型均認為比利時憑藉明顯的球員素質優勢、豐富的世界盃經驗及伊朗的後勤困境，應可贏得本場比賽，最常見預測比分為2-1或2-0。",
+    "dissent": "少數聲音指出：伊朗在首場對紐西蘭中表現出強韌的回追精神（兩次落後均追平），且比利時黃金一代在大賽表現歷來令人失望（2022世界盃小組賽出局）；Lukaku體能存疑、De Bruyne賽季表現受傷兵影響，部分分析師（如BetMGM專家）看好埃及甚至提出比利時被高估；伊朗教練Ghalenoei在3月友賽中已針對比利時演練3-6-1防守戰術，若能執行得宜，可能製造冷門。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時整體實力碾壓伊朗，主場穩勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時整體實力佔優，預計能穩穩拿下伊朗。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時實力明顯佔優，伊朗難抵擋歐洲紅魔攻勢。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.66,
+        "draw": 0.21,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "比利時整體實力與進攻火力均明顯優於伊朗"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時整體實力佔優，預計能突破伊朗的防線順利取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.73,
+        "draw": 0.17,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時實力占優，預計主場輕取伊朗。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "比利時實力明顯高出一籌，伊朗難以招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.686,
+      "draw": 0.202,
+      "away": 0.112
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-20T011006Z"
+}

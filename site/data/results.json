@@ -394,6 +394,34 @@
       "outcome": "home",
       "recorded_at": "2026-06-19T08:55:00Z",
       "source": "[skysports.com](https://www.skysports.com/football/mexico-vs-korea-republic/report/549793)；[espn.com](https://www.espn.com/soccer/story/_/id/49110685/mexico-south-korea-world-cup-2026-latest-updates-commentary-score-result)；[theguardian.com](https://www.theguardian.com/football/2026/jun/19/mexico-south-korea-world-cup-2026-group-a-match-report)；[bbc.com](https://www.bbc.com/sport/football/live/cvgme6np19pt)"
+    },
+    {
+      "match": 29,
+      "stage": "Group D",
+      "home": "USA",
+      "away": "Australia",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreline": "2:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-20T00:55:00Z",
+      "source": "[skysports.com](https://www.skysports.com/football/usa-vs-australia/report/549797)；[espn.com](https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states)；[sportingnews.com](https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b)；[theguardian.com](https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report)"
+    },
+    {
+      "match": 30,
+      "stage": "Group C",
+      "home": "Scotland",
+      "away": "Morocco",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-06-20T00:55:00Z",
+      "source": "[espn.com](https://www.espn.com/soccer/story/_/id/49119389/scotland-0-1-morocco-world-cup-2026-result-score-recap)；[skysports.com](https://www.skysports.com/football/scotland-vs-morocco/report/549795)；[theguardian.com](https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report)；[sportingnews.com](https://www.sportingnews.com/au/football/news/scotland-morocco-box-score-full-stats-world-cup-group-c-match/553292b21d6b749d0aaeb7ea)"
     }
   ]
 }

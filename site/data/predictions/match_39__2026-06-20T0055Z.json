@@ -1,0 +1,509 @@
+{
+  "match": 39,
+  "home": "Uruguay",
+  "away": "Cape Verde",
+  "home_zh": "烏拉圭",
+  "away_zh": "佛得角",
+  "stage": "Group H",
+  "kickoff_utc": "2026-06-21T22:00:00Z",
+  "kickoff_hkt": "2026-06-22 06:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-20T0055Z",
+  "run_timestamp": "2026-06-20T00:55:00Z",
+  "source_count": 74,
+  "sources": [
+    {
+      "url": "https://www.goal.com/en-us/news/uruguay-cabo-verde-world-cup-preview/blt7c6247e97b61caaf",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49106772/fifa-world-cup-2026-uruguay-vs-cape-verde-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/saudi-arabia-vs-uruguay-lineups-starting-11-world-cup-2026-group-h/29b2a893ee795461fcf80d25",
+      "type": "news"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/gimenez-benched-araujo-not-in-squad-as-uruguay-take-on-saudi-arabia",
+      "type": "news"
+    },
+    {
+      "url": "https://www.riotimesonline.com/uruguay-world-cup-injuries-arrascaeta-araujo-cape-verde-june-2026/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.upday.com/wm/uruguay-set-to-start-world-cup-without-de-arrascaeta-araujo-and-captain-gimenez/xmdxk29",
+      "type": "news"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/uruguay-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n-2/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/212/league/FIFA.WORLD",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2597/cape-verde",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760450",
+      "type": "betting"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-ury-cvi-2026-06-21",
+      "type": "model"
+    },
+    {
+      "url": "https://kalshi.com/teams/soccer-team/cape-verde",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/saudi-arabia-vs-uruguay-stats-world-cup-2026",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/world-cup-2026-how-many-points-needed-third-placed-teams-opta-supercomputer",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/spain-vs-cape-verde-prediction-world-cup-2026-match-preview",
+      "type": "model"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1714645-supercomputer-predicts-2026-fifa-world-cup-winner-spains-draw-cape-verde/",
+      "type": "news"
+    },
+    {
+      "url": "https://thesportsrush.com/uruguay-v-cape-verde-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/18/uruguay-v-cape-verde-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/uruguay-vs-cape-verde-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-axk8h6E5o4Xt/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportsline.com/insiders/uruguay-vs-cape-verde-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.inkl.com/news/uruguay-vs-cape-verde-world-cup-2026-predictions-and-best-bets",
+      "type": "betting"
+    },
+    {
+      "url": "https://tips.wolfbet.com/predictions/football/uruguay-vs-cape-verde-prediction-betting-tips-fifa-world-cup-2026/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.freetips.com/football/fifa-world-cup/uruguay-vs-cape-verde-betting-tips-20260618-0021/",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/uruguay-vs-cape-verde-prediction-22-06-2026/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/uruguay-vs-cabo-verde-prediction-betting-tips-june-21st-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/uruguay-vs-cape-verde-odds-062126-217132",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/uruguay-vs-cape-verde/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.thebettinginsider.com/worldcup/games/uruguay-vs-cape-verde-2026-06-21",
+      "type": "betting"
+    },
+    {
+      "url": "https://betmines.com/match-preview/uruguay-vs-cape-verde-islands-prediction-match-preview-and-analysis-world-cup-21-06-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/uruguay-vs-cape-verde-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.juvefc.com/uruguay-v-cape-verde-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://thecelticstar.com/uruguay-v-cape-verde-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportinglife.com/amp/football/news/best-bets-world-cup-tips-and-predictions-for-june-20-and-21-or-uruguay-vs-cape-verde-new-zealand-v-egypt/232733",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-2026-world-cup-tips-and-predictions-group-stage-round-two/232710",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.mexc.com/news/1155132",
+      "type": "model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OgbgNR4yLAY",
+      "type": "model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WdLG-kLti8M",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=C4vDyDPd6jE",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GU8PCR49VAY",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GBYPKR8A6fA",
+      "type": "video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WS8epo34oTQ",
+      "type": "video"
+    },
+    {
+      "url": "https://apnews.com/article/mundial-uruguay-bielsa-29c30387f4ba13963b089486e9d8ce2a",
+      "type": "news"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/16/saudi-arabia-draw-1-1-against-uruguay-in-world-cup-opening",
+      "type": "news"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/cape-verde-eye-another-upset-against-wounded-uruguay",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/report/_/gameId/760429",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/saudi-arabia-vs-uruguay/report/549781",
+      "type": "news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/16/saudi-arabia-uruguay-world-cup-match-report",
+      "type": "news"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/uruguay-vs-saudi-arabia-4-takeaways-2026-world-cup",
+      "type": "news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-asia/football/fifa-world-cup-2026/articles/dream-come-true-for-vozinha-as-goalkeeper-hails-cape-verde-unity-after-spain-draw-2026-06-16",
+      "type": "news"
+    },
+    {
+      "url": "https://www.cafonline.com/fifa-world-cup/news/fifa-world-cup-2026-bubista-hails-cape-verde-organisation-after-historic-debut-draw-with-spain/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com.mx/futbol/mundial/nota/_/id/16862175/bubista-entrenador-cabo-verde-declaraciones-previas-vs-uruguay-mundial-2026",
+      "type": "news"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/17/cape-verde-goalkeeper-vozinhas-mother-gets-visa-to-attend-world-cup",
+      "type": "news"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u6gjq4/world_cup_2026_preview_cape_verde_rotterdam/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u6hk50/world_cup_2026_preview_uruguay_chaos_mutiny_and/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/sportsanalytics/comments/1u6gtnp/spain_30_cape_verde_surprisingly_all_9_ai_models/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.dailysabah.com/sports/football/cape-verde-look-to-extend-giant-killing-start-against-uruguay",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/ca/soccer/news/world-cup-group-h-standings-results-table-2026/d90922c761921d99f9204088",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fotmob.com/teams/5888/squad/cape-verde",
+      "type": "official"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/cape-verde-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/player/giorgian-de-arrascaeta-24274",
+      "type": "news"
+    },
+    {
+      "url": "https://www.futbolfantasy.com/world-cup/noticias/145834-araujo-y-de-arrascaeta-siguen-al-margen-en-la-vuelta-al-trabajo-de-uruguay",
+      "type": "news"
+    },
+    {
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/cape-verde-uruguay-5073-5411-5930",
+      "type": "official"
+    },
+    {
+      "url": "https://fwctimes.com/uruguay-vs-cabo-verde-lineups/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.si.com/es-us/futbol/uruguay-vs-cabo-verde-previa-predicciones-y-alineaciones-21-6-2026",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16855475/formacion-uruguay-equipo-vs-cabo-verde-grupo-h-segunda-fecha-mundial-202-bielsa",
+      "type": "news"
+    },
+    {
+      "url": "https://www.cbc.ca/sports/the-buzzer-newsletter-world-cup-2026-world-cup-update-davies-9.7237842",
+      "type": "news"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/cape-verde-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.footboom1.com/en/news/football/1763234006-bubista-we-want-world-to-see-cabo-verde",
+      "type": "news"
+    },
+    {
+      "url": "https://karlobag.eu/en/sports/marcelo-bielsa-and-viral-world-cup-photo-in-focus-as-uruguay-face-cape-verde-aft-bahsd/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/arrascaeta-joga-arabia-saudita-lesao-uruguai/",
+      "type": "news"
+    },
+    {
+      "url": "https://oglobo.globo.com/esportes/copa-do-mundo-2026/noticia/2026/06/15/sem-arrascaeta-na-estreia-da-copa-saiba-como-bielsa-devera-montar-uruguai-para-enfrentar-arabia-saudita.ghtml",
+      "type": "news"
+    },
+    {
+      "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-el-equipo-que-prepara-Bielsa-para-la-final-que-tendra-Uruguay-con-Cabo-Verde-uc965475",
+      "type": "news"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.64,
+      "draw": 0.23,
+      "away": 0.13
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.28
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "Opta超級電腦、預測市場與xG模型主流共識傾向烏拉圭；Opta 超級電腦 25,000 次模擬顯示烏拉圭勝率約 63-65%；YouTube xG 模型預測烏拉圭期望進球 1.95 對佛得角 0.65，合計 xG 2.60，勝率 65%/和局 23%/佛得角 12%；MEXC 分析模型預測 59%/25%/16%；多模型均預期 1:0 或 2:0 為最可能比分"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.7,
+        "basis": "各大博彩平台（BetOnline -205、ESPN/FanDuel -210至-225、BetUS -220）一致將烏拉圭列為大熱門，預測市場 Polymarket 隱含烏拉圭贏球概率達 66.5%、Kalshi 67%；盤口傾向 Under 2.5 進球（-152 至 -155），反映各方預期低入球、緊湊比賽的格局"
+      },
+      {
+        "name": "反方/保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.32,
+        "basis": "少數意見認為佛得角有能力再度製造爆冷：freetips.com 建議投「佛得角贏或和局」（賠率 2.75），MEXC 模型有 25% 平局概率，YouTube 預覽頻道民調顯示佛得角支持率達 28%。論壇（BigSoccer、Reddit r/soccer）中部分球迷相信佛得角紀律性防守可逼平甚至擊敗傷兵連連的烏拉圭；中場球員 Deroy Duarte 受訪時直言「為何不能贏？我們要相信」，體現球隊高昂鬥志。Opta 對此場未公布完整模擬，但其對西班牙對佛得角的模擬顯示佛得角確實有能力超越預期。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（綜合盤口）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.65,
+          "draw": 0.22,
+          "away": 0.13
+        },
+        "scoreline": "1:0",
+        "note": "各大博彩平台（BetOnline -205、ESPN/FanDuel -210至-225、BetUS -220）一致將烏拉圭列為大熱門，預測市場 Polymarket 隱含烏拉圭贏球概率達 66.5%、Kalshi 67%；盤口傾向 Under 2.5 進球（-152 至 -155），反映各方預期低入球、緊湊比賽的格局"
+      },
+      {
+        "source": "預測模型/超級電腦（Opta/預測市場/xG 綜合）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.64,
+          "draw": 0.23,
+          "away": 0.13
+        },
+        "scoreline": "1:0",
+        "note": "Opta 超級電腦 25,000 次模擬顯示烏拉圭勝率約 63-65%；YouTube xG 模型預測烏拉圭期望進球 1.95 對佛得角 0.65，合計 xG 2.60，勝率 65%/和局 23%/佛得角 12%；MEXC 分析模型預測 59%/25%/16%；多模型均預期 1:0 或 2:0 為最可能比分"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "烏拉圭（南美傳統強隊）面對首戰0-0逼平西班牙、門將沃辛尼亞7撲救創歷史的非洲黑馬佛得角。烏拉圭傷兵不少——阿勞霍（肌肉撕裂確定缺陣）、德阿拉斯卡埃塔（小腿傷預計缺席），但希門尼斯已康復有望首發，整體實力與經驗仍明顯佔優。佛得角士氣高昂、防守紀律佳，教練布比斯塔表示難度只增不減。博彩隱含烏拉圭約66.5%，Opta超級電腦與xG模型皆指向烏拉圭窄勝（約63-65%），Under 2.5進球為主流附加預測。主預測烏拉圭1:0小勝，信心中高（0.72）。佛得角的鐵桶防守與烏拉圭傷兵潮為變數，反方情境為平局或低比分悶和。",
+    "key_factors": [
+      "烏拉圭為世界盃兩屆冠軍（1930、1950），FIFA 排名第 16 位，陣中雲集歐洲頂級聯賽球員（Valverde/皇馬、Ugarte/曼聯、Bentancur/托特納姆），整體質素遠高於排名第 67 的佛得角",
+      "佛得角創造歷史性首屆世界盃首場即以 0:0 平局逼和歐洲冠軍西班牙，門將 Vozinha（40 歲）作出 7 次撲救展現超強防守組織；本場信心十足，教練 Bubista 直言「對陣烏拉圭難度更大，甚至更高」",
+      "烏拉圭關鍵傷兵：Ronald Araújo（肌肉撕裂，確定缺陣）、Giorgian de Arrascaeta（小腿，預計缺席首兩場，最快 6/26 對西班牙復出）；Gimenez 已從踝傷恢復，有望首發上陣，Bielsa 稱其「已痊癒 15 天」",
+      "烏拉圭首場對沙特阿拉伯僅 1:1 平局，上半場沉悶失球、下半場砲轟 22 腳但無法取勝；Bielsa 賽後明言「我們必須贏那場，浪費了機會」，本場心理壓力巨大，必須三分，否則末輪需擊敗西班牙才能晉級",
+      "佛得角防守組織紀律嚴明——對西班牙全場僅 1 次犯規，反映超高紀律性；有望以相同策略（低防守、快速反擊）面對烏拉圭，但烏拉圭 Bielsa 的高節奏壓迫踢法比西班牙更具體力衝擊，防守難度更高",
+      "烏拉圭對陣佛得角無歷史交手紀錄，為兩隊首度交鋒；烏拉圭近 5 場僅 1 勝 3 平 1 負（5:1 負美國），進攻效率待提升",
+      "主流輿論共識：烏拉圭以窄勝（1:0）贏下比賽，Under 2.5 進球概率高達 57-60%；佛得角防守頑強令比賽不易大勝；賽後 Group H 四隊可能均在積分 4 分內，每分至關重要",
+      "地點因素：同樣在邁阿密 Hard Rock Stadium 作賽，烏拉圭首場即在此地與沙特平局，主場感略強；氣候（高溫高濕）對體能消耗大，有利防守方",
+      "Bielsa 比賽前強調：「需清楚展示烏拉圭的集體實力與個人質素」；Bentancur 表示「需耐心持球，避免直接長傳」，反映烏拉圭已針對佛得角的快速反擊調整部署"
+    ],
+    "consensus_lean": "主流共識傾向烏拉圭（主隊）以 1:0 窄勝，勝率約 63-66%。幾乎所有媒體、博彩平台與預測模型均支持烏拉圭取勝，Under 2.5 進球為最受歡迎的附加投注。烏拉圭的世界盃資歷、中場配置（Valverde + Ugarte）與必須取勝的迫切性，是三大支撐熱門地位的理由。",
+    "dissent": "少數意見認為佛得角有能力再度製造爆冷：freetips.com 建議投「佛得角贏或和局」（賠率 2.75），MEXC 模型有 25% 平局概率，YouTube 預覽頻道民調顯示佛得角支持率達 28%。論壇（BigSoccer、Reddit r/soccer）中部分球迷相信佛得角紀律性防守可逼平甚至擊敗傷兵連連的烏拉圭；中場球員 Deroy Duarte 受訪時直言「為何不能贏？我們要相信」，體現球隊高昂鬥志。Opta 對此場未公布完整模擬，但其對西班牙對佛得角的模擬顯示佛得角確實有能力超越預期。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "烏拉圭整體實力明顯優於佛得角，主場勝券在握。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "2:0",
+      "note": "烏拉圭實力佔優，主場穩勝佛得角。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "南美強權烏拉圭實力遠優於對手，應可穩健取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.74,
+        "draw": 0.18,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "烏拉圭實力與經驗占優，穩守反擊可零封取勝。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "烏拉圭陣容實力與大賽經驗佔絕對優勢，預計能輕鬆擊退佛得角。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.76,
+        "draw": 0.16,
+        "away": 0.08
+      },
+      "scoreline": "2:0",
+      "note": "烏拉圭實力遠勝，預計主場輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "烏拉圭實力懸殊，掌控賽局，預計穩勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.74,
+      "draw": 0.17,
+      "away": 0.09
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-20T011044Z"
+}

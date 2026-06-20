@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T09:15:33Z",
+  "last_updated": "2026-06-20T01:11:26Z",
   "scorers": [
     {
       "id": "CAN-david",
@@ -62,18 +62,6 @@
       "red_cards": 0
     },
     {
-      "id": "USA-balogun",
-      "name_zh": "福拉林·巴洛根",
-      "name_en": "Folarin Balogun",
-      "team_zh": "美國",
-      "team": "USA",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 2,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "ENG-kane",
       "name_zh": "卡尼",
       "name_en": "Harry Kane",
@@ -81,6 +69,18 @@
       "team": "England",
       "position": "FW",
       "shirt_no": 9,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-saibari",
+      "name_zh": "伊斯梅爾·薩巴里",
+      "name_en": "Ismael Saibari",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -134,6 +134,18 @@
       "red_cards": 0
     },
     {
+      "id": "USA-balogun",
+      "name_zh": "福拉林·巴洛根",
+      "name_en": "Folarin Balogun",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "UZB-fayzullaev",
       "name_zh": "法伊祖拉耶夫",
       "name_en": "Abbosbek Fayzullaev",
@@ -141,6 +153,18 @@
       "team": "Uzbekistan",
       "position": "MF",
       "shirt_no": 22,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "USA-freeman",
+      "name_zh": "亞歷克斯·弗里曼",
+      "name_en": "Alex Freeman",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -344,18 +368,6 @@
       "team_zh": "塞內加爾",
       "team": "Senegal",
       "position": "FW",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "MAR-saibari",
-      "name_zh": "伊斯梅爾·薩巴里",
-      "name_en": "Ismael Saibari",
-      "team_zh": "摩洛哥",
-      "team": "Morocco",
-      "position": "MF",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -976,6 +988,18 @@
       "red_cards": 0
     },
     {
+      "id": "AUS-circati",
+      "name_zh": "阿歷山德羅·西卡蒂",
+      "name_en": "Alessandro Circati",
+      "team_zh": "澳洲",
+      "team": "Australia",
+      "position": "DF",
+      "shirt_no": 3,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CAN-johnston",
       "name_zh": "阿利斯泰爾·約翰斯頓",
       "name_en": "Alistair Johnston",
@@ -995,6 +1019,30 @@
       "team": "Bosnia & Herzegovina",
       "position": "DF",
       "shirt_no": 7,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SCO-robertson",
+      "name_zh": "羅拔臣",
+      "name_en": "Andy Robertson",
+      "team_zh": "蘇格蘭",
+      "team": "Scotland",
+      "position": "DF",
+      "shirt_no": 3,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "USA-robinson",
+      "name_zh": "安東尼·羅賓遜",
+      "name_en": "Antonee Robinson",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "DF",
+      "shirt_no": 5,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1168,6 +1216,18 @@
       "red_cards": 0
     },
     {
+      "id": "USA-balogun",
+      "name_zh": "福拉林·巴洛根",
+      "name_en": "Folarin Balogun",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CIV-kessie",
       "name_zh": "法蘭克·基斯",
       "name_en": "Franck Kessié",
@@ -1204,12 +1264,48 @@
       "red_cards": 0
     },
     {
+      "id": "AUS-souttar",
+      "name_zh": "哈利·蘇達",
+      "name_en": "Harry Souttar",
+      "team_zh": "澳洲",
+      "team": "Australia",
+      "position": "DF",
+      "shirt_no": 19,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-diop",
+      "name_zh": "伊薩·迪奧普",
+      "name_en": "Issa Diop",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ECU-porozo",
       "name_zh": "傑克遜·波羅索",
       "name_en": "Jackson Porozo",
       "team_zh": "厄瓜多爾",
       "team": "Ecuador",
       "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "AUS-italiano",
+      "name_zh": "雅各·伊塔利亞諾",
+      "name_en": "Jacob Italiano",
+      "team_zh": "澳洲",
+      "team": "Australia",
+      "position": "",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -1258,6 +1354,18 @@
       "team_zh": "哥倫比亞",
       "team": "Colombia",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "AUS-bos",
+      "name_zh": "喬丹·博斯",
+      "name_en": "Jordan Bos",
+      "team_zh": "澳洲",
+      "team": "Australia",
+      "position": "",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -1661,9 +1769,9 @@
     }
   ],
   "totals": {
-    "players": 370,
-    "goals": 83,
-    "yellow_cards": 63,
+    "players": 374,
+    "goals": 85,
+    "yellow_cards": 71,
     "red_cards": 6
   }
 }

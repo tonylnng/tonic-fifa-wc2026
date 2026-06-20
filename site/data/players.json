@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-19T09:15:33Z",
+  "last_updated": "2026-06-20T01:11:26Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -356,11 +356,19 @@
       "bio_zh": "澳洲後防新星，效力意甲帕爾馬，曾成為澳洲隊44年來最年輕隊長，冷靜沉穩、傳球精準，是球隊未來核心中堅。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          29
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
     },
     {
       "id": "AUS-souttar",
@@ -376,11 +384,19 @@
       "bio_zh": "高大中堅，效力英冠萊斯特城，身高198cm制空能力超群，是澳洲後防支柱，連續兩屆世界盃出賽經驗豐富。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          29
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
     },
     {
       "id": "AUS-ryan",
@@ -401,6 +417,62 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "AUS-italiano",
+      "name_en": "Jacob Italiano",
+      "name_zh": "雅各·伊塔利亞諾",
+      "team": "Australia",
+      "team_zh": "澳洲",
+      "position": "",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          29
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
+    },
+    {
+      "id": "AUS-bos",
+      "name_en": "Jordan Bos",
+      "name_zh": "喬丹·博斯",
+      "team": "Australia",
+      "team_zh": "澳洲",
+      "position": "",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          29
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
     },
     {
       "id": "AUT-arnautovic",
@@ -4559,18 +4631,20 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          6
+          6,
+          30
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/brazil-vs-morocco/report/549771",
-        "https://www.espn.com/soccer/report/_/gameId/760419",
-        "https://www.theguardian.com/football/2026/jun/14/brazil-morocco-world-cup-match-report",
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C"
+        "https://www.espn.com/soccer/story/_/id/49119389/scotland-0-1-morocco-world-cup-2026-result-score-recap",
+        "https://www.skysports.com/football/scotland-vs-morocco/report/549795",
+        "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
+        "https://www.sportingnews.com/au/football/news/scotland-morocco-box-score-full-stats-world-cup-group-c-match/553292b21d6b749d0aaeb7ea",
+        "https://www.bbc.com/sport/articles/c78yndw10qxo"
       ]
     },
     {
@@ -4632,6 +4706,34 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "MAR-diop",
+      "name_en": "Issa Diop",
+      "name_zh": "伊薩·迪奧普",
+      "team": "Morocco",
+      "team_zh": "摩洛哥",
+      "position": "",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          30
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/49119389/scotland-0-1-morocco-world-cup-2026-result-score-recap",
+        "https://www.skysports.com/football/scotland-vs-morocco/report/549795",
+        "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
+        "https://www.sportingnews.com/au/football/news/scotland-morocco-box-score-full-stats-world-cup-group-c-match/553292b21d6b749d0aaeb7ea",
+        "https://www.bbc.com/sport/articles/c78yndw10qxo"
+      ]
     },
     {
       "id": "NED-depay",
@@ -6252,11 +6354,19 @@
       "bio_zh": "蘇格蘭隊長，效力利物浦，是世界最佳左後衛之一，以無盡的跑動能力、精準傳中和領袖氣質著稱，帶領蘇格蘭隊重返世界盃大賽。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          30
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/49119389/scotland-0-1-morocco-world-cup-2026-result-score-recap",
+        "https://www.skysports.com/football/scotland-vs-morocco/report/549795",
+        "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
+        "https://www.sportingnews.com/au/football/news/scotland-morocco-box-score-full-stats-world-cup-group-c-match/553292b21d6b749d0aaeb7ea",
+        "https://www.bbc.com/sport/articles/c78yndw10qxo"
+      ]
     },
     {
       "id": "SCO-hickey",
@@ -7847,17 +7957,19 @@
       "bio_zh": "",
       "stats": {
         "goals": 2,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          4
+          4,
+          29
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
-        "https://www.espn.com/soccer/report/_/gameId/760417",
-        "https://www.theguardian.com/football/2026/jun/12/usa-paraguay-world-cup-2026-group-d-match-report",
-        "https://www.sportingnews.com/in/football/news/usa-vs-paraguay-world-cup-live-score-result-highlights/d87db9c0c24db25b575ac66f"
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
       ]
     },
     {
@@ -7968,11 +8080,47 @@
       "bio_zh": "美國隊左閘主力，效力英超富勒姆，速度快且攻守兼備，是美國隊左路進攻的重要齒輪，多次攻破對手防線。",
       "stats": {
         "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          29
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
+    },
+    {
+      "id": "USA-freeman",
+      "name_en": "Alex Freeman",
+      "name_zh": "亞歷克斯·弗里曼",
+      "team": "USA",
+      "team_zh": "美國",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          29
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/usa-vs-australia/report/549797",
+        "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states",
+        "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
+        "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
+        "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
     },
     {
       "id": "USA-turner",

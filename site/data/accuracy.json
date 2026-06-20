@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-19T17:21:53Z",
+  "last_updated": "2026-06-20T01:11:26Z",
   "metrics": {
-    "total_evaluated": 24,
-    "outcome_correct": 13,
-    "outcome_accuracy": 0.5417,
+    "total_evaluated": 26,
+    "outcome_correct": 15,
+    "outcome_accuracy": 0.5769,
     "exact_score_correct": 1,
-    "exact_score_accuracy": 0.0417
+    "exact_score_accuracy": 0.0385
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 24,
-      "outcome_correct": 13,
+      "evaluated": 26,
+      "outcome_correct": 15,
       "exact_correct": 1
     }
   },
@@ -308,6 +308,30 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-06-17T1655Z"
+    },
+    {
+      "match": 29,
+      "home": "USA",
+      "away": "Australia",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-18T0055Z"
+    },
+    {
+      "match": 30,
+      "home": "Scotland",
+      "away": "Morocco",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-18T0055Z"
     }
   ]
 }
