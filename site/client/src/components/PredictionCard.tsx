@@ -1,4 +1,4 @@
-import { Prediction, ResultItem, Fixture, Benchmark, Consensus } from "@/lib/types";
+import { Prediction, ResultItem, Fixture, Benchmark, Consensus, KnockoutInfo } from "@/lib/types";
 import { flag, zh } from "@/lib/flags";
 import { stageZh, outcomeZh } from "@/lib/stage";
 import { kickoffHkt, countdown } from "@/lib/utils";
@@ -30,6 +30,8 @@ import {
   Hourglass,
   Scale,
   Sparkles,
+  ShieldAlert,
+  Target,
 } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -254,7 +256,176 @@ function Benchmarks({
   );
 }
 
+/** 淘汰賽（32 強起）點球風險 + 心理素質維度。僅當預測含 knockout 欄位時顯示。 */
+const RISK_META: Record<
+  string,
+  { zh: string; box: string; text: string }
+> = {
+  high: {
+    zh: "高",
+    box: "border-destructive/50 bg-destructive/10",
+    text: "text-destructive",
+  },
+  medium: {
+    zh: "中",
+    box: "border-chart-2/50 bg-chart-2/10",
+    text: "text-chart-2",
+  },
+  low: {
+    zh: "低",
+    box: "border-primary/50 bg-primary/10",
+    text: "text-primary",
+  },
+};
+
+function PenaltyRiskBadge({ risk }: { risk: "high" | "medium" | "low" }) {
+  const m = RISK_META[risk] || RISK_META.medium;
+  return (
+    <span
+      className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-semibold ${m.box} ${m.text}`}
+      data-testid="penalty-risk-badge"
+    >
+      <ShieldAlert className="w-3 h-3" /> 點球風險 {m.zh}
+    </span>
+  );
+}
+
+function KnockoutBlock({
+  k,
+  homeName,
+  awayName,
+}: {
+  k: KnockoutInfo;
+  homeName: string;
+  awayName: string;
+}) {
+  const m = RISK_META[k.penalty_risk] || RISK_META.medium;
+  const pct = (v: number) => `${Math.round(v * 100)}%`;
+  const ph = k.penalty_history;
+  return (
+    <div
+      className={`rounded-xl border-2 px-3.5 py-3 ${m.box}`}
+      data-testid="knockout-block"
+    >
+      <div className="flex items-center justify-between gap-2">
+        <span className="flex items-center gap-1.5 text-sm font-semibold">
+          <ShieldAlert className={`w-4 h-4 ${m.text}`} />
+          淘汰賽點球風險分析
+        </span>
+        <PenaltyRiskBadge risk={k.penalty_risk} />
+      </div>
+
+      {/* 三項機率 */}
+      <div className="grid grid-cols-3 gap-2 mt-3">
+        {[
+          { label: "90分鐘平局", v: k.draw_after_90_prob },
+          { label: "進加時", v: k.extra_time_prob },
+          { label: "進點球", v: k.shootout_prob },
+        ].map((it, i) => (
+          <div
+            key={i}
+            className="rounded-lg border border-border bg-card/50 px-2 py-1.5 text-center"
+          >
+            <div className="font-mono text-base font-bold tabular-nums">{pct(it.v)}</div>
+            <div className="text-[10px] text-muted-foreground mt-0.5">{it.label}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* 晉級機率條 */}
+      <div className="mt-3">
+        <div className="flex justify-between text-[11px] text-muted-foreground mb-1">
+          <span>{homeName} 晉級 {pct(k.advance_prob.home)}</span>
+          <span>{pct(k.advance_prob.away)} 晉級 {awayName}</span>
+        </div>
+        <div className="flex h-2 w-full rounded-full overflow-hidden bg-muted">
+          <div className="bg-chart-1" style={{ width: pct(k.advance_prob.home) }} />
+          <div className="bg-chart-3" style={{ width: pct(k.advance_prob.away) }} />
+        </div>
+      </div>
+
+      {/* 近 5 年點球大戰戰績對比 */}
+      <div className="grid grid-cols-2 gap-2 mt-3">
+        {[
+          { name: homeName, h: ph.home },
+          { name: awayName, h: ph.away },
+        ].map((t, i) => (
+          <div key={i} className="rounded-lg border border-border bg-card/50 px-2.5 py-2">
+            <div className="text-xs font-semibold truncate">{t.name}</div>
+            <div className="flex items-baseline gap-1 mt-1">
+              <span className="font-mono text-lg font-bold tabular-nums">
+                {pct(t.h.win_rate)}
+              </span>
+              <span className="text-[10px] text-muted-foreground">點球勝率</span>
+            </div>
+            <div className="text-[10px] text-muted-foreground mt-0.5">
+              近5年 {t.h.shootouts} 戰 {t.h.won} 勝
+              {typeof t.h.conversion_rate === "number" &&
+                ` · 罰球命中 ${pct(t.h.conversion_rate)}`}
+            </div>
+            {t.h.recent && (
+              <p className="text-[10px] text-muted-foreground mt-1 leading-snug">
+                {t.h.recent}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* 心理素質分析 */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
+        {[
+          { name: homeName, txt: k.psychology.home },
+          { name: awayName, txt: k.psychology.away },
+        ].map((t, i) => (
+          <div key={i} className="rounded-lg border border-border px-2.5 py-2">
+            <div className="text-[11px] font-semibold text-muted-foreground mb-0.5">
+              {t.name} 心理素質
+            </div>
+            <p className="text-[11px] text-muted-foreground leading-snug">{t.txt}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* 主罰球員 */}
+      {k.key_takers && k.key_takers.length > 0 && (
+        <div className="mt-3">
+          <div className="flex items-center gap-1.5 text-[11px] font-semibold text-muted-foreground mb-1.5">
+            <Target className="w-3.5 h-3.5" /> 主要主罰球員
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {k.key_takers.map((p, i) => (
+              <span
+                key={i}
+                className="inline-flex items-center gap-1 rounded-full border border-border px-2 py-0.5 text-[10px]"
+              >
+                <span className="font-semibold">{p.name_zh}</span>
+                <span className="text-muted-foreground">
+                  （{p.team === "home" ? homeName : awayName}）{p.record}
+                </span>
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 風險提示 */}
+      <div className="mt-3 rounded-lg border border-border bg-card/50 px-3 py-2">
+        <p className="text-xs leading-relaxed">
+          <span className="font-semibold">點球風險提示：</span>
+          {k.risk_note}
+        </p>
+      </div>
+
+      <p className="text-[10px] text-muted-foreground mt-2 leading-snug">
+        淘汰賽自 32 強起導入此維度：以近 5 年大型國際賽事點球大戰數據與球員心理素質為基礎，量化和局與點球風險，降低因 90 分鐘戰平引發的預測失準。
+      </p>
+    </div>
+  );
+}
+
 function ConsensusBlock({ c }: { c: Consensus }) {
+
   return (
     <div
       className="rounded-xl border-2 border-chart-2/50 bg-chart-2/5 px-3.5 py-3"
@@ -460,6 +631,7 @@ export function PredictionCard({
   const top = pred.prediction.top_scorelines;
   const scenarios = pred.prediction.scenarios;
   const benchmarks = pred.benchmarks;
+  const knockout = pred.prediction.knockout;
   const correctOutcome = result && result.outcome === pred.prediction.outcome;
   const exactScore =
     result &&
@@ -490,6 +662,11 @@ export function PredictionCard({
               >
                 <History className="w-3 h-3" />
                 {history.length} 批次
+              </span>
+            )}
+            {knockout && (
+              <span className="ml-2">
+                <PenaltyRiskBadge risk={knockout.penalty_risk} />
               </span>
             )}
             {result ? (
@@ -627,6 +804,16 @@ export function PredictionCard({
                   多情境預測（{scenarios.length} 個角度）
                 </h4>
                 <Scenarios items={scenarios} />
+              </div>
+            )}
+
+            {knockout && (
+              <div>
+                <KnockoutBlock
+                  k={knockout}
+                  homeName={zh(pred.home)}
+                  awayName={zh(pred.away)}
+                />
               </div>
             )}
 

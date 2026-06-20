@@ -422,6 +422,34 @@
       "outcome": "away",
       "recorded_at": "2026-06-20T00:55:00Z",
       "source": "[espn.com](https://www.espn.com/soccer/story/_/id/49119389/scotland-0-1-morocco-world-cup-2026-result-score-recap)；[skysports.com](https://www.skysports.com/football/scotland-vs-morocco/report/549795)；[theguardian.com](https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report)；[sportingnews.com](https://www.sportingnews.com/au/football/news/scotland-morocco-box-score-full-stats-world-cup-group-c-match/553292b21d6b749d0aaeb7ea)"
+    },
+    {
+      "match": 31,
+      "stage": "Group C",
+      "home": "Brazil",
+      "away": "Haiti",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "scoreline": "3:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-20T11:03:00Z",
+      "source": "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf"
+    },
+    {
+      "match": 32,
+      "stage": "Group D",
+      "home": "Turkey",
+      "away": "Paraguay",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-06-20T11:03:00Z",
+      "source": "https://fdp.fifa.org/assetspublic/ce281/r12470/pdf/FullTimeMatchReport-English.pdf"
     }
   ]
 }

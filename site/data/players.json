@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-20T01:11:26Z",
+  "last_updated": "2026-06-20T11:11:13Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1069,18 +1069,19 @@
       "is_key": true,
       "bio_zh": "巴西及世界最具威脅的前鋒之一，效力皇家馬德里，以閃電速度、精準射術和出色盤球著稱，多次獲選世界最佳球員候選，是巴西奪冠最大依仗。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          6
+          6,
+          31
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/brazil-vs-morocco/report/549771",
-        "https://www.espn.com/soccer/report/_/gameId/760419",
-        "https://www.theguardian.com/football/2026/jun/14/brazil-morocco-world-cup-match-report",
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C"
+        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
+        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
       ]
     },
     {
@@ -1122,6 +1123,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "BRA-cunha",
+      "name_en": "Matheus Cunha",
+      "name_zh": "馬修斯·庫尼亞",
+      "team": "Brazil",
+      "team_zh": "巴西",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 2,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          31
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
+        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
+      ]
     },
     {
       "id": "BRA-guimaraes",
@@ -1189,6 +1217,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "BRA-douglas",
+      "name_en": "Douglas Santos",
+      "name_zh": "道格拉斯·桑托斯",
+      "team": "Brazil",
+      "team_zh": "巴西",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          31
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
+        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
+      ]
     },
     {
       "id": "BRA-ibanez",
@@ -3444,6 +3499,33 @@
       "sources": []
     },
     {
+      "id": "HAI-pierrot",
+      "name_en": "Frantzdy Pierrot",
+      "name_zh": "弗朗茨迪·皮埃羅",
+      "team": "Haiti",
+      "team_zh": "海地",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          31
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
+        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
+      ]
+    },
+    {
       "id": "HAI-bellegarde",
       "name_en": "Jean-Ricner Bellegarde",
       "name_zh": "貝勒加德",
@@ -3467,6 +3549,33 @@
         "https://www.espn.com/soccer/match/_/gameId/760418/scotland-haiti",
         "https://www.skysports.com/football/haiti-vs-scotland/teams/549772",
         "https://www.livemint.com/sports/football-news/fifa-world-cup-haiti-2386-vs-scotland-1108-live-score-1489372"
+      ]
+    },
+    {
+      "id": "HAI-jeanjacques",
+      "name_en": "Danley Jean Jacques",
+      "name_zh": "丹利·讓-雅克",
+      "team": "Haiti",
+      "team_zh": "海地",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          31
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
+        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
       ]
     },
     {
@@ -3508,6 +3617,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "HAI-arcus",
+      "name_en": "Carlens Arcus",
+      "name_zh": "卡爾倫斯·阿庫斯",
+      "team": "Haiti",
+      "team_zh": "海地",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          31
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
+        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
+      ]
     },
     {
       "id": "HAI-placide",
@@ -5480,16 +5616,46 @@
       "stats": {
         "goals": 0,
         "yellow_cards": 1,
-        "red_cards": 0,
+        "red_cards": 1,
         "matches_with_events": [
-          4
+          4,
+          32
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
-        "https://www.espn.com/soccer/report/_/gameId/760417",
-        "https://www.theguardian.com/football/2026/jun/12/usa-paraguay-world-cup-2026-group-d-match-report",
-        "https://www.sportingnews.com/in/football/news/usa-vs-paraguay-world-cup-live-score-result-highlights/d87db9c0c24db25b575ac66f"
+        "https://fdp.fifa.org/assetspublic/ce281/r12470/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-t%C3%BCrkiye-vs-paraguay-in-the-fifa-world-cup-2026-2026-06-20",
+        "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Turkey-vs.-Paraguay/684.aspx?Championship_YearID=18",
+        "https://www.bbc.co.uk/sport/football/articles/cvg58m7n1plo"
+      ]
+    },
+    {
+      "id": "PAR-galarza",
+      "name_en": "Matías Galarza",
+      "name_zh": "馬蒂亞斯·加拉爾薩",
+      "team": "Paraguay",
+      "team_zh": "巴拉圭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          32
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12470/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-t%C3%BCrkiye-vs-paraguay-in-the-fifa-world-cup-2026-2026-06-20",
+        "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Turkey-vs.-Paraguay/684.aspx?Championship_YearID=18",
+        "https://www.bbc.co.uk/sport/football/articles/cvg58m7n1plo"
       ]
     },
     {
@@ -7902,6 +8068,34 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "TUR-elmali",
+      "name_en": "Eren Elmalı",
+      "name_zh": "埃倫·埃爾馬利",
+      "team": "Turkey",
+      "team_zh": "土耳其",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          32
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12470/pdf/FullTimeMatchReport-English.pdf",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-t%C3%BCrkiye-vs-paraguay-in-the-fifa-world-cup-2026-2026-06-20",
+        "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Turkey-vs.-Paraguay/684.aspx?Championship_YearID=18",
+        "https://www.bbc.co.uk/sport/football/articles/cvg58m7n1plo"
+      ]
     },
     {
       "id": "TUR-gunok",

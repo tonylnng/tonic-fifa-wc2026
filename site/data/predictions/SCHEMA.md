@@ -71,7 +71,38 @@ trail is auditable.
         "win_prob": { "home": 0.74, "draw": 0.17, "away": 0.09 },
         "note": "Opta/ESPN Elo 等模型平均"
       }
-    ]
+    ],
+
+    "knockout": {                                 // 【淘汰賽專用】僅 32 強起（Round of 32 / 16 / 8 / 4 / 決賽）寫入；小組賽略去
+      "draw_after_90_prob": 0.34,                 // 90 分鐘戰平機率
+      "extra_time_prob": 0.34,                    // 進入加時機率（通常≈ 90 分鐘平局機率）
+      "shootout_prob": 0.22,                      // 進入點球大戰機率
+      "advance_prob": { "home": 0.58, "away": 0.42 },  // 最終晉級機率（含加時/點球，二向總和=1）
+      "penalty_history": {                        // 各隊近 5 年大賽（世界盃/洲際盃/歐國盃/美洲盃等）點球大戰數據
+        "home": {
+          "shootouts": 3,                         // 點球大戰場次
+          "won": 2,                               // 勝出場次
+          "win_rate": 0.67,                       // 點球大戰勝率
+          "conversion_rate": 0.80,                // 罰球命中率（選填）
+          "recent": "2022 世界盃 8 強點球淘汰…",  // 一句近期紀錄（繁中，選填）
+          "sources": ["https://..."]
+        },
+        "away": {
+          "shootouts": 2, "won": 0, "win_rate": 0.00, "conversion_rate": 0.65,
+          "recent": "首次進入淘汰賽點球階段…", "sources": ["https://..."]
+        }
+      },
+      "psychology": {                             // 球員/球隊心理素質分析（全繁中）
+        "home": "門將撲點紀錄佳、隊長大賽經驗豐富、主罰名單穩定…",
+        "away": "年輕陣容首次大賽淘汰、關鍵球員狀態起伏、罰球順序待考…"
+      },
+      "key_takers": [                             // 主要主罰球員 + 命中紀錄（選填，2-5 人）
+        { "team": "home", "name_zh": "…", "record": "國家隊罰球 8/9" },
+        { "team": "away", "name_zh": "…", "record": "近期罰丟 1 枚" }
+      ],
+      "penalty_risk": "high",                     // high | medium | low 綜合點球風險等級
+      "risk_note": "雙方實力接近、均擅防守反擊，90 分鐘戰平與進點球機率偏高；主隊點球經驗佔優。"  // 繁中點球風險提示（1-3 句）
+    }
   },
   "reasoning": {
     "summary": "Short 2-3 sentence rationale in Traditional Chinese.",

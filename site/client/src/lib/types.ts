@@ -65,6 +65,34 @@ export interface Consensus {
   logic: string; // 綜合邏輯一句（繁中）
 }
 
+/** 淘汰賽（32 強起）點球風險與心理素質維度。小組賽不含此欄。 */
+export interface PenaltyTeamHistory {
+  shootouts: number; // 近 5 年大賽點球大戰場次
+  won: number; // 勝出場次
+  win_rate: number; // 點球大戰勝率 0..1
+  conversion_rate?: number; // 罰球命中率 0..1（選填）
+  recent?: string; // 一句近期紀錄（繁中，選填）
+  sources?: string[];
+}
+
+export interface PenaltyTaker {
+  team: "home" | "away";
+  name_zh: string;
+  record: string; // 命中紀錄（繁中）
+}
+
+export interface KnockoutInfo {
+  draw_after_90_prob: number; // 90 分鐘戰平機率
+  extra_time_prob: number; // 進入加時機率
+  shootout_prob: number; // 進入點球大戰機率
+  advance_prob: { home: number; away: number }; // 最終晉級機率（含加時/點球，二向總和=1）
+  penalty_history: { home: PenaltyTeamHistory; away: PenaltyTeamHistory };
+  psychology: { home: string; away: string }; // 心理素質分析（全繁中）
+  key_takers?: PenaltyTaker[]; // 主要主罰球員（選填）
+  penalty_risk: "high" | "medium" | "low"; // 綜合點球風險等級
+  risk_note: string; // 繁中點球風險提示（1-3 句）
+}
+
 export interface Prediction {
   match: number;
   stage: string;
@@ -83,6 +111,7 @@ export interface Prediction {
     confidence: number;
     top_scorelines?: ScorelineProb[];
     scenarios?: PredictionScenario[];
+    knockout?: KnockoutInfo; // 淘汰賽（32 強起）點球維度
   };
   benchmarks?: Benchmark[];
   consensus?: Consensus; // 多模型綜合共識

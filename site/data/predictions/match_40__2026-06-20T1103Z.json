@@ -1,0 +1,341 @@
+{
+  "match": 40,
+  "home": "New Zealand",
+  "away": "Egypt",
+  "home_zh": "紐西蘭",
+  "away_zh": "埃及",
+  "stage": "Group G",
+  "kickoff_utc": "2026-06-22T01:00:00Z",
+  "kickoff_hkt": "2026-06-22 09:00",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-20T1103Z",
+  "run_timestamp": "2026-06-20T11:03:00Z",
+  "source_count": 98,
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+    "https://www.ndtvprofit.com/sports/world-cup-2026-points-table-latest-group-g-and-group-h-rankings-11642104",
+    "https://www.sportingnews.com/us/soccer/news/world-cup-group-g-standings-results-table-2026/1718b02f21d1b076ccc56614",
+    "https://www.covers.com/world-cup/group-standings",
+    "https://www.worldcup.org.uk/football/2026/groups/GroupG.shtml",
+    "https://blog.wego.com/world-cup-table-live-group-standing/",
+    "https://en.as.com/soccer/world-cup/world-cup-2026-group-g-standings-results-and-who-can-qualify-f202606-n/",
+    "https://bleacherreport.com/articles/25440865-world-cup-2026-group-standings-schedule-after-mondays-results-ahead-ko-bracket",
+    "https://www.si.com/soccer/world-cup/standings",
+    "https://www.espn.com/soccer/story/_/id/49072841/group-g-2026-world-cup-teams-records-stats-know-belgium-iran-new-zealand-egypt",
+    "https://www.yardbarker.com/cricket/articles/fifa_wc_2026_nz_midfielder_matt_garbett_ruled_out_with_hamstring_injury/s1_17725_43959413",
+    "https://www.1news.co.nz/2026/06/16/major-injury-blow-for-all-whites-hours-before-world-cup-opener/",
+    "https://www.fourfourtwo.com/team/new-zealand-world-cup-2026-squad",
+    "https://www.1news.co.nz/2026/06/18/all-white-called-up-to-world-cup-squad-midway-through-bali-holiday/",
+    "https://aleagues.com.au/news/aleague-men-auckland-logan-rogerson-all-whites-squad-fifa-world-cup/",
+    "https://armeniansportsnews.com/2026/06/17/logan-rogerson-joins-new-zealand-squad-for-2026-fifa-world-cup/",
+    "https://x.com/NZ_Football/status/2066650774499971288",
+    "https://www.odt.co.nz/sport/football/all-whites-fending-distractions-rnz",
+    "https://www.1news.co.nz/2026/06/15/injury-concern-for-all-whites-midfielder-ahead-of-world-cup-opener/",
+    "https://www.aljazeera.com/sports/2026/6/15/egypt-draw-1-1-with-belgium-at-world-cup-group-stage",
+    "https://egyptianstreets.com/2026/06/16/egypt-hold-belgium-to-1-1-draw-in-2026-world-cup-opener/",
+    "https://www.theguardian.com/football/2026/jun/14/mohamed-salah-has-eyes-of-a-nation-on-him-as-egypt-look-to-end-92-year-wait",
+    "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/17/world-cup-2026-how-did-egypt-saudi-arabia-and-the-regions-other-teams-do-in-first-matches/",
+    "https://www.fourfourtwo.com/team/egypt-world-cup-2026-squad",
+    "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/articles-video/belgium-and-egypt-draw-1-1-in-world-cup-group-game-2026-06-15",
+    "https://english.ahram.org.eg/NewsContentP/6/564413/Sports/Hassan-replaces-injured-Salah-in-Egypt-squad-for-S.aspx",
+    "https://khelnow.com/football/world-football-mohamed-salah-play-egypt-vs-belgium-fifa-world-cup-202606",
+    "https://insightcrunch.com/2026/06/16/belgium-vs-egypt-analysis/",
+    "https://www.theguardian.com/football/2026/jun/15/belgium-egypt-world-cup-2026-group-g-match-report",
+    "https://www.futbol24.com/betting-tips/preview/22-06-2026-new-zealand-egypt-betting-tip/",
+    "https://www.betus.com.pa/sportsbook/fifa/world-cup/new-zealand-vs-egypt/",
+    "https://www.toffeeweb.com/new-zealand-vs-egypt-predictions-picks-odds-22-06-2026/",
+    "https://www.inkl.com/news/new-zealand-vs-egypt-world-cup-2026-predictions-and-picks",
+    "https://footballmeister.com/world-cup-2026/new-zealand-egypt-2026-06-22/",
+    "https://www.goonersguide.com/football-pick-59543-New-Zealand-vs-Egypt.htm",
+    "https://footballpredictions.com/footballpredictions/world-cup-predictions/new-zealand-vs-egypt-prediction-22-06-2026/",
+    "https://esports-news.co.uk/2026/06/18/new-zealand-v-egypt-predictions/",
+    "https://nzsoccerwc.com/egypt/",
+    "https://www.youtube.com/watch?v=cF6YcDYSWxw",
+    "https://nerdytips.com/blog/new-zealand-vs-egypt-prediction-2026-06-22/",
+    "https://www.espn.com/soccer/odds/_/gameId/760452",
+    "https://www.sportsbet.com.au/huddle/soccer-world-cup/predictions/new-zealand-vs-egypt-tips-2026",
+    "https://www.sportskeeda.com/football/new-zealand-vs-egypt-prediction-betting-tips-june-21st-2026",
+    "https://kalshi.com/teams/soccer-team/egypt",
+    "https://kalshi.com/category/sports/soccer/world-soccer-cup/soccer-cup/games",
+    "https://polymarket.com/sports/world-cup/fifwc-nzl-egy-2026-06-21",
+    "https://polymarket.com/predictions/egypt",
+    "https://defirate.com/prediction-markets/world-cup-odds/",
+    "https://defirate.com/prediction-markets/world-cup-odds/round-of-32/",
+    "https://onthepitch.now/countries/nzl/",
+    "https://onthepitch.now/forecast/",
+    "https://www.sportsmole.co.uk/football/world-cup/new-zealand-vs-egypt_game_248831.html",
+    "https://theanalyst.com/articles/world-cup-2026-how-many-points-needed-third-placed-teams-opta-supercomputer",
+    "https://www.economicsobservatory.com/world-cup-2026-previews-for-groups-g-and-h-what-does-scorecasting-suggest",
+    "https://www.youtube.com/watch?v=CdbfAsV4kak",
+    "https://www.youtube.com/watch?v=PjqpR8kQjj4",
+    "https://www.youtube.com/watch?v=LfxPjXfCY5o",
+    "https://www.youtube.com/watch?v=CE3M6aH42cM",
+    "https://www.reddit.com/r/soccer/comments/1u6gypp/world_cup_2026_preview_egypt_the_pharaohs_chase/",
+    "https://www.reddit.com/r/soccer/comments/1u6hsfv/world_cup_2026_preview_new_zealand_flying_kiwis/",
+    "https://www.rotowire.com/soccer/article/new-zealand-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118938",
+    "https://www.racingpost.com/sport/football-tips/world-cup-2026/new-zealand-vs-egypt-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-abyHq6P5efqn/",
+    "https://www.mexc.com/news/1155133",
+    "https://betmines.com/match-preview/new-zealand-vs-egypt-prediction-match-preview-and-analysis-world-cup-22-06-2026",
+    "https://www.asianetnews.com/casinos/worldcup-2026/new-zealand-vs-egypt-vs-group-stage/",
+    "https://www.sportsmole.co.uk/football/new-zealand/world-cup-2026/predicted-lineups/just-decision-wood-influence-predicted-new-zealand-xi-vs-egypt_599607.html",
+    "https://www.sportsmole.co.uk/football/world-cup/new-zealand-vs-egypt_game_248831.html",
+    "https://www.espn.com/soccer/story/_/id/49115519/new-zealand-vs-egypt-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+    "https://www.beinsports.com/en-au/football/fifa-world-cup-2026/articles/new-zealand-egypt-searching-for-elusive-first-win-2026-06-19",
+    "https://www.ysscores.com/en/news/13986339/new-zealand-coach-we-want-to-make-history-against-egypt-and-the-match-will-be-tough",
+    "https://www.ysscores.com/en/news/13986681/history-of-matches-between-egypt-and-new-zealand-before-the-world-cup-match",
+    "https://www.skysports.com/football/new-zealand-vs-egypt/549803",
+    "https://www.goal.com/en-us/news/new-zealand-egypt-world-cup-preview/blt1ef9c540246b6832",
+    "https://www.goal.com/en-ca/news/new-zealand-egypt-world-cup-preview/blt1ef9c540246b6832",
+    "https://wtop.com/sports/2026/06/elijah-justs-2-goal-world-cup-breakthrough-lifts-new-zealand-to-a-gritty-2-2-draw/",
+    "https://www.zee5.com/global/blog/fifa-world-cup-2026-daily-dispatch-june-16/",
+    "https://sportnation.nz/article/all-whites-rue-missed-chance-but-belief-grows-after-iran-draw",
+    "https://www.juvefc.com/new-zealand-v-egypt-predictions/",
+    "https://www.actionnetwork.com/worldcup-game/egypt-new-zealand/284380",
+    "https://www.sportsline.com/insiders/egypt-vs-new-zealand-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/",
+    "https://www.johnnybet.com/new-zealand-vs-egypt-prediction",
+    "https://africasoccer.com/new-zealand-v-egypt-kick-off-time-team-news-and-key-stats-for-22-june-clash/",
+    "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/egypt-new-zealand-2391-5100-5930",
+    "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/",
+    "https://english.ahram.org.eg/NewsContentP/66/570274/World-Cup-/;Defeat-is-not-in-my-genes;-Egypt;s-Hassan-remains.aspx",
+    "https://gate.ahram.org.eg/News/5675969.aspx",
+    "https://www.youtube.com/watch?v=wGL-bVrmnes",
+    "https://www.youtube.com/watch?v=zyUzOv4_Iv4",
+    "https://www.instagram.com/p/DZoafyZnNoD/",
+    "https://www.instagram.com/p/DZoa_RIFRyL/",
+    "https://www.instagram.com/reel/DZv4mFbiYXZ/",
+    "https://www.foxsports.com/articles/soccer/mohamed-salahs-previous-world-cup-was-a-waking-nightmare-now-egypts-poster-boy-needs-to-deliver-when-it-matters-most",
+    "https://sport-news.ca/news/world-cup-2026-live-standings-groups",
+    "https://www.youtube.com/watch?v=AXnXwijXKXc",
+    "https://www.odt.co.nz/sport/football/special-connection-key-all-whites-result-coach-rnz",
+    "https://www.thestar.com.my/sport/football/2026/06/16/soccer-quality-performance-shows-new-zealand-belong-at-world-cup-coach-says",
+    "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+    "https://www.standard.co.uk/sport/football/belgium-vs-egypt-starting-lineups-confirmed-team-news-injury-latest-world-cup-2026-today-b1286055.html"
+  ],
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.19,
+      "draw": 0.27,
+      "away": 0.54
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識：埃及控盤取勝",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.54,
+        "basis": "埃及憑薩拉赫與馬爾穆什雙核攻擊，加上世預賽5勝1平零失球的防守底蘊，主流模型與博彩盤口均一致看好埃及以較舒適差距獲勝。"
+      },
+      {
+        "name": "博彩盤口隱含機率：埃及小勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.48,
+        "basis": "紐西蘭首輪雙度領先，Elijah Just連入兩球，顯示進攻威脅真實存在；埃及若無法把握早期機會，紐西蘭仍有機會先開紀錄，但多數盤口仍看埃及最終反超取勝。"
+      },
+      {
+        "name": "反方情境：點對點平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.27,
+        "basis": "雙方首輪均以平局收場，賽事利害關係高令雙方趨保守；紐西蘭防守組織嚴密，Kalshi預測市場平局概率高達24%，不排除緊張六分戰以平局告終。"
+      },
+      {
+        "name": "冷門情境：紐西蘭歷史性首勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.19,
+        "basis": "紐西蘭世界盃歷史上從未取得一勝，賽前動力極強；主帥巴齊利稱「我們不懼怕埃及」，若能複製首輪對伊朗的高強度逼搶並在定位球中把握機會，低分冷門並非不可能。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場隱含機率（BetUS / FanDuel / BetOnline / Betfred 綜合）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.19,
+          "draw": 0.24,
+          "away": 0.57
+        },
+        "scoreline": "0:2",
+        "note": "主流博彩平台埃及賠率約-165至-170，換算勝率約57%；紐西蘭+450至+490，約18-19%；平局+300至+315，約24%；多家盤口推薦「2.5球以下」反映預期低分攻防對決。"
+      },
+      {
+        "source": "數據模型綜合（Sports Mole / onthepitch.now / CoachAI / Football Meister）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.24,
+          "draw": 0.27,
+          "away": 0.49
+        },
+        "scoreline": "0:2",
+        "note": "Sports Mole模型：埃及45.75%、平27.35%、紐24.85%；onthepitch.now（10萬次模擬）：紐西蘭vs埃及紐贏23.1%/平29.0%/負47.9%，最大概率比分1-0（埃及勝22.7%）；CoachAI：埃及52%/平27%/紐21%，預測比分0-2。"
+      },
+      {
+        "source": "預測市場（Kalshi + Polymarket綜合，截至2026-06-20）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.17,
+          "draw": 0.24,
+          "away": 0.59
+        },
+        "scoreline": "0:2",
+        "note": "Kalshi實時盤口（$189K成交量）：埃及勝61%、平局24%、紐西蘭17%；Polymarket埃及勝56%、紐西蘭進入32強機率28.5%；預測市場與博彩盤口高度一致，埃及為最大熱門。"
+      },
+      {
+        "source": "Opta超級電腦 + Economics Observatory計量模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.2,
+          "draw": 0.26,
+          "away": 0.54
+        },
+        "scoreline": "0:1",
+        "note": "Economics Observatory計量模型：埃及進攻強度0.92、紐西蘭0.76，埃及防守顯著優於紐西蘭（紐失球率2.39）；Opta Analyst超級電腦首輪預測伊朗對紐西蘭：伊朗53.3%，顯示模型認為紐西蘭為小組最弱隊；埃及作為第四次世界盃參賽國，整體底蘊遠優於紐西蘭排名第85位。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "本場比賽為2026年世界盃G組第二輪關鍵六分戰，於2026年6月22日09:00香港時間在加拿大溫哥華卑詩廣場舉行。賽前兩隊均積一分，形勢犬牙交錯。綜合超過60個來源的研究顯示，埃及以顯著優勢被看好取勝。\n\n埃及陣容方面，薩拉赫（FIFA排名全球最佳球員之一，現年34歲）與曼城鋒將馬爾穆什組成雙核攻擊線，在世預賽6場取得5勝1平、攻入9球且零失球的亮麗成績。首輪面對比利時，埃及主動出擊，由Emam Ashour在第19分鐘打破僵局，最終以1-1收場。教練Hossam Hassan強調不依賴薩拉赫一人，要建立新的球隊集體身份，但薩拉赫仍是最重要的創造力來源，Kalshi賠率顯示薩拉赫射門得分機率高達39%。薩拉赫賽前疑有輕微腿傷，但已確認完全康復並以主力上陣。\n\n紐西蘭方面，首輪兩度領先伊朗（兩球均由Elijah Just攻入）最終2-2，展現出超乎預期的進攻能力。主帥Darren Bazeley稱這是「有史以來最佳表現」。然而，主力中場Matt Garbett在訓練中拉傷腿筋，已被排除出整屆賽事（由Logan Rogerson取代），對中場調度有一定影響。紐西蘭FIFA排名第85位，為全場48隊中排名最低，且過去四屆世界盃從未取得一勝（2010年三平）。對埃及的歷史交鋒：三次對決，埃及兩勝一平（包括2024年3月在開羅1-0取勝）。\n\n博彩盤口一面倒支持埃及：-165至-170隱含勝率約57-62%，紐西蘭+450至+490隱含18-19%，平局+300至+315隱含約24%。Kalshi預測市場（$189K成交量）：埃及61%/平24%/紐17%。Polymarket：埃及進入32強機率高達82.5%，紐西蘭28.5%。統計模型同樣傾向埃及，但多個模型顯示平局概率（25-30%）不容忽視，尤其考慮到雙方均無法承受輸球壓力的心理因素。\n\n戰術上，埃及採用4-2-3-1緊湊反擊體系，利用薩拉赫和馬爾穆什在過渡球中製造威脅；紐西蘭則主打空中球、長傳和定位球，以Chris Wood為核心，Elijah Just在中間地帶保持靈活性。球場方面，BC Place舖設人工草皮，對於紐西蘭物理流打法可能有一定適應優勢，但這屬次要因素。\n\n主預測比分：0-2（埃及勝），綜合勝率：埃及54%、平局27%、紐西蘭19%。信心值0.62，屬中等偏高——埃及質量優勢清晰，但賽事關鍵程度高、紐西蘭鬥志強，不排除平局或冷門。",
+    "key_factors": [
+      "FIFA排名差距懸殊：埃及第29位對紐西蘭第85位（全場最低），顯示整體質量差距顯著",
+      "埃及世預賽底蘊：6場5勝1平，9球零失球，防守穩固性在世界盃是重要指標",
+      "薩拉赫+馬爾穆什雙核：薩拉赫首輪已確認完全健康上陣，與曼城馬爾穆什組成頂級攻擊組合，為全組G中個人最高水平搭檔",
+      "紐西蘭Garbett傷缺：主力中場Matthew Garbett漢繩肌撕裂，全場報銷，中場組織受影響",
+      "六分戰壓力：雙方均積一分，勝者有望保障出線，敗者需在末輪與強隊決生死，心理壓力巨大但雙向",
+      "紐西蘭首輪驚喜：Elijah Just兩球表現提醒球迷紐西蘭並非毫無威脅，首輪2-2伊朗顯示其進攻真實性，需防止因為盤口壓力而低估東道主",
+      "頭對頭優勢：歷史三次交鋒，埃及兩勝一平，2024年3月最近一次1-0取勝，從未輸給紐西蘭",
+      "博彩市場高度一致：所有主要博彩平台均列埃及為大熱門，公眾投注比例埃及/紐西蘭高達98:2（Action Network）",
+      "預測市場確認：Kalshi（$189K成交）埃及61%、Polymarket埃及進入32強82.5%，市場信心高",
+      "比賽場地：BC Place（溫哥華）人工草皮，屬中性場地，無明顯本地優勢"
+    ],
+    "consensus_lean": "絕大多數博彩盤口、統計模型（Sports Mole、onthepitch.now、CoachAI、Economics Observatory計量模型）及預測市場（Kalshi、Polymarket）均一致看好埃及取勝，勝率估算集中在45%-61%區間；平局概率在24%-30%之間，不可忽視；紐西蘭冷門概率約17%-27%。最多分析師預測比分為0-2或1-2（埃及勝），少部分（JuveFC、YouTube頻道分析師）看好1-1平局。",
+    "dissent": "少數分析師（如YouTube頻道「Transition Threat」AI模型、betmines.com）看好平局收場，理由包括：雙方均無法承受輸球、賽事關鍵程度極高催生保守戰術、紐西蘭首輪已展示進攻能力不容低估。nzsoccerwc.com評論員亦指出埃及1.85的賠率略為偏低，認為平局賠率3.30有正期望值空間。此外，紐西蘭主帥巴齊利明確表示「不懼怕埃及，兩年前在缺陣多名主力下也踢出好表現」，顯示球隊無懼心態可能帶來意外結果。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.28,
+        "away": 0.42
+      },
+      "scoreline": "0:1",
+      "note": "埃及整體實力略勝紐西蘭，防守穩健可望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:1",
+      "note": "埃及整體實力與身體素質佔優，預計能小勝新西蘭。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "埃及整體實力明顯佔優，加上薩拉赫領軍鋒線，可望穩取三分。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.22,
+        "away": 0.66
+      },
+      "scoreline": "0:2",
+      "note": "埃及整體實力與進攻火力高出紐西蘭一截"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "埃及在技術與整體實力上佔優，預計能穩健擊敗紐西蘭。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "紐西蘭主場難敵埃及，預測客隊小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.28,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "埃及技術戰術優勢明顯，紐西蘭難以抵禦。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.191,
+      "draw": 0.263,
+      "away": 0.546
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-20T111219Z"
+}

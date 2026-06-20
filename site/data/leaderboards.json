@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T01:11:26Z",
+  "last_updated": "2026-06-20T11:11:13Z",
   "scorers": [
     {
       "id": "CAN-david",
@@ -117,6 +117,30 @@
       "team": "France",
       "position": "FW",
       "shirt_no": 10,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "BRA-cunha",
+      "name_zh": "馬修斯·庫尼亞",
+      "name_en": "Matheus Cunha",
+      "team_zh": "巴西",
+      "team": "Brazil",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "BRA-vinicius",
+      "name_zh": "維尼修斯",
+      "name_en": "Vinícius Júnior",
+      "team_zh": "巴西",
+      "team": "Brazil",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -734,18 +758,6 @@
       "red_cards": 0
     },
     {
-      "id": "BRA-vinicius",
-      "name_zh": "維尼修斯",
-      "name_en": "Vinícius Júnior",
-      "team_zh": "巴西",
-      "team": "Brazil",
-      "position": "FW",
-      "shirt_no": 7,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "NED-vandijk",
       "name_zh": "韋真·雲迪克",
       "name_en": "Virgil van Dijk",
@@ -842,6 +854,18 @@
       "red_cards": 0
     },
     {
+      "id": "PAR-galarza",
+      "name_zh": "馬蒂亞斯·加拉爾薩",
+      "name_en": "Matías Galarza",
+      "team_zh": "巴拉圭",
+      "team": "Paraguay",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "RSA-mokoena",
       "name_zh": "莫科埃納",
       "name_en": "Teboho Mokoena",
@@ -855,6 +879,18 @@
     }
   ],
   "discipline": [
+    {
+      "id": "PAR-almiron",
+      "name_zh": "米蓋爾·阿爾米隆",
+      "name_en": "Miguel Almirón",
+      "team_zh": "巴拉圭",
+      "team": "Paraguay",
+      "position": "MF",
+      "shirt_no": 10,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 1
+    },
     {
       "id": "QAT-madibo",
       "name_zh": "阿西姆·馬迪博",
@@ -1084,6 +1120,18 @@
       "red_cards": 0
     },
     {
+      "id": "HAI-arcus",
+      "name_zh": "卡爾倫斯·阿庫斯",
+      "name_en": "Carlens Arcus",
+      "team_zh": "海地",
+      "team": "Haiti",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "PAN-harvey",
       "name_zh": "卡洛斯·哈維",
       "name_en": "Carlos Harvey",
@@ -1144,6 +1192,18 @@
       "red_cards": 0
     },
     {
+      "id": "HAI-jeanjacques",
+      "name_zh": "丹利·讓-雅克",
+      "name_en": "Danley Jean Jacques",
+      "team_zh": "海地",
+      "team": "Haiti",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SUI-zakaria",
       "name_zh": "丹尼斯·薩卡利亞",
       "name_en": "Denis Zakaria",
@@ -1168,6 +1228,18 @@
       "red_cards": 0
     },
     {
+      "id": "BRA-douglas",
+      "name_zh": "道格拉斯·桑托斯",
+      "name_en": "Douglas Santos",
+      "team_zh": "巴西",
+      "team": "Brazil",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-dzeko",
       "name_zh": "哲高",
       "name_en": "Edin Džeko",
@@ -1187,6 +1259,18 @@
       "team": "Iran",
       "position": "DF",
       "shirt_no": 3,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "TUR-elmali",
+      "name_zh": "埃倫·埃爾馬利",
+      "name_en": "Eren Elmalı",
+      "team_zh": "土耳其",
+      "team": "Turkey",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1235,6 +1319,18 @@
       "team": "Ivory Coast",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "HAI-pierrot",
+      "name_zh": "弗朗茨迪·皮埃羅",
+      "name_en": "Frantzdy Pierrot",
+      "team_zh": "海地",
+      "team": "Haiti",
+      "position": "FW",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1516,6 +1612,18 @@
       "red_cards": 0
     },
     {
+      "id": "PAR-galarza",
+      "name_zh": "馬蒂亞斯·加拉爾薩",
+      "name_en": "Matías Galarza",
+      "team_zh": "巴拉圭",
+      "team": "Paraguay",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BEL-decuyper",
       "name_zh": "馬西姆·迪古柏",
       "name_en": "Maxim De Cuyper",
@@ -1547,18 +1655,6 @@
       "team": "Netherlands",
       "position": "DF",
       "shirt_no": null,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "PAR-almiron",
-      "name_zh": "米蓋爾·阿爾米隆",
-      "name_en": "Miguel Almirón",
-      "team_zh": "巴拉圭",
-      "team": "Paraguay",
-      "position": "MF",
-      "shirt_no": 10,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1769,9 +1865,9 @@
     }
   ],
   "totals": {
-    "players": 374,
-    "goals": 85,
-    "yellow_cards": 71,
-    "red_cards": 6
+    "players": 381,
+    "goals": 89,
+    "yellow_cards": 77,
+    "red_cards": 7
   }
 }

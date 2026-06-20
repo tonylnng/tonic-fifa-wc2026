@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-20T01:11:26Z",
+  "last_updated": "2026-06-20T11:12:41Z",
   "metrics": {
-    "total_evaluated": 26,
-    "outcome_correct": 15,
-    "outcome_accuracy": 0.5769,
-    "exact_score_correct": 1,
-    "exact_score_accuracy": 0.0385
+    "total_evaluated": 28,
+    "outcome_correct": 16,
+    "outcome_accuracy": 0.5714,
+    "exact_score_correct": 2,
+    "exact_score_accuracy": 0.0714
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -15,9 +15,9 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 26,
-      "outcome_correct": 15,
-      "exact_correct": 1
+      "evaluated": 28,
+      "outcome_correct": 16,
+      "exact_correct": 2
     }
   },
   "evaluations": [
@@ -332,6 +332,30 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-06-18T0055Z"
+    },
+    {
+      "match": 31,
+      "home": "Brazil",
+      "away": "Haiti",
+      "predicted": "3:0",
+      "predicted_outcome": "home",
+      "final": "3:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "run_id": "2026-06-18T0855Z"
+    },
+    {
+      "match": 32,
+      "home": "Turkey",
+      "away": "Paraguay",
+      "predicted": "1:0",
+      "predicted_outcome": "home",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-18T0855Z"
     }
   ]
 }
