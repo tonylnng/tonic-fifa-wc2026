@@ -189,6 +189,7 @@ function MatchDetailTable({ row }: { row: BenchmarkScoreRow }) {
               <th className="text-left font-medium px-2 py-1.5 whitespace-nowrap">場次</th>
               <th className="text-left font-medium px-2 py-1.5">對戰</th>
               <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">預測</th>
+              <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">信心</th>
               <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">實際</th>
               <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">勝負</th>
               <th className="text-center font-medium px-2 py-1.5 whitespace-nowrap">比分</th>
@@ -211,6 +212,9 @@ function MatchDetailTable({ row }: { row: BenchmarkScoreRow }) {
                 </td>
                 <td className="px-2 py-1.5 text-center tabular-nums whitespace-nowrap">
                   {m.pred_scoreline ?? "—"}
+                </td>
+                <td className="px-2 py-1.5 text-center tabular-nums whitespace-nowrap text-muted-foreground">
+                  {pct(m.confidence)}
                 </td>
                 <td className="px-2 py-1.5 text-center tabular-nums font-semibold whitespace-nowrap">
                   {m.final_scoreline}

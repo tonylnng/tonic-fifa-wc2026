@@ -6,6 +6,18 @@
 
 ---
 
+## [功能更新] 2026-06-20（HKT）逐場明細加入「當時信心 %」
+
+### 新增（Added）
+
+- **逐場明細表新增「信心」欄**：在預測與實際比分之間，顯示該來源在當場預測時的信心 %。本站主預測取其 `confidence`；第三方 AI 無獨立 confidence，以所選方向（最大向）的勝率作為隱含信心。可結合「勝負/比分命中」看出「高信心是否真的更準」。
+
+### 變更（Changed）
+
+- `compute_benchmark_scores.py`：`matches[]` 每筆新增 `confidence` 欄；`types.ts` 的 `BenchmarkMatchDetail` 新增 `confidence`；`CalibrationTab.tsx` 逐場表新增「信心」列。
+
+---
+
 ## [功能更新] 2026-06-20（HKT）校準與基準頁：逐場命中明細 + 停更標註
 
 ### 新增（Added）

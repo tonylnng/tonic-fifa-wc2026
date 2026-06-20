@@ -161,6 +161,7 @@ export interface BenchmarkMatchDetail {
   away_zh: string;
   pred_scoreline: string | null;
   pred_outcome: "home" | "draw" | "away" | null;
+  confidence: number | null;
   final_scoreline: string;
   final_outcome: "home" | "draw" | "away";
   outcome_hit: boolean;
