@@ -478,6 +478,62 @@
       "outcome": "home",
       "recorded_at": "2026-06-20T23:00:00Z",
       "source": "https://www.skysports.com/football/germany-vs-ivory-coast/report/549798"
+    },
+    {
+      "match": 35,
+      "stage": "Group E",
+      "home": "Ecuador",
+      "away": "Curacao",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreline": "0:0",
+      "outcome": "draw",
+      "recorded_at": "2026-06-21T23:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760446/curacao-ecuador"
+    },
+    {
+      "match": 36,
+      "stage": "Group F",
+      "home": "Tunisia",
+      "away": "Japan",
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "scoreline": "0:4",
+      "outcome": "away",
+      "recorded_at": "2026-06-21T23:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760449"
+    },
+    {
+      "match": 37,
+      "stage": "Group H",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "scoreline": "4:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-21T23:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760453/saudi-arabia-spain"
+    },
+    {
+      "match": 38,
+      "stage": "Group G",
+      "home": "Belgium",
+      "away": "Iran",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreline": "0:0",
+      "outcome": "draw",
+      "recorded_at": "2026-06-21T23:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760451"
     }
   ]
 }

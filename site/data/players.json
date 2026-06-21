@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-20T23:10:29Z",
+  "last_updated": "2026-06-21T23:17:36Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -649,11 +649,15 @@
       "bio_zh": "比利時史上最高入球紀錄持有者，身體強壯的中鋒，效力拿玻里繼續大量進球，是頭號戰將。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          38
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/belgium-vs-iran/report/549802"
+      ]
     },
     {
       "id": "BEL-doku",
@@ -759,6 +763,30 @@
         "https://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium",
         "https://www.skysports.com/football/belgium-vs-egypt/report/549778",
         "https://www.mykhel.com/football/fifa-world-cup-2026-belgium-vs-egypt-match-center-102315/"
+      ]
+    },
+    {
+      "id": "BEL-ngoy",
+      "name_en": "Nathan Ngoy",
+      "name_zh": "內森·恩戈伊",
+      "team": "Belgium",
+      "team_zh": "比利時",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 1,
+        "matches_with_events": [
+          38
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/belgium-vs-iran/report/549802"
       ]
     },
     {
@@ -2084,6 +2112,30 @@
       "sources": []
     },
     {
+      "id": "CUW-kastaneer",
+      "name_en": "Gervane Kastaneer",
+      "name_zh": "熱爾瓦內·卡斯塔尼爾",
+      "team": "Curacao",
+      "team_zh": "古拉索",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          35
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+      ]
+    },
+    {
       "id": "CUW-bacunaj",
       "name_en": "Juninho Bacuna",
       "name_zh": "朱尼尼奧·巴庫納",
@@ -2117,16 +2169,15 @@
       "bio_zh": "效力瑞士蘇黎世的年輕中場，技術全面、活動空間大，是庫拉索年輕一代的代表，本屆世界盃首秀意義非凡。",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          9
+          9,
+          35
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany",
-        "https://www.espn.com/soccer/report/_/gameId/760422",
-        "https://www.nbcsports.com/soccer/world-cup/live/germany-vs-curacao-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-14"
+        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
       ]
     },
     {
@@ -2148,6 +2199,78 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "CUW-jbacuna",
+      "name_en": "Juninho Bacuna",
+      "name_zh": "朱尼尼奧·巴庫納",
+      "team": "Curacao",
+      "team_zh": "古拉索",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          35
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+      ]
+    },
+    {
+      "id": "CUW-lbacuna",
+      "name_en": "Leandro Bacuna",
+      "name_zh": "萊安德羅·巴庫納",
+      "team": "Curacao",
+      "team_zh": "古拉索",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          35
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+      ]
+    },
+    {
+      "id": "CUW-gaari",
+      "name_en": "Jurien Gaari",
+      "name_zh": "尤里恩·加里",
+      "team": "Curacao",
+      "team_zh": "古拉索",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          35
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+      ]
     },
     {
       "id": "CUW-room",
@@ -2517,6 +2640,30 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "ECU-alcivar",
+      "name_en": "Jordy Alcivar",
+      "name_zh": "喬迪·阿爾西瓦爾",
+      "team": "Ecuador",
+      "team_zh": "厄瓜多爾",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          35
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+      ]
     },
     {
       "id": "ECU-hincapie",
@@ -3698,11 +3845,15 @@
       "bio_zh": "防守中場，攔截積極，是伊朗中路防線的重要屏障，具豐富的亞洲賽事經驗，覆蓋面廣跑動積極。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          38
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/belgium-vs-iran/report/549802"
+      ]
     },
     {
       "id": "IRN-jahanbakhsh",
@@ -4190,12 +4341,16 @@
       "is_key": true,
       "bio_zh": "效力費耶諾德的日本中鋒，嗅球能力出色、得分率高，是日本隊最主要的鋒線射手，本屆世界盃寄望衝擊日本歷史最佳成績。",
       "stats": {
-        "goals": 0,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          36
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760449"
+      ]
     },
     {
       "id": "JPN-doan",
@@ -4230,17 +4385,16 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          10
+          10,
+          36
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands",
-        "https://www.espn.com/soccer/report/_/gameId/760425",
-        "https://terrikon.com/en/football/matches/156666"
+        "https://www.espn.com/soccer/report/_/gameId/760449"
       ]
     },
     {
@@ -4302,12 +4456,16 @@
       "is_key": true,
       "bio_zh": "效力拜仁慕尼黑的日本左後衞，技術精湛且穩健，能打多個防守位置，在德甲的出色表現令其成為日本後防核心。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          36
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760449"
+      ]
     },
     {
       "id": "JPN-suzukiz",
@@ -6281,11 +6439,15 @@
       "bio_zh": "沙特阿拉伯隊長，2022年世界盃對阿根廷的制勝入球英雄，效力新月持續主導進攻，是球隊當之無愧的領袖。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          37
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/spain-vs-saudi-arabia/549804"
+      ]
     },
     {
       "id": "KSA-kanno",
@@ -6301,11 +6463,15 @@
       "bio_zh": "沙特副隊長，防守中場經驗豐富，為球隊中路提供穩定的保護與傳接球平台，是球隊不可或缺的核心。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          37
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/spain-vs-saudi-arabia/549804"
+      ]
     },
     {
       "id": "KSA-altambakti",
@@ -7297,12 +7463,40 @@
       "is_key": true,
       "bio_zh": "巴塞羅那天才翼鋒，2024年歐國盃最年輕入球球員，被譽為下一個足球巨星，年僅18歲已震撼全球。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          37
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/spain-vs-saudi-arabia/549804"
+      ]
+    },
+    {
+      "id": "ESP-oyarzabal",
+      "name_en": "Mikel Oyarzabal",
+      "name_zh": "米克爾·奧亞薩瓦爾",
+      "team": "Spain",
+      "team_zh": "西班牙",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 2,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          37
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/spain-vs-saudi-arabia/549804"
+      ]
     },
     {
       "id": "ESP-rodri",

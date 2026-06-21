@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T23:10:29Z",
+  "last_updated": "2026-06-21T23:17:36Z",
   "scorers": [
     {
       "id": "GER-undav",
@@ -38,6 +38,18 @@
       "red_cards": 0
     },
     {
+      "id": "JPN-ueda",
+      "name_zh": "上田綺世",
+      "name_en": "Ayase Ueda",
+      "team_zh": "日本",
+      "team": "Japan",
+      "position": "FW",
+      "shirt_no": 18,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "NED-brobbey",
       "name_zh": "布萊恩·布羅貝",
       "name_en": "Brian Brobbey",
@@ -69,6 +81,18 @@
       "team": "Canada",
       "position": "FW",
       "shirt_no": 9,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "JPN-kamada",
+      "name_zh": "鐮田大地",
+      "name_en": "Daichi Kamada",
+      "team_zh": "日本",
+      "team": "Japan",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -163,6 +187,18 @@
       "name_en": "Matheus Cunha",
       "team_zh": "巴西",
       "team": "Brazil",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ESP-oyarzabal",
+      "name_zh": "米克爾·奧亞薩瓦爾",
+      "name_en": "Mikel Oyarzabal",
+      "team_zh": "西班牙",
+      "team": "Spain",
       "position": "FW",
       "shirt_no": null,
       "goals": 2,
@@ -338,18 +374,6 @@
       "red_cards": 0
     },
     {
-      "id": "JPN-kamada",
-      "name_zh": "鐮田大地",
-      "name_en": "Daichi Kamada",
-      "team_zh": "日本",
-      "team": "Japan",
-      "position": "MF",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "COL-munoz",
       "name_zh": "穆紐斯",
       "name_en": "Daniel Muñoz",
@@ -417,6 +441,18 @@
       "team": "Switzerland",
       "position": "MF",
       "shirt_no": 10,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "JPN-ito",
+      "name_zh": "伊藤洋輝",
+      "name_en": "Hiroki Ito",
+      "team_zh": "日本",
+      "team": "Japan",
+      "position": "DF",
+      "shirt_no": 21,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -530,6 +566,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-yamal",
+      "name_zh": "雅馬爾",
+      "name_en": "Lamine Yamal",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "FW",
+      "shirt_no": 19,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "NOR-ostigard",
       "name_zh": "萊奧·厄斯蒂加爾德",
       "name_en": "Leo Østigård",
@@ -537,18 +585,6 @@
       "team": "Norway",
       "position": "DF",
       "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "CUW-comenencia",
-      "name_zh": "利雲奴·科門西亞",
-      "name_en": "Livano Comenencia",
-      "team_zh": "庫拉索",
-      "team": "Curacao",
-      "position": "MF",
-      "shirt_no": 8,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -890,6 +926,18 @@
       "red_cards": 0
     },
     {
+      "id": "CUW-comenencia",
+      "name_zh": "利雲奴·科門西亞",
+      "name_en": "Livano Comenencia",
+      "team_zh": "庫拉索",
+      "team": "Curacao",
+      "position": "MF",
+      "shirt_no": 8,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "COL-diaz",
       "name_zh": "路易斯·迪亞斯",
       "name_en": "Luis Díaz",
@@ -970,6 +1018,18 @@
       "team_zh": "卡達",
       "team": "Qatar",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 1
+    },
+    {
+      "id": "BEL-ngoy",
+      "name_zh": "內森·恩戈伊",
+      "name_en": "Nathan Ngoy",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "DF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 0,
@@ -1396,6 +1456,18 @@
       "red_cards": 0
     },
     {
+      "id": "CUW-kastaneer",
+      "name_zh": "熱爾瓦內·卡斯塔尼爾",
+      "name_en": "Gervane Kastaneer",
+      "team_zh": "古拉索",
+      "team": "Curacao",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CIV-doue",
       "name_zh": "蓋拉·杜埃",
       "name_en": "Guela Doué",
@@ -1528,6 +1600,18 @@
       "red_cards": 0
     },
     {
+      "id": "ECU-alcivar",
+      "name_zh": "喬迪·阿爾西瓦爾",
+      "name_en": "Jordy Alcivar",
+      "team_zh": "厄瓜多爾",
+      "team": "Ecuador",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-lukic",
       "name_zh": "約沃·盧基奇",
       "name_en": "Jovo Lukić",
@@ -1545,6 +1629,30 @@
       "name_en": "Juan José Cáceres",
       "team_zh": "巴拉圭",
       "team": "Paraguay",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CUW-jbacuna",
+      "name_zh": "朱尼尼奧·巴庫納",
+      "name_en": "Juninho Bacuna",
+      "team_zh": "古拉索",
+      "team": "Curacao",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CUW-gaari",
+      "name_zh": "尤里恩·加里",
+      "name_en": "Jurien Gaari",
+      "team_zh": "古拉索",
+      "team": "Curacao",
       "position": "DF",
       "shirt_no": null,
       "goals": 0,
@@ -1588,6 +1696,18 @@
       "red_cards": 0
     },
     {
+      "id": "CUW-lbacuna",
+      "name_zh": "萊安德羅·巴庫納",
+      "name_en": "Leandro Bacuna",
+      "team_zh": "古拉索",
+      "team": "Curacao",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "KOR-lee-gihyuk",
       "name_zh": "李基赫",
       "name_en": "Lee Gi-Hyuk",
@@ -1608,6 +1728,18 @@
       "position": "",
       "shirt_no": null,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CUW-comenencia",
+      "name_zh": "利雲奴·科門西亞",
+      "name_en": "Livano Comenencia",
+      "team_zh": "庫拉索",
+      "team": "Curacao",
+      "position": "MF",
+      "shirt_no": 8,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -1732,6 +1864,18 @@
       "red_cards": 0
     },
     {
+      "id": "KSA-kanno",
+      "name_zh": "穆罕默德·卡諾",
+      "name_en": "Mohamed Kanno",
+      "team_zh": "沙特",
+      "team": "Saudi Arabia",
+      "position": "MF",
+      "shirt_no": 23,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "POR-semedo",
       "name_zh": "塞梅多",
       "name_en": "Nelson Semedo",
@@ -1823,6 +1967,42 @@
       "team": "Brazil",
       "position": "DF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-lukaku",
+      "name_zh": "盧卡古",
+      "name_en": "Romelu Lukaku",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "IRN-ezatolahi",
+      "name_zh": "伊扎托拉希",
+      "name_en": "Saeid Ezatolahi",
+      "team_zh": "伊朗",
+      "team": "Iran",
+      "position": "MF",
+      "shirt_no": 6,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "KSA-aldawsari",
+      "name_zh": "薩利姆·道薩里",
+      "name_en": "Salem Al-Dawsari",
+      "team_zh": "沙特",
+      "team": "Saudi Arabia",
+      "position": "MF",
+      "shirt_no": 10,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1949,9 +2129,9 @@
     }
   ],
   "totals": {
-    "players": 383,
-    "goals": 98,
-    "yellow_cards": 80,
-    "red_cards": 7
+    "players": 390,
+    "goals": 105,
+    "yellow_cards": 90,
+    "red_cards": 8
   }
 }

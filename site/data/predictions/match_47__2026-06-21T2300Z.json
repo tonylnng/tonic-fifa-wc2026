@@ -1,0 +1,478 @@
+{
+  "match": 47,
+  "stage": "Group L",
+  "home": "Panama",
+  "away": "Croatia",
+  "kickoff_utc": "2026-06-23T23:00:00Z",
+  "run_id": "2026-06-21T2300Z",
+  "run_timestamp": "2026-06-21T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.14,
+      "draw": 0.22,
+      "away": 0.64
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "克羅地亞技術壓制勝出",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.72,
+        "basis": "莫德里奇、科瓦契奇中場主導，克拉馬里奇及佩里希奇在前場破門，巴拿馬無從創造有效射門"
+      },
+      {
+        "name": "克羅地亞窄勝",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.57,
+        "basis": "巴拿馬低位防守為主、克羅地亞難以大比分壓制，但個人質素差距仍令客隊贏球"
+      },
+      {
+        "name": "雙方目標均等平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.2,
+        "basis": "兩支隊都背水一戰，巴拿馬若靠定位球入球而克羅地亞未能鎖定優勢，0-0或1-1平局機率存在"
+      },
+      {
+        "name": "巴拿馬意外翻盤",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.1,
+        "basis": "克羅地亞在對英格蘭一戰失4球顯示防守漏洞，巴拿馬若首先入球可能以守代攻搶下3分"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.135,
+          "draw": 0.235,
+          "away": 0.625
+        },
+        "scoreline": "0:2",
+        "note": "Polymarket去中心化預測市場，克羅地亞62.5%勝率，成交量$148K"
+      },
+      {
+        "source": "Pinnacle 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.182,
+          "draw": 0.238,
+          "away": 0.645
+        },
+        "scoreline": "0:2",
+        "note": "Pinnacle最低抽水盤：巴拿馬5.50、和局4.20、克羅地亞1.55"
+      },
+      {
+        "source": "Bet365 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.174,
+          "draw": 0.227,
+          "away": 0.667
+        },
+        "scoreline": "0:2",
+        "note": "Bet365巴拿馬5.75、和局4.40、克羅地亞1.50，克羅地亞隱含66.7%"
+      },
+      {
+        "source": "Yahoo Sports / 媒體共識",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.14,
+          "draw": 0.22,
+          "away": 0.63
+        },
+        "scoreline": "0:2",
+        "note": "媒體一致看好克羅地亞，4/7賠率（約63%），選克羅地亞勝及Over 2.5為最佳投注"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "巴拿馬對克羅地亞是L組生死戰，兩支隊積分皆為零，敗者幾乎出局。儘管兩隊均壓力山大，雙方實力差距卻相當懸殊。克羅地亞擁有2018世界盃亞軍及2022第三名的豐富大賽經驗，中場鐵三角莫德里奇（Modric）、科瓦契奇（Kovacic）、帕薩利奇（Pasalic）技術出眾，前場克拉馬里奇（Kramaric）及佩里希奇（Perisic）在高壓比賽中能量化為入球。巴拿馬在本屆世界盃首場以0-1負於迦納，全場無一入球，暴露了有限的世界盃級別攻擊力。克羅地亞雖在首戰以2-4負於英格蘭，但仍能進2球，進攻能力有保證。各大盤口（Pinnacle、Bet365、William Hill等）一致顯示克羅地亞約62-67%勝率，Polymarket預測市場亦顯示62.5%。主流比分預測集中於0-1及0-2克羅地亞勝，Over 2.5進球有一定機率但Under略佔優。達利奇（Dalić）深知消除賽壓力下克羅地亞最能發揮，歷史上兩隊從未在競技場上交手。",
+    "key_factors": [
+      "克羅地亞中場實力世界頂級：莫德里奇（38歲，仍是主力）、科瓦契奇（曼城）、帕薩利奇，巴拿馬無法比擬",
+      "巴拿馬首戰無入球，近五場僅4球（0.8球/場），攻擊力嚴重不足",
+      "克羅地亞資格賽7勝1平，進26球、僅失4球，底子雄厚",
+      "首戰克羅地亞負於英格蘭4-2，但仍入2球；巴拿馬0-1輸迦納，無法射門",
+      "盤口共識：Pinnacle 64.5%、Bet365 66.7%、Polymarket 62.5%，克羅地亞大熱",
+      "必贏比賽激活克羅地亞老將潛力，達利奇擅長帶隊渡過淘汰關（2018、2022均如此）",
+      "巴拿馬定位球及低位防守是最大武器，但克羅地亞的技術組織能力可化解",
+      "克羅地亞利瓦科維奇（Livakovic）2022世盃表現超凡，門將質素差距亦是關鍵"
+    ],
+    "consensus_lean": "所有博彩市場、預測平台及媒體分析均一面倒偏向克羅地亞勝出，0-1或0-2是最常見比分預測；Over 2.5進球約有四五成可能",
+    "dissent": "小部分觀點指出克羅地亞防守失4球已令人憂慮，若巴拿馬能在上半場率先入球並鞏固防線，冷門亦非不可能；更多聲音則認為即使出現冷門結果，克羅地亞技術上應仍能主導比賽"
+  },
+  "sources": [
+    {
+      "url": "https://nzsoccerwc.com/group-l/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/panama-vs-croatia-prediction-world-083500564.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://thesportsrush.com/panama-v-croatia-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-pan-hrv-2026-06-23",
+      "type": "betting"
+    },
+    {
+      "url": "https://worldcup2026bets.com/matches/wc2026_047/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4y9Ari2bF60",
+      "type": "social"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/panama-vs-croatia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aZnLU5O1Zsqe/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://worldcupforecast.com/panama-vs-croatia-23-06-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/panama-vs-croatia-world-cup-group-l-odds-picks-june-23/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.futbol24.com/betting-tips/preview/24-06-2026-panama-croatia-betting-tip/",
+      "type": "betting"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/croatia-vs-panama",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/c0m2pvnwymxo",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/football/story/_/id/48807700/luka-modric-set-5th-world-cup-part-croatia-squad",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/cqjpl4zj0ezo",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.facebook.com/bbcnewspidgin/posts/coach-don-name-veteran-midfielder-luka-modric-for-croatia-squad-for-di-world-cup/1287874006869895/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CC0vFK2mMnY",
+      "type": "social"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vuQeCfRmC-U",
+      "type": "social"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2659/panama",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://africa.espn.com/football/team/squad/_/id/2659/league/FIFA.WORLD/season/2026",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2659/league/FIFA.WORLD/season/2026",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/panama-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.footballpickr.com/panama-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Panama_squad_2026_FIFA_World_Cup",
+      "type": "news"
+    },
+    {
+      "url": "https://www.worldcup.nyc/news/panama-2026-world-cup-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/11/panama-world-cup-2026-team-guide",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cU_Taq-IMTk",
+      "type": "social"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Panama_national_football_team",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L",
+      "type": "news"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/m002y4k5",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760460/croatia-panama",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.fox.com/soccer/fifa-world-cup/panama-vs-croatia-jun-23-2026-group-l",
+      "type": "social"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-l-draw-teams-schedule-fixtures/f4a14ca6be3ed4c0b89441c8",
+      "type": "news"
+    },
+    {
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-l-preview-england-croatia-ghana-panama",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/panama-croatia-world-cup-preview/blt39aad5317bdcdba7",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12098/13543108/world-cup-2026-group-l-guide-fixtures-schedule-standings-and-odds-for-england-croatia-ghana-and-panama",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/6842265/2025/12/05/group-l-guide-world-cup-2026/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fox.com/detail/event/3a4509b2-b178-482d-99af-988288cfe55c/fifa-world-cup-2026-panama-vs-croatia",
+      "type": "social"
+    },
+    {
+      "url": "https://seatgeek.ca/fifa-world-cup-tickets/international-soccer/2026-06-23-7-pm/17234770",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49135852/panama-croatia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://africa.espn.com/soccer/match?action=summary",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://chempionat.org/en/matches/2026-06-23-panama-vs-croatia",
+      "type": "news"
+    },
+    {
+      "url": "https://beta.thescore.com/worldcup/events/93055",
+      "type": "news"
+    },
+    {
+      "url": "https://www.vividseats.com/world-cup-soccer-tickets-bmo-field-6-23-2026--sports-soccer/production/5080525",
+      "type": "news"
+    },
+    {
+      "url": "https://footballtickethome.com/football/world-cup-football-2026/panama-football-tickets/match-46-group-l-panama-vs-croatia-tickets-372",
+      "type": "news"
+    },
+    {
+      "url": "https://www.facebook.com/footflix90/posts/croatia-panama-%EF%B8%8F-tuesday-23-june-2026-gmt-0200-bst-0300-fifa-world-cup-round-2%EF%B8%8F-/947633758295767/",
+      "type": "social"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-f-draw-teams-schedule-fixtures/14d15276af582718867ca9a8",
+      "type": "news"
+    },
+    {
+      "url": "https://japannews.yomiuri.co.jp/sports/soccer/20251206-296831/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.united-2026.com/groups/group-f-2026-standings-schedule",
+      "type": "news"
+    },
+    {
+      "url": "https://www.dazn.com/en-CA/news/soccer/fifa-world-cup-26-group-f-netherlands-japan-tunisia-sweden/pglisc8g83u813d63fic9tnjj",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12098/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://sportsxon.com/en/groups/f",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12021/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XufN1wp62r0",
+      "type": "social"
+    },
+    {
+      "url": "https://www.livescore.com/th/futbxl/xintexr-nechannael/world-cup-2026/netherlands-vs-japan/1417939/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/japan-netherlands-2377-2382-5930",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportytrader.com/en/results-live/netherlands-japan-7937403/",
+      "type": "news"
+    }
+  ],
+  "source_count": 60,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.27,
+        "away": 0.55
+      },
+      "scoreline": "0:2",
+      "note": "克羅埃西亞中場組織力優於巴拿馬，客勝可期。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "克羅地亞實力明顯佔優，中場控制力強，預計客隊穩勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.25,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "克羅埃西亞技術與經驗佔優，巴拿馬難構成威脅，客勝可期。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.23,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "克羅埃西亞板凳與經驗皆優，穩控比賽節奏取勝"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.22,
+        "away": 0.66
+      },
+      "scoreline": "0:2",
+      "note": "克羅埃西亞實力與經驗遠勝巴拿馬，預計能穩健掌控局勢並取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "克羅地亞經驗豐富，客場實力占優預計勝出。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "克羅埃西亞整體實力明顯高於巴拿馬，客隊取勝機會大。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.15,
+      "draw": 0.246,
+      "away": 0.604
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-21T231619Z"
+}

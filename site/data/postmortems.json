@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-20T23:10:17Z",
+  "last_updated": "2026-06-21T23:17:16Z",
   "postmortems": [
     {
       "match": 5,
@@ -725,6 +725,102 @@
       ],
       "vs_benchmarks": "AI 與博彩、數據模型基準線同樣看好德國主勝，但本站 AI 在比分精準度上勝出——精準命中 2:1，優於僅給方向的市場共識。此場展現 AI 在『強隊險勝』情境的比分校準優勢。",
       "generated_at": "2026-06-20T23:10:17Z"
+    },
+    {
+      "match": 35,
+      "home": "Ecuador",
+      "away": "Curacao",
+      "stage": "Group E",
+      "predicted": "3:0",
+      "predicted_outcome": "home",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-19T0055Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "失準：厄瓜多爾遭古拉索悶和，大勝預測落空",
+      "review": "本站預測厄瓜多爾 3:0 大勝古拉索，結果雙方 0:0 悶平，勝負與比分皆失準。厄瓜多爾雖控球佔優，卻久攻不下，古拉索全場龜縮防守、六黃保平，門將表現神勇。模型高估了厄瓜多爾的破密集防守能力，低估了世界盃新軍古拉索的防守韌性與保平決心。信心 0.78 偏高，是本場過度自信的主因。",
+      "lessons": [
+        "面對明顯擺大巴、志在保平的弱旅，應提高 0:0／1:0 等低比分與和局權重",
+        "控球優勢不等於入球，破密集防守能力需單獨評估",
+        "對首次參賽、無往績的球隊，信心不宜給到 0.78 之高"
+      ],
+      "vs_benchmarks": "AI 與博彩、模型基準線一致看好厄瓜多爾大勝，全體失準；本場屬市場集體高估強弱差距的系統性偏差，AI 未能逆勢識別冷門。",
+      "generated_at": "2026-06-21T23:17:16Z"
+    },
+    {
+      "match": 36,
+      "home": "Tunisia",
+      "away": "Japan",
+      "stage": "Group F",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "0:4",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-19T0855Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "方向精準：日本客勝命中，惟低估大勝幅度",
+      "review": "本站預測日本 0:2 客勝突尼西亞，勝負方向（客勝）完全命中，惟比分保守——日本實際 0:4 大勝。鐮田大地 4 分鐘閃電破門，上田綺世梅開二度，伊東純也錦上添花，日本展現亞洲頂級組織與效率。模型正確抓住日本實力與客場優勢，但低估了突尼西亞防線崩盤幅度與日本的進攻火力。",
+      "lessons": [
+        "對組織嚴密、轉換快速的亞洲強隊（如日本），客場大勝情境（3+ 球）應給更高權重",
+        "突尼西亞早段失球後容易崩盤的傾向值得納入比分尾部",
+        "方向對、幅度保守是本批次的共通模式，可上修強隊入球數預期"
+      ],
+      "vs_benchmarks": "AI 與博彩、模型基準線同向看好日本，方向皆中；但所有基準線同樣低估比分差距，AI 與市場共識同步，屬集體保守。",
+      "generated_at": "2026-06-21T23:17:16Z"
+    },
+    {
+      "match": 37,
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "stage": "Group H",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "4:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-19T1655Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "方向命中：西班牙零封大勝，比分仍偏保守",
+      "review": "本站預測西班牙 2:0 主勝沙烏地阿拉伯，勝負方向完全命中，比分保守——實際 4:0 大勝。亞馬爾與奧亞薩瓦爾（梅開二度）先聲奪人，下半場再添烏龍球鎖定大勝。模型正確判斷西班牙壓倒性實力與零封能力，但低估了入球數。信心 0.83 屬合理高位，方向驗證無誤。",
+      "lessons": [
+        "對技術流強隊對陣亞洲中下游，3-4 球大勝情境應提高權重",
+        "西班牙傳控體系對弱旅的破門效率歷來偏高，可上修期望入球",
+        "零封判斷正確，延續對強隊防守端的信心校準"
+      ],
+      "vs_benchmarks": "AI 與博彩、模型基準線同向看好西班牙零封大勝，方向皆中；比分幅度全體偏保守，AI 與市場一致。",
+      "generated_at": "2026-06-21T23:17:16Z"
+    },
+    {
+      "match": 38,
+      "home": "Belgium",
+      "away": "Iran",
+      "stage": "Group G",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-20T0055Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "失準：比利時十人應戰遭伊朗逼和",
+      "review": "本站預測比利時 2:1 主勝伊朗，結果 0:0 悶平，勝負與比分皆失準。比利時恩戈伊 66 分鐘因 DOGSO 染紅，少打一人，伊朗鐵桶陣加塔雷米的威脅令比利時無功而返。模型未能預見紅牌這類突發變數，亦低估伊朗在大賽中的防守紀律。信心 0.62 雖屬中等，但方向仍判錯。",
+      "lessons": [
+        "紅牌等突發變數難以預測，但對防守強隊（如伊朗）應提高和局尾部權重",
+        "比利時近期攻堅效率不穩，主勝信心宜下修",
+        "面對亞洲鐵桶陣，1:0／0:0 等低比分情境權重需加強"
+      ],
+      "vs_benchmarks": "AI 與博彩、模型基準線多看好比利時主勝，全體失準；伊朗逼和屬冷門，AI 與市場共識同步未能識別，紅牌變數加劇失準。",
+      "generated_at": "2026-06-21T23:17:16Z"
     }
   ]
 }

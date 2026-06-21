@@ -1,0 +1,478 @@
+{
+  "match": 45,
+  "stage": "Group K",
+  "home": "Portugal",
+  "away": "Uzbekistan",
+  "kickoff_utc": "2026-06-23T17:00:00Z",
+  "run_id": "2026-06-21T2300Z",
+  "run_timestamp": "2026-06-21T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "scoreline": "3:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.74,
+      "draw": 0.16,
+      "away": 0.1
+    },
+    "confidence": 0.79,
+    "top_scorelines": [
+      {
+        "scoreline": "3:1",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "4:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "葡萄牙大勝壓制",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.79,
+        "basis": "葡萄牙攻擊深度充裕，C朗、費爾南德斯、萊昂同時發力，烏茲別克防線缺陣Ashurmatov且Khusanov頂著黃牌警告"
+      },
+      {
+        "name": "葡萄牙保守勝出",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "馬丁內斯採穩健陣容管理比分，烏茲別克無法突破密集防守"
+      },
+      {
+        "name": "烏茲別克神奇平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.1,
+        "basis": "烏茲別克在世盃首場已入球，若能複製哥倫比亞戰的快速反擊，小概率搶到一分"
+      },
+      {
+        "name": "葡萄牙大比分洗牌",
+        "scoreline": "4:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "葡萄牙首戰未如理想，主將齊攻下大比分解壓，C朗渴望在最後一屆世盃刷新進球紀錄"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 數據模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.768,
+          "draw": 0.153,
+          "away": 0.079
+        },
+        "scoreline": "2:0",
+        "note": "Dimers World Cup數學模型最可能比分為0-2，葡萄牙勝率76.8%"
+      },
+      {
+        "source": "Pinnacle 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.661,
+          "draw": 0.192,
+          "away": 0.147
+        },
+        "scoreline": "3:1",
+        "note": "Pinnacle最低博彩抽水隱含機率，葡萄牙勝率66.1%"
+      },
+      {
+        "source": "Bet365 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.649,
+          "draw": 0.208,
+          "away": 0.143
+        },
+        "scoreline": "3:1",
+        "note": "Bet365葡萄牙-450賠率，隱含勝率64.9%"
+      },
+      {
+        "source": "FootballPredictions.com 媒體預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.75,
+          "draw": 0.15,
+          "away": 0.1
+        },
+        "scoreline": "3:1",
+        "note": "媒體共識預測葡萄牙3-1勝，C朗預期入球"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "葡萄牙首戰以1-1逼平剛果民主共和國，令球隊承受必須贏波的壓力，面對世界盃首次亮相的烏茲別克，是重建信心的理想對手。葡萄牙擁有C朗（Ronaldo）、布魯費南德斯（Bruno Fernandes）、萊昂（Rafael Leão）及拉莫斯（Gonçalo Ramos）等攻擊陣容，實力遠超對手。烏茲別克首戰以1-3負於哥倫比亞，後衛阿舒爾馬托夫（Ashurmatov）受傷缺陣，Khusanov頂黃警告，防線脆弱。Dimers數學模型給予葡萄牙76.8%勝率，博彩市場（Pinnacle/Bet365）則顯示約65-66%。媒體普遍預測葡萄牙以3-1勝出，主流比分預測集中於3-1、4-1及2-0。烏茲別克曾在首戰入球，BTTS不能完全排除，但葡萄牙的技術優勢及進球欲望使大勝機率相當高。",
+    "key_factors": [
+      "葡萄牙首戰被逼平，球隊壓力大，對烏茲別克必須三分以保晉級主動權",
+      "C朗（Ronaldo）極有可能在生涯最後一屆世盃刷新入球紀錄，入球動力強烈",
+      "烏茲別克後衛阿舒爾馬托夫受傷缺陣，Khusanov頂黃警告，防線缺口明顯",
+      "烏茲別克首戰以1-3負於哥倫比亞，已有入球，BTTS有一定可能性",
+      "Dimers模型：葡萄牙76.8%，盤口Pinnacle約66.1%，市場共識葡萄牙大熱",
+      "葡萄牙近期熱身：3-0勝塞內加爾、2-1勝美國，狀態不差",
+      "烏茲別克平均每場入球僅1.1球，攻擊力有限",
+      "康西桑（Francisco Conceicao）料獲首發，有望帶來突破性進攻"
+    ],
+    "consensus_lean": "各大媒體、博彩市場及數學模型高度一致，葡萄牙以3-1或4-1大勝為主流預測，Over 2.5進球幾乎是共識",
+    "dissent": "少數聲音指出葡萄牙防守仍有漏洞（首戰被剛果扳平），若烏茲別克打快速反擊有機會搶下一分；亦有意見認為馬丁內斯可能輪換保存體力，令比分較接近"
+  },
+  "sources": [
+    {
+      "url": "https://www.juvefc.com/portugal-v-uzbekistan-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://thesportsrush.com/portugal-v-uzbekistan-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_2_por_uzb",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/portugal-vs-uzbekistan-prediction-23-06-2026/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/portugal-vs-uzbekistan-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a260w1C6DOJl/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/portugal-vs-uzbekistan",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nEpY7RK00Fc",
+      "type": "social"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/portugal-vs-uzbekistan-predictions-23-06-2026/A:bltb6a342312b075f73",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760461",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.thebettinginsider.com/worldcup/games/portugal-vs-uzbekistan-2026-06-23",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/portugal-world-cup-roster-2026-squad-players/ff8a06ec2f7e26d861b33aae",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48257794/cristiano-ronaldo-not-portugal-squad-pre-world-cup-friendlies",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.sportingnews.com/ca/soccer/news/portugal-squad-march-2026-roster-mexico-united-states/ca108a7d3287435049121c0c",
+      "type": "news"
+    },
+    {
+      "url": "https://www.flashscore.com/news/soccer-world-cup-portugal-boss-martinez-gives-mateus-fernandes-first-call-up-ronaldo-absent-through-injury/rVzN1OJN/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goal.com/en-sg/lists/portugal-squad-cristiano-ronaldo-bernardo-silva-injury-update-roberto-martinez/blt7ac7677c5940dbfd",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.facebook.com/globesoccer/posts/-%F0%9D%90%81%F0%9D%90%91%F0%9D%90%84%F0%9D%90%80%F0%9D%90%8A%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86-cristiano-ronaldo-out-with-injury-and-set-to-miss-portugals-upcoming-g/963749719643535/",
+      "type": "social"
+    },
+    {
+      "url": "https://worldsoccertalk.com/news/cristiano-ronaldos-2026-world-cup-safe-as-portugal-boss-roberto-martinez-reveals-injury-return-timeline/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.plataformamedia.com/en/2026/03/18/portugal-squad-martinez-world-cup-2026-ronaldo-absent-third-striker/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w548qcw6pZo",
+      "type": "social"
+    },
+    {
+      "url": "https://www.mirror.co.uk/sport/football/news/cristiano-ronaldo-injury-world-cup-36914272",
+      "type": "news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/uzbekistan-2026-world-cup-squad-160000886.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://fwclive.com/teams/uzbekistan/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.footballpickr.com/uzbekistan-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/uzbekistan-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://heavy.com/sports/soccer/world-cup/uzbekistan-world-cup-squad-club-teams/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.reddit.com/r/worldcup/comments/1tusk8v/uzbekistan_announces_squad_for_2026_fifa_world_cup/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ltOjo5PqrXE",
+      "type": "social"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team",
+      "type": "news"
+    },
+    {
+      "url": "https://mylineups.app/world-cup-2026/teams/uzbekistan/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yenm7xllyo",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-portugal-fixtures-resutls-dates-kick-off-times-full-schedule-squad-venues/g2tidm51egbe18rppfxje090h",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+      "type": "news"
+    },
+    {
+      "url": "https://www.dazn.com/en-GB/news/football/fifa-world-cup-26-group-k-portugal-uzbekistan-colombia-congo/1kq5i3vn64z4t1cabf3k6maie2",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/in/football/news/portugal-world-cup-2026-schedule-group-watch-ronaldo-india/f327406e3d85165b33516bf6",
+      "type": "news"
+    },
+    {
+      "url": "https://www.mlssoccer.com/news/fifa-world-cup-2026-schedule-all-games-full-list-of-matchups",
+      "type": "news"
+    },
+    {
+      "url": "https://www.kickoffclock.com/schedule/portugal",
+      "type": "news"
+    },
+    {
+      "url": "https://www.nrgpark.com/event/portugal-vs-uzbekistan/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.kickoffadventures.com/events/world-cup-26/schedule/by-city/houston",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-k-draw-teams-schedule-fixtures/e10475b7c39b489bb79bd58c",
+      "type": "news"
+    },
+    {
+      "url": "https://www.bigstub.com/Portugal-Tickets/event-6259715-June-17th-2026-NRG-Stadium",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59551-Portugal-vs-Uzbekistan.htm",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/portugal-vs-uzbekistan/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.pickswise.com/world-cup/games/portugal-uzbekistan-world-cup-26-2026-06-23-1700/",
+      "type": "betting"
+    },
+    {
+      "url": "https://worldcup-odds.com/2026/fixtures/portugal-v-uzbekistan.htm",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/portugal-vs-uzbekistan-world-cup-group-k-odds-picks-june-23/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-portugal-vs-uzbekistan-jun-23-2026-game-boxscore-647660",
+      "type": "news"
+    },
+    {
+      "url": "https://oddsdigger.com/football/nt-portugal-vs-nt-uzbekistan-92885955",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-f-draw-teams-schedule-fixtures/14d15276af582718867ca9a8",
+      "type": "news"
+    },
+    {
+      "url": "https://japannews.yomiuri.co.jp/sports/soccer/20251206-296831/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.united-2026.com/groups/group-f-2026-standings-schedule",
+      "type": "news"
+    },
+    {
+      "url": "https://www.dazn.com/en-CA/news/soccer/fifa-world-cup-26-group-f-netherlands-japan-tunisia-sweden/pglisc8g83u813d63fic9tnjj",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12098/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://sportsxon.com/en/groups/f",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12021/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XufN1wp62r0",
+      "type": "social"
+    },
+    {
+      "url": "https://www.livescore.com/th/futbxl/xintexr-nechannael/world-cup-2026/netherlands-vs-japan/1417939/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/japan-netherlands-2377-2382-5930",
+      "type": "betting"
+    }
+  ],
+  "source_count": 60,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.89,
+        "draw": 0.08,
+        "away": 0.03
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力碾壓烏茲別克，主場大勝可期。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力佔優，攻守兼備，穩勝烏茲別克斯坦。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.18,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力碾壓，控球與進攻效率將輕鬆突破烏茲別克防線。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙攻守皆優，主場大勝機率極高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.8,
+        "draw": 0.15,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙整體實力遠勝烏茲別克，預計能輕鬆掌控比賽並取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.79,
+        "draw": 0.15,
+        "away": 0.06
+      },
+      "scoreline": "3:0",
+      "note": "葡萄牙實力遠勝，預計主場大勝烏茲別克。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "葡萄牙實力明顯高出一籌，預期輕鬆取勝"
+    }
+  ],
+  "consensus": {
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.777,
+      "draw": 0.148,
+      "away": 0.076
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-21T231446Z"
+}

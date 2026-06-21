@@ -1,0 +1,694 @@
+{
+  "match": 44,
+  "stage": "Group J",
+  "home": "Jordan",
+  "away": "Algeria",
+  "kickoff_utc": "2026-06-23T03:00:00Z",
+  "run_id": "2026-06-21T2300Z",
+  "run_timestamp": "2026-06-21T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.18,
+      "draw": 0.24,
+      "away": 0.58
+    },
+    "confidence": 0.65,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "阿爾及利亞窄勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.58,
+        "basis": "阿爾及利亞陣容深度更強，馬赫雷茲、阿穆拉的個人能力足以打開約旦後防，穆薩·塔馬里的反擊保留約旦入球機會。"
+      },
+      {
+        "name": "平局雙方均保命",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.24,
+        "basis": "兩隊均有強烈求勝意志，若約旦防守組織得宜並依賴塔馬里的個人才能先開紀錄，阿爾及利亞可能只能追平。"
+      },
+      {
+        "name": "約旦歷史性勝利",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.18,
+        "basis": "約旦在首輪對奧地利展現出色個人技術（15次成功盤球），若阿爾及利亞過度追攻，約旦可憑反擊製造驚喜。"
+      },
+      {
+        "name": "阿爾及利亞大勝",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.4,
+        "basis": "阿爾及利亞急需以大勝重建信心，若古里進球加馬赫雷茲主導，約旦後防可能無法支撐90分鐘。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦（Stats Perform）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.177,
+          "draw": 0.222,
+          "away": 0.601
+        },
+        "scoreline": "1:2",
+        "note": "Opta以25,000次模擬賦予阿爾及利亞60.1%勝率，約旦17.7%，平局22.2%，是本場最具統計公信力的依據。"
+      },
+      {
+        "source": "Kalshi預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.16,
+          "draw": 0.23,
+          "away": 0.61
+        },
+        "scoreline": "1:2",
+        "note": "Kalshi報阿爾及利亞61%勝率，平局23%，約旦16%，與Opta模型高度吻合，交易量顯示市場看法明確。"
+      },
+      {
+        "source": "博彩綜合盤口（BetOnline/Racing Post/bet365）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.17,
+          "draw": 0.24,
+          "away": 0.59
+        },
+        "scoreline": "1:2",
+        "note": "主流博彩公司報阿爾及利亞4/7（隱含59%），平局31/10，約旦9/2，市場一面倒看好阿爾及利亞。"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.155,
+          "draw": 0.235,
+          "away": 0.615
+        },
+        "scoreline": "1:2",
+        "note": "Polymarket賦予阿爾及利亞61.5%，平局23.5%，約旦15.5%，市場資金高度集中於阿爾及利亞一方。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "約旦與阿爾及利亞同以零分迎戰，均在首輪各自失利——約旦以1:3負於奧地利，阿爾及利亞以0:3負於衛冕冠軍阿根廷（美斯帽子戲法）。兩隊均面臨巨大出局壓力，失敗方在第三輪幾乎確定出局。約旦為世界盃首次參賽球隊，雖表現出色（首輪對奧地利完成15次成功盤球、各自11次射門及4次射正），但防線失3球。阿爾及利亞陣容擁有馬赫雷茲（35歲）、古里、阿穆拉、夏比等歐洲頂級聯賽球員，整體陣容深度遠勝約旦。阿爾及利亞後衛曼迪首輪完成105次傳球（成功率95.2%），顯示控球組織能力出眾。夏比在首輪四度參與阿爾及利亞進攻機會，是關鍵創造者。Opta超級電腦在25,000次模擬中賦予阿爾及利亞60.1%勝率，是目前最核心的統計依據，與博彩盤口（4/7）及Kalshi市場（61%）保持高度一致。多數分析媒體（RotoWire、Football Whispers、The Hard Tackle、Sportskeeda）均預測1:2阿爾及利亞勝。約旦最大威脅是塔馬里（本賽季法甲蘭斯7球11助，國家隊亞洲區資格賽7球），其速度與直接走位能令阿爾及利亞防線難以應對。比賽在萊維斯球場（舊金山）進行，兩隊首回合對賽歷史（2004年約旦1:1阿爾及利亞）結果平局。整合所有資料後，阿爾及利亞1:2勝出（比分以約旦為主隊，即阿爾及利亞作客勝）是最可能的結果，但約旦在主場優勢（雖賽事在美國進行，約旦為小組賽「主隊」分配）及塔馬里個人能力支撐下仍有機會入球。",
+    "key_factors": [
+      "阿爾及利亞陣容深度大幅優勝：馬赫雷茲、古里、阿穆拉等歐洲頂級聯賽主力，比約旦全員在更高水平聯賽效力",
+      "約旦首輪展現出色頑抗精神，完成15次成功盤球（2006年以來首輪最高），但最終仍輸1:3顯示防線脆弱",
+      "阿爾及利亞必須勝利：0:3不敵阿根廷後若再不勝，幾乎確定出局，背水一戰心態是關鍵優勢",
+      "約旦關鍵傷兵：主力射手亞贊·納伊馬特（世界盃最佳射手）和伊布拉欣·薩布拉在賽前均未能參加，前線大幅削弱",
+      "約旦過去6場全部賽事無勝績（2平4負），賽前狀態欠佳",
+      "阿爾及利亞世界盃歷史不理想（過去11場僅1勝），但個人質素與歐洲聯賽經驗足以在此類生死戰發揮",
+      "約旦核心塔馬里本賽季7球11助傳，速度與突破能力是唯一可令阿爾及利亞防線緊張的威脅",
+      "Opta模型（60.1%）、Kalshi（61%）、Polymarket（61.5%）、博彩（59%）四方共識指向阿爾及利亞，一致性極高"
+    ],
+    "consensus_lean": "市場、模型及媒體分析均一致指向阿爾及利亞勝出，共識遠比挪威vs塞內加爾一場更為明確。阿爾及利亞勝率普遍在58-66%之間，約旦15-26%，平局22-28%。最多預測為1:2（阿爾及利亞勝，主場角度），其次為0:1或0:2阿爾及利亞淨勝。幾乎所有分析師看好阿爾及利亞勝但預計約旦不會零戰。",
+    "dissent": "少數分析師（如YouTube博彩頻道）傾向約旦+平局雙重機會，認為約旦有能力克制阿爾及利亞的傳控，且首輪表現（射門11次）顯示實際能力比排名顯示的更強。Sports Mole統計模型賦予阿爾及利亞僅49.3%，約旦26.25%，是最保守的評估；BetClan演算法則給出更高的阿爾及利亞64%。Tactical Logic AI模型預測1:1平局亦有一定支持。"
+  },
+  "sources": [
+    {
+      "url": "https://theanalyst.com/articles/jordan-vs-algeria-prediction-world-cup-2026-match-preview",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-jor-alg-2026-06-22",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://cryptoslate.com/predictions/market/fifwc-jor-alg-2026-06-22/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://deadspin.com/prediction-markets/trending/jordan-v-algeria-predictions-picks-props/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.covers.com/world-cup/jordan-vs-algeria-prediction-picks-odds-monday-6-22-2026",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/jordan-vs-algeria-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-abUG75Z79uPM/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.sportsgambler.com/betting-tips/football/jordan-vs-algeria-prediction-lineups-odds-2026-06-22/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/jordan-vs-algeria-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-119061",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/jordan-vs-algeria-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://thehardtackle.com/round-up/2026/06/21/jordan-vs-algeria-preview-and-prediction/amp/",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/jordan-vs-algeria-prediction-betting-tips-june-22nd-2026",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/19/jordan-v-algeria-predictions/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.inkl.com/news/jordan-vs-algeria-world-cup-2026-predictions-and-best-bets",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.mexc.com/news/1157662",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59541-Jordan-vs-Algeria.htm",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.toffeeweb.com/jordan-vs-algeria-predictions-picks-odds-23-06-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://thefootballfaithful.com/betting-news/jordan-vs-algeria-prediction-betting-tips-23-06-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://easybet.com/football-tips/jordan-vs-algeria-prediction-fifa-world-cup-26/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.betclan.com/predictionsdetails/football/194699821/jordan-v-algeria-prediction-h2h-tip-and-match-preview/",
+      "type": "model/ai"
+    },
+    {
+      "url": "https://footballmeister.com/world-cup-2026/jordan-algeria-2026-06-23/",
+      "type": "model/ai"
+    },
+    {
+      "url": "https://footballmeister.com/world-cup-2026/argentina-algeria-2026-06-17/",
+      "type": "model/ai"
+    },
+    {
+      "url": "https://tikitaka.gg/articles/1489400-jordan-vs-algeria-preview",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/world-cup/jordan-vs-algeria_game_248846.html",
+      "type": "model/statistical"
+    },
+    {
+      "url": "https://thesportsrush.com/jordan-v-algeria-predictions/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://khelnow.com/football/world-football-jordan-vs-algeria-preview-fifa-world-cup-202606",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/21/jordan-v-algeria-tips-world-cup-best-bets-tue-23-june/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49124571/jordan-vs-algeria-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760455/algeria-jordan",
+      "type": "live_score"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760455",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/algeria-jordan/284383",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.goal.com/en/news/jordan-algeria-world-cup-preview/bltddae6909cf8922c4",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://theanalyst.com/articles/argentina-vs-algeria-prediction-world-cup-2026-match-preview",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715478-supercomputer-predicts-african-team-qualify-2026-world-cup-knockout-stage/",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-j/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://insightcrunch.com/2026/06/17/argentina-vs-algeria-analysis/",
+      "type": "match_analysis"
+    },
+    {
+      "url": "https://www.skysports.com/football/argentina-vs-algeria/549784",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760433/algeria-argentina",
+      "type": "match_report"
+    },
+    {
+      "url": "https://en.as.com/soccer/argentina-vs-algeria-live-online-updates-score-goals-and-highlights-2026-world-cup-group-j-f202606-d/",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://www.myfootballfacts.com/world-football/south-america/argentina/argentina-3-0-algeria-post-match-review-full-time-report-and-key-moments/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mxZVqPoUOGc",
+      "type": "youtube_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VpbXeRftyHs",
+      "type": "youtube_highlights"
+    },
+    {
+      "url": "https://www.skysports.com/football/austria-vs-jordan/report/549785",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/report/_/gameId/760431",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/austria-3-1-jordan-world-cup-debutants-fall-short-2026-06-17",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/17/jordans-spirited-world-cup-debut-ends-in-harsh-3-1-defeat-to-austria/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.fotmob.com/matches/jordan-vs-austria/1my603",
+      "type": "match_stats"
+    },
+    {
+      "url": "https://www.theguardian.com/football/live/2026/jun/17/fifa-world-cup-2026-live-austria-v-jordan-updates-aut-vs-jor-group-j-match-score-latest",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://sports.yahoo.com/article/world-cup-2026-austria-nabs-win-over-jordan-after-handball-and-own-goal-drama-060912185.html",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.thestar.com.my/sport/football/2026/06/17/soccer-austria-triumph-on-world-cup-return-with-3-1-win-over-jordan",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.chosun.com/english/sports-en/2026/06/17/I5WCG43VGVFHRACZFC4KMR4XQU/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-possible-jordan-lineup-to-face-austria-in-the-2026-fifa-world-cup-2026-06-16",
+      "type": "lineup_news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/algeria-s-possible-lineup-to-face-argentina-at-the-fifa-world-cup-2026-2026-06-16",
+      "type": "lineup_news"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/16/messi-argentina-begin-world-cup-title-defence-against-algeria-all-to-know",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/16/world-cup-can-senegal-stun-france-again-predictions-schedule-on-day-6",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://telanganatoday.com/fifa-2026-austria-vs-jordan-live-streaming-squads-and-match-details",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.aninews.in/news/sports/football/jordan-announces-26-member-squad-for-fifa-world-cup-202620260604102906",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/jordan-world-cup-2026-squad",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/algeria-world-cup-2026-squad",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2917/sort/shotsOnTarget/dir/asc/jordan",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/624/sort/position/dir/desc/2012",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/21302/sort/saves/algeria",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-6/",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/players-world-cup-2026-163948354.html",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/jordan-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n-2/",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://ground.news/article/algeria-at-the-2026-world-cup-roster-list-players-group-and-schedule_7642a4",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://sportgrill.co.uk/2026/06/15/2026-fifa-world-cup-group-j-austria-vs-jordan/amp/",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://blog.sportpesa.com/2026/06/15/austria-vs-jordan-preview-prediction-world-cup-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://unn.ua/en/news/algeria-filed-a-complaint-with-fifa-regarding-the-officiating-over-an-incident-involving-messi",
+      "type": "news"
+    },
+    {
+      "url": "https://ok29.bet/argentina-vs-algeria/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/why-isnt-nicolas-tagliafico-playing-for-argentina-vs-algeria-at-the-2026-world-cup/",
+      "type": "news"
+    },
+    {
+      "url": "https://thefootballfaithful.com/argentina-vs-algeria-match-preview-and-team-news/",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u7eg5q/world_cup_2026_preview_jordan_alnashama_make/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.reddit.com/r/worldcup/comments/1u7yc92/postmatch_thread_argentina_30_algeria_world_cup/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.reddit.com/r/algeria/comments/1u85j9z/the_loss_to_argentina_was_expected_so_why_did_it/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.facebook.com/100063657912155/posts/2026-fifa-world-cup-full-time-results-argentina-30-algeria-leo-messi-another-hea/1667723688692879/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZzbZcKH_Mm/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/islamchanneluk/posts/the-2026-world-cup-has-been-full-of-surprises-with-plenty-of-unexpected-moments-/1477269851100494/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/guardianng/posts/the-2026-fifa-world-cup-continues-to-deliver-surprises-on-and-off-the-pitch-tuni/1575926747228083/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=y_dv3Z0J7DM",
+      "type": "youtube_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V5GJYfkRR7g",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YJZdsxJapcs",
+      "type": "youtube_model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6LovUkHOZqc",
+      "type": "youtube_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ebJiWgxIW84",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mxZVqPoUOGc",
+      "type": "youtube_analysis"
+    },
+    {
+      "url": "https://kalshi.com/category/sports/soccer/all/region-to-win-group",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://kalshi.com/category/sports/soccer/all/to-advance",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760431/jordan-austria",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.thelines.com/odds/world-cup/group-j/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.reddit.com/r/Kalshi/comments/1u7bedn/kalshi_vs_polymarket_vs_eventx_for_world_cup/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://theanalyst.com/articles/norway-vs-senegal-prediction-world-cup-2026-match-preview",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-nor-sen-2026-06-22",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.covers.com/world-cup/norway-vs-senegal-prediction-picks-odds-monday-6-22-2026",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.nhh.no/en/nhh-bulletin/article-archive/2026/june/world-cup-100000-simulations-reveal-norways-chances-of-winning/",
+      "type": "model/academic"
+    },
+    {
+      "url": "https://ua.news/en/sport/superkompiuter-opta-zminiv-favorita-chempionatu-svitu-z-futbolu",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://octagonai.co/markets/sports/soccer/group-i-winner/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/world-cup/jordan-vs-algeria_game_248846.html",
+      "type": "model/statistical"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49079625/world-cup-2026-today-blog-16-06-2026-live-updates-news-fixtures-schedule-france-senegal",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715188-supercomputer-predicts-world-cup-winner-round/",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://www.newindianexpress.com/amp/story/sport/football/2026/Jun/17/erling-haaland-double-powers-norway-to-world-cup-win-over-iraq",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/solbakken-to-give-norway-players-a-break-after-haaland-delivers-in-world-cup-opener",
+      "type": "official_media"
+    },
+    {
+      "url": "https://www.bssnews.net/sports/396349",
+      "type": "official_media"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/preview/norway-vs-senegal-prediction-team-news-lineups_599669.html",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/team-news/norway-vs-senegal-injury-suspension-list-predicted-xis--world-cup-2026_599675.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/norway-vs-senegal-xi-confirmed-team-news-predicted-lineups-injury-latest-world-cup-2026-b1286973.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49127342/norway-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.goal.com/en/news/norway-senegal-world-cup-preview/bltd8a0cbc4ebd3d72b",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/norway-vs-senegal-predictions-23-06-2026/A:bltb94ec068a6c83196",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=F5N1IHp8j1w",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ju0DwRa6sBQ",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fykWKb2DuHU",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=j3opPZQV35Q",
+      "type": "youtube_kol"
+    }
+  ],
+  "source_count": 112,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，主場優勢有限，握手言和機率高。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.3,
+        "away": 0.5
+      },
+      "scoreline": "0:1",
+      "note": "阿爾及利亞整體實力佔優，預計小勝約旦。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.27,
+        "away": 0.55
+      },
+      "scoreline": "0:1",
+      "note": "阿爾及利亞實力明顯佔優，預計可小勝約旦。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.27,
+        "draw": 0.25,
+        "away": 0.48
+      },
+      "scoreline": "1:2",
+      "note": "約旦主場有韌性，但阿爾及利亞進攻火力更勝一籌"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "阿爾及利亞整體陣容實力佔優，預計能以微弱優勢擊退約旦。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "阿爾及利亞整體實力較強，客場勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.35,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "阿爾及利亞整體實力較強，有望客場奏凱。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.221,
+      "draw": 0.291,
+      "away": 0.488
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-21T231403Z"
+}

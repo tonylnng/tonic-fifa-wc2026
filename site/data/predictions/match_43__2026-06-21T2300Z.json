@@ -1,0 +1,682 @@
+{
+  "match": 43,
+  "stage": "Group I",
+  "home": "Norway",
+  "away": "Senegal",
+  "kickoff_utc": "2026-06-23T00:00:00Z",
+  "run_id": "2026-06-21T2300Z",
+  "run_timestamp": "2026-06-21T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.44,
+      "draw": 0.27,
+      "away": 0.29
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "挪威憑哈蘭德贏球",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.44,
+        "basis": "哈蘭德在過去11場挪威賽事均有進球，歐德加德的創造力加上快速反擊戰術可令挪威以窄勝出線。"
+      },
+      {
+        "name": "高比數平局",
+        "scoreline": "2:2",
+        "outcome": "draw",
+        "confidence": 0.27,
+        "basis": "兩隊防線均有漏洞，塞內加爾的馬內、薩爾、積遜前線速度可抵消挪威進攻優勢，形成對轟局面。"
+      },
+      {
+        "name": "塞內加爾反勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.29,
+        "basis": "塞內加爾FIFA排名第14勝挪威第31，若塞隊率先入球並鎖緊後防，可複製2002年世界盃揭幕戰擊敗法國的驚喜。"
+      },
+      {
+        "name": "低比數挪威勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.35,
+        "basis": "若兩隊均趨向保守以求積分，哈蘭德的個人能力足以製造決定性一球，使挪威以1:0窄勝晉級。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦（Stats Perform）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.45,
+          "draw": 0.254,
+          "away": 0.296
+        },
+        "scoreline": "2:1",
+        "note": "Opta以25,000次模擬得出挪威勝率45.0%，塞內加爾29.6%，平局25.4%，為本場最具公信力的統計預測。"
+      },
+      {
+        "source": "Kalshi預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.44,
+          "draw": 0.27,
+          "away": 0.31
+        },
+        "scoreline": "2:1",
+        "note": "Kalshi市場報價挪威+127，平局+270，塞內加爾+222，隱含機率接近Opta模型。"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.45,
+          "draw": 0.26,
+          "away": 0.29
+        },
+        "scoreline": "2:1",
+        "note": "Polymarket顯示挪威為最窄大熱，交易量達1.37M美元，市場對此場高度關注。"
+      },
+      {
+        "source": "博彩綜合盤口（BetOnline/BetUS/Racing Post）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.43,
+          "draw": 0.27,
+          "away": 0.3
+        },
+        "scoreline": "2:1",
+        "note": "主流博彩公司報挪威+125至+135，塞內加爾+195至+215，平局+240至+260，市場共識傾向挪威窄勝。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "挪威在首輪以4:1大勝伊拉克，哈蘭德打入兩球，歐德加德傳球精準，全隊信心高漲，以小組積分榜首身份迎戰塞內加爾。塞內加爾雖在首輪以1:3不敵法國，但上半場曾短暫壓制法國，顯示整體實力不弱，由馬內、薩爾、積遜組成的前線速度威脅極大。挪威陣容無傷兵，預計維持4-3-3陣式，哈蘭德為核心。塞內加爾同樣無人懸念，邊杜守門預計上陣，庫里巴利領軍後防。Opta超級電腦在25,000次模擬中賦予挪威45.0%勝率，是本場最核心的統計依據。博彩市場（主流報挪威+125至+135）與預測市場（Kalshi、Polymarket）均指向挪威為最窄大熱。多個分析媒體（RotoWire、Sports Mole、Evening Standard）預測比分在2:1或1:1之間，共識核心是一場緊張、雙方均有入球的比賽。哈蘭德過去11場挪威賽事均有進球，且近5場每場均有多球，是本場最關鍵的勝負因素。塞內加爾後防對歐洲球隊近三場世界盃均落敗，但其快速反擊能力不可忽視。整合各模型、博彩及媒體分析後，挪威2:1獲勝為最可能結果，勝算約44%，平局（尤其1:1）機率亦達27%，屬高度競爭場次。",
+    "key_factors": [
+      "哈蘭德狀態巔峰：過去11場挪威賽事全數進球，近5場每場均多球，是本場最具威脅的個人因素",
+      "挪威首輪4:1大勝伊拉克，積分榜領先，士氣高漲，陣容無傷兵，可維持最強陣容出戰",
+      "塞內加爾首輪1:3負於法國，出局壓力較大，求勝心強，馬內、薩爾、積遜前線速度是最大反撲武器",
+      "歐德加德指揮中場，首輪42傳僅一次失誤，貢獻4次突破傳球，決定性創造力領先全場",
+      "兩隊防線均有漏洞，首兩輪小組合共9球，Over 2.5入球機率極高",
+      "塞內加爾過去12場世界盃未能保持零失球，挪威具備多個入球機會",
+      "賽事資格重大：挪威勝即幾乎確保出線，塞內加爾輸即依賴第三名席位，雙方均高度投入",
+      "Opta超級電腦模擬（45.0%:25.4%:29.6%）與博彩市場（+125至+135）走向一致，指向挪威窄勝"
+    ],
+    "consensus_lean": "挪威為最窄大熱，綜合Opta模型、博彩盤口、預測市場及多數媒體分析，挪威勝率約43-45%，塞內加爾約29-31%，平局約25-27%。最多分析師預測2:1挪威勝，其次為1:1平局，共識偏向一場高入球的緊張比賽。",
+    "dissent": "部分模型（Tactical Logic AI YouTube頻道）預測挪威僅39%勝率，認為平局機率與塞內加爾勝率合計高達61%，指塞內加爾FIFA排名第14優勝挪威第31，且近期資格賽形式穩定。RotoWire及FootballPredictions.com預測1:1平局。NHH大學100,000次模擬則顯示挪威整體奪冠機率極低，但個人入球能力可彌補。"
+  },
+  "sources": [
+    {
+      "url": "https://theanalyst.com/articles/norway-vs-senegal-prediction-world-cup-2026-match-preview",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-nor-sen-2026-06-22",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://kalshi.com/category/sports/soccer/all/region-to-win-group",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.covers.com/world-cup/norway-vs-senegal-prediction-picks-odds-monday-6-22-2026",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/norway-vs-senegal/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/norway-vs-senegal-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aciei6j5frpu/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.sportsgambler.com/betting-tips/football/norway-vs-senegal-prediction-lineups-odds-2026-06-22/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/norway-vs-senegal-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-i-119063",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/preview/norway-vs-senegal-prediction-team-news-lineups_599669.html",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/team-news/norway-vs-senegal-injury-suspension-list-predicted-xis--world-cup-2026_599675.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/predicted-lineups/double-defensive-boost-for-solbakken-predicted-norway-xi-vs-senegal_599672.html",
+      "type": "lineup_news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/norway-vs-senegal-xi-confirmed-team-news-predicted-lineups-injury-latest-world-cup-2026-b1286973.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/preview-norway-vs-senegal-team-000500486.html",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49127342/norway-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.goal.com/en/news/norway-senegal-world-cup-preview/bltd8a0cbc4ebd3d72b",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/norway-vs-senegal-predictions-23-06-2026/A:bltb94ec068a6c83196",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/19/norway-v-senegal-predictions/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.inkl.com/news/norway-vs-senegal-world-cup-2026-predictions-and-picks",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://thesportsrush.com/norway-v-senegal-predictions/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.toffeeweb.com/norway-vs-senegal-predictions-picks-odds-23-06-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://therealefl.co.uk/2026/06/19/norway-vs-senegal-fifa-prediction-odds-lineups-betting-tips-23-06-2026-world-cup/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/norway-vs-senegal-prediction-23-06-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/norway-vs-senegal-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/norway-vs-senegal-prediction-betting-tips-june-22nd-2026",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://nerdytips.com/blog/norway-vs-senegal-prediction-2026-06-23/",
+      "type": "model/ai"
+    },
+    {
+      "url": "https://www.kruzey.com.au/world-cup-2026-tips/norway-v-senegal/",
+      "type": "model/ai"
+    },
+    {
+      "url": "https://www.mexc.com/news/1157580",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://deadspin.com/betting/norway-vs-senegal-world-cup-betting-preview-lines-predictions-6-22-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/solbakken-to-give-norway-players-a-break-after-haaland-delivers-in-world-cup-opener",
+      "type": "official_media"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/norway-world-cup-2026-squad",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/464/sort/subIns/dir/desc/noruega",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/654/sort/redCards/ht",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-6/",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://www.newindianexpress.com/amp/story/sport/football/2026/Jun/17/erling-haaland-double-powers-norway-to-world-cup-win-over-iraq",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.bssnews.net/sports/396349",
+      "type": "official_media"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/15/france-vs-senegal-world-cup-2026-mbappe-teams-lineups-start-dembele",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-senegal-injury-suspension-list-predicted-xis_599161.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/france-vs-senegal-lineups-confirmed-team-news-starting-xi-injury-latest-world-cup-2026-today-b1286182.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/news/new-updates/france-vs-senegal-fifa-world-cup-2026-lineup-key-players-prediction-team-stats-injury-news-update/articleshow/131772207.cms",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.sportingnews.com/ca/soccer/news/france-vs-senegal-lineup-starting-11-world-cup-2026/05832f534d6795b6b6997dcb",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49079625/world-cup-2026-today-blog-16-06-2026-live-updates-news-fixtures-schedule-france-senegal",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/iraq/world-cup-2026/team-news/iraq-vs-norway-injury-suspension-list-predicted-xis_599240.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://fwclive.com/match/iraq-vs-norway-lineups/",
+      "type": "lineup_news"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715478-supercomputer-predicts-african-team-qualify-2026-world-cup-knockout-stage/",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715188-supercomputer-predicts-world-cup-winner-round/",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://octagonai.co/markets/sports/soccer/group-i-winner/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.nhh.no/en/nhh-bulletin/article-archive/2026/june/world-cup-100000-simulations-reveal-norways-chances-of-winning/",
+      "type": "model/academic"
+    },
+    {
+      "url": "https://ua.news/en/sport/superkompiuter-opta-zminiv-favorita-chempionatu-svitu-z-futbolu",
+      "type": "model/opta"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/norway-vs-senegal-predictions-picks-160000925.html",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/world-cup-team-threatening-implode-073039460.html",
+      "type": "news"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=F5N1IHp8j1w",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QrIoT4nrmVs",
+      "type": "youtube_model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ju0DwRa6sBQ",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fykWKb2DuHU",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=j3opPZQV35Q",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ChV71_TG5ik",
+      "type": "youtube_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ntOsG1jb0Z4",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UL0bzILSTpI",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Tl93KTBziqE",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u7efxr/world_cup_2026_preview_norway_the_28year_exile/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.reddit.com/r/ussoccer/comments/1uavtr4/determining_our_r32_opponent/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.reddit.com/r/Aleague/comments/1u76i4v/mens_world_cup_match_day_6_discussion_thread_17/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.facebook.com/sportsmole/posts/sports-mole-rounds-up-all-of-the-latest-injury-and-suspension-news-ahead-of-tues/1424230799734179/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZzbZcKH_Mm/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/islamchanneluk/posts/the-2026-world-cup-has-been-full-of-surprises-with-plenty-of-unexpected-moments-/1477269851100494/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/islamchanneluk/posts/long-before-the-first-ball-was-kicked-the-2026-world-cup-was-making-headlines-fo/1475366967957449/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/guardianng/posts/the-2026-fifa-world-cup-continues-to-deliver-surprises-on-and-off-the-pitch-tuni/1575926747228083/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.facebook.com/CBSNews/posts/asked-about-reports-of-some-world-cup-players-including-from-iraqs-team-being-qu/1417075963617577/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/players-world-cup-2026-163948354.html",
+      "type": "injury_report"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/norway-world-cup-2026-squad",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/jordan-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n-2/",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.cbssports.com/prediction/news/kalshi-world-cup-2026/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-j/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.reddit.com/r/Kalshi/comments/1u7bedn/kalshi_vs_polymarket_vs_eventx_for_world_cup/",
+      "type": "forum/reddit"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760431/jordan-austria",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.thelines.com/odds/world-cup/group-j/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/algeria-jordan/284383",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760455",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.skysports.com/football/argentina-vs-algeria/549784",
+      "type": "match_report"
+    },
+    {
+      "url": "https://insightcrunch.com/2026/06/17/argentina-vs-algeria-analysis/",
+      "type": "match_analysis"
+    },
+    {
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/17/jordans-spirited-world-cup-debut-ends-in-harsh-3-1-defeat-to-austria/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/austria-3-1-jordan-world-cup-debutants-fall-short-2026-06-17",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/algeria-s-possible-lineup-to-face-argentina-at-the-fifa-world-cup-2026-2026-06-16",
+      "type": "lineup_news"
+    },
+    {
+      "url": "https://www.aninews.in/news/sports/football/jordan-announces-26-member-squad-for-fifa-world-cup-202620260604102906",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://telanganatoday.com/fifa-2026-austria-vs-jordan-live-streaming-squads-and-match-details",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/jordan-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n-2/",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.theguardian.com/football/live/2026/jun/17/fifa-world-cup-2026-live-austria-v-jordan-updates-aut-vs-jor-group-j-match-score-latest",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://sportgrill.co.uk/2026/06/15/2026-fifa-world-cup-group-j-austria-vs-jordan/amp/",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://blog.sportpesa.com/2026/06/15/austria-vs-jordan-preview-prediction-world-cup-2026/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.chosun.com/english/sports-en/2026/06/17/I5WCG43VGVFHRACZFC4KMR4XQU/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.thestar.com.my/sport/football/2026/06/17/soccer-austria-triumph-on-world-cup-return-with-3-1-win-over-jordan",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/report/_/gameId/760431",
+      "type": "match_report"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/why-isnt-nicolas-tagliafico-playing-for-argentina-vs-algeria-at-the-2026-world-cup/",
+      "type": "news"
+    },
+    {
+      "url": "https://thefootballfaithful.com/argentina-vs-algeria-match-preview-and-team-news/",
+      "type": "media_preview"
+    },
+    {
+      "url": "https://www.myfootballfacts.com/world-football/south-america/argentina/argentina-3-0-algeria-post-match-review-full-time-report-and-key-moments/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://unn.ua/en/news/algeria-filed-a-complaint-with-fifa-regarding-the-officiating-over-an-incident-involving-messi",
+      "type": "news"
+    },
+    {
+      "url": "https://ground.news/article/algeria-at-the-2026-world-cup-roster-list-players-group-and-schedule_7642a4",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/algeria-world-cup-2026-squad",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/624/sort/position/dir/desc/2012",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760433/algeria-argentina",
+      "type": "match_report"
+    },
+    {
+      "url": "https://ok29.bet/argentina-vs-algeria/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.fotmob.com/matches/jordan-vs-austria/1my603",
+      "type": "match_stats"
+    },
+    {
+      "url": "https://en.as.com/soccer/argentina-vs-algeria-live-online-updates-score-goals-and-highlights-2026-world-cup-group-j-f202606-d/",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mxZVqPoUOGc",
+      "type": "youtube_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VpbXeRftyHs",
+      "type": "youtube_highlights"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=y_dv3Z0J7DM",
+      "type": "youtube_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V5GJYfkRR7g",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YJZdsxJapcs",
+      "type": "youtube_model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6LovUkHOZqc",
+      "type": "youtube_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ebJiWgxIW84",
+      "type": "youtube_kol"
+    }
+  ],
+  "source_count": 110,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "挪威主場火力強，憑哈蘭德有望小勝塞內加爾。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "挪威鋒線火力猛，塞內加爾難擋地主攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.4,
+        "away": 0.35
+      },
+      "scoreline": "1:1",
+      "note": "挪威靠夏蘭特威脅，但塞內加爾整體佔優，和局機會高。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.27,
+        "away": 0.43
+      },
+      "scoreline": "1:2",
+      "note": "塞內加爾前場速度快，反擊效率優於挪威"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.32,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "挪威鋒線犀利，塞內加爾攻守均衡，預期雙方戰平。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.3,
+        "away": 0.23
+      },
+      "scoreline": "2:1",
+      "note": "挪威主場哈蘭德火力強勁，有望小勝塞內加爾。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.32,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "挪威擁哈蘭德進攻強，塞內加爾防守硬，主隊險勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.403,
+      "draw": 0.3,
+      "away": 0.297
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-21T231317Z"
+}

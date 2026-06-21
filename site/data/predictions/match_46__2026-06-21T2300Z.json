@@ -1,0 +1,478 @@
+{
+  "match": 46,
+  "stage": "Group L",
+  "home": "England",
+  "away": "Ghana",
+  "kickoff_utc": "2026-06-23T20:00:00Z",
+  "run_id": "2026-06-21T2300Z",
+  "run_timestamp": "2026-06-21T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.77,
+      "draw": 0.14,
+      "away": 0.09
+    },
+    "confidence": 0.81,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.2
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "英格蘭穩勝奠定出線",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.81,
+        "basis": "圖赫爾的英格蘭強調防守紀律，凱恩及貝靈漢主導進攻，迦納防線面對英格蘭速度難以招架"
+      },
+      {
+        "name": "英格蘭大勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "英格蘭整體實力大幅凌駕迦納，薩卡、拉什福德等翼鋒能持續突破創造機會"
+      },
+      {
+        "name": "迦納驚人頑強守平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.09,
+        "basis": "迦納首戰1-0擊敗巴拿馬顯示防守能力，帕提（Partey）居中協助迦納若能抓住反擊機會"
+      },
+      {
+        "name": "英格蘭險勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "圖赫爾趨向謹慎保守，英格蘭可能選擇控制比賽節奏以1球優勢收場"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 數據模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.804,
+          "draw": 0.137,
+          "away": 0.059
+        },
+        "scoreline": "2:0",
+        "note": "Dimers World Cup模型英格蘭勝率80.4%，最可能比分2-0"
+      },
+      {
+        "source": "Bet365 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.556,
+          "draw": 0.282,
+          "away": 0.2
+        },
+        "scoreline": "2:0",
+        "note": "Bet365英格蘭-380賠率（Dimers數據），其他盤口隱含約55-56%勝率"
+      },
+      {
+        "source": "Pinnacle 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.541,
+          "draw": 0.278,
+          "away": 0.208
+        },
+        "scoreline": "2:0",
+        "note": "Pinnacle最低抽水盤口，英格蘭勝率54.1%"
+      },
+      {
+        "source": "Prediction Markets Picks 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.804,
+          "draw": 0.137,
+          "away": 0.059
+        },
+        "scoreline": "2:0",
+        "note": "預測市場確認英格蘭大熱，Over 2.5及凱恩入球為最佳投注點"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "英格蘭在圖赫爾（Thomas Tuchel）帶領下以4-2大勝克羅地亞展開世界盃征途，狀態火熱。迦納則以1-0窄勝巴拿馬，兩隊各積3分，本場實際上是搶奪L組首席及直接出線資格之戰。從整體實力看，英格蘭擁有凱恩（68球國際紀錄）、貝靈漢（Real Madrid主力）、薩卡（Arsenal）等世界級球員，外加詭麵包圓（圖赫爾）嚴謹的3-4-2-1系統，在進攻和防守上均遠超迦納。迦納主教練基羅斯（Carlos Queiroz）善於組織低位防守，而帕提（Thomas Partey）是關鍵中場，若受傷缺陣影響將進一步削弱迦納抵抗力。Dimers模型給予英格蘭80.4%勝率，盤口約55-56%（扣除抽水後接近70%）。各大媒體一致預測英格蘭以2-0或3-0勝出，Over 2.5進球是主流投注標的，而BTTS則普遍認為可能性不高（迦納防守較穩）。",
+    "key_factors": [
+      "英格蘭首戰4-2大勝克羅地亞，攻擊火力全面展示，凱恩已入2球",
+      "圖赫爾戰術紀律嚴明，英格蘭歐資格賽8戰全勝、進22球、零失球",
+      "迦納1-0勝巴拿馬顯示一定防守能力，但對抗頂級攻擊時更大壓力",
+      "帕提（Thomas Partey）健康狀況影響迦納中場組織",
+      "Dimers模型英格蘭80.4%，各博彩隱含約65-70%（扣除抽水後）",
+      "凱恩（Kane）金靴熱門，每場比賽都有強烈入球動機",
+      "貝靈漢（Bellingham）擔任創意核心，薩卡、拉什福德（Rashford）覆蓋兩側",
+      "迦納擁有蘇萊馬納（Sulemana）和約旦艾尤（Jordan Ayew）在前線，具備反擊能力但與英格蘭實力差距明顯"
+    ],
+    "consensus_lean": "幾乎所有資料來源一致偏向英格蘭以2-0或3-0贏球，Over 2.5進球為次要共識；英格蘭提前晉級的概率超過99%",
+    "dissent": "少部分分析員指圖赫爾可能刻意壓低比分以保留體能及戰術部署，英格蘭1-0小勝亦屬可能；迦納的速度威脅（蘇萊馬納）若被啟動或讓比賽更加膠著"
+  },
+  "sources": [
+    {
+      "url": "https://www.juvefc.com/england-v-ghana-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://thesportsrush.com/england-v-ghana-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/england-vs-ghana",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/england-vs-ghana-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aZ9G29x8YvMg/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-ghana-prediction-team-news-lineups_599721.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://ca.sports.yahoo.com/news/england-vs-ghana-prediction-world-095000061.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/england-ghana-world-cup-preview-predictions-tips-2026-06-20/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Tm7ZpWLLDhI",
+      "type": "social"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/england-vs-ghana-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1286983.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1_5QdyHIk4o",
+      "type": "social"
+    },
+    {
+      "url": "https://www.englandfootball.com/articles/2026/Jun/16/england-three-lions-fifa-world-cup-2026-squad-updates",
+      "type": "news"
+    },
+    {
+      "url": "https://worldcupengland2026.com/articles/england-injury-news-world-cup-2026-confirmed-absences-squad/",
+      "type": "news"
+    },
+    {
+      "url": "https://fifa-26.com/en/teams/england",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48581453/england-2026-world-cup-injuries-tino-livramento-newcastle-united",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-7/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48842639/eleven-unlucky-players-miss-england-2026-world-cup-squad",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup/feature/world-cup-injury-list-absent-players-and-doubts_597036.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.si.com/soccer/england-dealt-significant-injury-blow-first-world-cup-match",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12040/13554613/world-cup-2026-tino-livramento-suffers-hamstring-injury-and-replaced-by-trevoh-chalobah-in-england-squad",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/noni-maduekes-injury-raises-concerns-174629852.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/4469/ghana",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/ghana-world-cup-2026-squad",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad?id=4469&league=FIFA.WORLD",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-in/lists/ghana-squad-world-cup-2026/blt96bf719b2e716a5e",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AkaJrOqs39c",
+      "type": "social"
+    },
+    {
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-ghana-all-players-full-squad-list-key-stats-schedule",
+      "type": "news"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GLfScNuE1VM&vl=en",
+      "type": "social"
+    },
+    {
+      "url": "https://www.facebook.com/SportsCornerPage/videos/ghana-black-stars-26-man-squad-for-world-cup-you-expect-ghana-ghanablackstars-fi/1634484037658062/",
+      "type": "social"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/11/ghana-world-cup-2026-team-guide",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760458",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.sports-king.com/en-gb/england-vs-ghana-betting-world-cup-2026-odds/",
+      "type": "betting"
+    },
+    {
+      "url": "https://africabettips.com/world-cup-2026/group-l/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/england-vs-ghana-pick-world-cup-group-l-odds-picks-june-23/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.squawka.com/en/outright-markets/world-cup-2026-group-k-odds/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-l/",
+      "type": "betting"
+    },
+    {
+      "url": "https://lasvegassportsbetting.com/soccer/2026-fifa-world-cup-group-l-odds-props/",
+      "type": "betting"
+    },
+    {
+      "url": "https://nzsoccerwc.com/group-l/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://goalbible.com/blog/fifa-world-cup-2026-group-l-odds-predictions-latest-betting-markets-and-analysis-by-goalbible/",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballgroundguide.com/news/world-cup-betting-guide-2026.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.worldcupgillettestadium.com/home",
+      "type": "news"
+    },
+    {
+      "url": "https://www.gillettestadium.com/events/2026-world-cup-round-of-32/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48871588/england-scotland-fifa-world-cup-2026-venues-guide",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-matches-boston-start-times-dates-locations",
+      "type": "news"
+    },
+    {
+      "url": "https://www.mirror.co.uk/sport/football/news/england-world-cup-stadium-usa-36854388",
+      "type": "news"
+    },
+    {
+      "url": "https://www.goal.com/en-gb/lists/gillette-stadium-guide-history-stay-world-cup-2026/bltc1de7cdf5a32fd8b",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.cbsnews.com/boston/news/world-cup-schedule-2026-boston-gillette-stadium-foxboro/",
+      "type": "news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/everything-know-2026-world-cup-210921962.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.cbsnews.com/boston/news/world-cup-2026-gillette-stadium-teams/",
+      "type": "news"
+    },
+    {
+      "url": "https://seatgeek.com/fifa-world-cup-tickets/boston",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
+      "type": "news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_officials",
+      "type": "news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-group-f-draw-teams-schedule-fixtures/14d15276af582718867ca9a8",
+      "type": "news"
+    },
+    {
+      "url": "https://japannews.yomiuri.co.jp/sports/soccer/20251206-296831/",
+      "type": "news"
+    },
+    {
+      "url": "https://www.united-2026.com/groups/group-f-2026-standings-schedule",
+      "type": "news"
+    },
+    {
+      "url": "https://www.dazn.com/en-CA/news/soccer/fifa-world-cup-26-group-f-netherlands-japan-tunisia-sweden/pglisc8g83u813d63fic9tnjj",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12098/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://sportsxon.com/en/groups/f",
+      "type": "news"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12021/13543097/world-cup-2026-group-f-guide-fixtures-schedule-standings-and-odds-for-netherlands-japan-sweden-and-tunisia",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XufN1wp62r0",
+      "type": "social"
+    }
+  ],
+  "source_count": 60,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.74,
+        "draw": 0.17,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭整體戰力與深度明顯優於迦納，主場應可穩健取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭整體實力佔優，預計穩紮穩打拿下加納。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭實力明顯高於迦納，可望主導戰局輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.19,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭整體實力與板凳深度明顯優於迦納"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.22,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭整體實力與陣容深度佔優，預計能穩健控場並擊敗迦納。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.17,
+        "away": 0.11
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭實力遠勝迦納，主場穩勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "英格蘭實力明顯高出一截，控制戰局輕取勝利。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.727,
+      "draw": 0.17,
+      "away": 0.103
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-21T231534Z"
+}
