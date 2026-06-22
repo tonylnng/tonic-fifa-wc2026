@@ -1,0 +1,567 @@
+{
+  "match": 48,
+  "stage": "Group K",
+  "home": "Colombia",
+  "away": "DR Congo",
+  "kickoff_utc": "2026-06-24T02:00:00Z",
+  "kickoff_hkt": "2026-06-24 10:00",
+  "run_id": "2026-06-22T1100Z",
+  "run_timestamp": "2026-06-22T11:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.6,
+      "draw": 0.23,
+      "away": 0.17
+    },
+    "confidence": 0.68,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "哥倫比亞把握主動、順利出線",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.28,
+        "basis": "哥倫比亞控球壓制剛果，路易斯·迪亞斯或詹姆斯·羅德里格斯提前打開局面，防線維持零封，以6分提前確保晉級。"
+      },
+      {
+        "name": "雙方均取得進球，哥倫比亞險勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.32,
+        "basis": "哥倫比亞雖領先，但剛果藉韋薩或巴卡布的反擊插上扳回一球，最終哥倫比亞以一球優勢勝出，晉級至淘汰賽。"
+      },
+      {
+        "name": "剛果低塊防守逼和",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.18,
+        "basis": "剛果複製對葡萄牙的5-3-2低位防守策略，韋薩反擊得分，哥倫比亞無法攻破密集防線，最終平局。"
+      },
+      {
+        "name": "剛果爆冷逆轉",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.08,
+        "basis": "剛果利用哥倫比亞後衛線前插時留下的空間，韋薩與巴卡布連線，完成歷史性爆冷，形勢逆轉。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "WC2026 Predictor 超級電腦模型（tinjak.com，2萬次模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.64,
+          "draw": 0.23,
+          "away": 0.13
+        },
+        "scoreline": null,
+        "note": "2萬次模擬，哥倫比亞勝率64%，平局23%，剛果13%，與多數博彩盤口隱含機率一致。"
+      },
+      {
+        "source": "Opta 超級電腦（legit.ng 報導，更新後數據）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.583,
+          "draw": 0.207,
+          "away": 0.209
+        },
+        "scoreline": null,
+        "note": "Opta更新模型顯示哥倫比亞勝率58.3%，剛果20.9%，平局20.9%，屬較保守估算。"
+      },
+      {
+        "source": "博彩綜合盤口（BetMGM/DraftKings/FanDuel/bet365，2026年6月20日）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.625,
+          "draw": 0.225,
+          "away": 0.15
+        },
+        "scoreline": null,
+        "note": "哥倫比亞賠率約-200（隱含勝率~62-66%），平局約+310-333（~22-24%），剛果約+550-600（~14-15%）；去除水位後調整至總和100%。"
+      },
+      {
+        "source": "Kalshi 預測市場（2026年6月20日實時數據）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.66,
+          "draw": 0.23,
+          "away": 0.14
+        },
+        "scoreline": null,
+        "note": "Kalshi市場顯示哥倫比亞合約報價1.50，平局4.13，剛果6.74，交易量達32.2萬美元，市場共識清晰偏向哥倫比亞。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "哥倫比亞於第48場小組賽（K組第2輪）在墨西哥瓜達拉哈拉埃斯塔迪奧阿克隆迎戰剛果民主共和國。哥倫比亞以3分領跑K組（首輪3:1勝烏茲別克），剛果則在第一輪以1:1戰平葡萄牙取得歷史首分，目前排名第二（1分）。本場比賽攸關晉級：哥倫比亞若勝，可提前確保出線；剛果若勝，則反超至4分掌握命運，形勢逆轉。\n\n**哥倫比亞優勢：**\n主帥尼斯托爾·羅倫索麾下的哥倫比亞陣容星光熠熠，路易斯·迪亞斯（拜仁慕尼黑，本屆首輪進球）、詹姆斯·羅德里格斯（隊長，穿針引線）、丹尼爾·穆尼奧斯（右後衛，首輪進球）等均狀態在線，全隊無傷病困擾，信心充足。哥倫比亞世界排名第13，近期形勢良好（賽前6場：W-W-L-L-W-W），技術細膩，具備強大反擊能力。戰術上採用4-2-3-1或4-3-3，傑弗遜·勒爾瑪（Jefferson Lerma）坐鎮中場組織防守，中路穩固。首輪對烏茲別克後段有些被動，但最終在補時靠坎帕斯的頭球封殺，顯示了板凳深度。\n\n**剛果民主共和國情況：**\n主帥塞巴斯蒂安·德薩布雷（Sébastien Desabre）率隊以5-3-2低位防守策略令葡萄牙無計可施，韋薩（Yoane Wissa，紐卡斯爾，29歲）頭球均衡比分，創造歷史首分。剛果防線由尚塞爾·姆本巴（隊長，注意首輪已吃黃牌）、圖安澤貝、卡普阿迪組成三中衛；側翼馬蘇亞庫（助攻那球）與萬-比薩卡護衛。進攻端依賴韋薩和老將巴卡布（35歲，皇家貝蒂斯）的速度反擊，隊伍整體缺少對陣南美強隊的頂級比賽經驗（FIFA排名第56）。\n\n**戰術對位：**\n哥倫比亞的核心矛盾是如何破解剛果的5-3-2低塊。羅德里格斯需要在中前場找到空間出球，一旦被卡住，哥倫比亞的創造力將受限。剛果的反擊威脅主要來自韋薩的速度衝擊哥倫比亞後衛前插留下的空間。穆尼奧斯和莫西卡（Mojica）前插積極，背後存在空當。中場線的達維德·穆尼奧斯等球員需防範剛果的直接長傳反擊。\n\n**輿論共識：**\n各路評估高度一致：哥倫比亞是明顯熱門。RotoWire、Goal.com、Football Whispers、Sportskeeda、Racing Post、JuveFC、WorldCupLocalTime等多家媒體均預測2:1哥倫比亞勝。博彩盤口隱含勝率約62-66%，Kalshi預測市場66%，WC2026 Predictor超級電腦64%，Opta模型58.3%。部分分析師指出，剛果是難纏的對手，進球可能性較大（博彩雙方都進球市場接近50%），不會是輕鬆的比賽。剛果+1.0分盤具有一定價值，因剛果對葡萄牙時整場預期進球數（xG）甚至高於對手。",
+    "key_factors": [
+      "哥倫比亞以3分領跑K組，本場勝則可提前鎖定晉級資格，動力極強",
+      "路易斯·迪亞斯（Bayern Munich）首輪得分，速度與進攻威脅是哥倫比亞最大武器",
+      "詹姆斯·羅德里格斯作為隊長與10號核心，負責創造與節奏控制，是哥倫比亞中路靈魂",
+      "哥倫比亞全隊無傷病、無停賽，陣容整齊；剛果方面姆本巴首輪吃黃牌需謹慎",
+      "剛果在5-3-2低位防守體系下對葡萄牙的xG（0.87）甚至超過葡萄牙（0.65），防守效率極高",
+      "韋薩（Yoane Wissa）頭球能力強，反擊速度快，是剛果最大得分威脅",
+      "巴卡布（Cédric Bakambu，35歲）作為老將仍保持攻擊力，與韋薩組成有威脅的雙箭頭",
+      "剛果習慣低控球率（對葡萄牙僅25%），靠直接反擊創造機會，哥倫比亞後衛線前插時存在空間",
+      "大多數博彩盤口「進2.5球以下」的賠率為負值（-143至-160），市場預期低比分",
+      "本場對哥倫比亞而言等同主場（因場地在墨西哥，南美球迷眾多），心理優勢明顯",
+      "哥倫比亞首輪後段被迫防守，顯示面對組織低塊存在一定困難，需要耐心",
+      "剛果是52年來首次以DR Congo之名參加世界盃，心理無包袱，歷史首分已到手，敢打敢拼"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分分析師（如YouTube KOL FC26模擬中）認為剛果被低估，FC26電腦模擬甚至出現剛果2:0的結果，xG在模擬中兩隊相當（各1.9）。Action Network分析師Mike McNamara和Anthony Dabbundo建議押注剛果+1讓球，認為剛果有機會覆蓋讓球盤。另一YouTube評注頻道通過統計模型給出哥倫比亞勝率49%（接近平局機率），認為剛果實力被大幅低估。不過市場主流共識仍大幅偏向哥倫比亞。"
+  },
+  "sources": [
+    {
+      "url": "https://www.worldcup.org.uk/football/2026/groups/GroupK.shtml",
+      "type": "official_stats"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-7/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-k-standings-results-table-2026-portugal/7a4e10a194b91a6159878551",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/colombia-world-cup-2026-squad",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule-live-scores-group-stage-updates-and-how-to-watch-050724193.html",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.el-balad.com/17022335",
+      "type": "squad_news"
+    },
+    {
+      "url": "https://www.espn.com/espn/story/_/id/49101603/2026-fifa-world-cup-portugal-congo-dr-england-croatia-ghana-panama-uzbekistan-colombia",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-k-recaps-colombia-portugal-dr-congo-uzbekistan-highlights/",
+      "type": "match_recap"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/colombia-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n/?outputType=amp",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/18/uzbekistan-colombia-world-cup-2026-group-k-match-report",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/208/sort/yellowCards/dir/desc/col%C3%83%C6%92%C3%86%E2%80%99%C3%83%E2%80%9A%C3%86%E2%80%99%C3%83%C6%92%C3%A2%E2%82%AC%C5%A1%C3%83%E2%80%9A%C3%82%C2%B4mbia",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49095589/group-k-2026-world-cup-teams-records-stats-know-portugal-dr-congo-uzbekistan-colombia",
+      "type": "group_preview"
+    },
+    {
+      "url": "https://fwctimes.com/colombia/",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-18/bu88muv9e",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.foxsports.com/watch/fmc-o8nuenfio9lk6nzm",
+      "type": "highlights"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Template:Colombia_squad_2026_FIFA_World_Cup",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://www.sportingnews.com/ca/soccer/news/portugal-dr-congo-lineup-starting-11-world-cup-2026/e914f1fcc09c97367875a317",
+      "type": "lineup"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K",
+      "type": "official_stats"
+    },
+    {
+      "url": "https://footballmeister.com/world-cup-2026/portugal-congo-dr-2026-06-17/",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
+      "type": "match_report"
+    },
+    {
+      "url": "https://africasoccer.com/d-r-congo-at-the-world-cup-2026-squad-fixtures/",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://www.101greatgoals.com/match-previews/world-cup-matches/portugal-v-dr-congo-world-cup-2026-cristiano-ronaldo-line-ups-stats-tv-channel-live-online-stream/",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.newindianexpress.com/live/2026/Jun/17/live-fifa-world-cup-2026-day-7-dr-congo-stun-portugals-winning-hopes",
+      "type": "match_report"
+    },
+    {
+      "url": "https://heavy.com/sports/soccer/world-cup/fifa-world-cup-2026-portugal-vs-dr-congo-injury-news/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.nbcsports.com/soccer/live/portugal-vs-dr-congo-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-17",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.skysports.com/football/portugal-vs-dr-congo/report/549786",
+      "type": "match_report"
+    },
+    {
+      "url": "https://heavy.com/sports/soccer/world-cup/dr-congo-world-cup-players-club-teams/",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Template:DR_Congo_squad_2026_FIFA_World_Cup",
+      "type": "squad_list"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/dr-congo-men-team-standings",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.inkl.com/news/colombia-vs-dr-congo-world-cup-2026-predictions-and-picks",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49135872/fifa-world-cup-2026-colombia-vs-congo-dr-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/20/colombia-v-dr-congo-predictions/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://worldcuplocaltime.com/match/colombia-congo-dr-2026-06-24/",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/colombia-vs-dr-congo-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-119191",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/colombia-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aJpLK9k1G604/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/colombia-dr-congo-5071-14650-5930",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/colombia-vs-dr-congo-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4jntB7t1YTk",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/dr-congo-colombia/287937",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-col-cdr-2026-06-23",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PtPvYsWZurM",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/colombia-vs-congo-predictions-picks-190100003.html",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/colombia-vs-dr-congo-prediction-093500942.html",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715478-supercomputer-predicts-african-team-qualify-2026-world-cup-knockout-stage/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/6/17/world-cup-predictions-portugal-vs-dr-congo-england-vs-croatia-and-more",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://wc26.tinjak.com",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-k-preview-odds-predictions/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715188-supercomputer-predicts-world-cup-winner-round/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.juvefc.com/colombia-v-dr-congo-predictions/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/colombia-vs-dr-congo-prediction-betting-tips-june-23rd-2026",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/colombia-vs-congo-dr/",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://worldcupforecast.com/colombia-vs-congo-dr-24-06-2026",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/colombia-dr-congo-world-cup-preview/blt2f05808271536e66",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59552-Colombia-vs-DR-Congo.htm",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://kalshi.com/teams/soccer-team/congo-dr",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://kalshi.com/category/sports/soccer/world-soccer-cup/soccer-cup/games",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.thelines.com/odds/world-cup/group-k/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t204AMb5iMk",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ysuSqc1T5Og",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t5jJPE1e6EU",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-k-colombia-vs-dr-congo-6-23-26-%E2%80%93-tuesday-%E2%80%93-10-pm-est.2139030/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u8w3on/fotmob_luis_d%C3%ADaz_is_the_second_colombian_since/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.espn.com.au/football/story/_/id/49135872/fifa-world-cup-2026-colombia-vs-congo-dr-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://onthepitch.now/countries/cod/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/colombia-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://worldsoccertalk.com/amp/world-cup/dr-congo-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/rodriguez-handed-no-10-role-predicted-colombia-xi-vs-congo-dr_599768.html",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1wEgMF-bvWw",
+      "type": "youtube_kol"
+    },
+    {
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-k-tv-schedule-and-primer-colombia-dr-congo-portugal-uzbekistan/",
+      "type": "group_preview"
+    },
+    {
+      "url": "https://covers.com/world-cup/colombia-vs-congo-prediction-picks-odds-tuesday-6-23-2026",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/colombia-vs-dr-congo-prediction-24-06-2026/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.toffeeweb.com/colombia-vs-congo-dr-predictions-picks-odds-24-06-2026/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://www.gmanetwork.com/news/sports/football/992278/2026-fifa-world-cup-updates-and-results-june-22-2026/story/?amp",
+      "type": "official_stats"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZuL_Z8CMCw/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZtotAMvlR9/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/uzbekistan-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-118365",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.latimes.com/sports/soccer/story/2026-06-21/world-cup-guide-full-tv-schedule-scores-standings-previews",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-k-standings-results-and-who-can-qualify-f202606-n/",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.tuko.co.ke/sports/football/629891-supercomputer-predicts-win-2026-fifa-world-cup-spain-brazil-struggle/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://ua.news/en/sport/superkompiuter-opta-zminiv-favorita-chempionatu-svitu-z-futbolu",
+      "type": "model_prediction"
+    }
+  ],
+  "source_count": 81,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "哥倫比亞主場戰力明顯優於剛果，應能順利取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "哥倫比亞實力佔優，整體戰術成熟，有望穩穩拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "哥倫比亞實力佔優，預計掌控節奏取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.63,
+        "draw": 0.23,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "哥倫比亞攻守較全面，主場優勢明顯看好取勝"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "哥倫比亞實力與經驗佔絕對優勢，預計能穩健掌控局勢並取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "哥倫比亞實力占優，預計主場取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "哥倫比亞實力占優，剛果難以招架，主隊穩勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.637,
+      "draw": 0.218,
+      "away": 0.146
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-22T112234Z"
+}

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-21T23:17:36Z",
+  "last_updated": "2026-06-22T11:21:12Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1577,6 +1577,33 @@
       "sources": []
     },
     {
+      "id": "CPV-varela",
+      "name_en": "Hélio Oliveira Alves Varela",
+      "name_zh": "埃利奧·瓦雷拉",
+      "team": "Cape Verde",
+      "team_zh": "佛得角",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          39
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
       "id": "CPV-cabral",
       "name_en": "Jovane Cabral",
       "name_zh": "祖雲·卡巴爾",
@@ -1590,11 +1617,18 @@
       "bio_zh": "曾效力體育里斯本的攻擊中場，突破能力強，是佛得角中前場的重要攻擊點，提供大量傳送及入球威脅。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          39
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
     },
     {
       "id": "CPV-monteiro",
@@ -1615,6 +1649,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "CPV-pina",
+      "name_en": "Kevin Gonçalves Pereira de Pina",
+      "name_zh": "凱文·皮納",
+      "team": "Cape Verde",
+      "team_zh": "佛得角",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          39
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
     },
     {
       "id": "CPV-sidnycabral",
@@ -1661,6 +1722,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "CPV-diney",
+      "name_en": "Diney",
+      "name_zh": "迪內伊",
+      "team": "Cape Verde",
+      "team_zh": "佛得角",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          39
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
     },
     {
       "id": "CPV-vozinha",
@@ -2764,12 +2852,20 @@
       "is_key": true,
       "bio_zh": "速度型邊鋒，以法國球星命名，擅長突破邊路製造機會，是埃及重要攻擊手，具有強烈的個人突破能力。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          40
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
+      ]
     },
     {
       "id": "EGY-salah",
@@ -2784,12 +2880,20 @@
       "is_key": true,
       "bio_zh": "埃及隊長，利物浦傳奇射手，速度與入球能力兼備，是非洲足球最具代表性的球星，影響力無遠弗屆。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          40
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
+      ]
     },
     {
       "id": "EGY-marmoush",
@@ -2887,6 +2991,62 @@
         "https://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium",
         "https://www.skysports.com/football/belgium-vs-egypt/report/549778",
         "https://www.mykhel.com/football/fifa-world-cup-2026-belgium-vs-egypt-match-center-102315/"
+      ]
+    },
+    {
+      "id": "EGY-lasheen",
+      "name_en": "Mohanad Lasheen",
+      "name_zh": "穆罕納德·拉希恩",
+      "team": "Egypt",
+      "team_zh": "埃及",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          40
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
+      ]
+    },
+    {
+      "id": "EGY-zico",
+      "name_en": "Mostafa Mohamed Zaky Abdelraouf",
+      "name_zh": "穆斯塔法·齊科",
+      "team": "Egypt",
+      "team_zh": "埃及",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          40
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
       ]
     },
     {
@@ -5325,6 +5485,62 @@
       "sources": []
     },
     {
+      "id": "NZL-mccowatt",
+      "name_en": "Callum McCowatt",
+      "name_zh": "卡勒姆·麥科瓦特",
+      "team": "New Zealand",
+      "team_zh": "紐西蘭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          40
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
+      ]
+    },
+    {
+      "id": "NZL-singh",
+      "name_en": "Sarpreet Singh",
+      "name_zh": "薩普里特·辛格",
+      "team": "New Zealand",
+      "team_zh": "紐西蘭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          40
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
+      ]
+    },
+    {
       "id": "NZL-bindon",
       "name_en": "Tyler Bindon",
       "name_zh": "賓頓",
@@ -5363,6 +5579,34 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "NZL-surman",
+      "name_en": "Finn Surman",
+      "name_zh": "芬恩·薩曼",
+      "team": "New Zealand",
+      "team_zh": "紐西蘭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          40
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand",
+        "https://www.skysports.com/football/new-zealand-vs-egypt/stats/549803",
+        "https://english.ahram.org.eg/NewsContentP/66/571264/World-Cup-/LIVE-Egypt--vs-New-Zealand--World-Cup-.aspx",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-new-zealand-4673-vs-egypt-32-live-score-1489396",
+        "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-22/mbafvivao"
+      ]
     },
     {
       "id": "NZL-crocombe",
@@ -8607,6 +8851,33 @@
       "sources": []
     },
     {
+      "id": "URU-canobbio",
+      "name_en": "Agustín Canobbio",
+      "name_zh": "阿古斯廷·卡諾比奧",
+      "team": "Uruguay",
+      "team_zh": "烏拉圭",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          39
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
       "id": "URU-ugarte",
       "name_en": "Manuel Ugarte",
       "name_zh": "馬奴·烏加爾特",
@@ -8673,6 +8944,33 @@
       ]
     },
     {
+      "id": "URU-bentancur",
+      "name_en": "Rodrigo Bentancur",
+      "name_zh": "羅德里戈·本坦庫爾",
+      "team": "Uruguay",
+      "team_zh": "烏拉圭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          39
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
       "id": "URU-gimenez",
       "name_en": "José María Giménez",
       "name_zh": "希美尼斯",
@@ -8705,12 +9003,46 @@
       "is_key": true,
       "bio_zh": "巴塞羅那中後衛，身體素質出色，對抗力強，是烏拉圭後防最穩固的屏障之一，大賽表現尤其出色。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          39
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
+      "id": "URU-olivera",
+      "name_en": "Mathías Olivera",
+      "name_zh": "馬蒂亞斯·奧利韋拉",
+      "team": "Uruguay",
+      "team_zh": "烏拉圭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          39
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
+        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
+        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
     },
     {
       "id": "URU-rochet",

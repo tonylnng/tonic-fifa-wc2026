@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-17T09:30:29Z",
+  "last_updated": "2026-06-22T11:21:07Z",
   "results": [
     {
       "match": 1,
@@ -534,6 +534,34 @@
       "outcome": "draw",
       "recorded_at": "2026-06-21T23:00:00Z",
       "source": "https://www.espn.com/soccer/report/_/gameId/760451"
+    },
+    {
+      "match": 39,
+      "stage": "Group H",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "scoreline": "2:2",
+      "outcome": "draw",
+      "recorded_at": "2026-06-22T11:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay"
+    },
+    {
+      "match": 40,
+      "stage": "Group G",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "scoreline": "1:3",
+      "outcome": "away",
+      "recorded_at": "2026-06-22T11:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand"
     }
   ]
 }

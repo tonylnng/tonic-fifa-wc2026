@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T23:17:36Z",
+  "last_updated": "2026-06-22T11:21:12Z",
   "scorers": [
     {
       "id": "GER-undav",
@@ -266,6 +266,18 @@
       "red_cards": 0
     },
     {
+      "id": "URU-canobbio",
+      "name_zh": "阿古斯廷·卡諾比奧",
+      "name_en": "Agustín Canobbio",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "USA-freeman",
       "name_zh": "亞歷克斯·弗里曼",
       "name_en": "Alex Freeman",
@@ -422,6 +434,18 @@
       "red_cards": 0
     },
     {
+      "id": "NZL-surman",
+      "name_zh": "芬恩·薩曼",
+      "name_en": "Finn Surman",
+      "team_zh": "紐西蘭",
+      "team": "New Zealand",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "USA-reyna",
       "name_zh": "喬瓦尼·雷納",
       "name_en": "Giovanni Reyna",
@@ -464,6 +488,18 @@
       "team_zh": "南韓",
       "team": "South Korea",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CPV-varela",
+      "name_zh": "埃利奧·瓦雷拉",
+      "name_en": "Hélio Oliveira Alves Varela",
+      "team_zh": "佛得角",
+      "team": "Cape Verde",
+      "position": "FW",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -559,6 +595,18 @@
       "name_en": "Keito Nakamura",
       "team_zh": "日本",
       "team": "Japan",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CPV-pina",
+      "name_zh": "凱文·皮納",
+      "name_en": "Kevin Gonçalves Pereira de Pina",
+      "team_zh": "佛得角",
+      "team": "Cape Verde",
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
@@ -686,6 +734,18 @@
       "red_cards": 0
     },
     {
+      "id": "EGY-salah",
+      "name_zh": "薩拿",
+      "name_en": "Mohamed Salah",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "IRN-mohebi",
       "name_zh": "穆赫比",
       "name_en": "Mohammad Mohebi",
@@ -693,6 +753,18 @@
       "team": "Iran",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-zico",
+      "name_zh": "穆斯塔法·齊科",
+      "name_en": "Mostafa Mohamed Zaky Abdelraouf",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -818,6 +890,18 @@
       "red_cards": 0
     },
     {
+      "id": "URU-araujo",
+      "name_zh": "朗拿度·阿勞荷",
+      "name_en": "Ronald Araújo",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "DF",
+      "shirt_no": 4,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "SUI-vargas",
       "name_zh": "魯本·巴加斯",
       "name_en": "Rubén Vargas",
@@ -825,6 +909,18 @@
       "team": "Switzerland",
       "position": "FW",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-trezeguet",
+      "name_zh": "特雷澤蓋",
+      "name_en": "Trezeguet",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1228,6 +1324,18 @@
       "red_cards": 0
     },
     {
+      "id": "NZL-mccowatt",
+      "name_zh": "卡勒姆·麥科瓦特",
+      "name_en": "Callum McCowatt",
+      "team_zh": "紐西蘭",
+      "team": "New Zealand",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "HAI-arcus",
       "name_zh": "卡爾倫斯·阿庫斯",
       "name_en": "Carlens Arcus",
@@ -1331,6 +1439,18 @@
       "team": "Paraguay",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CPV-diney",
+      "name_zh": "迪內伊",
+      "name_en": "Diney",
+      "team_zh": "佛得角",
+      "team": "Cape Verde",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1612,6 +1732,18 @@
       "red_cards": 0
     },
     {
+      "id": "CPV-cabral",
+      "name_zh": "祖雲·卡巴爾",
+      "name_en": "Jovane Cabral",
+      "team_zh": "佛得角",
+      "team": "Cape Verde",
+      "position": "MF",
+      "shirt_no": 7,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-lukic",
       "name_zh": "約沃·盧基奇",
       "name_en": "Jovo Lukić",
@@ -1816,6 +1948,18 @@
       "red_cards": 0
     },
     {
+      "id": "URU-olivera",
+      "name_zh": "馬蒂亞斯·奧利韋拉",
+      "name_en": "Mathías Olivera",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "PAR-galarza",
       "name_zh": "馬蒂亞斯·加拉爾薩",
       "name_en": "Matías Galarza",
@@ -1871,6 +2015,18 @@
       "team": "Saudi Arabia",
       "position": "MF",
       "shirt_no": 23,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-lasheen",
+      "name_zh": "穆罕納德·拉希恩",
+      "name_en": "Mohanad Lasheen",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1960,6 +2116,18 @@
       "red_cards": 0
     },
     {
+      "id": "URU-bentancur",
+      "name_zh": "羅德里戈·本坦庫爾",
+      "name_en": "Rodrigo Bentancur",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BRA-ibanez",
       "name_zh": "羅傑·伊巴涅斯",
       "name_en": "Roger Ibáñez",
@@ -2003,6 +2171,18 @@
       "team": "Saudi Arabia",
       "position": "MF",
       "shirt_no": 10,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "NZL-singh",
+      "name_zh": "薩普里特·辛格",
+      "name_en": "Sarpreet Singh",
+      "team_zh": "紐西蘭",
+      "team": "New Zealand",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2129,9 +2309,9 @@
     }
   ],
   "totals": {
-    "players": 390,
-    "goals": 105,
-    "yellow_cards": 90,
+    "players": 401,
+    "goals": 113,
+    "yellow_cards": 97,
     "red_cards": 8
   }
 }
