@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-06-22T11:21:12Z",
+  "last_updated": "2026-06-22T23:16:33Z",
   "scorers": [
+    {
+      "id": "ARG-messi",
+      "name_zh": "美斯",
+      "name_en": "Lionel Messi",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 5,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "GER-undav",
       "name_zh": "德尼茲·溫達夫",
@@ -19,18 +31,6 @@
       "name_en": "Jonathan David",
       "team_zh": "加拿大",
       "team": "Canada",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 3,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "ARG-messi",
-      "name_zh": "美斯",
-      "name_en": "Lionel Messi",
-      "team_zh": "阿根廷",
-      "team": "Argentina",
       "position": "FW",
       "shirt_no": 10,
       "goals": 3,
@@ -1516,6 +1516,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-medina",
+      "name_zh": "梅迪納",
+      "name_en": "Facundo Medina",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SCO-curtis",
       "name_zh": "芬德萊·柯蒂斯",
       "name_en": "Findlay Curtis",
@@ -1816,6 +1828,18 @@
       "red_cards": 0
     },
     {
+      "id": "AUT-laimer",
+      "name_zh": "雷馬",
+      "name_en": "Konrad Laimer",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "MF",
+      "shirt_no": 20,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CZE-krejci",
       "name_zh": "克雷基",
       "name_en": "Ladislav Krejčí",
@@ -1833,6 +1857,18 @@
       "name_en": "Leandro Bacuna",
       "team_zh": "古拉索",
       "team": "Curacao",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-paredes",
+      "name_zh": "帕雷德斯",
+      "name_en": "Leandro Paredes",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
       "position": "MF",
       "shirt_no": null,
       "goals": 0,
@@ -2212,6 +2248,18 @@
       "red_cards": 0
     },
     {
+      "id": "AUT-posch",
+      "name_zh": "波什",
+      "name_en": "Stefan Posch",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "RSA-mbatha",
       "name_zh": "塔蘭特·姆巴薩",
       "name_en": "Thalente Mbatha",
@@ -2309,9 +2357,9 @@
     }
   ],
   "totals": {
-    "players": 401,
-    "goals": 113,
-    "yellow_cards": 97,
+    "players": 404,
+    "goals": 115,
+    "yellow_cards": 101,
     "red_cards": 8
   }
 }

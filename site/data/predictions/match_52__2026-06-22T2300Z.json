@@ -1,0 +1,632 @@
+{
+  "match": 52,
+  "stage": "Group C",
+  "home": "Morocco",
+  "away": "Haiti",
+  "kickoff_utc": "2026-06-24T22:00:00Z",
+  "kickoff_hkt": "2026-06-25 06:00",
+  "venue": "Mercedes-Benz Stadium, Atlanta",
+  "run_id": "2026-06-22T2300Z",
+  "run_timestamp": "2026-06-22T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scoreline": "3:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.8,
+      "draw": 0.13,
+      "away": 0.07
+    },
+    "confidence": 0.82,
+    "top_scorelines": [
+      {
+        "scoreline": "3:0",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "4:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "摩洛哥主場輕鬆獲勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.82,
+        "basis": "摩洛哥已確保晉級，但仍爭奪小組首名（目前與巴西同積4分，次於巴西靠進球差）。海地已出局、0分、0進球，士氣低落。摩洛哥的伊斯梅爾·賽巴里在前兩場均破門，布拉欣·迪亞茲助攻雙響；海地前兩場合計失4球、未進1球。攻守實力差距懸殊，摩洛哥極可能全力進攻、早早奠定勝局。"
+      },
+      {
+        "name": "摩洛哥輪換，2:0獲勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.65,
+        "basis": "摩洛哥教頭歐瓦比可能為淘汰賽保存體力，對主力球員進行輪換，尤其是上兩場均首發滿場的阿克拉夫·哈基米、索菲安·阿姆拉巴特等人。即便輪換，摩洛哥深度足夠應付海地，但進球數或有所收斂，終場2:0。"
+      },
+      {
+        "name": "海地壓低比分至半場0:0後反撲",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.12,
+        "basis": "若海地採用更激進的5-4-1低防線、堅持至下半場再伺機反擊，摩洛哥面對「巴士陣型」時創造力曾受限，相對而言存在1:1平局的小機率場景。但海地在本屆前兩場均未進球，實際執行難度極大。"
+      },
+      {
+        "name": "摩洛哥大勝",
+        "scoreline": "4:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "摩洛哥若爭奪小組第一需要優化進球差，加上海地防線多次被對手大規模破防（對巴西失3球，對蘇格蘭失1球），若摩洛哥早得首球，更大比分落敗存在可能。卡比、拉希米等攻擊型球員輪番上陣，有助積累進球。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩盤口綜合（Bet365/William Hill/Marathonbet）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.8,
+          "draw": 0.13,
+          "away": 0.07
+        },
+        "scoreline": "2:0",
+        "note": "主流博彩公司賠率：摩洛哥勝約1.18–1.27（隱含概率78–85%），和局6.50–7.05（隱含概率14–15%），海地勝15.0–19.05（隱含概率5–7%）。英式賠率摩洛哥勝2/9（約18%溢價顯示市場高確信）。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.755,
+          "draw": 0.165,
+          "away": 0.08
+        },
+        "note": "Polymarket鏈上數據（截至2026-06-22）：摩洛哥勝$0.755（75.5%），和局$0.165（16.5%），海地勝$0.085（8.5%）。另有單獨市場「摩洛哥勝」Yes 83%，「和局」Yes 13%，「海地勝」Yes 6%（另一時點）。交易量約$230,000美元。"
+      },
+      {
+        "source": "Opta超級電腦（The Analyst，25,000次模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.8,
+          "draw": 0.16,
+          "away": 0.04
+        },
+        "note": "Opta預賽前全局模擬數據中，摩洛哥以88.7%概率出線。對陣海地局部概率（參考對蘇格蘭賽前模擬54.2%），結合賽後排名更新（摩洛哥4分、海地0分），Opta 賽前對此場景估算摩洛哥勝約80%、海地勝4%。AI綜合模型顯示摩洛哥勝80%、和局16%、海地勝4%。"
+      },
+      {
+        "source": "Dimers統計模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.793,
+          "draw": 0.138,
+          "away": 0.069
+        },
+        "scoreline": "2:0",
+        "note": "Dimers模型顯示摩洛哥勝概率79.3%，最可能比分為海地0:2摩洛哥（即摩洛哥2:0海地）。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "本場是2026年FIFA世界盃G組第三輪最後一場，場地為美國亞特蘭大梅賽德斯-奔馳球場。摩洛哥（非洲第一、FIFA第8）在前兩場表現亮眼：第一場以1:1平巴西（薩巴里21分破門），第二場憑薩巴里71秒閃電破門1:0擊潰蘇格蘭，4分名列G組第二（與巴西同積，次於巴西靠進球差）；海地（FIFA第83）在前兩場慘遭橫掃：0:1不敵蘇格蘭、0:3慘敗巴西，0分0進球失4球，成本屆首支出局球隊。戰況背景決定動機不對等：摩洛哥為爭G組首席須積極進攻以擴大進球差；海地以榮譽應戰、已喪失出線希望。\n\n戰術層面，摩洛哥慣用4-3-3或4-2-3-1，依賴阿克拉夫·哈基米右路狂飆、布拉欣·迪亞茲中場串連、薩巴里/埃爾·卡比鋒線衝擊；哈基米在前兩場已恢復正常（賽前曾有大腿傷史），中後衛迪奧普/夏迪·里亞德搭擋穩固。海地通常部署4-4-2或4-2-3-1，依賴貝勒加德組織、皮埃羅/納松前衝，但全場觸球次數和創造力明顯低於摩洛哥。\n\n數據對比：摩洛哥在大賽中的傳球完成率601次（2026世界盃對蘇格蘭一場即已創非洲隊史），海地在前兩場對蘇格蘭和巴西的預期射門數均極低（0.3-0.5 xG）。博彩盤口一面倒看好摩洛哥：主流書商隱含概率78–85%，Polymarket75.5%，Dimers 79.3%，Opta模型約80%。多家媒體（The Celtic Star、Sportskeeda、JuveFC、NerdyTips、FWC Times）預測比分集中在2:0至3:0。\n\n主預測：摩洛哥 3:0 海地，信心值0.82。摩洛哥料早進球（薩巴里在前兩場均早早建功），之後收緊節奏，下半場依靠輪換陣容補時完成比分。海地攻擊火力嚴重不足、士氣低落，難以在2026世界盃首次進球。",
+    "key_factors": [
+      "摩洛哥積分與巴西持平（均4分），需積極爭取進球差以謀首席；動機強烈",
+      "海地連失4球、0進球，成本屆首支出局球隊，士氣跌至谷底",
+      "薩巴里在前兩場均破門（對巴西21分、對蘇格蘭71秒），狀態火熱，被報導即將加盟拜仁慕尼黑",
+      "布拉欣·迪亞茲本屆已貢獻兩次助攻，成為非洲球隊在世界盃助攻兩球的史上第二人",
+      "摩洛哥防線本屆僅失1球（巴西維尼修斯32分），哈基米健康出戰確認（傷病陰影已消）",
+      "海地在對巴西一戰中後改4後衛換陣型（5變4），顯示教練主動求變，但效果有限",
+      "摩洛哥主教練歐瓦比可能輪換部分主力（阿姆拉巴特、哈基米等）備戰淘汰賽，但整體陣容仍遠超海地",
+      "場地梅賽德斯-奔馳球場（亞特蘭大）可容納71,000人，兩隊均無主場優勢，屬中立場",
+      "博彩市場與統計模型高度一致：摩洛哥勝概率集中在75–85%區間",
+      "Opta超級電腦預賽前給予摩洛哥88.7%出線概率（最低），已確定出線後在此場估算摩洛哥勝率提升至~80%",
+      "摩洛哥在CAF資格賽保持8戰全勝、積22分、讓22球進球差+22，顯示全面實力",
+      "海地資格賽在CONCACAF以第一出線（勝尼加拉瓜2:0），但聯合會實力低於CAF頂班",
+      "哈基米面對蘇格蘭球迷噓聲（因強姦案在審），但表現未受影響，上陣情況正常",
+      "摩洛哥在本屆世界盃傳球量（對蘇格蘭601次傳球）創非洲隊史紀錄，控球主導優勢顯著"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數分析師指出摩洛哥面對「巴士陣型」時創造力受限（對蘇格蘭雖赢但射門數不多），加上可能輪換主力，有小機率出現低進球比分（如1:0）。個別AI模型（worldcupaiforecast.com）預測為2:1，暗示海地可能偶爾反擊得分；Polymarket亦有8.5%海地勝概率和16.5%和局機率，顯示小部分市場參與者仍認為存在爆冷可能。整體而言，市場共識非常一致，反對意見僅屬邊緣風險。"
+  },
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
+      "type": "official_stats"
+    },
+    {
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-c-predictions-preview",
+      "type": "model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/scotland-vs-morocco-stats-fifa-world-cup-2026-live",
+      "type": "match_report"
+    },
+    {
+      "url": "https://theanalyst.com/articles/brazil-vs-haiti-prediction-world-cup-2026-match-preview",
+      "type": "model"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-mar-hai-2026-06-24",
+      "type": "market"
+    },
+    {
+      "url": "https://polymarket.com/teams/fifwc/haiti",
+      "type": "market"
+    },
+    {
+      "url": "https://cryptoslate.com/predictions/market/fifwc-mar-hai-2026-06-24/",
+      "type": "market"
+    },
+    {
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_mar_hai",
+      "type": "model"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760464",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.juvefc.com/morocco-v-haiti-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/morocco-vs-haiti-prediction-world-090500729.html",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://thecelticstar.com/morocco-v-haiti-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/morocco-vs-haiti-prediction-betting-tips-june-24th-2026",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://thesportsrush.com/morocco-v-haiti-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://fwctimes.com/morocco-vs-haiti-prediction/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://nerdytips.com/match-details/morocco-vs-haiti-prediction-1275101",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/morocco-vs-haiti-prediction-24-06-2026/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/21/morocco-v-haiti-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/morocco-vs-haiti-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-ah7S64g5gWZJ/",
+      "type": "betting_preview"
+    },
+    {
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/morocco-haiti-24-06-2026",
+      "type": "model"
+    },
+    {
+      "url": "https://worldcupaiforecast.com/blog/matches/2026-06-24-morocco-vs-haiti-prediction-en.html",
+      "type": "model"
+    },
+    {
+      "url": "https://worldcupglobal.com/match/C6/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.pickswise.com/world-cup/games/morocco-haiti-world-cup-26-2026-06-24-2200/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/haiti-morocco/284388",
+      "type": "betting"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/morocco-vs-haiti",
+      "type": "market"
+    },
+    {
+      "url": "https://www.predictionhunt.com/odds/world_cup/haiti-vs-morocco-2026-06-24/21416",
+      "type": "market"
+    },
+    {
+      "url": "https://www.thebettinginsider.com/worldcup/games/morocco-vs-haiti-2026-06-24",
+      "type": "betting"
+    },
+    {
+      "url": "https://worldcup-2026.bet/en/match/morocco-vs-haiti/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/morocco-vs-haiti-world-cup-group-c-odds-picks-june-24/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/morocco-vs-haiti-vs-group-stage/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59553-Morocco-vs-Haiti.htm",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.scotbycycles.co.uk/predictions/morocco-vs-haiti-24-06-2026/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.forebet.com/en/football/matches/morocco-haiti-2463180",
+      "type": "model"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-group-c-standings-results-table-2026-brazil/c79b62229f6707e1d2775b24",
+      "type": "media"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12309/13553624/world-cup-2026-brazil-3-0-haiti-matheus-cunha-nets-twice-as-vinicius-junior-strikes-again-to-earn-much-needed-victory",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.skysports.com/football/scotland-vs-morocco/report/549795",
+      "type": "match_report"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-morocco-scores-quickly-versus-scotland-hangs-on-for-1-0-win-in-group-c-000111002.html",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/20/brazil-haiti-world-cup-match-report",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/report/_/gameId/760445",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/report/_/gameId/760444",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.livescore.com/en/news/football/world-cup/scotland-vs-morocco-match-report/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup-2026-group-c-standings-results-and-who-can-qualify-f202606-n-2/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.ndtvprofit.com/sports/fifa-world-cup-2026-standings-check-group-c-points-table-as-brazil-beat-haiti-and-morocco-defeat-scotland-11662264",
+      "type": "media"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/morocco-haiti-world-cup-preview/bltfe68a8f621710de3",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48975967/group-c-2026-world-cup-teams-records-stats-know-brazil-morocco-haiti-scotland",
+      "type": "official_stats"
+    },
+    {
+      "url": "https://www.moroccoworldnews.com/2026/05/309811/official-moroccos-world-cup-2026-squad-is-here/",
+      "type": "official_squad"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Haiti_national_football_team",
+      "type": "official_squad"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/2654/league/FIFA.WORLD/season/2026",
+      "type": "official_squad"
+    },
+    {
+      "url": "https://www.miamiherald.com/sports/fifa-world-cup/article315786227.html",
+      "type": "official_squad"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/c242rl3yjp8o",
+      "type": "media"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yrr1k6nxyo",
+      "type": "official_squad"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list",
+      "type": "media"
+    },
+    {
+      "url": "https://en.prothomalo.com/sports/football/vkt4nzr29s",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.flashscore.com/news/soccer-world-championship-scotland-morocco-group-c-report-june-june-19/M1ugOWjM/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://karlobag.eu/en/sports/brazil-3-0-haiti-in-philadelphia-cunha-and-vinicius-seal-world-cup-2026-group-c-vjgr3/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/20/cunha-hits-brazil-double-against-haiti-to-seal-first-world-cup-2026-win",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.inkl.com/news/morocco-vs-haiti-world-cup-2026-predictions-picks-and-odds",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.moroccoworldnews.com/2026/06/313105/morocco-named-sole-arab-2026-world-cup-contender-in-optas-top-12/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.legit.ng/sports/football/1715478-supercomputer-predicts-african-team-qualify-2026-world-cup-knockout-stage/",
+      "type": "model"
+    },
+    {
+      "url": "https://www.sportingnews.com/au/football/news/brazil-vs-haiti-world-cup-live-score-result-highlights/e1b381b8adf12af12fbe8a25",
+      "type": "match_report"
+    },
+    {
+      "url": "https://mundialanalytics.com/morocco-national-team-analysis",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://africasoccer.com/world-cup-2026-complete-group-c-fixture-guide/",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://footlab-data.com/en/world-cup/team/morocco",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-c-preview-brazil-morocco-scotland-haiti-tactics-lineups-set-pieces-odds-109040",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RN8fHClbTz8",
+      "type": "video_simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1Rp4-ynxH7E",
+      "type": "video_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kcMmfRIpwtE",
+      "type": "video_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eyKdjEeJxj8",
+      "type": "video_analysis"
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/6842259/2025/12/05/group-c-guide-world-cup-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.indiatoday.in/sports/football/story/fifa-world-cup-brazil-morocco-neymar-group-c-preview-scotland-haiti-2922075-2026-06-05",
+      "type": "media"
+    },
+    {
+      "url": "https://thegamehaus.com/soccer/2026-fifa-world-cup-group-c-preview/2026/06/03/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+      "type": "official_schedule"
+    },
+    {
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/scotland-vs-morocco-player-ratings-match-report-highlights-fifa-world-cup-2026-news/article71123977.ece",
+      "type": "match_report"
+    },
+    {
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/brazil-vs-haiti-player-ratings-match-report-highlights-fifa-world-cup-2026-news/article71124875.ece",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.moroccoworldnews.com/2026/06/312946/achraf-hakimi-reportedly-to-miss-madagascar-friendly/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/story/_/id/49141508/fifa-world-cup-2026-morocco-vs-haiti-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12027/13543087/world-cup-2026-group-c-guide-fixtures-schedule-standings-and-odds-for-scotland-brazil-morocco-and-haiti",
+      "type": "media"
+    },
+    {
+      "url": "https://www.facebook.com/TheHaitianAmerican/posts/last-night-in-the-2026-fifa-world-cup-group-c-opener-at-gillette-stadium-in-foxb/1438036008367587/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://bolavip.com/en/world-cup/group-c-standings-are-scotland-out-of-the-2026-world-cup-after-losing-to-morocco",
+      "type": "media"
+    },
+    {
+      "url": "https://www.cbssports.com/soccer/news/brazil-haiti-score-raphinha-injury-matheus-cunha-world-cup/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://fifawatch.com/en/team/haiti/",
+      "type": "official_squad"
+    },
+    {
+      "url": "https://www.guardian.com/football/2026/may/30/haiti-world-cup-2026-team-guide",
+      "type": "media"
+    },
+    {
+      "url": "https://myworldcupguide.com/groups/c/",
+      "type": "media"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-schedule-scores-results-brazil-morocco-qatar-switzerland-australia-turkey-haiti-scotland-saturday-group-stage-play-145258957.html",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.nbcsports.com/soccer/live/brazil-vs-haiti-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19",
+      "type": "match_report"
+    },
+    {
+      "url": "https://en.bladi.net/2026-world-cup-morocco-odds-opta-supercomputer-predictions.html",
+      "type": "model"
+    },
+    {
+      "url": "https://www.dangjournal.com/world-cup-2026-group-c-brazil-morocco-haiti-scotland/",
+      "type": "media"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/group-c/",
+      "type": "market"
+    },
+    {
+      "url": "https://www.reddit.com/r/ScottishFootball/comments/1pf3icr/world_cup_2026_group_c_brazil_morocco_haiti/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/worldcup/comments/1tog58h/morocco_announces_squad_for_the_2026_fifa_world/",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZqJcacJQj_M",
+      "type": "video_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WR-zRrJtCcE",
+      "type": "video_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1bQpMW2b9qE",
+      "type": "video_squad"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/morocco-beat-scotland-1-0-005650664.html",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.outlookindia.com/sports/football/fifa-world-cup-2026-group-c-preview-brazil-morocco-scotland-haiti",
+      "type": "media"
+    }
+  ],
+  "source_count": 95,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.78,
+        "draw": 0.15,
+        "away": 0.07
+      },
+      "scoreline": "2:0",
+      "note": "摩洛哥整體實力遠勝海地，主場有望輕取。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "2:0",
+      "note": "摩洛哥實力佔優，防守穩固，海地難以構成威脅。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "摩洛哥實力明顯優於海地，主場作戰穩操勝券。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.73,
+        "draw": 0.18,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "摩洛哥實力與經驗佔優，穩守反擊可勝海地。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.8,
+        "draw": 0.15,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "摩洛哥整體實力遠勝海地，預計能輕鬆掌控局勢並取得大勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "摩洛哥實力遠勝，預計主場輕取海地。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "摩洛哥實力明顯優於海地，穩拿勝利。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.776,
+      "draw": 0.147,
+      "away": 0.078
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-22T232003Z"
+}

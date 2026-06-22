@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-22T11:21:07Z",
+  "last_updated": "2026-06-22T23:00:00Z",
   "results": [
     {
       "match": 1,
@@ -562,6 +562,20 @@
       "outcome": "away",
       "recorded_at": "2026-06-22T11:00:00Z",
       "source": "https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand"
+    },
+    {
+      "match": 41,
+      "stage": "Group J",
+      "home": "Argentina",
+      "away": "Austria",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreline": "2:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-22T23:00:00Z",
+      "source": "https://www.skysports.com/football/argentina-vs-austria/report/549808"
     }
   ]
 }

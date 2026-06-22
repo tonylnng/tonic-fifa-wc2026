@@ -1,0 +1,1028 @@
+{
+  "match": 51,
+  "stage": "Group C",
+  "home": "Scotland",
+  "away": "Brazil",
+  "kickoff_utc": "2026-06-24T22:00:00Z",
+  "kickoff_hkt": "2026-06-25 06:00",
+  "venue": "Hard Rock Stadium, Miami Gardens",
+  "run_id": "2026-06-22T2300Z",
+  "run_timestamp": "2026-06-22T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "context": {
+    "group_standings_before_match": [
+      {
+        "pos": 1,
+        "team": "Brazil",
+        "pld": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 4
+      },
+      {
+        "pos": 2,
+        "team": "Morocco",
+        "pld": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "pts": 4
+      },
+      {
+        "pos": 3,
+        "team": "Scotland",
+        "pld": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 3
+      },
+      {
+        "pos": 4,
+        "team": "Haiti",
+        "pld": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 4,
+        "gd": -4,
+        "pts": 0
+      }
+    ],
+    "parallel_match": "Morocco vs Haiti（亞特蘭大，同時開賽）",
+    "qualification_implications": {
+      "scotland_win": "蘇格蘭升至6分，自動晉級32強（次名或首名）",
+      "draw": "蘇格蘭升至4分，排名第三，需依最佳第三名排名決定是否晉級",
+      "brazil_win": "蘇格蘭留3分，若得失球不佳需依第三名比較，可能出局"
+    }
+  },
+  "team_news": {
+    "scotland": {
+      "coach": "Steve Clarke",
+      "formation_expected": "4-4-1-1 或 4-4-2（緊湊防守為主）",
+      "predicted_xi": [
+        "Angus Gunn（門將）",
+        "Aaron Hickey（右後衛）",
+        "Grant Hanley（中後衛）",
+        "Jack Hendry（中後衛）",
+        "Andy Robertson（左後衛，隊長）",
+        "Ben Gannon-Doak（右中場）",
+        "Ryan Christie（中場）",
+        "John McGinn（中場）",
+        "Kieran Tierney（左中場）",
+        "Scott McTominay（攻擊性中場）",
+        "Che Adams（前鋒）"
+      ],
+      "injuries": [
+        {
+          "player": "Billy Gilmour",
+          "status": "整屆賽事缺陣",
+          "injury": "膝傷"
+        },
+        {
+          "player": "Scott McKenna",
+          "status": "備戰缺陣/疑問",
+          "injury": "小腿受傷"
+        },
+        {
+          "player": "Lewis Ferguson",
+          "status": "疑問（小傷，預計出賽）",
+          "injury": "小傷"
+        },
+        {
+          "player": "Aaron Hickey",
+          "status": "疑問（訓練後有不適）",
+          "injury": "未明確"
+        }
+      ],
+      "key_players": [
+        {
+          "player": "Scott McTominay",
+          "role": "引擎手，入球能力出眾，本屆頭號威脅"
+        },
+        {
+          "player": "Andy Robertson",
+          "role": "隊長，左路進攻主力"
+        },
+        {
+          "player": "John McGinn",
+          "role": "中場領袖，對海地的入球英雄"
+        },
+        {
+          "player": "Ben Gannon-Doak",
+          "role": "右路突破利器，對陣巴西左閘可能形成威脅"
+        }
+      ],
+      "wc2026_results": [
+        {
+          "match": "Scotland 1-0 Haiti",
+          "date": "2026-06-13",
+          "scorers": [
+            "McGinn 28'"
+          ]
+        },
+        {
+          "match": "Scotland 0-1 Morocco",
+          "date": "2026-06-19",
+          "note": "第2分鐘失球，全場受壓"
+        }
+      ],
+      "recent_form": [
+        "W4-0 Bolivia",
+        "W4-1 Curaçao",
+        "L0-1 象牙海岸",
+        "L0-1 日本",
+        "W1-0 海地",
+        "L0-1 摩洛哥"
+      ]
+    },
+    "brazil": {
+      "coach": "Carlo Ancelotti",
+      "formation_expected": "4-3-3",
+      "predicted_xi": [
+        "Alisson Becker（門將）",
+        "Danilo（右後衛）",
+        "Marquinhos（中後衛，隊長）",
+        "Gabriel Magalhães（中後衛）",
+        "Douglas Santos（左後衛）",
+        "Bruno Guimarães（後腰）",
+        "Casemiro（後腰）",
+        "Lucas Paquetá（中場）",
+        "Rayan（右翼）",
+        "Matheus Cunha（前鋒）",
+        "Vinícius Júnior（左翼）"
+      ],
+      "injuries": [
+        {
+          "player": "Raphinha",
+          "status": "本場缺陣（右大腿後肌受傷）",
+          "injury": "大腿後肌撕裂"
+        },
+        {
+          "player": "Rodrygo",
+          "status": "整屆賽事缺陣",
+          "injury": "前十字韌帶及半月板撕裂"
+        },
+        {
+          "player": "Estêvão",
+          "status": "整屆賽事缺陣",
+          "injury": "腿後腱傷"
+        },
+        {
+          "player": "Éder Militão",
+          "status": "整屆賽事缺陣",
+          "injury": "腿後腱撕裂"
+        },
+        {
+          "player": "Wesley",
+          "status": "整屆賽事缺陣（賽前受傷）",
+          "injury": "左大腿內收肌傷"
+        }
+      ],
+      "available_boost": [
+        {
+          "player": "Neymar",
+          "status": "預計在場（可能上陣，若非首發則後備登場）",
+          "note": "自2023年10月起首次為巴西上陣，Ancelotti確認可用"
+        }
+      ],
+      "key_players": [
+        {
+          "player": "Vinícius Júnior",
+          "role": "左翼核心，本屆已攻入2球，速度與突破能力頂級"
+        },
+        {
+          "player": "Matheus Cunha",
+          "role": "鋒線主力，對海地梅開二度"
+        },
+        {
+          "player": "Bruno Guimarães",
+          "role": "中場樞紐，控制節奏"
+        },
+        {
+          "player": "Marquinhos",
+          "role": "後防領袖，閱讀比賽出色"
+        },
+        {
+          "player": "Neymar",
+          "role": "後備奇兵，34歲，自腓骨靭帶傷復出"
+        }
+      ],
+      "wc2026_results": [
+        {
+          "match": "Brazil 1-1 Morocco",
+          "date": "2026-06-13",
+          "note": "Vinícius入球，Saibari均衡"
+        },
+        {
+          "match": "Brazil 3-0 Haiti",
+          "date": "2026-06-19",
+          "scorers": [
+            "Cunha 23'",
+            "Cunha 36'",
+            "Vinícius 45+3'"
+          ],
+          "note": "Raphinha第40分鐘受傷離場"
+        }
+      ],
+      "recent_form": [
+        "L1-2 法國",
+        "W3-1 克羅地亞",
+        "W6-2 巴拿馬",
+        "W2-1 埃及",
+        "D1-1 摩洛哥",
+        "W3-0 海地"
+      ]
+    }
+  },
+  "head_to_head": {
+    "all_time": {
+      "scotland_wins": 0,
+      "draws": 2,
+      "brazil_wins": 8,
+      "total_matches": 10,
+      "total_goals": 19
+    },
+    "world_cup_only": {
+      "scotland_wins": 0,
+      "draws": 1,
+      "brazil_wins": 3,
+      "matches": 4
+    },
+    "notable_meetings": [
+      {
+        "year": 1974,
+        "competition": "世界盃小組賽",
+        "result": "Scotland 0-0 Brazil"
+      },
+      {
+        "year": 1982,
+        "competition": "世界盃小組賽",
+        "result": "Brazil 4-1 Scotland"
+      },
+      {
+        "year": 1990,
+        "competition": "世界盃小組賽",
+        "result": "Brazil 1-0 Scotland"
+      },
+      {
+        "year": 1998,
+        "competition": "世界盃小組賽",
+        "result": "Brazil 2-1 Scotland"
+      },
+      {
+        "year": 2011,
+        "competition": "友誼賽",
+        "result": "Brazil 2-0 Scotland"
+      }
+    ],
+    "note": "蘇格蘭從未在正式賽事中擊敗巴西；最接近的一次是1974年世界盃0-0平局"
+  },
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.1,
+      "draw": 0.2,
+      "away": 0.7
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "巴西主導控局（最可能場景）",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.38,
+        "basis": "巴西憑Vinícius Junior左路突破及Cunha中路定位，配合高持球率壓制蘇格蘭。蘇格蘭防守阻擋主流，卻缺乏反攻轉化能力，最終被兩球完封。Neymar後備登場增加殺傷力。"
+      },
+      {
+        "name": "蘇格蘭苦守低失球（戰術成功）",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.2,
+        "basis": "Steve Clarke部署緊密防線五後衛或四後衛加三中場，全場龜縮防守，巴西只能憑角球或Vinícius個人能力破門一次。蘇格蘭因此以最佳第三名身份晉級。"
+      },
+      {
+        "name": "蘇格蘭逆轉（歷史性冷門）",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.08,
+        "basis": "McTominay或McGinn在定位球/換位進攻中找到空間，加上巴西（缺Raphinha、Rodrygo）進攻效率低迷，蘇格蘭防守超水準發揮，完成1998年以來最大意外。"
+      },
+      {
+        "name": "巴西大勝宣示實力",
+        "scoreline": "1:3",
+        "outcome": "away",
+        "confidence": 0.16,
+        "basis": "Neymar或以先發模式登場，Vinícius持續左路創傷，巴西在進入下半場後加快進攻節奏，蘇格蘭體能下滑失球，同時藉定位球攻入一球。蘇格蘭因得失球劣勢被淘汰。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩市場綜合（BetOnline/Lucky Rebel/BetNow/BoyleSports/Paddy Power/Betway）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.12,
+          "draw": 0.2,
+          "away": 0.68
+        },
+        "scoreline": "0:2",
+        "note": "主流博彩盤口：蘇格蘭+700至+675，平局+390至+425，巴西-250至-275（美式）；英式賠率7-1/4-1/2-5（去除庄家水位後隱含機率：蘇格蘭約12%，平局約19%，巴西約69%）"
+      },
+      {
+        "source": "Polymarket 預測市場（$322,315成交量）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.125,
+          "draw": 0.185,
+          "away": 0.69
+        },
+        "note": "截至2026-06-22，Polymarket市場：Brazil 69.5%，Draw 18.5%，Scotland 12.5%"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.127,
+          "draw": 0.19,
+          "away": 0.683
+        },
+        "note": "Kalshi賠率：蘇格蘭7.85（~12.7%），平局5.25（~19%），巴西1.38（~72.5%），去除水位後約68.3%"
+      },
+      {
+        "source": "Opta超級電腦（theanalyst.com）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.11,
+          "draw": 0.2,
+          "away": 0.69
+        },
+        "scoreline": "0:2",
+        "note": "FootyTips模型（Opta ELO基準）：蘇格蘭Elo 1848，巴西Elo 2070；模擬結果Scotland 11% / Draw 20% / Brazil 68%，最可能比分0-2"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "本場比賽巴西以大熱姿態迎戰蘇格蘭，但實際局面頗為微妙：巴西缺Raphinha（大腿後肌撕裂，整場缺陣）、Rodrygo（整屆缺陣，前十字韌帶）、Estêvão（整屆缺陣），鋒線深度大幅削減，需靠Vinícius Junior單騎挑戰，Neymar（34歲）從後備登場提供不可預測性。蘇格蘭方面Billy Gilmour缺陣整屆（膝傷），Scott McKenna受傷備戰，但核心陣容McTominay-McGinn-Robertson-Gannon-Doak俱在。\n\n從歷史角度看，蘇格蘭在10次對陣巴西中0勝2平8負，4次世界盃交手更是3負1平，從未進球超過1球（唯一進球是1998年蘇格蘭自製的OG）。力量對比懸殊。\n\n然而本場有重要變量：蘇格蘭只需不大敗（具體看摩洛哥vs海地結果），若摩洛哥贏球，蘇格蘭只要避免大敗即可以第三名晉級；若摩洛哥負或平，蘇格蘭需爭積分。這意味Clarke大概率部署極為保守的低位防守，壓縮空間，以不失球為首要目標，令巴西很難大勝。\n\nAncelotti的巴西在本屆小組賽表現不一：對摩洛哥1-1（有些被動），對海地3-0（才有亮點），前45分鐘才完全成型。防線亦對摩洛哥有暴露，右路（缺乏真正右後衛，以Danilo或Ibañez拼湊）是結構弱點，正好對應Gannon-Doak的衝擊方向。\n\n主流預測一致偏向巴西：博彩盤口暗示勝率68-73%，Opta電腦11%/20%/69%，Polymarket 12.5%/18.5%/69.5%，多個分析網站（SportsRush、The Real EFL、NerdyTips、Forebet、FootyTips）主預測均為巴西2-0獲勝。部分評論（Sports Mole、Goal.com、FootyAccumulators）預測1-3或3-1，反映Neymar可能登場後的進攻潛力。Modusy統計模型xG：蘇格蘭0.98，巴西1.75，最大機率比分0-2。\n\n綜合評估：主預測巴西0:2獲勝，信心0.72。蘇格蘭最可能的抵抗策略是緊守防線爭取不大敗，但在巴西的進攻質量面前，長達90分鐘的清白牌可能性偏低。若Neymar主發，上半場的威脅更大。",
+    "key_factors": [
+      "巴西鋒線深度削弱：Raphinha（大腿後肌）、Rodrygo（前十字韌帶）、Estêvão（腿後腱）均缺陣，Neymar（34歲，上次上陣為2023年10月）尚待確認首發或後備",
+      "Vinícius Junior是巴西絕對核心：本屆已2球2助攻，速度與1v1突破能力對蘇格蘭右路構成持續威脅，McGinn能否跟上是關鍵",
+      "蘇格蘭防守韌性與低失球策略：Clarke的隊伍傾向緊湊防守，對海地及友誼賽均展現組織性，但對摩洛哥第2分鐘失球顯示開場容易失守",
+      "進攻乏力問題：蘇格蘭在整個世界盃預選賽及本屆小組賽進攻創造力有限，對強隊xG不足1，Gannon-Doak（右翼）是少數能突破頂級防線的出口",
+      "McTominay的多重威脅：可以前插入盒、遠射、高空爭頂，是蘇格蘭最有可能破門的球員，值得全程關注",
+      "賽事動機差異：蘇格蘭需要積分（甚至只需避免大敗），巴西需勝以確保首名；兩隊都有積極的動機，但蘇格蘭可能保守以期第三名晉級",
+      "頭碰頭歷史：10場比賽蘇格蘭0勝，4次世界盃0勝（3負1平），從未擊敗巴西；但1974年0-0的歷史告訴我們低失球場景存在",
+      "氣候因素：邁阿密六月氣溫攝氏32度以上，高濕度，對蘇格蘭球員體能構成挑戰，但球隊已在美國適應一段時間",
+      "Matheus Cunha近況火燙：對海地梅開二度，定位能力出色，是另一破網威脅",
+      "巴西中場優勢：Bruno Guimarães-Casemiro-Paquetá的中場三人組遠勝蘇格蘭，控球預計65%+，壓制反攻空間"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數觀點（如YouTube分析師及Forebet低勝率54%模型）認為本場比賽比盤口所示更平，理由是巴西缺少Raphinha及Rodrygo後鋒線大幅削弱，若蘇格蘭能重現1974年的低位防守奇跡，平局並非不可能。部分評論員（Tim Vickery、BBC蘇格蘭解說）認為Gannon-Doak衝擊巴西右路（右後衛陣容本屆是拼湊的）是蘇格蘭最現實的進球途徑。另有看法認為Neymar若直接首發（缺乏練習），可能發揮不穩甚至拉傷重現，降低巴西攻擊效率。"
+  },
+  "sources": [
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-c-standings-results-table-2026-brazil/c79b62229f6707e1d2775b24",
+      "type": "news/standings"
+    },
+    {
+      "url": "https://www.dazn.com/en-CA/news/soccer/scotland-squad-list-fifa-world-cup-26-captains-jersey-numbers-steve-clarke-coaching-staff/1nz6np4jmik531ek4giez82emd",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/scotland-xi-vs-morocco-starting-lineup-confirmed-team-news-injury-latest-world-cup-2026-today-b1286736.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+      "type": "fixtures"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/scotland-world-cup-2026-squad",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html",
+      "type": "injury_tracker"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48701669/scotland-world-cup-2026-schedule-fixtures-results-scores-group-c-how-watch-uk-news-analysis-injuries",
+      "type": "news/scotland"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48769157/all-26-players-picked-steve-clarke-why",
+      "type": "squad"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-3/",
+      "type": "injury_tracker"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
+      "type": "standings"
+    },
+    {
+      "url": "https://fwctimes.com/scotland/",
+      "type": "team_guide"
+    },
+    {
+      "url": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
+      "type": "live_blog"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj1z4e21gro",
+      "type": "tactics/analysis"
+    },
+    {
+      "url": "https://africa.espn.com/football/story/_/id/48928147/tyler-fletcher-replaces-billy-gilmour-scotland-world-cup-squad",
+      "type": "squad_update"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49055260/haiti-scotland-world-cup-2026-result-score-recap-john-mcginn-ben-gannon-doak-group-c",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.scottishfa.co.uk/news/fifa-world-cup-2026-squad-update/?rid=14258",
+      "type": "official"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d159741fe9-a2a8fac9839d-1000--scotland-at-the-world-cup-2026-squad-fixtures-group-and-hi/",
+      "type": "official/squad"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/may/30/scotland-world-cup-2026-team-guide",
+      "type": "team_guide"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/articles/cqj17vr881yo",
+      "type": "tactics"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/live/crr8dw70x51t",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/brazil-xi-vs-scotland-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1287076.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.toffeeweb.com/world-cup/brazil/",
+      "type": "squad"
+    },
+    {
+      "url": "https://whtc.com/2026/06/07/soccer-brazil-lose-injured-wesley-from-world-cup-squad-call-up-ederson/",
+      "type": "injury/squad"
+    },
+    {
+      "url": "https://www.ndtvprofit.com/sports/fifa-world-cup-2026-standings-check-group-c-points-table-as-brazil-beat-haiti-and-morocco-defeat-scotland-11662264",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/205/sort/subIns/dir/desc/Brasil",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info",
+      "type": "injury_tracker"
+    },
+    {
+      "url": "https://worldcuply.com/brazil.html",
+      "type": "team_guide"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/5/28/brazils-world-cup-2026-team-preview-players-to-watch-group-matches-squad",
+      "type": "team_preview"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/brazil-world-cup-2026-squad",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-c-recaps-brazil-morocco-scotland-haiti-highlights/",
+      "type": "match_report"
+    },
+    {
+      "url": "https://thesportsrush.com/scotland-v-brazil-predictions/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/12098/13543087/world-cup-2026-group-c-guide-fixtures-schedule-standings-and-odds-for-scotland-brazil-morocco-and-haiti",
+      "type": "news/odds"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/scotland-vs-brazil-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a1B9A9D9fjpC/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-brazil-prediction-team-news-lineups_599770.html",
+      "type": "preview/prediction"
+    },
+    {
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/scotland-vs-brazil-vs-group-stage/",
+      "type": "odds/prediction"
+    },
+    {
+      "url": "https://therealefl.co.uk/2026/06/22/scotland-vs-brazil-prediction-odds-lineups-betting-tips-24-06-2026-fifa-world-cup/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.juvefc.com/scotland-v-brazil-predictions/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.futbol24.com/betting-tips/preview/24-06-2026-scotland-brazil-betting-tip/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://footyaccumulators.com/predictions/wc-2026/scotland-vs-brazil-preview-prediction-and-betting-tips",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.livegoals.com/betting/tips/scotland-vs-brazil-24-06-2026",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/scotland-vs-brazil-prediction-betting-tips-june-24th-2026",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://sgodds.com/football/current-odds/Scotland-vs-Brazil-140119",
+      "type": "odds"
+    },
+    {
+      "url": "https://sports.betmgm.com/en/blog/world-cup/brazil-vs-scotland-prediction-odds-preview-world-cup-june-24-bm16/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/scotland-vs-brazil-predictions-25-06-2026/A:bltd6628447b971af1b",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/scotland-vs-brazil-prediction-24-06-2026/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760465/brazil-scotland",
+      "type": "live_score/odds"
+    },
+    {
+      "url": "https://www.pickswise.com/world-cup/games/scotland-brazil-world-cup-26-2026-06-24-2200/picks/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.forebet.com/en/football/matches/scotland-brazil-2463179",
+      "type": "model/prediction"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-sco-bra-2026-06-24",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://cryptoslate.com/predictions/market/fifwc-sco-bra-2026-06-24/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://kalshi.com/teams/soccer-team/scotland",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://modusy.club/zh/match/54/",
+      "type": "model/xg"
+    },
+    {
+      "url": "https://footytips.io/world-cup-2026/groups/",
+      "type": "model/prediction"
+    },
+    {
+      "url": "https://skysports.com/football/news/12010/13546376/scotlands-world-cup-2026-fixtures-schedule-plus-routes-to-knock-out-stage-and-beyond-can-steve-clarkes-side-make-history",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://theanalyst.com/articles/scotland-vs-morocco-prediction-world-cup-2026-match-preview",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://rotobot.ai/world-cup/team/BRA",
+      "type": "model/team_profile"
+    },
+    {
+      "url": "https://rotobot.ai/world-cup/team/SCO",
+      "type": "model/team_profile"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/scotland-must-adjust-mindset-for-world-cup-progression-claims-christie-2026-06-18",
+      "type": "news"
+    },
+    {
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/brazil/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.predictionhunt.com/odds/world_cup/brazil-vs-scotland-2026-06-24/21417",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://fwctimes.com/scotland-vs-brazil-head-to-head/",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://www.national-football-teams.com/encounter/teams/28/162/Brazil_vs_Scotland.html",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://www.skysports.com/football/scotland-vs-brazil/549819",
+      "type": "form/h2h"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/21/scotland-v-brazil-predictions/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://nerdytips.com/blog/scotland-vs-brazil-prediction-2026-06-24/",
+      "type": "ai_model/prediction"
+    },
+    {
+      "url": "https://nerdytips.com/match-details/scotland-vs-brazil-prediction-1275102",
+      "type": "ai_model/prediction"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/raphinha-injury-updates-news-brazil-haiti-hamstring/76754bd41acaff5d6128f0a2",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/el-emotivo-regreso-que-tuvo-isma%C3%ABl-kon%C3%A9-a-la-selecci%C3%B3n-de-canad%C3%A1-tras-su-grave-lesi%C3%B3n-en-la-copa-mundial-de-la-fifa-2026-2026-06-20",
+      "type": "injury/neymar"
+    },
+    {
+      "url": "https://www.indiatoday.in/sports/football/story/neymar-available-for-scotland-brazil-receive-major-world-cup-boost-2930306-2026-06-20",
+      "type": "injury/neymar"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49123097/ancelotti-neymar-available-brazil-group-finale-vs-scotland",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49137398/scotland-brazil-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "preview/lineups"
+    },
+    {
+      "url": "https://www.dazn.com/en-GB/news/football/fifa-world-cup-26-scotland-vs-brazil-preview-team-news-how-to-watch/1mkxcjljjza3x11l7h2li2rcju",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/scotland-xi-vs-brazil-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1287064.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.standard.co.uk/sport/football/scotland-vs-brazil-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1287045.html",
+      "type": "preview/prediction"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/brazils-neymar-jr-make-world-cup-debut-vs-scotland/84c0a46b641a9ae509fb1828",
+      "type": "team_news"
+    },
+    {
+      "url": "https://heavy.com/sports/soccer/world-cup/raphinha-injury-update-brazil-knockout-hopes/",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.bbc.com/sport/articles/cd0mdjjee3do",
+      "type": "injury/team_news"
+    },
+    {
+      "url": "https://en.as.com/resultados/futbol/mundial/2026/directo/grupos_c_3_6908832c4220154/alineaciones/",
+      "type": "predicted_lineups"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/scotland-brazil-world-cup-preview/blt7e5ff4t86c71b434",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.tapmad.com/blog/brazil-vs-scotland-match-preview-and-predicted-lineups/6513-7-0",
+      "type": "preview/lineups"
+    },
+    {
+      "url": "https://fansided.com/soccer/world-cup-group-c-standings-and-scenarios-what-brazil-morocco-scotland-need-to-advance-to-knockouts",
+      "type": "qualification_scenarios"
+    },
+    {
+      "url": "https://www.sbnation.com/fifa-world-cup/1119075/world-cup-2026-group-c-standings-scenarios-scotland-brazil",
+      "type": "standings/scenarios"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/world-cup-2026-group-c-permutations/",
+      "type": "standings/analysis"
+    },
+    {
+      "url": "https://thehardtackle.com/opinion/brazil-burden-morocco-momentum-inside-fifa-world-cup-2026-group-c/amp/",
+      "type": "analysis"
+    },
+    {
+      "url": "https://roundtable.io/sports/soccer/what-we-learnt-from-group-cs-opening-games-at-the-fifa-world-cup-2026",
+      "type": "analysis"
+    },
+    {
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-c-recaps-brazil-morocco-scotland-haiti-highlights/",
+      "type": "match_recap"
+    },
+    {
+      "url": "https://worldcup.divergencelog.com",
+      "type": "model/forecast"
+    },
+    {
+      "url": "https://footlab-data.com/en/world-cup/groups/C",
+      "type": "data/analysis"
+    },
+    {
+      "url": "https://brazil-2026.com/Matches/Why-Brazil-Are-Favored-to-Beat-Scotland-at-the-2026-World-Cup-with-Key-Stats.html",
+      "type": "analysis"
+    },
+    {
+      "url": "https://iesoccerwc2026.com/world-cup-2026-group-c/",
+      "type": "group_preview"
+    },
+    {
+      "url": "https://kickoffnsnap.com/2026-world-cup-group-c-preview-brazil-morocco-haiti-and-scotland/",
+      "type": "group_preview"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1ual3qu/world_cup_2026_group_c_outcomes_chart_assuming_4/",
+      "type": "forum/community"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YANXVGV7NQc",
+      "type": "youtube/pundit"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tg86Bfg0t7A",
+      "type": "youtube/pundit"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vA21ecJkzrQ",
+      "type": "youtube/preview"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CO6YIR9pWks",
+      "type": "youtube/preview"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KAuiA9lQizA",
+      "type": "youtube/ai_model"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fz_LKxC998A",
+      "type": "youtube/simulation"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sQ6arMXR8lg",
+      "type": "youtube/data_analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NeNc40cNRds",
+      "type": "youtube/prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=K7H1kz13Nis",
+      "type": "youtube/h2h"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=A2cRg3LhcSE",
+      "type": "youtube/brazil_preview"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fjQ_TjlQu88",
+      "type": "youtube/pundit"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9cR1rVhzFfo",
+      "type": "youtube/analysis"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=eyKdjEeJxj8",
+      "type": "youtube/tactics"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2B3dJ5FcdQA",
+      "type": "youtube/tactics"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=T7zFhfO5Uuc",
+      "type": "youtube/analysis"
+    },
+    {
+      "url": "https://www.newyorker.com/culture/the-lede/how-scott-mctominay-led-scotland-back-to-the-world-cup",
+      "type": "feature"
+    },
+    {
+      "url": "https://www.sportinglife.com/amp/football/news/fearless-scotland-pose-a-serious-threat-to-brazil-and-morocco-in-final-group-games/232732",
+      "type": "analysis"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/player/scott-mctominay-23821",
+      "type": "player_profile"
+    },
+    {
+      "url": "https://fwctimes.com/scotland-vs-brazil-lineups/",
+      "type": "predicted_lineups"
+    },
+    {
+      "url": "https://www.thefootystatman.com/fixture/scotland-vs-brazil/",
+      "type": "stats/prediction"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/brazil-must-adapt-to-raphinha-absence-insists-paqueta-2026-06-22",
+      "type": "team_news"
+    },
+    {
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/raphinha-injury-update-fifa-world-cup-2026-brazil-thigh-problem-haiti-news/article71127261.ece",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.livemint.com/sports/football-news/fifa-world-cup-2026-group-c-points-table-after-brazil-vs-haiti-carlo-ancelottis-men-zoom-to-top-despite-moroccos-win-11781921886346.html",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/brazil-scotland-2379-5069-5930",
+      "type": "live_odds/lineups"
+    },
+    {
+      "url": "https://www.fotmob.com/matches/brazil-vs-scotland/2bkifh",
+      "type": "live_score/h2h"
+    },
+    {
+      "url": "https://www.si.com/soccer/carlo-ancelotti-neymar-return-date-brazil-2026-world-cup",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49129032/brazil-confirm-raphinha-hamstring-injury-world-cup-2026-return-uncertain-group-c",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.thescore.com/news/3550982",
+      "type": "injury_tracker"
+    },
+    {
+      "url": "https://www.mid-day.com/amp/sports/football/article/fifa-world-cup-2026-brazil-superstar-neymar-likely-to-feature-in-clash-against-scotland-23636277",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.straitstimes.com/sport/football/ancelotti-expects-neymar-back-for-brazils-scotland-world-cup-showdown",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.rediff.com/sports/report/fifa-world-cup-2026-neymar-hints-at-return-for-scotland-game/20260622.htm",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/may/29/brazil-world-cup-2026-team-guide",
+      "type": "team_guide"
+    },
+    {
+      "url": "https://www.freesupertips.com/predictions/scotland-vs-brazil-predictions-betting-tips-match-previews/",
+      "type": "betting_prediction"
+    },
+    {
+      "url": "https://www.inkl.com/news/scotland-vs-brazil-world-cup-2026-predictions-and-picks",
+      "type": "betting_prediction"
+    }
+  ],
+  "source_count": 100,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.27,
+        "away": 0.55
+      },
+      "scoreline": "0:2",
+      "note": "巴西整體戰力遠勝蘇格蘭，客場有望全取三分。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.15,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "巴西整體實力佔優，蘇格蘭防線難以抵擋森巴軍團進攻。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "巴西整體實力遠超蘇格蘭，預計森巴軍團輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "蘇格蘭偏重防守難敵巴西多點進攻火力"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "巴西整體實力遠勝蘇格蘭，預計能掌控節奏並順利取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "巴西實力遠勝蘇格蘭，客場穩勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "巴西實力壓倒性，客場穩操勝券。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.122,
+      "draw": 0.2,
+      "away": 0.678
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-22T231922Z"
+}

@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-22T11:21:36Z",
+  "last_updated": "2026-06-22T23:16:39Z",
   "metrics": {
-    "total_evaluated": 36,
-    "outcome_correct": 21,
-    "outcome_accuracy": 0.5833,
+    "total_evaluated": 37,
+    "outcome_correct": 22,
+    "outcome_accuracy": 0.5946,
     "exact_score_correct": 3,
-    "exact_score_accuracy": 0.0833
+    "exact_score_accuracy": 0.0811
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 36,
-      "outcome_correct": 21,
+      "evaluated": 37,
+      "outcome_correct": 22,
       "exact_correct": 3
     }
   },
@@ -452,6 +452,18 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-06-20T1103Z"
+    },
+    {
+      "match": 41,
+      "home": "Argentina",
+      "away": "Austria",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-20T2300Z"
     }
   ]
 }

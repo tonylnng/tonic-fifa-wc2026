@@ -1,0 +1,586 @@
+{
+  "match": 49,
+  "stage": "Group B",
+  "home": "Bosnia & Herzegovina",
+  "away": "Qatar",
+  "kickoff_utc": "2026-06-24T19:00:00Z",
+  "kickoff_hkt": "2026-06-25 03:00",
+  "venue": "Lumen Field, Seattle",
+  "run_id": "2026-06-22T2300Z",
+  "run_timestamp": "2026-06-22T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.58,
+      "draw": 0.22,
+      "away": 0.2
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.05
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "波士尼亞控場制勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.65,
+        "basis": "波士尼亞在積極爭取入球差距的情況下主動進攻，卡塔爾在缺少馬迪博與霍馬姆·艾哈邁德（均停賽）的情況下中路及左路防守空缺，傑科（Džeko）或德米羅維奇（Demirović）在前場進球，卡塔爾進攻端缺乏威力無從還手。"
+      },
+      {
+        "name": "激烈對攻，雙方均有進球",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "兩隊均需勝利而主動高位逼搶，比賽節奏開放。波士尼亞主導但防守出現漏洞，讓阿菲夫（Afif）或阿勒莫茲·阿里（Almoez Ali）抓住單次反擊機會得分。波士尼亞憑借數量優勢及門將瓦西利（Vasilj）的穩定表現最終守住。"
+      },
+      {
+        "name": "卡塔爾低塊防守平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "洛佩特吉（Lopetegui）安排卡塔爾收縮防守、低位防線並依賴長傳反擊。波士尼亞雖主導控球但缺乏創造力；卡塔爾在一次定位球後先進球，波士尼亞補時追平。兩隊皆遭淘汰出局。"
+      },
+      {
+        "name": "卡塔爾爆冷勝出",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.25,
+        "basis": "阿菲夫個人能力突破，波士尼亞在缺少穆哈雷莫維奇（Muharemović，停賽）後後防協調出問題，結果造就卡塔爾反擊進球。波士尼亞無法在必勝的高壓下找到破門良機，卡塔爾依靠低塊反擊奇蹟救回晉級希望。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩盤口綜合（FanDuel / Betfred / BetOnline 去除水差）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.65,
+          "draw": 0.21,
+          "away": 0.14
+        },
+        "scoreline": null,
+        "note": "博彩市場一致看好波士尼亞，-225 至 -230 美式賠率，卡塔爾賠率 +550 至 +600，平局 +380 至 +405。水差消除後主隊勝率約 63-67%，客隊約 13-15%。"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.68,
+          "draw": 0.195,
+          "away": 0.125
+        },
+        "scoreline": null,
+        "note": "Polymarket 上波士尼亞股價約 $0.675，平局 $0.195，卡塔爾 $0.125，總成交量超過 $14萬美元，是目前市場上最看好波士尼亞的數據源。"
+      },
+      {
+        "source": "Sports Mole 統計模型（Dixon-Coles 類）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.454,
+          "draw": 0.264,
+          "away": 0.283
+        },
+        "scoreline": "1:0",
+        "note": "Sports Mole 模型最可能比分為 1-0（11.61%），次為 2-1（8.93%）及 2-0（8.3%）；卡塔爾勝率（28.3%）比博彩市場高，因模型更多考量近期競技表現而非市場情緒。"
+      },
+      {
+        "source": "OnthePitch Dixon-Coles xG 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.453,
+          "draw": 0.286,
+          "away": 0.261
+        },
+        "scoreline": "1:1",
+        "note": "OnthePitch 模型預計波士尼亞 xG 為 1.27，卡塔爾 0.99，最可能比分 1-1（14%）。整體模型支持兩隊實力差距不大，但博彩及預測市場因停賽因素而更傾向波士尼亞。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "本場是波士尼亞與黑塞哥維那（波黑）對卡塔爾的世界盃 G 組末輪生死戰，雙方各積 1 分同位末席，勝者大概率以第三名身份晉級附加，負者被淘汰。比賽在西雅圖 Lumen Field 中立球場舉行。\n\n【波黑現況】兩場積 1 分（1-1 加拿大、1-4 瑞士），進球差 -3。面對加拿大時表現尚好，領先至第 78 分鐘才被追平；面對瑞士時上半場頂住 0-0，但下半場 74 分鐘起連失四球，中後衛穆哈雷莫維奇（Tarik Muharemović）於第 80 分鐘收紅牌，本場停賽。受傷缺陣方面，哈里斯·塔巴科維奇（Haris Tabakovic，腳踝），哈吉哈梅托維奇（Amir Hadziahmetovic，半月板手術全場缺席，賽季報銷）。40 歲隊長傑科（Edin Džeko，148 帽 73 球）可能是其最後一次世界盃，鬥志強烈。德米羅維奇（Ermedin Demirović，斯圖加特）是前場另一大威脅，巴里亞克塔列維奇（Esmir Bajraktarević，PSV）提供側翼速度。戰術採用緊湊 4-4-2 或 4-2-3-1，依賴傑科為支點，科拉希納克（Kolasinac）在左路大量後插上。進攻端主要依靠定位球及長傳；在失球情況下，德迪奇（Dedić）會完全棄守全力進攻。波黑在近 10 場中首嘗敗績，此前九場不敗（七平兩勝）顯示防守紀律頑強。\n\n【卡塔爾現況】兩場積 1 分（1-1 瑞士、0-6 加拿大）。面對加拿大時遭受重創：第 33 分鐘霍馬姆·艾哈邁德（Homam Ahmed，後衛）紅牌，第 53 分鐘馬迪博（Assim Madibo，中場）紅牌，兩人均本場停賽，進球差 -6。這兩名停賽球員對卡塔爾陣型至關重要：霍馬姆守左後衛，馬迪博是中場攔截核心。洛佩特吉陣容大幅調整，後防線與中場鏈接都被迫啟用替補方案（目前已知頭陣：穆罕默德·阿布納達/門將、阿尤布·阿爾奧伊/阿勒菲·伊薩·拉耶/加比爾/卡里姆·布迪阿夫/艾哈邁德·法提等）。主要進攻威脅是阿菲夫（Akram Afif，左翼）及阿勒莫茲·阿里（Almoez Ali，可能打入替補）。卡塔爾整個世界盃週期進球力孱弱（資格賽 10 場丟 24 球），依靠低位防守及阿菲夫個人突破。面對加拿大的大敗對心態打擊顯著，但面對較弱對手時他們具備騷擾能力（曾 1-1 逼平瑞士）。\n\n【歷史對決】兩隊三次交手，卡塔爾兩勝一平，但最近一次為 2010 年 1-1 平局，歷史參考意義有限。\n\n【關鍵因素分析】①停賽衝擊：卡塔爾損失中後衛霍馬姆及中場馬迪博，兩者均屬主力；波黑損失中後衛穆哈雷莫維奇（評論員稱其為本屆最被低估中衛），均有正常人選填補但影響戰術。②晉級激勵：兩隊均需勝利，平局幾乎等同淘汰（需依靠其他場次才有生機），令比賽必然開放進攻，對技術較強的波黑更為有利。③目標差距：波黑需以大勝提升淨球數，增加鮮明進攻動機。④體能：兩隊皆為六天前的第二場比賽作賽，無差別。⑤中立球場：波黑雖名義為「主」，但在西雅圖無明顯主場優勢，球迷人口方面卡塔爾移民社區在西雅圖地區規模不大。⑥博彩市場清晰傾向波黑（-225 至 -230），Polymarket 更達 68% 勝率，但統計模型（Sports Mole、OnthePitch）顯示卡塔爾勝率約 26-28%，比盤口高得多——這反映市場主要回應停賽消息和 6-0 慘敗的情緒，而非純粹數據。\n\n【預測理據】綜合博彩去水差（65% 波黑勝）、預測市場（68%）、統計模型（約 44-45%）三類資訊，加上停賽帶來的結構性優勢，判定波黑勝率約 58%，平局 22%，卡塔爾 20%。最可能比分為 2:0——波黑需要大勝提升淨球差，卡塔爾缺乏進攻資源難以還擊。主流媒體（Football Whispers、FootballPredictions.com、ESPN 預測陣）及多名 YouTube 解說員均傾向 2-0，印證此判斷。",
+    "key_factors": [
+      "卡塔爾雙停賽危機：後衛霍馬姆·艾哈邁德及中場馬迪博均因紅牌缺陣，致卡塔爾陣型大幅削弱，尤其是中路防守與左翼前插能力同步下降",
+      "波黑停賽劣勢：中後衛穆哈雷莫維奇缺陣，後防中路組合需要重新適應，增加了波黑在防守定位球時的不確定性",
+      "波黑進攻核心完整：傑科（Džeko）、德米羅維奇（Demirović）、巴里亞克塔列維奇（Bajraktarević）均可上陣，是本屆最被期待的首次足夠陣容表現",
+      "晉級激勵強度極高：兩隊均需勝利，平局幾乎等同淘汰（除非其他場次奇特結果），令比賽節奏更加開放積極",
+      "波黑需最大化進球差：現時淨球差 -3，需要大勝提升至第三名排名中的競爭力，傾向主動進攻而非保守",
+      "卡塔爾信心潰散：6-0 慘敗加拿大、連失兩紅，心理衝擊顯著；而波黑雖輸給瑞士但只是後段崩盤，意志力相對完整",
+      "博彩市場一致看好波黑：主流盤口賠率 1.40-1.42，Polymarket 達 68%，表明市場資訊已充分反映波黑優勢",
+      "統計模型較分散：Sports Mole 及 OnthePitch 各自顯示卡塔爾約 26-28% 勝率，比博彩隱含機率高出約一倍，提示賽果仍有不確定性",
+      "傑科個人狀態與動力：40 歲老將可能是其最後一次世界盃出場，情感動力強，是本場波黑最大進球威脅",
+      "阿菲夫個人能力是卡塔爾唯一可依賴的進攻手段：若阿菲夫出現超水準發揮，有可能製造一兩個反擊機會"
+    ],
+    "consensus_lean": "home",
+    "dissent": "統計模型（Sports Mole、OnthePitch Dixon-Coles）均顯示卡塔爾勝率約 26-28%，遠高於博彩盤口隱含的 13-15%，主要依據是兩隊在競技層面並非懸殊——卡塔爾曾 1-1 逼平瑞士（第一場），而波黑近 10 場僅一勝（對加拿大取 1-1 後仍因大量平局而告終），整體進攻效率不高（上半場基本無進球）。betmines 模型亦指出 Under 2.5 概率高達 54%，Football Whispers 給出 Under 2.5 作為推薦投注，顯示部分模型認為這會是一場低分膠著戰。此外，波黑失傑科或科拉希納克任一人均可能令進攻大幅退步。BettingTips4you 的歷史分析數據顯示兩隊 BTTS 機率高（最近 11 場中有 10 場兩隊均有得分），意味卡塔爾仍有一定進球機會。部分 YouTube KOL（如 iYVBu2vQPnY 模型）甚至預測最可能比分為 1-1（雖最終模型判斷為波黑勝，41% vs 27%）。"
+  },
+  "sources": [
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-8/",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49079683/fifa-world-cup-2026-switzerland-vs-bosnia-herzegovina-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.espn.com/soccer/report/_/gameId/760439",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-bosnia-herzegovina-injury-suspension-list-predicted-xis_599361.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/3/bosnia-and-herzegovina-vs-qatar/liveticker",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/18/switzerland-beat-bosnia-and-herzegovina-4-1-top-group-b-in-world-cup",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/haris-tabakovic-player",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d1594a5469-659bdc40eca9-1000--bosnia-and-herzegovina-at-the-world-cup-2026-squad-fixtur/",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49108304/switzerland-bosnia-live-world-cup-2026-latest-updates-commentary-score-result",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/452/bosnia-herzegovina",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://fwctimes.com/bosnia-and-herzegovina/",
+      "type": "team_profile"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule-live-scores-group-stage-updates-and-how-to-watch-050724193.html",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/549791",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-19/c2m7pdzje",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.aa.com.tr/en/info/infographic/52498",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/results/_/id/452/bih",
+      "type": "team_form"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/match/_/gameId/760462/qatar-bosnia-herzegovina",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/4398/qat",
+      "type": "squad_info"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49138188/bosnia-herzegovina-qatar-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://www.toffeeweb.com/bosnia-and-herzegovina-vs-qatar-predictions-picks-odds-24-06-2026/",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026-red-cards-tracker-suspended-players-list/6e6928d056b30c9b8cf12592",
+      "type": "suspension_tracker"
+    },
+    {
+      "url": "https://thepeninsulaqatar.com/article/21/06/2026/qatar-prepare-for-must-win-clash-against-bosnia-herzegovina",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/bosnia-and-herzegovina-vs-qatar-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aIQmi5h5P3A8/",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://www.goal.com/en-ke/news/bosnia-herzegovina-qatar-world-cup-preview/blt5e8717e6a4265b16",
+      "type": "match_preview"
+    },
+    {
+      "url": "https://blog.ke.sportpesa.com/2026/06/21/bosnia-and-herzegovina-vs-qatar-prediction-world-cup-2026-preview-team-news-lineups-h2h/",
+      "type": "prediction_preview"
+    },
+    {
+      "url": "https://www.sportsline.com/insiders/bosnia-and-herzegovina-vs-qatar-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/",
+      "type": "expert_pick"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/bosnia-herzegovina-vs-qatar-picks-103301614.html",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/bosnia-herzegovina-vs-qatar-prediction-betting-tips-june-24th-2026",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/21/bosnia-and-herzegovina-v-qatar-predictions/",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://www.inkl.com/news/bosnia-herzegovina-vs-qatar-predictions-world-cup-2026",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://betmines.com/match-preview/bosnia-and-herzegovina-vs-qatar-prediction-match-preview-and-analysis-world-cup-24-06-2026",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://kalshi.com/teams/soccer-team/qatar",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-bih-qat-2026-06-24",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://cryptoslate.com/predictions/market/fifwc-bih-qat-2026-06-24/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://polymarket.com/predictions/bosnia-and-herzegovina",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/world-cup/bosnia-herzegovina-vs-qatar_game_248882.html",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://onthepitch.now/countries/bih/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://footballpredictions.ai/football-predictions/bosnia-&-herzegovina-vs-qatar-predictions-tips-24-jun-2026/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iYVBu2vQPnY",
+      "type": "kol_youtube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=H9kL-M1Sx9w",
+      "type": "kol_youtube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JjOoa9Fw_lc",
+      "type": "kol_youtube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QHxtCZICO2Y",
+      "type": "kol_youtube"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0j50baRYS8w",
+      "type": "kol_youtube"
+    },
+    {
+      "url": "https://www.juvefc.com/bosnia-and-herzegovina-v-qatar-predictions/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/bosnia-and-herzegovina-vs-qatar-prediction-world-cup-2026/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/bosnia-herzegovina-vs-qatar-prediction-24-06-2026/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.mexc.com/news/1163976",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://gainblers.com/us/predictions/football/international/world-cup/prediction-bosnia-and-herzegovina-qatar-24-06-2026/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://bettingtips4you.com/football/international-football/world-cup/bosnia-and-herzegovina-vs-qatar-predictions-betting-tips-match-previews/",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760462",
+      "type": "betting_odds"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/bosnia-herzegovina/world-cup-2026/head-to-head/bosnia-hvina-vs-qatar-head-to-head-record-and-past-meetings_599807.html",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://fwctimes.com/bosnia-and-herzegovina-vs-qatar-head-to-head/",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/18/canada-qatar-world-cup-2026-group-b-match-report",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/19/jonathan-david-hat-trick-cuts-down-qatar-as-ismael-kone-injury-leaves-world-cup-co-hosts-canada-shaken/",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/19/canada-vs-qatar-world-cup-3-goals-for-david-2-red-cards-1-injured-kone",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-group-b-standings-results-table-2026-canada/37b86b13d08f8064c2276e2c",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination",
+      "type": "qualification_analysis"
+    },
+    {
+      "url": "https://sport-news.ca/news/canada-bosnia-world-cup-2026-tactical-analysis",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.fanorate.com/soccer-2026/team-guides/qatar-wc2026-guide/",
+      "type": "team_profile"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/bosnia-and-herzegovina-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://worldsoccertalk.com/world-cup/qatar-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/c98r6j4wwy7o",
+      "type": "team_profile"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/may/29/qatar-world-cup-2026-team-guide",
+      "type": "team_profile"
+    },
+    {
+      "url": "https://theanalyst.com/articles/switzerland-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://onesoccer.ca/a/2026-world-cup-group-b-preview-bosnia-and-herzegovina",
+      "type": "team_profile"
+    },
+    {
+      "url": "https://web9.rotowire.com/soccer/article/2026-world-cup-group-b-preview-canada-bosnia-and-herzegovina-qatar-and-switzerland-lineups-odds-predictions-and-tactics-111899",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.reddit.com/r/worldcup/comments/1u9ril1/2026_fifa_world_cup_group_b_permutations_can_bih/",
+      "type": "community_forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/soccer/comments/1u9mvx0/world_cup_2026_all_outcomes_chart_for_group_b/",
+      "type": "community_forum"
+    },
+    {
+      "url": "https://www.reddit.com/r/ussoccer/comments/1uax7so/usa_will_face_winner_of_wednesdays/",
+      "type": "community_forum"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZwOmdKjk7I/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZxFk6_AIcj/",
+      "type": "social_media"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/switzerland-bosnia-herzegovina-johan-manzambi-muharemovic",
+      "type": "match_analysis"
+    },
+    {
+      "url": "https://www.sfchronicle.com/sports/article/red-cards-and-poor-defense-send-qatar-to-its-22312192.php",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.foresportia.com/en/world-cup-2026/favorites.html",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://wc26.tinjak.com",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-bet-builder-tips-16-1-six-fold-for-wednesday-24-june/",
+      "type": "media_prediction"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59556-Bosnia-Herzegovina-vs-Qatar.htm",
+      "type": "expert_pick"
+    },
+    {
+      "url": "https://www.theblazingmusket.com/2026-fifa-world-cup-group-b-recaps-canada-switzerland-bosnia-qatar-highlights/",
+      "type": "match_result"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup-2026-group-b-standings-results-and-who-can-qualify-f202606-n-2/",
+      "type": "standings"
+    },
+    {
+      "url": "https://blog.wego.com/world-cup-group-b/",
+      "type": "group_guide"
+    },
+    {
+      "url": "https://www.futbol24.com/betting-tips/preview/24-06-2026-bosnia-qatar-betting-tip/",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://footballpredictions.net/bosnia-herzegovina-v-qatar-predictions-betting-tips",
+      "type": "prediction_odds"
+    },
+    {
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/bosnia-and-herzegovina-vs-qatar-vs-group-stage/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/headlines/haris-tabakovic-injury-available-against-switzerland-519879",
+      "type": "injury_news"
+    },
+    {
+      "url": "https://www.thecelticstar.com/bosnia-and-herzegovina-v-qatar-predictions/",
+      "type": "media_prediction"
+    }
+  ],
+  "source_count": 86,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "波士尼亞主場略佔優勢，但卡塔爾防守穩健，預期小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "波黑整體實力與身體對抗佔優，主場有望穩穩拿下卡達。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "波赫整體實力略勝一籌，卡塔爾大賽經驗不足，主隊可望小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.32,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "主場波黑整體實力較佳，小勝卡達機率高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "波士尼亞具備體格與歐洲賽事經驗優勢，預計能險勝卡達。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "波黑實力較強，主場優勢預計取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "波斯尼亞整體實力略勝一籌，卡達難以招架，預測主隊小勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.538,
+      "draw": 0.261,
+      "away": 0.201
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-22T231736Z"
+}

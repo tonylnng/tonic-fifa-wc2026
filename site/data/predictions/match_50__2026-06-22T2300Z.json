@@ -1,0 +1,597 @@
+{
+  "match": 50,
+  "stage": "Group B",
+  "home": "Switzerland",
+  "away": "Canada",
+  "kickoff_utc": "2026-06-24T19:00:00Z",
+  "kickoff_hkt": "2026-06-25 03:00",
+  "venue": "BC Place, Vancouver",
+  "run_id": "2026-06-22T2300Z",
+  "run_timestamp": "2026-06-22T23:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreline": "1:1",
+    "outcome": "draw",
+    "win_prob": {
+      "home": 0.38,
+      "draw": 0.33,
+      "away": 0.29
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "平局收場（瑞士保持組頂）",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.55,
+        "basis": "兩隊同積4分，加拿大憑藉目標差（+6 vs +3）僅需平局即可獲得小組第一；瑞士有臨場紀律但也需至少晉級；戰術上預計低調謹慎，平局符合雙方利益。多數預測機構及博彩盤口一致指向平局為最高概率結果（博彩隱含約29-33%）。"
+      },
+      {
+        "name": "瑞士獲勝（奪組頂）",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.38,
+        "basis": "瑞士需要獲勝才能以小組第一晉級。Granit Xhaka、Johan Manzambi和Dan Ndoye等球員實力強勁；上一場對波黑的4-1大勝展現了瑞士後段爆發力。若加拿大先失球，瑞士勝算增大。加拿大中場因Koné受傷缺席而明顯減弱。"
+      },
+      {
+        "name": "加拿大獲勝（主場氣氛助力）",
+        "scoreline": "2:1",
+        "outcome": "away",
+        "confidence": 0.29,
+        "basis": "BC Place的5萬名加拿大球迷可能對主隊產生巨大心理優勢。Jonathan David當前狀態絕佳，對卡塔爾一役梅開三度；Alphonso Davies若出場可能帶來決定性衝擊。若瑞士中場被加拿大快速反擊打穿，加拿大可能奪勝。"
+      },
+      {
+        "name": "0:0 悶局",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "部分分析師（包括JohnnyBet）認為兩隊均以防守穩固著稱，高風險比賽中可能出現超保守踢法；瑞士5場不敗期間上半場0失球；加拿大在世界盃首戰對波黑亦表現謹慎。若雙方均選擇不冒進，0:0無法排除。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Polymarket 預測市場（2026-06-22）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.455,
+          "draw": 0.285,
+          "away": 0.275
+        },
+        "scoreline": null,
+        "note": "Polymarket 市場數據（成交量$221,390）：瑞士45.5%，平局28.5%，加拿大27.5%。瑞士小幅領先反映其整體陣容深度及Xhaka中場掌控力。"
+      },
+      {
+        "source": "Betfred / William Hill 英國博彩盤口（2026-06-22）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.385,
+          "draw": 0.3,
+          "away": 0.315
+        },
+        "scoreline": null,
+        "note": "Betfred賠率：瑞士2.40、平局3.20、加拿大3.00；William Hill：瑞士2.40、平局3.10、加拿大2.90。去除水位後隱含機率約為瑞士38-39%、加拿大33-34%、平局29-31%。多數英美博彩盤口顯示瑞士微幅領先。"
+      },
+      {
+        "source": "Dimers 超級電腦模型（2026-06-22）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.3,
+          "away": 0.3
+        },
+        "scoreline": "1:0",
+        "note": "Dimers模型：瑞士40%、平局30%、加拿大30%。預測最可能比分為1:0，並指出預期進球為Under 2.5（56%機率）。BetOnline美盤對應：瑞士+150、平局+208、加拿大+223。"
+      },
+      {
+        "source": "Asianetnews 機率模型 + FWCTimes 模型（2026-06-22）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.36,
+          "draw": 0.32,
+          "away": 0.32
+        },
+        "scoreline": "1:1",
+        "note": "Asianetnews：瑞士38%、平局29%、加拿大32%，最高概率比分1:1（13%）；FWCTimes：平局35%、瑞士34%、加拿大31%。兩模型均預測1-1。加權平均反映三方極為接近局面。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "本場世界盃小組賽 Group B 決勝局，瑞士（FIFA第19）坐鎮加拿大主場BC Place迎戰加拿大（FIFA第30）。兩隊同積4分，加拿大憑+6目標差領先瑞士（+3）居首。加拿大只需平局即可保住組頂，爭取繼續在溫哥華主場作戰；瑞士則必須取勝方能以小組第一晉級。\n\n【目前局勢與動機分析】賽前形勢明顯有利於加拿大保守作戰——平局對他們優勢在任何情況下都夠用。加拿大已通過兩場比賽（對波黑1-1、對卡塔爾6-0）積累了4分，Jonathan David對卡塔爾梅開三度，士氣高漲。但重大傷病陰影揮之不去：核心中場Ismaël Koné在對卡塔爾一役遭對手惡意侵犯，雙腿骨折，宣告退出世界盃；副隊長Stephen Eustaquio週日亦缺席訓練，但週一重返備戰，目前狀態未完全確認；長期傷患隊長Alphonso Davies漢堡傷（腿後肌）逐漸康復，是否出賽仍需評估。加拿大中場深度因Koné的缺席而大幅下降，這是最核心的不確定因素。\n\n瑞士方面，陣容相對穩定。上一場4-1大勝波黑（主要靠下半場換人戰術奏效，Manzambi、Vargas入場後連進四球），令全隊信心大增。20歲的Johan Manzambi雙響驚艷全場，有望在本場首發。守門員Kobel及中堅組合Akanji+Elvedi構成穩固防線，中場魂Granit Xhaka（146帽）掌控節奏。唯一傷患Miro Muheim（小腿）仍未完全康復，但他本非主力陣容不可或缺。Nico Elvedi和Denis Zakaria各背一張黃牌，存在謹慎出場考慮。\n\n【戰術分析】瑞士預計沿用4-3-3（Kobel; Widmer, Elvedi, Akanji, Rodriguez; Freuler, Xhaka, Manzambi; Ndoye, Embolo, Vargas），以Xhaka控制中路節奏，Ndoye和Vargas拉寬，Embolo作為前鋒支點。若比賽拉平，預計利用Manzambi的突破製造機會。加拿大則可能4-4-2（Crepeau; Johnston, de Fougerolles/Bombito, Cornelius, Laryea; Buchanan, Eustaquio, Saliba/Osorio, Ahmed; David, Larin），無Koné的情況下Nathan Saliba或Jonathan Osorio將出任中場。Alphonso Davies若出場將出現在左後或左中位置，帶來速度衝擊。\n\n【關鍵對位】瑞士的Xhaka-Freuler中軸 vs 加拿大損失Koné後的中場是最關鍵的戰術對決。若加拿大能通過Eustaquio的高強度逼搶壓制Xhaka節奏，可能創造快速反擊機會；若Xhaka能自由控制中路，瑞士擁有充足的最後一刻創造力（如上一場換人策略所示）。另一看點是Jonathan David的個人能力——現身狀絕佳，能否突破瑞士結構嚴謹的後防線將決定加拿大的進攻成效。\n\n【博彩共識】各盤口一致顯示瑞士微弱領先（賠率約2.40-2.54），平局其次（3.10-3.40），加拿大相對較大（2.90-3.30）。預測市場（Polymarket）瑞士45.5%。Under 2.5目標差大多數模型認為在56-64%之間。多數預測網站（FootballPredictions、SportsMole、Ladbrokes、MEXC、Sportskeeda、FWCTimes等）預測結果為1-1平局。\n\n【結論】在高度不確定性下，綜合「加拿大動機傾向保守出戰」、「Koné缺席使中場陷入深水」、「瑞士進攻具備爆發潛力且更迫切需要取勝」三大因素，我們最終傾向瑞士獲勝（win_prob 0.38）為主，但最可能的比分預測仍是1:1平局（14%的比分概率，與加拿大動機分析一致）。若以平局而言，加拿大獲得的是更佳結果（組頂）。主預測比分為1:1，但考量到瑞士更強烈的取勝動機及上一場的形態爆發性，outcome設為home（瑞士勝）以反映瑞士在勝算百分比上略高的整體優勢，信心值適中（0.55）反映此場的高度不確定性。",
+    "key_factors": [
+      "加拿大中場骨幹Ismaël Koné（雙腿骨折）確認缺席整個世界盃，是本場最關鍵的人員變數",
+      "副隊長Stephen Eustaquio週日缺席訓練，週一才返回，健康狀態存疑，若不上場加拿大中場將更加薄弱",
+      "隊長Alphonso Davies持續在評估狀態，連結漢堡傷病（腿後肌+ACL術後）——若出賽可帶來速度上的決定性優勢",
+      "加拿大只需平局即可保組頂，結構上傾向保守踢法，減少進攻冒險",
+      "瑞士必須取勝才能以組頂晉級，進攻動機遠強於加拿大，特別是下半場換人策略已被證明有效（vs 波黑4-1）",
+      "Johan Manzambi（20歲，本屆2球）形態火熱，但黃牌累積和魯莽犯規風險值得注意",
+      "Granit Xhaka（146帽）是瑞士戰術核心，加拿大若無Koné的高強度逼搶，壓制Xhaka難度加大",
+      "Jonathan David（對卡塔爾三球）是最具決定性的球員——其個人能力可以打破瑞士嚴密防線",
+      "BC Place主場效應（5萬名加拿大球迷）對加拿大士氣有正面影響，特別在關鍵時刻",
+      "瑞士對CONCACAF球隊世界盃歷史全無敗績（2018年與哥斯達黎加2-2平），歷史記錄稍有加持",
+      "加拿大在世界盃近兩場共8球進攻力充沛，但均有特殊加持（首場戰平需奮起、次場以9人卡塔爾大開殺戒）",
+      "瑞士賽前5場全無敗績，且上半場0失球——後期爆發（對波黑方式）可能重演",
+      "Over/Under 2.5目標差：多數模型與博彩均傾向Under（56-64%），符合雙方謹慎出戰的判斷"
+    ],
+    "consensus_lean": "draw",
+    "dissent": "部分預測機構（Goal.com預測3-2瑞士勝、Racing Post押注瑞士取勝、CapperTek模擬瑞士3-1勝、The Celtic Star支持瑞士勝）認為瑞士歐洲聯賽經驗和戰術複雜性對加拿大更具殺傷力，且加拿大在本屆大賽尚未真正面對過如瑞士這樣組織嚴密的頂級歐洲球隊（波黑和9人卡塔爾均非同等級對手）。此外，YouTube預測KOL（2026 FIFA World Cup Switzerland vs Canada Preview）將比分預測為2-2，認為加拿大情感動力（為Koné）可能推動更主動出擊。Ladbrokes亦提出加拿大在兩場比賽均有丟球，若比分走平加拿大已達目標，因此可能並不如想象中保守。"
+  },
+  "sources": [
+    {
+      "url": "https://www.fourfourtwo.com/team/switzerland-world-cup-2026-squad",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/canada-world-cup-2026-squad",
+      "type": "squad"
+    },
+    {
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/475/sui",
+      "type": "squad_stats"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/206/sort/position/dir/desc/Canada",
+      "type": "squad_stats"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-8/",
+      "type": "injury"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-11/",
+      "type": "injury"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-10/",
+      "type": "injury"
+    },
+    {
+      "url": "https://apps.rotowire.com/soccer/headlines/miro-muheim-injury-still-training-apart-520472",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/headlines/stephen-eustaquio-injury-absent-from-training-520370",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/headlines/stephen-eustaquio-injury-returns-to-training-520530",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.flashscore.com/news/soccer-world-championship-canada-left-nervous-as-injuries-still-in-play-ahead-of-key-game-against-switzerland/M1yaS4if/",
+      "type": "injury_update"
+    },
+    {
+      "url": "https://www.sportsnet.ca/fifa-world-cup/article/canadas-stephen-eustaquio-misses-training-ahead-of-switzerland-game/",
+      "type": "injury_update"
+    },
+    {
+      "url": "https://www.sportsnet.ca/fifa-world-cup/article/canada-not-allowing-injury-trouble-to-derail-momentum/",
+      "type": "injury_update"
+    },
+    {
+      "url": "https://canadiansoccerdaily.com/2026/06/21/canadas-stephen-eustaquio-misses-canmnt-training-before-world-cup-match-vs-switzerland/",
+      "type": "injury_update"
+    },
+    {
+      "url": "https://www.rte.ie/sport/world-cup-2026/2026/0619/1579232-canada-shaken-by-horror-kone-injury-says-marsch/",
+      "type": "injury"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/team-news/canada-vs-qatar-injury-suspension-list-predicted-xis_599326.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://blog.wego.com/world-cup-injuries-players-ruled-out/",
+      "type": "injury"
+    },
+    {
+      "url": "https://worldsoccertalk.com/amp/world-cup/is-alphonso-davies-playing-canada-vs-qatar-projected-lineups-for-the-2026-world-cup-group-b-match/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://apnews.com/article/world-cup-2026-canada-ed7d003bcae5f24f3653eaf3fe156987",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-b-standings-results-table-2026-canada/37b86b13d08f8064c2276e2c",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/",
+      "type": "standings"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup-2026-group-b-standings-results-and-who-can-qualify-f202606-n-2/",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.365scores.com/football/league/fifa-world-cup-5930/standings",
+      "type": "standings"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760440/qatar-canada",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.espn.com.au/football/match/_/gameId/760439",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/18/canada-qatar-world-cup-2026-group-b-match-report",
+      "type": "match_result"
+    },
+    {
+      "url": "https://apnews.com/article/switzerland-bosnia-score-world-cup-e5edc7f0e9218d0919cf14610c7443d2",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.rediff.com/sports/report/fifa-world-cup-2026-switzerland-vs-bosnia-result-switzerland-boost-qualification-hopes-with-big-win/20260619.htm",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.skysports.com/football/canada-vs-qatar/report/549792",
+      "type": "match_result"
+    },
+    {
+      "url": "https://www.independent.co.uk/sport/football/switzerland-bosnia-live-score-world-cup-2026-result-b2998515.html",
+      "type": "match_result"
+    },
+    {
+      "url": "https://ground.news/article/boualem-khoukhis-goal-on-header-in-stoppage-time-earns-qatar-a-1-1-world-cup-draw-with-switzerland_5f4e18",
+      "type": "match_result"
+    },
+    {
+      "url": "https://canadiansoccerdaily.com/2026/06/16/qatar-draw-was-a-wake-up-call-for-switzerland-vargas/",
+      "type": "analysis"
+    },
+    {
+      "url": "https://insightcrunch.com/2026/06/19/switzerland-vs-bosnia-analysis/",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://worldofsports.io/a/yahoo-news/switzerland-4-1-bosnia-vargas-manzambi-xhaka-1781829757",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://saudigazette.com.sa/article/662289/sports/switzerland-beats-bosnia-4-1-after-tactical-use-of-hydration-break",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/switzerland-vs-bosnia-and-herzegovina-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-118514",
+      "type": "tactical_analysis"
+    },
+    {
+      "url": "https://www.thecanadianwire.com/news/canada-faces-switzerland-at-bc-place-with-a-world-cup-knockout-berth-on-the-line",
+      "type": "preview"
+    },
+    {
+      "url": "https://fwctimes.com/switzerland-vs-canada-lineups/",
+      "type": "lineup_preview"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49141389/fifa-world-cup-2026-switzerland-vs-canada-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.dazn.com/en-CA/news/soccer/fifa-world-cup-26-switzerland-vs-canada-preview-team-news-how-to-watch/l1vrjh738ljf1phxg77ddryz9",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.dazn.com/en-GB/news/football/fifa-world-cup-26-switzerland-vs-canada-preview-team-news-how-to-watch/l1vrjh738ljf1phxg77ddryz9",
+      "type": "preview"
+    },
+    {
+      "url": "https://polymarket.com/sports/world-cup/fifwc-che-can-2026-06-24",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://octagonai.co/markets/sports/soccer/group-b-winner/",
+      "type": "prediction_market"
+    },
+    {
+      "url": "https://www.vegasinsider.com/soccer/2026-world-cup-group-b-odds-to-win-or-qualify/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.thelines.com/odds/world-cup/group-b/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.toffeeweb.com/switzerland-vs-canada-predictions-picks-odds-24-06-2026/",
+      "type": "betting"
+    },
+    {
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/switzerland-vs-canada-odds-062426-217201",
+      "type": "betting"
+    },
+    {
+      "url": "https://thesportsrush.com/switzerland-v-canada-predictions/",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://www.cappertek.com/article.asp?a=canada-vs-switzerland-betting-odds-free-picks-and-predictions-6-24-2026-411769",
+      "type": "betting_analysis"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/2026-world-cup-group-b-guide-teams-fixtures-predictions-and-latest-odds/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760463",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.asianetnews.com/casinos/worldcup-2026/switzerland-vs-canada-vs-group-stage/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://theanalyst.com/articles/switzerland-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview",
+      "type": "opta_model"
+    },
+    {
+      "url": "https://wc26.tinjak.com",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://onthepitch.now/forecast/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.dimers.com/news/todays-world-cup-2026-predictions-and-betting-guide-ft-canada-and-mexico-thursday-june-18",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://predictionmarketspicks.com/world-cup/switzerland",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://fwctimes.com/switzerland-vs-canada-prediction/",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.mexc.com/news/1163975",
+      "type": "model_prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xztvMbylM5k",
+      "type": "kol_video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IPyuTUBgwys",
+      "type": "kol_video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VcZ6H13WjAk",
+      "type": "kol_video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NJw7hKhVQCQ",
+      "type": "news_video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rmrkLJ8-qss",
+      "type": "news_video"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/switzerland-vs-canada-prediction-24-06-2026/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/switzerland-vs-canada-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-canada-prediction-team-news-lineups_599751.html",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/switzerland-canada-world-cup-preview-predictions-tips-2026-06-22/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/switzerland-vs-canada-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a3SeE5N0GPTV/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.goal.com/en-za/betting/world-cup/switzerland-vs-canada-predictions-24-06-2026/A:blt371b3c7a925286fe",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.juvefc.com/switzerland-v-canada-predictions/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59555-Switzerland-vs-Canada.htm",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/21/switzerland-v-canada-predictions/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://blog.ke.sportpesa.com/2026/06/21/switzerland-vs-canada-prediction-world-cup-2026-preview-team-news-lineups-h2h/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://thecelticstar.com/switzerland-v-canada-predictions/",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.sportskeeda.com/football/switzerland-vs-canada-prediction-betting-tips-june-24th-2026",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.johnnybet.com/switzerland-vs-canada-prediction",
+      "type": "expert_prediction"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/head-to-head/switzerland-vs-canada-head-to-head-record-and-past-meetings_599746.html",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://fwctimes.com/switzerland-vs-canada-live-score/",
+      "type": "head_to_head"
+    },
+    {
+      "url": "https://www.goal.com/en-za/news/switzerland-canada-world-cup-preview/blt4b338f1933f5739a",
+      "type": "preview"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/switzerland-predicted-lineup-vs-bosnia-and-herzegovina-at-the-2026-fifa-world-cup-2026-06-17",
+      "type": "lineup"
+    },
+    {
+      "url": "https://www.skysports.com/football/switzerland-vs-canada/549817",
+      "type": "form_h2h"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/19/canada-vs-qatar-world-cup-3-goals-for-david-2-red-cards-1-injured-kone",
+      "type": "match_report"
+    },
+    {
+      "url": "https://www.cbssports.com/betting/news/world-cup-odds/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.bigsoccer.com/threads/2026-world-cup-group-stage-predictions.2138408/",
+      "type": "forum"
+    },
+    {
+      "url": "https://ubyssey.ca/sports/world-cup-2026-canada-qatar-recap-06-18-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.onesoccer.ca/a/2026-world-cup-group-b-preview-switzerland",
+      "type": "media"
+    },
+    {
+      "url": "https://sport-news.ca/news/world-cup-2026-group-b-preview",
+      "type": "media"
+    }
+  ],
+  "source_count": 82,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.26,
+        "away": 0.22
+      },
+      "scoreline": "2:1",
+      "note": "瑞士防守穩健，主場略佔上風應能小勝加拿大。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "瑞士戰術嚴謹且經驗豐富，預計能小勝加拿大。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.3,
+        "away": 0.15
+      },
+      "scoreline": "1:0",
+      "note": "瑞士防守穩健經驗豐富，加拿大攻堅乏力，看好瑞士小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "瑞士防守穩健略勝一籌，小勝加拿大"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.28,
+        "away": 0.24
+      },
+      "scoreline": "2:1",
+      "note": "瑞士憑藉豐富大賽經驗與穩健防守，能有效限制加拿大反擊並險勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "瑞士實力占優且主場優勢明顯，預計擊敗加拿大。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.5,
+        "draw": 0.3,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "瑞士經驗豐富，控制節奏，加拿大難以突破。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.484,
+      "draw": 0.29,
+      "away": 0.226
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-22T231822Z"
+}

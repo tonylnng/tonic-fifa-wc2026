@@ -1,8 +1,8 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-22T11:21:36Z",
-  "total_matches_scored": 36,
-  "max_match_completed": 40,
+  "last_updated": "2026-06-22T23:16:39Z",
+  "total_matches_scored": 37,
+  "max_match_completed": 41,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -36,13 +36,13 @@
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 32,
-      "outcome_correct": 21,
-      "outcome_accuracy": 0.6562,
+      "evaluated": 33,
+      "outcome_correct": 22,
+      "outcome_accuracy": 0.6667,
       "exact_correct": 3,
-      "exact_accuracy": 0.0938,
-      "brier_score": 0.264,
-      "latest_match": 40,
+      "exact_accuracy": 0.0909,
+      "brier_score": 0.2609,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -524,19 +524,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.6,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "Z.ai GLM-4.7",
       "kind": "ai",
-      "evaluated": 28,
-      "outcome_correct": 18,
-      "outcome_accuracy": 0.6429,
-      "exact_correct": 2,
-      "exact_accuracy": 0.0714,
-      "brier_score": 0.2721,
-      "latest_match": 40,
+      "evaluated": 29,
+      "outcome_correct": 19,
+      "outcome_accuracy": 0.6552,
+      "exact_correct": 3,
+      "exact_accuracy": 0.1034,
+      "brier_score": 0.2663,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -958,19 +973,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.68,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "Google Gemini 3.1 Pro",
       "kind": "ai",
-      "evaluated": 28,
-      "outcome_correct": 18,
-      "outcome_accuracy": 0.6429,
-      "exact_correct": 1,
-      "exact_accuracy": 0.0357,
-      "brier_score": 0.2685,
-      "latest_match": 40,
+      "evaluated": 29,
+      "outcome_correct": 19,
+      "outcome_accuracy": 0.6552,
+      "exact_correct": 2,
+      "exact_accuracy": 0.069,
+      "brier_score": 0.2635,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -1392,19 +1422,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.65,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "xAI Grok 4.20 Reasoning",
       "kind": "ai",
-      "evaluated": 28,
-      "outcome_correct": 18,
-      "outcome_accuracy": 0.6429,
-      "exact_correct": 1,
-      "exact_accuracy": 0.0357,
-      "brier_score": 0.2847,
-      "latest_match": 40,
+      "evaluated": 29,
+      "outcome_correct": 19,
+      "outcome_accuracy": 0.6552,
+      "exact_correct": 2,
+      "exact_accuracy": 0.069,
+      "brier_score": 0.2765,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -1826,19 +1871,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.78,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 32,
-      "outcome_correct": 20,
-      "outcome_accuracy": 0.625,
-      "exact_correct": 2,
-      "exact_accuracy": 0.0625,
-      "brier_score": 0.2677,
-      "latest_match": 40,
+      "evaluated": 33,
+      "outcome_correct": 21,
+      "outcome_accuracy": 0.6364,
+      "exact_correct": 3,
+      "exact_accuracy": 0.0909,
+      "brier_score": 0.2615,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -2320,19 +2380,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.75,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "OpenAI GPT-5.1 Thinking",
       "kind": "ai",
-      "evaluated": 28,
-      "outcome_correct": 17,
-      "outcome_accuracy": 0.6071,
-      "exact_correct": 1,
-      "exact_accuracy": 0.0357,
-      "brier_score": 0.2574,
-      "latest_match": 40,
+      "evaluated": 29,
+      "outcome_correct": 18,
+      "outcome_accuracy": 0.6207,
+      "exact_correct": 2,
+      "exact_accuracy": 0.069,
+      "brier_score": 0.253,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -2754,19 +2829,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.64,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "AI（本站主預測）",
       "kind": "ai",
-      "evaluated": 36,
-      "outcome_correct": 21,
-      "outcome_accuracy": 0.5833,
+      "evaluated": 37,
+      "outcome_correct": 22,
+      "outcome_accuracy": 0.5946,
       "exact_correct": 3,
-      "exact_accuracy": 0.0833,
-      "brier_score": 0.2478,
-      "latest_match": 40,
+      "exact_accuracy": 0.0811,
+      "brier_score": 0.245,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -3308,19 +3398,34 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.72,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 32,
-      "outcome_correct": 18,
-      "outcome_accuracy": 0.5625,
-      "exact_correct": 1,
-      "exact_accuracy": 0.0312,
-      "brier_score": 0.2481,
-      "latest_match": 40,
+      "evaluated": 33,
+      "outcome_correct": 19,
+      "outcome_accuracy": 0.5758,
+      "exact_correct": 2,
+      "exact_accuracy": 0.0606,
+      "brier_score": 0.2426,
+      "latest_match": 41,
       "stale": false,
       "matches": [
         {
@@ -3802,6 +3907,21 @@
           "final_outcome": "away",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 41,
+          "stage": "Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "home_zh": "阿根廷",
+          "away_zh": "奧地利",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.74,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
