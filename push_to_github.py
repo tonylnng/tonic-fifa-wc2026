@@ -53,7 +53,7 @@ if os.path.isdir(SITE_SRC):
 #     這些文檔是排程執行的權威依據，每次更新都應同步到 repo 作參考。
 #     來源為專案根目錄 /home/user/workspace/wc2026/，目的地為 repo 根目錄。
 PROJ_ROOT = os.environ.get("WC_PROJ_ROOT", "/home/user/workspace/wc2026")
-for doc in ["CRON_RUNBOOK.md"]:
+for doc in ["CRON_RUNBOOK.md", "PREDICTION_METHODOLOGY.md", "README.md"]:
     s = os.path.join(PROJ_ROOT, doc)
     if os.path.exists(s):
         shutil.copy2(s, os.path.join(REPO, doc))

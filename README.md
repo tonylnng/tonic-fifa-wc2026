@@ -1,6 +1,6 @@
 # 世界盃 2026 AI 預測中心
 
-一個全自動的 FIFA 世界盃 2026 賽事預測系統。雲端工作區每隔數小時研究最新情報、產生 X:X 比分預測與分析理由，把資料推送到 GitHub；你的 Docker 伺服器自動拉取並展示；同時同步到 Notion 追蹤。所有使用者介面皆為**繁體中文**。
+一個全自動的 FIFA 世界盃 2026 賽事預測系統。雲端工作區每日一次研究最新情報、產生 X:X 比分預測與分析理由，把資料推送到 GitHub；你的 Docker 伺服器自動拉取並展示；同時同步到 Notion 追蹤。所有使用者介面皆為**繁體中文**。
 
 - 🌐 雲端版：<https://tonic-fifa-wc2026.pplx.app>
 - 🏠 自架版：<https://wc2026.toniclab.ai>（你的伺服器）
@@ -16,7 +16,7 @@
 > 上圖為 animated SVG overview（在瀏覽器 / GitHub 開啟時資料流會動）。完整技術圖表（應用架構、工作流程、狀態、循序、ER 圖、資料字典）見 [`docs/技術圖表.md`](docs/技術圖表.md)。資料流向：
 
 ```
-雲端工作區（每 8 小時 · 16 強起每 4 小時）
+雲端工作區（每日一次 · HKT 13:00）
    │  研究 ≥50 來源 → X:X 預測 + 理由 → 算準確率
    ├──→ push data/ ─────────────→ GitHub（資料中轉站）
    │                                   │
@@ -32,7 +32,7 @@
 
 | 角色 | 定時任務 | 頻率 |
 |------|----------|------|
-| 雲端工作區 | 產生預測 → push GitHub → 同步 Notion → 重新發布 pplx.app | 每 8 小時（16 強起每 4 小時） |
+| 雲端工作區 | 產生預測 → push GitHub → 同步 Notion → 重新發布 pplx.app | 每日一次（HKT 13:00） |
 | 你的伺服器 | 偵測 GitHub 新 commit → `git pull` → 重啟容器 | webhook 即時 ／ systemd timer 每 5 分鐘輪詢 |
 
 ---
@@ -144,7 +144,7 @@ sudo systemctl enable --now wc2026-deploy.timer
 systemctl list-timers wc2026-deploy.timer   # 確認下次執行時間
 ```
 
-> 輪詢間隔預設 **每 15 分鐘**（`wc2026-deploy.timer` 的 `OnUnitActiveSec=15min`）。因為雲端每 8 小時（16 強起 4 小時）才更新一次，15 分鐘已綣綣有餘；要更即時可改用方案 A webhook。
+> 輪詢間隔預設 **每 15 分鐘**（`wc2026-deploy.timer` 的 `OnUnitActiveSec=15min`）。因為雲端每日一次（HKT 13:00）才更新一次，15 分鐘已綽綽有餘；要更即時可改用方案 A webhook。
 
 ---
 
@@ -203,7 +203,7 @@ sudo systemctl status certbot.timer                 # 憑證自動續期
 
 ### 一次排程做了什麼
 
-定時任務每 8 小時觸發（小組賽；16 強起每 4 小時），走一條完整管線：
+定時任務每日一次觸發（HKT 13:00，含淘汰賽），走一條完整管線：
 
 ```
 判斷階段 → 找未來 48h 內、尚無結果的即將開賽比賽
