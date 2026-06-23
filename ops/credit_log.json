@@ -3,6 +3,7 @@
   "notion_data_source_id": "609f32ea-11ff-46a2-a3f5-d97ebdf70cec",
   "readings": [
     {"at_hkt": "2026-06-23T09:14", "credit_used": 55065.96, "note": "Exec Scheduled Job"},
-    {"at_hkt": "2026-06-23T09:24", "credit_used": 55194.66, "note": "added monitoring and updated features"}
+    {"at_hkt": "2026-06-23T09:24", "credit_used": 55194.66, "note": "added monitoring and updated features"},
+    {"at_hkt": "2026-06-23T22:27", "credit_used": 55303.55, "note": "sync todo list & credit log to github; added credit analyze scheduled job"}
   ]
 }
