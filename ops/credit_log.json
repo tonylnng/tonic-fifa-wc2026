@@ -4,6 +4,7 @@
   "readings": [
     {"at_hkt": "2026-06-23T09:14", "credit_used": 55065.96, "note": "Exec Scheduled Job"},
     {"at_hkt": "2026-06-23T09:24", "credit_used": 55194.66, "note": "added monitoring and updated features"},
-    {"at_hkt": "2026-06-23T22:27", "credit_used": 55303.55, "note": "sync todo list & credit log to github; added credit analyze scheduled job"}
+    {"at_hkt": "2026-06-23T22:27", "credit_used": 55303.55, "note": "sync todo list & credit log to github; added credit analyze scheduled job"},
+    {"at_hkt": "2026-06-23T22:48", "credit_used": 55404.25, "note": "使用者提供讀數"}
   ]
 }
