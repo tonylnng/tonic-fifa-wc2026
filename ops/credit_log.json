@@ -1,0 +1,8 @@
+{
+  "_doc": "Perplexity Computer 點數使用記錄。每筆 reading 由使用者提供 credit_used（UI 上的累計 Credit Used 數字）。analyze_credit.py 用相鄰兩日讀數差算每日消耗，再比對 7 日均。",
+  "notion_data_source_id": "609f32ea-11ff-46a2-a3f5-d97ebdf70cec",
+  "readings": [
+    {"at_hkt": "2026-06-23T09:14", "credit_used": 55065.96, "note": "Exec Scheduled Job"},
+    {"at_hkt": "2026-06-23T09:24", "credit_used": 55194.66, "note": "added monitoring and updated features"}
+  ]
+}
