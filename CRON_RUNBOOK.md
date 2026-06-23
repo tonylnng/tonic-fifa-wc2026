@@ -12,15 +12,19 @@
 
 ## 1. 判斷階段與即將開賽的比賽
 - 讀取 `data/fixtures.json`，找出當前時間之後 48 小時內、且尚未有結果（results.json 無紀錄）的比賽。
-- 若已進入 16 強（任何 stage 為 "Round of 16" 之後的比賽即將開賽），代表進入 4 小時排程。
+- **淘汰賽識別**：48 隊賽制下，淘汰賽自 **32 強（Round of 32）** 開始，依序 Round of 16 / Quarter-final / Semi-final / Third place / Final。若即將開賽比賽的 stage 屬上述任一淘汰賽階段，**該場預測需額外執行 2.6 點球風險維度**。
+- **排程固定為每日一次（香港時間 13:00，即 UTC `0 5 * * *`），直到賽事結束。即使進入 32 強／16 強等淘汰賽亦維持每日一次此頻率，不切換為每日兩次或每 4 小時。**（2026-06-23 成本優化：由每日兩次 07:00/19:00 降為每日一次。）
 
 ## 2. 收集最新情況 + 產生預測
 
 **預測使用模型：Anthropic Claude Sonnet 4.6。** 研究子代理請以 `run_subagent(..., model="claude_sonnet_4_6")` 啟動，並在每個預測檔的 `model` 欄位填 `"claude-sonnet-4.6"`。
 
+**合併研究子代理（2026-06-23 成本優化）：** 同一次 run 的所有即將開賽比賽，盡量用「一個」研究子代理一次研究多場（而非每場各起一個），以減少子代理啟動與重複搜尋的固定開銷；場次很多（>3）時可分 2 組，每組一個子代理。
+
 **來源數要求（依開賽時間分級）：**
-- **近 36 小時內開賽**的比賽：**收集最少 100 處來源**（≥100）。
-- 其餘 48h 窗口內比賽：最少 50 處來源（≥50）。
+- **近 36 小時內開賽**的比賽：**收集最少 40 處來源**（≥40）。
+- 其餘 48h 窗口內比賽：最少 25 處來源（≥25）。
+（2026-06-23 成本優化：由 ≥100/≥50 降為 ≥40/≥25。）
 （以 `fixtures.json` 的 `kickoff_utc` 對比觸發時間判斷是否落在 36h 內。）
 
 對每場即將開賽的比賽，研究最新情報（球員狀態、傷兵、評論員意見、官方、論壇、社群、KOL、YouTube、博彩、模型），產生：
@@ -31,7 +35,7 @@
 - **`prediction.scenarios`**：2-4 個多角度情境（如「模型共識／博彩盤口／保守情境／進攻火力」），每個含 `name`、`scoreline`、`outcome`、`confidence`、`basis`（繁中一句依據）。
 - **`prediction.benchmarks`**：2-4 個公開基準線的隱含機率，用於與 AI 並列對照與計分。每個含 `source`（如「博彩隱含機率」「Opta 超級電腦」「Kalshi 預測市場」）、`kind`（betting/model/market/ai）、`win_prob`{home,draw,away}（總和≈1）、可選 `scoreline`、`note`（繁中一句來源說明）。基準線數值由研究時蒐集到的博彩盤口、Opta／超級電腦、預測市場等推導，**務必與該場 `key_factors` 中的輿論共識一致**。
 - `reasoning.summary`（繁體中文，詳細）、`key_factors`（繁體中文清單）、`consensus_lean`、`dissent`
-- `sources`（≥50 或 ≥100，含 url/type）、`source_count`
+- `sources`（≥25 或 ≥40，含 url/type）、`source_count`
 - `run_id` = 觸發時的 UTC 時間戳，格式 `YYYY-MM-DDTHHMMZ`
 - 寫入 `data/predictions/match_{N}__{run_id}.json`（**獨立保存，不覆蓋舊批次**）
 
@@ -53,6 +57,19 @@ python3 /home/user/workspace/wc2026/multimodel_predict.py --match {N}
   - 若某模型回傳失敗或逾時，腳本會略過該模型，其餘照常寫入；共識以可用模型計算。
   - 若憑證庫該金鑰需核准（`list_credentials` 顯示 `requires_approval=true`），先 `approve_credential` 再執行。
 - 前端會讀取頂層 `pred.consensus` 與 `pred.benchmarks`（含 `kind:"ai"`、`model_id`），在卡片詳情顯示「模型共識」區與「多模型對決」區。
+
+## 2.6 淘汰賽點球風險維度（**32 強起每場必做**）
+
+**僅淘汰賽階段（stage 含 "Round of 32" / "Round of 16" / "Quarter-final" / "Semi-final" / "Third place" / "Final"）的即將開賽比賽才執行；小組賽完全略過此步驟。** 由於淘汰賽和局會進入加時／點球，預測失準風險升高，故自 **32 強起** 為每場補上點球與心理維度，寫入該場 Sonnet 4.6 預測檔的 `prediction.knockout` 區塊。
+
+用 Sonnet 4.6 研究子代理（與主預測同一研究流程內或緊接其後），針對雙方蒐集：
+- **近 5 年（含本屆）大型國際賽事點球大戰數據**：世界盃、洲際國家盃、歐國盃、美洲盃、各洲區資格賽附加賽等。逐隊統計 `shootouts`（場次）、`won`（勝出）、`win_rate`、可選 `conversion_rate`（罰球命中率）、一句 `recent`（近期紀錄，繁中），附 `sources`。**找不到確證的數字寧可保守填 0 並在 recent 說明，切勿杜撰。**
+- **球員心理素質分析**（`psychology.home/away`，全繁中）：門將撲點紀錄、隊長／核心大賽經驗、年輕陣容抗壓、主罰順序穩定度等。
+- **主要主罰球員**（`key_takers`，選填 2-5 人）：`team`(home/away)、`name_zh`、`record`（命中紀錄繁中）。
+- **機率估計**：`draw_after_90_prob`、`extra_time_prob`、`shootout_prob`、`advance_prob`{home,away}（二向總和=1，含加時／點球後最終晉級）。
+- **綜合點球風險** `penalty_risk`（high/medium/low）與 `risk_note`（1-3 句繁中提示）。
+
+格式範本見 `data/predictions/SCHEMA.md` 的 `knockout` 區塊；型別見 `site/client/src/lib/types.ts` 的 `KnockoutInfo`。前端 `PredictionCard` 會在卡片角落顯示「點球風險」徽章，並在詳情顯示「淘汰賽點球風險分析」完整區塊（三項機率、晉級條、雙方近 5 年點球戰績、心理素質、主罰球員、風險提示）。**小組賽預測檔不含 `knockout`，前端自動不顯示，互不影響。**
 
 ## 3. 更新已完成比賽的結果 + 賽後覆盤
 - 搜尋是否有新完成的比賽，將最終比分寫入 `data/results.json`（results 陣列，含 match, scoreline, home, away, date）。
@@ -81,6 +98,7 @@ python3 /home/user/workspace/wc2026/compute_benchmark_scores.py
 - `update_accuracy.py`：勝負／比分命中率（由 results.json 的 scoreline 比對各場最新批次預測）。
 - `compute_calibration.py`：把預測信心分桶，對比實際命中率，輸出 `data/calibration.json`（含 Brier、ECE、過度自信 overconfidence）。
 - `compute_benchmark_scores.py`：在相同已完成比賽上，把 AI 與各 `benchmarks` 來源並列計分（勝負命中、比分命中、Brier），輸出 `data/benchmark_scores.json` 排行榜。
+  - **逐場明細自動維護（每場比賽完結都更新）**：每個來源輸出 `matches[]`（逐場：stage、中英雊名、預測比分與勝負、**當時信心 %**、實際比分與勝負、`outcome_hit`、`exact_hit`），並標記停更來源 `stale`/`latest_match` 與頂層 `max_match_completed`。前端「校準與基準」頁的 AI 列可點擊展開（預設收合）顯示逐場表格與命中圖示（✓ 勝負命中、✗ 未中、金色高亮＝比分命中），並內含「信心」欄；停更來源顯示琥珀「已停更·止於 #N」徽章。**此明細由步驟 4 的 `compute_benchmark_scores.py` 每次自動重算，無需手動維護。**
 
 ## 5. 同步資料到網站目錄
 ```bash
@@ -117,8 +135,8 @@ cd /home/user/workspace/wc2026/site && npm run build
 - 若無新事件，靜默結束（不發通知）。
 
 ## 排程
-- 小組賽期間：每 8 小時（UTC 0/8/16 = HKT 08:00/16:00/00:00）。
-- 進入 16 強後：改為每 4 小時。屆時更新 cron 為 `0 0,4,8,12,16,20 * * *`。
+- **固定每日一次：香港時間 13:00，即 UTC `0 5 * * *`。直到賽事結束。**（2026-06-23 成本優化）
+- **進入 32 強／16 強等淘汰賽亦維持此頻率，不切換為每 4 小時。**（使用者明確要求；舊版「每 8 / 每 4 小時」規則已廢止。）
 
 ## 維護備註
 - `kickoff_utc` 由 `add_kickoff_utc.py`（城市→IANA 時區）產生，已寫入 `fixtures.json`；若日後新增/修改場次，重新執行該腳本即可。

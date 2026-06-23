@@ -49,6 +49,15 @@ if os.path.isdir(SITE_SRC):
         if os.path.exists(s):
             shutil.copy2(s, os.path.join(SITE_DST, cfg))
 
+# 1c. 同步根目錄參考文檔（runbook 等）。
+#     這些文檔是排程執行的權威依據，每次更新都應同步到 repo 作參考。
+#     來源為專案根目錄 /home/user/workspace/wc2026/，目的地為 repo 根目錄。
+PROJ_ROOT = os.environ.get("WC_PROJ_ROOT", "/home/user/workspace/wc2026")
+for doc in ["CRON_RUNBOOK.md"]:
+    s = os.path.join(PROJ_ROOT, doc)
+    if os.path.exists(s):
+        shutil.copy2(s, os.path.join(REPO, doc))
+
 # 2. git add + 檢查是否有變更
 run(["git", "add", "-A"], cwd=REPO)
 status = run(["git", "status", "--porcelain"], cwd=REPO)
