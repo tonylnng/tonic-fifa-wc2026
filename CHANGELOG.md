@@ -6,6 +6,22 @@
 
 ---
 
+## [文檔同步] 2026-06-23（HKT）文檔自動同步範圍擴充
+
+### 變更（Changed）
+
+- **`push_to_github.py` 自動同步清單擴充至 7 份核心說明文檔**：CRON_RUNBOOK.md、PREDICTION_METHODOLOGY.md、README.md、部署說明.md、automation/排程自動化總覽.md、deploy/自動部署說明.md、docs/技術圖表.md。
+- **同步邏輯升級**：支援子資料夾相對路徑並自動建立目的地子目錄；來源不存在的項目跨過，不覆蓋 repo 現有版本。
+
+### 修正（Fixed）
+
+- **補回孤兒文檔**：部署說明.md、automation/排程自動化總覽.md、deploy/自動部署說明.md、docs/技術圖表.md 原本只存在於 repo、工作區缺少權威來源，已補回工作區。
+- **修正 5 處過時頻率描述**（部署說明.md ×1、automation 總覽 ×3、deploy 說明 ×1）：「每 8 小時／16 強起每 4 小時」→ 「每日一次 HKT 13:00」。
+
+詳見 `RELEASE_NOTES_2026-06-23-doc-sync-expansion.md`。
+
+---
+
 ## [流程優化] 2026-06-23（HKT）成本優化 + Runbook 同步至 repo
 
 ### 變更（Changed）

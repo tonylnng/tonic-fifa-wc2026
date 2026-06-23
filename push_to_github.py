@@ -49,14 +49,26 @@ if os.path.isdir(SITE_SRC):
         if os.path.exists(s):
             shutil.copy2(s, os.path.join(SITE_DST, cfg))
 
-# 1c. 同步根目錄參考文檔（runbook 等）。
-#     這些文檔是排程執行的權威依據，每次更新都應同步到 repo 作參考。
-#     來源為專案根目錄 /home/user/workspace/wc2026/，目的地為 repo 根目錄。
+# 1c. 同步關鍵說明文檔（runbook / 方法論 / README / 部署 / 自動化總覽等）。
+#     這些文檔是專案權威說明，每次更新都應同步到 repo 作參考。
+#     清單項為相對專案根目錄的路徑（支援子資料夾）；會自動建立目的地子目錄。
+#     來源不存在的項目會被跨過（不會覆蓋 repo 現有版本）。
 PROJ_ROOT = os.environ.get("WC_PROJ_ROOT", "/home/user/workspace/wc2026")
-for doc in ["CRON_RUNBOOK.md", "PREDICTION_METHODOLOGY.md", "README.md"]:
+DOC_SYNC_LIST = [
+    "CRON_RUNBOOK.md",
+    "PREDICTION_METHODOLOGY.md",
+    "README.md",
+    "部署說明.md",
+    os.path.join("automation", "排程自動化總覽.md"),
+    os.path.join("deploy", "自動部署說明.md"),
+    os.path.join("docs", "技術圖表.md"),
+]
+for doc in DOC_SYNC_LIST:
     s = os.path.join(PROJ_ROOT, doc)
     if os.path.exists(s):
-        shutil.copy2(s, os.path.join(REPO, doc))
+        d = os.path.join(REPO, doc)
+        os.makedirs(os.path.dirname(d), exist_ok=True)
+        shutil.copy2(s, d)
 
 # 2. git add + 檢查是否有變更
 run(["git", "add", "-A"], cwd=REPO)
