@@ -66,8 +66,12 @@ export function TrendsTab({ preds }: { preds: PredictionsData }) {
       <div className="text-center py-16 text-muted-foreground">
         <TrendingUp className="w-10 h-10 mx-auto mb-3 opacity-40" />
         <p className="max-w-md mx-auto">
-          目前每場比賽只有單一預測批次，尚無演變可比較。當自動流程累積到 2
-          個以上批次後，這裡會以折線圖呈現 AI 信心度與勝率隨情報更新的變化。
+          目前尚無可比較的多批次比賽。預測演變只適用於「開賽前被預測超過一次」的比賽——
+          需累積 2 個以上預測批次，才能以折線圖呈現 AI 信心度與勝率隨情報更新的變化。
+        </p>
+        <p className="max-w-md mx-auto mt-3 text-xs opacity-80">
+          自 2026-06-23 起預測排程改為每日一次（成本優化），多數比賽只會在開賽前進入預測窗口一次、
+          因而只有單一批次，不會出現在此頁；這屬正常情形，並非資料停止更新。
         </p>
       </div>
     );
@@ -75,9 +79,13 @@ export function TrendsTab({ preds }: { preds: PredictionsData }) {
 
   return (
     <div>
-      <p className="text-sm text-muted-foreground mb-3">
+      <p className="text-sm text-muted-foreground mb-1">
         選擇一場比賽，查看 AI 預測在每次執行批次間的演變（信心度與三向勝率，單位
         %）。
+      </p>
+      <p className="text-xs text-muted-foreground/80 mb-3">
+        僅顯示開賽前被多次預測（≥2 批次）的比賽。每日一次模式下，多數比賽只有單一預測批次，
+        不會出現在此清單——這屬正常，並非更新中斷。
       </p>
 
       {/* match selector chips */}
