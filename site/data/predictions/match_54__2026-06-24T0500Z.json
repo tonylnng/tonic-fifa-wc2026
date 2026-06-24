@@ -1,0 +1,418 @@
+{
+  "match": 54,
+  "stage": "Group A – Matchday 3",
+  "home": "South Africa",
+  "away": "South Korea",
+  "kickoff_utc": "2026-06-25T01:00:00Z",
+  "kickoff_hkt": "2026-06-25 09:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.22,
+      "draw": 0.24,
+      "away": 0.54
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "南韓穩健推進晉級",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.62,
+        "basis": "Son Heung-min及Lee Kang-in主導攻勢，南非雖有首場送紅牌的Sithole復出但Mokoena停賽削弱中場，南韓先失一球後依靠品質優勢逆轉。"
+      },
+      {
+        "name": "南非主場絕地求生",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.18,
+        "basis": "南非Makgopa單刀進球，Ronwen Williams反撲神勇，以單比分奇蹟晉級，需倚賴捷克同步取得勝利。"
+      },
+      {
+        "name": "平局各懷心事",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.14,
+        "basis": "南韓知道平局足以出線故略微保守，南非先取1比0後南韓即刻拉平，雙方陷入僵局。"
+      },
+      {
+        "name": "南韓大勝蓋棺論定",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.1,
+        "basis": "南韓全力出擊，Son及Lee Jae-sung連下兩城，乾淨利落確保小組次名。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 超級電腦模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.18,
+          "draw": 0.247,
+          "away": 0.573
+        },
+        "note": "Dimers AI（截至2026-06-24 02:44）：南韓57.3%勝率，平局24.7%，南非18.0%"
+      },
+      {
+        "source": "BallPrediction 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.3,
+          "draw": 0.2,
+          "away": 0.5
+        },
+        "scoreline": "0:1",
+        "note": "BallPrediction：南非30%、平局20%、南韓50%；最可能比分0-1"
+      },
+      {
+        "source": "bet365 博彩盤口（JohnnyBet整合）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.225,
+          "draw": 0.24,
+          "away": 0.535
+        },
+        "note": "JohnnyBet引述bet365：南韓勝賠率1.6（隱含62.5%），建議南韓勝 + Over 2.5 + 正確比分2-1"
+      },
+      {
+        "source": "SX Bet / Opta 模型",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.189,
+          "draw": 0.25,
+          "away": 0.561
+        },
+        "note": "SX Bet引述Opta賽前模型：南韓晉級機率70.1%，南非約48.9%；市場選邊南韓"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "A組末輪南非對南韓在BBVA球場（墨西哥Monterrey）對決。南韓3分位居第二，平局即可晉級；南非1分墊底，必須取勝。兩隊陣容情況：南非苦惱於Teboho Mokoena（第二張黃牌停賽）及Themba Zwane（紅牌仍停賽兩場），主力中場大減；Sphephelo Sithole停賽一場結束復出，但中場實力已大打折扣。南韓方面無人停賽，Son Heung-min（當季效力拜仁？）、Lee Kang-in（PSG）、Oh Hyun-gyu及Hwang Hee-chan構成強力攻擊陣，Kim Min-jae坐鎮後防。南非在首場因Sithole失誤兼領紅牌丟2球，第二場靠Mokoena點球拼至1-1平捷克；南韓第一場勝南非組別拍檔捷克（2-1，Oh HG入球），第二場1-0負於墨西哥。Dimers給予南韓57.3%勝率，bet365賠率1.6（62.5%），BallPrediction 50%，SXBet Opta模型亦傾向南韓。比賽預測南韓以1-2獲勝，但南非具有「決死求存」的動力可帶來驚喜。信心度0.62。",
+    "key_factors": [
+      "南韓只需平局即可出線，但仍有足夠動力全力爭勝以避免次名較難簽表",
+      "南非Mokoena停賽（第二黃）是重大打擊，中場核心缺陣",
+      "南非Zwane仍因紅牌停賽，邊路衝擊大減",
+      "Son Heung-min及Lee Kang-in構成A組第二最危險攻擊組合",
+      "南非頭三場從未晉級世界盃十六強（包括2010主辦），心理負擔重",
+      "Kim Min-jae主導南韓後防，防線穩固",
+      "BBVA球場（Monterrey）氣候炎熱，對慣打非洲聯賽的南非稍有利",
+      "Dimers模型：南韓57.3%，平局24.7%，南非18.0%",
+      "南非如勝出仍需同組捷克擊敗墨西哥才能晉級，出線路線曲折"
+    ],
+    "consensus_lean": "南韓",
+    "dissent": "BallPrediction給予南非30%勝率，略高於其他模型，反映南非主場氣氛（實際是中立場）及防守韌性的少數看好聲音。部分論壇（Reddit/worldcup）指南非逼平捷克証明其頑強，但整體分析師共識仍力挺南韓。"
+  },
+  "sources": [
+    {
+      "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/preview/south-africa-vs-south-korea-prediction-team-news-lineups_599815.html",
+      "type": "media"
+    },
+    {
+      "url": "https://blog.sx.bet/world-cup/south-africa-vs-south-korea/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760466",
+      "type": "media"
+    },
+    {
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_rsa_kor",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.covers.com/world-cup/south-korea-vs-south-africa-prediction-picks-odds-wednesday-6-24-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://worldcup-2026.bet/en/match/south-africa-vs-south-korea/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.cappertek.com/article.asp?a=south-korea-vs-south-africa-betting-odds-free-picks-and-predictions-6-24-2026-411773",
+      "type": "media"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/south-korea-south-africa/284390",
+      "type": "betting"
+    },
+    {
+      "url": "https://deadspin.com/betting/south-africa-vs-south-korea-world-cup-preview-picks-preview-odds-6-24-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportsline.com/insiders/south-africa-vs-south-korea-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KMQy-bAGq3A",
+      "type": "community"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RtmcqTkYvrs",
+      "type": "community"
+    },
+    {
+      "url": "https://www.johnnybet.com/south-africa-vs-south-korea-predictions",
+      "type": "betting"
+    },
+    {
+      "url": "https://ballprediction.com/wcup/south-africa-v-south-korea",
+      "type": "prediction"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/south-africa-vs-south-korea-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/south-korea-vs-south-africa-170000227.html",
+      "type": "media"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MnieAzmxbf0",
+      "type": "community"
+    },
+    {
+      "url": "https://footballprediction.app/south-africa-vs-south-korea-prediction",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.inkl.com/news/south-africa-vs-south-korea-world-cup-2026-predictions-and-picks",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=miZSDTnj7eg",
+      "type": "community"
+    },
+    {
+      "url": "https://www.dimers.com/news/world-cup-2026-predictions-today-soccer-betting-guide-cheat-sheet-thursday-june-11",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.juvefc.com/south-africa-v-south-korea-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://worldcupforecast.com/south-africa-vs-south-korea-25-06-2026",
+      "type": "official"
+    },
+    {
+      "url": "https://www.dimers.com/news/2026-fifa-world-cup-complete-group-stage-preview-and-polymarket-odds",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=beYKqpgOtVM",
+      "type": "community"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/group-preview-co-host-mexico-180209412.html",
+      "type": "media"
+    },
+    {
+      "url": "https://www.goal.com/en-gb/news/czech-republic-south-africa-world-cup-preview/blt2698eb3974683720",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/team-news/czech-republic-vs-south-africa-injury-suspension-list_599414.html",
+      "type": "media"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/mexico-world-cup-2026-squad",
+      "type": "media"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Cn2ECKnX1Ng",
+      "type": "community"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/south-africa-vs-south-korea-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-119344",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportingnews.com/uk/football/news/south-africa-vs-south-korea-lineups-starting-11-world-cup-group/a776388ec033e3fde4c34553",
+      "type": "media"
+    },
+    {
+      "url": "https://fifa-26.com/en/injuries",
+      "type": "official"
+    },
+    {
+      "url": "https://www.afrik-foot.com/en-za/south-africa-vs-south-korea-preview-wc",
+      "type": "media"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com.au/football/story/_/id/49144478/fifa-world-cup-2026-south-africa-vs-south-korea-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups",
+      "type": "media"
+    },
+    {
+      "url": "https://www.goal.com/en/news/south-africa-south-korea-world-cup-preview/bltd2a2517a718c90f3",
+      "type": "media"
+    },
+    {
+      "url": "https://lineup11.pro/ja/%E4%B8%80%E8%87%B4/south-africa-vs-south-korea/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.fotmob.com/en-GB/matches/south-africa-vs-south-korea/1ncyls",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.goal.com/en-my/news/south-africa-south-korea-world-cup-preview/bltd2a2517a718c90f3",
+      "type": "media"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/south-africa-vs-south-korea-betting-tips-predictions-team-news-odds-bet-builder-afEgA7q1q3rv/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59559-South-Africa-vs-South-Korea.htm",
+      "type": "media"
+    },
+    {
+      "url": "https://www.livegoals.com/betting/tips/south-africa-vs-south-korea-25-06-2026",
+      "type": "media"
+    },
+    {
+      "url": "https://africa.espn.com/football/story/_/id/49144478/fifa-world-cup-2026-south-africa-vs-south-korea-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups",
+      "type": "media"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
+      "type": "official"
+    }
+  ],
+  "source_count": 45,
+  "venue": "Estadio BBVA",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.32,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，南韓稍具經驗，預期和局收場。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "韓國旅歐球星領軍實力佔優，南非難擋太極虎攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "南非主場韌性十足，韓國中場控制力稍佔優，最終握手言和。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.23,
+        "draw": 0.25,
+        "away": 0.52
+      },
+      "scoreline": "1:2",
+      "note": "南韓整體實力與經驗較佳，看好反客為主險勝"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "韓國整體實力與旅歐球星經驗佔優，預計能突破南非防線取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.26,
+        "draw": 0.32,
+        "away": 0.42
+      },
+      "scoreline": "1:2",
+      "note": "南韓實力占優，客場預計2:1取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "南韓組織力強，力壓南非取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.26,
+      "draw": 0.288,
+      "away": 0.452
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T052801Z"
+}

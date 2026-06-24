@@ -576,6 +576,104 @@
       "outcome": "home",
       "recorded_at": "2026-06-22T23:00:00Z",
       "source": "https://www.skysports.com/football/argentina-vs-austria/report/549808"
+    },
+    {
+      "match": 42,
+      "stage": "Group I",
+      "home": "France",
+      "away": "Iraq",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "scoreline": "3:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760457/iraq-france"
+    },
+    {
+      "match": 43,
+      "stage": "Group I",
+      "home": "Norway",
+      "away": "Senegal",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "scoreline": "3:2",
+      "outcome": "home",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760454/senegal-norway"
+    },
+    {
+      "match": 44,
+      "stage": "Group J",
+      "home": "Jordan",
+      "away": "Algeria",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreline": "1:2",
+      "outcome": "away",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760455/algeria-jordan"
+    },
+    {
+      "match": 45,
+      "stage": "Group K",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "scoreline": "5:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760461/uzbekistan-portugal"
+    },
+    {
+      "match": 46,
+      "stage": "Group L",
+      "home": "England",
+      "away": "Ghana",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreline": "0:0",
+      "outcome": "draw",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760458/ghana-england"
+    },
+    {
+      "match": 47,
+      "stage": "Group L",
+      "home": "Panama",
+      "away": "Croatia",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://africa.espn.com/football/match/_/gameId/760460/croatia-panama"
+    },
+    {
+      "match": 48,
+      "stage": "Group K",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scoreline": "1:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-24T05:00:00Z",
+      "source": "https://africa.espn.com/football/match/_/gameId/760459"
     }
   ]
 }

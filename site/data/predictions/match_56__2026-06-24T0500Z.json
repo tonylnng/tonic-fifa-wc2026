@@ -1,0 +1,342 @@
+{
+  "match": 56,
+  "stage": "Group E – Matchday 3",
+  "home": "Curacao",
+  "away": "Ivory Coast",
+  "kickoff_utc": "2026-06-25T20:00:00Z",
+  "kickoff_hkt": "2026-06-26 04:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.12,
+      "draw": 0.15,
+      "away": 0.73
+    },
+    "confidence": 0.7,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "象牙海岸輕取確定出線",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.68,
+        "basis": "象牙海岸只需平局即可晉級，但Emerse Faé選擇全力取勝爭取最佳次名席位，Amad Diallo及Ange-Yoan Bonny貢獻進球，庫拉索難以應對。"
+      },
+      {
+        "name": "象牙海岸保守平局",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.14,
+        "basis": "象牙海岸知道平局已足夠出線，採取保守策略，庫拉索首次世界盃嘗試完成奇蹟平局。"
+      },
+      {
+        "name": "象牙海岸大勝",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.1,
+        "basis": "象牙海岸全力出擊，Kessie/Sangare/Diallo三劍客大顯神威，庫拉索GD繼續惡化。"
+      },
+      {
+        "name": "庫拉索歷史性爆冷",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.04,
+        "basis": "庫拉索複製首場0-0奇蹟，Locadia或Chong進球，象牙海岸狀態鬆懈，為世界盃寫下最大冷門之一，概率極低。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 超級電腦模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.07,
+          "draw": 0.144,
+          "away": 0.787
+        },
+        "note": "Dimers AI（截至2026-06-23 13:16）：象牙海岸78.7%勝率，平局14.4%，庫拉索7.0%；Ange-Yoan Bonny進球率38.7%"
+      },
+      {
+        "source": "BallPrediction 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.21,
+          "draw": 0.15,
+          "away": 0.64
+        },
+        "scoreline": "0:2",
+        "note": "BallPrediction：庫拉索21%、平局15%、象牙海岸64%；最可能比分0-2；Over 2.5 53%，BTTS Yes 47%"
+      },
+      {
+        "source": "博彩盤口市場（1xBet/行業共識）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.1,
+          "draw": 0.17,
+          "away": 0.73
+        },
+        "note": "市場賠率：象牙海岸約1.40（隱含71%），平局約5.0，庫拉索主勝約9.0-10.0；為本輪最大懸殊盤"
+      },
+      {
+        "source": "ESPN / Reddit 社群共識",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.1,
+          "draw": 0.15,
+          "away": 0.75
+        },
+        "note": "Reddit r/soccer及r/worldcup：庫拉索0-0逼平厄瓜多已是奇蹟，對陣象牙海岸更是截然不同量級的對手"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "E組末輪另一場在林肯金融球場（費城）進行。象牙海岸3分（第二），只需平局即確保晉級，無論厄瓜多結果如何（因頭對頭優勢領先）；庫拉索1分墊底，勝利加上厄瓜多輸球才有理論出線機會（實際機率極低）。根據Reddit E組排列分析：象牙海岸不論厄瓜多結果如何，只要不輸就晉級；庫拉索要出線需要大勝象牙海岸且德國同時勝厄瓜多。庫拉索是本屆首次參加世界盃的「藍浪」，前兩場：0-0逼平厄瓜多（歷史性首個世界盃積分）、大敗於德國（GD -6），顯示得分能力極弱。象牙海岸：勝厄瓜多1-0（Amad Diallo)、負德國1-2（Kessie領先被Undav逆轉），大致符合預期。陣容：象牙海岸Amad Diallo（Manchester United）、Ange-Yoan Bonny（最新博彩首選進球者38.7%）、Franck Kessie（本屆1球）、Ibrahim Sangare健在；庫拉索Jurgen Locadia（老兵，11.3%）、Tahith Chong（英超背景）、Juninho Bacuna構成主要威脅但質量不足。Dimers給予象牙海岸高達78.7%勝率，BallPrediction 64%，市場賠率最低約1.40。預測0-2象牙海岸客勝，信心度0.70，為四場中最高。",
+    "key_factors": [
+      "象牙海岸平局即可晉級（頭對頭領先厄瓜多），策略空間充裕",
+      "庫拉索世界盃首屆參賽，前兩場0進球（GD -6），進攻能力非常有限",
+      "象牙海岸Amad Diallo及Ange-Yoan Bonny構成強力邊路威脅",
+      "庫拉索唯一出線路線需勝出且德國同時勝厄瓜多，幾乎不可能",
+      "Dimers模型給予象牙海岸高達78.7%勝率，為四場中最懸殊",
+      "庫拉索大敗於德國（GD -6），防守極為脆弱",
+      "象牙海岸Kessie及Sangare中場控制穩健",
+      "庫拉索的Tahith Chong是最具威脅力球員，但缺乏支援",
+      "林肯金融球場（費城）對中美洲球員氣候較為適應"
+    ],
+    "consensus_lean": "象牙海岸（強烈共識）",
+    "dissent": "BallPrediction給予庫拉索21%，略高於Dimers的7%，但仍壓倒性倒向象牙海岸。極少數觀點指若象牙海岸保守出擊（已知平局夠），庫拉索有望以防守反擊創造奇蹟，但此論點在賠率上不支持。"
+  },
+  "sources": [
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760473/ivory-coast-curacao",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportsgambler.com/betting-tips/football/curacao-vs-ivory-coast-prediction-lineups-odds-2026-06-25/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59560-Curacao-vs-Ivory-Coast.htm",
+      "type": "media"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760473",
+      "type": "media"
+    },
+    {
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/matchup/curacao-vs-ivory-coast-odds-062526-217221",
+      "type": "media"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/ivory-coast-curacao/284391",
+      "type": "betting"
+    },
+    {
+      "url": "https://tipiq.ai/football/world/world-cup/curacao-vs-ivory-coast-prediction-b79253e7-5751-5f54-8ae2-8e0570f40dbc",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/curacao-ivory-coast-2385-24397-5930",
+      "type": "official"
+    },
+    {
+      "url": "https://oddslot.com/football/match/world-cup/cura%C3%A7ao/ivory-coast/25-jun-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://evbets.app/matches/soccer-fifa-world-cup-curacao-vs-ivory-coast-2026-06-25",
+      "type": "official"
+    },
+    {
+      "url": "https://planetefootball.com/competitions/world-cup-2026/match/curacao-vs-ivory-coast-prediction",
+      "type": "prediction"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/curacao-vs-ivory-coast-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://thesportsrush.com/curacao-v-cote-d-ivoire-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.forebet.com/en/football/matches/cura%C3%A7ao-ivory-coast-2463184",
+      "type": "prediction"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/curacao-vs-ivory-coast-prediction-25-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/curacao-vs-ivory-coast-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-119484",
+      "type": "media"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/curacao-vs-ivory-coast-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aX9PZ4X2ev7o/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/curacao-ivory-coast-world-cup-preview-predictions-tips-2026-06-23/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_cur_civ",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=W8DYHG1elU0",
+      "type": "community"
+    },
+    {
+      "url": "https://www.sportsline.com/insiders/curacao-vs-ivory-coast-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/",
+      "type": "media"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/22/curacao-v-cote-d-ivoire-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.juvefc.com/curacao-v-cote-d-ivoire-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-e-preview-germany-curacao-ivory-coast-ecuador-tactics-lineups-set-pieces-odds-109286",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportingnews.com/in/football/news/germany-vs-ivory-coast-lineup-starting-11-world-cup-group-e/a1b872cb3dde32c3ae36335a",
+      "type": "media"
+    },
+    {
+      "url": "https://www.goal.com/en/indivisa/news/ecuador-vs-curacao-fifa-world-cup-2026-preview-everything-you-need-to-know/bltf1db9902de34c7ea",
+      "type": "media"
+    }
+  ],
+  "source_count": 26,
+  "venue": "Lincoln Financial Field",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "象牙海岸整體實力與大賽經驗明顯優於庫拉索。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸實力佔優，庫拉索難以抵擋，客隊有望拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸實力明顯佔優，庫拉索難擋攻勢，預計客隊輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸實力與硬度更佳，客場取勝機率高。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.07,
+        "draw": 0.18,
+        "away": 0.75
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸整體實力與大賽經驗遠勝庫拉索，預計能輕鬆取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸實力占優，客場勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.23,
+        "away": 0.65
+      },
+      "scoreline": "1:2",
+      "note": "象牙海岸實力懸殊，客場全取三分機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.139,
+      "draw": 0.21,
+      "away": 0.651
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T052953Z"
+}

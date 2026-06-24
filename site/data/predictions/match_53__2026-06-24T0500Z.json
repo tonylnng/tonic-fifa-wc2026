@@ -1,0 +1,419 @@
+{
+  "match": 53,
+  "stage": "Group A – Matchday 3",
+  "home": "Czech Republic",
+  "away": "Mexico",
+  "kickoff_utc": "2026-06-25T01:00:00Z",
+  "kickoff_hkt": "2026-06-25 09:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.25,
+      "draw": 0.27,
+      "away": 0.48
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "墨西哥穩中求勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.62,
+        "basis": "墨西哥全組最佳防守（零失球），在阿茲台克球場主場優勢下，候補前鋒Gimenez/Quinones可為Czech共3分鐘的破門提供威脅，Czech雖有進球能力但最終難逃出局。"
+      },
+      {
+        "name": "捷克決死求存拼平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.2,
+        "basis": "捷克以Schick/Hlozek先破，墨西哥輪換陣容反應遲鈍，最終平局捷克仍靠其他場次結果出線。"
+      },
+      {
+        "name": "墨西哥大勝封頂",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.12,
+        "basis": "墨西哥保持零失球並由Jimenez/Alvarez主導攻勢，壓倒捷克悲情謝幕。"
+      },
+      {
+        "name": "捷克爆冷取勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.06,
+        "basis": "捷克抓住墨西哥大幅輪換機會，Schick主罰在最後時刻逆轉，機率甚低。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 超級電腦模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.252,
+          "draw": 0.268,
+          "away": 0.48
+        },
+        "note": "Dimers AI模型（截至2026-06-24 00:44）：墨西哥48.0%勝率，平局26.8%，捷克25.2%"
+      },
+      {
+        "source": "BallPrediction 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.34,
+          "draw": 0.17,
+          "away": 0.49
+        },
+        "scoreline": "1:2",
+        "note": "BallPrediction演算法預測：捷克34%、平局17%、墨西哥49%，最可能比分1-0予捷克（但模型陳舊，使用賽前情報）"
+      },
+      {
+        "source": "RacingPost 博彩分析師",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.3,
+          "draw": 0.26,
+          "away": 0.44
+        },
+        "note": "RacingPost建議墨西哥勝（1/1賠率隱含機率50%），Bet Builder預測1:2，場地與動力優勢利好主隊"
+      },
+      {
+        "source": "SX Bet 市場盤口（捷克vs墨西哥隱含）",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.26,
+          "draw": 0.25,
+          "away": 0.49
+        },
+        "note": "博彩交易所市場賠率反映：墨西哥主勝約1.95-2.05，平局3.5，捷克客勝3.8-4.0"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "這是A組第三輪雙重對決的一半。墨西哥已以2勝0負6分鎖定晉級，唯一懸念是能否以首名出線（需平局即可）。捷克共1分，情況危急，必須取勝並需倚賴南非擊敗南韓才有機會晉級十六強。賽場阿茲台克體育場（又稱Estadio Banorte）是墨西哥聖地，萬人空巷的主場氣氛極為不利捷克。墨西哥主帥Javier Aguirre陣容健全，Raul Jimenez及Julian Quinones前場配合默契；捷克主帥Miroslav Koubek則受困於後衛David Jurasek因大腿傷缺陣全場，且Cesar Montes禁賽解除後墨西哥防線重整。墨西哥整組賽事零失球（2戰3進），捷克2戰2進3失。Opta及博彩市場均傾向墨西哥。Dimers AI給予墨西哥48%勝率，平局27%，捷克25%；博彩盤口墨西哥勝約1.95-2.0賠率（約50%隱含機率）。SportsMole預測1-2墨西哥勝，thecelticstar及inkl分析師亦傾向墨西哥。捷克必須求勝，可能採取更主動進攻打法，為比賽添加不確定性，但主場氛圍及陣容深度的差距令墨西哥依然是大熱門。最終預測墨西哥1-2客勝（主攻客勝），信心度0.60。",
+    "key_factors": [
+      "墨西哥全程零失球，主場阿茲台克氣氛壓倒捷克",
+      "捷克必須取勝才能留有出線希望，心理壓力大但動力充足",
+      "墨西哥可能輪換部分球員（Jimenez/Alvarez或休息），削弱攻擊力",
+      "捷克David Jurasek後防受傷缺陣，防線稍弱",
+      "墨西哥Cesar Montes禁賽解除，後防重整",
+      "捷克史上僅一次擊敗墨西哥（2000年，26年前），主客場不利",
+      "Patrik Schick仍是捷克最主要進球威脅",
+      "捷克兩輪均先進球後被逆轉，心理韌性存疑",
+      "Dimers模型：Mexico 48%, Draw 26.8%, Czech 25.2%",
+      "博彩市場：墨西哥勝率約50%，平局25-27%，捷克勝25%"
+    ],
+    "consensus_lean": "墨西哥",
+    "dissent": "部分分析師（如BallPrediction早期模型）因捷克高動力因素給予捷克較高預估（34%），但這源於模型未充分考慮賽前積分情勢及主場效應。捷克有以弱勝強傳統，但墨西哥在主場世界盃賽事中表現穩健，共識仍傾向墨西哥。"
+  },
+  "sources": [
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/czech-republic-vs-mexico-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aVhrU9r75F2V/",
+      "type": "media"
+    },
+    {
+      "url": "https://esports-news.co.uk/2026/06/21/czech-republic-v-mexico-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.inkl.com/news/czech-republic-vs-mexico-world-cup-2026-predictions-and-picks",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.toffeeweb.com/czech-republic-vs-mexico-predictions-picks-odds-25-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.punttips.com/matches/czech-republic-vs-mexico-2026-06-25",
+      "type": "prediction"
+    },
+    {
+      "url": "https://oddsfan.com/football/event/czech-republic-vs-mexico/odds",
+      "type": "media"
+    },
+    {
+      "url": "https://bettingtips365.com/football-tips/mexico-czech-republic/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.livetipsportal.com/en/sportsbetting-tips/czech-republic-vs-mexico-wc-10426796/",
+      "type": "betting"
+    },
+    {
+      "url": "https://statsbet.org/football/matches/czech-republic-vs-mexico-2026-06-25",
+      "type": "prediction"
+    },
+    {
+      "url": "https://tipiq.ai/football/world/world-cup/czech-republic-vs-mexico-prediction-14abf21c-1e22-c957-8a0f-19d546d6a65a",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.foresportia.com/en/world-cup-2026/czechia-mexico-2026-06-25.html",
+      "type": "media"
+    },
+    {
+      "url": "https://worldcup26usa.com/en/matches/group-a-md3-m1",
+      "type": "prediction"
+    },
+    {
+      "url": "https://1xbet.com/en/line/football/2708736-world-cup-2026/343685234-czech-republic-mexico",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_cze_mex",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.forebet.com/en/football-match-previews/28664-mexico-aim-to-protect-group-a-lead-against-a-czech-republic-side-under-pressure",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Yfd71rKpV4w",
+      "type": "community"
+    },
+    {
+      "url": "https://www.goal.com/en-in/betting/world-cup/czechia-vs-mexico-predictions-25-06-2026/A:blt187d00109a091001",
+      "type": "media"
+    },
+    {
+      "url": "https://thesportsrush.com/czech-republic-v-mexico-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportsgambler.com/betting-tips/football/czech-republic-vs-mexico-prediction-lineups-odds-2026-06-24/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportsignals.com/predictions/czech-republic-vs-mexico",
+      "type": "media"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/preview/czech-republic-vs-mexico-prediction-team-news-lineups_599786.html",
+      "type": "media"
+    },
+    {
+      "url": "https://planetefootball.com/competitions/world-cup-2026/match/czechia-vs-mexico-prediction",
+      "type": "prediction"
+    },
+    {
+      "url": "https://footballprediction.app/czech-republic-vs-mexico-prediction",
+      "type": "prediction"
+    },
+    {
+      "url": "https://ballprediction.com/wcup/czechia-v-mexico",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.1960tips.com/world-cup-2026-correct-score-predictions",
+      "type": "media"
+    },
+    {
+      "url": "https://thecelticstar.com/czech-republic-v-mexico-predictions/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hOPa7bP0wHk",
+      "type": "community"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/czech-republic-vs-mexico-prediction-25-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://easybet.com/football-tips/czech-republic-vs-mexico-prediction-fifa-world-cup-26/",
+      "type": "official"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/preview-czech-republic-vs-mexico-010500451.html",
+      "type": "media"
+    },
+    {
+      "url": "https://fifa-26.com/en/injuries",
+      "type": "official"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49142462/czechia-vs-mexico-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups",
+      "type": "media"
+    },
+    {
+      "url": "https://worldcuplocaltime.com/match/czech-republic-mexico-2026-06-25/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.rotowire.com/soccer/article/czechia-vs-mexico-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-119342",
+      "type": "media"
+    },
+    {
+      "url": "https://www.oddschecker.com/tips/football/world-cup/20260625-czech-republic-vs-mexico-predictions-bet-builder-tips-lineups-odds",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.goal.com/en-us/news/czech-republic-mexico-world-cup-preview/blte3e3fb32bfa81e95",
+      "type": "media"
+    },
+    {
+      "url": "https://guadalajarasecreta.com/en/from-akron-to-azteca-mexico-vs-czech-republic-2026-world-cup/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.mykhel.com/football/fifa-world-cup-2026-czechia-vs-mexico-lineup-2608289/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/predicted-lineups/koubek-facing-defensive-blow-predicted-czech-republic-lineup-vs-mexico_599805.html",
+      "type": "media"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760467",
+      "type": "media"
+    },
+    {
+      "url": "https://worldcup-2026.bet/us/match/czech-republic-vs-mexico/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.888sport.com/football/international/world-cup-2026/czech-republic-vs-mexico-e-7684955/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.toffeeweb.com/int/czech-republic-vs-mexico-predictions-picks-odds-25-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.juvefc.com/czech-republic-v-mexico-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
+      "type": "official"
+    }
+  ],
+  "source_count": 45,
+  "venue": "Estadio Azteca",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "墨西哥防守反擊犀利，捷克難以突破，預期和局收場。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "捷克整體戰術紀律較佳，主場優勢下有望小勝墨西哥。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "墨西哥整體實力勝一籌，捷克雖有拼勁但難阻強敵。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "墨西哥攻守較均衡，小勝捷克鎖定出線主動。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.34,
+        "away": 0.34
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，第三輪生死戰預計踢法保守，和局收場機率高。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.33,
+        "away": 0.35
+      },
+      "scoreline": "1:2",
+      "note": "墨西哥實力占優，客場預計小勝捷克。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "墨西哥經驗老練，捷克進攻端稍顯乏力。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.302,
+      "draw": 0.309,
+      "away": 0.389
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T052702Z"
+}

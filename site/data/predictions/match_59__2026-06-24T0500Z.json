@@ -1,0 +1,360 @@
+{
+  "match": 59,
+  "stage": "Group D",
+  "home": "Paraguay",
+  "away": "Australia",
+  "kickoff_utc": "2026-06-26T02:00:00Z",
+  "kickoff_hkt": "2026-06-26 10:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreline": "1:1",
+    "outcome": "draw",
+    "win_prob": {
+      "home": 0.33,
+      "draw": 0.32,
+      "away": 0.35
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "1:1",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "低分拉鋸平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.5,
+        "basis": "雙方防守優先，加上巴拉圭缺少阿爾米隆（停賽），得分能力下降，澳洲亦缺麥格雷；平局的出線機率取決於最佳第三名計算。"
+      },
+      {
+        "name": "澳洲主動爭勝出線",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.48,
+        "basis": "澳洲本組積分榜戰績GD優於巴拉圭（平GD則看交鋒紀錄），且攻守更平衡；擊敗土耳其2-0展示實力。"
+      },
+      {
+        "name": "巴拉圭低分取勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.45,
+        "basis": "巴拉圭防守反擊風格可創造定勢進球機會，加拉薩、恩西索均可把握機會；阿爾米隆雖停賽但整體防線穩固。"
+      },
+      {
+        "name": "雙方均保守平局出局",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "若雙方計算形勢認為平局足夠晉級（最佳第三名），可能出現保守踢法，悶平0:0。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN博彩盤口（BetMGM）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.3,
+          "away": 0.35
+        },
+        "scoreline": null,
+        "note": "巴拉圭ML+120，澳洲ML+200；巴拉圭讓-0.5球+185；大/小1.5球-155（偏向低分）"
+      },
+      {
+        "source": "Sky Sports / Goal.com 分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.33,
+          "draw": 0.32,
+          "away": 0.35
+        },
+        "scoreline": "1:1",
+        "note": "Goal.com指兩隊均有強烈出線動機，是本輪最難預測之一；巴拉圭缺阿爾米隆影響創造力"
+      },
+      {
+        "source": "Skysports D組資料分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.34,
+          "draw": 0.33,
+          "away": 0.33
+        },
+        "scoreline": null,
+        "note": "D組第三輪最難預測：澳洲GD較好，巴拉圭必須贏球或看荷蘭-突尼西亞結果判斷是否晉級"
+      },
+      {
+        "source": "FootyStats 進球統計",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.33,
+          "draw": 0.31,
+          "away": 0.36
+        },
+        "scoreline": null,
+        "note": "巴拉圭資格賽平均0.78球/場（最低）；澳洲平均稍高；BTTS NO -160佐證低分比賽"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "D組第三輪關鍵戰：美國已以6分提前晉級，第二名之爭在巴拉圭（3分）與澳洲（3分）之間。積分相同，但澳洲GD為0（進2失2），巴拉圭GD為-3（進2失5）。如果平局，根據FIFA規則先看交鋒積分（打平），再看GD——澳洲此時更佔優勢。因此，從純數據看，澳洲在平局結果下較有可能晉級；巴拉圭必須贏球方能確保晉級（除非第三名表現頗佳）。關鍵傷缺：巴拉圭阿爾米隆（Almiron）因「捂嘴」新IFAB規定被紅牌後停賽一場，是巴拉圭最具創意的球員之一，缺席影響甚大。加拉薩（Galarza）和恩西索（Enciso）需肩擔進攻重任。澳洲麥格雷（McGree）確認因膕繩肌傷缺席全部賽程，萊奇（Leckie）疑問。波波維奇帶領的澳洲陣式有序，擊敗土耳其2-0的勝仗顯示其進攻轉型能力。巴拉圭在資格賽中以0.78球/場排名最低，防守反擊風格不變，偏低分場面。博彩市場幾乎三分天下，本場為本輪最難預測一場，確信度僅0.50。預測1:1平局，兩隊均可能透過最佳第三名資格晉級。",
+    "key_factors": [
+      "阿爾米隆停賽（捂嘴新規紅牌），巴拉圭創造力大損",
+      "澳洲GD佔優（0 vs -3），平局情況下澳洲更佔優勢",
+      "巴拉圭資格賽進球率最低（0.78球/場），低分格局幾乎確定",
+      "麥格雷（McGree）整個賽事缺陣，是澳洲控場核心",
+      "Galarza（1球）和Enciso（1助攻）是巴拉圭主要威脅",
+      "澳洲Irankunda（1球）表現活躍，Metcalfe控場穩健",
+      "兩隊均有強烈出線動機，「打假波」可能性極低",
+      "大/小1.5進球-155，市場預期低分比賽"
+    ],
+    "consensus_lean": "幾乎三分天下，澳洲略微領先（GD優勢）",
+    "dissent": "有觀點認為巴拉圭防守反擊可以在阿爾米隆缺陣下仍奏效；也有人預測澳洲因連輸後急需積分會更積極進攻。這是本輪確信度最低的一場。"
+  },
+  "sources": [
+    {
+      "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/preview/paraguay-vs-australia-prediction-team-news-lineups_599860.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48811876/socceroos-world-cup-daily-news-updates-all-need-know",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760469",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760469/australia-paraguay",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48874286/injured-australia-forward-riley-mcgree-miss-world-cup",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com.au/football/story/_/id/48811876/socceroos-world-cup-daily-news-updates-all-need-know",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/cgrpvdy4nqxo",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvg58m7n1plo",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skysports.com/football/paraguay-vs-australia/549820",
+      "type": "web"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/may/26/riley-mcgree-ruled-out-of-world-cup-australia-football-team",
+      "type": "web"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/01/australia-socceroos-world-cup-football-team-squad-revealed",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/blog/2026/may/23/who-will-make-the-socceroos-australia-world-cup-squad",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/23/australia-v-paraguay-socceroos-world-cup-jason-geria",
+      "type": "web"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/20/uncertain-world-cup-for-paraguays-almiron-sent-off-for-covering-his-mouth",
+      "type": "web"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/23/paraguays-almiron-suspended-for-one-game-after-red-card-for-covering-mouth",
+      "type": "web"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/6/23/paraguays-almiron-suspended-for-one-game",
+      "type": "web"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup/injury-report",
+      "type": "team_news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/paraguay-australia-picks-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.soccergraph.com/2026/04/world-cup-2026-injury-update-which-big-player-may-miss-tournament.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-au/football/fifa-world-cup-2026/articles-video/socceroos-star-mcgree-ruled-out-of-world-cup-2026-05-26",
+      "type": "web"
+    },
+    {
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/1st-time-in-fifa-world-cup-history-paraguays-miguel-almiron-shown-red-card-under-new-rules-11662319",
+      "type": "web"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-paraguay-vs-australia-jun-25-2026-game-boxscore-647675",
+      "type": "web"
+    },
+    {
+      "url": "https://fifa-26.com/en/injuries",
+      "type": "team_news"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-2/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://mundialplayertracker.com/insights/paraguay-enciso-injury-clouds-paraguays-world-cup-2026/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.gazzetta.it/en/football/fantanews/tools-fantasy-football/unavailable-players/storie/08-06-2026/world-cup-injuries-players-named-squads-forced-to-withdraw/enciso-paraguay.shtml",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.covers.com/world-cup/injury-report-2026",
+      "type": "team_news"
+    },
+    {
+      "url": "https://bleacherreport.com/articles/25437927-world-cup-2026-starting-lineups-notable-injury-news-and-potential-replacements",
+      "type": "team_news"
+    },
+    {
+      "url": "https://socceroos.com.au/news/commbank-socceroos-squad-update-0",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.sportingnews.com/au/football/news/australia-world-cup-roster-2026-socceroos-squad-players/43d34f3aa70f8c371a8b3437",
+      "type": "team_news"
+    }
+  ],
+  "source_count": 30,
+  "venue": "Levi's Stadium",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.32,
+        "away": 0.23
+      },
+      "scoreline": "1:0",
+      "note": "巴拉圭主場防守穩健，澳洲進攻乏力恐難突破。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "巴拉圭防守穩健，澳洲球風硬朗，預計雙方握手言和。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "南美巴拉圭對陣亞洲澳洲，實力接近，預測雙方各進一球握手言和。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.36,
+        "draw": 0.33,
+        "away": 0.31
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，巴拉圭控球優勢但難破袋鼠防線"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.42,
+        "draw": 0.33,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "巴拉圭防守堅固，預計能在一場低比分的焦土戰中險勝澳洲。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.3,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "巴拉圭主場優勢明顯，防守穩健可望小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.42,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "實力伯仲之間，雙方防守穩健，和局機率極高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.372,
+      "draw": 0.343,
+      "away": 0.284
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T053238Z"
+}

@@ -1,0 +1,360 @@
+{
+  "match": 58,
+  "stage": "Group F",
+  "home": "Japan",
+  "away": "Sweden",
+  "kickoff_utc": "2026-06-25T23:00:00Z",
+  "kickoff_hkt": "2026-06-26 07:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.42,
+      "draw": 0.27,
+      "away": 0.31
+    },
+    "confidence": 0.58,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "日本主動求勝拿首位",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.58,
+        "basis": "日本9場不敗氣勢旺盛，瑞典剛吃5-1大敗士氣受創，日本前鋒線Ueda、Kamada狀態極佳。"
+      },
+      {
+        "name": "平局雙方均晉級",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.52,
+        "basis": "日本和局即可晉級，有保守踢的誘因；瑞典Isak/居盧斯亦可貢獻進球，場面激烈但雙方均有出線動力。"
+      },
+      {
+        "name": "瑞典逆轉晉級",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.42,
+        "basis": "瑞典必須贏球方可晉級，Isak加居盧斯火力理論上可爆發，場上拉鋸後瑞典後勁稍強。"
+      },
+      {
+        "name": "日本大勝控組",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "若瑞典被迫全攻，日本可利用反擊多入幾球，最終鎖定F組第一。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN博彩盤口（BetMGM）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.42,
+          "draw": 0.26,
+          "away": 0.32
+        },
+        "scoreline": null,
+        "note": "日本獨贏+105，瑞典+330，大/小2.5球各-130；日本讓-0.5球-115"
+      },
+      {
+        "source": "Sportsmole 預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.44,
+          "draw": 0.26,
+          "away": 0.3
+        },
+        "scoreline": "2:1",
+        "note": "Sportsmole預測日本勝，稱日本九場不敗，包括擊敗巴西及英格蘭；BTTS YES -160"
+      },
+      {
+        "source": "Goal.com 分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.28,
+          "away": 0.32
+        },
+        "scoreline": "1:1",
+        "note": "Goal.com指兩隊各有晉級動力，戰術對碰為本組最難預測一場；雙方均需謹慎"
+      },
+      {
+        "source": "FootyStats xG模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.28,
+          "away": 0.32
+        },
+        "scoreline": null,
+        "note": "日本本屆xG/場達1.8，防守亦穩健；瑞典Isak/居盧斯理論xG威脅高但場外壓力大"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "日本與瑞典同是本屆F組出線爭奪的關鍵一戰，與突尼西亞對荷蘭同時開賽（UTC 23:00）。日本目前F組第二（4分，對荷蘭，GD-1），一場平局即可確保晉級，贏球則有機會登頂（視荷蘭突尼西亞結果）。瑞典第三（3分），必須贏球方可晉級，若荷蘭同時輸/平，則需6分（平局無效）。日本最近9場不敗，本屆對突尼西亞4-0大勝，Ueda（2球）、Kamada（2球）狀態大爆發；但對荷蘭2-2差點被追過，暴露了防線漏洞。重要傷缺：久保建英（Kubo）受傷缺陣（宣布在對突尼西亞一戰後退賽），日本陣腳略受影響，Ito、Nakamura、Maeda替上。瑞典方面，伊薩克（Isak）與居盧斯（Gyokeres）搭檔出色，前者1球1助攻，後者主要輪換上陣。瑞典在對荷蘭一戰1-5慘敗，士氣受損，但Potter強調「大勝任何人都可能發生」，球隊需要調整心態。博彩市場：日本微幅領先+105（勝），瑞典+330，讓球日本-0.5球-115。這是本輪最難預測的一場，雙方各有強烈出線動機，預計全力以赴，進球預期合理（BTTS YES -160）。本預測為日本以2:1獲勝，但確信度中等（0.58）。",
+    "key_factors": [
+      "日本和局即可晉級，有保守踢的誘因；但贏球可爭組首",
+      "瑞典必須贏球，輸球或平局均出局",
+      "久保建英（Kubo）受傷缺陣，是日本創造力的重大損失",
+      "日本近9場不敗，包括巴西、英格蘭，本屆氣勢旺盛",
+      "瑞典1-5輸荷蘭後士氣受創，但Isak+居盧斯陣線仍具威脅",
+      "Ueda（2球）、Kamada（2球）是日本本屆最佳進攻組合",
+      "兩隊均有出線動機：進球預期高，BTTS機率高",
+      "Potter執教瑞典：強調防守紀律，但本場需主動進攻"
+    ],
+    "consensus_lean": "日本微幅領先（市場接近五五），最難預測一場",
+    "dissent": "部分分析師認為瑞典若發揮Isak+居盧斯的潛力可以逆轉，也有觀點認為日本因Kubo缺陣進攻銳氣受影響；Potter有可能布陣逆轉局面。"
+  },
+  "sources": [
+    {
+      "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/preview/japan-vs-sweden-prediction-team-news-lineups_599879.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760471",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760471",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/fixtures/_/id/466/league/FIFA.WORLDQ.UEFA",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/results/_/id/627/japan",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/42202923/",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48754111/alexander-isak-headlines-final-sweden-world-cup-roster",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/cly1g565qp7o",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skysports.com/football/news/11095/13463183/jonas-olsson-on-isak-gyokeres",
+      "type": "web"
+    },
+    {
+      "url": "https://jp.reuters.com/sports/soccer/world-cup/japan/",
+      "type": "web"
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/5/15/mitoma-fails-to-make-japans-2026-world-cup-squad-due-to-hamstring-injury",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.actionnetwork.com/soccer/japan-world-cup-preview-analysis-schedule-roster-projections",
+      "type": "preview"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/japan-vs-sweden-picks-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.flashscore.com/match/football/japan-ULXPdOUj/sweden-OQyqbHWB/",
+      "type": "web"
+    },
+    {
+      "url": "https://forebet.com/en/football-tips-and-predictions-for/FIFA-World-Cup-2026/Japan-vs-Sweden.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/isak-headlines-swedens-world-cup-squad-bardghji-and-kulusevski-absent-2026-05-12",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/potter-isak-and-gyokeres-will-only-get-better-at-world-cup-2026-06-15",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/suecia-derrota-a-polonia-y-se-convierte-en-el-invitado-n%C3%BAmero-43-a-la-copa-mundial-de-la-fifa-2026-2026-03-31",
+      "type": "web"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/moriyasu-lauds-japan-resilience-after-injury-hit-world-cup-campaign-2026-06-21",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles-video/isak-headlines-sweden-s-world-cup-squad-2026-05-12",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.thestar.com.my/sport/football/2026/06/21/soccer-japan-turn-to-kamada",
+      "type": "web"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/daichi-kamada-player",
+      "type": "web"
+    },
+    {
+      "url": "https://www.fifa-26.com/en/teams/japan",
+      "type": "web"
+    },
+    {
+      "url": "https://www.fifa-26.com/en/injuries",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.fourfourtwo.com/team/japan-world-cup-2026-squad",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.japantimes.co.jp/sports/2026/05/15/soccer/world-cup/japan-names-world-cup-squad/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/05/15/world-cup-japan-squad/7b6014de-5025-11f1-97e7-22c6c29ff0d8_story.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-japan-wataru-endo-o",
+      "type": "web"
+    },
+    {
+      "url": "https://www.sportpaedia.com/football/world-cup-2026/sweden-world-cup-2026-team-squad/",
+      "type": "team_news"
+    }
+  ],
+  "source_count": 30,
+  "venue": "AT&T Stadium",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.4,
+        "draw": 0.3,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "日本主場稍佔優，瑞典防守穩健，激戰恐難分勝負。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "日本技術細膩且主場優勢明顯，瑞典難破密集防守。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，日本技術流對抗瑞典力量型，中場纏鬥激烈，最終各取一分。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.33,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "日本控球優勢但破門有限，瑞典反擊搶下和局。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "日本的靈活傳控與瑞典的體格防守勢均力敵，預計和局收場。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.3,
+        "away": 0.22
+      },
+      "scoreline": "2:1",
+      "note": "日本主場優勢明顯，預計小勝瑞典。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "日本技術細膩，瑞典防守恐難抵擋。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.418,
+      "draw": 0.302,
+      "away": 0.28
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T053144Z"
+}

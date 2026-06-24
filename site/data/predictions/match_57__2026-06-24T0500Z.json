@@ -1,0 +1,360 @@
+{
+  "match": 57,
+  "stage": "Group F",
+  "home": "Tunisia",
+  "away": "Netherlands",
+  "kickoff_utc": "2026-06-25T23:00:00Z",
+  "kickoff_hkt": "2026-06-26 07:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreline": "0:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.04,
+      "draw": 0.09,
+      "away": 0.87
+    },
+    "confidence": 0.82,
+    "top_scorelines": [
+      {
+        "scoreline": "0:3",
+        "prob": 0.2
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:4",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "荷蘭輕鬆晉級拿首位",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.82,
+        "basis": "荷蘭有強烈動機贏球確保F組第一，突尼西亞已出局僅打面子球，防線已在前兩場失9球。"
+      },
+      {
+        "name": "突尼西亞意志表現縮小差距",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.55,
+        "basis": "荷蘭輪換部分球員，突尼西亞新帥雷納特意帶來些許改善，主動找回1球。"
+      },
+      {
+        "name": "荷蘭大勝",
+        "scoreline": "0:4",
+        "outcome": "away",
+        "confidence": 0.4,
+        "basis": "荷蘭於5-1大勝瑞典後士氣高漲，突尼西亞身體狀態疲憊，可能再度失守多球。"
+      },
+      {
+        "name": "爆冷和局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.07,
+        "basis": "荷蘭若大幅輪換並態度保守，加上突尼西亞奮力表現，不排除少見和局。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN博彩盤口（BetMGM）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.05,
+          "draw": 0.1,
+          "away": 0.85
+        },
+        "scoreline": null,
+        "note": "荷蘭賠率-750，突尼西亞+1900；荷蘭讓-2.5球@+110，大/小3.5球"
+      },
+      {
+        "source": "Yahoo Sports / BetOnline 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.04,
+          "draw": 0.09,
+          "away": 0.87
+        },
+        "scoreline": null,
+        "note": "荷蘭獨贏賠率-670，突尼西亞+2300；預測市場一面倒看荷蘭"
+      },
+      {
+        "source": "Sports Mole 預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.05,
+          "draw": 0.1,
+          "away": 0.85
+        },
+        "scoreline": "0:2",
+        "note": "Sportsmole指荷蘭大熱，突尼西亞9場World Cup歷史僅3勝，對歐洲隊僅1勝13場"
+      },
+      {
+        "source": "Opta / Gracenote超級電腦模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.04,
+          "draw": 0.09,
+          "away": 0.87
+        },
+        "scoreline": null,
+        "note": "模擬顯示荷蘭87%機率贏球，符合市場共識；突尼西亞已確定出局"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "突尼西亞在F組已確認出局，前兩場連失9球（1-5輸瑞典、0-4輸日本），是本屆賽事最慘淡的表現之一。主帥薩布里·拉穆希遭解僱，由法國名師賀雷德接手，但首戰即0-4慘敗，積分0分、已是歷史上罕見在世界盃連輸兩場各失4球以上的球隊。荷蘭方面氣勢如虹，5-1大勝瑞典後，科曼麾下球員信心滿滿，高伯、布羅比、傅明裕斯等人火力全開。荷蘭需要贏球確保F組首位（目前與日本同積4分，但GD優於日本）。傷兵方面：添巴（腹股溝）確認缺席，凡戴克在瑞典一戰後承認有輕微傷患但可上陣，維布魯根在備戰期間有髖部問題但應已復原。突尼西亞無出線動力，荷蘭有強烈動機爭首位。博彩市場一面倒：荷蘭獨贏賠率-750（BetMGM）/-670（BetOnline），讓-2.5球，預測進球數過3.5球。本預測為荷蘭以0:3贏球，可能性最高的比分，亦不排除0:2或1:3。",
+    "key_factors": [
+      "突尼西亞已出局，僅打形式賽，鬥志疑問",
+      "荷蘭本屆大賽狀態火熱：已攻7球（對瑞典5球、對日本2球）",
+      "荷蘭讓球動機：贏球可確保F組首位，避免對陣對出位更強的對手",
+      "突尼西亞防線崩潰：已失9球，多名主力明顯失狀",
+      "荷蘭對突尼西亞歷史：3戰不敗（1勝2和）；荷蘭世界盃對非洲隊4勝1和",
+      "傑伊倫·添巴確定缺陣（腹股溝），但中後防有凡·戴克坐鎮",
+      "突尼西亞本場只有象徵性意義，能否避免再失4球是Renard的目標",
+      "高伯（Gakpo）、布羅比（Brobbey）等前鋒狀態絕佳"
+    ],
+    "consensus_lean": "荷蘭大熱（博彩/媒體/模型一致），突尼西亞幾乎無懸念",
+    "dissent": "少數觀點認為荷蘭可能大規模輪換（保留體力應對淘汰賽），令分差縮小；或突尼西亞因「解脫感」發揮超水準，但主流預測仍是荷蘭輕鬆獲勝。"
+  },
+  "sources": [
+    {
+      "url": "https://www.goal.com/en/lists/tunisia-squad-world-cup-2026/bltdea755c505c4ca25",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.goal.com/en-us/team/netherlands/fixtures-results/657oha8nkne1ybba2bouzkbo7",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/659/tunisia",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760472",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/49152393/world-cup-2026-which-teams-eliminated",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/results/_/id/449/netherlands",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/_/id/449/netherlands",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cq6z5e5y55eo",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.co.uk/sport/football/articles/c4gyrpve234o",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skysports.com/football/tunisia-vs-netherlands/549825",
+      "type": "web"
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jun/03/tunisia-world-cup-2026-team-guide",
+      "type": "web"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/netherlands-tunisia/284393",
+      "type": "web"
+    },
+    {
+      "url": "https://forebet.com/en/football-tips-and-predictions-for/FIFA-World-Cup-2026/Netherlands-vs-Tunisia.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.soccergraph.com/2026/06/tunisia-vs-netherlands-world-cup-kickoff-time-team-news-lineups-prediction.html",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.beinsports.com/en-nz/football/fifa-world-cup-2026/articles/depay-included-in-netherlands-world-cup-squad-frimpong-omitted-2026-05-27",
+      "type": "team_news"
+    },
+    {
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-netherlands-virgil-van-dijk-fitness-tunisia-group-game/article71130430.ece",
+      "type": "stats"
+    },
+    {
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-netherlands-duo-hopeful/article68867622.ece",
+      "type": "web"
+    },
+    {
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-world-cup-34159123",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.newsnow.co.uk/h/Sport/Football/International/Netherlands",
+      "type": "web"
+    },
+    {
+      "url": "https://www.fifa-26.com/en/teams/tunisia",
+      "type": "web"
+    },
+    {
+      "url": "https://fifa-26.com/en/teams/netherlands",
+      "type": "web"
+    },
+    {
+      "url": "https://www.sportpaedia.com/football/world-cup-2026/tunisia-world-cup-2026-team-squad/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.wc2026report.com/en/news/tunisia-wc2026-latest-squad-preview",
+      "type": "team_news"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Tunisia_squad_2026_FIFA_World_Cup",
+      "type": "team_news"
+    },
+    {
+      "url": "https://en.as.com/soccer/world-cup/tunisia-at-the-2026-world-cup-roster-list-players-group-and-schedule-f202606-n-2/",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.fifaworldcup-news.org/2026/06/fifa-world-cup-2026-injury-report-stars.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-4/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://fifawatch.com/en/news/netherlands-world-cup-squad/",
+      "type": "team_news"
+    },
+    {
+      "url": "https://nowscore.co/world-cup/match/tunisia-vs-netherlands/",
+      "type": "web"
+    }
+  ],
+  "source_count": 30,
+  "venue": "Arrowhead Stadium",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.24,
+        "away": 0.58
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭整體戰力優於突尼西亞，客場有望取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭實力佔優，突尼斯難以抵擋，客隊有望順利贏球。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭實力遠勝突尼西亞，控球與進攻優勢明顯，預計輕鬆取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.14,
+        "draw": 0.22,
+        "away": 0.64
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭整體實力優勢明顯，突尼西亞難以抵擋"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.23,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭整體實力佔優，突尼西亞難擋攻勢，客隊將順利取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.16,
+        "draw": 0.24,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "荷蘭實力遠勝，客場預計取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭實力高出一截，客場穩操勝券。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.12,
+      "draw": 0.201,
+      "away": 0.679
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T053055Z"
+}

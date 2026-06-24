@@ -1,0 +1,360 @@
+{
+  "match": 60,
+  "stage": "Group D",
+  "home": "Turkey",
+  "away": "USA",
+  "kickoff_utc": "2026-06-26T02:00:00Z",
+  "kickoff_hkt": "2026-06-26 10:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.22,
+      "draw": 0.27,
+      "away": 0.51
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "美國輕鬆完成三連勝",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.62,
+        "basis": "美國已確認晉級，土耳其已出局且2場0進球，主場氣氛（SoFi）利好東道主；帕奇蒂諾或輪換但保持競爭力。"
+      },
+      {
+        "name": "土耳其扳回面子",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.38,
+        "basis": "土耳其若放開踢有可能首次在本屆刺破對手城池，美國輪換陣容防線稍弱，+1.5讓球機率頗高。"
+      },
+      {
+        "name": "土耳其意外爆冷",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "土耳其2025年3月友賽曾以2-1擊敗美國，且本次打主場氛圍，若帕奇蒂諾大幅輪換提供可乘之機。"
+      },
+      {
+        "name": "美國大勝輪換亦勝",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.25,
+        "basis": "土耳其防線鬆動（失3球），美國替補陣容深度充足（萊特、佩皮、贊德哈斯等），可望複製前兩場得分節奏。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN博彩盤口（BetMGM）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.2,
+          "draw": 0.25,
+          "away": 0.55
+        },
+        "scoreline": null,
+        "note": "美國ML-105/-110，土耳其+150，讓球美國-0.5球-110；大/小2.5球各-105/-135"
+      },
+      {
+        "source": "Sportsmole 預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.26,
+          "away": 0.52
+        },
+        "scoreline": "0:2",
+        "note": "Sportsmole稱美國力求三連勝「本世紀首次」，土耳其已連2場0進球，為本屆最慘統計之一"
+      },
+      {
+        "source": "Goal.com 分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.27,
+          "away": 0.51
+        },
+        "scoreline": "0:1",
+        "note": "Goal.com指本場帶有「死局」色彩，帕奇蒂諾可能大幅輪換；但土耳其0進球紀錄仍是最大障礙"
+      },
+      {
+        "source": "TechnoSports/StarnewsKorea 統計分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.26,
+          "away": 0.52
+        },
+        "scoreline": null,
+        "note": "土耳其2場62次射門0進球：自1966年有記錄以來最多射門但0進球的隊伍；統計顯示此次進球機率仍低"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "這場是D組最後一輪，美國（6分）早已晉級且鎖定首位，土耳其（0分）已確認出局——繼塔希亞成第二支出局球隊。美國主帥帕奇蒂諾（Pochettino）面臨抉擇：是繼續全力爭勝（成本世紀首支三連勝美國世界盃隊伍），還是大幅輪換為淘汰賽保留體力。目前報道傾向帕奇蒂諾「保持競爭力但稍作輪換」；Pulisic帶傷（膝蓋問題）可能休息，Pepi/Aaronson/Zendejas等輪換入列。土耳其方面，2場累計62次射門、0進球，是1966年有記錄以來此統計最差紀錄。古勒（Guler）、勒德茲（Yildiz）、查拉諾魯（Calhanoglu）三位世界頂班球員齊集卻無一入球，令人咋舌。蒙特拉（Montella）宣布將繼續執教，「我感覺自己像土耳其人」——沒有辭職打算，表示將打完最後一場。土耳其2025年3月曾以2-1擊敗美國（友誼賽），顯示他們理論上具備競爭力；且本場心理包袱解除，可能「放開踢」反倒更危險。博彩市場：美國輕幅領先（-105/-110），但確信度遠低於突尼西亞對荷蘭一場。預測美國0:2獲勝，對輪換後的美國隊持謹慎態度。",
+    "key_factors": [
+      "土耳其已出局（2場0進球62次射門，史上最差）",
+      "美國已確認D組首位晉級（6分）",
+      "帕奇蒂諾計劃輪換以保留體力，但堅持爭三連勝",
+      "普利希奇（Pulisic）帶傷，可能缺席或限制出場時間",
+      "土耳其心理包袱解除，可能發揮更輕鬆",
+      "土耳其2025年3月友賽以2-1擊敗美國，有情報值",
+      "美國蒂姆·里姆（Tim Ream）史上最老出場球員（38歲）仍在陣",
+      "本場場館在SoFi體育場（洛杉磯），主場效應偏向美國支持者"
+    ],
+    "consensus_lean": "美國領先（市場輕微看好），但不如荷蘭那般一面倒",
+    "dissent": "土耳其若展現之前沒有的進球能力，加上美國輪換後防線稍弱，平局甚至爆冷並非完全不可能；另有分析師認為BTTS NO更有價值，傾向1:0美國勝。"
+  },
+  "sources": [
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/465/league/FIFA.WORLD",
+      "type": "team_news"
+    },
+    {
+      "url": "https://africa.espn.com/football/team/squad?id=465&league=FIFA.WORLD",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/squad/_/id/465/turkiye",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/45269225/pulisic-robinson-weah-reyna-usa-squad-june-matches",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48854192/usa-2026-world-cup-roster-gio-reyna-diego-luna-zendejas",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/fixtures/_/id/465/league/FIFA.WORLDQ.UEFA",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760470/united-states-turkiye",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/results/_/id/465/turkiye",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/results/_/id/20973/turkiye",
+      "type": "web"
+    },
+    {
+      "url": "https://www.espn.com/soccer/story/_/id/48940468/usa-world-cup-2026-schedule-fixtures-results-scores-group-d-how-watch-news-analysis-injuries",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/results/_/id/660/united-states",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.espn.com/soccer/team/_/id/660/united-states",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760470",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/c202w4ew633o",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bbc.com/sport/football/articles/cn4prljp4xlo",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skysports.com/football/turkey-vs-united-states-of-america/stats/549821",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/4/1/turkiye-qualifies-for-world-cup-after-24-year-wait",
+      "type": "web"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/chris-richards-included-usmnt-submits-202225433.html",
+      "type": "web"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/turkey-qualify-world-cup-play-210334008.html",
+      "type": "web"
+    },
+    {
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-christian-pulisic-limited-in-training-as-usmnt-star-manages-calf-injury-192553595.html",
+      "type": "team_news"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/turkey-usa-picks-predictions/",
+      "type": "betting"
+    },
+    {
+      "url": "https://footystats.org/world-cup",
+      "type": "stats"
+    },
+    {
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/turkey-defeats-kosovo-and-becomes-the-44th-country-to-qualify-for-the-world-cup-2026-03-31",
+      "type": "web"
+    },
+    {
+      "url": "https://www.soccerpunter.com/head-to-head-stats/all/26618/18571/18716/United-States-vs-Turkey-in-World-World-Cup-2026",
+      "type": "stats"
+    },
+    {
+      "url": "https://technosports.co.in/62-attempts-zero-goals-turkiye-world-cup-2026/",
+      "type": "web"
+    },
+    {
+      "url": "https://www.starnewskorea.com/en/sports/2026/06/20/2026062020550210313",
+      "type": "web"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-roster-2026",
+      "type": "web"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/usmnt-2026-fifa-world-cup-roster-prediction",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/projecting-usmnt-2026-world-cup-squad-tillman-luna-leapfrog-reyna-post-gold-cup",
+      "type": "team_news"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/christian-pulisic-injury-update-usmnt-world-cup-match",
+      "type": "team_news"
+    }
+  ],
+  "source_count": 30,
+  "venue": "SoFi Stadium",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "土耳其主場硬朗，美國反擊高效，勢均力敵難分高下。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "土耳其主場優勢明顯，中場控制力將助其小勝美國。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.3,
+        "away": 0.4
+      },
+      "scoreline": "1:1",
+      "note": "勢均力敵的對決，美國隊略佔優勢，和波機會高。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.36,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "土耳其主場具聲勢，美國攻守均衡僵持和局"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.33,
+        "draw": 0.32,
+        "away": 0.35
+      },
+      "scoreline": "1:1",
+      "note": "雙方實力接近且中場競爭激烈，預計將以和局收場。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.29,
+        "away": 0.23
+      },
+      "scoreline": "2:1",
+      "note": "土耳其主場經驗豐富，攻勢占優預計小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "美國整體戰術執行力優於土耳其。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.327,
+      "draw": 0.307,
+      "away": 0.367
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T053329Z"
+}

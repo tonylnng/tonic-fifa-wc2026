@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-22T23:16:33Z",
+  "last_updated": "2026-06-24T05:39:58Z",
   "postmortems": [
     {
       "match": 5,
@@ -898,6 +898,447 @@
       ],
       "vs_benchmarks": "多個AI模型（MiniMax、千問、OpenAI GPT-5.1、Gemini、Grok、GLM）的共識比分為2:0，與最終結果完全一致。Polymarket市場（62.5%阿根廷勝）與博彩盤口（61-64%）均正確預判勝負，但均未精確預測零封。Opta超級電腦與Dimers模型同樣看好阿根廷，方向正確。整體而言，所有市場與模型的勝負預測均命中，多模型共識比分更準確地預測了最終2:0結果。",
       "generated_at": "2026-06-22T23:16:33Z"
+    },
+    {
+      "match": 42,
+      "home": "France",
+      "away": "Iraq",
+      "stage": "Group I",
+      "predicted": "4:0",
+      "predicted_outcome": "home",
+      "final": "3:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-20T2300Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.87,
+      "consensus": "3:0",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "4:0"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "3:0"
+        }
+      ],
+      "headline": "雷暴攔不住法國，姆巴佩梅開二度但比分略遜預測",
+      "review": "法國在費城主場對伊拉克本是一面倒的格局，姆巴佩14'破網後，費城林肯金融球場迎來雷暴閃電，比賽暫停逾兩小時。復賽後法國繼續壓制，登貝萊與姆巴佩各建功，最終3:0完賽。預測4:0高估了法國的入球效率——長時間中斷令球員節奏受影響，且伊拉克本場防守韌性勝預期，守住了下半場多個危機。姆巴佩本場是其個人第100帽，進球達16球追平世界盃歷史第二，符合預測框架對其個人發揮的判斷。勝負方向（法國主勝）正確，差距僅在預測進球數過高一球。",
+      "lessons": [
+        "惡劣天氣因素（長時間中斷）對進球效率有實際壓制效應，未來強弱懸殊場次應在氣象風險下調低進球預期。",
+        "弱隊在大場面下往往有超水準的防守表現，進球上限的設定需保留更大的不確定區間。",
+        "高信心值（0.87）下仍有比分偏差，提示結果方向與精確比分是兩個獨立預測層次，不應因勝負置信高而同步高估比分精度。"
+      ],
+      "vs_benchmarks": "本模型預測4:0，與多模型共識（3:0）相比偏高一球，反而是共識更貼近實際——本場主模型為本批次7場中唯一與共識有分歧的高信心場次，顯示共識集成在壓制過度樂觀預測上表現更穩健。",
+      "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 43,
+      "home": "Norway",
+      "away": "Senegal",
+      "stage": "Group I",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "3:2",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-21T2300Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.62,
+      "consensus": "2:1",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "2:1"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "2:1"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "1:1"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "1:2"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "1:1"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "2:1"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "2:1"
+        }
+      ],
+      "headline": "哈蘭德一人兩球定勝局，但塞內加爾薩爾補時驚魂令比分超乎預期",
+      "review": "預測2:1挪威主勝方向命中，但實際3:2的總進球數（5球）遠超預期（3球），反映雙方攻防均比模型估算更為開放。哈蘭德在下半場48'、58'兩度破網，是挪威晉級的決定性因素；然而塞內加爾薩爾在53'及補時93'各入一球，製造了懸念直至終哨。模型信心僅0.62屬本批次較低水平，一定程度反映了對這場球的不確定性，算是對自身局限的適度自知。此役挪威晉級32強，方向研判正確。",
+      "lessons": [
+        "哈蘭德在大賽主場的爆發力難以被歷史常規數據充分量化，強鋒型隊伍的進球上限應給予更高彈性空間。",
+        "非洲球隊（塞內加爾）在告負局面下的反撲意志不容低估，下半場補時入球能力需納入動態比分模型考量。",
+        "信心值0.62與實際比分偏差同向：信心越低的場次，比分精度預期也應相應降低，兩者有合理對應關係。"
+      ],
+      "vs_benchmarks": "本模型與多模型共識同為2:1，方向判斷一致；但實際3:2顯示全體AI模型均低估了本場的進球烈度，此場為集體盲點，共識集成未能帶來額外優勢。",
+      "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 44,
+      "home": "Jordan",
+      "away": "Algeria",
+      "stage": "Group J",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "1:2",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "verdict": "exact",
+      "run_id": "2026-06-21T2300Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.65,
+      "consensus": "1:2",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "1:1"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "0:1"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "0:1"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "1:2"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "1:2"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "1:2"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "1:2"
+        }
+      ],
+      "headline": "本批次唯一完全命中——約旦1:2阿爾及利亞，比分精準落地",
+      "review": "這是#42-#48七場中唯一比分完全命中的場次。約旦拉什丹36'率先破網，一度令局勢出現懸念；但阿爾及利亞下半場依靠定位球組合拳完成逆轉——本布瓦利69'頭槌、古里82'補射，以1:2翻盤。預測框架正確研判了阿爾及利亞攻防能力優於約旦（首屆世界盃），並預見到約旦雖有主場鬥志仍難逃一球落敗的格局。信心0.65屬中等，但比分精度完全對應實際賽況，是模型對弱隊間博弈動態的一次優質研判。",
+      "lessons": [
+        "對弱隊對決的預測，應更重視兩隊實力差距的結構性分析，而非單純依賴歷史勝率——阿爾及利亞對陣首屆世界盃球隊約旦時，比分1:2的「主隊搶先但終被翻盤」劇本具有相當代表性。",
+        "定位球（角球、任意球）的組合反撲能力是北非球隊的傳統優勢，預測框架應在進球構成上納入此維度。",
+        "中等信心（0.65）下的精準命中提示：信心值不應成為比分精度的唯一代理指標，細緻的場景分析有時比統計模型更能捕捉低調場次的動態。"
+      ],
+      "vs_benchmarks": "本模型與GPT-5.1、Gemini 3.1 Pro、Grok 4.20同為1:2，精準命中；MiniMax（1:1）、千問及DeepSeek（0:1）均低估了約旦的入球能力，顯示本模型在研判弱隊主場心理優勢方面優於多數基準線。",
+      "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 45,
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "stage": "Group K",
+      "predicted": "3:1",
+      "predicted_outcome": "home",
+      "final": "5:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-21T2300Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.79,
+      "consensus": "3:0",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "3:0"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "2:0"
+        }
+      ],
+      "headline": "C朗梅開二度+烏龍球成就5:0大屠殺，方向命中但低估葡萄牙猛烈程度",
+      "review": "葡萄牙在休斯頓對烏茲別克斯坦演出一場教科書式的大勝：C朗拿度6'與39'先後破網，成為首位在六屆世界盃均有入球的球員；門德斯17'任意球入網；60'烏茲別克門將內馬托夫烏龍球令比分升至4:0；萊奧87'錦上添花完成5:0。預測3:1命中了葡萄牙主勝方向，但高估了烏茲別克的進球能力（實際0球），同時嚴重低估了葡萄牙的進攻火力（5球對比預測3球）。烏龍球與定位球入球增加了進球偶然性，但整體差距反映了兩隊實力斷層之深。",
+      "lessons": [
+        "C朗拿度在歷史里程碑場次（六屆世界盃均入球）往往有超常發揮，「特殊動機因素」應作為上調進球預期的隱性變量。",
+        "對壓倒性實力差距場次，預測框架傾向於保守的「3:1」格局，導致低估大比分可能——應為極弱隊對陣強隊時引入「大勝情境」分支概率。",
+        "烏龍球是難以預測的隨機事件，但密集進攻壓力本身是烏龍球概率的正相關因素，間接支持高進球預期的合理性。"
+      ],
+      "vs_benchmarks": "本模型預測3:1，共識為3:0，兩者均低估了最終5:0的差距；本模型額外預測烏茲別克入一球亦告失準，在此場表現略遜於預測零失球的共識，顯示集成基準線在研判弱隊攻擊力方面更為審慎。",
+      "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 46,
+      "home": "England",
+      "away": "Ghana",
+      "stage": "Group L",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-21T2300Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.81,
+      "consensus": "2:0",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "2:0"
+        }
+      ],
+      "headline": "高信心0.81完全落空——英格蘭鋒線啞火，迦納0:0爆出本批最大冷門",
+      "review": "這是#42-#48唯一完全失準的場次，亦是本批最嚴重的預測失誤。英格蘭在波士頓Gillette Stadium面對迦納，全場90分鐘零射正、零進球，以0:0悶和收場。賽後數據顯示英格蘭鋒線集體啞火，薩卡、帕爾默等關鍵球員均未能打開迦納的密集防守；伊納基·威廉斯代表迦納作賽（有別於西班牙籍選擇），其前鋒威脅令英格蘭後防不敢全線壓上。結果兩隊各4分並列積分榜首，反映此役對兩隊均有戰術考量，英格蘭可能有意保留體能與輪換——這正是模型未能捕捉的「賽前戰略保留」因素。高信心值0.81不僅本模型失準，更是所有7個基準模型一致押注2:0卻全部落空的集體盲點。",
+      "lessons": [
+        "高信心+全共識仍可完全落空：當所有模型一致指向某結果，反而應提高警覺，可能存在系統性的共同忽略因素（如戰術輪換、賽前博弈考量或密集防守的壓制效應）。",
+        "積分榜情境（兩隊均已積4分）應觸發「戰略保留」預警——在小組賽末段或關鍵分組博弈時，強隊可能主動避免冒險以保存體力，平局不一定是失誤。",
+        "信心校準問題：0.81的信心對應本批最差的結果，提示模型在「強弱差距明顯但非懸殊」的場次中存在過度自信（overconfidence）傾向，需引入更高的平局概率底線。"
+      ],
+      "vs_benchmarks": "本模型與全部7個基準模型一致預測2:0英格蘭主勝，7:7全軍覆沒——這是本批最具代表性的集體盲點事件，顯示當前AI預測框架在應對密集防守戰術與賽前博弈策略時存在結構性短板，多模型共識在此完全喪失保護作用。",
+      "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 47,
+      "home": "Panama",
+      "away": "Croatia",
+      "stage": "Group L",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-21T2300Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.72,
+      "consensus": "0:2",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "0:2"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "0:2"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "0:2"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "0:2"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "0:2"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "1:2"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "0:2"
+        }
+      ],
+      "headline": "克羅地亞僅勝一球晉級，後備布迪米爾54'定勝負",
+      "review": "預測克羅地亞客場勝出方向正確，但預計的第二球始終未能到來。布迪米爾以後備身份入替後在54'破網，是全場唯一進球；克羅地亞此後轉入保守，巴拿馬雖然拼力壓上但無力破門，0:1落幕。預測0:2高估了克羅地亞的進攻意欲——在多倫多BMO Field作賽且已是兩戰後局面，克羅地亞顯然以穩健推進為優先，一球領先後即收縮防線。巴拿馬兩戰全敗出局，在進球層面的無力感亦符合預測框架的基本判斷。",
+      "lessons": [
+        "克羅地亞傳統「功能足球」風格在勝一球後往往選擇保守，預測框架需對此類球隊在領先狀態下引入「提前收手」的進球上限修正。",
+        "後備球員入場改變局面（布迪米爾）是難以預測的隨機事件，但在實力懸殊場次，後備球員發揮出色不改大局方向，只影響比分精度。",
+        "對弱隊（巴拿馬）的主場進球預期應接近零——其首輪表現已清晰顯示進攻能力的缺失，預測時無需為弱隊入球分配額外概率。"
+      ],
+      "vs_benchmarks": "本模型與多數基準線同為0:2，均高估了克羅地亞的最終進球數（實際1球）；唯Grok預測1:2，意外接近實際但方向仍誤。共識在克羅地亞進球數上整體偏高一球，反映框架對強隊「任務完成即收手」行為的普遍低估。",
+      "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 48,
+      "home": "Colombia",
+      "away": "DR Congo",
+      "stage": "Group K",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-22T1100Z",
+      "model": "claude-sonnet-4.6",
+      "confidence": 0.68,
+      "consensus": "2:0",
+      "benchmarks": [
+        {
+          "source": "MiniMax M3",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "千問 Qwen3.7 Max",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "DeepSeek V4 Pro",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "OpenAI GPT-5.1 Thinking",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "Google Gemini 3.1 Pro",
+          "kind": "ai",
+          "scoreline": "2:0"
+        },
+        {
+          "source": "xAI Grok 4.20 Reasoning",
+          "kind": "ai",
+          "scoreline": "2:1"
+        },
+        {
+          "source": "Z.ai GLM-4.7",
+          "kind": "ai",
+          "scoreline": "2:0"
+        }
+      ],
+      "headline": "穆尼奧斯76'一錘定音，剛果守門員神勇令哥倫比亞只勝一球",
+      "review": "哥倫比亞在瓜達拉哈拉主場對剛果民主共和國，整場主導攻勢卻在門將穆帕西（Mpasi）的神勇撲救下屢屢受挫，直至穆尼奧斯76'破門才終告勝出。預測2:1命中了哥倫比亞主勝方向，但同時高估了哥倫比亞的入球數（2球→1球），並預測剛果民主共和國能入一球（實際0球）。剛果門將的超水準發揮是決定性變量，壓縮了整場的進球空間；哥倫比亞提前晉級後的進攻迫切性亦相對降低，促成了低強度1:0的局面。",
+      "lessons": [
+        "門將個人超水準發揮是小組賽弱隊最常見的「擾動變量」，應在弱隊對強隊場次中納入「守門員超常表現」的情境分支，給予主隊進球數向下修正的概率。",
+        "預測剛果民主共和國入球反映對弱隊進攻能力的過度樂觀——在實力差距懸殊且弱隊門將表現出色的情境下，弱隊入球概率應接近零而非常規估計值。",
+        "哥倫比亞已確認晉級的情境下，主動施壓意欲降低，影響最終比分——積分榜狀態應作為進球預期的系統性調整因子。"
+      ],
+      "vs_benchmarks": "本模型預測2:1，共識為2:0；本模型在預測剛果入球一球上偏離共識但同樣落空；共識的2:0與實際1:0更接近（均命中零失球，但哥倫比亞進球數均高估一球）。本場本模型與Grok（同為2:1）在方向上最接近實際，但整體而言共識2:0在比分精度上略勝本模型。",
+      "generated_at": "2026-06-24T05:39:58Z"
     }
   ]
 }

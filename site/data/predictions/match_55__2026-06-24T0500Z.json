@@ -1,0 +1,349 @@
+{
+  "match": 55,
+  "stage": "Group E – Matchday 3",
+  "home": "Ecuador",
+  "away": "Germany",
+  "kickoff_utc": "2026-06-25T20:00:00Z",
+  "kickoff_hkt": "2026-06-26 04:00 HKT",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.22,
+      "draw": 0.22,
+      "away": 0.56
+    },
+    "confidence": 0.63,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "德國輪換仍勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.6,
+        "basis": "德國已鎖定首名，Nagelsmann部分輪換（Wirtz/Musiala保留），厄瓜多Enner Valencia破門但德國板凳實力（Undav/Woltemade）奉上逆轉。"
+      },
+      {
+        "name": "厄瓜多發憤圖強取勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.18,
+        "basis": "德國大幅輪換讓厄瓜多抓住機會，Caicedo主導中場，Valencia及Plata連下兩城，但此結果需同時象牙海岸負于庫拉索才能讓厄出線。"
+      },
+      {
+        "name": "平局各自交代",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.14,
+        "basis": "德國保守輪換保留體力，厄瓜多先進球後德國補時追平，兩隊結果均算合理。"
+      },
+      {
+        "name": "德國大勝關店",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.08,
+        "basis": "德國主力全出以首名優勢確認，Havertz及Undav各建功，厄瓜多因需大勝而自攻自守。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 超級電腦模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.239,
+          "draw": 0.248,
+          "away": 0.513
+        },
+        "note": "Dimers AI（截至2026-06-23 22:44）：德國51.3%勝率，平局24.8%，厄瓜多23.9%；Undav進球率26%最高"
+      },
+      {
+        "source": "BallPrediction 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.14,
+          "draw": 0.15,
+          "away": 0.71
+        },
+        "scoreline": "0:2",
+        "note": "BallPrediction：厄瓜多14%、平局15%、德國71%；最可能比分0-2；Over 2.5 53%"
+      },
+      {
+        "source": "ESPN / Reddit r/worldcup 社群共識",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.2,
+          "draw": 0.2,
+          "away": 0.6
+        },
+        "note": "ESPN分析及Reddit世界盃討論：德國已確認E組首名，厄瓜多1分需勝且賴象牙海岸輸球；一般預測德國即使輪換仍具優勢"
+      },
+      {
+        "source": "博彩盤口（1xBet/行業共識）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.24,
+          "away": 0.54
+        },
+        "note": "市場隱含機率：德國客勝約1.85賠率（54%），平局約4.0，厄瓜多主勝約4.5；但德國輪換需考量"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "E組末輪在MetLife體育場（紐澤西）進行。德國已6分確認首名晉級，本場技術上可進行大規模輪換。厄瓜多1分，必須取勝且需象牙海岸同時負於庫拉索才能晉級。根據Reddit r/worldcup排列組合分析：象牙海岸只需對庫拉索平局即晉級（與厄無關）；厄瓜多出線幾乎完全取決於象牙海岸輸球，機率甚低。德國前兩場成績：大勝庫拉索（比分未全確認，但GD達+7）、擊敗象牙海岸2-1（Undav補時進球雙響）。厄瓜多0-0平庫拉索（Curacao首個世界盃積分），0-1負於象牙海岸。陣容情況：德國Florian Wirtz、Jamal Musiala、Joshua Kimmich及Kai Havertz均在陣，Deniz Undav(本屆兩球)已成主要輪換射手；Nagelsmann可能對Musiala/Havertz輕度輪換。厄瓜多以Moises Caicedo主導中場，Enner Valencia是唯一可靠前鋒但年齡漸長（Reddit評語「厄瓜多除了Valencia根本無其他前鋒」）。Dimers給予德國51.3%（較低因預計輪換），BallPrediction大力看好德國71%。整體共識仍以德國客勝為主，但厄瓜多若德方大量輪換可以搏命一戰。信心度0.63，預測1-2德國客勝。",
+    "key_factors": [
+      "德國已確認E組首名，Nagelsmann預計部分輪換為淘汰賽保留體力",
+      "厄瓜多必須取勝，且需依賴象牙海岸負於庫拉索（機率很低），出線路幾乎封閉",
+      "德國Deniz Undav（兩球）是本屆大黑馬，即使輪換板凳陣容仍具威脅",
+      "厄瓜多缺乏多元化進攻，過度依賴Enner Valencia一人",
+      "MetLife體育場（紐約/紐澤西）是本屆最大場館，無明顯主客場優勢",
+      "德國FIFA排名第10，厄瓜多約35名，紙面實力差距明顯",
+      "BallPrediction給予德國71%最高勝率估算",
+      "厄瓜多Moises Caicedo中場控制可能是唯一優勢牌"
+    ],
+    "consensus_lean": "德國",
+    "dissent": "Dimers模型（51.3%）相對保守，反映德國輪換因素令勝率估計較低。部分YouTube預測（Blackburn Roverseas等）認為厄瓜多若德方大量休息主力有機可乘，但整體分析師仍傾向德國取勝，只是勝利方式（大勝/小勝）有爭議。"
+  },
+  "sources": [
+    {
+      "url": "https://www.espn.com/soccer/match/_/gameId/760468/germany-ecuador",
+      "type": "media"
+    },
+    {
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760468",
+      "type": "media"
+    },
+    {
+      "url": "https://nowscore.co/world-cup/match/ecuador-vs-germany/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.footballexplorer.com/en/world-cup-2026/matches/ecuador-vs-germany",
+      "type": "media"
+    },
+    {
+      "url": "https://www.toffeeweb.com/ecuador-vs-germany-predictions-picks-odds-25-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/ecuador-germany-2372-5075-5930",
+      "type": "official"
+    },
+    {
+      "url": "https://www.actionnetwork.com/worldcup-game/germany-ecuador-score-odds-june-25-2026/284392",
+      "type": "betting"
+    },
+    {
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/ecuador-vs-germany-prediction-25-06-2026/",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.goonersguide.com/football-pick-59561-Ecuador-vs-Germany.htm",
+      "type": "media"
+    },
+    {
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-ecuador-vs-germany-jun-25-2026-game-boxscore-647670",
+      "type": "media"
+    },
+    {
+      "url": "https://planetefootball.com/competitions/world-cup-2026/match/ecuador-vs-germany-prediction",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/ecuador-vs-germany-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aq3YX8o0kQbj/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.ladbrokes.com/en/news/ecuador-germany-world-cup-preview-predictions-tips-2026-06-23/",
+      "type": "betting"
+    },
+    {
+      "url": "https://nerdytips.com/blog/ecuador-vs-germany-prediction-2026-06-25/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_ecu_ger",
+      "type": "betting"
+    },
+    {
+      "url": "https://world-cup-odds.ca/world-cup-predictions/ecuador-vs-germany-tips-25-06-26/",
+      "type": "media"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/ecuador-vs-germany-picks-predictions-080506762.html",
+      "type": "media"
+    },
+    {
+      "url": "https://www.beforeyoubet.com.au/world-cup-2026-day-10-predictions-betting-tips-sunday-june-21",
+      "type": "media"
+    },
+    {
+      "url": "https://www.topendsports.com/en-us/sports-betting/soccer/world-cup/predictions/ecuador-vs-germany/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.forebet.com/en/football/matches/ecuador-germany-2463183",
+      "type": "prediction"
+    },
+    {
+      "url": "https://www.dimers.com/news/world-cup-2026-today-predictions-and-betting-guide-for-sunday-june-14-2026",
+      "type": "betting"
+    },
+    {
+      "url": "https://www.goal.com/en-in/betting/world-cup/ecuador-vs-germany-predictions-26-06-2026/A:blte4a9d88708110798",
+      "type": "media"
+    },
+    {
+      "url": "https://footballwhispers.com/blog/ecuador-vs-germany-prediction-betting-tips-preview-world-cup-2026/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.juvefc.com/ecuador-v-germany-predictions/",
+      "type": "media"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=W8DYHG1elU0",
+      "type": "community"
+    },
+    {
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d1594eb137-0095e9baf9f5-1000--germany-at-the-world-cup-2026-squad-fixtures-group-and-hi/",
+      "type": "official"
+    },
+    {
+      "url": "https://www.reuters.com/sports/soccer/germany-qualify-2026-world-cup-with-6-0-demolition-slovakia-2025-11-17/",
+      "type": "media"
+    },
+    {
+      "url": "https://sports.yahoo.com/article/germany-qualified-world-cup-2026-225507087.html",
+      "type": "media"
+    }
+  ],
+  "source_count": 28,
+  "venue": "MetLife Stadium",
+  "run_id": "2026-06-24T0500Z",
+  "run_timestamp": "2026-06-24T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.25,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "德國整體戰力與板凳深度優於厄瓜多，預期小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "德國整體實力佔優，厄瓜多爾難擋日耳曼戰車攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "德國實力明顯佔優，可望控制戰局取勝，但厄瓜多頑強或有進球。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.23,
+        "away": 0.59
+      },
+      "scoreline": "1:2",
+      "note": "厄瓜多主場不弱，但德國整體實力與深度更勝一籌"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "scoreline": "1:2",
+      "note": "德國整體實力與大賽經驗佔優，預計能突破厄瓜多防線取得勝利。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "德國實力較強，客場勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.2,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "德國戰力較強，厄瓜多難以招架，客隊取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.206,
+      "draw": 0.236,
+      "away": 0.559
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-24T052859Z"
+}

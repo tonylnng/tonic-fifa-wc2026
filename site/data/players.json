@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-22T23:16:33Z",
+  "last_updated": "2026-06-24T05:35:09Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -42,6 +42,54 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "ALG-gouiri",
+      "name_en": "Amine Gouiri",
+      "name_zh": "阿明·古里",
+      "team": "Algeria",
+      "team_zh": "阿爾及利亞",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          44
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
+    },
+    {
+      "id": "ALG-benbouali",
+      "name_en": "Nadhir Benbouali",
+      "name_zh": "納迪爾·本布瓦利",
+      "team": "Algeria",
+      "team_zh": "阿爾及利亞",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          44
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "ALG-bennacer",
@@ -1959,6 +2007,30 @@
       ]
     },
     {
+      "id": "COL-lerma",
+      "name_en": "Jefferson Lerma",
+      "name_zh": "傑弗遜·萊爾馬",
+      "team": "Colombia",
+      "team_zh": "哥倫比亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          48
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
+    },
+    {
       "id": "COL-arias",
       "name_en": "Jhon Arias",
       "name_zh": "約翰·阿里亞斯",
@@ -2025,18 +2097,16 @@
       "is_key": true,
       "bio_zh": "效力水晶宮的右後衛，攻守兼備，在英超展現了出色的跑動能力和傳中質量。近年成為哥倫比亞正選右後衛，本屆有望在世界盃舞台上展示其在英超磨練出的頂級水準。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          24
+          24,
+          48
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
-        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
-        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -2118,6 +2188,30 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "CRO-budimir",
+      "name_en": "Ante Budimir",
+      "name_zh": "安特·布迪米爾",
+      "team": "Croatia",
+      "team_zh": "克羅地亞",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          47
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "CRO-musa",
@@ -2211,6 +2305,30 @@
         "NBC Sports",
         "England Football",
         "The Guardian"
+      ]
+    },
+    {
+      "id": "CRO-sucic",
+      "name_en": "Petar Sucic",
+      "name_zh": "佩塔爾·蘇奇奇",
+      "team": "Croatia",
+      "team_zh": "克羅地亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          47
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -2694,6 +2812,30 @@
         "Sky Sports",
         "The Guardian",
         "Sofascore"
+      ]
+    },
+    {
+      "id": "COD-pickel",
+      "name_en": "Charles Pickel",
+      "name_zh": "查爾斯·皮克爾",
+      "team": "DR Congo",
+      "team_zh": "剛果民主共和國",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          48
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -3271,11 +3413,15 @@
       "bio_zh": "效力阿仙奴的英格蘭中場，防守功力超強、傳球視野廣闊，是英格蘭中場的防線基石。自加盟阿仙奴後表現更上一層樓，本屆將以組織核心身份帶領球隊進攻。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          46
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "ENG-bellingham",
@@ -3337,12 +3483,16 @@
       "is_key": true,
       "bio_zh": "效力巴黎聖日耳門的速度型翼鋒，突破靈活多變，過人技術令後衛難以應付，是法國進攻的重要利器。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          42
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "FRA-thuram",
@@ -3377,17 +3527,16 @@
       "is_key": true,
       "bio_zh": "法國隊長，效力皇家馬德里的世界頂級前鋒，速度奇快，入球能力無與倫比，被譽為當今世界最佳球員。",
       "stats": {
-        "goals": 2,
+        "goals": 4,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          17
+          17,
+          42
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760432/senegal-france",
-        "https://www.skysports.com/football/france-vs-senegal/549782",
-        "https://www.cbssports.com/soccer/news/france-vs-senegal-live-updates-world-cup-2026-score-result/live/"
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -3745,11 +3894,15 @@
       "bio_zh": "選擇代表加納的比爾包前鋒，在西甲擁有豐富經驗，速度快、體能驚人，是球隊前線最有威脅的球員之一。弟弟Nico效力西班牙，兩兄弟同場對決是本屆世界盃佳話。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          46
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "GHA-partey",
@@ -4307,11 +4460,15 @@
       "bio_zh": "效力波蘭球會克拉科維亞的中場，技術穩健，是伊拉克中場的重要連接樞紐，覆蓋全場傳球積極。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          42
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "IRQ-doski",
@@ -4807,6 +4964,30 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "JOR-alrashdan",
+      "name_en": "Nizar Al-Rashdan",
+      "name_zh": "尼扎爾·拉什丹",
+      "team": "Jordan",
+      "team_zh": "約旦",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          44
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "JOR-alarab",
@@ -5755,17 +5936,16 @@
       "is_key": true,
       "bio_zh": "曼城超級射手，連續多年奪得英超金靴，挪威副隊長，入球效率舉世無雙，被視為當代最佳射手之一。",
       "stats": {
-        "goals": 2,
+        "goals": 4,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          18
+          18,
+          43
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760430/norway-iraq",
-        "https://www.skysports.com/football/iraq-vs-norway/549783",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-iraq-vs-norway-jun-16-2026-game-boxscore-647634"
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -5852,6 +6032,30 @@
         "https://www.espn.com/soccer/match/_/gameId/760430/norway-iraq",
         "https://www.skysports.com/football/iraq-vs-norway/549783",
         "https://www.foxsports.com/soccer/fifa-world-cup-men-iraq-vs-norway-jun-16-2026-game-boxscore-647634"
+      ]
+    },
+    {
+      "id": "NOR-pedersen",
+      "name_en": "Marcus Holmgren Pedersen",
+      "name_zh": "馬庫斯·霍姆格倫·佩德森",
+      "team": "Norway",
+      "team_zh": "挪威",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          43
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -6340,12 +6544,16 @@
       "is_key": true,
       "bio_zh": "葡萄牙隊長，史上最多國際賽進球球員，本屆為其第六次世界盃征途，創歷史記錄。雖在沙特聯效力，鬥志依然旺盛，對球隊的精神凝聚與進球能力仍舉足輕重。",
       "stats": {
-        "goals": 0,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          45
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "POR-leao",
@@ -6360,12 +6568,16 @@
       "is_key": true,
       "bio_zh": "效力AC米蘭的快速左翼，爆發力強、突破能力出眾，是葡萄牙邊路進攻最具威脅的球員之一。本賽季在意甲表現穩定，本屆世界盃有望成為葡萄牙的進攻奇兵。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          45
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "POR-fernandes",
@@ -6486,6 +6698,30 @@
         "Sky Sports",
         "The Guardian",
         "Sofascore"
+      ]
+    },
+    {
+      "id": "POR-mendes",
+      "name_en": "Nuno Mendes",
+      "name_zh": "努諾·門德斯",
+      "team": "Portugal",
+      "team_zh": "葡萄牙",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          45
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -7208,12 +7444,16 @@
       "is_key": true,
       "bio_zh": "效力熱刺的年輕中場，體能出眾，活動範圍廣，是塞內加爾未來中場的核心接班人，成長速度驚人。",
       "stats": {
-        "goals": 0,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          43
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/"
+      ]
     },
     {
       "id": "SEN-koulibaly",
