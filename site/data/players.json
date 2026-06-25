@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-24T05:35:09Z",
+  "last_updated": "2026-06-25T05:36:01Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1044,18 +1044,19 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
-        "yellow_cards": 0,
+        "goals": 2,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          26
+          26,
+          49
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
-        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
-        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+        "https://africa.espn.com/football/report/_/gameId/760462/qatar-bosnia-herzegovina",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-bosnia-herzegovina-1113-vs-qatar-1569-live-score-1539009",
+        "https://www.outlookindia.com/sports/football/bosnia-herzegovina-vs-qatar-live-score-fifa-world-cup-2026-group-b-bih-v-qat-updates-seattle-stadium-highlights",
+        "https://sports.yahoo.com/articles/bosnia-strong-position-reach-last-211447340.html"
       ]
     },
     {
@@ -1124,6 +1125,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "BIH-alajbegovic",
+      "name_en": "Kerim Alajbegovic",
+      "name_zh": "阿拉貝戈維奇",
+      "team": "Bosnia & Herzegovina",
+      "team_zh": "波士尼亞及赫塞哥維納",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          49
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760462/qatar-bosnia-herzegovina",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-bosnia-herzegovina-1113-vs-qatar-1569-live-score-1539009",
+        "https://www.outlookindia.com/sports/football/bosnia-herzegovina-vs-qatar-live-score-fifa-world-cup-2026-group-b-bih-v-qat-updates-seattle-stadium-highlights",
+        "https://sports.yahoo.com/articles/bosnia-strong-position-reach-last-211447340.html"
+      ]
     },
     {
       "id": "BIH-muharemovic",
@@ -1239,19 +1267,19 @@
       "is_key": true,
       "bio_zh": "巴西及世界最具威脅的前鋒之一，效力皇家馬德里，以閃電速度、精準射術和出色盤球著稱，多次獲選世界最佳球員候選，是巴西奪冠最大依仗。",
       "stats": {
-        "goals": 2,
+        "goals": 4,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           6,
-          31
+          31,
+          51
         ]
       },
       "sources": [
-        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
-        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
-        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
-        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
+        "https://africa.espn.com/football/report/_/gameId/760465",
+        "https://www.reddit.com/r/soccer/comments/1ueucfz/post_match_thread_scotland_0_3_brazil_fifa_world/",
+        "https://english.mathrubhumi.com/sports/football/brazil-vs-scotland-live-score-world-cup-2026-mzs2dz51"
       ]
     },
     {
@@ -1307,18 +1335,18 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          31
+          31,
+          51
         ]
       },
       "sources": [
-        "https://fdp.fifa.org/assetspublic/ce281/r12466/pdf/FullTimeMatchReport-English.pdf",
-        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-brazil-vs-haiti-in-the-fifa-world-cup-2026-2026-06-19",
-        "https://heavy.com/sports/soccer/world-cup/brazil-vs-haiti-results-today-fifa-world-cup-2026-live-score-updates-stats/",
-        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Brazil-vs.-Haiti/640.aspx?Championship_YearID=18"
+        "https://africa.espn.com/football/report/_/gameId/760465",
+        "https://www.reddit.com/r/soccer/comments/1ueucfz/post_match_thread_scotland_0_3_brazil_fifa_world/",
+        "https://english.mathrubhumi.com/sports/football/brazil-vs-scotland-live-score-world-cup-2026-mzs2dz51"
       ]
     },
     {
@@ -1369,6 +1397,32 @@
       ]
     },
     {
+      "id": "BRA-fabinho",
+      "name_en": "Fabinho",
+      "name_zh": "法比尼奧",
+      "team": "Brazil",
+      "team_zh": "巴西",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          51
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760465",
+        "https://www.reddit.com/r/soccer/comments/1ueucfz/post_match_thread_scotland_0_3_brazil_fifa_world/",
+        "https://english.mathrubhumi.com/sports/football/brazil-vs-scotland-live-score-world-cup-2026-mzs2dz51"
+      ]
+    },
+    {
       "id": "BRA-marquinhos",
       "name_en": "Marquinhos",
       "name_zh": "馬奎尼奧斯",
@@ -1387,6 +1441,32 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "BRA-danilo",
+      "name_en": "Danilo",
+      "name_zh": "達尼洛",
+      "team": "Brazil",
+      "team_zh": "巴西",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          51
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760465",
+        "https://www.reddit.com/r/soccer/comments/1ueucfz/post_match_thread_scotland_0_3_brazil_fifa_world/",
+        "https://english.mathrubhumi.com/sports/football/brazil-vs-scotland-live-score-world-cup-2026-mzs2dz51"
+      ]
     },
     {
       "id": "BRA-douglas",
@@ -1476,18 +1556,19 @@
       "bio_zh": "加拿大歷史入球王，效力修咸頓，以強壯的身體和禁區內的把握能力著稱，擅長利用身體對抗和頭球得分，是加拿大鋒線的重要支點。",
       "stats": {
         "goals": 2,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           3,
-          27
+          27,
+          50
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
-        "https://www.espn.com/soccer/report/_/gameId/760440",
-        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
-        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
+        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
+        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
+        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
       ]
     },
     {
@@ -1503,18 +1584,46 @@
       "is_key": true,
       "bio_zh": "加拿大頭號射手，剛加盟祖雲達斯，在里爾效力期間屢創進球紀錄，射術精準、跑位靈活，是加拿大攻線最大威脅，也是歐洲最受追捧的前鋒之一。",
       "stats": {
-        "goals": 3,
+        "goals": 4,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          27
+          27,
+          50
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/canada-vs-qatar/report/549792",
-        "https://www.espn.com/soccer/report/_/gameId/760440",
-        "https://www.foxsports.com/articles/soccer/jonathan-davids-hat-trick-propels-canada-to-its-first-world-cup-win-60-over-qatar",
-        "https://www.sportingnews.com/uk/football/news/canada-vs-qatar-world-cup-live-score-result-highlights/6f55b44a4555335113174b89"
+        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
+        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
+        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
+      ]
+    },
+    {
+      "id": "CAN-millar",
+      "name_en": "Liam Millar",
+      "name_zh": "米勒",
+      "team": "Canada",
+      "team_zh": "加拿大",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          50
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
+        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
+        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
       ]
     },
     {
@@ -4044,12 +4153,17 @@
       "is_key": true,
       "bio_zh": "海地年輕前鋒，效力桑德蘭，以出色的速度和靈活走位見稱，曾效力多個歐洲聯賽，是海地攻線充滿潛力的新生力量，與納松組成雙前鋒組合。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          52
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760464",
+        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
+      ]
     },
     {
       "id": "HAI-pierrot",
@@ -5109,18 +5223,18 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          1
+          1,
+          53
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/mexico-vs-s-africa/report/549767",
-        "https://www.espn.com/soccer/report/_/gameId/760415",
-        "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-south-africa-jun-11-2026-game-boxscore-647616?tab=playbyplay"
+        "https://www.espn.co.uk/football/report/_/gameId/760467",
+        "https://www.skysports.com/football/czech-republic-vs-mexico/report/549815",
+        "https://www.livescore.com/en/football/international/world-cup-2026/czechia-vs-mexico/1417913/?tab=commentary"
       ]
     },
     {
@@ -5219,6 +5333,58 @@
       ]
     },
     {
+      "id": "MEX-chavez",
+      "name_en": "Mateo Chávez",
+      "name_zh": "查韋斯",
+      "team": "Mexico",
+      "team_zh": "墨西哥",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          53
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760467",
+        "https://www.skysports.com/football/czech-republic-vs-mexico/report/549815",
+        "https://www.livescore.com/en/football/international/world-cup-2026/czechia-vs-mexico/1417913/?tab=commentary"
+      ]
+    },
+    {
+      "id": "MEX-fidalgo",
+      "name_en": "Álvaro Fidalgo",
+      "name_zh": "菲達爾戈",
+      "team": "Mexico",
+      "team_zh": "墨西哥",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          53
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760467",
+        "https://www.skysports.com/football/czech-republic-vs-mexico/report/549815",
+        "https://www.livescore.com/en/football/international/world-cup-2026/czechia-vs-mexico/1417913/?tab=commentary"
+      ]
+    },
+    {
       "id": "MEX-alvarez",
       "name_en": "Edson Álvarez",
       "name_zh": "艾華雷斯",
@@ -5232,11 +5398,17 @@
       "bio_zh": "墨西哥隊長，身兼防守中場與中後衛，以強悍搶截和領袖氣質見稱，曾效力阿賈克斯，現轉投芬巴治，是球隊防守核心及精神領袖。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          53
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760467",
+        "https://www.skysports.com/football/czech-republic-vs-mexico/report/549815",
+        "https://www.livescore.com/en/football/international/world-cup-2026/czechia-vs-mexico/1417913/?tab=commentary"
+      ]
     },
     {
       "id": "MEX-montes",
@@ -5306,6 +5478,31 @@
       "sources": []
     },
     {
+      "id": "MAR-rahimi",
+      "name_en": "Soufiane Rahimi",
+      "name_zh": "拉希米",
+      "team": "Morocco",
+      "team_zh": "摩洛哥",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          52
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760464",
+        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
+      ]
+    },
+    {
       "id": "MAR-amrabat",
       "name_en": "Sofyan Amrabat",
       "name_zh": "安拿巴",
@@ -5346,6 +5543,31 @@
       "sources": []
     },
     {
+      "id": "MAR-yassine",
+      "name_en": "Gessime Yassine",
+      "name_zh": "亞辛",
+      "team": "Morocco",
+      "team_zh": "摩洛哥",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          52
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760464",
+        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
+      ]
+    },
+    {
       "id": "MAR-saibari",
       "name_en": "Ismael Saibari",
       "name_zh": "伊斯梅爾·薩巴里",
@@ -5358,20 +5580,18 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           6,
-          30
+          30,
+          52
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/story/_/id/49119389/scotland-0-1-morocco-world-cup-2026-result-score-recap",
-        "https://www.skysports.com/football/scotland-vs-morocco/report/549795",
-        "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
-        "https://www.sportingnews.com/au/football/news/scotland-morocco-box-score-full-stats-world-cup-group-c-match/553292b21d6b749d0aaeb7ea",
-        "https://www.bbc.com/sport/articles/c78yndw10qxo"
+        "https://www.espn.com/soccer/report/_/gameId/760464",
+        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
       ]
     },
     {
@@ -5387,12 +5607,17 @@
       "is_key": true,
       "bio_zh": "摩洛哥隊長，效力巴黎聖日耳門，是世界最佳右後衛之一，以閃電速度、積極助攻和精準傳中著稱，是摩洛哥攻守兩端最重要的球員。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          52
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760464",
+        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
+      ]
     },
     {
       "id": "MAR-aguerd",
@@ -6879,6 +7104,33 @@
       ]
     },
     {
+      "id": "QAT-al-haydos",
+      "name_en": "Hassan Al-Haydos",
+      "name_zh": "哈桑·阿爾海多斯",
+      "team": "Qatar",
+      "team_zh": "卡塔爾",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          49
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760462/qatar-bosnia-herzegovina",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-bosnia-herzegovina-1113-vs-qatar-1569-live-score-1539009",
+        "https://www.outlookindia.com/sports/football/bosnia-herzegovina-vs-qatar-live-score-fifa-world-cup-2026-group-b-bih-v-qat-updates-seattle-stadium-highlights",
+        "https://sports.yahoo.com/articles/bosnia-strong-position-reach-last-211447340.html"
+      ]
+    },
+    {
       "id": "QAT-elamin",
       "name_en": "Homam El Amin",
       "name_zh": "霍馬姆·阿爾阿明",
@@ -6930,6 +7182,33 @@
         "https://www.espn.com/soccer/report/_/gameId/760420",
         "https://www.theguardian.com/football/2026/jun/13/qatar-switzerland-world-cup-match-report",
         "https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar"
+      ]
+    },
+    {
+      "id": "QAT-fathi",
+      "name_en": "Ahmed Fathi",
+      "name_zh": "法希",
+      "team": "Qatar",
+      "team_zh": "卡塔爾",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          49
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760462/qatar-bosnia-herzegovina",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-bosnia-herzegovina-1113-vs-qatar-1569-live-score-1539009",
+        "https://www.outlookindia.com/sports/football/bosnia-herzegovina-vs-qatar-live-score-fifa-world-cup-2026-group-b-bih-v-qat-updates-seattle-stadium-highlights",
+        "https://sports.yahoo.com/articles/bosnia-strong-position-reach-last-211447340.html"
       ]
     },
     {
@@ -7272,6 +7551,32 @@
       ]
     },
     {
+      "id": "SCO-christie",
+      "name_en": "Ryan Christie",
+      "name_zh": "克里斯蒂",
+      "team": "Scotland",
+      "team_zh": "蘇格蘭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          51
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760465",
+        "https://www.reddit.com/r/soccer/comments/1ueucfz/post_match_thread_scotland_0_3_brazil_fifa_world/",
+        "https://english.mathrubhumi.com/sports/football/brazil-vs-scotland-live-score-world-cup-2026-mzs2dz51"
+      ]
+    },
+    {
       "id": "SCO-robertson",
       "name_en": "Andy Robertson",
       "name_zh": "羅拔臣",
@@ -7584,6 +7889,33 @@
       ]
     },
     {
+      "id": "RSA-modiba",
+      "name_en": "Aubrey Modiba",
+      "name_zh": "莫迪巴",
+      "team": "South Africa",
+      "team_zh": "南非",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          54
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760466",
+        "https://www.skysports.com/football/south-africa-vs-korea-republic/report/549814",
+        "https://www.reddit.com/r/soccer/comments/1ueuy34/match_thread_south_africa_vs_south_korea_fifa_world_cup_2026_group_stage_group_a/",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571530"
+      ]
+    },
+    {
       "id": "RSA-sithole",
       "name_en": "Sphephelo Sithole",
       "name_zh": "斯費費洛·西托爾",
@@ -7635,6 +7967,33 @@
         "https://africa.espn.com/football/match/_/gameId/760438",
         "https://www.foxsports.com/soccer/fifa-world-cup-men-czechia-vs-south-africa-jun-18-2026-game-boxscore-647640",
         "https://heavy.com/sports/soccer/world-cup/czech-republic-vs-south-africa-match-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
+      "id": "RSA-maseko",
+      "name_en": "Thapelo Maseko",
+      "name_zh": "馬塞科",
+      "team": "South Africa",
+      "team_zh": "南非",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          54
+        ]
+      },
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760466",
+        "https://www.skysports.com/football/south-africa-vs-korea-republic/report/549814",
+        "https://www.reddit.com/r/soccer/comments/1ueuy34/match_thread_south_africa_vs_south_korea_fifa_world_cup_2026_group_stage_group_a/",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571530"
       ]
     },
     {
@@ -7765,11 +8124,18 @@
       "bio_zh": "南韓中鋒，效力丹麥密鐵蘭，在卡塔爾世界盃以頭槌連入兩球一夜成名，擅長頭球攻門和禁區內搶點，是南韓鋒線不可或缺的支點型前鋒。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          54
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://africa.espn.com/football/report/_/gameId/760466",
+        "https://www.skysports.com/football/south-africa-vs-korea-republic/report/549814",
+        "https://www.reddit.com/r/soccer/comments/1ueuy34/match_thread_south_africa_vs_south_korea_fifa_world_cup_2026_group_stage_group_a/",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571530"
+      ]
     },
     {
       "id": "KOR-oh",
@@ -8417,18 +8783,19 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          26
+          26,
+          50
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
-        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
-        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
+        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
+        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
       ]
     },
     {
@@ -8444,18 +8811,19 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          26
+          26,
+          50
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
-        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
-        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
+        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
+        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
       ]
     },
     {
@@ -8492,17 +8860,18 @@
       "bio_zh": "瑞士隊長，現效力桑德蘭，曾長期效力阿仙奴及拜爾勒沃庫森，是瑞士中場的精神核心，以強悍的搶截、遠射和領袖氣質著稱，帶領瑞士多次在大賽中爆冷。",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          26
+          26,
+          50
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/switzerland-vs-bosnia-and-herzegovina/report/549791",
-        "https://www.espn.co.uk/football/match/_/gameId/760439/bosnia-herzegovina-switzerland",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-bosnia-and-herzegovina-jun-18-2026-game-boxscore-647641",
-        "https://www.fotmob.com/matches/switzerland-vs-bosnia-herzegovina/2c9awx"
+        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
+        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
+        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
       ]
     },
     {

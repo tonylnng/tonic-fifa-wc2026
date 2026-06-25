@@ -1,0 +1,364 @@
+{
+  "match": 66,
+  "home": "Egypt",
+  "away": "Iran",
+  "stage": "Group G - Matchday 3",
+  "kickoff_utc": "2026-06-27T03:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreline": "1:1",
+    "outcome": "draw",
+    "win_prob": {
+      "home": 0.4,
+      "draw": 0.3,
+      "away": 0.3
+    },
+    "confidence": 0.48,
+    "top_scorelines": [
+      {
+        "scoreline": "1:1",
+        "prob": 0.189
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.181
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.172
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.134
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.103
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "埃及保守平局（理性策略）",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.48,
+        "basis": "埃及4分領組，一平即確保出線；伊朗2分，也需勝出方能確保出線（若與比利時並列則看淨球）；雙方在前兩場均呈現低進球數模式，伊朗對比利時0:0令人側目；埃及防守雙失（Fathi/Abdel-Meguid受傷）或輕微影響防線"
+      },
+      {
+        "name": "埃及主動求勝確保首名",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.3,
+        "basis": "Salah（對陣新西蘭攻入一球）帶領進攻，若Hossam Hassan選擇進攻性踢法確保組首，加上伊朗進攻力有限（前兩場2球），埃及以2:0或2:1勝出"
+      },
+      {
+        "name": "伊朗反勝晉級",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.3,
+        "basis": "若伊朗押注全攻，Rezaeian或Mohebi（對陣新西蘭入球）把握機會；埃及防守因傷患問題暴露弱點，伊朗在本屆前兩場均未輸"
+      },
+      {
+        "name": "悶局雙方零進球",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "兩隊均防守嚴密（Goalence模型顯示Under 2.5佔64%），若雙方均採保守策略，可能出現沉悶0:0平局"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Bet365多家博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.435,
+          "draw": 0.313,
+          "away": 0.278
+        },
+        "note": "Bet365：埃及2.30、平局3.20、伊朗3.60，隱含勝率43%/31%/28%"
+      },
+      {
+        "source": "TheDailyPunt模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.43,
+          "draw": 0.28,
+          "away": 0.29
+        },
+        "scoreline": "1:1",
+        "note": "TheDailyPunt：埃及43%、平局28%、伊朗29%；最可能比分1:1（18.9%）"
+      },
+      {
+        "source": "TipIQ模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.3,
+          "away": 0.3
+        },
+        "scoreline": "1:0",
+        "note": "TipIQ：埃及40%、平局30%、伊朗30%；最可能比分1:0（14%）"
+      },
+      {
+        "source": "WorldCupForecast模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.38,
+          "draw": 0.35,
+          "away": 0.27
+        },
+        "note": "WorldCupForecast：謹慎埃及防守平局策略預測，埃及或平局64%雙重機會"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "G組最緊張的晉級之戰之一。埃及以4分領組，一平即出線，且可能首名出線（若比利時勝新西蘭）。伊朗以2分排第二，需勝出方能確保出線；若與比利時同積4分，淨球數差距將成關鍵（伊朗目前0，比利時0，但進球數相同）。兩隊均有充分理由打平或求勝，戰術博弈複雜。埃及防守因Hamdi Fathi（肌肉傷）及Abdel-Meguid（腦震盪）雙雙缺陣而削弱；伊朗陣容完整（Beiranvand門將表現出色）。Mohamed Salah是埃及最大的進攻威脅。",
+    "key_factors": [
+      "埃及出線算術：一平即確保晉級（可能以首名）；若埃及勝，確保組首；若平，仍需看比利時結果",
+      "伊朗出線算術：勝出即確保晉級；若平，需等比利時負新西蘭方能以淨球優勢排第二",
+      "埃及防守雙傷：Hamdi Fathi（肌肉傷，確定缺陣）和Hossam Abdel-Meguid（腦震盪協議，存疑），防線暴露弱點",
+      "Mohamed Salah：全力上陣，對陣新西蘭攻入一球，是埃及最重要的進攻組織者與射手",
+      "伊朗前兩場未輸（1:1和0:0），Beiranvand門將表現神勇（對陣比利時多次神救），但攻擊力有限（2球）",
+      "賽制博弈：兩隊均清楚對方所需的結果，可能導致開場謹慎；但伊朗必須求勝，比賽後段強度或提升"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Goalence模型給出伊朗36%勝率輕微領先埃及35%，認為伊朗客場實力被低估；部分模型（如footballpredictions.com）預測1:1平局並分析雙方均可接受；Fox Sports盤口顯示埃及+147/伊朗+271（隱含埃及40%勝率），市場比外界認知更接近。"
+  },
+  "sources": [
+    {
+      "type": "news",
+      "name": "Sporting News - Group G Standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-g-standings-results-table-2026/1718b02f21d1b076ccc56614"
+    },
+    {
+      "type": "news",
+      "name": "Simple Wikipedia - 2026 Group G",
+      "url": "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+    },
+    {
+      "type": "news",
+      "name": "Sports Mole - Egypt vs Iran Preview",
+      "url": "https://www.sportsmole.co.uk/football/egypt/world-cup-2026/preview/egypt-vs-iran-prediction-team-news-lineups_599975.html"
+    },
+    {
+      "type": "news",
+      "name": "Goal.com - Egypt vs Iran Preview",
+      "url": "https://www.goal.com/en/news/egypt-iran-world-cup-preview/bltbce2e5fc24897843"
+    },
+    {
+      "type": "injury",
+      "name": "Ahram Online - Egypt Defensive Duo Out vs Iran",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/571512"
+    },
+    {
+      "type": "stats",
+      "name": "FotMob - Egypt vs Iran",
+      "url": "https://www.fotmob.com/matches/iran-vs-egypt/2dp33g"
+    },
+    {
+      "type": "betting",
+      "name": "WorldCupForecast - Egypt vs Iran",
+      "url": "https://worldcupforecast.com/egypt-vs-iran-27-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Juvefc - Egypt vs Iran Predictions",
+      "url": "https://www.juvefc.com/egypt-v-iran-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Repcet - Egypt & Iran Prediction",
+      "url": "https://repcet.com/world-cup/egypt-iran-27062026.html"
+    },
+    {
+      "type": "model",
+      "name": "TipIQ - Egypt vs Iran",
+      "url": "https://tipiq.ai/football/world/world-cup/egypt-vs-iran-prediction-8673fd8a-e914-275d-b080-aaf1eb47e3cd"
+    },
+    {
+      "type": "model",
+      "name": "TheDailyPunt - Egypt vs Iran Stats",
+      "url": "https://thedailypunt.com/football-predictions/egypt-vs-iran-2026-06-27"
+    },
+    {
+      "type": "news",
+      "name": "Oddslot - Egypt vs Iran Odds",
+      "url": "https://oddslot.com/football/match/world-cup/egypt/iran/27-jun-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "WorldCup-2026 Bet - Egypt vs Iran",
+      "url": "https://worldcup-2026.bet/en/match/egypt-vs-iran/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions - Egypt vs Iran",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/egypt-vs-iran-prediction-27-06-2026/"
+    },
+    {
+      "type": "news",
+      "name": "NowScore - Egypt vs Iran",
+      "url": "https://nowscore.co/world-cup/match/egypt-vs-iran/"
+    },
+    {
+      "type": "news",
+      "name": "TheTopBookies - Egypt vs Iran Prediction",
+      "url": "https://www.thetopbookies.com/betting-tips/football/egy-vs-irn-27-jun-2026"
+    },
+    {
+      "type": "stats",
+      "name": "Goalence - Egypt vs Iran",
+      "url": "https://goalence.com/league/world-cup/egypt-vs-iran-2026-06-27"
+    },
+    {
+      "type": "news",
+      "name": "PlanetFootball - Egypt vs Iran Model",
+      "url": "https://planetefootball.com/competitions/world-cup-2026/match/egypt-vs-iran-prediction"
+    },
+    {
+      "type": "news",
+      "name": "Fox Sports - Egypt vs Iran Odds",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-egypt-vs-iran-jun-26-2026-game-boxscore-647681"
+    },
+    {
+      "type": "video",
+      "name": "YouTube - 2026 FIFA World Cup Egypt vs Iran Preview",
+      "url": "https://www.youtube.com/watch?v=LRSL3MbkvqA"
+    },
+    {
+      "type": "news",
+      "name": "TheLines UK - Group G Winner Odds",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-g/"
+    },
+    {
+      "type": "news",
+      "name": "VegasOdds - Group G Winner Picks",
+      "url": "https://www.vegasodds.com/predictions/soccer/world-cup-2026-group-g-winner-picks-schedule-preview/"
+    },
+    {
+      "type": "news",
+      "name": "Africa Soccer - Group G After Matchday 2",
+      "url": "https://africasoccer.com/world-cup-2026-group-standings-after-matchday-two/"
+    },
+    {
+      "type": "news",
+      "name": "CiberCuba - Group G After Round 2",
+      "url": "https://en.cibercuba.com/noticias/2026-06-22-u1-e208512-s27066-nid333006-grupo-g-mundial-2026-queda-tras-jornada-2-juegan"
+    },
+    {
+      "type": "news",
+      "name": "Sky Sports - World Cup Belgium 0-0 Iran",
+      "url": "https://www.skysports.com/football/news/12098/13553797/world-cup-2026-belgium-0-0-iran-nathan-ngoy-sent-off-but-no-goals-in-group-g-draw-in-los-angeles"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - 2026 WC Injuries Tracker",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    }
+  ],
+  "source_count": 26,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "埃及主場進攻強勢，防守略有隱憂，應能險勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "雙方防守穩健且實力接近，預計將以保守戰術握手言和。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "實力接近各取一分，和局機會高，預計1:1握手言和。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.36,
+        "draw": 0.34,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近且踢法保守，小比分和局機率高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.35,
+        "away": 0.31
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力相當且球風皆偏重防守，預計將上演一場膠著的平局。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.31,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "埃及憑薩拉赫攻擊力主場小勝伊朗。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "0:1",
+      "note": "伊朗整體戰術執行力較佳，客場險勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.38,
+      "draw": 0.333,
+      "away": 0.287
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T053343Z"
+}

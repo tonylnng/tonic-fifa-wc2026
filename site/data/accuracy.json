@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-24T05:39:58Z",
+  "last_updated": "2026-06-25T05:36:12Z",
   "metrics": {
-    "total_evaluated": 44,
-    "outcome_correct": 28,
-    "outcome_accuracy": 0.6364,
+    "total_evaluated": 50,
+    "outcome_correct": 32,
+    "outcome_accuracy": 0.64,
     "exact_score_correct": 4,
-    "exact_score_accuracy": 0.0909
+    "exact_score_accuracy": 0.08
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 44,
-      "outcome_correct": 28,
+      "evaluated": 50,
+      "outcome_correct": 32,
       "exact_correct": 4
     }
   },
@@ -548,6 +548,78 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-06-22T1100Z"
+    },
+    {
+      "match": 49,
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "3:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-22T2300Z"
+    },
+    {
+      "match": 50,
+      "home": "Switzerland",
+      "away": "Canada",
+      "predicted": "1:1",
+      "predicted_outcome": "draw",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-22T2300Z"
+    },
+    {
+      "match": 51,
+      "home": "Scotland",
+      "away": "Brazil",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-22T2300Z"
+    },
+    {
+      "match": 52,
+      "home": "Morocco",
+      "away": "Haiti",
+      "predicted": "3:0",
+      "predicted_outcome": "home",
+      "final": "4:2",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-22T2300Z"
+    },
+    {
+      "match": 53,
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-24T0500Z"
+    },
+    {
+      "match": 54,
+      "home": "South Africa",
+      "away": "South Korea",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "1:0",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-24T0500Z"
     }
   ]
 }

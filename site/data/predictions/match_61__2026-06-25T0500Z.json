@@ -1,0 +1,364 @@
+{
+  "match": 61,
+  "home": "Senegal",
+  "away": "Iraq",
+  "stage": "Group I - Matchday 3",
+  "kickoff_utc": "2026-06-26T19:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.74,
+      "draw": 0.16,
+      "away": 0.1
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.133
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.103
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.101
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.093
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.091
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "塞內加爾輕鬆獲勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "塞內加爾陣容質量遠勝伊拉克，Mane、Jackson與Sarr三叉戟維持進攻威脅；伊拉克頭號射手Aymen Hussein因腹股溝傷患狀況存疑，防守已於兩場丟7球，塞內加爾需進球改善積分差以爭取最佳第三名席位"
+      },
+      {
+        "name": "塞內加爾大勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.28,
+        "basis": "塞內加爾若早取進球且對方Mendy門將缺陣（膝傷存疑）影響信心，場面可能一面倒；己隊需積極進攻提升淨球數以增加出線機會"
+      },
+      {
+        "name": "低分差勝出",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.22,
+        "basis": "塞內加爾在前兩場均有失球，若伊拉克以極端防守姿態應戰，比分可能停在1:0"
+      },
+      {
+        "name": "出人意料的平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.09,
+        "basis": "兩隊均面臨出局壓力，若塞內加爾輕敵或Mendy缺陣後防線暴露弱點，伊拉克或能通過反擊搶得一分"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.744,
+          "draw": 0.162,
+          "away": 0.093
+        },
+        "scoreline": "2:0",
+        "note": "Dimers 10,000次模擬，塞內加爾以74.4%勝率為最大熱門"
+      },
+      {
+        "source": "Kalshi預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.79,
+          "draw": 0.14,
+          "away": 0.07
+        },
+        "note": "Kalshi交易者定價塞內加爾79%、平局14%、伊拉克7%"
+      },
+      {
+        "source": "Bet365盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.769,
+          "draw": 0.2,
+          "away": 0.105
+        },
+        "scoreline": null,
+        "note": "Bet365賠率：塞內加爾1.30、平局5.00、伊拉克9.50，隱含勝率分別約77%/20%/11%"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.75,
+          "draw": 0.17,
+          "away": 0.08
+        },
+        "note": "The 7 Oracles引用Polymarket數據，塞內加爾75%勝率"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "塞內加爾是本場明顯熱門。兩隊目前均積0分被淘汰出局，此場僅為最佳第三名資格而戰。塞內加爾擁有以Mane、Jackson、Sarr為核心的強大前線，且伊拉克在前兩場已丟7球；伊拉克頭號射手Aymen Hussein腹股溝傷患存疑（對陣法國時25分鐘即被替換），主力門將Edouard Mendy亦因膝傷狀態成疑。塞內加爾需盡量多進球以爭取最佳第三名席位，預計以積極進攻策略上場。",
+    "key_factors": [
+      "塞內加爾前線火力充足：Mane（33歲老將）、Nicolas Jackson（前切爾西）、Ismaila Sarr組成三叉戟，前兩場合共3球",
+      "伊拉克防線極其脆弱：兩場合共丟7球，失球率高居G-I各組之首",
+      "伊拉克雙重傷患打擊：主射手Aymen Hussein（腹股溝）及輔助射手均存疑，進攻力大打折扣",
+      "Mendy門將狀態存疑：塞內加爾首選守門員Edouard Mendy（膝傷）能否上陣未確定，替補Yehvann Diouf或首發",
+      "戰術動機：塞內加爾必須勝出並盡量多進球，方有望以最佳第三名身份出線",
+      "第二輪形勢：兩隊均以0分出局，此場只是「面子之戰」，但對塞內加爾而言仍有晉級動機"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分模型（如mygameodds）給予塞內加爾僅59%勝率，另有少數博彩師認為伊拉克在毫無壓力下可能以反擊博取一分。但主流共識均指向塞內加爾贏球。"
+  },
+  "sources": [
+    {
+      "type": "news",
+      "name": "AS USA - Group I Standings & Results",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-i-standings-results-and-who-can-qualify-f202606-n-2/"
+    },
+    {
+      "type": "news",
+      "name": "LiveFootballTickets - Group I Update After Round 1",
+      "url": "https://www.livefootballtickets.com/football-news/19579/world-cup-2026-group-i-update-after-round-1.html"
+    },
+    {
+      "type": "betting",
+      "name": "Juvefc - Senegal vs Iraq Predictions",
+      "url": "https://www.juvefc.com/senegal-v-iraq-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "ToffeeWeb - Senegal vs Iraq Odds",
+      "url": "https://www.toffeeweb.com/senegal-vs-iraq-predictions-picks-odds-26-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Iraq vs Senegal Prediction",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_sen_irq"
+    },
+    {
+      "type": "market",
+      "name": "The 7 Oracles / Kalshi - Senegal vs Iraq",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/senegal-vs-iraq"
+    },
+    {
+      "type": "betting",
+      "name": "Squawka - Senegal vs Iraq Match Preview",
+      "url": "https://www.squawka.com/us/news/world-cup/match-preview-senegal-vs-iraq-06-26-26-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK - Senegal vs Iraq Tips",
+      "url": "https://esports-news.co.uk/2026/06/23/senegal-v-iraq-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Mole - Senegal vs Iraq Preview",
+      "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/preview/senegal-vs-iraq-prediction-team-news-lineups_599956.html"
+    },
+    {
+      "type": "injury",
+      "name": "RotoWire - Edouard Mendy Knee Injury",
+      "url": "https://www.rotowire.com/soccer/headlines/edouard-mendy-injury-wont-play-against-iraq-520710"
+    },
+    {
+      "type": "injury",
+      "name": "Action Network - Senegal vs Iraq Injuries",
+      "url": "https://www.actionnetwork.com/worldcup-game/iraq-senegal/287942"
+    },
+    {
+      "type": "injury",
+      "name": "The Hindu - Aymen Hussein Injury vs France",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/why-aymen-hussein-subbed-off-early-iraq-vs-france-fifa-world-cup-2026-injury-update-latest/article71134945.ece"
+    },
+    {
+      "type": "injury",
+      "name": "RotoWire - Aymen Hussein Groin Injury",
+      "url": "https://apps.rotowire.com/soccer/player/aymen-hussein-43625"
+    },
+    {
+      "type": "betting",
+      "name": "Pickswise - SEN vs IRA Picks",
+      "url": "https://www.pickswise.com/world-cup/games/senegal-iraq-world-cup-26-2026-06-26-1900/picks/"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - Senegal vs Iraq Betting Tip",
+      "url": "https://www.futbol24.com/betting-tips/preview/26-06-2026-senegal-iraq-betting-tip/"
+    },
+    {
+      "type": "news",
+      "name": "Goal.com - Senegal vs Iraq Predictions",
+      "url": "https://www.goal.com/en-za/betting/world-cup/senegal-vs-iraq-predictions-26-06-2026/A:blt930b5e6bf9be0bdb"
+    },
+    {
+      "type": "news",
+      "name": "Football.fm - Senegal vs Iraq H2H",
+      "url": "https://football.fm/match/1539074-senegal-vs-iraq/"
+    },
+    {
+      "type": "news",
+      "name": "WorldCupLocalTime - Senegal vs Iraq",
+      "url": "https://worldcuplocaltime.com/match/senegal-iraq-2026-06-26/"
+    },
+    {
+      "type": "stats",
+      "name": "FotMob - Senegal vs Iraq Live",
+      "url": "https://www.fotmob.com/matches/iraq-vs-senegal/18f0co"
+    },
+    {
+      "type": "news",
+      "name": "Repcet - Senegal & Iraq Prediction",
+      "url": "https://repcet.com/world-cup/senegal-iraq-26062026.html"
+    },
+    {
+      "type": "news",
+      "name": "MyGameOdds - Senegal vs Iraq Stats",
+      "url": "https://mygameodds.com/predictions/world-cup-2026/49806/"
+    },
+    {
+      "type": "news",
+      "name": "Databoks - Group I Standings June 23",
+      "url": "https://databoks.katadata.co.id/en/sport/statistics/6a3a13604558b/current-2026-world-cup-group-i-standings-june-23-2026"
+    },
+    {
+      "type": "news",
+      "name": "Sporting News - Group I Standings",
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+    },
+    {
+      "type": "squad",
+      "name": "Straits Times - Senegal Squad WC2026",
+      "url": "https://www.straitstimes.com/sport/football/mane-headlines-tried-and-trusted-senegal-squad-for-world-cup"
+    },
+    {
+      "type": "squad",
+      "name": "The National - Iraq World Cup Talking Points",
+      "url": "https://www.thenationalnews.com/sport/football/2026/06/04/iraq-world-cup-talking-points-ali-al-hamadi-and-aymen-hussein-reignite-hopes-after-arduous-qualification/"
+    },
+    {
+      "type": "news",
+      "name": "NowScore - Senegal vs Iraq Odds",
+      "url": "https://nowscore.co/world-cup/match/senegal-vs-iraq/"
+    }
+  ],
+  "source_count": 26,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.27,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "塞內加爾主場略佔優，伊拉克防反具威脅。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾整體實力佔優，預計憑藉鋒線優勢穩穩拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾實力明顯佔優，可望輕取伊拉克晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.27,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "塞內加爾整體實力與對抗經驗優於伊拉克"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.23,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾整體實力佔優，強大的鋒線與穩固防守將輕鬆壓制伊拉克。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.64,
+        "draw": 0.22,
+        "away": 0.14
+      },
+      "scoreline": "2:1",
+      "note": "塞內加爾實力明顯優於伊拉克，主場勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾實力明顯高出一籌，穩操勝券。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.647,
+      "draw": 0.212,
+      "away": 0.141
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T052918Z"
+}

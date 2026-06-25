@@ -1,0 +1,365 @@
+{
+  "match": 65,
+  "home": "New Zealand",
+  "away": "Belgium",
+  "stage": "Group G - Matchday 3",
+  "kickoff_utc": "2026-06-27T03:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.07,
+      "draw": 0.14,
+      "away": 0.79
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.181
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.153
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.148
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.109
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.092
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "比利時壓勝出線",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.72,
+        "basis": "比利時2分排G組第三（與伊朗並列），必須贏球方能保住出線希望；De Bruyne、Lukaku、Doku等攻擊手對陣新西蘭理應發威；新西蘭1分在本組墊底，已被淘汰出局"
+      },
+      {
+        "name": "比利時大勝積累淨球數",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.3,
+        "basis": "若Nathan Ngoy停賽（紅牌）等影響消除，且比利時為衝高淨球數以備與最佳第三名競爭，可能在主場主動進攻",
+        "note": "比利時第二場與伊朗0:0，Nathan Ngoy在66分鐘被紅牌罰下"
+      },
+      {
+        "name": "新西蘭頑強守平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.14,
+        "basis": "新西蘭在第一輪2:2伊朗（Elijah Just入兩球）展示進攻能力，若比利時持續低迷（兩場1球），或被新西蘭的高壓追搶所困擾"
+      },
+      {
+        "name": "新西蘭爆冷勝出",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.07,
+        "basis": "機率極低，需比利時完全崩盤，新西蘭在主場球迷加持下發揮超常水準"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.058,
+          "draw": 0.131,
+          "away": 0.811
+        },
+        "scoreline": "0:2",
+        "note": "Dimers：比利時81.1%勝率，最可能比分比利時2:0新西蘭"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.08,
+          "draw": 0.15,
+          "away": 0.79
+        },
+        "note": "The Group Stage引用Polymarket：比利時79%、平局15%、新西蘭8%"
+      },
+      {
+        "source": "Bet365/多家博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.077,
+          "draw": 0.16,
+          "away": 0.8
+        },
+        "note": "Bet365：新西蘭8.50、平局5.75、比利時1.30，隱含約8%/16%/77%"
+      },
+      {
+        "source": "TipIQ模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.09,
+          "draw": 0.16,
+          "away": 0.76
+        },
+        "scoreline": "1:3",
+        "note": "TipIQ：比利時76%，最可能比分新西蘭1:比利時3"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "比利時是壓倒性熱門。新西蘭1分墊底已出局，比利時2分排第三，需勝出方有出線機會（與埃及對伊朗同時進行）。比利時擁有De Bruyne、Lukaku、Doku、Trossard等世界頂級球員，但前兩場表現令人失望（1:1埃及、0:0伊朗），且第二場Nathan Ngoy被紅牌，需追求勝分。新西蘭雖在第一輪2:2伊朗表現勇猛，但第二輪1:3負埃及（Salah等入球），陣容質量差距顯著（FIFA排名#85 vs #9）。",
+    "key_factors": [
+      "巨大FIFA排名差距：比利時第9位 vs 新西蘭第85位，陣容質量不可同日而語",
+      "Nathan Ngoy停賽情況：比利時後衛在第二輪對伊朗時被紅牌罰下，若停賽一場則影響防守陣容",
+      "比利時進攻啞火：前兩場僅1球（Hany烏龍球），Lukaku（48.1%進球率）需要打破沉默",
+      "新西蘭已出局：無出線壓力，可能以保守態度應戰，但陣容質量無法與比利時抗衡",
+      "出線算術：比利時必須贏球；若伊朗負埃及，比利時勝即確保出線",
+      "Elijah Just：新西蘭唯一的進攻威脅（對伊朗入兩球），但比利時後防在全力備戰情況下理應化解"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數分析師（如Scotby Cycles預測1:1）認為比利時持續低迷、新西蘭的高壓踢法可能讓比分膠著；但幾乎所有主流市場和模型均強力看好比利時，置信度偏高。"
+  },
+  "sources": [
+    {
+      "type": "news",
+      "name": "Sporting News - Group G Standings Table",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-g-standings-results-table-2026/1718b02f21d1b076ccc56614"
+    },
+    {
+      "type": "news",
+      "name": "AS.com - Group G Matchday 2 Results",
+      "url": "https://en.as.com/resultados/futbol/mundial/2026/jornada/grupos_g_2/"
+    },
+    {
+      "type": "news",
+      "name": "Simple Wikipedia - 2026 Group G",
+      "url": "https://simple.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_G"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - New Zealand vs Belgium TV Channel",
+      "url": "https://www.espn.com/soccer/story/_/id/49165403/new-zealand-vs-belgium-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Belgium vs New Zealand",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_nzl_bel"
+    },
+    {
+      "type": "model",
+      "name": "TipIQ - New Zealand vs Belgium",
+      "url": "https://tipiq.ai/football/world/world-cup/new-zealand-vs-belgium-prediction-2c01ab67-02ea-b85b-aca1-d79afa09b748"
+    },
+    {
+      "type": "betting",
+      "name": "Repcet - New Zealand & Belgium Prediction",
+      "url": "https://repcet.com/world-cup/new-zealand-belgium-27062026.html"
+    },
+    {
+      "type": "betting",
+      "name": "TheDailyPunt - New Zealand vs Belgium Stats",
+      "url": "https://thedailypunt.com/football-predictions/new-zealand-vs-belgium-2026-06-27"
+    },
+    {
+      "type": "betting",
+      "name": "The Real EFL - New Zealand vs Belgium",
+      "url": "https://therealefl.co.uk/2026/06/22/new-zealand-vs-belgium-prediction-odds-lineups-betting-tips-27-06-2026-fifa-world-cup/"
+    },
+    {
+      "type": "betting",
+      "name": "TheSportsRush - New Zealand vs Belgium Predictions",
+      "url": "https://thesportsrush.com/new-zealand-v-belgium-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions - New Zealand vs Belgium",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/new-zealand-vs-belgium-prediction-27-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Futbol24 - New Zealand vs Belgium Tip",
+      "url": "https://www.futbol24.com/betting-tips/preview/27-06-2026-new-zealand-belgium-betting-tip/"
+    },
+    {
+      "type": "news",
+      "name": "NowScore - New Zealand vs Belgium",
+      "url": "https://nowscore.co/world-cup/match/new-zealand-vs-belgium/"
+    },
+    {
+      "type": "news",
+      "name": "The Group Stage - New Zealand vs Belgium",
+      "url": "https://www.thegroupstage.com/matchups/new-zealand-vs-belgium"
+    },
+    {
+      "type": "injury",
+      "name": "RotoWire - Nathan Ngoy Red Card",
+      "url": "https://www.rotowire.com/soccer/headlines/nathan-ngoy-news-sent-off-against-iran-520403"
+    },
+    {
+      "type": "news",
+      "name": "Chase Your Sport - Nathan Ngoy Red Card Suspension",
+      "url": "https://www.chaseyoursport.com/football/nathan-ngoy-red-card-suspension-vs-iran-fifa-world-cup-2026/12506"
+    },
+    {
+      "type": "news",
+      "name": "Sky Sports - World Cup Belgium 0-0 Iran",
+      "url": "https://www.skysports.com/football/news/12098/13553797/world-cup-2026-belgium-0-0-iran-nathan-ngoy-sent-off-but-no-goals-in-group-g-draw-in-los-angeles"
+    },
+    {
+      "type": "stats",
+      "name": "FotMob - New Zealand vs Belgium",
+      "url": "https://www.fotmob.com/en-GB/matches/new-zealand-vs-belgium/1n1sct"
+    },
+    {
+      "type": "news",
+      "name": "WorldCupLocalTime - New Zealand vs Belgium",
+      "url": "https://worldcuplocaltime.com/match/new-zealand-belgium-2026-06-27/"
+    },
+    {
+      "type": "news",
+      "name": "WC26 Intelligence - New Zealand",
+      "url": "https://www.fifa-26.com/en/teams/new-zealand"
+    },
+    {
+      "type": "news",
+      "name": "Africa Soccer - Group G After Matchday 2",
+      "url": "https://africasoccer.com/world-cup-2026-group-standings-after-matchday-two/"
+    },
+    {
+      "type": "news",
+      "name": "Thai Rath - Group G Standings After Matchday 2",
+      "url": "https://en.thairath.co.th/sport/worldcup/2941074"
+    },
+    {
+      "type": "news",
+      "name": "CiberCuba - Group G After Round 2",
+      "url": "https://en.cibercuba.com/noticias/2026-06-22-u1-e208512-s27066-nid333006-grupo-g-mundial-2026-queda-tras-jornada-2-juegan"
+    },
+    {
+      "type": "video",
+      "name": "YouTube - 2026 FIFA World Cup NZ vs Belgium Preview",
+      "url": "https://www.youtube.com/watch?v=pYzV6eJqorI"
+    },
+    {
+      "type": "news",
+      "name": "RG - Belgium WC2026 Roster",
+      "url": "https://rg.org/en-ca/sportsbooks/world-cup-2026/belgium"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - World Cup Group G",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "source_count": 26,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "比利時整體實力遠勝紐西蘭，客場應輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "比利時實力佔優，紐西蘭難以抵擋，客隊勝算極高。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.1,
+        "away": 0.85
+      },
+      "scoreline": "0:2",
+      "note": "比利時實力明顯佔優，應可輕鬆取勝，紐西蘭難有招架之力。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.08,
+        "draw": 0.12,
+        "away": 0.8
+      },
+      "scoreline": "0:3",
+      "note": "比利時整體實力遠勝紐西蘭，預期輕鬆取勝。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.12,
+        "away": 0.83
+      },
+      "scoreline": "0:3",
+      "note": "比利時陣容實力完全輾壓紐西蘭，預計能輕鬆掌控局勢並大勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "比利時實力遠勝紐西蘭，客場應輕鬆取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.08,
+        "draw": 0.2,
+        "away": 0.72
+      },
+      "scoreline": "0:2",
+      "note": "比利時戰力優勢明顯，客場穩操勝券。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.078,
+      "draw": 0.158,
+      "away": 0.764
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T053250Z"
+}

@@ -1,0 +1,363 @@
+{
+  "match": 63,
+  "home": "Cape Verde",
+  "away": "Saudi Arabia",
+  "stage": "Group H - Matchday 3",
+  "kickoff_utc": "2026-06-27T00:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.4,
+      "draw": 0.27,
+      "away": 0.33
+    },
+    "confidence": 0.52,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.105
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.132
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.125
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.115
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.082
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "佛得角獲勝出線",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "佛得角主動進攻以確保晉級，勝出即達5分確保出線；沙地阿拉伯-4淨球數反映防線疲弱（0:4負西班牙），佛得角在前兩場展現組織能力，與西班牙0:0、烏拉圭2:2均未輸"
+      },
+      {
+        "name": "激戰平局",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.27,
+        "basis": "兩隊均有進攻動機但防守能力有限；沙地阿拉伯若以謹慎策略求一分，或能與佛得角瓜分積分，但此結果對沙地阿拉伯出線希望不大"
+      },
+      {
+        "name": "沙地阿拉伯反勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.33,
+        "basis": "沙地阿拉伯必須勝出方有機會出線（需西班牙擊敗烏拉圭），若其以背水一戰姿態出戰，反擊威力不可忽視；FIFA排名第61位略高於佛得角第67位"
+      },
+      {
+        "name": "佛得角大勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.12,
+        "basis": "若佛得角早取進球且沙地阿拉伯士氣崩潰（延續負西班牙陰影），比分可能進一步擴大，但機會不高"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "BetOnline盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.413,
+          "draw": 0.273,
+          "away": 0.357
+        },
+        "note": "BetOnline：佛得角+142、平局+266、沙地阿拉伯+200（隱含勝率41%/27%/36%）"
+      },
+      {
+        "source": "Bet365/TipIQ模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.39,
+          "draw": 0.28,
+          "away": 0.33
+        },
+        "scoreline": "1:1",
+        "note": "TipIQ模型：佛得角39%、平局28%、沙地阿拉伯33%；最可能比分1:1（13.2%）"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.27,
+          "away": 0.41
+        },
+        "note": "The Group Stage引用Polymarket：沙地阿拉伯41%、平局27%、佛得角35%，市場輕微偏向沙地阿拉伯"
+      },
+      {
+        "source": "KickOff UK模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.39,
+          "draw": 0.27,
+          "away": 0.34
+        },
+        "note": "KickOff UK算法給出佛得角39%、平局27%、沙地阿拉伯34%"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "H組最後一場是目前積2分並列第三的佛得角對積1分墊底的沙地阿拉伯，雙方均需贏球方有出線機會（沙地阿拉伯還需西班牙擊敗烏拉圭）。佛得角首次參加世界盃卻展現出驚人穩定性（0:0西班牙、2:2烏拉圭），兩場均未輸，防守組織嚴密；沙地阿拉伯在第二輪0:4慘敗西班牙，防線問題嚴重暴露，但對烏拉圭1:1的表現顯示具備搶分能力。這是一場雙方均無退路的生死戰。",
+    "key_factors": [
+      "佛得角首次世界盃表現超預期：連平西班牙和烏拉圭，共積2分，展現組織防守和快速反擊能力",
+      "沙地阿拉伯-4淨球數致命傷：僅1分且淨球劣勢，需勝出並靠其他結果方能出線",
+      "晉級算術：佛得角勝出即保5分確保晉級；沙地阿拉伯必須贏球再等西班牙結果",
+      "兩隊防守均不穩固：沙地阿拉伯已丟5球（對西班牙丟4球），佛得角前兩場丟2球但均從落後追平",
+      "心理因素：佛得角以歷史最佳成績出戰，士氣高昂；沙地阿拉伯0:4大敗後信心受損",
+      "同步比賽影響：烏拉圭對西班牙同時進行，雙方均可能因場外消息調整策略"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Polymarket及部分博彩師輕微傾向沙地阿拉伯（約35-41%勝率），認為其FIFA排名（61）高於佛得角（67），且背水一戰動力或帶來超水準發揮。但主流分析師和博彩市場整體仍輕微偏向佛得角。"
+  },
+  "sources": [
+    {
+      "type": "news",
+      "name": "ESPN - Group H Analysis",
+      "url": "https://www.espn.com/soccer/story/_/id/49072408/group-h-2026-world-cup-teams-records-stats-know-spain-cape-verde-uruguay-saudi-arabia"
+    },
+    {
+      "type": "news",
+      "name": "AS USA - Group H Standings",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-h-standings-results-and-who-can-qualify-f202606-n-2/"
+    },
+    {
+      "type": "news",
+      "name": "Sporting News - Group H Standings Table",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-group-h-standings-results-table-2026/d90922c761921d99f9204088"
+    },
+    {
+      "type": "news",
+      "name": "Wikipedia - 2026 Group H",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+    },
+    {
+      "type": "betting",
+      "name": "Inkl - Cape Verde vs Saudi Arabia Predictions",
+      "url": "https://www.inkl.com/news/cape-verde-vs-saudi-arabia-world-cup-2026-predictions-and-picks"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK - Cape Verde vs Saudi Arabia Tips",
+      "url": "https://esports-news.co.uk/2026/06/23/cape-verde-v-saudi-arabia-predictions/"
+    },
+    {
+      "type": "news",
+      "name": "Sports Mole - Cape Verde vs Saudi Arabia Preview",
+      "url": "https://www.sportsmole.co.uk/football/cape-verde/world-cup-2026/preview/cape-verde-vs-saudi-arabia-prediction-team-news-lineups_599983.html"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - Cape Verde vs Saudi Arabia TV Channel",
+      "url": "https://www.espn.com/soccer/story/_/id/49141810/fifa-world-cup-2026-cape-verde-vs-saudi-arabia-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "model",
+      "name": "TipIQ - Cape Verde vs Saudi Arabia",
+      "url": "https://tipiq.ai/football/world/world-cup/cape-verde-islands-vs-saudi-arabia-prediction-e7217eb4-cdde-fb57-bbf2-fcf123e79b76"
+    },
+    {
+      "type": "betting",
+      "name": "NerdyTips - Cape Verde vs Saudi Arabia",
+      "url": "https://nerdytips.com/blog/cape-verde-islands-vs-saudi-arabia-prediction-2026-06-27/"
+    },
+    {
+      "type": "betting",
+      "name": "Juvefc - Cape Verde vs Saudi Arabia",
+      "url": "https://www.juvefc.com/cape-verde-v-saudi-arabia-predictions/"
+    },
+    {
+      "type": "news",
+      "name": "The Group Stage - Cape Verde vs Saudi Arabia",
+      "url": "https://www.thegroupstage.com/matchups/cape-verde-vs-saudi-arabia"
+    },
+    {
+      "type": "news",
+      "name": "Fox Sports - Cape Verde Controls Own Destiny",
+      "url": "https://www.foxsports.com/articles/other/a-win-over-saudi-arabia-would-send-cape-verde-to-the-round-of-32-at-the-world-cup"
+    },
+    {
+      "type": "news",
+      "name": "MLS Soccer - How Cape Verde Can Advance",
+      "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/how-cape-verde-can-advance-fifa-2026-world-cup-scenarios"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - World Cup Group Stage Scenarios",
+      "url": "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
+    },
+    {
+      "type": "news",
+      "name": "CubaHeadlines - Group H After Matchday 2",
+      "url": "https://www.cubaheadlines.com/articles/333003"
+    },
+    {
+      "type": "stats",
+      "name": "FotMob - Cape Verde vs Saudi Arabia",
+      "url": "https://www.fotmob.com/matches/cape-verde-vs-saudi-arabia/1jqqyp"
+    },
+    {
+      "type": "betting",
+      "name": "KickOff UK - Cape Verde vs Saudi Arabia",
+      "url": "https://www.kickoff.co.uk/world-cup-predictions-stats-odds/cape-verde-islands-vs-saudi-arabia/"
+    },
+    {
+      "type": "betting",
+      "name": "FootyPrediction - Cape Verde vs Saudi Arabia",
+      "url": "https://footyprediction.com/fifa-world-cup/cape-verde-saudi-arabia-27-06-2026"
+    },
+    {
+      "type": "news",
+      "name": "Sky Sports - Group H Guide",
+      "url": "https://www.skysports.com/football/news/12098/13543099/world-cup-2026-group-h-guide-fixtures-schedule-standings-and-odds-for-spain-cape-verde-saudi-arabia-and-uruguay"
+    },
+    {
+      "type": "news",
+      "name": "Livemint - Group H Qualification Scenarios",
+      "url": "https://www.livemint.com/sports/football-news/fifa-world-cup-2026-group-h-showdown-what-spain-uruguay-cabo-verde-need-to-reach-round-of-32-scenarios-explained/amp-11782122410039.html"
+    },
+    {
+      "type": "news",
+      "name": "PrizePicks - Group H Qualifying Scenarios",
+      "url": "https://www.prizepicks.com/playbook-article/world-cup-round-of-32-qualifying-scenarios-how-each-team-can-qualify"
+    },
+    {
+      "type": "news",
+      "name": "365Scores - Cape Verde vs Saudi Arabia",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/cape-verde-saudi-arabia-5087-5411-5930"
+    },
+    {
+      "type": "news",
+      "name": "Goal.com - Cape Verde vs Saudi Arabia Preview",
+      "url": "https://www.goal.com/en-ом/news/cabo-verde-saudi-arabia-world-cup-preview/blte5c01ba40a6d1b44"
+    },
+    {
+      "type": "news",
+      "name": "Lineup11 - Cape Verde vs Saudi Arabia Prediction",
+      "url": "https://lineup11.pro/match/cape-verde-vs-saudi-arabia/"
+    },
+    {
+      "type": "news",
+      "name": "NowScore - Cape Verde vs Saudi Arabia",
+      "url": "https://nowscore.co/world-cup/match/cape-verde-vs-saudi-arabia/"
+    }
+  ],
+  "source_count": 26,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "佛得角主場略佔優，沙烏地進攻乏力。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.36,
+        "away": 0.32
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力相近且戰術保守，小組賽末輪易成和局。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.28,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "沙烏地阿拉伯整體實力較強，維德角難擋攻勢，比分預測1:2。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.37,
+        "away": 0.29
+      },
+      "scoreline": "1:1",
+      "note": "實力接近且風格迥異，互有攻勢終以和局收場"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.34,
+        "away": 0.32
+      },
+      "scoreline": "1:1",
+      "note": "雙方實力相近，維德角的防守與沙烏地的技術抵消，和局收場。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.37,
+        "draw": 0.36,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "佛得角主場優勢明顯，沙烏地防守穩健，預計和局。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "沙烏地阿拉伯進攻線具備爆發力，可突破維德角防線。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.351,
+      "draw": 0.314,
+      "away": 0.334
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T053112Z"
+}

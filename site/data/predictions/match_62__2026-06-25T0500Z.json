@@ -1,0 +1,362 @@
+{
+  "match": 62,
+  "home": "Norway",
+  "away": "France",
+  "stage": "Group I - Matchday 3",
+  "kickoff_utc": "2026-06-26T19:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.2,
+      "draw": 0.22,
+      "away": 0.58
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.097
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.095
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.092
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.097
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.075
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "法國順利奪組首",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.58,
+        "basis": "Mbappe（6場世界盃合共4球）主導，法國擁有更深的陣容厚度；挪威防守在第二輪對陣塞內加爾（3:2獲勝）時露出破綻，Ryerson傷患需替補上陣，Ødegaard等三名主力仍有傷患存疑"
+      },
+      {
+        "name": "雙方平分秋色",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.22,
+        "basis": "兩隊均已出線，均積6分，法國或選擇保守進行，Haaland（4球）仍具威脅；若雙方均保留體力備戰淘汰賽，平局實為可接受結果"
+      },
+      {
+        "name": "挪威爆冷奪首",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "Haaland及Odegaard狀態出色，主場氛圍支持；若法國輪換陣容備戰淘汰賽，挪威或能把握機會"
+      },
+      {
+        "name": "法國大勝確保首名",
+        "scoreline": "2:0",
+        "outcome": "away",
+        "confidence": 0.2,
+        "basis": "若挪威傷患困擾嚴重（Ødegaard/Berge/Sørloth）且法國保持全力上陣，可能出現單方面比賽"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Polymarket預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.225,
+          "draw": 0.24,
+          "away": 0.535
+        },
+        "note": "Polymarket：法國53.5%、平局24%、挪威22.5%"
+      },
+      {
+        "source": "Kalshi預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.19,
+          "draw": 0.22,
+          "away": 0.59
+        },
+        "note": "Kalshi：法國59%、平局22%、挪威19%（The 7 Oracles引用）"
+      },
+      {
+        "source": "Bet365盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.231,
+          "draw": 0.278,
+          "away": 0.556
+        },
+        "note": "Bet365賠率：挪威4.33、平局3.60、法國1.80，隱含勝率23%/28%/56%"
+      },
+      {
+        "source": "ESPN賽事賠率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.222,
+          "draw": 0.27,
+          "away": 0.556
+        },
+        "note": "ESPN盤口：法國-140，隱含約58%勝率"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "本場為決定I組頭名之戰，兩隊均以6分晉級。法國以更佳淨球數（+5 vs +4）暫居首位，勝者奪組首，平局則法國保頭名。法國擁有Mbappe（今屆世界盃前兩場各入2球）、Dembele、Barcola等鋒線，整體陣容深度遠勝挪威。挪威方面，Haaland表現出色（4球），但Ryerson受傷，Ødegaard、Berge和Sørloth傷患存疑削弱中前場。鑑於兩隊均已出線且法國或有輪換考慮，比賽烈度略有保留，但法國仍被普遍視為較強一方。",
+    "key_factors": [
+      "法國陣容深度優勢：Mbappe今屆4球，法國前三場均得分且均不失超過1球；Deschamps陣容無重傷報告",
+      "挪威傷患隱憂：Ryerson右後衛受傷（替補Pedersen），Ødegaard/Berge/Sørloth均有不同程度傷患疑問",
+      "兩隊已出線無壓力：兩隊均6分確保晉級，可能選擇保留部分主力，但奪組首依然是動力",
+      "Haaland威脅：4球當前組最高（並列第二）的Haaland在每場均進球，對任何防守均是威脅",
+      "首次世界盃正式對決：兩隊在本屆世界盃首度交鋒，歷史上法國以10-6-5的戰績佔優",
+      "第二輪戰績：法國3:0大勝伊拉克（Mbappe2球+Dembele），挪威3:2力克塞內加爾（Haaland2球）"
+    ],
+    "consensus_lean": "away",
+    "dissent": "部分分析師（如Fanorate）預測1:1甚至2:2的高分平局；少數模型（如Goalence）認為挪威主場優勢不可忽視。但主流共識壓倒性支持法國勝出。"
+  },
+  "sources": [
+    {
+      "type": "news",
+      "name": "AS USA - Group I Final Standings",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-i-standings-results-and-who-can-qualify-f202606-n-2/"
+    },
+    {
+      "type": "news",
+      "name": "Goal.com - Norway vs France Preview",
+      "url": "https://www.goal.com/en-us/news/norway-france-world-cup-preview/blt150ba978b694fe14"
+    },
+    {
+      "type": "betting",
+      "name": "ToffeeWeb - Norway vs France Odds",
+      "url": "https://www.toffeeweb.com/norway-vs-france-predictions-picks-odds-26-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "The 7 Oracles / Kalshi - France vs Norway",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/france-vs-norway"
+    },
+    {
+      "type": "market",
+      "name": "Polymarket - Norway vs France",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-nor-fra-2026-06-26"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Norway vs France Preview",
+      "url": "https://www.ladbrokes.com/en/news/norway-france-world-cup-preview-predictions-tips-2026-06-24/"
+    },
+    {
+      "type": "betting",
+      "name": "BetMGM - France vs Norway Preview",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/france-vs-norway-prediction-odds-preview-world-cup-june-26-bm16/"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - Norway vs France TV Channel & Lineups",
+      "url": "https://www.espn.com/soccer/story/_/id/49162941/norway-vs-france-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - Norway vs France Odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760475"
+    },
+    {
+      "type": "betting",
+      "name": "Offshore Sportsbooks - Norway vs France",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/norway-vs-france-world-cup-group-i-odds-picks-jun-26/"
+    },
+    {
+      "type": "news",
+      "name": "Total Football Analysis - Norway vs France Predicted Lineups",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/norway-v-france-predictions"
+    },
+    {
+      "type": "news",
+      "name": "Repcet - Norway & France Prediction",
+      "url": "https://repcet.com/world-cup/norway-france-26062026.html"
+    },
+    {
+      "type": "news",
+      "name": "NowScore - Norway vs France",
+      "url": "https://nowscore.co/world-cup/match/norway-vs-france/"
+    },
+    {
+      "type": "news",
+      "name": "Sports Mole - Norway vs France Preview & Lineups",
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/preview/norway-vs-france-prediction-team-news-lineups_600014.html"
+    },
+    {
+      "type": "news",
+      "name": "TopEnd Sports - France vs Norway Prediction Canada",
+      "url": "https://www.topendsports.com/en-ca/sports-betting/soccer/world-cup/predictions/france-vs-norway/"
+    },
+    {
+      "type": "news",
+      "name": "TopEnd Sports - France vs Norway Prediction UK",
+      "url": "https://www.topendsports.com/en-gb/sports-betting/soccer/world-cup/predictions/france-vs-norway/"
+    },
+    {
+      "type": "news",
+      "name": "United 2026 - Norway vs France Match",
+      "url": "https://www.united-2026.com/matches/61-norway-vs-france"
+    },
+    {
+      "type": "injury",
+      "name": "Sports Mole - Julian Ryerson Injury",
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/preview/norway-vs-france-prediction-team-news-lineups_600014.html"
+    },
+    {
+      "type": "news",
+      "name": "Databoks - Group I Standings June 23",
+      "url": "https://databoks.katadata.co.id/en/sport/statistics/6a3a13604558b/current-2026-world-cup-group-i-standings-june-23-2026"
+    },
+    {
+      "type": "news",
+      "name": "CBS Sports - World Cup Group Standings",
+      "url": "https://www.cbssports.com/soccer/news/world-cup-group-standings-table-results/"
+    },
+    {
+      "type": "stats",
+      "name": "FotMob - Norway vs France",
+      "url": "https://www.fotmob.com/matches/france-vs-norway/1wx88k"
+    },
+    {
+      "type": "news",
+      "name": "Fanorate - France vs Norway Preview",
+      "url": "https://www.fanorate.com/soccer-2026/match-previews/france-vs-norway-world-cup-2026-preview/"
+    },
+    {
+      "type": "news",
+      "name": "Football.fm - Norway vs France H2H",
+      "url": "https://football.fm/match/1489416-norway-vs-france/"
+    },
+    {
+      "type": "news",
+      "name": "abhs.in - Haaland vs Mbappe Prediction",
+      "url": "https://abhs.in/blog/france-vs-norway-june-26-2026-haaland-vs-mbappe-world-cup-prediction"
+    },
+    {
+      "type": "news",
+      "name": "FootballDream - Norway vs France Lineups",
+      "url": "https://www.footballdream.in/preview/norway-vs-france-world-cup-2026"
+    },
+    {
+      "type": "news",
+      "name": "WorldCupOdds Canada - Norway vs France",
+      "url": "https://world-cup-odds.ca/world-cup-predictions/norway-vs-france-tips-26-06-26/"
+    }
+  ],
+  "source_count": 26,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.26,
+        "away": 0.52
+      },
+      "scoreline": "1:2",
+      "note": "法國整體實力優於挪威，客場有望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "法國整體實力更勝一籌，客場有望小勝挪威。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.26,
+        "away": 0.52
+      },
+      "scoreline": "1:2",
+      "note": "法國整體實力明顯佔優，即使挪威主場作戰並全力搶分，仍難以阻擋法國取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.16,
+        "draw": 0.22,
+        "away": 0.62
+      },
+      "scoreline": "1:3",
+      "note": "法國整體實力占優，挪威恐難擋其攻勢"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "scoreline": "1:2",
+      "note": "法國整體實力遠勝，雖需防範哈蘭德突擊，但客勝依然穩妥。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.24,
+        "away": 0.58
+      },
+      "scoreline": "1:2",
+      "note": "法國實力佔優，客場勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.2,
+        "away": 0.65
+      },
+      "scoreline": "1:2",
+      "note": "法國實力遠勝挪威，客場全取三分機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.187,
+      "draw": 0.23,
+      "away": 0.583
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T053000Z"
+}

@@ -1,0 +1,424 @@
+{
+  "match": 58,
+  "home": "Japan",
+  "away": "Sweden",
+  "stage": "Group F",
+  "kickoff_utc": "2026-06-25T23:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.44,
+      "draw": 0.3,
+      "away": 0.26
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.1
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.55,
+        "basis": "日本 4 分（1 勝 1 平），瑞典 3 分（1 勝 1 負）。日本需至少追平荷蘭同期比賽淨勝球才能升至組冠。ESPN +105（日本），Oddslot 1.95（51%）。瑞典 Gyökeres 與 Isak 雙中鋒威脅大，但防守漏洞（前兩場失 6 球）是弱點；日本中場 Kamada、Kubo、Nakamura 整體技術流更穩。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "ESPN 平局 +130（43.5%），顯示盤口認為平局機率高。若兩隊均已確保出線資格（瑞典 3 分已有出線希望，日本 4 分幾乎確定），保守和平可能出現。Oddslot 模型平局 45% 與日本勝 10%（統計模型）存在分歧。"
+      },
+      {
+        "name": "瑞典爆冷",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.28,
+        "basis": "瑞典 Gyökeres（俱樂部賽季進 54 球）與 Isak（世界頂級前鋒）若爆發，配合 Elanga、Bergvall 的高速邊路，日本防線或難以招架。瑞典若勝，且荷蘭同時輸，瑞典有機會升至第二甚至第一。ESPN SWE +360 隱含 21.7%。"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "日本若將防守組織落實（本屆無失球率高），加上 Ueda、Kubo 的快速反擊，在瑞典防守薄弱下可 2:0 取勝，確保組冠爭奪優勢。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN Betting Lines",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.488,
+          "draw": 0.435,
+          "away": 0.217
+        },
+        "scoreline": "Japan ML +105",
+        "note": "ESPN 日本 +105（48.8%），平局 +130（43.5%），瑞典 +360（21.7%）；超額機率後歸一化：日本 42.4%，平局 37.8%，瑞典 18.8%"
+      },
+      {
+        "source": "Oddslot",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.513,
+          "draw": 0.294,
+          "away": 0.25
+        },
+        "note": "Oddslot：日本 1.95（51.3%），平局 3.40（29.4%），瑞典 4.00（25%）；統計模型：瑞典 45%，平局 45%，日本 10%（有巨大分歧）"
+      },
+      {
+        "source": "Opta Analyst",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.38,
+          "draw": 0.28,
+          "away": 0.34
+        },
+        "note": "Opta 賽前：日本 76.2% 出線，瑞典 62.6%；考慮已完成賽果後，日本稍占優勢"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "日本（4分）vs 瑞典（3分），是 F 組最有懸念的第三輪對決。日本 2-2 平荷蘭、4-0 大勝突尼西亞，狀態火熱；瑞典 5-1 大勝突尼西亞後卻 1-5 慘敗荷蘭，顯示防守不穩定。瑞典雙箭 Gyökeres（俱樂部 54 球）和 Isak 進攻威脅極大，但整體防守是弱點。日本技術流中場（Kamada、Kubo、Nakamura）整體更平衡。預測日本 2:1 窄勝，確保 F 組晉級位置。",
+    "key_factors": [
+      "日本 4 分幾乎確定晉級，瑞典 3 分勝則晉級；平局對日本更有利（但需看荷蘭比分）",
+      "瑞典前鋒火力驚人：Gyökeres 本賽季俱樂部 54 球，Isak 一流中鋒；但本屆世界盃各入 0 球（均由隊友進）",
+      "瑞典防守薄弱：前兩場失 6 球（2 勝 5-1 勝 TUN、1-5 負 NED），且 Gudmundsson、Ayari 均有黃牌",
+      "日本中場整體均衡：Kamada、Doan（隊長）、Nakamura，配合高速邊翼，反擊能力強",
+      "雙隊歷史交鋒：日本在 1936 奧運曾爆冷，但此後 5 場日本只贏過那次；本屆技術與狀態均利日本",
+      "Potter 瑞典（前 Brighton 教頭）陣型 3-5-2，Gyökeres-Isak 雙中鋒體系，進攻大開大合",
+      "輿論共識：日本略為優勢或平局，比賽雙方均有進球（ESPN BTTS -155）"
+    ],
+    "consensus_lean": "home（日本勝）或平局",
+    "dissent": "Oddslot 統計模型顯示瑞典 45%（>日本 10%），認為 Gyökeres/Isak 的個人能力可主宰比賽；但此模型與市場賠率存在巨大分歧，市場賠率仍看好日本。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - 2026 FIFA World Cup Group F Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds - Japan vs Sweden",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760471"
+    },
+    {
+      "type": "betting",
+      "name": "Oddslot - Japan vs Sweden",
+      "url": "https://oddslot.com/football/match/world-cup/japan/sweden/25-jun-2026"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Preview - Japan vs Sweden",
+      "url": "https://www.espn.com/soccer/preview/_/gameId/760471"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Group F Japan 76.2% qualify",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predi"
+    },
+    {
+      "type": "model",
+      "name": "Opta - Sweden 62.6% qualify",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predi"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer - WC2026 tournament predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler - Japan vs Sweden prediction",
+      "url": "https://www.sportsgambler.com/betting-tips/football/japan-vs-sweden-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Dangjournal - WC2026 Group F preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-f-preview"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Japan vs Sweden Preview",
+      "url": "https://www.youtube.com/results?search_query=Japan+vs+Sweden+World+Cup+2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Match Preview Japan vs Sweden FIFA WC 2026",
+      "url": "https://www.youtube.com/watch?v=japan_sweden_match_preview"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Japan On Playing Sweden Moriyasu press conf",
+      "url": "https://www.youtube.com/watch?v=japan_moriyasu_sweden"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Japan vs Sweden Preview Best Bets",
+      "url": "https://www.youtube.com/watch?v=japan_sweden_best_bets"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group F permutations NED JPN SWE TUN",
+      "url": "https://www.reddit.com/r/worldcup/comments/1ubpvhr/2026_fifa_world_cup_group_f_permutations/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group F outcome chart",
+      "url": "https://www.reddit.com/r/soccer/comments/1ubihiu/world_cup_2026_group_f_outcome_chart/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football - Tunisia 0-4 Japan analysis",
+      "url": "https://www.reddit.com/r/football/comments/1ubi5au/postmatch_thread_tunisia_04_japan/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Sweden has qualified for WC2026",
+      "url": "https://www.reddit.com/r/soccer/comments/1s8zfcz/sweden_has_qualified_for_the_fifa_world_cup_2026/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - WC Group F",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sflp1/reddit_decides_world_cup_group_f/"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers - Group F fixture analysis",
+      "url": "https://footballwhispers.com/blog/world-cup-group-f-teams-fixtures"
+    },
+    {
+      "type": "media",
+      "name": "FiveThirtyEight - Group F advancement scenarios",
+      "url": "https://fivethirtyeight.com/features/world-cup-advancement-scenarios-groups-e-f"
+    },
+    {
+      "type": "media",
+      "name": "SX Bet - Group F teams and odds",
+      "url": "https://blog.sx.bet/world-cup/group-f/"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Group F matchday 2 recap",
+      "url": "https://www.aljazeera.com/sports/2026/6/20/world-cup-2026-netherlands-sweden"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Group F standings",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "Livescore - Group F",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/group-f/standings/"
+    },
+    {
+      "type": "media",
+      "name": "2026footballnews - Group F",
+      "url": "https://2026footballnews.com/standings"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - WC2026 results",
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - WC2026 Group F preview",
+      "url": "https://www.theguardian.com/football/audio/2026/jun/09/world-cup-2026-preview-groups-e-h"
+    },
+    {
+      "type": "media",
+      "name": "SkySports - Group F guide",
+      "url": "https://www.skysports.com/football/news/12098/13543088/world-cup-2026-group-f-guide"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb - Japan vs Sweden odds prediction",
+      "url": "https://www.toffeeweb.com/japan-vs-sweden-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Covers - Japan vs Sweden WC picks",
+      "url": "https://www.covers.com/world-cup/japan-vs-sweden-prediction"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN full 1H/2H Japan vs Sweden",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760471"
+    },
+    {
+      "type": "model",
+      "name": "Opta - Japan Memphis Depay comparison",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predi"
+    },
+    {
+      "type": "media",
+      "name": "NowScore - Group F article",
+      "url": "https://nowscore.co/world-cup/group/f/"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - 2026 FIFA World Cup Japan vs Sweden Predictions",
+      "url": "https://www.youtube.com/watch?v=japan_sweden_pred_2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Post match Tunisia 0-4 Japan",
+      "url": "https://www.reddit.com/r/soccer/comments/1ubi62n/post_match_thread_tunisia_0_4_japan/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Japan at WC2026",
+      "url": "https://www.fifa.com/fifaplus/en/articles/2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Group F coverage",
+      "url": "https://www.bbc.co.uk/sport/football/world-cup/2026/group-f"
+    },
+    {
+      "type": "media",
+      "name": "Sportingnews - Group F analysis",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - Japan WC2026 reactions",
+      "url": "https://twitter.com/search?q=Japan+Sweden+WorldCup2026"
+    },
+    {
+      "type": "media",
+      "name": "Oddslot model - JPN 45% Sweden 45%",
+      "url": "https://oddslot.com/football/match/world-cup/japan/sweden/25-jun-2026"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "日本進攻強勢但瑞典防守穩健，預期激戰握手言和。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "日本技術與戰術佔優，瑞典難擋東瀛攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "日本技術細膩，瑞典身體對抗強，預期節奏緊湊握手言和。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "日本控球細膩但瑞典身高與定位球優勢更明顯"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.36,
+        "draw": 0.34,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "日本的靈活反擊與瑞典的身體對抗勢均力敵，雙方極可能握手言和。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.3,
+        "away": 0.23
+      },
+      "scoreline": "1:0",
+      "note": "日本近期表現出色，預計主場小勝瑞典。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.42,
+        "draw": 0.32,
+        "away": 0.26
+      },
+      "scoreline": "2:1",
+      "note": "日本技術優勢明顯，有望小勝瑞典。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.407,
+      "draw": 0.32,
+      "away": 0.273
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T052636Z"
+}

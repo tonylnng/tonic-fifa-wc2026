@@ -1,0 +1,364 @@
+{
+  "match": 64,
+  "home": "Uruguay",
+  "away": "Spain",
+  "stage": "Group H - Matchday 3",
+  "kickoff_utc": "2026-06-27T00:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.18,
+      "draw": 0.25,
+      "away": 0.57
+    },
+    "confidence": 0.65,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.098
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.092
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.088
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.082
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.075
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "西班牙奪組首",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.57,
+        "basis": "西班牙4分+4淨球，陣容無重傷（Yamal已在第二輪出陣），烏拉圭缺Araujo（小腿）及De Arrascaeta（小腿），Bielsa防線大受影響；西班牙第二輪4:0大勝沙地阿拉伯，狀態絕佳"
+      },
+      {
+        "name": "烏拉圭驚人平局晉級",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.25,
+        "basis": "烏拉圭若以低塊防守成功抵禦西班牙，Nunez或Valverde單箭頭進球，在平局情況下仍可以第二名出線（需佛得角不敗）"
+      },
+      {
+        "name": "烏拉圭奇蹟翻盤",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.18,
+        "basis": "若西班牙輕敵或在進攻端過早消耗，烏拉圭憑Darwin Nunez及Valverde的個人能力可能在反擊中得勝"
+      },
+      {
+        "name": "西班牙大勝",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.18,
+        "basis": "若烏拉圭防守崩盤（缺少Araujo和De Arrascaeta的影響），西班牙完全佔據主導可能複製對沙的表現"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Bet365/多家博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.196,
+          "draw": 0.26,
+          "away": 0.617
+        },
+        "note": "Bet365賠率：烏拉圭5.00、平局4.00、西班牙1.53，隱含勝率20%/25%/65%"
+      },
+      {
+        "source": "Dimers模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.178,
+          "draw": 0.224,
+          "away": 0.644
+        },
+        "scoreline": "1:0",
+        "note": "Dimers：西班牙64.4%勝率，最可能比分西班牙1:0烏拉圭"
+      },
+      {
+        "source": "TipIQ模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.19,
+          "draw": 0.24,
+          "away": 0.57
+        },
+        "scoreline": "1:2",
+        "note": "TipIQ：西班牙57%，最可能比分1:2（即烏拉圭1西班牙2，佔10%）"
+      },
+      {
+        "source": "FootyPrediction模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.15,
+          "draw": 0.23,
+          "away": 0.62
+        },
+        "note": "FootyPrediction：西班牙62%勝率，預測低比分/戰術對決"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "西班牙是本場明確熱門。已積4分的西班牙只需不輸即可確保出線（頭名），烏拉圭則需勝出才能確保出線。烏拉圭雙重傷患（Araujo中衛+De Arrascaeta進攻核心）大幅削弱陣容，連前兩場均平（1:1沙地阿拉伯、2:2佛得角），進攻線創造力嚴重受損。西班牙在第二輪4:0大勝沙地阿拉伯，展示Yamal（已復出）、Pedri、Olmo等進攻群的威力。比賽在墨西哥瓜達拉哈拉舉行（中性場地）。",
+    "key_factors": [
+      "烏拉圭雙重重傷：Araujo（小腿）和De Arrascaeta（小腿/鎖骨）確認缺陣，前者是防線支柱，後者是本屆賽前資格賽22球中射入7球的進攻引擎",
+      "西班牙狀態絕佳：4分+4淨球，第二輪4:0大勝沙地阿拉伯，Yamal漸入佳境，Oyarzabal確認帶傷出賽",
+      "烏拉圭困境：兩連平，需全力求勝，但最關鍵的進攻組織者缺陣，Darwin Nunez能否首發仍存疑（第二輪被棄用）",
+      "晉級算術：西班牙贏或平即出線；烏拉圭須勝出，若平則需等候佛得角對沙地阿拉伯的結果",
+      "歷史交手：兩隊近期在世界盃交手有限，但西班牙整體實力和陣容深度均佔優",
+      "比賽地點：瓜達拉哈拉（墨西哥）高溫高地，或對西班牙的控球踢法造成輕微影響"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數模型（如PlanetFootball）給出烏拉圭42%、西班牙30%的罕見評估，認為賠率可能低估了烏拉圭主場效應（作為南美球隊對陣歐洲隊在中立場地）；但主流博彩和模型均強力支持西班牙。"
+  },
+  "sources": [
+    {
+      "type": "news",
+      "name": "Wikipedia - 2026 Group H",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_H"
+    },
+    {
+      "type": "news",
+      "name": "Goal.com - Uruguay vs Spain Preview",
+      "url": "https://www.goal.com/en-us/news/uruguay-spain-world-cup-preview/blt108f73be6b25d09d"
+    },
+    {
+      "type": "news",
+      "name": "Racing Post - Uruguay vs Spain Prediction",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/uruguay-vs-spain-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-af11j2h7nZPv/"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK - Uruguay vs Spain Tips",
+      "url": "https://esports-news.co.uk/2026/06/23/uruguay-v-spain-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Dimers - Spain vs Uruguay",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_uru_esp"
+    },
+    {
+      "type": "model",
+      "name": "TipIQ - Uruguay vs Spain",
+      "url": "https://tipiq.ai/football/world/world-cup/uruguay-vs-spain-prediction-dc627d6f-15d8-b058-9933-7896d2237542"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Spain vs Uruguay Preview",
+      "url": "https://www.ladbrokes.com/en/news/spain-vs-uruguay-world-cup-preview-predictions-tips-2026-06-24/"
+    },
+    {
+      "type": "betting",
+      "name": "NowScore - Uruguay vs Spain",
+      "url": "https://nowscore.co/world-cup/match/uruguay-vs-spain/"
+    },
+    {
+      "type": "injury",
+      "name": "RotoWire - Ronald Araujo Out vs Spain",
+      "url": "https://www.rotowire.com/soccer/headlines/ronald-araujo-injury-will-remain-out-versus-spain-520439"
+    },
+    {
+      "type": "injury",
+      "name": "Sports Mole - Uruguay Predicted XI vs Spain",
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/double-injury-blow-for-uruguay-how-bielsas-side-could-line-up-vs-spain_599996.html"
+    },
+    {
+      "type": "injury",
+      "name": "RotoWire - De Arrascaeta Calf Out",
+      "url": "https://googlenews.rotowire.com/soccer/player/giorgian-de-arrascaeta-24274"
+    },
+    {
+      "type": "injury",
+      "name": "OneFootball - Bielsa Rules Out Araujo & De Arrascaeta",
+      "url": "https://onefootball.com/id/berita/bielsa-rules-out-arujo-and-de-arrascaeta-for-clash-with-spain-43040969"
+    },
+    {
+      "type": "news",
+      "name": "Rio Times - Uruguay Without De Arrascaeta and Araujo",
+      "url": "https://www.riotimesonline.com/uruguay-arrascaeta-araujo-injury-cost-spain-world-cup-2026/"
+    },
+    {
+      "type": "news",
+      "name": "Football Meister - Uruguay vs Spain Prediction",
+      "url": "https://footballmeister.com/world-cup-2026/uruguay-spain-2026-06-27/"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions - Uruguay vs Spain",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/uruguay-vs-spain-prediction-27-06-2026/"
+    },
+    {
+      "type": "news",
+      "name": "FreeTips - Uruguay vs Spain Yamal to Score",
+      "url": "https://www.freetips.com/football/fifa-world-cup/uruguay-vs-spain-predictions-tips-20260624-0016/"
+    },
+    {
+      "type": "stats",
+      "name": "FotMob - Uruguay vs Spain",
+      "url": "https://www.fotmob.com/matches/uruguay-vs-spain/1an22i"
+    },
+    {
+      "type": "news",
+      "name": "Oddslot - Uruguay vs Spain Odds",
+      "url": "https://oddslot.com/football/match/world-cup/uruguay/spain/27-jun-2026/"
+    },
+    {
+      "type": "news",
+      "name": "WorldCup-2026 Bet - Uruguay vs Spain",
+      "url": "https://worldcup-2026.bet/en/match/uruguay-vs-spain/"
+    },
+    {
+      "type": "news",
+      "name": "PlanetFootball - Uruguay vs Spain Model",
+      "url": "https://planetefootball.com/competitions/world-cup-2026/match/uruguay-vs-spain-prediction"
+    },
+    {
+      "type": "news",
+      "name": "ESPN - Group H Qualifying Scenarios",
+      "url": "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-stage-clinching-scenarios-knockout-rounds-elimination"
+    },
+    {
+      "type": "news",
+      "name": "PrizePicks - Group H Scenarios",
+      "url": "https://www.prizepicks.com/playbook-article/world-cup-round-of-32-qualifying-scenarios-how-each-team-can-qualify"
+    },
+    {
+      "type": "news",
+      "name": "Reuters - Bielsa on Uruguay Injuries",
+      "url": "https://www.reuters.com/sports/soccer/bielsa-defends-medical-protocols-wake-uruguay-injuries-ahead-world-cup-2026-06-15/"
+    },
+    {
+      "type": "news",
+      "name": "Sporting News - Uruguay vs Cape Verde Lineups",
+      "url": "https://www.sportingnews.com/au/football/news/uruguay-vs-cape-verde-lineup-starting-11-world-cup-2026/d136ad1aa0caf14fb0262a5c"
+    },
+    {
+      "type": "news",
+      "name": "Al Jazeera - Spain WC2026 Team Preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/6/spains-world-cup-2026-team-preview-players-to-watch-group-matches-squad"
+    },
+    {
+      "type": "news",
+      "name": "NDTV - Spain WC2026 Squad & Injuries",
+      "url": "https://sports.ndtv.com/us/fifa/spain-2026-world-cup-guide-full-squad-list-key-players-group-h-fixtures-and-latest-injury-news-11624395"
+    }
+  ],
+  "source_count": 26,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.28,
+        "away": 0.42
+      },
+      "scoreline": "1:2",
+      "note": "西班牙中場控制力強，烏拉圭主場難擋技術流。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "西班牙傳控佔優，烏拉圭難抵擋，預計客隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "西班牙控球佔優，烏拉圭反擊威脅有限，鬥牛士有望小勝鎖定頭名。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.26,
+        "draw": 0.26,
+        "away": 0.48
+      },
+      "scoreline": "1:2",
+      "note": "西班牙控球優勢明顯，烏拉圭反擊有威脅但火力略遜一籌"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "1:1",
+      "note": "西班牙控球佔優，但烏拉圭反擊犀利，預計雙方握手言和。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.28,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "西班牙實力占優，客場勝算較高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.3,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "西班牙控球佔優，烏拉圭防守強硬，預測客勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.247,
+      "draw": 0.282,
+      "away": 0.471
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T053205Z"
+}

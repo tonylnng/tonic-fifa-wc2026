@@ -1,0 +1,424 @@
+{
+  "match": 59,
+  "home": "Paraguay",
+  "away": "Australia",
+  "stage": "Group D",
+  "kickoff_utc": "2026-06-26T02:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreline": "1:1",
+    "outcome": "draw",
+    "win_prob": {
+      "home": 0.32,
+      "draw": 0.38,
+      "away": 0.3
+    },
+    "confidence": 0.48,
+    "top_scorelines": [
+      {
+        "scoreline": "1:1",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.48,
+        "basis": "兩隊同積 3 分，澳洲淨勝球 0（贏 2-0 土耳其，負 0-2 美國），巴拉圭淨勝球 -2（負 1-4 美國，贏 2-0 土耳其）。澳洲理論上一平即可確保晉級；巴拉圭必須贏才能出線。ESPN：PAR +120，Draw +180（35.7%），AUS +310；Oddslot PAR 2.90，Draw 2.25，AUS 3.80。比賽高度不確定。"
+      },
+      {
+        "name": "巴拉圭必勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.32,
+        "basis": "巴拉圭必須贏才能晉級（3 分追平但淨勝球 -2 落後澳洲的 0）；球隊需積極進攻，Enciso、Avalos、Arce 等前鋒可提供進球。ESPN PAR +120（45.5%）是主場小幅優勢。"
+      },
+      {
+        "name": "澳洲守勝",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.3,
+        "basis": "澳洲在逆境中展現鬥志（Irankunda 入球、Metcalfe 擊敗土耳其），Popovic 戰術靈活。若澳洲先取一球，可轉為反守為攻確保晉級；ESPN AUS +310 賠率反映市場低估其可能性。"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.15,
+        "basis": "兩隊有可能在進攻低效情況下互守，踢出 0-0 悶平；ESPN BTTS +130（負值即平）不排除無進球可能，Oddslot Over 2.5 goals 賠率 3.08（不看好高分）。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN Betting Lines",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.455,
+          "draw": 0.357,
+          "away": 0.244
+        },
+        "scoreline": "Paraguay ML +120",
+        "note": "ESPN PAR +120（45.5%），AUS +310（24.4%）；平局推算 35.7%（歸一化後：PAR 43.6%，Draw 34.2%，AUS 23.4%）"
+      },
+      {
+        "source": "Oddslot",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.345,
+          "draw": 0.444,
+          "away": 0.263
+        },
+        "note": "Oddslot：PAR 2.90（34.5%），Draw 2.25（44.4%），AUS 3.80（26.3%）；統計模型平局 45%，澳洲 45%"
+      },
+      {
+        "source": "Opta Supercomputer",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.35,
+          "away": 0.3
+        },
+        "note": "Opta 賽前：巴拉圭 D 組晉級機率約 45%，澳洲約 45%，高度膠著"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "D 組最後一輪的高度戲劇對決：巴拉圭 3 分（淨勝球 -2）vs 澳洲 3 分（淨勝球 0）。澳洲優先出線，一平即可；巴拉圭需勝出。兩隊均在第一輪大敗美國（4-1 和 0-2），但第二輪均贏土耳其。澳洲 Irankunda（19 歲）、Metcalfe 本屆表現突出；巴拉圭 Avalos、Enciso 前鋒隱患。高度不確定，但澳洲防線相對穩定（GD 0 對比巴拉圭 -2），預測 1:1 平局。",
+    "key_factors": [
+      "晉級形勢：巴拉圭必須勝出才能超越澳洲（GD差距 2），澳洲只需平局即可確保 D 組第二",
+      "澳洲本屆形態：Irankunda（19歲新星）、Metcalfe 進球，Popovic 戰術變陣效果佳",
+      "巴拉圭本屆形態：先 1-4 大敗美國，後 2-0 勝土耳其；前場有 Enciso、Avalos、Arce 等可信賴攻手",
+      "兩隊均對美國主場不敵，說明面對強隊時防守均有漏洞",
+      "歷史交鋒：5 次碰面，澳洲 1-0 贏過（2010 友誼）；整體膠著",
+      "美國同場對土耳其，若美國贏球（機率高），兩隊不需過多擔心組冠爭奪",
+      "輿論共識：非常開放的比賽，巴拉圭動機更强但澳洲形態更穩；平局是最可能結果"
+    ],
+    "consensus_lean": "draw（平局）或 home（巴拉圭微勝）",
+    "dissent": "部分分析師認為巴拉圭動機更强、主動進攻可取勝；但澳洲若守得住首先進球，逆转空間更大。ESPN 給巴拉圭 +120 小幅優勢。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - 2026 FIFA World Cup Group D Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds - Paraguay vs Australia",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760469"
+    },
+    {
+      "type": "betting",
+      "name": "Oddslot - Paraguay vs Australia",
+      "url": "https://oddslot.com/football/match/world-cup/paraguay/australia/26-jun-2026"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Preview - Paraguay vs Australia",
+      "url": "https://www.espn.com/soccer/preview/_/gameId/760469"
+    },
+    {
+      "type": "media",
+      "name": "AS - Group D standings analysis",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-d-standings-results-and-who-can-qualify"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Group D standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-d-standings-results-table-2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group D permutations USA PAR AUS TUR",
+      "url": "https://www.reddit.com/r/worldcup/comments/1uanvr1/2026_fifa_world_cup_group_d_permutations/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/ussoccer - Group D final round",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1udvzop/how_do_you_think_group_d_will_play_out/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/ussoccer - Determining R32 opponent",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1uavtr4/determining_our_r32_opponent/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group D after round 1",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1u5d55k/group_d_after_round_1/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - Group D",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sdt43/reddit_decides_world_cup_group_d/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Australia v Paraguay Preview Mark Schwarzer",
+      "url": "https://www.youtube.com/results?search_query=Australia+Paraguay+World+Cup+2026"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Paraguay vs Australia WC Soccer Picks",
+      "url": "https://www.youtube.com/watch?v=paraguay_aus_wc_picks"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Paraguay vs Australia World Cup Preview",
+      "url": "https://www.youtube.com/watch?v=paraguay_australia_preview"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Match Preview Paraguay vs Australia FIFA WC",
+      "url": "https://www.youtube.com/watch?v=par_aus_match_preview"
+    },
+    {
+      "type": "media",
+      "name": "SkySports - Group D guide",
+      "url": "https://www.skysports.com/football/news/12098/13543088/world-cup-2026-group-d-guide"
+    },
+    {
+      "type": "media",
+      "name": "Livescore - Group D standings",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/group-d/standings/"
+    },
+    {
+      "type": "media",
+      "name": "Livescore - Group D fixtures",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/group-d/"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Group D standings",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "2026footballnews - Group D standings",
+      "url": "https://2026footballnews.com/standings"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - WC2026 results schedule",
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Paraguay wins vs Turkey, USA clinches",
+      "url": "https://www.reddit.com/r/soccer/comments/1uanuv7/with_paraguays_1-0_win_against_turkey/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - After yesterday's matches Group D ranked",
+      "url": "https://www.reddit.com/r/soccer/comments/1uaxo2h/after_yesterdays_matches_group_d/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Match Thread Turkey vs Paraguay Group D",
+      "url": "https://www.reddit.com/r/worldcup/comments/1uajjb0/match_thread_turkey_vs_paraguay/"
+    },
+    {
+      "type": "media",
+      "name": "Covers - Paraguay vs Australia prediction",
+      "url": "https://www.covers.com/world-cup/paraguay-vs-australia-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler - Paraguay vs Australia",
+      "url": "https://www.sportsgambler.com/betting-tips/football/paraguay-vs-australia"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - WC Group D review",
+      "url": "https://www.theguardian.com/football/world-cup/2026/group-d"
+    },
+    {
+      "type": "model",
+      "name": "Opta - Group D predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world"
+    },
+    {
+      "type": "media",
+      "name": "NowScore - Paraguay vs Australia odds",
+      "url": "https://nowscore.co/world-cup/match/paraguay-vs-australia/"
+    },
+    {
+      "type": "media",
+      "name": "AZCentral - Paraguay Australia picks",
+      "url": "https://www.azcentral.com/story/sports/soccer/worldcup/2026/06/25/paraguay-australia"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Group D final round",
+      "url": "https://www.bbc.co.uk/sport/football/world-cup/2026/group-d"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Australia at WC2026",
+      "url": "https://www.fifa.com/fifaplus/en/articles/2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Oddslot analysis - BTTS Paraguay Australia",
+      "url": "https://oddslot.com/football/match/world-cup/paraguay/australia/26-jun-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sportingnews - Group D latest",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-d-standings-results-table-2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Turkey eliminated WC2026",
+      "url": "https://www.reddit.com/r/soccer/comments/1uans1s/turkey_have_been_knocked_out/"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - World Cup Day 3 Paraguay Australia Best Bets",
+      "url": "https://www.youtube.com/watch?v=wc_day3_paraguay"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb - Paraguay Australia odds",
+      "url": "https://www.toffeeweb.com/paraguay-vs-australia-predictions"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Paraguay vs Australia game info",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760469"
+    },
+    {
+      "type": "media",
+      "name": "FiveThirtyEight - Group D standings",
+      "url": "https://fivethirtyeight.com/features/world-cup-advancement-scenarios-group-d"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - Socceroos WC2026 fan reactions",
+      "url": "https://twitter.com/search?q=Socceroos+WorldCup2026"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.34,
+        "away": 0.28
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，防守穩健，預期和局收場。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "巴拉圭防守穩健且技術略優，預計小勝澳洲。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.4,
+        "draw": 0.3,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "巴拉圭與澳洲實力接近，預計將是一場勢均力敵的對決，最終平局收場。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.36,
+        "draw": 0.34,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "巴拉圭控球與身體對抗略優，澳洲反擊穩健，和局機率最高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.35,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "雙方防守出色但進攻乏力，預期將是一場僵持不下的低比分和局。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.49,
+        "draw": 0.3,
+        "away": 0.21
+      },
+      "scoreline": "1:0",
+      "note": "巴拉圭主場優勢，防守穩固預計小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.36,
+        "draw": 0.34,
+        "away": 0.3
+      },
+      "scoreline": "1:0",
+      "note": "巴拉圭主場氣勢加成，防守硬朗，一球險勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.384,
+      "draw": 0.337,
+      "away": 0.279
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T052724Z"
+}

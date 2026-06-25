@@ -674,6 +674,90 @@
       "outcome": "home",
       "recorded_at": "2026-06-24T05:00:00Z",
       "source": "https://africa.espn.com/football/match/_/gameId/760459"
+    },
+    {
+      "match": 49,
+      "stage": "Group B",
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "scoreline": "3:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-25T05:00:00Z",
+      "source": "https://africa.espn.com/football/report/_/gameId/760462/qatar-bosnia-herzegovina"
+    },
+    {
+      "match": 50,
+      "stage": "Group B",
+      "home": "Switzerland",
+      "away": "Canada",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-25T05:00:00Z",
+      "source": "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot"
+    },
+    {
+      "match": 51,
+      "stage": "Group C",
+      "home": "Scotland",
+      "away": "Brazil",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "scoreline": "0:3",
+      "outcome": "away",
+      "recorded_at": "2026-06-25T05:00:00Z",
+      "source": "https://africa.espn.com/football/report/_/gameId/760465"
+    },
+    {
+      "match": 52,
+      "stage": "Group C",
+      "home": "Morocco",
+      "away": "Haiti",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "scoreline": "4:2",
+      "outcome": "home",
+      "recorded_at": "2026-06-25T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760464"
+    },
+    {
+      "match": 53,
+      "stage": "Group A",
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "scoreline": "0:3",
+      "outcome": "away",
+      "recorded_at": "2026-06-25T05:00:00Z",
+      "source": "https://www.espn.co.uk/football/report/_/gameId/760467"
+    },
+    {
+      "match": 54,
+      "stage": "Group A",
+      "home": "South Africa",
+      "away": "South Korea",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scoreline": "1:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-25T05:00:00Z",
+      "source": "https://africa.espn.com/football/report/_/gameId/760466"
     }
   ]
 }

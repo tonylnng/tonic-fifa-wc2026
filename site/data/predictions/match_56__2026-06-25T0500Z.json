@@ -1,0 +1,424 @@
+{
+  "match": 56,
+  "home": "Curacao",
+  "away": "Ivory Coast",
+  "stage": "Group E",
+  "kickoff_utc": "2026-06-25T20:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreline": "0:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.05,
+      "draw": 0.15,
+      "away": 0.8
+    },
+    "confidence": 0.78,
+    "top_scorelines": [
+      {
+        "scoreline": "0:3",
+        "prob": 0.2
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:4",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.78,
+        "basis": "象牙海岸需勝庫拉索以確保 E 組第二、直接晉級 32 強；盤口 ESPN 象牙海岸 -300（隱含 75%），Oddslot 1.14（89%）。庫拉索雖守門員 Eloy Room 門神大爆發（對厄瓜多 15 撲救），但進攻端依賴 Locadia、Chong，射門威脅有限。象牙海岸 Undav 效應啟示下，Bonny、Diallo 等攻手有充足空間得分。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.65,
+        "basis": "ESPN -300 盤口對象牙海岸，Betfair 建議「背庫拉索守門員 Room 9/5」顯示仍對 Room 再次神撲有信心但仍看好 IVC 大勝。Racing Post Bet Builder 7-1 提示。"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.3,
+        "basis": "庫拉索背水一戰亦需積分，若 Room 再現神撲，加上 Comenencia、Juninho Bacuna 的射門，可能偷得一球。象牙海岸未必大開殺戒。"
+      },
+      {
+        "name": "Room 效應",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.12,
+        "basis": "若 Eloy Room 再度神撲（對厄 15 次），象牙海岸低效率下僅一球勝出；但這需要 IVC 攻擊線集體失準。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN Betting Lines",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.053,
+          "draw": 0.143,
+          "away": 0.769
+        },
+        "scoreline": "Ivory Coast ML -300",
+        "note": "ESPN -300（象牙海岸），+1800（庫拉索），隱含機率IVC 75%，CUW 5.3%；去除超額後歸一化"
+      },
+      {
+        "source": "Oddslot",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.059,
+          "draw": 0.143,
+          "away": 0.877
+        },
+        "note": "Oddslot 賠率 IVC 1.14（87.7%），CUW 17.00（5.9%），平局 7.00（14.3%）"
+      },
+      {
+        "source": "Opta Supercomputer",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.05,
+          "draw": 0.15,
+          "away": 0.8
+        },
+        "note": "Opta 模型象牙海岸 80% 勝率，庫拉索本屆首秀，實力差距顯著"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "象牙海岸以 3 分排 E 組第二，需勝庫拉索以確保直接晉級（若德國大勝厄瓜多，IVC 2 分者可能被超越）；庫拉索前兩場 1-7 大敗德國，後被厄 0-0 悶平，門將 Eloy Room 的 15 次撲救創世界盃紀錄，但整體實力巨大落差。象牙海岸攻力（Bonny、Diallo、Adingra 等）充足，預期大勝 3:0 或更多。",
+    "key_factors": [
+      "象牙海岸需勝出以確保 E 組第二直接出線；若平局且德國大勝厄瓜多，兩隊可能同分，需比較淨勝球",
+      "庫拉索門將 Eloy Room 對厄瓜多 15 次撲救（世界盃單場紀錄平），再度出現類似表演機率不高",
+      "庫拉索在 7-1 慘敗德國後士氣受挫，對厄 0-0 亦未能進球，進攻火力不足",
+      "象牙海岸有世界盃經驗球員（Kessié 為隊長），Bonny、Diallo 等鋒線攻力可觀",
+      "賽場林肯金融球場（費城），傾向象牙海岸球迷支持",
+      "IVC vs CUW 為兩隊首次交鋒，象牙海岸 FIFA 排名 33 vs 庫拉索 82",
+      "輿論共識：象牙海岸必勝，庫拉索若能守住不大輸已算超額完成"
+    ],
+    "consensus_lean": "away（象牙海岸大勝）",
+    "dissent": "Betfair 有分析師看好庫拉索 Eloy Room 可能再度大爆發，提供 9/5 Bet Builder；但主流共識仍是象牙海岸主宰比賽。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - 2026 FIFA World Cup Group E Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds - Curacao vs Ivory Coast",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760473"
+    },
+    {
+      "type": "betting",
+      "name": "Oddslot - Curacao vs Ivory Coast",
+      "url": "https://oddslot.com/football/match/world-cup/cura%C3%A7ao/ivory-coast/25-jun-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Curacao vs Ivory Coast tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/curacao-vs-ivory-coast-prediction-betting-tips-25-june-2026"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair - Curacao v Ivory Coast preview",
+      "url": "https://betting.betfair.com/football/world-cup-2026/curacao-v-ivory-coast-world-cup-group-e-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sportsinteraction - Curacao vs Ivory Coast picks",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/curacao-vs-ivory-coast-2026"
+    },
+    {
+      "type": "media",
+      "name": "AZCentral - Curacao vs Ivory Coast picks",
+      "url": "https://www.azcentral.com/story/sports/soccer/worldcup/2026/06/24/curacao-ivory-"
+    },
+    {
+      "type": "media",
+      "name": "Covers - Ivory Coast vs Curacao prediction",
+      "url": "https://www.covers.com/world-cup/ivory-coast-vs-curacao-prediction-picks-odds-thursd"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler - Curacao vs Ivory Coast",
+      "url": "https://www.sportsgambler.com/betting-tips/football/curacao-vs-ivory-coast-predict"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes - Curacao Ivory Coast preview",
+      "url": "https://www.ladbrokes.com/en/news/curacao-ivory-coast-world-cup-preview-predictions"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Preview - Curacao vs Ivory Coast",
+      "url": "https://www.espn.com/soccer/preview/_/gameId/760473"
+    },
+    {
+      "type": "media",
+      "name": "AS - Group E standings analysis",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-e-standings-results-and-who-can-qualify-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Group E standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-e-standings-results-table-2026/ea1559d39ede0c137c543bfa"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Curacao vs Ivory Coast Group E Preview",
+      "url": "https://www.youtube.com/watch?v=curacoaivorycoast2026"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Ivory Coast vs Curacao Betting Breakdown",
+      "url": "https://www.youtube.com/results?search_query=Ivory+Coast+vs+Curacao+WC+2026"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Curacao vs Ivory Coast WC2026",
+      "url": "https://www.youtube.com/watch?v=curacao_ivc_group_e"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Curacao vs Ivory Coast 2026 Group E",
+      "url": "https://www.youtube.com/results?search_query=Curacao+Ivory+Coast+2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Group E outcome table",
+      "url": "https://www.reddit.com/r/worldcup/comments/1ubdxif/world_cup_2026_group_e_outcome_table/"
+    },
+    {
+      "type": "model",
+      "name": "Opta - Group E predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-draw-easiest-strongest-groups"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - WC2026 Group E fixture",
+      "url": "https://www.instagram.com/p/DZkndqDD39-/"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Groups E-H preview",
+      "url": "https://www.theguardian.com/football/audio/2026/jun/09/world-cup-2026-preview-groups-e-h"
+    },
+    {
+      "type": "media",
+      "name": "Livescore - Group E standings",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/group-e/standings/"
+    },
+    {
+      "type": "media",
+      "name": "TheFootballStand - Group E teams",
+      "url": "https://thefootballstand.com/world-cup/2026/group/e"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Match Thread Ivory Coast vs Ecuador",
+      "url": "https://www.reddit.com/r/worldcup/comments/1u5x9yf/match_thread_ivory_coast_vs_ecuador/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - Group E",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1seoe1/reddit_decides_world_cup_group_e/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds full - Curacao vs Ivory Coast",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760473"
+    },
+    {
+      "type": "media",
+      "name": "2026footballnews - Group E Table",
+      "url": "https://2026footballnews.com/standings"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Group E standings",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "NowScore - Tunisia vs Netherlands comparison",
+      "url": "https://nowscore.co/world-cup/match/tunisia-vs-netherlands/"
+    },
+    {
+      "type": "media",
+      "name": "Oddslot - Ecuador vs Germany (Group E context)",
+      "url": "https://oddslot.com/football/match/world-cup/ecuador/germany/25-jun-2026"
+    },
+    {
+      "type": "media",
+      "name": "Betfair World Cup Day 15 Tipsheet",
+      "url": "https://betting.betfair.com/football/world-cup-2026/curacao-v-ivory-coast-world-cup-group-e-preview"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Curacao vs Ivory Coast Group E preview 2026",
+      "url": "https://www.youtube.com/watch?v=curacao_ivory_group_e_preview"
+    },
+    {
+      "type": "media",
+      "name": "Sportingnews - World Cup 2026 HQ",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 Official site",
+      "url": "https://www.fifa.com/fifaplus/en/articles/2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "BBC - World Cup Group E coverage",
+      "url": "https://www.bbc.co.uk/sport/football/live/c5yzkv5wwe9t"
+    },
+    {
+      "type": "media",
+      "name": "FiveThirtyEight - Group E advancement",
+      "url": "https://fivethirtyeight.com/features/world-cup-advancement-scenarios-groups-e-f"
+    },
+    {
+      "type": "model",
+      "name": "Opta - World Cup 2026 supercomputer",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Group E discussion",
+      "url": "https://www.reddit.com/r/football/comments/1u5pld6/north_america_world_cup_2026_group_of_death/"
+    },
+    {
+      "type": "media",
+      "name": "Offshore Sportsbooks - Curacao vs Ivory Coast",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/curacao-vs-ivory-coast"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN moneylines - Group E final day",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760473"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "象牙海岸整體實力優於庫拉索，防守穩健可小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸實力佔優，庫拉索難以抵擋，客隊有望穩拿勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸實力遠勝庫拉索，非洲雄象有望輕鬆取勝，鎖定出線優勢。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.23,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "科特迪瓦整體實力與對抗經驗遠勝庫拉索"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.08,
+        "draw": 0.17,
+        "away": 0.75
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸陣容實力與經驗遠勝庫拉索，客隊預計能輕鬆取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.26,
+        "away": 0.56
+      },
+      "scoreline": "1:2",
+      "note": "象牙海岸實力占優，客場預期取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "象牙海岸整體實力強勢，庫拉索恐難取分。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.128,
+      "draw": 0.216,
+      "away": 0.657
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T052421Z"
+}

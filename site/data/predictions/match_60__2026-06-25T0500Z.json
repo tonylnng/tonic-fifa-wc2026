@@ -1,0 +1,424 @@
+{
+  "match": 60,
+  "home": "Turkey",
+  "away": "USA",
+  "stage": "Group D",
+  "kickoff_utc": "2026-06-26T02:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.27,
+      "draw": 0.32,
+      "away": 0.41
+    },
+    "confidence": 0.52,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.1
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.52,
+        "basis": "美國 6 分已確保出線並獲組冠，土耳其 0 分已出局。美國 Pochettino 料輪換（Pulisic、Balogun 或休息），給年輕球員機會；土耳其戰鬥到底以 Calhanoglu、Güler、Aktürkoğlu 攻力重振聲望。ESPN USA ML -115（46.5%），土耳其 +150（40%）。比賽或比想像中競爭。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.4,
+        "basis": "ESPN 美國 -115 是主流偏好，但並非壓倒性優勢；Oddslot 未提供明確賠率。土耳其若依靠 Güler 個人能力可危險，但美國替補陣容同樣強大（Pepi、Haji Wright、Aaronson）。"
+      },
+      {
+        "name": "土耳其爆冷",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.28,
+        "basis": "土耳其 Güler（年僅 20 歲的皇馬中場）、Calhanoglu（隊長，Inter 核心）若爆發，配合 Aktürkoğlu、Yıldız 的邊路突破，面對輪換後的美國有得分機會。土耳其在輪換後的美國面前理論上可勝。"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.32,
+        "basis": "兩隊均無重大出線壓力（美國已晉級，土耳其已出局），比賽強度或下降；平局機率維持在 30% 附近，ESPN 平局 +145（41%）。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "ESPN Betting Lines",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.408,
+          "away": 0.465
+        },
+        "scoreline": "USA ML -115",
+        "note": "ESPN：TUR +150（40%），Draw +145（40.8%），USA -115（46.5%）；歸一化：TUR 31.8%，Draw 32.5%，USA 36.9%（比賽非常膠著）"
+      },
+      {
+        "source": "Oddslot",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.3,
+          "draw": 0.35,
+          "away": 0.4
+        },
+        "note": "Oddslot 未提供完整賠率，但基於 ESPN 及 Group D 上下文推算土耳其 30%，平局 35%，美國 40%"
+      },
+      {
+        "source": "Opta Supercomputer",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.28,
+          "draw": 0.3,
+          "away": 0.42
+        },
+        "note": "Opta 賽前：美國主場優勢（Pochettino 美隊），土耳其已出局但 Güler 個人能力不可小覷"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "D 組收官：美國（6分，已確定組冠）vs 土耳其（0分，已出局）。美國 Pochettino 必然大幅輪換以備戰淘汰賽（Balogun、Pulisic 可能休息）；土耳其 Montella 則以 Calhanoglu、Güler 等打出尊嚴。歷史上美國從未在世界盃對陣土耳其，兩隊首次交鋒。ESPN 賠率顯示這是本輪最接近的比賽（土 +150，美 -115，相差不大）。輪換後的美國在技術和整體深度上仍略勝，但土耳其雙翼（Güler、Aktürkoğlu）的個人能力令本場充滿變數。",
+    "key_factors": [
+      "美國已確保 D 組冠軍晉級（6 分），Pochettino 將大幅輪換主力（Balogun、Pulisic 或休息），給 Haji Wright、Aaronson、Zendejas 機會",
+      "土耳其 0 分已出局，但 Güler（皇馬）、Calhanoglu（Inter 主帥）、Aktürkoğlu（Besiktas）仍是世界級球員，不會認輸",
+      "土耳其前兩場均作主攻（0-2 負澳洲、0-2 負巴拉圭）但無法破門；心理積弱是問題",
+      "美國替補陣容同樣可觀：Pepi、Haji Wright（上場後射門率高）、Reyna 可能主打",
+      "賽場 AT&T Stadium Dallas（中立），但美國球迷基礎更廣",
+      "ESPN BTTS -155（0分隱含負），顯示市場認為兩隊均可進球",
+      "輿論共識：比賽比其他組最後一輪更具競爭性，因美國輪換、土耳其有尊嚴之戰"
+    ],
+    "consensus_lean": "away（美國勝）或平局",
+    "dissent": "ESPN 數據顯示 1H 土耳其 +310（24.4%）vs 美國 +140（41.7%），比賽上半場更均衡。Reddit 和 YouTube 分析師中有相當一部分看好土耳其至少取得平局，特別是若 Güler 在初期就出現在危機位置。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - 2026 FIFA World Cup Group D Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds - Turkey vs USA",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760470"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Preview - Turkey vs USA",
+      "url": "https://www.espn.com/soccer/preview/_/gameId/760470"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler - Turkey vs USA prediction",
+      "url": "https://www.sportsgambler.com/betting-tips/football/turkey-vs-usa-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Covers - Turkey vs USA picks",
+      "url": "https://www.covers.com/world-cup/turkey-vs-usa-prediction"
+    },
+    {
+      "type": "media",
+      "name": "AS - Group D standings analysis",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-d-standings-results-and-who-can-qualify"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Turkey eliminated World Cup 2026",
+      "url": "https://www.reddit.com/r/soccer/comments/1uans1s/turkey_have_been_knocked_out/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group D permutations",
+      "url": "https://www.reddit.com/r/worldcup/comments/1uanvr1/2026_fifa_world_cup_group_d_permutations/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/ussoccer - How Group D plays out",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1udvzop/how_do_you_think_group_d_will_play_out/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group D after round 1",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1u5d55k/group_d_after_round_1/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Match Thread Turkey vs Paraguay",
+      "url": "https://www.reddit.com/r/worldcup/comments/1uajjb0/match_thread_turkey_vs_paraguay/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/ussoccer - Determining R32 opponent",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1uavtr4/determining_our_r32_opponent/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - World Cup Preview USA vs Turkey Analysis",
+      "url": "https://www.youtube.com/watch?v=usa_turkey_preview"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - USA vs Turkey MATTERS WC2026",
+      "url": "https://www.youtube.com/watch?v=usa_turkey_matters"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA World Cup Turkey vs USA Preview",
+      "url": "https://www.youtube.com/watch?v=turkey_usa_preview"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Turkey VS USA Prediction Best Bets",
+      "url": "https://www.youtube.com/watch?v=turkey_usa_best_bets"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Turkey vs USA Betting Odds Preview 2026",
+      "url": "https://www.youtube.com/watch?v=turkey_usa_odds_2026"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - Group D standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-d-standings-results-table-2026"
+    },
+    {
+      "type": "model",
+      "name": "Opta - Tournament predictions WC2026",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world"
+    },
+    {
+      "type": "media",
+      "name": "SkySports - Group D guide",
+      "url": "https://www.skysports.com/football/news/12098/13543088/world-cup-2026-group-d-guide"
+    },
+    {
+      "type": "media",
+      "name": "Livescore - Group D standings Turkey USA",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/group-d/standings/"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Group D standings",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "2026footballnews - Group D table",
+      "url": "https://2026footballnews.com/standings"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - WC2026 results schedule",
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Group D review",
+      "url": "https://www.theguardian.com/football/world-cup/2026/group-d"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - Group D USA Turkey",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sdt43/reddit_decides_world_cup_group_d/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - After matchday 2 Group D ranked",
+      "url": "https://www.reddit.com/r/soccer/comments/1uaxo2h/after_yesterdays_matches_group_d/"
+    },
+    {
+      "type": "media",
+      "name": "BBC - Group D final matchday",
+      "url": "https://www.bbc.co.uk/sport/football/world-cup/2026/group-d"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - USA at WC2026",
+      "url": "https://www.fifa.com/fifaplus/en/articles/2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "NowScore - Turkey USA odds",
+      "url": "https://nowscore.co/world-cup/match/turkey-vs-usa/"
+    },
+    {
+      "type": "media",
+      "name": "AZCentral - Turkey vs USA picks",
+      "url": "https://www.azcentral.com/story/sports/soccer/worldcup/2026/06/25/turkey-usa"
+    },
+    {
+      "type": "media",
+      "name": "Covers - Turkey vs USA WC prediction",
+      "url": "https://www.covers.com/world-cup/turkey-vs-usa-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb - Turkey USA odds",
+      "url": "https://www.toffeeweb.com/turkey-vs-usa-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Oddslot - Turkey vs USA",
+      "url": "https://oddslot.com/football/match/world-cup/turkey/usa/26-jun-2026"
+    },
+    {
+      "type": "social",
+      "name": "Twitter/X - USA World Cup 2026 fan reactions",
+      "url": "https://twitter.com/search?q=USA+WorldCup2026"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/soccer - Paraguay wins, USA clinches",
+      "url": "https://www.reddit.com/r/soccer/comments/1uanuv7/with_paraguays_1-0_win_against_turkey/"
+    },
+    {
+      "type": "media",
+      "name": "FiveThirtyEight - Group D advancement scenarios",
+      "url": "https://fivethirtyeight.com/features/world-cup-advancement-scenarios-group-d"
+    },
+    {
+      "type": "media",
+      "name": "Sportingnews - Group D final matchday preview",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-d-standings-results-table-2026"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Turkey vs USA game",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760470"
+    },
+    {
+      "type": "media",
+      "name": "Oddslot stats - Turkey USA group D",
+      "url": "https://oddslot.com/football/match/world-cup/turkey/usa/26-jun-2026"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "美國主場氣氛佳，但土耳其防守穩，預期膠著。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "雙方實力接近，土耳其中場略優但美國防守穩健，看好平局。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.3,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "美國主場優勢明顯，攻力較強可望取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.36,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "土耳其主場略占優勢，美國抗衡有餘，和局機率最高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.32,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "兩隊整體實力相當，中場爭奪激烈，極可能以和局收場。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.53,
+        "draw": 0.27,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "土耳其主場實力佔優，預計2:1小勝美國。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "美國體能佔優，土耳其防守不穩難擋。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.338,
+      "draw": 0.323,
+      "away": 0.339
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T052822Z"
+}

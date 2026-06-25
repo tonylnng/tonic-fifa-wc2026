@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-24T05:39:58Z",
+  "last_updated": "2026-06-25T05:35:56Z",
   "postmortems": [
     {
       "match": 5,
@@ -1339,6 +1339,150 @@
       ],
       "vs_benchmarks": "本模型預測2:1，共識為2:0；本模型在預測剛果入球一球上偏離共識但同樣落空；共識的2:0與實際1:0更接近（均命中零失球，但哥倫比亞進球數均高估一球）。本場本模型與Grok（同為2:1）在方向上最接近實際，但整體而言共識2:0在比分精度上略勝本模型。",
       "generated_at": "2026-06-24T05:39:58Z"
+    },
+    {
+      "match": 49,
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "stage": "Group B",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "3:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-22T2300Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "波黑生死戰如期取勝晉級，比分略高於預測",
+      "review": "AI 準確判斷波黑在末輪生死戰擊敗卡塔爾（預測 2:0 主勝，實際 3:1）。停賽結構性優勢與晉級動機的分析完全應驗：波黑利用對手中後場停賽（霍馬姆、馬迪博）的缺口主動進攻，Alajbegovic 與 Mahmic 各入一球，加上對手 Al-Brake 烏龍，最終 3:1 拿下。卡塔爾僅由 Al-Haydos 攻入榮譽球。唯一偏差是失球——AI 預期波黑零封，但卡塔爾仍取得一球，故未能命中精確比分。",
+      "lessons": [
+        "停賽導致的陣容結構性弱點是末輪生死戰的高價值訊號，本場驗證有效。",
+        "對實力較弱但仍有反撲能力的球隊（如卡塔爾曾逼平瑞士），零封預測偏樂觀；可保留 1 球失球的情境權重。",
+        "晉級動機強烈的一方在末輪傾向多進球，主預測比分可略向 3 球靠攏。"
+      ],
+      "vs_benchmarks": "AI 主預測（2:0 主勝）勝負方向與博彩盤口（波黑 -225）、預測市場（Polymarket 68%）一致並命中；7 家多模型共識為 1:0 主勝，方向同樣正確但更保守，AI 在進球數估計上較貼近實際的 3 球。",
+      "generated_at": "2026-06-25T05:35:56Z"
+    },
+    {
+      "match": 50,
+      "home": "Switzerland",
+      "away": "Canada",
+      "stage": "Group B",
+      "predicted": "1:1",
+      "predicted_outcome": "draw",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-22T2300Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "瑞士逆轉奪組首，AI 主比分押和球未中但已預警瑞士勝算較高",
+      "review": "AI 主預測為 1:1 平局（outcome 設為 draw），實際瑞士 2:1 逆轉加拿大奪得 B 組首名，勝負未命中。不過 AI 在推理中已明確指出『瑞士取勝動機更強、上一場換人爆發、加拿大失 Koné 中場陷深水』，並把 win_prob 主隊勝設為最高（0.38），與最終結果方向一致；只是主比分仍選了 1:1，導致 outcome 欄位落在 draw。Vargas 與 Manzambi 下半場再度建功（延續對波黑的模式），David 為加拿大追回一球但不足翻盤。",
+      "lessons": [
+        "當 win_prob 主隊勝為三向最高時，outcome 欄位應與之一致，不應因主比分為平手而標成 draw——這是本場失準的關鍵教訓。",
+        "Manzambi/Vargas 的『替補爆發』模式連兩場奏效，對瑞士的下半場進攻權重應上調。",
+        "加拿大只需平局的保守動機被高估，實戰中其攻力（David）仍具威脅但防守被瑞士爆破。"
+      ],
+      "vs_benchmarks": "7 家多模型共識為 2:1 主勝，精準命中最終比分，明顯優於 AI 主預測的 1:1；博彩盤口亦微傾瑞士。本場顯示多模型共識在勢均力敵之戰的價值，AI 應在 outcome 與 win_prob 的一致性上向共識看齊。",
+      "generated_at": "2026-06-25T05:35:56Z"
+    },
+    {
+      "match": 51,
+      "home": "Scotland",
+      "away": "Brazil",
+      "stage": "Group C",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-22T2300Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "巴西如預期客勝蘇格蘭，Vinícius 梅開二度比分多一球",
+      "review": "AI 準確判斷巴西客場擊敗蘇格蘭（預測 0:2 客勝，實際 0:3）。Vinícius Júnior 在缺少 Raphinha、Rodrygo、Estêvão 的情況下扛起鋒線，上下半場各入一球，Cunha 再下一城。蘇格蘭如 AI 預期採低位防守爭取不大敗，但仍被攻入三球、無力還擊（延續對巴西從未多於一球的歷史宿命）。AI 對巴西鋒線單薄、需靠 Vinícius 單騎的判斷完全應驗，唯進球數比預測多一球。",
+      "lessons": [
+        "面對防守反擊型弱隊，強隊的進球數常被低估；主比分可由 0:2 上探至 0:3。",
+        "Vinícius 在巴西缺陣多名前場主力時的單點爆發力被準確捕捉，個人權重判斷有效。",
+        "蘇格蘭『避免大敗』的保守策略未能阻止失三球，弱隊防線在 90 分鐘維持清白的機率偏低。"
+      ],
+      "vs_benchmarks": "AI 主預測（0:2 客勝）與 Opta 超級電腦（69% 客勝）、博彩盤口、7 家多模型共識（0:2 客勝）方向完全一致並命中勝負；實際 0:3 顯示各方對巴西進球數略偏保守。",
+      "generated_at": "2026-06-25T05:35:56Z"
+    },
+    {
+      "match": 52,
+      "home": "Morocco",
+      "away": "Haiti",
+      "stage": "Group C",
+      "predicted": "3:0",
+      "predicted_outcome": "home",
+      "final": "4:2",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-22T2300Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "摩洛哥大勝海地命中勝負，但海地意外入兩球破清白預測",
+      "review": "AI 高信心（0.82）判斷摩洛哥主場大勝海地（預測 3:0），勝負命中，實際 4:2。Hakimi、Saibari、Rahimi、Yassine 四人破門展現摩洛哥的進攻火力與爭取淨球差的積極動機，完全符合 AI 對『摩洛哥需大勝擴大進球差』的分析。出乎預測的是海地竟攻入兩球（Isidor 一球 + Bounou 烏龍），打破 AI 的零封預期——海地此前兩場 0 進球，AI 據此判定其『首次進球機率低』，但末輪放開後仍有所斬獲。",
+      "lessons": [
+        "對已出局、無包袱的弱隊，末輪『放手一搏』可能打破其先前的零進球趨勢，零封預測需打折。",
+        "高信心大勝預測在勝負面可靠，但精確比分易因雙方多入球而落空；可提高 4 球及對手進球的情境權重。",
+        "烏龍球無法事前預測，屬不可控因素，不影響核心判斷品質。"
+      ],
+      "vs_benchmarks": "AI 主預測（3:0 主勝）與博彩隱含機率（78–85%）、Opta（約 80%）、7 家多模型共識（2:0 主勝）方向一致並命中勝負；實際 4:2 的高進球數則超出所有基準線預期，AI 在大勝幅度上較貼近。",
+      "generated_at": "2026-06-25T05:35:56Z"
+    },
+    {
+      "match": 53,
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "stage": "Group A – Matchday 3",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-24T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "墨西哥主場零封捷克命中客勝，比分更懸殊",
+      "review": "AI 準確判斷墨西哥客勝捷克（預測 1:2 客勝，實際 0:3）。在阿茲台克主場氣氛加持下，墨西哥延續整組零失球的穩固防守，Chávez、Quiñones、Fidalgo 先後破門完成 3:0，以小組首名晉級。AI 對『主場氛圍 + 陣容深度差距 + 墨西哥防線零失球』的判斷完全應驗。偏差在於 AI 預期捷克會因求勝主動進攻而至少入一球，實際捷克被完全壓制、顆粒無收。",
+      "lessons": [
+        "墨西哥整組零失球的防守趨勢應給予更高權重，對手進球預期可下調。",
+        "『弱隊求勝會主動進攻並入球』的假設在面對強隊主場時常落空，零封情境權重應提高。",
+        "勝負與大方向命中，主比分可由 1:2 向 0:3 等更懸殊客勝靠攏。"
+      ],
+      "vs_benchmarks": "AI 主預測（1:2 客勝）與 SportsMole、Dimers（墨西哥 48%）、博彩盤口及 7 家多模型共識（1:2 客勝）方向一致並命中；實際 0:3 顯示各方對墨西哥的壓制程度略偏保守。",
+      "generated_at": "2026-06-25T05:35:56Z"
+    },
+    {
+      "match": 54,
+      "home": "South Africa",
+      "away": "South Korea",
+      "stage": "Group A – Matchday 3",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "1:0",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-24T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "南非爆冷反勝南韓，AI 押南韓客勝失準",
+      "review": "AI 主預測南韓 1:2 客勝（信心 0.62），實際南非 1:0 爆冷取勝，勝負失準。AI 過度倚重南韓的個人實力（Son、Lee Kang-in）與博彩共識（Dimers 給南韓 57.3%、bet365 1.6），同時高估了南非中場因 Mokoena、Zwane 停賽帶來的削弱程度。實戰中南非展現『決死求存』的拼勁——AI 在 dissent 中其實已點名此風險，Maseko 在第 63 分鐘攻入唯一入球，南非守住勝果。南韓在已基本確保晉級的形勢下動力不足，攻擊端未能轉化優勢。",
+      "lessons": [
+        "對『只需平局即晉級』的一方（南韓），其保守心態與動力下降的風險被低估，應下調其勝率。",
+        "背水一戰、必須取勝的主隊（南非）爆冷機率偏高，AI 已在 dissent 預警卻未反映到 outcome，應提高此情境權重。",
+        "博彩盤口與 AI 模型在『動機不對等』的末輪可能同步失準，需加入賽制博弈的人為調整。"
+      ],
+      "vs_benchmarks": "7 家多模型共識同樣為 1:2 客勝（南韓），與 AI 一同失準；博彩盤口（南韓 1.6）亦看錯。本場是 AI 與所有基準線集體失手的典型『動機型爆冷』，凸顯賽制博弈分析的不可替代性。",
+      "generated_at": "2026-06-25T05:35:56Z"
     }
   ]
 }

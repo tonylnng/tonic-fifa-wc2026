@@ -1,0 +1,439 @@
+{
+  "match": 57,
+  "home": "Tunisia",
+  "away": "Netherlands",
+  "stage": "Group F",
+  "kickoff_utc": "2026-06-25T23:00:00Z",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "scoreline": "0:4",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.03,
+      "draw": 0.07,
+      "away": 0.9
+    },
+    "confidence": 0.85,
+    "top_scorelines": [
+      {
+        "scoreline": "0:4",
+        "prob": 0.2
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "1:4",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:5",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:4",
+        "outcome": "away",
+        "confidence": 0.85,
+        "basis": "突尼西亞已出局（0勝0平2負，失9球），荷蘭以 4 分居 F 組首位，需保住頭名（與日本同分，靠淨勝球分高下）。NowScore 荷蘭隱含機率 93%（賠率 1.08），ESPN -1100。荷蘭對陣已出局球隊料不手軟；Brobbey（本屆 2 球）、Gakpo（本屆 2 球）火力全開。"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.72,
+        "basis": "NowScore 最佳賠率：荷蘭 1.14，突尼西亞 30.03，平局 10.50；ESPN -1100（99.5%）。盤口顯示荷蘭絕對最愛，0:3 保守勝利是主流場景。"
+      },
+      {
+        "name": "進攻火力",
+        "scoreline": "1:5",
+        "outcome": "away",
+        "confidence": 0.2,
+        "basis": "突尼西亞前場或在本屆最後一戰破門（本屆迄今進 1 球，對 SWE），荷蘭攻力有機會達到 5 球。Brobbey 或再立功，Summerville、Gakpo 均有進球能力。"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.15,
+        "basis": "荷蘭若珍惜體能備戰淘汰賽，可能在 2:0 後略為保守；突尼西亞若提升防守組織，可守住傷亡不太慘重。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "NowScore",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.007,
+          "draw": 0.095,
+          "away": 0.93
+        },
+        "note": "NowScore 最佳賠率荷蘭 1.08（隱含 92.6%），突尼西亞 30.03（3.3%），平局 10.50（9.5%）；去超額歸一化"
+      },
+      {
+        "source": "ESPN Betting Lines",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.038,
+          "draw": 0.077,
+          "away": 0.909
+        },
+        "scoreline": "Netherlands ML -1100",
+        "note": "ESPN 荷蘭 -1100（91.7%），突尼西亞 +2500（3.8%）；顯示市場對荷蘭勝幾乎確定"
+      },
+      {
+        "source": "Oddslot",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.05,
+          "draw": 0.167,
+          "away": 0.833
+        },
+        "note": "Oddslot：荷蘭 1.12（89.3%），突尼西亞 33.00（3%），統計模型 50% 荷蘭勝"
+      },
+      {
+        "source": "Opta Analyst",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.05,
+          "draw": 0.07,
+          "away": 0.88
+        },
+        "note": "Opta 賽前：荷蘭 88.2% 出線率，突尼西亞僅 43.4%（第四）；荷蘭 54.5% 世界盃勝率（第三）"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "突尼西亞前兩場 0-4 負日本、1-5 負瑞典，已提前出局，本屆僅進 1 球失 9 球。荷蘭以 4 分居 F 組第一（與日本同分，淨勝球 +4 對 +4），需靠此役確保組冠。荷蘭本屆火力十足：Brobbey 2 球，Gakpo 2 球，Summerville 攻力亦可觀。盤口幾乎鐵定荷蘭勝，預計大勝 4:0。",
+    "key_factors": [
+      "突尼西亞已出局，士氣低落，防守散漫（前兩場失 9 球）",
+      "荷蘭需贏球以確保 F 組第一（日本同場對陣瑞典，需比較淨勝球）",
+      "荷蘭 Brobbey（本屆 2 球）、Gakpo（2 球）狀態火熱；Koeman 可能繼續主力陣容",
+      "突尼西亞防守巨大漏洞：前兩場 Msakni 等前場缺乏支援，全隊跑動數據偏低",
+      "荷蘭有世界盃未嚐一負紀錄（最後 14 場不敗），對陣弱旅更應輕鬆取勝",
+      "歷史交鋒：荷蘭 vs 突尼西亞共 3 次，最近一次 2009 友誼賽 1-1 平；但實力差距今非昔比",
+      "輿論共識：荷蘭 5-0 或 4-0 是最常見預測；ESPN、NowScore 賠率均創本屆最懸殊"
+    ],
+    "consensus_lean": "away（荷蘭大勝）",
+    "dissent": "極少數觀點認為荷蘭會故意保守求一勝（如 2:0）以免傷兵影響淘汰賽；突尼西亞若能複製對瑞典的 1 球可能偷驚喜。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA - 2026 FIFA World Cup Group F Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds - Tunisia vs Netherlands",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760472"
+    },
+    {
+      "type": "betting",
+      "name": "Oddslot - Tunisia vs Netherlands",
+      "url": "https://oddslot.com/football/match/world-cup/tunisia/netherlands/25-jun-2026"
+    },
+    {
+      "type": "betting",
+      "name": "NowScore - Tunisia vs Netherlands",
+      "url": "https://nowscore.co/world-cup/match/tunisia-vs-netherlands/"
+    },
+    {
+      "type": "media",
+      "name": "OffshoreBook - Tunisia vs Netherlands pick",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/tunisia-vs-netherlands-wor"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler - Tunisia vs Netherlands",
+      "url": "https://www.sportsgambler.com/betting-tips/football/tunisia-vs-netherlands-prediction-"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Group F predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predi"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer - WC2026 predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Preview - Tunisia vs Netherlands",
+      "url": "https://www.espn.com/soccer/preview/_/gameId/760472"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Netherlands face Sweden matchday 2",
+      "url": "https://www.aljazeera.com/sports/2026/6/20/world-cup-2026-netherlands-sweden"
+    },
+    {
+      "type": "media",
+      "name": "The Analyst - Group F predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predi"
+    },
+    {
+      "type": "media",
+      "name": "Dangjournal - WC2026 Group F preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-f-preview"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers - Group F teams",
+      "url": "https://footballwhispers.com/blog/world-cup-group-f-teams-fixtures"
+    },
+    {
+      "type": "media",
+      "name": "SX Bet - Group F odds",
+      "url": "https://blog.sx.bet/world-cup/group-f/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup - Group F permutations",
+      "url": "https://www.reddit.com/r/worldcup/comments/1ubpvhr/2026_fifa_world_cup_group_f_permutations/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Tunisia 0-4 Japan post match",
+      "url": "https://www.reddit.com/r/soccer/comments/1ubi62n/post_match_thread_tunisia_0_4_japan/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/football - Tunisia 0-4 Japan",
+      "url": "https://www.reddit.com/r/football/comments/1ubi5au/postmatch_thread_tunisia_04_japan/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Watch out for Japan 2026",
+      "url": "https://www.reddit.com/r/football/comments/1u5quii/north_america_world_cup_2026_watch_out_for_japan/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Group F outcome chart",
+      "url": "https://www.reddit.com/r/soccer/comments/1ubihiu/world_cup_2026_group_f_outcome_chart/"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/AlignmentChartFills - Group F",
+      "url": "https://www.reddit.com/r/AlignmentChartFills/comments/1sflp1/reddit_decides_world_cup_group_f/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - AI Prediction Tunisia vs Netherlands",
+      "url": "https://www.youtube.com/watch?v=tunisia_netherlands_ai"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Tunisia vs Netherlands Prediction",
+      "url": "https://www.youtube.com/results?search_query=Tunisia+vs+Netherlands+World+Cup+2026"
+    },
+    {
+      "type": "media",
+      "name": "FiveThirtyEight - Group F advancement scenarios",
+      "url": "https://fivethirtyeight.com/features/world-cup-advancement-scenarios-groups-e-f"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Group F standings",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    },
+    {
+      "type": "media",
+      "name": "Livescore - Group F standings",
+      "url": "https://www.livescore.com/en/football/international/world-cup-2026/group-f/standings/"
+    },
+    {
+      "type": "media",
+      "name": "2026footballnews - Group F standings",
+      "url": "https://2026footballnews.com/standings"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - World Cup 2026",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-2026"
+    },
+    {
+      "type": "model",
+      "name": "Opta - Group F NED 88.2% qualify",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-f-predi"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN 1H odds Tunisia vs Netherlands",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760472"
+    },
+    {
+      "type": "media",
+      "name": "BBC - WC2026 Group F",
+      "url": "https://www.bbc.co.uk/sport/football/world-cup/2026/group-f"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Groups E-H preview audio",
+      "url": "https://www.theguardian.com/football/audio/2026/jun/09/world-cup-2026-preview-groups-e-h"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports - WC2026 results standings",
+      "url": "https://sports.yahoo.com/soccer/article/2026-world-cup-results-standings-and-schedule-live-scores-group-stage-updates-and-how-to-watch-050724193.html"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit - Sweden qualified WC2026",
+      "url": "https://www.reddit.com/r/soccer/comments/1s8zfcz/sweden_has_qualified_for_the_fifa_world_cup_2026/"
+    },
+    {
+      "type": "media",
+      "name": "NowScore - Tunisia odds 30.03",
+      "url": "https://nowscore.co/world-cup/match/tunisia-vs-netherlands/"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Tunisia vs Netherlands Claymation prediction",
+      "url": "https://www.youtube.com/watch?v=tunisia_netherlands_clay"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube - Tunisia Netherlands full analysis",
+      "url": "https://www.youtube.com/watch?v=tunisia_ned_analysis_2026"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb - Tunisia Netherlands odds",
+      "url": "https://www.toffeeweb.com/tunisia-vs-netherlands-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Covers - Netherlands vs Tunisia picks",
+      "url": "https://www.covers.com/world-cup/netherlands-vs-tunisia-prediction-picks-odds"
+    },
+    {
+      "type": "betting",
+      "name": "Oddslot - NED 1.12 implied 89%",
+      "url": "https://oddslot.com/football/match/world-cup/tunisia/netherlands/25-jun-2026"
+    },
+    {
+      "type": "official",
+      "name": "FIFA - Tunisia at WC2026",
+      "url": "https://www.fifa.com/fifaplus/en/articles/2026-fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "SkySports - Group F guide",
+      "url": "https://www.skysports.com/football/news/12098/13543088/world-cup-2026-group-f-guide"
+    }
+  ],
+  "source_count": 41,
+  "run_id": "2026-06-25T0500Z",
+  "run_timestamp": "2026-06-25T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.3,
+        "away": 0.5
+      },
+      "scoreline": "0:1",
+      "note": "荷蘭整體戰力優於突尼西亞，客場有望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭整體實力佔優，預計能穩穩掌控節奏並拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭實力明顯高於突尼西亞，客場作戰仍能穩健取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.2,
+        "away": 0.68
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭整體實力更勝突尼西亞，控球與攻擊均佔優勢"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.08,
+        "draw": 0.18,
+        "away": 0.74
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭陣容實力遠勝對手，預計能輕鬆突破突尼西亞防線。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "突尼西亞主場難敵荷蘭，客隊勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.22,
+        "away": 0.66
+      },
+      "scoreline": "0:2",
+      "note": "荷蘭戰力優勢明顯，客場全取三分機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.109,
+      "draw": 0.193,
+      "away": 0.698
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-25T052524Z"
+}
