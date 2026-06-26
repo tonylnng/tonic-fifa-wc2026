@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-06-25T05:36:12Z",
+  "last_updated": "2026-06-26T05:24:52Z",
   "metrics": {
-    "total_evaluated": 50,
-    "outcome_correct": 32,
-    "outcome_accuracy": 0.64,
+    "total_evaluated": 56,
+    "outcome_correct": 35,
+    "outcome_accuracy": 0.625,
     "exact_score_correct": 4,
-    "exact_score_accuracy": 0.08
+    "exact_score_accuracy": 0.0714
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -15,8 +15,8 @@
   },
   "by_stage": {
     "Group": {
-      "evaluated": 50,
-      "outcome_correct": 32,
+      "evaluated": 56,
+      "outcome_correct": 35,
       "exact_correct": 4
     }
   },
@@ -620,6 +620,78 @@
       "outcome_correct": false,
       "exact_correct": false,
       "run_id": "2026-06-24T0500Z"
+    },
+    {
+      "match": 55,
+      "home": "Ecuador",
+      "away": "Germany",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-25T0500Z"
+    },
+    {
+      "match": 56,
+      "home": "Curacao",
+      "away": "Ivory Coast",
+      "predicted": "0:3",
+      "predicted_outcome": "away",
+      "final": "0:2",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-25T0500Z"
+    },
+    {
+      "match": 57,
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "predicted": "0:4",
+      "predicted_outcome": "away",
+      "final": "1:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-25T0500Z"
+    },
+    {
+      "match": 58,
+      "home": "Japan",
+      "away": "Sweden",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-25T0500Z"
+    },
+    {
+      "match": 59,
+      "home": "Paraguay",
+      "away": "Australia",
+      "predicted": "1:1",
+      "predicted_outcome": "draw",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-06-25T0500Z"
+    },
+    {
+      "match": 60,
+      "home": "Turkey",
+      "away": "USA",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "3:2",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-06-25T0500Z"
     }
   ]
 }

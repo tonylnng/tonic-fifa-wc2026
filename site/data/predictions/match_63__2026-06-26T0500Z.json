@@ -1,0 +1,413 @@
+{
+  "match": 63,
+  "stage": "Group H",
+  "home": "Cape Verde",
+  "away": "Saudi Arabia",
+  "kickoff_utc": "2026-06-27T00:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.42,
+      "draw": 0.3,
+      "away": 0.28
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "佛得角勝",
+        "confidence": 0.6,
+        "basis": "佛得角防守組織優異、連續兩場對陣西班牙和烏拉圭均未落敗，沙特必須求勝反而令後場空間暴露，佛得角的快速反擊可利用這一弱點。"
+      },
+      {
+        "name": "防守對決平局",
+        "scoreline": "1:1",
+        "outcome": "平局",
+        "confidence": 0.5,
+        "basis": "雙方防守型打法在緊張氣氛下容易形成平局——平局對佛得角在排名計算上已相當有利。"
+      },
+      {
+        "name": "沙特反撲出線",
+        "scoreline": "2:1",
+        "outcome": "沙特勝",
+        "confidence": 0.28,
+        "basis": "若布賴坎或達沃薩里進攻火力爆發、佛得角防守出現失誤，沙特可憑2:1爆冷出線。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.42,
+          "draw": 0.3,
+          "away": 0.28
+        },
+        "scoreline": "1:0",
+        "note": "BetOnline佛得角+142、沙特+200、平局+266；ESPN佛得角ML +165、沙特+170；賠率顯示三方差距極小，佛得角略佔優。"
+      },
+      {
+        "source": "多媒體預測共識",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.41,
+          "draw": 0.29,
+          "away": 0.3
+        },
+        "scoreline": "1:0",
+        "note": "AI模型（YouTube）給佛得角41%、沙特33%、平局26%；RotoWire預測1:0佛得角勝；Sportsgambler預測1:0；多數媒體一致看好佛得角以低比分取勝。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "佛得角是本屆世界盃最大驚喜之一，連平西班牙（0:0）和烏拉圭（2:2），防守紀律出色且速度型前鋒本奇莫爾威脅十足。沙特在0:0後遭西班牙4:0大敗，後防暴露致命弱點，且必須贏球方有出線機會，令進攻更積極同時後場更暴露。賽局對佛得角有利。",
+    "key_factors": [
+      "球員狀態：佛得角本奇莫爾與加里·羅德里格斯速度威脅大；沙特布賴坎、達沃薩里出賽",
+      "傷停：沙特Musab Al-Juwair傷出；佛得角西德尼·洛佩斯-卡布拉爾因停賽缺陣（來源：Sabq News），陣中無其他大傷",
+      "近況/積分：佛得角積2分第三、沙特積1分第四；佛得角贏即出線，平局視西班牙vs烏拉圭結果而定；沙特必須贏",
+      "戰術對位：佛得角4-1-4-1防守反擊，設陷阱利用沙特前壓後空間；沙特5-4-1或4-4-2強調高位壓迫，但防線空擋明顯",
+      "主客場/場地：休士頓NRG體育場；佛得角因首度亮相受到廣泛中立球迷支持；氣候炎熱或利於節奏較慢的佛得角",
+      "輿論共識：Racing Post、Inkl、Esports News UK、Goal.com、Sportsgambler等均看好佛得角；Football Whispers建議平局但承認佛得角更穩；博彩市場佛得角為窄幅熱門"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Football Whispers預測1:1平局，認為佛得角近期多平、沙特反擊有一定效率；AI視頻模型（YouTube）基於早期數據認為沙特略佔優；部分博彩分析師建議Under 2.5而非押佛得角勝。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN - Cape Verde vs Saudi Arabia TV/lineup",
+      "url": "https://www.espn.com/soccer/story/_/id/49141810/fifa-world-cup-2026-cape-verde-vs-saudi-arabia-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Cape Verde vs Saudi Arabia odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760478"
+    },
+    {
+      "type": "official",
+      "name": "Sabq News - Cape Verde vs Saudi Arabia preview",
+      "url": "https://sabq.org/en/article/ae9k7re"
+    },
+    {
+      "type": "official",
+      "name": "Injuries & Suspensions - FIFA WC2026",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-11/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Interaction - Cape Verde vs Saudi Arabia odds",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/cape-verde-vs-saudi-arabia-odds-prediction-062726-217255"
+    },
+    {
+      "type": "media",
+      "name": "SportPesa Blog - Cape Verde vs Saudi Arabia",
+      "url": "https://blog.sportpesa.com/2026/06/24/cape-verde-vs-saudi-arabia-prediction-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Cabo Verde Saudi Arabia preview",
+      "url": "https://www.goal.com/en/news/cabo-verde-saudi-arabia-world-cup-preview/blte5c01ba40a6d1b44"
+    },
+    {
+      "type": "media",
+      "name": "Sport Grill - Cape Verde vs Saudi Arabia",
+      "url": "https://sportgrill.co.uk/2026/06/25/2026-fifa-world-cup-group-h-cape-verde-vs-saudi-arabia/"
+    },
+    {
+      "type": "media",
+      "name": "Deadspin - Cape Verde Saudi Arabia preview",
+      "url": "https://deadspin.com/betting/cape-verde-vs-saudi-arabia-world-cup-preview-picks-preview-odds-6-26-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK - Cape Verde Saudi Arabia picks",
+      "url": "https://esports-news.co.uk/2026/06/23/cape-verde-v-saudi-arabia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "SportsLine - Cape Verde Saudi Arabia expert picks",
+      "url": "https://www.sportsline.com/insiders/cape-verde-vs-saudi-arabia-odds-picks-2026-world-cup-predictions-from-proven-expert/"
+    },
+    {
+      "type": "media",
+      "name": "Inkl - Cape Verde Saudi Arabia predictions",
+      "url": "https://www.inkl.com/news/cape-verde-vs-saudi-arabia-world-cup-2026-predictions-and-picks"
+    },
+    {
+      "type": "media",
+      "name": "SBG Global - Cape Verde Saudi Arabia odds",
+      "url": "https://www.sbgglobal.eu/football-soccer/new-zealand-vs-belgium-world-cup-2026-betting-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "Action Network - Saudi Arabia Cape Verde",
+      "url": "https://www.actionnetwork.com/worldcup-game/saudi-arabia-cape-verde/284396"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - Cape Verde Saudi Arabia tips",
+      "url": "https://footballwhispers.com/blog/cape-verde-vs-saudi-arabia-prediction-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Cape Verde Saudi Arabia tips",
+      "url": "https://www.ladbrokes.com/en/news/cape-verde-saudi-arabia-world-cup-preview-predictions-tips-2026-06-25/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Cape Verde Saudi Arabia tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/cape-verde-vs-saudi-arabia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aSUNw3n9bZIi/"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC - Cape Verde Saudi Arabia predictions",
+      "url": "https://www.juvefc.com/cape-verde-v-saudi-arabia-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "The Football Faithful - Cape Verde Saudi Arabia tips",
+      "url": "https://thefootballfaithful.com/betting-news/cape-verde-islands-vs-saudi-arabia-prediction-betting-tips-27-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Gooners Guide - Cape Verde Saudi Arabia pick",
+      "url": "https://www.goonersguide.com/football-pick-59568-Cape-Verde-vs-Saudi-Arabia.htm"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Cape Verde Saudi Arabia lineups",
+      "url": "https://www.sportsgambler.com/betting-tips/football/cape-verde-vs-saudi-arabia-prediction-lineups-odds-2026-06-26/"
+    },
+    {
+      "type": "betting",
+      "name": "RotoWire - Cape Verde Saudi Arabia preview",
+      "url": "https://www.rotowire.com/soccer/article/cape-verde-vs-saudi-arabia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-119633"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - Cape Verde Saudi Arabia",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/cape-verde-vs-saudi-arabia-prediction-27-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "BetUS - Cape Verde Saudi Arabia correct scores",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/props/cape-verde-vs-saudi-arabia/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia AI prediction",
+      "url": "https://www.youtube.com/watch?v=8lfZQoJIAto"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia Qualification Fight",
+      "url": "https://www.youtube.com/watch?v=FccFqjryyeQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FC26 WC2026 Group H Cabo Verde Saudi Arabia",
+      "url": "https://www.youtube.com/watch?v=azDh1BlRWxQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia Group H Prediction",
+      "url": "https://www.youtube.com/watch?v=QW3pveEPZ5s"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia Betting Picks",
+      "url": "https://www.youtube.com/watch?v=3LWAgW98jgE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia FIFA WC Preview",
+      "url": "https://www.youtube.com/watch?v=GxpnxQtlmkg"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia Best Bets",
+      "url": "https://www.youtube.com/watch?v=WSMkjA0HIcI"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - WC2026 bracket projections",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
+    },
+    {
+      "type": "media",
+      "name": "El Balad - Ronald Araujo injury",
+      "url": "https://www.el-balad.com/17024447"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Uruguay WC2026 roster",
+      "url": "https://en.as.com/soccer/world-cup/uruguay-at-the-2026-world-cup-roster-list-players-group-and-schedule-clone-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Victor Munoz injury Spain",
+      "url": "https://www.rotowire.com/soccer/headlines/victor-munoz-injury-wont-face-uruguay-521051"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - De Arrascaeta injury return Spain",
+      "url": "https://www.rotowire.com/soccer/headlines/giorgian-de-arrascaeta-injury-eyes-return-against-spain-520335"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Uruguay lineup vs Spain",
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/double-injury-blow-for-uruguay-how-bielsas-side-could-line-up-vs-spain_599996.html"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard - Spain XI vs Uruguay",
+      "url": "https://www.standard.co.uk/sport/football/spain-vi-vs-uruguay-confirmed-team-news-predicted-lineup-injury-latest-for-world-cup-2026-b1287589.html"
+    },
+    {
+      "type": "media",
+      "name": "SI - Spain predicted lineup vs Uruguay",
+      "url": "https://www.si.com/soccer/spain-predicted-lineup-vs-uruguay-world-cup-group-h-6-26-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Gimenez trains with Uruguay starters",
+      "url": "https://www.rotowire.com/soccer/news.php?competition=1"
+    },
+    {
+      "type": "media",
+      "name": "SX Bet Blog - WC2026 Group G preview",
+      "url": "https://blog.sx.bet/world-cup/group-g/"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-27 08:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.32,
+        "away": 0.23
+      },
+      "scoreline": "1:0",
+      "note": "佛得角主場氣勢稍佔優，防守反擊具威脅。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.38,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，維德角防守穩固，預計平局。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "沙烏地阿拉伯整體實力略勝一籌，應能小勝維德角。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.37,
+        "away": 0.29
+      },
+      "scoreline": "1:1",
+      "note": "實力接近防守為主，兩隊小比分握手言和"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.36,
+        "away": 0.32
+      },
+      "scoreline": "1:1",
+      "note": "沙烏地具大賽經驗，維德角反擊出色，雙方實力接近，預期激戰成和。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.39,
+        "draw": 0.34,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "維德角主場優勢，沙烏地實力接近，預計握手言和。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "沙烏地整體實力稍優，有望小勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.354,
+      "draw": 0.33,
+      "away": 0.316
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051502Z"
+}

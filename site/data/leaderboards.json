@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T05:36:01Z",
+  "last_updated": "2026-06-26T05:24:47Z",
   "scorers": [
     {
       "id": "ARG-messi",
@@ -62,6 +62,18 @@
       "red_cards": 0
     },
     {
+      "id": "NED-brobbey",
+      "name_zh": "布萊恩·布羅貝",
+      "name_en": "Brian Brobbey",
+      "team_zh": "荷蘭",
+      "team": "Netherlands",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "GER-undav",
       "name_zh": "德尼茲·溫達夫",
       "name_en": "Deniz Undav",
@@ -110,6 +122,18 @@
       "red_cards": 0
     },
     {
+      "id": "SWE-elanga",
+      "name_zh": "安東尼·埃蘭加",
+      "name_en": "Anthony Elanga",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "FW",
+      "shirt_no": 11,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "JPN-ueda",
       "name_zh": "上田綺世",
       "name_en": "Ayase Ueda",
@@ -117,18 +141,6 @@
       "team": "Japan",
       "position": "FW",
       "shirt_no": 18,
-      "goals": 2,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "NED-brobbey",
-      "name_zh": "布萊恩·布羅貝",
-      "name_en": "Brian Brobbey",
-      "team_zh": "荷蘭",
-      "team": "Netherlands",
-      "position": "FW",
-      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -314,6 +326,18 @@
       "red_cards": 0
     },
     {
+      "id": "CIV-pepe",
+      "name_zh": "尼古拉·佩佩",
+      "name_en": "Nicolas Pépé",
+      "team_zh": "象牙海岸",
+      "team": "Ivory Coast",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-ayari",
       "name_zh": "亞辛·阿亞里",
       "name_en": "Yasin Ayari",
@@ -434,13 +458,25 @@
       "red_cards": 0
     },
     {
-      "id": "SWE-elanga",
-      "name_zh": "安東尼·埃蘭加",
-      "name_en": "Anthony Elanga",
-      "team_zh": "瑞典",
-      "team": "Sweden",
+      "id": "TUR-guler",
+      "name_zh": "阿爾達·居勒爾",
+      "name_en": "Arda Güler",
+      "team_zh": "土耳其",
+      "team": "Turkey",
       "position": "FW",
-      "shirt_no": 11,
+      "shirt_no": 8,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "USA-trusty",
+      "name_zh": "奧斯頓·特魯斯蒂",
+      "name_en": "Auston Trusty",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -453,6 +489,18 @@
       "team": "Iraq",
       "position": "FW",
       "shirt_no": 18,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "TUR-yilmaz",
+      "name_zh": "巴里什·阿爾珀·耶爾馬茲",
+      "name_en": "Barış Alper Yılmaz",
+      "team_zh": "土耳其",
+      "team": "Turkey",
+      "position": "FW",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -488,6 +536,18 @@
       "team_zh": "澳洲",
       "team": "Australia",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "JPN-maeda",
+      "name_zh": "前田大然",
+      "name_en": "Daizen Maeda",
+      "team_zh": "日本",
+      "team": "Japan",
+      "position": "FW",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -566,6 +626,18 @@
       "red_cards": 0
     },
     {
+      "id": "TUN-mastouri",
+      "name_zh": "哈澤姆·馬斯托里",
+      "name_en": "Hazem Mastouri",
+      "team_zh": "突尼斯",
+      "team": "Tunisia",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "JPN-ito",
       "name_zh": "伊藤洋輝",
       "name_en": "Hiroki Ito",
@@ -638,6 +710,18 @@
       "red_cards": 0
     },
     {
+      "id": "NED-vanhecke",
+      "name_zh": "楊·保羅·范·海克",
+      "name_en": "Jan Paul van Hecke",
+      "team_zh": "荷蘭",
+      "team": "Netherlands",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "SCO-mcginn",
       "name_zh": "麥堅",
       "name_en": "John McGinn",
@@ -669,6 +753,18 @@
       "team": "England",
       "position": "MF",
       "shirt_no": 10,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "TUR-ayhan",
+      "name_zh": "卡安·艾漢",
+      "name_en": "Kaan Ayhan",
+      "team_zh": "土耳其",
+      "team": "Turkey",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -728,6 +824,18 @@
       "team_zh": "挪威",
       "team": "Norway",
       "position": "DF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "GER-sane",
+      "name_zh": "萊羅伊·薩內",
+      "name_en": "Leroy Sané",
+      "team_zh": "德國",
+      "team": "Germany",
+      "position": "FW",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -950,6 +1058,18 @@
       "red_cards": 0
     },
     {
+      "id": "ECU-angulo",
+      "name_zh": "尼爾森·安古洛",
+      "name_en": "Nilson Angulo",
+      "team_zh": "厄瓜多爾",
+      "team": "Ecuador",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "JOR-alrashdan",
       "name_zh": "尼扎爾·拉什丹",
       "name_en": "Nizar Al-Rashdan",
@@ -1118,18 +1238,6 @@
       "red_cards": 0
     },
     {
-      "id": "SWE-gyokeres",
-      "name_zh": "維克多·居約克雷斯",
-      "name_en": "Viktor Gyökeres",
-      "team_zh": "瑞典",
-      "team": "Sweden",
-      "position": "FW",
-      "shirt_no": 17,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "NED-vandijk",
       "name_zh": "韋真·雲迪克",
       "name_en": "Virgil van Dijk",
@@ -1214,6 +1322,18 @@
       "red_cards": 0
     },
     {
+      "id": "ECU-plata",
+      "name_zh": "岡薩洛·普拉塔",
+      "name_en": "Gonzalo Plata",
+      "team_zh": "厄瓜多爾",
+      "team": "Ecuador",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SUI-xhaka",
       "name_zh": "沙卡",
       "name_en": "Granit Xhaka",
@@ -1281,6 +1401,30 @@
       "team": "Paraguay",
       "position": "MF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "USA-berhalter",
+      "name_zh": "塞巴斯蒂安·貝哈爾特",
+      "name_en": "Sebastian Berhalter",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SWE-gyokeres",
+      "name_zh": "維克多·居約克雷斯",
+      "name_en": "Viktor Gyökeres",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "FW",
+      "shirt_no": 17,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1396,6 +1540,18 @@
       "red_cards": 1
     },
     {
+      "id": "CUW-kastaneer",
+      "name_zh": "熱爾瓦內·卡斯塔尼爾",
+      "name_en": "Gervane Kastaneer",
+      "team_zh": "古拉索",
+      "team": "Curacao",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "RSA-mokoena",
       "name_zh": "莫科埃納",
       "name_en": "Teboho Mokoena",
@@ -1468,6 +1624,18 @@
       "red_cards": 0
     },
     {
+      "id": "GER-pavlovic",
+      "name_zh": "亞歷山大·帕夫洛維奇",
+      "name_en": "Aleksandar Pavlovic",
+      "team_zh": "德國",
+      "team": "Germany",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "AUS-circati",
       "name_zh": "阿歷山德羅·西卡蒂",
       "name_en": "Alessandro Circati",
@@ -1523,6 +1691,18 @@
       "team": "Scotland",
       "position": "DF",
       "shirt_no": 3,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ECU-franco",
+      "name_zh": "安傑羅·弗蘭科",
+      "name_en": "Angelo Franco",
+      "team_zh": "厄瓜多爾",
+      "team": "Ecuador",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1768,6 +1948,18 @@
       "red_cards": 0
     },
     {
+      "id": "PAR-gomez",
+      "name_zh": "迭戈·戈麥斯",
+      "name_en": "Diego Gómez",
+      "team_zh": "巴拉圭",
+      "team": "Paraguay",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CPV-diney",
       "name_zh": "迪內伊",
       "name_en": "Diney",
@@ -1948,14 +2140,14 @@
       "red_cards": 0
     },
     {
-      "id": "CUW-kastaneer",
-      "name_zh": "熱爾瓦內·卡斯塔尼爾",
-      "name_en": "Gervane Kastaneer",
-      "team_zh": "古拉索",
-      "team": "Curacao",
+      "id": "ECU-plata",
+      "name_zh": "岡薩洛·普拉塔",
+      "name_en": "Gonzalo Plata",
+      "team_zh": "厄瓜多爾",
+      "team": "Ecuador",
       "position": "FW",
       "shirt_no": null,
-      "goals": 0,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2008,6 +2200,18 @@
       "red_cards": 0
     },
     {
+      "id": "SWE-hien",
+      "name_zh": "伊薩克·希恩",
+      "name_en": "Isak Hien",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "MAR-diop",
       "name_zh": "伊薩·迪奧普",
       "name_en": "Issa Diop",
@@ -2027,6 +2231,18 @@
       "team": "Ghana",
       "position": "FW",
       "shirt_no": 19,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "AUS-irvine",
+      "name_zh": "積遜·歐文",
+      "name_en": "Jackson Irvine",
+      "team_zh": "澳洲",
+      "team": "Australia",
+      "position": "MF",
+      "shirt_no": 22,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2180,6 +2396,18 @@
       "name_zh": "朱尼尼奧·巴庫納",
       "name_en": "Juninho Bacuna",
       "team_zh": "古拉索",
+      "team": "Curacao",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CUW-bacuna",
+      "name_zh": "朱尼尼奧·巴庫納",
+      "name_en": "Juninho Bacuna",
+      "team_zh": "庫拉索",
       "team": "Curacao",
       "position": "MF",
       "shirt_no": null,
@@ -2500,6 +2728,18 @@
       "red_cards": 0
     },
     {
+      "id": "CIV-pepe",
+      "name_zh": "尼古拉·佩佩",
+      "name_en": "Nicolas Pépé",
+      "team_zh": "象牙海岸",
+      "team": "Ivory Coast",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BIH-katic",
       "name_zh": "尼古拉·卡蒂奇",
       "name_en": "Nikola Katić",
@@ -2555,6 +2795,18 @@
       "team": "Croatia",
       "position": "MF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ECU-hincapie",
+      "name_zh": "皮耶洛·因卡皮耶",
+      "name_en": "Piero Hincapié",
+      "team_zh": "厄瓜多爾",
+      "team": "Ecuador",
+      "position": "DF",
+      "shirt_no": 3,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2656,12 +2908,36 @@
       "red_cards": 0
     },
     {
+      "id": "USA-berhalter",
+      "name_zh": "塞巴斯蒂安·貝哈爾特",
+      "name_en": "Sebastian Berhalter",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CIV-sekofofana",
       "name_zh": "塞科·福法納",
       "name_en": "Seko Fofana",
       "team_zh": "象牙海岸",
       "team": "Ivory Coast",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "JPN-taniguchi",
+      "name_zh": "谷口彰悟",
+      "name_en": "Shogo Taniguchi",
+      "team_zh": "日本",
+      "team": "Japan",
+      "position": "DF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -2740,6 +3016,18 @@
       "red_cards": 0
     },
     {
+      "id": "SWE-gyokeres",
+      "name_zh": "維克多·居約克雷斯",
+      "name_en": "Viktor Gyökeres",
+      "team_zh": "瑞典",
+      "team": "Sweden",
+      "position": "FW",
+      "shirt_no": 17,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-ayari",
       "name_zh": "亞辛·阿亞里",
       "name_en": "Yasin Ayari",
@@ -2789,9 +3077,9 @@
     }
   ],
   "totals": {
-    "players": 426,
-    "goals": 150,
-    "yellow_cards": 118,
+    "players": 443,
+    "goals": 165,
+    "yellow_cards": 131,
     "red_cards": 8
   }
 }

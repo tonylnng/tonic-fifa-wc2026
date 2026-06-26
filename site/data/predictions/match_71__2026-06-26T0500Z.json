@@ -1,0 +1,361 @@
+{
+  "match": 71,
+  "stage": "Group J",
+  "home": "Jordan",
+  "away": "Argentina",
+  "kickoff_utc": "2026-06-28T02:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreline": "0:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.04,
+      "draw": 0.06,
+      "away": 0.9
+    },
+    "confidence": 0.87,
+    "top_scorelines": [
+      {
+        "scoreline": "0:3",
+        "prob": 0.21
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:4",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "阿根廷舒適大勝",
+        "scoreline": "0:3",
+        "outcome": "阿根廷9分完美出線，約旦出局",
+        "confidence": 0.6,
+        "basis": "阿根廷5場全勝15球0失，梅西/阿爾瓦雷斯/勞塔羅首發，約旦0分-3球差"
+      },
+      {
+        "name": "阿根廷輪換取勝",
+        "scoreline": "0:2",
+        "outcome": "阿根廷取勝，積分8分組首",
+        "confidence": 0.2,
+        "basis": "斯卡洛尼大幅輪換保護主力，但實力差距仍確保勝利"
+      },
+      {
+        "name": "約旦頑強抵抗",
+        "scoreline": "1:3",
+        "outcome": "約旦留顏面，阿根廷仍大勝",
+        "confidence": 0.08,
+        "basis": "塔阿馬里等球員可能把握反擊機會"
+      },
+      {
+        "name": "阿根廷超級大勝",
+        "scoreline": "0:5",
+        "outcome": "阿根廷進球差大增",
+        "confidence": 0.05,
+        "basis": "主力全員發揮，約旦防線已連失5球"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.1,
+          "away": 0.84
+        },
+        "scoreline": "0:3",
+        "note": "BetOnline阿根廷-600，約旦+1500，平局+600；ESPN ML阿根廷-550/-475"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.02,
+          "draw": 0.05,
+          "away": 0.93
+        },
+        "note": "Opta賽前給阿根廷96.7%晉級機率；阿根廷組首概率72%"
+      },
+      {
+        "source": "FootballPredictions模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.03,
+          "draw": 0.05,
+          "away": 0.92
+        },
+        "scoreline": "0:3",
+        "note": "FootballPredictions預測0:3，阿根廷不失球機率高，梅西補時射手首選"
+      },
+      {
+        "source": "TheSportsRush分析",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.05,
+          "draw": 0.09,
+          "away": 0.86
+        },
+        "scoreline": "0:3",
+        "note": "阿根廷5場全勝5球0失，約旦2場0分-3球差，建議押阿根廷3.5球以上"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "積分形勢：阿根廷6分（確認出線，已奪組首），約旦0分（已出局）。這是典型的強弱懸殊對決，阿根廷有五場全勝0失球記錄，梅西、勞塔羅、阿爾瓦雷斯組成的鋒線對約旦首次世界盃的防線構成全面壓力。斯卡洛尼可能輪換，但預計大勝勝算依然極高。",
+    "key_factors": [
+      "球員狀態：梅西（本屆0:2勝奧地利入2球，已無大礙）、勞塔羅·馬丁內斯仍以首發身份出場；羅梅羅（膝蓋韌帶傷後恢復）、利桑德羅·馬丁內斯（腿肌傷）均已回歸訓練",
+      "傷停：阿根廷胡安·福伊斯（阿基里斯腱完全斷裂）缺席整屆；納韋爾·莫利納（大腿Grade1撕裂）基本康復；克里斯蒂安·羅梅羅可能輪換休息",
+      "近況/積分：阿根廷W2D0L0（6分，GD+5）：勝阿爾及利亞3:0、勝奧地利2:0；約旦W0D0L2（0分，GD-3）：負奧地利1:3（算上烏龍球）、負阿爾及利亞1:2",
+      "戰術對位：阿根廷4-3-3/4-2-3-1強調中場控制+快速轉換vs約旦5-3-2/4-4-2低位防守+快速反擊；約旦隊長穆薩·塔阿馬里是最大威脅",
+      "主客場/場地：AT&T球場（達拉斯），中性場地；阿根廷球迷佔多數",
+      "輿論共識：所有主流媒體、博彩商及模型均一面倒支持阿根廷大勝；0:3為最多推薦比分；僅有極少數評論認為約旦會進1球保尊嚴"
+    ],
+    "consensus_lean": "away",
+    "dissent": "唯一的變數在於斯卡洛尼大幅輪換可能令阿根廷進攻效率降低，最終2:0或1:0；但核心差距太大，約旦幾無機會反敗為勝"
+  },
+  "sources": [
+    {
+      "type": "model",
+      "name": "FootballPredictions Jordan vs Argentina",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/jordan-vs-argentina-prediction-28-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "SX.Bet Jordan vs Argentina",
+      "url": "https://blog.sx.bet/world-cup/jordan-vs-argentina/"
+    },
+    {
+      "type": "media",
+      "name": "RacingPost Jordan vs Argentina",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/jordan-vs-argrntina-predictions-team-news-odds-betting-tips-bet-builder-aU2u69F3i5UQ/"
+    },
+    {
+      "type": "media",
+      "name": "TotalFootballAnalysis Jordan World Cup",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/jordan-world-cup-odds-predictions"
+    },
+    {
+      "type": "media",
+      "name": "TheSportsRush Jordan vs Argentina",
+      "url": "https://thesportsrush.com/jordan-v-argentina-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "TheLines Group J UK Odds",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-j/"
+    },
+    {
+      "type": "media",
+      "name": "TheSportsGeek Group J Preview",
+      "url": "https://www.thesportsgeek.com/blog/fifa-world-cup-group-j-winner-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Rotowire Group J Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-j-preview-argentina-algeria-austria-jordan-tactics-lineups-set-pieces-odds-109964"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Jordan vs Argentina Odds/Standing",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760483/argentina-jordan"
+    },
+    {
+      "type": "official",
+      "name": "TheScore Argentina vs Jordan Matchup",
+      "url": "https://www.thescore.com/worldcup/event/93038"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Group J Predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-j-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer WC2026 All Groups",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News Group J Standings",
+      "url": "https://www.sportingnews.com/au/football/news/world-cup-group-j-standings-results-table-2026-argentina/bea592e93bc3474fb580a30f"
+    },
+    {
+      "type": "official",
+      "name": "Goal.com Jordan vs Argentina Preview",
+      "url": "https://www.goal.com/en-us/news/jordan-argentina-world-cup-preview/blt464b280eb210ce6f"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia Group J Standings",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    },
+    {
+      "type": "social",
+      "name": "Facebook Argentina vs Jordan Prediction",
+      "url": "https://www.facebook.com/jm10sports1/posts/"
+    },
+    {
+      "type": "media",
+      "name": "Independent Group J Guide",
+      "url": "https://www.independent.co.uk/sport/football/world-cup-2026-group-j-argentina-algeria-austria-jordan-b2979712.html"
+    },
+    {
+      "type": "media",
+      "name": "NYPost Group J Preview",
+      "url": "https://nypost.com/2026/06/10/sports/world-cup-2026-group-j-preview-prediction-odds-full-team-overviews/"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Argentina World Cup Injury Tracker",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "Worldsoccertalk Argentina Fitness Update",
+      "url": "https://worldsoccertalk.com/world-cup/lionel-messi-headlines-list-of-10-argentina-players-with-fitness-concerns-ahead-of-2026-world-cup/"
+    },
+    {
+      "type": "official",
+      "name": "Fabrizio Romano Messi fitness update",
+      "url": "https://www.yardbarker.com/soccer/articles/fabrizio_romano_provides_fitness_update_on_lionel_messi_ahead_of_argentinas_world_cup_defence/s1_17664_43953336"
+    },
+    {
+      "type": "media",
+      "name": "AlJazeera Group J Day 6 Preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/16/world-cup-can-senegal-stun-france-again-predictions-schedule-on-day-6"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Game-by-Game WC2026 Predictions",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "BetMGM Group J Predictions",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-j-world-cup-2026-odds-predictions-bm16/"
+    },
+    {
+      "type": "media",
+      "name": "FreeSuperTips Group J Preview",
+      "url": "https://www.freesupertips.com/news/world-cup-2026-group-j-betting-preview-team-guide/"
+    }
+  ],
+  "source_count": 25,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 10:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.23,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "阿根廷整體實力碾壓，客勝可期。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.1,
+        "away": 0.85
+      },
+      "scoreline": "0:3",
+      "note": "阿根廷實力碾壓，約旦難阻衛冕冠軍奪勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.1,
+        "away": 0.85
+      },
+      "scoreline": "0:3",
+      "note": "實力懸殊，阿根廷可望輕鬆取勝，主隊約旦難有招架之力。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.06,
+        "draw": 0.12,
+        "away": 0.82
+      },
+      "scoreline": "0:3",
+      "note": "阿根廷整體實力優勢懸殊，攻守均大幅領先約旦。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.02,
+        "draw": 0.08,
+        "away": 0.9
+      },
+      "scoreline": "0:3",
+      "note": "阿根廷整體實力完全輾壓約旦，預計將輕鬆掌控比賽並取得大勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.12,
+        "away": 0.83
+      },
+      "scoreline": "0:2",
+      "note": "阿根廷實力碾壓，客場預計輕取約旦。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.15,
+        "away": 0.8
+      },
+      "scoreline": "0:2",
+      "note": "阿根廷實力懸殊，客場輕取三分。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.053,
+      "draw": 0.113,
+      "away": 0.833
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T052210Z"
+}

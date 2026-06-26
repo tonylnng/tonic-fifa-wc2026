@@ -1,0 +1,429 @@
+{
+  "match": 66,
+  "stage": "Group G",
+  "home": "Egypt",
+  "away": "Iran",
+  "kickoff_utc": "2026-06-27T03:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreline": "1:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.41,
+      "draw": 0.32,
+      "away": 0.27
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "埃及勝",
+        "confidence": 0.6,
+        "basis": "埃及只需平局即可出線但積極求勝奪組冠，薩拉赫與馬爾穆什攻力可在伊朗低撤防守中找到空隙，以窄勝確保歷史性淘汰賽門票。"
+      },
+      {
+        "name": "防守平局",
+        "scoreline": "1:1",
+        "outcome": "平局",
+        "confidence": 0.5,
+        "basis": "若伊朗依靠反擊破門，雙方均在平局中取得所需——埃及出線，伊朗靠最佳第三名資格晉級。"
+      },
+      {
+        "name": "伊朗反勝",
+        "scoreline": "1:2",
+        "outcome": "伊朗勝",
+        "confidence": 0.27,
+        "basis": "若哈吉薩菲指揮伊朗反擊得手，埃及被迫依靠最佳第三名資格出線。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.43,
+          "draw": 0.32,
+          "away": 0.25
+        },
+        "scoreline": "1:1",
+        "note": "Opta在25,000次模擬中埃及勝率42.9%、平局32.2%、伊朗24.9%；埃及61.4%機率奪組冠。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.3,
+          "away": 0.3
+        },
+        "scoreline": "1:0",
+        "note": "FanDuel埃及+145、伊朗+280、平局+165；Kalshi埃及+150、伊朗+300、平局+178；Under 2.5球線-194為重度「低分」博彩，反映市場預期謹慎、低比分對局。"
+      },
+      {
+        "source": "Coach AI模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.41,
+          "draw": 0.31,
+          "away": 0.28
+        },
+        "scoreline": "1:1",
+        "note": "Football Meister Coach AI：埃及41%、平局31%、伊朗28%，預測比分1:1——最常見得分線。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "埃及以4分領G組，只需平局即可出線，但薩拉赫與馬爾穆什有意爭組冠；伊朗連平兩場（0:0比利時、2:2紐西蘭），守力強但進攻效率低，必須求勝加重進攻風險。埃及雖失兩後衛（漢迪·法提、侯薩姆·阿布德·梅吉德），仍是略優一方。",
+    "key_factors": [
+      "球員狀態：薩拉赫全力備戰，馬爾穆什進球狀態良好；伊朗門將貝蘭萬德連保兩場（對比利時0:0、對紐西蘭2:2）",
+      "傷停：埃及確定失後衛漢迪·法提與侯薩姆·阿布德·梅吉德（兩人均因傷缺陣，來源Ahram Online 6月23日）；伊朗無主要傷停",
+      "近況/積分：埃及4分首名；伊朗2分二名（與比利時同積分，目標差稍好）；平局埃及出線，伊朗需依靠另一場結果；伊朗必須求勝才能自行確保晉級",
+      "戰術對位：埃及4-2-3-1靈活進攻，薩拉赫+馬爾穆什為核心；伊朗5-4-1/4-5-1深撤防守再反擊，哈吉薩菲左路突破是主要威脅",
+      "主客場/場地：西雅圖Lumen Field；中性場地；氣候適中",
+      "輿論共識：Opta 42.9%埃及勝、32.2%平局；RotoWire預測1:1；Football Meister AI 1:1；FootballPredictions.com 1:1；多數預測傾向平局或埃及窄勝；Under 2.5為博彩熱門"
+    ],
+    "consensus_lean": "home",
+    "dissent": "RotoWire等部分媒體預測1:1平局，認為伊朗防守能力足以限制埃及，且雙方均可接受平局；FootballPredictions.com、Football Meister AI均預測1:1，平局概率（32%）與埃及勝（41%）差距不大，呈現近乎三向均分局面。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN - Egypt vs Iran odds/spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760476"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Africa - Egypt vs Iran live score",
+      "url": "https://africa.espn.com/football/match/_/gameId/760476/iran-egypt"
+    },
+    {
+      "type": "official",
+      "name": "Ahram Online - Egypt eye historic World Cup qualification",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/571656"
+    },
+    {
+      "type": "official",
+      "name": "Ahram Online - Egypt defensive duo ruled out vs Iran",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/571512"
+    },
+    {
+      "type": "official",
+      "name": "NDTV Sports - Salah to lead Egypt in Iran clash",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/videos/mohamed-salah-set-to-lead-egypt-in-crucial-iran-clash-fifa-world-cup-2026-1118040"
+    },
+    {
+      "type": "official",
+      "name": "Injuries & Suspensions - FIFA WC2026 Group G",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-11/"
+    },
+    {
+      "type": "official",
+      "name": "Guardian - Egypt manager Salah news",
+      "url": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Egypt vs Iran prediction",
+      "url": "https://theanalyst.com/articles/egypt-vs-iran-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister - Coach AI Egypt vs Iran",
+      "url": "https://footballmeister.com/world-cup-2026/egypt-iran-2026-06-27/"
+    },
+    {
+      "type": "model",
+      "name": "SX Bet Blog - WC2026 Group G simulations",
+      "url": "https://blog.sx.bet/world-cup/group-g/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Egypt vs Iran World Cup preview",
+      "url": "https://www.goal.com/en-sa/news/egypt-iran-world-cup-preview/bltbce2e5fc24897843"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK - Egypt vs Iran predictions",
+      "url": "https://esports-news.co.uk/2026/06/23/egypt-v-iran-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Inkl - Egypt vs Iran World Cup predictions picks",
+      "url": "https://www.inkl.com/news/egypt-vs-iran-world-cup-2026-predictions-and-picks"
+    },
+    {
+      "type": "media",
+      "name": "Deadspin - Egypt vs Iran preview lines",
+      "url": "https://deadspin.com/betting/egypt-vs-iran-world-cup-preview-picks-preview-odds-6-26-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Egypt vs Iran prediction",
+      "url": "https://www.covers.com/world-cup/egypt-vs-iran-prediction-picks-odds-friday-6-26-2026"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Egypt vs Iran WC2026 news",
+      "url": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Egypt vs Iran preview",
+      "url": "https://www.rotowire.com/soccer/article/egypt-vs-iran-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-119635"
+    },
+    {
+      "type": "media",
+      "name": "SportPesa Blog - Egypt vs Iran prediction",
+      "url": "https://blog.ke.sportpesa.com/2026/06/24/egypt-vs-iran-prediction-world-cup-2026-preview-team-news-lineups-best-odds-h2h/"
+    },
+    {
+      "type": "media",
+      "name": "SportsLine - Egypt vs Iran expert picks",
+      "url": "https://www.sportsline.com/insiders/egypt-vs-iran-odds-predictions-time-2026-world-cup-picks-from-elite-soccer-expert/"
+    },
+    {
+      "type": "media",
+      "name": "JohnnyBet - Egypt vs Iran prediction",
+      "url": "https://www.johnnybet.com/egypt-vs-iran-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Squawka - Egypt vs Iran predictions tips",
+      "url": "https://www.squawka.com/en/news/world-cup/egypt-vs-iran-predictions-betting-tips/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Egypt vs Iran Group G standings",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760476"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Egypt vs Iran bet builder tips",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/egypt-vs-iran-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aARLl2s6c96X/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Faithful - Egypt vs Iran tips",
+      "url": "https://thefootballfaithful.com/betting-news/egypt-vs-iran-prediction-betting-tips-27-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Egypt vs Iran correct score",
+      "url": "https://www.sportsgambler.com/betting-tips/football/egypt-vs-iran-prediction-lineups-odds-2026-06-26/"
+    },
+    {
+      "type": "betting",
+      "name": "Gooners Guide - Egypt vs Iran pick",
+      "url": "https://www.goonersguide.com/football-pick-59581-Egypt-vs-Iran.htm"
+    },
+    {
+      "type": "betting",
+      "name": "Betfanatics - Egypt vs Iran betting odds",
+      "url": "https://betfanatics.com/blog/2026-world-cup-egypt-v-iran-betting-odds-predictions-line-ups"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - Egypt vs Iran 1:1",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/egypt-vs-iran-prediction-27-06-2026/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FC26 WC2026 Group G Egypt vs Iran",
+      "url": "https://www.youtube.com/watch?v=gu8hT5Cxybc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Egypt vs Iran eFootball PES Prediction",
+      "url": "https://www.youtube.com/watch?v=OYcO3rno4Dc"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA WC Egypt vs Iran Preview",
+      "url": "https://www.youtube.com/watch?v=LRSL3MbkvqA"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - My World Cup Round 3 Preview Egypt Iran",
+      "url": "https://www.youtube.com/watch?v=JTII4RGCIy0"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda - New Zealand Belgium prediction",
+      "url": "https://www.sportskeeda.com/football/new-zealand-vs-belgium-prediction-betting-tips-june-26th-2026"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - New Zealand Belgium",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/new-zealand-v-belgium-predictions"
+    },
+    {
+      "type": "media",
+      "name": "Action Network - Belgium New Zealand",
+      "url": "https://www.actionnetwork.com/worldcup-game/belgium-new-zealand/284399"
+    },
+    {
+      "type": "media",
+      "name": "TheSportsRush - New Zealand Belgium",
+      "url": "https://thesportsrush.com/new-zealand-v-belgium-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Sport Grill - New Zealand Belgium Group G",
+      "url": "https://sportgrill.co.uk/2026/06/25/2026-fifa-world-cup-group-g-new-zealand-vs-belgium/"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Belgium New Zealand picks",
+      "url": "https://www.covers.com/world-cup/belgium-vs-new-zealand-prediction-picks-odds-friday-6-26-2026"
+    },
+    {
+      "type": "betting",
+      "name": "JohnnyBet - New Zealand Belgium handicap",
+      "url": "https://www.johnnybet.com/new-zealand-vs-belgium-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - New Zealand Belgium team news",
+      "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/new-zealand-vs-belgium-prediction-team-news-lineups_599916.html"
+    },
+    {
+      "type": "media",
+      "name": "Khel Now - New Zealand Belgium knockout preview",
+      "url": "https://khelnow.com/football/world-football-new-zealand-vs-belgium-preview-fifa-world-cup-202606"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - New Zealand Belgium World Cup 2026 picks",
+      "url": "https://www.youtube.com/watch?v=JTII4RGCIy0"
+    }
+  ],
+  "source_count": 41,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-27 11:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.3,
+        "away": 0.18
+      },
+      "scoreline": "1:0",
+      "note": "埃及主場略佔優勢，伊朗反擊威脅有限。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "雙方防守穩健且實力相近，預計將以平局收場。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.33,
+        "draw": 0.34,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "兩支實力接近的球隊，有望握手言和。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.37,
+        "away": 0.28
+      },
+      "scoreline": "1:1",
+      "note": "埃及攻勢較優但把握度有限，伊朗防守穩健逼和"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.36,
+        "draw": 0.34,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊球風皆偏重防守且實力相當，預計將是一場低比分的僵局。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.3,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "埃及薩拉赫領軍，主場優勢小勝伊朗。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "實力相當且防守穩健，預計低比分平局收場。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.39,
+      "draw": 0.343,
+      "away": 0.267
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051729Z"
+}

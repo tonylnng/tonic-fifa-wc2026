@@ -1,0 +1,424 @@
+{
+  "match": 61,
+  "stage": "Group I",
+  "home": "Senegal",
+  "away": "Iraq",
+  "kickoff_utc": "2026-06-26T19:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "scoreline": "3:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.72,
+      "draw": 0.16,
+      "away": 0.12
+    },
+    "confidence": 0.78,
+    "top_scorelines": [
+      {
+        "scoreline": "3:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "4:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "3:1",
+        "outcome": "塞內加爾勝",
+        "confidence": 0.78,
+        "basis": "塞內加爾陣容深度遠超伊拉克，雖失門將門迪，但沙迪奧·馬內、尼古拉斯·傑克遜與薩爾三叉戟攻力充足，伊拉克缺少胡笙與穆哈納德·阿里雙核，反擊威脅大降。"
+      },
+      {
+        "name": "低比分伊拉克守穩",
+        "scoreline": "2:0",
+        "outcome": "塞內加爾勝",
+        "confidence": 0.55,
+        "basis": "若伊拉克以5-4-1低撤防守，可能令比分維持在2:0，但塞內加爾進攻壓力難以長久承受。"
+      },
+      {
+        "name": "伊拉克奇迹",
+        "scoreline": "1:1",
+        "outcome": "平局",
+        "confidence": 0.12,
+        "basis": "若齊丹·伊格巴爾掌控中場，伊拉克或能壓低失球並從反擊中取得一分。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.72,
+          "draw": 0.15,
+          "away": 0.13
+        },
+        "scoreline": "3:1",
+        "note": "FanDuel賠率塞內加爾-450、伊拉克+1200、平局+550，隱含塞內加爾勝率約72%；過/下3.5球線Over -164反映雙方均有進球預期。"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.7,
+          "draw": 0.16,
+          "away": 0.14
+        },
+        "scoreline": "3:1",
+        "note": "Polymarket交易者共識以塞內加爾陣容深度、歐洲聯賽人才及近期非洲盃成績為主要定價依據，伊拉克進攻缺陷令預測市場明顯傾斜。"
+      },
+      {
+        "source": "多媒體預測共識",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.15,
+          "away": 0.12
+        },
+        "scoreline": "3:1",
+        "note": "RotoWire、Sports Illustrated、Goal.com、SportPesa等主流媒體預測範圍介於Senegal 2-0至4-1，共識中位數約3:1。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "塞內加爾儘管主力門將門迪因膝傷缺席由迪亞瓦替補，但馬內、傑克遜、薩爾的三叉戟攻力與庫利巴利領軍防線仍遠超伊拉克。伊拉克本場確定缺少胡笙（腹股溝）與穆哈納德·阿里（傷出），前場火力大幅折損。塞內加爾需要大勝以保住最佳第三名資格，進攻動機充足。",
+    "key_factors": [
+      "球員狀態：馬內、薩爾（上場梅開二度）、傑克遜狀態火熱；庫利巴利統率後防穩定；門將由迪亞瓦替補出賽",
+      "傷停：塞內加爾失門迪（膝韌帶）；伊拉克失主前鋒胡笙（腹股溝）及穆哈納德·阿里（傷出）",
+      "近況/積分：雙方均積0分墊底，塞內加爾目標差-3、伊拉克-6；塞內加爾須勝並需法國/挪威結果配合以求最佳第三名；伊拉克須贏才有機會",
+      "戰術對位：塞內加爾4-3-3高位壓迫對陣伊拉克4-1-4-1低撤防守；伊拉克以阿里·哈馬迪孤鋒反擊為主，缺乏縱深威脅",
+      "主客場/場地：多倫多BMO球場中性場地，塞內加爾支持者較多；場地草皮良好無天氣干擾",
+      "輿論共識：FanDuel、Ladbrokes、RotoWire、SI、Goal.com等均一致看好塞內加爾，賠率隱含塞內加爾勝率68-75%；預測比分集中在3:0至3:1"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分分析師（Wolfbet、Deadspin）認為兩隊防守均薄弱、塞內加爾替補門將為弱點，伊拉克或可反擊得手，令比分更接近2:1甚至平局；但主流看法仍壓倒性支持塞內加爾大勝。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA官方世界盃網頁",
+      "url": "https://www.fifa.com/fifaplus/en/tournament-overview"
+    },
+    {
+      "type": "official",
+      "name": "Shafaq News - Senegal Iraq injuries",
+      "url": "https://shafaq.com/en/sport/Senegal-and-Iraq-hit-by-injuries-ahead-of-World-Cup-decider"
+    },
+    {
+      "type": "official",
+      "name": "Shafaq News - Iraq attack depleted",
+      "url": "https://shafaq.com/en/sport/Iraq-attack-depleted-before-Senegal-decider"
+    },
+    {
+      "type": "official",
+      "name": "Morocco World News - Mendy ruled out",
+      "url": "https://www.moroccoworldnews.com/2026/06/324515/huge-blow-for-senegals-world-cup-hopes-mendy-ruled-out-of-must-win-iraq-clash/"
+    },
+    {
+      "type": "official",
+      "name": "RotoWire - Mendy injury",
+      "url": "https://www.rotowire.com/soccer/headlines/edouard-mendy-injury-wont-play-against-iraq-520710"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Senegal vs Iraq TV/lineup",
+      "url": "https://www.espn.com/soccer/story/_/id/49165930/fifa-world-cup-2026-senegal-vs-iraq-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Senegal vs Iraq preview",
+      "url": "https://www.si.com/soccer/senegal-vs-iraq-world-cup-preview-predictions-lineups-6-26-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Senegal vs Iraq full preview",
+      "url": "https://www.rotowire.com/soccer/article/senegal-vs-iraq-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-i-119631"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Senegal vs Iraq FIFA World Cup 2026 Preview",
+      "url": "https://www.goal.com/en-ca/news/senegal-iraq-world-cup-preview/bltd9cd15e8559290bf"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com ZA - Senegal vs Iraq predictions",
+      "url": "https://www.goal.com/en-za/betting/world-cup/senegal-vs-iraq-predictions-26-06-2026/A:blt930b5e6bf9be0bdb"
+    },
+    {
+      "type": "media",
+      "name": "SportsMole - Senegal vs Iraq team news",
+      "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/team-news/senegal-vs-iraq-injury-suspension-lists-predicted-xis_599962.html"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Senegal Iraq World Cup",
+      "url": "https://shafaq.com/en/sport/Iraq-attack-depleted-before-Senegal-decider"
+    },
+    {
+      "type": "media",
+      "name": "Pulse Sports Nigeria - Senegal vs Iraq preview",
+      "url": "https://www.pulsesports.ng/story/senegal-vs-iraq-2026-world-cup-preview-team-news-prediction-and-betting-tips-lions-of-teranga-to-grab-crucial-win-2026062421321838843"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Senegal vs Iraq X/Twitter",
+      "url": "https://x.com/SportsMole/status/2069848755247956124"
+    },
+    {
+      "type": "media",
+      "name": "Injuries & Suspensions FIFA WC2026",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-12/"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - Senegal vs Iraq tips",
+      "url": "https://footballwhispers.com/blog/senegal-vs-iraq-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Senegal vs Iraq preview",
+      "url": "https://www.ladbrokes.com/en/news/senegal-iraq-world-cup-preview-predictions-tips-2026-06-25/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Senegal vs Iraq prediction",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/senegal-vs-iraq-betting-tips-predictions-team-news-odds-bet-builder-abzLt2O2GKan/"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com - Senegal vs Iraq picks",
+      "url": "https://www.covers.com/world-cup/senegal-vs-iraq-prediction-picks-odds-friday-6-26-2026"
+    },
+    {
+      "type": "betting",
+      "name": "SportPesa Blog - Senegal vs Iraq",
+      "url": "https://blog.sportpesa.com/2026/06/24/senegal-vs-iraq-prediction-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "BetUS Correct Score odds",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/props/senegal-vs-iraq/"
+    },
+    {
+      "type": "betting",
+      "name": "Wolfbet - Senegal vs Iraq tips",
+      "url": "https://tips.wolfbet.com/predictions/football/senegal-vs-iraq-prediction-betting-tips-fifa-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "MightyTips - Senegal vs Iraq odds",
+      "url": "https://www.mightytips.com/football-predictions/senegal-vs-iraq-prediction-26-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - Senegal vs Iraq lineups",
+      "url": "https://www.sportsgambler.com/betting-tips/football/senegal-vs-iraq-prediction-lineups-odds-2026-06-26/"
+    },
+    {
+      "type": "betting",
+      "name": "ToffeeWeb - Senegal vs Iraq picks",
+      "url": "https://www.toffeeweb.com/senegal-vs-iraq-predictions-picks-odds-26-06-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Polymarket - Senegal vs Iraq prediction market",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-sen-irq-2026-06-26"
+    },
+    {
+      "type": "model",
+      "name": "SportsLine - Senegal vs Iraq expert picks",
+      "url": "https://www.sportsline.com/insiders/senegal-vs-iraq-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "model",
+      "name": "TheSportsRush - Senegal Iraq betting analysis",
+      "url": "https://thesportsrush.com/senegal-v-iraq-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Senegal vs Iraq odds/spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760475"
+    },
+    {
+      "type": "kol",
+      "name": "Sportsgambler predicted lineups",
+      "url": "https://www.sportsgambler.com/betting-tips/football/senegal-vs-iraq-prediction-lineups-odds-2026-06-26/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Senegal vs Iraq Full Match Analysis",
+      "url": "https://www.youtube.com/watch?v=h_STjQQhk6w"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FC26 WC2026 Group I Senegal vs Iraq",
+      "url": "https://www.youtube.com/watch?v=wTihotZR2fw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Senegal vs Iraq Best Bets",
+      "url": "https://www.youtube.com/watch?v=PEyl4V-m1-U"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Senegal VS Iraq Prediction & Best Bets",
+      "url": "https://www.youtube.com/watch?v=agWkfddYgDk"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - SportsMole team news",
+      "url": "https://www.instagram.com/p/DZ9UPEKoE43/"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - World Cup bracket standings",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Uruguay World Cup 2026",
+      "url": "https://en.as.com/soccer/world-cup/uruguay-at-the-2026-world-cup-roster-list-players-group-and-schedule-clone-f202606-n/"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network - Senegal Iraq odds",
+      "url": "https://www.actionnetwork.com/worldcup-game/senegal-iraq/284395"
+    },
+    {
+      "type": "media",
+      "name": "AZ Central - Senegal Iraq picks",
+      "url": "https://www.azcentral.com/story/sports/soccer/worldcup/2026/06/25/norway-france-picks-predictions-odds-world-cup-2026-friday/90667302007/"
+    },
+    {
+      "type": "media",
+      "name": "DraftKings Network preview",
+      "url": "https://dknetwork.draftkings.com/2026/06/25/norway-vs-france-prediction-pick-for-friday-6-26-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard - WC2026 roundup",
+      "url": "https://www.standard.co.uk/sport/football/norway-vs-france-xis-confirmed-team-news-predicted-lineups-injury-latest-world-cup-2026-b1287632.html"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-27 03:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "塞內加爾主場進攻強勢，伊拉克防守反擊具威脅，預期小比分主勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾整體實力與身體素質佔優，伊拉克難以抵擋其攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾實力佔優，預計掌控節奏取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.64,
+        "draw": 0.23,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾攻守較完整，預計穩贏伊拉克。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾整體實力與身體對抗佔優，預計能穩健擊敗伊拉克。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.23,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾實力占優，主場預計擊敗伊拉克。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "塞內加爾整體戰力優勢明顯，預計穩穩獲勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.657,
+      "draw": 0.21,
+      "away": 0.133
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051218Z"
+}

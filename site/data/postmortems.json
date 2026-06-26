@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-25T05:35:56Z",
+  "last_updated": "2026-06-26T05:24:37Z",
   "postmortems": [
     {
       "match": 5,
@@ -1483,6 +1483,146 @@
       ],
       "vs_benchmarks": "7 家多模型共識同樣為 1:2 客勝（南韓），與 AI 一同失準；博彩盤口（南韓 1.6）亦看錯。本場是 AI 與所有基準線集體失手的典型『動機型爆冷』，凸顯賽制博弈分析的不可替代性。",
       "generated_at": "2026-06-25T05:35:56Z"
+    },
+    {
+      "match": 55,
+      "home": "Ecuador",
+      "away": "Germany",
+      "stage": "Group E",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-25T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "厄瓜多爾爆冷逆轉德國，AI 看低主隊失準",
+      "review": "AI 預測德國作客 2:1 取勝（客勝率 0.59），但厄瓜多爾在主場展現韌性，雖然薩內第 2 分鐘為德國先拔頭籌，安古洛迅速於第 9 分鐘扳平，普拉塔第 77 分鐘射入致勝球完成逆轉。AI 過度看重德國的整體實力與名氣，低估了厄瓜多爾穩固的防線與主場氣勢，以及德國鋒線把握度不足的問題。",
+      "lessons": [
+        "南美球隊在主場/中立場對歐洲強權的爆發力持續被低估",
+        "領先後德國控場能力本屆數場比賽都有隱憂，不應給予過高客勝率",
+        "客勝率 0.59 對一場勢均力敵的對決偏高，信心校準需更保守"
+      ],
+      "vs_benchmarks": "博彩與多模型共識同樣偏向德國，本場屬全體看走眼的冷門；AI 與基準線一同失準，非 AI 獨有問題。",
+      "generated_at": "2026-06-26T05:24:37Z"
+    },
+    {
+      "match": 56,
+      "home": "Curacao",
+      "away": "Ivory Coast",
+      "stage": "Group E",
+      "predicted": "0:3",
+      "predicted_outcome": "away",
+      "final": "0:2",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-25T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "佩佩梅開二度，象牙海岸如預期勝出",
+      "review": "AI 準確命中象牙海岸客勝（客勝率 0.80），佩佩第 7 及 64 分鐘梅開二度奠定勝局。實際比分 0:2 較預測 0:3 少一球，象牙海岸雖控制局面但未能擴大比分。勝負方向與強弱判斷正確。",
+      "lessons": [
+        "實力差距明顯的對決勝負判斷穩定可靠",
+        "比分預測可略為保守，3 球以上大勝需更多進攻火力佐證"
+      ],
+      "vs_benchmarks": "AI 與博彩、多模型共識一致看好象牙海岸，方向全中；比分精準度仍有提升空間。",
+      "generated_at": "2026-06-26T05:24:37Z"
+    },
+    {
+      "match": 57,
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "stage": "Group F",
+      "predicted": "0:4",
+      "predicted_outcome": "away",
+      "final": "1:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-25T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "荷蘭以小組首名晉級，勝負命中比分偏高",
+      "review": "AI 命中荷蘭客勝（客勝率 0.90），荷蘭以 3:1 擊敗突尼西亞並以小組首名出線。實際比分 1:3，突尼西亞透過烏龍球（斯基里）與馬斯圖里入球攻入 1 球，較預測 0:4 多失 1 球、少進 1 球。整體強弱判斷正確。",
+      "lessons": [
+        "荷蘭等強隊大勝預期需考慮對手仍能偶有還擊",
+        "0:4 等高比分過於樂觀，3 球差距已是強隊常態上限"
+      ],
+      "vs_benchmarks": "AI 與博彩、超級電腦共識一致看好荷蘭大勝，方向命中；比分精準度與基準線同樣有限。",
+      "generated_at": "2026-06-26T05:24:37Z"
+    },
+    {
+      "match": 58,
+      "home": "Japan",
+      "away": "Sweden",
+      "stage": "Group F",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-25T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "日瑞各入一球言和，AI 看好日本小勝落空",
+      "review": "AI 預測日本主勝 2:1（主勝率僅 0.44，信心 0.55 偏低），前田大然第 56 分鐘破門，但埃蘭加第 62 分鐘為瑞典扳平，最終 1:1 收場。這是一場勢均力敵的對決，AI 主勝率不足五成本身已反映高度不確定性，平局是合理的第二可能。",
+      "lessons": [
+        "主勝率低於 0.5 的對決，平局風險須在信心評估中更明確反映",
+        "低信心預測（0.55）的失準屬正常波動，校準大致合理"
+      ],
+      "vs_benchmarks": "博彩盤口本場亦接近五五波，多模型共識分歧；AI 失準幅度與市場預期相符，非重大偏差。",
+      "generated_at": "2026-06-26T05:24:37Z"
+    },
+    {
+      "match": 59,
+      "home": "Paraguay",
+      "away": "Australia",
+      "stage": "Group D",
+      "predicted": "1:1",
+      "predicted_outcome": "draw",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-25T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "巴澳互交白卷，AI 命中平局",
+      "review": "AI 命中平局（平局率 0.38 為三向最高），兩隊踢成 0:0。實際雙方均未能破門，較預測 1:1 各少一球。在兩支防守紮實、進攻乏力的球隊對碰下，平局判斷準確，僅比分略有出入。",
+      "lessons": [
+        "防守型球隊互碰時，0:0 與 1:1 都應納入主要情境",
+        "平局率最高即設 outcome=draw 的判斷邏輯運作正確"
+      ],
+      "vs_benchmarks": "AI 與博彩、多模型共識皆傾向低比分平局，方向命中且與基準線一致。",
+      "generated_at": "2026-06-26T05:24:37Z"
+    },
+    {
+      "match": 60,
+      "home": "Turkey",
+      "away": "USA",
+      "stage": "Group D",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "3:2",
+      "actual_outcome": "home",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-25T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "土耳其補時絕殺美國，AI 看好美國客勝失準",
+      "review": "AI 預測美國作客 1:2 小勝（客勝率 0.41，信心 0.52 偏低），但這是一場進球大戰：美國的特拉斯蒂先開紀錄，土耳其靠居拿與耶馬斯反超，貝哈特扳平後，艾漢於補時第 90+8 分鐘絕殺，土耳其 3:2 險勝。AI 低估了土耳其的主場攻擊火力與居拿的關鍵作用。",
+      "lessons": [
+        "年輕攻擊核心（如居拿）能改變勢均力敵對決的走向，需提高權重",
+        "客勝率 0.41 卻設 outcome=away 屬合理（最高者），但三向接近時失準難免",
+        "補時絕殺類戲劇性結果無法預測，屬高方差事件"
+      ],
+      "vs_benchmarks": "博彩本場亦略偏美國或平局，多模型共識分歧；AI 失準與市場大致同步，屬難測對決。",
+      "generated_at": "2026-06-26T05:24:37Z"
     }
   ]
 }

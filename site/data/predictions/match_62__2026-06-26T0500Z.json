@@ -1,0 +1,424 @@
+{
+  "match": 62,
+  "stage": "Group I",
+  "home": "Norway",
+  "away": "France",
+  "kickoff_utc": "2026-06-26T19:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "scoreline": "1:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.23,
+      "draw": 0.21,
+      "away": 0.56
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "1:3",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:3",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:3",
+        "outcome": "法國勝",
+        "confidence": 0.72,
+        "basis": "法國四叉戟（姆巴佩、登貝萊、奧利斯、杜）攻力壓倒挪威後防，薩利巴-烏帕梅卡諾組合有效壓制哈蘭德，法國僅需平局即奪小組第一，但仍積極求勝。"
+      },
+      {
+        "name": "哈蘭德主導平局",
+        "scoreline": "2:2",
+        "outcome": "平局",
+        "confidence": 0.52,
+        "basis": "若哈蘭德獲得充足傳球、奧德加爾加速反擊，雙方均可進球，令比賽以平局收場——此對法國已足夠以目標差首名出線。"
+      },
+      {
+        "name": "挪威奇蹟奪組冠",
+        "scoreline": "2:1",
+        "outcome": "挪威勝",
+        "confidence": 0.23,
+        "basis": "若挪威前三十分鐘快速確立優勢，哈蘭德+索爾洛特雙核鎖定比分，挑戰法國奪組冠。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.24,
+          "away": 0.54
+        },
+        "scoreline": "1:3",
+        "note": "DraftKings法國-160、挪威+350、平局+325；ESPN賠率法國-140至-175；BTTS Yes -160反映雙方均有進球預期，總進球線2.5。"
+      },
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.23,
+          "draw": 0.22,
+          "away": 0.55
+        },
+        "scoreline": "1:2",
+        "note": "Opta在10,000次模擬中法國勝率55.4%、平局21.6%、挪威23.0%；雙方均已出線，法國平即首名。"
+      },
+      {
+        "source": "Polymarket預測市場",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.24,
+          "away": 0.54
+        },
+        "scoreline": "1:2",
+        "note": "Polymarket法國隱含勝率53.5%，挪威22.5%，平局24%；交易量324萬美元，市場深度充足，共識傾向法國勝但非壓倒性。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "法國與挪威均已晉級，但雙方均謀求組冠以獲更有利的八強賽程。法國攻線姆巴佩+登貝萊+奧利斯+杜已合轟9球，後防薩利巴-烏帕梅卡諾世界級，僅失一球；挪威哈蘭德本場可能因體力管理適度保留，但4前鋒模式令比賽高度開放。全場至少三個進球是主流預測共識。",
+    "key_factors": [
+      "球員狀態：姆巴佩4球、哈蘭德4球並列金靴前列；法國奧利斯、登貝萊、杜一線齊整；挪威奧德加爾、努薩、索爾洛特士氣高漲",
+      "傷停：挪威賴爾森（大腿）存疑；法國曼尼翁（無明顯傷停）；雙方整體陣容健全",
+      "近況/積分：法國6分+5目標差首名；挪威6分+4差二名；平局法國首名出線；挪威須勝才能奪冠",
+      "戰術對位：法國4-2-3-1過渡4-4-2打法、重視轉換；挪威4-4-2/4-3-3高線壓迫，哈蘭德身後走位，防守過渡風險高",
+      "主客場/場地：吉列特體育場波士頓，中性場地；氣候良好；雙方主力齊整",
+      "輿論共識：RotoWire、SI、Ladbrokes、William Hill、FanDuel、DraftKings等均看好法國勝；Betfair推崇BTTS+法國；Opta55.4%法勝機率；William Hill 法國勝+BTTS 9/4"
+    ],
+    "consensus_lean": "away",
+    "dissent": "Deadspin、Betfair、Goal.com部分分析師認為平局有9/2至5/2的賠率價值，理由是雙方在積分已定的情況下均有可能保守應戰；AI模型（YouTube）給法國37%、挪威34%、平局29%，為各方向中最緊湊的三向分佈。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN - Norway vs France TV/lineup",
+      "url": "https://www.espn.com/soccer/story/_/id/49162941/norway-vs-france-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "official",
+      "name": "The Star - France keen to secure top spot",
+      "url": "https://www.thestar.com.my/sport/football/2026/06/26/soccer-france-keen-to-secure-top-spot-and-avoid-travel-disruption-stephan-says"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - Norway vs France odds/spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760475"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Norway vs France preview",
+      "url": "https://www.si.com/soccer/norway-vs-france-world-cup-preview-predictions-lineups-6-26-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Norway vs France picks/tips",
+      "url": "https://www.rotowire.com/soccer/article/norway-vs-france-picks-tips-odds-best-bets-2026-world-cup-group-i-119764"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Norway vs France team news",
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/team-news/norway-vs-france-injury-suspension-list-predicted-xis_600015.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Norway vs France preview",
+      "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/preview/norway-vs-france-prediction-team-news-lineups_600014.html"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Mbappe vs Haaland Norway France",
+      "url": "https://www.aljazeera.com/sports/2026/6/25/norway-vs-france-at-world-cup-2026-mbappe-vs-haaland-team-news-lineups"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - WC2026 bracket standings",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard - Norway France team news",
+      "url": "https://www.standard.co.uk/sport/football/norway-vs-france-xis-confirmed-team-news-predicted-lineups-injury-latest-world-cup-2026-b1287632.html"
+    },
+    {
+      "type": "media",
+      "name": "Lethbridge Herald - World Cup what to know",
+      "url": "https://lethbridgeherald.com/sports/national-sports/2026/06/21/world-cup-what-to-know-messi-mbappe-and-haaland-back-in-action/"
+    },
+    {
+      "type": "media",
+      "name": "AZ Central - Norway France picks",
+      "url": "https://www.azcentral.com/story/sports/soccer/worldcup/2026/06/25/norway-france-picks-predictions-odds-world-cup-2026-friday/90667302007/"
+    },
+    {
+      "type": "media",
+      "name": "StatsAlt - Norway vs France picks",
+      "url": "https://statsalt.com/free-picks/world-cup/norway-vs-france-picks-and-prediction-for-friday-june-26-2026"
+    },
+    {
+      "type": "media",
+      "name": "Deadspin - Norway vs France preview",
+      "url": "https://deadspin.com/betting/norway-vs-france-world-cup-betting-preview-lines-predictions-6-26-2026/"
+    },
+    {
+      "type": "media",
+      "name": "SBG Global - Norway vs France analysis",
+      "url": "https://www.sbgglobal.eu/football-soccer/norway-vs-france-world-cup-2026-betting-lines-analysis/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Norway vs France prediction",
+      "url": "https://theanalyst.com/articles/norway-vs-france-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Polymarket - Norway vs France",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-nor-fra-2026-06-26"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings Network - Norway vs France pick",
+      "url": "https://dknetwork.draftkings.com/2026/06/25/norway-vs-france-prediction-pick-for-friday-6-26-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Norway vs France tips",
+      "url": "https://www.ladbrokes.com/en/news/norway-france-world-cup-preview-predictions-tips-2026-06-24/"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair - Norway vs France best bets",
+      "url": "https://betting.betfair.com/football/world-cup-2026/norway-v-france-world-cup-tips-best-bets-match-preview-prediction-240626-1063.html"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill - Norway vs France BTTS France win",
+      "url": "https://news.williamhill.com/football/world-cup/norway-v-france-prediction-odds-and-best-bets/"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel - Norway vs France predictions",
+      "url": "https://www.fanduel.com/research/norway-vs-france-prediction-picks-lineups-preview-and-best-bets-world-cup-2026-group-i"
+    },
+    {
+      "type": "betting",
+      "name": "Esports News UK - Norway vs France Group I tips",
+      "url": "https://esports-news.co.uk/2026/06/23/norway-v-france-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "Goal.com ZA - Norway vs France predictions",
+      "url": "https://www.goal.com/en-za/betting/world-cup/norway-vs-france-predictions-26-06-2026/A:blta220b79fcb17f2a4"
+    },
+    {
+      "type": "social",
+      "name": "Instagram - Sports Mole Norway France team news",
+      "url": "https://www.instagram.com/p/DaBpdvWivyx/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Norway vs France World Cup Best Bets",
+      "url": "https://www.youtube.com/watch?v=RC04uqwSqpQ"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Norway vs France Group Winner Showdown",
+      "url": "https://www.youtube.com/watch?v=Gzws2pEPwDA&vl=pa"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Norway vs France Betting Odds Preview",
+      "url": "https://www.youtube.com/watch?v=1SMT4SXcQOE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Norway vs France eFootball PES Prediction",
+      "url": "https://www.youtube.com/watch?v=uE9-e9d8PDM"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA WC Norway vs France Preview",
+      "url": "https://www.youtube.com/watch?v=OIUjeX77MBk"
+    },
+    {
+      "type": "media",
+      "name": "Injuries & Suspensions - FIFA WC2026",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-12/"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Unconvincing Uruguay Spain",
+      "url": "https://www.straitstimes.com/sport/football/unconvincing-uruguay-seek-first-win-against-revitalised-spain"
+    },
+    {
+      "type": "media",
+      "name": "Rio Times - Uruguay injury analysis",
+      "url": "https://www.riotimesonline.com/uruguay-arrascaeta-araujo-injury-cost-spain-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair Day 16 tipsheet",
+      "url": "https://betting.betfair.com/football/world-cup-2026/world-cup-day-16-tipsheet-mark-stinchcombes-best-bets-predictions-including-haaland-mbappe-double-250626-1329.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Africa - Norway vs France odds",
+      "url": "https://africa.espn.com/football/story/_/id/49167172/fifa-world-cup-2026-uruguay-vs-spain-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    },
+    {
+      "type": "media",
+      "name": "Action Network - Spain Uruguay odds",
+      "url": "https://www.actionnetwork.com/worldcup-game/spain-uruguay/284397"
+    },
+    {
+      "type": "media",
+      "name": "SBG Global - Spain Uruguay analysis",
+      "url": "https://www.sbgglobal.eu/football-soccer/uruguay-vs-spain-fifa-world-cup-2026-betting-odds-preview/"
+    },
+    {
+      "type": "media",
+      "name": "Juve FC - Uruguay Spain predictions",
+      "url": "https://www.juvefc.com/uruguay-v-spain-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Spain Uruguay picks",
+      "url": "https://www.covers.com/world-cup/spain-vs-uruguay-prediction-picks-odds-friday-6-26-2026"
+    },
+    {
+      "type": "media",
+      "name": "DAZN - Uruguay vs Spain team news",
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-uruguay-vs-spain-preview-team-news-how-to-watch/8zad8p82ys2l18d8uiklczkpv"
+    },
+    {
+      "type": "media",
+      "name": "The Real EFL - Uruguay Spain prediction",
+      "url": "https://therealefl.co.uk/2026/06/22/uruguay-vs-spain-world-cup-prediction-odds-lineups-betting-tips-27-06-2026/"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-27 03:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "法國整體戰力優於挪威，客場有望小勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "法國實力佔優，哈蘭德孤掌難鳴，高盧雄雞有望拿下勝利。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "法國整體戰力明顯佔優，預計客場取勝，但挪威哈蘭德鋒線有望破蛋。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.16,
+        "draw": 0.2,
+        "away": 0.64
+      },
+      "scoreline": "1:3",
+      "note": "法國整體實力更勝一籌，客場仍佔明顯優勢。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.22,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "挪威鋒線具威脅，但法國整體實力與經驗更勝一籌，預計客隊勝出。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "法國實力遠勝挪威，客場勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "1:2",
+      "note": "法國陣容豪華，挪威防守難以抵擋攻勢。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.189,
+      "draw": 0.238,
+      "away": 0.573
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051330Z"
+}

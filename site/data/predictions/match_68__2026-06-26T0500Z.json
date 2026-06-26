@@ -1,0 +1,361 @@
+{
+  "match": 68,
+  "stage": "Group L",
+  "home": "Panama",
+  "away": "England",
+  "kickoff_utc": "2026-06-27T21:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreline": "0:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.05,
+      "draw": 0.09,
+      "away": 0.86
+    },
+    "confidence": 0.82,
+    "top_scorelines": [
+      {
+        "scoreline": "0:3",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.2
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:4",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "英格蘭舒適大勝",
+        "scoreline": "0:3",
+        "outcome": "英格蘭確保第一出線",
+        "confidence": 0.55,
+        "basis": "英格蘭2018年曾以6:1重創巴拿馬，陣容質量差距懸殊，坎恩領銜進攻"
+      },
+      {
+        "name": "英格蘭穩健取勝",
+        "scoreline": "0:2",
+        "outcome": "英格蘭取勝，積分7分居首",
+        "confidence": 0.25,
+        "basis": "英格蘭謹慎輪換，管控傷兵，巴拿馬防守消耗"
+      },
+      {
+        "name": "巴拿馬扳平一球",
+        "scoreline": "1:3",
+        "outcome": "英格蘭仍大勝，巴拿馬保留顏面",
+        "confidence": 0.08,
+        "basis": "英格蘭輪換防守層可能出現漏洞"
+      },
+      {
+        "name": "英格蘭多輪換保守",
+        "scoreline": "0:1",
+        "outcome": "英格蘭最低勝差，積分5分仍居首",
+        "confidence": 0.04,
+        "basis": "特謝爾大幅輪換保護傷兵，賽前動機稍低"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.13,
+          "away": 0.81
+        },
+        "scoreline": "0:2",
+        "note": "William Hill賠率14/1-5/1-1/8，FanDuel -700英格蘭；市場一面倒押英格蘭"
+      },
+      {
+        "source": "CoachAI模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.08,
+          "draw": 0.16,
+          "away": 0.76
+        },
+        "scoreline": "0:2",
+        "note": "基於122個預測者，99%押英格蘭勝；CoachAI模型算法0:2最可能比分"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.04,
+          "draw": 0.08,
+          "away": 0.88
+        },
+        "note": "英格蘭出線概率96.7%，Opta模型無疑認定英格蘭佔絕對主導"
+      },
+      {
+        "source": "JuveFc分析",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.12,
+          "away": 0.82
+        },
+        "scoreline": "0:2",
+        "note": "JuveFc最佳賠率1/6英格蘭勝，英格蘭對無得分巴拿馬的主流分析"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "巴拿馬已確認出局（2場0分），英格蘭4分需要取勝確保小組第一出線。英格蘭曾於2018年以6:1大破巴拿馬，目前兩隊實力差距相若。唯英格蘭方面多名球員受傷（賴斯左腿腓腸肌、詹姆斯腿後腱），特謝爾必須平衡輪換與傷兵管理，但勝負結果幾無懸念。",
+    "key_factors": [
+      "球員狀態：坎恩（3場主要角色）、貝林漢仍是英格蘭核心；沙卡有望首發，拉什福德可能輪換入場",
+      "傷停：英格蘭賴斯（左腿腓腸肌，存疑）、詹姆斯（腿後腱緊繃，本周四未訓練）；沙卡（阿基里斯腱管理）；巴拿馬卡拉斯基利亞（內收肌傷，整屆未上場）、戈多伊（體能不足）",
+      "近況/積分：英格蘭W1D1L0（4分）：勝克羅埃西亞4:2、平迦納0:0；巴拿馬W0D0L2（0分）：負迦納0:1、負克羅埃西亞0:1，整屆無進球",
+      "戰術對位：英格蘭4-2-3-1高強度壓迫vs巴拿馬5後衛防守組織，上屆對陣規律顯示英格蘭可反複從邊路撕裂巴拿馬防線",
+      "主客場/場地：美都會Life球場（新澤西州）；兩隊均為客隊，無地主因素",
+      "輿論共識：媒體、博彩商與模型幾乎一面倒：英格蘭0:2或0:3是最主流預測；YouTube頻道、SportsMole均預測0:2；JuveFc指英格蘭1/6主流賠率"
+    ],
+    "consensus_lean": "away",
+    "dissent": "部分媒體（如YouTube頻道）警告英格蘭在迦納賽中進攻遲鈍，或因輪換而影響節奏；巴拿馬理論上無需爭位但也可能以尊嚴戰拼搏，令英格蘭無法大勝"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "Evening Standard Panama vs England Preview",
+      "url": "https://www.standard.co.uk/sport/football/panama-vs-england-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1287615.html"
+    },
+    {
+      "type": "model",
+      "name": "JuveFc Panama vs England Prediction",
+      "url": "https://www.juvefc.com/panama-v-england-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "TheLines Group L Odds",
+      "url": "https://www.thelines.com/odds/world-cup/group-l/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Group L Predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-l-predictions-preview"
+    },
+    {
+      "type": "model",
+      "name": "FootballMeister CoachAI Panama England",
+      "url": "https://footballmeister.com/world-cup-2026/panama-england-2026-06-27/"
+    },
+    {
+      "type": "media",
+      "name": "TotalFootballAnalysis Panama World Cup",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/panama-world-cup-odds-predictions"
+    },
+    {
+      "type": "youtube",
+      "name": "England vs Panama Prediction YouTube",
+      "url": "https://www.youtube.com/watch?v=HlaLY-dAhx8"
+    },
+    {
+      "type": "media",
+      "name": "RotowireGroup L Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-l-preview-england-croatia-ghana-and-panama-lineups-odds-predictions-and-tactics-113532"
+    },
+    {
+      "type": "media",
+      "name": "SportsMole Panama vs England Preview",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/panama-vs-england-prediction-team-news-lineups_600066.html"
+    },
+    {
+      "type": "media",
+      "name": "DocSports Group L Odds",
+      "url": "https://www.docsports.com/2026/world-cup-soccer-group-l-odds-expert-betting-predictions.html"
+    },
+    {
+      "type": "official",
+      "name": "BBC England Rice James fitness",
+      "url": "https://www.bbc.com/sport/football/articles/cg4w2wk5vryo"
+    },
+    {
+      "type": "official",
+      "name": "ESPN England Rice James assessment",
+      "url": "https://www.espn.com/soccer/story/_/id/49168636/england-fitness-declan-rice-reece-james-world-cup-panama"
+    },
+    {
+      "type": "official",
+      "name": "BBC James Rice injury concern",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp8rywj8rnpo"
+    },
+    {
+      "type": "media",
+      "name": "Guardian James England injury",
+      "url": "https://www.theguardian.com/football/2026/jun/24/bukayo-saka-england-panama-thomas-tuchel-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard England XI vs Panama",
+      "url": "https://www.standard.co.uk/sport/football/england-xi-vs-panama-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1287442.html"
+    },
+    {
+      "type": "media",
+      "name": "TheStatsZone Panama England Preview",
+      "url": "https://www.thestatszone.com/panama-vs-england-preview-team-news-prediction-fifa-world-cup-2026-group-stage-201360"
+    },
+    {
+      "type": "media",
+      "name": "FreeSuperTips Group L Preview",
+      "url": "https://www.freesupertips.com/news/world-cup-2026-group-l-betting-preview-team-guide/"
+    },
+    {
+      "type": "betting",
+      "name": "TheLines Group L UK Odds",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-l/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer WC2026 Winner Odds",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "social",
+      "name": "ESPN World Cup Injury Tracker",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "AfricaBetTips Group L",
+      "url": "https://africabettips.com/world-cup-2026/group-l/"
+    },
+    {
+      "type": "betting",
+      "name": "BettingNews Groups K and L",
+      "url": "https://www.bettingnews.com/articles/soccer/groups-k-and-l-picks-predictions-2026-fifa-world-cup/"
+    },
+    {
+      "type": "official",
+      "name": "FIFA World Cup Group L Official",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/2026/groups"
+    },
+    {
+      "type": "media",
+      "name": "ESPN World Cup Predictions Every Game",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "ToffeeWeb Croatia Ghana Odds (Group L Context)",
+      "url": "https://www.toffeeweb.com/croatia-vs-ghana-predictions-picks-odds-27-06-2026/"
+    }
+  ],
+  "source_count": 25,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 05:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "英格蘭整體實力遠勝巴拿馬，應可輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.15,
+        "away": 0.8
+      },
+      "scoreline": "0:2",
+      "note": "英格蘭實力佔優，巴拿馬難以抵擋，客隊穩勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.15,
+        "away": 0.8
+      },
+      "scoreline": "0:2",
+      "note": "英格蘭實力明顯優勢，預計輕鬆取勝巴拿馬。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.07,
+        "draw": 0.13,
+        "away": 0.8
+      },
+      "scoreline": "0:3",
+      "note": "英格蘭整體實力壓倒性，控球與火力皆佔優。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.06,
+        "draw": 0.12,
+        "away": 0.82
+      },
+      "scoreline": "0:3",
+      "note": "英格蘭整體實力遠勝巴拿馬，預計能輕鬆掌控比賽並取得大勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.06,
+        "draw": 0.14,
+        "away": 0.8
+      },
+      "scoreline": "0:2",
+      "note": "英格蘭實力遠勝巴拿馬，客場輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.15,
+        "away": 0.75
+      },
+      "scoreline": "0:2",
+      "note": "英格蘭戰力遠勝，巴拿馬難以抵擋強大攻勢。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.071,
+      "draw": 0.141,
+      "away": 0.788
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051925Z"
+}

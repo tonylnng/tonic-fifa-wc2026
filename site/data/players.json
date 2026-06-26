@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-25T05:36:01Z",
+  "last_updated": "2026-06-26T05:24:47Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -416,11 +416,17 @@
       "bio_zh": "澳洲中場老將，效力德甲聖保利，跑動積極、技術全面，曾征戰多屆世界盃，是球隊中路的精神支柱與穩定器。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          59
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760469",
+        "https://www.livescore.mobi/football/world-cup-2026/group-d/paraguay-vs-australia/1417932/",
+        "https://www.sportingnews.com/us/soccer/news/australia-vs-paraguay-world-cup-live-score-result-highlights/5fa9086a4b65d2f1e3871b4b"
+      ]
     },
     {
       "id": "AUS-metcalfe",
@@ -2534,14 +2540,17 @@
       "bio_zh": "",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          35
+          35,
+          56
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+        "https://www.espn.com/soccer/match/_/gameId/760473/ivory-coast-curacao",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-cura%C3%A7ao-vs-c%C3%B4te-d-ivoire-in-the-fifa-world-cup-2026-2026-06-25",
+        "https://en.as.com/soccer/world-cup/curacao-vs-ivory-coast-live-online-score-stats-goals-updates-world-cup-2026-group-e-f202606-n/"
       ]
     },
     {
@@ -2631,6 +2640,32 @@
       },
       "sources": [
         "https://www.skysports.com/football/ecuador-vs-curacao/teams/549799"
+      ]
+    },
+    {
+      "id": "CUW-bacuna",
+      "name_en": "Juninho Bacuna",
+      "name_zh": "朱尼尼奧·巴庫納",
+      "team": "Curacao",
+      "team_zh": "庫拉索",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          56
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760473/ivory-coast-curacao",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-cura%C3%A7ao-vs-c%C3%B4te-d-ivoire-in-the-fifa-world-cup-2026-2026-06-25",
+        "https://en.as.com/soccer/world-cup/curacao-vs-ivory-coast-live-online-score-stats-goals-updates-world-cup-2026-group-e-f202606-n/"
       ]
     },
     {
@@ -3035,6 +3070,33 @@
       "sources": []
     },
     {
+      "id": "ECU-plata",
+      "name_en": "Gonzalo Plata",
+      "name_zh": "岡薩洛·普拉塔",
+      "team": "Ecuador",
+      "team_zh": "厄瓜多爾",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          55
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-germany/report/549823",
+        "https://www.espn.com/soccer/report/_/gameId/760468",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571596",
+        "https://terrikon.com/en/football/matches/156623"
+      ]
+    },
+    {
       "id": "ECU-paez",
       "name_en": "Kendry Páez",
       "name_zh": "肯德里·派斯",
@@ -3075,6 +3137,33 @@
       "sources": []
     },
     {
+      "id": "ECU-franco",
+      "name_en": "Angelo Franco",
+      "name_zh": "安傑羅·弗蘭科",
+      "team": "Ecuador",
+      "team_zh": "厄瓜多爾",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          55
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-germany/report/549823",
+        "https://www.espn.com/soccer/report/_/gameId/760468",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571596",
+        "https://terrikon.com/en/football/matches/156623"
+      ]
+    },
+    {
       "id": "ECU-alcivar",
       "name_en": "Jordy Alcivar",
       "name_zh": "喬迪·阿爾西瓦爾",
@@ -3099,6 +3188,33 @@
       ]
     },
     {
+      "id": "ECU-angulo",
+      "name_en": "Nilson Angulo",
+      "name_zh": "尼爾森·安古洛",
+      "team": "Ecuador",
+      "team_zh": "厄瓜多爾",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          55
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-germany/report/549823",
+        "https://www.espn.com/soccer/report/_/gameId/760468",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571596",
+        "https://terrikon.com/en/football/matches/156623"
+      ]
+    },
+    {
       "id": "ECU-hincapie",
       "name_en": "Piero Hincapié",
       "name_zh": "皮耶洛·因卡皮耶",
@@ -3112,11 +3228,18 @@
       "bio_zh": "效力阿仙奴的厄瓜多爾左後衞，速度快、防守積極，歐洲豪門轉會費創厄瓜多爾球員紀錄，被視為球隊未來核心。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          55
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-germany/report/549823",
+        "https://www.espn.com/soccer/report/_/gameId/760468",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571596",
+        "https://terrikon.com/en/football/matches/156623"
+      ]
     },
     {
       "id": "ECU-pacho",
@@ -3786,6 +3909,33 @@
       ]
     },
     {
+      "id": "GER-sane",
+      "name_en": "Leroy Sané",
+      "name_zh": "萊羅伊·薩內",
+      "team": "Germany",
+      "team_zh": "德國",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          55
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-germany/report/549823",
+        "https://www.espn.com/soccer/report/_/gameId/760468",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571596",
+        "https://terrikon.com/en/football/matches/156623"
+      ]
+    },
+    {
       "id": "GER-kimmich",
       "name_en": "Joshua Kimmich",
       "name_zh": "約書亞·基米希",
@@ -3850,6 +4000,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "GER-pavlovic",
+      "name_en": "Aleksandar Pavlovic",
+      "name_zh": "亞歷山大·帕夫洛維奇",
+      "team": "Germany",
+      "team_zh": "德國",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          55
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/ecuador-vs-germany/report/549823",
+        "https://www.espn.com/soccer/report/_/gameId/760468",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571596",
+        "https://terrikon.com/en/football/matches/156623"
+      ]
     },
     {
       "id": "GER-nmecha",
@@ -4697,6 +4874,32 @@
       ]
     },
     {
+      "id": "CIV-pepe",
+      "name_en": "Nicolas Pépé",
+      "name_zh": "尼古拉·佩佩",
+      "team": "Ivory Coast",
+      "team_zh": "象牙海岸",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 2,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          56
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760473/ivory-coast-curacao",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-cura%C3%A7ao-vs-c%C3%B4te-d-ivoire-in-the-fifa-world-cup-2026-2026-06-25",
+        "https://en.as.com/soccer/world-cup/curacao-vs-ivory-coast-live-online-score-stats-goals-updates-world-cup-2026-group-e-f202606-n/"
+      ]
+    },
+    {
       "id": "CIV-kessie",
       "name_en": "Franck Kessié",
       "name_zh": "法蘭克·基斯",
@@ -4878,6 +5081,33 @@
       ]
     },
     {
+      "id": "JPN-maeda",
+      "name_en": "Daizen Maeda",
+      "name_zh": "前田大然",
+      "team": "Japan",
+      "team_zh": "日本",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          58
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760471",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-japan-vs-sweden-jun-25-2026-game-boxscore-647673",
+        "https://terrikon.com/en/football/matches/156671",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Japan-vs.-Sweden/697.aspx?Championship_YearID=18"
+      ]
+    },
+    {
       "id": "JPN-doan",
       "name_en": "Ritsu Doan",
       "name_zh": "堂安律",
@@ -4990,6 +5220,33 @@
       },
       "sources": [
         "https://www.espn.com/soccer/report/_/gameId/760449"
+      ]
+    },
+    {
+      "id": "JPN-taniguchi",
+      "name_en": "Shogo Taniguchi",
+      "name_zh": "谷口彰悟",
+      "team": "Japan",
+      "team_zh": "日本",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          58
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760471",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-japan-vs-sweden-jun-25-2026-game-boxscore-647673",
+        "https://terrikon.com/en/football/matches/156671",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Japan-vs.-Sweden/697.aspx?Championship_YearID=18"
       ]
     },
     {
@@ -5750,15 +6007,18 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          33
+          33,
+          57
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760447"
+        "https://www.espn.com/soccer/report/_/gameId/760472",
+        "https://www.skysports.com/football/tunisia-vs-netherlands/report/549825",
+        "https://www.aljazeera.com/sports/2026/6/26/netherlands-beat-tunisia-3-1-enter-world-cup-knockouts-as-group-winners"
       ]
     },
     {
@@ -5850,6 +6110,32 @@
         "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands",
         "https://www.espn.com/soccer/report/_/gameId/760425",
         "https://terrikon.com/en/football/matches/156666"
+      ]
+    },
+    {
+      "id": "NED-vanhecke",
+      "name_en": "Jan Paul van Hecke",
+      "name_zh": "楊·保羅·范·海克",
+      "team": "Netherlands",
+      "team_zh": "荷蘭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          57
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760472",
+        "https://www.skysports.com/football/tunisia-vs-netherlands/report/549825",
+        "https://www.aljazeera.com/sports/2026/6/26/netherlands-beat-tunisia-3-1-enter-world-cup-knockouts-as-group-winners"
       ]
     },
     {
@@ -6578,6 +6864,32 @@
         "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
         "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Turkey-vs.-Paraguay/684.aspx?Championship_YearID=18",
         "https://www.bbc.co.uk/sport/football/articles/cvg58m7n1plo"
+      ]
+    },
+    {
+      "id": "PAR-gomez",
+      "name_en": "Diego Gómez",
+      "name_zh": "迭戈·戈麥斯",
+      "team": "Paraguay",
+      "team_zh": "巴拉圭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          59
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760469",
+        "https://www.livescore.mobi/football/world-cup-2026/group-d/paraguay-vs-australia/1417932/",
+        "https://www.sportingnews.com/us/soccer/news/australia-vs-paraguay-world-cup-live-score-result-highlights/5fa9086a4b65d2f1e3871b4b"
       ]
     },
     {
@@ -8547,15 +8859,19 @@
       "is_key": true,
       "bio_zh": "效力紐卡素的瑞典邊鋒，速度出眾、盤帶靈活，曾在曼聯出道，轉會後表現更見成熟，是瑞典鋒線上的快速突破利器。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          33
+          33,
+          58
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760447"
+        "https://www.espn.com/soccer/report/_/gameId/760471",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-japan-vs-sweden-jun-25-2026-game-boxscore-647673",
+        "https://terrikon.com/en/football/matches/156671",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Japan-vs.-Sweden/697.aspx?Championship_YearID=18"
       ]
     },
     {
@@ -8572,16 +8888,18 @@
       "bio_zh": "以破紀錄轉會費加盟阿仙奴，近兩季入球率驚人，身型壯碩且技術出色，與伊沙克組成的雙中鋒陣容令對手聞風喪膽。",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          12
+          12,
+          58
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760424/tunisia-sweden",
-        "https://www.espn.com/soccer/report/_/gameId/760424",
-        "https://english.ahram.org.eg/WorldCup2026/Article/570757"
+        "https://www.espn.com/soccer/report/_/gameId/760471",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-japan-vs-sweden-jun-25-2026-game-boxscore-647673",
+        "https://terrikon.com/en/football/matches/156671",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Japan-vs.-Sweden/697.aspx?Championship_YearID=18"
       ]
     },
     {
@@ -8701,6 +9019,33 @@
       },
       "sources": [
         "https://www.espn.com/soccer/report/_/gameId/760447"
+      ]
+    },
+    {
+      "id": "SWE-hien",
+      "name_en": "Isak Hien",
+      "name_zh": "伊薩克·希恩",
+      "team": "Sweden",
+      "team_zh": "瑞典",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          58
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760471",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-japan-vs-sweden-jun-25-2026-game-boxscore-647673",
+        "https://terrikon.com/en/football/matches/156671",
+        "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Japan-vs.-Sweden/697.aspx?Championship_YearID=18"
       ]
     },
     {
@@ -8989,6 +9334,32 @@
       "sources": []
     },
     {
+      "id": "TUN-mastouri",
+      "name_en": "Hazem Mastouri",
+      "name_zh": "哈澤姆·馬斯托里",
+      "team": "Tunisia",
+      "team_zh": "突尼斯",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          57
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760472",
+        "https://www.skysports.com/football/tunisia-vs-netherlands/report/549825",
+        "https://www.aljazeera.com/sports/2026/6/26/netherlands-beat-tunisia-3-1-enter-world-cup-knockouts-as-group-winners"
+      ]
+    },
+    {
       "id": "TUN-mejbri",
       "name_en": "Hannibal Mejbri",
       "name_zh": "漢尼拔·梅杰布里",
@@ -9153,12 +9524,19 @@
       "is_key": true,
       "bio_zh": "土耳其最閃耀新星，效力皇家馬德里，技術出眾、創造力非凡，是土耳其隊最具看點的球員，世界盃或一鳴驚人。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          60
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/turkey-vs-usa/report/549821",
+        "https://www.espn.com/soccer/report/_/gameId/760470",
+        "https://www.aljazeera.com/sports/2026/6/26/turkiye-usa-fifa-world-cup-2026-ayhan-guler-yilmaz-trusty-berhalter-pulisic",
+        "https://www.sportingnews.com/us/soccer/news/usa-vs-turkey-world-cup-live-score-result-highlights/7920826a89e3ad8193986dc0"
+      ]
     },
     {
       "id": "TUR-yildiz",
@@ -9179,6 +9557,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "TUR-yilmaz",
+      "name_en": "Barış Alper Yılmaz",
+      "name_zh": "巴里什·阿爾珀·耶爾馬茲",
+      "team": "Turkey",
+      "team_zh": "土耳其",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          60
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/turkey-vs-usa/report/549821",
+        "https://www.espn.com/soccer/report/_/gameId/760470",
+        "https://www.aljazeera.com/sports/2026/6/26/turkiye-usa-fifa-world-cup-2026-ayhan-guler-yilmaz-trusty-berhalter-pulisic",
+        "https://www.sportingnews.com/us/soccer/news/usa-vs-turkey-world-cup-live-score-result-highlights/7920826a89e3ad8193986dc0"
+      ]
     },
     {
       "id": "TUR-calhanoglu",
@@ -9292,6 +9697,33 @@
         "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup",
         "https://english.ahram.org.eg/WorldCup2026/WC2026MatchInfo/2026/Turkey-vs.-Paraguay/684.aspx?Championship_YearID=18",
         "https://www.bbc.co.uk/sport/football/articles/cvg58m7n1plo"
+      ]
+    },
+    {
+      "id": "TUR-ayhan",
+      "name_en": "Kaan Ayhan",
+      "name_zh": "卡安·艾漢",
+      "team": "Turkey",
+      "team_zh": "土耳其",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          60
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/turkey-vs-usa/report/549821",
+        "https://www.espn.com/soccer/report/_/gameId/760470",
+        "https://www.aljazeera.com/sports/2026/6/26/turkiye-usa-fifa-world-cup-2026-ayhan-guler-yilmaz-trusty-berhalter-pulisic",
+        "https://www.sportingnews.com/us/soccer/news/usa-vs-turkey-world-cup-live-score-result-highlights/7920826a89e3ad8193986dc0"
       ]
     },
     {
@@ -9438,6 +9870,33 @@
       ]
     },
     {
+      "id": "USA-berhalter",
+      "name_en": "Sebastian Berhalter",
+      "name_zh": "塞巴斯蒂安·貝哈爾特",
+      "team": "USA",
+      "team_zh": "美國",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          60
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/turkey-vs-usa/report/549821",
+        "https://www.espn.com/soccer/report/_/gameId/760470",
+        "https://www.aljazeera.com/sports/2026/6/26/turkiye-usa-fifa-world-cup-2026-ayhan-guler-yilmaz-trusty-berhalter-pulisic",
+        "https://www.sportingnews.com/us/soccer/news/usa-vs-turkey-world-cup-live-score-result-highlights/7920826a89e3ad8193986dc0"
+      ]
+    },
+    {
       "id": "USA-richards",
       "name_en": "Chris Richards",
       "name_zh": "基斯·李察斯",
@@ -9511,6 +9970,33 @@
         "https://www.sportingnews.com/ca/soccer/news/usa-australia-world-cup-live-score-result-highlights-usmnt/f422f15cd186ef03ac9fe81b",
         "https://www.theguardian.com/football/2026/jun/19/usa-australia-world-cup-2026-group-d-match-report",
         "https://www.nbcsports.com/soccer/live/usa-vs-australia-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-19"
+      ]
+    },
+    {
+      "id": "USA-trusty",
+      "name_en": "Auston Trusty",
+      "name_zh": "奧斯頓·特魯斯蒂",
+      "team": "USA",
+      "team_zh": "美國",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          60
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/turkey-vs-usa/report/549821",
+        "https://www.espn.com/soccer/report/_/gameId/760470",
+        "https://www.aljazeera.com/sports/2026/6/26/turkiye-usa-fifa-world-cup-2026-ayhan-guler-yilmaz-trusty-berhalter-pulisic",
+        "https://www.sportingnews.com/us/soccer/news/usa-vs-turkey-world-cup-live-score-result-highlights/7920826a89e3ad8193986dc0"
       ]
     },
     {

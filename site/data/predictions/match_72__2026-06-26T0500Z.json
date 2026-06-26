@@ -1,0 +1,361 @@
+{
+  "match": 72,
+  "stage": "Group J",
+  "home": "Algeria",
+  "away": "Austria",
+  "kickoff_utc": "2026-06-28T02:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.28,
+      "draw": 0.34,
+      "away": 0.38
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "1:1",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "平局兩隊各有所圖",
+        "scoreline": "1:1",
+        "outcome": "奧地利以積分4分晉級，阿爾及利亞以4分爭第三名資格",
+        "confidence": 0.48,
+        "basis": "奧地利平局即可晉級（球差優勢），阿爾及利亞平局4分有望作第三名晉級；RacingPost主推平局5-4賠率"
+      },
+      {
+        "name": "奧地利勝出確保第二",
+        "scoreline": "1:2",
+        "outcome": "奧地利積分6分確認第二，阿爾及利亞3分出局",
+        "confidence": 0.3,
+        "basis": "YouTube AI模型47%奧地利勝；TopendSports預測2:1奧地利；Rangnick戰術更清晰"
+      },
+      {
+        "name": "阿爾及利亞必勝求晉",
+        "scoreline": "2:1",
+        "outcome": "阿爾及利亞4分，奧地利3分，雙方同積分時阿爾及利亞壓奧地利",
+        "confidence": 0.15,
+        "basis": "阿爾及利亞主攻球員馬雷茲/古里出色，若A穆拉傷出仍有替補"
+      },
+      {
+        "name": "奧地利大勝",
+        "scoreline": "0:2",
+        "outcome": "奧地利輕鬆晉級，阿爾及利亞出局",
+        "confidence": 0.07,
+        "basis": "奧地利賽前已勝約旦3:1，但阿爾及利亞防守體系在茲羅伊茲帶領下嚴謹"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.26,
+          "draw": 0.33,
+          "away": 0.41
+        },
+        "scoreline": "1:1",
+        "note": "RacingPost阿爾及利亞14-5，奧地利9-5，平局13-10；ESPN ML：阿爾及利亞+295，奧地利+115；平局為最短價"
+      },
+      {
+        "source": "YouTube AI模型（Algeria vs Austria）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.24,
+          "draw": 0.29,
+          "away": 0.47
+        },
+        "scoreline": "1:1",
+        "note": "AI模型xG阿爾及利亞0.96對奧地利1.49，奧地利更具優勢，但最終預測1:1平局，過2.5球55%"
+      },
+      {
+        "source": "TheSportsRush分析",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.26,
+          "draw": 0.3,
+          "away": 0.44
+        },
+        "scoreline": "1:1",
+        "note": "奧地利+190最佳賠率，球差優勢及中場質量佔優"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.28,
+          "draw": 0.3,
+          "away": 0.42
+        },
+        "note": "賽前Opta給奧地利67.4%晉級概率，阿爾及利亞57.1%；晉級概率換算3路接近"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "積分形勢：奧地利3分（GD 0）、阿爾及利亞3分（GD -2），奧地利排名靠前，平局即確保第二晉級，阿爾及利亞需要勝出方能確保自動晉級資格（否則只能靠第三名）。這是Group J真正決定性的比賽：攻防主從明確——奧地利稍微傾向求平，阿爾及利亞必須主動進攻。",
+    "key_factors": [
+      "球員狀態：阿爾及利亞馬雷茲（本屆主踢）、古里（前鋒）、貝納塞（中場）均可首發；奧地利薩比策爾、萊默、賽瓦爾德中場三人組均健康；阿爾納烏托維奇（37歲）可能輪換",
+      "傷停：阿爾及利亞阿穆拉（腿後腱拉傷，可能缺陣）是最大隱憂；奧地利鮑姆加特納（大腿傷，整屆缺陣）確認無法上場；大衛·阿拉巴剛度過傷病，仍在管控",
+      "近況/積分：阿爾及利亞W1D0L1（3分，GD-2）：負阿根廷0:3、勝約旦2:1；奧地利W1D0L1（3分，GD 0）：勝約旦3:1、負阿根廷0:2",
+      "戰術對位：阿爾及利亞4-3-3強調個人技術及馬雷茲創造力vs奧地利4-2-3-1朗格尼克式高位壓迫；奧地利中場質量更強但阿爾及利亞個人創意不可忽視",
+      "主客場/場地：GEHA Field at Arrowhead球場（堪薩斯城）；中性場地",
+      "輿論共識：RacingPost主推平局（5-4賠率）；JuveFc奧地利主勝15/8；YouTube AI模型、TheSportsRush均傾向奧地利勝或平局；TopendSports預測2:1奧地利；ESP預測平局"
+    ],
+    "consensus_lean": "away",
+    "dissent": "TopendSports與部分分析師（TheSportsRush、JuveFc）明確押奧地利勝出，因奧地利只需平局而心態更從容，且朗格尼克的戰術調動能力更強；另一方面，DangJournal及少數分析師認為阿爾及利亞搶攻若有加謙薩收窄球差，或可創造奇跡"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "TopendSports Algeria vs Austria",
+      "url": "https://www.topendsports.com/en-gb/sports-betting/football/world-cup/predictions/algeria-vs-austria/"
+    },
+    {
+      "type": "media",
+      "name": "Rotowire Group J Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-j-preview-argentina-algeria-austria-jordan-tactics-lineups-set-pieces-odds-109964"
+    },
+    {
+      "type": "media",
+      "name": "RacingPost Algeria vs Austria",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/algeria-vs-austria-predictions-team-news-odds-betting-tips-bet-builder-aVgbm2W8srwo/"
+    },
+    {
+      "type": "media",
+      "name": "TheSportsRush Algeria vs Austria",
+      "url": "https://thesportsrush.com/algeria-v-austria-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "LiveScore Group J Predictions",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-group-j-predictions-tips-and-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Algeria vs Austria Odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760484"
+    },
+    {
+      "type": "youtube",
+      "name": "Algeria vs Austria YouTube AI Prediction",
+      "url": "https://www.youtube.com/watch?v=NCaumJ68OOg"
+    },
+    {
+      "type": "media",
+      "name": "FreeSuperTips Group J Preview",
+      "url": "https://www.freesupertips.com/news/world-cup-2026-group-j-betting-preview-team-guide/"
+    },
+    {
+      "type": "media",
+      "name": "BetMGM Group J Predictions",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/group-j-world-cup-2026-odds-predictions-bm16/"
+    },
+    {
+      "type": "media",
+      "name": "TheLines Group J UK Odds",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-j/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Group J Predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-j-predictions-preview"
+    },
+    {
+      "type": "official",
+      "name": "SkySports Group J Table",
+      "url": "https://www.skysports.com/football/algeria-vs-austria/table/549832"
+    },
+    {
+      "type": "media",
+      "name": "JuveFc Algeria vs Austria Prediction",
+      "url": "https://www.juvefc.com/algeria-v-austria-predictions/"
+    },
+    {
+      "type": "official",
+      "name": "AS.com Group J Standings and Qualification",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-j-standings-results-and-who-can-qualify-f202606-n-2/"
+    },
+    {
+      "type": "official",
+      "name": "Goal.com Algeria vs Austria Preview",
+      "url": "https://www.goal.com/en-qa/news/algeria-austria-world-cup-preview/bltd61a8ee4bb405624"
+    },
+    {
+      "type": "media",
+      "name": "KSHB Kansas City Group J Algeria Austria",
+      "url": "https://www.kshb.com/sports/world-cup/fifa-world-cup-26-kansas-city-bound-breakdown-group-j-algeria-vs-austria"
+    },
+    {
+      "type": "official",
+      "name": "Bundesliga Liveticker Algeria vs Austria",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/3/algeria-vs-austria/liveticker"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia Group J Standings",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News Group J Standings",
+      "url": "https://www.sportingnews.com/au/football/news/world-cup-group-j-standings-results-table-2026-argentina/bea592e93bc3474fb580a30f"
+    },
+    {
+      "type": "media",
+      "name": "DangJournal Group J Preview",
+      "url": "https://www.dangjournal.com/world-cup-2026-group-j-preview-argentina-algeria-austria-jordan/"
+    },
+    {
+      "type": "media",
+      "name": "Match-day.live Group J Standings",
+      "url": "https://match-day.live/group/j/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer WC2026 All Groups",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Game-by-Game WC2026 Predictions",
+      "url": "https://www.espn.com/soccer/story/_/id/48962628/world-cup-predictions-picking-winner-every-game-entire-tournament"
+    },
+    {
+      "type": "media",
+      "name": "FutsimulatorGroup J Analysis",
+      "url": "https://futsimulator.com/en/blog/mundial-2026-grupo-j-argentina-argelia-austria-jordania"
+    },
+    {
+      "type": "official",
+      "name": "AlJazeera Group J Argentina Algeria Predictions",
+      "url": "https://www.aljazeera.com/sports/2026/6/16/world-cup-can-senegal-stun-france-again-predictions-schedule-on-day-6"
+    }
+  ],
+  "source_count": 25,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 10:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.34,
+        "away": 0.28
+      },
+      "scoreline": "1:1",
+      "note": "阿爾及利亞主場頑強，奥地利防守穩健，預計悶戰平局收場。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "奧地利實力佔優且中場控制力強，阿爾及利亞難阻客勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "阿爾及利亞難擋奧地利攻勢，客隊有望小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.37,
+        "away": 0.29
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，奧地利控球優勢但難撕阿爾及利亞防線"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "奧地利的高位逼搶與整體戰術執行力將略勝阿爾及利亞一籌。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.32,
+        "away": 0.23
+      },
+      "scoreline": "1:0",
+      "note": "阿爾及利亞主場優勢大，防守反擊可望小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.35,
+        "away": 0.37
+      },
+      "scoreline": "1:1",
+      "note": "雙方防守紮實，奧地利逼搶兇猛但難破僵局。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.31,
+      "draw": 0.331,
+      "away": 0.359
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T052319Z"
+}

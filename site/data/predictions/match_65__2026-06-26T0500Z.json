@@ -1,0 +1,424 @@
+{
+  "match": 65,
+  "stage": "Group G",
+  "home": "New Zealand",
+  "away": "Belgium",
+  "kickoff_utc": "2026-06-27T03:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "scoreline": "1:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.08,
+      "draw": 0.13,
+      "away": 0.79
+    },
+    "confidence": 0.8,
+    "top_scorelines": [
+      {
+        "scoreline": "1:3",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:3",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:3",
+        "outcome": "比利時勝",
+        "confidence": 0.8,
+        "basis": "比利時德布勞內、盧卡庫、多庫、特羅薩爾攻力充足，必須求勝令球隊拿出全力，紐西蘭雖上兩場進3球但也失5球，後防薄弱難以抵擋。"
+      },
+      {
+        "name": "比利時低效率窄勝",
+        "scoreline": "1:2",
+        "outcome": "比利時勝",
+        "confidence": 0.65,
+        "basis": "若比利時延續前兩場只能以對手烏龍球得分的困境，可能僅以1:2險勝，令積分計算更緊張。"
+      },
+      {
+        "name": "紐西蘭爆冷平局",
+        "scoreline": "1:1",
+        "outcome": "平局",
+        "confidence": 0.1,
+        "basis": "若克里斯·伍德進球領先後比利時未能打開局面，或許形成1:1平局令比利時被淘汰的衝擊性結果。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.08,
+          "draw": 0.12,
+          "away": 0.8
+        },
+        "scoreline": "0:3",
+        "note": "Opta在25,000次模擬中比利時以80.3%壓倒性勝出；紐西蘭僅7.9%勝率；Opta給比利時92.0%晉級機率。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.12,
+          "away": 0.82
+        },
+        "scoreline": "0:3",
+        "note": "BetOnline比利時-480、紐西蘭+1400、平局+600；ESPN比利時-600；賠率反映比利時幾近確定性優勢，紐西蘭勝率僅約6%。"
+      },
+      {
+        "source": "多媒體預測共識",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.08,
+          "draw": 0.12,
+          "away": 0.8
+        },
+        "scoreline": "1:3",
+        "note": "RotoWire 1:2、Football Whispers 1:3、AI YouTube模型 3:1（比利時）、SI 0:2、Khel Now 1:4——中位數約比利時2:1至3:1，含紐西蘭進球在內。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "比利時以德布勞內、盧卡庫、多庫、特羅薩爾等世界級球員為核心，必須贏球才能確保出線，激發全隊動力。紐西蘭雖在前兩場均攻入球門（對伊朗2:2、對埃及1:3），但後防共失5球，本場面對技術更精湛的比利時，失球難以避免。克里斯·伍德是最大反擊威脅，但孤掌難鳴。",
+    "key_factors": [
+      "球員狀態：德布勞內本屆平均4.5次射門；盧卡庫求進球擺脫本屆進球荒；多庫邊路突破製造機會；紐西蘭克里斯·伍德是主要威脅",
+      "傷停：比利時沒有確認主力傷停；紐西蘭後衛陣容完整但整體深度不足",
+      "近況/積分：G組埃及4分、比利時2分（平）、伊朗2分（平）、紐西蘭1分；比利時勝即出線；紐西蘭勝即有機會出線（視另一場結果）",
+      "戰術對位：比利時4-2-3-1進攻驅動，德布勞內、特羅薩爾、多庫多點齊發；紐西蘭4-2-3-1防反，貝爾與斯坦尼克中場覆蓋面廣但技術層次差距明顯",
+      "主客場/場地：溫哥華BC Place室內體育場；紐西蘭實為作客；球場環境有利比利時發揮",
+      "輿論共識：Opta 80.3%比利時勝、BetOnline -480、Football Faithful 1.18、Covers.com比利時-488；幾乎全體媒體和博彩機構均壓倒性支持比利時"
+    ],
+    "consensus_lean": "away",
+    "dissent": "小部分分析師（如YouTube Round 3 Preview）認為比利時在前兩場只進1球（且是烏龍球），表現令人失望，不排除1:0慘勝甚至更大冷門；Action Network專家Frank Ammirante反向選擇紐西蘭+1.5球，認為比利時難以大勝。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN - New Zealand vs Belgium TV/lineup",
+      "url": "https://www.espn.com/soccer/story/_/id/49165403/new-zealand-vs-belgium-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "type": "official",
+      "name": "ESPN - New Zealand vs Belgium odds/spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760477"
+    },
+    {
+      "type": "official",
+      "name": "Injuries & Suspensions - FIFA WC2026 Group G",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-11/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - New Zealand vs Belgium prediction",
+      "url": "https://theanalyst.com/articles/new-zealand-vs-belgium-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - New Zealand vs Belgium preview",
+      "url": "https://www.si.com/soccer/new-zealand-vs-belgium-world-cup-preview-predictions-lineups-6-26-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - New Zealand vs Belgium preview",
+      "url": "https://www.rotowire.com/soccer/article/new-zealand-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-119636"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - New Zealand vs Belgium predictions",
+      "url": "https://www.goal.com/en-za/betting/world-cup/new-zealand-vs-belgium-predictions-27-06-2026/A:blt254b3ad3e045481f"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - New Zealand Belgium World Cup preview",
+      "url": "https://www.goal.com/en-us/news/new-zealand-belgium-world-cup-preview/blt15910be7a6f8f7b9"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - New Zealand vs Belgium preview",
+      "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/new-zealand-vs-belgium-prediction-team-news-lineups_599916.html"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Belgium vs New Zealand prediction",
+      "url": "https://www.covers.com/world-cup/belgium-vs-new-zealand-prediction-picks-odds-friday-6-26-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda - New Zealand vs Belgium prediction",
+      "url": "https://www.sportskeeda.com/football/new-zealand-vs-belgium-prediction-betting-tips-june-26th-2026"
+    },
+    {
+      "type": "media",
+      "name": "SBG Global - New Zealand Belgium betting analysis",
+      "url": "https://www.sbgglobal.eu/football-soccer/new-zealand-vs-belgium-world-cup-2026-betting-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "Khel Now - New Zealand vs Belgium preview",
+      "url": "https://khelnow.com/football/world-football-new-zealand-vs-belgium-preview-fifa-world-cup-202606"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis - New Zealand Belgium predictions",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/new-zealand-v-belgium-predictions"
+    },
+    {
+      "type": "media",
+      "name": "TheSportsRush - New Zealand Belgium betting odds",
+      "url": "https://thesportsrush.com/new-zealand-v-belgium-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Sport Grill - New Zealand Belgium Group G",
+      "url": "https://sportgrill.co.uk/2026/06/25/2026-fifa-world-cup-group-g-new-zealand-vs-belgium/"
+    },
+    {
+      "type": "media",
+      "name": "SX Bet Blog - WC2026 Group G overview",
+      "url": "https://blog.sx.bet/world-cup/group-g/"
+    },
+    {
+      "type": "media",
+      "name": "Action Network - Belgium New Zealand odds",
+      "url": "https://www.actionnetwork.com/worldcup-game/belgium-new-zealand/284399"
+    },
+    {
+      "type": "betting",
+      "name": "Football Whispers - New Zealand Belgium tips",
+      "url": "https://footballwhispers.com/blog/new-zealand-vs-belgium-prediction-betting-tips-preview-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - New Zealand Belgium tips",
+      "url": "https://www.ladbrokes.com/en/news/new-zealand-belgium-world-cup-preview-predictions-tips-2026-06-24/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - New Zealand Belgium bet builder",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/new-zealand-vs-belgium-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aOJiz5Q9Q7Fk/"
+    },
+    {
+      "type": "betting",
+      "name": "The Football Faithful - New Zealand Belgium tips",
+      "url": "https://thefootballfaithful.com/betting-news/new-zealand-vs-belgium-prediction-betting-tips-27-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Gooners Guide - New Zealand Belgium pick",
+      "url": "https://www.goonersguide.com/football-pick-59577-New-Zealand-vs-Belgium.htm"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler - New Zealand Belgium correct score",
+      "url": "https://www.sportsgambler.com/betting-tips/football/new-zealand-vs-belgium-prediction-lineups-odds-2026-06-26/"
+    },
+    {
+      "type": "betting",
+      "name": "JohnnyBet - New Zealand Belgium prediction",
+      "url": "https://www.johnnybet.com/new-zealand-vs-belgium-prediction"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - New Zealand vs Belgium AI prediction",
+      "url": "https://www.youtube.com/watch?v=mkgzqOoMgY8"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - FC26 WC2026 Group G New Zealand Belgium",
+      "url": "https://www.youtube.com/watch?v=TFh1iesLg70"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA WC New Zealand vs Belgium Preview",
+      "url": "https://www.youtube.com/watch?v=pYzV6eJqorI"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - New Zealand vs Belgium Best Bets",
+      "url": "https://www.youtube.com/watch?v=EIJmjEpAPYw"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - My World Cup Round 3 Preview June 26",
+      "url": "https://www.youtube.com/watch?v=JTII4RGCIy0"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - WC2026 all games picks June 26",
+      "url": "https://www.youtube.com/watch?v=Q3Vz-oxGF98"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online - Egypt secure qualification",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/571656"
+    },
+    {
+      "type": "media",
+      "name": "NDTV Sports - Salah to lead Egypt Iran clash",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/videos/mohamed-salah-set-to-lead-egypt-in-crucial-iran-clash-fifa-world-cup-2026-1118040"
+    },
+    {
+      "type": "media",
+      "name": "Ahram Online - Egypt defenders ruled out vs Iran",
+      "url": "https://english.ahram.org.eg/WorldCup2026/Article/571512"
+    },
+    {
+      "type": "media",
+      "name": "Guardian - Egypt manager denies Salah rift",
+      "url": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Egypt vs Iran World Cup preview",
+      "url": "https://www.goal.com/en-sa/news/egypt-iran-world-cup-preview/bltbce2e5fc24897843"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - Egypt vs Iran odds spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760476"
+    },
+    {
+      "type": "media",
+      "name": "Deadspin - Egypt vs Iran preview",
+      "url": "https://deadspin.com/betting/egypt-vs-iran-world-cup-preview-picks-preview-odds-6-26-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK - Egypt vs Iran predictions",
+      "url": "https://esports-news.co.uk/2026/06/23/egypt-v-iran-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Inkl - Egypt vs Iran World Cup predictions",
+      "url": "https://www.inkl.com/news/egypt-vs-iran-world-cup-2026-predictions-and-picks"
+    },
+    {
+      "type": "media",
+      "name": "JohnnyBet - Egypt vs Iran prediction",
+      "url": "https://www.johnnybet.com/egypt-vs-iran-prediction"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-27 11:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "比利時整體實力遠優於紐西蘭，客場應可輕鬆取勝。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.15,
+        "away": 0.8
+      },
+      "scoreline": "0:3",
+      "note": "比利時實力懸殊，紐西蘭難以抵擋歐洲紅魔攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.06,
+        "draw": 0.14,
+        "away": 0.8
+      },
+      "scoreline": "0:2",
+      "note": "比利時實力超班，紐西蘭難擋攻勢，預料客隊淨勝兩球。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.08,
+        "draw": 0.15,
+        "away": 0.77
+      },
+      "scoreline": "0:3",
+      "note": "比利時攻守全面優勢，新西蘭恐難招架"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.05,
+        "draw": 0.15,
+        "away": 0.8
+      },
+      "scoreline": "0:3",
+      "note": "比利時整體陣容實力遠勝紐西蘭，預計能輕鬆取勝。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.07,
+        "draw": 0.15,
+        "away": 0.78
+      },
+      "scoreline": "0:2",
+      "note": "比利時實力遠勝，客場預計輕取紐西蘭。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.1,
+        "draw": 0.2,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "比利時實力遠勝，紐西蘭難以招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.08,
+      "draw": 0.161,
+      "away": 0.759
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051632Z"
+}

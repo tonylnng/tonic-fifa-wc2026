@@ -1,0 +1,419 @@
+{
+  "match": 64,
+  "stage": "Group H",
+  "home": "Uruguay",
+  "away": "Spain",
+  "kickoff_utc": "2026-06-27T00:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.16,
+      "draw": 0.22,
+      "away": 0.62
+    },
+    "confidence": 0.74,
+    "top_scorelines": [
+      {
+        "scoreline": "0:2",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:3",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:2",
+        "outcome": "西班牙勝",
+        "confidence": 0.74,
+        "basis": "西班牙4-3-3控球主導、亞馬爾+文尼爾+奧亞薩瓦爾火力強大，烏拉圭缺少阿勞霍（小腿）與德阿拉斯卡埃塔（小腿），防守漏洞難以遮補，被西班牙快速滲透可能性極高。"
+      },
+      {
+        "name": "烏拉圭防守反擊",
+        "scoreline": "1:2",
+        "outcome": "西班牙勝",
+        "confidence": 0.6,
+        "basis": "若比利薩的烏拉圭以高強度壓迫製造混亂，達爾文·努涅斯一擊之下可進一球，但西班牙整體品質仍佔上風。"
+      },
+      {
+        "name": "烏拉圭必須求勝逼平",
+        "scoreline": "1:1",
+        "outcome": "平局",
+        "confidence": 0.22,
+        "basis": "若烏拉圭積極進攻、西班牙出現防線鬆懈，1:1平局可能令烏拉圭以最佳第三名形式晉級。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.16,
+          "draw": 0.22,
+          "away": 0.62
+        },
+        "scoreline": "0:2",
+        "note": "Opta在25,000次模擬中西班牙勝率62.2%、平局22.1%、烏拉圭15.8%；西班牙防守最佳，只失1球。"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.14,
+          "draw": 0.24,
+          "away": 0.62
+        },
+        "scoreline": "0:2",
+        "note": "SBG西班牙ML -199、烏拉圭+635、平局+313；Ladbrokes西班牙8/15（57%隱含）；多數平台一致西班牙大熱門，Under 2.5有市場支持。"
+      },
+      {
+        "source": "Coach AI模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.15,
+          "draw": 0.23,
+          "away": 0.62
+        },
+        "scoreline": "0:2",
+        "note": "Football Meister Coach AI：西班牙62%、平局23%、烏拉圭15%，預測比分0:2。"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "西班牙以4積分居H組首位，4-3-3控球體系由羅德里、佩德里指揮，亞馬爾、文尼爾兩翼快速滲透令對手難以招架；奧亞薩瓦爾過去15場西班牙比賽15球7助攻。烏拉圭連失阿勞霍（小腿撕裂）及德阿拉斯卡埃塔（小腿），中後場骨幹缺失，只剩努涅斯一人上前衝擊，但面對烏帕梅卡諾-庫巴爾西中堅組合勝算渺茫。",
+    "key_factors": [
+      "球員狀態：西班牙奧亞薩瓦爾本屆2球表現突出；亞馬爾第1場進球；文尼爾已出賽；羅德里健康出賽；烏拉圭努涅斯或首發",
+      "傷停：烏拉圭確定失阿勞霍（小腿）、德阿拉斯卡埃塔（小腿）；西班牙缺穆尼奧斯（傷），整體陣容健全",
+      "近況/積分：西班牙4分1勝1平領H組；烏拉圭2分0勝2平二名，必須求勝；西班牙平即首名",
+      "戰術對位：西班牙4-3-3控球70%+，烏拉圭4-2-3-1/4-4-2高強度逼搶但體能消耗大；西班牙轉換速度令逼搶之後最危險",
+      "主客場/場地：瓜達拉哈拉阿克倫體育場，中性場地；拉美裔球迷較多令氣氛熱烈，或對烏拉圭有利",
+      "輿論共識：Opta 62.2%西班牙勝；RotoWire、Covers、SI、Ladbrokes均預測0:2至1:2西班牙勝；烏拉圭ML +635屬重度外圍"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數分析師（如Betfair、Action Network專家）認為Under 2.5有價值，烏拉圭或以低失球防守拖延，令比賽以1:0收場；比利薩高強度體系在高壓局面下可能令西班牙感到不適。"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "ESPN - Uruguay vs Spain odds/spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760479"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Africa - Uruguay vs Spain TV/lineup",
+      "url": "https://africa.espn.com/football/story/_/id/49167172/fifa-world-cup-2026-uruguay-vs-spain-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    },
+    {
+      "type": "official",
+      "name": "RotoWire - De Arrascaeta injury return Spain",
+      "url": "https://www.rotowire.com/soccer/headlines/giorgian-de-arrascaeta-injury-eyes-return-against-spain-520335"
+    },
+    {
+      "type": "official",
+      "name": "RotoWire - Victor Munoz injury won't face Uruguay",
+      "url": "https://www.rotowire.com/soccer/headlines/victor-munoz-injury-wont-face-uruguay-521051"
+    },
+    {
+      "type": "official",
+      "name": "RotoWire - Gimenez trains with potential starters",
+      "url": "https://www.rotowire.com/soccer/news.php?competition=1"
+    },
+    {
+      "type": "official",
+      "name": "El Balad - Ronald Araujo calf tear",
+      "url": "https://www.el-balad.com/17024447"
+    },
+    {
+      "type": "official",
+      "name": "Injuries & Suspensions - FIFA WC2026",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-11/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - Uruguay vs Spain prediction",
+      "url": "https://theanalyst.com/articles/uruguay-vs-spain-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Football Meister - Coach AI Uruguay Spain",
+      "url": "https://footballmeister.com/world-cup-2026/uruguay-spain-2026-06-27/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Uruguay vs Spain preview",
+      "url": "https://www.si.com/soccer/uruguay-vs-spain-world-cup-preview-predictions-lineups-6-26-26"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated - Spain predicted lineup vs Uruguay",
+      "url": "https://www.si.com/soccer/spain-predicted-lineup-vs-uruguay-world-cup-group-h-6-26-26"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Uruguay vs Spain picks/tips",
+      "url": "https://www.rotowire.com/soccer/article/uruguay-vs-spain-picks-tips-odds-best-bets-2026-world-cup-group-h-119769"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Uruguay vs Spain full preview",
+      "url": "https://www.rotowire.com/soccer/article/uruguay-vs-spain-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-119634"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Spain vs Uruguay knockouts prediction",
+      "url": "https://www.aljazeera.com/sports/2026/6/25/world-cup-2026-uruguay-vs-spain-knockouts-prediction-lineups"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - Uruguay Spain World Cup preview",
+      "url": "https://www.goal.com/en-us/news/uruguay-spain-world-cup-preview/blt108f73be6b25d09d"
+    },
+    {
+      "type": "media",
+      "name": "Evening Standard - Spain XI vs Uruguay",
+      "url": "https://www.standard.co.uk/sport/football/spain-vi-vs-uruguay-confirmed-team-news-predicted-lineup-injury-latest-for-world-cup-2026-b1287589.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - Uruguay lineup vs Spain double injury",
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/double-injury-blow-for-uruguay-how-bielsas-side-could-line-up-vs-spain_599996.html"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Spain Uruguay projected lineup picks",
+      "url": "https://www.covers.com/world-cup/spain-vs-uruguay-prediction-picks-odds-friday-6-26-2026"
+    },
+    {
+      "type": "media",
+      "name": "Rio Times - Uruguay Arrascaeta Araujo injury cost",
+      "url": "https://www.riotimesonline.com/uruguay-arrascaeta-araujo-injury-cost-spain-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times - Uruguay Spain group decider",
+      "url": "https://www.straitstimes.com/sport/football/unconvincing-uruguay-seek-first-win-against-revitalised-spain"
+    },
+    {
+      "type": "media",
+      "name": "DAZN - Uruguay vs Spain team news",
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-uruguay-vs-spain-preview-team-news-how-to-watch/8zad8p82ys2l18d8uiklczkpv"
+    },
+    {
+      "type": "media",
+      "name": "AS USA - Uruguay WC2026 roster schedule",
+      "url": "https://en.as.com/soccer/world-cup/uruguay-at-the-2026-world-cup-roster-list-players-group-and-schedule-clone-f202606-n/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes - Spain vs Uruguay tips",
+      "url": "https://www.ladbrokes.com/en/news/spain-vs-uruguay-world-cup-preview-predictions-tips-2026-06-24/"
+    },
+    {
+      "type": "betting",
+      "name": "Betfair - WC Day 16 tipsheet Spain Uruguay",
+      "url": "https://betting.betfair.com/football/world-cup-2026/world-cup-day-16-tipsheet-mark-stinchcombes-best-bets-predictions-including-haaland-mbappe-double-250626-1329.html"
+    },
+    {
+      "type": "betting",
+      "name": "Juve FC - Uruguay Spain predictions betting",
+      "url": "https://www.juvefc.com/uruguay-v-spain-predictions/"
+    },
+    {
+      "type": "betting",
+      "name": "SBG Global - Uruguay Spain betting preview",
+      "url": "https://www.sbgglobal.eu/football-soccer/uruguay-vs-spain-fifa-world-cup-2026-betting-odds-preview/"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network - Spain Uruguay odds",
+      "url": "https://www.actionnetwork.com/worldcup-game/spain-uruguay/284397"
+    },
+    {
+      "type": "betting",
+      "name": "The Real EFL - Uruguay Spain prediction",
+      "url": "https://therealefl.co.uk/2026/06/22/uruguay-vs-spain-world-cup-prediction-odds-lineups-betting-tips-27-06-2026/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Uruguay vs Spain Group H Prediction",
+      "url": "https://www.youtube.com/watch?v=bYMGZC1c6Io"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - 2026 FIFA WC Uruguay vs Spain Preview",
+      "url": "https://www.youtube.com/watch?v=J9CgozvSeHk"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports - WC2026 bracket Group H",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-standings-projections-usa-round-32-who-else-might-advance"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers - Cape Verde Saudi Arabia prediction",
+      "url": "https://footballwhispers.com/blog/cape-verde-vs-saudi-arabia-prediction-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK - Cape Verde Saudi Arabia picks",
+      "url": "https://esports-news.co.uk/2026/06/23/cape-verde-v-saudi-arabia-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsgambler - Cape Verde Saudi Arabia correct score",
+      "url": "https://www.sportsgambler.com/betting-tips/football/cape-verde-vs-saudi-arabia-prediction-lineups-odds-2026-06-26/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire - Cape Verde Saudi Arabia preview",
+      "url": "https://www.rotowire.com/soccer/article/cape-verde-vs-saudi-arabia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-119633"
+    },
+    {
+      "type": "media",
+      "name": "Inkl - Cape Verde Saudi Arabia predictions",
+      "url": "https://www.inkl.com/news/cape-verde-vs-saudi-arabia-world-cup-2026-predictions-and-picks"
+    },
+    {
+      "type": "media",
+      "name": "Sports Interaction - Cape Verde Saudi Arabia betting",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/cape-verde-vs-saudi-arabia-odds-prediction-062726-217255"
+    },
+    {
+      "type": "betting",
+      "name": "FootballPredictions.com - Cape Verde Saudi Arabia",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/cape-verde-vs-saudi-arabia-prediction-27-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Racing Post - Cape Verde Saudi Arabia bet builder",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/cape-verde-vs-saudi-arabia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aSUNw3n9bZIi/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube - Cape Verde Saudi Arabia AI INSANE prediction",
+      "url": "https://www.youtube.com/watch?v=8lfZQoJIAto"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-27 08:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.32,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "烏拉圭主場頑強，西班牙控球優勢難轉化勝局。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "西班牙傳控優勢明顯，烏拉圭主場難敵客軍。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "0:1",
+      "note": "西班牙控球與組織佔優，烏拉圭防線穩固但反擊效率有限，預計客隊小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.23,
+        "draw": 0.26,
+        "away": 0.51
+      },
+      "scoreline": "1:2",
+      "note": "西班牙控球優勢明顯，小勝烏拉圭更為合理"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "1:1",
+      "note": "西班牙控球佔優，但烏拉圭的高壓逼搶將使比賽陷入僵局。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "烏拉圭防守穩固，西班牙實力占優，客場有望小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.34,
+        "away": 0.34
+      },
+      "scoreline": "1:1",
+      "note": "實力伯仲之間，西班牙控球對決烏拉圭防守，握手言和。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.253,
+      "draw": 0.287,
+      "away": 0.46
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T051551Z"
+}

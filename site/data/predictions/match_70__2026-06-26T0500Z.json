@@ -1,0 +1,361 @@
+{
+  "match": 70,
+  "stage": "Group K",
+  "home": "DR Congo",
+  "away": "Uzbekistan",
+  "kickoff_utc": "2026-06-27T23:30:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.48,
+      "draw": 0.28,
+      "away": 0.24
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "剛果金必勝爭第三",
+        "scoreline": "2:0",
+        "outcome": "剛果金3分，積分達4分，有望以最佳第三名晉級",
+        "confidence": 0.42,
+        "basis": "剛果金1分已保，烏茲別克0分且-7球差，剛果金有實際勝算；維薩等攻手具威脅"
+      },
+      {
+        "name": "剛果金輕勝",
+        "scoreline": "1:0",
+        "outcome": "剛果金以積分4分爭第三名資格",
+        "confidence": 0.22,
+        "basis": "剛果金防守穩固，曾平葡萄牙；但烏茲別克雖連敗，仍有射手沙木羅多夫"
+      },
+      {
+        "name": "平局收場",
+        "scoreline": "1:1",
+        "outcome": "兩隊積分不足，出局風險大增",
+        "confidence": 0.2,
+        "basis": "YouTube AI模型預測1:1，兩隊均有防守缺陷，過渡型進攻主導"
+      },
+      {
+        "name": "烏茲別克爆冷",
+        "scoreline": "0:1",
+        "outcome": "烏茲別克3分，剛果金僅1分，兩隊可能均出局",
+        "confidence": 0.1,
+        "basis": "烏茲別克渴望首勝，沙木羅多夫、烏馬洛夫均具威脅"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.29,
+          "away": 0.31
+        },
+        "scoreline": "1:1",
+        "note": "OddsChecker剛果金+135，烏茲別克+220，平局+240；FIFA世界盃賠率顯示三路相對均衡但稍偏剛果金"
+      },
+      {
+        "source": "SportsLine模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.42,
+          "draw": 0.3,
+          "away": 0.28
+        },
+        "note": "FanDuel剛果金-140，烏茲別克+350，平局+300；SportsLine分析師偏向Under 2.5球"
+      },
+      {
+        "source": "YouTube AI模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.36,
+          "draw": 0.34,
+          "away": 0.3
+        },
+        "scoreline": "1:1",
+        "note": "AI模型xG剛果金1.16對烏茲別克1.05，最終預測1:1平局，過2.5球概率47%"
+      },
+      {
+        "source": "JuveFc分析",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.22,
+          "away": 0.23
+        },
+        "scoreline": "2:0",
+        "note": "JuveFc最強主推剛果金5/6主勝，烏茲別克丟8球防守極弱"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "積分形勢：剛果金1分（平葡萄牙1:1後負哥倫比亞0:1），烏茲別克0分（負哥倫比亞1:3、負葡萄牙0:5）。剛果金尚有機會以4分爭第三名位置晉級；烏茲別克需要勝利才有可能。剛果金擁有更深陣容優勢，維薩（紐卡素）等歐洲聯賽球員有質量加成，而烏茲別克整屆丟8球防守漏洞明顯。",
+    "key_factors": [
+      "球員狀態：剛果金維薩（紐卡素）、皮庫為主要進攻武器；薩迪奧·馬內式風格的攻守中場協調；烏茲別克沙木羅多夫（Genoa）為主要威脅，烏馬洛夫中場出色",
+      "傷停：兩隊均無確認傷缺報告（德薩布雷及卡納瓦羅均未公佈傷兵名單）",
+      "近況/積分：剛果金W0D1L1（1分，GD-1）：平葡萄牙1:1、負哥倫比亞0:1；烏茲別克W0D0L2（0分，GD-7）：負哥倫比亞1:3、負葡萄牙0:5",
+      "戰術對位：剛果金身體對抗強、轉換反擊快速vs烏茲別克較技術流；但烏茲別克五場敗仗後可能縮緊防守",
+      "主客場/場地：梅賽德斯·賓士球場（亞特蘭大），中性場地",
+      "輿論共識：JuveFc主推剛果金主勝（5/6），FootballWhispers卻預測烏茲別克奪第三；YouTube AI模型預測1:1平局；OddsChecker三路均衡但稍偏剛果金"
+    ],
+    "consensus_lean": "home",
+    "dissent": "FootballWhispers逆向預測烏茲別克第三名、剛果金第四，認為烏茲別克技術更細膩；YouTube AI模型1:1平局預測反映兩隊均有防守漏洞的現實；Sportsinteraction認為剛果金第三仍是合理賭注"
+  },
+  "sources": [
+    {
+      "type": "youtube",
+      "name": "YouTube DR Congo vs Uzbekistan AI Prediction",
+      "url": "https://www.youtube.com/watch?v=X-4tCsV14EI"
+    },
+    {
+      "type": "betting",
+      "name": "WorldCup26 Uzbekistan vs DR Congo Odds",
+      "url": "https://worldcup26usa.com/en/matches/group-k-md3-m2"
+    },
+    {
+      "type": "media",
+      "name": "FootballWhispers Group K Predictions",
+      "url": "https://footballwhispers.com/blog/world-cup-group-k-teams-fixtures-predictions-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN DR Congo vs Uzbekistan Odds",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760482"
+    },
+    {
+      "type": "betting",
+      "name": "OddsChecker DR Congo vs Uzbekistan",
+      "url": "https://www.oddschecker.com/us/soccer/world-cup/dr-congo-v-uzbekistan"
+    },
+    {
+      "type": "media",
+      "name": "JuveFc DR Congo vs Uzbekistan",
+      "url": "https://www.juvefc.com/dr-congo-v-uzbekistan-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "SportsLine Congo DR vs Uzbekistan",
+      "url": "https://www.sportsline.com/insiders/congo-dr-vs-uzbekistan-odds-predictions-2026-world-cup-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "media",
+      "name": "TheLines Group K Odds",
+      "url": "https://www.thelines.com/odds/world-cup/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "SportsInteraction Group K Preview",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/2026-fifa-world-cup-group-k-preview-betting-odds-prediction-129467"
+    },
+    {
+      "type": "official",
+      "name": "Goal.com DR Congo vs Uzbekistan Preview",
+      "url": "https://www.goal.com/en-us/news/dr-congo-uzbekistan-world-cup-preview/blt925d87c611d43a99"
+    },
+    {
+      "type": "official",
+      "name": "BBC DR Congo vs Uzbekistan Group Stage",
+      "url": "https://www.bbc.co.uk/programmes/m002yfwn"
+    },
+    {
+      "type": "official",
+      "name": "SkySports DR Congo vs Uzbekistan Form",
+      "url": "https://www.skysports.com/football/dr-congo-vs-uzbekistan/549834"
+    },
+    {
+      "type": "official",
+      "name": "ESPN DR Congo vs Uzbekistan Live Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760482"
+    },
+    {
+      "type": "media",
+      "name": "365Scores DR Congo vs Uzbekistan",
+      "url": "https://www.365scores.com/en-us/football/match/fifa-world-cup-5930/dr-congo-uzbekistan-5085-14650-5930"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia Group K Standings",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News Group K Standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-k-standings-results-table-2026-portugal/7a4e10a194b91a6159878551"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst Group K Predictions",
+      "url": "https://theanalyst.com/articles/world-cup-2026-group-k-predictions-preview"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes Group K Preview",
+      "url": "https://www.ladbrokes.com/en/news/2026-world-cup-group-k-preview-odds-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Rotowire Group K Preview",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+    },
+    {
+      "type": "media",
+      "name": "TheLines Group K Analysis Full",
+      "url": "https://www.thelines.com/uk/odds/world-cup/group-k/"
+    },
+    {
+      "type": "media",
+      "name": "22Bet Group K Winner Prediction",
+      "url": "https://news.22bet.com/predictions/world-cup-2026-group-k-prediction-booking-code/"
+    },
+    {
+      "type": "media",
+      "name": "BettingNews Groups K Picks",
+      "url": "https://www.bettingnews.com/articles/soccer/groups-k-and-l-picks-predictions-2026-fifa-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "SportsgamblingPodcast Group K",
+      "url": "https://www.sportsgamblingpodcast.com/2026/06/09/fifa-world-cup-2026-group-k-analysis-preview-and-best-bets-2/"
+    },
+    {
+      "type": "media",
+      "name": "PrizePicks WC2026 Qualifier Tracker",
+      "url": "https://www.prizepicks.com/playbook-article/world-cup-knockout-stage-bracket-tracker-who-has-qualified-as-it-stands"
+    },
+    {
+      "type": "media",
+      "name": "FoxSports DR Congo vs Uzbekistan",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-dr-congo-vs-uzbekistan-jun-27-2026-game-boxscore-647685"
+    }
+  ],
+  "source_count": 25,
+  "run_id": "2026-06-26T0500Z",
+  "run_timestamp": "2026-06-26T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 07:30",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.32,
+        "away": 0.23
+      },
+      "scoreline": "1:0",
+      "note": "主場非洲勁旅身體素質佔優，烏茲別克首戰偏保守。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力相近，防守穩健，預計將以平局收場。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力相近，防守將成主調，預計以和局收場。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.34,
+        "away": 0.28
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，DR剛果佔地利但難取三分"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.33,
+        "away": 0.32
+      },
+      "scoreline": "1:1",
+      "note": "剛果體能佔優，烏茲別克戰術嚴明，雙方實力接近，預期激戰成和。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.3,
+        "away": 0.23
+      },
+      "scoreline": "1:0",
+      "note": "剛果主場優勢明顯，預計小勝烏茲別克。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.4,
+        "draw": 0.3,
+        "away": 0.3
+      },
+      "scoreline": "1:0",
+      "note": "剛果球星個人能力突出，力克紮實的烏茲別克。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.407,
+      "draw": 0.328,
+      "away": 0.266
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-26T052127Z"
+}
