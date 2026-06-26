@@ -6,6 +6,27 @@
 
 ---
 
+
+
+## [成本優化] 2026-06-26（HKT）Token 節省第二輪優化
+
+### 變更（Changed）
+
+- **來源數門檻再下調（方案 F）**：
+  - 36h 內開賽：≥40 → **≥20**（去重：同一域名只計算一個，確保資訊增量）。
+  - 其他 48h 窗口：≥25 → **≥12**（同樣去重）。
+- **第三方對照 AI 由 7 家精簡至 4 家（方案 G）**：
+  - 保留：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`、`google/gemini-3.1-pro-preview`。
+  - 移除：`openai/gpt-5.1-thinking`、`xai/grok-4.20-reasoning`（reasoning 模型 max_tokens=3000，token 消耗最高）、`zai/glm-4.7`（與 DeepSeek 高度重疊）。
+  - `multimodel_predict.py` 同步更新：MODELS 列表縮減為 4 家，max_tokens 由 3000 下調至 800。
+- **覆盤 + 球員統計合併為單一子代理（方案 H）**：
+  - 原步驟 3（賽後覆盤）與步驟 3.5（球員統計）各自啟動 Sonnet 4.6 子代理，現合併為一個子代理同時輸出兩份 JSON，節省一次子代理啟動與重複搜尋開銷。
+- **淘汰賽點球分析併入主預測研究批次（方案 I）**：
+  - 原步驟 2.6 在主預測後另起子代理研究點球大戰數據，現改為在主預測研究子代理的 prompt 內同時要求蒐集，一次輸出主預測 JSON + `prediction.knockout` 區塊，節省一次子代理啟動。
+- **Skill runbook 同步**：`wc2026-prediction-automation` skill 的 `SKILL.md` 與 `references/runbook.md` 已同步更新，`CRON_RUNBOOK.md` 同步至 repo。
+
+---
+
 ## [UI 文案] 2026-06-23（HKT）「預測演變」頁說明文字釐清
 
 ### 變更（Changed）
