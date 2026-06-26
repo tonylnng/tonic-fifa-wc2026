@@ -50,11 +50,13 @@
 
 - 第三方模型（**精簡至 4 家**，各取最新版）：`minimax/minimax-m3`、`alibaba/qwen3.7-max`、`deepseek/deepseek-v4-pro`、`google/gemini-3.1-pro-preview`。
   - **已移除（2026-06-26 成本優化）**：`openai/gpt-5.1-thinking`、`xai/grok-4.20-reasoning`（reasoning 模型 max_tokens=3000，token 消耗最高）、`zai/glm-4.7`（與 DeepSeek 高度重疊）。
+  - **max_tokens 設為 1500**：DeepSeek V4 Pro 為 hybrid reasoning 模型，即使不要求推理，輸出前會自動產生 `<think>...</think>` 區塊（平均 500–800 token）；800 會導致 JSON 被截斷。 1500 提供足夠緩衝，同時比原 3000 還是省約 50%。MiniMax / Qwen / Gemini 三家不帶 reasoning 區塊，1500 完全宾裕。
+  - **`extract_json()` 自動剥離 `<think>` 區塊**：腳本會先用 `re.sub(r"<think>.*?</think>", "", ...)` 清除整個 think 區塊，再尋找 JSON，避免 think 內有 `{` 時誤抓錯誤位置。
 - 對每場即將開賽比賽，於帶憑證的 bash 執行（**必須**用 `api_credentials=["custom-cred:ai-gateway.vercel.sh"]`，Gateway 金鑰存於使用者憑證庫）：
 ```bash
 python3 /home/user/workspace/wc2026/multimodel_predict.py --match {N}
 ```
-  - 此腳本會讀取該場**最新批次**預測檔，呼叫 3 個第三方模型，把結果以 `kind:"ai"` 追加到該檔的**頂層** `benchmarks[]`（依 `source` 去重，保留既有 betting/model/market 條目），並計算頂層 `consensus`（比分多數決、勝率加權平均，主預測權重 2、每個 AI 權重 1）。
+  - 此腳本會讀取該場**最新批次**預測檔，呼叫 4 個第三方模型，把結果以 `kind:"ai"` 追加到該檔的**頂層** `benchmarks[]`（依 `source` 去重，保留既有 betting/model/market 條目），並計算頂層 `consensus`（比分多數決、勝率加權平均，主預測權重 2、每個 AI 權重 1）。
   - 重要：腳本透過 `curl --cacert /etc/ssl/certs/agent-proxy-ca-2.pem` 子程序呼叫 Gateway（Python `requests`/`urllib` 在代理下會 SSL 失敗，**請勿改回 requests**）。
   - 若某模型回傳失敗或逾時，腳本會略過該模型，其餘照常寫入；共識以可用模型計算。
   - 若憑證庫該金鑰需核准（`list_credentials` 顯示 `requires_approval=true`），先 `approve_credential` 再執行。
