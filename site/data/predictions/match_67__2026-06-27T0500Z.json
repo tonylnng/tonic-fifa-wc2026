@@ -1,0 +1,437 @@
+{
+  "match": 67,
+  "stage": "Group L",
+  "home": "Croatia",
+  "away": "Ghana",
+  "kickoff_utc": "2026-06-27T21:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.55,
+      "draw": 0.24,
+      "away": 0.21
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "克羅埃西亞必勝晉級",
+        "scoreline": "2:0",
+        "outcome": "克羅埃西亞取勝確認出線，或靠第三名晉級",
+        "confidence": 0.6,
+        "basis": "克羅埃西亞3分必須求勝，Dalić陣容有穆薩、巴圖里納、莫德里奇核心，迦納後防在連續兩場零失球後可能鬆懈"
+      },
+      {
+        "name": "迦納守平確保晉級",
+        "scoreline": "0:0",
+        "outcome": "迦納4分確保第二晉級，克羅埃西亞依賴第三名",
+        "confidence": 0.23,
+        "basis": "迦納Queiroz防守體系縝密，第三輪已鎖定至少第三，低壓力下守平是合理策略"
+      },
+      {
+        "name": "迦納反擊奪勝",
+        "scoreline": "0:1",
+        "outcome": "迦納以第二晉級，克羅埃西亞出局",
+        "confidence": 0.1,
+        "basis": "賽門約、Semenyo速度反擊威脅，若克羅埃西亞過分壓上可能被打反擊"
+      },
+      {
+        "name": "克羅埃西亞小勝",
+        "scoreline": "1:0",
+        "outcome": "克羅埃西亞晉級，迦納靠第三名排名",
+        "confidence": 0.07,
+        "basis": "低比分勝利最常見模式，Budimir頭球或定位球得分可能"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.577,
+          "draw": 0.247,
+          "away": 0.176
+        },
+        "scoreline": "1:0",
+        "note": "Dimers數據驅動模型：克羅埃西亞勝57.7%，最可能比分1:0，盤口-115/+240/+475"
+      },
+      {
+        "source": "worldcup26usa.com 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.32,
+          "away": 0.18
+        },
+        "scoreline": "2:0",
+        "note": "最新市場賠率：克羅 1.81，和局 3.12，迦納 5.60；主客場盤-0.5"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.24,
+          "away": 0.21
+        },
+        "scoreline": "2:1",
+        "note": "Opta模型一貫支持克羅埃西亞在必勝壓力下佔優，迦納已準出線但積分領先優勢縮小"
+      },
+      {
+        "source": "xGScore 社群投票",
+        "kind": "forum",
+        "win_prob": {
+          "home": 0.4,
+          "draw": 0.45,
+          "away": 0.15
+        },
+        "scoreline": "1:1",
+        "note": "xGScore社群最多票數支持平局1:1（23票），反映兩隊防守謹慎氛圍"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "Group L積分情況：英格蘭4分已確認出線，迦納4分佔第二，克羅埃西亞3分必須取勝才能保住自動晉級或改善第三名排名。克羅埃西亞MD2以1:0勝巴拿馬後來態度積極，Dalić採用4-2-3-1佈陣，莫德里奇主宰中場節奏，迦納在Queiroz指揮下以4-1-2-3穩守為主，連續兩場零失球顯示防守紀律強。雙方都有動力——克羅埃西亞求勝，迦納防守求平就可確保第二。",
+    "key_factors": [
+      "球員狀態：莫德里奇（40歲）仍是中場核心但體力存疑；穆薩（9號射手頂替的角色）MD2進球；巴圖里納（進攻中場）MD1對英格蘭射入遠射；佩里西奇、科瓦契奇參與輪換",
+      "傷停：迦納門將Ati-Zigi傷停（被Benjamin Asare取代）；迦納缺陣庫杜斯（術後整屆缺席）、薩利蘇（前十字韌帶撕裂）；克羅埃西亞蘇塔洛受傷，博格達諾維奇輪換",
+      "近況/積分：克羅埃西亞W1D0L1（3分，GD-1）：勝巴拿馬1:0、負英格蘭4:2；迦納W1D1L0（4分，GD+1）：勝巴拿馬1:0、平英格蘭0:0；克羅埃西亞必勝否則出局（除非第三名成績好）",
+      "戰術對位：克羅埃西亞4-2-3-1中場控制 vs 迦納4-1-2-3低位防守反擊；Partey單後腰攔截中場、Semenyo快速邊路出擊；克羅埃西亞中場過人若被遏制則進攻乏力",
+      "主客場/場地：費城林肯金融球場，中性場地，無主客場優勢差異；兩隊均屬中立隊",
+      "輿論共識：Dimers模型57.7%支持克羅埃西亞；xGScore社群多數票投平局；worldcup26usa分析指賽事高度不可預測；Toffeeweb及CanadaSportsBetting主流看法支持克羅埃西亞主勝，賠率1.81反映市場偏向"
+    ],
+    "consensus_lean": "home",
+    "dissent": "xGScore社群以平局1:1得最高票（23票），認為迦納已保險可放心守平，而克羅埃西亞在高壓下可能發揮失常；worldcup26usa分析稱這是Group L最難預測的比賽，形容兩隊戰術矛盾分析具深度"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA World Cup 2026 Group L Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L"
+    },
+    {
+      "type": "official",
+      "name": "FIFA WC2026 Group L Standings (worldcup26usa)",
+      "url": "https://worldcup26usa.com/en/matches/group-l-md3-m2"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Croatia vs Ghana Team News (Kick)",
+      "url": "https://www.espn.com/espn/story/_/id/49184467/kick-team-news-permutati"
+    },
+    {
+      "type": "media",
+      "name": "FotMob Croatia vs Ghana Predicted Lineups",
+      "url": "https://www.fotmob.com/fr/matches/ghana-vs-croatia/2cpwux"
+    },
+    {
+      "type": "model",
+      "name": "Dimers Model: Ghana vs Croatia Win Probability",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_cro_gha"
+    },
+    {
+      "type": "betting",
+      "name": "worldcup26usa Betting Odds Croatia vs Ghana",
+      "url": "https://worldcup26usa.com/en/matches/group-l-md3-m2"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb Croatia vs Ghana Predictions",
+      "url": "https://www.toffeeweb.com/croatia-vs-ghana-predictions-picks-odds-27-0"
+    },
+    {
+      "type": "media",
+      "name": "SportGambler Croatia vs Ghana",
+      "url": "https://www.sportsgambler.com/betting-tips/football/croatia-vs-ghana-prediction-world-cup-2026/"
+    },
+    {
+      "type": "model",
+      "name": "xGScore Croatia vs Ghana xG Preview",
+      "url": "https://xgscore.io/world-cup/croatia-ghana/preview"
+    },
+    {
+      "type": "media",
+      "name": "SportsInteraction Croatia vs Ghana",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/croatia"
+    },
+    {
+      "type": "media",
+      "name": "CanadaSportsBetting Croatia Ghana",
+      "url": "https://www.canadasportsbetting.ca/news/world-cup/croatia-ghana-june-2"
+    },
+    {
+      "type": "media",
+      "name": "FIFA-26.com Croatia vs Ghana Match Preview",
+      "url": "https://www.fifa-26.com/en/matches/group-l-cro-vs-gha"
+    },
+    {
+      "type": "model",
+      "name": "AllAboutFootball Group L Qualification Scenarios",
+      "url": "https://allaboutfootball.net/world-cup-2026-group-l-qualification-scenarios"
+    },
+    {
+      "type": "media",
+      "name": "WCSoccerNZ Group L Preview",
+      "url": "https://wcsoccernz2026.com/group-l/"
+    },
+    {
+      "type": "media",
+      "name": "SportsMole Croatia World Cup Team News",
+      "url": "https://www.sportsmole.co.uk/football/croatia/world-cup-2026/team-news"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Preview Croatia vs Ghana",
+      "url": "https://sports.yahoo.com/articles/preview-croatia-vs-ghana-team-211000"
+    },
+    {
+      "type": "media",
+      "name": "Rotowire Croatia vs Ghana Preview",
+      "url": "https://www.rotowire.com/soccer/article/croatia-vs-ghana-preview-predi"
+    },
+    {
+      "type": "media",
+      "name": "TotalFootballAnalysis Croatia vs Ghana",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/croatia-vs-ghana"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport Croatia/Ghana Coverage",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c0m2pvnwymxo"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Ghana Injury News",
+      "url": "https://www.espn.co.uk/espn/story/_/id/49184467/kick-team-news-permuta"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill WC2026 Group L Odds",
+      "url": "https://news.williamhill.com/football/world-cup/"
+    },
+    {
+      "type": "forum",
+      "name": "xGScore Community Vote Croatia vs Ghana",
+      "url": "https://xgscore.io/world-cup/croatia-ghana/preview"
+    },
+    {
+      "type": "media",
+      "name": "JuveFC Croatia vs Ghana Prediction",
+      "url": "https://www.juvefc.com/croatia-v-ghana-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Group L Standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-l-standings"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Group L Standings",
+      "url": "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-s"
+    },
+    {
+      "type": "media",
+      "name": "SkySports Group L Preview",
+      "url": "https://www.skysports.com/football/news/12098/13543108/world-cup-2026-"
+    },
+    {
+      "type": "media",
+      "name": "AS.com Group L Standings",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-l-standings-re"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer Group K Predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions"
+    },
+    {
+      "type": "social",
+      "name": "Polymarket WC2026 Group J Markets",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-alg-aut-2026-06-27"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Croatia vs Ghana World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=AJ53wYadOG0"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Croatia MD2 Panama Victory",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760460/croatia-panama"
+    },
+    {
+      "type": "media",
+      "name": "ESPN MD1 England vs Croatia 4-2",
+      "url": "https://www.espn.com/soccer/story/_/id/49031236/2026-world-cup-group-s"
+    },
+    {
+      "type": "media",
+      "name": "Bolavip Group L Qualification Croatia",
+      "url": "https://bolavip.com/en/amp/world-cup/what-happens-if-croatia-win-tie-or-lose"
+    },
+    {
+      "type": "official",
+      "name": "FIFA Rankings Group L Teams",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L"
+    },
+    {
+      "type": "media",
+      "name": "matchpredicts.com Croatia vs Ghana",
+      "url": "https://matchpredicts.com/en/fixtures/70300c3c-f3c6-446a-bd3b-d1fd31d6"
+    },
+    {
+      "type": "media",
+      "name": "ESPNuk Ghana Antoine Semenyo News",
+      "url": "https://www.espn.co.uk/espn/story/_/id/49878999/antoine-semenyo-thomas"
+    },
+    {
+      "type": "media",
+      "name": "Foot-Africa WC2026 Africa Injury List",
+      "url": "https://foot-africa.com/en/news/africas-world-cup-injury-list-the-star"
+    },
+    {
+      "type": "media",
+      "name": "FootballPredictions.com Group L MD3",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predicti"
+    },
+    {
+      "type": "media",
+      "name": "SkySports Third Place Standings June 27",
+      "url": "https://www.skysports.com/football/news/11095/13556635/world-cup-2026-"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube Ghana vs Croatia Live",
+      "url": "https://www.youtube.com/watch?v=KDzjMqiroO0"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-27T0500Z",
+  "run_timestamp": "2026-06-27T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 05:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "克羅埃西亞整體戰力與中場優勢明顯，應能輕取迦納。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "克羅埃西亞中場控制力強，加納難破密集防守，主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "克羅地亞技高一籌，可望輕取迦納。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.37,
+        "draw": 0.36,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "克羅埃西亞控球佔優，迦納反擊犀利，僵局難破"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "克羅埃西亞憑藉中場控制力與大賽經驗，有望險勝具爆發力的迦納。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "克羅地亞經驗豐富，預計主場擊敗迦納。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "克羅埃西亞實力與經驗明顯優勢，穩操勝券。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.571,
+      "draw": 0.253,
+      "away": 0.176
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-27T054417Z"
+}

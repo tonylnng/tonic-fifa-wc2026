@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-26T05:00:00Z",
+  "last_updated": "2026-06-27T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -842,6 +842,90 @@
       "outcome": "home",
       "recorded_at": "2026-06-26T05:00:00Z",
       "source": "https://www.skysports.com/football/turkey-vs-usa/report/549821"
+    },
+    {
+      "match": 61,
+      "stage": "Group I",
+      "home": "Senegal",
+      "away": "Iraq",
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "scoreline": "5:0",
+      "outcome": "home",
+      "recorded_at": "2026-06-27T05:00:00Z",
+      "source": "https://www.skysports.com/football/senegal-vs-iraq/549830"
+    },
+    {
+      "match": 62,
+      "stage": "Group I",
+      "home": "Norway",
+      "away": "France",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "scoreline": "1:4",
+      "outcome": "away",
+      "recorded_at": "2026-06-27T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760475"
+    },
+    {
+      "match": 63,
+      "stage": "Group H",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreline": "0:0",
+      "outcome": "draw",
+      "recorded_at": "2026-06-27T05:00:00Z",
+      "source": "https://www.skysports.com/football/cape-verde-vs-saudi-arabia/report/549828"
+    },
+    {
+      "match": 64,
+      "stage": "Group H",
+      "home": "Uruguay",
+      "away": "Spain",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-06-27T05:00:00Z",
+      "source": "https://www.skysports.com/football/uruguay-vs-spain/report/549829"
+    },
+    {
+      "match": 65,
+      "stage": "Group G",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "scoreline": "1:5",
+      "outcome": "away",
+      "recorded_at": "2026-06-27T05:00:00Z",
+      "source": "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand"
+    },
+    {
+      "match": 66,
+      "stage": "Group G",
+      "home": "Egypt",
+      "away": "Iran",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreline": "1:1",
+      "outcome": "draw",
+      "recorded_at": "2026-06-27T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760476"
     }
   ]
 }

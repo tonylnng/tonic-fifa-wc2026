@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T05:24:47Z",
+  "last_updated": "2026-06-27T05:49:29Z",
   "scorers": [
     {
       "id": "ARG-messi",
@@ -45,6 +45,18 @@
       "team": "France",
       "position": "FW",
       "shirt_no": 10,
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-dembele",
+      "name_zh": "甘比利",
+      "name_en": "Ousmane Dembélé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 4,
       "yellow_cards": 0,
       "red_cards": 0
@@ -122,6 +134,30 @@
       "red_cards": 0
     },
     {
+      "id": "SEN-sarr",
+      "name_zh": "沙爾",
+      "name_en": "Pape Matar Sarr",
+      "team_zh": "塞內加爾",
+      "team": "Senegal",
+      "position": "MF",
+      "shirt_no": 17,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "NZL-just",
+      "name_zh": "伊利亞·賈斯特",
+      "name_en": "Elijah Just",
+      "team_zh": "紐西蘭",
+      "team": "New Zealand",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-elanga",
       "name_zh": "安東尼·埃蘭加",
       "name_en": "Anthony Elanga",
@@ -194,18 +230,6 @@
       "red_cards": 0
     },
     {
-      "id": "NZL-just",
-      "name_zh": "伊利亞·賈斯特",
-      "name_en": "Elijah Just",
-      "team_zh": "紐西蘭",
-      "team": "New Zealand",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 2,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "ENG-kane",
       "name_zh": "卡尼",
       "name_en": "Harry Kane",
@@ -242,6 +266,18 @@
       "red_cards": 0
     },
     {
+      "id": "BEL-trossard",
+      "name_zh": "萊安德羅·特羅薩德",
+      "name_en": "Leandro Trossard",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "ESP-oyarzabal",
       "name_zh": "米克爾·奧亞薩瓦爾",
       "name_en": "Mikel Oyarzabal",
@@ -254,13 +290,13 @@
       "red_cards": 0
     },
     {
-      "id": "SEN-sarr",
-      "name_zh": "沙爾",
-      "name_en": "Pape Matar Sarr",
-      "team_zh": "塞內加爾",
-      "team": "Senegal",
-      "position": "MF",
-      "shirt_no": 17,
+      "id": "IRN-rezaeian",
+      "name_zh": "拉明·雷扎伊安",
+      "name_en": "Ramin Rezaeian",
+      "team_zh": "伊朗",
+      "team": "Iran",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -326,6 +362,18 @@
       "red_cards": 0
     },
     {
+      "id": "SEN-gueye",
+      "name_zh": "蓋耶",
+      "name_en": "Idrissa Gueye",
+      "team_zh": "塞內加爾",
+      "team": "Senegal",
+      "position": "MF",
+      "shirt_no": 5,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CIV-pepe",
       "name_zh": "尼古拉·佩佩",
       "name_en": "Nicolas Pépé",
@@ -374,18 +422,6 @@
       "red_cards": 0
     },
     {
-      "id": "URU-canobbio",
-      "name_zh": "阿古斯廷·卡諾比奧",
-      "name_en": "Agustín Canobbio",
-      "team_zh": "烏拉圭",
-      "team": "Uruguay",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "USA-freeman",
       "name_zh": "亞歷克斯·弗里曼",
       "name_en": "Alex Freeman",
@@ -405,6 +441,18 @@
       "team": "Sweden",
       "position": "FW",
       "shirt_no": 9,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-saelemaekers",
+      "name_zh": "阿萊克西斯·薩埃勒馬克斯",
+      "name_en": "Alexis Saelemaekers",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -554,6 +602,18 @@
       "red_cards": 0
     },
     {
+      "id": "FRA-doue",
+      "name_zh": "德西雷·杜埃",
+      "name_en": "Désiré Doué",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "EGY-ashour",
       "name_zh": "阿舒爾",
       "name_en": "Emam Ashour",
@@ -607,6 +667,18 @@
       "name_en": "Giovanni Reyna",
       "team_zh": "美國",
       "team": "USA",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "SEN-diarra",
+      "name_zh": "哈比卜·迪亞拉",
+      "name_en": "Habib Diarra",
+      "team_zh": "塞內加爾",
+      "team": "Senegal",
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
@@ -677,6 +749,18 @@
       "id": "SEN-mbaye",
       "name_zh": "易卜拉欣·姆巴耶",
       "name_en": "Ibrahim Mbaye",
+      "team_zh": "塞內加爾",
+      "team": "Senegal",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "SEN-ndiaye",
+      "name_zh": "伊利曼·恩迪亞耶",
+      "name_en": "Iliman Ndiaye",
       "team_zh": "塞內加爾",
       "team": "Senegal",
       "position": "FW",
@@ -794,13 +878,13 @@
       "red_cards": 0
     },
     {
-      "id": "CPV-pina",
-      "name_zh": "凱文·皮納",
-      "name_en": "Kevin Gonçalves Pereira de Pina",
-      "team_zh": "佛得角",
-      "team": "Cape Verde",
+      "id": "BEL-debruyne",
+      "name_zh": "迪布勞尼",
+      "name_en": "Kevin De Bruyne",
+      "team_zh": "比利時",
+      "team": "Belgium",
       "position": "MF",
-      "shirt_no": null,
+      "shirt_no": 7,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1118,18 +1202,6 @@
       "red_cards": 0
     },
     {
-      "id": "FRA-dembele",
-      "name_zh": "甘比利",
-      "name_en": "Ousmane Dembélé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 7,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "CRO-musa",
       "name_zh": "穆薩",
       "name_en": "Petar Musa",
@@ -1149,18 +1221,6 @@
       "team": "Portugal",
       "position": "FW",
       "shirt_no": 17,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "IRN-rezaeian",
-      "name_zh": "拉明·雷扎伊安",
-      "name_en": "Ramin Rezaeian",
-      "team_zh": "伊朗",
-      "team": "Iran",
-      "position": "DF",
-      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1219,6 +1279,18 @@
       "name_en": "Thapelo Maseko",
       "team_zh": "南非",
       "team": "South Africa",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "NOR-aasgaard",
+      "name_zh": "泰洛·奧斯高",
+      "name_en": "Thelo Aasgaard",
+      "team_zh": "挪威",
+      "team": "Norway",
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
@@ -1358,6 +1430,18 @@
       "red_cards": 0
     },
     {
+      "id": "CPV-pina",
+      "name_zh": "凱文·皮納",
+      "name_en": "Kevin Gonçalves Pereira de Pina",
+      "team_zh": "佛得角",
+      "team": "Cape Verde",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CZE-krejci",
       "name_zh": "克雷基",
       "name_en": "Ladislav Krejčí",
@@ -1394,6 +1478,18 @@
       "red_cards": 0
     },
     {
+      "id": "EGY-saber",
+      "name_zh": "馬哈茂德·薩貝爾",
+      "name_en": "Mahmoud Saber",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "PAR-galarza",
       "name_zh": "馬蒂亞斯·加拉爾薩",
       "name_en": "Matías Galarza",
@@ -1401,6 +1497,18 @@
       "team": "Paraguay",
       "position": "MF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-lukaku",
+      "name_zh": "盧卡古",
+      "name_en": "Romelu Lukaku",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "FW",
+      "shirt_no": 9,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1430,6 +1538,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-baena",
+      "name_zh": "阿萊克斯·巴埃納",
+      "name_en": "Álex Baena",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "RSA-mokoena",
       "name_zh": "莫科埃納",
       "name_en": "Teboho Mokoena",
@@ -1440,6 +1560,18 @@
       "goals": 1,
       "yellow_cards": 2,
       "red_cards": 0
+    },
+    {
+      "id": "URU-canobbio",
+      "name_zh": "阿古斯廷·卡諾比奧",
+      "name_en": "Agustín Canobbio",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 1
     }
   ],
   "discipline": [
@@ -1453,6 +1585,18 @@
       "shirt_no": 10,
       "goals": 0,
       "yellow_cards": 1,
+      "red_cards": 1
+    },
+    {
+      "id": "URU-canobbio",
+      "name_zh": "阿古斯廷·卡諾比奧",
+      "name_en": "Agustín Canobbio",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
       "red_cards": 1
     },
     {
@@ -1504,6 +1648,18 @@
       "red_cards": 1
     },
     {
+      "id": "IRQ-sulaka",
+      "name_zh": "雷賓·蘇拉卡",
+      "name_en": "Rebin Sulaka",
+      "team_zh": "伊拉克",
+      "team": "Iraq",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 1
+    },
+    {
       "id": "RSA-sithole",
       "name_zh": "斯費費洛·西托爾",
       "name_en": "Sphephelo Sithole",
@@ -1540,6 +1696,18 @@
       "red_cards": 1
     },
     {
+      "id": "IRQ-alammari",
+      "name_zh": "阿米爾·阿馬里",
+      "name_en": "Amir Al-Ammari",
+      "team_zh": "伊拉克",
+      "team": "Iraq",
+      "position": "MF",
+      "shirt_no": 16,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "CUW-kastaneer",
       "name_zh": "熱爾瓦內·卡斯塔尼爾",
       "name_en": "Gervane Kastaneer",
@@ -1547,6 +1715,18 @@
       "team": "Curacao",
       "position": "FW",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "id": "KSA-aldawsari",
+      "name_zh": "薩利姆·道薩里",
+      "name_en": "Salem Al-Dawsari",
+      "team_zh": "沙特",
+      "team": "Saudi Arabia",
+      "position": "MF",
+      "shirt_no": 10,
       "goals": 0,
       "yellow_cards": 2,
       "red_cards": 0
@@ -1569,6 +1749,18 @@
       "name_en": "Aaron Hickey",
       "team_zh": "蘇格蘭",
       "team": "Scotland",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SEN-seck",
+      "name_zh": "阿布杜拉耶·塞克",
+      "name_en": "Abdoulaye Seck",
+      "team_zh": "塞內加爾",
+      "team": "Senegal",
       "position": "DF",
       "shirt_no": null,
       "goals": 0,
@@ -1672,18 +1864,6 @@
       "red_cards": 0
     },
     {
-      "id": "IRQ-alammari",
-      "name_zh": "阿米爾·阿馬里",
-      "name_en": "Amir Al-Ammari",
-      "team_zh": "伊拉克",
-      "team": "Iraq",
-      "position": "MF",
-      "shirt_no": 16,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
       "id": "SCO-robertson",
       "name_zh": "羅拔臣",
       "name_en": "Andy Robertson",
@@ -1727,6 +1907,18 @@
       "team": "South Africa",
       "position": "MF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-tchouameni",
+      "name_zh": "出雲利",
+      "name_en": "Aurélien Tchouaméni",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "MF",
+      "shirt_no": 8,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2020,6 +2212,18 @@
       "red_cards": 0
     },
     {
+      "id": "NZL-just",
+      "name_zh": "伊利亞·賈斯特",
+      "name_en": "Elijah Just",
+      "team_zh": "紐西蘭",
+      "team": "New Zealand",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "TUR-elmali",
       "name_zh": "埃倫·埃爾馬利",
       "name_en": "Eren Elmalı",
@@ -2074,6 +2278,18 @@
       "team_zh": "阿根廷",
       "team": "Argentina",
       "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "KSA-albrikan",
+      "name_zh": "費拉斯·阿爾-布里坎",
+      "name_en": "Feras Al-Brikan",
+      "team_zh": "沙烏地阿拉伯",
+      "team": "Saudi Arabia",
+      "position": "FW",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -2176,6 +2392,18 @@
       "red_cards": 0
     },
     {
+      "id": "URU-varela",
+      "name_zh": "吉列爾莫·瓦雷拉",
+      "name_en": "Guillermo Varela",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "PAR-gomezg",
       "name_zh": "古斯塔沃·戈麥斯",
       "name_en": "Gustavo Gómez",
@@ -2196,6 +2424,30 @@
       "position": "DF",
       "shirt_no": 19,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "IRN-kanaani",
+      "name_zh": "侯賽因·卡納尼",
+      "name_en": "Hossein Kanaani",
+      "team_zh": "伊朗",
+      "team": "Iran",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "SEN-gueye",
+      "name_zh": "蓋耶",
+      "name_en": "Idrissa Gueye",
+      "team_zh": "塞內加爾",
+      "team": "Senegal",
+      "position": "MF",
+      "shirt_no": 5,
+      "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2392,6 +2644,18 @@
       "red_cards": 0
     },
     {
+      "id": "URU-sanabria",
+      "name_zh": "胡安·薩納夫里亞",
+      "name_en": "Juan Sanabria",
+      "team_zh": "烏拉圭",
+      "team": "Uruguay",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CUW-jbacuna",
       "name_zh": "朱尼尼奧·巴庫納",
       "name_en": "Juninho Bacuna",
@@ -2448,6 +2712,18 @@
       "position": "MF",
       "shirt_no": null,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CPV-pina",
+      "name_zh": "凱文·皮納",
+      "name_en": "Kevin Gonçalves Pereira de Pina",
+      "team_zh": "佛得角",
+      "team": "Cape Verde",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2596,6 +2872,18 @@
       "red_cards": 0
     },
     {
+      "id": "EGY-saber",
+      "name_zh": "馬哈茂德·薩貝爾",
+      "name_en": "Mahmoud Saber",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "AUT-sabitzer",
       "name_zh": "沙比策",
       "name_en": "Marcel Sabitzer",
@@ -2603,6 +2891,18 @@
       "team": "Austria",
       "position": "MF",
       "shirt_no": 9,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "NZL-stamenic",
+      "name_zh": "史達梅尼奇",
+      "name_en": "Marko Stamenić",
+      "team_zh": "紐西蘭",
+      "team": "New Zealand",
+      "position": "MF",
+      "shirt_no": 8,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2663,6 +2963,18 @@
       "team": "Netherlands",
       "position": "FW",
       "shirt_no": 10,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "IRQ-doski",
+      "name_zh": "道斯基",
+      "name_en": "Merchas Doski",
+      "team_zh": "伊拉克",
+      "team": "Iraq",
+      "position": "DF",
+      "shirt_no": 23,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2776,6 +3088,18 @@
       "red_cards": 0
     },
     {
+      "id": "NOR-berg",
+      "name_zh": "帕特里克·伯格",
+      "name_en": "Patrick Berg",
+      "team_zh": "挪威",
+      "team": "Norway",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ESP-pedri",
       "name_zh": "佩德利",
       "name_en": "Pedri",
@@ -2855,7 +3179,7 @@
       "team": "Belgium",
       "position": "FW",
       "shirt_no": 9,
-      "goals": 0,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2884,18 +3208,6 @@
       "red_cards": 0
     },
     {
-      "id": "KSA-aldawsari",
-      "name_zh": "薩利姆·道薩里",
-      "name_en": "Salem Al-Dawsari",
-      "team_zh": "沙特",
-      "team": "Saudi Arabia",
-      "position": "MF",
-      "shirt_no": 10,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
       "id": "NZL-singh",
       "name_zh": "薩普里特·辛格",
       "name_en": "Sarpreet Singh",
@@ -2903,6 +3215,18 @@
       "team": "New Zealand",
       "position": "MF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "KSA-abdulhamid",
+      "name_zh": "沙烏德·阿卜杜勒哈米德",
+      "name_en": "Saud Abdulhamid",
+      "team_zh": "沙特",
+      "team": "Saudi Arabia",
+      "position": "DF",
+      "shirt_no": 12,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -3074,12 +3398,24 @@
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
+    },
+    {
+      "id": "ESP-baena",
+      "name_zh": "阿萊克斯·巴埃納",
+      "name_en": "Álex Baena",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
     }
   ],
   "totals": {
-    "players": 443,
-    "goals": 165,
-    "yellow_cards": 131,
-    "red_cards": 8
+    "players": 458,
+    "goals": 184,
+    "yellow_cards": 148,
+    "red_cards": 10
   }
 }

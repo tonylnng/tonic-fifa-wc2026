@@ -1,0 +1,437 @@
+{
+  "match": 72,
+  "stage": "Group J",
+  "home": "Algeria",
+  "away": "Austria",
+  "kickoff_utc": "2026-06-28T02:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.31,
+      "draw": 0.3,
+      "away": 0.39
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "1:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "奧地利守平晉級",
+        "scoreline": "1:1",
+        "outcome": "奧地利3分+1=4分GD0晉級，阿爾及利亞3分+1=4分GD-1因GD落後屈居第三",
+        "confidence": 0.3,
+        "basis": "Opta超電腦42.1%預測平局；奧地利一平即晉級（1954年後首次），積極防守控制可達到目的"
+      },
+      {
+        "name": "奧地利勝出確保第二",
+        "scoreline": "0:1",
+        "outcome": "奧地利4分第二晉級，阿爾及利亞3分靠第三名",
+        "confidence": 0.28,
+        "basis": "Rangnick高壓體系讓阿爾及利亞防守疲於奔命，Arnautovic得分能力、Sabitzer推進，奧地利形勢更有利"
+      },
+      {
+        "name": "阿爾及利亞逆轉晉級",
+        "scoreline": "2:1",
+        "outcome": "阿爾及利亞6分奪第二，奧地利靠第三名",
+        "confidence": 0.21,
+        "basis": "Mahrez、Gouiri、Benbouali進攻組合依然鋒利；MD2對約旦2:1（落後後逆轉）顯示心理韌性"
+      },
+      {
+        "name": "奧地利確認第二",
+        "scoreline": "1:2",
+        "outcome": "奧地利5分確保第二",
+        "confidence": 0.11,
+        "basis": "奧地利過去9場23球強攻，若阿爾及利亞先失球門將受壓"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.28,
+          "draw": 0.42,
+          "away": 0.3
+        },
+        "scoreline": "1:1",
+        "note": "Opta：預測平局最可能（42.1%），奧地利一平即晉級，阿爾及利亞必須全力求勝"
+      },
+      {
+        "source": "BracketResearch 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.3,
+          "draw": 0.33,
+          "away": 0.37
+        },
+        "scoreline": "1:1",
+        "note": "DraftKings盤口：阿爾及利亞+235/平局+165/奧地利+175；模型評分阿爾1:1奧地利"
+      },
+      {
+        "source": "FootballWhispers 分析",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.32,
+          "draw": 0.32,
+          "away": 0.36
+        },
+        "scoreline": "1:1",
+        "note": "奧地利6場無敗（含5勝），過去9場23球；阿爾及利亞對歐洲球隊8戰0勝（D3L5）是重要歷史弱點"
+      },
+      {
+        "source": "Paddy Power / 博彩市場",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.29,
+          "draw": 0.34,
+          "away": 0.37
+        },
+        "scoreline": "1:1",
+        "note": "Paddy Power推薦奧地利/平局雙重機會（DC），Arnautovic1+射門、Gouiri1+射門並列推薦；奧地利預測市場偏向微幅領先"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "Group J最關鍵比賽：奧地利3分（GD 0）對陣阿爾及利亞3分（GD -2），奧地利積分相同但淨勝球更好。平局即確保奧地利晉級（1954年後首次），阿爾及利亞必須勝出才能確保第二。1982年「Gijon恥辱」歷史遺憾在阿爾及利亞球迷心中仍深刻，本次兩隊同組，歷史背景增加賽事戲劇性。Bennacer傷停是阿爾及利亞的重大損失；奧地利Baumgartner確認缺陣但Rangnick組織紀律嚴整。",
+    "key_factors": [
+      "球員狀態：Riyad Mahrez（35歲）是阿爾及利亞創造力核心，但Bolavip分析質疑其上場能力（體能）；Gouiri（馬賽）MD2進決定進球；Benbouali MD2亦有入球；奧地利Arnautovic目前未首發（主要替補）、Sabitzer中場核心、Schlager、Laimer等四中場體系",
+      "傷停：阿爾及利亞Ismael Bennacer（中場核心）確認缺陣（BracketResearch/Opta資料）；奧地利Christoph Baumgartner（中場關鍵）確認缺陣（膝傷），Rangnick稱無需補招代替，說明陣容深度足夠",
+      "近況/積分：阿爾及利亞W1D0L1（3分，GD-2）：負阿根廷0:3（梅西帽子戲法）、勝約旦2:1（落後後逆轉）；奧地利W1D0L1（3分，GD 0）：勝約旦3:1（Ali Olwan進球）、負阿根廷0:2；兩隊互為GD差異決定晉級",
+      "戰術對位：阿爾及利亞4-2-3-1/4-3-3可轉換（Mahrez右翼，Gouiri左翼，Amoura前鋒）vs 奧地利4-2-3-1（Rangnick高壓）；對位關鍵：Ait Nouri vs Laimer邊路對決；阿爾及利亞廣域傳導 vs 奧地利密集壓迫",
+      "主客場/場地：Arrowhead Stadium（堪薩斯城），中性場地；1982年Gijon歷史讓阿爾及利亞球迷格外關注",
+      "輿論共識：Opta超電腦平局42.1%最可能；BracketResearch奧地利+175微弱領先；FootballWhispers分析阿爾及利亞對歐洲球隊8戰0勝是關鍵歷史劣勢；PaddyPower推薦奧地利/平局DC；大多數分析師認為奧地利略佔優"
+    ],
+    "consensus_lean": "away",
+    "dissent": "阿爾及利亞1982年的恥辱記憶以及本屆資格賽卓越表現（8勝1負）讓部分分析師認為精神動力不容忽視；Mahrez一旦狀態爆發可以獨力改變比賽；FootballWhispers指出奧地利上一場輸阿根廷後6場無敗紀錄告終，心理可能受影響；Algeria或許有更強烈的晉級慾望（需勝出）"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA Group J Wikipedia Standings",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    },
+    {
+      "type": "model",
+      "name": "Opta Algeria vs Austria Prediction",
+      "url": "https://theanalyst.com/articles/algeria-vs-austria-prediction-world-cu"
+    },
+    {
+      "type": "model",
+      "name": "BracketResearch Algeria vs Austria Model",
+      "url": "https://bracketresearch.com/world-cup/match/M069/"
+    },
+    {
+      "type": "media",
+      "name": "FootballWhispers Algeria vs Austria",
+      "url": "https://footballwhispers.com/blog/algeria-vs-austria-prediction-world-"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb Algeria vs Austria Predictions",
+      "url": "https://www.toffeeweb.com/algeria-vs-austria-predictions-picks-odds-28"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 Algeria vs Austria Preview",
+      "url": "https://www.futbol24.com/betting-tips/preview/28-06-2026-algeria-austr"
+    },
+    {
+      "type": "social",
+      "name": "Polymarket Algeria vs Austria Market",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-alg-aut-2026-06-27"
+    },
+    {
+      "type": "social",
+      "name": "Polymarket Algeria Group J Winner",
+      "url": "https://polymarket.com/event/fifa-world-cup-group-j-winner/will-algeri"
+    },
+    {
+      "type": "betting",
+      "name": "Paddy Power WC2026 Algeria Austria Tips",
+      "url": "https://news.paddypower.com/football/world-cup/2026/06/26/world-cup-ti"
+    },
+    {
+      "type": "media",
+      "name": "AIWorldCup Algeria Austria Prediction",
+      "url": "https://aiworldcup2026predictions.com/fifa-world-cup/algeria-austria-2"
+    },
+    {
+      "type": "media",
+      "name": "OddsGPT Algeria vs Austria",
+      "url": "https://www.oddsgpt.com/predictions/football/1489418/Algeria-vs-Austri"
+    },
+    {
+      "type": "media",
+      "name": "NowScore Algeria vs Austria",
+      "url": "https://nowscore.co/world-cup/match/algeria-vs-austria/"
+    },
+    {
+      "type": "media",
+      "name": "SportsInteraction Algeria vs Austria",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/algeria"
+    },
+    {
+      "type": "media",
+      "name": "NZSoccerWC Group J",
+      "url": "https://nzsoccerwc.com/group-j/"
+    },
+    {
+      "type": "model",
+      "name": "SX.bet Group J Analysis",
+      "url": "https://blog.sx.bet/world-cup/group-j/"
+    },
+    {
+      "type": "media",
+      "name": "SportsMole Austria WC2026 Predicted Lineup",
+      "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/predicted"
+    },
+    {
+      "type": "media",
+      "name": "BeinSports Austria vs Algeria",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/t"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Algeria vs Austria WC2026",
+      "url": "https://africa.espn.com/football/match/_/gameId/760484/oostenrijk-alge"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Austria Algeria MD3",
+      "url": "https://www.espn.com/soccer/story/_/id/49191332/austria-algeria-fifa-w"
+    },
+    {
+      "type": "media",
+      "name": "Bundesliga Algeria vs Austria",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/3/algeria-v"
+    },
+    {
+      "type": "media",
+      "name": "Bolavip Mahrez Algeria WC2026",
+      "url": "https://bolavip.com/en/world-cup/why-riyad-mahrez-isnt-starting-for-al"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Algeria WC2026 Squad",
+      "url": "https://sports.yahoo.com/articles/algeria-2026-world-cup-squad-1125000"
+    },
+    {
+      "type": "media",
+      "name": "Daily Beirut Algeria WC2026",
+      "url": "https://dailybeirut.com/en/world-cup-2026/algeria-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Algeria Squad",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/624/algeria"
+    },
+    {
+      "type": "media",
+      "name": "StraitsTimes Austria Veterans Algeria",
+      "url": "https://www.straitstimes.com/sport/football/austria-bench-veteran-stri"
+    },
+    {
+      "type": "media",
+      "name": "Sportingnews Austria Lineup vs Argentina",
+      "url": "https://www.sportingnews.com/in/football/news/argentina-vs-austria-lin"
+    },
+    {
+      "type": "official",
+      "name": "ESPN MD2 Jordan Algeria 1-2",
+      "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-wo"
+    },
+    {
+      "type": "official",
+      "name": "ESPN MD2 Argentina Austria 2-0",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina"
+    },
+    {
+      "type": "official",
+      "name": "Bundesliga Match Report Austria Algeria",
+      "url": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/jordan-vs"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Why Algeria Austria Crucial",
+      "url": "https://www.espn.com/soccer/story/_/id/49154542/why-algeria-austria-20"
+    },
+    {
+      "type": "media",
+      "name": "Legit.ng Supercomputer Algeria Austria",
+      "url": "https://www.legit.ng/sports/football/1713090-supercomputer-predicts-32"
+    },
+    {
+      "type": "media",
+      "name": "MEXC WC2026 Group J News",
+      "url": "https://www.mexc.com/news/1171827"
+    },
+    {
+      "type": "media",
+      "name": "SkySports Group J Third Place",
+      "url": "https://www.skysports.com/football/news/11095/13556635/world-cup-2026-"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Group J Preview",
+      "url": "https://sports.yahoo.com/articles/2026-world-cup-group-j-174911946.htm"
+    },
+    {
+      "type": "media",
+      "name": "SkySports Group J Preview",
+      "url": "https://www.skysports.com/football/news/12098/13543105/world-cup-2026-"
+    },
+    {
+      "type": "media",
+      "name": "Nan.media Mahrez Algeria WC",
+      "url": "https://nan.media/en/riyad-mahrez-responds-to-his-exclusion-from-the-a"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Mahrez Algeria WC2026",
+      "url": "https://sports.yahoo.com/article/algeria-riyad-mahrez-excellent-news-1"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Algeria vs Austria WC2026",
+      "url": "https://www.youtube.com/watch?v=NCaumJ68OOg"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube Group J Preview",
+      "url": "https://www.youtube.com/watch?v=2RRn3tuLWu8"
+    },
+    {
+      "type": "media",
+      "name": "PredictionMarketsPicks Algeria Austria",
+      "url": "https://predictionmarketspicks.com/sports/world-cup-2026/algeria-vs-au"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-27T0500Z",
+  "run_timestamp": "2026-06-27T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 10:00",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.38,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，阿爾及利亞主場略佔優勢。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.2,
+        "draw": 0.3,
+        "away": 0.5
+      },
+      "scoreline": "0:1",
+      "note": "奧地利戰術紀律嚴明，整體實力略勝一籌，預計客場小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.3,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "奧地利整體實力稍佔上風，阿爾及利亞難守主場，預測客隊小勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.36,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "實力接近、防守為主，兩隊互有進球握手言和"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.3,
+        "away": 0.42
+      },
+      "scoreline": "1:2",
+      "note": "奧地利的高壓逼搶與戰術紀律將在拉鋸戰中略勝阿爾及利亞一籌。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.49,
+        "draw": 0.29,
+        "away": 0.22
+      },
+      "scoreline": "2:1",
+      "note": "阿爾及利亞主場優勢較大，預計小勝奧地利。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "實力接近，雙方皆需積分，和局機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.322,
+      "draw": 0.32,
+      "away": 0.358
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-27T054813Z"
+}

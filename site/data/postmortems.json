@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-26T05:24:37Z",
+  "last_updated": "2026-06-27T05:49:21Z",
   "postmortems": [
     {
       "match": 5,
@@ -1623,6 +1623,145 @@
       ],
       "vs_benchmarks": "博彩本場亦略偏美國或平局，多模型共識分歧；AI 失準與市場大致同步，屬難測對決。",
       "generated_at": "2026-06-26T05:24:37Z"
+    },
+    {
+      "match": 61,
+      "home": "Senegal",
+      "away": "Iraq",
+      "stage": "Group I",
+      "predicted": "3:1",
+      "predicted_outcome": "home",
+      "final": "5:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-26T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "塞內加爾五球狂勝伊拉克，勝負命中比分更勝預期",
+      "review": "AI 命中塞內加爾主場大勝（主勝率 0.72），實際比分 5:0 比預測 3:1 更懸殊。哈比卜·迪亞拉、伊斯馬伊拉·薩爾、帕佩·蓋伊（梅開二度）、伊利曼·恩迪亞耶接力破門，伊拉克更於第 13 分鐘被 VAR 升級紅牌少打一人，崩盤幅度超出預期。強弱判斷完全正確。",
+      "lessons": [
+        "對手早早被罰下時，強隊大勝幅度往往超過常規模型預期",
+        "塞內加爾鋒線深度本屆被低估，比分預測可更大膽"
+      ],
+      "vs_benchmarks": "AI 與博彩、多模型共識一致看好塞內加爾大勝，方向全中；比分甚至偏保守。",
+      "generated_at": "2026-06-27T05:49:21Z"
+    },
+    {
+      "match": 62,
+      "home": "Norway",
+      "away": "France",
+      "stage": "Group I",
+      "predicted": "1:3",
+      "predicted_outcome": "away",
+      "final": "1:4",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-26T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "登貝萊帽子戲法領軍，法國 4:1 大勝挪威",
+      "review": "AI 命中法國客勝（客勝率 0.56），登貝萊上半場連入三球完成帽子戲法，杜埃補時再入一球，挪威僅靠奧斯高扳回一城。實際 1:4 比預測 1:3 多一球，法國攻擊火力全開。方向與比分骨架皆準確。",
+      "lessons": [
+        "法國前場群星狀態火熱時，三球以上大勝屬合理區間",
+        "登貝萊等爆發型球員的單場高產出難以精準預測，但方向可靠"
+      ],
+      "vs_benchmarks": "AI 與博彩、超級電腦共識一致看好法國，方向命中；比分僅一球之差。",
+      "generated_at": "2026-06-27T05:49:21Z"
+    },
+    {
+      "match": 63,
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "stage": "Group H",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "0:0",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-26T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "佛得角悶平沙烏地仍晉級，AI 看好主勝落空",
+      "review": "AI 預測佛得角主場 2:1 取勝（主勝率僅 0.42，信心 0.6），但雙方踢成 0:0，佛得角靠此平局歷史性晉級十六強。AI 主勝率不足五成已反映高度不確定性，但低估了佛得角在確定接近出線時轉趨保守、以及沙烏地的防守韌性。平局率 0.30 是合理的第二可能。",
+      "lessons": [
+        "球隊在平局即可達標（晉級）時，往往主動求穩，進攻動機下降",
+        "主勝率低於 0.45 卻設 outcome=home 屬合理（最高者），但此類接近三分天下的對決失準難免",
+        "出線形勢會改變球隊踢法，需在情境分析中加重此因素"
+      ],
+      "vs_benchmarks": "博彩本場亦偏向低比分、接近平手，多模型共識分歧；AI 失準與市場預期相符，非重大偏差。",
+      "generated_at": "2026-06-27T05:49:21Z"
+    },
+    {
+      "match": 64,
+      "home": "Uruguay",
+      "away": "Spain",
+      "stage": "Group H",
+      "predicted": "0:2",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-26T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "巴埃納一球定江山，西班牙小勝烏拉圭",
+      "review": "AI 命中西班牙客勝（客勝率 0.62），巴埃納第 42 分鐘入球成致勝一擊，烏拉圭更於補時被罰下一人。實際 0:1 比預測 0:2 少一球，西班牙控制局面但未能擴大比分。強弱判斷正確。",
+      "lessons": [
+        "西班牙控球體系常造成小勝而非大勝，比分預測可略降",
+        "烏拉圭防守頑強，對強隊往往只失一兩球"
+      ],
+      "vs_benchmarks": "AI 與博彩、多模型共識一致看好西班牙，方向命中；比分精準度尚可。",
+      "generated_at": "2026-06-27T05:49:21Z"
+    },
+    {
+      "match": 65,
+      "home": "New Zealand",
+      "away": "Belgium",
+      "stage": "Group G",
+      "predicted": "1:3",
+      "predicted_outcome": "away",
+      "final": "1:5",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-06-26T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "比利時五球狂勝，特羅薩德梅開二度",
+      "review": "AI 命中比利時客勝（客勝率 0.79，信心 0.8），特羅薩德梅開二度，德布勞內、盧卡庫、薩埃勒馬克斯接力破門，比利時 5:1 大勝。實際比分比預測 1:3 多兩球，比利時鋒線全開。方向與信心校準準確。",
+      "lessons": [
+        "比利時黃金一代攻擊群火力強大時，大勝幅度可超過三球",
+        "高信心（0.8）預測在實力差距明顯時穩定可靠"
+      ],
+      "vs_benchmarks": "AI 與博彩、超級電腦共識一致看好比利時大勝，方向命中；比分偏保守。",
+      "generated_at": "2026-06-27T05:49:21Z"
+    },
+    {
+      "match": 66,
+      "home": "Egypt",
+      "away": "Iran",
+      "stage": "Group G",
+      "predicted": "1:0",
+      "predicted_outcome": "home",
+      "final": "1:1",
+      "actual_outcome": "draw",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-26T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "埃及伊朗早段互交一球言和，AI 看好埃及小勝失準",
+      "review": "AI 預測埃及主場 1:0 小勝（主勝率僅 0.41，信心 0.6），馬哈茂德·薩貝爾第 5 分鐘為埃及先開紀錄，但雷扎伊安第 14 分鐘迅速為伊朗扳平，最終 1:1 收場。這是一場勢均力敵的對決，AI 主勝率不足五成已反映風險，平局是合理結果。",
+      "lessons": [
+        "主勝率低於 0.45 的對決，平局風險須在情境分析中更明確",
+        "低信心預測（0.6）的失準屬正常波動，校準大致合理"
+      ],
+      "vs_benchmarks": "博彩盤口本場亦接近五五波，多模型共識傾向低比分；AI 失準幅度與市場相符。",
+      "generated_at": "2026-06-27T05:49:21Z"
     }
   ]
 }

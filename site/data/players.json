@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-26T05:24:47Z",
+  "last_updated": "2026-06-27T05:49:29Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -796,15 +796,18 @@
       "is_key": true,
       "bio_zh": "比利時史上最高入球紀錄持有者，身體強壯的中鋒，效力拿玻里繼續大量進球，是頭號戰將。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          38
+          38,
+          65
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/belgium-vs-iran/report/549802"
+        "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand",
+        "https://www.espn.com/soccer/report/_/gameId/760477",
+        "https://en.as.com/soccer/world-cup/new-zealand-vs-belgium-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/"
       ]
     },
     {
@@ -828,6 +831,32 @@
       "sources": []
     },
     {
+      "id": "BEL-trossard",
+      "name_en": "Leandro Trossard",
+      "name_zh": "萊安德羅·特羅薩德",
+      "team": "Belgium",
+      "team_zh": "比利時",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 2,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          65
+        ]
+      },
+      "sources": [
+        "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand",
+        "https://www.espn.com/soccer/report/_/gameId/760477",
+        "https://en.as.com/soccer/world-cup/new-zealand-vs-belgium-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/"
+      ]
+    },
+    {
       "id": "BEL-debruyne",
       "name_en": "Kevin De Bruyne",
       "name_zh": "迪布勞尼",
@@ -840,12 +869,18 @@
       "is_key": true,
       "bio_zh": "比利時中場核心，創造力與傳球視野一流，效力拿玻里後繼續主導球隊節奏，多次入選歐洲最佳陣容。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          65
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand",
+        "https://www.espn.com/soccer/report/_/gameId/760477",
+        "https://en.as.com/soccer/world-cup/new-zealand-vs-belgium-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/"
+      ]
     },
     {
       "id": "BEL-tielemans",
@@ -886,6 +921,32 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "BEL-saelemaekers",
+      "name_en": "Alexis Saelemaekers",
+      "name_zh": "阿萊克西斯·薩埃勒馬克斯",
+      "team": "Belgium",
+      "team_zh": "比利時",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          65
+        ]
+      },
+      "sources": [
+        "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand",
+        "https://www.espn.com/soccer/report/_/gameId/760477",
+        "https://en.as.com/soccer/world-cup/new-zealand-vs-belgium-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/"
+      ]
     },
     {
       "id": "BEL-decuyper",
@@ -1921,17 +1982,17 @@
       "bio_zh": "",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          39
+          39,
+          63
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
-        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
-        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
-        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+        "https://english.ahram.org.eg/NewsContentP/66/571663/World-Cup-/Live-score-Cape-Verde-v-Saudi-Arabia-World-Cup-.aspx",
+        "https://www.espn.co.uk/football/match/_/gameId/760478/saudi-arabia-cape-verde",
+        "https://www.reddit.com/r/soccer/comments/1ugpw6x/post_match_thread_cape_verde_0_0_saudi_arabia/"
       ]
     },
     {
@@ -3436,6 +3497,33 @@
       ]
     },
     {
+      "id": "EGY-saber",
+      "name_en": "Mahmoud Saber",
+      "name_zh": "馬哈茂德·薩貝爾",
+      "team": "Egypt",
+      "team_zh": "埃及",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          66
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760476",
+        "https://en.as.com/soccer/world-cup/egypt-vs-ir-iran-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/?outputType=amp",
+        "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/egypt-vs-ir-iran-2026-06-26",
+        "https://sportstar.thehindu.com/football/fifa-world-cup/egypt-vs-iran-live-score-match-updates-fifa-world-cup-streaming-info/article71153224.ece"
+      ]
+    },
+    {
       "id": "EGY-marwanattia",
       "name_en": "Marwan Attia",
       "name_zh": "馬爾萬·阿提亞",
@@ -3715,15 +3803,18 @@
       "is_key": true,
       "bio_zh": "效力巴黎聖日耳門的速度型翼鋒，突破靈活多變，過人技術令後衛難以應付，是法國進攻的重要利器。",
       "stats": {
-        "goals": 1,
+        "goals": 4,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          42
+          42,
+          62
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://www.espn.com/soccer/report/_/gameId/760475",
+        "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
+        "https://terrikon.com/en/football/matches/156682"
       ]
     },
     {
@@ -3811,11 +3902,43 @@
       "bio_zh": "皇家馬德里防守中場，體能強勁，攔截積極，是法國中路防守體系的重要支柱，傳球組織亦漸趨成熟。",
       "stats": {
         "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          62
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760475",
+        "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
+        "https://terrikon.com/en/football/matches/156682"
+      ]
+    },
+    {
+      "id": "FRA-doue",
+      "name_en": "Désiré Doué",
+      "name_zh": "德西雷·杜埃",
+      "team": "France",
+      "team_zh": "法國",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          62
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760475",
+        "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
+        "https://terrikon.com/en/football/matches/156682"
+      ]
     },
     {
       "id": "FRA-saliba",
@@ -4626,6 +4749,33 @@
       ]
     },
     {
+      "id": "IRN-kanaani",
+      "name_en": "Hossein Kanaani",
+      "name_zh": "侯賽因·卡納尼",
+      "team": "Iran",
+      "team_zh": "伊朗",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          66
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760476",
+        "https://en.as.com/soccer/world-cup/egypt-vs-ir-iran-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/?outputType=amp",
+        "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/egypt-vs-ir-iran-2026-06-26",
+        "https://sportstar.thehindu.com/football/fifa-world-cup/egypt-vs-iran-live-score-match-updates-fifa-world-cup-streaming-info/article71153224.ece"
+      ]
+    },
+    {
       "id": "IRN-rezaeian",
       "name_en": "Ramin Rezaeian",
       "name_zh": "拉明·雷扎伊安",
@@ -4638,17 +4788,19 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          16
+          16,
+          66
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760427",
-        "https://www.skysports.com/football/iran-vs-new-zealand/report/549779",
-        "https://english.ahram.org.eg/NewsContentP/66/570832/World-Cup-/Live-score-Iran-v-New-Zealand--FIFA-World-Cup.aspx"
+        "https://www.espn.com/soccer/report/_/gameId/760476",
+        "https://en.as.com/soccer/world-cup/egypt-vs-ir-iran-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/?outputType=amp",
+        "https://www.beinsports.com/en-mena/football/fifa-world-cup-2026/egypt-vs-ir-iran-2026-06-26",
+        "https://sportstar.thehindu.com/football/fifa-world-cup/egypt-vs-iran-live-score-match-updates-fifa-world-cup-streaming-info/article71153224.ece"
       ]
     },
     {
@@ -4751,14 +4903,18 @@
       "bio_zh": "效力波蘭球會克拉科維亞的中場，技術穩健，是伊拉克中場的重要連接樞紐，覆蓋全場傳球積極。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          42
+          42,
+          61
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
       ]
     },
     {
@@ -4775,11 +4931,45 @@
       "bio_zh": "效力捷克球會比爾森勝利的後衛，庫爾德族裔，是伊拉克後防線中具歐洲聯賽背景的球員。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          61
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
+      ]
+    },
+    {
+      "id": "IRQ-sulaka",
+      "name_en": "Rebin Sulaka",
+      "name_zh": "雷賓·蘇拉卡",
+      "team": "Iraq",
+      "team_zh": "伊拉克",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 1,
+        "matches_with_events": [
+          61
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
+      ]
     },
     {
       "id": "IRQ-tahseen",
@@ -6217,17 +6407,18 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 2,
-        "yellow_cards": 0,
+        "goals": 3,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          16
+          16,
+          65
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760427",
-        "https://www.skysports.com/football/iran-vs-new-zealand/report/549779",
-        "https://english.ahram.org.eg/NewsContentP/66/570832/World-Cup-/Live-score-Iran-v-New-Zealand--FIFA-World-Cup.aspx"
+        "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand",
+        "https://www.espn.com/soccer/report/_/gameId/760477",
+        "https://en.as.com/soccer/world-cup/new-zealand-vs-belgium-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/"
       ]
     },
     {
@@ -6264,11 +6455,17 @@
       "bio_zh": "效力英冠史旺西的年輕中場，技術細膩，是紐西蘭中場新生代的代表人物，控球及傳球能力俱佳。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          65
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://global.espn.com/football/match/_/gameId/760477/belgium-new-zealand",
+        "https://www.espn.com/soccer/report/_/gameId/760477",
+        "https://en.as.com/soccer/world-cup/new-zealand-vs-belgium-live-online-score-stats-goals-updates-world-cup-2026-group-g-f202606-n/"
+      ]
     },
     {
       "id": "NZL-mccowatt",
@@ -6498,6 +6695,58 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "NOR-berg",
+      "name_en": "Patrick Berg",
+      "name_zh": "帕特里克·伯格",
+      "team": "Norway",
+      "team_zh": "挪威",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          62
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760475",
+        "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
+        "https://terrikon.com/en/football/matches/156682"
+      ]
+    },
+    {
+      "id": "NOR-aasgaard",
+      "name_en": "Thelo Aasgaard",
+      "name_zh": "泰洛·奧斯高",
+      "team": "Norway",
+      "team_zh": "挪威",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          62
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760475",
+        "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
+        "https://terrikon.com/en/football/matches/156682"
+      ]
     },
     {
       "id": "NOR-ajer",
@@ -7591,6 +7840,32 @@
       "sources": []
     },
     {
+      "id": "KSA-albrikan",
+      "name_en": "Feras Al-Brikan",
+      "name_zh": "費拉斯·阿爾-布里坎",
+      "team": "Saudi Arabia",
+      "team_zh": "沙烏地阿拉伯",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          63
+        ]
+      },
+      "sources": [
+        "https://english.ahram.org.eg/NewsContentP/66/571663/World-Cup-/Live-score-Cape-Verde-v-Saudi-Arabia-World-Cup-.aspx",
+        "https://www.espn.co.uk/football/match/_/gameId/760478/saudi-arabia-cape-verde",
+        "https://www.reddit.com/r/soccer/comments/1ugpw6x/post_match_thread_cape_verde_0_0_saudi_arabia/"
+      ]
+    },
+    {
       "id": "KSA-aldawsari",
       "name_en": "Salem Al-Dawsari",
       "name_zh": "薩利姆·道薩里",
@@ -7604,14 +7879,17 @@
       "bio_zh": "沙特阿拉伯隊長，2022年世界盃對阿根廷的制勝入球英雄，效力新月持續主導進攻，是球隊當之無愧的領袖。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          37
+          37,
+          63
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/spain-vs-saudi-arabia/549804"
+        "https://english.ahram.org.eg/NewsContentP/66/571663/World-Cup-/Live-score-Cape-Verde-v-Saudi-Arabia-World-Cup-.aspx",
+        "https://www.espn.co.uk/football/match/_/gameId/760478/saudi-arabia-cape-verde",
+        "https://www.reddit.com/r/soccer/comments/1ugpw6x/post_match_thread_cape_verde_0_0_saudi_arabia/"
       ]
     },
     {
@@ -7672,11 +7950,17 @@
       "bio_zh": "效力法甲朗斯的右後衛，是沙特球員中在歐洲頂級聯賽站穩腳跟的代表人物，助攻能力不俗。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          63
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://english.ahram.org.eg/NewsContentP/66/571663/World-Cup-/Live-score-Cape-Verde-v-Saudi-Arabia-World-Cup-.aspx",
+        "https://www.espn.co.uk/football/match/_/gameId/760478/saudi-arabia-cape-verde",
+        "https://www.reddit.com/r/soccer/comments/1ugpw6x/post_match_thread_cape_verde_0_0_saudi_arabia/"
+      ]
     },
     {
       "id": "KSA-alamri",
@@ -8029,6 +8313,33 @@
       ]
     },
     {
+      "id": "SEN-ndiaye",
+      "name_en": "Iliman Ndiaye",
+      "name_zh": "伊利曼·恩迪亞耶",
+      "team": "Senegal",
+      "team_zh": "塞內加爾",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          61
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
+      ]
+    },
+    {
       "id": "SEN-gueye",
       "name_en": "Idrissa Gueye",
       "name_zh": "蓋耶",
@@ -8041,12 +8352,19 @@
       "is_key": true,
       "bio_zh": "效力愛華頓的老將防守中場，攔截積極，具豐富英超及歐洲賽事經驗，是塞內加爾中場的老大哥。",
       "stats": {
-        "goals": 0,
-        "yellow_cards": 0,
+        "goals": 2,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          61
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
+      ]
     },
     {
       "id": "SEN-sarr",
@@ -8061,15 +8379,46 @@
       "is_key": true,
       "bio_zh": "效力熱刺的年輕中場，體能出眾，活動範圍廣，是塞內加爾未來中場的核心接班人，成長速度驚人。",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          43
+          43,
+          61
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
+      ]
+    },
+    {
+      "id": "SEN-diarra",
+      "name_en": "Habib Diarra",
+      "name_zh": "哈比卜·迪亞拉",
+      "team": "Senegal",
+      "team_zh": "塞內加爾",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          61
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
       ]
     },
     {
@@ -8091,6 +8440,33 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "SEN-seck",
+      "name_en": "Abdoulaye Seck",
+      "name_zh": "阿布杜拉耶·塞克",
+      "team": "Senegal",
+      "team_zh": "塞內加爾",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          61
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/senegal-vs-iraq/549830",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571660",
+        "https://www.reddit.com/r/soccer/comments/1ugj1wq/post_match_thread_senegal_5_0_iraq_fifa_world_cup/",
+        "https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal"
+      ]
     },
     {
       "id": "SEN-mendy",
@@ -8798,6 +9174,32 @@
         "https://worldcuplocaltime.com/match/spain-cape-verde-islands-2026-06-15/",
         "https://www.espn.com/soccer/match/_/gameId/760428",
         "https://www.skysports.com/football/spain-vs-cape-verde/549778"
+      ]
+    },
+    {
+      "id": "ESP-baena",
+      "name_en": "Álex Baena",
+      "name_zh": "阿萊克斯·巴埃納",
+      "team": "Spain",
+      "team_zh": "西班牙",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          64
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/uruguay-vs-spain/report/549829",
+        "https://www.espn.com/soccer/report/_/gameId/760479",
+        "https://www.sportingnews.com/uk/football/news/uruguay-vs-spain-world-cup-live-score-result-highlights/5d32b12f950c9de3990c06e8"
       ]
     },
     {
@@ -10054,16 +10456,42 @@
       "stats": {
         "goals": 1,
         "yellow_cards": 0,
-        "red_cards": 0,
+        "red_cards": 1,
         "matches_with_events": [
-          39
+          39,
+          64
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay",
-        "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
-        "https://english.ahram.org.eg/WorldCup2026/Article/571263",
-        "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+        "https://www.skysports.com/football/uruguay-vs-spain/report/549829",
+        "https://www.espn.com/soccer/report/_/gameId/760479",
+        "https://www.sportingnews.com/uk/football/news/uruguay-vs-spain-world-cup-live-score-result-highlights/5d32b12f950c9de3990c06e8"
+      ]
+    },
+    {
+      "id": "URU-sanabria",
+      "name_en": "Juan Sanabria",
+      "name_zh": "胡安·薩納夫里亞",
+      "team": "Uruguay",
+      "team_zh": "烏拉圭",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          64
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/uruguay-vs-spain/report/549829",
+        "https://www.espn.com/soccer/report/_/gameId/760479",
+        "https://www.sportingnews.com/uk/football/news/uruguay-vs-spain-world-cup-live-score-result-highlights/5d32b12f950c9de3990c06e8"
       ]
     },
     {
@@ -10204,6 +10632,32 @@
         "https://www.skysports.com/football/uruguay-vs-cape-verde/stats/549805",
         "https://english.ahram.org.eg/WorldCup2026/Article/571263",
         "https://heavy.com/sports/soccer/world-cup/uruguay-vs-cape-verde-results-today-fifa-world-cup-2026-live-score-updates-stats/"
+      ]
+    },
+    {
+      "id": "URU-varela",
+      "name_en": "Guillermo Varela",
+      "name_zh": "吉列爾莫·瓦雷拉",
+      "team": "Uruguay",
+      "team_zh": "烏拉圭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          64
+        ]
+      },
+      "sources": [
+        "https://www.skysports.com/football/uruguay-vs-spain/report/549829",
+        "https://www.espn.com/soccer/report/_/gameId/760479",
+        "https://www.sportingnews.com/uk/football/news/uruguay-vs-spain-world-cup-live-score-result-highlights/5d32b12f950c9de3990c06e8"
       ]
     },
     {

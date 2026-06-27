@@ -1,0 +1,442 @@
+{
+  "match": 69,
+  "stage": "Group K",
+  "home": "Colombia",
+  "away": "Portugal",
+  "kickoff_utc": "2026-06-27T23:30:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.32,
+      "draw": 0.3,
+      "away": 0.38
+    },
+    "confidence": 0.52,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "葡萄牙奪小組第一",
+        "scoreline": "1:2",
+        "outcome": "葡萄牙7分奪小組首名，哥倫比亞6分屈居第二",
+        "confidence": 0.38,
+        "basis": "C朗拿度MD2雙響後士氣高漲，Bruno Fernandes配合默契，Martinez調整後4-3-3攻守更平衡；葡萄牙有奪首名的明確動力"
+      },
+      {
+        "name": "哥倫比亞守平保首名",
+        "scoreline": "1:1",
+        "outcome": "哥倫比亞6分保持首名，葡萄牙5分第二",
+        "confidence": 0.3,
+        "basis": "哥倫比亞主導全組賽事，Luis Díaz拜仁慕尼黑移籍後狀態極佳，平局即可確保組首"
+      },
+      {
+        "name": "哥倫比亞主勝",
+        "scoreline": "2:1",
+        "outcome": "哥倫比亞7分組首，葡萄牙4分第二",
+        "confidence": 0.2,
+        "basis": "哥倫比亞主場效應（邁阿密球迷）、James Rodriguez創造力、Suarez前鋒配合有機會"
+      },
+      {
+        "name": "大比分進攻對決",
+        "scoreline": "2:2",
+        "outcome": "平局各取一分，葡萄牙仍第二出線",
+        "confidence": 0.12,
+        "basis": "兩隊均強攻，C朗Messi記錄競爭等因素可能製造開放局面"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.32,
+          "draw": 0.32,
+          "away": 0.36
+        },
+        "scoreline": "1:1",
+        "note": "Opta超電腦25,000次模擬：葡萄牙奪組首51.6%概率，但哥倫比亞阻止的可能性亦高；三向機率均衡"
+      },
+      {
+        "source": "Toffeeweb 分析",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.3,
+          "away": 0.35
+        },
+        "scoreline": "1:1",
+        "note": "X2（平或葡勝）為推薦選項；葡萄牙過去5場1勝4平，難以擊敗，哥倫比亞有2敗紀錄"
+      },
+      {
+        "source": "VegasOdds/Repcet 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.28,
+          "away": 0.37
+        },
+        "scoreline": "1:2",
+        "note": "VegasOdds分析：葡萄牙防守紀錄優秀（5場均0失球），攻守平衡後市場略偏葡萄牙"
+      },
+      {
+        "source": "Ladbrokes 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.28,
+          "away": 0.37
+        },
+        "scoreline": "1:1",
+        "note": "葡萄牙略微市場favourite，X2選項為市場推薦，首次對決無頭對頭歷史參考"
+      }
+    ]
+  },
+  "reasoning": {
+    "summary": "Group K第三輪爭組首之戰：哥倫比亞6分領先已確認出線，平局即保組首；葡萄牙4分需勝出才能超越對手奪首名，否則屈居第二（仍幾乎確定出線）。Opta超電腦模擬51.6%概率葡萄牙奪首名，兩隊進攻均強。C朗拿度MD2雙響後高昂士氣，Díaz拜仁慕尼黑狀態極佳，首次對決充滿未知數。賽場在邁阿密，哥倫比亞球迷多，事實上類似主場效應。",
+    "key_factors": [
+      "球員狀態：C朗拿度MD2（vs烏茲別克）雙響後狀態回升，成為唯一在六屆世界盃進球球員；Luis Díaz移籍拜仁後備受稱讚；Bruno Fernandes助攻配合C朗；James Rodriguez哥倫比亞創造力核心，Ruben Dias可能回歸後衛",
+      "傷停：哥倫比亞無重大傷停報告，全員可用；葡萄牙Ruben Dias MD1休息後預計復位強化後防，Bernardo Silva MD1被提前換出但無大礙",
+      "近況/積分：哥倫比亞W2D0L0（6分，GD+3）：勝烏茲別克3:1、勝剛果金1:0；葡萄牙W1D1（4分，GD+5）：平剛果金1:1、大勝烏茲別克5:0；兩隊均確認出線，只爭首名",
+      "戰術對位：哥倫比亞4-3-3 Díaz+Rodríguez+Suárez前場組合 vs 葡萄牙4-2-3-1 C朗拿度為中鋒、Bruno Fernandes進攻中場；葡萄牙Vitinha/Joao Neves中場控球，哥倫比亞全隊壓前",
+      "主客場/場地：Hard Rock Stadium（邁阿密），哥倫比亞球迷眾多，近似主場優勢；但官方中性場地",
+      "輿論共識：Opta模型略偏葡萄牙奪首名（51.6%）；Toffeeweb推薦X2（和或葡勝）；分析師普遍認為平局最均衡結果；市場三向機率極接近"
+    ],
+    "consensus_lean": "away",
+    "dissent": "哥倫比亞在CONMEBOL的整體實力被部分評論員低估，James Rodriguez和Díaz的結合可以直接擊敗葡萄牙；Repcet模型指出哥倫比亞主場效應+全員可用是重要因素；部分分析師（SportPesa, Blog）預測哥倫比亞1:0勝出，認為本土球迷壓力是決定性因素"
+  },
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA Group K Wikipedia Standings",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer Colombia vs Portugal",
+      "url": "https://theanalyst.com/articles/colombia-vs-portugal-prediction-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Toffeeweb Colombia vs Portugal Predictions",
+      "url": "https://www.toffeeweb.com/colombia-vs-portugal-predictions-picks-odds-"
+    },
+    {
+      "type": "media",
+      "name": "VegasOdds Colombia vs Portugal Preview",
+      "url": "https://www.vegasodds.com/predictions/soccer/2026-world-cup-group-k-colombia-portugal/"
+    },
+    {
+      "type": "model",
+      "name": "Repcet Colombia Portugal Win Probability",
+      "url": "https://repcet.com/world-cup/colombia-portugal-27062026.html"
+    },
+    {
+      "type": "media",
+      "name": "Mightytips Colombia vs Portugal Prediction",
+      "url": "https://www.mightytips.com/football-predictions/colombia-vs-portugal-p"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com Colombia vs Portugal Prediction",
+      "url": "https://www.goal.com/en-za/betting/world-cup/colombia-vs-portugal-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes Portugal vs Colombia World Cup Preview",
+      "url": "https://www.ladbrokes.com/en/news/portugal-vs-colombia-world-cup-previ"
+    },
+    {
+      "type": "media",
+      "name": "SportPesa Colombia vs Portugal Prediction",
+      "url": "https://blog.sportpesa.com/2026/06/25/colombia-vs-portugal-prediction-"
+    },
+    {
+      "type": "media",
+      "name": "TotalFootballAnalysis Colombia vs Portugal",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/colombia-vs-portugal"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Portugal vs Colombia Prediction",
+      "url": "https://sports.yahoo.com/articles/portugal-vs-colombia-predictions-pic"
+    },
+    {
+      "type": "media",
+      "name": "TonyBet Colombia vs Portugal Prediction",
+      "url": "https://blog.tonybet.com/ca/predictions/colombia-vs-portugal-prediction"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Colombia Group K Lineups",
+      "url": "https://www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis-d"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Colombia WC2026 Roster",
+      "url": "https://www.sportingnews.com/us/soccer/news/colombia-world-cup-roster-"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Colombia DR Congo Lineups",
+      "url": "https://www.sportingnews.com/in/football/news/colombia-dr-congo-lineup"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Colombia vs Uzbekistan MD2",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Portugal vs DR Congo MD1",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760435/congo-dr-portugal"
+    },
+    {
+      "type": "media",
+      "name": "StraitsTimes Colombia Coach Wary of Portugal",
+      "url": "https://www.straitstimes.com/sport/football/colombia-coach-wary-of-por"
+    },
+    {
+      "type": "media",
+      "name": "Independent Group K Portugal Colombia",
+      "url": "https://www.independent.co.uk/sport/football/world-cup-2026-group-k-po"
+    },
+    {
+      "type": "media",
+      "name": "FlashScore Portugal Martínez Press Conf",
+      "url": "https://www.flashscore.com/news/soccer-world-cup-portugal-boss-martine"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports Portugal WC2026 Roster",
+      "url": "https://sports.yahoo.com/articles/inside-portugals-world-cup-roster-06"
+    },
+    {
+      "type": "media",
+      "name": "MundialPlayerTracker Colombia vs Portugal",
+      "url": "https://mundialplayertracker.com/insights/colombia-vs-portugal-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "2026FootballNews Group K Schedule",
+      "url": "https://2026footballnews.com/matches/group-k"
+    },
+    {
+      "type": "media",
+      "name": "SkySports Group K Preview",
+      "url": "https://www.skysports.com/football/news/12040/13543106/world-cup-2026-"
+    },
+    {
+      "type": "media",
+      "name": "AS.com Group K Standings",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-k-standings-re"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Group K Standings",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-k-standings"
+    },
+    {
+      "type": "media",
+      "name": "Futbol24 Colombia vs Portugal",
+      "url": "https://www.futbol24.com/betting-tips/preview/28-06-2026-colombia-portugal/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Cristiano Ronaldo Not Starting",
+      "url": "https://www.espn.com/soccer/story/_/id/48257794/cristiano-ronaldo-not-"
+    },
+    {
+      "type": "media",
+      "name": "BusinessStandard Portugal vs Colombia WC",
+      "url": "https://www.business-standard.com/amp/sports/fifa-world-cup/fifa-wc-po"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Colombia vs Portugal WC 2026",
+      "url": "https://www.youtube.com/watch?v=gl0g2k77e1g"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Portugal Colombia Live",
+      "url": "https://www.youtube.com/watch?v=EQqzmbR1H1g"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Group K Standings",
+      "url": "https://www.espn.com/soccer/story/_/id/47108758/2026-fifa-world-cup-fo"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Spain Colombia vs Portugal",
+      "url": "https://www.sportingnews.com/in/football/news/colombia-world-cup-roster-"
+    },
+    {
+      "type": "social",
+      "name": "Instagram Group K Standings Update",
+      "url": "https://www.instagram.com/p/DZ9JMi5m8zx/"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com Portugal vs Colombia",
+      "url": "https://www.covers.com/world-cup/portugal-vs-colombia-prediction-picks"
+    },
+    {
+      "type": "media",
+      "name": "SportGambler Colombia vs Portugal",
+      "url": "https://www.sportsgambler.com/betting-tips/football/colombia-vs-portug"
+    },
+    {
+      "type": "media",
+      "name": "RG.org Portugal WC2026",
+      "url": "https://rg.org/en-ca/sportsbooks/world-cup-2026/portugal"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports WC Knockout Standings",
+      "url": "https://sports.yahoo.com/articles/world-cup-2026-knockout-round-120000"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Colombia Group K MD2 Coverage",
+      "url": "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-li"
+    },
+    {
+      "type": "media",
+      "name": "Guardian Colombia vs Portugal WC",
+      "url": "https://www.theguardian.com/football/match/2026/jun/18/uzbekistan-v-co"
+    },
+    {
+      "type": "media",
+      "name": "OddsGPT Colombia Portugal",
+      "url": "https://www.oddsgpt.com/predictions/football/1489418/Colombia-vs-Portug"
+    }
+  ],
+  "source_count": 40,
+  "run_id": "2026-06-27T0500Z",
+  "run_timestamp": "2026-06-27T05:00:00Z",
+  "kickoff_hkt": "2026-06-28 07:30",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "哥倫比亞主場強勢，但葡萄牙攻守均衡，難分勝負。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "葡萄牙陣容深度更勝一籌，預計能小勝哥倫比亞。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:1",
+      "note": "哥倫比亞主場頑強，葡萄牙實力略佔優，料和局收場。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.25,
+        "away": 0.47
+      },
+      "scoreline": "1:2",
+      "note": "葡萄牙攻擊火力更全面，小勝哥倫比亞。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.3,
+        "away": 0.42
+      },
+      "scoreline": "1:2",
+      "note": "葡萄牙陣容深度佔優，預計能在激烈對抗中險勝哥倫比亞。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.29,
+        "draw": 0.31,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "葡萄牙陣容強勁，客場預計小勝哥倫比亞。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "實力相當，雙方穩健求和，小機率分出勝負。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.299,
+      "draw": 0.307,
+      "away": 0.394
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-27T054602Z"
+}
