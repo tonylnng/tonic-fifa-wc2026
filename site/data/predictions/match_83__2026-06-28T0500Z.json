@@ -1,0 +1,464 @@
+{
+  "match": 83,
+  "home": "Portugal",
+  "away": "Croatia",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-07-02T23:00:00Z",
+  "kickoff_hkt": "2026-07-03 07:00",
+  "venue": "BMO Field, Toronto",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "run_timestamp": "2026-06-28T0500Z",
+  "source_count": 32,
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA 2026 K組維基百科",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_K"
+    },
+    {
+      "type": "official",
+      "name": "FIFA 2026 L組維基百科",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_L"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 哥倫比亞0-0葡萄牙，葡萄牙K組第二",
+      "url": "https://www.aljazeera.com/sports/2026/6/28/colombia-wins-world-cup-2026-group-after-breathless-0-0-draw-with-portugal"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 哥倫比亞 vs 葡萄牙最終比賽報導",
+      "url": "https://www.espn.com/soccer/story/_/id/49202549/colombia-portugal-2026-world-cup-group-stage-knockout"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports 葡萄牙K組第二，迎戰克羅埃西亞",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-colombia-wins-group-k-thanks-to-portugal-draw-as-dr-congo-also-advances-015100806.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 葡萄牙1-1剛果DR開幕戰",
+      "url": "https://www.espn.com/soccer/story/_/id/49096146/portugal-dr-congo-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 葡萄牙5-0烏茲別克 C朗雙響",
+      "url": "https://www.espn.com/soccer/story/_/id/49153993/portugal-uzbekistan-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports 克羅埃西亞2-1迦納最終小組賽",
+      "url": "https://www.skysports.com/football/news/12098/13556699/world-cup-2026-croatia-x-x-ghana"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports L組：英格蘭第一，克羅埃西亞第二晉級",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-group-l-england-reigns-croatia-and-ghana-advance-234026991.html"
+    },
+    {
+      "type": "media",
+      "name": "WorldCup.org.uk L組完整成績",
+      "url": "https://www.worldcup.org.uk/football/2026/groups/GroupL.shtml"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 葡萄牙 vs 克羅埃西亞 R32 專家預測",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-bracket-predictions-2026-expert-picks/99f6a4b4205c8dae2ce539cb"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports R32 預測：葡萄牙1-1克羅埃西亞（克點球勝）",
+      "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-round-of-32-confirmed-schedule-predictions-for-knockout-round"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports 賽前完整預測：葡萄牙2-0克羅埃西亞",
+      "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-predictions-picking-every-game-usmnt-messi-ronaldo-france-champions/"
+    },
+    {
+      "type": "betting",
+      "name": "FOX Sports 葡萄牙 vs 克羅埃西亞盤口",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-portugal-vs-croatia-jul-02-2026-game-boxscore-607914"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds 葡萄牙 vs 克羅埃西亞",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760496"
+    },
+    {
+      "type": "model",
+      "name": "Dimers 葡萄牙 vs 克羅埃西亞預測（53%葡）",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_4_por_cro"
+    },
+    {
+      "type": "model",
+      "name": "Kalshi 預測市場（葡萄牙晉級66%）",
+      "url": "https://kalshi.com/markets/kxwcadvance/world-cup-advance/kxwcadvance-26jul02porcro"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 每隊分析：葡萄牙（Opta 6.2%奪冠）",
+      "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-moscow-spain-brazil-england-argentina-germany-france"
+    },
+    {
+      "type": "media",
+      "name": "Opta Analyst 世界盃點球大戰事實",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF 點球大戰統計（葡萄牙1勝0負WC；克羅埃西亞4勝0負WC）",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo 世界盃點球紀錄（葡萄牙8場5勝3負）",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar 克羅埃西亞世界盃點球紀錄（4場4勝）",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/news/croatia-penalty-shootout-record-fifa-world-cup-record-stats-cro-vs-bra/article66236349.ece"
+    },
+    {
+      "type": "media",
+      "name": "Marca 克羅埃西亞點球傳奇繼續（2022）",
+      "url": "https://www.marca.com/en/world-cup/2022/12/09/639395ed268e3ef7418b45ee.html"
+    },
+    {
+      "type": "media",
+      "name": "UEFA 歐洲盃點球統計（葡萄牙4勝；克羅埃西亞1負）",
+      "url": "https://www.uefa.com/uefaeuro/history/news/025f-0fe8a7a67576-7d8e686e8b30-1000--euro-penalty-shoot-out-records-by-national-team/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 世界盃傷兵追蹤（C朗等）",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "ESPN BBC 莫德里奇頸骨骨折恢復情況",
+      "url": "https://www.espn.com/soccer/story/_/id/48807700/luka-modric-set-5th-world-cup-part-croatia-squad"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 哥倫比亞 vs 葡萄牙預測及賽前分析",
+      "url": "https://www.aljazeera.com/sports/2026/6/27/colombia-portugal-fifa-world-cup-2026-schedule-ronaldo-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Bleacher Report 葡萄牙 vs 哥倫比亞統計與小組賽結果",
+      "url": "https://bleacherreport.com/articles/25447305-ronaldo-portugal-draw-vs-colombia-final-match-stats-highlights-world-cup-group-k-scenarios"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian 葡萄牙克羅埃西亞賽前評析",
+      "url": "https://www.theguardian.com/football/2026/jun/28/colombia-portugal-world-cup-group-k-match-report"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar 葡萄牙世界盃點球紀錄（2006英格蘭）",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/news/portugal-in-penalty-shootouts-fifa-world-cup-qatar-2022-records-stats-more-vs-por/article66238268.ece"
+    },
+    {
+      "type": "media",
+      "name": "Opta Supercomputer 奪冠機率（葡萄牙7%，克羅埃西亞1.6%）",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube 葡萄牙 vs 克羅埃西亞 R32比分預測視頻",
+      "url": "https://www.youtube.com/watch?v=PpXKZmX2aKs"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.48,
+      "draw": 0.25,
+      "away": 0.27
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "葡萄牙正常發揮推進",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.3,
+        "basis": "費爾南德斯、席爾瓦、尼維斯中場掌控，C朗在關鍵時刻出手，葡萄牙推進16強"
+      },
+      {
+        "name": "克羅埃西亞防守反擊爆冷",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.18,
+        "basis": "克羅埃西亞重現2018精神，弗拉希奇或布迪米爾致命一擊"
+      },
+      {
+        "name": "點球大戰決勝（最戲劇性）",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.22,
+        "basis": "雙方90分鐘戰平後，克羅埃西亞強大點球傳統拿下晉級資格"
+      },
+      {
+        "name": "葡萄牙壓制大勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.15,
+        "basis": "葡萄牙中場天才全面壓制，克羅埃西亞衰老中前場疲態暴露"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.53,
+          "draw": 0.249,
+          "away": 0.22
+        },
+        "scoreline": "1:0（葡萄牙）",
+        "note": "葡53%最高勝率，最可能比分克0-1葡萄牙，預計低比分博弈"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.53,
+          "draw": 0.28,
+          "away": 0.2
+        },
+        "note": "葡萄牙正規時間勝53%（Reg Time），晉級市場葡66%、克34%"
+      },
+      {
+        "source": "ESPN 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.46,
+          "draw": 0.27,
+          "away": 0.27
+        },
+        "note": "葡萄牙ML -110，克羅埃西亞+370，平局+250；Odds非常接近"
+      },
+      {
+        "source": "Sporting News / NBC 專家預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.25,
+          "away": 0.25
+        },
+        "scoreline": "2:1（葡）或點球克羅埃西亞",
+        "note": "SN預測葡2-1，NBC預測1-1後克點球勝；意見最為分歧的一場"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.25,
+      "extra_time_prob": 0.17,
+      "shootout_prob": 0.1,
+      "advance_prob": {
+        "home": 0.58,
+        "away": 0.42
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 5,
+          "won": 3,
+          "win_rate": 0.6,
+          "conversion_rate": 0.71,
+          "recent": "2024歐國盃：16強3-0勝斯洛維尼亞，四強0-3(5)負法國；2016歐國盃：四強5-3勝波蘭；2006世界盃：四強3-1勝英格蘭",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://www.uefa.com/uefaeuro/history/news/025f-0fe8a7a67576-7d8e686e8b30-1000--euro-penalty-shoot-out-records-by-national-team/",
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+          ]
+        },
+        "away": {
+          "shootouts": 4,
+          "won": 4,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "2022世界盃：16強3-1勝日本、四強4-2勝巴西；2018世界盃：16強3-2勝丹麥、四強4-3勝俄羅斯；世界盃點球戰績4戰全勝",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://sportstar.thehindu.com/football/fifa-world-cup/news/croatia-penalty-shootout-record-fifa-world-cup-record-stats-cro-vs-bra/article66236349.ece",
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "葡萄牙擁有世界上最優秀的中場組合，費爾南德斯、貝爾納多席爾瓦、若昂尼維斯均技術過硬，2024歐國盃16強點球3-0勝斯洛維尼亞，但四強被法國淘汰；C朗雖41歲仍是精神領袖，點球經驗豐富（4屆歐洲盃5罰全中）",
+        "away": "克羅埃西亞在世界盃點球大戰是最可怕的球隊之一：4場4勝，100%勝率，與德國並列世界盃點球最高勝率；莫德里奇顴骨骨折已恢復，40歲仍出賽，弗拉希奇2022曾單場兩罰全中；門將利瓦科維奇有出色撲點記錄"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "C朗 Cristiano Ronaldo",
+          "record": "歐洲盃點球大戰4屆5罰全中，2024歐國盃16強、四強均命中，點球心理強大"
+        },
+        {
+          "team": "home",
+          "name_zh": "費爾南德斯 Bruno Fernandes",
+          "record": "2024歐國盃16強命中，但俱樂部賽季偶有失誤"
+        },
+        {
+          "team": "home",
+          "name_zh": "貝爾納多席爾瓦 Bernardo Silva",
+          "record": "2024歐國盃四強命中，技術穩定"
+        },
+        {
+          "team": "away",
+          "name_zh": "弗拉希奇 Nikola Vlašić",
+          "record": "2022世界盃四強對巴西兩罰全中，本屆小組賽最後時刻打入致勝頭球"
+        },
+        {
+          "team": "away",
+          "name_zh": "莫德里奇 Luka Modrić",
+          "record": "2018世界盃16強、四強共3罰全中，世界盃點球大戰最多命中紀錄保持者（3球）"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "這是本組點球維度最關鍵的比賽。克羅埃西亞世界盃點球4戰4勝（100%）是世界上最恐怖的記錄之一；葡萄牙整體點球戰績不差（5勝3負，71%命中率），C朗是點球主罰絕對可靠。若進入點球，克羅埃西亞心理優勢及利瓦科維奇的撲救能力是決定性因素。NBC Sports 預測葡克戰後點球克羅埃西亞晉級，這一場景機率達10%，且一旦發生克羅埃西亞極可能獲勝。"
+    }
+  },
+  "reasoning": {
+    "summary": "葡萄牙K組第二（5分，1勝2平：1-1、5-0、0-0），進攻能力整體未達預期，C朗對哥倫比亞一無所得被批評；克羅埃西亞L組第二（6分，2勝1負：2-4、1-0、2-1），表現穩定，莫德里奇40歲仍助攻制勝。點球維度克羅埃西亞極具威脅。輿論預測接近平分，葡萄牙博彩微幅領先。",
+    "key_factors": [
+      "球員狀態：C朗對哥倫比亞無甚作為被批評效率低；費爾南德斯、尼維斯中場整體良好；克羅埃西亞莫德里奇40歲仍助攻，弗拉希奇本屆打入致勝頭球",
+      "傷停：莫德里奇顴骨骨折賽季提前結束但世界盃已康復；葡萄牙無大型傷情，C朗41歲體力管理是隱憂",
+      "近況：葡萄牙3場1勝2平、5進1失，進攻起伏不定；克羅埃西亞2勝1負（負4-2英格蘭是最大挫折，之後1-0、2-1穩固），防守組織性強",
+      "戰術：葡萄牙4-3-3以費爾南德斯、席爾瓦、尼維斯組成強大中場核心；克羅埃西亞4-3-3老練體系，莫德里奇、科瓦契奇、布羅佐維奇傳控與反擊",
+      "場地：BMO Field（多倫多），中立場地，氣候涼爽，對克羅埃西亞歐洲球員體能更友好",
+      "輿論共識：Dimers(53%葡)、Kalshi(66%葡萄牙晉級)、SN預測葡2-1；NBC預測克點球勝；FOX Sports+123/-111幾乎平手；最接近的一場"
+    ],
+    "consensus_lean": "home",
+    "dissent": "NBC Sports 明確預測克羅埃西亞點球勝；克羅埃西亞2022半決賽精神+世界盃100%點球傳統讓很多分析師認為若比賽拖入加時，克羅埃西亞是更危險的一方。葡萄牙整體表現低於預期，且在高壓賽事中（對哥倫比亞0-0）顯示進攻短板。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙進攻火力強，克羅埃西亞老化防線難擋。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙陣容深度較佳，有望憑藉經驗小勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "葡萄牙新生代崛起，克羅埃西亞青黃不接，主勝可期。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.27,
+        "away": 0.26
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙進攻火力更勝一籌，小勝克羅埃西亞"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.28,
+        "away": 0.17
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙陣容與火力佔優，克羅埃西亞面臨換血，預計主隊小勝晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.54,
+        "draw": 0.27,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙實力占優，主場優勢下預計小勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙進攻火力強，克羅埃西亞難以抵禦。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.517,
+      "draw": 0.262,
+      "away": 0.221
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T064905Z"
+}

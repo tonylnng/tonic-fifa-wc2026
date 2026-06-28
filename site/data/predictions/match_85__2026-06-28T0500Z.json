@@ -1,0 +1,441 @@
+{
+  "match": 85,
+  "home": "Switzerland",
+  "away": "Algeria",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-07-03T03:00:00Z",
+  "kickoff_hkt": "2026-07-03 11:00",
+  "venue": "BC Place, Vancouver",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "run_timestamp": "2026-06-28T0500Z",
+  "source_count": 27,
+  "sources": [
+    {
+      "type": "media",
+      "name": "Yahoo Sports — Switzerland Algeria meet Thursday in Vancouver",
+      "url": "https://ca.sports.yahoo.com/news/switzerland-algeria-meet-thursday-world-043147169.html"
+    },
+    {
+      "type": "media",
+      "name": "Fox Sports — Switzerland vs Algeria Odds",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-algeria-jul-02-2026-game-boxscore-607913?tab=odds"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Form and Head to Head Stats Switzerland vs Algeria",
+      "url": "https://www.skysports.com/football/switzerland-vs-algeria/549848"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — World Cup Round of 32 Expert Picks Switzerland 2-0 Algeria",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-bracket-predictions-2026-expert-picks/99f6a4b4205c8dae2ce539cb"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore — Switzerland top Group B narrow win over Canada",
+      "url": "https://www.flashscore.com/news/soccer-world-cup-switzerland-canada-reportjune-24-2026/8ziJpADj/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Switzerland 2-1 Canada Final Score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760463/canada-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Switzerland 4-1 Bosnia Manzambi brace Report",
+      "url": "https://www.skysports.com/football/switzerland-vs-bos-and-herz/report/549791"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Qatar 1-1 Switzerland Embolo Penalty",
+      "url": "https://www.skysports.com/football/news/13552622/world-cup-2026-qatar-1-1-switzerland-breel-embolo-penalty-cancelled-out-by-late-boualem-khoukhi-leveller"
+    },
+    {
+      "type": "media",
+      "name": "UEFA — Switzerland at the World Cup 2026 Group B Winners",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d1595c1b77-996be0df685e-1000--switzerland-at-the-world-cup-2026-squad-fixtures-group-a/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Algeria Austria 3-3 Match Analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760484"
+    },
+    {
+      "type": "media",
+      "name": "AP News — Algeria Austria 3-3 World Cup Report",
+      "url": "https://apnews.com/article/algeria-austria-world-cup-soccer-football-score-6106ea578a51212df4d5f3b326797de6"
+    },
+    {
+      "type": "media",
+      "name": "The National — Mahrez Goals Send Algeria Through",
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/28/riyad-mahrez-goals-send-algeria-through-to-world-cup-round-of-32/"
+    },
+    {
+      "type": "media",
+      "name": "BBC — Luca Zidane Mahrez Algeria Finals Squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62rjrpmj4po"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore — Mahrez headlines Algeria squad Bentaleb recall",
+      "url": "https://www.flashscore.com/news/soccer-world-championship-mahrez-headlines-final-algeria-squad-for-world-cup-as-bentaleb-earns-recall/C0kFD7jB/"
+    },
+    {
+      "type": "media",
+      "name": "devdiscourse — Switzerland picks fit-again Amdouni World Cup squad",
+      "url": "https://www.devdiscourse.com/article/sports-games/3914536-switzerland-picks-fit-again-forward-zeki-amdouni-in-world-cup-squad-led-by-granit-xhaka"
+    },
+    {
+      "type": "media",
+      "name": "BBC — Xhaka makes fourth Switzerland World Cup squad",
+      "url": "https://www.bbc.com/sport/football/articles/cqlp4d52eg3o"
+    },
+    {
+      "type": "media",
+      "name": "World Soccer Talk — Switzerland 2026 World Cup preview",
+      "url": "https://worldsoccertalk.com/world-cup/switzerland-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+    },
+    {
+      "type": "media",
+      "name": "Africa Top Sports — 2026 FIFA World Cup Round of 32 Fixtures Confirmed",
+      "url": "https://en.africatopsports.com/2026-fifa-world-cup-round-of-32-fixtures-confirmed/"
+    },
+    {
+      "type": "betting",
+      "name": "Fox Sports 盤口 — Switzerland vs Algeria",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-switzerland-vs-algeria-jul-02-2026-game-boxscore-607913?tab=odds"
+    },
+    {
+      "type": "betting",
+      "name": "CBS Sports — Switzerland odds futures best bets",
+      "url": "https://www.cbssports.com/betting/news/world-cup-2026-odds-futures-why-switzerland-can-be-this-tournaments-dark-horse-contender/"
+    },
+    {
+      "type": "model",
+      "name": "Dimers — Algeria vs Austria win probabilities (組內)",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_3_alg_aut"
+    },
+    {
+      "type": "model",
+      "name": "KickOracle — Algeria vs Switzerland AI probability 45% SUI",
+      "url": "https://kickoracle.com/en/compare/algeria-vs-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "EU-Football — Switzerland vs Algeria H2H",
+      "url": "https://eu-football.info/_matches.php?id=194&oppo=6"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — World Cup 2026 Penalty Records Every Nation",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF — Penalty Shootout Stats Major Tournaments",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "media",
+      "name": "UEFA — EURO Penalty Records Switzerland Spain",
+      "url": "https://www.uefa.com/uefaeuro/history/news/025f-0fe8a7a67576-7d8e686e8b30-1000--euro-penalty-shoot-outs/"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — 2026 FIFA World Cup Group J Final Standings",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.56,
+      "draw": 0.22,
+      "away": 0.22
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "瑞士穩定推進常規時間獲勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.62,
+        "basis": "謝卡指揮中場、馬奇贊比進球效率高，阿爾及利亞防守存在漏洞，瑞士主場氛圍下發揮穩定"
+      },
+      {
+        "name": "馬赫雷斯再度發揮奇效拖平",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.14,
+        "basis": "馬赫雷斯本屆2球，可利用瑞士後防邊路空間，比賽若進入加時/點球瑞士點球歷史極差"
+      },
+      {
+        "name": "阿爾及利亞爆冷",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.18,
+        "basis": "馬赫雷斯領銜攻勢加上阿爾及利亞連場越戰越勇，瑞士近年缺乏真正前鋒若進攻失效易陷被動"
+      },
+      {
+        "name": "平局進入加時點球",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.08,
+        "basis": "若比賽陷入膠著進入加時，瑞士點球歷史極差（6場1勝5負），但阿爾及利亞亦非點球佳手"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Fox Sports 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.57,
+          "draw": 0.26,
+          "away": 0.17
+        },
+        "scoreline": null,
+        "note": "瑞士獨贏賠率 -157，阿爾及利亞 +463，平局 +277，市場看好瑞士但差距不算懸殊"
+      },
+      {
+        "source": "KickOracle AI 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.45,
+          "draw": 0.17,
+          "away": 0.38
+        },
+        "scoreline": null,
+        "note": "AI模型瑞士45%、阿爾及利亞38%，差距最小，反映兩隊實力接近"
+      },
+      {
+        "source": "Sporting News 專家預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.65,
+          "draw": 0.18,
+          "away": 0.17
+        },
+        "scoreline": "2:0",
+        "note": "SN預測瑞士2-0擊敗阿爾及利亞，稱阿爾及利亞勇氣可嘉但瑞士質量更高"
+      },
+      {
+        "source": "ESPN Elo評分模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.22,
+          "away": 0.23
+        },
+        "scoreline": null,
+        "note": "ESPN Elo評分：瑞士1781（第16），阿爾及利亞1659（第33），差距有限但瑞士偏優"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.22,
+      "extra_time_prob": 0.14,
+      "shootout_prob": 0.08,
+      "advance_prob": {
+        "home": 0.72,
+        "away": 0.28
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 6,
+          "won": 1,
+          "win_rate": 0.167,
+          "conversion_rate": null,
+          "recent": "瑞士點球大戰歷史極差：6場只勝1場（2021歐國盃勝法國），輸過烏克蘭2006、波蘭2016、西班牙2021、英格蘭2024，是此次備戰最大隱患",
+          "sources": [
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://www.uefa.com/uefaeuro/history/news/025f-0fe8a7a67576-7d8e686e8b30-1000--euro-penalty-shoot-outs/"
+          ]
+        },
+        "away": {
+          "shootouts": 9,
+          "won": 4,
+          "win_rate": 0.444,
+          "conversion_rate": null,
+          "recent": "阿爾及利亞9場點球4勝5負，近3場連輸（含2023非洲盃決賽輸塞內加爾），但總體記錄相對瑞士好得多",
+          "sources": [
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "瑞士謝卡領導班底老練，組內三戰全勝自信充足，主場BC Place有球迷支持；但點球大戰歷史陰影（6場僅1勝）是心理重大弱點，尤其面對善守反擊的阿爾及利亞若進入膠著風險顯著",
+        "away": "阿爾及利亞末輪上演驚天逆轉（3-3），馬赫雷斯兩球表現出色士氣高昂；以最佳第三名身份出線壓力較小，點球大戰勝率（44%）明顯高於瑞士（17%）"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "格拉尼特·謝卡",
+          "record": "隊長，本屆已主罰點球（對波赫）得分，心理素質是瑞士最強主罰者"
+        },
+        {
+          "team": "home",
+          "name_zh": "布雷爾·恩博洛",
+          "record": "本屆主罰對卡塔爾得分，開賽積極，是第二主罰人選"
+        },
+        {
+          "team": "home",
+          "name_zh": "約翰·曼扎姆比",
+          "record": "本屆爆發新星（3球），但無大賽點球紀錄"
+        },
+        {
+          "team": "away",
+          "name_zh": "里亞德·馬赫雷斯",
+          "record": "隊長，本屆已2球，職業生涯主罰穩定，是阿爾及利亞最可靠主罰者"
+        },
+        {
+          "team": "away",
+          "name_zh": "穆罕默德·阿穆拉",
+          "record": "本屆出色，是備選主罰球員，技術細緻"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "若比賽進入點球大戰，瑞士將面臨嚴重劣勢：歷史6場僅1勝（勝率17%），遠低於阿爾及利亞44%。這是此場最值得關注的風險維度。因此即便瑞士常規時間獲勝概率更高，加時/點球情境下阿爾及利亞晉級機會相當可觀。建議瑞士必須在常規時間或加時早段解決戰鬥，否則點球大戰將是心理與歷史雙重劣勢。"
+    }
+  },
+  "reasoning": {
+    "summary": "瑞士B組第一7分，馬奇贊比等球員狀態火熱，中場謝卡老練統帥；阿爾及利亞雖以最佳第三名出線，但馬赫雷斯梅開二度、末輪3-3逆轉進球後士氣高漲。瑞士實力整體偏強、盤口看好，但若進入點球大戰瑞士歷史記錄堪憂（6場1勝），是最大變數。",
+    "key_factors": [
+      "球員狀態：瑞士謝卡穩定、恩博洛與馬奇贊比進攻多點開花，馬奇贊比本屆3球是最大亮點；阿爾及利亞馬赫雷斯（本屆3球）狀態回勇，馬薩（Ibrahim Maza）年輕有為",
+      "傷停：瑞士阿姆杜尼（膝蓋ACL術後，上場機會有限）；阿爾及利亞盧卡·齊達納（破顎，守門員有傷病史），主力無重大缺陣",
+      "近況：瑞士W2D1積7分，小組賽3場均有進球，得7失3；阿爾及利亞W1D1L1積4分，末輪3-3表現突出，士氣上升",
+      "戰術：瑞士4-3-3謝卡指揮中場，控球反擊兼備；阿爾及利亞4-3-3依賴馬赫雷斯邊路突破，中場博達威/查比技術流，與瑞士中場對決是關鍵",
+      "場地：BC Place溫哥華，瑞士在此擊敗加拿大2-1，主場氛圍熟悉且有利",
+      "輿論共識：Fox Sports -157（瑞士），Sporting News 預測2-0，KickOracle AI 45%對38%，市場偏向瑞士但差距比西奧地一場小得多，阿爾及利亞爆冷空間存在",
+      "頭對頭：歷史2場皆為友誼賽且發生於1983-1986年，瑞士均勝，但年代久遠參考價值低"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分KOL及非洲球迷看好阿爾及利亞憑馬赫雷斯狀態、末輪逆轉氣勢以及瑞士前鋒線缺乏頂尖中鋒而製造爆冷；加之若進入點球瑞士弱點明顯，敢於押注阿爾及利亞者認為賠率+463有相當價值。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.24,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "瑞士防守穩健，阿爾及利亞進攻火力有限，主隊小勝可期。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "瑞士整體戰術素養較高，預計能小勝阿爾及利亞。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "1:0",
+      "note": "瑞士整體實力佔優，淘汰賽經驗豐富，可望小勝晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.29,
+        "away": 0.24
+      },
+      "scoreline": "2:1",
+      "note": "瑞士整體實力略勝一籌，小勝晉級機率較高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "瑞士具備豐富淘汰賽經驗與穩固防守，預計能險勝阿爾及利亞晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "瑞士實力與主場優勢明顯，預計小勝阿爾及利亞。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "瑞士整體實力與戰術素養較佳，可小勝晉級。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.548,
+      "draw": 0.251,
+      "away": 0.201
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T065037Z"
+}

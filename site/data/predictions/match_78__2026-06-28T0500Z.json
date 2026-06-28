@@ -1,0 +1,429 @@
+{
+  "match": 78,
+  "home": "Ivory Coast",
+  "away": "Norway",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-06-30T17:00:00Z",
+  "kickoff_hkt": "2026-07-01 01:00",
+  "venue": "AT&T Stadium, Arlington TX",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "run_timestamp": "2026-06-28T0500Z",
+  "source_count": 27,
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA 2026 世界盃E組維基百科",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 皮配雙響象牙海岸晉級報導",
+      "url": "https://www.aljazeera.com/sports/2026/6/25/pepes-brace-sends-ivory-coast-to-first-knockouts-as-curacao-exit-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports 象牙海岸2-0庫拉索",
+      "url": "https://www.skysports.com/football/news/17244/13556657/world-cup-2026-curacao-x-x-ivory-coast"
+    },
+    {
+      "type": "media",
+      "name": "The Rio Times 象牙海岸晉級歷史首次",
+      "url": "https://www.riotimesonline.com/world-cup-2026-ivory-coast-curacao-2-0/"
+    },
+    {
+      "type": "media",
+      "name": "VAVEL 象牙海岸進入32強",
+      "url": "https://www.vavel.com/en/football/2026/06/26/1264482-historic-breakthrough-for-ivory-coast-after-curacao-shutout.html"
+    },
+    {
+      "type": "media",
+      "name": "Xinhua 哈蘭特雙響挪威3-2塞內加爾",
+      "url": "https://english.news.cn/20260623/cd19f081dc53484eb8ae16a239676d7f/c.html"
+    },
+    {
+      "type": "media",
+      "name": "bein Sports 哈蘭特雙響，挪威首次晉級自1998年",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/norway-3-2-senegal-haaland-at-the-double-again-to-book-last-32-spot-2026-06-23"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 挪威4-1伊拉克報導",
+      "url": "https://www.theguardian.com/football/2026/jun/17/iraq-norway-world-cup-group-i-match-report"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports 挪威 1-4 法國分析",
+      "url": "https://www.skysports.com/football/norway-vs-france/549831"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports 哈蘭特缺席法國vs挪威未用",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-erling-haaland-was-an-unused-sub-during-a-much-changed-norways-4-1-loss-to-france-175723626.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 挪威教練索爾巴肯：休息哈蘭特理所當然",
+      "url": "https://www.espn.co.uk/football/story/_/id/49190980/norway-stale-solbakken-world-cup-erling-haaland-benched-no-brainer"
+    },
+    {
+      "type": "media",
+      "name": "All Things Nordic 挪威晉級小組賽分析",
+      "url": "https://all-things-nordic.com/2026/06/23/fifa-world-cup-2026-haaland-at-the-double-as-norway-edge-senegal-in-3-2-thriller/"
+    },
+    {
+      "type": "betting",
+      "name": "FOX Sports 盤口 象牙海岸 vs 挪威",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+    },
+    {
+      "type": "betting",
+      "name": "sports-king.com Bet365 盤口資訊",
+      "url": "https://www.sports-king.com/contests/ivory-coast-vs-norway-world-cup-betting/"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN Odds 象牙海岸 vs 挪威",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760490"
+    },
+    {
+      "type": "betting",
+      "name": "xGscore 多家博彩盤口",
+      "url": "https://xgscore.io/world-cup/ivory-coast-norway/preview"
+    },
+    {
+      "type": "model",
+      "name": "Dimers 象牙海岸 vs 挪威模型",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_4_civ_nor"
+    },
+    {
+      "type": "model",
+      "name": "SmartBettingGuide 象牙海岸 vs 挪威",
+      "url": "https://smartbettingguide.com/fifa-world-cup-prediction-ivory-coast-norway/"
+    },
+    {
+      "type": "model",
+      "name": "FifaWorldCupPredictions2026 AI 預測",
+      "url": "https://fifaworldcuppredictions2026.com/ivory-coast-vs-norway-30-06-2026"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube AI 預測 象牙海岸 vs 挪威（挪威2-1）",
+      "url": "https://www.youtube.com/watch?v=nsMYQ0T_ZrE"
+    },
+    {
+      "type": "media",
+      "name": "WorldCupLocalTime 象牙海岸 vs 挪威預測",
+      "url": "https://worldcuplocaltime.com/match/ivory-coast-norway-2026-06-30/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 專家預測：象牙海岸1-2挪威",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-bracket-predictions-2026-expert-picks/99f6a4b4205c8dae2ce539cb"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports R32 預測：象牙海岸1-2挪威",
+      "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-round-of-32-confirmed-schedule-predictions-for-knockout-round"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 每隊分析：象牙海岸",
+      "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire 德國 vs 象牙海岸傷兵預覽（N'Dicka 腿傷）",
+      "url": "https://www.rotowire.com/soccer/article/germany-vs-ivory-coast-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-118798"
+    },
+    {
+      "type": "media",
+      "name": "BBC 象牙海岸 2026 世界盃隊伍介紹",
+      "url": "https://www.bbc.com/sport/football/articles/c4g8lvz701zo"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF 點球大戰歷史記錄（象牙海岸5勝6負）",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.26,
+      "draw": 0.24,
+      "away": 0.5
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "哈蘭特發威挪威推進",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.35,
+        "basis": "充分休息的哈蘭特重返先發，決定性進球幫助挪威推進16強"
+      },
+      {
+        "name": "象牙海岸爆冷",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.18,
+        "basis": "皮配、凱西等核心全力以赴，象牙海岸歷史首次16強"
+      },
+      {
+        "name": "激烈平局進加時",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.22,
+        "basis": "雙方旗鼓相當，90分鐘戰平，加時或點球決勝"
+      },
+      {
+        "name": "挪威乾淨取勝",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.12,
+        "basis": "象牙海岸防守吃力，哈蘭特+奧德加德雙子星壓制"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.274,
+          "draw": 0.247,
+          "away": 0.478
+        },
+        "note": "挪威47.8%最高勝率，全場局勢最接近的一場R32比賽"
+      },
+      {
+        "source": "Bet365 盤口（sports-king引用）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.26,
+          "draw": 0.28,
+          "away": 0.46
+        },
+        "note": "挪威1.95，平局3.60，象牙海岸3.80；To Advance：挪威1.50，象牙海岸2.62"
+      },
+      {
+        "source": "ESPN 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.27,
+          "draw": 0.27,
+          "away": 0.46
+        },
+        "note": "挪威ML+110，象牙海岸+260，平局+255；雙方非常接近"
+      },
+      {
+        "source": "Sporting News / NBC Sports 專家",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.25,
+          "draw": 0.25,
+          "away": 0.5
+        },
+        "scoreline": "1:2（挪威）",
+        "note": "SN 預測1-2，NBC預測1-2；AI YouTube預測挪威2-1，共識傾向挪威"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.24,
+      "extra_time_prob": 0.16,
+      "shootout_prob": 0.08,
+      "advance_prob": {
+        "home": 0.35,
+        "away": 0.65
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 11,
+          "won": 5,
+          "win_rate": 0.45,
+          "conversion_rate": null,
+          "recent": "象牙海岸在非洲盃有豐富點球經驗，但RSSSF記錄5勝6負（含非洲盃），整體為負多勝少",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        },
+        "away": {
+          "shootouts": 0,
+          "won": 0,
+          "win_rate": 0,
+          "conversion_rate": null,
+          "recent": "挪威在世界盃無點球大戰紀錄；本屆備戰哈蘭特充分休息，心理狀態佳",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "象牙海岸是本屆歷史首次進入32強，全隊士氣高漲，但面對哈蘭特壓力極大，點球方面非洲盃有經驗但大型世界盃點球紀錄欠佳",
+        "away": "挪威末輪刻意輪換完整休息哈蘭特等主力，儲備體能充足；哈蘭特本賽季12連場國際賽進球，心理狀態極佳；但挪威無世界盃點球大戰紀錄"
+      },
+      "key_takers": [
+        {
+          "team": "away",
+          "name_zh": "哈蘭特",
+          "record": "本屆2場4球，近12場國際賽全部進球，點球命中率高"
+        },
+        {
+          "team": "away",
+          "name_zh": "奧德加德",
+          "record": "技術型中場，末輪被輪換休息，精神狀態良好"
+        },
+        {
+          "team": "home",
+          "name_zh": "皮配",
+          "record": "本屆兩場兩球（均對庫拉索），狀態火熱，前阿仙奴前鋒點球可靠"
+        },
+        {
+          "team": "home",
+          "name_zh": "凱西",
+          "record": "象牙海岸關鍵中場，多次主罰重要定位球"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "此場是本組三場中最難預測的一場，Dimers模型顯示24.7%平局機率，遠高於一般淘汰賽。若進入點球，挪威無世界盃點球記錄，象牙海岸有非洲盃負多勝少紀錄，雙方均屬未知數。哈蘭特在90分鐘或加時發威更可能，但若進點球不確定性最高。"
+    }
+  },
+  "reasoning": {
+    "summary": "挪威以哈蘭特（本屆4球）為核心進攻武器，充分休息後全力備戰；象牙海岸E組第二以歷史首次世界盃淘汰賽資格出戰，防守紀律良好但進攻依賴皮配等單點。博彩市場和主要模型均微幅看好挪威，但這是本組最接近的比賽。",
+    "key_factors": [
+      "球員狀態：哈蘭特本屆4球（平姆巴佩），末輪輪換完整休息；皮配本屆2球，象牙海岸進攻核心；奧德加德末輪也休息蓄力",
+      "傷停：N'Dicka（腿後肌）確認象牙海岸缺陣；挪威末輪哈蘭特全場未出場，無累積黃牌懸念",
+      "近況：象牙海岸1勝1負1勝（6分）；挪威2勝1負（6分），負是刻意輪換敗給法國4-1",
+      "戰術：挪威4-4-2/4-3-3依賴哈蘭特+奧德加德組合；象牙海岸4-2-3-1依賴皮配、凱西、迪亞洛中前場組合",
+      "場地：AT&T Stadium（達拉斯），象牙海岸曾在此附近打比賽，但無絕對優勢",
+      "輿論共識：Dimers(47.8%挪威)、Bet365(1.95挪威)、Sporting News預測1-2挪威，但此場被認為最具懸念"
+    ],
+    "consensus_lean": "away",
+    "dissent": "部分分析（如SmartBettingGuide）認為象牙海岸防線在本屆組織嚴密，可以壓制挪威，且哈蘭特在此前法國 vs 挪威小組賽（雖然挪威主動輪換）中被雪藏，調整期難以評估。若象牙海岸打反擊利落，爆冷機率不低。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.24,
+        "away": 0.48
+      },
+      "scoreline": "1:2",
+      "note": "挪威進攻火力強大，防守穩健，看好客場取勝晉級。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "挪威鋒線火力強大，哈蘭德領軍有望擊退象牙海岸。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.28,
+        "away": 0.44
+      },
+      "scoreline": "1:2",
+      "note": "挪威進攻火力更強，科特迪瓦難以阻擋哈蘭德。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.37,
+        "draw": 0.36,
+        "away": 0.27
+      },
+      "scoreline": "1:1",
+      "note": "象牙海岸攻勢更盛但把握度一般，挪威穩守搶平局"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.31,
+        "away": 0.37
+      },
+      "scoreline": "1:1",
+      "note": "挪威雙星具威脅，但科特迪瓦陣容均衡，預計常規時間難分高下。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "象牙海岸主場優勢明顯，預計2:1小勝挪威。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "象牙海岸主場優勢明顯，實力稍勝一籌。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.324,
+      "draw": 0.28,
+      "away": 0.396
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T064816Z"
+}

@@ -1,0 +1,450 @@
+{
+  "match": 84,
+  "home": "Spain",
+  "away": "Austria",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-07-02T19:00:00Z",
+  "kickoff_hkt": "2026-07-03 03:00",
+  "venue": "SoFi Stadium, Los Angeles",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "run_timestamp": "2026-06-28T0500Z",
+  "source_count": 29,
+  "sources": [
+    {
+      "type": "media",
+      "name": "ESPN — Spain vs Austria Odds & Matchup",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760497/group-j-2nd-place-spain"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Group J Results & Algeria-Austria 3-3 Match Analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760484"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Spain Lamine Yamal Fitness Update",
+      "url": "https://www.espn.com/football/story/_/id/49117759/lamine-yamal-spain-fitness-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Spain 4-0 Saudi Arabia Match Analysis",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760453"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Uruguay 0-1 Spain Final Score",
+      "url": "https://global.espn.com/football/match/_/gameId/760479"
+    },
+    {
+      "type": "media",
+      "name": "AP News — Algeria Austria 3-3 Draw World Cup Report",
+      "url": "https://apnews.com/article/algeria-austria-world-cup-soccer-football-score-6106ea578a51212df4d5f3b326797de6"
+    },
+    {
+      "type": "media",
+      "name": "The Guardian — Algeria Austria Match Report",
+      "url": "https://www.theguardian.com/football/2026/jun/28/algeria-austria-world-cup-group-j-match-report"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Algeria 3-3 Austria Kalajdzic 96th-minute equaliser",
+      "url": "https://www.skysports.com/football/algeria-vs-austria/report/549832"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports — Spain 4-0 Saudi Arabia Yamal Oyarzabal Report",
+      "url": "https://www.skysports.com/football/news/12098/13553799/world-cup-2026-spain-4-0-saudi-arabia-lamine-yamal-and-mikel-oyarzabal-star-as-la-roja-earn-first-group-h-win"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News — World Cup Round of 32 Expert Picks",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-bracket-predictions-2026-expert-picks/99f6a4b4205c8dae2ce539cb"
+    },
+    {
+      "type": "media",
+      "name": "EasySportz — Predicting 2026 World Cup Round of 32",
+      "url": "https://easysportz.com/2026/06/predicting-the-2026-world-cup-round-of-32/"
+    },
+    {
+      "type": "media",
+      "name": "YardBarker — Predicting 2026 World Cup Round of 32",
+      "url": "https://www.yardbarker.com/soccer/articles/predicting_the_2026_world_cup_round_of_32/s1_17701_43911452"
+    },
+    {
+      "type": "betting",
+      "name": "Fox Sports — Spain vs Austria Odds",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-spain-vs-austria-jul-02-2026-game-boxscore-607915?tab=odds"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsbook Review — World Cup 2026 Outright Odds",
+      "url": "https://www.sportsbookreview.com/picks/soccer/world-cup-odds-groups-draw-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Illustrated — FanDuel Group & Championship Odds",
+      "url": "https://www.si.com/betting/every-teams-championship-group-odds-for-the-2026-world-cup-spain-and-france-top-odds-list-01kt4yygesqb"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer — Spain 最高奪冠概率16.1%",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera — Yamal scores as Spain beat Saudi Arabia 4-0",
+      "url": "https://www.aljazeera.com/sports/2026/6/21/spain-thrash-saudi-arabia-as-lamine-yamal-off-mark-at-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — Spain World Cup 2026 Squad Confirmed",
+      "url": "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confirmed-lamine-yamal-stars-no-real-madrid-players"
+    },
+    {
+      "type": "media",
+      "name": "BBC — Alaba passed fit Baumgartner out of World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/c3928ewev42o"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times — Austria bench Arnautovic for Jordan opener",
+      "url": "https://www.straitstimes.com/sport/football/austria-bench-veteran-striker-arnautovic-for-world-cup-opener-v-jordan"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Austria vs Jordan Team News",
+      "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/team-news/austria-vs-jordan-injury-suspension-list-predicted-xis_599179.html"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia — 2026 FIFA World Cup Group J",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_J"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole — Argentina vs Austria Team News",
+      "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/team-news/argentina-vs-austria-injury-suspension-list-predicted-xis_599707.html"
+    },
+    {
+      "type": "media",
+      "name": "EU-Football — Spain vs Austria H2H",
+      "url": "https://eu-football.info/_matches.php?id=185&oppo=12"
+    },
+    {
+      "type": "media",
+      "name": "SI — Spain Worst World Cup Penalty Shootout Record",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF — Penalty Shootout Stats Major Tournaments",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "media",
+      "name": "Transfermarkt — Spain Penalty Shoot-out Record",
+      "url": "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo — World Cup 2026 Penalty Records Every Nation",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "ESPN — 2026 World Cup Nations League Final Portugal beat Spain 5-3 pens",
+      "url": "https://www.espn.co.uk/football/report/_/gameId/723738"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.72,
+      "draw": 0.16,
+      "away": 0.12
+    },
+    "confidence": 0.8,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.22
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "西班牙主導常規時間獲勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.8,
+        "basis": "亞瑪爾+奧亞薩巴爾鋒線強勢，奧地利缺乏防守廣度，西班牙控球壓制戰術佔優"
+      },
+      {
+        "name": "奧地利積極反撲拖入加時",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.1,
+        "basis": "薩比策/阿爾納烏托維奇冷門進球，西班牙加時期間最終仍憑數據優勢晉級"
+      },
+      {
+        "name": "西班牙大勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.11,
+        "basis": "奧地利組內得失球持平進攻有限，與西班牙等級差距在淘汰賽壓力下放大"
+      },
+      {
+        "name": "意外驚喜：奧地利爆冷",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.06,
+        "basis": "蘭格尼克高強度壓迫體系偶有奇效，西班牙若發揮失常可能遭冷門"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Fox Sports 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.76,
+          "draw": 0.15,
+          "away": 0.09
+        },
+        "scoreline": null,
+        "note": "西班牙獨贏賠率 -357，奧地利 +1238，平局 +421，市場大幅看好西班牙"
+      },
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.72,
+          "draw": 0.17,
+          "away": 0.11
+        },
+        "scoreline": null,
+        "note": "Opta 預測西班牙奪冠概率16.1%全場最高，奪冠大熱在32強輪次具壓倒優勢"
+      },
+      {
+        "source": "Sporting News 專家預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.75,
+          "draw": 0.13,
+          "away": 0.12
+        },
+        "scoreline": "2:0",
+        "note": "SN預測西班牙2-0輕取奧地利，強調亞瑪爾回歸後西班牙中場控制力碾壓"
+      },
+      {
+        "source": "ESPN 機率模型（Elo評分）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.16,
+          "away": 0.11
+        },
+        "scoreline": "3:1",
+        "note": "ESPN Elo評分：西班牙1979第一，奧地利1749第21，差距顯著，ESPN預測西班牙3-1"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.16,
+      "extra_time_prob": 0.1,
+      "shootout_prob": 0.05,
+      "advance_prob": {
+        "home": 0.95,
+        "away": 0.05
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 15,
+          "won": 8,
+          "win_rate": 0.533,
+          "conversion_rate": null,
+          "recent": "近年罰球成績堪憂：2018世界盃輸俄羅斯、2022輸摩洛哥、2025歐國聯決賽輸葡萄牙（5-3），世界盃5場僅勝1場（勝率20%）",
+          "sources": [
+            "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375",
+            "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record",
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+          ]
+        },
+        "away": {
+          "shootouts": 0,
+          "won": 0,
+          "win_rate": 0,
+          "conversion_rate": null,
+          "recent": "奧地利從未參與國際大賽點球大戰，2026世界盃為其首次淘汰賽，點球大戰紀錄空白",
+          "sources": [
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "西班牙雖擁有歐洲冠軍班底、亞瑪爾與中場群超強技術，但世界盃點球大戰心理創傷深重（輸過俄羅斯、摩洛哥、南韓、比利時），2025歐國聯決賽再輸葡萄牙，點球壓力是隱患",
+        "away": "奧地利從未打過國際賽點球大戰，完全未知數；蘭格尼克體系積極主動、身體對抗強，但面對西班牙控球機器心理壓力更大"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "洛德里",
+          "record": "穩定中場大腦，通常不在首批主罰名單但關鍵時有資歷"
+        },
+        {
+          "team": "home",
+          "name_zh": "奧亞薩巴爾",
+          "record": "本屆小組賽已3球進攻火熱，本屆賽會有罰球經驗"
+        },
+        {
+          "team": "home",
+          "name_zh": "法比安·魯伊斯",
+          "record": "大賽主罰有紀錄，心理素質穩定"
+        },
+        {
+          "team": "away",
+          "name_zh": "薩比策",
+          "record": "奧地利核心，本屆對阿爾及利亞主罰得分，冷靜"
+        },
+        {
+          "team": "away",
+          "name_zh": "科拉伊默爾",
+          "record": "拜仁中場，動力充沛，但點球大戰紀錄未知"
+        }
+      ],
+      "penalty_risk": "low",
+      "risk_note": "西班牙大幅領先，比賽進入點球大戰概率僅5%。若萬一發生，西班牙歷史點球弱點值得警惕，但奧地利完全沒有國際賽點球經驗是更大未知數，整體仍屬低風險場景。"
+    }
+  },
+  "reasoning": {
+    "summary": "西班牙組內7分稱霸H組，亞瑪爾全面復出、4-0大勝沙特後狀態極佳，中場控球體系全開；奧地利末輪3-3驚險出線、戰術積極但實力差距明顯。歐洲冠軍班底面對生澀的奧地利，正規時間西班牙勝相當確定。",
+    "key_factors": [
+      "球員狀態：亞瑪爾大腿傷痊癒、奧亞薩巴爾3球火熱、Pedri/洛德里/法比安中場健全；奧地利包莫加特納賽前受傷出局，阿拉巴體能仍受管理",
+      "傷停：西班牙無主力缺陣（無皇馬球員、莫拉塔早已落選）；奧地利包莫加特納（大腿）確定無緣、波施（破顎）疑問",
+      "近況：西班牙W2D1積7分，得5球失0球；奧地利W1D1L1積4分，得失球均±0，末輪3-3差點被淘汰心理受損",
+      "戰術：西班牙4-3-3控球體系對奧地利4-2-3-1高壓陣型，西班牙技術中場佔絕對優勢，亞瑪爾右路突破是核心攻擊點",
+      "場地：SoFi Stadium洛杉磯，西班牙大量球迷支持，中性偏主場氣氛",
+      "輿論共識：Fox Sports -357賠率、Opta、ESPN Elo、Sporting News、EasySportz等幾乎全數一致看好西班牙，預測西班牙2-0或3-1獲勝",
+      "頭對頭：西班牙vs奧地利歷史16場9勝3平4負，世界盃唯一一場是1978年奧地利以2-1勝出，但那是完全不同時代陣容"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數觀點認為奧地利在蘭格尼克體系下高壓追跑可能令西班牙不適，若西班牙發揮低迷（如首輪0-0佛得角）存在意外可能，但賠率和模型幾乎清一色看好西班牙，異見僅停於理論。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "西班牙整體實力明顯優於奧地利，晉級看好。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "西班牙傳控優勢明顯，奧地利難抵擋，鬥牛士穩勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "西班牙整體實力與經驗佔優，可望穩控中場並零封晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.69,
+        "draw": 0.18,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "西班牙控球優勢明顯，奧地利難創造足夠機會"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "西班牙中場控球優勢明顯，預計能穩健擊敗奧地利晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.76,
+        "draw": 0.15,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "西班牙實力遠勝奧地利，主場預計輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "西班牙控球優勢明顯，奧地利難以突破。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.684,
+      "draw": 0.194,
+      "away": 0.121
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T064956Z"
+}

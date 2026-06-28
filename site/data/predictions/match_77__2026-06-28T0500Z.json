@@ -1,0 +1,432 @@
+{
+  "match": 77,
+  "home": "France",
+  "away": "Sweden",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-06-30T21:00:00Z",
+  "kickoff_hkt": "2026-07-01 05:00",
+  "venue": "MetLife Stadium, East Rutherford NJ",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "run_timestamp": "2026-06-28T0500Z",
+  "source_count": 27,
+  "sources": [
+    {
+      "type": "official",
+      "name": "FIFA 2026 World Cup Group F 維基百科",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports R32 完整賽程",
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-round-of-32-full-bracket-matchups-schedule-and-how-each-team-qualified-164942403.html"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports R32 支架與對陣",
+      "url": "https://www.skysports.com/football/news/12098/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final"
+    },
+    {
+      "type": "betting",
+      "name": "FOX Sports 法國 vs 瑞典 盤口",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+    },
+    {
+      "type": "model",
+      "name": "Dimers 預測模型 法國 vs 瑞典",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_4_fra_swe"
+    },
+    {
+      "type": "model",
+      "name": "TipIQ 預測模型",
+      "url": "https://tipiq.ai/football/world/world-cup/france-vs-sweden-prediction-92004d17-df9d-145c-9224-4fdf8b6c22c6"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 法國 4-1 挪威（小組賽末輪）",
+      "url": "https://www.aljazeera.com/sports/2026/6/26/dembele-scores-hat-trick-as-france-beat-norway-4-1-at-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 法國 3-1 塞內加爾",
+      "url": "https://africa.espn.com/football/report/_/gameId/760475"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera 法國 3-0 伊拉克",
+      "url": "https://www.aljazeera.com/sports/2026/6/23/mbappe-leads-france-to-win-over-iraq-in-lightening-delayed-world-cup-tie"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports 法國 4-1 挪威報導",
+      "url": "https://www.nbcsports.com/soccer/live/norway-vs-france-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-june-26"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports 瑞典 5-1 突尼西亞",
+      "url": "https://www.skysports.com/football/news/33694/13552698/world-cup-2026-sweden-5-1-tunisia-viktor-gyokeres-and-alexander-isak-guide-graham-potters-side-to-victory"
+    },
+    {
+      "type": "media",
+      "name": "AS USA 小組F最終積分榜",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-f-final-standings-results-and-teams-qualified-for-the-round-of-32-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News R32 專家選擇",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-bracket-predictions-2026-expert-picks/99f6a4b4205c8dae2ce539cb"
+    },
+    {
+      "type": "media",
+      "name": "CBS Sports 2026 世界盃賽前完整預測",
+      "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-predictions-picking-every-game-usmnt-messi-ronaldo-france-champions/"
+    },
+    {
+      "type": "model",
+      "name": "SmartBettingGuide 法國 vs 瑞典預測",
+      "url": "https://smartbettingguide.com/fifa-world-cup-prediction-france-vs-sweden/"
+    },
+    {
+      "type": "model",
+      "name": "FifaWorldCupPredictions2026 AI 預測",
+      "url": "https://fifaworldcuppredictions2026.com/france-vs-sweden-30-06-2026"
+    },
+    {
+      "type": "betting",
+      "name": "TipIQ 賠率彙整（Pinnacle/Bet365 等）",
+      "url": "https://tipiq.ai/football/world/world-cup/france-vs-sweden-prediction-92004d17-df9d-145c-9224-4fdf8b6c22c6"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 世界盃傷兵追蹤",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 法國陣容公告（Camavinga/Kolo Muani 落選）",
+      "url": "https://www.espn.com/soccer/story/_/id/48771039/france-2026-world-cup-squad-mbappe-camavinga-kolo-muani-dembele"
+    },
+    {
+      "type": "media",
+      "name": "BBC 瑞典陣容公告（Isak/Kulusevski 傷情）",
+      "url": "https://www.bbc.com/sport/football/articles/c3r29z5yz79o"
+    },
+    {
+      "type": "media",
+      "name": "UEFA 瑞典 2026 世界盃賽程與歷史",
+      "url": "https://www.uefa.com/european-qualifiers/news/02a6-20d159618c27-fd6d64ccd5f6-1000--sweden-at-the-world-cup-2026-squad-fixtures-group-and-hi/"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports 第三名積分榜與瑞典晉級",
+      "url": "https://sports.yahoo.com/articles/last-eight-teams-world-cup-041012203.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 每隊分析：瑞典",
+      "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france"
+    },
+    {
+      "type": "media",
+      "name": "365Scores H2H 與賠率",
+      "url": "https://www.365scores.com/en-uk/football/match/fifa-world-cup-5930/france-sweden-2371-5061-5930"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube R32 法國 vs 瑞典預覽（Can Sweden cause an upset?）",
+      "url": "https://www.youtube.com/watch?v=AqWv-V3FF3E"
+    },
+    {
+      "type": "media",
+      "name": "FotMob 法國 vs 瑞典受傷資訊（Isak Hien 缺陣）",
+      "url": "https://www.fotmob.com/matches/france-vs-sweden/1x6dai"
+    },
+    {
+      "type": "model",
+      "name": "Opta Supercomputer 各隊奪冠機率（法國13%）",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.74,
+      "draw": 0.16,
+      "away": 0.1
+    },
+    "confidence": 0.82,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "法國主場大勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "姆巴佩、德姆貝萊在主場 MetLife 再現突擊，瑞典防線潰散"
+      },
+      {
+        "name": "法國小勝（最可能）",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "法國高效進兩球，瑞典伊薩克或久克雷斯反擊得一分，但最終失守"
+      },
+      {
+        "name": "瑞典意外逼平",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.12,
+        "basis": "法國消極輪替，瑞典雙前鋒組合把握反擊機會，進入加時"
+      },
+      {
+        "name": "瑞典爆冷",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.05,
+        "basis": "久克雷斯一錘定音，法國效率低下付出代價"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.76,
+          "draw": 0.15,
+          "away": 0.09
+        },
+        "scoreline": "0:2（法國勝）",
+        "note": "模型最可能比分為法國2-0，整體傾向法國大勝"
+      },
+      {
+        "source": "TipIQ 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.18,
+          "away": 0.09
+        },
+        "scoreline": "2:0（法國）",
+        "note": "整合Pinnacle/Bet365等11家賠率，模型預測法國2-0"
+      },
+      {
+        "source": "FOX Sports 盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.17,
+          "away": 0.1
+        },
+        "note": "法國-351，平局+478，瑞典+1000；To Advance法國-950"
+      },
+      {
+        "source": "Sporting News 專家預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.8,
+          "draw": 0.12,
+          "away": 0.08
+        },
+        "scoreline": "3:1（法國）",
+        "note": "SN 預測法國3-0，CBS Sports 預測法國3-0，輿論一致看好法國大勝"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.16,
+      "extra_time_prob": 0.1,
+      "shootout_prob": 0.05,
+      "advance_prob": {
+        "home": 0.93,
+        "away": 0.07
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 5,
+          "won": 2,
+          "win_rate": 0.4,
+          "conversion_rate": 0.73,
+          "recent": "2022世界盃決賽負阿根廷；2024歐國盃四強5-3勝葡萄牙",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://en.wikipedia.org/wiki/List_of_UEFA_European_Championship_penalty_shoot-outs"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "1994世界盃八強5-4勝羅馬尼亞（唯一一次世界盃點球紀錄）",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "法國在本屆小組賽以9分完美晉級，姆巴佩、德姆貝萊均在火熱狀態，加時後心理佔優；但2022年決賽點球遺憾仍在",
+        "away": "瑞典是本屆唯一的最佳第三名球隊從F組殺出，久克雷斯與伊薩克雙前鋒具備威脅，但整體實力差距明顯，點球場次極少"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "姆巴佩",
+          "record": "歐國盃點球大戰曾表現不穩，2024歐國盃四強成功命中"
+        },
+        {
+          "team": "home",
+          "name_zh": "德姆貝萊",
+          "record": "本屆第三場首半時帽子戲法，狀態火熱"
+        },
+        {
+          "team": "away",
+          "name_zh": "久克雷斯",
+          "record": "俱樂部賽季表現亮眼，世界盃首戰5-1中進球"
+        },
+        {
+          "team": "away",
+          "name_zh": "伊薩克",
+          "record": "首戰1球2助攻，但歐國盃2004點球出局記錄在前"
+        }
+      ],
+      "penalty_risk": "low",
+      "risk_note": "法國90分鐘內取勝機率74%，點球大戰機率僅5%。若進入加時，法國球員更有大賽點球經驗，瑞典在主要賽事的點球場次幾乎空白，風險極低。"
+    }
+  },
+  "reasoning": {
+    "summary": "法國以I組第一晉級，9分全勝、10球進賬，德姆貝萊帽子戲法和姆巴佩本屆已6球（兩場共4球）均在神勇狀態。瑞典僅以4分第三名身份晉級，中途5-1輸給荷蘭，對位法國難度懸殊，輿論幾乎一致看好法國。",
+    "key_factors": [
+      "球員狀態：法國姆巴佩本屆4球、德姆貝萊帽子戲法、多伊帽子表現俱佳；瑞典Isak Hien後衛傷缺，德庫盧塞夫斯基未能出席本屆",
+      "傷停：法國Saliba背傷已恢復（Deschamps確認出賽）；瑞典後衛Isak Hien（腿後肌）缺陣，FotMob確認",
+      "近況：法國本屆3戰全勝（3-1、3-0、4-1），小組賽淨勝球+8；瑞典1勝1平1負，淨勝球0，已輸荷蘭5-1",
+      "戰術：法國4-2-3-1佈陣姆巴佩領銜鋒線，Olise、德姆貝萊、多伊板凳深度驚人；瑞典4-3-3依賴久克雷斯、伊薩克雙前鋒快速反擊",
+      "場地：MetLife Stadium（東盧瑟福，新澤西）是法國本屆開幕場，環境熟悉",
+      "輿論共識：Dimers(76%)、TipIQ(73%)、FOX Sports(-351盤口)、Sporting News、CBS Sports 均大幅看好法國"
+    ],
+    "consensus_lean": "home",
+    "dissent": "極少數觀點認為若法國大量輪替（已3戰全勝無需護盤），可能讓瑞典久克雷斯/伊薩克找到機會，但瑞典整體實力差距過大，即使部分主力休息，法國仍應順利推進。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "法國整體戰力遠勝瑞典，主場晉級應無懸念。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力佔優，預計能穩穩拿下瑞典晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "法國實力佔優，主場作戰有望取勝，但瑞典或能破門。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.21,
+        "away": 0.11
+      },
+      "scoreline": "2:0",
+      "note": "法國攻守更均衡，瑞典恐難創造足夠機會"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "法國整體陣容深度遠勝瑞典，預計能穩健掌控比賽並順利晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.74,
+        "draw": 0.17,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "法國實力遠勝瑞典，主場預計輕鬆取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "法國實力明顯優勢，瑞典難以抵擋進攻。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.678,
+      "draw": 0.198,
+      "away": 0.124
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T064720Z"
+}
