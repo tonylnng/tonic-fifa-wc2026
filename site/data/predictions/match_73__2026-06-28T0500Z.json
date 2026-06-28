@@ -1,0 +1,497 @@
+{
+  "match": 73,
+  "home": "South Africa",
+  "away": "Canada",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-06-28T19:00:00Z",
+  "kickoff_hkt": "2026-06-29 03:00",
+  "venue": "SoFi Stadium, Los Angeles",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "source_count": 42,
+  "sources": [
+    {
+      "type": "official",
+      "name": "Opta Analyst 預測（25,000次模擬）",
+      "url": "https://theanalyst.com/articles/south-africa-vs-canada-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "type": "model",
+      "name": "Action Network 模型",
+      "url": "https://www.actionnetwork.com/soccer/2026-world-cup-bracket-interactive-predictions-simulations-form-more"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel Sportsbook 盤口",
+      "url": "https://www.fanduel.com/research/canada-vs-south-africa-world-cup-prediction-picks-best-bets-and-props-june-28"
+    },
+    {
+      "type": "betting",
+      "name": "CBS Sports / FanDuel 盤口",
+      "url": "https://www.cbssports.com/soccer/news/canada-vs-south-africa-odds-prediction-time-2026-world-cup-round-of-32-picks/"
+    },
+    {
+      "type": "betting",
+      "name": "Sports Interaction 盤口",
+      "url": "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/south-africa-vs-canada-odds-prediction-062826-217274"
+    },
+    {
+      "type": "model",
+      "name": "PredictionMarketsPicks AI模型（Canada 54%/Draw 26%/SA 20%）",
+      "url": "https://predictionmarketspicks.com/articles/world-cup-2026-sunday-june-28-best-plays"
+    },
+    {
+      "type": "model",
+      "name": "Foresportia AI預測（Canada 50%）",
+      "url": "https://www.foresportia.com/en/world-cup/knockout-stage/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN 傷停/陣容報導",
+      "url": "https://www.espn.com/espn/story/_/id/49185469/kick-team-news-how-watch-world-cup-round-32-clash"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole 傷停名單與預測陣容",
+      "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 加拿大陣容分析",
+      "url": "https://www.sportingnews.com/uk/football/news/canada-vs-south-africa-lineups-starting-11-world-cup-2026/8bbc611e549e6c2ad9091de8"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated 賽前報導",
+      "url": "https://www.si.com/soccer/south-africa-vs-canada-world-cup-preview-predictions-lineups-6-28-26"
+    },
+    {
+      "type": "media",
+      "name": "Total Football Analysis 預測",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-r32-south-africa-canada-predictions"
+    },
+    {
+      "type": "media",
+      "name": "FotMob 預測陣容 / H2H",
+      "url": "https://www.fotmob.com/matches/canada-vs-south-africa/17s1wd"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire 陣容分析與戰術",
+      "url": "https://www.rotowire.com/soccer/article/south-africa-vs-canada-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-119937"
+    },
+    {
+      "type": "media",
+      "name": "FootballPredictions.com 預測（0-2）",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/south-africa-vs-canada-prediction-28-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com 預測（1-1）",
+      "url": "https://www.goal.com/en-za/betting/world-cup/south-africa-vs-canada-predictions-28-06-2026/A:blt03d8cb0b035ae0a1"
+    },
+    {
+      "type": "media",
+      "name": "Sporting Life 預測（1-2）",
+      "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-2026-world-cup-tips-and-predictions-round-of-32/232906"
+    },
+    {
+      "type": "media",
+      "name": "The Hard Tackle 預測（1-2）",
+      "url": "https://thehardtackle.com/round-up/2026/06/27/south-africa-vs-canada-preview-and-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "Mint 預測（2-1 Canada）",
+      "url": "https://www.livemint.com/sports/football-news/south-africa-vs-canada-prediction-first-to-qualify-for-quarterfinals-will-be-round-of-32-fifa-world-cup-2026-11782610905074.html"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda 預測（1-1 加時後南非晉級）",
+      "url": "https://www.sportskeeda.com/football/south-africa-vs-canada-prediction-betting-tips-june-28th-2026"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News 括弧預測（0-1 Canada）",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-bracket-predictions-2026-expert-picks/99f6a4b4205c8dae2ce539cb"
+    },
+    {
+      "type": "media",
+      "name": "OneSoccer 南非淘汰賽戰術分析",
+      "url": "https://onesoccer.ca/a/2026-world-cup-round-of-32-preview-south-africa"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: World Cup R32 Preview & Predictions June 28 (社群投票62% Canada晉級)",
+      "url": "https://www.youtube.com/watch?v=qKVlZ2xSyTo"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: South Africa vs Canada Predictions & Best Bets",
+      "url": "https://www.youtube.com/watch?v=mypzvZa2AI4"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: South Africa vs Canada Predictions and Picks!",
+      "url": "https://www.youtube.com/watch?v=7JQ0HnKtSX0"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: South Africa v Canada World Cup R32 Preview",
+      "url": "https://www.youtube.com/watch?v=T1wAr_WJagY"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: AI Predicts South Africa vs Canada （Canada 55%）",
+      "url": "https://www.youtube.com/watch?v=LkxSMDZW0HU"
+    },
+    {
+      "type": "media",
+      "name": "Straits Times：Ronwen Williams 點球紀錄",
+      "url": "https://www.straitstimes.com/sport/football/south-africa-goalkeeper-has-strong-track-record-in-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Ronwen Williams 個人檔案",
+      "url": "https://www.espn.com/espn/story/_/id/48963468/ronwen-williams-fact-file-all-ronza-south-africa-goalkeeper-captain"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports：Williams AFCON 2024 點球記錄",
+      "url": "https://www.foxsports.com/soccer/ronwen-williams-player"
+    },
+    {
+      "type": "official",
+      "name": "Opta Analyst：世界盃點球大戰事實",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated：世界盃點球最差記錄",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone：世界盃所有點球大戰記錄",
+      "url": "https://www.thestatszone.com/every-penalty-shoot-out-in-fifa-world-cup-history-178684"
+    },
+    {
+      "type": "media",
+      "name": "ESPN WC2026小組賽統計（南非3/3 12碼全進）",
+      "url": "https://www.espn.com/soccer/story/_/id/49113248/fifa-world-cup-2026-stats-jonathan-david-first-1930-canada-record-97-guadalajara-record-19"
+    },
+    {
+      "type": "official",
+      "name": "ESPN Group A 最終積分榜",
+      "url": "https://africa.espn.com/football/story/_/id/49168091/south-africa-south-korea-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "type": "official",
+      "name": "Group B 最終積分榜（加拿大4分）",
+      "url": "https://www.ndtvprofit.com/sports/football/football-fifa-world-cup-2026-switzerland-vs-canada-bosnia-vs-qatar-group-b-match-score-highlights-result-standings-11683491"
+    },
+    {
+      "type": "media",
+      "name": "Flashscore：南非小組賽捷報",
+      "url": "https://www.flashscore.co.uk/news/football-world-championship-south-africa-keep-world-cup-hopes-alive-with-late-penalty-to-deny-czech-republic/beEUJTDt/"
+    },
+    {
+      "type": "media",
+      "name": "worldcup.org.uk：Group B 賽程與賽果",
+      "url": "https://www.worldcup.org.uk/football/2026/groups/GroupB.shtml"
+    },
+    {
+      "type": "model",
+      "name": "Briefly.co.za AI（ChatGPT）：南非30% 加拿大50%",
+      "url": "https://briefly.co.za/sports/football/245135-ai-drops-prediction-bafana-bafanas-chances-beating-canada-2026-fifa-world-cup/"
+    },
+    {
+      "type": "forum",
+      "name": "RotoBot AI 南非戰術分析",
+      "url": "https://rotobot.ai/world-cup/team/RSA"
+    },
+    {
+      "type": "media",
+      "name": "BBC 紀錄片播客：Williams 點球救贖史",
+      "url": "https://www.bbc.co.uk/programmes/p0ntxcqb"
+    },
+    {
+      "type": "media",
+      "name": "FootballKit Ronwen Williams AFCON點球統計",
+      "url": "https://footballkit.lazada.com.ph/players/ronwen-williams-tournament-efficiency-goalkeeper-profile/"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.2,
+      "draw": 0.25,
+      "away": 0.55
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.18
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "加拿大正規時間獲勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.55,
+        "basis": "加拿大高位逼搶打開空間，Jonathan David和Larin的進攻效率壓垮南非防線"
+      },
+      {
+        "name": "南非頑強守平進加時",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.25,
+        "basis": "南非低位防守反擊，靠點球或逼平後加時點球大戰，Williams神撲成為關鍵"
+      },
+      {
+        "name": "南非逆天爆冷獲勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "反擊球打穿加拿大高防線，Makgopa或Appollis閃擊得手而南非死守成功"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦（25,000次模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.2,
+          "draw": 0.249,
+          "away": 0.551
+        },
+        "note": "加拿大晉級機率67.8%，南非32.2%"
+      },
+      {
+        "source": "FanDuel/CBS Sports 博彩盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.18,
+          "draw": 0.29,
+          "away": 0.53
+        },
+        "note": "加拿大-140、南非+450、平局+250，晉級：加拿大-310/南非+245"
+      },
+      {
+        "source": "Action Network 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.221,
+          "draw": 0.23,
+          "away": 0.549
+        },
+        "note": "賽事模擬：加拿大晉級77.9%，南非22.1%"
+      },
+      {
+        "source": "PredictionMarketsPicks AI",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.2,
+          "draw": 0.26,
+          "away": 0.54
+        },
+        "note": "預期進球：南非0.81 / 加拿大1.50，Under 2.5佔59%"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.25,
+      "extra_time_prob": 0.18,
+      "shootout_prob": 0.1,
+      "advance_prob": {
+        "home": 0.322,
+        "away": 0.678
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 2,
+          "won": 2,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "AFCON 2024：四強擊敗佛得角（Williams一場救4球），季軍賽擊敗剛果；世界盃歷史從未踢過點球大戰",
+          "sources": [
+            "https://www.straitstimes.com/sport/football/south-africa-goalkeeper-has-strong-track-record-in-penalty-shootouts",
+            "https://www.espn.com/espn/story/_/id/48963468/ronwen-williams-fact-file-all-ronza-south-africa-goalkeeper-captain"
+          ]
+        },
+        "away": {
+          "shootouts": 0,
+          "won": 0,
+          "win_rate": 0,
+          "conversion_rate": null,
+          "recent": "加拿大在WC2026小組賽曾以12碼方式在模擬EA賽失利；正式大型賽事無點球大戰記錄可查",
+          "sources": [
+            "https://www.mlssoccer.com/news/canada-cheat-sheet-what-to-know-2026-fifa-world-cup-guide"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "南非門將Ronwen Williams是本屆最令對手膽寒的門神——AFCON 2024一場救下4球開創非洲杯紀錄，並兩奪點球大戰。南非球員習慣高壓環境，在淘汰賽點球大戰佔心理優勢，但整體踢球員質素較弱，主罰者經驗有限。",
+        "away": "加拿大從未在正式大型賽事（世界盃/美洲杯）踢過點球大戰，缺乏淘汰賽點球心理紀錄。雖主力陣容攻擊力強，但部分球員（Davies等）身體狀況存隱患，若拖至點球可能影響狀態。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "Teboho Mokoena（莫科埃納）",
+          "record": "WC2026小組賽對捷克主罰點球得分（83'），風格沉穩"
+        },
+        {
+          "team": "home",
+          "name_zh": "Ronwen Williams（威廉斯，GK）",
+          "record": "AFCON 2024一場主撲4球，本屆世界盃守門表現穩定"
+        },
+        {
+          "team": "away",
+          "name_zh": "Jonathan David（大衛）",
+          "record": "本屆世界盃3球，Lille時期歐洲賽事主罰記錄良好，但國際賽點球大戰無記錄"
+        },
+        {
+          "team": "away",
+          "name_zh": "Stephen Eustaquio（尤斯塔基奧）",
+          "record": "中場組織核心，肌肉傷勢存疑，若出場有主罰能力"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "南非防守組織嚴密，加拿大正規時間撕開防線難度不低，點球機率約10%。若比賽進入點球，Williams是南非最大底牌，有能力顛覆盤口預期；加拿大在點球大戰完全無歷史記錄，為其一大隱患。"
+    }
+  },
+  "reasoning": {
+    "summary": "加拿大在陣容深度、個人能力（David本屆3球、Larin2球）及Elo差距上均大幅領先，Opta/博彩盤口一致傾向加拿大約55%正規時間獲勝。南非防守紀律強，反擊威脅真實存在，且門將Williams是點球大戰最強王牌，若拖入加時點球南非勝算大增至約40%；整體而言仍預測加拿大1:2勝出，但比分比表面看起來更接近。",
+    "key_factors": [
+      "球員狀態：Jonathan David本屆3球、Larin2球，加拿大火力充沛；但Davies/Eustaquio受傷令高位逼搶折損",
+      "傷停：南非Themba Zwane停賽（3場紅牌禁賽）；加拿大Koné骨折出局，Davies/Jones/Eustaquio均為疑問",
+      "近況：南非W1D1L1（4分第二），靠逆轉南韓出線；加拿大W1D1L1（4分第二），6-0大勝卡塔爾但輸瑞士",
+      "戰術：南非4-2-3-1緊密中路防守+快速反擊；加拿大4-4-2高位壓迫，Davies缺陣削弱左路",
+      "場地：SoFi Stadium洛杉磯，中性場但加拿大為地主方球隊，部分主客觀球迷優勢偏向加拿大",
+      "輿論共識：Opta 55%/博彩盤口55-57%/多家媒體一致傾向加拿大；預測分數集中在0-1至0-2加拿大獲勝"
+    ],
+    "consensus_lean": "away",
+    "dissent": "部分評論（Sportskeeda、Goal.com）認為南非有能力逼平後靠Williams點球絕殺，且Williams過去點球大戰100%勝率讓南非有理由樂觀期待加時場景；也有人指出加拿大在失去三員主力情況下臨場表現充滿未知數。"
+  },
+  "run_timestamp": "2026-06-28T0500Z",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.3,
+        "away": 0.22
+      },
+      "scoreline": "1:0",
+      "note": "主場優勢明顯，南非有望小勝晉級。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "加拿大旅歐球員多，整體實力與戰術素養較佳，看好客勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.28,
+        "away": 0.47
+      },
+      "scoreline": "1:2",
+      "note": "加拿大實力佔優，南非主場難阻客隊晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.37,
+        "away": 0.29
+      },
+      "scoreline": "1:1",
+      "note": "實力接近且球風保守，預計互有攻勢握手言和"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.3,
+        "away": 0.42
+      },
+      "scoreline": "1:2",
+      "note": "加拿大憑藉歐洲頂級聯賽球星的個人能力，有望在激戰中險勝南非。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.33,
+        "draw": 0.37,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "南非主場優勢明顯，加拿大進步顯著，預計和局。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.4,
+        "away": 0.25
+      },
+      "scoreline": "1:1",
+      "note": "實力接近，加拿大防守反擊具威脅，賽和機率高。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.301,
+      "draw": 0.31,
+      "away": 0.389
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T055040Z"
+}

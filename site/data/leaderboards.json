@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T05:49:29Z",
+  "last_updated": "2026-06-28T05:31:25Z",
   "scorers": [
     {
       "id": "ARG-messi",
@@ -9,7 +9,7 @@
       "team": "Argentina",
       "position": "FW",
       "shirt_no": 10,
-      "goals": 5,
+      "goals": 6,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -98,6 +98,18 @@
       "red_cards": 0
     },
     {
+      "id": "ENG-kane",
+      "name_zh": "卡尼",
+      "name_en": "Harry Kane",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "MAR-saibari",
       "name_zh": "伊斯梅爾·薩巴里",
       "name_en": "Ismael Saibari",
@@ -141,6 +153,18 @@
       "team": "Senegal",
       "position": "MF",
       "shirt_no": 17,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "COD-wissa",
+      "name_zh": "韋薩",
+      "name_en": "Yoane Wissa",
+      "team_zh": "剛果民主",
+      "team": "DR Congo",
+      "position": "FW",
+      "shirt_no": 20,
       "goals": 3,
       "yellow_cards": 0,
       "red_cards": 0
@@ -230,13 +254,13 @@
       "red_cards": 0
     },
     {
-      "id": "ENG-kane",
-      "name_zh": "卡尼",
-      "name_en": "Harry Kane",
+      "id": "ENG-bellingham",
+      "name_zh": "貝寧咸",
+      "name_en": "Jude Bellingham",
       "team_zh": "英格蘭",
       "team": "England",
-      "position": "FW",
-      "shirt_no": 9,
+      "position": "MF",
+      "shirt_no": 10,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -297,6 +321,18 @@
       "team": "Iran",
       "position": "DF",
       "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ALG-mahrez",
+      "name_zh": "馬赫雷斯",
+      "name_en": "Riyad Mahrez",
+      "team_zh": "阿爾及利亞",
+      "team": "Algeria",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -369,6 +405,18 @@
       "team": "Senegal",
       "position": "MF",
       "shirt_no": 5,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "AUT-arnautovic",
+      "name_zh": "阿諾圖域",
+      "name_en": "Marko Arnautović",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
@@ -602,6 +650,18 @@
       "red_cards": 0
     },
     {
+      "id": "GHA-luckassen",
+      "name_zh": "德里克·盧卡森",
+      "name_en": "Derrick Luckassen",
+      "team_zh": "迦納",
+      "team": "Ghana",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "FRA-doue",
       "name_zh": "德西雷·杜埃",
       "name_en": "Désiré Doué",
@@ -609,6 +669,18 @@
       "team": "France",
       "position": "MF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "UZB-shomurodov",
+      "name_zh": "索莫羅多夫",
+      "name_en": "Eldor Shomurodov",
+      "team_zh": "烏茲別克",
+      "team": "Uzbekistan",
+      "position": "FW",
+      "shirt_no": 14,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -650,11 +722,35 @@
       "red_cards": 0
     },
     {
+      "id": "COD-mayele",
+      "name_zh": "菲斯頓·馬耶萊",
+      "name_en": "Fiston Mayele",
+      "team_zh": "剛果民主共和國",
+      "team": "DR Congo",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "MAR-yassine",
       "name_zh": "亞辛",
       "name_en": "Gessime Yassine",
       "team_zh": "摩洛哥",
       "team": "Morocco",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-locelso",
+      "name_zh": "焦瓦尼·羅塞爾索",
+      "name_en": "Giovani Lo Celso",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
@@ -830,18 +926,6 @@
       "red_cards": 0
     },
     {
-      "id": "ENG-bellingham",
-      "name_zh": "貝寧咸",
-      "name_en": "Jude Bellingham",
-      "team_zh": "英格蘭",
-      "team": "England",
-      "position": "MF",
-      "shirt_no": 10,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "TUR-ayhan",
       "name_zh": "卡安·艾漢",
       "name_en": "Kaan Ayhan",
@@ -902,6 +986,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-lautaro",
+      "name_zh": "勞塔羅·馬丁內斯",
+      "name_en": "Lautaro Martínez",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "NOR-ostigard",
       "name_zh": "萊奧·厄斯蒂加爾德",
       "name_en": "Leo Østigård",
@@ -957,18 +1053,6 @@
       "team": "England",
       "position": "FW",
       "shirt_no": 11,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "AUT-arnautovic",
-      "name_zh": "阿諾圖域",
-      "name_en": "Marko Arnautović",
-      "team_zh": "奧地利",
-      "team": "Austria",
-      "position": "FW",
-      "shirt_no": 7,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1082,6 +1166,18 @@
       "red_cards": 0
     },
     {
+      "id": "JOR-altamari",
+      "name_zh": "穆薩·塔馬里",
+      "name_en": "Musa Al-Taamari",
+      "team_zh": "約旦",
+      "team": "Jordan",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "ALG-benbouali",
       "name_zh": "納迪爾·本布瓦利",
       "name_en": "Nadhir Benbouali",
@@ -1136,6 +1232,18 @@
       "team_zh": "德國",
       "team": "Germany",
       "position": "DF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CRO-vlasic",
+      "name_zh": "尼古拉·弗拉希奇",
+      "name_en": "Nikola Vlašić",
+      "team_zh": "克羅埃西亞",
+      "team": "Croatia",
+      "position": "MF",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -1226,6 +1334,18 @@
       "red_cards": 0
     },
     {
+      "id": "ALG-belghali",
+      "name_zh": "拉菲克·貝爾加利",
+      "name_en": "Rafik Belghali",
+      "team_zh": "阿爾及利亞",
+      "team": "Algeria",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "MEX-jimenez",
       "name_zh": "希門尼斯",
       "name_en": "Raúl Jiménez",
@@ -1257,6 +1377,18 @@
       "team": "Uruguay",
       "position": "DF",
       "shirt_no": 4,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "AUT-kalajdzic",
+      "name_zh": "薩沙·卡拉傑季奇",
+      "name_en": "Sasa Kalajdzic",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "FW",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1329,18 +1461,6 @@
       "team": "Haiti",
       "position": "FW",
       "shirt_no": 11,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "COD-wissa",
-      "name_zh": "韋薩",
-      "name_en": "Yoane Wissa",
-      "team_zh": "剛果民主",
-      "team": "DR Congo",
-      "position": "FW",
-      "shirt_no": 20,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1490,11 +1610,35 @@
       "red_cards": 0
     },
     {
+      "id": "AUT-sabitzer",
+      "name_zh": "沙比策",
+      "name_en": "Marcel Sabitzer",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "MF",
+      "shirt_no": 9,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "PAR-galarza",
       "name_zh": "馬蒂亞斯·加拉爾薩",
       "name_en": "Matías Galarza",
       "team_zh": "巴拉圭",
       "team": "Paraguay",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CRO-sucic",
+      "name_zh": "佩塔爾·蘇奇奇",
+      "name_en": "Petar Sucic",
+      "team_zh": "克羅地亞",
+      "team": "Croatia",
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
@@ -1696,6 +1840,18 @@
       "red_cards": 1
     },
     {
+      "id": "UZB-khusanov",
+      "name_zh": "胡薩諾夫",
+      "name_en": "Abdukodir Khusanov",
+      "team_zh": "烏茲別克",
+      "team": "Uzbekistan",
+      "position": "DF",
+      "shirt_no": 2,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "IRQ-alammari",
       "name_zh": "阿米爾·阿馬里",
       "name_en": "Amir Al-Ammari",
@@ -1763,18 +1919,6 @@
       "team": "Senegal",
       "position": "DF",
       "shirt_no": null,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "UZB-khusanov",
-      "name_zh": "胡薩諾夫",
-      "name_en": "Abdukodir Khusanov",
-      "team_zh": "烏茲別克",
-      "team": "Uzbekistan",
-      "position": "DF",
-      "shirt_no": 2,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2476,6 +2620,18 @@
       "red_cards": 0
     },
     {
+      "id": "CRO-perisic",
+      "name_zh": "比列錫治",
+      "name_en": "Ivan Perišić",
+      "team_zh": "克羅地亞",
+      "team": "Croatia",
+      "position": "FW",
+      "shirt_no": 14,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "GHA-williams",
       "name_zh": "伊拿基·韋廉斯",
       "name_en": "Iñaki Williams",
@@ -2518,6 +2674,18 @@
       "team_zh": "澳洲",
       "team": "Australia",
       "position": "",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-quansah",
+      "name_zh": "賈雷爾·昆薩",
+      "name_en": "Jarell Quansah",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "DF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -2603,6 +2771,18 @@
       "team": "Ecuador",
       "position": "MF",
       "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "PAN-fajardo",
+      "name_zh": "法哈度",
+      "name_en": "José Fajardo",
+      "team_zh": "巴拿馬",
+      "team": "Panama",
+      "position": "FW",
+      "shirt_no": 17,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2724,6 +2904,18 @@
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "GHA-oppong",
+      "name_zh": "科喬·佩普拉·奧蓬",
+      "name_en": "Kojo Peprah Oppong",
+      "team_zh": "迦納",
+      "team": "Ghana",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2891,7 +3083,19 @@
       "team": "Austria",
       "position": "MF",
       "shirt_no": 9,
-      "goals": 0,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "AUT-arnautovic",
+      "name_zh": "阿諾圖域",
+      "name_en": "Marko Arnautović",
+      "team_zh": "奧地利",
+      "team": "Austria",
+      "position": "FW",
+      "shirt_no": 7,
+      "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3004,11 +3208,47 @@
       "red_cards": 0
     },
     {
+      "id": "JOR-abuzraiq",
+      "name_zh": "穆罕默德·阿布扎拉伊克",
+      "name_en": "Mohammad Abu Zraiq",
+      "team_zh": "約旦",
+      "team": "Jordan",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "EGY-lasheen",
       "name_zh": "穆罕納德·拉希恩",
       "name_en": "Mohanad Lasheen",
       "team_zh": "埃及",
       "team": "Egypt",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "JOR-abutaha",
+      "name_zh": "穆罕納德·阿布·塔哈",
+      "name_en": "Mohannad Abu Taha",
+      "team_zh": "約旦",
+      "team": "Jordan",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "COD-mbuku",
+      "name_zh": "拿塔內爾·姆布庫",
+      "name_en": "Nathanael Mbuku",
+      "team_zh": "剛果民主共和國",
+      "team": "DR Congo",
       "position": "MF",
       "shirt_no": null,
       "goals": 0,
@@ -3076,6 +3316,18 @@
       "red_cards": 0
     },
     {
+      "id": "COD-sadiki",
+      "name_zh": "諾亞·薩迪基",
+      "name_en": "Noah Sadiki",
+      "team_zh": "剛果民主共和國",
+      "team": "DR Congo",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "KOR-paik",
       "name_zh": "白昇浩",
       "name_en": "Paik Seung-Ho",
@@ -3119,7 +3371,7 @@
       "team": "Croatia",
       "position": "MF",
       "shirt_no": null,
-      "goals": 0,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3256,6 +3508,18 @@
       "red_cards": 0
     },
     {
+      "id": "UZB-nasrullaev",
+      "name_zh": "舍爾佐德·納斯魯拉耶夫",
+      "name_en": "Sherzod Nasrullaev",
+      "team_zh": "烏茲別克",
+      "team": "Uzbekistan",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "JPN-taniguchi",
       "name_zh": "谷口彰悟",
       "name_en": "Shogo Taniguchi",
@@ -3364,6 +3628,18 @@
       "red_cards": 0
     },
     {
+      "id": "JOR-alarab",
+      "name_zh": "亞贊·阿拉伯",
+      "name_en": "Yazan Al-Arab",
+      "team_zh": "約旦",
+      "team": "Jordan",
+      "position": "DF",
+      "shirt_no": 5,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "TUR-akgun",
       "name_zh": "尤努斯·阿克昆",
       "name_en": "Yunus Akgün",
@@ -3413,9 +3689,9 @@
     }
   ],
   "totals": {
-    "players": 458,
-    "goals": 184,
-    "yellow_cards": 148,
+    "players": 472,
+    "goals": 203,
+    "yellow_cards": 160,
     "red_cards": 10
   }
 }

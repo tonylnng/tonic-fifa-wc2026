@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-27T05:49:29Z",
+  "last_updated": "2026-06-28T05:31:25Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -16,12 +16,18 @@
       "is_key": true,
       "bio_zh": "阿爾及利亞隊長及最佳球員，國家隊射手王（逾38球），曾效力曼城贏得英超冠軍。速度快、突破能力強，是球隊進攻的絕對核心，本屆或是其世界盃謝幕演出。",
       "stats": {
-        "goals": 0,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          72
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760484",
+        "https://www.skysports.com/football/algeria-vs-austria/report/549832",
+        "https://www.espn.co.uk/football/match/_/gameId/760484"
+      ]
     },
     {
       "id": "ALG-amoura",
@@ -172,6 +178,32 @@
       "sources": []
     },
     {
+      "id": "ALG-belghali",
+      "name_en": "Rafik Belghali",
+      "name_zh": "拉菲克·貝爾加利",
+      "team": "Algeria",
+      "team_zh": "阿爾及利亞",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          72
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760484",
+        "https://www.skysports.com/football/algeria-vs-austria/report/549832",
+        "https://www.espn.co.uk/football/match/_/gameId/760484"
+      ]
+    },
+    {
       "id": "ARG-alvarez",
       "name_en": "Julián Álvarez",
       "name_zh": "祖利安·阿爾華雷斯",
@@ -204,20 +236,45 @@
       "is_key": true,
       "bio_zh": "史上最偉大球員之一，本屆為其第六次也是最後一次世界盃，背負衛冕冠軍隊長重任。在美職聯雖賽事水平較低，但國家隊表現依然出色，是阿根廷進攻核心與精神領袖。",
       "stats": {
-        "goals": 5,
+        "goals": 6,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           19,
-          41
+          41,
+          71
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/argentina-vs-austria/report/549808",
-        "https://www.espn.com/soccer/report/_/gameId/760456",
-        "https://bolavip.com/en/world-cup/argentina-vs-austria-live-lionel-messi-chases-2026-world-cup-round-of-32-spot",
-        "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/argentina-vs-austria/liveticker",
-        "https://terrikon.com/en/football/matches/156644"
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
+      ]
+    },
+    {
+      "id": "ARG-lautaro",
+      "name_en": "Lautaro Martínez",
+      "name_zh": "勞塔羅·馬丁內斯",
+      "team": "Argentina",
+      "team_zh": "阿根廷",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          71
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
       ]
     },
     {
@@ -259,6 +316,32 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "ARG-locelso",
+      "name_en": "Giovani Lo Celso",
+      "name_zh": "焦瓦尼·羅塞爾索",
+      "team": "Argentina",
+      "team_zh": "阿根廷",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          71
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
+      ]
     },
     {
       "id": "ARG-paredes",
@@ -599,18 +682,44 @@
       "is_key": true,
       "bio_zh": "奧地利副隊長及歷史射手王，進球逾48球，曾效力西漢姆、史篤城等英超球隊。雖年屆37歲仍持續入選，是球隊前線絕對核心，對球隊的進攻至關重要。",
       "stats": {
+        "goals": 2,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          20,
+          72
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760484",
+        "https://www.skysports.com/football/algeria-vs-austria/report/549832",
+        "https://www.espn.co.uk/football/match/_/gameId/760484"
+      ]
+    },
+    {
+      "id": "AUT-kalajdzic",
+      "name_en": "Sasa Kalajdzic",
+      "name_zh": "薩沙·卡拉傑季奇",
+      "team": "Austria",
+      "team_zh": "奧地利",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
         "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          20
+          72
         ]
       },
       "sources": [
-        "FIFA official match report",
-        "ESPN",
-        "Sky Sports",
-        "The Guardian match centre"
+        "https://www.espn.com/soccer/report/_/gameId/760484",
+        "https://www.skysports.com/football/algeria-vs-austria/report/549832",
+        "https://www.espn.co.uk/football/match/_/gameId/760484"
       ]
     },
     {
@@ -626,18 +735,18 @@
       "is_key": true,
       "bio_zh": "奧地利第三隊長，效力多特蒙德，國家隊出場逾99次，進球達26球。技術全面、跑動積極，擔任中場攻守橋樑，是球隊中場最重要的組織核心。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          20
+          20,
+          72
         ]
       },
       "sources": [
-        "FIFA official match report",
-        "ESPN",
-        "Sky Sports",
-        "The Guardian match centre"
+        "https://www.espn.com/soccer/report/_/gameId/760484",
+        "https://www.skysports.com/football/algeria-vs-austria/report/549832",
+        "https://www.espn.co.uk/football/match/_/gameId/760484"
       ]
     },
     {
@@ -2359,11 +2468,17 @@
       "bio_zh": "效力荷甲飛燕諾的老將左翼，出場逾152次是球隊出場次數最多的球員之一。大賽經驗豐富、左路突破依然犀利，本屆或為其最後一次世界盃，仍是達利奇的重要戰術選項。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          67
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760480",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-croatia-vs-ghana-in-the-2026-fifa-world-cup-2026-06-27",
+        "https://en.as.com/soccer/world-cup/croatia-vs-ghana-live-online-score-stats-goals-updates-world-cup-2026-group-l-f202606-n/"
+      ]
     },
     {
       "id": "CRO-budimir",
@@ -2484,6 +2599,32 @@
       ]
     },
     {
+      "id": "CRO-vlasic",
+      "name_en": "Nikola Vlašić",
+      "name_zh": "尼古拉·弗拉希奇",
+      "team": "Croatia",
+      "team_zh": "克羅埃西亞",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          67
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760480",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-croatia-vs-ghana-in-the-2026-fifa-world-cup-2026-06-27",
+        "https://en.as.com/soccer/world-cup/croatia-vs-ghana-live-online-score-stats-goals-updates-world-cup-2026-group-l-f202606-n/"
+      ]
+    },
+    {
       "id": "CRO-sucic",
       "name_en": "Petar Sucic",
       "name_zh": "佩塔爾·蘇奇奇",
@@ -2496,15 +2637,18 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          47
+          47,
+          67
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://www.espn.com/soccer/report/_/gameId/760480",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-croatia-vs-ghana-in-the-2026-fifa-world-cup-2026-06-27",
+        "https://en.as.com/soccer/world-cup/croatia-vs-ghana-live-online-score-stats-goals-updates-world-cup-2026-group-l-f202606-n/"
       ]
     },
     {
@@ -3005,18 +3149,44 @@
       "is_key": true,
       "bio_zh": "效力紐卡素的快速前鋒，在英超賽事中表現出色，進球能力強。憑藉速度與靈巧的腳法，是剛果民主共和國進攻線上最具威脅的球員，本屆有望在世界舞台上一鳴驚人。",
       "stats": {
+        "goals": 3,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          21,
+          70
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
+      ]
+    },
+    {
+      "id": "COD-mayele",
+      "name_en": "Fiston Mayele",
+      "name_zh": "菲斯頓·馬耶萊",
+      "team": "DR Congo",
+      "team_zh": "剛果民主共和國",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
         "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          21
+          70
         ]
       },
       "sources": [
-        "ESPN",
-        "Sky Sports",
-        "The Guardian",
-        "Sofascore"
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
       ]
     },
     {
@@ -3041,6 +3211,58 @@
       },
       "sources": [
         "https://www.espn.com/soccer/"
+      ]
+    },
+    {
+      "id": "COD-mbuku",
+      "name_en": "Nathanael Mbuku",
+      "name_zh": "拿塔內爾·姆布庫",
+      "team": "DR Congo",
+      "team_zh": "剛果民主共和國",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          70
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
+      ]
+    },
+    {
+      "id": "COD-sadiki",
+      "name_en": "Noah Sadiki",
+      "name_zh": "諾亞·薩迪基",
+      "team": "DR Congo",
+      "team_zh": "剛果民主共和國",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          70
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
       ]
     },
     {
@@ -3678,18 +3900,18 @@
       "is_key": true,
       "bio_zh": "英格蘭隊長及歷史最高進球球員，進球逾79球，效力拜仁慕尼黑在德甲繼續高效射門。本屆是其職業生涯贏取第一個重要錦標的最後機會，責任重大，備受全球關注。",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          22
+          22,
+          68
         ]
       },
       "sources": [
-        "Sky Sports",
-        "NBC Sports",
-        "England Football",
-        "The Guardian"
+        "https://www.espn.com/soccer/match/_/gameId/760485/england-panama",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571699",
+        "https://www.sportingnews.com/uk/football/news/england-vs-panama-world-cup-live-score-result-highlights/e61876f8bda955265fe6b912"
       ]
     },
     {
@@ -3756,18 +3978,44 @@
       "is_key": true,
       "bio_zh": "效力皇家馬德里的英格蘭最耀眼中場天才，進攻能力強、大賽表現出眾，是球隊最具票房號召力的球員。本屆年僅23歲卻已身經百戰，有望成為英格蘭奪冠的最大功臣。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          22
+          22,
+          68
         ]
       },
       "sources": [
-        "Sky Sports",
-        "NBC Sports",
-        "England Football",
-        "The Guardian"
+        "https://www.espn.com/soccer/match/_/gameId/760485/england-panama",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571699",
+        "https://www.sportingnews.com/uk/football/news/england-vs-panama-world-cup-live-score-result-highlights/e61876f8bda955265fe6b912"
+      ]
+    },
+    {
+      "id": "ENG-quansah",
+      "name_en": "Jarell Quansah",
+      "name_zh": "賈雷爾·昆薩",
+      "team": "England",
+      "team_zh": "英格蘭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          68
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760485/england-panama",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571699",
+        "https://www.sportingnews.com/uk/football/news/england-vs-panama-world-cup-live-score-result-highlights/e61876f8bda955265fe6b912"
       ]
     },
     {
@@ -4398,6 +4646,58 @@
         "https://www.espn.com/soccer/report/_/gameId/760434",
         "https://www.bbc.co.uk/sport/football/videos/c1jyrn83ep2o",
         "https://www.foxsports.com/soccer/fifa-world-cup-men-ghana-vs-panama-jun-17-2026-game-boxscore-647638?tab=playbyplay"
+      ]
+    },
+    {
+      "id": "GHA-oppong",
+      "name_en": "Kojo Peprah Oppong",
+      "name_zh": "科喬·佩普拉·奧蓬",
+      "team": "Ghana",
+      "team_zh": "迦納",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          67
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760480",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-croatia-vs-ghana-in-the-2026-fifa-world-cup-2026-06-27",
+        "https://en.as.com/soccer/world-cup/croatia-vs-ghana-live-online-score-stats-goals-updates-world-cup-2026-group-l-f202606-n/"
+      ]
+    },
+    {
+      "id": "GHA-luckassen",
+      "name_en": "Derrick Luckassen",
+      "name_zh": "德里克·盧卡森",
+      "team": "Ghana",
+      "team_zh": "迦納",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          67
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760480",
+        "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/live-blog-croatia-vs-ghana-in-the-2026-fifa-world-cup-2026-06-27",
+        "https://en.as.com/soccer/world-cup/croatia-vs-ghana-live-online-score-stats-goals-updates-world-cup-2026-group-l-f202606-n/"
       ]
     },
     {
@@ -5499,12 +5799,18 @@
       "is_key": true,
       "bio_zh": "約旦隊最耀眼的明星，效力法甲雷恩，本賽季攻入7球助攻11次。世界盃亞洲區外圍賽打入7球，速度快、技術靈活，是約旦進攻絕對核心，亦是球隊在歐洲效力的唯一球員。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          71
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
+      ]
     },
     {
       "id": "JOR-alrawabdeh",
@@ -5525,6 +5831,58 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "JOR-abuzraiq",
+      "name_en": "Mohammad Abu Zraiq",
+      "name_zh": "穆罕默德·阿布扎拉伊克",
+      "team": "Jordan",
+      "team_zh": "約旦",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          71
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
+      ]
+    },
+    {
+      "id": "JOR-abutaha",
+      "name_en": "Mohannad Abu Taha",
+      "name_zh": "穆罕納德·阿布·塔哈",
+      "team": "Jordan",
+      "team_zh": "約旦",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          71
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
+      ]
     },
     {
       "id": "JOR-alrashdan",
@@ -5564,11 +5922,17 @@
       "bio_zh": "效力韓國職業聯賽首爾FC的後衛，出場逾80次是約旦出場最多的球員之一。防守穩健，以豐富的亞洲職業聯賽經驗為後防線帶來強硬組織能力。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          71
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.co.uk/football/report/_/gameId/760483",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686",
+        "https://www.reddit.com/r/soccer/comments/1uhmwz1/post_match_thread_jordan_1_3_argentina_fifa_world/"
+      ]
     },
     {
       "id": "JOR-haddad",
@@ -6872,11 +7236,17 @@
       "bio_zh": "巴拿馬最穩定的前鋒之一，代表國家隊進球逾17球，射術精準。效力智利天主教大學，是球隊進攻線的重要得分者，本屆有望在更大舞台繼續其進球紀錄。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          68
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760485/england-panama",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571699",
+        "https://www.sportingnews.com/uk/football/news/england-vs-panama-world-cup-live-score-result-highlights/e61876f8bda955265fe6b912"
+      ]
     },
     {
       "id": "PAN-carrasquilla",
@@ -10720,12 +11090,18 @@
       "is_key": true,
       "bio_zh": "烏茲別克隊長及歷史進球最多球員，進球逾44球，曾效力羅馬等歐洲球隊。領導球隊完成首次世界盃資格賽晉級歷史壯舉，是球隊前線的絕對核心與精神領袖。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          70
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
+      ]
     },
     {
       "id": "UZB-shukurov",
@@ -10795,6 +11171,32 @@
       ]
     },
     {
+      "id": "UZB-nasrullaev",
+      "name_en": "Sherzod Nasrullaev",
+      "name_zh": "舍爾佐德·納斯魯拉耶夫",
+      "team": "Uzbekistan",
+      "team_zh": "烏茲別克",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          70
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
+      ]
+    },
+    {
       "id": "UZB-khusanov",
       "name_en": "Abdukodir Khusanov",
       "name_zh": "胡薩諾夫",
@@ -10808,17 +11210,17 @@
       "bio_zh": "效力英超曼城的烏茲別克年輕中堅，是本屆陣容中最著名的歐洲頂級聯賽球員。防守果斷、判斷力強，雖年輕但已在英超站穩腳跟，是球隊後防的核心樑柱。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          24
+          24,
+          70
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan",
-        "https://www.espn.com/soccer/story/_/id/49100616/uzbekistan-colombia-live-world-cup-2026-latest-updates-commentary-score-result",
-        "https://www.skysports.com/football/uzbekistan-vs-colombia/report/549787",
-        "https://www.foxsports.com/soccer/fifa-world-cup-men-uzbekistan-vs-colombia-jun-17-2026-game-boxscore-647639"
+        "https://www.espn.com/soccer/report/_/gameId/760482",
+        "https://english.ahram.org.eg/WorldCup2026/Article/571702",
+        "https://www.livemint.com/sports/football-news/fifa-world-cup-congo-dr-1508-vs-uzbekistan-1568-live-score-1539013"
       ]
     },
     {

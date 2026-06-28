@@ -1,0 +1,438 @@
+{
+  "match": 74,
+  "home": "Germany",
+  "away": "Paraguay",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-06-29T20:30:00Z",
+  "kickoff_hkt": "2026-06-30 04:30",
+  "venue": "Gillette Stadium, Boston (Foxborough, MA)",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "source_count": 28,
+  "sources": [
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup Group E",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup Group D",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Germany vs Paraguay H2H",
+      "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/head-to-head/germany-vs-paraguay-head-to-head-record-and-past-meetings_600215.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Germany vs Paraguay Preview/Team News",
+      "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-paraguay-prediction-team-news-lineups_600229.html"
+    },
+    {
+      "type": "media",
+      "name": "Football Whispers – Germany vs Paraguay Prediction",
+      "url": "https://footballwhispers.com/blog/germany-vs-paraguay-prediction-betting-tips-and-preview-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "SportPesa Blog – Germany vs Paraguay Preview",
+      "url": "https://blog.ke.sportpesa.com/2026/06/27/germany-vs-paraguay-prediction-world-cup-round-of-32-preview-team-news-lineups-h2h/"
+    },
+    {
+      "type": "betting",
+      "name": "Dimers – Paraguay vs Germany Prediction & Odds",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_4_ger_par"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network – Paraguay vs Germany Odds",
+      "url": "https://www.actionnetwork.com/worldcup-game/paraguay-germany/292407"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsline – Germany vs Paraguay Picks (Martin Green)",
+      "url": "https://www.sportsline.com/insiders/germany-vs-paraguay-odds-predictions-2026-world-cup-round-of-32-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "BettingExpert – Germany vs Paraguay",
+      "url": "https://www.bettingexpert.com/football/germany-vs-paraguay"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Opta Supercomputer WC 2026 Predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Germany defender Schlotterbeck out of World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o"
+    },
+    {
+      "type": "media",
+      "name": "Sportbible – Germany World Cup blow (Schlotterbeck/Brown injury)",
+      "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/germany-ruled-out-injury-blow-314590-20260622"
+    },
+    {
+      "type": "media",
+      "name": "beinSports – Germany 7-1 Curaçao (Havertz double)",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/germany-7-1-curacao-havertz-double-caps-world-cup-thrashing-2026-06-14"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – Paraguay at the FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Paraguay_at_the_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "AS USA – World Cup 2026 Group E Standings",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-e-standings-results-and-who-can-qualify-f202606-n-2/"
+    },
+    {
+      "type": "media",
+      "name": "Asuncion Times – Paraguay held 0-0 by Australia",
+      "url": "https://asunciontimes.com/sport/international-sport/paraguay-held-0-0-by-australia-in-world-cup-now-sweating-on-third-place-luck/"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Germany WC Penalty Shoot-out History",
+      "url": "https://www.skysports.com/football/news/12023/11388401/germany-in-world-cup-penalty-shoot-outs-every-kick-in-history-analysed"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF – All-time Penalty Shoot-out Stats for National Teams",
+      "url": "https://www.rsssf.org/miscellaneous/penstats_stat.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – World Cup 2026 Penalty Shootout Records",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "AllAboutFPL – WC 2026 Penalty & Set Piece Takers All 48 Teams",
+      "url": "https://allaboutfpl.com/2026/06/fifa-world-cup-2026-penalty-and-set-piece-takers-of-all-48-teams/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – 2026 World Cup Set-Piece Takers",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-penalty-corner-and-free-kick-takers-by-team-114076"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany vs Paraguay Prediction & Full Match Analysis (Can Paraguay Stop Germany?)",
+      "url": "https://www.youtube.com/watch?v=x_R-gHDg2ws"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – WILL THERE BE AN UPSET? PARAGUAY vs GERMANY",
+      "url": "https://www.youtube.com/watch?v=hD9m4Q_otAE"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Germany VS Paraguay Prediction & Best Bets",
+      "url": "https://www.youtube.com/watch?v=jpQGvB7zjw8"
+    },
+    {
+      "type": "youtube",
+      "name": "DailyMotion – Germany v Paraguay World Cup Opta Predictor",
+      "url": "https://www.dailymotion.com/video/xajaoki"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Germany vs Paraguay Round of 32 discussion",
+      "url": "https://www.reddit.com/r/worldcup/comments/1lj3q5p/germany_vs_paraguay_confirmed_in_round_of_32_on/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Group E 2026 World Cup Teams, Records & Stats",
+      "url": "https://www.espn.com/soccer/story/_/id/48999982/group-e-2026-world-cup-teams-records-stats-know-germany-curacao-ecuador-ivory-coast"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.67,
+      "draw": 0.19,
+      "away": 0.14
+    },
+    "confidence": 0.68,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.19
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "德國主場強攻得勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.68,
+        "basis": "德國攻擊線Havertz/Musiala/Wirtz火力充沛，巴拉圭防守雖穩固但進攻資源有限，德國有望90分鐘內複製小組賽前兩場大勝氣勢。"
+      },
+      {
+        "name": "巴拉圭頑強防守逼平",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.19,
+        "basis": "巴拉圭小組賽對澳洲0-0展現防守組織，若阿爾米隆/Enciso把握反擊機會，理論上可拖入加時，最終德國仍可能透過點球晉級。"
+      },
+      {
+        "name": "德國末輪敗相重演",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.1,
+        "basis": "德國末輪0-2負厄瓜多爾，若巴拉圭複製南美球隊的壓迫踢法且德國後防再出問題，爆冷非不可能。"
+      },
+      {
+        "name": "德國大勝早定",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.15,
+        "basis": "德國小組賽首場7-1大勝，若巴拉圭防線崩潰，不排除出現懸殊勝仗。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers預測模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.688,
+          "draw": 0.19,
+          "away": 0.122
+        },
+        "scoreline": "0:2（德國勝，最可能比分）",
+        "note": "Dimers數據驅動模型以68.8%看好德國，最可能比分為巴拉圭0-2德國。"
+      },
+      {
+        "source": "FanDuel賠率（Sportsline引述）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.737,
+          "draw": 0.2,
+          "away": 0.063
+        },
+        "scoreline": null,
+        "note": "FanDuel盤口德國-280（主勝約73.7%隱含概率），巴拉圭+800，平局+400。"
+      },
+      {
+        "source": "Action Network公眾博彩比重",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.98,
+          "draw": 0.01,
+          "away": 0.01
+        },
+        "scoreline": null,
+        "note": "公眾注碼98%押德國勝，顯示市場極度看好德國，但此比例含誇大效應。"
+      },
+      {
+        "source": "Football Whispers預測",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.65,
+          "draw": 0.2,
+          "away": 0.15
+        },
+        "scoreline": "2:0",
+        "note": "德國近12場11勝1負，對位戰術優勢明顯，預測德國2-0勝。"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.19,
+      "extra_time_prob": 0.12,
+      "shootout_prob": 0.07,
+      "advance_prob": {
+        "home": 0.93,
+        "away": 0.07
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 4,
+          "won": 4,
+          "win_rate": 1.0,
+          "conversion_rate": 0.944,
+          "recent": "德國世界盃點球紀錄4戰全勝（1982、1986、1990、2006），歷史上18次主罰17次命中，僅1982年Stielke一次未進；被稱為「點球之王」。",
+          "sources": [
+            "https://www.skysports.com/football/news/12023/11388401/germany-in-world-cup-penalty-shoot-outs-every-kick-in-history-analysed"
+          ]
+        },
+        "away": {
+          "shootouts": 9,
+          "won": 3,
+          "win_rate": 0.333,
+          "conversion_rate": null,
+          "recent": "據RSSSF全時間數據，巴拉圭點球大戰9場3勝6負（勝率33.3%），是歷史紀錄較差的球隊之一；世界盃淘汰賽無點球大戰紀錄。",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penstats_stat.html",
+            "https://en.wikipedia.org/wiki/Paraguay_at_the_FIFA_World_Cup"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "德國以世界盃點球無敗紀錄建立強大心理優勢，球員在高壓環境下主罰時表現穩定，Havertz、Kimmich均為心理質素佳的主罰球員。",
+        "away": "巴拉圭點球大戰歷史勝率僅33%，心理包袱較重；然而本屆球隊核心年輕，Enciso出傷狀況影響主罰信心；停賽的Gomez（擅長定位球）缺陣亦是損失。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "凱·哈弗茨（Kai Havertz）",
+          "record": "德國隊首選主罰，穩定心理質素，本屆進2球，是球隊攻擊核心。"
+        },
+        {
+          "team": "home",
+          "name_zh": "約書亞·基米希（Joshua Kimmich）",
+          "record": "德國隊備選主罰，俱樂部及國家隊均有成功主罰紀錄，臨場心理素質強。"
+        },
+        {
+          "team": "away",
+          "name_zh": "胡利奧·恩西索（Julio Enciso）",
+          "record": "巴拉圭首選主罰，創意型球員，但本屆賽前受傷（傷勢存疑），能否出場及主罰待確認。"
+        },
+        {
+          "team": "away",
+          "name_zh": "米格爾·阿爾米隆（Miguel Almirón）",
+          "record": "巴拉圭備選主罰（生涯10球，最具經驗），本屆最多進球球員。"
+        }
+      ],
+      "penalty_risk": "low",
+      "risk_note": "德國世界盃點球4戰全勝紀錄顯著，主罰體系成熟；巴拉圭點球歷史勝率偏低（33%），加之關鍵主罰球員Enciso傷勢存疑、Gomez停賽。縱使進入點球大戰，德國晉級概率仍高，整體點球風險偏低。"
+    }
+  },
+  "reasoning": {
+    "summary": "德國世界盃重返淘汰賽（2018/2022連續小組出局後），小組賽以7-1大勝庫拉索和2-1勝象牙海岸展示進攻火力（10球），但末輪1-2負厄瓜多爾令外界關注防守穩定性。巴拉圭以D組第三（4分，GD-2）最佳第三名身份晉級，對美國大敗後以1-0勝土耳其、0-0平澳洲，防守組織尚可但進攻貧乏。德國在陣容深度、技術質素和主罰體系上均佔壓倒性優勢，輿論共識以65-70%看好德國在90分鐘內取勝。",
+    "key_factors": [
+      "球員狀態：德國Havertz/Musiala/Wirtz/Sané攻擊四角狀態火熱，Havertz本屆2球；巴拉圭Enciso傷勢是關鍵擔憂，若無法出賽則進攻嚴重失色",
+      "傷停：德國後衛Schlotterbeck（韌帶）整屆缺席，Nathaniel Brown可能傷缺；巴拉圭Alderete（膝蓋）存疑，Gomez（停賽，黃牌累積）確定缺席",
+      "近況：德國3場：7-1大勝、2-1勝、1-2負（負厄瓜多爾）；巴拉圭3場：0-3大敗（對美國）、1-0勝（對土耳其）、0-0平（對澳洲）",
+      "戰術：Nagelsmann 4-2-3-1體系進攻靈活，Wirtz/Musiala雙核破防能力強；Alfaro巴拉圭低防守反擊，缺乏持球建設能力，對高壓逼搶難以招架",
+      "場地：Gillette Stadium波士頓，美國東岸，天氣6月底偏熱，中性場地對巴拉圭無特殊優勢",
+      "輿論共識：Dimers 68.8%、FanDuel隱含73.7%、Football Whispers 65%，博彩市場98%公眾注碼押德國；KOL YouTube均看好德國勝，但提示Enciso若康復上場可製造驚喜"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數觀點認為德國末輪對厄瓜多爾的失利（1-2，後防失位）暴露體系隱患，若巴拉圭複製南美球隊的高位逼搶與快速反擊，且Enciso康復全力發揮，有能力拖入加時；然而市場整體對此爆冷概率評估僅約13-14%，屬小概率事件。"
+  },
+  "run_timestamp": "2026-06-28T0500Z",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.82,
+        "draw": 0.12,
+        "away": 0.06
+      },
+      "scoreline": "3:0",
+      "note": "德國主場攻守俱佳，淘汰賽面對巴拉圭實力懸殊。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "德國整體實力佔優，有望穩穩拿下巴拉圭晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:1",
+      "note": "德國整體實力明顯優於巴拉圭，預料可順利取勝晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.63,
+        "draw": 0.23,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "德國實力與板凳更優，控制比賽節奏穩勝巴拉圭"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "德國整體陣容實力佔優且大賽經驗豐富，巴拉圭防線難以抵擋。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.76,
+        "draw": 0.15,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "德國實力遠勝巴拉圭，主場預計輕鬆獲勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "scoreline": "3:0",
+      "note": "德國實力明顯優勢，預計輕取巴拉圭晉級。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.722,
+      "draw": 0.172,
+      "away": 0.106
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T055119Z"
+}

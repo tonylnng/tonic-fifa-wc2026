@@ -926,6 +926,90 @@
       "outcome": "draw",
       "recorded_at": "2026-06-27T05:00:00Z",
       "source": "https://www.espn.com/soccer/report/_/gameId/760476"
+    },
+    {
+      "match": 67,
+      "stage": "Group L",
+      "home": "Croatia",
+      "away": "Ghana",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-28T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760480"
+    },
+    {
+      "match": 68,
+      "stage": "Group L",
+      "home": "Panama",
+      "away": "England",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "scoreline": "0:2",
+      "outcome": "away",
+      "recorded_at": "2026-06-28T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760485/england-panama"
+    },
+    {
+      "match": 69,
+      "stage": "Group K",
+      "home": "Colombia",
+      "away": "Portugal",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreline": "0:0",
+      "outcome": "draw",
+      "recorded_at": "2026-06-28T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760481/portugal-colombia"
+    },
+    {
+      "match": 70,
+      "stage": "Group K",
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "scoreline": "3:1",
+      "outcome": "home",
+      "recorded_at": "2026-06-28T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760482"
+    },
+    {
+      "match": 71,
+      "stage": "Group J",
+      "home": "Jordan",
+      "away": "Argentina",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "scoreline": "1:3",
+      "outcome": "away",
+      "recorded_at": "2026-06-28T05:00:00Z",
+      "source": "https://www.espn.co.uk/football/report/_/gameId/760483"
+    },
+    {
+      "match": 72,
+      "stage": "Group J",
+      "home": "Algeria",
+      "away": "Austria",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "scoreline": "3:3",
+      "outcome": "draw",
+      "recorded_at": "2026-06-28T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760484"
     }
   ]
 }

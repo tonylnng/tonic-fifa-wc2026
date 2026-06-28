@@ -1,0 +1,511 @@
+{
+  "match": 76,
+  "home": "Brazil",
+  "away": "Japan",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-06-29T17:00:00Z",
+  "kickoff_hkt": "2026-06-30 01:00",
+  "venue": "NRG Stadium, Houston",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "source_count": 43,
+  "sources": [
+    {
+      "type": "official",
+      "name": "Dimers 模型（Brazil 58.1% / Japan 18.6%）",
+      "url": "https://www.dimers.com/bet-hub/swc/schedule/2026_4_bra_jpn"
+    },
+    {
+      "type": "model",
+      "name": "Action Network 模型（Brazil晉級75.4%）",
+      "url": "https://www.actionnetwork.com/soccer/2026-world-cup-bracket-interactive-predictions-simulations-form-more"
+    },
+    {
+      "type": "model",
+      "name": "ESPN／Opta 巴西奪冠機率7.1% / 日本1.1%",
+      "url": "https://www.espn.com/soccer/story/_/id/49118437/fifa-world-cup-predictions-analysis-projections-usa-mexico-spain-brazil-england-argentina-germany-france"
+    },
+    {
+      "type": "betting",
+      "name": "BetOnline/LuckyRebel/BetNow 盤口",
+      "url": "https://www.inkl.com/news/world-cup-2026-r32-brazil-vs-japan-predictions-and-picks"
+    },
+    {
+      "type": "betting",
+      "name": "FOX Sports 盤口（BRA -145 / Draw +290 / JPN +410）",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-32-odds"
+    },
+    {
+      "type": "betting",
+      "name": "Total Football Analysis 盤口（Brazil 4/6）",
+      "url": "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-r32-brazil-japan-predictions"
+    },
+    {
+      "type": "model",
+      "name": "Polymarket 預測市場（Brazil 56.5% / Draw 25% / Japan 18.5%）",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-bra-jpn-2026-06-29"
+    },
+    {
+      "type": "model",
+      "name": "Coach AI（Brazil 56% / Draw 25% / Japan 19%）",
+      "url": "https://footballmeister.com/world-cup-2026/brazil-japan-2026-06-29/"
+    },
+    {
+      "type": "model",
+      "name": "NerdyTips AI（Brazil信任度8.5/10，預測2:0）",
+      "url": "https://nerdytips.com/match-details/brazil-vs-japan-prediction-1277562"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire 陣容分析與戰術預測（Brazil 2-1）",
+      "url": "https://www.rotowire.com/soccer/article/brazil-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120069"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole 日本傷停與陣容分析",
+      "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-japan-prediction-team-news-lineups_600204.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole 日本Itakura傷情",
+      "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/defensive-injury-doubt-predicted-japan-xi-vs-brazil_600207.html"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com 預測（Brazil 2-1）",
+      "url": "https://www.goal.com/en-za/betting/world-cup/brazil-vs-japan-predictions-29-06-2026/A:bltbe155dbf1053d6ff"
+    },
+    {
+      "type": "media",
+      "name": "Ladbrokes 預測（Brazil 3-1，Over 3.5）",
+      "url": "https://www.ladbrokes.com/en/news/brazil-japan-world-cup-round-of-32-preview-predictions-tips-2026-06-26/"
+    },
+    {
+      "type": "media",
+      "name": "Sportskeeda 預測（Brazil 2-1）",
+      "url": "https://www.sportskeeda.com/football/brazil-vs-japan-prediction-betting-tips-june-29th-2026"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com 精選（Draw +291）",
+      "url": "https://www.covers.com/world-cup/brazil-vs-japan-prediction-picks-odds-monday-6-29-2026"
+    },
+    {
+      "type": "media",
+      "name": "FootballPredictions.com 預測（1-1）",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/brazil-vs-japan-prediction-29-06-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Esports News UK 預測（Brazil 4/6）",
+      "url": "https://esports-news.co.uk/2026/06/27/world-cup-r32-brazil-japan-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "Inkl/BetOnline 賽前分析（Brazil -139）",
+      "url": "https://www.inkl.com/news/world-cup-2026-r32-brazil-vs-japan-predictions-and-picks"
+    },
+    {
+      "type": "media",
+      "name": "Straight Times：日本VS巴西復仇賽報導",
+      "url": "https://www.straitstimes.com/sport/football/brazil-get-japan-rematch-as-ancelottis-world-cup-crash-course-faces-knockout-test"
+    },
+    {
+      "type": "media",
+      "name": "ESPN Militao警告巴西：日本威脅大",
+      "url": "https://africa.espn.com/football/story/_/id/49185273/eder-militao-brazil-japan-world-cup-2026"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: BRAZIL HEADS INTO JAPAN CLASH（Raphinha缺陣）",
+      "url": "https://www.youtube.com/watch?v=L3A4jWCfNq8"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Brazil Prepare for R32 vs Japan（備戰訓練）",
+      "url": "https://www.youtube.com/watch?v=tQMl33Rnnec"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Brazil VS Japan Prediction & Best Bets",
+      "url": "https://www.youtube.com/watch?v=wZczlJQHHzw"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: World Cup Knockout Round Brazil vs Japan",
+      "url": "https://www.youtube.com/watch?v=F3jL4-Wgdhc"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: Brazil vs Japan R32 Matchup Preview",
+      "url": "https://www.youtube.com/watch?v=eDYI4EoWPbU"
+    },
+    {
+      "type": "kol",
+      "name": "YouTube: BRAZIL VS JAPAN Should Ancelotti Drop Casemiro（戰術爭議）",
+      "url": "https://www.youtube.com/watch?v=Lm-e2eseiHQ"
+    },
+    {
+      "type": "forum",
+      "name": "朝鮮日報：巴西球迷社群擔憂被日本翻盤",
+      "url": "https://www.chosun.com/english/sports-en/2026/06/23/PNJ7ZQRQGBC5JDYK3X6P62HSLI/"
+    },
+    {
+      "type": "forum",
+      "name": "Sportskeeda：球迷反應「Japan could shock them」",
+      "url": "https://www.sportskeeda.com/football/news-wow-game-could-shock-them-fans-react-confirmation-japan-will-face-2026-fifa-world-cup-round-32"
+    },
+    {
+      "type": "media",
+      "name": "BetMGM 預測（兩隊均能進球）",
+      "url": "https://sports.betmgm.com/en/blog/world-cup/brazil-vs-japan-prediction-odds-preview-world-cup-june-29-bm16/"
+    },
+    {
+      "type": "media",
+      "name": "MEXC 預測（Japan 1-2 Brazil）",
+      "url": "https://www.mexc.com/news/1178227"
+    },
+    {
+      "type": "media",
+      "name": "Tokyo Weekender：日本世界盃歷史回顧",
+      "url": "https://www.tokyoweekender.com/entertainment/sports/world-cup-2026-preview/"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Group C積分榜（巴西7分第一）",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-group-c-standings-results-table-2026-brazil/c79b62229f6707e1d2775b24"
+    },
+    {
+      "type": "media",
+      "name": "SportingNews Group F積分榜（日本5分第二）",
+      "url": "https://www.sportingnews.com/us/soccer/news/world-cup-group-f-standings-results-table-2026/d6cc9a7a7d6b2f52b327d936"
+    },
+    {
+      "type": "official",
+      "name": "Opta Analyst：世界盃點球大戰統計事實",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated：世界盃點球最差記錄（日本0勝2負）",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone：所有世界盃點球大戰記錄（日本2010/2022）",
+      "url": "https://www.thestatszone.com/every-penalty-shoot-out-in-fifa-world-cup-history-178684"
+    },
+    {
+      "type": "media",
+      "name": "TrebleStats：世界盃點球大國記錄（巴西3勝2負）",
+      "url": "https://treblestats.co.uk/world-cup-2026/england-penalties-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "Bein Sports：Croatia世界盃點球全勝記錄（含擊敗日本/巴西）",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-teams-that-have-never-lost-a-penalty-shootout-in-world-cup-history-and-still-hold-a-perfect-record-from-the-spot-2026-06-09"
+    },
+    {
+      "type": "media",
+      "name": "BBC：日本進四強路障四次止步R16",
+      "url": "https://www.straitstimes.com/sport/football/japan-aim-for-world-cup-breakthrough-after-high-profile-wins"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com：Vinicius Jr巴西世界盃期望",
+      "url": "https://www.goal.com/en-sa/lists/brazil-vinicius-jr-world-cup-inspiration-real-madrid-selecao-2026/blt0ce509cfeab8aee3"
+    },
+    {
+      "type": "media",
+      "name": "Facebook：巴西2026週期罰球統計（65%成功率）",
+      "url": "https://www.facebook.com/groups/488146413554022/posts/1046870457681612/"
+    },
+    {
+      "type": "media",
+      "name": "ESPN：巴西WC2026開門不敗21場記錄（1-1摩洛哥）",
+      "url": "https://www.espn.com/soccer/story/_/id/49058619/fifa-world-cup-2026-stats-brazil-21-qatar-first-nestory-irankunda-australia-youngest"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.57,
+      "draw": 0.24,
+      "away": 0.19
+    },
+    "confidence": 0.65,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "巴西正規時間獲勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.57,
+        "basis": "Vinicius Jr持續高火力（組賽4球），Ancelotti陣容深度優越，日本防線在高強度壓力下出現缺口"
+      },
+      {
+        "name": "日本守平後加時或點球爆冷",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.24,
+        "basis": "日本3-4-2-1低位防守加快速反擊，複製2022年擊敗德國/西班牙的組織，拖入點球後日本歷史陰霾仍是隱患"
+      },
+      {
+        "name": "日本正規時間翻盤",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.19,
+        "basis": "Kubo缺陣但Kamada/Ueda/Doan組合仍具威脅，複製10月友誼賽3:2擊敗巴西作為心理依據"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Dimers 預測模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.581,
+          "draw": 0.234,
+          "away": 0.186
+        },
+        "note": "巴西最可能獲勝，信心偏高"
+      },
+      {
+        "source": "博彩市場共識（BetOnline/FanDuel）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.545,
+          "draw": 0.26,
+          "away": 0.195
+        },
+        "note": "巴西-140至-145，日本+400至+420，晉級：巴西-300至-310"
+      },
+      {
+        "source": "Polymarket 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.565,
+          "draw": 0.25,
+          "away": 0.185
+        },
+        "note": "巴西56.5%、平局25%、日本18.5%"
+      },
+      {
+        "source": "Coach AI 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.56,
+          "draw": 0.25,
+          "away": 0.19
+        },
+        "scoreline": "2:0",
+        "note": "信心水準合理，與市場共識高度吻合"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.24,
+      "extra_time_prob": 0.17,
+      "shootout_prob": 0.09,
+      "advance_prob": {
+        "home": 0.754,
+        "away": 0.246
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 5,
+          "won": 3,
+          "win_rate": 0.6,
+          "conversion_rate": 0.65,
+          "recent": "世界盃5次點球大戰勝3負2（勝：1994決賽vs義大利、1998半決賽vs荷蘭、2014R16vs智利；負：2006 QF vs法國、2022 QF vs克羅埃西亞）；2024美洲杯QF以點球負於烏拉圭（Vinicius懸念缺陣）；WC2026週期2021-2026年共17次罰球11進6失，成功率65%",
+          "sources": [
+            "https://www.thestatszone.com/every-penalty-shoot-out-in-fifa-world-cup-history-178684",
+            "https://treblestats.co.uk/world-cup-2026/england-penalties-world-cup-2026",
+            "https://www.facebook.com/groups/488146413554022/posts/1046870457681612/"
+          ]
+        },
+        "away": {
+          "shootouts": 2,
+          "won": 0,
+          "win_rate": 0.0,
+          "conversion_rate": null,
+          "recent": "世界盃點球大戰2戰全負（2010 R16負巴拉圭5:3、2022 R16負克羅埃西亞1:3）；近5年無其他大型洲際國家盃點球大戰記錄可查",
+          "sources": [
+            "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record",
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts",
+            "https://www.thestatszone.com/every-penalty-shoot-out-in-fifa-world-cup-history-178684"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "巴西在點球大戰有3/5正面記錄，但2022年輸給克羅埃西亞的記憶猶新，且Neymar等老將在大場面罰球的心理穩定性依賴個人狀態。若進入點球，Alisson的門將讀球能力是一大加分，Vinicius Jr和Neymar均具備主罰實力，但整體點球文化無德國式的系統化訓練。",
+        "away": "日本在世界盃點球大戰是徹底的魔咒受害者：2010負巴拉圭（Komano打橫樑）、2022負克羅埃西亞（1:3）。從未贏過世界盃點球大戰，歷史心理創傷深重。但日本足協近年重視心理訓練，且本屆球員結構較2022年更成熟。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "Vinicius Jr（維尼修斯）",
+          "record": "本屆世界盃4球，俱樂部歷史罰球記錄良好；2024美洲杯因停賽錯過點球大戰，心理渴望證明自己"
+        },
+        {
+          "team": "home",
+          "name_zh": "Neymar（內馬爾）",
+          "record": "79顆國家隊進球，主罰經驗豐富，但年齡34歲身體狀況待觀察"
+        },
+        {
+          "team": "home",
+          "name_zh": "Lucas Paquetá（帕克塔）",
+          "record": "精準罰球技術，中場視野佳，多次代表巴西罰球"
+        },
+        {
+          "team": "away",
+          "name_zh": "Daichi Kamada（鎌田大地）",
+          "record": "本屆日本中場核心，技術型罰球員，無重大罰球失誤記錄"
+        },
+        {
+          "team": "away",
+          "name_zh": "Ayase Ueda（上田綺世）",
+          "record": "本屆2球，以冷靜罰球見稱，但世界盃點球大戰從無出場機會驗證"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "雖然巴西整體實力領先且正規時間獲勝機率逾57%，但日本在2022擊敗德國西班牙後對頂級球隊的能力已獲証明。若比賽進入點球，日本0/2世界盃點球大戰記錄將是沉重心理負擔，而巴西的3/5勝率也代表此前有負於法國和克羅埃西亞的陰影——點球大戰對雙方均非絕對保障。"
+    }
+  },
+  "reasoning": {
+    "summary": "巴西以9分全勝（實際7分兩勝一平）奪C組第一，Vinicius Jr火力全開，陣容深度遠超日本（球隊市值9億歐元對2億歐元）。多個預測模型與博彩市場一致傾向巴西55-58%正規時間獲勝；日本雖然近兩年擊敗英格蘭、巴西等強隊，且在高組織防守上具備爆冷潛力，但在點球大戰歷史0/2的陰霾下，晉級機率仍不超過25%。",
+    "key_factors": [
+      "球員狀態：Vinicius Jr本屆4球（史上第5位小組賽每場均進球的巴西球員）；Neymar回歸替補；Raphinha大腿傷至今缺陣，Rayan補位",
+      "傷停：巴西Raphinha出局（大腿傷）；日本Wataru Endo（腳傷，全屆缺陣）、Takumi Minamino（ACL撕裂）、Takefusa Kubo（膝傷疑問）、Ko Itakura（疑問）",
+      "近況：巴西1-1摩洛哥→3-0海地→3-0蘇格蘭，後兩場全取、零失球；日本2-2荷蘭→4-0突尼西亞→1-1瑞典，整體穩健但未破大關",
+      "戰術：巴西4-3-3高位壓迫配合Vinicius快速突破；日本3-4-2-1精密防守反擊系統，欲複製2022德國/西班牙風格",
+      "場地：NRG Stadium休士頓中性場，氣候炎熱有利體能儲備充足的巴西",
+      "輿論共識：所有主要模型（Dimers 58.1%、Polymarket 56.5%、Coach AI 56%）與博彩市場（-140至-145）高度一致傾向巴西；日本社群大量討論「可以爆冷」但數據不支持"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Covers.com 精選平局（+291）是最大異見聲音，認為日本防守紀律和反擊系統可令比賽膠著拖入加時；也有評論指出巴西在2024美洲杯點球輸烏拉圭顯示臨場心理脆弱，若日本能守住0-0至90分鐘則點球局面變數巨大。"
+  },
+  "run_timestamp": "2026-06-28T0500Z",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.22,
+        "away": 0.16
+      },
+      "scoreline": "2:1",
+      "note": "巴西整體實力優於日本，主場優勢明顯，晉級應無懸念。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "巴西整體實力佔優，預計能穩穩拿下日本晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.25,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "巴西整體實力佔優，日本難突破防線。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.16,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "巴西攻守均衡優勢明顯，日本難以創造足夠機會"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "scoreline": "2:1",
+      "note": "巴西整體實力佔優，但日本反擊極具威脅，預計巴西小勝晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.67,
+        "draw": 0.2,
+        "away": 0.13
+      },
+      "scoreline": "2:1",
+      "note": "巴西實力明顯優於日本，主場優勢下預計取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "巴西實力稍勝，預計小勝晉級。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.628,
+      "draw": 0.22,
+      "away": 0.152
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T055258Z"
+}

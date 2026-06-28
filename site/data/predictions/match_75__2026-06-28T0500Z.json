@@ -1,0 +1,445 @@
+{
+  "match": 75,
+  "home": "Netherlands",
+  "away": "Morocco",
+  "stage": "Round of 32",
+  "kickoff_utc": "2026-06-30T01:00:00Z",
+  "kickoff_hkt": "2026-06-30 09:00",
+  "venue": "Estadio BBVA, Monterrey, Mexico",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-06-28T0500Z",
+  "source_count": 27,
+  "sources": [
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup Group F",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – 2026 FIFA World Cup Group C",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Netherlands vs Morocco H2H",
+      "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/head-to-head/netherlands-vs-morocco-head-to-head-record-and-past-meetings_600218.html"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Netherlands vs Morocco Preview/Team News",
+      "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-morocco-prediction-team-news-lineups_600222.html"
+    },
+    {
+      "type": "media",
+      "name": "LiveSport Football – Morocco vs Netherlands WC 2026 R32 Preview",
+      "url": "https://www.livesportfootball.com/2026/06/morocco-vs-netherlands-world-cup-2026.html"
+    },
+    {
+      "type": "media",
+      "name": "WSN – Netherlands vs Morocco Predictions",
+      "url": "https://www.wsn.com/world-cup/netherlands-vs-morocco-2026-06-29/"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes – Netherlands vs Morocco R32 Preview & Tips",
+      "url": "https://www.ladbrokes.com/en/news/netherlands-morocco-world-cup-round-of-32-preview-predictions-tips-2026-06-26/"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network – Morocco vs Netherlands Odds",
+      "url": "https://www.actionnetwork.com/worldcup-game/morocco-netherlands/292389"
+    },
+    {
+      "type": "betting",
+      "name": "Football Predictions.com – Netherlands vs Morocco 30/06/2026",
+      "url": "https://footballpredictions.com/footballpredictions/world-cup-predictions/netherlands-vs-morocco-prediction-30-06-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "Oddslot – Netherlands vs Morocco Predictions & Odds",
+      "url": "https://oddslot.com/football/match/world-cup/netherlands/morocco/30-jun-2026/"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – Opta Supercomputer WC 2026 Predictions",
+      "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – 2026 World Cup Injuries Tracker (Timber out for Netherlands)",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "BBC Sport – Netherlands' Timber out of World Cup with injury",
+      "url": "https://www.bbc.com/sport/football/articles/c4gyrpve234o"
+    },
+    {
+      "type": "media",
+      "name": "AJC – Morocco loses Ezzalzouli and Aguerd to injuries for World Cup",
+      "url": "https://www.ajc.com/sports/2026/06/morocco-loses-star-winger-ezzalzouli-and-aguerd-to-injuries-for-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "AS USA – World Cup 2026 Group C Final Standings",
+      "url": "https://en.as.com/soccer/world-cup/world-cup-2026-group-c-final-standings-results-and-teams-qualified-for-the-round-of-32-f202606-n/"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – Morocco at the FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/Morocco_at_the_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – Netherlands national football team records and statistics",
+      "url": "https://en.wikipedia.org/wiki/Netherlands_national_football_team_records_and_statistics"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – 2025 Africa Cup of Nations (Morocco 冠軍/Bono最佳門將)",
+      "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – Yassine Bounou (Bono)",
+      "url": "https://en.wikipedia.org/wiki/Yassine_Bounou"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar The Hindu – Netherlands WC Penalty Shootout Record (1998/2014/2022)",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/news/netherlands-penalty-shootouts-fifa-world-cup-qatar-2022-records-stats-ned-vs-arg/article66236030.ece"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – 2022 FIFA World Cup Knockout Stage (Morocco beats Spain/Portugal on penalties)",
+      "url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_knockout_stage"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF – All-time Penalty Shoot-out Stats for National Teams",
+      "url": "https://www.rsssf.org/miscellaneous/penstats_stat.html"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – World Cup 2026 Penalty Shootout Records",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "AllAboutFPL – WC 2026 Penalty & Set Piece Takers All 48 Teams",
+      "url": "https://allaboutfpl.com/2026/06/fifa-world-cup-2026-penalty-and-set-piece-takers-of-all-48-teams/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Netherlands vs Morocco World Cup R32 PREVIEW (The Football Terrace)",
+      "url": "https://www.youtube.com/watch?v=cRJePYLUk0o"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – 2026 FIFA World Cup Netherlands vs Morocco R32 Prediction",
+      "url": "https://www.youtube.com/watch?v=yh5_GUluPYc"
+    },
+    {
+      "type": "forum",
+      "name": "Reddit r/worldcup – Netherlands vs Morocco Round of 32 Discussion",
+      "url": "https://www.reddit.com/r/worldcup/comments/netherlands_morocco_round_of_32/"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.46,
+      "draw": 0.27,
+      "away": 0.27
+    },
+    "confidence": 0.52,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "荷蘭進攻火力最終壓倒摩洛哥",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.46,
+        "basis": "荷蘭小組賽進10球（F組最多），Gakpo/Brobbey/Malen進攻多元，摩洛哥雖頑強但防線少Aguerd，最終荷蘭以多球優勢取勝。"
+      },
+      {
+        "name": "90分鐘難分勝負，加時或點球決勝",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.27,
+        "basis": "摩洛哥近31場不敗，在Bono坐鎮下防守極有組織，若比賽進入膠着局面，加時及點球大戰機率高；摩洛哥2022點球淘汰西班牙和葡萄牙，心理優勢存在。"
+      },
+      {
+        "name": "摩洛哥製造2026黑馬奇蹟",
+        "scoreline": "1:0",
+        "outcome": "away",
+        "confidence": 0.2,
+        "basis": "摩洛哥延續2022四強表現，本屆小組賽首開快球（71秒進球），防守反擊戰術成熟；Hakimi單刀突破與El Khannouss中場組織能力可打擊荷蘭。"
+      },
+      {
+        "name": "荷蘭大勝進入16強",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.15,
+        "basis": "荷蘭以10球全組最多的進攻火力，若摩洛哥因缺少Aguerd後防出現空位，不排除荷蘭拉開差距。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "FanDuel賠率（WSN引述）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.476,
+          "draw": 0.303,
+          "away": 0.221
+        },
+        "scoreline": null,
+        "note": "FanDuel荷蘭+110（隱含47.6%），摩洛哥+270（22.1%），平局+230（30.3%），荷蘭為窄面賠率主隊。"
+      },
+      {
+        "source": "Ladbrokes預測",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.48,
+          "draw": 0.27,
+          "away": 0.25
+        },
+        "scoreline": "2:1",
+        "note": "Ladbrokes預測荷蘭2-1勝，提示「雙方均進球」可能性高，荷蘭未在小組賽保持零失球。"
+      },
+      {
+        "source": "Action Network公眾博彩比重",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.66,
+          "draw": 0.1,
+          "away": 0.24
+        },
+        "scoreline": null,
+        "note": "公眾注碼66%押荷蘭，34%押摩洛哥，顯示市場對荷蘭的信心但差距遠不及德國vs巴拉圭懸殊。"
+      },
+      {
+        "source": "WSN預測分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.46,
+          "draw": 0.27,
+          "away": 0.27
+        },
+        "scoreline": "平局（傾向加時）",
+        "note": "WSN認為摩洛哥近31場不敗，與荷蘭強弱對等，平局機率頗高，提示加時的可能性。"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.27,
+      "extra_time_prob": 0.18,
+      "shootout_prob": 0.11,
+      "advance_prob": {
+        "home": 0.62,
+        "away": 0.38
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 3,
+          "won": 1,
+          "win_rate": 0.333,
+          "conversion_rate": null,
+          "recent": "荷蘭世界盃點球大戰歷史：1998負巴西（0-4）、2014勝哥斯達黎加（4-3，Krul換門神傳奇）、2022負阿根廷（3-4）；RSSSF全時間紀錄8場僅1勝7負（12.5%），是歷史表現最差的重要球隊之一。EURO 2024對英格蘭未進入點球（英格蘭贏1-2）。",
+          "sources": [
+            "https://sportstar.thehindu.com/football/fifa-world-cup/news/netherlands-penalty-shootouts-fifa-world-cup-qatar-2022-records-stats-ned-vs-arg/article66236030.ece",
+            "https://www.rsssf.org/miscellaneous/penstats_stat.html"
+          ]
+        },
+        "away": {
+          "shootouts": 2,
+          "won": 2,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "摩洛哥2022世界盃點球大戰：R16淘汰西班牙（3-0），QF淘汰葡萄牙（惜後者因紅牌走人直接進球未踢）。2025 AFCON：對奈及利亞點球晉級。Bono門將在2022世界盃對西班牙點球賽中被選為最佳，展現出色撲救反應。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_knockout_stage",
+            "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+            "https://en.wikipedia.org/wiki/Yassine_Bounou"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "荷蘭點球心理歷史是明顯弱點——世界盃3場僅1勝，2022年面對阿根廷主罰失敗引發信心危機。本屆門將Verbruggen（非Krul）無點球大戰特殊技巧，若進入點球荷蘭相當被動。主罰球員Gakpo/Depay/Weghorst均有經驗但命中率仍有疑問。",
+        "away": "摩洛哥擁有2022年世界盃最出色的點球大戰記錄之一，Bono是世界頂級點球守門員，2022世界盃對西班牙1人不失、連續撲出高質量射門。2025 AFCON冠軍之路同樣涉及點球晉級，Bono獲最佳門將獎。球隊心理強韌，不懼怕點球局面。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "科迪·加克波（Cody Gakpo）",
+          "record": "荷蘭首選主罰，本屆狀態出色，利物浦主力前鋒，主罰經驗豐富。"
+        },
+        {
+          "team": "home",
+          "name_zh": "曼菲斯·德帕伊（Memphis Depay）",
+          "record": "荷蘭備選主罰，國家隊52球紀錄保持者，點球命中率佳，但本屆出場時間有限。"
+        },
+        {
+          "team": "home",
+          "name_zh": "沃特·韋霍斯特（Wout Weghorst）",
+          "record": "荷蘭備選主罰，2022世界盃決賽圈曾主罰，心理質素尚可。"
+        },
+        {
+          "team": "away",
+          "name_zh": "布拉希姆·迪亞斯（Brahim Díaz）",
+          "record": "摩洛哥首選主罰，本屆AFCON進5球（最高進球），2025 AFCON最佳球員，狀態極佳。"
+        },
+        {
+          "team": "away",
+          "name_zh": "阿什拉夫·哈基米（Achraf Hakimi）",
+          "record": "摩洛哥備選主罰，2022世界盃對西班牙點球戰中主罰得分，膽量與技術俱佳。"
+        },
+        {
+          "team": "away",
+          "name_zh": "亞辛·布努（Bono）門將",
+          "record": "2022世界盃最佳點球門將，對西班牙整場不失，2025 AFCON最佳門將；點球心理威懾力極強。"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "這是本輪32強中點球風險最高的比賽：荷蘭90分鐘無法定勝負的機率約27%，而一旦進入點球大戰，荷蘭世界盃點球歷史勝率僅33%（3場1勝）而摩洛哥100%（2場全勝），Bono為世界頂級點球守門員。摩洛哥在點球大戰中是強大的威脅，荷蘭應盡力在90分鐘內解決比賽，否則晉級形勢不容樂觀。"
+    }
+  },
+  "reasoning": {
+    "summary": "這是本屆32強最高關注度對決之一。荷蘭F組第一（7分，進10球），展示進攻火力，但後防在小組賽三場均失球（未保零）；摩洛哥C組第二（7分，GD+3），延續2022四強氣勢，本屆小組賽不敗，首球71秒創大賽最快紀錄。雙方實力接近，荷蘭技術優勢略大但摩洛哥戰術紀律強，平局及加時概率相當高（約27%）。關鍵點在於：若進入點球，形勢將明顯有利摩洛哥（Bono+優秀主罰陣容 vs 荷蘭歷史最差點球紀錄）。",
+    "key_factors": [
+      "球員狀態：荷蘭Gakpo本屆狀態出色，Van Dijk後防領導力強；摩洛哥Brahim Díaz（2025 AFCON最佳球員）、Saibari、Hakimi均在狀態，全隊鬥志高昂",
+      "傷停：荷蘭Timber（韌帶）整屆缺席，後防深度受影響；摩洛哥賽前Ezzalzouli（翼鋒）和Aguerd（中後衛）因傷缺陣，後防組合有所削弱",
+      "近況：荷蘭F組3場：2-2（對日本）、5-1（對瑞典）、3-1（對突尼西亞）；摩洛哥C組3場：1-1（對巴西）、1-0（對蘇格蘭）、4-2（對海地），全組不敗且進攻後段爆發",
+      "戰術：Koeman 4-3-3體系進攻多元，Gakpo左路+Brobbey中鋒+Malen右路；摩洛哥 4-2-3-1低位組織反擊，Hakimi右翼衛攻守兼備，El Khannouss創造第二球",
+      "場地：Estadio BBVA蒙特雷（墨西哥），海拔537m（略高），6月夜間（UTC 01:00）熱浪威力略减，理論上對北非球員有微弱適應優勢",
+      "輿論共識：FanDuel荷蘭約48%勝率，Ladbrokes 2-1荷蘭勝，但WSN提示摩洛哥31場不敗；KOL普遍認為加時及點球機率極高；YouTube頻道多數看好荷蘭但均警示摩洛哥點球威脅"
+    ],
+    "consensus_lean": "home",
+    "dissent": "摩洛哥支持者指出：荷蘭後防在小組賽從未零封對手，Timber缺陣使右路防守薄弱；摩洛哥近31場不敗紀錄、Bono在2022世界盃的超級點球表現、以及本屆進攻更多元（比2022有更多球員齊備）等因素，使摩洛哥被低估；Goal.com甚至標題預示「加時即將到來」，部分分析師認為摩洛哥具備晉級能力。"
+  },
+  "run_timestamp": "2026-06-28T0500Z",
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭攻守均衡，摩洛哥反擊具威脅，主隊小勝"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭整體實力略勝，摩洛哥防反具威脅，看好主隊小勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭攻擊線經驗豐富，摩洛哥反擊有力，看好荷蘭小勝晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.28,
+        "away": 0.26
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭控球優勢較明顯，終場險勝摩洛哥"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭陣容深度稍佔優勢，面對防守堅韌的摩洛哥預計能險勝晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.57,
+        "draw": 0.25,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭實力占優，主場優勢助攻，預計小勝摩洛哥。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "荷蘭實力占優，摩洛哥頑強但難以爆冷。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.5,
+      "draw": 0.269,
+      "away": 0.231
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-06-28T055220Z"
+}
