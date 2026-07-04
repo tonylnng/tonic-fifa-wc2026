@@ -1,0 +1,509 @@
+{
+  "match": 90,
+  "home": "Canada",
+  "away": "Morocco",
+  "stage": "Round of 16",
+  "kickoff_utc": "2026-07-04T17:00:00Z",
+  "run_id": "2026-07-04T0517Z",
+  "run_timestamp": "2026-07-04T05:17:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.22,
+      "draw": 0.25,
+      "away": 0.53
+    },
+    "confidence": 0.62,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.62,
+        "basis": "Opta超級電腦與多數博彩機構均認為摩洛哥90分鐘勝率52-58%，加拿大約20-22%，其餘為和局"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "away",
+        "confidence": 0.58,
+        "basis": "摩洛哥90分鐘讓球約-120至-143，多數盤口預期低比分（Under 2.5佔優）"
+      },
+      {
+        "name": "加拿大主場優勢情境",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "加拿大主場氣氛、Alphonso Davies傷癒復出且高位逼搶擾亂摩洛哥節奏，可能逼和進入加時"
+      },
+      {
+        "name": "摩洛哥經驗致勝情境",
+        "scoreline": "0:2",
+        "outcome": "away",
+        "confidence": 0.5,
+        "basis": "摩洛哥2022四強班底經驗豐富，剛淘汰荷蘭士氣正盛，防守組織與定位球優勢明顯"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.217,
+          "draw": 0.256,
+          "away": 0.527
+        },
+        "note": "Al Jazeera引述Opta：摩洛哥90分鐘勝率52.7%、加拿大21.7%、加時機率25.6%"
+      },
+      {
+        "source": "博彩隱含機率（FanDuel/DraftKings等）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.21,
+          "draw": 0.27,
+          "away": 0.52
+        },
+        "scoreline": "1:2",
+        "note": "摩洛哥90分鐘勝負盤約-120至-143，加拿大+370至+390，晉級盤摩洛哥-260至-300"
+      },
+      {
+        "source": "Dimers 模型（Polymarket對照）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.3,
+          "draw": 0.24,
+          "away": 0.46
+        },
+        "note": "Dimers模擬給摩洛哥54.6%晉級機率；Polymarket顯示摩洛哥90分鐘勝率約55%"
+      },
+      {
+        "source": "BettingTop10 分析",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.22,
+          "draw": 0.26,
+          "away": 0.52
+        },
+        "note": "市場隱含摩洛哥58%勝率，分析師估58-62%，認為市場略低估摩洛哥防守優勢"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.26,
+      "extra_time_prob": 0.256,
+      "shootout_prob": 0.13,
+      "advance_prob": {
+        "home": 0.24,
+        "away": 0.76
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 4,
+          "won": 1,
+          "win_rate": 0.25,
+          "conversion_rate": null,
+          "recent": "加拿大近5年大賽點球大戰：2024美洲盃8強負委內瑞拉（3-4）、2023金盃8強負美國（2-3）、2025金盃8強負瓜地馬拉（5-6）；隊史唯一大賽點球勝仗為2002金盃8強勝馬提尼克（6-5）。近三次大賽點球大戰全敗，心理隱憂明顯。",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://en.wikipedia.org/wiki/Canada_men's_national_soccer_team"
+          ]
+        },
+        "away": {
+          "shootouts": 2,
+          "won": 2,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "摩洛哥2022世界盃點球全勝（16強勝西班牙3-0），本屆32強再下一城（3-2點球淘汰荷蘭），近5年大賽點球大戰2戰全勝，門將Bono/Bounou為世界級點球撲救專家。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "加拿大近三次大賽淘汰賽點球大戰全部落敗（2023/2024/2025連續三年），心理包袱較重；隊史唯一點球勝仗已是2002年。若比賽進入點球戰，歷史數據對加拿大不利，但年輕陣容士氣正盛，首次晉級16強帶來額外自信。",
+        "away": "摩洛哥剛以點球淘汰荷蘭（門將撲出關鍵一球），延續2022世界盃對西班牙點球全勝的強大心理優勢，門將表現穩定，主罰球員信心十足，是本屆賽事點球威脅最大的球隊之一。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "喬納森·大衛（Jonathan David）",
+          "record": "加拿大首選主罰，本屆金盃8強對瓜地馬拉點球中曾主罰命中"
+        },
+        {
+          "team": "home",
+          "name_zh": "阿方索·戴維斯（Alphonso Davies）",
+          "record": "曾於大賽罰失重要點球（2021金盃決賽），信心存疑但技術出色"
+        },
+        {
+          "team": "away",
+          "name_zh": "布拉希姆·迪亞斯（Brahim Díaz）",
+          "record": "摩洛哥首選主罰，本屆狀態出色"
+        },
+        {
+          "team": "away",
+          "name_zh": "阿什拉夫·哈基米（Achraf Hakimi）",
+          "record": "2022世界盃對西班牙點球戰主罰命中，膽量出眾"
+        },
+        {
+          "team": "away",
+          "name_zh": "亞辛·布努（Bono）門將",
+          "record": "近兩屆大賽點球戰均有神勇撲救，威懾力極強"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "本場是本輪點球風險較高的比賽之一：90分鐘戰平機率約26%、加時機率約25.6%。若進入點球大戰，摩洛哥近5年大賽點球全勝（2戰全勝）且擁有世界級點球門將Bono，而加拿大近三年連續三次大賽點球戰告負，心理與經驗均處下風，一旦拖入點球階段對加拿大相當不利。"
+    }
+  },
+  "reasoning": {
+    "summary": "摩洛哥擁有2022世界盃四強班底的知識與經驗，加上剛以點球淘汰荷蘭延續的士氣與門將Bono的威懾力，整體實力與知名度均高於首次晉級16強的東道主加拿大；但加拿大近期打法積極、David/Davies組合具備反擊速度，主場優勢與破釜沉舟氣勢仍可能製造麻煩，預期為一場低比分、膠著的比賽，摩洛哥最終憑經驗與防守組織小勝晉級。",
+    "key_factors": [
+      "球員狀態：Davies傷癒回歸提升邊路速度，David是加拿大攻擊箭頭；摩洛哥迪亞斯本屆狀態出色，哈基米攻守兼備",
+      "傷停名單：加拿大僅Kone傷缺（骨折）；摩洛哥Aguerd、Ezzalsouli傷缺，但陣容深度仍完整",
+      "近期戰績：加拿大四戰全勝（含補時絕殺南非）展現韌性；摩洛哥小組賽逼平巴西，32強加時點球淘汰荷蘭，經驗值更高",
+      "戰術對位：摩洛哥擅長防守反擊與控球（本屆均勢62%控球率），加拿大高位壓迫可能製造混亂但也可能被打反擊",
+      "體能因素：摩洛哥剛打完120分鐘+點球大戰，體能恢復是隱憂；加拿大則多一天休息（補時絕殺後恢復時間相對正常）",
+      "輿論共識：Opta模型、多數博彩公司與媒體評論一致認為摩洛哥小幅領先（52-58%機率），但普遍認為比賽會相當接近"
+    ],
+    "consensus_lean": "away",
+    "dissent": "Covers.com等少數分析認為加拿大主場優勢與進攻端創造機會的能力被市場低估，主張「加拿大晉級」存在價值；也有評論指出摩洛哥剛打完點球大戰的體能消耗可能是加拿大反擊良機。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "Al Jazeera – Canada vs Morocco: World Cup Round of 16 preview, Opta odds",
+      "url": "https://www.aljazeera.com/sports/2026/7/3/canada-morocco-fifa-world-cup-round-of-16-saibari-prediction-schedule"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings Network – Opening odds for Canada vs. Morocco",
+      "url": "https://dknetwork.draftkings.com/2026/06/30/opening-odds-for-canada-vs-morocco-in-the-fifa-2026-world-cup/"
+    },
+    {
+      "type": "betting",
+      "name": "GOAL – Canada vs Morocco predictions: Value on three or more goals",
+      "url": "https://www.goal.com/en-za/betting/world-cup/canada-vs-morocco-predictions-04-07-2026/A:blt748ae0f1b79c252c"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com – Canada vs Morocco Predictions, Odds & Best Bets",
+      "url": "https://www.covers.com/world-cup/canada-vs-morocco-prediction-picks-odds-saturday-7-4-2026"
+    },
+    {
+      "type": "betting",
+      "name": "The Telegraph – Canada vs Morocco predictions: World Cup tips and odds",
+      "url": "https://www.telegraph.co.uk/betting/football/world-cup-2026/canada-morocco-prediction-tips/"
+    },
+    {
+      "type": "betting",
+      "name": "CBS Sports – Canada vs. Morocco odds, prediction, time",
+      "url": "https://www.cbssports.com/soccer/news/canada-morocco-odds-prediction-time-2026-world-cup-round-of-16-picks/"
+    },
+    {
+      "type": "kol",
+      "name": "Sporting Life – Jake Osgathorpe's 2026 World Cup tips and predictions",
+      "url": "https://www.sportinglife.com/amp/football/news/jake-osgathorpes-2026-world-cup-tips-and-predictions-round-of-16/232995"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Canada vs Morocco Picks, Odds & Best Bets",
+      "url": "https://www.rotowire.com/soccer/article/canada-vs-morocco-picks-odds-best-bets-2026-world-cup-round-of-16-120999"
+    },
+    {
+      "type": "betting",
+      "name": "Oddschecker – Canada vs Morocco Betting Tips",
+      "url": "https://www.oddschecker.com/tips/football/world-cup-2026/20260703-canada-vs-morocco-betting-tips-best-bets-odds-bet-builder-tip"
+    },
+    {
+      "type": "betting",
+      "name": "Sportsgambler – Canada vs Morocco Prediction, Betting Tips, Lineups & Odds",
+      "url": "https://www.sportsgambler.com/betting-tips/football/canada-vs-morocco-prediction-lineups-odds-2026-07-04/"
+    },
+    {
+      "type": "betting",
+      "name": "BettingTop10 Canada – World Cup 2026: Canada vs Morocco Odds",
+      "url": "https://www.bettingtop10.ca/world-cup-2026-canada-vs-morocco-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Canada vs Morocco Preview, Lineups & Team News",
+      "url": "https://www.rotowire.com/soccer/article/canada-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-120851"
+    },
+    {
+      "type": "media",
+      "name": "USA Today – Canada vs Morocco World Cup round of 16 expert prediction",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/canada-morocco-expert-predictions-picks-world-cup/90772706007/"
+    },
+    {
+      "type": "betting",
+      "name": "FOX Sports – 2026 World Cup Odds: Canada Makes More History",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-canada-les-rouges"
+    },
+    {
+      "type": "betting",
+      "name": "Action Network – Canada vs Morocco Prediction, Pick, Odds",
+      "url": "https://www.actionnetwork.com/soccer/canada-vs-morocco-prediction-pick-odds-for-world-cup-saturday-july-4"
+    },
+    {
+      "type": "betting",
+      "name": "canadasportsbetting.ca – Canada World Cup Odds 2026",
+      "url": "https://www.canadasportsbetting.ca/betting-odds/soccer/fifa-world-cup/canada/"
+    },
+    {
+      "type": "youtube",
+      "name": "Canada vs Morocco Best Betting Odds, Prediction & Picks",
+      "url": "https://www.youtube.com/watch?v=sfDuHtk8crM"
+    },
+    {
+      "type": "youtube",
+      "name": "2026 FIFA World Cup: Canada vs Morocco Round of 16 Preview (CBS Sports HQ)",
+      "url": "https://www.youtube.com/watch?v=dUliHDeJUVw"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Morocco beat Netherlands in dramatic World Cup shootout",
+      "url": "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo"
+    },
+    {
+      "type": "youtube",
+      "name": "Match Preview: Canada vs Morocco | FIFA World Cup 2026",
+      "url": "https://www.youtube.com/watch?v=EaUiZ5tdFTQ"
+    },
+    {
+      "type": "media",
+      "name": "Open The Magazine – Dutch Dreams Dashed Again as Morocco Win Shootout Thriller",
+      "url": "https://openthemagazine.com/sports/fifa-world-cup-2026-dutch-dreams-dashed-again-as-morocco-win-shootout-thriller"
+    },
+    {
+      "type": "media",
+      "name": "DAZN News – Canada vs. Morocco preview: Team news and how to watch",
+      "url": "https://www.dazn.com/en-US/news/soccer/fifa-world-cup-26-canada-vs-morocco-preview-team-news-how-to-watch/q8kwdw2bglra1xunxs6qcac9u"
+    },
+    {
+      "type": "youtube",
+      "name": "Canada, Morocco meet in World Cup round of 16 game (Canadian Press)",
+      "url": "https://www.youtube.com/watch?v=IjbmTq09kSQ"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – 2026 World Cup Team Projections: Goals, Points & Odds",
+      "url": "https://www.rotowire.com/soccer/article/2026-world-cup-team-projections-goals-points-odds-for-all-48-teams-114402"
+    },
+    {
+      "type": "media",
+      "name": "Syracuse.com – Experts release new Morocco vs. Canada predictions after Davies injury update",
+      "url": "https://www.syracuse.com/betting/2026/07/experts-release-new-morocco-vs-canada-predictions-after-alphonso-davies-injury-update.html"
+    },
+    {
+      "type": "youtube",
+      "name": "My World Cup Round of 16 Preview & Predictions! July 4th 2026",
+      "url": "https://www.youtube.com/watch?v=kiBmm3JdTWU"
+    },
+    {
+      "type": "media",
+      "name": "ANews – Morocco reach World Cup last 16 after chaotic shootout win",
+      "url": "https://www.anews.com.tr/sport/2026/06/30/morocco-reach-world-cup-last-16-after-chaotic-shootout-win-over-netherlands"
+    },
+    {
+      "type": "betting",
+      "name": "Covers.com – Canada 2026 World Cup Odds",
+      "url": "https://www.covers.com/world-cup/canada-odds"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – List of FIFA World Cup penalty shoot-outs",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF – Penalty Shootout Statistics at Major Tournaments",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Canada men's national soccer team",
+      "url": "https://en.wikipedia.org/wiki/Canada_men's_national_soccer_team"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – Canada at the CONCACAF Gold Cup",
+      "url": "https://en.wikipedia.org/wiki/Canada_at_the_CONCACAF_Gold_Cup"
+    },
+    {
+      "type": "media",
+      "name": "CBC Sports – Canada suffers heartbreak on penalties against U.S.",
+      "url": "https://www.cbc.ca/sports/soccer/canada-mens-soccer-team-united-states-gold-cup-recap-july-9-1.6901589"
+    },
+    {
+      "type": "media",
+      "name": "CBC Sports – 10-man Canada eliminated in Gold Cup quarterfinal penalty shootout",
+      "url": "https://www.cbc.ca/sports/soccer/canada-guatemala-gold-cup-quarterfinal-recap-1.7573928"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Canada exits Gold Cup in shootout loss to Guatemala",
+      "url": "https://www.espn.com/soccer/report/_/gameId/735344"
+    },
+    {
+      "type": "media",
+      "name": "Canadian Premier League – MATCH ANALYSIS: CanMNT heartbroken in Gold Cup QF penalty shootout vs. USA",
+      "url": "https://canpl.ca/article/match-analysis-canmnt-heartbroken-in-gold-cup-qf-penalty-shootout-vs-usa"
+    },
+    {
+      "type": "media",
+      "name": "CONCACAF Gold Cup – Penalty shootouts a rich part of quarterfinal history",
+      "url": "https://www.concacaf.com/gold-cup/article/penalty-shootouts-a-rich-part-of-quarterfinal-history/"
+    },
+    {
+      "type": "media",
+      "name": "Sportsnet.ca – DeVos made history at 2000 Gold Cup",
+      "url": "https://www.sportsnet.ca/soccer/article/devos-made-history-at-2000-gold-cup-now-hopes-to-see-canada-men-lift-another-cup/"
+    },
+    {
+      "type": "media",
+      "name": "CBC Sports – Canadian men to open Gold Cup in Vancouver with coach suspended",
+      "url": "https://www.cbc.ca/sports/soccer/canada-soccer-men-concacaf-gold-cup-1.7508592"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup Penalty Shootouts: The Facts",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "Wego Travel Blog – Most Penalties Scored, Longest Shootouts and More",
+      "url": "https://blog.wego.com/world-cup-penalty-records/"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – 2026 World Cup Round of 16 Odds: Which Teams Will Make It?",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-of-16-odds-who-will-make-round-16"
+    }
+  ],
+  "source_count": 42,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥防守穩健，進攻效率高，淘汰賽經驗更勝一籌。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "1:0",
+      "note": "加拿大具主場優勢，摩洛哥防線穩固，預計主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥經驗與防守佔優，加拿大主場難擋晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.27,
+        "draw": 0.28,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥攻守更均衡，加拿大主場仍難逆轉"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.28,
+        "draw": 0.32,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥大賽經驗豐富且防守穩固，將力克擁有主場優勢的加拿大。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.3,
+        "away": 0.24
+      },
+      "scoreline": "2:1",
+      "note": "加拿大主場優勢大，預計2:1險勝摩洛哥。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.3,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "摩洛哥實力稍勝，加拿大主場難以逆轉。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.294,
+      "draw": 0.278,
+      "away": 0.428
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-04T052215Z"
+}

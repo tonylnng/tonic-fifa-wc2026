@@ -1,0 +1,515 @@
+{
+  "match": 89,
+  "home": "Paraguay",
+  "away": "France",
+  "stage": "Round of 16",
+  "kickoff_utc": "2026-07-04T21:00:00Z",
+  "run_id": "2026-07-04T0517Z",
+  "run_timestamp": "2026-07-04T05:17:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreline": "0:3",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.06,
+      "draw": 0.12,
+      "away": 0.82
+    },
+    "confidence": 0.87,
+    "top_scorelines": [
+      {
+        "scoreline": "0:3",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:3",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:4",
+        "prob": 0.08
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.87,
+        "basis": "法國本屆13球冠全場、Mbappe狀態火燙，Opta/博彩一致大幅看好法國輕鬆晉級"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:3",
+        "outcome": "away",
+        "confidence": 0.85,
+        "basis": "法國90分鐘讓球-1.5/-2，主流盤口隱含勝率約82-85%"
+      },
+      {
+        "name": "巴拉圭爆冷情境",
+        "scoreline": "1:1",
+        "outcome": "home",
+        "confidence": 0.15,
+        "basis": "巴拉圭深度防守+定位球，仿效淘汰德國模式拖入加時後點球決勝"
+      },
+      {
+        "name": "保守法國情境",
+        "scoreline": "1:0",
+        "outcome": "away",
+        "confidence": 0.55,
+        "basis": "巴拉圭士氣高昂、體能是否因點球大戰透支存疑，法國可能僅小勝"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率（DraftKings/FanDuel等）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.12,
+          "away": 0.82
+        },
+        "scoreline": "0:3",
+        "note": "法國90分鐘勝負盤約-525至-575，巴拉圭+1400至+1800，晉級盤法國-2000"
+      },
+      {
+        "source": "Action Network 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.086,
+          "draw": 0.0,
+          "away": 0.914
+        },
+        "note": "晉級四強機率：巴拉圭8.6% vs 法國91.4%（Elo：1620 vs 2063）"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.1,
+          "draw": 0.0,
+          "away": 0.9
+        },
+        "note": "「法國晉級」約1.09倍（隱含約90%+），「巴拉圭晉級」約9.41倍（隱含約10%）"
+      },
+      {
+        "source": "多家媒體評述共識（Goal/RotoWire/Sportsline等）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.06,
+          "draw": 0.09,
+          "away": 0.85
+        },
+        "scoreline": "0:3",
+        "note": "多篇賽前分析一致預測法國0:2至0:3輕鬆取勝"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.12,
+      "extra_time_prob": 0.12,
+      "shootout_prob": 0.05,
+      "advance_prob": {
+        "home": 0.09,
+        "away": 0.91
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 10,
+          "won": 3,
+          "win_rate": 0.3,
+          "conversion_rate": 0.6,
+          "recent": "RSSSF全時間紀錄：巴拉圭點球大戰9戰3勝6負（33%）；2026世界盃32強對德國4-3險勝（12輪點球，本屆歷史紀錄），是隊史近期唯一勝仗；歷史上勝率整體偏低。",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penstats_stat.html",
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+          ]
+        },
+        "away": {
+          "shootouts": 10,
+          "won": 5,
+          "win_rate": 0.5,
+          "conversion_rate": 0.71,
+          "recent": "法國世界盃點球大戰10戰5勝5負（50%），1986/1998勝出，1982/2006/2022決賽階段落敗；近兩次世界盃決賽均在點球告負（2006負意大利、2022負阿根廷），心理上有隱憂但整體命中率高（17/24，71%）。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://sportstar.thehindu.com/football/fifa-world-cup/news/france-in-penalty-shootouts-fifa-world-cup-qatar-2022-records-stats-eng-vs-fra/article66237400.ece"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "巴拉圭剛以12輪點球淘汰德國創隊史最重要勝利，士氣極高但體能與心理消耗巨大；門將Orlando Gill剛立大功（撲出2球）信心正盛，惟核心射手Enciso傷勢存疑，若進入點球大戰主罰順序可能受影響。",
+        "away": "法國近兩屆世界盃決賽均在點球告負（2006、2022），存在一定「決賽點球魔咒」的心理包袱，但本場屬淘汰賽早段、對手實力懸殊，預期90分鐘內解決戰鬥機率高，點球情境發生機率低。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "胡利奧·恩西索（Julio Enciso）",
+          "record": "巴拉圭首選主罰，惟32強賽對德國比賽中帶傷離場，本場出場成疑"
+        },
+        {
+          "team": "home",
+          "name_zh": "米格爾·阿爾米隆（Miguel Almirón）",
+          "record": "巴拉圭經驗最豐富主罰球員，對德國點球戰中助攻但未親自主罰"
+        },
+        {
+          "team": "home",
+          "name_zh": "何塞·卡納萊（José Canale）",
+          "record": "對德國點球大戰中主罰命中致勝一球，信心正盛"
+        },
+        {
+          "team": "away",
+          "name_zh": "基利安·姆巴佩（Kylian Mbappé）",
+          "record": "法國隊本屆頭號射手（6球），大賽點球經驗豐富，惟2022決賽點球輪未錯失"
+        },
+        {
+          "team": "away",
+          "name_zh": "麥克·馬尼昂（Mike Maignan）門將",
+          "record": "法國替補門將出身，尚未有國家隊點球大戰撲救紀錄"
+        }
+      ],
+      "penalty_risk": "low",
+      "risk_note": "雙方實力差距懸殊（FIFA排名相差38位，Elo相差逾400分），法國預期能在90分鐘內解決戰鬥，進入點球大戰的機率極低（約5%）。若真的進入點球戰，法國命中率（71%）優於巴拉圭（60%），但巴拉圭剛淘汰德國士氣正旺，仍需留意冷門風險。"
+    }
+  },
+  "reasoning": {
+    "summary": "法國本屆展現最強攻擊火力（13球冠全場），Mbappe狀態火燙且陣容深度遠勝巴拉圭；巴拉圭雖以驚人防守韌性與點球奇蹟淘汰德國，但進攻端貧乏（僅3球）且核心射手Enciso傷勢未明，預期法國將複製「德國創造機會但終結不力」的教訓，本場更有效率地終結比賽，以2-3球優勢晉級八強。",
+    "key_factors": [
+      "球員狀態：Mbappe本屆6球狀態火燙，追平梅西歷史單屆進球紀錄野心強烈；法國四場均入球3+",
+      "傷停/體能：巴拉圭Enciso（核心創造者）傷勢存疑，Alderete停賽，且剛打完120分鐘+點球大戰體能消耗巨大；法國僅Thuram輕傷但未列入主力",
+      "近期戰績：法國四戰全勝且每場淨勝2球以上；巴拉圭四戰僅1勝（120分鐘內），防守穩健但進攻端效率低",
+      "戰術對位：法國邊路速度（Dembele、Barcola）預期衝擊巴拉圭邊後衛，法國控球率預期60%+製造多次機會",
+      "主客場/氣候因素：費城酷熱天氣（38度以上）可能影響雙方體能分配，但整體不改變實力差距",
+      "輿論共識：博彩、模型（Opta/Action Network）、媒體評論一致認為法國大幅度勝出，隱含勝率80-91%"
+    ],
+    "consensus_lean": "away",
+    "dissent": "少數評論（Racing Post、Reuters前瞻）提醒不可完全排除巴拉圭再演「防守韌性+定位球」奇蹟劇本，尤其法國若輕敵或先失球，巴拉圭深度防守配合快速反擊仍有一定威脅，但整體共識認為此為小概率事件。"
+  },
+  "sources": [
+    {
+      "type": "youtube",
+      "name": "Paraguay vs France Predictions and Picks - VSiN/YouTube 前瞻",
+      "url": "https://www.youtube.com/watch?v=U2ai8RIRFko"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – France vs Paraguay Picks, Tips, Odds & Best Bets",
+      "url": "https://www.rotowire.com/soccer/article/france-vs-paraguay-picks-tips-odds-best-bets-2026-world-cup-round-of-16-121004"
+    },
+    {
+      "type": "betting",
+      "name": "azcentral – Paraguay vs France picks, predictions, odds",
+      "url": "https://www.azcentral.com/story/sports/soccer/worldcup/2026/07/03/paraguay-france-picks-predictions-odds-world-cup-2026-saturday/90772664007/"
+    },
+    {
+      "type": "betting",
+      "name": "SportsLine – Paraguay vs France odds, lines, predictions",
+      "url": "https://www.sportsline.com/insiders/paraguay-vs-france-odds-lines-predictions-2026-world-cup-round-of-32-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Paraguay vs France FIFA World Cup 2026 Preview",
+      "url": "https://www.goal.com/en-us/news/paraguay-france-world-cup-preview/blt712b3214d1bbc4da"
+    },
+    {
+      "type": "media",
+      "name": "Racing Post – Paraguay vs France prediction, odds, team news",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/paraguay-vs-france-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aH5Tf6l1RP4h/"
+    },
+    {
+      "type": "betting",
+      "name": "VSiN – Paraguay vs France Same Game Parlay Prediction",
+      "url": "https://vsin.com/soccer/paraguay-vs-france-same-game-parlay-prediction-2026-fifa-world-cup-picks/"
+    },
+    {
+      "type": "media",
+      "name": "VAVEL – Paraguay vs France Preview",
+      "url": "https://www.vavel.com/en/international-football/2026/07/03/1265080-france-vs-paraguay-preview-2026-fifa-world-cup-round-of-16.html"
+    },
+    {
+      "type": "betting",
+      "name": "SBG Global – Paraguay vs France Betting Predictions & Lines",
+      "url": "https://www.sbgglobal.eu/sportsbook/paraguay-vs-france-fifa-world-cup-2026-betting-predictions-lines/"
+    },
+    {
+      "type": "media",
+      "name": "GOAL – Paraguay vs France predictions: Les Bleus eye quarter-finals",
+      "url": "https://www.goal.com/en-ng/betting/world-cup/paraguay-vs-france-predictions-04-07-2026/A:blt1eaca822270402ca"
+    },
+    {
+      "type": "betting",
+      "name": "DraftKings Network – World Cup 2026: France vs. Paraguay Opening Odds",
+      "url": "https://dknetwork.draftkings.com/2026/06/30/world-cup-2026-france-vs-paraguay-opening-odds/"
+    },
+    {
+      "type": "youtube",
+      "name": "FIFA World Cup Round of 16, Best Odds & Picks",
+      "url": "https://www.youtube.com/watch?v=tJ0ZGPgd0Ds"
+    },
+    {
+      "type": "betting",
+      "name": "WSN.com – World Cup 2026: Paraguay vs. France Predictions",
+      "url": "https://www.wsn.com/world-cup/paraguay-vs-france-2026-07-04/"
+    },
+    {
+      "type": "media",
+      "name": "Injuries and Suspensions – FIFA World Cup 2026 Injuries & Suspensions",
+      "url": "https://injuriesandsuspensions.com/fifa-world-cup-2026-injuries-suspensions-16/"
+    },
+    {
+      "type": "media",
+      "name": "RotoWire – Paraguay vs France Preview, Lineups & Team News",
+      "url": "https://www.rotowire.com/soccer/article/paraguay-vs-france-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-120852"
+    },
+    {
+      "type": "betting",
+      "name": "RealGM – Paraguay: best picks, odds + stats",
+      "url": "https://basketball.realgm.com/betting/picks/france-vs-paraguay-prediction-07-04-2026/"
+    },
+    {
+      "type": "media",
+      "name": "The Hindu Sportstar – High-flying France wary of Paraguay's tenacity",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-france-vs-paraguay-preview-lineup-rivalry-top-players-history-dechamps-knockout/article71180287.ece"
+    },
+    {
+      "type": "market",
+      "name": "Kalshi – Paraguay World Cup Odds 2026",
+      "url": "https://kalshi.com/teams/soccer-team/paraguay"
+    },
+    {
+      "type": "media",
+      "name": "USA Today – France vs. Paraguay in World Cup round of 16",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/30/france-paraguay-world-cup-round-of-16-time-date-tv/90761001007/"
+    },
+    {
+      "type": "model",
+      "name": "Action Network – 2026 World Cup Bracket Interactive Predictions",
+      "url": "https://www.actionnetwork.com/soccer/2026-world-cup-bracket-interactive-predictions-simulations-form-more"
+    },
+    {
+      "type": "youtube",
+      "name": "My World Cup Round of 16 Preview & Predictions! July 4th 2026",
+      "url": "https://www.youtube.com/watch?v=kiBmm3JdTWU"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News – Paraguay vs. France projected lineups",
+      "url": "https://www.sportingnews.com/au/football/news/paraguay-vs-france-lineup-starting-11-world-cup-2026/570398b78aa2f405139cf068"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Preview: Paraguay vs France",
+      "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/preview/paraguay-vs-france-prediction-team-news-lineups_600503.html"
+    },
+    {
+      "type": "betting",
+      "name": "ESPN – Paraguay v France Odds and Spread",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760503"
+    },
+    {
+      "type": "media",
+      "name": "WC26 Intelligence – World Cup 2026 injuries, absences and squad updates",
+      "url": "https://fifa-26.com/en/injuries"
+    },
+    {
+      "type": "official",
+      "name": "FotMob – France squad, coach, injuries and positions",
+      "url": "https://www.fotmob.com/teams/6723/squad/france"
+    },
+    {
+      "type": "media",
+      "name": "Asuncion Times – Opta Supercomputer Pre-Draw Projection for Paraguay",
+      "url": "https://asunciontimes.com/sport/international-sport/this-is-the-opta-supercomputers-pre-draw-projection-for-paraguay-at-the-2026-world-cup/"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – List of FIFA World Cup penalty shoot-outs",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "media",
+      "name": "RSSSF – All time penalty shoot-out stats for national teams",
+      "url": "https://www.rsssf.org/miscellaneous/penstats_stat.html"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar – France in penalty shootouts at FIFA World Cup",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/news/france-in-penalty-shootouts-fifa-world-cup-qatar-2022-records-stats-eng-vs-fra/article66237400.ece"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup Penalty Shootouts: The Facts",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "Sports Illustrated – The Surprising Nation With the Worst World Cup Penalty Shootout Record",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "type": "media",
+      "name": "Voz News – Paraguay Pulls Off World Cup Stunner (vs Germany shootout report)",
+      "url": "https://voz.us/en/sports/260630/36976/paraguay-pulls-off-world-cup-stunner-chases-dream-and-knocks-germany-out-on-penalties.html"
+    },
+    {
+      "type": "media",
+      "name": "AtlUtd.com – Miguel Almirón, Paraguay complete incredible World Cup upset",
+      "url": "https://www.atlutd.com/news/miguel-almiron-paraguay-incredible-fifa-2026-world-cup-upset-over-germany"
+    },
+    {
+      "type": "media",
+      "name": "Khel Now – Full list of penalty takers for all 48 nations",
+      "url": "https://khelnow.com/football/world-football-penalty-takers-fifa-world-cup-202606"
+    },
+    {
+      "type": "media",
+      "name": "La Gazzetta dello Sport – Paraguay Predicted Line-ups",
+      "url": "https://www.gazzetta.it/en/football/fantanews/storie/10-06-2026/world-cup-2026-starting-xis-and-predicted-line-ups-for-48-teams/paraguay.shtml"
+    },
+    {
+      "type": "kol",
+      "name": "Il Margine – World Cup 2026 Penalty Takers by Nation",
+      "url": "https://ilmargine.bet/penalty-takers/world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "NYT Athletic – In Paraguay, USMNT will find an unfazed, deep-feeling World Cup foe",
+      "url": "https://www.nytimes.com/athletic/7292251/2026/06/10/paraguay-world-cup-2026-usa-alfaro/"
+    },
+    {
+      "type": "media",
+      "name": "Sportingnews India – Argentina vs France penalties: World Cup final shootout records",
+      "url": "https://www.sportingnews.com/in/football/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+    },
+    {
+      "type": "media",
+      "name": "FourFourTwo – World Cup 2026 penalty shootouts (France record)",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "official",
+      "name": "Wikipedia – France at the FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/France_at_the_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "The Stats Zone – Every penalty shoot-out in FIFA World Cup history",
+      "url": "https://www.thestatszone.com/every-penalty-shoot-out-in-fifa-world-cup-history-178684"
+    },
+    {
+      "type": "betting",
+      "name": "William Hill News – World Cup Best and Worst Penalty Shootout Records",
+      "url": "https://news.williamhill.com/football/world-cup/penalty-shootout-records/"
+    }
+  ],
+  "source_count": 43,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.18,
+        "draw": 0.22,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "法國整體實力與板凳深度明顯佔優，晉級看好。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "法國整體實力佔優，巴拉圭難以抵擋高盧軍團攻勢。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.25,
+        "away": 0.6
+      },
+      "scoreline": "0:2",
+      "note": "法國實力明顯優於巴拉圭，預計輕鬆取勝晉級八強。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
+      },
+      "scoreline": "0:2",
+      "note": "法國整體實力占優，穩控局面贏球晉級"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.2,
+        "away": 0.68
+      },
+      "scoreline": "0:2",
+      "note": "法國整體實力與鋒線優勢明顯，預計能輕鬆突破巴拉圭防線晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.15,
+        "draw": 0.22,
+        "away": 0.63
+      },
+      "scoreline": "1:2",
+      "note": "法國實力占優，客場勝算高。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.12,
+        "draw": 0.23,
+        "away": 0.65
+      },
+      "scoreline": "0:2",
+      "note": "法國實力懸殊，淘汰賽穩健取勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "0:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.123,
+      "draw": 0.199,
+      "away": 0.678
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-04T052127Z"
+}

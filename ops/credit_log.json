@@ -46,6 +46,11 @@
       "at_hkt": "2026-06-28T14:26",
       "credit_used": 62815.5,
       "note": "exec scheduled job"
+    },
+    {
+      "at_hkt": "2026-06-29T20:55",
+      "credit_used": 64103.55,
+      "note": "record keeping"
     }
   ]
 }

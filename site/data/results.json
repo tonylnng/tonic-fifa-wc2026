@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-06-27T05:00:00Z",
+  "last_updated": "2026-07-04T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1010,6 +1010,259 @@
       "outcome": "draw",
       "recorded_at": "2026-06-28T05:00:00Z",
       "source": "https://www.espn.com/soccer/report/_/gameId/760484"
+    },
+    {
+      "match": 73,
+      "stage": "Round of 32",
+      "home": "South Africa",
+      "away": "Canada",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://sports.ndtv.com/fifa-world-cup-2026/south-africa-vs-canada-live-score-fifa-world-cup-2026-round-of-32-rsa-vs-can-live-updates-football-11699863",
+      "advanced": "Canada"
+    },
+    {
+      "match": 74,
+      "stage": "Round of 32",
+      "home": "Germany",
+      "away": "Paraguay",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreline": "1:1",
+      "outcome": "away",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.skysports.com/football/germany-vs-paraguay/report/549840",
+      "penalties": "3:4",
+      "decided_by": "penalties",
+      "advanced": "Paraguay",
+      "note": "（加時後 1:1，點球大戰 3:4，Paraguay 晉級）"
+    },
+    {
+      "match": 75,
+      "stage": "Round of 32",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreline": "1:1",
+      "outcome": "away",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760488",
+      "penalties": "2:3",
+      "decided_by": "penalties",
+      "advanced": "Morocco",
+      "note": "（加時後 1:1，點球大戰 2:3，Morocco 晉級）"
+    },
+    {
+      "match": 76,
+      "stage": "Round of 32",
+      "home": "Brazil",
+      "away": "Japan",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/30/brazil-japan-world-cup-score-live-updates/",
+      "advanced": "Brazil"
+    },
+    {
+      "match": 77,
+      "stage": "Round of 32",
+      "home": "France",
+      "away": "Sweden",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "scoreline": "3:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+      "advanced": "France"
+    },
+    {
+      "match": 78,
+      "stage": "Round of 32",
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreline": "1:2",
+      "outcome": "away",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://worldcuplocaltime.com/match/ivory-coast-norway-2026-06-30/",
+      "advanced": "Norway"
+    },
+    {
+      "match": 79,
+      "stage": "Round of 32",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreline": "2:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://english.mathrubhumi.com/sports/football/mexico-ecuador-world-cup-round-of-32",
+      "advanced": "Mexico"
+    },
+    {
+      "match": 80,
+      "stage": "Round of 32",
+      "home": "England",
+      "away": "DR Congo",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/england-congo-world-cup-score-live-lineups-goals-watch/90763356007/",
+      "advanced": "England"
+    },
+    {
+      "match": 81,
+      "stage": "Round of 32",
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreline": "2:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.espn.com/soccer/story/_/id/49243703/usa-folarin-balogun-red-card-bosnia-herzegovina-world-cup-2026",
+      "advanced": "USA"
+    },
+    {
+      "match": 82,
+      "stage": "Round of 32",
+      "home": "Belgium",
+      "away": "Senegal",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "scoreline": "2:2",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760491",
+      "decided_by": "extra_time",
+      "advanced": "Belgium",
+      "note": "（加時賽分勝負，Belgium 晉級）"
+    },
+    {
+      "match": 83,
+      "stage": "Round of 32",
+      "home": "Portugal",
+      "away": "Croatia",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/round-of-32/portugal-vs-croatia/liveticker",
+      "advanced": "Portugal"
+    },
+    {
+      "match": 84,
+      "stage": "Round of 32",
+      "home": "Spain",
+      "away": "Austria",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "scoreline": "3:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.espn.com/soccer/commentary/_/gameId/760497",
+      "advanced": "Spain"
+    },
+    {
+      "match": 85,
+      "stage": "Round of 32",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreline": "2:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://en.as.com/soccer/world-cup/switzerland-vs-algeria-live-online-score-stats-goals-updates-world-cup-2026-round-of-32-f202607-n/?outputType=amp",
+      "advanced": "Switzerland"
+    },
+    {
+      "match": 86,
+      "stage": "Round of 32",
+      "home": "Argentina",
+      "away": "Cape Verde",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "scoreline": "2:2",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://sports.ndtv.com/fifa-world-cup-2026/argentina-vs-cape-verde-live-score-fifa-world-cup-2026-round-of-32",
+      "decided_by": "extra_time",
+      "advanced": "Argentina",
+      "note": "（加時賽分勝負，Argentina 晉級）"
+    },
+    {
+      "match": 87,
+      "stage": "Round of 32",
+      "home": "Colombia",
+      "away": "Ghana",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scoreline": "1:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://sports.ndtv.com/fifa-world-cup-2026/colombia-vs-ghana-live-score-fifa-world-cup-2026-round-of-32",
+      "advanced": "Colombia"
+    },
+    {
+      "match": 88,
+      "stage": "Round of 32",
+      "home": "Australia",
+      "away": "Egypt",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "scoreline": "1:1",
+      "outcome": "away",
+      "recorded_at": "2026-07-04T05:00:00Z",
+      "source": "https://www.nytimes.com/athletic/football/game/australia-vs-egypt/r3KRlRlAx3z500cp/",
+      "penalties": "2:4",
+      "decided_by": "penalties",
+      "advanced": "Egypt",
+      "note": "（加時後 1:1，點球大戰 2:4，Egypt 晉級）"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-28T05:31:25Z",
+  "last_updated": "2026-07-04T05:20:23Z",
   "postmortems": [
     {
       "match": 5,
@@ -1876,6 +1876,215 @@
       "outcome_correct": false,
       "exact_correct": false,
       "generated_at": "2026-06-28T05:31:25Z"
+    },
+    {
+      "match": 73,
+      "home": "South Africa",
+      "away": "Canada",
+      "stage": "Round of 32",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "hit",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "加拿大有驚無險過關，比數比預期更緊，晉級方向猜中",
+      "review": "AI 賽前以55%機率看好加拿大，預測1:2小勝，最終加拿大僅靠Stephen Eustáquio單刀入球1:0驚險過關，比分比預測更保守。南非防守紀律及門將Williams的威脅確實壓縮了加拿大的進攻空間，令原本預期David、Larin聯手破門的火力未能兌現，但整體晉級方向判斷正確。這場反映淘汰賽中「強隊未必大勝」的常態，AI在總體實力評估上準確，但低估了南非防守韌性對比分的壓制效果。",
+      "lessons": [
+        "淘汰賽強弱分明時，晉級方向判斷比精準比分更可靠",
+        "低估防守紀律強的「以弱制強」球隊，會令預測比分偏高估",
+        "球星火力預期（如David、Larin）未必反映在實際入球數上，需搭配對手防守質量修正"
+      ],
+      "vs_benchmarks": "本站主預測1:2與Qwen、DeepSeek、Gemini三家對照模型比分一致（均預測1:2或1:1區間），晉級方向上四家AI（本站+Qwen+DeepSeek+Gemini）判斷加拿大晉級全數命中，優於MiniMax（誤判南非1:0晉級）。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 74,
+      "home": "Germany",
+      "away": "Paraguay",
+      "stage": "Round of 32",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "1:1 (點球 4:3)",
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "冷門地震！巴拉圭點球淘汰德國，AI全盤看走眼",
+      "review": "AI以67%高信心預測德國2:0輕鬆晉級，結果Julio Enciso頂住傷勢代表巴拉圭先馳得點，Kai Havertz扳平後雙方戰至加時仍1:1，最終巴拉圭在點球大戰以4:3淘汰德國，寫下本屆最大冷門之一。AI過度依賴陣容深度與Elo評分等靜態指標，未充分考量Enciso帶傷上陣仍能製造威脅、以及德國近期在關鍵戰役中屢屢在點球大戰失手的心理弱點。這場暴露了「賽前實力優勢」與「淘汰賽點球心理素質」之間的落差，是本輪最深刻的教訓。",
+      "lessons": [
+        "淘汰賽點球大戰結果無法單靠賽前實力差距預測，需納入雙方近年點球心理數據",
+        "傷停球員（如Enciso）若帶傷復出仍具威脅時，不應完全下修其影響力",
+        "高信心度（confidence 0.68）預測仍可能大幅翻車，需在系統中對淘汰賽設置更保守的信心上限",
+        "德國近年大賽點球史一向不穩，此變數應被賦予更高權重"
+      ],
+      "vs_benchmarks": "本站與全部7家對照模型（MiniMax、Qwen、DeepSeek、GPT-5.1、Gemini、Grok、GLM）一致看好德國晉級，全數判斷錯誤，顯示此為系統性群體盲點而非單一模型失誤，僅共識勝率722%對106%仍未能反映巴拉圭的爆冷實力。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 75,
+      "home": "Netherlands",
+      "away": "Morocco",
+      "stage": "Round of 32",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:1 (點球 3:2)",
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "摩洛哥點球淘汰橙軍，AI賽前示警卻仍押錯晉級方",
+      "review": "AI賽前已明確提示「若進入點球，形勢將明顯有利摩洛哥」，但主預測仍押注荷蘭2:1正規時間取勝。實際賽果印證了AI自身的風險提示：Cody Gakpo為荷蘭先開紀錄，Issa Diop扳平後雙方戰成1:1進入加時及點球，摩洛哥憑藉門將Bono一貫的點球優勢以3:2淘汰荷蘭。這是本輪最能體現「AI知道風險卻仍選擇主流預測」的案例，儘管信心度僅0.52屬本輪最低，顯示系統對均勢比賽已有所警覺，但最終方向依然錯判。",
+      "lessons": [
+        "當AI自身reasoning已明確標註「點球劣勢方」警訊時，應考慮調低該隊正規時間勝率或提高平局/點球權重",
+        "低信心度（如此役0.52）本身就是訊號，可作為降低下注/信心展示的依據",
+        "摩洛哥近幾屆大賽的點球心理素質應被系統性納入資料庫，而非僅作為附註",
+        "势均力敵的比賽應更依賴實際點球歷史數據而非整體技術面優勢"
+      ],
+      "vs_benchmarks": "本站與全部7家對照模型都判斷荷蘭晉級，僅在win_prob上程度不同（GPT-5.1、Grok、GLM三家的和局機率已高達36-40%，相對保守），但無一家AI模型正確押中摩洛哥點球晉級，反映此戰對全體模型皆為盲區。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 76,
+      "home": "Brazil",
+      "away": "Japan",
+      "stage": "Round of 32",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "verdict": "exact",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "比分全中！巴西如期收割日本，AI精準命中",
+      "review": "AI賽前預測巴西2:1取勝，最終賽果分毫不差：Kaishu Sano一度為日本先拔頭籌，但Casemiro與Gabriel Martinelli相繼建功，巴西以2:1完成逆轉晉級，與AI預測的比分及晉級方完全吻合。這場驗證了AI對於陣容深度與火力差距（Vinicius Jr領銜的巴西攻擊線）的評估相當準確，同時也印證了日本雖具備先進球能力但整體深度不足以撐住比賽的判斷。這是本輪罕見的「劇本式」命中，顯示在實力差距明確、資料充分的比賽中，AI模型具備高精準度。",
+      "lessons": [
+        "當雙方實力差距明確且有充分近況資料時，AI比分預測可達到高精準度",
+        "「先失球後逆轉」的劇本提醒模型不應只看最終比分，也要留意弱旅的先手能力",
+        "巴西後段防守回穩（近兩戰零失球）的近況資料是本次預測命中的關鍵支撐"
+      ],
+      "vs_benchmarks": "本站2:1與Gemini、Grok、GLM三家對照模型比分完全一致，優於MiniMax、Qwen、DeepSeek、GPT-5.1四家預測的2:0（少算日本的入球），本站在比分精準度上位居七家之首。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 77,
+      "home": "France",
+      "away": "Sweden",
+      "stage": "Round of 32",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "3:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "hit",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "法國火力超標，姆巴佩梅開二度輕鬆過關",
+      "review": "AI以0.82高信心預測法國2:1取勝，晉級方向正確，但低估了法國的進攻爆發力——Kylian Mbappé獨中兩元、Bradley Barcola錦上添花，法國以3:0零封瑞典，比預期更具壓倒性。瑞典本應保有的一顆入球機會全數落空，顯示AI對瑞典臨場反擊能力的評估過於樂觀，也低估了法國鋒線在信心與狀態雙旺下的效率。這場整體判斷方向正確，但輸給了「大熱門橫掃小分」的低估風險。",
+      "lessons": [
+        "面對狀態極佳的頭號射手（姆巴佩本屆賽前已4球在手），預測模型應適度上修其入球期望值",
+        "巨大實力差距的比賽，弱旅「保底一球」的假設需更審慎驗證，避免高估其反擊威脅",
+        "高信心度預測（如0.82）命中晉級方向的機率確實較高，可作為信心校準的正面案例"
+      ],
+      "vs_benchmarks": "本站主預測2:1與DeepSeek、GLM一致，其餘MiniMax、Qwen、GPT-5.1、Gemini、Grok五家均預測2:0；八家中無一家準確預測3:0的最終比分，但共識勝率678%對124%已充分反映法國的壓倒性優勢，方向判斷全員命中。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 78,
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "stage": "Round of 32",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "1:2",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "verdict": "exact",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "哈蘭特準時交作業，比分完全命中最緊湊一戰",
+      "review": "AI賽前預測挪威1:2客場小勝，最終賽果完全一致：Antonio Nusa率先破門，Amad Diallo為象牙海岸扳平，但Erling Haaland於關鍵時刻再度建功，挪威以1:2驚險過關，完全符合AI對本場「最具懸念」的定性與比分預測。哈蘭特本屆第5球的高效表現，印證了AI對其核心地位的判斷準確，而象牙海岸依賴單點火力（Diallo）追平但深度不足的弱點也如期浮現。這是本輪信心度中等（0.62）卻依然精準命中的代表案例。",
+      "lessons": [
+        "核心射手在輪換休息後保持狀態的假設（哈蘭特末輪輪休）獲得驗證，此類「体力管理」變數值得持續納入模型",
+        "中等信心度（0.62）搭配詳細情報（雙方近況、輪換安排）仍可達成精準命中，顯示信心分數與準確度非線性關係",
+        "均勢比賽中，「單點爆發力」對比「深度」的分析框架有效"
+      ],
+      "vs_benchmarks": "本站1:2與MiniMax、Qwen、DeepSeek三家一致準確命中比分，優於GPT-5.1、Gemini（預測1:1平局）及Grok、GLM（預測象牙海岸2:1爆冷），本站與三家AI並列本場最精準預測。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 83,
+      "home": "Portugal",
+      "away": "Croatia",
+      "stage": "Round of 32",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "verdict": "exact",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "C朗低調建功，葡萄牙2:1鎖定勝局完美命中",
+      "review": "AI賽前預測葡萄牙2:1驚險取勝，最終賽果一致：Ivan Perišić為克羅埃西亞先開紀錄，隨後Cristiano Ronaldo與Gonçalo Ramos連續破門，葡萄牙以2:1逆轉晉級，與預測比分完全吻合。這場AI準確捕捉到「勢均力敵但葡萄牙微幅佔優」的格局，也印證了C朗雖在小組賽效率受質疑，但仍在淘汰賽關鍵時刻挺身而出的判斷。莫德里奇的克羅埃西亞雖頑強先進球，但深度和後段體力管理不及葡萄牙，此點也在AI的近況分析中已有預警。",
+      "lessons": [
+        "均勢比賽（win_prob差距僅個位數）搭配詳盡的近況與傷停分析，仍可實現精準比分命中",
+        "球星「大賽關鍵球」屬性（C朗大賽淘汰賽歷史）值得作為單獨變數納入評估，而非僅看近期效率",
+        "先失球後逆轉的劇本再度出現，顯示強隊在點球大戰前韌性仍是預測重點"
+      ],
+      "vs_benchmarks": "本站2:1與MiniMax、Qwen、GPT-5.1、Gemini、Grok、GLM六家對照模型比分完全一致，僅DeepSeek預測1:0偏保守，本站在此役與六家AI並列最精準，展現本場預測的高度共識與命中率。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 84,
+      "home": "Spain",
+      "away": "Austria",
+      "stage": "Round of 32",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "3:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "hit",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "西班牙控球碾壓，奧亞薩巴爾梅開二度超額完成",
+      "review": "AI以0.8高信心預測西班牙2:0輕鬆晉級，晉級方向正確，但比分被再度低估——Mikel Oyarzabal獨進兩球、Pedro Porro錦上添花，西班牙以3:0零封奧地利，比預期更具壓倒性。奧地利雖末輪驚險3:3出線，但正如AI賽前分析的「心理受損」，在面對歐洲冠軍班底的控球體系時毫無還手之力，全場被鎖死在防守端。整體而言此役再現「強隊碾壓弱旅」時AI容易低估比分差距的模式，方向判斷穩健但比分保守。",
+      "lessons": [
+        "末輪驚險晉級的球隊（如奧地利3-3勉強出線）心理狀態下滑效應應被賦予更高權重，可能導致更懸殊比分",
+        "強隊主力火力點（如奧亞薩巴爾近況火熱）梅開二度的機率應適度上修，避免比分預測系統性偏低",
+        "高信心度（0.8）搭配一致輿論共識，晉級方向判斷可靠性高"
+      ],
+      "vs_benchmarks": "本站2:0與MiniMax、Qwen、DeepSeek、GPT-5.1、Gemini、GLM六家對照模型比分完全一致，僅Grok同為2:0，全體八家一致低估西班牙的比分優勢，無人準確預測3:0，方向判斷則全員命中。",
+      "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 85,
+      "home": "Switzerland",
+      "away": "Algeria",
+      "stage": "Round of 32",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "2:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "verdict": "exact",
+      "run_id": "2026-06-28T0500Z",
+      "headline": "瑞士穩紮穩打零封晉級，比分再度分毫不差",
+      "review": "AI賽前預測瑞士2:0取勝，最終賽果完全吻合：Breel Embolo與Dan Ndoye各建一功，瑞士以2:0完封阿爾及利亞順利晉級，未讓外界擔憂的點球變數上演。AI準確捕捉到瑞士中場謝卡的組織能力及馬奇贊比、恩博洛的多點開花趨勢，同時阿爾及利亞雖有馬赫雷斯狀態回勇的加分因素，但整體攻擊未能突破瑞士防線，印證AI對雙方深度差距的判斷。儘管賽前已提示瑞士點球史堪憂的變數，但此役未進入加時，該風險並未實現。",
+      "lessons": [
+        "當強隊在90分鐘內建立多點開花的進攻火力時，比分預測可高度精準命中",
+        "點球風險提示雖重要，但不應影響正規時間比分預測的核心判斷邏輯",
+        "「爆冷空間存在」的警語需與實際比賽走勢動態校正，非每場均勢預警都會兌現"
+      ],
+      "vs_benchmarks": "本站2:0與MiniMax對照模型比分完全一致，其餘Qwen、DeepSeek、GPT-5.1、Gemini、Grok、GLM六家預測2:1或1:0，本站與MiniMax並列本場最精準比分預測，優於其餘六家。",
+      "generated_at": "2026-07-04T05:20:23Z"
     }
   ]
 }

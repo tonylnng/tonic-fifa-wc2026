@@ -1,0 +1,454 @@
+{
+  "match": 91,
+  "home": "Brazil",
+  "away": "Norway",
+  "stage": "Round of 16",
+  "kickoff_utc": "2026-07-05T20:00:00Z",
+  "run_id": "2026-07-04T0517Z",
+  "run_timestamp": "2026-07-04T05:17:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.6,
+      "draw": 0.19,
+      "away": 0.21
+    },
+    "confidence": 0.63,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.63,
+        "basis": "博彩與多數專家一致看好巴西以主流陣容優勢小勝，但Haaland威脅使比賽存懸念"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "巴西90分鐘勝負盤約-110至-220，晉級盤巴西-215至-270，暗示六至七成晉級機率"
+      },
+      {
+        "name": "Haaland爆冷情境",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.3,
+        "basis": "Haaland本屆已入5球狀態火燙，若巴西攻擊組合（Paqueta/Raphinha傷缺）受限，攻擊火力下降，挪威定位球+快攻可致勝，多間媒體（Sports Mole/USA Today）押爆冷"
+      },
+      {
+        "name": "加時點球情境",
+        "scoreline": "2:2",
+        "outcome": "away",
+        "confidence": 0.15,
+        "basis": "NBC Sports等分析指出雙方close，若90分鐘戰平進入加時，點球階段結果難料"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率（DraftKings/FanDuel/ClutchPoints等）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.6,
+          "draw": 0.19,
+          "away": 0.21
+        },
+        "scoreline": "2:1",
+        "note": "巴西90分鐘勝負盤約-110至-220，和局+260，挪威+310至+360；晉級盤巴西-215至-270，挪威+170至+210"
+      },
+      {
+        "source": "Ladbrokes 賠率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.523,
+          "draw": 0.2,
+          "away": 0.277
+        },
+        "note": "巴西90分鐘17/20，挪威3/1，和局27/10；晉級：巴西4/9、挪威17/10"
+      },
+      {
+        "source": "vegasodds.com 分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.55,
+          "draw": 0.2,
+          "away": 0.25
+        },
+        "note": "認為挪威+329賠率具價值，Haaland狀態可能使比賽比市場預期更接近"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.19,
+      "extra_time_prob": 0.19,
+      "shootout_prob": 0.09,
+      "advance_prob": {
+        "home": 0.68,
+        "away": 0.32
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 3,
+          "won": 2,
+          "win_rate": 0.67,
+          "conversion_rate": 0.8,
+          "recent": "2022世界盃8強遭克羅埃西亞點球淘汰（2-4互射告負，Neymar等罰進但整體效率不足）；1994決賽點球擊敗義大利奪冠；長期為世界盃點球大戰勝率最高球隊之一",
+          "sources": [
+            "https://www.rsssf.org/miscellaneous/penstats_stat.html",
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+          ]
+        },
+        "away": {
+          "shootouts": 0,
+          "won": 0,
+          "win_rate": 0.0,
+          "conversion_rate": null,
+          "recent": "挪威近5年大賽（本屆為隊史第4次世界盃）尚無確證的點球大戰紀錄，本屆16強前尚未經歷加時或點球考驗",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.reuters.com/sports/soccer/brazil-face-haaland-norway-hoodoo-world-cup-last-16-2026-07-03/"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "隊長Marquinhos與門將Alisson大賽經驗豐富，惟2022年點球淘汰陰影仍在；Vini Jr／Rayan等年輕主力大賽壓力下表現尚待檢驗，Casemiro若帶傷上陣影響中場穩定性",
+        "away": "Haaland大賽狀態火熱但缺乏淘汰賽加時/點球經驗；Odegaard具英超豪門大賽經驗，惟全隊首次晉級世界盃16強、心理壓力與經驗均為未知數"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "維尼修斯",
+          "record": "俱樂部大賽罰球紀錄佳，國家隊點球出場經驗有限"
+        },
+        {
+          "team": "away",
+          "name_zh": "哈蘭德",
+          "record": "俱樂部罰球命中率高，惟大賽點球大戰經驗為零"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "巴西90分鐘取勝機率明顯較高（博彩隱含約55-60%），戰平進入加時機率約two成；若真進點球，巴西歷史點球大戰經驗與勝率均優於首次踏足世界盃淘汰賽點球階段的挪威。"
+    }
+  },
+  "reasoning": {
+    "summary": "巴西以更全面的陣容深度與大賽經驗被博彩市場及多數專家看好晉級，但Paqueta、Raphinha傷缺削弱攻擊火力，加上Haaland本屆5球的恐怖狀態，令比賽存在明顯爆冷風險，多間媒體（Sports Mole、USA Today）押注挪威爆冷或戰成平局後點球，巴西整體晉級機率仍居多數。",
+    "key_factors": [
+      "球員狀態：Haaland本屆已入5球（含86分鐘制勝球淘汰象牙海岸），狀態火熱；Vini Jr／Cunha為巴西攻擊箭頭",
+      "傷停名單：巴西Lucas Paqueta（腿筋傷、傳最快7月底復出）、Raphinha（腿筋傷疑陣）雙雙成疑，Casemiro帶傷但料先發；挪威Julian Ryerson（大腿傷）缺陣",
+      "近期戰績：巴西小組賽表現穩健晉級，挪威淘汰象牙海岸2-1（Haaland讀秒絕殺）首次晉級世界盃16強",
+      "戰術對位：巴西4-3-3強調中場控球轉換，挪威4-3-3倚賴Haaland單點爆發力與定位球",
+      "主客場/場地：紐約大都會人壽球場中立場地，無明顯主場優勢",
+      "輿論共識：博彩盤口與多數媒體（Ladbrokes/DraftKings/ClutchPoints）一致看好巴西六至七成晉級機率，惟Reuters等指出巴西世界盃史上從未擊敗挪威（4次交手0勝）成為熱門話題"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Sports Mole預測挪威1-2爆冷取勝；vegasodds.com認為挪威+329賠率具價值；NBC Sports與USA Today均提示比賽可能拖入加時甚至點球，不排除挪威憑Haaland單點爆發完成世界盃史上首次擊敗巴西"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "DraftKings Network – Brazil vs Norway Odds",
+      "url": "https://dknetwork.draftkings.com/2026/06/30/world-cup-2026-brazil-vs-norway-odds/"
+    },
+    {
+      "type": "betting",
+      "name": "ClutchPoints – Brazil vs Norway Prediction/Odds",
+      "url": "https://clutchpoints.com/betting/brazil-vs-norway-2026-world-cup-prediction-odds-pick"
+    },
+    {
+      "type": "betting",
+      "name": "Ladbrokes – Brazil vs Norway Preview/Predictions",
+      "url": "https://www.ladbrokes.com/en/news/brazil-vs-norway-world-cup-round-of-16-preview-predictions-tips-2026-07-02/"
+    },
+    {
+      "type": "betting",
+      "name": "FOX Sports – 2026 World Cup Round of 16 Odds",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-round-of-16-odds-who-will-make-round-16"
+    },
+    {
+      "type": "model",
+      "name": "vegasodds.com – Brazil vs Norway Picks/Odds/Preview",
+      "url": "https://www.vegasodds.com/predictions/soccer/brazil-vs-norway-world-cup-round-of-16-picks-odds-preview-jul-5/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters – Brazil Face Haaland, Norway Hoodoo",
+      "url": "https://www.reuters.com/sports/soccer/brazil-face-haaland-norway-hoodoo-world-cup-last-16-2026-07-03/"
+    },
+    {
+      "type": "media",
+      "name": "Reuters – Brazil's Paqueta Suffers Muscle Injury",
+      "url": "https://www.reuters.com/sports/soccer/brazils-paqueta-suffers-muscle-injury-doubtful-round-16-2026-06-30/"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com – Raphinha World Cup Round of 16 vs Norway",
+      "url": "https://www.goal.com/en-in/lists/brazil-raphinha-world-cup-round-of-16-norway/blt18da306f60c66906"
+    },
+    {
+      "type": "media",
+      "name": "FOX Sports – Haaland Claims Norway's Chances Very Slim",
+      "url": "https://www.foxsports.com/stories/soccer/dont-know-if-well-make-it-erling-haaland-claims-norway-only-have-very-slim-chance-of-beating-brazil-in-world-cup-round-of-16"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera – Norway Edge Ivory Coast 2-1",
+      "url": "https://www.aljazeera.com/sports/2026/6/30/norway-edge-ivory-coast-2-1-to-enter-world-cup-round-of"
+    },
+    {
+      "type": "media",
+      "name": "Sky Sports – Ivory Coast 1-2 Norway",
+      "url": "https://www.skysports.com/football/news/12098/13558812/world-cup-2026-ivory-coast-1-2-norway-erling-haaland-scores-dramatic-winner-to-set-up-last-16-clash-with-brazil"
+    },
+    {
+      "type": "media",
+      "name": "India Today – Haaland vs Brazil Preview",
+      "url": "https://www.indiatoday.in/sports/football/story/erling-haaland-fifa-world-cup-norway-vs-brazil-2938209-2026-07-01"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – Brazil vs Norway Preview",
+      "url": "https://www.espn.com/soccer/story/_/id/49256507/brazil-vs-norway-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports – Brazil vs Norway How to Watch/Prediction",
+      "url": "https://www.nbcsports.com/soccer/news/how-to-watch-brazil-vs-norway-live-stream-tv-channel-team-news-prediction"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole – Brazil vs Norway Prediction",
+      "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-norway-prediction-team-news-lineups_600608.html"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – Brazil National Football Team",
+      "url": "https://en.wikipedia.org/wiki/Brazil_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "Man City News – Ivory Coast vs Norway Report",
+      "url": "https://www.mancity.com/news/mens/ivory-coast-norway-man-city-world-cup-2026-report-erling-haaland-63918438"
+    },
+    {
+      "type": "kol",
+      "name": "Sporting Life – Jake Osgathorpe's 2026 World Cup Tips",
+      "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-2026-world-cup-tips-and-predictions-round-of-16/232995"
+    },
+    {
+      "type": "media",
+      "name": "USA Today – Brazil-Norway Expert Predictions",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/brazil-norway-expert-predictions-picks-world-cup/90772707007/"
+    },
+    {
+      "type": "youtube",
+      "name": "YouTube – Brazil vs Norway Preview",
+      "url": "https://www.youtube.com/watch?v=HLy-cUXjUFI"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar – Haaland Late Winner Report",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/haaland-norway-late-winner-fifa-world-cup-2026-round-of-32-ivory-coast-news/article71167669.ece"
+    },
+    {
+      "type": "media",
+      "name": "KERA News – Haaland Celebration",
+      "url": "https://www.keranews.org/sports/2026-07-01/erling-haaland-kiss-my-dallas-social-media-arlington-cowboy-boots-hat"
+    },
+    {
+      "type": "media",
+      "name": "beIN Sports – Haaland Norway Must Be Realistic",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/haaland-norway-must-be-realistic-on-world-cup-ambitions-2026-06-23"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar – Paqueta Injury Update",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-brazil-lucas-paqueta-injury-update-round-of-16-latest-news/article71167315.ece"
+    },
+    {
+      "type": "media",
+      "name": "Livemint – WC2026 Match Results Jun 30",
+      "url": "https://www.livemint.com/sports/football-news/fifa-world-cup-2026-match-results-on-30-june-erling-haaland-kylian-mbappe-shine-as-norway-france-reach-round-of-16-11782879648845.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN – 2026 FIFA World Cup Injuries Tracker",
+      "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+      "type": "media",
+      "name": "Yahoo Sports – Norway Beats Ivory Coast",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-erling-haalands-late-goal-lifts-norway-over-ivory-coast-and-into-the-round-of-16-190435588.html"
+    },
+    {
+      "type": "media",
+      "name": "AJC – Haaland Nets Game Winner",
+      "url": "https://www.ajc.com/news/2026/06/haaland-nets-game-winner-as-norway-wins-a-world-cup-knockout-game-for-1st-time-beating-ivory-coast/"
+    },
+    {
+      "type": "media",
+      "name": "Al Bat – Haaland's Deadly Double",
+      "url": "https://en.albat.com/breaking/world-cup-2026-haalands-deadly-double-sinks-senegal-and-sends-norway-to-the-round-of-16-20260622-0086.html"
+    },
+    {
+      "type": "media",
+      "name": "CNN – World Cup Round of 32 Roundup",
+      "url": "https://www.cnn.com/2026/06/30/sport/world-cup-round-of-32-tuesday"
+    },
+    {
+      "type": "official",
+      "name": "beIN Sports – Brazil vs Norway Match Page",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/brazil-vs-norway-2026-07-05"
+    },
+    {
+      "type": "media",
+      "name": "365Scores – Brazil vs Norway Lineups",
+      "url": "https://www.365scores.com/football/match/fifa-world-cup-5930/brazil-norway-2376-2379-5930"
+    },
+    {
+      "type": "media",
+      "name": "FotMob – Brazil vs Norway",
+      "url": "https://www.fotmob.com/en-GB/matches/brazil-vs-norway-2026-07-05"
+    },
+    {
+      "type": "media",
+      "name": "Wikipedia – List of FIFA World Cup Penalty Shoot-outs",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "model",
+      "name": "RSSSF – World Cup Penalty Shootout Statistics",
+      "url": "https://www.rsssf.org/miscellaneous/penstats_stat.html"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst – World Cup Penalty Shootouts: The Facts",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    }
+  ],
+  "source_count": 36,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.22,
+        "away": 0.16
+      },
+      "scoreline": "2:1",
+      "note": "巴西主場攻勢強，挪威反擊具威脅但難擋。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "巴西整體實力與大賽經驗佔優，預計能穩穩拿下挪威晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "巴西整體戰力明顯高於挪威，預計控場取勝鎖定八強席位。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.69,
+        "draw": 0.18,
+        "away": 0.13
+      },
+      "scoreline": "2:0",
+      "note": "巴西攻守均衡，單淘汰經驗優勢明顯。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "巴西陣容深度優勢明顯，足以壓制挪威的反擊並順利晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.18,
+        "away": 0.14
+      },
+      "scoreline": "2:1",
+      "note": "巴西實力與主場優勢明顯，預計擊敗挪威。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "巴西實力明顯優勢，穩健晉級八強。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.654,
+      "draw": 0.19,
+      "away": 0.156
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-04T052259Z"
+}
