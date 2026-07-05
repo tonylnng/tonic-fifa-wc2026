@@ -1263,6 +1263,40 @@
       "decided_by": "penalties",
       "advanced": "Egypt",
       "note": "（加時後 1:1，點球大戰 2:4，Egypt 晉級）"
+    },
+    {
+      "match": 89,
+      "stage": "Round of 16",
+      "home": "Paraguay",
+      "away": "France",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-07-05T05:00:00Z",
+      "source": "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
+      "decided_by": "90",
+      "advanced": "France",
+      "note": "這場十六強賽在費城的炎熱天氣下進行，全場火藥味濃厚，巴拉圭全場採取極為強硬甚至帶挑釁性的防守策略，多次危險犯規卻未獲黃牌，法國反而在19分鐘（巴爾科拉）、81分鐘（科內）及補時第7分鐘（奧利斯）三次領牌，成為賽後爭議焦點。法國長時間未能突破巴拉圭密集防線，直到主帥德尚在60分鐘換上多耶（Désiré Doué）後才打開局面。第67分鐘多耶於禁區內被迪亞哥·戈梅斯（Diego Gómez）放倒，主裁伊爾吉茲·坦塔舍夫（Ilgiz Tantashev）經VAR複核後改判十二碼，姆巴佩於第70分鐘主罰命中，追平美斯世界盃七球紀錄，成為全場唯一入球。終場後雙方球員仍有肢體衝突，巴拉圭教練組一人於賽後被出示黃牌，但整場90分鐘沒有任何巴拉圭球員領牌，創下該國自1998年對尼日利亞以來首次無人吃牌的世界盃紀錄。法國憑此1-0險勝晉級八強，將對陣摩洛哥。"
+    },
+    {
+      "match": 90,
+      "stage": "Round of 16",
+      "home": "Canada",
+      "away": "Morocco",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "scoreline": "0:3",
+      "outcome": "away",
+      "recorded_at": "2026-07-05T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+      "decided_by": "90",
+      "advanced": "Morocco",
+      "note": "這場十六強賽在侯斯頓上演，是本屆世界盃16強階段紀律最差的一戰，全場合計出示8張黃牌（雙方各4張），且上半場就出現6張黃牌，追平2006年巴西對迦納的世界盃淘汰賽紀錄。加拿大開賽階段一度佔優，喬納芬·大衛（Jonathan David）及塔尼·奧盧瓦塞伊（Tani Oluwaseyi）多次射門均被摩洛哥門將雅辛·布努（Yassine Bounou）撲出，上半場互交0-0。下半場開局僅5分鐘，阿澤丁·奧納希（Azzedine Ounahi）接應阿殊拉夫·哈基米（Achraf Hakimi）回做的自由球射入底角，率先為摩洛哥破局；第82分鐘奧納希再接布拉希姆·迪亞斯（Brahim Díaz）直傳完成梅開二度，鎖定勝局；補時第8分鐘蘇菲揚·拉希米（Soufiane Rahimi）把握反擊機會射入第三球，最終摩洛哥以3-0淘汰東道主之一的加拿大。加拿大雖創隊史最佳世界盃戰績並首次晉級16強及首勝淘汰賽（16強前一輪擊敗南非），但此役止步八強門外；摩洛哥則憑此勝連續兩屆世界盃殺入八強，成為首支達成此成就的非洲球隊。"
     }
   ]
 }

@@ -1,0 +1,515 @@
+{
+  "match": 93,
+  "stage": "Round of 16",
+  "home": "Portugal",
+  "away": "Spain",
+  "kickoff_utc": "2026-07-06T19:00:00Z",
+  "kickoff_hkt": "2026-07-07 03:00",
+  "run_id": "2026-07-05T0500Z",
+  "run_timestamp": "2026-07-05T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.29,
+      "draw": 0.27,
+      "away": 0.44
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.58,
+        "basis": "Opta 風格 xG 模型（葡 1.28 vs 西 1.46）預測西班牙小勝"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.53,
+        "basis": "主流博彩隱含西班牙 51-53% 勝率、最可能 1:0 或 2:1 小勝"
+      },
+      {
+        "name": "戰平進點球",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.5,
+        "basis": "近 5 次交手多為 1-2 球差距，易陷僵局；一旦進點球數據顯著利葡萄牙"
+      },
+      {
+        "name": "葡萄牙爆發",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "C.羅領軍主場氣勢+團隊凝聚，西班牙對強度對手中場控制存疑"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.24,
+          "draw": 0.26,
+          "away": 0.53
+        },
+        "scoreline": "0:1",
+        "note": "bet365/DraftKings/FanDuel/Kalshi/Polymarket 綜合：西班牙 51-53% 輕微至中等 favourite"
+      },
+      {
+        "source": "Opta 風格模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.33,
+          "draw": 0.3,
+          "away": 0.37
+        },
+        "scoreline": "1:2",
+        "note": "xG 葡 1.28 vs 西 1.46，較博彩更接近勢均力敵"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.3,
+      "extra_time_prob": 0.3,
+      "shootout_prob": 0.2,
+      "advance_prob": {
+        "home": 0.45,
+        "away": 0.55
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 4,
+          "won": 3,
+          "win_rate": 0.75,
+          "conversion_rate": null,
+          "recent": "近 5 年 3 勝 1 負：2025 歐國聯決賽 5-3 勝西班牙（Diogo Costa 撲 Morata）、2024 歐洲盃 16 強 3-0 勝斯洛維尼亞、2016 歐洲盃 8 強 5-3 勝波蘭；僅 2024 歐洲盃 8 強 3-5 負法國。近期明顯轉強。",
+          "sources": [
+            "https://www.theguardian.com/football/2025/jun/08/portugal-sink-spain-in-penalty-shootout-to-win-nations-league-crown",
+            "https://en.wikipedia.org/wiki/2025_UEFA_Nations_League_final",
+            "https://www.uefa.com/uefaeuro/history/news/025f-0fe8a7a67576-7d8e686e8b30-1000--euro-penalty-shoot-out-records-by-national-team/",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        },
+        "away": {
+          "shootouts": 3,
+          "won": 0,
+          "win_rate": 0.0,
+          "conversion_rate": null,
+          "recent": "近 5 年大賽點球全敗：2022 世界盃 16 強 0-3 負摩洛哥、2025 歐國聯決賽 3-5 負葡萄牙、2021 歐洲盃連負瑞士與義大利。世界盃史上點球大戰勝率最低球隊之一（約 20%）。",
+          "sources": [
+            "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record",
+            "https://sportstar.thehindu.com/football/spain-vs-germany-euro-2024-spain-record-in-penalty-shootout-esp-v-ger-extra-time/article68372454.ece",
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts",
+            "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "門將Diogo Costa在2025歐國聯決賽點球大戰中撲出Morata的關鍵一球，展現強大大賽點球心理素質；隊長C.Ronaldo經驗豐富（六屆世界盃、多次大賽點球主罰者），球隊近年淘汰賽點球紀錄穩健（[Guardian](https://www.theguardian.com/football/2025/jun/08/portugal-sink-spain-in-penalty-shootout-to-win-nations-league-crown); [ESPN](https://www.espn.com/soccer/report/_/gameId/723738)）。",
+        "away": "門將Unai Simón近年大賽點球撲救率不算突出，2025歐國聯決賽被葡萄牙罰進全部5球；隊史紀錄顯示西班牙屢屢在世界盃淘汰賽點球階段崩盤（2002年對愛爾蘭曾連續4次罰丟），心理壓力議題被多家媒體點名為球隊隱憂（[SI](https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record); [SQaF](https://sqaf.club/international-penalty-shootout-records/)）。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "C.羅納度（Cristiano Ronaldo）",
+          "record": "生涯罰球命中率官方統計約79%（98罰失/113次不含此為俱樂部+國家隊混合統計，需注意此為概略數字，並非專指大賽點球大戰）；本屆對克羅埃西亞踢入12碼追平球（[StatMuse](https://www.statmuse.com/fc/ask/cristiano-ronaldo-penalty-conversion-rate-throughout-his-career?l=eu5); [USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/cristiano-ronaldo-injury-update-knee-portugal-croatia-world-cup/90784690007/)）。"
+        },
+        {
+          "team": "home",
+          "name_zh": "魯本·內維斯（Rúben Neves）",
+          "record": "2025歐國聯決賽點球大戰主罰第五顆並命中，成為致勝球（[Guardian](https://www.theguardian.com/football/2025/jun/08/portugal-sink-spain-in-penalty-shootout-to-win-nations-league-crown)）。"
+        },
+        {
+          "team": "home",
+          "name_zh": "貢薩洛·拉莫斯（Gonçalo Ramos）",
+          "record": "查無其大賽點球大戰主罰紀錄，惟YouTube分析提及其今年春季曾為所屬俱樂部兩次點球大戰命中（[YouTube](https://www.youtube.com/watch?v=sZKVL18YPzM)）。"
+        },
+        {
+          "team": "away",
+          "name_zh": "阿爾瓦羅·莫拉塔（Álvaro Morata）",
+          "record": "2025歐國聯決賽點球大戰第四位主罰，遭Diogo Costa撲出，是西班牙落敗的關鍵一擊（[Guardian](https://www.theguardian.com/football/2025/jun/08/portugal-sink-spain-in-penalty-shootout-to-win-nations-league-crown)）。"
+        },
+        {
+          "team": "away",
+          "name_zh": "米克爾·奧亞爾薩瓦爾（Mikel Oyarzabal）",
+          "record": "本屆世界盃至今4球，含對奧地利梅開二度；查無其大賽點球大戰主罰紀錄，惟為現任隊上熱門12碼主罰候選人（[Squawka](https://www.squawka.com/us/news/world-cup/match-preview-portugal-vs-spain-07-06-26-world-cup-2026-round-of-16/)）。"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "本場歷史交手極度接近（近5次交手5場中多場僅1-2球差距），且雙方近5年大賽點球紀錄呈鮮明對比：葡萄牙近5年3勝1負、心理素質穩健（Diogo Costa撲救能力佳），西班牙則近5年0勝4負，是世界盃史上點球大戰勝率最低的球隊之一（20%）。若比賽戰成平局並進入點球大戰，數據顯著有利葡萄牙；惟需注意去年歐國聯決賽點球結果不代表必然重演，且西班牙近期陣容士氣正處於上升軌跡。整體點球風險等級為「高」，因兩隊近況接近且西班牙隊史對點球存在明確心理弱點，一旦進入點球階段變數極大（[SI](https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record); [Guardian](https://www.theguardian.com/football/2025/jun/08/portugal-sink-spain-in-penalty-shootout-to-win-nations-league-crown); [GOAL](https://www.goal.com/en-za/betting/world-cup/portugal-vs-spain-predictions-06-07-2026/A:bltccc3b2f91ca61a01)）。"
+    }
+  },
+  "reasoning": {
+    "summary": "西班牙本屆四戰不失球、被視為賽事最完整球隊，博彩與模型皆讓其為 favourite，主預測西班牙 1:2 小勝晉級。惟這是一場史詩級強碰，近 5 次交手多僅 1-2 球差距，戰平進點球機率不低；一旦進點球，葡萄牙近 5 年 3 勝 1 負、西班牙 0 勝 4 負的鮮明對比將成最大變數。",
+    "key_factors": [
+      "球員狀態：C.羅納度對克羅埃西亞賽後帶傷（膝蓋流血）下場，狀態待觀察；Lamine Yamal狀態火熱，被視為西班牙進攻核心（[USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/cristiano-ronaldo-injury-update-knee-portugal-croatia-world-cup/90784690007/); [Ladbrokes](https://www.ladbrokes.com/en/news/portugal-spain-world-cup-round-of-16-preview-predictions-tips-2026-07-03/)）",
+      "傷停名單：西班牙缺Nico Williams（腹股溝）、Yeremy Pino（肩傷），惟非主力先發，影響有限；葡萄牙無官方停賽名單（[Evening Standard](https://www.standard.co.uk/sport/football/spain-xi-vs-portugal-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1288779.html)）",
+      "近期狀態：西班牙4戰不失球，葡萄牙防守失2球且小組賽兩次戰平（[Squawka](https://www.squawka.com/us/news/world-cup/match-preview-portugal-vs-spain-07-06-26-world-cup-2026-round-of-16/)）",
+      "戰術對位：Yamal對陣Nuno Mendes邊路一對一為關鍵勝負手，西班牙控球優勢明顯（[Evening Standard](https://www.standard.co.uk/sport/football/portugal-vs-spain-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1288754.html)）",
+      "主客場：中立場地AT&T Stadium（Dallas），無主場優勢（[Squawka](https://www.squawka.com/us/news/world-cup/match-preview-portugal-vs-spain-07-06-26-world-cup-2026-round-of-16/)）",
+      "輿論共識：博彩市場與多數媒體看好西班牙小勝或險勝，惟部分模型與名嘴認為勢均力敵甚至看好葡萄牙靠點球晉級（[betting.net](https://www.betting.net/news/world-cup/portugal-spain-07-06/); [offshoresportsbooks](https://www.offshoresportsbooks.com/picks/soccer/2026/portugal-vs-spain-world-cup-round-of-16-odds-and-picks-jul-6/)）"
+    ],
+    "consensus_lean": "away",
+    "dissent": "部分名嘴與模型（YouTube「2026 World Cup Round of 16 Predictions」影片）認為葡萄牙近期的團隊氣勢與凝聚力可能足以擊敗西班牙；亦有分析指西班牙近兩場對強度較低對手前的中場控制力（對Austria）不完全能反映對葡萄牙時的表現，且Dani Olmo與Pedri在對奧地利一役表現掙扎，可能促使西班牙調整先發。此外有博彩分析師（NYTimes/Athletic Mike Hume）看好比賽將進入延長甚至點球大戰，而非90分鐘內分出勝負（[NYTimes/Athletic](https://www.nytimes.com/athletic/7413054/2026/07/02/world-cup-odds-picks-spain-portugal/); [YouTube - R16 Predictions](https://www.youtube.com/watch?v=Oz0wPjFTqvo); [GOAL](https://www.goal.com/en-za/betting/world-cup/portugal-vs-spain-predictions-06-07-2026/A:bltccc3b2f91ca61a01)）。GOAL的統計模型甚至指出，市場對「和局」機率的定價（29.41%）低估了歷史上約10%的實際發生率，認為和局值得留意（[GOAL](https://www.goal.com/en-za/betting/world-cup/portugal-vs-spain-predictions-06-07-2026/A:bltccc3b2f91ca61a01)）。多家博彩網站（offshoresportsbooks、Ladbrokes）押注比賽可能進入延長賽甚至點球，葡萄牙有機會靠點球淘汰西班牙（+1200賠率）（[offshoresportsbooks](https://www.offshoresportsbooks.com/picks/soccer/2026/portugal-vs-spain-world-cup-round-of-16-odds-and-picks-jul-6/)）。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "squawka.com",
+      "url": "https://www.squawka.com/us/news/world-cup/match-preview-portugal-vs-spain-07-06-26-world-cup-2026-round-of-16/"
+    },
+    {
+      "type": "media",
+      "name": "sportsbook.fanduel.com",
+      "url": "https://sportsbook.fanduel.com/soccer/fifa-world-cup/portugal-v-spain-35784105"
+    },
+    {
+      "type": "media",
+      "name": "vegasinsider.com",
+      "url": "https://www.vegasinsider.com/soccer/portugal-spain-odds-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "bettingtop10.ca",
+      "url": "https://www.bettingtop10.ca/world-cup-2026-portugal-vs-spain-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "ladbrokes.com",
+      "url": "https://www.ladbrokes.com/en/news/portugal-spain-world-cup-round-of-16-preview-predictions-tips-2026-07-03/"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com",
+      "url": "https://www.nytimes.com/athletic/7413054/2026/07/02/world-cup-odds-picks-spain-portugal/"
+    },
+    {
+      "type": "media",
+      "name": "888sport.com",
+      "url": "https://www.888sport.com/football/international/world-cup-2026/portugal-vs-spain-e-7863616/"
+    },
+    {
+      "type": "media",
+      "name": "betting.net",
+      "url": "https://www.betting.net/news/world-cup/portugal-spain-07-06/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760506"
+    },
+    {
+      "type": "media",
+      "name": "odds1x2.com",
+      "url": "https://www.odds1x2.com/football/world-cup-2026/odds/portugal-vs-spain/"
+    },
+    {
+      "type": "media",
+      "name": "standard.co.uk",
+      "url": "https://www.standard.co.uk/sport/football/spain-xi-vs-portugal-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1288779.html"
+    },
+    {
+      "type": "media",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=scJrJaDT9ZA"
+    },
+    {
+      "type": "media",
+      "name": "vegasinsider.com",
+      "url": "https://www.vegasinsider.com/soccer/odds/world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-za/betting/world-cup/portugal-vs-spain-predictions-06-07-2026/A:bltccc3b2f91ca61a01"
+    },
+    {
+      "type": "media",
+      "name": "sportus.com",
+      "url": "https://www.sportus.com/soccer-tips/197294171/Betting-Tips-Predictions/World-Cup-2026/Portugal-vs-Spain/"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com",
+      "url": "https://www.nytimes.com/athletic/6865622/2026/03/03/2026-world-cup-odds-spain-england-france/"
+    },
+    {
+      "type": "media",
+      "name": "nypost.com",
+      "url": "https://nypost.com/2026/05/18/betting/2026-world-cup-odds-france-spain-co-favorites-to-lift-the-trophy/"
+    },
+    {
+      "type": "media",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=RN9PjQtVyJM"
+    },
+    {
+      "type": "media",
+      "name": "offshoresportsbooks.com",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/portugal-vs-spain-world-cup-round-of-16-odds-and-picks-jul-6/"
+    },
+    {
+      "type": "media",
+      "name": "standard.co.uk",
+      "url": "https://www.standard.co.uk/sport/football/portugal-vs-spain-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1288754.html"
+    },
+    {
+      "type": "media",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=niJGbGSbDig"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com",
+      "url": "https://sports.yahoo.com/soccer/betting/article/2026-world-cup-betting-odds-for-all-48-teams-to-win-the-title-145427136.html"
+    },
+    {
+      "type": "media",
+      "name": "polymarket.com",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-prt-esp-2026-07-06"
+    },
+    {
+      "type": "media",
+      "name": "livescore.com",
+      "url": "https://www.livescore.com/en/news/football/world-cup/predictions/world-cup-2026-round-of-16-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/spain-portugal-world-cup-prediction-analysis-odds/90790746007/"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds"
+    },
+    {
+      "type": "media",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=Oz0wPjFTqvo"
+    },
+    {
+      "type": "media",
+      "name": "oddschecker.com",
+      "url": "https://www.oddschecker.com/us/soccer/world-cup/portugal-v-spain"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com",
+      "url": "https://sports.yahoo.com/article/world-cup-2026-odds-spain-162200600.html"
+    },
+    {
+      "type": "media",
+      "name": "theguardian.com",
+      "url": "https://www.theguardian.com/football/2025/jun/08/portugal-sink-spain-in-penalty-shootout-to-win-nations-league-crown"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/2025_UEFA_Nations_League_final"
+    },
+    {
+      "type": "media",
+      "name": "aljazeera.com",
+      "url": "https://www.aljazeera.com/sports/liveblog/2025/6/8/live-portugal-vs-spain-uefa-nations-league-final"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/report/_/gameId/723738"
+    },
+    {
+      "type": "media",
+      "name": "transfermarkt.com",
+      "url": "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "media",
+      "name": "si.com",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "type": "media",
+      "name": "uefa.com",
+      "url": "https://www.uefa.com/uefaeuro/history/news/025f-0fe8a7a67576-7d8e686e8b30-1000--euro-penalty-shoot-out-records-by-national-team/"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/spain-vs-germany-euro-2024-spain-record-in-penalty-shootout-esp-v-ger-extra-time/article68372454.ece"
+    },
+    {
+      "type": "media",
+      "name": "rsssf.org",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "media",
+      "name": "sqaf.club",
+      "url": "https://sqaf.club/international-penalty-shootout-records/"
+    },
+    {
+      "type": "media",
+      "name": "reddit.com",
+      "url": "https://www.reddit.com/r/soccer/comments/1um08tu/portugal_will_face_spain_in_fifa_world_cup_round/"
+    },
+    {
+      "type": "media",
+      "name": "reddit.com",
+      "url": "https://www.reddit.com/r/LaLiga/comments/1um0z7l/spain_vs_portugal_in_the_round_of_16_how/"
+    },
+    {
+      "type": "media",
+      "name": "statmuse.com",
+      "url": "https://www.statmuse.com/fc/ask/cristiano-ronaldo-penalty-conversion-rate-throughout-his-career?l=eu5"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/cristiano-ronaldo-injury-update-knee-portugal-croatia-world-cup/90784690007/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/48257794/cristiano-ronaldo-not-portugal-squad-pre-world-cup-friendlies"
+    },
+    {
+      "type": "media",
+      "name": "plataformamedia.com",
+      "url": "https://www.plataformamedia.com/en/2026/03/25/ronaldo-portugal-muscle-injury-world-cup-2026/"
+    }
+  ],
+  "source_count": 46,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.28,
+        "away": 0.27
+      },
+      "scoreline": "2:1",
+      "note": "葡西強強對碰，主場稍佔優勢，葡萄牙有望險勝晉級。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "伊比利亞德比實力伯仲之間，常規時間極可能以平局收場。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "伊比利半島打吡勢均力敵，互攻下和局收場。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.27,
+        "away": 0.43
+      },
+      "scoreline": "1:2",
+      "note": "西班牙控球優勢較明顯，小勝葡萄牙晉級"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.35,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "伊比利半島德比實力伯仲之間，預計常規時間內難分勝負。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.47,
+        "draw": 0.29,
+        "away": 0.24
+      },
+      "scoreline": "2:1",
+      "note": "葡萄牙主場優勢，攻守均衡，預計2:1險勝西班牙。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.25,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "西班牙控球優勢明顯，葡萄牙防守恐難招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.347,
+      "draw": 0.303,
+      "away": 0.35
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-05T051158Z"
+}

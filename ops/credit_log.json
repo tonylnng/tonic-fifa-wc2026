@@ -51,6 +51,11 @@
       "at_hkt": "2026-06-29T20:55",
       "credit_used": 64103.55,
       "note": "record keeping"
+    },
+    {
+      "at_hkt": "2026-07-05 00:59",
+      "credit_used": 66171.45,
+      "note": "使用者手動提供讀數"
     }
   ]
 }

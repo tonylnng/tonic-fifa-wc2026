@@ -1,0 +1,551 @@
+{
+  "match": 94,
+  "stage": "Round of 16",
+  "home": "USA",
+  "away": "Belgium",
+  "kickoff_utc": "2026-07-07T00:00:00Z",
+  "kickoff_hkt": "2026-07-07 08:00",
+  "run_id": "2026-07-05T0500Z",
+  "run_timestamp": "2026-07-05T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.39,
+      "draw": 0.28,
+      "away": 0.33
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.09
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "FootyTips Elo+Poisson 給美國 37%（主場優勢抵消比利時較高 Elo），預測比分 1-0"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.46,
+        "basis": "BetMGM 一度近 Pick'em；最新盤口向比利時微修，最可能 1:1 或 2:1"
+      },
+      {
+        "name": "比利時球星建功",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.42,
+        "basis": "De Bruyne/Lukaku/Trossard 個人能力優，Squawka 模型看比利時 57%"
+      },
+      {
+        "name": "美國主場爆發",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "西雅圖 Lumen Field 主場+比利時剛打 130 分鐘鏖戰體能存疑"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.39,
+          "draw": 0.29,
+          "away": 0.36
+        },
+        "scoreline": "1:1",
+        "note": "BetMGM/DraftKings/FanDuel/CBS 綜合：雙方極接近，早段資金偏美國、後向比利時微修"
+      },
+      {
+        "source": "FootyTips 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.37,
+          "draw": 0.29,
+          "away": 0.34
+        },
+        "scoreline": "1:0",
+        "note": "Elo+Poisson；比利時 Elo 較高但美國主場優勢令其小幅領先"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.28,
+      "extra_time_prob": 0.28,
+      "shootout_prob": 0.18,
+      "advance_prob": {
+        "home": 0.5,
+        "away": 0.5
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 0,
+          "won": 0,
+          "win_rate": null,
+          "conversion_rate": null,
+          "recent": "美國隊史在世界盃正賽從未打過點球大戰，缺乏世界盃層級直接數據；惟門將 Freese 2025 美洲金盃點球大戰撲出 3 球。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "世界盃史上僅 1986 年 8 強對西班牙一次點球大戰（5-4 勝）；近 5 年大賽未再進入點球階段。",
+          "sources": [
+            "https://sportstar.thehindu.com/football/fifa-world-cup/belgium-penalty-shootout-record-stats-fifa-world-cup-2026-senegal-scored-missed/article71171986.ece",
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "門將Matt Freese近期大賽點球撲救表現亮眼：2025美洲金盃8強對哥斯大黎加的點球大戰中撲出3球，生涯7次參與的職業/國家隊點球大戰中6勝1負，累計面對41次主罰撲出13球，撲救率約32%，展現優異的大賽點球心理素質，惟其世界盃層級點球大戰經驗仍是空白（[Hudson River Blue](https://www.hudsonriverblue.com/matt-freese-usmnt-concacaf-gold-cup-reactions-to-costa-rica-quarterfinal-win/); [Harvard Crimson](https://www.thecrimson.com/article/2025/7/2/matt-freese-team-usa-quarterfinals-victory/)）。隊長與主罰順位尚待確認，惟因隊史從未打過世界盃點球大戰，缺乏同等級大賽壓力下的參考數據。",
+        "away": "門將Thibaut Courtois經驗豐富且生涯撲點紀錄不俗：職業生涯累計面對79次點球，撲出13次（約16.5%撲救率），近期案例包括2024-25歐冠對陣沙卡（Bukayo Saka）的撲救；惟亦有分析指出他在2025-26賽季6次未撲出對手主罰，狀態存在一定波動（[Sportstar](https://sportstar.thehindu.com/football/fifa-world-cup/thibaut-courtois-penalty-record-belgium-vs-senegal/article71171988.ece); [Transfermarkt](https://www.transfermarkt.us/thibaut-courtois/elfmeterstatistik/spieler/108390); [Yahoo](https://sports.yahoo.com/article/thibaut-courtois-penalty-record-does-105800992.html)）。隊長Tielemans剛在16強賽點球主罰命中制勝球，展現大心臟特質。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "克里斯蒂安·普利希奇（Christian Pulisic）",
+          "record": "查無其世界盃或大賽點球大戰主罰紀錄，惟為隊上經驗最豐富的攻擊核心，若進入點球階段可能是首選主罰者之一（推論，非直接數據佐證）。"
+        },
+        {
+          "team": "home",
+          "name_zh": "馬特·弗里斯（Matt Freese，門將）",
+          "record": "2025美洲金盃8強對哥斯大黎加點球大戰撲出3球，生涯6勝1負7次點球大戰經驗，是美國隊近期最突出的大賽點球武器（[Hudson River Blue](https://www.hudsonriverblue.com/matt-freese-usmnt-concacaf-gold-cup-reactions-to-costa-rica-quarterfinal-win/)）。"
+        },
+        {
+          "team": "away",
+          "name_zh": "凱文·德布勞內（Kevin De Bruyne）",
+          "record": "查無其於本屆或近5年大賽點球大戰主罰命中之直接統計；為隊上定位球與進攻組織核心，一般被視為潛在主罰者之一（推論）。"
+        },
+        {
+          "team": "away",
+          "name_zh": "尤里·蒂勒曼斯（Youri Tielemans）",
+          "record": "16強對塞內加爾加時補時（第125分鐘）踢入VAR判罰的關鍵12碼球，助比利時3-2逆轉晉級，展現大心臟特質（[Sky Sports](https://www.skysports.com/football/news/29908/13558804/world-cup-2026-belgium-3-2-senegal-aet-youri-tielemans-extra-time-penalty-winner-wins-last-32-clash); [ESPN](https://www.espn.com/soccer/report/_/gameId/760493)）。"
+        },
+        {
+          "team": "away",
+          "name_zh": "羅梅盧·盧卡庫（Romelu Lukaku）",
+          "record": "本屆賽事至今2球（含對塞內加爾86分鐘扳平球），為隊史最多入球紀錄保持人；查無其近期大賽點球大戰主罰明確紀錄。"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "雙方世界盃層級點球大戰經驗都極度有限：美國隊史從未打過世界盃點球大戰（唯一保持此紀錄的晉級淘汰賽球隊），比利時僅在1986年打過一次並取勝，近5年兩隊皆未在大賽（世界盃/歐洲盃）中經歷點球大戰考驗，缺乏近期直接比較數據。若進入點球階段，門將表現可能是決定性因素：Matt Freese近期大賽（美洲金盃）撲救表現出色（3/6撲救率），對比Courtois職業生涯撲救率約16.5%但同樣具備大賽經驗與沉穩性格。整體而言，由於樣本稀少且雙方近期戰績都未直接測試過點球心理素質，風險等級評為「中等」——比賽走向延長賽甚至點球大戰的機率本身也不算太高（多數博彩分析預期90分鐘或加時內分出勝負），但一旦真正進入點球，兩隊心理素質皆屬未知數，變數集中在門將表現而非隊史包袱（[Wikipedia](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs); [Sportstar](https://sportstar.thehindu.com/football/fifa-world-cup/belgium-penalty-shootout-record-stats-fifa-world-cup-2026-senegal-scored-missed/article71171986.ece); [Hudson River Blue](https://www.hudsonriverblue.com/matt-freese-usmnt-concacaf-gold-cup-reactions-to-costa-rica-quarterfinal-win/)）。"
+    }
+  },
+  "reasoning": {
+    "summary": "這是一場勢均力敵的對決，博彩與模型皆給美國極微幅主場優勢（39/29/36），主預測美國 2:1 主場晉級。美國痛失頭號射手兼隊長 Balogun（停賽）是隱憂，但享西雅圖主場之利，且比利時剛歷經 130 分鐘鏖戰體能存疑。比利時球星個人能力（De Bruyne、Lukaku）是最大爆冷本錢。",
+    "key_factors": [
+      "球員狀態：美國痛失頭號射手兼隊長Balogun（停賽），Ricardo Pepi頂替先發；比利時De Bruyne、Lukaku、Trossard、Doku等球星狀態受關注（[FOX Sports](https://www.foxsports.com/stories/soccer/usmnt-world-cup-pepi-belgium-red-card-balogun); [Squawka](https://www.squawka.com/ca/news/world-cup/match-preview-usa-vs-belgium-world-cup-2026-round-of-16/)）",
+      "傷停名單：Folarin Balogun因紅牌停賽一場，確定缺陣；比利時無重大官方傷停報導，惟剛打完130分鐘鏖戰需留意體能（[USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/03/balogun-red-card-suspension-one-game-world-cup/90783935007/)）",
+      "近期狀態：美國16強首勝波士尼亞士氣正旺；比利時驚險逆轉塞內加爾但過程不算穩健（[bitcoinbetworldcup2026.com](https://bitcoinbetworldcup2026.com/united-states-vs-belgium/)）",
+      "戰術對位：美國高位壓迫 vs 比利時控球出球，中場Adams/McKennie對De Bruyne/Tielemans的較量是關鍵（[TheHardTackle](https://thehardtackle.com/round-up/2026/03/28/usa-vs-belgium-preview-and-prediction/); [FootballDream](https://www.footballdream.in/preview/usa-vs-belgium-world-cup-2026)）",
+      "主客場：美國享地主優勢，Lumen Field（西雅圖）主場氣氛熱烈（[bitcoinbetworldcup2026.com](https://bitcoinbetworldcup2026.com/united-states-vs-belgium/)）",
+      "輿論共識：博彩市場與模型顯示雙方勢均力敵、接近拋硬幣機率，媒體專家投票略偏向比利時憑個人能力取勝，惟主場優勢與美國近況給美國支持者信心（[USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/usa-belgium-world-cup-prediction-analysis-odds/90778238007/); [FootyTips](https://footytips.io/world-cup-2026/usa-vs-belgium-prediction/)）"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Squawka自有模型與其撰稿人明確看好比利時（+170）爆冷取勝，理由是De Bruyne、Lukaku、Trossard等球星個人能力優於美國陣容，且美國痛失頭號射手Balogun（[Squawka](https://www.squawka.com/ca/news/world-cup/match-preview-usa-vs-belgium-world-cup-2026-round-of-16/)）。USA Today多位專家投票中，4/4位撰稿人一致看好比利時獲勝（Belgium 1-2/1-3/2-1不等），理由包括Lukaku持續穩定進球與美國陣容深度不足（[USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/usa-belgium-world-cup-prediction-analysis-odds/90778238007/)）。相對地，Ladbrokes、RotoWire、offshoresportsbooks等站看好美國憑藉主場優勢與體系韌性最終驚險晉級（含加時）（[Ladbrokes](https://www.ladbrokes.com/en/news/usa-vs-belgium-world-cup-round-of-16-preview-predictions-tips-2026-07-03/); [RotoWire](https://www.rotowire.com/soccer/article/usa-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121161); [offshoresportsbooks](https://www.offshoresportsbooks.com/picks/soccer/2026/usa-vs-belgium-world-cup-round-of-16-odds-and-picks-jul-6/)）。Reddit r/ussoccer討論串顯示球迷普遍「謹慎樂觀」，多數認為美國有真實機會但比利時仍稍佔上風，並提及今年3月熱身賽美國曾0-5慘敗比利時的歷史包袱（[Reddit](https://www.reddit.com/r/ussoccer/comments/1uh0dsh/do_you_think_the_usa_has_a_realistic_chance_of/)）。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "sports.yahoo.com",
+      "url": "https://sports.yahoo.com/soccer/betting/article/world-cup-2026-odds-usmnt-opens-as-small-favorite-vs-belgium-in-round-of-16-165955306.html"
+    },
+    {
+      "type": "media",
+      "name": "vegasinsider.com",
+      "url": "https://www.vegasinsider.com/soccer/usa-belgium-odds-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-how-far-will-team-usa-go"
+    },
+    {
+      "type": "media",
+      "name": "vsin.com",
+      "url": "https://vsin.com/soccer/usa-vs-belgium-prediction-2026-fifa-world-cup-picks/"
+    },
+    {
+      "type": "media",
+      "name": "nypost.com",
+      "url": "https://nypost.com/2026/07/02/betting/usa-vs-belgium-odds-revealed-with-folarin-balogun-to-miss-world-cup-clash/"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-odds-usmnt-generating-record-breaking-soccer-handle"
+    },
+    {
+      "type": "media",
+      "name": "ladbrokes.com",
+      "url": "https://www.ladbrokes.com/en/news/usa-vs-belgium-world-cup-round-of-16-preview-predictions-tips-2026-07-03/"
+    },
+    {
+      "type": "media",
+      "name": "oddssafari.com",
+      "url": "https://www.oddssafari.com/matches/soccer/world-cup/usa-vs-belgium/2267627"
+    },
+    {
+      "type": "media",
+      "name": "bettingtop10.ca",
+      "url": "https://www.bettingtop10.ca/world-cup-2026-usa-vs-belgium-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/usa-belgium-world-cup-prediction-analysis-odds/90778238007/"
+    },
+    {
+      "type": "media",
+      "name": "betus.com.pa",
+      "url": "https://www.betus.com.pa/sportsbook/fifa/world-cup/usa-vs-belgium/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760507"
+    },
+    {
+      "type": "media",
+      "name": "si.com",
+      "url": "https://www.si.com/betting/usa-vs-belgium-opening-odds-for-world-cup-round-of-16-usmnt-slight-favorite-to-advance-to-quarterfinals"
+    },
+    {
+      "type": "media",
+      "name": "footytips.io",
+      "url": "https://footytips.io/world-cup-2026/usa-vs-belgium-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "cbssports.com",
+      "url": "https://www.cbssports.com/soccer/news/usmnt-belgium-odds-prediction-2026-world-cup-round-of-16-picks/"
+    },
+    {
+      "type": "media",
+      "name": "bitcoinbetworldcup2026.com",
+      "url": "https://bitcoinbetworldcup2026.com/united-states-vs-belgium/"
+    },
+    {
+      "type": "media",
+      "name": "johnnybet.com",
+      "url": "https://www.johnnybet.com/usa-vs-belgium-prediction"
+    },
+    {
+      "type": "media",
+      "name": "rotowire.com",
+      "url": "https://www.rotowire.com/soccer/article/usa-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121161"
+    },
+    {
+      "type": "media",
+      "name": "offshoresportsbooks.com",
+      "url": "https://www.offshoresportsbooks.com/picks/soccer/2026/usa-vs-belgium-world-cup-round-of-16-odds-and-picks-jul-6/"
+    },
+    {
+      "type": "media",
+      "name": "squawka.com",
+      "url": "https://www.squawka.com/ca/news/world-cup/match-preview-usa-vs-belgium-world-cup-2026-round-of-16/"
+    },
+    {
+      "type": "media",
+      "name": "thehardtackle.com",
+      "url": "https://thehardtackle.com/round-up/2026/03/28/usa-vs-belgium-preview-and-prediction/"
+    },
+    {
+      "type": "media",
+      "name": "soccerpunter.com",
+      "url": "https://www.soccerpunter.com/competition/World/World-Cup/bet_match_4630357_Winner_Match_81_vs_Belgium_2026-07-07"
+    },
+    {
+      "type": "media",
+      "name": "racingpost.com",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/usa-vs-belgium-world-cup-bet-builder-tips-picks-and-odds-anBf97R55KxG/"
+    },
+    {
+      "type": "media",
+      "name": "footballdream.in",
+      "url": "https://www.footballdream.in/preview/usa-vs-belgium-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "888sport.com",
+      "url": "https://www.888sport.com/football/international/world-cup-2026/usa-vs-belgium-e-7859392/"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com",
+      "url": "https://sports.yahoo.com/soccer/betting/article/world-cup-round-of-16-picks-predictions-best-bets-for-every-match-including-brazil-norway-and-us-belgium-194041100.html"
+    },
+    {
+      "type": "media",
+      "name": "sportsbook.fanduel.com",
+      "url": "https://sportsbook.fanduel.com/soccer/fifa-world-cup/usa-v-belgium-35780854"
+    },
+    {
+      "type": "media",
+      "name": "wsn.com",
+      "url": "https://www.wsn.com/world-cup/usa-vs-belgium-quarterfinals-qualifying-predictions-2026/"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_round_of_32"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760493/third-place-group-aehij-belgium"
+    },
+    {
+      "type": "media",
+      "name": "espn.com.au",
+      "url": "https://www.espn.com.au/football/story/_/id/49238481/belgium-vs-senegal-live-world-cup-2026-updates-round-32-clash"
+    },
+    {
+      "type": "media",
+      "name": "ajc.com",
+      "url": "https://www.ajc.com/news/2026/07/belgium-converts-late-penalty-to-beat-senegal-3-2-in-extra-time-in-the-round-of-32-at-the-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760493"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com",
+      "url": "https://www.nytimes.com/athletic/live-blogs/belgium-vs-senegal-live-updates-world-cup-2026-score-result/6K0w00kZ5bcs/"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/belgium-penalty-shootout-record-stats-fifa-world-cup-2026-senegal-scored-missed/article71171986.ece"
+    },
+    {
+      "type": "media",
+      "name": "skysports.com",
+      "url": "https://www.skysports.com/football/news/29908/13558804/world-cup-2026-belgium-3-2-senegal-aet-youri-tielemans-extra-time-penalty-winner-wins-last-32-clash"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "media",
+      "name": "rsssf.org",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "media",
+      "name": "bbc.com",
+      "url": "https://www.bbc.com/sport/football/27990605"
+    },
+    {
+      "type": "media",
+      "name": "nbcsports.com",
+      "url": "https://www.nbcsports.com/soccer/news/usa-vs-belgium-world-cup-final-score-united-states-goals-recap"
+    },
+    {
+      "type": "media",
+      "name": "bleacherreport.com",
+      "url": "https://bleacherreport.com/articles/2116260-belgium-vs-usa-world-cup-round-of-16-score-grades-and-post-match-reaction"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "seattletimes.com",
+      "url": "https://www.seattletimes.com/sports/world-cup/2026-world-cup-team-usa-belgium-have-some-history-in-round-of-16/"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/thibaut-courtois-penalty-record-belgium-vs-senegal/article71171988.ece"
+    },
+    {
+      "type": "media",
+      "name": "transfermarkt.us",
+      "url": "https://www.transfermarkt.us/thibaut-courtois/elfmeterstatistik/spieler/108390"
+    },
+    {
+      "type": "media",
+      "name": "sports.yahoo.com",
+      "url": "https://sports.yahoo.com/article/thibaut-courtois-penalty-record-does-105800992.html"
+    },
+    {
+      "type": "media",
+      "name": "hudsonriverblue.com",
+      "url": "https://www.hudsonriverblue.com/matt-freese-usmnt-concacaf-gold-cup-reactions-to-costa-rica-quarterfinal-win/"
+    },
+    {
+      "type": "media",
+      "name": "thecrimson.com",
+      "url": "https://www.thecrimson.com/article/2025/7/2/matt-freese-team-usa-quarterfinals-victory/"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com",
+      "url": "https://www.nytimes.com/athletic/7415223/2026/07/01/folarin-balogun-red-card-appeal-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/03/balogun-red-card-suspension-one-game-world-cup/90783935007/"
+    },
+    {
+      "type": "media",
+      "name": "cbssports.com",
+      "url": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-fifa-one-game-world-cup-red-card-ban/"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Folarin_Balogun"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/stories/soccer/usmnt-world-cup-pepi-belgium-red-card-balogun"
+    },
+    {
+      "type": "media",
+      "name": "reddit.com",
+      "url": "https://www.reddit.com/r/ussoccer/comments/1uh0dsh/do_you_think_the_usa_has_a_realistic_chance_of/"
+    }
+  ],
+  "source_count": 54,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.2,
+        "away": 0.55
+      },
+      "scoreline": "1:2",
+      "note": "比利時整體經驗與陣容深度優於美國。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "美國具主場優勢且體能充沛，比利時陣容老化，看好主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "美國主場氣勢加持，年輕鋒線有望突破比利時防線取勝。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.25,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "比利時經驗與攻擊稍優，美國主場仍具威脅"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.25,
+        "away": 0.45
+      },
+      "scoreline": "1:2",
+      "note": "美國雖有主場優勢，但比利時大賽經驗與前場把握度仍略勝一籌。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.46,
+        "draw": 0.29,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "美國主場優勢明顯，預計2:1擊敗比利時。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "美國主場優勢明顯，實力稍勝一籌，預測小勝晉級。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.393,
+      "draw": 0.261,
+      "away": 0.346
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-05T051307Z"
+}

@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-04T05:10:50Z",
+  "last_updated": "2026-07-05T05:09:31Z",
   "scorers": [
+    {
+      "id": "FRA-mbappe",
+      "name_zh": "麥巴比",
+      "name_en": "Kylian Mbappé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 7,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "ARG-messi",
       "name_zh": "美斯",
@@ -10,18 +22,6 @@
       "position": "FW",
       "shirt_no": 10,
       "goals": 7,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "FRA-mbappe",
-      "name_zh": "麥巴比",
-      "name_en": "Kylian Mbappé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 6,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -46,18 +46,6 @@
       "position": "FW",
       "shirt_no": 9,
       "goals": 5,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "CAN-david",
-      "name_zh": "喬納森·大衛",
-      "name_en": "Jonathan David",
-      "team_zh": "加拿大",
-      "team": "Canada",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 4,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -107,6 +95,18 @@
       "shirt_no": 7,
       "goals": 4,
       "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "CAN-david",
+      "name_zh": "喬納森·大衛",
+      "name_en": "Jonathan David",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 4,
+      "yellow_cards": 1,
       "red_cards": 0
     },
     {
@@ -290,18 +290,6 @@
       "red_cards": 0
     },
     {
-      "id": "FRA-barcola",
-      "name_zh": "布拉德利·巴爾科拉",
-      "name_en": "Bradley Barcola",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 2,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "SUI-embolo",
       "name_zh": "恩博洛",
       "name_en": "Breel Embolo",
@@ -410,6 +398,18 @@
       "red_cards": 0
     },
     {
+      "id": "MAR-rahimi",
+      "name_zh": "拉希米",
+      "name_en": "Soufiane Rahimi",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "BEL-tielemans",
       "name_zh": "迪勒曼斯",
       "name_en": "Youri Tielemans",
@@ -422,11 +422,23 @@
       "red_cards": 0
     },
     {
-      "id": "NED-summerville",
-      "name_zh": "克里森西奧·薩默維爾",
-      "name_en": "Crysencio Summerville",
-      "team_zh": "荷蘭",
-      "team": "Netherlands",
+      "id": "MAR-ounahi",
+      "name_zh": "烏納希",
+      "name_en": "Azzedine Ounahi",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "MF",
+      "shirt_no": 8,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-barcola",
+      "name_zh": "布拉德利·巴爾科拉",
+      "name_en": "Bradley Barcola",
+      "team_zh": "法國",
+      "team": "France",
       "position": "FW",
       "shirt_no": null,
       "goals": 2,
@@ -434,13 +446,13 @@
       "red_cards": 0
     },
     {
-      "id": "CAN-larin",
-      "name_zh": "拉林",
-      "name_en": "Cyle Larin",
-      "team_zh": "加拿大",
-      "team": "Canada",
+      "id": "NED-summerville",
+      "name_zh": "克里森西奧·薩默維爾",
+      "name_en": "Crysencio Summerville",
+      "team_zh": "荷蘭",
+      "team": "Netherlands",
       "position": "FW",
-      "shirt_no": 9,
+      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
@@ -542,6 +554,18 @@
       "red_cards": 0
     },
     {
+      "id": "CAN-larin",
+      "name_zh": "拉林",
+      "name_en": "Cyle Larin",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 2,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "UZB-fayzullaev",
       "name_zh": "法伊祖拉耶夫",
       "name_en": "Abbosbek Fayzullaev",
@@ -549,18 +573,6 @@
       "team": "Uzbekistan",
       "position": "MF",
       "shirt_no": 22,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "MAR-hakimi",
-      "name_zh": "哈基米",
-      "name_en": "Achraf Hakimi",
-      "team_zh": "摩洛哥",
-      "team": "Morocco",
-      "position": "DF",
-      "shirt_no": 2,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1526,18 +1538,6 @@
       "red_cards": 0
     },
     {
-      "id": "MAR-rahimi",
-      "name_zh": "拉希米",
-      "name_en": "Soufiane Rahimi",
-      "team_zh": "摩洛哥",
-      "team": "Morocco",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "CAN-eustaquio",
       "name_zh": "尤斯塔基奧",
       "name_en": "Stephen Eustáquio",
@@ -1629,6 +1629,18 @@
       "team": "Saudi Arabia",
       "position": "DF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-hakimi",
+      "name_zh": "哈基米",
+      "name_en": "Achraf Hakimi",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "DF",
+      "shirt_no": 2,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2128,6 +2140,18 @@
       "red_cards": 0
     },
     {
+      "id": "CAN-larin",
+      "name_zh": "拉林",
+      "name_en": "Cyle Larin",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 2,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "BRA-danilo",
       "name_zh": "達尼洛",
       "name_en": "Danilo",
@@ -2255,6 +2279,18 @@
       "team": "Saudi Arabia",
       "position": "DF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-hakimi",
+      "name_zh": "哈基米",
+      "name_en": "Achraf Hakimi",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "DF",
+      "shirt_no": 2,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2404,6 +2440,18 @@
       "red_cards": 0
     },
     {
+      "id": "MAR-ounahi",
+      "name_zh": "烏納希",
+      "name_en": "Azzedine Ounahi",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "MF",
+      "shirt_no": 8,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "POR-silva",
       "name_zh": "伯納度·施華",
       "name_en": "Bernardo Silva",
@@ -2412,6 +2460,30 @@
       "position": "MF",
       "shirt_no": 10,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-khannouss",
+      "name_zh": "比拉爾·卡諾斯",
+      "name_en": "Bilal El Khannouss",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "TBD",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-barcola",
+      "name_zh": "布拉德利·巴爾科拉",
+      "name_en": "Bradley Barcola",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2507,18 +2579,6 @@
       "team": "Netherlands",
       "position": "FW",
       "shirt_no": null,
-      "goals": 2,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "CAN-larin",
-      "name_zh": "拉林",
-      "name_en": "Cyle Larin",
-      "team_zh": "加拿大",
-      "team": "Canada",
-      "position": "FW",
-      "shirt_no": 9,
       "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
@@ -3076,6 +3136,18 @@
       "red_cards": 0
     },
     {
+      "id": "CAN-david",
+      "name_zh": "喬納森·大衛",
+      "name_en": "Jonathan David",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 4,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "AUS-bos",
       "name_zh": "喬丹·博斯",
       "name_en": "Jordan Bos",
@@ -3376,6 +3448,18 @@
       "red_cards": 0
     },
     {
+      "id": "CAN-fougerolles",
+      "name_zh": "呂克·德·富熱羅勒",
+      "name_en": "Luc de Fougerolles",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "TBD",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-bergvall",
       "name_zh": "盧卡斯·伯格瓦爾",
       "name_en": "Lucas Bergvall",
@@ -3432,6 +3516,18 @@
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-kone",
+      "name_zh": "曼奴·科內",
+      "name_en": "Manu Koné",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "TBD",
+      "shirt_no": null,
+      "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3539,6 +3635,18 @@
       "team": "Iraq",
       "position": "DF",
       "shirt_no": 23,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-olise",
+      "name_zh": "米高·奧利斯",
+      "name_en": "Michael Olise",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "TBD",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -3730,6 +3838,30 @@
       "team_zh": "突尼西亞",
       "team": "Tunisia",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-halhal",
+      "name_zh": "雷杜安·哈爾哈爾",
+      "name_en": "Redouane Halhal",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "TBD",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "CAN-laryea",
+      "name_zh": "李奇·拉里亞",
+      "name_en": "Richie Laryea",
+      "team_zh": "加拿大",
+      "team": "Canada",
+      "position": "TBD",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -4037,9 +4169,9 @@
     }
   ],
   "totals": {
-    "players": 486,
-    "goals": 243,
-    "yellow_cards": 178,
+    "players": 492,
+    "goals": 247,
+    "yellow_cards": 189,
     "red_cards": 12
   }
 }

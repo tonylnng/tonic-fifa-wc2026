@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-04T05:20:23Z",
+  "last_updated": "2026-07-05T05:09:08Z",
   "postmortems": [
     {
       "match": 5,
@@ -2085,6 +2085,54 @@
       ],
       "vs_benchmarks": "本站2:0與MiniMax對照模型比分完全一致，其餘Qwen、DeepSeek、GPT-5.1、Gemini、Grok、GLM六家預測2:1或1:0，本站與MiniMax並列本場最精準比分預測，優於其餘六家。",
       "generated_at": "2026-07-04T05:20:23Z"
+    },
+    {
+      "match": 89,
+      "home": "Paraguay",
+      "away": "France",
+      "stage": "Round of 16",
+      "predicted": "0:3",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-07-04T0517Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "賽果命中、比分偏大：法國以 1:0 小勝而非預測的大勝",
+      "review": "本站與 7 家對照 AI 一致看好法國晉級，方向完全正確——法國確以 Mbappé 第 70 分鐘十二碼 1:0 淘汰巴拉圭。惟主預測 0:3 與共識 0:2 都高估了法國的進攻轉化：巴拉圭全場紀律嚴明（世界盃自 1998 年以來首次無球員吃牌），將比賽拖成低比分的僵局，法國僅靠一次 VAR 判罰的十二碼分出勝負。",
+      "lessons": [
+        "淘汰賽面對防守紀律極佳的南美球隊，即使實力落差大也應下修進球數預期",
+        "單一十二碼定江山的劇本在強弱懸殊的淘汰賽越來越常見，主預測比分宜更保守",
+        "方向判斷（晉級方）穩健，但比分校準仍偏樂觀"
+      ],
+      "vs_benchmarks": "7 家對照 AI 與本站一致看好法國晉級，方向全數命中；比分預測普遍偏向低比分小勝，與實際吻合方向但略有出入。",
+      "generated_at": "2026-07-05T05:09:08Z"
+    },
+    {
+      "match": 90,
+      "home": "Canada",
+      "away": "Morocco",
+      "stage": "Round of 16",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "verdict": "outcome",
+      "run_id": "2026-07-04T0517Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "賽果命中、低估摩洛哥火力：0:3 完勝而非預測的 1:2",
+      "review": "本站主預測 1:2、共識 1:2，正確押中摩洛哥晉級，方向命中。但摩洛哥的表現遠比預期強勢——Ounahi 梅開二度加 Rahimi 補時破門，3:0 完封東道主加拿大，我方低估了摩洛哥的攻擊端效率，也高估了加拿大在主場的得分能力（實際掛零）。全場 8 張黃牌反映比賽火爆，加拿大止步 16 強雖創隊史最佳。",
+      "lessons": [
+        "東道主主場光環在面對狀態火熱的非洲勁旅時可能失效，不應預設地主必進球",
+        "摩洛哥自 2022 四強後的淘汰賽穩定性再獲驗證，後續對其預測可上調信心",
+        "方向命中但比分兩端皆失準，需加強對攻防轉化效率的量化"
+      ],
+      "vs_benchmarks": "7 家對照 AI 與本站一致看好摩洛哥晉級，方向全數命中；比分預測普遍偏向客隊小勝，與實際吻合方向但略有出入。",
+      "generated_at": "2026-07-05T05:09:08Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-04T05:10:50Z",
+  "last_updated": "2026-07-05T05:09:31Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1834,19 +1834,21 @@
       "bio_zh": "加拿大歷史入球王，效力修咸頓，以強壯的身體和禁區內的把握能力著稱，擅長利用身體對抗和頭球得分，是加拿大鋒線的重要支點。",
       "stats": {
         "goals": 2,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
           3,
           27,
-          50
+          50,
+          90
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
-        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
-        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
       ]
     },
     {
@@ -1863,18 +1865,20 @@
       "bio_zh": "加拿大頭號射手，剛加盟祖雲達斯，在里爾效力期間屢創進球紀錄，射術精準、跑位靈活，是加拿大攻線最大威脅，也是歐洲最受追捧的前鋒之一。",
       "stats": {
         "goals": 4,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           27,
-          50
+          50,
+          90
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/news/12098/13554980/world-cup-2026-switzerland-2-1-canada-host-nation-forced-to-settle-for-second-in-group-b-as-swiss-overpower-jesse-marschs-men-to-claim-top-spot",
-        "https://www.theguardian.com/football/2026/jun/24/canada-switzerland-group-b-2026-world-cup-match-report",
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/24/canada-switzerland-live-updates-score-results-stats-highlights-2026-world-cup/90655239007/",
-        "https://lethbridgenewsnow.com/2026/06/24/the-latest-from-the-2026-fifa-world-cup-in-canada-18/"
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
       ]
     },
     {
@@ -2068,6 +2072,62 @@
         "https://www.espn.com/soccer/report/_/gameId/760416",
         "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_B"
+      ]
+    },
+    {
+      "id": "CAN-fougerolles",
+      "name_en": "Luc de Fougerolles",
+      "name_zh": "呂克·德·富熱羅勒",
+      "team": "Canada",
+      "team_zh": "加拿大",
+      "position": "TBD",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          90
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
+      ]
+    },
+    {
+      "id": "CAN-laryea",
+      "name_en": "Richie Laryea",
+      "name_zh": "李奇·拉里亞",
+      "team": "Canada",
+      "team_zh": "加拿大",
+      "position": "TBD",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          90
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
       ]
     },
     {
@@ -4307,18 +4367,22 @@
       "is_key": true,
       "bio_zh": "法國隊長，效力皇家馬德里的世界頂級前鋒，速度奇快，入球能力無與倫比，被譽為當今世界最佳球員。",
       "stats": {
-        "goals": 6,
+        "goals": 7,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           17,
           42,
-          77
+          77,
+          89
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-        "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/round-of-32/france-vs-sweden/liveticker"
+        "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
+        "https://www.espn.com/soccer/report/_/gameId/760503",
+        "https://www.espn.com/soccer/story/_/id/49271796/kylian-mbappe-penalty-leads-france-paraguay-world-cup",
+        "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis"
       ]
     },
     {
@@ -4335,16 +4399,20 @@
       "bio_zh": "",
       "stats": {
         "goals": 2,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           17,
-          77
+          77,
+          89
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
-        "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/round-of-32/france-vs-sweden/liveticker"
+        "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
+        "https://www.espn.com/soccer/report/_/gameId/760503",
+        "https://www.espn.com/soccer/story/_/id/49271796/kylian-mbappe-penalty-leads-france-paraguay-world-cup",
+        "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis"
       ]
     },
     {
@@ -4438,6 +4506,62 @@
         "matches_with_events": []
       },
       "sources": []
+    },
+    {
+      "id": "FRA-kone",
+      "name_en": "Manu Koné",
+      "name_zh": "曼奴·科內",
+      "team": "France",
+      "team_zh": "法國",
+      "position": "TBD",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          89
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
+        "https://www.espn.com/soccer/report/_/gameId/760503",
+        "https://www.espn.com/soccer/story/_/id/49271796/kylian-mbappe-penalty-leads-france-paraguay-world-cup",
+        "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis"
+      ]
+    },
+    {
+      "id": "FRA-olise",
+      "name_en": "Michael Olise",
+      "name_zh": "米高·奧利斯",
+      "team": "France",
+      "team_zh": "法國",
+      "position": "TBD",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          89
+        ]
+      },
+      "sources": [
+        "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
+        "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
+        "https://www.espn.com/soccer/report/_/gameId/760503",
+        "https://www.espn.com/soccer/story/_/id/49271796/kylian-mbappe-penalty-leads-france-paraguay-world-cup",
+        "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis"
+      ]
     },
     {
       "id": "GER-havertz",
@@ -6562,16 +6686,20 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          52
+          52,
+          90
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760464",
-        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
       ]
     },
     {
@@ -6607,12 +6735,20 @@
       "is_key": true,
       "bio_zh": "摩洛哥進攻中場，效力基羅納，以出色的技術和積極的插上跑動著稱，卡塔爾世界盃表現亮眼，是摩洛哥中場攻守轉換中最活躍的球員之一。",
       "stats": {
-        "goals": 0,
-        "yellow_cards": 0,
+        "goals": 2,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          90
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
+      ]
     },
     {
       "id": "MAR-yassine",
@@ -6680,15 +6816,19 @@
       "bio_zh": "摩洛哥隊長，效力巴黎聖日耳門，是世界最佳右後衛之一，以閃電速度、積極助攻和精準傳中著稱，是摩洛哥攻守兩端最重要的球員。",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          52
+          52,
+          90
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760464",
-        "https://www.skysports.com/football/morocco-vs-haiti/report/549818"
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
       ]
     },
     {
@@ -6732,6 +6872,34 @@
       "sources": []
     },
     {
+      "id": "MAR-khannouss",
+      "name_en": "Bilal El Khannouss",
+      "name_zh": "比拉爾·卡諾斯",
+      "team": "Morocco",
+      "team_zh": "摩洛哥",
+      "position": "TBD",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          90
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
+      ]
+    },
+    {
       "id": "MAR-diop",
       "name_en": "Issa Diop",
       "name_zh": "伊薩·迪奧普",
@@ -6755,6 +6923,34 @@
       "sources": [
         "https://www.espn.com/soccer/report/_/gameId/760488",
         "https://www.espn.com/soccer/story/_/id/49220087/netherlands-morocco-live-world-cup-2026-latest-updates-commentary-score-result"
+      ]
+    },
+    {
+      "id": "MAR-halhal",
+      "name_en": "Redouane Halhal",
+      "name_zh": "雷杜安·哈爾哈爾",
+      "team": "Morocco",
+      "team_zh": "摩洛哥",
+      "position": "TBD",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          90
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada",
+        "https://www.espn.com/soccer/report/_/gameId/760502",
+        "https://www.espn.com/soccer/team/fixtures/_/id/206/league/FIFA.WORLD",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-world-cup-score-lineups-watch-highlights/90799802007/",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/04/canada-morocco-six-yellow-cards-first-half/90800121007/"
       ]
     },
     {

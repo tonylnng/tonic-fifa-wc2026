@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-07-04T05:24:07Z",
+  "last_updated": "2026-07-05T05:13:14Z",
   "metrics": {
-    "total_evaluated": 77,
-    "outcome_correct": 50,
-    "outcome_accuracy": 0.6494,
+    "total_evaluated": 79,
+    "outcome_correct": 52,
+    "outcome_accuracy": 0.6582,
     "exact_score_correct": 8,
-    "exact_score_accuracy": 0.1039
+    "exact_score_accuracy": 0.1013
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -20,8 +20,8 @@
       "exact_correct": 4
     },
     "Round": {
-      "evaluated": 9,
-      "outcome_correct": 7,
+      "evaluated": 11,
+      "outcome_correct": 9,
       "exact_correct": 4
     }
   },
@@ -949,6 +949,30 @@
       "outcome_correct": true,
       "exact_correct": true,
       "run_id": "2026-06-28T0500Z"
+    },
+    {
+      "match": 89,
+      "home": "Paraguay",
+      "away": "France",
+      "predicted": "0:3",
+      "predicted_outcome": "away",
+      "final": "0:1",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-04T0517Z"
+    },
+    {
+      "match": 90,
+      "home": "Canada",
+      "away": "Morocco",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-04T0517Z"
     }
   ]
 }
