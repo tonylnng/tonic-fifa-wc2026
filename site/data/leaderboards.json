@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-05T05:09:31Z",
+  "last_updated": "2026-07-06T05:13:16Z",
   "scorers": [
+    {
+      "id": "NOR-haaland",
+      "name_zh": "夏蘭特",
+      "name_en": "Erling Haaland",
+      "team_zh": "挪威",
+      "team": "Norway",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 7,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "FRA-mbappe",
       "name_zh": "麥巴比",
@@ -26,18 +38,6 @@
       "red_cards": 0
     },
     {
-      "id": "NOR-haaland",
-      "name_zh": "夏蘭特",
-      "name_en": "Erling Haaland",
-      "team_zh": "挪威",
-      "team": "Norway",
-      "position": "FW",
-      "shirt_no": 9,
-      "goals": 5,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "ENG-kane",
       "name_zh": "卡尼",
       "name_en": "Harry Kane",
@@ -45,7 +45,19 @@
       "team": "England",
       "position": "FW",
       "shirt_no": 9,
-      "goals": 5,
+      "goals": 6,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "MEX-quinones",
+      "name_zh": "胡利安·基諾內斯",
+      "name_en": "Julián Quiñones",
+      "team_zh": "墨西哥",
+      "team": "Mexico",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 4,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -104,6 +116,18 @@
       "team_zh": "加拿大",
       "team": "Canada",
       "position": "FW",
+      "shirt_no": 10,
+      "goals": 4,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-bellingham",
+      "name_zh": "貝寧咸",
+      "name_en": "Jude Bellingham",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "MF",
       "shirt_no": 10,
       "goals": 4,
       "yellow_cards": 1,
@@ -182,18 +206,6 @@
       "red_cards": 0
     },
     {
-      "id": "MEX-quinones",
-      "name_zh": "胡利安·基諾內斯",
-      "name_en": "Julián Quiñones",
-      "team_zh": "墨西哥",
-      "team": "Mexico",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 3,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "GER-havertz",
       "name_zh": "卡伊·哈弗茨",
       "name_en": "Kai Havertz",
@@ -213,6 +225,18 @@
       "team": "Brazil",
       "position": "FW",
       "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "MEX-jimenez",
+      "name_zh": "希門尼斯",
+      "name_en": "Raúl Jiménez",
+      "team_zh": "墨西哥",
+      "team": "Mexico",
+      "position": "FW",
+      "shirt_no": 9,
       "goals": 3,
       "yellow_cards": 0,
       "red_cards": 0
@@ -362,18 +386,6 @@
       "red_cards": 0
     },
     {
-      "id": "MEX-jimenez",
-      "name_zh": "希門尼斯",
-      "name_en": "Raúl Jiménez",
-      "team_zh": "墨西哥",
-      "team": "Mexico",
-      "position": "FW",
-      "shirt_no": 9,
-      "goals": 2,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "ALG-mahrez",
       "name_zh": "馬赫雷斯",
       "name_en": "Riyad Mahrez",
@@ -489,18 +501,6 @@
       "team": "Senegal",
       "position": "MF",
       "shirt_no": 5,
-      "goals": 2,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "ENG-bellingham",
-      "name_zh": "貝寧咸",
-      "name_en": "Jude Bellingham",
-      "team_zh": "英格蘭",
-      "team": "England",
-      "position": "MF",
-      "shirt_no": 10,
       "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
@@ -1365,6 +1365,18 @@
       "team": "Australia",
       "position": "FW",
       "shirt_no": 17,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "BRA-neymar",
+      "name_zh": "尼馬",
+      "name_en": "Neymar",
+      "team_zh": "巴西",
+      "team": "Brazil",
+      "position": "FW",
+      "shirt_no": 10,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -3239,7 +3251,7 @@
       "team": "England",
       "position": "MF",
       "shirt_no": 10,
-      "goals": 2,
+      "goals": 4,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -4169,8 +4181,8 @@
     }
   ],
   "totals": {
-    "players": 492,
-    "goals": 247,
+    "players": 497,
+    "goals": 255,
     "yellow_cards": 189,
     "red_cards": 12
   }

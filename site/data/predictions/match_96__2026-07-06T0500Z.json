@@ -1,0 +1,519 @@
+{
+  "match": 96,
+  "stage": "Round of 16",
+  "home": "Switzerland",
+  "away": "Colombia",
+  "kickoff_utc": "2026-07-07T20:00:00Z",
+  "kickoff_hkt": "2026-07-08 04:00",
+  "run_id": "2026-07-06T0500Z",
+  "run_timestamp": "2026-07-06T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "scoreline": "0:1",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.3,
+      "draw": 0.28,
+      "away": 0.42
+    },
+    "confidence": 0.45,
+    "top_scorelines": [
+      {
+        "scoreline": "0:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "0:1",
+        "outcome": "away",
+        "confidence": 0.5,
+        "basis": "Opta 官方 16 強晉級機率給哥倫比亞 56.6% 對瑞士 43.4%；Forebet 演算法預測 0-1"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "DraftKings 90 分鐘哥倫比亞 +120 微幅看好，瑞士 +245，和局 +220，三方接近"
+      },
+      {
+        "name": "瑞士主場化防守韌性",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.4,
+        "basis": "瑞士剛以 2-0 擊敗阿爾及利亞（隊史 1938 年來首次世界盃淘汰賽獲勝），Sommer 坐鎮球門防守穩健"
+      },
+      {
+        "name": "哥倫比亞前鋒受創",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.38,
+        "basis": "儘管中鋒 Jhon Córdoba 因肌肉重傷確定缺席本屆賽事剩餘賽程，但 Luis Díaz 狀態火燙（對迦納一戰獲評最佳球員）足以彌補火力缺口"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta 超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.434,
+          "draw": null,
+          "away": 0.566
+        },
+        "scoreline": "0:1",
+        "note": "Opta 官方 16 強晉級機率（非 90 分鐘三向機率，含加時/點球）：瑞士 43.4% 對哥倫比亞 56.6%"
+      },
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.35,
+          "draw": 0.28,
+          "away": 0.37
+        },
+        "scoreline": "1:1",
+        "note": "DraftKings/FanDuel 90 分鐘盤口綜合：哥倫比亞、瑞士互有機構分歧，整體接近伯仲之間"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.39,
+          "draw": null,
+          "away": 0.61
+        },
+        "scoreline": "0:1",
+        "note": "Kalshi「晉級」合約：哥倫比亞晉級隱含約 61%，瑞士約 39%（含加時/點球）"
+      },
+      {
+        "source": "Airial Travel 模擬（100萬次）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.44,
+          "draw": null,
+          "away": 0.56
+        },
+        "scoreline": "1:1",
+        "note": "百萬次蒙地卡羅模擬給哥倫比亞 56% 晉級機率"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.3,
+      "extra_time_prob": 0.3,
+      "shootout_prob": 0.16,
+      "advance_prob": {
+        "home": 0.42,
+        "away": 0.58
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 4,
+          "won": 1,
+          "win_rate": 0.25,
+          "conversion_rate": null,
+          "recent": "瑞士近 5 年（含本屆前）大賽點球大戰紀錄不佳：2020 歐洲盃 16 強勝法國（5-4，Sommer 撲出 Mbappé 十二碼），但 2020 歐洲盃 8 強負西班牙（1-3）、2024 歐洲盃 8 強負英格蘭（3-5）；世界盃層級僅 2006 年 16 強負烏克蘭一次（0-3，三罰全丟，史上僅兩隊在世界盃點球大戰三罰全部落空之一）。RSSSF 綜合統計世界盃+歐洲賽事共 4 戰僅 1 勝，勝率約 20-25%，為四隊中最差。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://en.as.com/soccer/how-many-penalties-has-yann-sommer-saved-success-percentage-of-the-swiss-goalkeeper-n/",
+            "https://sportstar.thehindu.com/football/england-vs-switzerland-euro-2024-quarterfinal-record-of-goalkeeper-yann-sommer-saves-penalty-shootout/article68376094.ece",
+            "https://www.uefa.com/uefaeuro/history/news/0259-0e74d6e5f08a-91b1b93ffe14-1000--euro-penalty-shoot-outs-what-was-the-longest-who-saved-the-/"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 0,
+          "win_rate": 0.0,
+          "conversion_rate": null,
+          "recent": "哥倫比亞世界盃層級僅 1 次點球大戰經驗，2018 年 16 強負英格蘭（1-1，互射 3-4）；美洲盃層級樣本較多（合計 10 戰 5 勝 5 負，50% 勝率），近期紀錄包括 2021 美洲盃準決賽負阿根廷（3-4）、2021 美洲盃 8 強勝烏拉圭（4-2）、2024 美洲盃 8 強負智利（4-5，PK 大戰前）。世界盃單一樣本不足以推論本屆表現，保守看待。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://sportstar.thehindu.com/football/colombia-penalty-shootour-record-copa-america-2024-final-arg-v-can/article68405462.ece",
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts",
+            "https://en.wikipedia.org/wiki/List_of_Copa_Am%C3%A9rica_penalty_shoot-outs"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "門將 Yann Sommer 是歐洲盃點球大戰經驗最豐富的門將（4 次），惟戰績並不理想（1 勝 3 負，共撲出 2 球、失 17 球），生涯累計面對 95 次點球僅撲出 16 次（約 16.8% 撲救率），數據顯示其撲點能力中等偏弱（[AS](https://en.as.com/soccer/how-many-penalties-has-yann-sommer-saved-success-percentage-of-the-swiss-goalkeeper-n/)）。隊史世界盃層級點球大戰唯一一次（2006）三罰全部落空，是極負面的心理包袱，惟隊長 Granit Xhaka 與後衛 Fabian Schär（歐洲盃點球史上第二多命中紀錄，僅次於 C 羅）具備一定大賽抗壓經驗（[UEFA](https://www.uefa.com/uefaeuro/history/news/0259-0e74d6e5f08a-91b1b93ffe14-1000--euro-penalty-shoot-outs-what-was-the-longest-who-saved-the-/)）。",
+        "away": "哥倫比亞世界盃層級點球心理素質未經充分測試（僅 2018 年一次落敗經驗），惟美洲盃層級歷練豐富（10 戰 5 勝 5 負），隊長兼核心 James Rodríguez 大賽經驗老到；門將 Camilo Vargas（37 歲）雖為本屆首發並持續交出穩健演出（3 場僅失 1 球、2 場零封），但缺乏公開可查證的點球撲救專屬數據，須保守看待其在點球大戰的表現預期。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "法比安·沙爾（Fabian Schär）",
+          "record": "歐洲盃點球大戰史上主罰命中次數第二多（3 次），僅次於 C 羅（4 次），大賽罰球心理素質佳"
+        },
+        {
+          "team": "home",
+          "name_zh": "揚·索梅爾（Yann Sommer，門將）",
+          "record": "生涯面對 95 次點球撲出 16 次（約 16.8%）；歐洲盃點球大戰 4 次交手 1 勝 3 負，2020 年曾撲出姆巴佩十二碼"
+        },
+        {
+          "team": "away",
+          "name_zh": "詹姆斯·羅德里格斯（James Rodríguez，隊長）",
+          "record": "查無其於本屆或近 5 年大賽點球大戰主罰之直接統計；為隊長與定位球核心，一般被視為潛在主罰者之一（推論，非直接數據佐證）"
+        },
+        {
+          "team": "away",
+          "name_zh": "路易斯·迪亞斯（Luis Díaz）",
+          "record": "對迦納一戰獲評最佳球員，本屆狀態火燙；查無其點球大戰主罰明確紀錄"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "本場雙方 90 分鐘勝率極為接近（哥倫比亞略優），90 分鐘戰平與進入延長賽/點球的機率明顯偏高（Opta 與多份模型評估晉級機率僅相差 13-22 個百分點）。點球歷史上兩隊表現都不突出：瑞士近 5 年大賽點球大戰 4 戰僅 1 勝（含世界盃唯一一次三罰全丟的負面紀錄），哥倫比亞世界盃層級亦僅 1 次且落敗，雙方皆缺乏近期大賽點球「壓哨」的正面案例，門將撲點能力也僅中等（Sommer）或資料不足（Vargas）。綜合而言，此役進入點球階段的可能性偏高，且雙方點球心理素質與命中紀錄都未達優勢水準，風險等級評為「高」，一旦進入點球階段結果高度不確定（[UEFA](https://www.uefa.com/uefaeuro/history/news/0259-0e74d6e5f08a-91b1b93ffe14-1000--euro-penalty-shoot-outs-what-was-the-longest-who-saved-the-/); [AS](https://en.as.com/soccer/how-many-penalties-has-yann-sommer-saved-success-percentage-of-the-swiss-goalkeeper-n/); [FourFourTwo](https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts)）。"
+    }
+  },
+  "reasoning": {
+    "summary": "瑞士與哥倫比亞實力伯仲之間，Opta 官方晉級機率給哥倫比亞些微優勢（56.6% 對 43.4%），博彩盤口則接近三方拉鋸，主預測哥倫比亞 90 分鐘小勝 0:1 驚險晉級。哥倫比亞痛失中鋒 Jhon Córdoba（重傷缺席剩餘賽程）是隱憂，但 Luis Díaz 狀態出色足以彌補；瑞士則享有穩健防守與 Sommer 坐鎮，本場戰平與進入延長賽/點球的機率同樣不低，是本輪最難預測的比賽之一。",
+    "key_factors": [
+      "球員狀態：哥倫比亞头号中鋒 Jhon Córdoba 因嚴重肌肉/內收肌撕裂傷，於 2026-07-05 確認缺席本屆賽事剩餘賽程且無法依規定替補（僅賽前可換人）；Luis Díaz 對迦納一戰獲評最佳球員，狀態火燙；James Rodríguez 雖賽前屢遭質疑體能狀況，但實戰中持續交出高水準演出（[Marca](https://www.marca.com/en/world-cup/2026/07/05/terrible-news-for-the-colombia-national-team-jhon-cordoba-will-miss-the-2026-world-cup-due-to-a-serious-injury.html)）",
+      "傷停名單：瑞士方面 Zeki Amdouni 已從十字韌帶傷勢復出參賽，Filip Ugrinic 則於賽前退出大名單未能入選；哥倫比亞除 Córdoba 重傷外未見其他重大停賽消息",
+      "近期戰績：瑞士以 2-0 擊敗阿爾及利亞，寫下隊史自 1938 年以來首次世界盃淘汰賽獲勝的紀錄；哥倫比亞以 1-0 小勝迦納晉級（Luis Díaz 曾有一球遭判越位吹掉）",
+      "戰術對位：瑞士偏向紀律嚴明的防守反擊與定位球（Xhaka、Schär 均為戰術核心），哥倫比亞則倚重 Díaz、Rodríguez 的個人創造力與邊路突破，雙方風格形成鮮明對比",
+      "歷史交手：兩隊過去共交手 4 次，哥倫比亞取得 2 勝 1 和 1 負的較佳戰績；唯一一次世界盃交手為 1994 年小組賽，哥倫比亞 2-0 取勝；最近一次交手為 2007 年友誼賽，哥倫比亞 3-1 獲勝",
+      "主客場/場地：本場並非傳統主客場優勢對決（中立場地），瑞士自 1954 年以來未曾闖入世界盃 8 強、且過去三屆賽事均止步於此輪，須留意其歷史包袱",
+      "輿論共識：Opta、Kalshi 預測市場與百萬次蒙地卡羅模擬均一致給哥倫比亞些微優勢；惟博彩公司盤口與部分戰術分析頻道則認為瑞士防守韌性可能使比賽走向加時甚至點球，雙方勢均力敵、無明顯一面倒共識（[Opta](https://theanalyst.com); [Airial Travel](https://airial.travel)）"
+    ],
+    "consensus_lean": "away",
+    "dissent": "多家博彩商（如 FanDuel）與部分戰術分析頻道認為瑞士的防守紀律與定位球威脅被低估，倘若能守住 90 分鐘僵局，憑藉 Sommer 的大賽經驗與 Schär 的點球主罰能力，瑞士在加時或點球階段的晉級機率可能被市場低估；LastWordOnSports 等媒體則堅定看好哥倫比亞於加時階段憑個人能力取勝，反映分析界對此戰走向仍存分歧（[LastWordOnSports](https://www.lastwordonsports.com); [Sportskeeda](https://www.sportskeeda.com)）。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "marca.com",
+      "url": "https://www.marca.com/en/world-cup/2026/07/05/terrible-news-for-the-colombia-national-team-jhon-cordoba-will-miss-the-2026-world-cup-due-to-a-serious-injury.html"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com",
+      "url": "https://www.nytimes.com/athletic/how-are-colombia-still-getting-the-best-from-veteran-star-james-rodriguez/"
+    },
+    {
+      "type": "media",
+      "name": "matchbingo.co.uk",
+      "url": "https://www.matchbingo.co.uk/world-cup-2026/colombia/camilo-vargas"
+    },
+    {
+      "type": "media",
+      "name": "ahram.org.eg",
+      "url": "https://english.ahram.org.eg/WorldCup2026/PlayerWC2026/2026/8014.aspx"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-ca/team/colombia/squad/7km4szeh6fs5bbdgypshh0snd"
+    },
+    {
+      "type": "media",
+      "name": "thepeninsulaqatar.com",
+      "url": "https://thepeninsulaqatar.com/article/26/05/2026/colombia-names-rodriguez-diaz-in-world-cup-squad"
+    },
+    {
+      "type": "media",
+      "name": "espn.co.uk",
+      "url": "https://www.espn.co.uk/football/team/squad/_/id/208/league/FIFA.WORLD/season/2026"
+    },
+    {
+      "type": "model",
+      "name": "theanalyst.com",
+      "url": "https://theanalyst.com/players/10640/camilo-vargas/national"
+    },
+    {
+      "type": "media",
+      "name": "thestatszone.com",
+      "url": "https://www.thestatszone.com/fwc26/players/camilo-vargas"
+    },
+    {
+      "type": "media",
+      "name": "airial.travel",
+      "url": "https://airial.travel/world-cup-2026/players/camilo-vargas-2482"
+    },
+    {
+      "type": "media",
+      "name": "rotowire.com",
+      "url": "https://www.rotowire.com/soccer/player/camilo-vargas-4448"
+    },
+    {
+      "type": "media",
+      "name": "toffeeweb.com",
+      "url": "https://www.toffeeweb.com/world-cup/colombia/camilo-vargas/"
+    },
+    {
+      "type": "media",
+      "name": "wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Template:Colombia_squad_2026_FIFA_World_Cup"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "model",
+      "name": "rsssf.org",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "media",
+      "name": "en.as.com",
+      "url": "https://en.as.com/soccer/how-many-penalties-has-yann-sommer-saved-success-percentage-of-the-swiss-goalkeeper-n/"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/england-vs-switzerland-euro-2024-quarterfinal-record-of-goalkeeper-yann-sommer-saves-penalty-shootout/article68376094.ece"
+    },
+    {
+      "type": "official",
+      "name": "uefa.com",
+      "url": "https://www.uefa.com/uefaeuro/history/news/0259-0e74d6e5f08a-91b1b93ffe14-1000--euro-penalty-shoot-outs-what-was-the-longest-who-saved-the-/"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/colombia-penalty-shootour-record-copa-america-2024-final-arg-v-can/article68405462.ece"
+    },
+    {
+      "type": "media",
+      "name": "fourfourtwo.com",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_Copa_Am%C3%A9rica_penalty_shoot-outs"
+    },
+    {
+      "type": "media",
+      "name": "gazzetta.it",
+      "url": "https://www.gazzetta.it/en/football/world-cup/storie/27-05-2026/world-cup-2026-48-national-squads-announced/switzerland.shtml"
+    },
+    {
+      "type": "media",
+      "name": "straitstimes.com",
+      "url": "https://www.straitstimes.com/multimedia/graphics/2025/12/worldcup-2026-fixtures/teams/colombia/"
+    },
+    {
+      "type": "media",
+      "name": "bracketmundial2026.com",
+      "url": "https://bracketmundial2026.com/en/blog/colombia-squad-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-qa/lists/colombia-squad-world-cup-2026/bltf252af4fae7c7b3e"
+    },
+    {
+      "type": "media",
+      "name": "worldsoccertalk.com",
+      "url": "https://worldsoccertalk.com/world-cup/james-rodriguez-and-luis-diaz-headline-colombias-55-men-preliminary-squad-for-the-2026-world-cup/"
+    },
+    {
+      "type": "media",
+      "name": "bbc.com",
+      "url": "https://www.bbc.com/sport/football/articles/cq6p3v43pdlo"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-us/lists/switzerland-squad-world-cup-2026/bltf2af984bafb74a30"
+    },
+    {
+      "type": "youtube",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=vUu4mq4Pqls"
+    },
+    {
+      "type": "model",
+      "name": "theanalyst.com",
+      "url": "https://theanalyst.com/articles/world-cup-2026-round-of-16-supercomputer-predictions"
+    },
+    {
+      "type": "market",
+      "name": "kalshi.com",
+      "url": "https://kalshi.com/markets/kxfifaworldcup"
+    },
+    {
+      "type": "market",
+      "name": "polymarket.com",
+      "url": "https://polymarket.com/event/world-cup-2026-round-of-16"
+    },
+    {
+      "type": "media",
+      "name": "airial.travel",
+      "url": "https://airial.travel/world-cup-2026/matches/switzerland-vs-colombia"
+    },
+    {
+      "type": "media",
+      "name": "lastwordonsports.com",
+      "url": "https://lastwordonsports.com/soccer/2026/07/switzerland-vs-colombia-world-cup-round-of-16-preview/"
+    },
+    {
+      "type": "media",
+      "name": "sportskeeda.com",
+      "url": "https://www.sportskeeda.com"
+    },
+    {
+      "type": "media",
+      "name": "footballpredictions.com",
+      "url": "https://www.footballpredictions.com"
+    },
+    {
+      "type": "betting",
+      "name": "draftkings.com",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "fanduel.com",
+      "url": "https://sportsbook.fanduel.com/soccer/fifa-world-cup"
+    },
+    {
+      "type": "media",
+      "name": "forebet.com",
+      "url": "https://www.forebet.com/en/football-predictions/switzerland-colombia"
+    },
+    {
+      "type": "media",
+      "name": "wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Switzerland_national_football_team"
+    },
+    {
+      "type": "media",
+      "name": "wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Colombia_national_football_team"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com",
+      "url": "https://www.reddit.com/r/soccer/comments/switzerland_vs_colombia_world_cup_2026/"
+    },
+    {
+      "type": "media",
+      "name": "cbssports.com",
+      "url": "https://www.cbssports.com/soccer/news/switzerland-colombia-world-cup-2026-round-of-16-picks/"
+    }
+  ],
+  "source_count": 43,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.28,
+        "away": 0.24
+      },
+      "scoreline": "1:0",
+      "note": "瑞士防守穩健，主場有望小勝哥倫比亞。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "瑞士防線穩健，哥倫比亞鋒線具威脅，預計主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.33,
+        "draw": 0.34,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近，防守穩健，預料常規時間難分勝負。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.36,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "瑞士控球穩健，哥倫比亞反擊犀利，難分高下"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.32,
+        "draw": 0.35,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "兩隊實力接近且防守穩健，常規時間極可能以平局收場。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.29,
+        "draw": 0.33,
+        "away": 0.38
+      },
+      "scoreline": "1:2",
+      "note": "瑞士防守穩健，哥倫比亞攻擊犀利，客隊險勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "瑞士主場穩健，哥倫比亞進攻受限，主隊險勝。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.362,
+      "draw": 0.313,
+      "away": 0.324
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-06T051513Z"
+}

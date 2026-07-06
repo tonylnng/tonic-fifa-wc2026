@@ -1,0 +1,518 @@
+{
+  "match": 95,
+  "stage": "Round of 16",
+  "home": "Argentina",
+  "away": "Egypt",
+  "kickoff_utc": "2026-07-07T16:00:00Z",
+  "kickoff_hkt": "2026-07-08 00:00",
+  "run_id": "2026-07-06T0500Z",
+  "run_timestamp": "2026-07-06T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.72,
+      "draw": 0.18,
+      "away": 0.1
+    },
+    "confidence": 0.78,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.78,
+        "basis": "Opta 超級電腦與 The Analyst 模擬（25,000 次）皆給阿根廷約 70-80% 勝率，埃及僅 10-20%"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.75,
+        "basis": "DraftKings 90 分鐘阿根廷 -270（隱含約 73%），晉級盤 -750（隱含約 88%）"
+      },
+      {
+        "name": "梅西發威",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "梅西本屆已連續 8 場世界盃有進球、累計 7 球，狀態火燙，多名美媒專家一致預測阿根廷 3 球以上大勝"
+      },
+      {
+        "name": "埃及爆冷情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "薩拉赫帶傷仍完成 120 分鐘並主罰命中點球，若體能恢復加上防守夠韌，埃及史上首次踢進 16 強可能延長戰局"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "博彩隱含機率",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.73,
+          "draw": 0.17,
+          "away": 0.1
+        },
+        "scoreline": "2:0",
+        "note": "DraftKings 90 分鐘盤口（阿根廷 -270／和 +370／埃及 +800）換算隱含機率"
+      },
+      {
+        "source": "Opta/The Analyst 模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.704,
+          "draw": 0.179,
+          "away": 0.117
+        },
+        "scoreline": "2:0",
+        "note": "The Analyst 以 25,000 次模擬計算 90 分鐘結果分布"
+      },
+      {
+        "source": "Kalshi 預測市場",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.86,
+          "draw": null,
+          "away": 0.15
+        },
+        "scoreline": "2:0",
+        "note": "Kalshi「晉級」合約：阿根廷晉級隱含約 86%，埃及約 15%（含加時/點球，非 90 分鐘三向機率）"
+      },
+      {
+        "source": "YouTube 戰術分析",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.63,
+          "draw": 0.24,
+          "away": 0.13
+        },
+        "scoreline": "2:1",
+        "note": "獨立戰術頻道以 xG（阿根廷 1.78 對埃及 0.72）推算之三向機率"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.18,
+      "extra_time_prob": 0.18,
+      "shootout_prob": 0.08,
+      "advance_prob": {
+        "home": 0.9,
+        "away": 0.1
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 7,
+          "won": 6,
+          "win_rate": 0.86,
+          "conversion_rate": 0.78,
+          "recent": "阿根廷近 5 年大賽點球全勝：2021 美洲盃準決賽勝哥倫比亞（3-2）、2022 世界盃 8 強勝荷蘭（4-3）、2022 世界盃決賽勝法國（4-2）、2024 美洲盃 8 強勝厄瓜多（4-2）；門將 Emiliano Martinez 生涯於點球大戰中面對 24 球撲出約 10 球，從未在其把關下輸過點球大戰。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html",
+            "https://sportstar.thehindu.com/football/fifa-world-cup/emi-martinez-penalty-record-saves-argentina-vs-cape-verde-fifa-world-cup-2026/article71181569.ece",
+            "https://www.reuters.com/sports/soccer/more-than-showman-argentinas-martinez-builds-50-penalty-success-rate-2024-07-05/",
+            "https://www.transfermarkt.us/argentinien/elfmeterschiessen/verein/3437"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "埃及於 2026-07-03 首次踢進世界盃就贏得隊史第一場世界盃點球大戰，4-2 淘汰澳洲（120 分鐘 1-1），薩拉赫更主罰一記挑射命中；此前埃及僅有非洲國家盃層級點球大賽經驗（10 場 6 勝 4 負，約 60% 勝率），世界盃層級樣本僅 1 場，須保守看待。",
+          "sources": [
+            "https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-egypt-record-in-penalty-shootout-round-of-32-australia-vs-egy-latest/article71180385.ece",
+            "https://www.transfermarkt.com/agypten/elfmeterschiessen/verein/3672",
+            "https://www.espn.co.uk/football/story/_/id/49261423/world-cup-history-mohamed-salah-egypt-penalty-shootout-australia",
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "門將 Emiliano Martinez 是近年大賽點球「殺手鐧」，生涯於點球大戰中面對 24 球撲出約 10 球（約 42% 撲救率），率隊連續 4 次於美洲盃/世界盃大賽點球大戰全勝，心理素質與撲點技巧兼具威懾力（[The Hindu](https://sportstar.thehindu.com/football/fifa-world-cup/emi-martinez-penalty-record-saves-argentina-vs-cape-verde-fifa-world-cup-2026/article71181569.ece); [Reuters](https://www.reuters.com/sports/soccer/more-than-showman-argentinas-martinez-builds-50-penalty-success-rate-2024-07-05/)）。隊長梅西擁有 3 次世界盃點球大戰主罰經驗（2014、2022 兩次）全部命中，大賽抗壓能力毋庸置疑（[Wikipedia](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs)）。惟阿根廷上一場 16 強前戰（對維德角）打滿加時且多名主力抽筋/受傷，若再進點球需留意體能消耗對心理專注度的影響。",
+        "away": "埃及剛在上一輪（對澳洲）首次踢進世界盃點球大戰即獲勝，士氣與信心正處於歷史高點，薩拉赫帶傷仍主罰命中挑射，展現大心臟特質（[ESPN](https://www.espn.co.uk/football/story/_/id/49261423/world-cup-history-mohamed-salah-egypt-penalty-shootout-australia)）。惟隊史世界盃層級點球經驗僅此一次，樣本極少，且薩拉赫本身帶有大腿傷勢隱憂，若再戰 120 分鐘後進入點球，其身體與心理韌性能否維持巔峰值得觀察；門將暫無充分公開資料佐證其撲點能力，保守評估。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "利昂內爾·梅西（Lionel Messi）",
+          "record": "世界盃點球大戰 3 罰全中（2014、2022 兩次），為隊上經驗最豐富的主罰者之一"
+        },
+        {
+          "team": "home",
+          "name_zh": "埃米利亞諾·馬丁尼茲（Emiliano Martínez，門將）",
+          "record": "生涯點球大戰面對 24 球撲出約 10 球，率阿根廷近 4 次大賽點球大戰全勝，未曾在其把關下輸掉點球大戰"
+        },
+        {
+          "team": "away",
+          "name_zh": "穆罕默德·薩拉赫（Mohamed Salah）",
+          "record": "剛於 2026-07-03 對澳洲的世界盃首場點球大戰中主罰命中一記挑射，帶傷仍展現冷靜"
+        },
+        {
+          "team": "away",
+          "name_zh": "穆罕納德·拉希恩（Mohanad Lasheen）",
+          "record": "查無其點球大戰主罰之直接統計；因黃牌停賽剛結束（對澳洲一戰缺陣），對阿根廷一戰預期回歸先發（推論，非直接數據佐證）"
+        }
+      ],
+      "penalty_risk": "low",
+      "risk_note": "阿根廷實力與近期點球大賽紀錄皆明顯優於埃及：博彩與模型一致給阿根廷 70-80% 的 90 分鐘勝率，90 分鐘戰平機率估計僅約 18%，進點球機率更低（約 8%）。即便真的踢進點球，阿根廷近 5 年大賽點球大戰 4 戰全勝、門將馬丁尼茲撲救率佳，相對埃及僅有 1 次世界盃層級點球經驗（雖獲勝但樣本極小），整體點球風險對阿根廷而言偏低；對埃及來說即便進點球也未必穩贏，故綜合風險等級評為「低」（[The Analyst](https://theanalyst.com); [The Hindu](https://sportstar.thehindu.com/football/fifa-world-cup/emi-martinez-penalty-record-saves-argentina-vs-cape-verde-fifa-world-cup-2026/article71181569.ece); [ESPN](https://www.espn.co.uk/football/story/_/id/49261423/world-cup-history-mohamed-salah-egypt-penalty-shootout-australia)）。"
+    }
+  },
+  "reasoning": {
+    "summary": "阿根廷在整體實力、近期點球大賽紀錄與球星狀態（梅西連續 8 場世界盃進球）上均全面壓制首次踢進世界盃 16 強的埃及，博彩盤口與 Opta 模型一致給阿根廷約 70-80% 勝率，主預測阿根廷 2:0 晉級。埃及雖剛贏得隊史首場世界盃點球大戰、士氣正旺，但薩拉赫帶傷、多名防守球員缺陣，實力差距仍是決定性因素。",
+    "key_factors": [
+      "球員狀態：梅西本屆已連續 8 場世界盃比賽有進球、累積 7 球，狀態火燙；埃及頭號球星薩拉赫帶大腿傷勢完成 120 分鐘鏖戰，仍主罰命中點球，但體能與傷勢是隱憂（[ESPN](https://www.espn.co.uk/football/story/_/id/49277696/fifa-world-cup-2026-argentina-vs-egypt-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups-lionel-messi)）",
+      "傷停名單：埃及確定缺陣 Ahmed Fatouh（大腿肌腱撕裂）與 Mohamed Abdelmoneim；此前因累積黃牌停賽的 Mohanad Lasheen 已解禁可望回歸先發（[ESPN](https://www.espn.com/soccer/story/_/id/49277696/fifa-world-cup-2026-argentina-vs-egypt-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups-lionel-messi); [RotoWire](https://www.rotowire.com/soccer/headlines/mohanad-lasheen-news-suspension-over-522361)）。阿根廷方面，對維德角一戰後多名球員（如 Facundo Medina、Enzo Fernández）曾抽筋，Nicolás González 有腳踝狀況，須留意體能恢復",
+      "近期戰績：阿根廷在 32 強驚險加時 3-2 力克維德角，過程不算穩健；埃及則首次晉級 16 強，靠點球淘汰澳洲（1-1 互射 4-2），士氣正旺但也打滿 120 分鐘",
+      "戰術對位：阿根廷整體控球與攻擊組織全面壓制埃及的防守反擊體系，Opta 模型與多家博彩商一致預期阿根廷主導比賽",
+      "歷史交手：兩隊過往僅 2008 年一場友誼賽交手，阿根廷 2-0 取勝（梅西當時缺陣），本場為兩隊世界盃史上首次交鋒",
+      "輿論共識：博彩市場、Opta 超級電腦、多位美媒專家（USA Today 4 位撰稿人全數看好阿根廷）與 YouTube 戰術分析頻道皆一面倒看好阿根廷取勝，多數預測 2-0 或 3-0（[USA Today](https://www.usatoday.com); [The Analyst](https://theanalyst.com)）"
+    ],
+    "consensus_lean": "home",
+    "dissent": "少數論壇聲音認為埃及剛贏得隊史首場世界盃點球大戰、士氣正處歷史高點，加上薩拉赫的個人能力足以製造威脅，若能守住 90 分鐘僵局便有機會再次透過點球爆冷；惟此看法在主流博彩與模型評估中屬少數，多數分析仍認為阿根廷整體實力差距過大，難以被逆轉（[Sportskeeda](https://www.sportskeeda.com); [FootballPredictions.com](https://footballpredictions.com)）。"
+  },
+  "sources": [
+    {
+      "type": "media",
+      "name": "reuters.com",
+      "url": "https://www.reuters.com/sports/soccer/battle-hardened-argentina-egypt-set-last-16-clash-2026-07-05/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/49277696/fifa-world-cup-2026-argentina-vs-egypt-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups-lionel-messi"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-gb/news/egypt-argentina-round-of-16-world-cup-tickets/blte2605536d70d24b6"
+    },
+    {
+      "type": "media",
+      "name": "bolavip.com",
+      "url": "https://bolavip.com/en/world-cup/2026-world-cup-bracket-updated-who-when-and-where-is-australia-egypt-playing-in-round-of-16"
+    },
+    {
+      "type": "media",
+      "name": "unn.ua",
+      "url": "https://unn.ua/en/news/egypts-national-football-team-advanced-to-the-round-of-16-of-the-2026-world-cup-beating-australia-on-penalties"
+    },
+    {
+      "type": "media",
+      "name": "livemint.com",
+      "url": "https://www.livemint.com/sports/football-news/fifa-world-cup-2026-july-4-match-scores-argentina-break-cabo-verde-hearts-as-messi-vs-salah-showdown-confirmed-11783132641479.html"
+    },
+    {
+      "type": "media",
+      "name": "rotowire.com",
+      "url": "https://www.rotowire.com/soccer/headlines/mohanad-lasheen-news-suspension-over-522361"
+    },
+    {
+      "type": "media",
+      "name": "futbolfantasy.com",
+      "url": "https://www.futbolfantasy.com/world-cup/noticias/146485-egipto-no-podra-contar-con-mohanad-lasheen-en-dieciseisavos-por-acumulacion"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/27/yellow-cards-egypt-iran-world-cup-suspensions/90720172007/"
+    },
+    {
+      "type": "model",
+      "name": "theanalyst.com",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/emi-martinez-penalty-record-saves-argentina-vs-cape-verde-fifa-world-cup-2026/article71181569.ece"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/fifa-world-cup-2026-egypt-record-in-penalty-shootout-round-of-32-australia-vs-egy-latest/article71180385.ece"
+    },
+    {
+      "type": "media",
+      "name": "reuters.com",
+      "url": "https://www.reuters.com/sports/soccer/more-than-showman-argentinas-martinez-builds-50-penalty-success-rate-2024-07-05/"
+    },
+    {
+      "type": "model",
+      "name": "transfermarkt.us",
+      "url": "https://www.transfermarkt.us/argentinien/elfmeterschiessen/verein/3437"
+    },
+    {
+      "type": "model",
+      "name": "transfermarkt.com",
+      "url": "https://www.transfermarkt.com/agypten/elfmeterschiessen/verein/3672"
+    },
+    {
+      "type": "media",
+      "name": "espn.co.uk",
+      "url": "https://www.espn.co.uk/football/story/_/id/49261423/world-cup-history-mohamed-salah-egypt-penalty-shootout-australia"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "model",
+      "name": "rsssf.org",
+      "url": "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+    },
+    {
+      "type": "betting",
+      "name": "draftkings.com",
+      "url": "https://sportsbook.draftkings.com/leagues/soccer/world-cup"
+    },
+    {
+      "type": "betting",
+      "name": "toffeeweb.com",
+      "url": "https://www.toffeeweb.com/world-cup/argentina/"
+    },
+    {
+      "type": "media",
+      "name": "footballpredictions.com",
+      "url": "https://www.footballpredictions.com"
+    },
+    {
+      "type": "media",
+      "name": "sportskeeda.com",
+      "url": "https://www.sportskeeda.com"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/argentina-egypt-prediction-odds/"
+    },
+    {
+      "type": "market",
+      "name": "kalshi.com",
+      "url": "https://kalshi.com/markets/kxfifaworldcup"
+    },
+    {
+      "type": "market",
+      "name": "polymarket.com",
+      "url": "https://polymarket.com/event/world-cup-2026-round-of-16"
+    },
+    {
+      "type": "youtube",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=h0VkdKfDQ-k"
+    },
+    {
+      "type": "media",
+      "name": "facebookapp.com",
+      "url": "https://www.facebook.com/100063639967770/posts/official-round-of-16-fixture-set-the-stage-is-set-for-a-massive-showdown-argenti/1614286434036007/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760509/egypt-argentina"
+    },
+    {
+      "type": "media",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_round_of_32"
+    },
+    {
+      "type": "media",
+      "name": "bbc.com",
+      "url": "https://www.bbc.com/sport/football/articles/argentina-egypt-world-cup-2026"
+    },
+    {
+      "type": "media",
+      "name": "cbssports.com",
+      "url": "https://www.cbssports.com/soccer/news/argentina-egypt-world-cup-2026-round-of-16-picks/"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com",
+      "url": "https://www.nytimes.com/athletic/live-blogs/argentina-vs-cape-verde-live-updates-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "skysports.com",
+      "url": "https://www.skysports.com/football/news/argentina-vs-egypt-world-cup-2026-round-of-16-preview"
+    },
+    {
+      "type": "media",
+      "name": "marca.com",
+      "url": "https://www.marca.com/en/world-cup/2026/07/argentina-egypt-preview.html"
+    },
+    {
+      "type": "media",
+      "name": "as.com",
+      "url": "https://en.as.com/soccer/world-cup/argentina-egypt-2026/"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com",
+      "url": "https://www.reddit.com/r/soccer/comments/argentina_vs_egypt_world_cup_2026/"
+    },
+    {
+      "type": "kol",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/insider/argentina-egypt-preview-2026"
+    },
+    {
+      "type": "media",
+      "name": "wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Mohamed_Salah"
+    },
+    {
+      "type": "media",
+      "name": "wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Lionel_Messi"
+    },
+    {
+      "type": "media",
+      "name": "bbc.com",
+      "url": "https://www.bbc.com/sport/football/articles/cq6p3v43pdlo"
+    },
+    {
+      "type": "media",
+      "name": "ahram.org.eg",
+      "url": "https://english.ahram.org.eg/WorldCup2026/TeamWC2026/2026/1359.aspx"
+    },
+    {
+      "type": "betting",
+      "name": "vegasinsider.com",
+      "url": "https://www.vegasinsider.com/soccer/argentina-egypt-odds-world-cup-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "oddssafari.com",
+      "url": "https://www.oddssafari.com/matches/soccer/world-cup/argentina-vs-egypt"
+    }
+  ],
+  "source_count": 43,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷整體戰力明顯優於埃及，主場晉級應無懸念。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.75,
+        "draw": 0.15,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷整體實力佔優，埃及難破防線，主隊穩勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力明顯佔優，應能輕鬆取勝晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.7,
+        "draw": 0.18,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷攻守均衡穩定，埃及難以突破其防線"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.72,
+        "draw": 0.19,
+        "away": 0.09
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷陣容深度與大賽經驗遠勝埃及，預計能順利掌控比賽晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.73,
+        "draw": 0.17,
+        "away": 0.1
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷實力遠勝埃及，主場預計輕鬆取勝。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.85,
+        "draw": 0.12,
+        "away": 0.03
+      },
+      "scoreline": "3:0",
+      "note": "阿根廷實力懸殊，淘汰賽輕取埃及晉級。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.734,
+      "draw": 0.172,
+      "away": 0.093
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-06T051413Z"
+}

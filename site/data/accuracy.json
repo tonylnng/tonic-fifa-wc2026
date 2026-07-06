@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-07-05T05:13:14Z",
+  "last_updated": "2026-07-06T05:15:27Z",
   "metrics": {
-    "total_evaluated": 79,
-    "outcome_correct": 52,
-    "outcome_accuracy": 0.6582,
+    "total_evaluated": 81,
+    "outcome_correct": 53,
+    "outcome_accuracy": 0.6543,
     "exact_score_correct": 8,
-    "exact_score_accuracy": 0.1013
+    "exact_score_accuracy": 0.0988
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -20,8 +20,8 @@
       "exact_correct": 4
     },
     "Round": {
-      "evaluated": 11,
-      "outcome_correct": 9,
+      "evaluated": 13,
+      "outcome_correct": 10,
       "exact_correct": 4
     }
   },
@@ -969,6 +969,30 @@
       "predicted": "1:2",
       "predicted_outcome": "away",
       "final": "0:3",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-04T0517Z"
+    },
+    {
+      "match": 91,
+      "home": "Brazil",
+      "away": "Norway",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:2",
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-07-04T0517Z"
+    },
+    {
+      "match": 92,
+      "home": "Mexico",
+      "away": "England",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "2:3",
       "actual_outcome": "away",
       "outcome_correct": true,
       "exact_correct": false,

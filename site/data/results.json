@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-07-04T05:00:00Z",
+  "last_updated": "2026-07-06T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1297,6 +1297,40 @@
       "decided_by": "90",
       "advanced": "Morocco",
       "note": "這場十六強賽在侯斯頓上演，是本屆世界盃16強階段紀律最差的一戰，全場合計出示8張黃牌（雙方各4張），且上半場就出現6張黃牌，追平2006年巴西對迦納的世界盃淘汰賽紀錄。加拿大開賽階段一度佔優，喬納芬·大衛（Jonathan David）及塔尼·奧盧瓦塞伊（Tani Oluwaseyi）多次射門均被摩洛哥門將雅辛·布努（Yassine Bounou）撲出，上半場互交0-0。下半場開局僅5分鐘，阿澤丁·奧納希（Azzedine Ounahi）接應阿殊拉夫·哈基米（Achraf Hakimi）回做的自由球射入底角，率先為摩洛哥破局；第82分鐘奧納希再接布拉希姆·迪亞斯（Brahim Díaz）直傳完成梅開二度，鎖定勝局；補時第8分鐘蘇菲揚·拉希米（Soufiane Rahimi）把握反擊機會射入第三球，最終摩洛哥以3-0淘汰東道主之一的加拿大。加拿大雖創隊史最佳世界盃戰績並首次晉級16強及首勝淘汰賽（16強前一輪擊敗南非），但此役止步八強門外；摩洛哥則憑此勝連續兩屆世界盃殺入八強，成為首支達成此成就的非洲球隊。"
+    },
+    {
+      "match": 91,
+      "stage": "Round of 16",
+      "home": "Brazil",
+      "away": "Norway",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreline": "1:2",
+      "outcome": "away",
+      "recorded_at": "2026-07-06T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760504/norway-brazil",
+      "decided_by": "90",
+      "advanced": "Norway",
+      "note": "這場十六強賽在紐澤西MetLife Stadium上演，賽前被普遍看好的巴西遭遇挪威冷門逆襲。前鋒厄靈·哈蘭德（Erling Haaland）於第79及90分鐘連入兩球，先為挪威反超，帶領球隊完成驚天逆轉；巴西僅由尼馬（Neymar）於補時第90分鐘一記12碼罰球扳回一城，未能挽回敗局，尼馬亦於同分鐘吃黃牌。最終挪威以2-1力克五星巴西，隊史首次殺入世界盃八強，成為本屆最大冷門之一，將於八強對戰英格蘭。"
+    },
+    {
+      "match": 92,
+      "stage": "Round of 16",
+      "home": "Mexico",
+      "away": "England",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "scoreline": "2:3",
+      "outcome": "away",
+      "recorded_at": "2026-07-06T05:00:00Z",
+      "source": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+      "decided_by": "90",
+      "advanced": "England",
+      "note": "這場十六強賽在墨西哥城傳奇球場Estadio Azteca上演，英格蘭與東道主之一墨西哥上演進球大戰。祖迪·貝連堅（Jude Bellingham）於第36及38分鐘兩分鐘內連入兩球，為英格蘭奠定領先；朱利安·基諾尼斯（Julián Quiñones）第42分鐘為墨西哥追近。下半場哈利·簡尼（Harry Kane）第60分鐘12碼罰球再度拉開比分；勞爾·希梅內斯（Raúl Jiménez）第69分鐘同樣以12碼罰球回敬。英格蘭第54分鐘因積勒·關沙（Jarell Quansah）領紅提早十人應戰逾40分鐘，仍力保勝果，最終以3-2驚險淘汰墨西哥晉級八強，將對戰爆冷淘汰巴西的挪威。全場多達7張牌（含1紅6黃），紀律緊繃。"
     }
   ]
 }

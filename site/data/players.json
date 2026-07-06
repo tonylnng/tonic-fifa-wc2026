@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-05T05:09:31Z",
+  "last_updated": "2026-07-06T05:13:16Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -1549,12 +1549,20 @@
       "is_key": true,
       "bio_zh": "巴西足球傳奇，歷史第二高入球紀錄保持者，傷後復出回歸桑托斯，以天才技術、創意盤球和精準任意球著稱，若保持健康將是本屆世界盃最具吸引力的球員之一。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          91
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760504/norway-brazil",
+        "https://www.espn.co.uk/football/story/_/id/49278406/brazil-vs-norway-live-world-cup-2026-updates-score-commentary-result",
+        "https://www.cbssports.com/soccer/news/brazil-norway-live-updates-world-cup-2026-score-result/live/",
+        "https://www.aljazeera.com/sports/2026/7/5/haaland-scores-twice-as-norway-stun-brazil-2-1-in-world-cup-2026-last-16",
+        "https://www.sofascore.com/football/match/brazil-norway/AObsYUb"
+      ]
     },
     {
       "id": "BRA-raphinha",
@@ -4169,18 +4177,22 @@
       "is_key": true,
       "bio_zh": "英格蘭隊長及歷史最高進球球員，進球逾79球，效力拜仁慕尼黑在德甲繼續高效射門。本屆是其職業生涯贏取第一個重要錦標的最後機會，責任重大，備受全球關注。",
       "stats": {
-        "goals": 5,
+        "goals": 6,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           22,
           68,
-          80
+          80,
+          92
         ]
       },
       "sources": [
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/england-congo-world-cup-score-live-lineups-goals-watch/90763356007/",
-        "https://sports.ndtv.com/fifa-world-cup-2026/england-vs-dr-congo-live-score-fifa-world-cup-2026-round-of-32-eng-vs-cod-live-updates-harry-kane-jude-bellingham-football-11713805"
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -4227,11 +4239,16 @@
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          46
+          46,
+          92
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -4247,18 +4264,50 @@
       "is_key": true,
       "bio_zh": "效力皇家馬德里的英格蘭最耀眼中場天才，進攻能力強、大賽表現出眾，是球隊最具票房號召力的球員。本屆年僅23歲卻已身經百戰，有望成為英格蘭奪冠的最大功臣。",
       "stats": {
-        "goals": 2,
+        "goals": 4,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           22,
           68,
-          80
+          80,
+          92
         ]
       },
       "sources": [
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/01/england-congo-world-cup-score-live-lineups-goals-watch/90763356007/",
-        "https://sports.ndtv.com/fifa-world-cup-2026/england-vs-dr-congo-live-score-fifa-world-cup-2026-round-of-32-eng-vs-cod-live-updates-harry-kane-jude-bellingham-football-11713805"
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
+      ]
+    },
+    {
+      "id": "ENG-henderson",
+      "name_en": "Jordan Henderson",
+      "name_zh": "軒達臣",
+      "team": "England",
+      "team_zh": "英格蘭",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          92
+        ]
+      },
+      "sources": [
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -4278,13 +4327,72 @@
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          68
+          68,
+          92
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760485/england-panama",
-        "https://english.ahram.org.eg/WorldCup2026/Article/571699",
-        "https://www.sportingnews.com/uk/football/news/england-vs-panama-world-cup-live-score-result-highlights/e61876f8bda955265fe6b912"
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
+      ]
+    },
+    {
+      "id": "ENG-guehi",
+      "name_en": "Marc Guéhi",
+      "name_zh": "古希",
+      "team": "England",
+      "team_zh": "英格蘭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          92
+        ]
+      },
+      "sources": [
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
+      ]
+    },
+    {
+      "id": "ENG-oreilly",
+      "name_en": "Nico O'Reilly",
+      "name_zh": "奧萊利",
+      "team": "England",
+      "team_zh": "英格蘭",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          92
+        ]
+      },
+      "sources": [
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -6373,17 +6481,21 @@
       "is_key": true,
       "bio_zh": "墨西哥資深前鋒，曾遭嚴重頭部傷患後頑強復出，效力富咸期間表現穩定，技術全面，擅長背身持球與頭槌攻門，是墨西哥鋒線重要支柱。",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           1,
-          79
+          79,
+          92
         ]
       },
       "sources": [
-        "https://english.mathrubhumi.com/sports/football/mexico-ecuador-world-cup-round-of-32",
-        "https://www.espn.com/soccer/report/_/gameId/760489"
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -6419,18 +6531,22 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 3,
+        "goals": 4,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           1,
           53,
-          79
+          79,
+          92
         ]
       },
       "sources": [
-        "https://english.mathrubhumi.com/sports/football/mexico-ecuador-world-cup-round-of-32",
-        "https://www.espn.com/soccer/report/_/gameId/760489"
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -6631,6 +6747,62 @@
         "https://www.espn.com/soccer/report/_/gameId/760415",
         "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_A",
         "https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-south-africa-jun-11-2026-game-boxscore-647616?tab=playbyplay"
+      ]
+    },
+    {
+      "id": "MEX-vasquez",
+      "name_en": "Johan Vásquez",
+      "name_zh": "華斯基",
+      "team": "Mexico",
+      "team_zh": "墨西哥",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          92
+        ]
+      },
+      "sources": [
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
+      ]
+    },
+    {
+      "id": "MEX-sanchez",
+      "name_en": "Jorge Sánchez",
+      "name_zh": "辛捷斯",
+      "team": "Mexico",
+      "team_zh": "墨西哥",
+      "position": "DF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          92
+        ]
+      },
+      "sources": [
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
+        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
+        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
+        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
       ]
     },
     {
@@ -7465,18 +7637,22 @@
       "is_key": true,
       "bio_zh": "曼城超級射手，連續多年奪得英超金靴，挪威副隊長，入球效率舉世無雙，被視為當代最佳射手之一。",
       "stats": {
-        "goals": 5,
+        "goals": 7,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           18,
           43,
-          78
+          78,
+          91
         ]
       },
       "sources": [
-        "https://worldcuplocaltime.com/match/ivory-coast-norway-2026-06-30/",
-        "https://www.skysports.com/football/ivory-coast-vs-norway/stats/549843"
+        "https://www.espn.com/soccer/match/_/gameId/760504/norway-brazil",
+        "https://www.espn.co.uk/football/story/_/id/49278406/brazil-vs-norway-live-world-cup-2026-updates-score-commentary-result",
+        "https://www.cbssports.com/soccer/news/brazil-norway-live-updates-world-cup-2026-score-result/live/",
+        "https://www.aljazeera.com/sports/2026/7/5/haaland-scores-twice-as-norway-stun-brazil-2-1-in-world-cup-2026-last-16",
+        "https://www.sofascore.com/football/match/brazil-norway/AObsYUb"
       ]
     },
     {
