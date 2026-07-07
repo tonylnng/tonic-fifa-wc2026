@@ -136,6 +136,40 @@
 
 ---
 
+
+
+## [成本+質量優化] 2026-07-07（HKT）來源數雙維度分級 + 8強高價值來源類型要求
+
+### 背景
+賽事進入淘汰賽階段（剩餘 44 場中 32 場為淘汰賽），資訊集中度大幅提升。
+高關注比賽的媒體覆蓋量極高，但重複率亦高；去重後 20 個來源約 60–70% 觀點重複。
+改為「時間 × 賽事階段」雙維度分級，並對 8 強起要求高價值來源類型，
+同時節省 token 並提升預測質量。
+
+### 變更（Changed）
+
+- **來源數由純時間分級改為「時間 × 賽事階段」雙維度分級**：
+
+  | Stage | 36h 內開賽 | 其他（48h 窗口內）|
+  |---|---|---|
+  | Group（小組賽末輪）| ≥12 | ≥8 |
+  | Round of 32（32強）| ≥15 | ≥10 |
+  | Round of 16（16強）| ≥12 | ≥8 |
+  | Quarter-final（8強）| ≥10 | ≥6 |
+  | Semi-final（4強）| ≥8 | ≥5 |
+  | Final / Third Place | ≥6 | ≥4 |
+
+- **8強（Quarter-final）起新增高價值來源類型要求**（質量優先於數量）：
+  - ① 至少 1 個博彩隱含盤口（Bet365/Pinnacle/William Hill/Betfair 等，換算隱含勝率）
+  - ② 至少 1 個統計/預測模型數據（Opta/StatsBomb/FiveThirtyEight/Sofascore/ESPN FPI 等）
+  - ③ 至少 1 個官方傷兵/陣容報告（FIFA/各隊官方/UEFA/ESPN/Sky/BBC 確認的傷兵首發消息）
+  - 若某類當天無法找到，標注 `unavailable`，不影響預測輸出。
+
+- **CRON_RUNBOOK.md** 同步更新（steps 2 來源數要求段落）。
+- **Skill `wc2026-prediction-automation`** Standing Rules + Pipeline 步驟 2 同步更新。
+
+---
+
 ## [UI 文案] 2026-06-23（HKT）「預測演變」頁說明文字釐清
 
 ### 變更（Changed）
