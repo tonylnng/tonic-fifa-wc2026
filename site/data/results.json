@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-07-06T05:00:00Z",
+  "last_updated": "2026-07-09T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1331,6 +1331,75 @@
       "decided_by": "90",
       "advanced": "England",
       "note": "這場十六強賽在墨西哥城傳奇球場Estadio Azteca上演，英格蘭與東道主之一墨西哥上演進球大戰。祖迪·貝連堅（Jude Bellingham）於第36及38分鐘兩分鐘內連入兩球，為英格蘭奠定領先；朱利安·基諾尼斯（Julián Quiñones）第42分鐘為墨西哥追近。下半場哈利·簡尼（Harry Kane）第60分鐘12碼罰球再度拉開比分；勞爾·希梅內斯（Raúl Jiménez）第69分鐘同樣以12碼罰球回敬。英格蘭第54分鐘因積勒·關沙（Jarell Quansah）領紅提早十人應戰逾40分鐘，仍力保勝果，最終以3-2驚險淘汰墨西哥晉級八強，將對戰爆冷淘汰巴西的挪威。全場多達7張牌（含1紅6黃），紀律緊繃。"
+    },
+    {
+      "match": 93,
+      "stage": "Round of 16",
+      "home": "Portugal",
+      "away": "Spain",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "scoreline": "0:1",
+      "outcome": "away",
+      "recorded_at": "2026-07-09T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760506",
+      "decided_by": "90",
+      "advanced": "Spain",
+      "note": "這場十六強焦點戰在侯斯頓NRG Stadium上演，衛冕熱門之一西班牙與葡萄牙鏖戰至最後一刻。雙方90分鐘僵持，直到補時第91分鐘米高·美利奴（Mikel Merino）攻入致命一球，西班牙0:1（實際1:0，此處以主客記為葡0西1）絕殺葡萄牙晉級八強。這也為38歲的C·朗拿度（Cristiano Ronaldo）畫下世界盃生涯句點，賽後場面感人。西班牙將於八強對戰比利時。"
+    },
+    {
+      "match": 94,
+      "stage": "Round of 16",
+      "home": "USA",
+      "away": "Belgium",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "scoreline": "1:4",
+      "outcome": "away",
+      "recorded_at": "2026-07-09T05:00:00Z",
+      "source": "https://www.espn.com/soccer/report/_/gameId/760507",
+      "decided_by": "90",
+      "advanced": "Belgium",
+      "note": "這場十六強賽事在硅谷Levi's Stadium上演，東道主之一美國慘遭比利時痛擊。查理士·迪基達拿（Charles De Ketelaere）第9及33分鐘梅開二度，蒂爾曼、雲納肯先後建功，補時盧卡古再入一球，比利時4:1大勝美國。美國止步16強，無緣本土八強夢。比利時強勢晉級，八強對西班牙。"
+    },
+    {
+      "match": 95,
+      "stage": "Round of 16",
+      "home": "Argentina",
+      "away": "Egypt",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "scoreline": "3:2",
+      "outcome": "home",
+      "recorded_at": "2026-07-09T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760509/egypt-argentina",
+      "decided_by": "90",
+      "advanced": "Argentina",
+      "note": "這場十六強大戰在溫哥華BC Place上演，阿根廷上演驚天逆轉。埃及一度2:0領先，阿根廷憑羅美路（Romero）第79分鐘、美斯（Messi）第83分鐘、恩素·費南迪斯（Enzo Fernández）第92分鐘連追三球，3:2完成大逆轉晉級。值得一提美斯此役一記十二碼被埃及門將舒貝爾（Shobeir）撲出，仍無礙球隊晉級。阿根廷八強對瑞士。"
+    },
+    {
+      "match": 96,
+      "stage": "Round of 16",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "scoreline": "0:0",
+      "outcome": "draw",
+      "recorded_at": "2026-07-09T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760508/colombia-switzerland",
+      "decided_by": "penalties",
+      "advanced": "Switzerland",
+      "note": "這場十六強在墨西哥城阿茲特克球場上演，瑞士與哥倫比亞鏖戰120分鐘互無紀錄，最終互射十二碼分勝負。點球大戰中瑞士門將高比爾（Kobel）撲出古曹·軒南迪斯（Cucho Hernández）的射門，魯本·華爾加斯（Rubén Vargas）射入決勝球，瑞士4:3勝出、驚險晉級八強。哥倫比亞飲恨出局。瑞士八強對阿根廷。",
+      "penalties": "4:3"
     }
   ]
 }

@@ -1,0 +1,558 @@
+{
+  "match": 97,
+  "stage": "Quarter-final",
+  "home": "France",
+  "away": "Morocco",
+  "kickoff_utc": "2026-07-09T20:00:00Z",
+  "kickoff_hkt": "2026-07-10 04:00",
+  "run_id": "2026-07-09T0500Z",
+  "run_timestamp": "2026-07-09T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.58,
+      "draw": 0.24,
+      "away": 0.18
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.17
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "法國強勢壓制",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.3,
+        "basis": "法國本屆5戰5勝入球14僅失2，Mbappé狀態火熱，多家博彩商開盤France -175至-182（implied約64%），[Covers.com](https://www.covers.com/world-cup/france-vs-morocco-prediction-picks-odds-thursday-7-9-2026)與[FOX Sports](https://www.foxsports.com/soccer/fifa-world-cup-men-w89-vs-morocco-jul-09-2026-game-boxscore-607927?tab=odds)一致看好法國90分鐘內取勝"
+      },
+      {
+        "name": "摩洛哥再演2022奇蹟",
+        "scoreline": "1:1",
+        "outcome": "away",
+        "confidence": 0.12,
+        "basis": "ESPN專家Mark Ogden唯一看好摩洛哥，預測1:1後點球淘汰法國，理由是摩洛哥防守韌性與復仇動機（[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)）"
+      },
+      {
+        "name": "拉鋸戰進入加時",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.15,
+        "basis": "摩洛哥34場不敗紀錄與紀律防守可能拖入加時，[RotoWire](https://www.rotowire.com/soccer/article/france-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121621)指出Ounahi狀態火熱是關鍵變數"
+      },
+      {
+        "name": "法國中規中矩取勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.2,
+        "basis": "多位博彩KOL（Doc's Sports、Action Network）認為此戰會是低比分緊湊比賽，法國憑一球守住勝果（[YouTube Doc's Sports](https://www.youtube.com/watch?v=UW7RnxpyjPQ)）"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Kalshi",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.81,
+          "draw": null,
+          "away": 0.19
+        },
+        "scoreline": null,
+        "note": "晉級市場（非90分勝負）：法國81¢對摩洛哥19-23¢，[SportsBettingDime](https://www.sportsbettingdime.com/news/soccer/france-vs-morocco-odds-opening-lines-world-cup-quarterfinals/)與[CBS Sports](https://www.cbssports.com/prediction/news/kalshi-referral-code-cbssports-claim-15-bonus-france-morocco-pirates-braves-yankees-rays-wednesday/)"
+      },
+      {
+        "source": "Polymarket",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.615,
+          "draw": 0.245,
+          "away": 0.145
+        },
+        "scoreline": null,
+        "note": "90分鐘內：法國61.5%、和局24.5%、摩洛哥14.5%；晉級市場法國78¢對摩洛哥23¢，[Polymarket](https://polymarket.com/sports/world-cup/fifwc-fra-mar-2026-07-09)及[Dimers](https://www.dimers.com/news/polymarket-kalshi-promo-code-dimers-france-morocco-world-cup-quarterfinal-odds)"
+      },
+      {
+        "source": "BetMGM/bet365/DraftKings 綜合盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.64,
+          "draw": 0.22,
+          "away": 0.14
+        },
+        "scoreline": "2:0",
+        "note": "法國-175至-182，摩洛哥+475至+550，和局+280至+300，[USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/08/france-morocco-world-cup-prediction-analysis-odds/90834687007/)、[RotoWire](https://www.rotowire.com/soccer/article/france-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121621)"
+      },
+      {
+        "source": "Squawka AI模型（xG預測）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.52,
+          "draw": 0.28,
+          "away": 0.2
+        },
+        "scoreline": "2:1",
+        "note": "預測xG法國1.55對摩洛哥0.88，法國預期射門13-17次對摩洛哥角球2-4個，[Squawka YouTube分析](https://www.youtube.com/watch?v=kYjbVFm3J4A)"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.24,
+      "extra_time_prob": 0.24,
+      "shootout_prob": 0.1,
+      "advance_prob": {
+        "home": 0.8,
+        "away": 0.2
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 10,
+          "won": 5,
+          "win_rate": 0.5,
+          "conversion_rate": null,
+          "recent": "法國世界盃點球大戰10戰5勝5負（50%勝率），近兩次世界盃決賽階段均告負：2006年決賽負意大利、2022年決賽負阿根廷（4-2負，Coman被撲、Tchouaméni射失，惟Mbappé本人罰進其踢出那一輪），心理陰影仍在，[Wikipedia點球大戰列表](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs)、[2022決賽維基頁](https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final)、[Sporting News](https://www.sportingnews.com/us/soccer/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt)",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final",
+            "https://www.sportingnews.com/us/soccer/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+          ]
+        },
+        "away": {
+          "shootouts": 2,
+          "won": 2,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "摩洛哥近兩次世界盃點球大戰全勝：2022年16強3-0淘汰西班牙（Bono撲出2球）、2026年32強3-2淘汰荷蘭（Bono撲出Summerville一球，Saibari踢入制勝球），門將Bono近三次大賽點球大戰僅33%點球命中率被攻破，是本屆最具點球威脅的球隊之一，[Morocco World News](https://www.moroccoworldnews.com/2026/06/326459/only-33-of-penalties-have-beaten-moroccos-bono-across-last-three-shootouts/)、[Sportstar](https://sportstar.thehindu.com/football/fifa-world-cup/news/morocco-vs-spain-penalty-shootout-fifa-world-cup-qatar-2022-goalkeepers-unai-simon-yassine-bounou-bono-stats-saves-comparison/article66232058.ece)",
+          "sources": [
+            "https://www.moroccoworldnews.com/2026/06/326459/only-33-of-penalties-have-beaten-moroccos-bono-across-last-three-shootouts/",
+            "https://sportstar.thehindu.com/football/fifa-world-cup/news/morocco-vs-spain-penalty-shootout-fifa-world-cup-qatar-2022-goalkeepers-unai-simon-yassine-bounou-bono-stats-saves-comparison/article66232058.ece",
+            "https://en.wikipedia.org/wiki/Yassine_Bounou"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "法國近兩屆世界盃決賽皆在點球告負，隊內雖有Mbappé這類大心臟射手（2022年決賽點球輪中罰進其踢出的一球），但團隊整體點球輪換准心不穩（Coman被撲、Tchouaméni射失），若比賽拖入點球大戰，歷史包袱不容忽視，[維基百科2022決賽](https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final)、[Coaches' Voice戰術分析](https://learning.coachesvoice.com/cv/world-cup-final-2022-tactics-argentina-messi-france-mbappe/)",
+        "away": "摩洛哥點球大戰堪稱本屆「必殺技」，門將Yassine Bounou（Bono）被視為世界頂級點球撲救專家，2022年於世界盃16強撲出西班牙2個點球一戰成名，本屆32強再次於點球輪救主淘汰荷蘭，全隊在點球輪展現罕見的心理穩定性與抗壓能力，法國若被拖入點球戰將面臨高風險，[Indian Express](https://indianexpress.com/article/sports/football/yassine-bounou-penalty-specialist-calm-presence-that-is-central-to-moroccos-world-cup-run-8315119/)、[ESPN](https://www.espn.com.au/football/story/_/id/37634789/yassine-bounou-anchoring-morocco-magical-world-cup-run)"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "基利安·姆巴佩 (Kylian Mbappé)",
+          "record": "2022年世界盃決賽點球輪中罰進其踢出的一球（法國仍以2-4輸），本屆為法國頭號射手，是最信賴的主罰人選，[ESPN賽事紀錄](https://www.espn.com/soccer/match/_/gameId/633850/france-argentina)"
+        },
+        {
+          "team": "home",
+          "name_zh": "奧斯曼·登貝萊 (Ousmane Dembélé)",
+          "record": "近期狀態出色，具備冷靜主罰能力，但無公開確證的世界盃點球輪罰球紀錄，保守填寫",
+          "sources": []
+        },
+        {
+          "team": "away",
+          "name_zh": "亞辛·布諾 (Yassine Bounou / Bono)",
+          "record": "門將而非主罰者，但為摩洛哥點球大戰核心：2022年16強撲出西班牙2球、2026年32強撲出荷蘭關鍵一球，近三次大賽點球輪對手僅33%命中率，[Morocco World News](https://www.moroccoworldnews.com/2026/06/326459/only-33-of-penalties-have-beaten-moroccos-bono-across-last-three-shootouts/)"
+        },
+        {
+          "team": "away",
+          "name_zh": "阿什拉夫·哈基米 (Achraf Hakimi)",
+          "record": "隊長級人物，過往國際賽點球紀錄暫無公開確證數字，保守處理",
+          "sources": []
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "法國90分鐘及加時取勝機率合計約80%，被拖入點球大戰機率約10%，屬中等風險；但若真的進入點球輪，摩洛哥憑藉Bono的撲救能力與近兩屆大賽全勝紀錄，將對法國構成實質威脅，法國自身亦有兩次決賽點球輸球的心理陰影，[Sporting News](https://www.sportingnews.com/us/soccer/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt)、[Morocco World News](https://www.moroccoworldnews.com/2026/06/326459/only-33-of-penalties-have-beaten-moroccos-bono-across-last-three-shootouts/)"
+    }
+  },
+  "reasoning": {
+    "summary": "法國憑藉更全面的陣容深度與Mbappé的個人能力，在絕大部分博彩盤口與統計模型中均被視為明顯優勢方（90分鐘勝率約58-64%），但摩洛哥34場不敗紀錄、頑強防守與Bono的點球神技，使其在拖入加時或點球大戰時具備不容忽視的爆冷能力，正如2022年世界盃16強淘汰西班牙、本屆32強淘汰荷蘭的先例。整體預測法國以2:1或2:0取勝晉級，但保留中等的點球風險。",
+    "key_factors": [
+      "法國本屆戰績5戰5勝，入球14僅失2，攻擷力全項最強，[OneFootball](https://onefootball.com/en/news/world-cup-2026-quarter-final-france-vs-morocco-prediction-best-bets-43112723)",
+      "法國中場核心Tchouaméni因腹股溝傷缺陣16強戰，能否復出成疑，若缺陣將影響中場防守結構，[ESPN](https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources)、[Get French Football News](https://www.getfootballnewsfrance.com/2026/aurelien-tchouameni-likely-to-miss-frances-world-cup-quarter-final-against-morocco/)",
+      "摩洛哥前鋒Saibari因16強戰傷退，確認缺陣此戰，摩洛哥鋒線火力將受影響，[RotoWire](https://www.rotowire.com/soccer/article/france-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121621)、[ESPN傷病追蹤](https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium)",
+      "雙方均有多名球員帶一張黃牌，法國Olise、Koné、Barcola與摩洛哥Hakimi、Ounahi等5人再收黃牌將缺席準決賽，可能影響球員拼搶強度，[NBC Sports](https://www.nbcsports.com/soccer/news/which-world-cup-teams-are-most-at-risk-to-yellow-card-suspensions-for-key-players-what-are-the-rules)、[ESPN](https://www.espn.co.uk/football/story/_/id/49306154/world-cup-2026-yellow-card-watch-walking-tightrope-quarterfinals)",
+      "摩洛哥點球大戰近兩屆大賽全勝，門將Bono被視為世界級撲點專家，是法國晉級路上最大隱憂之一，[Morocco World News](https://www.moroccoworldnews.com/2026/06/326459/only-33-of-penalties-have-beaten-moroccos-bono-across-last-three-shootouts/)",
+      "ESPN七位專家中六位看好法國取勝（比分預測集中在1-0至3-1區間），僅Mark Ogden看好摩洛哥點球淘汰法國，[ESPN專家預測](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)",
+      "社群輿論（Reddit/Facebook）普遍認為法國陣容深度佔優，但摩洛哥支持者與部分中立球迷仍寄望重演2022年式奇蹟，[Reddit r/football](https://www.reddit.com/r/football/comments/1urc0la/france_vs_morocco_tactical_expectations_and_your/)、[Reddit r/Morocco](https://www.reddit.com/r/Morocco/comments/1unn0ft/were_going_up_against_france_what_are_your/)"
+    ],
+    "consensus_lean": "home",
+    "dissent": "ESPN專家Mark Ogden為主流意見中唯一的反對聲音，預測1-1後摩洛哥點球淘汰法國，理由是摩洛哥有能力複製Paraguay的防守封鎖戰術並在攻端造成威脅，加上強烈的復仇動機（2022年準決賽負於法國），[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "covers.com",
+      "url": "https://www.covers.com/world-cup/france-vs-morocco-prediction-picks-odds-thursday-7-9-2026"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/08/france-morocco-world-cup-prediction-analysis-odds/90834687007/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium"
+    },
+    {
+      "type": "media",
+      "name": "espn.co.uk",
+      "url": "https://www.espn.co.uk/football/story/_/id/49306154/world-cup-2026-yellow-card-watch-walking-tightrope-quarterfinals"
+    },
+    {
+      "type": "media",
+      "name": "rotowire.com",
+      "url": "https://www.rotowire.com/soccer/article/france-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121621"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-w89-vs-morocco-jul-09-2026-game-boxscore-607927?tab=odds"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8"
+    },
+    {
+      "type": "media",
+      "name": "foxsports.com",
+      "url": "https://www.foxsports.com/soccer/aurelien-tchouameni-player"
+    },
+    {
+      "type": "market",
+      "name": "polymarket.com",
+      "url": "https://polymarket.com/sports/world-cup/fifwc-fra-mar-2026-07-09"
+    },
+    {
+      "type": "market",
+      "name": "dimers.com",
+      "url": "https://www.dimers.com/news/polymarket-kalshi-promo-code-dimers-france-morocco-world-cup-quarterfinal-odds"
+    },
+    {
+      "type": "market",
+      "name": "kalshi.com",
+      "url": "https://kalshi.com/markets/kxwcadvance/world-cup-advance/kxwcadvance-26jul09framar"
+    },
+    {
+      "type": "market",
+      "name": "kalshi.com",
+      "url": "https://kalshi.com/teams/soccer-team/morocco"
+    },
+    {
+      "type": "betting",
+      "name": "sportsbettingdime.com",
+      "url": "https://www.sportsbettingdime.com/news/soccer/france-vs-morocco-odds-opening-lines-world-cup-quarterfinals/"
+    },
+    {
+      "type": "betting",
+      "name": "cbssports.com",
+      "url": "https://www.cbssports.com/prediction/news/kalshi-referral-code-cbssports-claim-15-bonus-france-morocco-pirates-braves-yankees-rays-wednesday/"
+    },
+    {
+      "type": "betting",
+      "name": "sportsline.com",
+      "url": "https://www.sportsline.com/insiders/france-vs-morocco-odds-lines-predictions-2026-world-cup-quarterfinal-picks-from-proven-soccer-expert/"
+    },
+    {
+      "type": "betting",
+      "name": "onefootball.com",
+      "url": "https://onefootball.com/en/news/world-cup-2026-quarter-final-france-vs-morocco-prediction-best-bets-43112723"
+    },
+    {
+      "type": "betting",
+      "name": "betzoid.com",
+      "url": "https://betzoid.com/en/france-morocco-09-07-2026/"
+    },
+    {
+      "type": "betting",
+      "name": "feedinco.com",
+      "url": "https://www.feedinco.com/predictions/2026-07-09/France-vs-Morocco-prediction"
+    },
+    {
+      "type": "model",
+      "name": "ballprediction.com",
+      "url": "https://ballprediction.com/wcup/france-v-morocco"
+    },
+    {
+      "type": "model",
+      "name": "youtube.com (Squawka風格AI模型)",
+      "url": "https://www.youtube.com/watch?v=kYjbVFm3J4A"
+    },
+    {
+      "type": "media",
+      "name": "actionnetwork.com",
+      "url": "https://www.actionnetwork.com/worldcup-game/morocco-france-score-odds-july-9-2026/292783"
+    },
+    {
+      "type": "media",
+      "name": "standard.co.uk",
+      "url": "https://www.standard.co.uk/sport/football/france-vs-morocco-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1289259.html"
+    },
+    {
+      "type": "media",
+      "name": "sportingnews.com",
+      "url": "https://www.sportingnews.com/in/football/news/world-cup-bracket-predictions-2026-expert-picks-quarterfinals/16fef993e6fb0a09e89ca224"
+    },
+    {
+      "type": "media",
+      "name": "getfootballnewsfrance.com",
+      "url": "https://www.getfootballnewsfrance.com/2026/aurelien-tchouameni-likely-to-miss-frances-world-cup-quarter-final-against-morocco/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/49269592/france-aurelien-tchouameni-groin-injury-vs-paraguay-miss-quarterfinals-sources"
+    },
+    {
+      "type": "media",
+      "name": "bolavip.com",
+      "url": "https://bolavip.com/en/world-cup/didier-deschamps-provides-positive-update-on-aurelien-tchouameni-ahead-of-france-vs-morocco-game"
+    },
+    {
+      "type": "media",
+      "name": "nbcsports.com",
+      "url": "https://www.nbcsports.com/soccer/news/which-world-cup-teams-are-most-at-risk-to-yellow-card-suspensions-for-key-players-what-are-the-rules"
+    },
+    {
+      "type": "media",
+      "name": "moroccoworldnews.com",
+      "url": "https://www.moroccoworldnews.com/2026/07/327634/frances-olise-appeal-raises-questions-over-morocco-yellow-cards-before-quarterfinal/"
+    },
+    {
+      "type": "media",
+      "name": "moroccoworldnews.com",
+      "url": "https://www.moroccoworldnews.com/2026/06/326459/only-33-of-penalties-have-beaten-moroccos-bono-across-last-three-shootouts/"
+    },
+    {
+      "type": "media",
+      "name": "indianexpress.com",
+      "url": "https://indianexpress.com/article/sports/football/yassine-bounou-penalty-specialist-calm-presence-that-is-central-to-moroccos-world-cup-run-8315119/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com.au",
+      "url": "https://www.espn.com.au/football/story/_/id/37634789/yassine-bounou-anchoring-morocco-magical-world-cup-run"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/news/morocco-vs-spain-penalty-shootout-fifa-world-cup-qatar-2022-goalkeepers-unai-simon-yassine-bounou-bono-stats-saves-comparison/article66232058.ece"
+    },
+    {
+      "type": "official",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "official",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
+    },
+    {
+      "type": "official",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Yassine_Bounou"
+    },
+    {
+      "type": "media",
+      "name": "sportingnews.com",
+      "url": "https://www.sportingnews.com/us/soccer/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/match/_/gameId/633850/france-argentina"
+    },
+    {
+      "type": "media",
+      "name": "theguardian.com",
+      "url": "https://www.theguardian.com/football/2022/dec/18/world-cup-final-argentina-france-match-report"
+    },
+    {
+      "type": "media",
+      "name": "coachesvoice.com",
+      "url": "https://learning.coachesvoice.com/cv/world-cup-final-2022-tactics-argentina-messi-france-mbappe/"
+    },
+    {
+      "type": "media",
+      "name": "bbc.com",
+      "url": "https://www.bbc.com/sport/football/64019239"
+    },
+    {
+      "type": "kol",
+      "name": "youtube.com (Doc's Sports)",
+      "url": "https://www.youtube.com/watch?v=UW7RnxpyjPQ"
+    },
+    {
+      "type": "kol",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=_H8R4fZ0yXA"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/football)",
+      "url": "https://www.reddit.com/r/football/comments/1urc0la/france_vs_morocco_tactical_expectations_and_your/"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/Morocco)",
+      "url": "https://www.reddit.com/r/Morocco/comments/1unn0ft/were_going_up_against_france_what_are_your/"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/worldcup)",
+      "url": "https://www.reddit.com/r/worldcup/comments/1unp2ew/hot_take_but_i_believe_that_if_france_doesnt_beat/"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/soccer)",
+      "url": "https://www.reddit.com/r/soccer/comments/1unmme0/its_gonna_be_france_vs_morocco_1st_quarter_final/"
+    },
+    {
+      "type": "social",
+      "name": "facebook.com",
+      "url": "https://www.facebook.com/ampofoowuraku/posts/france-vs-morocco-2026-world-cup-quarter-finalwho-wins/2039411676697397/"
+    },
+    {
+      "type": "social",
+      "name": "facebook.com",
+      "url": "https://www.facebook.com/LiveSoccerTv.com/posts/the-1st-fifa-world-cup-quarter-final-matchup-is-official%EF%B8%8F-france-v-morocco%EF%B8%8F-thur/1503262118511255/"
+    },
+    {
+      "type": "model",
+      "name": "defirate.com",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/"
+    },
+    {
+      "type": "media",
+      "name": "metamask.io",
+      "url": "https://metamask.io/ko/news/world-cup-prediction-markets-kalshi-polymarket"
+    }
+  ],
+  "source_count": 51,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "法國整體實力與大賽經驗明顯優於摩洛哥，晉級在望。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "法國整體實力佔優，摩洛哥防線穩固，預計主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "法國整體實力佔優，可望小勝晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.63,
+        "draw": 0.22,
+        "away": 0.15
+      },
+      "scoreline": "2:0",
+      "note": "法國整體戰力與板凳深度更佳，正規時間坐和望贏"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.24,
+        "away": 0.14
+      },
+      "scoreline": "2:0",
+      "note": "法國整體陣容實力佔優，能有效突破摩洛哥防線晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.62,
+        "draw": 0.22,
+        "away": 0.16
+      },
+      "scoreline": "2:1",
+      "note": "法國實力占優，預計主場小勝摩洛哥。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.65,
+        "draw": 0.2,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "法國實力占優，摩洛哥難以複製奇蹟。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.623,
+      "draw": 0.223,
+      "away": 0.153
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-09T051759Z"
+}

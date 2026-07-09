@@ -1,0 +1,493 @@
+{
+  "match": 98,
+  "stage": "Quarter-final",
+  "home": "Spain",
+  "away": "Belgium",
+  "kickoff_utc": "2026-07-10T19:00:00Z",
+  "kickoff_hkt": "2026-07-11 03:00",
+  "run_id": "2026-07-09T0500Z",
+  "run_timestamp": "2026-07-09T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.6,
+      "draw": 0.24,
+      "away": 0.16
+    },
+    "confidence": 0.7,
+    "top_scorelines": [
+      {
+        "scoreline": "1:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "西班牙延續零封紀錄",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.28,
+        "basis": "西班牙本屆5戰零失球，防守全項最強，[Squawka](https://www.squawka.com/ca/news/world-cup/match-preview-spain-vs-belgium-world-cup-2026-quarterfinals/)點出此為西班牙晉級關鍵優勢"
+      },
+      {
+        "name": "比利時憑替補奇兵爆冷",
+        "scoreline": "1:1",
+        "outcome": "away",
+        "confidence": 0.1,
+        "basis": "比利時本屆屢次靠Lukaku、Tielemans替補建功逆轉戰局（如16強對美國、32強對塞內加爾），具備下半場變陣能力，[NDTV](https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-2026-lukaku-becomes-belgiums-all-time-wc-top-scorer-11694294)"
+      },
+      {
+        "name": "西班牙壓哨小勝",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.25,
+        "basis": "延續16強對葡萄牙補時絕殺的模式，西班牙近期多場淘汰賽均是險勝而非大勝，[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)"
+      },
+      {
+        "name": "比利時防守反擊拖入加時",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.12,
+        "basis": "比利時失去中場核心Onana（十字韌帶斷裂）後可能採取更保守陣式，[ESPN傷病追蹤](https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium)"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Kalshi",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.735,
+          "draw": null,
+          "away": 0.265
+        },
+        "scoreline": null,
+        "note": "晉級市場：西班牙73-74%對比利時26-27%，[DeFiRate](https://defirate.com/prediction-markets/world-cup-odds/)"
+      },
+      {
+        "source": "DraftKings/juvefc.com 綜合盤口",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.62,
+          "draw": 0.2,
+          "away": 0.18
+        },
+        "scoreline": "2:0",
+        "note": "西班牙約8/13（implied62%），和局3/1，比利時5/1，[Juve FC](https://www.juvefc.com/world-cup-quarter-final-spain-belgium-predictions/)、[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)（DraftKings：西班牙-340，比利時+260）"
+      },
+      {
+        "source": "Squawka AI模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.64,
+          "draw": null,
+          "away": 0.36
+        },
+        "scoreline": "1:0",
+        "note": "模型強調西班牙5戰零失球的防守紀錄為取勝關鍵，1:0為「自然比分」概率最高，[Squawka](https://www.squawka.com/ca/news/world-cup/match-preview-spain-vs-belgium-world-cup-2026-quarterfinals/)"
+      },
+      {
+        "source": "ESPN專家共識（Becherano/Carlisle）",
+        "kind": "media",
+        "win_prob": {
+          "home": 0.65,
+          "draw": null,
+          "away": 0.35
+        },
+        "scoreline": "1:0/2:0",
+        "note": "兩位專家均看好西班牙取勝但強調比賽會比外界預期更為緊湊，[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.24,
+      "extra_time_prob": 0.24,
+      "shootout_prob": 0.09,
+      "advance_prob": {
+        "home": 0.83,
+        "away": 0.17
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 5,
+          "won": 1,
+          "win_rate": 0.2,
+          "conversion_rate": null,
+          "recent": "西班牙世界盃點球大戰5戰僅1勝（20%），為史上最差戰績：1986年16強負比利時（4-5）、2002年8強負韓國（3-5）、2018年16強負俄羅斯（3-4）、2022年16強負摩洛哥（0-3，全隊罰球全部落空，是史上第二支在世界盃點球大戰中全部未進的球隊），唯一勝利為2002年16強勝愛爾蘭（3-2），2022年對摩洛哥一役的心理陰影對本屆球隊仍具參考意義，[Opta Analyst](https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts)、[SI](https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record)、[William Hill](https://news.williamhill.com/football/world-cup/penalty-shootout-records/)",
+          "sources": [
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts",
+            "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record",
+            "https://news.williamhill.com/football/world-cup/penalty-shootout-records/"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": null,
+          "recent": "比利時世界盃點球大戰紀錄僅1戰1勝（100%，惟樣本量極小），該勝利正是1986年8強擊敗西班牙的一戰（5-4），門將Pfaff撲出Eloy一球，比利時全部主罰球員命中；本屆賽事中比利時32強對塞內加爾之戰有Tielemans踢入125分鐘制勝點球（正規時間內非大戰），顯示其球員在高壓下仍具主罰信心，[Wikipedia點球大戰列表](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs)、[LA Times](https://www.latimes.com/archives/la-xpm-1986-06-23-sp-20021-story.html)、[Sporting News](https://www.sportingnews.com/ca/soccer/news/belgium-game-winning-penalty-comeback-senegal-world-cup/922c20678387cb2730557ed2)",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.latimes.com/archives/la-xpm-1986-06-23-sp-20021-story.html",
+            "https://www.sportingnews.com/ca/soccer/news/belgium-game-winning-penalty-comeback-senegal-world-cup/922c20678387cb2730557ed2"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "西班牙背負世界盃史上最差點球大戰紀錄（20%勝率），2022年16強遭摩洛哥全隊罰球零進帳淘汰的心理創傷尤為深刻，是本屆賽事公開討論的話題；正面因素是門將Unai Simón在Euro 2024八強對瑞士的點球大戰中連撲兩球助西班牙晉級，證明其個人具備大賽點球臨場能力，且本屆西班牙已在16強對葡萄牙一役展現正規時間絕殺能力（Merino 91分鐘制勝），打破近年「不靠點球/絕殺難以晉級」的心理魔咒，情況較2022年時有所改善，[Opta Analyst](https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts)、[Wikipedia Unai Simón](https://en.wikipedia.org/wiki/Unai_Sim%C3%B3n)、[AS USA](https://en.as.com/soccer/world-cup/how-many-penalties-has-unai-simon-saved-the-spanish-goalkeepers-success-rate-f202607-n/)",
+        "away": "比利時點球大戰樣本量極小（僅1戰），無法得出可靠心理素質結論，唯一紀錄的1986年勝利對手正是本場對手西班牙，帶有些許歷史趣味性但實際參考價值有限；門將Courtois為世界級球員，個人心理素質備受認可，但缺乏公開確證的世界盃點球撲救統計，保守處理，[Wikipedia點球大戰列表](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs)"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "米克爾·奧亞爾薩瓦爾 (Mikel Oyarzabal)",
+          "record": "現任西班牙隊內確認的主罰球員之一，惟未見公開確證的世界盃點球大戰個人命中率數字，保守處理，[Khel Now主罰球員名單](https://www.khelnow.com)"
+        },
+        {
+          "team": "home",
+          "name_zh": "烏奈·西蒙 (Unai Simón)",
+          "record": "門將，Euro 2024八強對瑞士點球大戰連撲兩球，個人生涯點球撲救率遠高於一般水準（正規比賽撲救率約17.8%，點球大戰情境下明顯提升），[AS USA](https://en.as.com/soccer/world-cup/how-many-penalties-has-unai-simon-saved-the-spanish-goalkeepers-success-rate-f202607-n/)、[Wikipedia](https://en.wikipedia.org/wiki/Unai_Sim%C3%B3n)"
+        },
+        {
+          "team": "away",
+          "name_zh": "凱文·德布勞內 (Kevin De Bruyne)",
+          "record": "隊內經驗最豐富的球員之一，歷史上曾為比利時主罰重要點球，但無公開確證的世界盃點球大戰個人命中數字，保守填寫",
+          "sources": []
+        },
+        {
+          "team": "away",
+          "name_zh": "尤里·蒂勒曼斯 (Youri Tielemans)",
+          "record": "本屆32強對塞內加爾比賽中，於加時125分鐘罰入制勝點球（正規比賽內，非點球大戰），展現高壓下的主罰信心，[Sporting News](https://www.sportingnews.com/ca/soccer/news/belgium-game-winning-penalty-comeback-senegal-world-cup/922c20678387cb2730557ed2)"
+        },
+        {
+          "team": "away",
+          "name_zh": "羅梅盧·盧卡庫 (Romelu Lukaku)",
+          "record": "隊史世界盃最多入球紀錄保持者，經驗豐富，但無公開確證的世界盃點球大戰個人命中率數字，保守處理",
+          "sources": []
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "西班牙90分鐘及加時晉級機率合計約83%，被拖入點球大戰機率約9%，屬中等風險；然而西班牙世界盃點球大戰史上戰績僅20%勝率（5戰1勝），且2022年正是被本場類似對手類型（防守反擊型球隊）淘汰的心理創傷，若真的進入點球輪存在真實爆冷可能，惟比利時本身點球大戰樣本過小（僅1場），難以評估其真實威脅程度，[Opta Analyst](https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts)、[SI](https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record)"
+    }
+  },
+  "reasoning": {
+    "summary": "西班牙憑藉本屆賽事最強防守紀錄（5戰零失球）與更全面的陣容深度，在絕大部分博彩盤口與統計模型中均被視為明顯優勢方（90分鐘勝率約60-65%）。比利時雖擁有De Bruyne、Lukaku等具備豐富大賽經驗的球員，且本屆多次靠替補奇兵逆轉戰局，但核心中場Onana傷退將削弱其攻防轉換能力。整體預測西班牙以2:0或1:0取勝晉級，點球風險屬中等，主要來自西班牙自身歷史上極差的點球大戰紀錄。",
+    "key_factors": [
+      "西班牙本屆5戰零失球，是唯一未曾被進球的球隊，防守穩定性全項最強，[Squawka](https://www.squawka.com/ca/news/world-cup/match-preview-spain-vs-belgium-world-cup-2026-quarterfinals/)",
+      "西班牙16強憑Mikel Merino 91分鐘絕殺淘汰葡萄牙（終結C羅世界盃生涯），顯示球隊在膠著局面下仍具備制勝一擊的能力，[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)",
+      "西班牙鋒線Nico Williams（右側內收肌傷）與Yéremy Pino（鎖骨傷，可能缺席賽事餘下賽程）均為傷病疑雲，未曾在任何淘汰賽登場，[ESPN傷病追蹤](https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium)",
+      "比利時中場核心Amadou Onana於16強對美國一戰十字韌帶斷裂，確認缺席賽事餘下賽程，對比利時中場攻防轉換造成重大打擊，[ESPN傷病追蹤](https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium)",
+      "比利時本屆屢次依靠替補球員（Lukaku、Tielemans）逆轉戰局，16強對美國4-1大勝、32強對塞內加爾加時絕殺，展現板凳深度與臨場應變能力，[Al Jazeera](https://www.aljazeera.com/news/2026/6/27/belgium-new-zealand-fifa-world-cup-2026-trossard-lukaku-de-bruyne-saelemaekers)、[Sporting News](https://www.sportingnews.com/ca/soccer/news/belgium-game-winning-penalty-comeback-senegal-world-cup/922c20678387cb2730557ed2)",
+      "西班牙背負世界盃史上最差點球大戰紀錄（20%勝率，5戰僅1勝），2022年正是被摩洛哥全隊罰球零進帳淘汰，此心理陰影在本場對陣防守型對手的比賽中仍具參考價值，[Opta Analyst](https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts)",
+      "ESPN專家（Becherano、Carlisle）與多數博彩商一致看好西班牙取勝，但均強調比賽會比賠率顯示的更為緊湊，[ESPN](https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland)、[USA Today](https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/06/spain-belgium-world-cup-prediction-analysis-odds/90829421007/)"
+    ],
+    "consensus_lean": "home",
+    "dissent": "目前主流媒體與盤口均未見明確看好比利時取勝的專家意見，惟多篇分析（包括Reddit討論串）均提醒比利時具備逆轉基因與大賽經驗豐富的核心球員（De Bruyne、Lukaku），且西班牙歷史級差劣的點球大戰紀錄使得若比賽拖長，結果仍存不確定性，[Reddit r/football](https://www.reddit.com/r/football/comments/1upi0on/spain_vs_belgium_quarterfinal_how_are_we_feeling/)"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/06/spain-belgium-world-cup-prediction-analysis-odds/90829421007/"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium"
+    },
+    {
+      "type": "model",
+      "name": "squawka.com",
+      "url": "https://www.squawka.com/ca/news/world-cup/match-preview-spain-vs-belgium-world-cup-2026-quarterfinals/"
+    },
+    {
+      "type": "betting",
+      "name": "sportskeeda.com",
+      "url": "https://www.sportskeeda.com/football/spain-vs-belgium-prediction-betting-tips-july-10th-2026"
+    },
+    {
+      "type": "betting",
+      "name": "juvefc.com",
+      "url": "https://www.juvefc.com/world-cup-quarter-final-spain-belgium-predictions/"
+    },
+    {
+      "type": "media",
+      "name": "sportingnews.com",
+      "url": "https://www.sportingnews.com/uk/football/news/world-cup-bracket-predictions-2026-expert-picks-quarterfinals/16fef993e6fb0a09e89ca224"
+    },
+    {
+      "type": "betting",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/odds/_/gameId/760511"
+    },
+    {
+      "type": "betting",
+      "name": "realgm.com",
+      "url": "https://basketball.realgm.com/betting/picks/belgium-vs-spain-prediction-07-10-2026/"
+    },
+    {
+      "type": "market",
+      "name": "defirate.com",
+      "url": "https://defirate.com/prediction-markets/world-cup-odds/"
+    },
+    {
+      "type": "kol",
+      "name": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=3Gs1q5FcVCc"
+    },
+    {
+      "type": "media",
+      "name": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/6/27/belgium-new-zealand-fifa-world-cup-2026-trossard-lukaku-de-bruyne-saelemaekers"
+    },
+    {
+      "type": "media",
+      "name": "reuters.com",
+      "url": "https://www.reuters.com/sports/soccer/belgium-burst-into-life-world-cup-with-de-bruynes-masterclass-against-new-2026-06-27/"
+    },
+    {
+      "type": "media",
+      "name": "skysports.com",
+      "url": "https://www.skysports.com/football/news/29908/13556698/world-cup-2026-new-zealand-1-5-belgium-leandro-trossards-double-helps-red-devils-reach-knockout-stages"
+    },
+    {
+      "type": "media",
+      "name": "ndtv.com",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-2026-lukaku-becomes-belgiums-all-time-wc-top-scorer-11694294"
+    },
+    {
+      "type": "media",
+      "name": "onmanorama.com",
+      "url": "https://www.onmanorama.com/sports/football/2026/07/02/fifa-world-cup-2026-round-of-32-belgium-vs-senegal-live.html"
+    },
+    {
+      "type": "media",
+      "name": "sportingnews.com",
+      "url": "https://www.sportingnews.com/ca/soccer/news/belgium-game-winning-penalty-comeback-senegal-world-cup/922c20678387cb2730557ed2"
+    },
+    {
+      "type": "media",
+      "name": "usatoday.com",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/08/power-ranking-world-cup-teams-championship-odds-france-argentina/90847642007/"
+    },
+    {
+      "type": "media",
+      "name": "nytimes.com (The Athletic)",
+      "url": "https://www.nytimes.com/athletic/interactive/fifa-world-cup-stars-of-soccer-2026/player/thibaut-courtois-belgium-goalkeeper/"
+    },
+    {
+      "type": "media",
+      "name": "standard.co.uk",
+      "url": "https://www.standard.co.uk/sport/football/belgium-xi-vs-senegal-starting-lineup-confirmed-team-news-injury-latest-world-cup-2026-b1288185.html"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-my/lists/belgium-squad-world-cup-2026/blta2cd8122b495e6df"
+    },
+    {
+      "type": "media",
+      "name": "the-goalpost.com",
+      "url": "https://the-goalpost.com/journal/belgium-world-cup-2026-squad"
+    },
+    {
+      "type": "media",
+      "name": "espn.com",
+      "url": "https://www.espn.com/soccer/team/squad/_/id/459/league/FIFA.WORLD"
+    },
+    {
+      "type": "media",
+      "name": "en.as.com",
+      "url": "https://en.as.com/soccer/world-cup/how-many-penalties-has-unai-simon-saved-the-spanish-goalkeepers-success-rate-f202607-n/"
+    },
+    {
+      "type": "media",
+      "name": "news.williamhill.com",
+      "url": "https://news.williamhill.com/football/world-cup/penalty-shootout-records/"
+    },
+    {
+      "type": "media",
+      "name": "si.com",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "type": "media",
+      "name": "theanalyst.com (Opta Analyst)",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "type": "media",
+      "name": "90min.com",
+      "url": "https://www.90min.com/posts/which-world-cup-team-is-the-worst-at-penalty-shootouts"
+    },
+    {
+      "type": "official",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+    },
+    {
+      "type": "official",
+      "name": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/wiki/Unai_Sim%C3%B3n"
+    },
+    {
+      "type": "media",
+      "name": "latimes.com",
+      "url": "https://www.latimes.com/archives/la-xpm-1986-06-23-sp-20021-story.html"
+    },
+    {
+      "type": "media",
+      "name": "sportstar.thehindu.com",
+      "url": "https://sportstar.thehindu.com/football/spain-vs-germany-euro-2024-quarterfinal-record-of-spanish-goalkeeper-unai-simon-esp-v-ger-penalty-shootout/article68372535.ece"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/football)",
+      "url": "https://www.reddit.com/r/football/comments/1upi0on/spain_vs_belgium_quarterfinal_how_are_we_feeling/"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/soccer)",
+      "url": "https://www.reddit.com/r/soccer/comments/1uphggs/belgium_will_face_spain_in_the_quarterfinals_on/"
+    },
+    {
+      "type": "forum",
+      "name": "reddit.com (r/Fauxmoi)",
+      "url": "https://www.reddit.com/r/Fauxmoi/comments/1upa6up/spain_advances_to_the_quarterfinals_of_the_world/"
+    },
+    {
+      "type": "media",
+      "name": "goal.com",
+      "url": "https://www.goal.com/en-ca/news/spain-belgium-world-cup-preview/blt1a7a9e35c22bbc19"
+    },
+    {
+      "type": "media",
+      "name": "nbcsports.com",
+      "url": "https://www.nbcsports.com/soccer/news/which-world-cup-teams-are-most-at-risk-to-yellow-card-suspensions-for-key-players-what-are-the-rules"
+    }
+  ],
+  "source_count": 37,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.22,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "西班牙整體技術與中場控制力佔優，晉級八強態勢穩。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "西班牙整體戰術更成熟，比利時老化嚴重，主隊有望小勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "西班牙控球優勢明顯，比利時反擊犀利，最終鬥牛士軍團小勝晉級。"
+    },
+    {
+      "source": "OpenAI GPT-5.1 Thinking",
+      "kind": "ai",
+      "model_id": "openai/gpt-5.1-thinking",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "西班牙控球優勢明顯，小勝比利時晉級機會更高"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.5,
+        "draw": 0.28,
+        "away": 0.22
+      },
+      "scoreline": "2:1",
+      "note": "西班牙的控球優勢與年輕活力將壓制比利時防線，小勝晉級。"
+    },
+    {
+      "source": "xAI Grok 4.20 Reasoning",
+      "kind": "ai",
+      "model_id": "xai/grok-4.20-reasoning",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
+      },
+      "scoreline": "2:1",
+      "note": "西班牙實力占優，主場優勢下預計勝出。"
+    },
+    {
+      "source": "Z.ai GLM-4.7",
+      "kind": "ai",
+      "model_id": "zai/glm-4.7",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "西班牙控球優勢明顯，比利時難以招架。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.54,
+      "draw": 0.257,
+      "away": 0.203
+    },
+    "models_used": 8,
+    "logic": "綜合 8 個模型（本站 Sonnet 4.6 + 7 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-09T051904Z"
+}

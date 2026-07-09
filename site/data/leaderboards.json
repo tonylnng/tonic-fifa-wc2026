@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-06T05:13:16Z",
+  "last_updated": "2026-07-09T05:13:06Z",
   "scorers": [
+    {
+      "id": "ARG-messi",
+      "name_zh": "美斯",
+      "name_en": "Lionel Messi",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 8,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "NOR-haaland",
       "name_zh": "夏蘭特",
@@ -19,18 +31,6 @@
       "name_en": "Kylian Mbappé",
       "team_zh": "法國",
       "team": "France",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 7,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "ARG-messi",
-      "name_zh": "美斯",
-      "name_en": "Lionel Messi",
-      "team_zh": "阿根廷",
-      "team": "Argentina",
       "position": "FW",
       "shirt_no": 10,
       "goals": 7,
@@ -266,6 +266,18 @@
       "red_cards": 0
     },
     {
+      "id": "BEL-lukaku",
+      "name_zh": "盧卡古",
+      "name_en": "Romelu Lukaku",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "USA-balogun",
       "name_zh": "福拉林·巴洛根",
       "name_en": "Folarin Balogun",
@@ -326,6 +338,18 @@
       "red_cards": 0
     },
     {
+      "id": "BEL-deketelaere",
+      "name_zh": "查爾斯·德·凱特拉爾",
+      "name_en": "Charles De Ketelaere",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "COL-munoz",
       "name_zh": "穆紐斯",
       "name_en": "Daniel Muñoz",
@@ -368,6 +392,18 @@
       "team_zh": "比利時",
       "team": "Belgium",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-zico",
+      "name_zh": "穆斯塔法·齊科",
+      "name_en": "Mostafa Mohamed Zaky Abdelraouf",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "MF",
       "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
@@ -506,6 +542,18 @@
       "red_cards": 0
     },
     {
+      "id": "USA-tillman",
+      "name_zh": "馬利克·蒂爾曼",
+      "name_en": "Malik Tillman",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "AUT-arnautovic",
       "name_zh": "阿諾圖域",
       "name_en": "Marko Arnautović",
@@ -525,18 +573,6 @@
       "team": "Ivory Coast",
       "position": "FW",
       "shirt_no": null,
-      "goals": 2,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "BEL-lukaku",
-      "name_zh": "盧卡古",
-      "name_en": "Romelu Lukaku",
-      "team_zh": "比利時",
-      "team": "Belgium",
-      "position": "FW",
-      "shirt_no": 9,
       "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
@@ -722,6 +758,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-romerocristian",
+      "name_zh": "基斯坦·羅美路",
+      "name_en": "Cristian Romero",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "DF",
+      "shirt_no": 13,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "JPN-maeda",
       "name_zh": "前田大然",
       "name_en": "Daizen Maeda",
@@ -789,6 +837,18 @@
       "team": "Uzbekistan",
       "position": "FW",
       "shirt_no": 14,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-fernandez",
+      "name_zh": "恩素·費南德斯",
+      "name_en": "Enzo Fernández",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": 24,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -884,6 +944,18 @@
       "team_zh": "葡萄牙",
       "team": "Portugal",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-vanaken",
+      "name_zh": "漢斯·瓦納肯",
+      "name_en": "Hans Vanaken",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "MF",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -1166,18 +1238,6 @@
       "red_cards": 0
     },
     {
-      "id": "USA-tillman",
-      "name_zh": "馬利克·蒂爾曼",
-      "name_en": "Malik Tillman",
-      "team_zh": "美國",
-      "team": "USA",
-      "position": "MF",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "NOR-pedersen",
       "name_zh": "馬庫斯·霍姆格倫·佩德森",
       "name_en": "Marcus Holmgren Pedersen",
@@ -1274,6 +1334,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-merino",
+      "name_zh": "米克爾·梅里諾",
+      "name_en": "Mikel Merino",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "EGY-salah",
       "name_zh": "薩拿",
       "name_en": "Mohamed Salah",
@@ -1293,18 +1365,6 @@
       "team": "Iran",
       "position": "MF",
       "shirt_no": 8,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "EGY-zico",
-      "name_zh": "穆斯塔法·齊科",
-      "name_en": "Mostafa Mohamed Zaky Abdelraouf",
-      "team_zh": "埃及",
-      "team": "Egypt",
-      "position": "MF",
-      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1617,6 +1677,18 @@
       "team": "Haiti",
       "position": "FW",
       "shirt_no": 11,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-ibrahimyasser",
+      "name_zh": "亞西爾·易卜拉欣",
+      "name_en": "Yasser Ibrahim",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "DF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -2128,6 +2200,18 @@
       "red_cards": 0
     },
     {
+      "id": "POR-silva",
+      "name_zh": "伯納度·施華",
+      "name_en": "Bernardo Silva",
+      "team_zh": "葡萄牙",
+      "team": "Portugal",
+      "position": "MF",
+      "shirt_no": 10,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "GHA-yirenkyi",
       "name_zh": "卡萊布·伊倫恩基",
       "name_en": "Caleb Yirenkyi",
@@ -2170,6 +2254,18 @@
       "team_zh": "巴西",
       "team": "Brazil",
       "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "id": "SUI-zakaria",
+      "name_zh": "丹尼斯·薩卡利亞",
+      "name_en": "Denis Zakaria",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "MF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 2,
@@ -2464,18 +2560,6 @@
       "red_cards": 0
     },
     {
-      "id": "POR-silva",
-      "name_zh": "伯納度·施華",
-      "name_en": "Bernardo Silva",
-      "team_zh": "葡萄牙",
-      "team": "Portugal",
-      "position": "MF",
-      "shirt_no": 10,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
       "id": "MAR-khannouss",
       "name_zh": "比拉爾·卡諾斯",
       "name_en": "Bilal El Khannouss",
@@ -2632,6 +2716,18 @@
       "red_cards": 0
     },
     {
+      "id": "COL-sanchez",
+      "name_zh": "大文遜·森齊斯",
+      "name_en": "Davinson Sánchez",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "DF",
+      "shirt_no": 23,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ENG-rice",
       "name_zh": "迪基蘭·萊斯",
       "name_en": "Declan Rice",
@@ -2639,18 +2735,6 @@
       "team": "England",
       "position": "MF",
       "shirt_no": 4,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "SUI-zakaria",
-      "name_zh": "丹尼斯·薩卡利亞",
-      "name_en": "Denis Zakaria",
-      "team_zh": "瑞士",
-      "team": "Switzerland",
-      "position": "MF",
-      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2836,6 +2920,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-torresferran",
+      "name_zh": "費蘭·托雷斯",
+      "name_en": "Ferran Torres",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SCO-curtis",
       "name_zh": "芬德萊·柯蒂斯",
       "name_en": "Findlay Curtis",
@@ -2950,6 +3046,18 @@
       "team_zh": "埃及",
       "team": "Egypt",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-fathihamdi",
+      "name_zh": "哈姆迪·法蒂",
+      "name_en": "Hamdi Fathi",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "DF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -3496,6 +3604,18 @@
       "red_cards": 0
     },
     {
+      "id": "COL-suarezluis",
+      "name_zh": "路易斯·蘇亞雷斯",
+      "name_en": "Luis Suárez",
+      "team_zh": "哥倫比亞",
+      "team": "Colombia",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CRO-modric",
       "name_zh": "摩迪歷",
       "name_en": "Luka Modrić",
@@ -3528,6 +3648,18 @@
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "USA-tillman",
+      "name_zh": "馬利克·蒂爾曼",
+      "name_en": "Malik Tillman",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3575,6 +3707,18 @@
       "team": "New Zealand",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-ateya",
+      "name_zh": "馬爾旺·阿蒂亞",
+      "name_en": "Marwan Ateya",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -3676,6 +3820,18 @@
       "red_cards": 0
     },
     {
+      "id": "SUI-muheim",
+      "name_zh": "米羅·穆海姆",
+      "name_en": "Miro Muheim",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "KSA-kanno",
       "name_zh": "穆罕默德·卡諾",
       "name_en": "Mohamed Kanno",
@@ -3718,6 +3874,18 @@
       "team_zh": "約旦",
       "team": "Jordan",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "EGY-shobeir",
+      "name_zh": "穆斯塔法·舒貝爾",
+      "name_en": "Mostafa Shobeir",
+      "team_zh": "埃及",
+      "team": "Egypt",
+      "position": "GK",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -3868,6 +4036,18 @@
       "red_cards": 0
     },
     {
+      "id": "POR-veiga",
+      "name_zh": "雷納托·維加",
+      "name_en": "Renato Veiga",
+      "team_zh": "葡萄牙",
+      "team": "Portugal",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CAN-laryea",
       "name_zh": "李奇·拉里亞",
       "name_en": "Richie Laryea",
@@ -3911,7 +4091,7 @@
       "team": "Belgium",
       "position": "FW",
       "shirt_no": 9,
-      "goals": 2,
+      "goals": 3,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -4096,6 +4276,18 @@
       "red_cards": 0
     },
     {
+      "id": "USA-mckennie",
+      "name_zh": "韋斯頓·麥堅尼",
+      "name_en": "Weston McKennie",
+      "team_zh": "美國",
+      "team": "USA",
+      "position": "MF",
+      "shirt_no": 8,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "SWE-ayari",
       "name_zh": "亞辛·阿亞里",
       "name_en": "Yasin Ayari",
@@ -4181,9 +4373,9 @@
     }
   ],
   "totals": {
-    "players": 497,
-    "goals": 255,
-    "yellow_cards": 189,
+    "players": 508,
+    "goals": 266,
+    "yellow_cards": 201,
     "red_cards": 12
   }
 }
