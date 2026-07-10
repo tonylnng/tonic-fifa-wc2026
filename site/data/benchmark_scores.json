@@ -1,8 +1,8 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-09T05:19:17Z",
-  "total_matches_scored": 85,
-  "max_match_completed": 96,
+  "last_updated": "2026-07-10T05:14:16Z",
+  "total_matches_scored": 86,
+  "max_match_completed": 97,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -36,13 +36,13 @@
     {
       "source": "Google Gemini 3.1 Pro",
       "kind": "ai",
-      "evaluated": 77,
-      "outcome_correct": 54,
-      "outcome_accuracy": 0.7013,
-      "exact_correct": 11,
-      "exact_accuracy": 0.1429,
-      "brier_score": 0.2289,
-      "latest_match": 96,
+      "evaluated": 78,
+      "outcome_correct": 55,
+      "outcome_accuracy": 0.7051,
+      "exact_correct": 12,
+      "exact_accuracy": 0.1538,
+      "brier_score": 0.2278,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -1199,19 +1199,34 @@
           "final_outcome": "draw",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.62,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 81,
-      "outcome_correct": 55,
-      "outcome_accuracy": 0.679,
+      "evaluated": 82,
+      "outcome_correct": 56,
+      "outcome_accuracy": 0.6829,
       "exact_correct": 10,
-      "exact_accuracy": 0.1235,
-      "brier_score": 0.2296,
-      "latest_match": 96,
+      "exact_accuracy": 0.122,
+      "brier_score": 0.2288,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -2428,19 +2443,34 @@
           "final_outcome": "draw",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.6,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "OpenAI GPT-5.1 Thinking",
       "kind": "ai",
-      "evaluated": 77,
-      "outcome_correct": 52,
-      "outcome_accuracy": 0.6753,
-      "exact_correct": 6,
-      "exact_accuracy": 0.0779,
-      "brier_score": 0.2281,
-      "latest_match": 96,
+      "evaluated": 78,
+      "outcome_correct": 53,
+      "outcome_accuracy": 0.6795,
+      "exact_correct": 7,
+      "exact_accuracy": 0.0897,
+      "brier_score": 0.2269,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -3597,19 +3627,34 @@
           "final_outcome": "draw",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.63,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 81,
-      "outcome_correct": 54,
-      "outcome_accuracy": 0.6667,
+      "evaluated": 82,
+      "outcome_correct": 55,
+      "outcome_accuracy": 0.6707,
       "exact_correct": 11,
-      "exact_accuracy": 0.1358,
-      "brier_score": 0.2308,
-      "latest_match": 96,
+      "exact_accuracy": 0.1341,
+      "brier_score": 0.2295,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -4826,19 +4871,34 @@
           "final_outcome": "draw",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.65,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "Z.ai GLM-4.7",
       "kind": "ai",
-      "evaluated": 77,
-      "outcome_correct": 50,
-      "outcome_accuracy": 0.6494,
+      "evaluated": 78,
+      "outcome_correct": 51,
+      "outcome_accuracy": 0.6538,
       "exact_correct": 11,
-      "exact_accuracy": 0.1429,
-      "brier_score": 0.2333,
-      "latest_match": 96,
+      "exact_accuracy": 0.141,
+      "brier_score": 0.2318,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -5995,19 +6055,34 @@
           "final_outcome": "draw",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.65,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "AI（本站主預測）",
       "kind": "ai",
-      "evaluated": 85,
-      "outcome_correct": 55,
-      "outcome_accuracy": 0.6471,
+      "evaluated": 86,
+      "outcome_correct": 56,
+      "outcome_accuracy": 0.6512,
       "exact_correct": 8,
-      "exact_accuracy": 0.0941,
-      "brier_score": 0.2087,
-      "latest_match": 96,
+      "exact_accuracy": 0.093,
+      "brier_score": 0.2084,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -7284,19 +7359,34 @@
           "final_outcome": "draw",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.72,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 81,
-      "outcome_correct": 52,
-      "outcome_accuracy": 0.642,
-      "exact_correct": 10,
-      "exact_accuracy": 0.1235,
-      "brier_score": 0.2271,
-      "latest_match": 96,
+      "evaluated": 82,
+      "outcome_correct": 53,
+      "outcome_accuracy": 0.6463,
+      "exact_correct": 11,
+      "exact_accuracy": 0.1341,
+      "brier_score": 0.2256,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -8513,19 +8603,34 @@
           "final_outcome": "draw",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.68,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "xAI Grok 4.20 Reasoning",
       "kind": "ai",
-      "evaluated": 77,
-      "outcome_correct": 49,
-      "outcome_accuracy": 0.6364,
+      "evaluated": 78,
+      "outcome_correct": 50,
+      "outcome_accuracy": 0.641,
       "exact_correct": 9,
-      "exact_accuracy": 0.1169,
-      "brier_score": 0.232,
-      "latest_match": 96,
+      "exact_accuracy": 0.1154,
+      "brier_score": 0.2309,
+      "latest_match": 97,
       "stale": false,
       "matches": [
         {
@@ -9681,6 +9786,21 @@
           "final_scoreline": "0:0",
           "final_outcome": "draw",
           "outcome_hit": false,
+          "exact_hit": false
+        },
+        {
+          "match": 97,
+          "stage": "Quarter-final",
+          "home": "France",
+          "away": "Morocco",
+          "home_zh": "法國",
+          "away_zh": "摩洛哥",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.62,
+          "final_scoreline": "2:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
           "exact_hit": false
         }
       ]

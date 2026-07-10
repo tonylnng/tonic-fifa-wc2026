@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-07-09T05:19:17Z",
+  "last_updated": "2026-07-10T05:14:16Z",
   "metrics": {
-    "total_evaluated": 85,
-    "outcome_correct": 55,
-    "outcome_accuracy": 0.6471,
+    "total_evaluated": 86,
+    "outcome_correct": 56,
+    "outcome_accuracy": 0.6512,
     "exact_score_correct": 8,
-    "exact_score_accuracy": 0.0941
+    "exact_score_accuracy": 0.093
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -23,6 +23,11 @@
       "evaluated": 17,
       "outcome_correct": 12,
       "exact_correct": 4
+    },
+    "Quarter-final": {
+      "evaluated": 1,
+      "outcome_correct": 1,
+      "exact_correct": 0
     }
   },
   "evaluations": [
@@ -1045,6 +1050,18 @@
       "outcome_correct": false,
       "exact_correct": false,
       "run_id": "2026-07-06T0500Z"
+    },
+    {
+      "match": 97,
+      "home": "France",
+      "away": "Morocco",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-09T0500Z"
     }
   ]
 }

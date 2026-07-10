@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-09T05:13:06Z",
+  "last_updated": "2026-07-10T05:08:39Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -4605,18 +4605,17 @@
       "is_key": true,
       "bio_zh": "效力巴黎聖日耳門的速度型翼鋒，突破靈活多變，過人技術令後衛難以應付，是法國進攻的重要利器。",
       "stats": {
-        "goals": 4,
+        "goals": 5,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           42,
-          62
+          62,
+          97
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760475",
-        "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
-        "https://terrikon.com/en/football/matches/156682"
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -4652,22 +4651,19 @@
       "is_key": true,
       "bio_zh": "法國隊長，效力皇家馬德里的世界頂級前鋒，速度奇快，入球能力無與倫比，被譽為當今世界最佳球員。",
       "stats": {
-        "goals": 7,
+        "goals": 8,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           17,
           42,
           77,
-          89
+          89,
+          97
         ]
       },
       "sources": [
-        "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
-        "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
-        "https://www.espn.com/soccer/report/_/gameId/760503",
-        "https://www.espn.com/soccer/story/_/id/49271796/kylian-mbappe-penalty-leads-france-paraguay-world-cup",
-        "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis"
+        "https://www.espn.com/soccer/"
       ]
     },
     {
@@ -7262,16 +7258,16 @@
       "bio_zh": "",
       "stats": {
         "goals": 1,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
           30,
-          75
+          75,
+          97
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/report/_/gameId/760488",
-        "https://www.espn.com/soccer/story/_/id/49220087/netherlands-morocco-live-world-cup-2026-latest-updates-commentary-score-result"
+        "https://www.espn.com/soccer/"
       ]
     },
     {

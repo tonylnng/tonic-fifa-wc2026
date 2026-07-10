@@ -66,6 +66,11 @@
       "at_hkt": "2026-07-09 00:15",
       "credit_used": 68937.69,
       "note": "使用者手動提供（record checking，監控排程已停）"
+    },
+    {
+      "at_hkt": "2026-07-09 17:30",
+      "credit_used": 70444.78,
+      "note": "exec scheduled job (7/9 13:00 run completed)"
     }
   ]
 }

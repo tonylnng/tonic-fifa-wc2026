@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-09T05:10:40Z",
+  "last_updated": "2026-07-10T05:08:29Z",
   "postmortems": [
     {
       "match": 5,
@@ -2277,6 +2277,33 @@
       ],
       "vs_benchmarks": "AI與市場對本場皆呈高度分歧、低信心，無一方有把握；本站已預警點球風險high並給低信心，雖勝負未中，但對比賽性質（膠著、進點球）的判斷優於一般盤口。",
       "generated_at": "2026-07-09T05:10:40Z"
+    },
+    {
+      "match": 97,
+      "home": "France",
+      "away": "Morocco",
+      "stage": "Quarter-final",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "2:0",
+      "actual_outcome": "home",
+      "verdict": "outcome",
+      "run_id": "2026-07-10T0500Z",
+      "headline": "法國 2:0 完勝摩洛哥晉級四強，姆巴佩罰失十二碼仍與登貝萊各入一球",
+      "review": "7/9賽前預測法國2:1主勝、晉級機率80%，實際結果為法國2:0取勝晉級，方向完全命中（outcome=home），且比分落點與預測的第二高機率選項「2:0」（機率17%）一致，屬高品質命中。關鍵轉折在於姆巴佩上半場28分鐘罰失被布諾撲出的十二碼，一度讓賽事保持緊張的0:0悶局，符合預測中「摩洛哥防守韌性可能拖入僵局」的風險評估；但姆巴佩隨後在60分鐘及登貝萊66分鐘連續破網，展現法國板凳深度與個人能力優勢，印證預測強調的「攻擊力全項最強」論點。點球維度方面，預測給出加時機率24%、點球機率10%，實際90分鐘內分出勝負，未進入加時或點球階段，摩洛哥門將布諾雖撲出點球展現其撲點球專長，但未能改變比賽走向，此維度評估雖未實測但方向合理、未造成誤判。整體預測邏輯與結果高度吻合。",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france",
+        "https://www.nbcsports.com/soccer/live/france-vs-morocco-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-9",
+        "https://www.skysports.com/football/france-vs-morocco/549862",
+        "https://www.standard.co.uk/sport/football/france-vs-morocco-live-stream-latest-score-updates-result-world-cup-2026-b1289392.html",
+        "https://www.sportingnews.com/uk/football/news/france-vs-morocco-world-cup-live-score-result-highlights/a0d41df4230ef570de16a219",
+        "https://bolavip.com/en/world-cup/france-vs-morocco-live-2026-world-cup-quarterfinals-in-boston",
+        "https://sports.ndtv.com/fifa-world-cup-2026/france-vs-morocco-fifa-world-cup-quarter-final-fra-v-mar-live-score-updates-live-streaming-football-kylian-mbappe-michael-olise-achraf-hakimi-11751007",
+        "https://www.footlive.com/score/france-vs-morocco-2026-07-09/"
+      ],
+      "outcome_correct": true,
+      "exact_correct": false,
+      "generated_at": "2026-07-10T05:08:29Z"
     }
   ]
 }

@@ -1,0 +1,256 @@
+{
+  "match": 98,
+  "home": "Spain",
+  "away": "Belgium",
+  "stage": "Quarter-final",
+  "kickoff_utc": "2026-07-10T19:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-07-10T0500Z",
+  "source_count": 11,
+  "sources": [
+    "https://www.squawka.com/ca/news/world-cup/match-preview-spain-vs-belgium-world-cup-2026-quarterfinals/",
+    "https://www.sports-king.com/contests/spain-vs-belgium-world-cup-betting/",
+    "https://www.oddssafari.com/matches/soccer/world-cup/spain-vs-belgium/2270613",
+    "https://theanalyst.com/articles/world-cup-2026-quarter-final-predictions-opta-supercomputer",
+    "https://worldcup2026odds.com/spain-vs-belgium/",
+    "https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland",
+    "https://www.espn.com.au/football/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium",
+    "https://www.youtube.com/watch?v=wZMuwuK2o4c",
+    "https://sicscore.com/news/fifa-world-cup-injury-tracker-for-the-quarterfinals",
+    "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts",
+    "https://polymarket.com/sports/world-cup/fifwc-esp-bel-2026-07-10"
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreline": "2:0",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.61,
+      "draw": 0.23,
+      "away": 0.16
+    },
+    "confidence": 0.72,
+    "top_scorelines": [
+      {
+        "scoreline": "2:0",
+        "prob": 0.16
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.15
+      },
+      {
+        "scoreline": "3:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.72,
+        "basis": "Squawka模型與博彩盤口一致：西班牙64%單場勝率，五戰零封的防線對上老化的比利時後防"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "1:0",
+        "outcome": "home",
+        "confidence": 0.68,
+        "basis": "Bet365等主流盤口西班牙90分鐘勝率約61%，大小球盤面偏向Under 2.5，暗示低比分西班牙勝"
+      },
+      {
+        "name": "保守情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.45,
+        "basis": "比利時鋒線火力（近三場12球）具備隨時擊穿防線的能力，若德凱特拉爾/多庫發揮，可迫和進入加時"
+      },
+      {
+        "name": "爆冷情境",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.18,
+        "basis": "庫爾圖瓦門將經驗豐富，若盧卡庫替補建功，比利時有反擊致勝的劇本"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Bet365",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.62,
+          "draw": 0.257,
+          "away": 0.181
+        },
+        "scoreline": "1:0",
+        "note": "Bet365全場勝負盤：西班牙1.61、賽和3.9、比利時5.5（隱含機率經標準化）"
+      },
+      {
+        "source": "Pinnacle",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.618,
+          "draw": 0.246,
+          "away": 0.172
+        },
+        "note": "Pinnacle賠率西班牙1.62、賽和4.06、比利時5.80，低抽水盤口"
+      },
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.64,
+          "draw": 0.22,
+          "away": 0.14
+        },
+        "note": "Opta模擬中西班牙奪冠機率21.3%遠高於比利時3.6%，反映本場實力差距；Squawka模型單場勝率64%"
+      },
+      {
+        "source": "Kalshi/DraftKings 綜合",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.602,
+          "draw": 0.225,
+          "away": 0.173
+        },
+        "note": "Kalshi預測市場西班牙61%、賽和24%、比利時18%；DraftKings隱含約60.2%"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.23,
+      "extra_time_prob": 0.23,
+      "shootout_prob": 0.11,
+      "advance_prob": {
+        "home": 0.87,
+        "away": 0.13
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 5,
+          "won": 1,
+          "win_rate": 0.2,
+          "conversion_rate": null,
+          "recent": "西班牙近年大賽點球史慘烈：2018世界盃16強負俄羅斯(3-4)、2020歐洲盃四強負意大利(2-4)、2022世界盃16強負摩洛哥(0-3，全部罰失)；唯一近期勝績為2023國家聯賽決賽勝克羅地亞(5-4)。世界盃單項5戰僅1勝，敗仗數為賽事史上最多",
+          "sources": [
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts",
+            "https://www.fourfourtwo.com/competition/every-remaining-world-cup-2026-teams-penalty-shootout-record",
+            "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": 1.0,
+          "recent": "比利時大賽史上僅一次點球大戰，1986世界盃八強5-4擊敗西班牙晉級四強（當屆最終季軍），近40年未再遇點球大戰，五罰全中",
+          "sources": [
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts",
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs"
+          ]
+        }
+      },
+      "psychology": "西班牙近年大賽點球心理素質備受質疑，過去三次世界盃/歐洲盃淘汰賽點球連續落敗（2018俄羅斯、2020意大利、2022摩洛哥全隊罰失），門將西蒙尚未真正證明撲點能力，但2023年後半段已展現改善（國家聯賽決賽勝克羅地亞）；比利時雖點球史紀錄完美（1986年一次全勝），但當屆陣容與現在毫無關聯，經驗傳承幾近於零，現任門將庫爾圖瓦大賽撲點能力受認可但未經本屆點球實戰考驗。整體而言西班牙控球打法傾向避免拖入加時，比利時則可能樂於防守摆爛拖時間。",
+      "key_takers": {
+        "home": [
+          "Mikel Oyarzabal",
+          "Rodri",
+          "Pedri"
+        ],
+        "away": [
+          "Kevin De Bruyne",
+          "Romelu Lukaku",
+          "Youri Tielemans"
+        ]
+      },
+      "penalty_risk": "低",
+      "risk_note": "西班牙控球優勢明顯（本屆場均65.6%控球率）且五戰零封，比利時近三場攻擊力回升但後防漏洞多，90分鐘內分出勝負機率較高；若真的進入點球，西班牙近年戰績堪憂，反而讓比利時有一定機會靠點球爆冷，但這種情境發生率偏低。"
+    }
+  },
+  "reasoning": {
+    "summary": "西班牙憑藉本屆賽事最穩固的防線（五戰不失球）與中場控制力，加上比利時遭遇奧納納十字韌帶重傷的重大打擊，被博彩盤口、Opta模型與多方專家一致看好晉級四強。比賽預期呈現西班牙控球主導、低比分收場的格局，但比利時的反擊速度與德凱特拉爾/多庫的個人能力仍具威脅。",
+    "key_factors": [
+      "傷停名單：比利時中場核心奧納納十字韌帶撕裂，本場及賽季餘下賽事全部缺陣，是一大戰力損失；西班牙翼鋒尼哥·威廉斯與耶雷米·皮諾仍在管理傷勢中，回歸時間不明",
+      "近期狀態：西班牙淘汰賽兩連勝零封（奧地利、葡萄牙），控球率聯賽最高；比利時16強大勝美國4-1，但小組賽表現起伏不定",
+      "戰術對位：西班牙控球輾轉配合奧亞爾薩瓦爾/亞馬爾進攻端效率高，比利時仰賴德布勞內組織與盧卡庫/多庫反擊，若西班牙控球超過六成可能令比利時後防疲於奔命",
+      "門將表現：西班牙門將烏奈·西蒙本屆創下世界盃史上最長未失球紀錄，比利時庫爾圖瓦經驗豐富但年紀漸長",
+      "輿論共識：ESPN多位專家（Carlisle、Connelly、Dawson等）壓倒性預測西班牙2-0或以上獲勝，僅少數（Ogden）看好比利時爆冷",
+      "博彩盤口：主流盤口一致將西班牙列為明顯優勝方（隱含勝率60-64%），大小球盤偏向低於2.5球"
+    ],
+    "consensus_lean": "博彩市場、Opta模型與媒體專家高度一致看好西班牙以1-0或2-0晉級，賠率隱含西班牙勝率約60-64%，屬於西班牙的「非壓倒性但清晰」優勢。",
+    "dissent": "ESPN專家Mark Ogden持相反意見，認為西班牙踢法過於保守、比利時被低估（此前4-1擊敗美國並非僥倖），若德布勞內狀態全開加上庫爾圖瓦神勇撲救，比利時有偷襲取勝的劇本，特別是若比賽進入加時階段，經驗豐富的比利時老將更擅長把握關鍵時刻。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "西班牙整體戰力與控球優勢明顯，晉級機會較大。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "西班牙傳控優勢明顯，比利時防線老化難抵擋。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "西班牙控球優勢明顯，但比利時反擊威脅仍大，預計鬥牛士小勝。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "西班牙的控球優勢與年輕活力將壓制比利時的防線。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.553,
+      "draw": 0.252,
+      "away": 0.195
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-10T051243Z"
+}

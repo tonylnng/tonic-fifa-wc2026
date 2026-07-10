@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-09T05:13:06Z",
+  "last_updated": "2026-07-10T05:08:39Z",
   "scorers": [
+    {
+      "id": "FRA-mbappe",
+      "name_zh": "麥巴比",
+      "name_en": "Kylian Mbappé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 8,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
     {
       "id": "ARG-messi",
       "name_zh": "美斯",
@@ -26,18 +38,6 @@
       "red_cards": 0
     },
     {
-      "id": "FRA-mbappe",
-      "name_zh": "麥巴比",
-      "name_en": "Kylian Mbappé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 7,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "ENG-kane",
       "name_zh": "卡尼",
       "name_en": "Harry Kane",
@@ -46,6 +46,18 @@
       "position": "FW",
       "shirt_no": 9,
       "goals": 6,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-dembele",
+      "name_zh": "甘比利",
+      "name_en": "Ousmane Dembélé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 7,
+      "goals": 5,
       "yellow_cards": 0,
       "red_cards": 0
     },
@@ -69,18 +81,6 @@
       "team": "Spain",
       "position": "FW",
       "shirt_no": null,
-      "goals": 4,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "FRA-dembele",
-      "name_zh": "甘比利",
-      "name_en": "Ousmane Dembélé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 7,
       "goals": 4,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1778,18 +1778,6 @@
       "red_cards": 0
     },
     {
-      "id": "MAR-diop",
-      "name_zh": "伊薩·迪奧普",
-      "name_en": "Issa Diop",
-      "team_zh": "摩洛哥",
-      "team": "Morocco",
-      "position": "",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
       "id": "COL-arias",
       "name_zh": "約翰·阿里亞斯",
       "name_en": "Jhon Arias",
@@ -1976,6 +1964,18 @@
       "team_zh": "巴西",
       "team": "Brazil",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-diop",
+      "name_zh": "伊薩·迪奧普",
+      "name_en": "Issa Diop",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 2,
@@ -2280,6 +2280,18 @@
       "position": "FW",
       "shirt_no": null,
       "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "id": "MAR-diop",
+      "name_zh": "伊薩·迪奧普",
+      "name_en": "Issa Diop",
+      "team_zh": "摩洛哥",
+      "team": "Morocco",
+      "position": "",
+      "shirt_no": null,
+      "goals": 1,
       "yellow_cards": 2,
       "red_cards": 0
     },
@@ -3120,18 +3132,6 @@
       "position": "DF",
       "shirt_no": null,
       "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "MAR-diop",
-      "name_zh": "伊薩·迪奧普",
-      "name_en": "Issa Diop",
-      "team_zh": "摩洛哥",
-      "team": "Morocco",
-      "position": "",
-      "shirt_no": null,
-      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -4374,8 +4374,8 @@
   ],
   "totals": {
     "players": 508,
-    "goals": 266,
-    "yellow_cards": 201,
+    "goals": 268,
+    "yellow_cards": 202,
     "red_cards": 12
   }
 }

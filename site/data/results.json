@@ -1400,6 +1400,22 @@
       "advanced": "Switzerland",
       "note": "這場十六強在墨西哥城阿茲特克球場上演，瑞士與哥倫比亞鏖戰120分鐘互無紀錄，最終互射十二碼分勝負。點球大戰中瑞士門將高比爾（Kobel）撲出古曹·軒南迪斯（Cucho Hernández）的射門，魯本·華爾加斯（Rubén Vargas）射入決勝球，瑞士4:3勝出、驚險晉級八強。哥倫比亞飲恨出局。瑞士八強對阿根廷。",
       "penalties": "4:3"
+    },
+    {
+      "match": 97,
+      "stage": "Quarter-final",
+      "home": "France",
+      "away": "Morocco",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "scoreline": "2:0",
+      "outcome": "home",
+      "recorded_at": "2026-07-10T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france",
+      "advanced": "France",
+      "note": "法國憑基利安·姆巴佩（60分鐘）與奧斯曼·登貝萊（66分鐘）先後入球，以2:0擊敗摩洛哥晉級四強；姆巴佩雖在上半場（28分鐘）罰失一個由VAR確認的十二碼（門將亞辛·布諾撲救），但無損全場控制權，摩洛哥的伊薩·迪奧普64分鐘染黃，全場90分鐘內分出勝負，未需加時或點球。"
     }
   ]
 }
