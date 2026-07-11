@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T05:08:39Z",
+  "last_updated": "2026-07-11T05:07:34Z",
   "scorers": [
     {
       "id": "FRA-mbappe",
@@ -140,6 +140,18 @@
       "team_zh": "荷蘭",
       "team": "Netherlands",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-deketelaere",
+      "name_zh": "查爾斯·德·凱特拉爾",
+      "name_en": "Charles De Ketelaere",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "MF",
       "shirt_no": null,
       "goals": 3,
       "yellow_cards": 0,
@@ -338,18 +350,6 @@
       "red_cards": 0
     },
     {
-      "id": "BEL-deketelaere",
-      "name_zh": "查爾斯·德·凱特拉爾",
-      "name_en": "Charles De Ketelaere",
-      "team_zh": "比利時",
-      "team": "Belgium",
-      "position": "MF",
-      "shirt_no": null,
-      "goals": 2,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "COL-munoz",
       "name_zh": "穆紐斯",
       "name_en": "Daniel Muñoz",
@@ -392,6 +392,18 @@
       "team_zh": "比利時",
       "team": "Belgium",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ESP-merino",
+      "name_zh": "米克爾·梅里諾",
+      "name_en": "Mikel Merino",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "MF",
       "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
@@ -854,6 +866,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-fabianruiz",
+      "name_zh": "法比安·魯伊斯",
+      "name_en": "Fabián Ruiz",
+      "team_zh": "待補",
+      "team": "Spain",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "GER-nmecha",
       "name_zh": "菲利克斯·恩梅查",
       "name_en": "Felix Nmecha",
@@ -1154,18 +1178,6 @@
       "red_cards": 0
     },
     {
-      "id": "BEL-debruyne",
-      "name_zh": "迪布勞尼",
-      "name_en": "Kevin De Bruyne",
-      "team_zh": "比利時",
-      "team": "Belgium",
-      "position": "MF",
-      "shirt_no": 7,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "ESP-yamal",
       "name_zh": "雅馬爾",
       "name_en": "Lamine Yamal",
@@ -1327,18 +1339,6 @@
       "name_en": "Michal Sadílek",
       "team_zh": "捷克",
       "team": "Czech Republic",
-      "position": "MF",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "ESP-merino",
-      "name_zh": "米克爾·梅里諾",
-      "name_en": "Mikel Merino",
-      "team_zh": "西班牙",
-      "team": "Spain",
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
@@ -1821,6 +1821,18 @@
       "team": "Japan",
       "position": "MF",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-debruyne",
+      "name_zh": "迪布勞尼",
+      "name_en": "Kevin De Bruyne",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "MF",
+      "shirt_no": 7,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2555,6 +2567,30 @@
       "team": "France",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "BEL-witsel",
+      "name_zh": "艾素·韋素",
+      "name_en": "Axel Witsel",
+      "team_zh": "待補",
+      "team": "Belgium",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ESP-laporte",
+      "name_zh": "艾馬列·拿波特",
+      "name_en": "Aymeric Laporte",
+      "team_zh": "待補",
+      "team": "Spain",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -3448,6 +3484,18 @@
       "red_cards": 0
     },
     {
+      "id": "BEL-debruyne",
+      "name_zh": "迪布勞尼",
+      "name_en": "Kevin De Bruyne",
+      "team_zh": "比利時",
+      "team": "Belgium",
+      "position": "MF",
+      "shirt_no": 7,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "GHA-oppong",
       "name_zh": "科喬·佩普拉·奧蓬",
       "name_en": "Kojo Peprah Oppong",
@@ -3988,6 +4036,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-cubarsi",
+      "name_zh": "帕烏·庫巴西",
+      "name_en": "Pau Cubarsí",
+      "team_zh": "待補",
+      "team": "Spain",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ESP-pedri",
       "name_zh": "佩德利",
       "name_en": "Pedri",
@@ -4373,9 +4433,9 @@
     }
   ],
   "totals": {
-    "players": 508,
-    "goals": 268,
-    "yellow_cards": 202,
+    "players": 512,
+    "goals": 271,
+    "yellow_cards": 206,
     "red_cards": 12
   }
 }

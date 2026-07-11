@@ -1,0 +1,272 @@
+{
+  "match": 100,
+  "home": "Argentina",
+  "away": "Switzerland",
+  "stage": "Quarter-final",
+  "kickoff_utc": "2026-07-12T01:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-07-11T0500Z",
+  "source_count": 23,
+  "sources": [
+    "https://theanalyst.com/articles/argentina-vs-switzerland-prediction-world-cup-2026-match-preview",
+    "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-quarter-final-argentina-switzerland-predictions",
+    "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8",
+    "https://www.offshoresportsbooks.com/picks/soccer/2026/argentina-vs-switzerland-world-cup-quarterfinals-odds-and-picks-jul-11/",
+    "https://shekicks.net/argentina-vs-switzerland-betting-tips-world-cup-quarter-final-preview/",
+    "https://www.goal.com/en-za/betting/world-cup/argentina-vs-switzerland-predictions-12-07-2026/A:blt0431653b3a692585",
+    "https://www.si.com/soccer/supercomputer-predicts-2026-world-cup-winner-quarterfinals",
+    "https://worldcup2026odds.com/argentina-vs-switzerland/",
+    "https://www.espn.com/soccer/odds/_/gameId/760513",
+    "https://www.yardbarker.com/soccer/articles/argentina_vs_switzerland_2026_world_cup_prediction_odds_pick/s1_17121_44044477",
+    "https://www.racingpost.com/sport/football-tips/world-cup-2026/argentina-vs-switzerland-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-ajLhe8P6bybf/",
+    "https://dknetwork.draftkings.com/2026/07/07/opening-odds-for-argentina-vs-switzerland-in-the-fifa-world-cup-2026/",
+    "https://www.espn.com/soccer/story/_/id/49294844/fifa-world-cup-quarterfinal-preview-predictions-odds-argentina-belgium-england-france-morocco-norway-spain-switzerland",
+    "https://www.actionnetwork.com/soccer/2026-fifa-world-cup-matchup-tool-predictions-odds-trends-any-match",
+    "https://www.reuters.com/sports/soccer/goalkeeper-kobel-hails-huge-achievement-swiss-set-up-argentina-showdown-2026-07-08/",
+    "https://english.dotdotnews.com/a/202607/08/AP6a4db9eee4b04b6c5d32bb64.html",
+    "https://www.espn.com/soccer/story/_/id/49300023/switzerland-colombia-world-cup-2026-penalty-shootout-argentina",
+    "https://www.nytimes.com/athletic/7425017/2026/07/07/switzerland-colombia-world-cup-result/",
+    "https://en.wikipedia.org/wiki/Gregor_Kobel",
+    "https://www.reuters.com/sports/soccer/argentina-stage-stunning-late-comeback-see-off-egypt-2026-07-07/",
+    "https://www.theguardian.com/football/2026/may/27/argentina-scaloni-lionel-messi-injury-fears-world-cup-defence",
+    "https://www.youtube.com/watch?v=5S5rhixfsXo",
+    "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-switzerland-prediction-team-news-lineups_600947.html",
+    "https://africa.espn.com/football/story/_/id/49306154/world-cup-2026-yellow-card-watch-walking-tightrope-quarterfinals",
+    "https://copaamerica.com/en/news/emiliano-martinez-goalkeeper-penalty-shoot-out",
+    "https://www.sportingnews.com/us/soccer/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.55,
+      "draw": 0.27,
+      "away": 0.18
+    },
+    "confidence": 0.6,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.14
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "3:1",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.6,
+        "basis": "Opta超級電腦（90分鐘：阿根廷57.1%、賽和24.2%、瑞士18.7%）與各家博彩(implied約55-58%)一致將阿根廷列為明顯優勝方，梅西狀態火熱與整體攻擊深度是關鍵"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "3-1",
+        "outcome": "home",
+        "confidence": 0.56,
+        "basis": "Goal.com、TotalFootballAnalysis等給出阿根廷4/5或1.71-1.78賠率的明顯優勝定位，並預測3-1或2-1比分，梅西與劳塔羅被列為最可能取分球員"
+      },
+      {
+        "name": "科貝爾封神情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.35,
+        "basis": "門將科貝爾剛在對哥倫比亞點球大戰中撲出關鍵一球封神，瑞士剛完成120分鐘零封強攻哥倫比亞的防守韌性表現，若此狀態延續可能迫和阿根廷進入加時甚至點球大戰"
+      },
+      {
+        "name": "平盤模型情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.3,
+        "basis": "SheKicks模型給出罕見的平盤結構（阿根廷45%、賽和45%、瑞士10%），指出市場可能低估瑞士的防守穩定性，建議雙重機會（阿根廷或賽和）而非直接買阿根廷獲勝"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "DraftKings/多家博彩",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.578,
+          "draw": 0.282,
+          "away": 0.182
+        },
+        "scoreline": "2:1",
+        "note": "阿根廷-145（implied約59%經標準化後約55-58%）、賽和+255（約28%）、瑞士+450（約18%）；晉級市場(To Advance)阿根廷-275/-310，瑞士+215/+240"
+      },
+      {
+        "source": "Bet365/Betano/1xBet(SheKicks整理)",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.56,
+          "draw": 0.27,
+          "away": 0.17
+        },
+        "note": "最佳阿根廷勝賠1.78(Betano)、賽和3.66(1xBet)、瑞士勝5.75(Bet365)；標準化implied機率約阿根廷56%、賽和27%、瑞士17%"
+      },
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.571,
+          "draw": 0.242,
+          "away": 0.187
+        },
+        "note": "Opta 2.5萬次模擬：90分鐘阿根廷57.1%獲勝、賽和24.2%、瑞士18.7%獲勝；整體晉級機率阿根廷69.4%、瑞士30.6%"
+      },
+      {
+        "source": "Action Network模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.58,
+          "draw": 0.23,
+          "away": 0.19
+        },
+        "scoreline": "2:1",
+        "note": "Action Network模型：阿根廷58%、賽和23%、瑞士19%；預測進球阿根廷1.7球、瑞士0.8球，Elo評分阿根廷2113 vs 瑞士1897"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.25,
+      "extra_time_prob": 0.25,
+      "shootout_prob": 0.14,
+      "advance_prob": {
+        "home": 0.694,
+        "away": 0.306
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 2,
+          "won": 2,
+          "win_rate": 1.0,
+          "conversion_rate": 0.83,
+          "recent": "阿根廷近5年點球大戰全勝：2022世界盃16強4-3擊敗荷蘭、決賽4-2擊敗法國，門將「毒蛇」馬丁尼斯自2021年美洲盃起從未在點球大戰中輸球（4戰全勝），梅西、蒙蒂爾均有大賽點球命中紀錄",
+          "sources": [
+            "https://copaamerica.com/en/news/emiliano-martinez-goalkeeper-penalty-shoot-out",
+            "https://www.sportingnews.com/us/soccer/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": 0.8,
+          "recent": "瑞士本屆16強首度在世界盃點球大戰中獲勝（4-3擊敗哥倫比亞，終結隊史世界盃點球不勝紀錄），門將科貝爾撲出關鍵一球封神；歷史上瑞士在歐洲盃層面點球戰績不佳（2016不敵波蘭、2024不敵英格蘭），本屆世界盃首勝具突破意義但整體大賽點球心理仍待進一步驗證",
+          "sources": [
+            "https://english.dotdotnews.com/a/202607/08/AP6a4db9eee4b04b6c5d32bb64.html",
+            "https://en.wikipedia.org/wiki/Gregor_Kobel",
+            "https://www.espn.com/soccer/story/_/id/49300023/switzerland-colombia-world-cup-2026-penalty-shootout-argentina"
+          ]
+        }
+      },
+      "psychology": "阿根廷擁有全隊近5年最強的大賽淘汰賽心理素質：門將馬丁尼斯自2021年以來大賽點球大戰保持不敗（美洲盃、世界盃皆有斬獲），梅西在16強對埃及展現逆境不放棄的領袖氣質（雖罰失一球仍主導逆轉），全隊經歷過2022年決賽點球封王的洗禮，抗壓能力全球頂級；瑞士則剛完成隊史世界盃首場點球大戰勝利（終結多年心魔），科貝爾封神表現大幅提升全隊自信，但整體大賽點球心理韌性仍不及衛冕冠軍阿根廷經驗豐富。",
+      "key_takers": {
+        "home": [
+          "Lionel Messi",
+          "Lautaro Martinez",
+          "Gonzalo Montiel"
+        ],
+        "away": [
+          "Granit Xhaka",
+          "Breel Embolo",
+          "Ruben Vargas"
+        ]
+      },
+      "penalty_risk": "中等",
+      "risk_note": "阿根廷雖為明顯優勝方（implied約56-58%），但16強對埃及一度2球落後才驚天逆轉，顯示防線仍有隱患；瑞士剛以120分鐘零封哥倫比亞高強度進攻並靠科貝爾點球大戰封神晉級，防守韌性與士氣正處於高點。若瑞士延續穩固防守迫和90分鐘（賽和機率約25%、進點球機率約14%），阿根廷雖有馬丁尼斯的點球大戰不敗紀錄作為保險，但瑞士剛破除世界盃點球魔咒的信心提升不容忽視，屬中等風險。"
+    }
+  },
+  "reasoning": {
+    "summary": "阿根廷憑藉梅西的持續神奇表現、更深厚的攻擊火力與絕佳的大賽點球心理素質（馬丁尼斯不敗紀錄）被博彩市場與Opta模型一致列為明顯優勝方（implied約55-58%，Opta給予瑞士僅30.6%晉級機率），但瑞士剛完成隊史首場世界盃點球大戰勝利，科貝爾狀態火熱，防守韌性不容小覷，此役阿根廷仍需警惕重演對埃及的險勝劇本。",
+    "key_factors": [
+      "球員狀態：梅西本屆已8球暫居金靴榜首，16強對埃及演出2-0落後大逆轉的關鍵助攻+進球，個人World Cup連續九場進球紀錄延續；瑞士門將科貝爾剛在16強點球大戰封神，狀態正處巔峰",
+      "傷停名單：瑞士中場曼扎比賽前訓練被拍到跛行，是否能上陣存疑；阿根廷方面暫無重大傷病報告，全員可用，梅西此前季前的腿筋傷勢已完全康復並持續高強度出戰",
+      "近期戰績：阿根廷16強驚天逆轉2-0落後擊敗埃及3-2晉級，暴露防線問題但展現極強心理素質；瑞士16強與哥倫比亞120分鐘互交白卷後靠點球大戰4-3過關，防守極為紮實",
+      "戰術對位：阿根廷倚賴梅西、劳塔罗、阿爾瓦雷斯的多點攻擊群，瑞士則以扎卡領軍的緊密防守反擊為主軸，正面對抗預期比賽節奏偏低，但阿根廷整體攻擊深度佔優",
+      "大賽經驗：阿根廷是衛冕冠軍，梅西正尋求生涯最後一次世界盃封王，全隊淘汰賽經驗與心理素質為本屆最強之一；瑞士本屆已是72年來首度晉級八強，正處於歷史性突破階段但缺乏頂級大賽壓力下取勝的經驗",
+      "輿論共識：Opta、DraftKings、Action Network等模型與博彩機構一致認為阿根廷明顯優勝（implied 55-58%），多數預測2-1或3-1阿根廷小勝，梅西獲選最可能首開紀錄的球員"
+    ],
+    "consensus_lean": "博彩市場（implied約55-58%）與Opta模型（90分鐘57.1%、晉級69.4%）高度一致地將阿根廷列為明顯優勝方，市場普遍預期梅西領軍的阿根廷能以2-1或3-1晉級四強，對陣英格蘭或挪威。",
+    "dissent": "SheKicks的量化模型給出罕見的平盤結構（阿根廷45%、賽和45%、瑞士僅10%），指出市場可能低估瑞士剛展現的防守穩定性與科貝爾的門將表現，建議採「阿根廷或賽和」雙重機會而非直接買阿根廷全勝，反映瑞士零封哥倫比亞120分鐘的防守韌性可能被主流盤口低估，是本場最大的爆冷/悶局風險點。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.68,
+        "draw": 0.2,
+        "away": 0.12
+      },
+      "scoreline": "2:0",
+      "note": "阿根廷整體實力優於瑞士，八強主場晉級機會高。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "scoreline": "2:1",
+      "note": "阿根廷進攻火力強，瑞士防線穩固，主隊小勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "scoreline": "2:1",
+      "note": "阿根廷整體戰力較強，瑞士防守穩健但難阻南美勁旅，預計梅西領軍小勝過關。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.6,
+        "draw": 0.25,
+        "away": 0.15
+      },
+      "scoreline": "2:1",
+      "note": "阿根廷整體實力佔優，有望突破瑞士的頑強防守險勝晉級。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.585,
+      "draw": 0.247,
+      "away": 0.168
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-11T050846Z"
+}

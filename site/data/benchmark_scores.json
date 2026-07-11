@@ -1,8 +1,8 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-10T05:14:16Z",
-  "total_matches_scored": 86,
-  "max_match_completed": 97,
+  "last_updated": "2026-07-11T05:08:51Z",
+  "total_matches_scored": 87,
+  "max_match_completed": 98,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -36,13 +36,13 @@
     {
       "source": "Google Gemini 3.1 Pro",
       "kind": "ai",
-      "evaluated": 78,
-      "outcome_correct": 55,
-      "outcome_accuracy": 0.7051,
-      "exact_correct": 12,
-      "exact_accuracy": 0.1538,
-      "brier_score": 0.2278,
-      "latest_match": 97,
+      "evaluated": 79,
+      "outcome_correct": 56,
+      "outcome_accuracy": 0.7089,
+      "exact_correct": 13,
+      "exact_accuracy": 0.1646,
+      "brier_score": 0.2281,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -1214,19 +1214,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": true
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.5,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 82,
-      "outcome_correct": 56,
-      "outcome_accuracy": 0.6829,
-      "exact_correct": 10,
-      "exact_accuracy": 0.122,
-      "brier_score": 0.2288,
-      "latest_match": 97,
+      "evaluated": 83,
+      "outcome_correct": 57,
+      "outcome_accuracy": 0.6867,
+      "exact_correct": 11,
+      "exact_accuracy": 0.1325,
+      "brier_score": 0.2296,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -2458,19 +2473,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.45,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "OpenAI GPT-5.1 Thinking",
       "kind": "ai",
-      "evaluated": 78,
-      "outcome_correct": 53,
-      "outcome_accuracy": 0.6795,
-      "exact_correct": 7,
-      "exact_accuracy": 0.0897,
-      "brier_score": 0.2269,
-      "latest_match": 97,
+      "evaluated": 79,
+      "outcome_correct": 54,
+      "outcome_accuracy": 0.6835,
+      "exact_correct": 8,
+      "exact_accuracy": 0.1013,
+      "brier_score": 0.2275,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -3642,19 +3672,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": true
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.48,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 82,
-      "outcome_correct": 55,
-      "outcome_accuracy": 0.6707,
-      "exact_correct": 11,
-      "exact_accuracy": 0.1341,
-      "brier_score": 0.2295,
-      "latest_match": 97,
+      "evaluated": 83,
+      "outcome_correct": 56,
+      "outcome_accuracy": 0.6747,
+      "exact_correct": 12,
+      "exact_accuracy": 0.1446,
+      "brier_score": 0.2292,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -4886,19 +4931,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.55,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "Z.ai GLM-4.7",
       "kind": "ai",
-      "evaluated": 78,
-      "outcome_correct": 51,
-      "outcome_accuracy": 0.6538,
-      "exact_correct": 11,
-      "exact_accuracy": 0.141,
-      "brier_score": 0.2318,
-      "latest_match": 97,
+      "evaluated": 79,
+      "outcome_correct": 52,
+      "outcome_accuracy": 0.6582,
+      "exact_correct": 12,
+      "exact_accuracy": 0.1519,
+      "brier_score": 0.2315,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -6070,19 +6130,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.55,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "AI（本站主預測）",
       "kind": "ai",
-      "evaluated": 86,
-      "outcome_correct": 56,
-      "outcome_accuracy": 0.6512,
+      "evaluated": 87,
+      "outcome_correct": 57,
+      "outcome_accuracy": 0.6552,
       "exact_correct": 8,
-      "exact_accuracy": 0.093,
-      "brier_score": 0.2084,
-      "latest_match": 97,
+      "exact_accuracy": 0.092,
+      "brier_score": 0.2078,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -7374,19 +7449,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:0",
+          "pred_outcome": "home",
+          "confidence": 0.7,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 82,
-      "outcome_correct": 53,
-      "outcome_accuracy": 0.6463,
-      "exact_correct": 11,
-      "exact_accuracy": 0.1341,
-      "brier_score": 0.2256,
-      "latest_match": 97,
+      "evaluated": 83,
+      "outcome_correct": 54,
+      "outcome_accuracy": 0.6506,
+      "exact_correct": 12,
+      "exact_accuracy": 0.1446,
+      "brier_score": 0.225,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -8618,19 +8708,34 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": true
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.58,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
     {
       "source": "xAI Grok 4.20 Reasoning",
       "kind": "ai",
-      "evaluated": 78,
-      "outcome_correct": 50,
-      "outcome_accuracy": 0.641,
-      "exact_correct": 9,
-      "exact_accuracy": 0.1154,
-      "brier_score": 0.2309,
-      "latest_match": 97,
+      "evaluated": 79,
+      "outcome_correct": 51,
+      "outcome_accuracy": 0.6456,
+      "exact_correct": 10,
+      "exact_accuracy": 0.1266,
+      "brier_score": 0.2305,
+      "latest_match": 98,
       "stale": false,
       "matches": [
         {
@@ -9802,6 +9907,21 @@
           "final_outcome": "home",
           "outcome_hit": true,
           "exact_hit": false
+        },
+        {
+          "match": 98,
+          "stage": "Quarter-final",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_zh": "西班牙",
+          "away_zh": "比利時",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.55,
+          "final_scoreline": "2:1",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },

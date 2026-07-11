@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-07-10T05:14:16Z",
+  "last_updated": "2026-07-11T05:08:51Z",
   "metrics": {
-    "total_evaluated": 86,
-    "outcome_correct": 56,
-    "outcome_accuracy": 0.6512,
+    "total_evaluated": 87,
+    "outcome_correct": 57,
+    "outcome_accuracy": 0.6552,
     "exact_score_correct": 8,
-    "exact_score_accuracy": 0.093
+    "exact_score_accuracy": 0.092
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -25,8 +25,8 @@
       "exact_correct": 4
     },
     "Quarter-final": {
-      "evaluated": 1,
-      "outcome_correct": 1,
+      "evaluated": 2,
+      "outcome_correct": 2,
       "exact_correct": 0
     }
   },
@@ -1058,6 +1058,18 @@
       "predicted": "2:1",
       "predicted_outcome": "home",
       "final": "2:0",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-09T0500Z"
+    },
+    {
+      "match": 98,
+      "home": "Spain",
+      "away": "Belgium",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "2:1",
       "actual_outcome": "home",
       "outcome_correct": true,
       "exact_correct": false,

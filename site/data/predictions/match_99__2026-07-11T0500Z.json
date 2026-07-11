@@ -1,0 +1,269 @@
+{
+  "match": 99,
+  "home": "Norway",
+  "away": "England",
+  "stage": "Quarter-final",
+  "kickoff_utc": "2026-07-11T21:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "run_id": "2026-07-11T0500Z",
+  "source_count": 23,
+  "sources": [
+    "https://www.skysports.com/football/news/11095/13561150/england-world-cup-latest-reece-james-in-race-to-be-fit-for-quarter-final-clash-with-norway-to-ease-right-back-crisis",
+    "https://www.busr.ag/news/soccer/norway-soccer-betting-latest-world-cup-odds",
+    "https://www.bbc.com/sport/football/articles/cx2xxl6772no",
+    "https://www.vegasinsider.com/soccer/norway-england-odds-world-cup-2026/",
+    "https://polymarket.com/sports/world-cup/fifwc-nor-eng-2026-07-11",
+    "https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/world-cup-quarter-final-norway-england-predictions",
+    "https://theanalyst.com/articles/world-cup-2026-quarter-final-predictions-opta-supercomputer",
+    "https://worldcup2026odds.com/norway-vs-england/",
+    "https://www.goal.com/en-za/betting/world-cup/norway-vs-england-predictions-11-07-2026/A:blt90b2e56d7ba3acd6",
+    "https://www.foxsports.com/stories/soccer/2026-world-cup-quarterfinal-odds-which-squads-will-make-final-8",
+    "https://www.bettingodds.com/football/world-cup/england-vs-norway",
+    "https://www.espn.com/soccer/odds/_/gameId/760512",
+    "https://www.sportingnews.com/uk/betting/news/favourite-win-world-cup-quarter-final-norway-england/a36dbd35eb2a517dda56e7f2",
+    "https://www.thesun.co.uk/betting/39696906/world-cup-bet-builder-tips-quarter-finals/",
+    "https://www.standard.co.uk/sport/football/norway-team-news-haaland-england-world-cup-2026-b1288933.html",
+    "https://www.theguardian.com/football/2026/jun/26/england-reece-james-ruled-out-two-games-world-cup-hamstring-injury-panama",
+    "https://www.espn.com/soccer/story/_/id/49307345/reece-james-marc-guehi-declan-rice-injury-england-training-world-cup-quarterfinal-norway",
+    "https://www.si.com/soccer/england-huge-injury-boost-world-cup-quarterfinal-norway",
+    "https://basketball.realgm.com/betting/picks/england-vs-norway-prediction-07-11-2026/",
+    "https://www.ladbrokes.com/en/sports/event/football/international/world-cup-2026/norway-v-england/256964903",
+    "https://www.foxsports.com/stories/soccer/norway-team-doctor-sickness-england-world-cup-quarterfinal-match",
+    "https://www.uefa.com/euro2024/news/025f-0fe8a7a67576-7d8e686e8b30-1000--penalty-shoot-out-records-by-national-team/",
+    "https://www.bbc.co.uk/sport/football/articles/c72vz40yd43o",
+    "https://sportstar.thehindu.com/football/fifa-world-cup/erling-haaland-reaction-norway-vs-england-fifa-world-cup-2026-updates-quotes-nor-v-eng/article71203757.ece",
+    "https://sports.ndtv.com/fifa-world-cup-2026/keeping-erling-haaland-quiet-key-england-star-ahead-of-world-cup-quarterfinal-clash-11751413"
+  ],
+  "prediction": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.23,
+      "draw": 0.27,
+      "away": 0.5
+    },
+    "confidence": 0.58,
+    "top_scorelines": [
+      {
+        "scoreline": "1:2",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "0:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "2:1",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:2",
+        "prob": 0.08
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "模型共識",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.58,
+        "basis": "博彩隱含機率（Bet365、FanDuel等）與Polymarket市場皆將英格蘭列為輕微優勝方（implied約54-55%），賽和機率偏高（約26-27%），符合雙方皆可能得分的Over 2.5/BTTS熱門盤面"
+      },
+      {
+        "name": "博彩盤口",
+        "scoreline": "2:1",
+        "outcome": "away",
+        "confidence": 0.54,
+        "basis": "Sporting News整理：英格蘭17/20（implied 54.1%）、賽和11/4（26.7%）、挪威16/5（23.8%）；多家機構(Goal、TotalFootballAnalysis)給出英格蘭2-1或3-1小勝的具體比分預測"
+      },
+      {
+        "name": "哈蘭德爆發情境",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.38,
+        "basis": "哈蘭德本屆已7球並列射手榜之首，剛在16強梅開二度淘汰巴西；若延續火熱狀態且英格蘭右閘防守漏洞（詹姆斯傷勢反覆）被利用，比賽可能被拖入戰和甚至加時"
+      },
+      {
+        "name": "英格蘭深度取勝",
+        "scoreline": "3:1",
+        "outcome": "away",
+        "confidence": 0.28,
+        "basis": "英格蘭陣容深度與大賽經驗優於首次晉級八強的挪威，貝林漢/薩卡/凱恩三線攻擊火力可能令挪威疲於防守，The Sun等媒體點出英格蘭多點開花的可能性"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Bet365/多家博彩(Sporting News整理)",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.238,
+          "draw": 0.267,
+          "away": 0.541
+        },
+        "scoreline": "2:1",
+        "note": "英格蘭17/20（implied 54.1%）、賽和11/4（26.7%）、挪威16/5（23.8%），多家博彩一致列英格蘭輕微優勝；Bet365另給英格蘭2-1勝出8/1"
+      },
+      {
+        "source": "FanDuel/VegasInsider",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.238,
+          "draw": 0.263,
+          "away": 0.549
+        },
+        "note": "英格蘭開盤-105/-117區間，隱含機率經標準化後英格蘭約54.9-55%；晉級市場(To Advance)英格蘭-190/-222，挪威+156/+170"
+      },
+      {
+        "source": "Opta超級電腦",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.377,
+          "draw": 0.0,
+          "away": 0.623
+        },
+        "note": "Opta 2.5萬次模擬顯示挪威有37.7%機率淘汰英格蘭晉級四強（含加時點球，此為晉級機率非90分鐘勝率）；英格蘭奪冠機率16.5% vs 挪威6.6%"
+      },
+      {
+        "source": "Polymarket",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.225,
+          "draw": 0.26,
+          "away": 0.515
+        },
+        "note": "Polymarket鏈上預測市場：英格蘭51.5-53%、挪威22.5-23%、賽和26-27%，反映英格蘭陣容深度與近期逆轉墨西哥的抗壓表現獲市場認可"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.27,
+      "extra_time_prob": 0.27,
+      "shootout_prob": 0.13,
+      "advance_prob": {
+        "home": 0.377,
+        "away": 0.623
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 0,
+          "won": 0,
+          "win_rate": null,
+          "conversion_rate": null,
+          "recent": "挪威隊史從未打進世界盃淘汰賽（本屆為首次晉級16強及八強），近5年無任何大賽點球大戰紀錄可查，屬完全未知數",
+          "sources": [
+            "https://www.busr.ag/news/soccer/norway-soccer-betting-latest-world-cup-odds",
+            "https://theanalyst.com/articles/world-cup-2026-quarter-final-predictions-opta-supercomputer"
+          ]
+        },
+        "away": {
+          "shootouts": 1,
+          "won": 1,
+          "win_rate": 1.0,
+          "conversion_rate": 1.0,
+          "recent": "英格蘭近5年終結「點球詛咒」：2024歐洲盃八強5-3擊敗瑞士（帕爾默、貝林漢、薩卡、托尼、亞歷山大-阿諾德全數命中，門將皮克福德撲出阿坎吉一射），但整體隊史點球大戰仍為11戰4勝7負的弱勢紀錄（2020歐洲盃決賽2-3負意大利）",
+          "sources": [
+            "https://www.bbc.co.uk/sport/football/articles/c72vz40yd43o",
+            "https://www.uefa.com/euro2024/news/025f-0fe8a7a67576-7d8e686e8b30-1000--penalty-shoot-out-records-by-national-team/"
+          ]
+        }
+      },
+      "psychology": "挪威隊史首次踢進世界盃八強，全隊缺乏大賽淘汰賽經驗，點球大戰完全是未知領域，心理壓力主要來自「歷史性突破」帶來的期望值，但哈蘭德近期公開表示外界過度看好英格蘭，顯示球隊心態放鬆、無所畏懼；英格蘭在圖赫爾執教下展現出更強抗壓韌性（16強十人應戰逆轉墨西哥3-2），且2024歐洲盃已終結對瑞士的點球夢魘，門將皮克福德為近年英格蘭點球大戰英雄，整體心理素質與大賽經驗略勝一籌。",
+      "key_takers": {
+        "home": [
+          "Erling Haaland",
+          "Martin Odegaard",
+          "Alexander Sorloth"
+        ],
+        "away": [
+          "Harry Kane",
+          "Jude Bellingham",
+          "Bukayo Saka"
+        ]
+      },
+      "penalty_risk": "中等",
+      "risk_note": "博彩盤口差距不算懸殊（英格蘭implied約54-55%），賽和機率高達26-27%；英格蘭防線傷病隱患不斷（詹姆斯反覆缺訓、格希/賴斯狀態待確認），若哈蘭德持續火熱迫和90分鐘，比賽有一定機率拖入加時甚至點球——此情況下英格蘭近期點球經驗（2024歐洲盃勝瑞士）為關鍵優勢，挪威完全空白的點球履歷屬於重大風險點，Opta給予挪威37.7%晉級機率顯示比賽並非一面倒。"
+    }
+  },
+  "reasoning": {
+    "summary": "英格蘭憑藉更深厚的陣容、豐富的大賽淘汰賽經驗與略優的博彩盤口（implied約54-55%）被普遍視為晉級的輕微優勝方，但挪威神鋒哈蘭德本屆狀態驚人（7球並列射手榜首），剛淘汰五屆冠軍巴西，此役有相當爆冷潛力；Opta模型給予挪威37.7%的晉級機率，顯示比賽絕非穩勝。",
+    "key_factors": [
+      "球員狀態：哈蘭德本屆已入7球，與凱恩(6球)分居射手榜前列，兩人對決成為本場最大亮點；哈蘭德賽前公開表示外界壓力都在英格蘭身上",
+      "傷停名單：英格蘭右閘李斯·詹姆斯因腿筋傷勢反覆缺席部分訓練，但Sky Sports及BBC最新報道指其有望趕上出戰，格希、賴斯亦已重返合練；挪威傳出隊內流感/感冒困擾但隨隊醫生已確認全員可用",
+      "近期戰績：挪威16強爆冷2-1擊敗五屆冠軍巴西，首次晉級世界盃八強；英格蘭16強憑十人應戰3-2逆轉墨西哥，展現一定抗壓韌性",
+      "戰術對位：挪威防守反擊倚賴哈蘭德終結效率，英格蘭具備貝林漢、薩卡、戈登等多點進攻選項，陣容深度優勢明顯",
+      "大賽經驗：英格蘭近兩屆大賽（2024歐洲盃決賽、2022世界盃八強）皆有踢入關鍵淘汰賽階段的經驗，挪威則是隊史首次晉級八強，心理素質未經檢驗",
+      "輿論共識：多數博彩公司與媒體（Sporting News、Goal、TotalFootballAnalysis）預測英格蘭以1-2或2-1小勝，惟一致認為哈蘭德的存在使比賽高度不確定，Over 2.5球/BTTS盤面熱門"
+    ],
+    "consensus_lean": "博彩市場、Opta模型與主流媒體一致將英格蘭列為輕微優勝方（implied勝率約54-55%，Opta給予挪威37.7%晉級機率），預期為一場進球較多的比賽（Over 2.5球盤面熱門）。",
+    "dissent": "BUSR等博彩分析指出「挪威晉級（含加時點球）+170」被視為本場最佳價值投注，理由是市場可能低估哈蘭德只需一次機會就能改變戰局的能力；哈蘭德本人亦暗示球隊在無外界期望壓力下更能放手一戰，挪威緊湊防守反擊風格也使Under 2.5成為結構性價值盤。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "英格蘭整體戰力與板凳深度優於挪威，晉級機會較高。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "英格蘭陣容深度更佳，哈蘭德難救主，客隊小勝晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.25,
+        "draw": 0.25,
+        "away": 0.5
+      },
+      "scoreline": "1:2",
+      "note": "英格蘭整體實力與大賽經驗佔優，挪威雖有夏蘭特領銜但仍難敵三獅軍團。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.22,
+        "draw": 0.25,
+        "away": 0.53
+      },
+      "scoreline": "1:2",
+      "note": "英格蘭整體陣容深度佔優，強大的防守能有效限制挪威雙星發揮。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "1:2",
+    "outcome": "away",
+    "win_prob": {
+      "home": 0.238,
+      "draw": 0.257,
+      "away": 0.505
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-11T050817Z"
+}

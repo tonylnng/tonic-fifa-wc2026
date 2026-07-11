@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-10T05:08:29Z",
+  "last_updated": "2026-07-11T05:07:18Z",
   "postmortems": [
     {
       "match": 5,
@@ -2304,6 +2304,35 @@
       "outcome_correct": true,
       "exact_correct": false,
       "generated_at": "2026-07-10T05:08:29Z"
+    },
+    {
+      "match": 98,
+      "home": "Spain",
+      "away": "Belgium",
+      "stage": "Quarter-final",
+      "predicted": "2:0",
+      "predicted_outcome": "home",
+      "final": "2:1",
+      "actual_outcome": "home",
+      "verdict": "outcome",
+      "run_id": "2026-07-11T0500Z",
+      "headline": "西班牙 2:1 力克比利時晉級四強，梅利諾第 88 分鐘攻入致勝球",
+      "review": "我方賽前預測西班牙主場2:0晉級，晉級機率高達0.87，方向判斷正確：西班牙最終以2:1擊敗比利時，順利晉級四強對陣法國。不過實際比分與預測有出入——比利時憑德凱特拉雷41分鐘的頭球破門一度追平，令西班牙未能複製此前賽事零封紀錄，比賽較預期更為膠著驚險。法比安·魯伊斯30分鐘的中距離推射先為西班牙建功，替補奇兵梅利諾在88分鐘再次上演「絕殺戲法」，延續其在16強對葡萄牙補時致勝的高光表現，成為決定勝負的關鍵球員。比利時方面，中場悍將奧納納因對美國一役十字韌帶撕裂缺陣，令魯迪·加西亞的中場配置被迫調整，回歸凡納肯搭配德布勞內坐鎮，一定程度削弱了球隊由後場出球及攔截的穩定性，可視為比利時最終落敗的重要傷病因素之一。整體而言，我方對晉級方向與奪勝隱含機率的判斷經得起檢驗，唯清晉級比分的精準度未如預期般零封，反映西班牙後防在面對高強度反擊球隊時仍存在被擊穿的空間。",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760511/belgium-spain",
+        "https://www.skysports.com/football/spain-vs-belgium/549863",
+        "https://www.sportingnews.com/in/football/news/spain-vs-belgium-world-cup-live-score-result-highlights/d4510007ee612c570d12cc9e",
+        "https://www.nbcsports.com/soccer/live/spain-vs-belgium-live-updates-score-goals-highlights-stats-from-2026-fifa-world-cup",
+        "https://www.sbs.com.au/news/live-blog/spain-v-belgium-live-quarter-final-fifa-world-cup-2026/xhetrrdes",
+        "https://apnews.com/article/spain-belgium-world-cup-744017069f4238f289c4b4b87bb15756",
+        "https://www.reuters.com/sports/soccer/belgiums-onana-suffers-world-cup-ending-knee-injury-against-us-2026-07-07/",
+        "https://en.as.com/soccer/belgium-loses-onana-for-the-rest-of-the-world-cup-after-devastating-acl-tear-f202607-n/",
+        "https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/07/10/espana-vs-belgica-en-vivo-resultado-de-cuartos-de-final/",
+        "https://sportstar.thehindu.com/football/fifa-world-cup/belgium-amadou-onana-acl-injury-world-cup-2026-usa-aston-villa/article71192918.ece"
+      ],
+      "outcome_correct": true,
+      "exact_correct": false,
+      "generated_at": "2026-07-11T05:07:18Z"
     }
   ]
 }

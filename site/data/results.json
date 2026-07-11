@@ -1416,6 +1416,22 @@
       "source": "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france",
       "advanced": "France",
       "note": "法國憑基利安·姆巴佩（60分鐘）與奧斯曼·登貝萊（66分鐘）先後入球，以2:0擊敗摩洛哥晉級四強；姆巴佩雖在上半場（28分鐘）罰失一個由VAR確認的十二碼（門將亞辛·布諾撲救），但無損全場控制權，摩洛哥的伊薩·迪奧普64分鐘染黃，全場90分鐘內分出勝負，未需加時或點球。"
+    },
+    {
+      "match": 98,
+      "stage": "Quarter-final",
+      "home": "Spain",
+      "away": "Belgium",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "scoreline": "2:1",
+      "outcome": "home",
+      "recorded_at": "2026-07-11T05:00:00Z",
+      "source": "https://www.espn.com/soccer/match/_/gameId/760511/belgium-spain",
+      "advanced": "Spain",
+      "note": "西班牙在90分鐘法定時間內以2:1逆轉比利時，憑藉法比安·魯伊斯和後備奇兵梅利諾破門，晉級四強對陣法國。"
     }
   ]
 }
