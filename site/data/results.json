@@ -1432,6 +1432,40 @@
       "source": "https://www.espn.com/soccer/match/_/gameId/760511/belgium-spain",
       "advanced": "Spain",
       "note": "西班牙在90分鐘法定時間內以2:1逆轉比利時，憑藉法比安·魯伊斯和後備奇兵梅利諾破門，晉級四強對陣法國。"
+    },
+    {
+      "match": 99,
+      "stage": "Quarter-final",
+      "home": "Norway",
+      "away": "England",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreline": "1:2",
+      "outcome": "away",
+      "recorded_at": "2026-07-14T05:00:00Z",
+      "source": "ESPN/BBC/England Football official",
+      "advanced": "England",
+      "decided_by": "extra_time",
+      "note": "加時 93 分鐘貝林漢制勝，無點球大戰"
+    },
+    {
+      "match": 100,
+      "stage": "Quarter-final",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "scoreline": "3:1",
+      "outcome": "home",
+      "recorded_at": "2026-07-14T05:00:00Z",
+      "source": "ESPN/BBC/FOX Sports",
+      "advanced": "Argentina",
+      "decided_by": "extra_time",
+      "note": "加時阿爾瓦雷斯、勞塔羅接連建功，恩博洛第二黃染紅"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-07-11T05:08:51Z",
+  "last_updated": "2026-07-14T05:09:25Z",
   "metrics": {
-    "total_evaluated": 87,
-    "outcome_correct": 57,
-    "outcome_accuracy": 0.6552,
-    "exact_score_correct": 8,
-    "exact_score_accuracy": 0.092
+    "total_evaluated": 89,
+    "outcome_correct": 59,
+    "outcome_accuracy": 0.6629,
+    "exact_score_correct": 9,
+    "exact_score_accuracy": 0.1011
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -25,9 +25,9 @@
       "exact_correct": 4
     },
     "Quarter-final": {
-      "evaluated": 2,
-      "outcome_correct": 2,
-      "exact_correct": 0
+      "evaluated": 4,
+      "outcome_correct": 4,
+      "exact_correct": 1
     }
   },
   "evaluations": [
@@ -1074,6 +1074,30 @@
       "outcome_correct": true,
       "exact_correct": false,
       "run_id": "2026-07-09T0500Z"
+    },
+    {
+      "match": 99,
+      "home": "Norway",
+      "away": "England",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "1:2",
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "exact_correct": true,
+      "run_id": "2026-07-11T0500Z"
+    },
+    {
+      "match": 100,
+      "home": "Argentina",
+      "away": "Switzerland",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "3:1",
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-11T0500Z"
     }
   ]
 }

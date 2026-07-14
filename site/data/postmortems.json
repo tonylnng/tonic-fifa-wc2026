@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-11T05:07:18Z",
+  "last_updated": "2026-07-14T05:09:01Z",
   "postmortems": [
     {
       "match": 5,
@@ -2333,6 +2333,54 @@
       "outcome_correct": true,
       "exact_correct": false,
       "generated_at": "2026-07-11T05:07:18Z"
+    },
+    {
+      "match": 99,
+      "stage": "Quarter-final",
+      "home": "Norway",
+      "away": "England",
+      "predicted": "1:2",
+      "predicted_outcome": "away",
+      "final": "1:2",
+      "actual_outcome": "away",
+      "verdict": "exact",
+      "run_id": "2026-07-14T0500Z",
+      "headline": "貝林漢加時梅開二度，英格蘭加時力克挪威1:2晉級四強",
+      "review": "我方預測英格蘭客勝1:2，與實際賽果完全一致，屬精準命中。挪威由舒爾德魯普36分鐘先進球，英格蘭靠貝林漢在補時及加時各入一球逆轉，最終加時階段以1:2淘汰挪威。全場沒有紅牌，挪威後衛阿耶爾在117分鐘因不滿判決領到黃牌。",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760512/england-norway",
+        "https://www.bbc.com/sport/football/live/cgl33l55100t",
+        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/norway-england-fifa-world-cup-quarter-final-saturday-11-july-2026-match-centre",
+        "https://www.foxsports.com/soccer/fifa-world-cup-men-norway-vs-england-jul-11-2026-game-boxscore-607929",
+        "https://www.aljazeera.com/sports/2026/7/12/bellingham-scores-twice-as-england-beat-norway-2-1-to-reach-world-cup-semis"
+      ],
+      "outcome_correct": true,
+      "exact_correct": true,
+      "generated_at": "2026-07-14T05:09:01Z"
+    },
+    {
+      "match": 100,
+      "stage": "Quarter-final",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "3:1",
+      "actual_outcome": "home",
+      "verdict": "outcome",
+      "run_id": "2026-07-14T0500Z",
+      "headline": "阿爾巴瑞斯與勞塔羅加時爆發，阿根廷加時擊敗十人瑞士3:1晉級四強",
+      "review": "我方預測阿根廷主勝2:1，方向正確但比分不同，僅命中勝負結果。麥卡利斯特10分鐘為阿根廷先開紀錄，瑞士恩多耶67分鐘追平，隨後恩博洛因VAR「誤判球員」覆核被追加第二張黃牌染紅，瑞士十人應戰。加時階段阿爾瓦雷斯112分鐘及勞塔羅・馬丁尼斯補時第1分鐘連入兩球，阿根廷最終3:1晉級四強。",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760513/switzerland-argentina",
+        "https://www.inkl.com/news/argentina-v-switzerland-world-cup-2026-quarter-final-live",
+        "https://www.aljazeera.com/sports/2026/7/12/what-was-the-mistaken-identity-red-card-shown-in-argentina-vs-switzerland",
+        "https://africa.espn.com/football/story/_/id/49339724/switzerland-breel-embolo-red-card-diving-var-argentina-2026-world-cup",
+        "https://terrikon.com/en/football/matches/162534"
+      ],
+      "outcome_correct": true,
+      "exact_correct": false,
+      "generated_at": "2026-07-14T05:09:01Z"
     }
   ]
 }

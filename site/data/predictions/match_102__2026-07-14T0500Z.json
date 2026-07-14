@@ -1,0 +1,310 @@
+{
+  "match": "England vs Argentina",
+  "stage": "Semi-final",
+  "home": "England",
+  "away": "Argentina",
+  "kickoff_utc": "2026-07-15T19:00:00Z",
+  "kickoff_hkt": "2026-07-16 03:00",
+  "venue": "Mercedes-Benz Stadium (Atlanta)",
+  "run_id": "2026-07-14T0500Z",
+  "run_timestamp": "2026-07-14T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "source_count": 8,
+  "sources": [
+    {
+      "title": "England vs Argentina Prediction: World Cup 2026 Match Preview",
+      "url": "https://theanalyst.com/articles/england-vs-argentina-prediction-world-cup-2026-match-preview",
+      "publisher": "Opta Analyst"
+    },
+    {
+      "title": "England-Argentina World Cup semifinal odds: Three Lions slight favorites",
+      "url": "https://www.nytimes.com/athletic/7439554/2026/07/12/england-argentina-world-cup-semifinal-odds/",
+      "publisher": "The New York Times (The Athletic)"
+    },
+    {
+      "title": "Argentina vs. England odds, prediction, time: 2026 World Cup semifinal picks",
+      "url": "https://www.cbssports.com/soccer/news/argentina-england-odds-prediction-time-2026-world-cup-semifinal-picks/",
+      "publisher": "CBS Sports"
+    },
+    {
+      "title": "England vs. Argentina Opening Odds for World Cup Semifinals",
+      "url": "https://www.si.com/betting/england-vs-argentina-opening-odds-for-world-cup-semifinals-will-england-make-history",
+      "publisher": "Sports Illustrated (DraftKings)"
+    },
+    {
+      "title": "England v Argentina",
+      "url": "https://sports.williamhill.com/betting/en-gb/football/OB_EV40449502/england-vs-argentina",
+      "publisher": "William Hill"
+    },
+    {
+      "title": "World Cup semifinals: What you need to know, predictions, odds",
+      "url": "https://www.espn.com/soccer/story/_/id/49334623/fifa-world-cup-semifinal-preview-predictions-odds-argentina-england-france-spain",
+      "publisher": "ESPN"
+    },
+    {
+      "title": "England injury, suspension list and return dates for Argentina World Cup semi-final",
+      "url": "https://www.sportsmole.co.uk/football/england/injury-news/injuries-and-suspensions/rice-konsa-henderson-latest-england-injury-suspension-list-vs-argentina_601109.html",
+      "publisher": "Sports Mole"
+    },
+    {
+      "title": "Argentina XI vs England: Confirmed team news, predicted lineup and injury latest for World Cup 2026",
+      "url": "https://www.standard.co.uk/sport/football/argentina-xi-vs-england-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1289723.html",
+      "publisher": "Evening Standard"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.391,
+      "draw": 0.293,
+      "away": 0.316
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "英格蘭正規時間險勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.391,
+        "basis": "Opta超級電腦給予英格蘭90分鐘正規時間勝率39.1%對阿根廷31.6%，Bellingham與Kane的組合在淘汰賽階段屢有決定性表現，且英格蘭具主場氣氛優勢（美國東岸時區、英語地區球迷基數大）。"
+      },
+      {
+        "name": "阿根廷憑Messi與Alvarez取勝",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.316,
+        "basis": "阿根廷為衛冕冠軍，Messi本屆貢獻17球中的10球攻入或助攻，大賽經驗與韌性經多年驗證；多間博彩商如BetNow、thesportsrush將阿根廷standalone勝率定價相對接近甚至部分看高（+214）。"
+      },
+      {
+        "name": "加時/點球大戰",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.293,
+        "basis": "Opta模型顯示賽和機率29.3%，多間博彩商（Ladbrokes、DraftKings、NYT/Athletic）皆指出雙方晉級盤口極為接近(52-48或55-45)，反映市場預期賽果可能延至加時甚至點球。"
+      },
+      {
+        "name": "英格蘭大勝",
+        "scoreline": "3:0",
+        "outcome": "home",
+        "confidence": 0.05,
+        "basis": "若英格蘭能限制Messi的中場串聯並利用Bellingham、Saka兩翼速度打穿阿根廷右路（Molina/Montiel帶傷），有機會複製對挪威加時取勝的高效表現。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta supercomputer",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.391,
+          "draw": 0.293,
+          "away": 0.316
+        },
+        "scoreline": "N/A",
+        "note": "基於25,000次模擬，英格蘭90分鐘勝率39.1%、阿根廷31.6%、賽和29.3%；英格蘭晉級決賽機率52.9%，阿根廷47.1%，被形容為「幾乎無法分辨」的均勢對局。"
+      },
+      {
+        "source": "DraftKings Sportsbook",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.392,
+          "draw": 0.25,
+          "away": 0.328
+        },
+        "scoreline": "N/A",
+        "note": "90分鐘三路盤口英格蘭+155、和局+200、阿根廷+205；晉級盤口英格蘭-135、阿根廷+110，隱含晉級機率英格蘭約57.45%。"
+      },
+      {
+        "source": "William Hill",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.364,
+          "draw": 0.333,
+          "away": 0.323
+        },
+        "scoreline": "N/A",
+        "note": "William Hill提供90分鐘結果盤及大量球員特殊盤（如Harry Kane任意時間破門、紅牌盤），並將英格蘭列為晉級的些微favourite。"
+      },
+      {
+        "source": "FanDuel Sportsbook",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.377,
+          "draw": 0.345,
+          "away": 0.278
+        },
+        "scoreline": "N/A",
+        "note": "90分鐘盤口英格蘭+165、和局+190、阿根廷+200；晉級盤口英格蘭-122、阿根廷+100。"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.293,
+      "extra_time_prob": 0.293,
+      "shootout_prob": 0.15,
+      "advance_prob": {
+        "home": 0.55,
+        "away": 0.45
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 4,
+          "won": 1,
+          "win_rate": 0.25,
+          "conversion_rate": null,
+          "recent": "英格蘭世界盃4次點球大戰僅1勝3負（1990、1998、2006負；2018勝哥倫比亞）；若計入所有大賽（世界盃+歐國盃），英格蘭近11次點球大戰4勝7負，包括2021歐國盃決賽負於意大利、2024歐國盃決賽負於西班牙（正規時間），但2024歐國盃8強曾點球擊敗瑞士晉級，顯示近年在教練Southgate/Tuchel治下已有改善但整體仍非強項。",
+          "sources": [
+            "http://www.englandfootballonline.com/TeamPenalty/EngPenKickShootoutMtchs.html",
+            "https://www.sportingnews.com/uk/football/news/england-penalty-shootout-record-world-cup-history/aqnm0cdyj1orqjbxg9s9lcgz",
+            "https://it.uefa.com/uefaeuro/history/news/028f-1b57e7788290-f6eca6283424-1000--euro-2024-final-spain-vs-england-facts/"
+          ]
+        },
+        "away": {
+          "shootouts": 7,
+          "won": 6,
+          "win_rate": 0.857,
+          "conversion_rate": null,
+          "recent": "阿根廷世界盃史上參與最多點球大戰（7次），僅負1次（2006年8強負於德國），其餘全勝，包括2022世界盃連續兩輪點球大戰（8強勝荷蘭4-3、決賽勝法國4-2）奪冠；門將Emiliano Martinez在大賽中4次點球大戰全部帶隊取勝，個人在世界盃/美洲盃競技類點球大戰中撲出／逼失約10次以上射門，2024年美洲盃對哥倫比亞8強再次撲出關鍵一球。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://www.sportingnews.com/uk/football/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt",
+            "https://www.reuters.com/sports/soccer/more-than-showman-argentinas-martinez-builds-50-penalty-success-rate-2024-07-05/"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "英格蘭近三屆大賽決賽/半決賽階段皆與點球大戰結下不解之緣（2021歐國盃決賽負意大利、2024歐國盃決賽負西班牙為90分鐘負，2024歐國盃8強點球勝瑞士），整體心理包袱仍重，但年輕一代（Bellingham、Saka）已展現較佳的抗壓能力，2018年對哥倫比亞的點球勝利亦提供正面案例。",
+        "away": "阿根廷擁有全隊近乎無可比擬的點球大戰自信，2022世界盃連續兩輪點球戰全勝奪冠的記憶仍鮮明，門將Emiliano Martinez的心理戰術（拖延、干擾對手）本身已成為對手的額外壓力來源，構成顯著的心理優勢。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "哈利·凱恩 (Harry Kane)",
+          "record": "英格蘭隊長，大賽射手經驗豐富，惟過往大型點球大戰中英格蘭整體命中率不穩定"
+        },
+        {
+          "team": "home",
+          "name_zh": "裘德·貝林咸 (Jude Bellingham)",
+          "record": "近年大賽關鍵時刻屢建功，惟尚未有世界盃點球大戰主罰紀錄"
+        },
+        {
+          "team": "away",
+          "name_zh": "利昂內爾·梅西 (Lionel Messi)",
+          "record": "2022世界盃決賽點球大戰射入首罰，生涯大賽點球大戰參與3次(2014負、2022兩次勝)，經驗最豐富的現役球員之一"
+        },
+        {
+          "team": "away",
+          "name_zh": "埃米利亞諾·馬丁尼斯 (Emiliano Martinez，門將)",
+          "record": "阿根廷隊史點球大戰英雄，2022世界盃8強撲出荷蘭2罰、決賽撲出法國1罰並干擾對手射失1罰，大賽點球大戰4戰全勝"
+        },
+        {
+          "team": "away",
+          "name_zh": "胡利安·阿爾瓦雷斯 (Julian Alvarez)",
+          "record": "本屆賽事狀態出眾，具備關鍵時刻把握能力"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "此戰為本屆四強中點球風險最高的一場：Opta模型與多家博彩商均給出29-30%的賽和/加時機率，且雙方點球歷史呈現強烈反差——英格蘭世界盃點球大戰勝率僅25%，阿根廷則高達85.7%並擁有點球大戰史上最具威脅的門將Emiliano Martinez；若比賽真的進入點球階段，歷史數據與心理層面均明顯有利阿根廷，此為左右最終晉級機率的關鍵變數。"
+    }
+  },
+  "reasoning": {
+    "summary": "Opta模型與主流博彩盤口一致將英格蘭列為90分鐘正規時間及晉級的些微熱門（約39%對32%），但差距極小，反映此戰是本屆四強中最勢均力敵的對局之一；然而一旦進入點球大戰，歷史數據強烈傾向擁有門將Emiliano Martinez與豐富大賽點球經驗的阿根廷。",
+    "key_factors": [
+      "球員狀態：Messi本屆貢獻10球攻入/助攻的驚人效率，與Bellingham、Kane的英格蘭鋒線形成勢均力敵的攻擊對比",
+      "傷停情況：英格蘭Declan Rice帶病但預期可上陣、Konsa輕傷無礙、Henderson手腕重傷基本缺陣；阿根廷Molina、Montiel帶傷但已訓練，Messi對陣瑞士曾受輕微眼部撞擊但無礙上陣",
+      "近期狀態：英格蘭淘汰賽階段對陣挪威需加時才能取勝，顯示戰績雖佳但效率未算壓倒性；阿根廷對陣瑞士同樣需加時（3-1）取勝",
+      "戰術對位：英格蘭倚重Bellingham/Saka兩翼推進配合Kane支點作用；阿根廷則圍繞Messi的組織串聯與Alvarez/Martinez的鋒線跑動，形成中場控制權的直接爭奪",
+      "場地與時差因素：亞特蘭大Mercedes-Benz Stadium為室內球場，避開高溫悶熱因素，對雙方影響相對中性",
+      "輿論共識：Opta、DraftKings、FanDuel、NYT/The Athletic等來源一致認為英格蘭為90分鐘與晉級的些微熱門，但機率差距僅5-8個百分點，屬於「幾乎無法分辨勝負」的級別"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分來源（thesportsrush、William Hill特殊盤）與分析師認為阿根廷憑藉Messi的大賽經驗與更豐富的點球大戰底蘊代表更高價值的下注選擇，甚至有分析直接預測阿根廷2-1取勝；此外歐洲媒體（Sporting News UK）分析顯示英格蘭若以三路盤口計算勝率僅36.4%，與阿根廷32.3%的差距極小，一些模型（如社群AI模擬RBC-Ukraine）甚至給出英格蘭僅51%對阿根廷49%的近乎五五均勢。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "英格蘭主場氣勢強，防守穩健有望小勝晉級。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.25,
+        "away": 0.4
+      },
+      "scoreline": "1:2",
+      "note": "阿根廷整體戰術更成熟，英格蘭鋒線乏力恐難晉級。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.3,
+        "draw": 0.4,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "英格蘭攻勢凌厲，阿根廷經驗老到，常規時間勢均力敵，平局機會較高。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.32,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "英阿大戰實力接近，防守反擊將主導節奏，常規時間恐難分勝負。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.377,
+      "draw": 0.304,
+      "away": 0.319
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-14T051114Z"
+}

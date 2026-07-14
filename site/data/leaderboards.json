@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T05:07:34Z",
+  "last_updated": "2026-07-14T05:09:18Z",
   "scorers": [
     {
       "id": "FRA-mbappe",
@@ -47,6 +47,18 @@
       "shirt_no": 9,
       "goals": 6,
       "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-bellingham",
+      "name_zh": "貝寧咸",
+      "name_en": "Jude Bellingham",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": 10,
+      "goals": 6,
+      "yellow_cards": 1,
       "red_cards": 0
     },
     {
@@ -116,18 +128,6 @@
       "team_zh": "加拿大",
       "team": "Canada",
       "position": "FW",
-      "shirt_no": 10,
-      "goals": 4,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "ENG-bellingham",
-      "name_zh": "貝寧咸",
-      "name_en": "Jude Bellingham",
-      "team_zh": "英格蘭",
-      "team": "England",
-      "position": "MF",
       "shirt_no": 10,
       "goals": 4,
       "yellow_cards": 1,
@@ -338,13 +338,13 @@
       "red_cards": 0
     },
     {
-      "id": "SUI-embolo",
-      "name_zh": "恩博洛",
-      "name_en": "Breel Embolo",
+      "id": "SUI-ndoye",
+      "name_zh": "恩多耶",
+      "name_en": "Dan Ndoye",
       "team_zh": "瑞士",
       "team": "Switzerland",
       "position": "FW",
-      "shirt_no": 7,
+      "shirt_no": 11,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -554,6 +554,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-martinez",
+      "name_zh": "利桑德羅·馬天尼斯",
+      "name_en": "Lisandro Martínez",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "USA-tillman",
       "name_zh": "馬利克·蒂爾曼",
       "name_en": "Malik Tillman",
@@ -614,6 +626,18 @@
       "red_cards": 0
     },
     {
+      "id": "SUI-embolo",
+      "name_zh": "恩博洛",
+      "name_en": "Breel Embolo",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "FW",
+      "shirt_no": 7,
+      "goals": 2,
+      "yellow_cards": 2,
+      "red_cards": 1
+    },
+    {
       "id": "UZB-fayzullaev",
       "name_zh": "法伊祖拉耶夫",
       "name_en": "Abbosbek Fayzullaev",
@@ -650,6 +674,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-macallister",
+      "name_zh": "麥卡利士達",
+      "name_en": "Alexis Mac Allister",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": 20,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "BEL-saelemaekers",
       "name_zh": "阿萊克西斯·薩埃勒馬克斯",
       "name_en": "Alexis Saelemaekers",
@@ -680,6 +716,18 @@
       "team_zh": "阿爾及利亞",
       "team": "Algeria",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "NOR-schjelderup",
+      "name_zh": "舒爾德魯普",
+      "name_en": "Andreas Schjelderup",
+      "team_zh": "待補",
+      "team": "Norway",
+      "position": "MF",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -789,18 +837,6 @@
       "team": "Japan",
       "position": "FW",
       "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "SUI-ndoye",
-      "name_zh": "恩多耶",
-      "name_en": "Dan Ndoye",
-      "team_zh": "瑞士",
-      "team": "Switzerland",
-      "position": "FW",
-      "shirt_no": 11,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1142,6 +1178,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-alvarez",
+      "name_zh": "祖利安·阿爾華雷斯",
+      "name_en": "Julián Álvarez",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "FW",
+      "shirt_no": 9,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "TUR-ayhan",
       "name_zh": "卡安·艾漢",
       "name_en": "Kaan Ayhan",
@@ -1220,18 +1268,6 @@
       "team_zh": "德國",
       "team": "Germany",
       "position": "FW",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "ARG-martinez",
-      "name_zh": "利桑德羅·馬天尼斯",
-      "name_en": "Lisandro Martínez",
-      "team_zh": "阿根廷",
-      "team": "Argentina",
-      "position": "DF",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -2043,6 +2079,18 @@
     }
   ],
   "discipline": [
+    {
+      "id": "SUI-embolo",
+      "name_zh": "恩博洛",
+      "name_en": "Breel Embolo",
+      "team_zh": "瑞士",
+      "team": "Switzerland",
+      "position": "FW",
+      "shirt_no": 7,
+      "goals": 2,
+      "yellow_cards": 2,
+      "red_cards": 1
+    },
     {
       "id": "USA-balogun",
       "name_zh": "福拉林·巴洛根",
@@ -3340,6 +3388,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-lopez",
+      "name_zh": "洛佩茲",
+      "name_en": "José Manuel López",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CPV-cabral",
       "name_zh": "祖雲·卡巴爾",
       "name_en": "Jovane Cabral",
@@ -3395,7 +3455,7 @@
       "team": "England",
       "position": "MF",
       "shirt_no": 10,
-      "goals": 4,
+      "goals": 6,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3520,6 +3580,18 @@
       "red_cards": 0
     },
     {
+      "id": "NOR-ajer",
+      "name_zh": "阿亞爾",
+      "name_en": "Kristoffer Ajer",
+      "team_zh": "挪威",
+      "team": "Norway",
+      "position": "DF",
+      "shirt_no": 3,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CZE-krejci",
       "name_zh": "克雷基",
       "name_en": "Ladislav Krejčí",
@@ -3588,6 +3660,18 @@
       "position": "FW",
       "shirt_no": null,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-martinez",
+      "name_zh": "利桑德羅·馬天尼斯",
+      "name_en": "Lisandro Martínez",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "DF",
+      "shirt_no": null,
+      "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -4288,6 +4372,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-almada",
+      "name_zh": "阿爾馬達",
+      "name_en": "Thiago Almada",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BEL-castagne",
       "name_zh": "提摩西·卡斯坦尼",
       "name_en": "Timothy Castagne",
@@ -4433,9 +4529,9 @@
     }
   ],
   "totals": {
-    "players": 512,
-    "goals": 271,
-    "yellow_cards": 206,
-    "red_cards": 12
+    "players": 515,
+    "goals": 278,
+    "yellow_cards": 212,
+    "red_cards": 13
   }
 }

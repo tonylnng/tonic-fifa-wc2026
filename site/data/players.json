@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-11T05:07:34Z",
+  "last_updated": "2026-07-14T05:09:18Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -266,12 +266,17 @@
       "is_key": true,
       "bio_zh": "2022年世界盃進4球的英雄，現效力馬德里體育會。速度快、跑動積極，是美斯身旁最重要的前鋒搭檔，本屆有望在更成熟的狀態下再創佳績。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          100
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
+      ]
     },
     {
       "id": "ARG-messi",
@@ -340,12 +345,17 @@
       "is_key": true,
       "bio_zh": "利物浦中場核心，技術精湛、傳球精準，是阿根廷中場組織不可或缺的一環。自2022年世界盃奪冠後迅速崛起，本屆狀態尤為出色。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          100
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
+      ]
     },
     {
       "id": "ARG-fernandez",
@@ -398,6 +408,31 @@
       ]
     },
     {
+      "id": "ARG-lopez",
+      "name_en": "José Manuel López",
+      "name_zh": "洛佩茲",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          100
+        ]
+      },
+      "sources": [
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
+      ]
+    },
+    {
       "id": "ARG-paredes",
       "name_en": "Leandro Paredes",
       "name_zh": "帕雷德斯",
@@ -423,6 +458,31 @@
         "https://bolavip.com/en/world-cup/argentina-vs-austria-live-lionel-messi-chases-2026-world-cup-round-of-32-spot",
         "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/argentina-vs-austria/liveticker",
         "https://terrikon.com/en/football/matches/156644"
+      ]
+    },
+    {
+      "id": "ARG-almada",
+      "name_en": "Thiago Almada",
+      "name_zh": "阿爾馬達",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          100
+        ]
+      },
+      "sources": [
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
       ]
     },
     {
@@ -490,16 +550,17 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
-        "yellow_cards": 0,
+        "goals": 2,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          86
+          86,
+          100
         ]
       },
       "sources": [
-        "https://sports.ndtv.com/fifa-world-cup-2026/argentina-vs-cape-verde-live-score-fifa-world-cup-2026-round-of-32",
-        "https://www.espn.com/soccer/report/_/gameId/760501"
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
       ]
     },
     {
@@ -4465,22 +4526,20 @@
       "is_key": true,
       "bio_zh": "效力皇家馬德里的英格蘭最耀眼中場天才，進攻能力強、大賽表現出眾，是球隊最具票房號召力的球員。本屆年僅23歲卻已身經百戰，有望成為英格蘭奪冠的最大功臣。",
       "stats": {
-        "goals": 4,
+        "goals": 6,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           22,
           68,
           80,
-          92
+          92,
+          99
         ]
       },
       "sources": [
-        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
-        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
-        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
-        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
       ]
     },
     {
@@ -7918,6 +7977,31 @@
       "sources": []
     },
     {
+      "id": "NOR-schjelderup",
+      "name_en": "Andreas Schjelderup",
+      "name_zh": "舒爾德魯普",
+      "team": "Norway",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          99
+        ]
+      },
+      "sources": [
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
+      ]
+    },
+    {
       "id": "NOR-berg",
       "name_en": "Patrick Berg",
       "name_zh": "帕特里克·伯格",
@@ -7983,11 +8067,16 @@
       "bio_zh": "效力布倫特福德的高大後衛，擅長空中爭頂，是挪威後防線不可或缺的穩固力量，歐洲聯賽經驗豐富。",
       "stats": {
         "goals": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          99
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
+      ]
     },
     {
       "id": "NOR-ostigard",
@@ -10916,16 +11005,17 @@
       "bio_zh": "瑞士主力前鋒，效力雷恩，喀麥隆裔瑞士球員，以強壯的身體、速度和精準射術著稱，曾在世界盃對喀麥隆入球後拒絕慶祝，展現出高尚的運動精神。",
       "stats": {
         "goals": 2,
-        "yellow_cards": 0,
-        "red_cards": 0,
+        "yellow_cards": 2,
+        "red_cards": 1,
         "matches_with_events": [
           5,
-          85
+          85,
+          100
         ]
       },
       "sources": [
-        "https://en.as.com/soccer/world-cup/switzerland-vs-algeria-live-online-score-stats-goals-updates-world-cup-2026-round-of-32-f202607-n/?outputType=amp",
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/switzerland-algeria-world-cup-live-score-lineups-watch-highligts/90778520007/"
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
       ]
     },
     {
@@ -10941,16 +11031,17 @@
       "is_key": true,
       "bio_zh": "瑞士年輕邊鋒，效力諾定咸森林，以爆炸性速度和精準過人技術見稱，在英超表現亮眼，是瑞士攻線最具爆發力的新生代球員。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          85
+          85,
+          100
         ]
       },
       "sources": [
-        "https://en.as.com/soccer/world-cup/switzerland-vs-algeria-live-online-score-stats-goals-updates-world-cup-2026-round-of-32-f202607-n/?outputType=amp",
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/switzerland-algeria-world-cup-live-score-lineups-watch-highligts/90778520007/"
+        "https://www.espn.com",
+        "https://www.bbc.com/sport"
       ]
     },
     {

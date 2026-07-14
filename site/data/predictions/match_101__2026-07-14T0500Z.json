@@ -1,0 +1,319 @@
+{
+  "match": "France vs Spain",
+  "stage": "Semi-final",
+  "home": "France",
+  "away": "Spain",
+  "kickoff_utc": "2026-07-14T19:00:00Z",
+  "kickoff_hkt": "2026-07-15 03:00",
+  "venue": "AT&T Stadium (Dallas/Arlington)",
+  "run_id": "2026-07-14T0500Z",
+  "run_timestamp": "2026-07-14T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "source_count": 11,
+  "sources": [
+    {
+      "title": "France vs Spain Prediction: World Cup 2026 Match Preview",
+      "url": "https://theanalyst.com/articles/france-vs-spain-prediction-world-cup-2026-match-preview",
+      "publisher": "Opta Analyst"
+    },
+    {
+      "title": "FIFA World Cup 2026 Predictions: The Opta Supercomputer Projections",
+      "url": "https://theanalyst.com/articles/world-cup-2026-semi-final-predictions-opta-supercomputer",
+      "publisher": "Opta Analyst"
+    },
+    {
+      "title": "France vs Spain Betting Odds | FIFA - World Cup Odds",
+      "url": "https://www.pinnacle.bet/en/soccer/fifa-world-cup/france-vs-spain/1632431962/",
+      "publisher": "Pinnacle"
+    },
+    {
+      "title": "France vs Spain Prediction: World Cup 2026 Semi-Final Tips",
+      "url": "https://www.johnnybet.com/france-vs-spain-prediction",
+      "publisher": "JohnnyBet (bet365 odds)"
+    },
+    {
+      "title": "France vs. Spain Preview: Mbappé Leads World Cup Semi-Final",
+      "url": "https://rg.org/en-ca/news/soccer/france-vs-spain-world-cup-2026-preview-odds",
+      "publisher": "RG"
+    },
+    {
+      "title": "Where to Bet on France vs Spain (Bet365 odds)",
+      "url": "https://www.sports-king.com/contests/france-vs-spain-world-cup-betting/",
+      "publisher": "Sports King"
+    },
+    {
+      "title": "World Cup: France vs. Spain Odds, Lines, Spreads, Betting Trends",
+      "url": "https://www.vegasinsider.com/soccer/france-spain-odds-world-cup-2026/",
+      "publisher": "VegasInsider (BetMGM)"
+    },
+    {
+      "title": "World Cup 2026 Semi Final France vs. Spain Predictions and Picks",
+      "url": "https://www.inkl.com/news/world-cup-2026-semi-final-france-vs-spain-predictions-and-picks",
+      "publisher": "Inkl"
+    },
+    {
+      "title": "France XI vs Spain: Confirmed team news, predicted lineup, injury latest",
+      "url": "https://www.standard.co.uk/sport/football/france-xi-vs-spain-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1289716.html",
+      "publisher": "Evening Standard"
+    },
+    {
+      "title": "Spain injury, suspension list and return dates for France World Cup semi-final",
+      "url": "https://www.sportsmole.co.uk/football/spain/injury-news/injuries-and-suspensions/pino-williams-munoz-latest-spain-injury-suspension-list-vs-france_601071.html",
+      "publisher": "Sports Mole"
+    },
+    {
+      "title": "France injury update: Latest on Mbappé, Tchouaméni, Saliba and Upamecano ahead of Spain World Cup semifinal",
+      "url": "https://en.as.com/soccer/world-cup/france-injury-update-latest-on-mbappe-tchouameni-saliba-and-upamecano-ahead-of-spain-world-cup-semifinal-f202607-n/",
+      "publisher": "AS USA"
+    }
+  ],
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.42,
+      "draw": 0.27,
+      "away": 0.31
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.07
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.06
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "法國正規時間取勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.42,
+        "basis": "Opta超級電腦模型顯示法國90分鐘正規時間勝率43.9%對西班牙29.0%，法國淘汰賽階段尚未失球，Mbappe與Dembele的反擊效率是關鍵；多間博彩公司(bet365、BetMGM、FanDuel)亦一致將法國列為90分鐘盤口輕微熱門。"
+      },
+      {
+        "name": "西班牙控球取勝或逼和",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.29,
+        "basis": "西班牙控球率預期達六成，Lamine Yamal與Oyarzabal組成的進攻線具備破解法國防線的能力；西班牙為歐洲盃衛冕冠軍，大賽經驗豐富，部分模型模擬（如YouTube AI模擬）給予西班牙52.4%晉級機率，顯示賽果極度接近。"
+      },
+      {
+        "name": "加時/點球大戰",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.27,
+        "basis": "Opta模型估算加時機率約26-27%，多間博彩商（TonyBet、SBG Global）就90分鐘賽果開出接近的三路盤口，反映市場認為此戰極為均勢，且雙方防線穩健（法國僅失2球，西班牙僅失1球）容易導致低比分僵局。"
+      },
+      {
+        "name": "法國大勝",
+        "scoreline": "3:1",
+        "outcome": "home",
+        "confidence": 0.08,
+        "basis": "若Mbappe、Dembele、Doue的鋒線在西班牙高位防線身後製造多次快速反擊機會，法國有能力複製16強對陣的高效率打法，法國本屆賽事場均入球達2.67球。"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta supercomputer",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.439,
+          "draw": 0.271,
+          "away": 0.29
+        },
+        "scoreline": "N/A",
+        "note": "基於25,000次模擬，法國90分鐘正規時間勝率43.9%、西班牙29.0%、賽和進入加時27.1%；法國晉級決賽機率57.7%，西班牙42.3%。"
+      },
+      {
+        "source": "Bet365 (經JohnnyBet/Sports King整理)",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.435,
+          "draw": 0.308,
+          "away": 0.323
+        },
+        "scoreline": "N/A",
+        "note": "法國90分鐘勝率盤口2.30，賽和3.25，西班牙3.10（Sports King 10/7數據）；換算隱含機率法國約43%，晉級盤口法國1.66 vs 西班牙2.20。"
+      },
+      {
+        "source": "BetMGM/VegasInsider",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.43,
+          "draw": 0.3,
+          "away": 0.27
+        },
+        "scoreline": "N/A",
+        "note": "三路盤口法國+130、和局+210、西班牙+225；資金流向顯示77%金額落在法國一方，晉級盤口法國-150、西班牙+120。"
+      },
+      {
+        "source": "FanDuel/SportsLine",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.426,
+          "draw": 0.303,
+          "away": 0.271
+        },
+        "scoreline": "N/A",
+        "note": "90分鐘盤口法國+130、和局+220、西班牙+220；晉級盤口法國-140、西班牙+122。"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.27,
+      "extra_time_prob": 0.27,
+      "shootout_prob": 0.14,
+      "advance_prob": {
+        "home": 0.585,
+        "away": 0.415
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 4,
+          "won": 2,
+          "win_rate": 0.5,
+          "conversion_rate": null,
+          "recent": "法國世界盃4次點球大戰2勝2負（1986、1998勝；1982、2006負），最近一次正是2022世界盃決賽負於阿根廷（2-4，Mbappe射入兩球但Coman被撲、Tchouameni射失）。若計入歐國盃等大賽，法國近10次點球大戰5勝5負。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_penalty_shoot-outs",
+            "https://sportstar.thehindu.com/football/fifa-world-cup/news/france-in-penalty-shootouts-fifa-world-cup-qatar-2022-records-stats-eng-vs-fra/article66237400.ece",
+            "https://www.fourfourtwo.com/competition/world-cup-2026-penalty-shootouts"
+          ]
+        },
+        "away": {
+          "shootouts": 13,
+          "won": 7,
+          "win_rate": 0.538,
+          "conversion_rate": null,
+          "recent": "西班牙大賽點球大戰生涯7勝6負；2022世界盃16強不敵摩洛哥（0-3，全部三罰不進），但2024歐國盃8強擊敗瑞士（3-1）晉級並最終奪冠，顯示近期在點球壓力下有改善但仍非穩定強項。",
+          "sources": [
+            "https://it.uefa.com/uefaeuro/history/news/028f-1b57e7788290-f6eca6283424-1000--euro-2024-final-spain-vs-england-facts/",
+            "https://www.rsssf.org/miscellaneous/penaltiestour.html"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "法國背負2022世界盃決賽點球負於阿根廷的沉重記憶，Mbappe、Tchouameni等核心球員仍在陣中，若再度進入點球大戰恐有心理陰影，但同批球員亦具備大賽淬鍊的抗壓經驗。",
+        "away": "西班牙近年在點球壓力下的表現趨向穩定進步（2024歐國盃8強戰勝瑞士），年輕核心Yamal、Pedri等人尚未經歷世界盃層級點球大戰的重大挫折，心理負擔相對較輕，但整體點球歷史勝率僅過半，仍具不確定性。"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "基利安·姆巴佩 (Kylian Mbappe)",
+          "record": "2022世界盃決賽點球大戰射入兩球（含常規時間點球），大賽點球經驗豐富，狀態正佳"
+        },
+        {
+          "team": "home",
+          "name_zh": "奧斯曼·登貝萊 (Ousmane Dembele)",
+          "record": "本屆賽事狀態出色，惟大賽點球大戰經驗較少"
+        },
+        {
+          "team": "away",
+          "name_zh": "米克爾·奧亞爾扎瓦爾 (Mikel Oyarzabal)",
+          "record": "2024歐國盃決賽替補建功，屬關鍵時刻穩定射手，具備大心臟表現紀錄"
+        },
+        {
+          "team": "away",
+          "name_zh": "拉明·亞馬爾 (Lamine Yamal)",
+          "record": "年輕但已展現大賽抗壓能力，惟未有世界盃點球大戰經驗"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "Opta模型與多家博彩商一致認為加時機率約27%、點球大戰機率約14%，屬淘汰賽中等風險等級；法國近期點球歷史（尤其2022決賽負於阿根廷）為潛在心理變數，但雙方今屆賽事點球大戰經驗均有限，此維度不確定性中等。"
+    }
+  },
+  "reasoning": {
+    "summary": "法國憑藉Mbappe領軍的鋒線效率與淘汰賽零封紀錄，在Opta模型與各大博彩盤口中均獲小幅青睞，90分鐘正規時間勝率約42-44%；西班牙則以歐洲盃衛冕冠軍身份、六成控球優勢及深厚中場深度構成強力挑戰，令此戰成為本屆賽事最勢均力敵的準決賽之一。市場普遍預期比賽膠著，加時機率偏高。",
+    "key_factors": [
+      "球員狀態：Mbappe（大賽射手王級表現）與Yamal/Oyarzabal的鋒線效率同樣頂尖，構成攻防對位的核心變數",
+      "傷停情況：法國Tchouameni（大腿）、Kone（膝傷）為輕度疑慮但預期可上陣；西班牙Pino、Nico Williams、Munoz均為輕傷可用，兩隊主力大致齊整",
+      "近期狀態：法國淘汰賽階段尚未失球，西班牙僅失一球，雙方防守效率同屬頂級，預示比賽可能低比分",
+      "戰術對位：西班牙預期控球達60%，法國則倚重防守反擊與由Dembele/Doue帶動的快速轉換，形成鮮明戰術風格碰撞",
+      "場地與時差因素：達拉斯AT&T Stadium七月高溫悶熱環境，可能影響歐洲球隊後段體能，惟兩隊皆已適應美國賽區氣候",
+      "輿論共識：Opta、bet365、BetMGM、FanDuel等來源一致將法國列為90分鐘與晉級盤口的輕微熱門，但差距極小，反映市場視此為銅板戰"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分模型（如社群AI模擬）反而給予西班牙52.4%的晉級機率，且西班牙為Opta奪冠機率排名第二高的球隊（23.4%-23.8%），顯示若聚焦控球與整體奪冠潛力而非90分鐘勝負，西班牙的評價並不亞於法國，個別分析師（如RotoWire）甚至直接預測西班牙2-1取勝。"
+  },
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "法國主場攻擊線強勢，西班牙傳控難破鐵壁"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "法國反擊犀利具主場優勢，西班牙傳控穩健，看好法國小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.34,
+        "draw": 0.35,
+        "away": 0.31
+      },
+      "scoreline": "1:1",
+      "note": "技術流對決，常規時間難分高下。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.38,
+        "draw": 0.32,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "法國反擊與西班牙控球勢均力敵，常規時間預計以和局收場。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.415,
+      "draw": 0.288,
+      "away": 0.297
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-14T051036Z"
+}
