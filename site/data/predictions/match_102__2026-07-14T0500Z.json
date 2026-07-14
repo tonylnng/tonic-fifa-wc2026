@@ -1,5 +1,5 @@
 {
-  "match": "England vs Argentina",
+  "match": 102,
   "stage": "Semi-final",
   "home": "England",
   "away": "Argentina",
@@ -306,5 +306,6 @@
     "models_used": 5,
     "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
   },
-  "multimodel_updated_at": "2026-07-14T051114Z"
+  "multimodel_updated_at": "2026-07-14T051114Z",
+  "matchup": "England vs Argentina"
 }
