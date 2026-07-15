@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-07-09T05:00:00Z",
+  "last_updated": "2026-07-15T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1466,6 +1466,23 @@
       "advanced": "Argentina",
       "decided_by": "extra_time",
       "note": "加時阿爾瓦雷斯、勞塔羅接連建功，恩博洛第二黃染紅"
+    },
+    {
+      "match": 101,
+      "stage": "Semi-final",
+      "home": "France",
+      "away": "Spain",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "scoreline": "0:2",
+      "outcome": "away",
+      "recorded_at": "2026-07-15T05:00:00Z",
+      "source": "ESPN/CBS Sports/NBC Sports/FOX Sports/AS.com",
+      "advanced": "Spain",
+      "decided_by": "regular",
+      "note": "正規90分鐘完場，奧亞薩巴爾22分鐘點球、波路58分鐘破門，西班牙完封晉級決賽"
     }
   ]
 }

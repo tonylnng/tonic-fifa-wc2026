@@ -1631,14 +1631,15 @@
       "group": null,
       "date": "2026-07-18",
       "kickoff_local": "17:00",
-      "home": "TBD",
+      "home": "France",
       "away": "TBD",
       "venue": "Hard Rock Stadium",
       "city": "Miami, USA",
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-18T21:00:00Z"
+      "kickoff_utc": "2026-07-18T21:00:00Z",
+      "note": "法國（#101 負方）對陣 #102 英格蘭 vs 阿根廷負方"
     },
     {
       "match": 104,
@@ -1646,14 +1647,15 @@
       "group": null,
       "date": "2026-07-19",
       "kickoff_local": "15:00",
-      "home": "TBD",
+      "home": "Spain",
       "away": "TBD",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, USA",
       "status": "scheduled",
       "result": null,
       "timezone": "America/New_York",
-      "kickoff_utc": "2026-07-19T19:00:00Z"
+      "kickoff_utc": "2026-07-19T19:00:00Z",
+      "note": "西班牙（#101 勝方）對陣 #102 英格蘭 vs 阿根廷勝方"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-14T05:09:18Z",
+  "last_updated": "2026-07-15T05:08:04Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -4735,18 +4735,22 @@
       "bio_zh": "法國隊長，效力皇家馬德里的世界頂級前鋒，速度奇快，入球能力無與倫比，被譽為當今世界最佳球員。",
       "stats": {
         "goals": 8,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           17,
           42,
           77,
           89,
-          97
+          97,
+          101
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
+        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
+        "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
+        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
       ]
     },
     {
@@ -4803,6 +4807,33 @@
         "https://www.espn.com/soccer/report/_/gameId/760475",
         "https://worldsoccertalk.com/world-cup/norway-vs-france-live-updates-minute-by-minute-coverage-of-the-2026-world-cup-group-i-game/",
         "https://terrikon.com/en/football/matches/156682"
+      ]
+    },
+    {
+      "id": "FRA-rabiot",
+      "name_en": "Adrien Rabiot",
+      "name_zh": "拉比奧",
+      "team": "France",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          101
+        ]
+      },
+      "sources": [
+        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
+        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
+        "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
+        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
       ]
     },
     {
@@ -10516,17 +10547,20 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 4,
+        "goals": 5,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           37,
-          84
+          84,
+          101
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/commentary/_/gameId/760497",
-        "https://www.sportingnews.com/ca/soccer/news/spain-vs-austria-world-cup-live-score-result-highlights/4b81285ce24c9e81fa52555f"
+        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
+        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
+        "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
+        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
       ]
     },
     {
@@ -10624,6 +10658,33 @@
       ]
     },
     {
+      "id": "ESP-cucurella",
+      "name_en": "Marc Cucurella",
+      "name_zh": "古庫雷拉",
+      "team": "Spain",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          101
+        ]
+      },
+      "sources": [
+        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
+        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
+        "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
+        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
+      ]
+    },
+    {
       "id": "ESP-merino",
       "name_en": "Mikel Merino",
       "name_zh": "米克爾·梅里諾",
@@ -10711,16 +10772,19 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          84
+          84,
+          101
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/commentary/_/gameId/760497",
-        "https://www.sportingnews.com/ca/soccer/news/spain-vs-austria-world-cup-live-score-result-highlights/4b81285ce24c9e81fa52555f"
+        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
+        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
+        "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
+        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
       ]
     },
     {

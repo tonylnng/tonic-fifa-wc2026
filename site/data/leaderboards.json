@@ -1,18 +1,6 @@
 {
-  "last_updated": "2026-07-14T05:09:18Z",
+  "last_updated": "2026-07-15T05:08:04Z",
   "scorers": [
-    {
-      "id": "FRA-mbappe",
-      "name_zh": "麥巴比",
-      "name_en": "Kylian Mbappé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 8,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
     {
       "id": "ARG-messi",
       "name_zh": "美斯",
@@ -23,6 +11,18 @@
       "shirt_no": 10,
       "goals": 8,
       "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-mbappe",
+      "name_zh": "麥巴比",
+      "name_en": "Kylian Mbappé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 8,
+      "yellow_cards": 1,
       "red_cards": 0
     },
     {
@@ -62,6 +62,18 @@
       "red_cards": 0
     },
     {
+      "id": "ESP-oyarzabal",
+      "name_zh": "米克爾·奧亞薩瓦爾",
+      "name_en": "Mikel Oyarzabal",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 5,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "FRA-dembele",
       "name_zh": "甘比利",
       "name_en": "Ousmane Dembélé",
@@ -79,18 +91,6 @@
       "name_en": "Julián Quiñones",
       "team_zh": "墨西哥",
       "team": "Mexico",
-      "position": "FW",
-      "shirt_no": null,
-      "goals": 4,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "ESP-oyarzabal",
-      "name_zh": "米克爾·奧亞薩瓦爾",
-      "name_en": "Mikel Oyarzabal",
-      "team_zh": "西班牙",
-      "team": "Spain",
       "position": "FW",
       "shirt_no": null,
       "goals": 4,
@@ -416,6 +416,18 @@
       "team_zh": "埃及",
       "team": "Egypt",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ESP-porro",
+      "name_zh": "佩德羅·波羅",
+      "name_en": "Pedro Porro",
+      "team_zh": "西班牙",
+      "team": "Spain",
+      "position": "DF",
       "shirt_no": null,
       "goals": 2,
       "yellow_cards": 0,
@@ -1562,18 +1574,6 @@
       "red_cards": 0
     },
     {
-      "id": "ESP-porro",
-      "name_zh": "佩德羅·波羅",
-      "name_en": "Pedro Porro",
-      "team_zh": "西班牙",
-      "team": "Spain",
-      "position": "DF",
-      "shirt_no": null,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "CRO-musa",
       "name_zh": "穆薩",
       "name_en": "Petar Musa",
@@ -2472,6 +2472,18 @@
       "position": "DF",
       "shirt_no": 2,
       "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-rabiot",
+      "name_zh": "拉比奧",
+      "name_en": "Adrien Rabiot",
+      "team_zh": "待補",
+      "team": "France",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3592,6 +3604,18 @@
       "red_cards": 0
     },
     {
+      "id": "FRA-mbappe",
+      "name_zh": "麥巴比",
+      "name_en": "Kylian Mbappé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 8,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "CZE-krejci",
       "name_zh": "克雷基",
       "name_en": "Ladislav Krejčí",
@@ -3802,6 +3826,18 @@
       "team_zh": "法國",
       "team": "France",
       "position": "TBD",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ESP-cucurella",
+      "name_zh": "古庫雷拉",
+      "name_en": "Marc Cucurella",
+      "team_zh": "待補",
+      "team": "Spain",
+      "position": "MF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -4529,9 +4565,9 @@
     }
   ],
   "totals": {
-    "players": 515,
-    "goals": 278,
-    "yellow_cards": 212,
+    "players": 517,
+    "goals": 280,
+    "yellow_cards": 215,
     "red_cards": 13
   }
 }

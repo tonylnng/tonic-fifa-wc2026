@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-14T05:09:01Z",
+  "last_updated": "2026-07-15T05:08:22Z",
   "postmortems": [
     {
       "match": 5,
@@ -2381,6 +2381,39 @@
       "outcome_correct": true,
       "exact_correct": false,
       "generated_at": "2026-07-14T05:09:01Z"
+    },
+    {
+      "match": 101,
+      "home": "France",
+      "away": "Spain",
+      "stage": "Semi-final",
+      "final": "0:2",
+      "actual_outcome": "away",
+      "decided_by": "regular",
+      "advanced": "Spain",
+      "run_id": "2026-07-14T0500Z",
+      "headline": "西班牙完封法國2:0晉級決賽，奧亞薩巴爾點球、波路操刀破門",
+      "review": "我方7/14賽前預測法國2:1主勝晉級（機率58.5%），實際賽果卻是西班牙客場2:0完封法國，預測方向與比分均落空。西班牙靠亞馬爾製造的第22分鐘點球由奧亞薩巴爾主罰命中，下半場第58分鐘再由波路跟進洛迪的做球輕鬆推射鎖定勝局，全場正規時間分出勝負，未經加時或點球。法國進攻端未能將射門轉化為入球，姆巴比雖射門數與西班牙相當卻整場啞火，暴露鋒線效率不足與中場控制力被西班牙壓制的問題，賽前對法國主場優勢與陣容深度的評估明顯過於樂觀。西班牙延續本屆賽事的強悍防守走勢（七戰六次零封），此勝亦復刻2010年及2024歐國盃擊敗法國晉級決賽的歷史劇本，顯示我方模型低估了西班牙近期防守穩定性與臨門把握力的權重。",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france",
+        "https://www.cbssports.com/soccer/news/france-vs-spain-live-updates-world-cup-2026-score-result/live/",
+        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
+        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
+        "https://www.foxsports.com/stories/soccer/2026-world-cup-bracket-semifinals-finals-matchups"
+      ],
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "model": "claude-sonnet-4.6",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "lessons": [
+        "準決賽高強度對抗中，衛冕級整體防守（西班牙）比個人火力（法國）更能決定走勢，預測過度看重法國前場星味。",
+        "客隊在中立場硬仗的臨場執行力被低估；主客標記不應在中立球場賦予法國過高主場加成。",
+        "一次早段點球即改變比賽節奏，低比分淘汰賽對單一事件極敏感，信心值 0.55 偏高。"
+      ],
+      "vs_benchmarks": "我方與多數博彩／模型同樣看好法國小勝，屬市場共識性失誤；西班牙 0:2 完封為普遍冷門。",
+      "generated_at": "2026-07-15T05:08:22Z"
     }
   ]
 }
