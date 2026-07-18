@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-07-15T05:00:00Z",
+  "last_updated": "2026-07-18T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1483,6 +1483,23 @@
       "advanced": "Spain",
       "decided_by": "regular",
       "note": "正規90分鐘完場，奧亞薩巴爾22分鐘點球、波路58分鐘破門，西班牙完封晉級決賽"
+    },
+    {
+      "match": 102,
+      "stage": "Semi-final",
+      "home": "England",
+      "away": "Argentina",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "scoreline": "1:2",
+      "outcome": "away",
+      "recorded_at": "2026-07-18T05:00:00Z",
+      "source": "ESPN/Sky Sports/FIFA official match report",
+      "advanced": "Argentina",
+      "decided_by": "regular",
+      "note": "正規時間分勝負；戈登55分鐘先開紀錄，恩佐85分鐘扳平、勞塔羅90+2讀秒絕殺（兩球皆梅西助攻），阿根廷逆轉晉級決賽"
     }
   ]
 }

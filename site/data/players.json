@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-15T05:08:04Z",
+  "last_updated": "2026-07-18T05:03:58Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -370,15 +370,50 @@
       "is_key": true,
       "bio_zh": "中場發動機，2022年世界盃最佳新秀得主，現效力車路士。擅長插上進攻與積極搶截，是阿根廷中場最重要的組織者之一，本屆將扛起更多責任。",
       "stats": {
-        "goals": 1,
+        "goals": 2,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
-          95
+          95,
+          102
         ]
       },
       "sources": [
-        "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+      ]
+    },
+    {
+      "id": "ARG-romero",
+      "name_en": "Cristian Romero",
+      "name_zh": "克里斯蒂安羅梅羅",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          102
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
       ]
     },
     {
@@ -433,6 +468,35 @@
       ]
     },
     {
+      "id": "ARG-martinez-lautaro",
+      "name_en": "Lautaro Martínez",
+      "name_zh": "勞塔羅馬丁尼斯",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          102
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+      ]
+    },
+    {
       "id": "ARG-paredes",
       "name_en": "Leandro Paredes",
       "name_zh": "帕雷德斯",
@@ -458,6 +522,64 @@
         "https://bolavip.com/en/world-cup/argentina-vs-austria-live-lionel-messi-chases-2026-world-cup-round-of-32-spot",
         "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/argentina-vs-austria/liveticker",
         "https://terrikon.com/en/football/matches/156644"
+      ]
+    },
+    {
+      "id": "ARG-martinez-lisandro",
+      "name_en": "Lisandro Martínez",
+      "name_zh": "利桑德羅馬丁尼斯",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          102
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+      ]
+    },
+    {
+      "id": "ARG-depaul",
+      "name_en": "Rodrigo De Paul",
+      "name_zh": "羅德里戈德保羅",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          102
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
       ]
     },
     {
@@ -4540,6 +4662,64 @@
       "sources": [
         "https://www.espn.com",
         "https://www.bbc.com/sport"
+      ]
+    },
+    {
+      "id": "ENG-gordon",
+      "name_en": "Anthony Gordon",
+      "name_zh": "安東尼戈登",
+      "team": "England",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          102
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+      ]
+    },
+    {
+      "id": "ENG-anderson",
+      "name_en": "Elliot Anderson",
+      "name_zh": "艾略特安德森",
+      "team": "England",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "matches_with_events": [
+          102
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.espn.com/soccer/report/_/gameId/760515",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
+        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
       ]
     },
     {

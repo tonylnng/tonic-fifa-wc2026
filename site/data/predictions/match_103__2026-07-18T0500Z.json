@@ -1,0 +1,316 @@
+{
+  "match": 103,
+  "stage": "Third Place",
+  "home": "France",
+  "away": "England",
+  "kickoff_utc": "2026-07-18T21:00:00Z",
+  "run_id": "2026-07-18T0500Z",
+  "run_timestamp": "2026-07-18T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.5,
+      "draw": 0.24,
+      "away": 0.26
+    },
+    "confidence": 0.55,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.12
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "2:2",
+        "prob": 0.07
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "法國憑深度輪換陣容穩勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.5,
+        "basis": "法國陣容深度優於輪換後的英格蘭，姆巴佩爭金靴動機強烈"
+      },
+      {
+        "name": "英格蘭年輕新兵爆發逆轉",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.25,
+        "basis": "英格蘭雖大幅輪換但拉什福德、羅傑斯等替補仍具威脅，法國後防重組（薩利巴傷缺）存在漏洞"
+      },
+      {
+        "name": "季軍戰典型悶戰互交白卷後點球分勝負",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.24,
+        "basis": "無爭冠壓力下雙方動機不足，戰至加時甚至點球"
+      },
+      {
+        "name": "開放式進球大戰",
+        "scoreline": "2:2",
+        "outcome": "draw",
+        "confidence": 0.15,
+        "basis": "雙方輪換後防線薄弱（薩利巴、萊斯、詹姆斯皆缺陣或受限），歷史交手進球數高"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦(Al Jazeera)",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.507,
+          "draw": 0.237,
+          "away": 0.256
+        },
+        "scoreline": null,
+        "note": "25000次模擬，法國90分鐘內獲勝機率50.7%，為主流統計模型基準"
+      },
+      {
+        "source": "FanDuel Research",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.4988,
+          "draw": 0.2506,
+          "away": 0.2506
+        },
+        "scoreline": "2:1",
+        "note": "美盤法國-110/和局+280/英格蘭+280，去水後推算，主推法國2:1 Mbappé取金靴"
+      },
+      {
+        "source": "Pinnacle(sharp line)",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.5084,
+          "draw": 0.2392,
+          "away": 0.2523
+        },
+        "scoreline": null,
+        "note": "去水盤口，法國主-111/和局+304/英格蘭+283，被視為市場最精準基準"
+      },
+      {
+        "source": "Onside Arena / SportPesa 模型共識",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.24,
+          "away": 0.29
+        },
+        "scoreline": "2:1",
+        "note": "多家獨立預測模型皆給法國50%上下、大比分2:1或1:0"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.24,
+      "extra_time_prob": 0.24,
+      "shootout_prob": 0.1,
+      "advance_prob": {
+        "home": 0.62,
+        "away": 0.38
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 10,
+          "won": 5,
+          "win_rate": 0.5,
+          "conversion_rate": 0.72,
+          "recent": "法國近兩次世界盃決賽點球皆負（2006負意大利3:5、2022負阿根廷2:4），但2024歐國盃八強點球淘汰葡萄牙(5:3)展現近期回穩",
+          "sources": [
+            "https://sportstar.thehindu.com/football/portugal-vs-france-euro-2024-quarterfinal-french-team-record-in-penalty-shootout-por-v-fra-extra-time/article68372766.ece",
+            "https://www.thesoccerworldcups.com/national_teams/france_penalties.php"
+          ]
+        },
+        "away": {
+          "shootouts": 11,
+          "won": 4,
+          "win_rate": 0.364,
+          "conversion_rate": 0.7,
+          "recent": "英格蘭世界盃點球史上僅4戰1勝(25%)，但近兩次大賽點球戰皆獲勝（2018世界盃負16強勝哥倫比亞、2024歐國盃8強勝瑞士5:3），門將皮克福特近年撲救穩定",
+          "sources": [
+            "https://www.goal.com/en-us/news/england-penalty-shootout-record-how-often-won-lost/128qfzvz5fj7f1cyeje3xnfssw",
+            "https://www.sportingnews.com/us/soccer/news/england-penalty-shootout-record-world-cup-history/aqnm0cdyj1orqjbxg9s9lcgz"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "法國近兩屆世界盃決賽皆點球負於對手（2006、2022），心理陰影仍存，但德尚任內末戰、姆巴佩等球星大賽經驗豐富",
+        "away": "英格蘭大賽點球歷史包袋沉重（世界盃1/4勝率），但圖赫爾執教後近兩次點球戰全勝，年輕陣容心理負擔較小，此役無爭冠壓力反而可能減輕焦慮"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "姆巴佩",
+          "record": "大賽點球經驗豐富，2022年決賽點球戰有命中紀錄，正主動爭金靴，動機強烈"
+        },
+        {
+          "team": "away",
+          "name_zh": "凱恩",
+          "record": "英格蘭隊長，大賽點球命中率穩定，但本場可能被輪休，若替補登場點球责任落在貝林漢或沃特金斯身上"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "季軍戰雙方陣容大幅輪換、動機有限，容易演變成悶戰進入加時甚至點球；但歷史交鋒進球效率高（近5次交手僅1場0:0），90分鐘內分出勝負的機率仍略高於平局。"
+    }
+  },
+  "reasoning": {
+    "summary": "法國憑藉更完整的陣容深度與姆巴佩爭奪金靴的強烈動機，在多數博彩盤口與Opta模型中均被視為輕微優勢方，預測以2:1拿下季軍；但雙方大幅輪換陣容存在不確定性，英格蘭年輕替補仍具冷門能力。",
+    "key_factors": [
+      "球員狀態:姆巴佩狀態出色(8球平梅西金靴榜首，動機強烈)，凱恩、萊斯、貝林漢大機率被輪休",
+      "傷停:法國中衛薩利巴因半決賽背傷缺陣(拉克鲁瓦頂替)，英格蘭詹姆斯疑因腿筋傷勢缺陣(斯彭斯頂替)",
+      "近期狀態:兩隊近5場均為LWWWW的形式走勢，法國半決賽被西班牙零封(0:2)，英格蘭讀秒被阿根廷逆轉(1:2)",
+      "戰術對位:法國4-2-3-1結構穩定但輪換後衛線經驗值下降；英格蘭圖赫爾大幅變陣、新援麥諾迎接首次世界盃出場",
+      "場地/體能:法國半決賽提前一天結束获得多一天恢復，邁阿密高溫濕熱環境對雙方體能均是考驗",
+      "輿論共識:多數博彩盤口(DraftKings/FanDuel/BetMGM/Pinnacle)與Opta模型一致認為法國小幅佔優(50%上下)，僅少數本地媒體給出五五盤"
+    ],
+    "consensus_lean": "home",
+    "dissent": "部分預測模型（如SportsMole統計模型引用的45/45/10）給出法國+和局雙獲勝(double chance)極高機率、純勝率反而偏低，顯示模型間對「法國能否在90分鐘內拿下勝利」仍有分歧，一直開放的英格蘭大比分冷門也不可完全排除。"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "OpticOdds(DraftKings/FanDuel/BetMGM/Pinnacle/Caesars盤口整合)",
+      "url": "https://sportsbook.draftkings.com/event/34400513"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst/Al Jazeera - Opta超級電腦季軍戰預測",
+      "url": "https://www.aljazeera.com/sports/2026/7/17/france-england-fifa-world-cup-third-place-playoff-predictions-kickoff"
+    },
+    {
+      "type": "official",
+      "name": "Sport Grill - 官方傷兵/陣容報告",
+      "url": "https://sportgrill.co.uk/2026/07/17/2026-fifa-world-cup-third-place-play-off-france-vs-england/"
+    },
+    {
+      "type": "media",
+      "name": "Sports Mole - 傷兵停賽名單與预测先發陣容",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/team-news/france-vs-england-injury-suspension-list-predicted-xis_601298.html"
+    },
+    {
+      "type": "betting",
+      "name": "FanDuel Research - 季軍戰預測分析與盤口",
+      "url": "https://www.fanduel.com/research/france-vs-england-third-place-prediction-picks-lineups-odds-and-best-bets-world-cup-2026"
+    },
+    {
+      "type": "betting",
+      "name": "VSiN - 賠率分析與投注建議",
+      "url": "https://vsin.com/soccer/france-vs-england-world-cup-2026-third-place-game-prediction-and-preview/"
+    },
+    {
+      "type": "model",
+      "name": "BettingTop10 Canada - 統計模型與歷史交手",
+      "url": "https://www.bettingtop10.ca/world-cup-2026-france-vs-england-predictions/"
+    },
+    {
+      "type": "model",
+      "name": "Onside Arena - 晉級機率模型",
+      "url": "https://onsidearena.com/world-cup-2026/knockout/3rd-fra-vs-eng"
+    },
+    {
+      "type": "media",
+      "name": "SportPesa Blog - 賽前分析及關鍵數據",
+      "url": "https://blog.sportpesa.com/2026/07/17/france-vs-england-prediction-world-cup-2026-third-place-playoff/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - 阿根廷/法國點球歷史紀錄",
+      "url": "https://www.sportingnews.com/in/football/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+    },
+    {
+      "type": "media",
+      "name": "Goal.com - 英格蘭點球大戰紀錄",
+      "url": "https://www.goal.com/en-us/news/england-penalty-shootout-record-how-often-won-lost/128qfzvz5fj7f1cyeje3xnfssw"
+    },
+    {
+      "type": "media",
+      "name": "The Sporting News - 英格蘭世界盃點球歷史",
+      "url": "https://www.sportingnews.com/us/soccer/news/england-penalty-shootout-record-world-cup-history/aqnm0cdyj1orqjbxg9s9lcgz"
+    },
+    {
+      "type": "media",
+      "name": "Sportstar - 法國歐國盃/世界盃點球紀錄",
+      "url": "https://sportstar.thehindu.com/football/portugal-vs-france-euro-2024-quarterfinal-french-team-record-in-penalty-shootout-por-v-fra-extra-time/article68372766.ece"
+    }
+  ],
+  "source_count": 13,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "法國整體戰力稍優，三四名戰仍具進攻火力。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "法國陣容深度略勝，季軍賽戰意決定勝負，看好主隊小勝。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.42,
+        "draw": 0.3,
+        "away": 0.28
+      },
+      "scoreline": "2:1",
+      "note": "季軍戰攻防開放，法國前場天賦略勝一籌，有望小勝英格蘭。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "季軍戰通常較為開放，法國的進攻火力與陣容深度略勝一籌。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.467,
+      "draw": 0.258,
+      "away": 0.275
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-18T051338Z"
+}

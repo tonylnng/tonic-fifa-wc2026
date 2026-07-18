@@ -1,16 +1,16 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-15T05:09:03Z",
-  "total_evaluated": 90,
+  "last_updated": "2026-07-18T05:14:21Z",
+  "total_evaluated": 91,
   "buckets": [
     {
       "bucket": "<50%",
       "lower": 0.0,
       "upper": 0.5,
       "mid": 0.25,
-      "count": 7,
-      "hit_rate": 0.5714,
-      "avg_confidence": 0.4357
+      "count": 8,
+      "hit_rate": 0.5,
+      "avg_confidence": 0.4412
     },
     {
       "bucket": "50-60%",
@@ -58,8 +58,8 @@
       "avg_confidence": null
     }
   ],
-  "brier_score": 0.2079,
-  "ece": 0.0644,
-  "overconfidence": -0.0009,
-  "notes": "已評估 90 場：AI 信心與實際命中率大致吻合，校準良好。"
+  "brier_score": 0.2073,
+  "ece": 0.0585,
+  "overconfidence": 0.0044,
+  "notes": "已評估 91 場：AI 信心與實際命中率大致吻合，校準良好。"
 }

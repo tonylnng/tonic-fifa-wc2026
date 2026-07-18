@@ -1,0 +1,336 @@
+{
+  "match": 104,
+  "stage": "Final",
+  "home": "Spain",
+  "away": "Argentina",
+  "kickoff_utc": "2026-07-19T19:00:00Z",
+  "run_id": "2026-07-18T0500Z",
+  "run_timestamp": "2026-07-18T05:00:00Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.43,
+      "draw": 0.29,
+      "away": 0.28
+    },
+    "confidence": 0.5,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "1:2",
+        "prob": 0.075
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "西班牙控球壓制完封或小勝",
+        "scoreline": "2:0",
+        "outcome": "home",
+        "confidence": 0.3,
+        "basis": "西班牙淘汰賽零封紀錄極佳（僅一球失球），控球風格可窒息阿根廷反擊空間，如同半決賽完封法國"
+      },
+      {
+        "name": "梅西謝幕戰奇蹟連莊",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.28,
+        "basis": "阿根廷淘汰賽屢次逆境絕殺（對英格蘭2:1逆轉），梅西大賽經驗與門將馬丁尼斯關鍵撲救可支撐衛冕"
+      },
+      {
+        "name": "拉鋸戰進入加時甚至點球",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.29,
+        "basis": "雙方近期淘汰賽皆非大比分獲勝，決賽壓力下容易保守，Opta模型估算25.4%機率戰至加時"
+      },
+      {
+        "name": "西班牙年輕才華決定比賽",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.25,
+        "basis": "亞馬爾即使帶傷但據報「完全體能狀態」，奧亞薩瓦爾今屆5球狀態火熱，加上羅德里中場調度優勢"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Opta超級電腦(Al Jazeera)",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.451,
+          "draw": 0.254,
+          "away": 0.294
+        },
+        "scoreline": null,
+        "note": "西班牙90分鐘內獲勝機率45.1%，阿根廷29.4%，戰至加時/點球機率25.4%"
+      },
+      {
+        "source": "Kalshi(NYT/Covers.com預測市場)",
+        "kind": "market",
+        "win_prob": {
+          "home": 0.581,
+          "draw": null,
+          "away": 0.427
+        },
+        "scoreline": null,
+        "note": "預測市場給西班牙奪冠58.1%機率，阿根廷42.7%"
+      },
+      {
+        "source": "FanDuel/DraftKings/BetMGM(RG.org匯總)",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.4135,
+          "draw": 0.3224,
+          "away": 0.2642
+        },
+        "scoreline": "2:1",
+        "note": "90分鐘賠率西班牙+130/和局+195/阿根廷+260附近，多本推薦分析比分西班牙2:1"
+      },
+      {
+        "source": "SportsMole統計模型",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.4405,
+          "draw": 0.2315,
+          "away": 0.328
+        },
+        "scoreline": "2:1",
+        "note": "模型模擬西班牙獲勝最可能比分2:1(8.76%)，阿根廷獲勝最可能比分1:2(7.44%)"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.29,
+      "extra_time_prob": 0.29,
+      "shootout_prob": 0.13,
+      "advance_prob": {
+        "home": 0.565,
+        "away": 0.435
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 13,
+          "won": 7,
+          "win_rate": 0.538,
+          "conversion_rate": 0.68,
+          "recent": "西班牙世界盃點球史上最差(5戰僅1勝、20%勝率，2002負韓國、2018負俄羅斯、2022 16強負摩洛哥0:3)，但歐國盃紀錄相對優秀(6戰4勝、66.7%，含2020八強勝瑞士)，本屆決賽若戰至點球屬心理隱憂",
+          "sources": [
+            "https://news.williamhill.com/football/world-cup/penalty-shootout-records/",
+            "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375"
+          ]
+        },
+        "away": {
+          "shootouts": 16,
+          "won": 10,
+          "win_rate": 0.625,
+          "conversion_rate": 0.58,
+          "recent": "阿根廷是世界盃歷史點球最強隊之一(7戰6勝)，2022年決賽戰勝法國、八強戰勝荷蘭皆靠點球，門將馬丁尼斯生涯大賽點球戰保持不敗(5戰全勝)，對手命中率僅約58%遠低於正常水平",
+          "sources": [
+            "https://www.sportingnews.com/in/football/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt",
+            "https://copaamerica.com/en/news/emiliano-martinez-goalkeeper-penalty-shoot-out"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "西班牙世界盃點球陰影濃厚(近5次僅1勝)，若決賽拖入點球心理壓力顯著，但本屆陣容年輕、心理素質受教練德拉富恩特稱讚，且近年歐國盃點球轉強",
+        "away": "阿根廷點球心理優勢明顯，門將馬丁尼斯的「讀心戰術」與挑釁式撲救為其標誌性武器，梅西謝幕戰動機與2022年奪冠記憶(同樣經歷點球取勝)可提供額外信心"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "奥亚萨瓦尔",
+          "record": "本屆賽事金靴候選(5球，含對法國點球)，大賽點球命中穩定"
+        },
+        {
+          "team": "away",
+          "name_zh": "梅西",
+          "record": "阿根廷隊史點球第一輪罰球手，2022年決賽點球戰命中，經驗最豐富的現役球員"
+        }
+      ],
+      "penalty_risk": "high",
+      "risk_note": "本屆淘汰賽兩隊皆未大比分獲勝(西班牙半決賽2:0、阿根廷2:1驚險過關)，Opta模型估算25.4%機率戰至加時，若真的進入點球，阿根廷憑門將馬丁尼斯與歷史勝率明顯佔優，而西班牙世界盃點球史上敗多勝少，構成本場決賽最大風險變數。"
+    }
+  },
+  "reasoning": {
+    "summary": "西班牙憑藉本屆賽事最佳防守效率（淘汰賽僅失1球）與多數模型/盤口的一致優勢評估，預測以2:1小勝奪冠；但阿根廷屢次逆境絕殺的韌性與門將馬丁尼斯的點球威脅，令這場決賽被普遍視為近年來最接近的一場世界盃決賽之一。",
+    "key_factors": [
+      "球員狀態:亞馬爾雖半決賽帶傷但主帥確認「完全體能狀態」預計先發；梅西迎來第三次世界盃決賽(38-39歲高齡)，體能分配是關鍵變數",
+      "傷停:西班牙波爾特羅有肌肉緊繃但可先發，整體陣容近乎全員可用；阿根廷無新增傷患，羅梅羅/馬丁尼斯中衛組合維持",
+      "近期狀態:西班牙半決賽2:0零封法國展現本屆最強防守效率；阿根廷半決賽1:2讀秒逆轉英格蘭，展現逆境求生能力但過程波折",
+      "戰術對位:西班牙控球打法(羅德里+法比安/佩德里雙核)對阿根廷的高效反擊(阿爾瓦雷斯+梅西)構成矛盾之爭，博彩盤口普遍看好2.5球以下低比分",
+      "場地/體能:紐澤西MetLife Stadium決賽夜間開球，兩隊皆經過連續多場高強度淘汰賽消耗，體能管理將影響加時表現",
+      "輿論共識:多數博彩盤口(DraftKings/FanDuel/BetMGM)、Opta超級電腦、Kalshi預測市場及ESPN記者投票均一致看好西班牙獲勝(約56-59%奪冠機率)，僅少數評論看好梅西的歷史敘事"
+    ],
+    "consensus_lean": "home",
+    "dissent": "Evening Standard等少數媒體及ESPN部分記者、NBC Sports博彩專家(Drew Dinsick)明確看好阿根廷奪冠，理由是梅西告別戰的歷史敘事、球隊在逆境中屢次證明的求生能力，以及若戰入點球大戰門將馬丁尼斯帶來的明顯優勢；NBC Sports分析更直言「若進入點球我看好阿根廷」。"
+  },
+  "sources": [
+    {
+      "type": "betting",
+      "name": "OpticOdds(DraftKings/FanDuel/BetMGM/Pinnacle/Caesars盤口整合)",
+      "url": "https://sportsbook.draftkings.com/event/34400514"
+    },
+    {
+      "type": "model",
+      "name": "Opta Analyst - 決賽比賽預測與淘汰賽模型",
+      "url": "https://theanalyst.com/articles/2026-world-cup-bracket-opta-supercomputer"
+    },
+    {
+      "type": "media",
+      "name": "Al Jazeera - Opta決賽90分鐘勝率預測",
+      "url": "https://www.aljazeera.com/sports/2026/7/16/fifa-world-cup-final-2026-date-time-and-venue-trump-prediction"
+    },
+    {
+      "type": "media",
+      "name": "The New York Times - 決賽盤口分析與Kalshi市場機率",
+      "url": "https://www.nytimes.com/athletic/7447828/2026/07/15/world-cup-final-odds-spain-argentina/"
+    },
+    {
+      "type": "betting",
+      "name": "RG.org - 決賽賠率與多家博彩公司比較",
+      "url": "https://rg.org/en-ca/news/soccer/spain-argentina-world-cup-final-odds-predictions-best-bets"
+    },
+    {
+      "type": "betting",
+      "name": "CBS Sports - 決賽盤口、預測與最佳投注",
+      "url": "https://www.cbssports.com/betting/news/argentina-spain-odds-prediction-time-2026-world-cup-final-picks/"
+    },
+    {
+      "type": "model",
+      "name": "SportsMole - 統計模擬模型比分機率",
+      "url": "https://www.sportsmole.co.uk/football/world-cup/spain-vs-argentina_game_251078.html"
+    },
+    {
+      "type": "media",
+      "name": "USA Today - 楊馬爾傷情更新與陣容預測",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/16/spain-lamine-yamal-injury-update-world-cup-final/90944576007/"
+    },
+    {
+      "type": "media",
+      "name": "USA Today - 決賽多位記者預測比分",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/15/spain-argentina-world-cup-final-predictions-picks-odds/90932640007/"
+    },
+    {
+      "type": "official",
+      "name": "Evening Standard - 西班牙/阿根廷官方傷兵與確認陣容",
+      "url": "https://www.standard.co.uk/sport/football/spain-xi-vs-argentina-confirmed-team-news-predicted-lineup-injury-latest-world-cup-final-2026-b1290417.html"
+    },
+    {
+      "type": "media",
+      "name": "ESPN - 決賽記者投票預測與賠率",
+      "url": "https://www.espn.com/soccer/story/_/id/49370934/fifa-world-cup-final-argentina-vs-spain-need-know-predictions-odds"
+    },
+    {
+      "type": "media",
+      "name": "NBC Sports - 決賽最佳投注與點球傾向分析",
+      "url": "https://www.nbcsports.com/soccer/world-cup/news/2026-world-cup-final-argentina-vs-spain-prediction-odds-trends-and-best-bet"
+    },
+    {
+      "type": "media",
+      "name": "VegasInsider - 決賽賠率走勢與投注比例",
+      "url": "https://www.vegasinsider.com/soccer/spain-argentina-odds-world-cup-2026/"
+    },
+    {
+      "type": "media",
+      "name": "Covers.com - Kalshi奪冠機率市場數據",
+      "url": "https://www.covers.com/world-cup/odds"
+    },
+    {
+      "type": "media",
+      "name": "William Hill - 世界盃點球大戰歷史紀錄",
+      "url": "https://news.williamhill.com/football/world-cup/penalty-shootout-records/"
+    },
+    {
+      "type": "media",
+      "name": "Sporting News - 阿根廷點球大戰歷史紀錄",
+      "url": "https://www.sportingnews.com/in/football/news/argentina-vs-france-penalties-world-cup-final-shootout-penalty-kicks/pmxvovzzpvdghws9ynsyqdkt"
+    },
+    {
+      "type": "official",
+      "name": "Copa América官方網站 - 馬丁尼斯點球撲救紀錄",
+      "url": "https://copaamerica.com/en/news/emiliano-martinez-goalkeeper-penalty-shoot-out"
+    }
+  ],
+  "source_count": 17,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "西班牙整體戰力均衡，地主優勢加持有望奪冠。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.25,
+        "away": 0.3
+      },
+      "scoreline": "2:1",
+      "note": "西班牙中場優勢明顯，阿根廷陣容老化，看好主隊奪冠。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.33,
+        "draw": 0.34,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "決賽勢均力敵，西班牙控球優勢對抗阿根廷反擊韌性，正規時間難分勝負。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.35,
+        "away": 0.3
+      },
+      "scoreline": "1:1",
+      "note": "兩強相遇防守嚴密，常規時間內極可能戰成平手。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.412,
+      "draw": 0.298,
+      "away": 0.29
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-18T051416Z"
+}

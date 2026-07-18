@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Rolling AI prediction accuracy. Computed after each match by comparing the latest pre-match prediction against the recorded final result.",
-  "last_updated": "2026-07-15T05:09:02Z",
+  "last_updated": "2026-07-18T05:14:21Z",
   "metrics": {
-    "total_evaluated": 90,
+    "total_evaluated": 91,
     "outcome_correct": 59,
-    "outcome_accuracy": 0.6556,
+    "outcome_accuracy": 0.6484,
     "exact_score_correct": 9,
-    "exact_score_accuracy": 0.1
+    "exact_score_accuracy": 0.0989
   },
   "definitions": {
     "outcome_accuracy": "Share of matches where the predicted winner/draw (1X2) matched the actual outcome.",
@@ -30,7 +30,7 @@
       "exact_correct": 1
     },
     "Semi-final": {
-      "evaluated": 1,
+      "evaluated": 2,
       "outcome_correct": 0,
       "exact_correct": 0
     }
@@ -1115,6 +1115,18 @@
       "outcome_correct": false,
       "exact_correct": false,
       "run_id": "2026-07-14T0500Z"
+    },
+    {
+      "match": 102,
+      "home": "England",
+      "away": "Argentina",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:2",
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "run_id": "2026-07-15T0500Z"
     }
   ]
 }

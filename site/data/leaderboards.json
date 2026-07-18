@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T05:08:04Z",
+  "last_updated": "2026-07-18T05:03:58Z",
   "scorers": [
     {
       "id": "ARG-messi",
@@ -369,6 +369,18 @@
       "team": "Egypt",
       "position": "MF",
       "shirt_no": 8,
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-fernandez",
+      "name_zh": "恩素·費南德斯",
+      "name_en": "Enzo Fernández",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": 24,
       "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0
@@ -758,6 +770,18 @@
       "red_cards": 0
     },
     {
+      "id": "ENG-gordon",
+      "name_zh": "安東尼戈登",
+      "name_en": "Anthony Gordon",
+      "team_zh": "待補",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
       "id": "TUR-guler",
       "name_zh": "阿爾達·居勒爾",
       "name_en": "Arda Güler",
@@ -897,18 +921,6 @@
       "team": "Uzbekistan",
       "position": "FW",
       "shirt_no": 14,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "ARG-fernandez",
-      "name_zh": "恩素·費南德斯",
-      "name_en": "Enzo Fernández",
-      "team_zh": "阿根廷",
-      "team": "Argentina",
-      "position": "MF",
-      "shirt_no": 24,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1256,6 +1268,18 @@
       "team_zh": "阿根廷",
       "team": "Argentina",
       "position": "FW",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-martinez-lautaro",
+      "name_zh": "勞塔羅馬丁尼斯",
+      "name_en": "Lautaro Martínez",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -2776,6 +2800,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-romero",
+      "name_zh": "克里斯蒂安羅梅羅",
+      "name_en": "Cristian Romero",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "NED-summerville",
       "name_zh": "克里森西奧·薩默維爾",
       "name_en": "Crysencio Summerville",
@@ -2940,6 +2976,18 @@
       "position": "FW",
       "shirt_no": null,
       "goals": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-anderson",
+      "name_zh": "艾略特安德森",
+      "name_en": "Elliot Anderson",
+      "team_zh": "待補",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3688,6 +3736,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-martinez-lisandro",
+      "name_zh": "利桑德羅馬丁尼斯",
+      "name_en": "Lisandro Martínez",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ARG-martinez",
       "name_zh": "利桑德羅·馬天尼斯",
       "name_en": "Lisandro Martínez",
@@ -4252,6 +4312,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-depaul",
+      "name_zh": "羅德里戈德保羅",
+      "name_en": "Rodrigo De Paul",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "BRA-ibanez",
       "name_zh": "羅傑·伊巴涅斯",
       "name_en": "Roger Ibáñez",
@@ -4565,9 +4637,9 @@
     }
   ],
   "totals": {
-    "players": 517,
-    "goals": 280,
-    "yellow_cards": 215,
+    "players": 523,
+    "goals": 283,
+    "yellow_cards": 219,
     "red_cards": 13
   }
 }

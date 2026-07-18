@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-15T05:08:22Z",
+  "last_updated": "2026-07-18T05:04:05Z",
   "postmortems": [
     {
       "match": 5,
@@ -2414,6 +2414,43 @@
       ],
       "vs_benchmarks": "我方與多數博彩／模型同樣看好法國小勝，屬市場共識性失誤；西班牙 0:2 完封為普遍冷門。",
       "generated_at": "2026-07-15T05:08:22Z"
+    },
+    {
+      "match": 102,
+      "home": "England",
+      "away": "Argentina",
+      "stage": "Semi-final",
+      "final": "1:2",
+      "final_full": "1:2",
+      "actual_outcome": "away",
+      "decided_by": "regular",
+      "shootout_score": null,
+      "advanced": "Argentina",
+      "run_id_evaluated": "2026-07-15T0500Z",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "headline": "梅西送兩助攻，阿根廷讀秒絕殺英格蘭晉級決賽，我方預測主勝落空",
+      "review": "此役正規90分鐘內分出勝負，無需加時或點球，阿根廷客場（中立場地）以2:1逆轉擊敗英格蘭晉級決賽，我方賽前預測英格蘭2:1小勝、晉級率56%的主勝預測完全落空。英格蘭由安東尼戈登於第55分鐘先進球取得領先，主導比賽大部分時間，但阿根廷憑藉梅西兩次助攻，恩佐費南德斯（85分鐘）與勞塔羅馬丁尼斯（90+2分鐘）在讀秒階段連入兩球完成驚天逆轉。我方預測命中了「點球風險高」的懸念氣氛（比賽確實膠著到最後），但完全低估阿根廷在關鍵時刻的心理素質與梅西的決定性作用，且誤判了晉級方向。整體而言，比賽走勢符合阿根廷近幾輪淘汰賽屢屢逆境翻盤的模式，這是我方模型未能充分納入的「奪冠球隊逆境效應」因子。",
+      "lessons": [
+        "衛冕冠軍在淘汰賽落後時展現的心理韌性與經驗優勢，應在模型中賦予更高權重，而非僅依賴賽季數據與陣容評分",
+        "梅西類頂級球星在比賽最後階段的影響力（助攻能力、關鍵傳球）需要獨立建模，不能僅以整體進攻效率衡量",
+        "『點球大戰』的預先風險評估雖方向正確（比賽確實緊張到最後一刻），但未考慮到90分鐘內讀秒絕殺同樣是這類焦點戰的常見結局，應同時提高『補時決勝』情境的權重"
+      ],
+      "vs_benchmarks": "我方的主勝預測與多數賽前博彩盤口及AI共識同樣看好英格蘭形成落差，顯示本役結果對主流模型與共識而言普遍是一次意外冷門。",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+        "https://www.skysports.com/football/england-vs-argentina/549867",
+        "https://www.espn.com/soccer/story/_/id/49370104/england-1-2-argentina-world-cup-2026-result-score-recap-anthony-gordon-lautaro-martinez-enzo-fernandez",
+        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
+        "https://en.wikipedia.org/wiki/Argentina%E2%80%93England_football_rivalry",
+        "https://www.nbcnews.com/sports/soccer/live-blog/england-argentina-world-cup-2026-july-15-live-updates-rcna587325"
+      ],
+      "run_id": "2026-07-15T0500Z",
+      "model": "claude-sonnet-4.6",
+      "outcome_correct": false,
+      "exact_correct": false,
+      "verdict": "miss",
+      "generated_at": "2026-07-18T05:04:05Z"
     }
   ]
 }
