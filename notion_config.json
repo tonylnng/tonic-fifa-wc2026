@@ -24,7 +24,49 @@
     "2026-06-13T0800Z",
     "2026-06-13T1702Z",
     "2026-06-14T0057Z",
-    "2026-06-14T0551Z"
+    "2026-06-14T0551Z",
+    "2026-06-14T0855Z",
+    "2026-06-14T1655Z",
+    "2026-06-15T0855Z",
+    "2026-06-15T0904Z",
+    "2026-06-15T1710Z",
+    "2026-06-16T0055Z",
+    "2026-06-16T0855Z",
+    "2026-06-17T0055Z",
+    "2026-06-17T0107Z",
+    "2026-06-17T0912Z",
+    "2026-06-17T1655Z",
+    "2026-06-18T0055Z",
+    "2026-06-18T0855Z",
+    "2026-06-18T1655Z",
+    "2026-06-19T0055Z",
+    "2026-06-19T0855Z",
+    "2026-06-19T1655Z",
+    "2026-06-20T0055Z",
+    "2026-06-20T1103Z",
+    "2026-06-20T2300Z",
+    "2026-06-21T2300Z",
+    "2026-06-22T1100Z",
+    "2026-06-22T2300Z",
+    "2026-06-24T0500Z",
+    "2026-06-25T0500Z",
+    "2026-06-26T0500Z",
+    "2026-06-27T0500Z",
+    "2026-06-28T0500Z",
+    "2026-07-05T0500Z",
+    "2026-07-06T0500Z",
+    "2026-07-09T0500Z",
+    "2026-07-10T0500Z",
+    "2026-07-11T0500Z",
+    "2026-07-14T0500Z",
+    "2026-07-15T0500Z",
+    "2026-07-18T0500Z"
   ],
-  "note": "Each prediction run creates new pages (one per match). After matches complete, results sync should update 最終比分/勝負命中/比分命中 on the latest pre-match prediction page for that match."
+  "note": "Each prediction run creates new pages (one per match). After matches complete, results sync should update 最終比分/勝負命中/比分命中 on the latest pre-match prediction page for that match.",
+  "properties": {
+    "synced_runs": [
+      "2026-07-15T0500Z",
+      "2026-07-18T0500Z"
+    ]
+  }
 }
