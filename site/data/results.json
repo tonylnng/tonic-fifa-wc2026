@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-07-18T05:00:00Z",
+  "last_updated": "2026-07-19T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1500,6 +1500,21 @@
       "advanced": "Argentina",
       "decided_by": "regular",
       "note": "正規時間分勝負；戈登55分鐘先開紀錄，恩佐85分鐘扳平、勞塔羅90+2讀秒絕殺（兩球皆梅西助攻），阿根廷逆轉晉級決賽"
+    },
+    {
+      "match": 103,
+      "stage": "Third Place",
+      "home": "France",
+      "away": "England",
+      "score": {
+        "home": 4,
+        "away": 6
+      },
+      "scoreline": "4:6",
+      "outcome": "away",
+      "kickoff_utc": "2026-07-18T21:00:00Z",
+      "decided": "regulation",
+      "note": "英格蘭6:4擊敗法國奪季軍；沙卡帽子戲法，麥巴比成世界盃歷史射手王(22球)"
     }
   ]
 }

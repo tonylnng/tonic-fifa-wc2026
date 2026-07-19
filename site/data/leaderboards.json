@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-18T05:03:58Z",
+  "last_updated": "2026-07-19T05:07:30Z",
   "scorers": [
+    {
+      "id": "FRA-mbappe",
+      "name_zh": "麥巴比",
+      "name_en": "Kylian Mbappé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 10,
+      "goals": 10,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
     {
       "id": "ARG-messi",
       "name_zh": "美斯",
@@ -11,18 +23,6 @@
       "shirt_no": 10,
       "goals": 8,
       "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "FRA-mbappe",
-      "name_zh": "麥巴比",
-      "name_en": "Kylian Mbappé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 10,
-      "goals": 8,
-      "yellow_cards": 1,
       "red_cards": 0
     },
     {
@@ -38,6 +38,18 @@
       "red_cards": 0
     },
     {
+      "id": "ENG-bellingham",
+      "name_zh": "貝寧咸",
+      "name_en": "Jude Bellingham",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": 10,
+      "goals": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "ENG-kane",
       "name_zh": "卡尼",
       "name_en": "Harry Kane",
@@ -50,15 +62,15 @@
       "red_cards": 0
     },
     {
-      "id": "ENG-bellingham",
-      "name_zh": "貝寧咸",
-      "name_en": "Jude Bellingham",
-      "team_zh": "英格蘭",
-      "team": "England",
-      "position": "MF",
-      "shirt_no": 10,
+      "id": "FRA-dembele",
+      "name_zh": "甘比利",
+      "name_en": "Ousmane Dembélé",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 6,
-      "yellow_cards": 1,
+      "yellow_cards": 0,
       "red_cards": 0
     },
     {
@@ -69,18 +81,6 @@
       "team": "Spain",
       "position": "FW",
       "shirt_no": null,
-      "goals": 5,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
-      "id": "FRA-dembele",
-      "name_zh": "甘比利",
-      "name_en": "Ousmane Dembélé",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": 7,
       "goals": 5,
       "yellow_cards": 0,
       "red_cards": 0
@@ -141,6 +141,18 @@
       "team": "Netherlands",
       "position": "FW",
       "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-saka",
+      "name_zh": "沙卡",
+      "name_en": "Bukayo Saka",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "FW",
+      "shirt_no": 7,
       "goals": 3,
       "yellow_cards": 0,
       "red_cards": 0
@@ -263,6 +275,18 @@
       "shirt_no": 20,
       "goals": 3,
       "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "FRA-barcola",
+      "name_zh": "布拉德利·巴爾科拉",
+      "name_en": "Bradley Barcola",
+      "team_zh": "法國",
+      "team": "France",
+      "position": "FW",
+      "shirt_no": null,
+      "goals": 3,
+      "yellow_cards": 1,
       "red_cards": 0
     },
     {
@@ -513,18 +537,6 @@
       "team": "Morocco",
       "position": "MF",
       "shirt_no": 8,
-      "goals": 2,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "FRA-barcola",
-      "name_zh": "布拉德利·巴爾科拉",
-      "name_en": "Bradley Barcola",
-      "team_zh": "法國",
-      "team": "France",
-      "position": "FW",
-      "shirt_no": null,
       "goals": 2,
       "yellow_cards": 1,
       "red_cards": 0
@@ -921,6 +933,18 @@
       "team": "Uzbekistan",
       "position": "FW",
       "shirt_no": 14,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-konsa",
+      "name_zh": "艾茲里·康薩",
+      "name_en": "Ezri Konsa",
+      "team_zh": "待補",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
       "red_cards": 0
@@ -1797,6 +1821,18 @@
       "team": "Norway",
       "position": "FW",
       "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ENG-rice",
+      "name_zh": "迪基蘭·萊斯",
+      "name_en": "Declan Rice",
+      "team_zh": "英格蘭",
+      "team": "England",
+      "position": "MF",
+      "shirt_no": 4,
       "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
@@ -2711,7 +2747,7 @@
       "team": "France",
       "position": "FW",
       "shirt_no": null,
-      "goals": 2,
+      "goals": 3,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2879,7 +2915,7 @@
       "team": "England",
       "position": "MF",
       "shirt_no": 4,
-      "goals": 0,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3515,7 +3551,7 @@
       "team": "England",
       "position": "MF",
       "shirt_no": 10,
-      "goals": 6,
+      "goals": 7,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -3659,7 +3695,7 @@
       "team": "France",
       "position": "FW",
       "shirt_no": 10,
-      "goals": 8,
+      "goals": 10,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -4637,8 +4673,8 @@
     }
   ],
   "totals": {
-    "players": 523,
-    "goals": 283,
+    "players": 524,
+    "goals": 293,
     "yellow_cards": 219,
     "red_cards": 13
   }

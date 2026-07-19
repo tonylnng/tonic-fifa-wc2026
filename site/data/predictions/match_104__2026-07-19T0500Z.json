@@ -1,0 +1,347 @@
+{
+  "match": 104,
+  "stage": "Final",
+  "home": "Spain",
+  "away": "Argentina",
+  "kickoff_utc": "2026-07-19T19:00:00Z",
+  "run_id": "2026-07-19T0500Z",
+  "model": "claude-sonnet-4.6",
+  "prediction": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.44,
+      "draw": 0.28,
+      "away": 0.28
+    },
+    "confidence": 0.56,
+    "top_scorelines": [
+      {
+        "scoreline": "2:1",
+        "prob": 0.13
+      },
+      {
+        "scoreline": "1:1",
+        "prob": 0.11
+      },
+      {
+        "scoreline": "1:0",
+        "prob": 0.1
+      },
+      {
+        "scoreline": "2:0",
+        "prob": 0.09
+      },
+      {
+        "scoreline": "0:0",
+        "prob": 0.07
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "西班牙傳控壓制取勝",
+        "scoreline": "2:1",
+        "outcome": "home",
+        "confidence": 0.44,
+        "basis": "西班牙控球與高位反搶效率全賽會最佳，Rodri/Ruiz中場優勢配合Yamal突破可望穩定拿分"
+      },
+      {
+        "name": "阿根廷延續逆境求生劇本",
+        "scoreline": "1:1",
+        "outcome": "draw",
+        "confidence": 0.28,
+        "basis": "阿根廷本屆淘汰賽多場落後仍逆轉晉級，梅西的組織與定位球威脅可撐住比賽走向加時"
+      },
+      {
+        "name": "梅西告別演出帶隊奪冠",
+        "scoreline": "1:2",
+        "outcome": "away",
+        "confidence": 0.28,
+        "basis": "梅西39歲卸下最後一屆世界盃前的情感動能與衛冕慣性，加上馬丁尼斯的點球大戰經驗值"
+      },
+      {
+        "name": "低比分保守決賽走向加時",
+        "scoreline": "0:0",
+        "outcome": "draw",
+        "confidence": 0.18,
+        "basis": "兩隊皆以防守效率聞名（西班牙淘汰賽僅失1球），決賽氛圍容易趨向謹慎、低失誤的僵持局"
+      }
+    ],
+    "benchmarks": [
+      {
+        "source": "Bet365/DraftKings/FanDuel（博彩隱含盤口彙整）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.43,
+          "draw": 0.32,
+          "away": 0.28
+        },
+        "scoreline": "2:1",
+        "note": "90分鐘賠率一致將西班牙列為輕微favourite，且大盤看好低於2.5球的低比分結局"
+      },
+      {
+        "source": "Opta Supercomputer（The Analyst/Al Jazeera 決賽前最終模擬）",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.5946,
+          "draw": 0.0,
+          "away": 0.4054
+        },
+        "note": "Opta奪冠（含加時、點球）機率西班牙59.46% vs 阿根廷40.54%；90分鐘內部模型另給西班牙45.1%、阿根廷29.4%、戰平/加時25.4%"
+      },
+      {
+        "source": "Pinnacle（亞洲盤/美式盤）",
+        "kind": "betting",
+        "win_prob": {
+          "home": 0.43,
+          "draw": 0.27,
+          "away": 0.3
+        },
+        "note": "Pinnacle 90分鐘讓球盤西班牙讓0.25球，反映其市場認定的些微實力差距"
+      },
+      {
+        "source": "ESPN 資深記者集體預測 + FPI式賠率彙整",
+        "kind": "model",
+        "win_prob": {
+          "home": 0.5,
+          "draw": 0.15,
+          "away": 0.35
+        },
+        "scoreline": "2:1",
+        "note": "ESPN多位記者票選多數看好西班牙2:1或2:0取勝，但也有記者力挺阿根廷延續逆境奇蹟"
+      }
+    ],
+    "knockout": {
+      "draw_after_90_prob": 0.28,
+      "extra_time_prob": 0.28,
+      "shootout_prob": 0.15,
+      "advance_prob": {
+        "home": 0.6,
+        "away": 0.4
+      },
+      "penalty_history": {
+        "home": {
+          "shootouts": 5,
+          "won": 1,
+          "win_rate": 0.2,
+          "conversion_rate": null,
+          "recent": "西班牙世界盃點球大戰史上4敗1勝（1986不敵比利時、2002不敵愛爾蘭、2018不敵地主俄羅斯、2022不敵摩洛哥），是世界盃史上點球戰敗場次最多的球隊；各項大賽合計13戰7勝6負(53.8%)，Euro賽事表現較佳（4戰全勝）但世界盃屢屢受挫",
+          "sources": [
+            "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record",
+            "https://www.transfermarkt.com/spanien/elfmeterschiessen/verein/3375"
+          ]
+        },
+        "away": {
+          "shootouts": 7,
+          "won": 6,
+          "win_rate": 0.857,
+          "conversion_rate": null,
+          "recent": "阿根廷是世界盃點球大戰勝場最多球隊（6勝1負，僅2006敗於德國），2022年決賽及8強兩度點球戰皆獲勝；門將馬丁尼斯在點球戰中撲救率極高、心理戰術聞名，梅西本人在生涯13次點球大戰中11次命中(84.6%)",
+          "sources": [
+            "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts",
+            "https://sportstar.thehindu.com/football/fifa-world-cup/argentina-penalty-shootout-record-win-loss-results-arg-vs-sui-fifa-world-cup-2026/article71213032.ece",
+            "https://www.messivsronaldo.app/detailed-stats/penalties/"
+          ]
+        }
+      },
+      "psychology": {
+        "home": "西班牙近年在點球大戰的心理壓力明顯較大，世界盃4次落敗的歷史陰影可能在僵局下成為隱憂，但2024歐洲盃奪冠帶來的整體自信心有助緩解；門將Unai Simon缺乏頂級撲點大賽紀錄",
+        "away": "阿根廷擁有近代最強悍的點球心理素質，馬丁尼斯的撲點威嚇戰術與2022年奪冠經驗形成強大集體信心，梅西即使多次錘鍊仍是可靠主罰者，全隊在讀秒逆轉的高壓環境下已展現出色心理韌性"
+      },
+      "key_takers": [
+        {
+          "team": "home",
+          "name_zh": "米克爾·奧亞爾薩瓦爾",
+          "record": "生涯59次點球主罰命中53球，命中率約89%，本屆世界盃已於半準決賽階段罰進對法國的關鍵點球"
+        },
+        {
+          "team": "home",
+          "name_zh": "拉明·亞馬爾",
+          "record": "西班牙青年隊及成年隊生涯點球全部命中，尚無失手紀錄"
+        },
+        {
+          "team": "away",
+          "name_zh": "利昂內爾·梅西",
+          "record": "生涯（含俱樂部與國家隊）150次點球主罰命中116球，命中率77.3%；點球大戰中11次主罰11中中的比例達84.6%，2022年決賽對法國點球戰命中"
+        },
+        {
+          "team": "away",
+          "name_zh": "埃米利亞諾·馬丁尼斯（門將）",
+          "record": "國家隊點球大戰24次撲救10次撲出，職業生涯合計43次撲救9次；2022年決賽撲出Coman一射並誘使Tchouameni射失"
+        }
+      ],
+      "penalty_risk": "medium",
+      "risk_note": "雙方博彩盤口與Opta模型都顯示90分鐘戰平機率約27-33%，決賽氣氛保守，走向加時甚至點球的可能性不低。若進入點球大戰，歷史數據明顯有利阿根廷（世界盃6勝1負、心理素質與馬丁尼斯撲點能力俱佳），西班牙世界盃4敗1勝的陰影可能構成心理負擔。"
+    }
+  },
+  "reasoning": {
+    "summary": "西班牙憑藉更完整的陣容健康度、當屆最穩固的防守效率（淘汰賽僅失1球）與Rodri領軍的中場控制力，在90分鐘內被博彩市場與Opta模型一致列為輕微favourite；但阿根廷憑藉梅西的最後一舞情感動能、逆境求生的強大意志力與世界盃歷史最佳的點球大戰紀錄，使決賽仍充滿不確定性，多份模型與盤口都顯示這將是近年最勢均力敵的世界盃決賽之一。",
+    "key_factors": [
+      "球員狀態：梅西本屆8球4助攻暫居金靴榜首，Yamal與Oyarzabal則是西班牙攻防核心，雙方核心球星均維持高水準狀態",
+      "傷停名單：西班牙僅Yeremy Pino（肩傷）確定缺席，Yamal與Porro為輕度肌肉問題但預期均可正常出賽；阿根廷幾乎全員可用，無重大傷停",
+      "近期狀態：西班牙近37場不敗（28勝9平），阿根廷則靠讀秒逆轉戲劇性淘汰英格蘭晉級，兩隊近況皆屬頂尖但風格迥異",
+      "戰術對位：西班牙傳控體系與高位逼搶對上阿根廷務實防守反擊及定位球威脅，中場Rodri/Ruiz對決De Paul/Mac Allister/Enzo Fernandez將左右比賽節奏",
+      "場地：MetLife Stadium（新澤西）7月天然草地，濕熱氣候可能影響傳控節奏並增加體能消耗，有利於防守反擊型球隊延續高強度對抗",
+      "輿論共識：博彩公司與Opta模型多數認為西班牙為輕微favourite（90分鐘勝率42-45%，奪冠含加時點球約56-60%），但差距普遍不大，反映決賽競爭激烈"
+    ],
+    "consensus_lean": "home",
+    "dissent": "反向觀點：梅西39歲、極可能是他個人最後一屆世界盃，其強烈的情感劇本效應、阿根廷近5屆大賽淘汰賽逆境不倒的堅韌心理、以及世界盃史上最佳的點球大戰紀錄（6勝1負）與馬丁尼斯的撲點威名，都構成阿根廷在均勢或落後局面下依然能完成衛冕的合理路徑，部分分析師與球評（如ESPN Becherano、Carlisle）也直接看好阿根廷2:1擊敗西班牙。"
+  },
+  "sources": [
+    {
+      "title": "Where to Bet on Argentina vs Spain: World Cup 2026 Final (Bet365賠率)",
+      "url": "https://www.sports-king.com/contests/argentina-vs-spain-world-cup-final-betting/"
+    },
+    {
+      "title": "Spain vs. Argentina World Cup Final Odds and Predictions (多家博彩公司賠率彙整)",
+      "url": "https://rg.org/en-ca/news/soccer/spain-argentina-world-cup-final-odds-predictions-best-bets"
+    },
+    {
+      "title": "Spain vs. Argentina Odds: World Cup Final Lines, Spreads (VegasInsider賠率走勢)",
+      "url": "https://www.vegasinsider.com/soccer/spain-argentina-odds-world-cup-2026/"
+    },
+    {
+      "title": "2026 World Cup final: Best bets for Spain vs. Argentina (ESPN Betting)",
+      "url": "https://www.espn.com/espn/betting/story/_/id/49375075/fifa-world-cup-betting-final-round-best-bets-picks-odds-props-futures-2026-spain-argentina"
+    },
+    {
+      "title": "Opta Supercomputer predicts winner of Argentina vs Spain World Cup final (Geo News)",
+      "url": "https://www.geo.tv/latest/673599-opta-supercomputer-predicts-winner-of-argentina-vs-spain-world-cup-final"
+    },
+    {
+      "title": "FIFA World Cup: Spain vs Argentina – What to know ahead of the final (Al Jazeera，Opta 59.46% vs 40.54%及交手史)",
+      "url": "https://www.aljazeera.com/sports/2026/7/18/spain-argentina-fifa-world-cup-final-prediction-head-to-head-messi-yamal-prediction-venue"
+    },
+    {
+      "title": "World Cup Penalty Shootouts: The Facts (Opta Analyst，阿根廷點球史)",
+      "url": "https://theanalyst.com/articles/world-cup-penalty-shootouts-the-facts"
+    },
+    {
+      "title": "Spain vs Argentina in World Cup 2026 final：陣容、傷停與交手史 (ESPN)",
+      "url": "https://www.espn.com/soccer/story/_/id/49382572/spain-vs-argentina-fifa-world-cup-2026-final-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+      "title": "Spain XI vs Argentina: Confirmed team news and predicted lineup, injury latest (Evening Standard)",
+      "url": "https://www.standard.co.uk/sport/football/spain-xi-vs-argentina-confirmed-team-news-predicted-lineup-injury-latest-world-cup-final-2026-b1290417.html"
+    },
+    {
+      "title": "Spain vs. Argentina injury, suspension list, predicted XIs (Sports Mole)",
+      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/team-news/spain-vs-argentina-injury-suspension-list-predicted-xis_601309.html"
+    },
+    {
+      "title": "Argentina Injury News vs Spain in World Cup Final (Yardbarker)",
+      "url": "https://www.yardbarker.com/soccer/articles/argentina_injury_news_vs_spain_in_world_cup_final/s1_17738_44070819"
+    },
+    {
+      "title": "Spain manager gives Lamine Yamal injury update ahead of World Cup final (USA TODAY)",
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/17/lamine-yamal-injury-update-status-world-cup-final/90962558007/"
+    },
+    {
+      "title": "The Surprising Nation With the Worst World Cup Penalty Shootout Record (Sports Illustrated，西班牙點球史)",
+      "url": "https://www.si.com/soccer/surprising-nation-worst-world-cup-penalty-shootout-record"
+    },
+    {
+      "title": "What is the penalty shootout record of Argentina? (Sportstar/The Hindu)",
+      "url": "https://sportstar.thehindu.com/football/fifa-world-cup/argentina-penalty-shootout-record-win-loss-results-arg-vs-sui-fifa-world-cup-2026/article71213032.ece"
+    },
+    {
+      "title": "Argentina goalkeeper Emiliano Martinez' record against penalties (Yahoo Sports)",
+      "url": "https://sports.yahoo.com/argentina-goalkeeper-emiliano-martinez-record-134837221.html"
+    },
+    {
+      "title": "Should Argentina take Messi off penalties? (BBC，梅西點球生涯紀錄)",
+      "url": "https://www.bbc.com/sport/football/articles/c6214y2dlgno"
+    },
+    {
+      "title": "Why Mikel Oyarzabal, not Lamine Yamal, took Spain's penalty vs France (Sporting News，奧亞爾薩瓦爾點球紀錄)",
+      "url": "https://www.sportingnews.com/uk/football/news/mikel-oyarzabal-not-lamine-yamal-spain-penalty-kick-france/49b654967bc2de63cd089c94"
+    },
+    {
+      "title": "Messi tells Argentina critics: 'Nothing was handed to us' (ESPN，梅西告別世界盃相關報導)",
+      "url": "https://www.espn.com/soccer/story/_/id/49379737/lionel-messi-argentina-critics-fifa-2026-world-cup-final"
+    },
+    {
+      "title": "World Cup Final: Spain vs. Argentina – What you need to know (ESPN記者集體預測)",
+      "url": "https://www.espn.com/soccer/story/_/id/49370934/fifa-world-cup-final-argentina-vs-spain-need-know-predictions-odds"
+    },
+    {
+      "title": "Spain vs Argentina: What's their head-to-head record in World Cup history (Bolavip)",
+      "url": "https://bolavip.com/en/amp/world-cup/spain-vs-argentina-whats-their-head-to-head-record-in-world-cup-history"
+    },
+    {
+      "title": "The World Cup final is set with Messi and Argentina facing Yamal and Spain (Boston.com，西班牙37場不敗紀錄)",
+      "url": "https://www.boston.com/sports/world-cup/2026/07/15/the-world-cup-final-is-set-with-messi-and-argentina-facing-yamal-and-spain-for-the-title-on-sunday/"
+    },
+    {
+      "title": "2026 FIFA World Cup final (Wikipedia，決賽基本資料)",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final"
+    }
+  ],
+  "source_count": 22,
+  "benchmarks": [
+    {
+      "source": "MiniMax M3",
+      "kind": "ai",
+      "model_id": "minimax/minimax-m3",
+      "win_prob": {
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
+      },
+      "scoreline": "2:1",
+      "note": "西班牙主場攻守兼備，阿根廷進攻強但後防略遜。"
+    },
+    {
+      "source": "千問 Qwen3.7 Max",
+      "kind": "ai",
+      "model_id": "alibaba/qwen3.7-max",
+      "win_prob": {
+        "home": 0.45,
+        "draw": 0.3,
+        "away": 0.25
+      },
+      "scoreline": "1:0",
+      "note": "西班牙中場控制力強，預計小勝阿根廷奪冠。"
+    },
+    {
+      "source": "DeepSeek V4 Pro",
+      "kind": "ai",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "win_prob": {
+        "home": 0.33,
+        "draw": 0.34,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "兩強對決，正規時間難分高下，比分預測1-1。"
+    },
+    {
+      "source": "Google Gemini 3.1 Pro",
+      "kind": "ai",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "win_prob": {
+        "home": 0.35,
+        "draw": 0.32,
+        "away": 0.33
+      },
+      "scoreline": "1:1",
+      "note": "西班牙的傳控與阿根廷的堅韌防守將在正規時間內形成僵局。"
+    }
+  ],
+  "consensus": {
+    "scoreline": "2:1",
+    "outcome": "home",
+    "win_prob": {
+      "home": 0.415,
+      "draw": 0.298,
+      "away": 0.287
+    },
+    "models_used": 5,
+    "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
+  },
+  "multimodel_updated_at": "2026-07-19T050653Z"
+}

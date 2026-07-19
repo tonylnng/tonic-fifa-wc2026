@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-18T05:03:58Z",
+  "last_updated": "2026-07-19T05:07:30Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -4541,12 +4541,18 @@
       "is_key": true,
       "bio_zh": "效力阿仙奴的英格蘭右翼，技術出色、突破靈活，在英超及歐冠均表現亮眼。代表國家隊進球逾14球，是英格蘭進攻線不可或缺的核心，本屆有望成為球隊的最大功臣。",
       "stats": {
-        "goals": 0,
+        "goals": 3,
         "yellow_cards": 0,
         "red_cards": 0,
-        "matches_with_events": []
+        "matches_with_events": [
+          103
+        ]
       },
-      "sources": []
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
+      ]
     },
     {
       "id": "ENG-kane",
@@ -4619,20 +4625,19 @@
       "is_key": true,
       "bio_zh": "效力阿仙奴的英格蘭中場，防守功力超強、傳球視野廣闊，是英格蘭中場的防線基石。自加盟阿仙奴後表現更上一層樓，本屆將以組織核心身份帶領球隊進攻。",
       "stats": {
-        "goals": 0,
+        "goals": 1,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           46,
-          92
+          92,
+          103
         ]
       },
       "sources": [
-        "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/mexico-england-fifa-world-cup-round-of-16-monday-6-july-2026-match-centre",
-        "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico",
-        "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/05/mexico-england-world-cup-score-live-azteca-lineups-watch-highlights/90808597007/",
-        "https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
-        "https://www.mirror.co.uk/sport/football/news/england-mexico-jarell-quansah-red-37391234"
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
       ]
     },
     {
@@ -4648,7 +4653,7 @@
       "is_key": true,
       "bio_zh": "效力皇家馬德里的英格蘭最耀眼中場天才，進攻能力強、大賽表現出眾，是球隊最具票房號召力的球員。本屆年僅23歲卻已身經百戰，有望成為英格蘭奪冠的最大功臣。",
       "stats": {
-        "goals": 6,
+        "goals": 7,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
@@ -4656,12 +4661,14 @@
           68,
           80,
           92,
-          99
+          99,
+          103
         ]
       },
       "sources": [
-        "https://www.espn.com",
-        "https://www.bbc.com/sport"
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
       ]
     },
     {
@@ -4720,6 +4727,32 @@
         "https://www.skysports.com/football/england-vs-argentina/549867",
         "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
         "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+      ]
+    },
+    {
+      "id": "ENG-konsa",
+      "name_en": "Ezri Konsa",
+      "name_zh": "艾茲里·康薩",
+      "team": "England",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          103
+        ]
+      },
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
       ]
     },
     {
@@ -4868,17 +4901,20 @@
       "is_key": true,
       "bio_zh": "效力巴黎聖日耳門的速度型翼鋒，突破靈活多變，過人技術令後衛難以應付，是法國進攻的重要利器。",
       "stats": {
-        "goals": 5,
+        "goals": 6,
         "yellow_cards": 0,
         "red_cards": 0,
         "matches_with_events": [
           42,
           62,
-          97
+          97,
+          103
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/"
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
       ]
     },
     {
@@ -4914,7 +4950,7 @@
       "is_key": true,
       "bio_zh": "法國隊長，效力皇家馬德里的世界頂級前鋒，速度奇快，入球能力無與倫比，被譽為當今世界最佳球員。",
       "stats": {
-        "goals": 8,
+        "goals": 10,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
@@ -4923,14 +4959,14 @@
           77,
           89,
           97,
-          101
+          101,
+          103
         ]
       },
       "sources": [
-        "https://en.as.com/soccer/france-vs-spain-live-online-goals-updates-score-and-highlights-2026-world-cup-semifinals-f202607-d/",
-        "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
-        "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
-        "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
       ]
     },
     {
@@ -4946,21 +4982,20 @@
       "is_key": false,
       "bio_zh": "",
       "stats": {
-        "goals": 2,
+        "goals": 3,
         "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
           17,
           77,
-          89
+          89,
+          103
         ]
       },
       "sources": [
-        "https://www.espn.co.uk/football/story/_/id/49269293/paraguay-france-live-world-cup-2026-latest-updates-commentary-score-result",
-        "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay",
-        "https://www.espn.com/soccer/report/_/gameId/760503",
-        "https://www.espn.com/soccer/story/_/id/49271796/kylian-mbappe-penalty-leads-france-paraguay-world-cup",
-        "https://www.espn.com/soccer/story/_/id/49272197/france-kylian-mbappe-paraguay-world-cup-reaction-analysis"
+        "https://www.espn.com/soccer/match/_/gameId/760516/england-france",
+        "https://www.skysports.com/football/france-vs-england/report/549868",
+        "https://footballscoreatlas.com/fifa-world-cup-2026/matches/third-place-france-vs-england/"
       ]
     },
     {
