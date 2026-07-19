@@ -343,5 +343,6 @@
     "models_used": 5,
     "logic": "綜合 5 個模型（本站 Sonnet 4.6 + 4 家第三方）：勝率採主預測加權平均、比分採多數決（平手靠近主預測）。"
   },
-  "multimodel_updated_at": "2026-07-19T050653Z"
+  "multimodel_updated_at": "2026-07-19T050653Z",
+  "run_timestamp": "2026-07-19T05:00:00Z"
 }
