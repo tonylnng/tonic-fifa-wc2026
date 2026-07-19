@@ -60,13 +60,15 @@
     "2026-07-11T0500Z",
     "2026-07-14T0500Z",
     "2026-07-15T0500Z",
-    "2026-07-18T0500Z"
+    "2026-07-18T0500Z",
+    "2026-07-19T0500Z"
   ],
   "note": "Each prediction run creates new pages (one per match). After matches complete, results sync should update 最終比分/勝負命中/比分命中 on the latest pre-match prediction page for that match.",
   "properties": {
     "synced_runs": [
       "2026-07-15T0500Z",
-      "2026-07-18T0500Z"
+      "2026-07-18T0500Z",
+      "2026-07-19T0500Z"
     ]
   }
 }
