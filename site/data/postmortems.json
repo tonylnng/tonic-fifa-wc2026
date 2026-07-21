@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-19T05:07:50Z",
+  "last_updated": "2026-07-21T05:04:55Z",
   "postmortems": [
     {
       "match": 5,
@@ -2475,6 +2475,30 @@
       ],
       "vs_benchmarks": "Opta賽前模擬法國90分鐘勝率50.7%、英格蘭25.6%、和23.7%，方向與AI一致（皆看好法國），但同樣未能預見英格蘭6:4逆轉，反映純數據模型在低動機、高變數場次預測力有限。",
       "generated_at": "2026-07-19T05:07:50Z"
+    },
+    {
+      "match": 104,
+      "home": "Spain",
+      "away": "Argentina",
+      "stage": "Final",
+      "predicted": "2:1",
+      "predicted_outcome": "home",
+      "final": "1:0",
+      "actual_outcome": "home",
+      "verdict": "outcome",
+      "outcome_correct": true,
+      "exact_correct": false,
+      "run_id": "2026-07-21T0500Z",
+      "model": "claude-sonnet-4.6",
+      "headline": "西班牙 1:0 加時擊敗阿根廷 · 第二次奪冠 · AI 勝負方向命中",
+      "review": "AI 賽前主預測西班牙 2:1 主勝（信心 0.56，22 處來源），實際西班牙 1:0 加時擊敗阿根廷奪冠——勝負方向命中，比分未中。90 分鐘雙方悶戰 0:0，符合 AI「西班牙控球與 Rodri 中場控制力壓過阿根廷」的核心敘事；阿根廷主力 Enzo Fernandez 於 90+3 分鐘兩黃變紅離場（先前 82 分鐘領第一張黃牌），令加時賽 10 打 11。Ferran Torres 106 分鐘接應 Nico Williams 傳中破門，成為決賽 MVP 候選。西班牙全場 0 黃 0 紅，紀律出色；阿根廷共領 5 張黃、1 張紅。點球風險最終未觸發，但博彩與 Opta 模型（西班牙奪冠含加時 59%）證實 AI 對正賽方向判斷正確；反向觀點「梅西告別劇本」未能兌現。",
+      "lessons": [
+        "AI 主預測連續兩場淘汰賽（#101 半準、#104 決賽）在西班牙相關比賽方向命中，證實對西班牙陣容深度與 Rodri 控場的評估有價值",
+        "決賽 0:0 進入加時符合 AI 賽前 draw_after_90_prob=0.28、extra_time_prob=0.28 的區間預估，時序機率結構合理",
+        "AI 賽前信心 0.56 對應「決賽小勝」情境，實際 1:0 加時勝屬保守情境命中——未來高階段賽事宜壓低具體比分（如 1:0/2:1 都應提高權重）"
+      ],
+      "vs_benchmarks": "AI 與四家對照模型（MiniMax 2:1、Qwen 1:0、DeepSeek 1:1、Gemini 1:1）中，Qwen 的 1:0 為比分最貼近；博彩市場（Bet365/DraftKings 2:1 主勝）與 Opta 超級電腦（西班牙奪冠含加時 59.46%）方向皆命中，AI 主預測與市場共識一致。",
+      "generated_at": "2026-07-21T05:04:55Z"
     }
   ]
 }

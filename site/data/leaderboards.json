@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T05:07:30Z",
+  "last_updated": "2026-07-21T05:05:14Z",
   "scorers": [
     {
       "id": "FRA-mbappe",
@@ -710,18 +710,6 @@
       "red_cards": 0
     },
     {
-      "id": "ARG-macallister",
-      "name_zh": "麥卡利士達",
-      "name_en": "Alexis Mac Allister",
-      "team_zh": "阿根廷",
-      "team": "Argentina",
-      "position": "MF",
-      "shirt_no": 20,
-      "goals": 1,
-      "yellow_cards": 0,
-      "red_cards": 0
-    },
-    {
       "id": "BEL-saelemaekers",
       "name_zh": "阿萊克西斯·薩埃勒馬克斯",
       "name_en": "Alexis Saelemaekers",
@@ -968,6 +956,18 @@
       "team_zh": "德國",
       "team": "Germany",
       "position": "MF",
+      "shirt_no": null,
+      "goals": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "id": "ESP-torres",
+      "name_zh": "費蘭·托雷斯",
+      "name_en": "Ferran Torres",
+      "team_zh": "待補",
+      "team": "Spain",
+      "position": "FW",
       "shirt_no": null,
       "goals": 1,
       "yellow_cards": 0,
@@ -1814,6 +1814,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-macallister",
+      "name_zh": "麥卡利士達",
+      "name_en": "Alexis Mac Allister",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": 20,
+      "goals": 1,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
       "id": "NOR-nusa",
       "name_zh": "安東尼奧·努薩",
       "name_en": "Antonio Nusa",
@@ -2152,6 +2164,18 @@
       "red_cards": 1
     },
     {
+      "id": "ARG-fernandez-enzo",
+      "name_zh": "恩素·費南迪斯",
+      "name_en": "Enzo Fernández",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 1
+    },
+    {
       "id": "USA-balogun",
       "name_zh": "福拉林·巴洛根",
       "name_en": "Folarin Balogun",
@@ -2356,6 +2380,18 @@
       "red_cards": 0
     },
     {
+      "id": "ARG-romero",
+      "name_zh": "克里斯蒂安羅梅羅",
+      "name_en": "Cristian Romero",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
       "id": "CAN-larin",
       "name_zh": "拉林",
       "name_en": "Cyle Larin",
@@ -2436,6 +2472,30 @@
       "position": "MF",
       "shirt_no": null,
       "goals": 1,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-paredes",
+      "name_zh": "帕雷德斯",
+      "name_en": "Leandro Paredes",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-martinez-lisandro",
+      "name_zh": "利桑德羅馬丁尼斯",
+      "name_en": "Lisandro Martínez",
+      "team_zh": "待補",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": null,
+      "goals": 0,
       "yellow_cards": 2,
       "red_cards": 0
     },
@@ -2592,6 +2652,18 @@
       "position": "DF",
       "shirt_no": 3,
       "goals": 0,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "id": "ARG-macallister",
+      "name_zh": "麥卡利士達",
+      "name_en": "Alexis Mac Allister",
+      "team_zh": "阿根廷",
+      "team": "Argentina",
+      "position": "MF",
+      "shirt_no": 20,
+      "goals": 1,
       "yellow_cards": 1,
       "red_cards": 0
     },
@@ -2831,18 +2903,6 @@
       "team": "South Korea",
       "position": "FW",
       "shirt_no": 9,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "ARG-romero",
-      "name_zh": "克里斯蒂安羅梅羅",
-      "name_en": "Cristian Romero",
-      "team_zh": "待補",
-      "team": "Argentina",
-      "position": "MF",
-      "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
       "red_cards": 0
@@ -3724,18 +3784,6 @@
       "red_cards": 0
     },
     {
-      "id": "ARG-paredes",
-      "name_zh": "帕雷德斯",
-      "name_en": "Leandro Paredes",
-      "team_zh": "阿根廷",
-      "team": "Argentina",
-      "position": "MF",
-      "shirt_no": null,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
       "id": "KOR-lee-gihyuk",
       "name_zh": "李基赫",
       "name_en": "Lee Gi-Hyuk",
@@ -3766,18 +3814,6 @@
       "team_zh": "加拿大",
       "team": "Canada",
       "position": "FW",
-      "shirt_no": null,
-      "goals": 0,
-      "yellow_cards": 1,
-      "red_cards": 0
-    },
-    {
-      "id": "ARG-martinez-lisandro",
-      "name_zh": "利桑德羅馬丁尼斯",
-      "name_en": "Lisandro Martínez",
-      "team_zh": "待補",
-      "team": "Argentina",
-      "position": "MF",
       "shirt_no": null,
       "goals": 0,
       "yellow_cards": 1,
@@ -4673,9 +4709,9 @@
     }
   ],
   "totals": {
-    "players": 524,
-    "goals": 293,
-    "yellow_cards": 219,
-    "red_cards": 13
+    "players": 527,
+    "goals": 294,
+    "yellow_cards": 225,
+    "red_cards": 14
   }
 }

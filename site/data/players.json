@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-19T05:07:30Z",
+  "last_updated": "2026-07-21T05:05:14Z",
   "note": "每隊重點球員（約 6 人）。統計為本屆累計，由定時任務每場賽後以 AI 研究權威來源更新。",
   "players": [
     {
@@ -346,15 +346,15 @@
       "bio_zh": "利物浦中場核心，技術精湛、傳球精準，是阿根廷中場組織不可或缺的一環。自2022年世界盃奪冠後迅速崛起，本屆狀態尤為出色。",
       "stats": {
         "goals": 1,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "matches_with_events": [
-          100
+          100,
+          104
         ]
       },
       "sources": [
-        "https://www.espn.com",
-        "https://www.bbc.com/sport"
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
       ]
     },
     {
@@ -401,19 +401,39 @@
       "bio_zh": "",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          102
+          102,
+          104
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
-        "https://www.espn.com/soccer/report/_/gameId/760515",
-        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
-        "https://www.skysports.com/football/england-vs-argentina/549867",
-        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
-        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
+      ]
+    },
+    {
+      "id": "ARG-fernandez-enzo",
+      "name_en": "Enzo Fernández",
+      "name_zh": "恩素·費南迪斯",
+      "team": "Argentina",
+      "team_zh": "待補",
+      "position": "MF",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 2,
+        "red_cards": 1,
+        "matches_with_events": [
+          104
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
       ]
     },
     {
@@ -510,18 +530,15 @@
       "bio_zh": "",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          41
+          41,
+          104
         ]
       },
       "sources": [
-        "https://www.skysports.com/football/argentina-vs-austria/report/549808",
-        "https://www.espn.com/soccer/report/_/gameId/760456",
-        "https://bolavip.com/en/world-cup/argentina-vs-austria-live-lionel-messi-chases-2026-world-cup-round-of-32-spot",
-        "https://www.bundesliga.com/en/world-cup/matchday/2026-2027/2/argentina-vs-austria/liveticker",
-        "https://terrikon.com/en/football/matches/156644"
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
       ]
     },
     {
@@ -538,19 +555,15 @@
       "bio_zh": "",
       "stats": {
         "goals": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "matches_with_events": [
-          102
+          102,
+          104
         ]
       },
       "sources": [
-        "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
-        "https://www.espn.com/soccer/report/_/gameId/760515",
-        "https://www.fifatrainingcentre.com/media/native/tournaments/fifa-world-cup/2026/PMSR-M102-ENG-V-ARG.pdf",
-        "https://www.skysports.com/football/england-vs-argentina/549867",
-        "https://worldcuplocaltime.com/match/england-argentina-2026-07-15/",
-        "https://www.sofascore.com/de/football/match/argentina-england/nUbsuWb"
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
       ]
     },
     {
@@ -10750,6 +10763,30 @@
       ]
     },
     {
+      "id": "ESP-torres",
+      "name_en": "Ferran Torres",
+      "name_zh": "費蘭·托雷斯",
+      "team": "Spain",
+      "team_zh": "待補",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 1,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          104
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
+      ]
+    },
+    {
       "id": "ESP-oyarzabal",
       "name_en": "Mikel Oyarzabal",
       "name_zh": "米克爾·奧亞薩瓦爾",
@@ -10776,6 +10813,30 @@
         "https://www.nbcsports.com/soccer/live/france-vs-spain-live-updates-score-goals-highlights-stats-2026-fifa-world-cup-july-14",
         "https://www.indiatoday.in/amp/sports/football/story/france-vs-spain-live-score-fifa-world-cup-semi-final-mbappe-lamine-yamal-updates-2947931-2026-07-14",
         "https://www.espn.com/soccer/match/_/gameId/760514/spain-france"
+      ]
+    },
+    {
+      "id": "ESP-williams-n",
+      "name_en": "Nico Williams",
+      "name_zh": "尼高·威廉士",
+      "team": "Spain",
+      "team_zh": "待補",
+      "position": "FW",
+      "shirt_no": null,
+      "age": null,
+      "club": "",
+      "is_key": false,
+      "bio_zh": "",
+      "stats": {
+        "goals": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "matches_with_events": [
+          104
+        ]
+      },
+      "sources": [
+        "https://fdp.fifa.org/assetspublic/ce281/r12552/pdf/FullTimeMatchReport-English.pdf"
       ]
     },
     {

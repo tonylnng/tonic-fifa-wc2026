@@ -1,7 +1,7 @@
 {
   "tournament": "FIFA World Cup 2026",
   "description": "Final results recorded after each match completes, used to compare against AI predictions.",
-  "last_updated": "2026-07-19T05:00:00Z",
+  "last_updated": "2026-07-21T05:00:00Z",
   "results": [
     {
       "match": 1,
@@ -1515,6 +1515,21 @@
       "kickoff_utc": "2026-07-18T21:00:00Z",
       "decided": "regulation",
       "note": "英格蘭6:4擊敗法國奪季軍；沙卡帽子戲法，麥巴比成世界盃歷史射手王(22球)"
+    },
+    {
+      "match": 104,
+      "stage": "Final",
+      "home": "Spain",
+      "away": "Argentina",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "scoreline": "1:0",
+      "outcome": "home",
+      "kickoff_utc": "2026-07-19T19:00:00Z",
+      "decided": "extra_time",
+      "note": "Torres 106' 加時制勝球 (Williams 助攻)；Enzo Fernandez 90+3' 兩黃變紅；西班牙第二次世界盃奪冠"
     }
   ]
 }

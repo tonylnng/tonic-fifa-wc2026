@@ -1,8 +1,8 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-19T05:07:53Z",
-  "total_matches_scored": 92,
-  "max_match_completed": 103,
+  "last_updated": "2026-07-21T05:05:20Z",
+  "total_matches_scored": 93,
+  "max_match_completed": 104,
   "leaderboard": [
     {
       "source": "Football Meister AI",
@@ -36,13 +36,13 @@
     {
       "source": "Google Gemini 3.1 Pro",
       "kind": "ai",
-      "evaluated": 84,
-      "outcome_correct": 58,
-      "outcome_accuracy": 0.6905,
+      "evaluated": 85,
+      "outcome_correct": 59,
+      "outcome_accuracy": 0.6941,
       "exact_correct": 14,
-      "exact_accuracy": 0.1667,
-      "brier_score": 0.2246,
-      "latest_match": 103,
+      "exact_accuracy": 0.1647,
+      "brier_score": 0.227,
+      "latest_match": 104,
       "stale": false,
       "matches": [
         {
@@ -1304,6 +1304,21 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 104,
+          "stage": "Final",
+          "home": "Spain",
+          "away": "Argentina",
+          "home_zh": "西班牙",
+          "away_zh": "阿根廷",
+          "pred_scoreline": "1:1",
+          "pred_outcome": "home",
+          "confidence": 0.35,
+          "final_scoreline": "1:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
@@ -2509,13 +2524,13 @@
     {
       "source": "DeepSeek V4 Pro",
       "kind": "ai",
-      "evaluated": 88,
+      "evaluated": 89,
       "outcome_correct": 60,
-      "outcome_accuracy": 0.6818,
+      "outcome_accuracy": 0.6742,
       "exact_correct": 13,
-      "exact_accuracy": 0.1477,
-      "brier_score": 0.2289,
-      "latest_match": 103,
+      "exact_accuracy": 0.1461,
+      "brier_score": 0.2277,
+      "latest_match": 104,
       "stale": false,
       "matches": [
         {
@@ -3837,19 +3852,34 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 104,
+          "stage": "Final",
+          "home": "Spain",
+          "away": "Argentina",
+          "home_zh": "西班牙",
+          "away_zh": "阿根廷",
+          "pred_scoreline": "1:1",
+          "pred_outcome": "draw",
+          "confidence": 0.34,
+          "final_scoreline": "1:0",
+          "final_outcome": "home",
+          "outcome_hit": false,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "千問 Qwen3.7 Max",
       "kind": "ai",
-      "evaluated": 88,
-      "outcome_correct": 58,
-      "outcome_accuracy": 0.6591,
-      "exact_correct": 13,
-      "exact_accuracy": 0.1477,
-      "brier_score": 0.2282,
-      "latest_match": 103,
+      "evaluated": 89,
+      "outcome_correct": 59,
+      "outcome_accuracy": 0.6629,
+      "exact_correct": 14,
+      "exact_accuracy": 0.1573,
+      "brier_score": 0.229,
+      "latest_match": 104,
       "stale": false,
       "matches": [
         {
@@ -5171,6 +5201,21 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 104,
+          "stage": "Final",
+          "home": "Spain",
+          "away": "Argentina",
+          "home_zh": "西班牙",
+          "away_zh": "阿根廷",
+          "pred_scoreline": "1:0",
+          "pred_outcome": "home",
+          "confidence": 0.45,
+          "final_scoreline": "1:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": true
         }
       ]
     },
@@ -7575,13 +7620,13 @@
     {
       "source": "AI（本站主預測）",
       "kind": "ai",
-      "evaluated": 92,
-      "outcome_correct": 59,
-      "outcome_accuracy": 0.6413,
+      "evaluated": 93,
+      "outcome_correct": 60,
+      "outcome_accuracy": 0.6452,
       "exact_correct": 9,
-      "exact_accuracy": 0.0978,
-      "brier_score": 0.2078,
-      "latest_match": 103,
+      "exact_accuracy": 0.0968,
+      "brier_score": 0.2089,
+      "latest_match": 104,
       "stale": false,
       "matches": [
         {
@@ -8963,19 +9008,34 @@
           "final_outcome": "away",
           "outcome_hit": false,
           "exact_hit": false
+        },
+        {
+          "match": 104,
+          "stage": "Final",
+          "home": "Spain",
+          "away": "Argentina",
+          "home_zh": "西班牙",
+          "away_zh": "阿根廷",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.56,
+          "final_scoreline": "1:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
+          "exact_hit": false
         }
       ]
     },
     {
       "source": "MiniMax M3",
       "kind": "ai",
-      "evaluated": 88,
-      "outcome_correct": 56,
-      "outcome_accuracy": 0.6364,
+      "evaluated": 89,
+      "outcome_correct": 57,
+      "outcome_accuracy": 0.6404,
       "exact_correct": 13,
-      "exact_accuracy": 0.1477,
-      "brier_score": 0.2233,
-      "latest_match": 103,
+      "exact_accuracy": 0.1461,
+      "brier_score": 0.2238,
+      "latest_match": 104,
       "stale": false,
       "matches": [
         {
@@ -10296,6 +10356,21 @@
           "final_scoreline": "4:6",
           "final_outcome": "away",
           "outcome_hit": false,
+          "exact_hit": false
+        },
+        {
+          "match": 104,
+          "stage": "Final",
+          "home": "Spain",
+          "away": "Argentina",
+          "home_zh": "西班牙",
+          "away_zh": "阿根廷",
+          "pred_scoreline": "2:1",
+          "pred_outcome": "home",
+          "confidence": 0.48,
+          "final_scoreline": "1:0",
+          "final_outcome": "home",
+          "outcome_hit": true,
           "exact_hit": false
         }
       ]
